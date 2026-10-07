@@ -1,0 +1,20 @@
+{
+  "id": "gelen-e-fatura-kayit-kontrolu",
+  "tur": "kod",
+  "ad": "Gelen e-Fatura Kayıt Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --efatura \"C:/Gelen/2026-09\" --kayitlar alis_kayitlari.xlsx",
+  "girdiler": [
+    "Gelen e-fatura/e-arşiv: UBL-TR XML/ZIP klasörü veya portal listesi (.xlsx/.csv: Fatura No, Tarih, VKN, Unvan, Vergiler Dahil Tutar)",
+    "Muhasebe alış kayıtları (.xlsx/.csv): Belge/Fatura No ve Tutar (zorunlu); Tarih, Cari VKN, Cari Unvan, Açıklama"
+  ],
+  "ciktilar": ["Excel: Özet, Deftere İşlenmemiş, Tutarı Farklı, Portalda Yok, Mükerrer Kayıtlar, Eşleşenler"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "efatura_cekirdek.py": "code-blocks/e-fatura-okuma-ve-listeleme/main.py",
+    "kimlik_cekirdek.py": "code-blocks/vkn-tckn-iban-dogrulama/main.py",
+    "ornek_veri/gelen_efaturalar": "code-blocks/e-fatura-okuma-ve-listeleme/ornek_veri/faturalar"
+  }
+}
