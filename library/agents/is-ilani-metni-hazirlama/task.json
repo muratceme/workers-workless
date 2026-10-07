@@ -1,0 +1,20 @@
+{
+  "id": "is-ilani-metni-hazirlama",
+  "tur": "agent",
+  "ad": "İş İlanı Metni Hazırlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi pozisyon_talep_formu.docx",
+  "girdiler": [
+    "Pozisyon talep formu (.txt, .md, .docx, .pdf): şirket, pozisyon, görevler, istenen özellikler, sunulanlar",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: yayına hazır ilan + kısa sosyal medya versiyonu, Uygunluk sayfası (talep formundaki riskli ifadeler, ilandan çıkarılan şartlar, gerekçeyle tutulanlar, kalan sorunlar, 'Onay') + Markdown ilan"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py",
+    "ayrimcilik.py": "_ortak/ayrimcilik.py"
+  }
+}
