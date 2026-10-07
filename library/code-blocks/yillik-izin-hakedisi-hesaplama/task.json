@@ -1,0 +1,14 @@
+{
+  "id": "yillik-izin-hakedisi-hesaplama",
+  "tur": "kod",
+  "ad": "Yıllık İzin Hakedişi Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi personel.xlsx --tarih 31.12.2026",
+  "girdiler": [
+    "Personel listesi (.xlsx/.csv): Ad Soyad, İşe Giriş (zorunlu); Doğum Tarihi, Kullanılan İzin, Devreden İzin, Yer Altı (E/H), Brüt (isteğe bağlı)"
+  ],
+  "ciktilar": ["Excel: İzin Durumu (toplam, kullanılan, kalan, sonraki hakediş, kullanılmayan izin ücreti), Hakediş Detayı, Kurallar"],
+  "internet": false
+}
