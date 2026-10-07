@@ -101,8 +101,11 @@ def tarih_coz(deger) -> date:
 
 def _satirlari_oku(yol: Path) -> list[list]:
     if yol.suffix.lower() in {".xlsx", ".xlsm"}:
-        ws = load_workbook(yol, data_only=True, read_only=True).active
-        return [list(r) for r in ws.iter_rows(values_only=True)]
+        wb = load_workbook(yol, data_only=True, read_only=True)
+        try:
+            return [list(r) for r in wb.active.iter_rows(values_only=True)]
+        finally:
+            wb.close()  # salt okunur modda dosya kapatılmazsa Windows'ta kilitli kalır
     metin = None
     for kodlama in ("utf-8-sig", "cp1254"):
         try:

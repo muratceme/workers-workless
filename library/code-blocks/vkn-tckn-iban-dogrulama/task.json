@@ -1,0 +1,15 @@
+{
+  "id": "vkn-tckn-iban-dogrulama",
+  "tur": "kod",
+  "ad": "VKN / TCKN / IBAN Doğrulama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi cari_kartlar.xlsx",
+  "girdiler": [
+    "Liste (.xlsx/.csv): 'Vergi No', 'VKN', 'TCKN', 'TC Kimlik No' veya 'IBAN' başlıklı sütunlar otomatik bulunur",
+    "Başka başlıklar için --sutun \"Başlık Adı\""
+  ],
+  "ciktilar": ["Excel: Doğrulama (satır bazında tür, normal biçim, durum, açıklama), Hatalılar, Özet"],
+  "internet": false
+}

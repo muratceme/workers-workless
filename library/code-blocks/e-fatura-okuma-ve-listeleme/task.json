@@ -1,0 +1,18 @@
+{
+  "id": "e-fatura-okuma-ve-listeleme",
+  "tur": "kod",
+  "ad": "e-Fatura Okuma ve Listeleme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi \"C:/Faturalar/Eylul\"",
+  "girdiler": [
+    "UBL-TR e-Fatura / e-Arşiv XML dosyaları veya bunları içeren ZIP'ler (GİB portalı ve özel entegratör indirmeleri)",
+    "Klasör verilirse alt klasörler dahil taranır"
+  ],
+  "ciktilar": ["Excel: Faturalar (KDV oranı kırılımı, tevkifat, diğer vergiler), Satırlar, KDV Özeti, Kontroller"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "kimlik_cekirdek.py": "code-blocks/vkn-tckn-iban-dogrulama/main.py"
+  }
+}
