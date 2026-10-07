@@ -1,0 +1,15 @@
+{
+  "id": "mali-tablo-rasyo-analizi",
+  "tur": "kod",
+  "ad": "Mali Tablo Rasyo Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --mizan 2025=mizan_2025.xlsx 2026=mizan_2026.xlsx",
+  "girdiler": [
+    "Dönem mizanları (.xlsx/.csv, Tekdüzen Hesap Planı, kapanış öncesi): Hesap Kodu ve Borç/Alacak Bakiye (veya Borç/Alacak ya da Bakiye)",
+    "İsteğe bağlı dönem gün sayıları (ara dönemlerde devir süreleri için)"
+  ],
+  "ciktilar": ["Excel: Rasyolar (likidite, finansal yapı, faaliyet, kârlılık; dönem karşılaştırmalı, iyileşme/kötüleşme), Bilanço, Gelir Tablosu, Dikey Analiz"],
+  "internet": false
+}
