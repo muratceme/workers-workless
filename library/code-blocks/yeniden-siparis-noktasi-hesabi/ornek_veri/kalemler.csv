@@ -1,0 +1,7 @@
+Stok Kodu;Stok Adı;Birim;Ortalama Günlük Talep;Günlük Talep Std;Tedarik Süresi (gün);Tedarik Süresi Std;Hizmet Düzeyi;Eldeki Stok;Açık Sipariş;Ayrılmış;Birim Maliyet;En Az Sipariş;Ambalaj Katı
+HM-001;Polipropilen granül;kg;;;10;2;%98;1500;0;200;62,50;1000;25
+YM-010;Koli 40x30x20;adet;;;5;0;%95;2500;0;0;14,20;1000;50
+HM-002;Pigment masterbatch mavi;kg;;;21;5;%95;400;0;0;310,00;25;25
+YD-021;Hidrolik yağ VG46;lt;;;3;0;%90;200;0;0;118,00;;20
+X-500;Ders kitabı örneği (σL = 0);adet;20;4;9;0;%95;500;0;0;10,00;;
+X-501;Ders kitabı örneği (σL > 0);adet;50;10;6;1;%95;300;0;0;10,00;;

@@ -1,0 +1,15 @@
+{
+  "id": "yeniden-siparis-noktasi-hesabi",
+  "tur": "kod",
+  "ad": "Yeniden Sipariş Noktası Hesabı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi kalemler.xlsx --gecmis tuketim.xlsx --siparis-maliyeti 750",
+  "girdiler": [
+    "Kalem listesi (.xlsx/.csv): Stok Kodu, Tedarik Süresi (gün) zorunlu; Ortalama Günlük Talep, Günlük Talep Std, Tedarik Süresi Std, Hizmet Düzeyi, Eldeki Stok, Açık Sipariş, Ayrılmış, Birim Maliyet, En Az Sipariş, Ambalaj Katı isteğe bağlı",
+    "İsteğe bağlı tüketim geçmişi (Stok Kodu, Tarih/Dönem, Miktar) — günlük talep listede yoksa buradan hesaplanır"
+  ],
+  "ciktilar": ["Excel: emniyet stoğu, yeniden sipariş noktası, ekonomik sipariş miktarı, stok pozisyonu, önerilen sipariş (MOQ ve ambalaj katına yuvarlanmış), acil kalemler"],
+  "internet": false
+}
