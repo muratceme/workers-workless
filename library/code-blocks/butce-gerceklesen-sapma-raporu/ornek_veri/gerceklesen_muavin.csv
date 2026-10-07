@@ -1,0 +1,75 @@
+Tarih;Hesap Kodu;Masraf Merkezi;Açıklama;Borç;Alacak
+20.12.2025;770.01;Genel Yönetim;Önceki yıl kaydı;999.999,00;
+30.01.2026;600.01.001;Satış;Satış faturaları;;1.025.000,00
+30.01.2026;600.01.001;Satış;Satış faturası iptali;25.000,00;
+30.01.2026;760.01;Pazarlama;Ay sonu tahakkuk;150.000,00;
+30.01.2026;760.02;Pazarlama;Ay sonu tahakkuk;50.000,00;
+30.01.2026;770.01;Genel Yönetim;Ay sonu tahakkuk;200.000,00;
+30.01.2026;770.02.001;Genel Yönetim;Merkez ofis kirası;80.000,00;
+30.01.2026;770.03;Genel Yönetim;Ay sonu tahakkuk;20.000,00;
+30.01.2026;780.01;Finansman;Ay sonu tahakkuk;60.000,00;
+28.02.2026;600.01.001;Satış;Satış faturaları;;1.025.000,00
+28.02.2026;600.01.001;Satış;Satış faturası iptali;25.000,00;
+28.02.2026;760.01;Pazarlama;Ay sonu tahakkuk;150.000,00;
+28.02.2026;760.02;Pazarlama;Ay sonu tahakkuk;50.000,00;
+28.02.2026;770.01;Genel Yönetim;Ay sonu tahakkuk;200.000,00;
+28.02.2026;770.02.001;Genel Yönetim;Merkez ofis kirası;80.000,00;
+28.02.2026;770.03;Genel Yönetim;Ay sonu tahakkuk;20.000,00;
+28.02.2026;780.01;Finansman;Ay sonu tahakkuk;60.000,00;
+30.03.2026;600.01.001;Satış;Satış faturaları;;1.025.000,00
+30.03.2026;600.01.001;Satış;Satış faturası iptali;25.000,00;
+30.03.2026;760.01;Pazarlama;Ay sonu tahakkuk;150.000,00;
+30.03.2026;760.02;Pazarlama;Ay sonu tahakkuk;150.000,00;
+30.03.2026;770.01;Genel Yönetim;Ay sonu tahakkuk;200.000,00;
+30.03.2026;770.02.001;Genel Yönetim;Merkez ofis kirası;80.000,00;
+30.03.2026;770.03;Genel Yönetim;Ay sonu tahakkuk;20.000,00;
+30.03.2026;780.01;Finansman;Ay sonu tahakkuk;60.000,00;
+30.04.2026;600.01.001;Satış;Satış faturaları;;1.025.000,00
+30.04.2026;600.01.001;Satış;Satış faturası iptali;25.000,00;
+30.04.2026;760.01;Pazarlama;Ay sonu tahakkuk;150.000,00;
+30.04.2026;760.02;Pazarlama;Ay sonu tahakkuk;50.000,00;
+30.04.2026;770.01;Genel Yönetim;Ay sonu tahakkuk;200.000,00;
+30.04.2026;770.02.001;Genel Yönetim;Merkez ofis kirası;80.000,00;
+30.04.2026;770.03;Genel Yönetim;Ay sonu tahakkuk;20.000,00;
+30.04.2026;780.01;Finansman;Ay sonu tahakkuk;60.000,00;
+30.05.2026;600.01.001;Satış;Satış faturaları;;1.025.000,00
+30.05.2026;600.01.001;Satış;Satış faturası iptali;25.000,00;
+30.05.2026;760.01;Pazarlama;Ay sonu tahakkuk;150.000,00;
+30.05.2026;760.02;Pazarlama;Ay sonu tahakkuk;50.000,00;
+30.05.2026;770.01;Genel Yönetim;Ay sonu tahakkuk;200.000,00;
+30.05.2026;770.02.001;Genel Yönetim;Merkez ofis kirası;80.000,00;
+30.05.2026;770.03;Genel Yönetim;Ay sonu tahakkuk;45.000,00;
+30.05.2026;780.01;Finansman;Ay sonu tahakkuk;60.000,00;
+30.06.2026;600.01.001;Satış;Satış faturaları;;1.025.000,00
+30.06.2026;600.01.001;Satış;Satış faturası iptali;25.000,00;
+30.06.2026;760.01;Pazarlama;Ay sonu tahakkuk;150.000,00;
+30.06.2026;760.02;Pazarlama;Ay sonu tahakkuk;50.000,00;
+30.06.2026;770.01;Genel Yönetim;Ay sonu tahakkuk;200.000,00;
+30.06.2026;770.02.001;Genel Yönetim;Merkez ofis kirası;80.000,00;
+30.06.2026;770.03;Genel Yönetim;Ay sonu tahakkuk;20.000,00;
+30.06.2026;780.01;Finansman;Ay sonu tahakkuk;60.000,00;
+30.07.2026;600.01.001;Satış;Satış faturaları;;1.065.000,00
+30.07.2026;600.01.001;Satış;Satış faturası iptali;25.000,00;
+30.07.2026;760.01;Pazarlama;Ay sonu tahakkuk;150.000,00;
+30.07.2026;760.02;Pazarlama;Ay sonu tahakkuk;50.000,00;
+30.07.2026;770.01;Genel Yönetim;Ay sonu tahakkuk;200.000,00;
+30.07.2026;770.02.001;Genel Yönetim;Merkez ofis kirası;80.000,00;
+30.07.2026;770.03;Genel Yönetim;Ay sonu tahakkuk;20.000,00;
+30.07.2026;780.01;Finansman;Ay sonu tahakkuk;60.000,00;
+30.08.2026;600.01.001;Satış;Satış faturaları;;1.025.000,00
+30.08.2026;600.01.001;Satış;Satış faturası iptali;25.000,00;
+30.08.2026;760.01;Pazarlama;Ay sonu tahakkuk;150.000,00;
+30.08.2026;760.02;Pazarlama;Ay sonu tahakkuk;10.000,00;
+30.08.2026;770.01;Genel Yönetim;Ay sonu tahakkuk;200.000,00;
+30.08.2026;770.02.001;Genel Yönetim;Merkez ofis kirası;80.000,00;
+30.08.2026;770.03;Genel Yönetim;Ay sonu tahakkuk;20.000,00;
+30.08.2026;780.01;Finansman;Ay sonu tahakkuk;60.000,00;
+15.09.2026;770.09.001;Genel Yönetim;Temsil ağırlama;12.000,00;
+30.09.2026;600.01.001;Satış;Satış faturaları;;895.000,00
+30.09.2026;600.01.001;Satış;Satış faturası iptali;25.000,00;
+30.09.2026;760.01;Pazarlama;Ay sonu tahakkuk;150.000,00;
+30.09.2026;760.02;Pazarlama;Ay sonu tahakkuk;95.000,00;
+30.09.2026;770.01;Genel Yönetim;Ay sonu tahakkuk;200.000,00;
+30.09.2026;770.02.001;Genel Yönetim;Merkez ofis kirası;80.000,00;
+30.09.2026;770.03;Genel Yönetim;Ay sonu tahakkuk;65.000,00;
+30.09.2026;780.01;Finansman;Ay sonu tahakkuk;52.000,00;

@@ -1,0 +1,15 @@
+{
+  "id": "butce-gerceklesen-sapma-raporu",
+  "tur": "kod",
+  "ad": "Bütçe-Gerçekleşen Sapma Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --butce butce_2026.xlsx --gerceklesen muavin.xlsx --ay 9",
+  "girdiler": [
+    "Bütçe (.xlsx/.csv): Hesap Kodu, Ocak … Aralık sütunları (veya Ay + Tutar); Hesap Adı, Masraf Merkezi, Tür isteğe bağlı",
+    "Gerçekleşen (.xlsx/.csv): muhasebe muavini / yevmiye dökümü — Hesap Kodu, Tarih (veya Ay), Borç + Alacak (veya Tutar); Masraf Merkezi isteğe bağlı"
+  ],
+  "ciktilar": ["Excel: Özet (gelir/gider, önemli sapmalar), Sapma Raporu (ay, YTD, yıl sonu tahmini, açıklama sütunu), Masraf Merkezi, Aylık Seyir grafikleri"],
+  "internet": false
+}
