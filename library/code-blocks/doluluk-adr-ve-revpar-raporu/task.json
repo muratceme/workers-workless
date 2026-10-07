@@ -1,0 +1,15 @@
+{
+  "id": "doluluk-adr-ve-revpar-raporu",
+  "tur": "kod",
+  "ad": "Doluluk, ADR ve RevPAR Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi rezervasyonlar.xlsx --oda 120 --baslangic 01.09.2026 --bitis 30.09.2026",
+  "girdiler": [
+    "PMS günlük istatistik raporu (Tarih, Satılan Oda, Oda Geliri; Ücretsiz Oda, Kendi Kullanım, Kullanım Dışı, Toplam Oda isteğe bağlı) veya rezervasyon listesi (Giriş Tarihi, Çıkış Tarihi, Gecelik Fiyat veya Toplam Tutar; Oda Adedi, Kanal, Ücret Tipi, Durum isteğe bağlı)",
+    "Toplam oda sayısı (--oda)"
+  ],
+  "ciktilar": ["Excel: Aylık (geçen yıl karşılaştırmalı), Günlük (grafikli), Haftanın Günü, Kanal/Segment kırılımı"],
+  "internet": false
+}

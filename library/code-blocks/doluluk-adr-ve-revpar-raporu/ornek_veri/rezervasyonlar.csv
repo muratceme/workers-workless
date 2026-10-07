@@ -1,0 +1,915 @@
+Rezervasyon No;Giriş Tarihi;Çıkış Tarihi;Oda Adedi;Kanal;Gecelik Fiyat;Ücret Tipi;Durum
+R202500001;25.08.2025;26.08.2025;1;Online seyahat acentesi;2.830,00;;Konakladı
+R202500002;25.08.2025;27.08.2025;1;Tur operatörü;2.080,00;;Konakladı
+R202500003;25.08.2025;01.09.2025;1;Tur operatörü;2.140,00;;Konakladı
+R202500004;25.08.2025;27.08.2025;1;Online seyahat acentesi;2.380,00;;Konakladı
+R202500005;25.08.2025;26.08.2025;1;Tur operatörü;2.100,00;;Konakladı
+R202500006;25.08.2025;27.08.2025;1;Online seyahat acentesi;2.860,00;;Konakladı
+R202500007;25.08.2025;29.08.2025;1;Direkt / web;2.190,00;;Konakladı
+R202500008;25.08.2025;27.08.2025;1;Online seyahat acentesi;2.410,00;;Konakladı
+R202500009;25.08.2025;27.08.2025;1;Online seyahat acentesi;2.710,00;;Konakladı
+R202500010;25.08.2025;28.08.2025;1;Tur operatörü;2.050,00;;Konakladı
+R202500011;26.08.2025;02.09.2025;1;Tur operatörü;2.070,00;;Konakladı
+R202500012;26.08.2025;28.08.2025;1;Tur operatörü;2.050,00;;Konakladı
+R202500013;26.08.2025;02.09.2025;1;Online seyahat acentesi;2.460,00;;Konakladı
+R202500014;26.08.2025;30.08.2025;1;Direkt / web;2.470,00;;Konakladı
+R202500015;26.08.2025;28.08.2025;1;Direkt / web;2.260,00;;Konakladı
+R202500016;26.08.2025;29.08.2025;1;Direkt / web;2.490,00;;Konakladı
+R202500017;26.08.2025;28.08.2025;1;Direkt / web;2.470,00;;Konakladı
+R202500018;26.08.2025;29.08.2025;1;Direkt / web;2.540,00;;Konakladı
+R202500019;26.08.2025;02.09.2025;1;Online seyahat acentesi;2.360,00;;Konakladı
+R202500020;26.08.2025;29.08.2025;1;Tur operatörü;2.200,00;;Konakladı
+R202500021;27.08.2025;31.08.2025;1;Direkt / web;2.400,00;;Konakladı
+R202500022;27.08.2025;30.08.2025;1;Direkt / web;2.170,00;;Konakladı
+R202500023;27.08.2025;03.09.2025;1;Online seyahat acentesi;2.700,00;;Konakladı
+R202500024;27.08.2025;30.08.2025;1;Kurumsal;2.070,00;;Konakladı
+R202500025;27.08.2025;28.08.2025;1;Direkt / web;2.580,00;;Konakladı
+R202500026;27.08.2025;03.09.2025;1;Online seyahat acentesi;0,00;Ücretsiz;İptal
+R202500027;27.08.2025;30.08.2025;1;Direkt / web;2.550,00;;Konakladı
+R202500028;27.08.2025;28.08.2025;1;Direkt / web;2.510,00;;Konakladı
+R202500029;27.08.2025;31.08.2025;1;Online seyahat acentesi;2.340,00;;Konakladı
+R202500030;27.08.2025;03.09.2025;1;Direkt / web;2.500,00;;Konakladı
+R202500031;28.08.2025;31.08.2025;1;Online seyahat acentesi;2.650,00;;Konakladı
+R202500032;28.08.2025;31.08.2025;1;Direkt / web;2.600,00;;Konakladı
+R202500033;28.08.2025;30.08.2025;1;Direkt / web;2.340,00;;Konakladı
+R202500034;28.08.2025;31.08.2025;1;Online seyahat acentesi;2.400,00;;Konakladı
+R202500035;28.08.2025;30.08.2025;1;Direkt / web;2.600,00;;Konakladı
+R202500036;28.08.2025;31.08.2025;1;Online seyahat acentesi;2.500,00;;Konakladı
+R202500037;28.08.2025;31.08.2025;1;Direkt / web;2.540,00;;Konakladı
+R202500038;28.08.2025;31.08.2025;1;Direkt / web;2.370,00;;Konakladı
+R202500039;28.08.2025;31.08.2025;1;Online seyahat acentesi;2.440,00;;Konakladı
+R202500040;28.08.2025;31.08.2025;1;Kurumsal;2.010,00;;Konakladı
+R202500041;29.08.2025;01.09.2025;1;Tur operatörü;2.510,00;;Konakladı
+R202500042;29.08.2025;05.09.2025;1;Tur operatörü;2.520,00;;Konakladı
+R202500043;29.08.2025;31.08.2025;1;Online seyahat acentesi;2.950,00;;Konakladı
+R202500044;29.08.2025;31.08.2025;1;Online seyahat acentesi;2.800,00;;Konakladı
+R202500045;29.08.2025;05.09.2025;1;Online seyahat acentesi;2.970,00;;Konakladı
+R202500046;29.08.2025;30.08.2025;1;Direkt / web;2.760,00;;Konakladı
+R202500047;29.08.2025;31.08.2025;1;Online seyahat acentesi;3.260,00;;Konakladı
+R202500048;29.08.2025;01.09.2025;1;Direkt / web;2.930,00;;Konakladı
+R202500049;29.08.2025;30.08.2025;1;Online seyahat acentesi;2.780,00;;Konakladı
+R202500050;29.08.2025;01.09.2025;1;Online seyahat acentesi;3.060,00;;Konakladı
+R202500051;29.08.2025;02.09.2025;1;Online seyahat acentesi;2.870,00;;Konakladı
+R202500052;29.08.2025;30.08.2025;1;Tur operatörü;2.140,00;;Konakladı
+R202500053;29.08.2025;30.08.2025;1;Tur operatörü;2.440,00;;Konakladı
+R202500054;30.08.2025;02.09.2025;1;Online seyahat acentesi;3.040,00;;Konakladı
+R202500055;30.08.2025;01.09.2025;1;Online seyahat acentesi;2.730,00;;Konakladı
+R202500056;30.08.2025;06.09.2025;1;Online seyahat acentesi;3.270,00;;Konakladı
+R202500057;30.08.2025;01.09.2025;1;Online seyahat acentesi;3.100,00;;Konakladı
+R202500058;30.08.2025;01.09.2025;1;Online seyahat acentesi;2.960,00;;Konakladı
+R202500059;30.08.2025;31.08.2025;1;Kurumsal;2.450,00;;Konakladı
+R202500060;30.08.2025;03.09.2025;1;Tur operatörü;2.420,00;;Konakladı
+R202500061;30.08.2025;01.09.2025;1;Online seyahat acentesi;3.260,00;;Konakladı
+R202500062;30.08.2025;02.09.2025;1;Tur operatörü;2.230,00;;Konakladı
+R202500063;30.08.2025;06.09.2025;1;Tur operatörü;2.160,00;;Konakladı
+R202500064;30.08.2025;31.08.2025;1;Direkt / web;2.660,00;;Konakladı
+R202500065;30.08.2025;31.08.2025;1;Online seyahat acentesi;2.760,00;;İptal
+R202500066;30.08.2025;02.09.2025;1;Direkt / web;2.840,00;;İptal
+R202500067;31.08.2025;02.09.2025;1;Online seyahat acentesi;2.920,00;;Konakladı
+R202500068;31.08.2025;07.09.2025;1;Online seyahat acentesi;3.020,00;;Konakladı
+R202500069;31.08.2025;04.09.2025;1;Direkt / web;2.960,00;;Konakladı
+R202500070;31.08.2025;01.09.2025;1;Online seyahat acentesi;2.980,00;;Konakladı
+R202500071;31.08.2025;04.09.2025;1;Direkt / web;2.940,00;;Konakladı
+R202500072;31.08.2025;07.09.2025;1;Direkt / web;2.620,00;;Konakladı
+R202500073;31.08.2025;02.09.2025;1;Online seyahat acentesi;3.190,00;;Konakladı
+R202500074;31.08.2025;01.09.2025;1;Kurumsal;2.630,00;;Konakladı
+R202500075;31.08.2025;07.09.2025;1;Online seyahat acentesi;3.270,00;;Konakladı
+R202500076;31.08.2025;07.09.2025;1;Online seyahat acentesi;3.210,00;;Konakladı
+R202500077;31.08.2025;03.09.2025;1;Direkt / web;2.740,00;;Konakladı
+R202500078;31.08.2025;02.09.2025;1;Online seyahat acentesi;0,00;Ücretsiz;Konakladı
+R202500079;31.08.2025;02.09.2025;1;Tur operatörü;2.490,00;;Konakladı
+R202500080;01.09.2025;05.09.2025;1;Online seyahat acentesi;2.500,00;;Konakladı
+R202500081;01.09.2025;05.09.2025;1;Tur operatörü;2.230,00;;İptal
+R202500082;01.09.2025;08.09.2025;1;Direkt / web;2.300,00;;İptal
+R202500083;01.09.2025;04.09.2025;1;Kurumsal;2.220,00;;Konakladı
+R202500084;01.09.2025;04.09.2025;1;Online seyahat acentesi;2.410,00;;Konakladı
+R202500085;01.09.2025;03.09.2025;1;Online seyahat acentesi;2.650,00;;Konakladı
+R202500086;01.09.2025;03.09.2025;1;Online seyahat acentesi;2.490,00;;Konakladı
+R202500087;01.09.2025;05.09.2025;1;Direkt / web;2.560,00;;Konakladı
+R202500088;01.09.2025;03.09.2025;1;Tur operatörü;2.190,00;;Konakladı
+R202500089;01.09.2025;03.09.2025;1;Tur operatörü;1.840,00;;Konakladı
+R202500090;02.09.2025;03.09.2025;1;Tur operatörü;2.030,00;;Konakladı
+R202500091;02.09.2025;03.09.2025;1;Tur operatörü;1.850,00;;Konakladı
+R202500092;02.09.2025;05.09.2025;1;Direkt / web;2.210,00;;Konakladı
+R202500093;02.09.2025;09.09.2025;1;Tur operatörü;1.850,00;;Konakladı
+R202500094;02.09.2025;03.09.2025;1;Online seyahat acentesi;2.810,00;;Konakladı
+R202500095;02.09.2025;09.09.2025;1;Online seyahat acentesi;2.760,00;;Konakladı
+R202500096;02.09.2025;03.09.2025;1;Tur operatörü;1.860,00;;Konakladı
+R202500097;02.09.2025;09.09.2025;1;Direkt / web;2.230,00;;Konakladı
+R202500098;02.09.2025;04.09.2025;1;Kurumsal;2.310,00;;Konakladı
+R202500099;02.09.2025;04.09.2025;1;Online seyahat acentesi;2.580,00;;Konakladı
+R202500100;03.09.2025;10.09.2025;1;Tur operatörü;1.990,00;;Konakladı
+R202500101;03.09.2025;05.09.2025;1;Online seyahat acentesi;2.630,00;;Konakladı
+R202500102;03.09.2025;05.09.2025;1;Tur operatörü;1.960,00;;Konakladı
+R202500103;03.09.2025;05.09.2025;1;Direkt / web;2.280,00;;Konakladı
+R202500104;03.09.2025;10.09.2025;1;Online seyahat acentesi;2.490,00;;Konakladı
+R202500105;03.09.2025;04.09.2025;1;Direkt / web;2.310,00;;Konakladı
+R202500106;03.09.2025;10.09.2025;1;Kurumsal;2.390,00;;Konakladı
+R202500107;03.09.2025;07.09.2025;1;Tur operatörü;2.030,00;;Konakladı
+R202500108;03.09.2025;04.09.2025;1;Kurumsal;2.310,00;;İptal
+R202500109;03.09.2025;05.09.2025;1;Online seyahat acentesi;2.640,00;;Konakladı
+R202500110;04.09.2025;11.09.2025;1;Direkt / web;2.580,00;;Konakladı
+R202500111;04.09.2025;06.09.2025;1;Direkt / web;2.470,00;;Konakladı
+R202500112;04.09.2025;11.09.2025;1;Online seyahat acentesi;2.580,00;;Konakladı
+R202500113;04.09.2025;05.09.2025;1;Direkt / web;2.240,00;;Konakladı
+R202500114;04.09.2025;06.09.2025;1;Online seyahat acentesi;2.450,00;;Konakladı
+R202500115;04.09.2025;06.09.2025;1;Tur operatörü;1.860,00;;Konakladı
+R202500116;04.09.2025;07.09.2025;1;Direkt / web;2.200,00;;Konakladı
+R202500117;04.09.2025;06.09.2025;1;Direkt / web;2.400,00;;Konakladı
+R202500118;04.09.2025;07.09.2025;1;Direkt / web;2.320,00;;Konakladı
+R202500119;04.09.2025;06.09.2025;1;Direkt / web;2.310,00;;Konakladı
+R202500120;05.09.2025;07.09.2025;1;Online seyahat acentesi;3.170,00;;Konakladı
+R202500121;05.09.2025;07.09.2025;1;Online seyahat acentesi;3.000,00;;Konakladı
+R202500122;05.09.2025;08.09.2025;1;Online seyahat acentesi;2.940,00;;Konakladı
+R202500123;05.09.2025;09.09.2025;1;Direkt / web;2.770,00;;Konakladı
+R202500124;05.09.2025;08.09.2025;1;Online seyahat acentesi;3.000,00;;Konakladı
+R202500125;05.09.2025;07.09.2025;1;Direkt / web;2.670,00;;Konakladı
+R202500126;05.09.2025;12.09.2025;1;Online seyahat acentesi;2.840,00;;Konakladı
+R202500127;05.09.2025;08.09.2025;1;Tur operatörü;2.390,00;;Konakladı
+R202500128;05.09.2025;06.09.2025;1;Direkt / web;2.590,00;;Konakladı
+R202500129;05.09.2025;08.09.2025;1;Online seyahat acentesi;3.210,00;;Konakladı
+R202500130;05.09.2025;07.09.2025;1;Direkt / web;2.940,00;;Konakladı
+R202500131;05.09.2025;08.09.2025;1;Direkt / web;2.880,00;;Konakladı
+R202500132;05.09.2025;09.09.2025;1;Kurumsal;2.660,00;;Konakladı
+R202500133;06.09.2025;10.09.2025;1;Direkt / web;2.920,00;;Konakladı
+R202500134;06.09.2025;08.09.2025;1;Kurumsal;2.380,00;;Konakladı
+R202500135;06.09.2025;08.09.2025;1;Online seyahat acentesi;2.790,00;;Konakladı
+R202500136;06.09.2025;10.09.2025;1;Online seyahat acentesi;3.070,00;;Konakladı
+R202500137;06.09.2025;07.09.2025;1;Online seyahat acentesi;3.000,00;;Konakladı
+R202500138;06.09.2025;10.09.2025;1;Tur operatörü;2.170,00;;Konakladı
+R202500139;06.09.2025;07.09.2025;1;Direkt / web;2.510,00;;Konakladı
+R202500140;06.09.2025;10.09.2025;1;Tur operatörü;2.220,00;;Konakladı
+R202500141;06.09.2025;08.09.2025;1;Tur operatörü;2.140,00;;Konakladı
+R202500142;06.09.2025;13.09.2025;1;Online seyahat acentesi;2.830,00;;Konakladı
+R202500143;06.09.2025;08.09.2025;1;Direkt / web;2.950,00;;Konakladı
+R202500144;06.09.2025;08.09.2025;1;Tur operatörü;2.550,00;;Konakladı
+R202500145;07.09.2025;10.09.2025;1;Direkt / web;2.960,00;;Konakladı
+R202500146;07.09.2025;14.09.2025;1;Online seyahat acentesi;3.120,00;;Konakladı
+R202500147;07.09.2025;09.09.2025;1;Online seyahat acentesi;2.950,00;;Konakladı
+R202500148;07.09.2025;10.09.2025;1;Online seyahat acentesi;3.270,00;;Konakladı
+R202500149;07.09.2025;14.09.2025;1;Online seyahat acentesi;3.130,00;;Konakladı
+R202500150;07.09.2025;10.09.2025;1;Tur operatörü;2.490,00;;Konakladı
+R202500151;07.09.2025;14.09.2025;1;Online seyahat acentesi;2.820,00;;Konakladı
+R202500152;07.09.2025;11.09.2025;1;Direkt / web;2.990,00;;Konakladı
+R202500153;07.09.2025;09.09.2025;1;Kurumsal;2.330,00;;Konakladı
+R202500154;07.09.2025;14.09.2025;1;Direkt / web;2.770,00;;Konakladı
+R202500155;07.09.2025;08.09.2025;1;Online seyahat acentesi;2.720,00;;Konakladı
+R202500156;07.09.2025;08.09.2025;1;Online seyahat acentesi;3.080,00;;Konakladı
+R202500157;07.09.2025;10.09.2025;1;Direkt / web;2.560,00;;Konakladı
+R202500158;08.09.2025;11.09.2025;1;Online seyahat acentesi;2.620,00;;Konakladı
+R202500159;08.09.2025;12.09.2025;1;Kurumsal;2.320,00;;Konakladı
+R202500160;08.09.2025;15.09.2025;1;Kurumsal;2.310,00;;Konakladı
+R202500161;08.09.2025;10.09.2025;1;Tur operatörü;2.020,00;;Konakladı
+R202500162;08.09.2025;15.09.2025;1;Tur operatörü;2.000,00;;Konakladı
+R202500163;08.09.2025;11.09.2025;1;Online seyahat acentesi;2.400,00;;Konakladı
+R202500164;08.09.2025;11.09.2025;1;Online seyahat acentesi;2.830,00;;Konakladı
+R202500165;08.09.2025;11.09.2025;1;Tur operatörü;1.940,00;;Konakladı
+R202500166;08.09.2025;15.09.2025;1;Online seyahat acentesi;2.720,00;;İptal
+R202500167;08.09.2025;11.09.2025;1;Online seyahat acentesi;2.620,00;;Konakladı
+R202500168;09.09.2025;12.09.2025;1;Online seyahat acentesi;2.430,00;;Konakladı
+R202500169;09.09.2025;10.09.2025;1;Tur operatörü;1.990,00;;Konakladı
+R202500170;09.09.2025;10.09.2025;1;Online seyahat acentesi;2.760,00;;Konakladı
+R202500171;09.09.2025;10.09.2025;1;Online seyahat acentesi;2.830,00;;İptal
+R202500172;09.09.2025;13.09.2025;1;Tur operatörü;2.050,00;;Konakladı
+R202500173;09.09.2025;10.09.2025;1;Online seyahat acentesi;2.800,00;;Konakladı
+R202500174;09.09.2025;12.09.2025;1;Direkt / web;2.170,00;;Konakladı
+R202500175;09.09.2025;11.09.2025;1;Direkt / web;2.620,00;;İptal
+R202500176;09.09.2025;13.09.2025;1;Online seyahat acentesi;2.450,00;;Konakladı
+R202500177;09.09.2025;12.09.2025;1;Kurumsal;2.020,00;;Konakladı
+R202500178;10.09.2025;13.09.2025;1;Direkt / web;2.430,00;;Konakladı
+R202500179;10.09.2025;13.09.2025;1;Online seyahat acentesi;2.620,00;;Konakladı
+R202500180;10.09.2025;11.09.2025;1;Online seyahat acentesi;2.630,00;;Konakladı
+R202500181;10.09.2025;12.09.2025;1;Online seyahat acentesi;2.630,00;;Konakladı
+R202500182;10.09.2025;12.09.2025;1;Kurumsal;0,00;Ücretsiz;Konakladı
+R202500183;10.09.2025;11.09.2025;1;Tur operatörü;1.880,00;;Konakladı
+R202500184;10.09.2025;17.09.2025;1;Online seyahat acentesi;2.770,00;;Konakladı
+R202500185;10.09.2025;17.09.2025;1;Online seyahat acentesi;0,00;Ücretsiz;Konakladı
+R202500186;10.09.2025;13.09.2025;1;Online seyahat acentesi;2.700,00;;Konakladı
+R202500187;10.09.2025;12.09.2025;1;Direkt / web;2.320,00;;Konakladı
+R202500188;11.09.2025;15.09.2025;1;Online seyahat acentesi;2.400,00;;Konakladı
+R202500189;11.09.2025;14.09.2025;1;Direkt / web;2.480,00;;Konakladı
+R202500190;11.09.2025;14.09.2025;1;Online seyahat acentesi;2.350,00;;Konakladı
+R202500191;11.09.2025;14.09.2025;1;Direkt / web;2.270,00;;Konakladı
+R202500192;11.09.2025;14.09.2025;1;Kurumsal;2.400,00;;Konakladı
+R202500193;11.09.2025;12.09.2025;1;Direkt / web;2.300,00;;Konakladı
+R202500194;11.09.2025;14.09.2025;1;Direkt / web;2.610,00;;Konakladı
+R202500195;11.09.2025;14.09.2025;1;Direkt / web;2.200,00;;Konakladı
+R202500196;11.09.2025;12.09.2025;1;Tur operatörü;2.210,00;;Konakladı
+R202500197;11.09.2025;18.09.2025;1;Online seyahat acentesi;2.570,00;;Konakladı
+R202500198;12.09.2025;19.09.2025;1;Online seyahat acentesi;2.790,00;;Konakladı
+R202500199;12.09.2025;14.09.2025;1;Kurumsal;2.440,00;;Konakladı
+R202500200;12.09.2025;14.09.2025;1;Tur operatörü;2.410,00;;Konakladı
+R202500201;12.09.2025;15.09.2025;1;Online seyahat acentesi;2.890,00;;Konakladı
+R202500202;12.09.2025;15.09.2025;1;Online seyahat acentesi;3.020,00;;Konakladı
+R202500203;12.09.2025;14.09.2025;1;Tur operatörü;2.310,00;;Konakladı
+R202500204;12.09.2025;16.09.2025;1;Direkt / web;2.580,00;;Konakladı
+R202500205;12.09.2025;15.09.2025;1;Online seyahat acentesi;3.280,00;;Konakladı
+R202500206;12.09.2025;15.09.2025;1;Online seyahat acentesi;2.710,00;;Konakladı
+R202500207;12.09.2025;14.09.2025;1;Tur operatörü;2.200,00;;Konakladı
+R202500208;12.09.2025;19.09.2025;1;Kurumsal;2.550,00;;Konakladı
+R202500209;12.09.2025;15.09.2025;1;Direkt / web;2.930,00;;Konakladı
+R202500210;12.09.2025;14.09.2025;1;Online seyahat acentesi;3.010,00;;Konakladı
+R202500211;13.09.2025;15.09.2025;1;Tur operatörü;2.470,00;;Konakladı
+R202500212;13.09.2025;20.09.2025;1;Tur operatörü;2.510,00;;Konakladı
+R202500213;13.09.2025;16.09.2025;1;Direkt / web;2.740,00;;Konakladı
+R202500214;13.09.2025;15.09.2025;1;Online seyahat acentesi;3.020,00;;Konakladı
+R202500215;13.09.2025;16.09.2025;1;Online seyahat acentesi;3.050,00;;Konakladı
+R202500216;13.09.2025;17.09.2025;1;Online seyahat acentesi;0,00;Ücretsiz;Konakladı
+R202500217;13.09.2025;14.09.2025;1;Tur operatörü;2.410,00;;Konakladı
+R202500218;13.09.2025;17.09.2025;1;Online seyahat acentesi;3.180,00;;Konakladı
+R202500219;13.09.2025;16.09.2025;1;Online seyahat acentesi;2.800,00;;Konakladı
+R202500220;13.09.2025;16.09.2025;1;Direkt / web;2.950,00;;Konakladı
+R202500221;14.09.2025;16.09.2025;1;Online seyahat acentesi;3.100,00;;Konakladı
+R202500222;14.09.2025;17.09.2025;1;Direkt / web;2.720,00;;Konakladı
+R202500223;14.09.2025;15.09.2025;1;Online seyahat acentesi;2.950,00;;Konakladı
+R202500224;14.09.2025;17.09.2025;1;Online seyahat acentesi;0,00;Ücretsiz;Konakladı
+R202500225;14.09.2025;16.09.2025;1;Direkt / web;2.910,00;;Konakladı
+R202500226;14.09.2025;21.09.2025;1;Online seyahat acentesi;2.830,00;;Konakladı
+R202500227;14.09.2025;18.09.2025;1;Online seyahat acentesi;3.150,00;;Konakladı
+R202500228;14.09.2025;17.09.2025;1;Tur operatörü;2.240,00;;Konakladı
+R202500229;14.09.2025;16.09.2025;1;Direkt / web;2.610,00;;Konakladı
+R202500230;14.09.2025;17.09.2025;1;Online seyahat acentesi;3.130,00;;Konakladı
+R202500231;14.09.2025;21.09.2025;1;Tur operatörü;2.310,00;;Konakladı
+R202500232;14.09.2025;16.09.2025;1;Online seyahat acentesi;3.210,00;;Konakladı
+R202500233;14.09.2025;17.09.2025;1;Direkt / web;2.860,00;;Konakladı
+R202500234;15.09.2025;16.09.2025;1;Direkt / web;2.350,00;;Konakladı
+R202500235;15.09.2025;18.09.2025;1;Direkt / web;2.620,00;;Konakladı
+R202500236;15.09.2025;22.09.2025;1;Direkt / web;2.430,00;;Konakladı
+R202500237;15.09.2025;22.09.2025;1;Online seyahat acentesi;2.720,00;;Konakladı
+R202500238;15.09.2025;16.09.2025;1;Online seyahat acentesi;2.580,00;;Konakladı
+R202500239;15.09.2025;17.09.2025;1;Direkt / web;2.410,00;;Konakladı
+R202500240;15.09.2025;18.09.2025;1;Online seyahat acentesi;2.500,00;;Konakladı
+R202500241;15.09.2025;16.09.2025;1;Online seyahat acentesi;2.370,00;;Konakladı
+R202500242;15.09.2025;17.09.2025;1;Kurumsal;2.410,00;;Konakladı
+R202500243;15.09.2025;18.09.2025;1;Direkt / web;2.460,00;;Konakladı
+R202500244;16.09.2025;23.09.2025;1;Online seyahat acentesi;2.400,00;;Konakladı
+R202500245;16.09.2025;23.09.2025;1;Tur operatörü;2.230,00;;Konakladı
+R202500246;16.09.2025;17.09.2025;1;Online seyahat acentesi;2.840,00;;Konakladı
+R202500247;16.09.2025;23.09.2025;1;Tur operatörü;1.990,00;;Konakladı
+R202500248;16.09.2025;23.09.2025;1;Online seyahat acentesi;2.820,00;;Konakladı
+R202500249;16.09.2025;20.09.2025;1;Kurumsal;2.230,00;;Konakladı
+R202500250;16.09.2025;17.09.2025;1;Direkt / web;2.430,00;;Konakladı
+R202500251;16.09.2025;20.09.2025;1;Online seyahat acentesi;2.340,00;;Konakladı
+R202500252;16.09.2025;18.09.2025;1;Online seyahat acentesi;2.480,00;;Konakladı
+R202500253;16.09.2025;18.09.2025;1;Online seyahat acentesi;2.420,00;;Konakladı
+R202500254;17.09.2025;18.09.2025;1;Online seyahat acentesi;2.540,00;;Konakladı
+R202500255;17.09.2025;24.09.2025;1;Kurumsal;2.150,00;;Konakladı
+R202500256;17.09.2025;19.09.2025;1;Online seyahat acentesi;2.470,00;;Konakladı
+R202500257;17.09.2025;24.09.2025;1;Direkt / web;2.480,00;;Konakladı
+R202500258;17.09.2025;24.09.2025;1;Tur operatörü;1.890,00;;Konakladı
+R202500259;17.09.2025;18.09.2025;1;Online seyahat acentesi;2.650,00;;Konakladı
+R202500260;17.09.2025;24.09.2025;1;Online seyahat acentesi;2.530,00;;Konakladı
+R202500261;17.09.2025;19.09.2025;1;Direkt / web;2.290,00;;Konakladı
+R202500262;17.09.2025;20.09.2025;1;Online seyahat acentesi;2.830,00;;Konakladı
+R202500263;17.09.2025;18.09.2025;1;Kurumsal;2.060,00;;Konakladı
+R202500264;18.09.2025;22.09.2025;1;Online seyahat acentesi;2.500,00;;Konakladı
+R202500265;18.09.2025;21.09.2025;1;Online seyahat acentesi;2.500,00;;Konakladı
+R202500266;18.09.2025;22.09.2025;1;Kurumsal;2.010,00;;Konakladı
+R202500267;18.09.2025;19.09.2025;1;Tur operatörü;0,00;Ücretsiz;Konakladı
+R202500268;18.09.2025;20.09.2025;1;Online seyahat acentesi;2.670,00;;Konakladı
+R202500269;18.09.2025;21.09.2025;1;Tur operatörü;2.100,00;;Konakladı
+R202500270;18.09.2025;19.09.2025;1;Online seyahat acentesi;2.690,00;;Konakladı
+R202500271;18.09.2025;21.09.2025;1;Direkt / web;2.180,00;;Konakladı
+R202500272;18.09.2025;20.09.2025;1;Direkt / web;2.270,00;;Konakladı
+R202500273;18.09.2025;21.09.2025;1;Direkt / web;2.520,00;;Konakladı
+R202500274;19.09.2025;26.09.2025;1;Online seyahat acentesi;2.970,00;;Konakladı
+R202500275;19.09.2025;20.09.2025;1;Direkt / web;2.950,00;;Konakladı
+R202500276;19.09.2025;23.09.2025;1;Tur operatörü;2.550,00;;Konakladı
+R202500277;19.09.2025;21.09.2025;1;Direkt / web;2.630,00;;Konakladı
+R202500278;19.09.2025;20.09.2025;1;Online seyahat acentesi;3.130,00;;Konakladı
+R202500279;19.09.2025;22.09.2025;1;Kurumsal;2.770,00;;Konakladı
+R202500280;19.09.2025;22.09.2025;1;Online seyahat acentesi;2.880,00;;Konakladı
+R202500281;19.09.2025;22.09.2025;1;Direkt / web;2.590,00;;Konakladı
+R202500282;19.09.2025;26.09.2025;1;Online seyahat acentesi;3.020,00;;Konakladı
+R202500283;19.09.2025;22.09.2025;1;Online seyahat acentesi;2.880,00;;Konakladı
+R202500284;19.09.2025;26.09.2025;1;Tur operatörü;2.460,00;;Konakladı
+R202500285;19.09.2025;23.09.2025;1;Online seyahat acentesi;2.740,00;;Konakladı
+R202500286;19.09.2025;21.09.2025;1;Kurumsal;2.600,00;;Konakladı
+R202500287;20.09.2025;22.09.2025;1;Tur operatörü;2.440,00;;Konakladı
+R202500288;20.09.2025;24.09.2025;1;Online seyahat acentesi;3.190,00;;Konakladı
+R202500289;20.09.2025;27.09.2025;1;Online seyahat acentesi;2.920,00;;Konakladı
+R202500290;20.09.2025;22.09.2025;1;Online seyahat acentesi;2.760,00;;Konakladı
+R202500291;20.09.2025;21.09.2025;1;Direkt / web;2.550,00;;Konakladı
+R202500292;20.09.2025;22.09.2025;1;Kurumsal;0,00;Ücretsiz;Konakladı
+R202500293;20.09.2025;22.09.2025;1;Kurumsal;2.570,00;;Konakladı
+R202500294;20.09.2025;23.09.2025;1;Kurumsal;2.670,00;;Konakladı
+R202500295;20.09.2025;23.09.2025;1;Online seyahat acentesi;3.170,00;;Konakladı
+R202500296;20.09.2025;21.09.2025;1;Direkt / web;0,00;Ücretsiz;Konakladı
+R202500297;20.09.2025;23.09.2025;1;Online seyahat acentesi;2.720,00;;İptal
+R202500298;21.09.2025;25.09.2025;1;Online seyahat acentesi;0,00;Ücretsiz;Konakladı
+R202500299;21.09.2025;22.09.2025;1;Online seyahat acentesi;2.720,00;;Konakladı
+R202500300;21.09.2025;24.09.2025;1;Online seyahat acentesi;2.820,00;;Konakladı
+R202500301;21.09.2025;22.09.2025;1;Online seyahat acentesi;3.280,00;;Konakladı
+R202500302;21.09.2025;25.09.2025;1;Tur operatörü;2.520,00;;Konakladı
+R202500303;21.09.2025;22.09.2025;1;Tur operatörü;2.240,00;;Konakladı
+R202500304;21.09.2025;22.09.2025;1;Online seyahat acentesi;2.840,00;;Konakladı
+R202500305;21.09.2025;28.09.2025;1;Online seyahat acentesi;0,00;Ücretsiz;İptal
+R202500306;21.09.2025;23.09.2025;1;Online seyahat acentesi;3.140,00;;Konakladı
+R202500307;21.09.2025;24.09.2025;1;Online seyahat acentesi;3.230,00;;Konakladı
+R202500308;22.09.2025;25.09.2025;1;Online seyahat acentesi;2.610,00;;Konakladı
+R202500309;22.09.2025;25.09.2025;1;Tur operatörü;2.010,00;;İptal
+R202500310;22.09.2025;25.09.2025;1;Direkt / web;2.240,00;;Konakladı
+R202500311;22.09.2025;25.09.2025;1;Tur operatörü;1.850,00;;Konakladı
+R202500312;22.09.2025;25.09.2025;1;Online seyahat acentesi;2.410,00;;Konakladı
+R202500313;22.09.2025;25.09.2025;1;Online seyahat acentesi;2.530,00;;Konakladı
+R202500314;22.09.2025;25.09.2025;1;Tur operatörü;2.070,00;;Konakladı
+R202500315;22.09.2025;25.09.2025;1;Kurumsal;2.280,00;;Konakladı
+R202500316;22.09.2025;24.09.2025;1;Direkt / web;2.300,00;;Konakladı
+R202500317;22.09.2025;24.09.2025;1;Tur operatörü;1.860,00;;Konakladı
+R202500318;23.09.2025;26.09.2025;1;Online seyahat acentesi;2.810,00;;Konakladı
+R202500319;23.09.2025;25.09.2025;1;Direkt / web;2.200,00;;Konakladı
+R202500320;23.09.2025;27.09.2025;1;Kurumsal;2.300,00;;Konakladı
+R202500321;23.09.2025;27.09.2025;1;Kurumsal;2.160,00;;Konakladı
+R202500322;23.09.2025;26.09.2025;1;Online seyahat acentesi;2.680,00;;Konakladı
+R202500323;23.09.2025;24.09.2025;1;Direkt / web;2.580,00;;Konakladı
+R202500324;23.09.2025;25.09.2025;1;Online seyahat acentesi;2.420,00;;Konakladı
+R202500325;23.09.2025;25.09.2025;1;Direkt / web;2.600,00;;Konakladı
+R202500326;23.09.2025;27.09.2025;1;Tur operatörü;2.080,00;;Konakladı
+R202500327;23.09.2025;27.09.2025;1;Online seyahat acentesi;2.850,00;;Konakladı
+R202500328;24.09.2025;25.09.2025;1;Online seyahat acentesi;2.500,00;;Konakladı
+R202500329;24.09.2025;01.10.2025;1;Online seyahat acentesi;2.460,00;;Konakladı
+R202500330;24.09.2025;26.09.2025;1;Online seyahat acentesi;2.530,00;;Konakladı
+R202500331;24.09.2025;26.09.2025;1;Kurumsal;2.200,00;;Konakladı
+R202500332;24.09.2025;27.09.2025;1;Online seyahat acentesi;2.360,00;;Konakladı
+R202500333;24.09.2025;01.10.2025;1;Direkt / web;2.450,00;;Konakladı
+R202500334;24.09.2025;26.09.2025;1;Online seyahat acentesi;2.580,00;;İptal
+R202500335;24.09.2025;27.09.2025;1;Online seyahat acentesi;2.740,00;;Konakladı
+R202500336;24.09.2025;26.09.2025;1;Online seyahat acentesi;2.460,00;;Konakladı
+R202500337;24.09.2025;01.10.2025;1;Online seyahat acentesi;2.510,00;;Konakladı
+R202500338;25.09.2025;29.09.2025;1;Online seyahat acentesi;2.370,00;;Konakladı
+R202500339;25.09.2025;28.09.2025;1;Online seyahat acentesi;2.800,00;;Konakladı
+R202500340;25.09.2025;29.09.2025;1;Kurumsal;2.330,00;;Konakladı
+R202500341;25.09.2025;27.09.2025;1;Tur operatörü;2.170,00;;Konakladı
+R202500342;25.09.2025;26.09.2025;1;Online seyahat acentesi;2.630,00;;İptal
+R202500343;25.09.2025;29.09.2025;1;Online seyahat acentesi;2.620,00;;Konakladı
+R202500344;25.09.2025;27.09.2025;1;Online seyahat acentesi;2.380,00;;Konakladı
+R202500345;25.09.2025;26.09.2025;1;Online seyahat acentesi;2.520,00;;Konakladı
+R202500346;25.09.2025;27.09.2025;1;Online seyahat acentesi;2.850,00;;Konakladı
+R202500347;25.09.2025;27.09.2025;1;Direkt / web;2.270,00;;Konakladı
+R202500348;26.09.2025;28.09.2025;1;Online seyahat acentesi;3.030,00;;Konakladı
+R202500349;26.09.2025;28.09.2025;1;Kurumsal;2.490,00;;Konakladı
+R202500350;26.09.2025;28.09.2025;1;Tur operatörü;2.440,00;;Konakladı
+R202500351;26.09.2025;28.09.2025;1;Kurumsal;2.640,00;;Konakladı
+R202500352;26.09.2025;30.09.2025;1;Online seyahat acentesi;2.980,00;;Konakladı
+R202500353;26.09.2025;29.09.2025;1;Direkt / web;2.500,00;;Konakladı
+R202500354;26.09.2025;28.09.2025;1;Online seyahat acentesi;2.920,00;;Konakladı
+R202500355;26.09.2025;28.09.2025;1;Online seyahat acentesi;3.140,00;;Konakladı
+R202500356;26.09.2025;27.09.2025;1;Direkt / web;2.560,00;;Konakladı
+R202500357;26.09.2025;29.09.2025;1;Online seyahat acentesi;3.130,00;;Konakladı
+R202500358;26.09.2025;28.09.2025;1;Tur operatörü;2.530,00;;Konakladı
+R202500359;26.09.2025;28.09.2025;1;Online seyahat acentesi;2.720,00;;Konakladı
+R202500360;26.09.2025;29.09.2025;1;Online seyahat acentesi;3.260,00;;İptal
+R202500361;27.09.2025;29.09.2025;1;Online seyahat acentesi;3.110,00;;Konakladı
+R202500362;27.09.2025;04.10.2025;1;Tur operatörü;2.380,00;;Konakladı
+R202500363;27.09.2025;30.09.2025;1;Online seyahat acentesi;3.060,00;;Konakladı
+R202500364;27.09.2025;29.09.2025;1;Online seyahat acentesi;3.190,00;;Konakladı
+R202500365;27.09.2025;29.09.2025;1;Direkt / web;2.490,00;;Konakladı
+R202500366;27.09.2025;04.10.2025;1;Kurumsal;2.710,00;;Konakladı
+R202500367;27.09.2025;28.09.2025;1;Direkt / web;2.690,00;;Konakladı
+R202500368;27.09.2025;28.09.2025;1;Online seyahat acentesi;2.870,00;;Konakladı
+R202500369;27.09.2025;29.09.2025;1;Online seyahat acentesi;3.260,00;;Konakladı
+R202500370;27.09.2025;04.10.2025;1;Online seyahat acentesi;3.040,00;;Konakladı
+R202500371;27.09.2025;30.09.2025;1;Online seyahat acentesi;3.130,00;;Konakladı
+R202500372;27.09.2025;28.09.2025;1;Online seyahat acentesi;2.710,00;;Konakladı
+R202500373;27.09.2025;30.09.2025;1;Online seyahat acentesi;2.700,00;;Konakladı
+R202500374;28.09.2025;30.09.2025;1;Online seyahat acentesi;2.700,00;;Konakladı
+R202500375;28.09.2025;02.10.2025;1;Kurumsal;2.500,00;;Konakladı
+R202500376;28.09.2025;01.10.2025;1;Online seyahat acentesi;2.800,00;;Konakladı
+R202500377;28.09.2025;02.10.2025;1;Online seyahat acentesi;3.270,00;;Konakladı
+R202500378;28.09.2025;30.09.2025;1;Online seyahat acentesi;2.970,00;;Konakladı
+R202500379;28.09.2025;05.10.2025;1;Online seyahat acentesi;2.820,00;;Konakladı
+R202500380;28.09.2025;02.10.2025;1;Direkt / web;2.720,00;;Konakladı
+R202500381;28.09.2025;29.09.2025;1;Direkt / web;2.930,00;;Konakladı
+R202500382;28.09.2025;30.09.2025;1;Online seyahat acentesi;3.080,00;;Konakladı
+R202500383;28.09.2025;01.10.2025;1;Online seyahat acentesi;2.900,00;;Konakladı
+R202500384;28.09.2025;01.10.2025;1;Direkt / web;2.910,00;;Konakladı
+R202500385;28.09.2025;02.10.2025;1;Online seyahat acentesi;2.930,00;;Konakladı
+R202500386;28.09.2025;30.09.2025;1;Direkt / web;2.530,00;;Konakladı
+R202500387;29.09.2025;30.09.2025;1;Online seyahat acentesi;2.630,00;;Konakladı
+R202500388;29.09.2025;01.10.2025;1;Direkt / web;2.580,00;;Konakladı
+R202500389;29.09.2025;06.10.2025;1;Direkt / web;2.220,00;;Konakladı
+R202500390;29.09.2025;01.10.2025;1;Online seyahat acentesi;2.840,00;;Konakladı
+R202500391;29.09.2025;02.10.2025;1;Online seyahat acentesi;2.700,00;;Konakladı
+R202500392;29.09.2025;02.10.2025;1;Tur operatörü;1.840,00;;Konakladı
+R202500393;29.09.2025;01.10.2025;1;Online seyahat acentesi;2.790,00;;Konakladı
+R202500394;29.09.2025;06.10.2025;1;Online seyahat acentesi;2.360,00;;Konakladı
+R202500395;29.09.2025;01.10.2025;1;Tur operatörü;2.040,00;;Konakladı
+R202500396;29.09.2025;30.09.2025;1;Online seyahat acentesi;2.670,00;;Konakladı
+R202500397;30.09.2025;02.10.2025;1;Direkt / web;2.620,00;;Konakladı
+R202500398;30.09.2025;01.10.2025;1;Tur operatörü;1.980,00;;İptal
+R202500399;30.09.2025;01.10.2025;1;Direkt / web;2.550,00;;Konakladı
+R202500400;30.09.2025;01.10.2025;1;Direkt / web;2.550,00;;Konakladı
+R202500401;30.09.2025;03.10.2025;1;Online seyahat acentesi;2.850,00;;Konakladı
+R202500402;30.09.2025;04.10.2025;1;Kurumsal;2.360,00;;Konakladı
+R202500403;30.09.2025;02.10.2025;1;Online seyahat acentesi;2.370,00;;Konakladı
+R202500404;30.09.2025;03.10.2025;1;Online seyahat acentesi;2.690,00;;Konakladı
+R202500405;30.09.2025;07.10.2025;1;Online seyahat acentesi;2.690,00;;Konakladı
+R202500406;30.09.2025;04.10.2025;1;Online seyahat acentesi;2.670,00;;Konakladı
+R202500407;01.10.2025;05.10.2025;1;Tur operatörü;2.050,00;;Konakladı
+R202500408;01.10.2025;05.10.2025;1;Online seyahat acentesi;2.640,00;;Konakladı
+R202500409;01.10.2025;08.10.2025;1;Online seyahat acentesi;2.450,00;;Konakladı
+R202500410;01.10.2025;04.10.2025;1;Direkt / web;2.520,00;;Konakladı
+R202500411;01.10.2025;02.10.2025;1;Online seyahat acentesi;2.510,00;;Konakladı
+R202500412;01.10.2025;04.10.2025;1;Online seyahat acentesi;2.810,00;;Konakladı
+R202500413;01.10.2025;03.10.2025;1;Kurumsal;2.210,00;;Konakladı
+R202500414;01.10.2025;04.10.2025;1;Tur operatörü;2.200,00;;Konakladı
+R202500415;01.10.2025;08.10.2025;1;Online seyahat acentesi;2.620,00;;Konakladı
+R202500416;01.10.2025;02.10.2025;1;Kurumsal;2.340,00;;Konakladı
+R202500417;02.10.2025;03.10.2025;1;Direkt / web;2.340,00;;Konakladı
+R202500418;02.10.2025;04.10.2025;1;Online seyahat acentesi;2.640,00;;Konakladı
+R202500419;02.10.2025;05.10.2025;1;Direkt / web;2.410,00;;Konakladı
+R202500420;02.10.2025;04.10.2025;1;Online seyahat acentesi;2.580,00;;Konakladı
+R202500421;02.10.2025;04.10.2025;1;Online seyahat acentesi;2.350,00;;Konakladı
+R202500422;02.10.2025;05.10.2025;1;Online seyahat acentesi;2.800,00;;Konakladı
+R202500423;02.10.2025;06.10.2025;1;Direkt / web;2.410,00;;Konakladı
+R202500424;02.10.2025;06.10.2025;1;Online seyahat acentesi;2.610,00;;Konakladı
+R202500425;02.10.2025;04.10.2025;1;Direkt / web;2.460,00;;İptal
+R202500426;02.10.2025;05.10.2025;1;Direkt / web;2.300,00;;Konakladı
+R202500427;03.10.2025;05.10.2025;1;Online seyahat acentesi;3.040,00;;Konakladı
+R202500428;03.10.2025;05.10.2025;1;Tur operatörü;2.560,00;;Konakladı
+R202500429;03.10.2025;06.10.2025;1;Kurumsal;2.470,00;;Konakladı
+R202500430;03.10.2025;06.10.2025;1;Online seyahat acentesi;3.100,00;;Konakladı
+R202500431;03.10.2025;04.10.2025;1;Online seyahat acentesi;2.780,00;;Konakladı
+R202500432;03.10.2025;05.10.2025;1;Direkt / web;2.620,00;;Konakladı
+R202500433;03.10.2025;05.10.2025;1;Tur operatörü;2.110,00;;Konakladı
+R202500434;03.10.2025;07.10.2025;1;Direkt / web;2.810,00;;Konakladı
+R202500435;03.10.2025;10.10.2025;1;Direkt / web;2.760,00;;Konakladı
+R202500436;03.10.2025;06.10.2025;1;Direkt / web;2.700,00;;Konakladı
+R202500437;03.10.2025;06.10.2025;1;Direkt / web;2.970,00;;Konakladı
+R202500438;03.10.2025;06.10.2025;1;Online seyahat acentesi;3.140,00;;Konakladı
+R202500439;03.10.2025;07.10.2025;1;Direkt / web;2.980,00;;Konakladı
+R202500440;04.10.2025;08.10.2025;1;Kurumsal;2.660,00;;Konakladı
+R202500441;04.10.2025;07.10.2025;1;Direkt / web;2.750,00;;Konakladı
+R202500442;04.10.2025;06.10.2025;1;Online seyahat acentesi;2.870,00;;Konakladı
+R202500443;04.10.2025;07.10.2025;1;Online seyahat acentesi;3.230,00;;Konakladı
+R202500444;04.10.2025;05.10.2025;1;Tur operatörü;2.160,00;;Konakladı
+R202500445;04.10.2025;06.10.2025;1;Tur operatörü;2.390,00;;Konakladı
+R202500446;04.10.2025;06.10.2025;1;Online seyahat acentesi;3.010,00;;Konakladı
+R202500447;04.10.2025;07.10.2025;1;Kurumsal;2.690,00;;Konakladı
+R202500448;04.10.2025;07.10.2025;1;Online seyahat acentesi;2.760,00;;Konakladı
+R202500449;04.10.2025;07.10.2025;1;Online seyahat acentesi;3.060,00;;Konakladı
+R202500450;04.10.2025;06.10.2025;1;Online seyahat acentesi;2.740,00;;Konakladı
+R202500451;04.10.2025;06.10.2025;1;Tur operatörü;2.560,00;;Konakladı
+R202500452;04.10.2025;05.10.2025;1;Online seyahat acentesi;3.030,00;;Konakladı
+R202600453;25.08.2026;27.08.2026;1;Online seyahat acentesi;3.140,00;;Konakladı
+R202600454;25.08.2026;27.08.2026;1;Direkt / web;2.790,00;;Konakladı
+R202600455;25.08.2026;26.08.2026;1;Online seyahat acentesi;3.310,00;;Konakladı
+R202600456;25.08.2026;01.09.2026;1;Tur operatörü;2.650,00;;Konakladı
+R202600457;25.08.2026;27.08.2026;1;Tur operatörü;2.340,00;;Konakladı
+R202600458;25.08.2026;27.08.2026;1;Online seyahat acentesi;2.860,00;;Konakladı
+R202600459;25.08.2026;28.08.2026;1;Online seyahat acentesi;3.440,00;;Konakladı
+R202600460;25.08.2026;26.08.2026;1;Kurumsal;2.850,00;;Konakladı
+R202600461;25.08.2026;01.09.2026;1;Direkt / web;3.050,00;;Konakladı
+R202600462;25.08.2026;27.08.2026;1;Direkt / web;3.170,00;;Konakladı
+R202600463;26.08.2026;02.09.2026;1;Kurumsal;2.450,00;;Konakladı
+R202600464;26.08.2026;29.08.2026;1;Online seyahat acentesi;3.370,00;;Konakladı
+R202600465;26.08.2026;28.08.2026;1;Direkt / web;2.690,00;;Konakladı
+R202600466;26.08.2026;30.08.2026;1;Online seyahat acentesi;3.070,00;;Konakladı
+R202600467;26.08.2026;30.08.2026;1;Tur operatörü;2.560,00;;Konakladı
+R202600468;26.08.2026;29.08.2026;1;Kurumsal;2.590,00;;Konakladı
+R202600469;26.08.2026;30.08.2026;1;Direkt / web;2.640,00;;Konakladı
+R202600470;26.08.2026;30.08.2026;1;Online seyahat acentesi;3.170,00;;Konakladı
+R202600471;26.08.2026;29.08.2026;1;Online seyahat acentesi;2.850,00;;Konakladı
+R202600472;26.08.2026;30.08.2026;1;Direkt / web;2.640,00;;Konakladı
+R202600473;27.08.2026;30.08.2026;1;Online seyahat acentesi;3.350,00;;Konakladı
+R202600474;27.08.2026;29.08.2026;1;Online seyahat acentesi;2.950,00;;Konakladı
+R202600475;27.08.2026;30.08.2026;1;Direkt / web;3.150,00;;İptal
+R202600476;27.08.2026;29.08.2026;1;Online seyahat acentesi;3.050,00;;Konakladı
+R202600477;27.08.2026;30.08.2026;1;Direkt / web;2.740,00;;Konakladı
+R202600478;27.08.2026;28.08.2026;1;Tur operatörü;2.380,00;;Konakladı
+R202600479;27.08.2026;28.08.2026;1;Direkt / web;2.670,00;;Konakladı
+R202600480;27.08.2026;30.08.2026;1;Online seyahat acentesi;2.980,00;;Konakladı
+R202600481;27.08.2026;29.08.2026;1;Tur operatörü;2.350,00;;Konakladı
+R202600482;27.08.2026;28.08.2026;1;Direkt / web;3.130,00;;Konakladı
+R202600483;28.08.2026;01.09.2026;1;Tur operatörü;2.890,00;;Konakladı
+R202600484;28.08.2026;30.08.2026;1;Direkt / web;3.630,00;;Konakladı
+R202600485;28.08.2026;04.09.2026;1;Tur operatörü;2.940,00;;Konakladı
+R202600486;28.08.2026;31.08.2026;1;Online seyahat acentesi;3.270,00;;Konakladı
+R202600487;28.08.2026;04.09.2026;1;Kurumsal;3.090,00;;Konakladı
+R202600488;28.08.2026;31.08.2026;1;Online seyahat acentesi;3.790,00;;Konakladı
+R202600489;28.08.2026;01.09.2026;1;Direkt / web;3.520,00;;Konakladı
+R202600490;28.08.2026;29.08.2026;1;Online seyahat acentesi;3.430,00;;Konakladı
+R202600491;28.08.2026;01.09.2026;1;Online seyahat acentesi;3.510,00;;Konakladı
+R202600492;28.08.2026;29.08.2026;1;Tur operatörü;0,00;Ücretsiz;İptal
+R202600493;28.08.2026;29.08.2026;1;Direkt / web;3.640,00;;Konakladı
+R202600494;28.08.2026;31.08.2026;1;Online seyahat acentesi;3.460,00;;Konakladı
+R202600495;28.08.2026;30.08.2026;1;Online seyahat acentesi;3.660,00;;İptal
+R202600496;29.08.2026;30.08.2026;1;Online seyahat acentesi;3.760,00;;Konakladı
+R202600497;29.08.2026;31.08.2026;1;Direkt / web;3.090,00;;Konakladı
+R202600498;29.08.2026;31.08.2026;1;Online seyahat acentesi;3.320,00;;Konakladı
+R202600499;29.08.2026;01.09.2026;1;Online seyahat acentesi;3.840,00;;Konakladı
+R202600500;29.08.2026;01.09.2026;1;Online seyahat acentesi;3.670,00;;Konakladı
+R202600501;29.08.2026;01.09.2026;1;Tur operatörü;2.850,00;;Konakladı
+R202600502;29.08.2026;31.08.2026;1;Tur operatörü;2.880,00;;Konakladı
+R202600503;29.08.2026;01.09.2026;1;Direkt / web;3.400,00;;Konakladı
+R202600504;29.08.2026;31.08.2026;1;Direkt / web;3.630,00;;Konakladı
+R202600505;29.08.2026;01.09.2026;1;Direkt / web;3.590,00;;Konakladı
+R202600506;29.08.2026;31.08.2026;1;Kurumsal;3.140,00;;Konakladı
+R202600507;29.08.2026;01.09.2026;1;Direkt / web;3.440,00;;Konakladı
+R202600508;29.08.2026;01.09.2026;1;Tur operatörü;2.940,00;;Konakladı
+R202600509;30.08.2026;01.09.2026;1;Online seyahat acentesi;3.490,00;;Konakladı
+R202600510;30.08.2026;03.09.2026;1;Online seyahat acentesi;3.390,00;;Konakladı
+R202600511;30.08.2026;02.09.2026;1;Online seyahat acentesi;3.800,00;;Konakladı
+R202600512;30.08.2026;01.09.2026;1;Direkt / web;3.440,00;;Konakladı
+R202600513;30.08.2026;01.09.2026;1;Tur operatörü;2.970,00;;Konakladı
+R202600514;30.08.2026;03.09.2026;1;Tur operatörü;2.550,00;;Konakladı
+R202600515;30.08.2026;02.09.2026;1;Online seyahat acentesi;3.930,00;;Konakladı
+R202600516;30.08.2026;06.09.2026;1;Online seyahat acentesi;3.330,00;;Konakladı
+R202600517;30.08.2026;01.09.2026;1;Online seyahat acentesi;3.740,00;;Konakladı
+R202600518;30.08.2026;31.08.2026;1;Online seyahat acentesi;3.390,00;;Konakladı
+R202600519;30.08.2026;31.08.2026;1;Direkt / web;3.470,00;;Konakladı
+R202600520;30.08.2026;03.09.2026;1;Online seyahat acentesi;3.850,00;;Konakladı
+R202600521;30.08.2026;02.09.2026;1;Tur operatörü;2.740,00;;Konakladı
+R202600522;31.08.2026;03.09.2026;1;Direkt / web;2.820,00;;Konakladı
+R202600523;31.08.2026;04.09.2026;1;Online seyahat acentesi;2.910,00;;Konakladı
+R202600524;31.08.2026;04.09.2026;1;Online seyahat acentesi;2.860,00;;Konakladı
+R202600525;31.08.2026;04.09.2026;1;Tur operatörü;2.400,00;;Konakladı
+R202600526;31.08.2026;03.09.2026;1;Online seyahat acentesi;3.120,00;;Konakladı
+R202600527;31.08.2026;03.09.2026;1;Direkt / web;3.160,00;;Konakladı
+R202600528;31.08.2026;02.09.2026;1;Online seyahat acentesi;3.010,00;;Konakladı
+R202600529;31.08.2026;03.09.2026;1;Direkt / web;3.180,00;;İptal
+R202600530;31.08.2026;02.09.2026;1;Tur operatörü;2.670,00;;Konakladı
+R202600531;31.08.2026;07.09.2026;1;Direkt / web;2.960,00;;Konakladı
+R202600532;01.09.2026;03.09.2026;1;Tur operatörü;2.520,00;;İptal
+R202600533;01.09.2026;08.09.2026;1;Direkt / web;2.980,00;;Konakladı
+R202600534;01.09.2026;04.09.2026;1;Tur operatörü;2.290,00;;Konakladı
+R202600535;01.09.2026;03.09.2026;1;Kurumsal;2.570,00;;Konakladı
+R202600536;01.09.2026;08.09.2026;1;Online seyahat acentesi;2.840,00;;Konakladı
+R202600537;01.09.2026;04.09.2026;1;Online seyahat acentesi;3.140,00;;Konakladı
+R202600538;01.09.2026;04.09.2026;1;Online seyahat acentesi;3.050,00;;Konakladı
+R202600539;01.09.2026;03.09.2026;1;Direkt / web;2.910,00;;Konakladı
+R202600540;01.09.2026;08.09.2026;1;Online seyahat acentesi;2.980,00;;Konakladı
+R202600541;01.09.2026;08.09.2026;1;Direkt / web;2.940,00;;Konakladı
+R202600542;02.09.2026;05.09.2026;1;Online seyahat acentesi;3.250,00;;Konakladı
+R202600543;02.09.2026;04.09.2026;1;Direkt / web;2.670,00;;Konakladı
+R202600544;02.09.2026;05.09.2026;1;Direkt / web;2.900,00;;Konakladı
+R202600545;02.09.2026;04.09.2026;1;Direkt / web;3.100,00;;Konakladı
+R202600546;02.09.2026;09.09.2026;1;Tur operatörü;2.640,00;;Konakladı
+R202600547;02.09.2026;04.09.2026;1;Kurumsal;2.590,00;;İptal
+R202600548;02.09.2026;04.09.2026;1;Tur operatörü;2.250,00;;Konakladı
+R202600549;02.09.2026;09.09.2026;1;Online seyahat acentesi;2.960,00;;Konakladı
+R202600550;02.09.2026;05.09.2026;1;Online seyahat acentesi;2.890,00;;Konakladı
+R202600551;02.09.2026;05.09.2026;1;Tur operatörü;2.400,00;;Konakladı
+R202600552;03.09.2026;07.09.2026;1;Kurumsal;0,00;Ücretsiz;Konakladı
+R202600553;03.09.2026;06.09.2026;1;Online seyahat acentesi;2.980,00;;Konakladı
+R202600554;03.09.2026;06.09.2026;1;Direkt / web;2.820,00;;İptal
+R202600555;03.09.2026;05.09.2026;1;Tur operatörü;2.510,00;;Konakladı
+R202600556;03.09.2026;07.09.2026;1;Direkt / web;3.140,00;;Konakladı
+R202600557;03.09.2026;06.09.2026;1;Direkt / web;2.630,00;;Konakladı
+R202600558;03.09.2026;04.09.2026;1;Online seyahat acentesi;2.960,00;;İptal
+R202600559;03.09.2026;05.09.2026;1;Online seyahat acentesi;3.070,00;;Konakladı
+R202600560;03.09.2026;10.09.2026;1;Kurumsal;2.450,00;;Konakladı
+R202600561;03.09.2026;06.09.2026;1;Online seyahat acentesi;3.360,00;;Konakladı
+R202600562;04.09.2026;08.09.2026;1;Kurumsal;2.880,00;;Konakladı
+R202600563;04.09.2026;11.09.2026;1;Online seyahat acentesi;3.940,00;;Konakladı
+R202600564;04.09.2026;07.09.2026;1;Online seyahat acentesi;3.820,00;;Konakladı
+R202600565;04.09.2026;07.09.2026;1;Online seyahat acentesi;3.880,00;;İptal
+R202600566;04.09.2026;06.09.2026;1;Online seyahat acentesi;3.950,00;;İptal
+R202600567;04.09.2026;07.09.2026;1;Online seyahat acentesi;3.870,00;;Konakladı
+R202600568;04.09.2026;07.09.2026;1;Direkt / web;3.550,00;;Konakladı
+R202600569;04.09.2026;06.09.2026;1;Kurumsal;2.780,00;;Konakladı
+R202600570;04.09.2026;05.09.2026;1;Online seyahat acentesi;3.520,00;;Konakladı
+R202600571;04.09.2026;07.09.2026;1;Online seyahat acentesi;3.360,00;;Konakladı
+R202600572;04.09.2026;08.09.2026;1;Direkt / web;3.080,00;;Konakladı
+R202600573;04.09.2026;08.09.2026;1;Tur operatörü;2.970,00;;İptal
+R202600574;04.09.2026;06.09.2026;1;Tur operatörü;3.090,00;;Konakladı
+R202600575;05.09.2026;07.09.2026;1;Direkt / web;3.250,00;;Konakladı
+R202600576;05.09.2026;07.09.2026;1;Tur operatörü;2.620,00;;Konakladı
+R202600577;05.09.2026;06.09.2026;1;Online seyahat acentesi;3.470,00;;Konakladı
+R202600578;05.09.2026;07.09.2026;1;Online seyahat acentesi;3.350,00;;Konakladı
+R202600579;05.09.2026;07.09.2026;1;Online seyahat acentesi;3.600,00;;Konakladı
+R202600580;05.09.2026;12.09.2026;1;Direkt / web;3.550,00;;Konakladı
+R202600581;05.09.2026;08.09.2026;1;Tur operatörü;2.860,00;;Konakladı
+R202600582;05.09.2026;08.09.2026;1;Online seyahat acentesi;3.700,00;;Konakladı
+R202600583;05.09.2026;08.09.2026;1;Tur operatörü;2.750,00;;Konakladı
+R202600584;05.09.2026;06.09.2026;1;Tur operatörü;2.980,00;;Konakladı
+R202600585;05.09.2026;07.09.2026;1;Direkt / web;3.220,00;;İptal
+R202600586;05.09.2026;08.09.2026;1;Direkt / web;3.070,00;;Konakladı
+R202600587;05.09.2026;06.09.2026;1;Tur operatörü;2.930,00;;Konakladı
+R202600588;06.09.2026;09.09.2026;1;Direkt / web;3.190,00;;Konakladı
+R202600589;06.09.2026;10.09.2026;1;Tur operatörü;2.900,00;;Konakladı
+R202600590;06.09.2026;09.09.2026;1;Tur operatörü;2.700,00;;İptal
+R202600591;06.09.2026;10.09.2026;1;Kurumsal;3.310,00;;Konakladı
+R202600592;06.09.2026;09.09.2026;1;Online seyahat acentesi;3.710,00;;Konakladı
+R202600593;06.09.2026;09.09.2026;1;Online seyahat acentesi;3.280,00;;Konakladı
+R202600594;06.09.2026;08.09.2026;1;Direkt / web;3.390,00;;Konakladı
+R202600595;06.09.2026;08.09.2026;1;Tur operatörü;2.980,00;;Konakladı
+R202600596;06.09.2026;07.09.2026;1;Kurumsal;2.790,00;;Konakladı
+R202600597;06.09.2026;10.09.2026;1;Online seyahat acentesi;3.670,00;;Konakladı
+R202600598;06.09.2026;08.09.2026;1;Online seyahat acentesi;3.290,00;;Konakladı
+R202600599;07.09.2026;08.09.2026;1;Kurumsal;2.580,00;;Konakladı
+R202600600;07.09.2026;08.09.2026;1;Online seyahat acentesi;3.020,00;;Konakladı
+R202600601;07.09.2026;09.09.2026;1;Online seyahat acentesi;3.080,00;;Konakladı
+R202600602;07.09.2026;14.09.2026;1;Tur operatörü;0,00;Ücretsiz;Konakladı
+R202600603;07.09.2026;14.09.2026;1;Online seyahat acentesi;3.440,00;;İptal
+R202600604;07.09.2026;14.09.2026;1;Direkt / web;2.620,00;;Konakladı
+R202600605;07.09.2026;11.09.2026;1;Online seyahat acentesi;3.220,00;;Konakladı
+R202600606;07.09.2026;08.09.2026;1;Direkt / web;3.130,00;;Konakladı
+R202600607;07.09.2026;09.09.2026;1;Online seyahat acentesi;3.040,00;;Konakladı
+R202600608;07.09.2026;10.09.2026;1;Tur operatörü;2.240,00;;Konakladı
+R202600609;08.09.2026;10.09.2026;1;Direkt / web;3.060,00;;Konakladı
+R202600610;08.09.2026;09.09.2026;1;Online seyahat acentesi;3.240,00;;Konakladı
+R202600611;08.09.2026;10.09.2026;1;Online seyahat acentesi;3.190,00;;Konakladı
+R202600612;08.09.2026;12.09.2026;1;Online seyahat acentesi;2.860,00;;Konakladı
+R202600613;08.09.2026;09.09.2026;1;Online seyahat acentesi;3.360,00;;Konakladı
+R202600614;08.09.2026;11.09.2026;1;Direkt / web;3.130,00;;Konakladı
+R202600615;08.09.2026;12.09.2026;1;Direkt / web;2.950,00;;Konakladı
+R202600616;08.09.2026;10.09.2026;1;Online seyahat acentesi;2.990,00;;Konakladı
+R202600617;08.09.2026;11.09.2026;1;Tur operatörü;2.690,00;;Konakladı
+R202600618;08.09.2026;15.09.2026;1;Direkt / web;3.070,00;;Konakladı
+R202600619;09.09.2026;10.09.2026;1;Online seyahat acentesi;3.310,00;;Konakladı
+R202600620;09.09.2026;11.09.2026;1;Online seyahat acentesi;3.200,00;;Konakladı
+R202600621;09.09.2026;12.09.2026;1;Kurumsal;2.430,00;;Konakladı
+R202600622;09.09.2026;12.09.2026;1;Online seyahat acentesi;3.340,00;;Konakladı
+R202600623;09.09.2026;11.09.2026;1;Direkt / web;2.810,00;;Konakladı
+R202600624;09.09.2026;13.09.2026;1;Online seyahat acentesi;2.950,00;;Konakladı
+R202600625;09.09.2026;12.09.2026;1;Online seyahat acentesi;2.940,00;;Konakladı
+R202600626;09.09.2026;10.09.2026;1;Direkt / web;2.810,00;;Konakladı
+R202600627;09.09.2026;12.09.2026;1;Tur operatörü;2.330,00;;Konakladı
+R202600628;09.09.2026;16.09.2026;1;Online seyahat acentesi;3.110,00;;Konakladı
+R202600629;10.09.2026;12.09.2026;1;Tur operatörü;2.530,00;;Konakladı
+R202600630;10.09.2026;11.09.2026;1;Online seyahat acentesi;3.100,00;;Konakladı
+R202600631;10.09.2026;13.09.2026;1;Direkt / web;3.080,00;;İptal
+R202600632;10.09.2026;13.09.2026;1;Online seyahat acentesi;2.890,00;;Konakladı
+R202600633;10.09.2026;14.09.2026;1;Direkt / web;2.940,00;;Konakladı
+R202600634;10.09.2026;12.09.2026;1;Direkt / web;2.790,00;;Konakladı
+R202600635;10.09.2026;13.09.2026;1;Direkt / web;3.080,00;;Konakladı
+R202600636;10.09.2026;17.09.2026;1;Online seyahat acentesi;3.150,00;;Konakladı
+R202600637;10.09.2026;11.09.2026;1;Tur operatörü;2.310,00;;Konakladı
+R202600638;10.09.2026;17.09.2026;1;Tur operatörü;2.230,00;;Konakladı
+R202600639;11.09.2026;13.09.2026;1;Tur operatörü;2.940,00;;Konakladı
+R202600640;11.09.2026;13.09.2026;1;Online seyahat acentesi;3.650,00;;Konakladı
+R202600641;11.09.2026;12.09.2026;1;Tur operatörü;2.640,00;;Konakladı
+R202600642;11.09.2026;13.09.2026;1;Direkt / web;3.250,00;;Konakladı
+R202600643;11.09.2026;18.09.2026;1;Tur operatörü;2.960,00;;Konakladı
+R202600644;11.09.2026;13.09.2026;1;Direkt / web;3.390,00;;Konakladı
+R202600645;11.09.2026;15.09.2026;1;Online seyahat acentesi;3.900,00;;Konakladı
+R202600646;11.09.2026;12.09.2026;1;Direkt / web;3.070,00;;Konakladı
+R202600647;11.09.2026;12.09.2026;1;Tur operatörü;2.800,00;;Konakladı
+R202600648;11.09.2026;13.09.2026;1;Online seyahat acentesi;3.560,00;;Konakladı
+R202600649;11.09.2026;13.09.2026;1;Tur operatörü;2.600,00;;Konakladı
+R202600650;11.09.2026;15.09.2026;1;Tur operatörü;3.020,00;;Konakladı
+R202600651;11.09.2026;14.09.2026;1;Direkt / web;3.560,00;;Konakladı
+R202600652;12.09.2026;14.09.2026;1;Kurumsal;3.250,00;;Konakladı
+R202600653;12.09.2026;13.09.2026;1;Online seyahat acentesi;3.910,00;;Konakladı
+R202600654;12.09.2026;19.09.2026;1;Direkt / web;3.180,00;;Konakladı
+R202600655;12.09.2026;16.09.2026;1;Direkt / web;3.070,00;;Konakladı
+R202600656;12.09.2026;15.09.2026;1;Direkt / web;3.480,00;;Konakladı
+R202600657;12.09.2026;16.09.2026;1;Online seyahat acentesi;3.270,00;;Konakladı
+R202600658;12.09.2026;13.09.2026;1;Online seyahat acentesi;3.430,00;;Konakladı
+R202600659;12.09.2026;14.09.2026;1;Online seyahat acentesi;3.660,00;;Konakladı
+R202600660;12.09.2026;15.09.2026;1;Tur operatörü;2.850,00;;İptal
+R202600661;12.09.2026;13.09.2026;1;Direkt / web;3.430,00;;Konakladı
+R202600662;12.09.2026;15.09.2026;1;Online seyahat acentesi;3.540,00;;Konakladı
+R202600663;12.09.2026;15.09.2026;1;Direkt / web;3.060,00;;İptal
+R202600664;12.09.2026;14.09.2026;1;Online seyahat acentesi;3.610,00;;Konakladı
+R202600665;13.09.2026;14.09.2026;1;Online seyahat acentesi;3.370,00;;Konakladı
+R202600666;13.09.2026;14.09.2026;1;Direkt / web;3.510,00;;Konakladı
+R202600667;13.09.2026;16.09.2026;1;Online seyahat acentesi;3.730,00;;Konakladı
+R202600668;13.09.2026;14.09.2026;1;Direkt / web;3.210,00;;Konakladı
+R202600669;13.09.2026;15.09.2026;1;Online seyahat acentesi;0,00;Ücretsiz;Konakladı
+R202600670;13.09.2026;14.09.2026;1;Kurumsal;3.010,00;;Konakladı
+R202600671;13.09.2026;16.09.2026;1;Tur operatörü;2.600,00;;Konakladı
+R202600672;13.09.2026;17.09.2026;1;Direkt / web;3.460,00;;Konakladı
+R202600673;13.09.2026;14.09.2026;1;Online seyahat acentesi;3.480,00;;Konakladı
+R202600674;13.09.2026;20.09.2026;1;Online seyahat acentesi;3.720,00;;Konakladı
+R202600675;13.09.2026;15.09.2026;1;Online seyahat acentesi;3.680,00;;Konakladı
+R202600676;13.09.2026;17.09.2026;1;Online seyahat acentesi;3.570,00;;Konakladı
+R202600677;13.09.2026;14.09.2026;1;Online seyahat acentesi;3.350,00;;Konakladı
+R202600678;14.09.2026;16.09.2026;1;Direkt / web;3.110,00;;Konakladı
+R202600679;14.09.2026;21.09.2026;1;Direkt / web;2.760,00;;Konakladı
+R202600680;14.09.2026;16.09.2026;1;Tur operatörü;2.440,00;;Konakladı
+R202600681;14.09.2026;17.09.2026;1;Kurumsal;2.550,00;;Konakladı
+R202600682;14.09.2026;17.09.2026;1;Kurumsal;2.610,00;;Konakladı
+R202600683;14.09.2026;15.09.2026;1;Online seyahat acentesi;3.440,00;;Konakladı
+R202600684;14.09.2026;15.09.2026;1;Direkt / web;2.950,00;;Konakladı
+R202600685;14.09.2026;16.09.2026;1;Online seyahat acentesi;3.040,00;;Konakladı
+R202600686;14.09.2026;16.09.2026;1;Kurumsal;2.570,00;;Konakladı
+R202600687;14.09.2026;17.09.2026;1;Online seyahat acentesi;2.960,00;;Konakladı
+R202600688;15.09.2026;17.09.2026;1;Direkt / web;3.180,00;;Konakladı
+R202600689;15.09.2026;17.09.2026;1;Direkt / web;3.130,00;;Konakladı
+R202600690;15.09.2026;18.09.2026;1;Direkt / web;2.620,00;;Konakladı
+R202600691;15.09.2026;22.09.2026;1;Online seyahat acentesi;3.430,00;;Konakladı
+R202600692;15.09.2026;18.09.2026;1;Online seyahat acentesi;2.890,00;;Konakladı
+R202600693;15.09.2026;22.09.2026;1;Tur operatörü;2.390,00;;Konakladı
+R202600694;15.09.2026;22.09.2026;1;Direkt / web;3.160,00;;Konakladı
+R202600695;15.09.2026;17.09.2026;1;Tur operatörü;2.450,00;;Konakladı
+R202600696;15.09.2026;17.09.2026;1;Tur operatörü;2.510,00;;Konakladı
+R202600697;15.09.2026;17.09.2026;1;Direkt / web;2.660,00;;Konakladı
+R202600698;16.09.2026;23.09.2026;1;Online seyahat acentesi;2.980,00;;Konakladı
+R202600699;16.09.2026;19.09.2026;1;Tur operatörü;2.550,00;;Konakladı
+R202600700;16.09.2026;20.09.2026;1;Direkt / web;2.880,00;;Konakladı
+R202600701;16.09.2026;18.09.2026;1;Online seyahat acentesi;3.140,00;;Konakladı
+R202600702;16.09.2026;18.09.2026;1;Online seyahat acentesi;3.170,00;;Konakladı
+R202600703;16.09.2026;18.09.2026;1;Kurumsal;2.680,00;;Konakladı
+R202600704;16.09.2026;23.09.2026;1;Kurumsal;2.530,00;;Konakladı
+R202600705;16.09.2026;17.09.2026;1;Direkt / web;2.630,00;;Konakladı
+R202600706;16.09.2026;20.09.2026;1;Online seyahat acentesi;3.370,00;;Konakladı
+R202600707;16.09.2026;23.09.2026;1;Online seyahat acentesi;3.100,00;;Konakladı
+R202600708;17.09.2026;19.09.2026;1;Direkt / web;3.020,00;;Konakladı
+R202600709;17.09.2026;24.09.2026;1;Online seyahat acentesi;3.260,00;;Konakladı
+R202600710;17.09.2026;18.09.2026;1;Tur operatörü;2.360,00;;Konakladı
+R202600711;17.09.2026;19.09.2026;1;Online seyahat acentesi;2.940,00;;Konakladı
+R202600712;17.09.2026;19.09.2026;1;Online seyahat acentesi;2.880,00;;Konakladı
+R202600713;17.09.2026;20.09.2026;1;Direkt / web;2.850,00;;Konakladı
+R202600714;17.09.2026;20.09.2026;1;Direkt / web;3.000,00;;Konakladı
+R202600715;17.09.2026;20.09.2026;1;Tur operatörü;2.260,00;;Konakladı
+R202600716;17.09.2026;19.09.2026;1;Tur operatörü;2.520,00;;Konakladı
+R202600717;17.09.2026;24.09.2026;1;Online seyahat acentesi;2.890,00;;Konakladı
+R202600718;18.09.2026;25.09.2026;1;Kurumsal;3.320,00;;Konakladı
+R202600719;18.09.2026;21.09.2026;1;Direkt / web;3.290,00;;Konakladı
+R202600720;18.09.2026;25.09.2026;1;Direkt / web;3.100,00;;Konakladı
+R202600721;18.09.2026;22.09.2026;1;Online seyahat acentesi;3.400,00;;Konakladı
+R202600722;18.09.2026;21.09.2026;1;Online seyahat acentesi;3.260,00;;Konakladı
+R202600723;18.09.2026;20.09.2026;1;Online seyahat acentesi;3.440,00;;Konakladı
+R202600724;18.09.2026;19.09.2026;1;Kurumsal;3.200,00;;Konakladı
+R202600725;18.09.2026;21.09.2026;1;Online seyahat acentesi;3.380,00;;Konakladı
+R202600726;18.09.2026;20.09.2026;1;Tur operatörü;2.740,00;;Konakladı
+R202600727;18.09.2026;22.09.2026;1;Direkt / web;3.090,00;;Konakladı
+R202600728;18.09.2026;21.09.2026;1;Kurumsal;3.340,00;;Konakladı
+R202600729;18.09.2026;21.09.2026;1;Online seyahat acentesi;3.870,00;;Konakladı
+R202600730;18.09.2026;20.09.2026;1;Online seyahat acentesi;3.630,00;;Konakladı
+R202600731;19.09.2026;26.09.2026;1;Direkt / web;3.010,00;;Konakladı
+R202600732;19.09.2026;21.09.2026;1;Online seyahat acentesi;3.680,00;;Konakladı
+R202600733;19.09.2026;20.09.2026;1;Tur operatörü;2.740,00;;Konakladı
+R202600734;19.09.2026;20.09.2026;1;Tur operatörü;2.720,00;;Konakladı
+R202600735;19.09.2026;23.09.2026;1;Online seyahat acentesi;3.680,00;;İptal
+R202600736;19.09.2026;20.09.2026;1;Kurumsal;2.960,00;;Konakladı
+R202600737;19.09.2026;20.09.2026;1;Tur operatörü;3.070,00;;İptal
+R202600738;19.09.2026;23.09.2026;1;Online seyahat acentesi;3.450,00;;İptal
+R202600739;19.09.2026;22.09.2026;1;Direkt / web;3.590,00;;Konakladı
+R202600740;19.09.2026;21.09.2026;1;Online seyahat acentesi;3.980,00;;Konakladı
+R202600741;19.09.2026;21.09.2026;1;Online seyahat acentesi;3.930,00;;Konakladı
+R202600742;19.09.2026;22.09.2026;1;Online seyahat acentesi;3.620,00;;Konakladı
+R202600743;19.09.2026;22.09.2026;1;Tur operatörü;2.970,00;;Konakladı
+R202600744;20.09.2026;21.09.2026;1;Kurumsal;3.260,00;;Konakladı
+R202600745;20.09.2026;21.09.2026;1;Online seyahat acentesi;3.900,00;;Konakladı
+R202600746;20.09.2026;22.09.2026;1;Online seyahat acentesi;3.710,00;;Konakladı
+R202600747;20.09.2026;23.09.2026;1;Tur operatörü;2.920,00;;Konakladı
+R202600748;20.09.2026;22.09.2026;1;Online seyahat acentesi;3.410,00;;İptal
+R202600749;20.09.2026;23.09.2026;1;Tur operatörü;2.660,00;;Konakladı
+R202600750;20.09.2026;22.09.2026;1;Online seyahat acentesi;3.500,00;;Konakladı
+R202600751;20.09.2026;22.09.2026;1;Online seyahat acentesi;3.860,00;;Konakladı
+R202600752;20.09.2026;21.09.2026;1;Kurumsal;2.900,00;;Konakladı
+R202600753;20.09.2026;21.09.2026;1;Online seyahat acentesi;3.430,00;;Konakladı
+R202600754;20.09.2026;21.09.2026;1;Tur operatörü;3.050,00;;Konakladı
+R202600755;20.09.2026;24.09.2026;1;Online seyahat acentesi;3.950,00;;Konakladı
+R202600756;20.09.2026;22.09.2026;1;Kurumsal;3.350,00;;Konakladı
+R202600757;21.09.2026;24.09.2026;1;Kurumsal;2.620,00;;Konakladı
+R202600758;21.09.2026;28.09.2026;1;Online seyahat acentesi;3.340,00;;Konakladı
+R202600759;21.09.2026;23.09.2026;1;Tur operatörü;2.290,00;;Konakladı
+R202600760;21.09.2026;25.09.2026;1;Kurumsal;2.930,00;;Konakladı
+R202600761;21.09.2026;23.09.2026;1;Online seyahat acentesi;2.920,00;;Konakladı
+R202600762;21.09.2026;24.09.2026;1;Tur operatörü;2.430,00;;Konakladı
+R202600763;21.09.2026;23.09.2026;1;Online seyahat acentesi;3.410,00;;Konakladı
+R202600764;21.09.2026;23.09.2026;1;Tur operatörü;2.490,00;;Konakladı
+R202600765;21.09.2026;25.09.2026;1;Online seyahat acentesi;3.170,00;;Konakladı
+R202600766;21.09.2026;23.09.2026;1;Tur operatörü;2.350,00;;Konakladı
+R202600767;22.09.2026;24.09.2026;1;Online seyahat acentesi;2.940,00;;Konakladı
+R202600768;22.09.2026;23.09.2026;1;Online seyahat acentesi;3.000,00;;Konakladı
+R202600769;22.09.2026;23.09.2026;1;Tur operatörü;2.450,00;;Konakladı
+R202600770;22.09.2026;25.09.2026;1;Tur operatörü;2.540,00;;İptal
+R202600771;22.09.2026;23.09.2026;1;Online seyahat acentesi;3.450,00;;Konakladı
+R202600772;22.09.2026;25.09.2026;1;Online seyahat acentesi;2.960,00;;İptal
+R202600773;22.09.2026;25.09.2026;1;Tur operatörü;2.600,00;;Konakladı
+R202600774;22.09.2026;25.09.2026;1;Online seyahat acentesi;3.210,00;;Konakladı
+R202600775;22.09.2026;29.09.2026;1;Tur operatörü;2.590,00;;Konakladı
+R202600776;22.09.2026;29.09.2026;1;Tur operatörü;2.580,00;;Konakladı
+R202600777;23.09.2026;26.09.2026;1;Online seyahat acentesi;3.160,00;;Konakladı
+R202600778;23.09.2026;24.09.2026;1;Direkt / web;2.790,00;;Konakladı
+R202600779;23.09.2026;27.09.2026;1;Online seyahat acentesi;3.310,00;;Konakladı
+R202600780;23.09.2026;25.09.2026;1;Online seyahat acentesi;3.330,00;;Konakladı
+R202600781;23.09.2026;25.09.2026;1;Tur operatörü;2.590,00;;Konakladı
+R202600782;23.09.2026;30.09.2026;1;Direkt / web;2.920,00;;Konakladı
+R202600783;23.09.2026;24.09.2026;1;Direkt / web;2.690,00;;Konakladı
+R202600784;23.09.2026;30.09.2026;1;Direkt / web;2.750,00;;Konakladı
+R202600785;23.09.2026;25.09.2026;1;Direkt / web;3.090,00;;Konakladı
+R202600786;23.09.2026;24.09.2026;1;Online seyahat acentesi;3.250,00;;Konakladı
+R202600787;24.09.2026;26.09.2026;1;Online seyahat acentesi;3.330,00;;Konakladı
+R202600788;24.09.2026;27.09.2026;1;Direkt / web;2.790,00;;Konakladı
+R202600789;24.09.2026;28.09.2026;1;Direkt / web;2.920,00;;Konakladı
+R202600790;24.09.2026;26.09.2026;1;Tur operatörü;2.620,00;;Konakladı
+R202600791;24.09.2026;27.09.2026;1;Online seyahat acentesi;3.220,00;;İptal
+R202600792;24.09.2026;26.09.2026;1;Direkt / web;3.170,00;;Konakladı
+R202600793;24.09.2026;26.09.2026;1;Direkt / web;2.990,00;;Konakladı
+R202600794;24.09.2026;01.10.2026;1;Online seyahat acentesi;3.210,00;;Konakladı
+R202600795;24.09.2026;26.09.2026;1;Online seyahat acentesi;3.380,00;;Konakladı
+R202600796;24.09.2026;27.09.2026;1;Kurumsal;2.860,00;;Konakladı
+R202600797;25.09.2026;27.09.2026;1;Tur operatörü;2.620,00;;Konakladı
+R202600798;25.09.2026;27.09.2026;1;Tur operatörü;3.110,00;;Konakladı
+R202600799;25.09.2026;27.09.2026;1;Online seyahat acentesi;3.880,00;;Konakladı
+R202600800;25.09.2026;29.09.2026;1;Online seyahat acentesi;3.570,00;;Konakladı
+R202600801;25.09.2026;27.09.2026;1;Kurumsal;3.110,00;;Konakladı
+R202600802;25.09.2026;28.09.2026;1;Kurumsal;3.190,00;;Konakladı
+R202600803;25.09.2026;28.09.2026;1;Online seyahat acentesi;3.570,00;;Konakladı
+R202600804;25.09.2026;26.09.2026;1;Tur operatörü;2.620,00;;Konakladı
+R202600805;25.09.2026;26.09.2026;1;Direkt / web;3.410,00;;Konakladı
+R202600806;25.09.2026;27.09.2026;1;Online seyahat acentesi;3.640,00;;Konakladı
+R202600807;25.09.2026;26.09.2026;1;Tur operatörü;3.010,00;;Konakladı
+R202600808;25.09.2026;27.09.2026;1;Direkt / web;3.310,00;;Konakladı
+R202600809;25.09.2026;02.10.2026;1;Direkt / web;3.640,00;;Konakladı
+R202600810;26.09.2026;27.09.2026;1;Direkt / web;3.440,00;;Konakladı
+R202600811;26.09.2026;29.09.2026;1;Online seyahat acentesi;3.890,00;;Konakladı
+R202600812;26.09.2026;28.09.2026;1;Kurumsal;3.180,00;;Konakladı
+R202600813;26.09.2026;30.09.2026;1;Online seyahat acentesi;3.960,00;;Konakladı
+R202600814;26.09.2026;28.09.2026;1;Online seyahat acentesi;3.770,00;;Konakladı
+R202600815;26.09.2026;28.09.2026;1;Direkt / web;3.480,00;;Konakladı
+R202600816;26.09.2026;27.09.2026;1;Online seyahat acentesi;3.680,00;;Konakladı
+R202600817;26.09.2026;27.09.2026;1;Direkt / web;3.160,00;;Konakladı
+R202600818;26.09.2026;03.10.2026;1;Online seyahat acentesi;3.700,00;;Konakladı
+R202600819;26.09.2026;29.09.2026;1;Online seyahat acentesi;3.280,00;;Konakladı
+R202600820;26.09.2026;30.09.2026;1;Tur operatörü;2.790,00;;Konakladı
+R202600821;26.09.2026;28.09.2026;1;Online seyahat acentesi;3.600,00;;Konakladı
+R202600822;26.09.2026;29.09.2026;1;Tur operatörü;2.810,00;;Konakladı
+R202600823;27.09.2026;01.10.2026;1;Online seyahat acentesi;3.800,00;;Konakladı
+R202600824;27.09.2026;29.09.2026;1;Direkt / web;3.550,00;;Konakladı
+R202600825;27.09.2026;28.09.2026;1;Direkt / web;3.350,00;;Konakladı
+R202600826;27.09.2026;29.09.2026;1;Online seyahat acentesi;3.510,00;;Konakladı
+R202600827;27.09.2026;29.09.2026;1;Online seyahat acentesi;3.760,00;;Konakladı
+R202600828;27.09.2026;29.09.2026;1;Online seyahat acentesi;3.410,00;;Konakladı
+R202600829;27.09.2026;29.09.2026;1;Online seyahat acentesi;3.260,00;;Konakladı
+R202600830;27.09.2026;04.10.2026;1;Tur operatörü;2.900,00;;Konakladı
+R202600831;27.09.2026;01.10.2026;1;Direkt / web;3.060,00;;Konakladı
+R202600832;27.09.2026;29.09.2026;1;Online seyahat acentesi;3.830,00;;Konakladı
+R202600833;27.09.2026;28.09.2026;1;Online seyahat acentesi;3.710,00;;Konakladı
+R202600834;27.09.2026;30.09.2026;1;Online seyahat acentesi;3.770,00;;Konakladı
+R202600835;27.09.2026;04.10.2026;1;Online seyahat acentesi;3.450,00;;Konakladı
+R202600836;28.09.2026;30.09.2026;1;Direkt / web;2.990,00;;Konakladı
+R202600837;28.09.2026;29.09.2026;1;Online seyahat acentesi;3.450,00;;Konakladı
+R202600838;28.09.2026;02.10.2026;1;Direkt / web;2.950,00;;Konakladı
+R202600839;28.09.2026;01.10.2026;1;Direkt / web;3.040,00;;Konakladı
+R202600840;28.09.2026;01.10.2026;1;Online seyahat acentesi;3.280,00;;Konakladı
+R202600841;28.09.2026;30.09.2026;1;Direkt / web;2.950,00;;Konakladı
+R202600842;28.09.2026;05.10.2026;1;Direkt / web;2.640,00;;Konakladı
+R202600843;28.09.2026;30.09.2026;1;Online seyahat acentesi;3.300,00;;Konakladı
+R202600844;28.09.2026;30.09.2026;1;Online seyahat acentesi;3.430,00;;Konakladı
+R202600845;28.09.2026;01.10.2026;1;Online seyahat acentesi;3.380,00;;Konakladı
+R202600846;29.09.2026;02.10.2026;1;Kurumsal;2.880,00;;Konakladı
+R202600847;29.09.2026;30.09.2026;1;Direkt / web;3.000,00;;Konakladı
+R202600848;29.09.2026;01.10.2026;1;Direkt / web;2.910,00;;Konakladı
+R202600849;29.09.2026;01.10.2026;1;Online seyahat acentesi;3.370,00;;Konakladı
+R202600850;29.09.2026;30.09.2026;1;Direkt / web;2.920,00;;Konakladı
+R202600851;29.09.2026;01.10.2026;1;Direkt / web;3.080,00;;Konakladı
+R202600852;29.09.2026;01.10.2026;1;Direkt / web;3.090,00;;Konakladı
+R202600853;29.09.2026;01.10.2026;1;Tur operatörü;2.360,00;;Konakladı
+R202600854;29.09.2026;01.10.2026;1;Online seyahat acentesi;3.370,00;;Konakladı
+R202600855;29.09.2026;01.10.2026;1;Online seyahat acentesi;3.460,00;;Konakladı
+R202600856;30.09.2026;03.10.2026;1;Online seyahat acentesi;3.050,00;;Konakladı
+R202600857;30.09.2026;02.10.2026;1;Online seyahat acentesi;3.280,00;;Konakladı
+R202600858;30.09.2026;03.10.2026;1;Tur operatörü;2.280,00;;Konakladı
+R202600859;30.09.2026;07.10.2026;1;Direkt / web;2.620,00;;Konakladı
+R202600860;30.09.2026;07.10.2026;1;Online seyahat acentesi;2.930,00;;Konakladı
+R202600861;30.09.2026;04.10.2026;1;Tur operatörü;2.700,00;;Konakladı
+R202600862;30.09.2026;03.10.2026;1;Direkt / web;2.770,00;;Konakladı
+R202600863;30.09.2026;07.10.2026;1;Direkt / web;2.620,00;;Konakladı
+R202600864;30.09.2026;03.10.2026;1;Direkt / web;2.960,00;;Konakladı
+R202600865;30.09.2026;04.10.2026;1;Online seyahat acentesi;2.890,00;;Konakladı
+R202600866;01.10.2026;04.10.2026;1;Direkt / web;2.730,00;;Konakladı
+R202600867;01.10.2026;08.10.2026;1;Online seyahat acentesi;2.860,00;;Konakladı
+R202600868;01.10.2026;04.10.2026;1;Online seyahat acentesi;3.240,00;;Konakladı
+R202600869;01.10.2026;02.10.2026;1;Kurumsal;2.640,00;;Konakladı
+R202600870;01.10.2026;08.10.2026;1;Online seyahat acentesi;3.050,00;;Konakladı
+R202600871;01.10.2026;08.10.2026;1;Online seyahat acentesi;2.960,00;;Konakladı
+R202600872;01.10.2026;03.10.2026;1;Tur operatörü;2.230,00;;Konakladı
+R202600873;01.10.2026;08.10.2026;1;Online seyahat acentesi;3.130,00;;İptal
+R202600874;01.10.2026;04.10.2026;1;Online seyahat acentesi;2.910,00;;Konakladı
+R202600875;01.10.2026;04.10.2026;1;Online seyahat acentesi;3.200,00;;Konakladı
+R202600876;02.10.2026;03.10.2026;1;Direkt / web;3.620,00;;Konakladı
+R202600877;02.10.2026;04.10.2026;1;Tur operatörü;2.740,00;;Konakladı
+R202600878;02.10.2026;05.10.2026;1;Tur operatörü;2.690,00;;Konakladı
+R202600879;02.10.2026;05.10.2026;1;Online seyahat acentesi;3.280,00;;Konakladı
+R202600880;02.10.2026;04.10.2026;1;Online seyahat acentesi;3.290,00;;İptal
+R202600881;02.10.2026;09.10.2026;1;Direkt / web;3.610,00;;Konakladı
+R202600882;02.10.2026;04.10.2026;1;Online seyahat acentesi;3.690,00;;Konakladı
+R202600883;02.10.2026;05.10.2026;1;Kurumsal;2.790,00;;Konakladı
+R202600884;02.10.2026;04.10.2026;1;Online seyahat acentesi;3.850,00;;Konakladı
+R202600885;02.10.2026;05.10.2026;1;Kurumsal;3.020,00;;Konakladı
+R202600886;02.10.2026;03.10.2026;1;Direkt / web;3.290,00;;Konakladı
+R202600887;02.10.2026;04.10.2026;1;Direkt / web;3.340,00;;Konakladı
+R202600888;02.10.2026;03.10.2026;1;Online seyahat acentesi;3.890,00;;Konakladı
+R202600889;03.10.2026;05.10.2026;1;Online seyahat acentesi;3.970,00;;Konakladı
+R202600890;03.10.2026;06.10.2026;1;Online seyahat acentesi;3.770,00;;Konakladı
+R202600891;03.10.2026;05.10.2026;1;Online seyahat acentesi;3.450,00;;Konakladı
+R202600892;03.10.2026;04.10.2026;1;Direkt / web;3.670,00;;Konakladı
+R202600893;03.10.2026;07.10.2026;1;Online seyahat acentesi;3.890,00;;Konakladı
+R202600894;03.10.2026;06.10.2026;1;Direkt / web;3.200,00;;Konakladı
+R202600895;03.10.2026;05.10.2026;1;Direkt / web;0,00;Ücretsiz;İptal
+R202600896;03.10.2026;07.10.2026;1;Tur operatörü;2.940,00;;Konakladı
+R202600897;03.10.2026;04.10.2026;1;Tur operatörü;2.790,00;;Konakladı
+R202600898;03.10.2026;06.10.2026;1;Online seyahat acentesi;3.270,00;;Konakladı
+R202600899;03.10.2026;04.10.2026;1;Online seyahat acentesi;3.530,00;;Konakladı
+R202600900;03.10.2026;10.10.2026;1;Direkt / web;3.640,00;;Konakladı
+R202600901;03.10.2026;05.10.2026;1;Online seyahat acentesi;3.660,00;;Konakladı
+R202600902;04.10.2026;06.10.2026;1;Kurumsal;3.060,00;;Konakladı
+R202600903;04.10.2026;07.10.2026;1;Online seyahat acentesi;3.560,00;;Konakladı
+R202600904;04.10.2026;11.10.2026;1;Tur operatörü;2.750,00;;İptal
+R202600905;04.10.2026;08.10.2026;1;Online seyahat acentesi;3.790,00;;Konakladı
+R202600906;04.10.2026;07.10.2026;1;Tur operatörü;3.030,00;;Konakladı
+R202600907;04.10.2026;05.10.2026;1;Tur operatörü;2.740,00;;Konakladı
+R202600908;04.10.2026;07.10.2026;1;Online seyahat acentesi;3.790,00;;Konakladı
+R202600909;04.10.2026;06.10.2026;1;Online seyahat acentesi;3.720,00;;Konakladı
+R202600910;04.10.2026;06.10.2026;1;Online seyahat acentesi;3.670,00;;İptal
+R202600911;04.10.2026;07.10.2026;1;Direkt / web;3.310,00;;Konakladı
+R202600912;04.10.2026;06.10.2026;1;Online seyahat acentesi;3.380,00;;Konakladı
+R202600913;04.10.2026;11.10.2026;1;Online seyahat acentesi;3.340,00;;Konakladı
+R202600914;04.10.2026;06.10.2026;1;Online seyahat acentesi;0,00;Ücretsiz;Konakladı
