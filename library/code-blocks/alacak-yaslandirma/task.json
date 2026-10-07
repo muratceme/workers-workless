@@ -1,0 +1,15 @@
+{
+  "id": "alacak-yaslandirma",
+  "tur": "kod",
+  "ad": "Alacak Yaşlandırma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi cari_hareketler.xlsx --tarih 30.09.2026",
+  "girdiler": [
+    "Cari hareketler (.xlsx/.csv): Cari, Tarih, Borç, Alacak (zorunlu); Vade Tarihi, Belge No, Cari Kodu (isteğe bağlı) — veya Kalan sütunlu açık kalem listesi",
+    "İsteğe bağlı kredi limitleri (Cari, Kredi Limiti)"
+  ],
+  "ciktilar": ["Excel: müşteri bazında yaşlandırma (vadesi gelmemiş, 1-30 … 180+), ağırlıklı ortalama gecikme, limit durumu, açık faturalar, grafik"],
+  "internet": false
+}
