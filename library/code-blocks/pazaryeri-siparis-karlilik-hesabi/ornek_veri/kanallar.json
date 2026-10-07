@@ -1,0 +1,21 @@
+{
+  "Trendyol": {
+    "_not": "Oranlar ÖRNEKTİR; kategori komisyonu, desi tarifesi ve hizmet bedelini satıcı panelinizdeki güncel değerlerle değiştirin.",
+    "komisyon_orani": "0.20",
+    "kategoriler": {"Giyim": "0.21", "Ayakkabı": "0.19", "Ev & Yaşam": "0.18", "Elektronik": "0.12"},
+    "komisyon_kdv_dahil": true,
+    "hizmet_kdv_orani": "0.20",
+    "desi_tarifesi": {"1": "54.00", "3": "66.00", "5": "78.00", "10": "105.00"},
+    "hizmet_bedeli": "10.19",
+    "stopaj_orani": "0.01",
+    "iadede_hizmet_bedeli_kalir": true
+  },
+  "Diğer Pazaryeri": {
+    "_not": "Komisyonu KDV hariç tutar üzerinden hesaplayıp üzerine KDV ekleyen bir kanal örneği.",
+    "komisyon_orani": "0.15",
+    "komisyon_kdv_dahil": false,
+    "kargo_bedeli": "60.00",
+    "hizmet_bedeli": "0",
+    "stopaj_orani": "0.01"
+  }
+}

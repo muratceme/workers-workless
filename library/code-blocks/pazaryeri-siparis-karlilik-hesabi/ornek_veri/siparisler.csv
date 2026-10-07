@@ -1,0 +1,11 @@
+Kanal;Sipariş No;Tarih;Stok Kodu;Ürün Adı;Kategori;Adet;Satış Tutarı;Satıcı İndirimi;Durum
+Trendyol;1001;01.09.2026;TS-001;Basic Pamuklu Tişört;Giyim;2;598,00;;Teslim Edildi
+Trendyol;1002;01.09.2026;KP-010;Seramik Kupa 350 ml;Ev & Yaşam;1;149,90;;Teslim Edildi
+Trendyol;1003;02.09.2026;AY-200;Deri Sneaker;Ayakkabı;1;1.499,00;;Teslim Edildi
+Trendyol;1004;02.09.2026;KZ-300;Kablosuz Kulaklık;Elektronik;1;899,00;50,00;Teslim Edildi
+Trendyol;1005;03.09.2026;TS-001;Basic Pamuklu Tişört;Giyim;1;299,00;;İade Edildi
+Trendyol;1006;03.09.2026;KP-010;Seramik Kupa 350 ml;Ev & Yaşam;1;149,90;;İptal Edildi
+Trendyol;1007;04.09.2026;TS-001;Basic Pamuklu Tişört;Giyim;1;299,00;;Teslim Edildi
+Trendyol;1007;04.09.2026;KP-010;Seramik Kupa 350 ml;Ev & Yaşam;1;149,90;;Teslim Edildi
+Trendyol;1008;05.09.2026;XX-999;Maliyeti girilmemiş ürün;Ev & Yaşam;1;200,00;;Teslim Edildi
+Diğer Pazaryeri;2001;05.09.2026;KZ-300;Kablosuz Kulaklık;Elektronik;1;949,00;;Teslim Edildi

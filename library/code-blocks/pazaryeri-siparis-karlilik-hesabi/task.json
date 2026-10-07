@@ -1,0 +1,16 @@
+{
+  "id": "pazaryeri-siparis-karlilik-hesabi",
+  "tur": "kod",
+  "ad": "Pazaryeri Sipariş Kârlılık Hesabı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --siparisler siparisler.xlsx --maliyetler urun_maliyetleri.xlsx --kanallar kanallar.json",
+  "girdiler": [
+    "Sipariş dökümü (.xlsx/.csv): Sipariş No, Stok Kodu/Barkod, Satış Tutarı (KDV dahil); Kanal, Adet, Kategori, Satıcı İndirimi, Komisyon, Kargo, Durum isteğe bağlı",
+    "Ürün maliyetleri (.xlsx/.csv): Stok Kodu, Birim Maliyet (KDV hariç); KDV Oranı, Desi, Ek Maliyet isteğe bağlı",
+    "Kanal ayarları (kanallar.json): komisyon oranları, komisyonun KDV dahil hesaplanıp hesaplanmadığı, desi tarifesi, hizmet bedeli, stopaj"
+  ],
+  "ciktilar": ["Excel: Kanal Özeti, Ürün Kârlılığı (zararına satılanlar, başabaş fiyat), Sipariş Detayı (komisyon, kargo, hizmet, kâr, pazaryeri ödemesi, stopaj, KDV etkisi)"],
+  "internet": false
+}

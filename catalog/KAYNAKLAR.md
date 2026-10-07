@@ -114,3 +114,6 @@ ve erişilebilen toplayıcı sitelerden okunmuştur.
 - Yıllara yaygın inşaat ve onarım işlerinde stopaj %5: 3491 sayılı Cumhurbaşkanı Kararı (RG 04.02.2021) — KPMG ve PwC
   Türkiye vergi bültenleri; demiryolu/gemi/nükleer santral işlerinde %1 (11344 sayılı CBK, 2026).
 - Form Ba-Bs'nin kaldırılması: 565 Sıra No'lu VUK Genel Tebliği (RG 25.09.2024).
+- Pazaryeri komisyonu: Trendyol Satıcı Bilgi Merkezi "Komisyon Faturaları Nedir" (akademi.trendyol.com) — komisyon
+  faturaları KDV dahil rakamlardan hesaplanır, ekstra KDV ödenmez (bazı bloglardaki "komisyona +%20 KDV" hesabı hatalı).
+- E-ticaret stopajı %1, KDV hariç tutar üzerinden: 9284 sayılı CBK (RG 21.12.2024, 01.01.2025) — KPMG Vergi bülteni, İSMMMO.
