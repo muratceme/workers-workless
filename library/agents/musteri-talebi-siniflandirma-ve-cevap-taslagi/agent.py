@@ -93,7 +93,7 @@ def tarih_coz(x) -> datetime | None:
 
 
 ALANLAR = {
-    "id": ("talep no", "talep id", "id", "ticket", "kayıt no", "no"),
+    "id": ("talep no", "talep id", "talep ıd", "id", "ıd", "ticket", "kayıt no", "no"),
     "tarih": ("tarih", "geliş tarihi", "oluşturma tarihi"),
     "kanal": ("kanal", "kaynak"),
     "gonderen": ("gönderen", "müşteri", "e-posta", "kimden"),

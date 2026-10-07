@@ -81,7 +81,7 @@ def yorumlari_oku(yol: Path, olcek: dict[str, float]) -> tuple[list[dict], list[
     s = [r for r in s if any(c not in (None, "") for c in r)]
     b = [kucuk(x) for x in s[0]]
     bul = lambda *a: next((i for i, x in enumerate(b) if x in a), None)  # noqa: E731
-    k = {"id": bul("yorum no", "id", "no"), "tarih": bul("tarih", "yorum tarihi"), "platform": bul("platform", "kaynak", "site"),
+    k = {"id": bul("yorum no", "id", "ıd", "no"), "tarih": bul("tarih", "yorum tarihi"), "platform": bul("platform", "kaynak", "site"),
          "puan": bul("puan", "skor", "rating"), "baslik": bul("başlık", "baslik", "title"), "yorum": bul("yorum", "metin", "review", "içerik")}
     if k["yorum"] is None:
         raise SystemExit(f"'Yorum' sütunu bulunamadı. Başlıklar: {s[0]}")

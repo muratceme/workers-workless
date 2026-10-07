@@ -136,7 +136,7 @@ def gorusmeleri_oku(yol: Path) -> list[dict]:
     s = [r for r in s if any(c not in (None, "") for c in r)]
     b = [kucuk(x) for x in s[0]]
     bul = lambda *a: next((i for i, x in enumerate(b) if x in a), None)  # noqa: E731
-    k = {"id": bul("görüşme no", "kayıt no", "id", "no"), "tarih": bul("tarih", "görüşme tarihi"), "kanal": bul("kanal"),
+    k = {"id": bul("görüşme no", "kayıt no", "id", "ıd", "no"), "tarih": bul("tarih", "görüşme tarihi"), "kanal": bul("kanal"),
          "temsilci": bul("temsilci", "agent"), "musteri": bul("müşteri", "müşteri no", "arayan"), "not": bul("not", "görüşme notu", "açıklama")}
     if k["not"] is None or k["tarih"] is None:
         raise SystemExit(f"Tarih ve Not sütunları gerekli. Başlıklar: {s[0]}")

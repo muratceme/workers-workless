@@ -1,0 +1,9 @@
+Anahtar Kelime;Yön;Hesap Kodu;Fiş Açıklaması;En Az Tutar;En Çok Tutar
+sgk;Çıkış;361;SGK prim ödemesi;;
+maaş;Çıkış;335;Personel maaş ödemesi;;
+vergi | kdv | muhtasar | damga;Çıkış;360;Vergi ödemesi;;
+kira;Çıkış;336;Kira ödemesi (kiraya veren carisi);;
+elektrik | doğalgaz | su faturası | telefon faturası;Çıkış;320.90;Abonelik fatura ödemesi;;
+komisyon | ücret | masraf | bsmv;Çıkış;780;Banka masraf ve komisyonları;;5000
+faiz;Giriş;642;Mevduat faiz geliri;;
+pos;Giriş;108;POS tahsilatı (banka blokeli);;

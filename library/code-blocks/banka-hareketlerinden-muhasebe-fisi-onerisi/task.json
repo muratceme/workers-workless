@@ -1,0 +1,20 @@
+{
+  "id": "banka-hareketlerinden-muhasebe-fisi-onerisi",
+  "tur": "kod",
+  "ad": "Banka Hareketlerinden Muhasebe Fişi Önerisi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --ekstre ekstre.xlsx --cariler cari_kartlar.xlsx --kurallar kurallar.csv --banka-hesap 102.01.001",
+  "girdiler": [
+    "Banka ekstresi (.xlsx/.csv): Tarih, Açıklama ve Tutar (veya Borç + Alacak)",
+    "Cari kartlar: Unvan; Cari Kodu, Vergi No, IBAN, Tür (Müşteri/Tedarikçi) isteğe bağlı",
+    "Hesap kuralları: Anahtar Kelime, Yön, Hesap Kodu, Fiş Açıklaması, En Az/En Çok Tutar"
+  ],
+  "ciktilar": ["Excel: Hareket Eşleşmeleri (karşı hesap, eşleşme yolu, güven, 'Onay'), Fiş Aktarım (Fiş No, Tarih, Hesap, Açıklama, Borç, Alacak), Manuel (eşleşmeyenler)"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "ekstre_cekirdek.py": "code-blocks/banka-mutabakati/main.py",
+    "ornek_veri": "code-blocks/banka-mutabakati/ornek_veri"
+  }
+}
