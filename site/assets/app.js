@@ -14,10 +14,10 @@
   const { CONFIG, DEPTS, SECTORS, SOON, READY } = window.WW;
 
   /* ------------------------------ yardımcılar ------------------------------ */
-  const TR = { ç: "c", ğ: "g", ı: "i", İ: "i", ö: "o", ş: "s", ü: "u", Ç: "c", Ğ: "g", Ö: "o", Ş: "s", Ü: "u" };
-  const slug = (s) => s.replace(/[çğıİöşüÇĞÖŞÜ]/g, (c) => TR[c]).toLowerCase()
+  const TR = { ç: "c", ğ: "g", ı: "i", İ: "i", ö: "o", ş: "s", ü: "u", Ç: "c", Ğ: "g", Ö: "o", Ş: "s", Ü: "u", â: "a", î: "i", û: "u", Â: "a", Î: "i", Û: "u" };
+  const slug = (s) => s.replace(/[çğıİöşüÇĞÖŞÜâîûÂÎÛ]/g, (c) => TR[c]).toLowerCase()
     .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-  const norm = (s) => s.toLocaleLowerCase("tr").replace(/[çğıöşü]/g, (c) => TR[c]);
+  const norm = (s) => s.toLocaleLowerCase("tr").replace(/[çğıöşüâîû]/g, (c) => TR[c]);
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const initials = (s) => s.split(/\s+/).filter((w) => /^[A-ZÇĞİÖŞÜ]/.test(w)).slice(0, 2).map((w) => w[0]).join("");
   const fmt = (n) => n.toLocaleString("tr-TR");

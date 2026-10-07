@@ -15,8 +15,8 @@ const DIST = path.join(ROOT, "dist");
 const TYPES = ["code-blocks", "agents"];
 const SKIP = /(^|[\\/])(__pycache__|\.pytest_cache|cikti|\.venv)([\\/]|$)|\.pyc$|(^|[\\/])\.env$/;
 
-const TR = { ç: "c", ğ: "g", ı: "i", İ: "i", ö: "o", ş: "s", ü: "u", Ç: "c", Ğ: "g", Ö: "o", Ş: "s", Ü: "u" };
-export const slug = (s) => s.replace(/[çğıİöşüÇĞÖŞÜ]/g, (c) => TR[c]).toLowerCase()
+const TR = { ç: "c", ğ: "g", ı: "i", İ: "i", ö: "o", ş: "s", ü: "u", Ç: "c", Ğ: "g", Ö: "o", Ş: "s", Ü: "u", â: "a", î: "i", û: "u", Â: "a", Î: "i", Û: "u" };
+export const slug = (s) => s.replace(/[çğıİöşüÇĞÖŞÜâîûÂÎÛ]/g, (c) => TR[c]).toLowerCase()
   .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
 const walk = (dir, base = dir) => fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) => {
