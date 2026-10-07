@@ -1,0 +1,15 @@
+{
+  "id": "olcu-tablosu-beden-serisi-grading",
+  "tur": "kod",
+  "ad": "Ölçü Tablosu Beden Serisi (Grading)",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi kurallar.xlsx --bedenler XS S M L XL XXL --ana M",
+  "girdiler": [
+    "Artış kuralları (.xlsx/.csv): Ölçü Noktası, Ana Beden (değer); Kod, Tolerans, geçiş sütunları ('S-M', 'M-L' ...) veya tüm geçişler için tek 'Artış' sütunu",
+    "Beden serisi (--bedenler) ve ana/numune beden (--ana)"
+  ],
+  "ciktilar": ["Excel: ölçü tablosu (cm; isteğe bağlı inç), artış kuralları, kontrol notları"],
+  "internet": false
+}
