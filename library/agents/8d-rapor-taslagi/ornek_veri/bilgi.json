@@ -1,0 +1,15 @@
+{
+  "musteri": "Kurgu Otomotiv Yan Sanayi A.Ş.",
+  "parca_no": "4471-220",
+  "parca_adi": "Plastik konnektör gövdesi",
+  "sikayet_no": "MS-2026-031",
+  "tespit_tarihi": "06.10.2026",
+  "ekip": [
+    {"ad": "Kalite Müdürü", "rol": "Ekip lideri / sponsor"},
+    {"ad": "Proses Mühendisi (enjeksiyon)", "rol": "Kök neden analizi"},
+    {"ad": "Kalıphane Şefi", "rol": "Kalıp bakım ve revizyon"},
+    {"ad": "Final Kontrol Sorumlusu", "rol": "Ayıklama ve muayene"},
+    {"ad": "Lojistik Sorumlusu", "rol": "Sevkiyat ve stok takibi"}
+  ],
+  "hedef_sureler": {"D3": "24 saat", "D4-D5": "10 iş günü"}
+}

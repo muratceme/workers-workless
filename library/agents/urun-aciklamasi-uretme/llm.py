@@ -50,6 +50,8 @@ _MASKELER = [
     (re.compile(r"\bTR\d{2}(?:\s?\d{4}){5}\s?\d{2}\b", re.I), "[IBAN]"),
     (re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+"), "[E-POSTA]"),
     (re.compile(r"(?:\+?90[\s-]?)?\(?0?5\d{2}\)?[\s.-]?\d{3}[\s.-]?\d{2}[\s.-]?\d{2}"), "[TELEFON]"),
+    # Sabit hat / 0850: başında 0 veya +90 şart (sipariş no gibi 10 haneli sayılar maskelenmesin)
+    (re.compile(r"(?:\+90[\s-]?|\b0)\(?[2-48]\d{2}\)?[\s.-]?\d{3}[\s.-]?\d{2}[\s.-]?\d{2}\b"), "[TELEFON]"),
     (re.compile(r"\b[1-9]\d{10}\b"), "[TCKN]"),
     (re.compile(r"(?:https?://)?(?:www\.)?linkedin\.com/in/[\w\-%]+/?", re.I), "[LINKEDIN]"),
 ]

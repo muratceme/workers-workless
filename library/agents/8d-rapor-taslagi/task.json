@@ -1,0 +1,21 @@
+{
+  "id": "8d-rapor-taslagi",
+  "tur": "agent",
+  "ad": "8D Rapor Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --sikayet sikayet.txt --muayene muayene.xlsx --bilgi bilgi.json",
+  "girdiler": [
+    "Müşteri şikâyeti veya uygunsuzluk kaydı (.txt, .docx, .pdf)",
+    "İsteğe bağlı muayene kayıtları (.xlsx/.csv): Tarih, Lot, Makine, Kalıp, Kontrol Edilen, Hatalı, Hata Türü",
+    "İsteğe bağlı bilgi.json: müşteri, parça, şikâyet no, ekip rolleri, hedef süreler",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Özet, D1–D7 sayfaları (5N1K, Is/Is Not, oluşum ve kaçış kök nedenleri, 5 Neden, faaliyetler, 'Onay'), Veri İhtiyacı, Veri Analizi (lot PPM, grafik) + Markdown taslak"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
