@@ -137,7 +137,14 @@ def test_et(klasor: Path) -> bool:
                        capture_output=True, text=True, env=ortam, encoding="utf-8")
     if r.returncode != 0:
         print(r.stdout[-3000:], r.stderr[-3000:])
-    return r.returncode == 0
+        return False
+    # Komut satırı yardımının çalıştığını da doğrula (argparse yardım metni hataları vb.)
+    ana = json.loads((klasor / "task.json").read_text(encoding="utf-8"))["ana_dosya"]
+    h = subprocess.run([sys.executable, ana, "--help"], cwd=klasor, capture_output=True, text=True, env=ortam, encoding="utf-8")
+    if h.returncode != 0:
+        print(f"{klasor.name}: '{ana} --help' başarısız:", h.stderr[-1500:])
+        return False
+    return True
 
 
 def main() -> int:

@@ -1,0 +1,15 @@
+{
+  "id": "temsilci-ihtiyaci-hesaplama-erlang-c",
+  "tur": "kod",
+  "ad": "Temsilci İhtiyacı Hesaplama (Erlang C)",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi cagri_tahmini.xlsx --aht 180 --sl 80 --hedef-sn 20 --kayip 30",
+  "girdiler": [
+    "Çağrı tahmini (.xlsx/.csv): Aralık (veya Saat), Çağrı Sayısı (zorunlu); Gün, AHT (sn) (isteğe bağlı)",
+    "Parametreler: aralık uzunluğu, AHT, hedef servis seviyesi ve süresi, en yüksek doluluk, kayıp (shrinkage)"
+  ],
+  "ciktilar": ["Excel: aralık bazında trafik, gereken ve planlanacak temsilci, SL, ASA, doluluk; grafik ve özet"],
+  "internet": false
+}
