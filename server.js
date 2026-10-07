@@ -3,7 +3,7 @@
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
-const { pathToFileURL } = require("url");
+const { spawn } = require("child_process");
 
 const PORT = Number(process.env.PORT) || 4321;
 const ROOT = __dirname;
@@ -20,15 +20,13 @@ const TYPES = {
   ".zip": "application/zip",
 };
 
+// Her derleme ayrı bir Node sürecinde çalışır; böylece katalog alt modülleri önbellekte kalmaz.
 let building = Promise.resolve();
-const rebuild = () => (building = building.then(async () => {
-  try {
-    const { build } = await import(pathToFileURL(path.join(ROOT, "scripts/build.mjs")).href + `?t=${Date.now()}`);
-    await build();
-  } catch (e) {
-    console.error("✗ Derleme hatası: " + e.message);
-  }
-}));
+const rebuild = () => (building = building.then(() => new Promise((resolve) => {
+  const p = spawn(process.execPath, [path.join(ROOT, "scripts", "build.mjs")], { cwd: ROOT, stdio: "inherit" });
+  p.on("exit", resolve);
+  p.on("error", (e) => { console.error("✗ Derleme başlatılamadı: " + e.message); resolve(); });
+})));
 
 let timer;
 for (const dir of ["site", "catalog", "library", "scripts"]) {

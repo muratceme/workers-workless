@@ -31,14 +31,49 @@ export async function build({ quiet = false } = {}) {
   // her seferinde taze içe aktar (geliştirme sunucusu yeniden derlerken)
   const cat = await import(pathToFileURL(path.join(ROOT, "catalog/catalog.mjs")).href + `?t=${t0}`);
 
-  // 1) benzersiz görev kimlikleri
-  const ids = new Map();
+  // 1) görev kayıt defteri
+  //    Bir görev bir kez [ad, açıklama, saat] olarak tanımlanır; başka rollerde yalnızca adıyla
+  //    ("Banka Mutabakatı") anılarak yeniden kullanılır. Aynı kimlik farklı içerikle iki kez
+  //    tanımlanırsa derleme durur.
+  const ids = new Map();      // id -> {name, desc, hours, where}
   for (const [deptId, d] of Object.entries(cat.DEPTS)) {
-    for (const r of d.roles) for (const [name] of r.tasks) {
+    for (const r of d.roles) for (const t of r.tasks) {
+      if (typeof t === "string") continue;
+      const [name, desc, hours] = t;
       const id = slug(name);
-      if (ids.has(id)) throw new Error(`Aynı görev kimliği iki kez kullanılmış: "${id}" (${ids.get(id)} ve ${deptId}). Görev adını değiştirin.`);
-      ids.set(id, deptId);
+      const prev = ids.get(id);
+      if (prev && (prev.desc !== desc || prev.hours !== hours)) {
+        throw new Error(`"${name}" görevi iki farklı tanımla var (${prev.where} ve ${deptId}/${r.id}). ` +
+          `Aynı görevse ikinci yerde yalnızca adını yazın; farklı görevse adını değiştirin.`);
+      }
+      if (!prev) ids.set(id, { name, desc, hours, where: `${deptId}/${r.id}` });
     }
+  }
+  const DEPTS = {};
+  for (const [deptId, d] of Object.entries(cat.DEPTS)) {
+    const roleIds = new Set();
+    DEPTS[deptId] = {
+      ...d,
+      roles: d.roles.map((r) => {
+        if (roleIds.has(r.id)) throw new Error(`${deptId}: "${r.id}" rolü iki kez tanımlanmış.`);
+        roleIds.add(r.id);
+        const seen = new Set();
+        return {
+          ...r,
+          tasks: r.tasks.map((t) => {
+            const id = slug(typeof t === "string" ? t : t[0]);
+            const g = ids.get(id);
+            if (!g) throw new Error(`${deptId}/${r.id}: "${t}" adında tanımlı bir görev yok.`);
+            if (seen.has(id)) throw new Error(`${deptId}/${r.id}: "${g.name}" görevi aynı rolde iki kez var.`);
+            seen.add(id);
+            return [g.name, g.desc, g.hours];
+          }),
+        };
+      }),
+    };
+  }
+  for (const s of cat.SECTORS) for (const d of s.depts) {
+    if (!DEPTS[d]) throw new Error(`${s.id} sektöründe tanımsız departman: "${d}"`);
   }
 
   // 2) dist/ temizle, site/ kopyala
@@ -93,7 +128,7 @@ export async function build({ quiet = false } = {}) {
   }
 
   // 4) katalog
-  const payload = { CONFIG: cat.CONFIG, DEPTS: cat.DEPTS, SECTORS: cat.SECTORS, SOON: cat.SOON, READY, BUILT: new Date().toISOString() };
+  const payload = { CONFIG: cat.CONFIG, DEPTS, SECTORS: cat.SECTORS, SOON: cat.SOON, READY, BUILT: new Date().toISOString() };
   fs.writeFileSync(path.join(DIST, "assets", "catalog.js"), `window.WW = ${JSON.stringify(payload)};\n`);
 
   const n = Object.keys(READY["code-blocks"]).length + Object.keys(READY.agents).length;
