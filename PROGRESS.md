@@ -65,11 +65,21 @@
   01.03.2021), demiryolu/gemi/nükleer %1. Kaynaklar catalog/KAYNAKLAR.md'de.
 - **Toplam 20 paket**, kontrol 20/20.
 
+- Devam: `pazaryeri-siparis-karlilik-hesabi` (Trendyol resmî Satıcı Bilgi Merkezi: komisyon KDV dahil rakamdan
+  hesaplanır, ekstra KDV yok — blogların "+%20 KDV" hesabı yanlış; e-ticaret stopajı %1, 9284 s. CBK),
+  `teklif-karsilastirma`, `mali-tablo-rasyo-analizi` (mizan hiyerarşisi, ortalama bakiye).
+- Hata düzeltmesi: slug fonksiyonu şapkalı harfleri (â, î, û) tanımıyordu ("Kârlılık" → "k-rl-l-k"); build.mjs ve
+  app.js düzeltildi (arama normalleştirmesi dahil).
+- Agent'lar (hepsi sahte model yanıtıyla testli; gerçek API ile henüz test EDİLMEDİ):
+  `sozlesme-on-inceleme` (maddeleme, 20 konuluk kontrol listesi, prompt'ta yalnız doğrulanmış kanun referansları),
+  `musteri-talebi-siniflandirma-ve-cevap-taslagi` (bilgi bankasına dayalı, kod kuralları modelin üstünde, KVKK 30 gün),
+  `urun-aciklamasi-uretme` (üret → kodla denetle → düzelt döngüsü), `hasar-dosyasi-ozeti` (belgeler arası tutarlılık,
+  plakalar takma adla maskelenir). Yeni ortak modül: `library/_ortak/belge.py` (PDF/DOCX/TXT).
+- **Toplam 27 paket** (21 kod bloğu + 6 agent), kontrol 27/27, CI yeşil.
+
 ### KALDIĞIM YER
-Sıradaki paketler (PLAN.md Aşama 2 sırasıyla): pazaryeri sipariş kârlılık (komisyon/kargo/hizmet bedeli oranlarını
-pazaryerlerinin güncel sayfalarından doğrula; sabit oran koyma, kullanıcıdan al) → teklif karşılaştırma → mali tablo
-rasyo analizi → agent'lar (sözleşme ön inceleme, müşteri talebi sınıflandırma, ürün açıklaması, hasar özeti).
-Her paket: library/code-blocks/<id>/ (main.py, task.json, README.md, requirements.txt, ornek_veri/, tests/),
-klasör adı katalogdaki görev adının slug'ı olmalı (build.mjs eşleştirmesi), ardından
-`PYTHONIOENCODING=utf-8 .venv/Scripts/python scripts/kontrol.py --senkronla` ve `--test`, `node scripts/build.mjs`,
-commit + push.
+PLAN.md Aşama 2'deki sıra: stok ABC/XYZ + yeniden sipariş noktası → otel doluluk/ADR/RevPAR → tekstil 4 puan kumaş
+kontrolü → ölçü tablosu grading → agent'lar (toplantı notu→aksiyon, müşteri yorum analizi, iş ilanı+mülakat, 8D,
+mali tablo yorum raporu, PDF fatura okuma). Klasör adı = katalogdaki görev adının slug'ı (build.mjs'deki slug).
+Komut zinciri: `PYTHONIOENCODING=utf-8 .venv/Scripts/python scripts/kontrol.py --senkronla` → `--test` →
+`node scripts/build.mjs` (hata verirse çıkış kodu 1; `| tail` ile gizlemeyin) → commit + push.

@@ -37,7 +37,10 @@ Planlanan sektörler (sıra = öncelik):
 15. Enerji 16. Eğitim (özel okul) 17. Faktoring / Leasing
 
 ### Aşama 2 — Paketler
-Sıradaki öncelik sırası: Fine-Kinney → AQL → OEE → SPC → Erlang C → alacak yaşlandırma → nakit akış →
+Aşama 2'nin ilk listesi TAMAMLANDI (2026-10-07). Sıradaki: stok ABC/XYZ + yeniden sipariş noktası → otel doluluk/ADR/RevPAR
+→ tekstil 4 puan kumaş kontrolü → ölçü tablosu grading → agent'lar: toplantı notu→aksiyon, müşteri yorum analizi, iş ilanı+mülakat,
+8D rapor taslağı, mali tablo yorum raporu, PDF fatura okuma.
+Eski sıra: Fine-Kinney → AQL → OEE → SPC → Erlang C → alacak yaşlandırma → nakit akış →
 cari mutabakat → Ba-Bs → bütçe sapma → hakediş (inşaat) → pazaryeri kârlılık → teklif karşılaştırma → agent'lar
  (öncelik: Türkiye'ye özgü + yüksek fayda + doğrulanabilir)
 Kod blokları (deterministik):
@@ -46,25 +49,26 @@ Kod blokları (deterministik):
 - [x] Brüt-net bordro hesaplama (2026 parametreleri, kaynaklı)
 - [x] Kıdem ve ihbar tazminatı hesaplama
 - [x] Yıllık izin hakedişi hesaplama (4857 s. Kanun md. 53)
-- [ ] Cari hesap yaşlandırma (alacak/borç)
+- [x] Cari hesap yaşlandırma (alacak/borç)
 - [~] ~~Form Ba/Bs~~ — 565 Sıra No'lu VUK Tebliği ile 01.10.2024'ten itibaren KALDIRILDI; yerine "Gelen e-Fatura Kayıt Kontrolü"
-- [ ] Nakit akış tahmini (vadeli alacak/borç listesinden 13 hafta)
-- [ ] Bütçe–gerçekleşen sapma raporu
+- [x] Nakit akış tahmini (vadeli alacak/borç listesinden 13 hafta)
+- [x] Bütçe–gerçekleşen sapma raporu
+- [x] Cari hesap mutabakatı (karşı taraf ekstresiyle)
 - [ ] Stok ABC/XYZ analizi, yeniden sipariş noktası, stok yaşlandırma
-- [ ] Satın alma teklif karşılaştırma (ağırlıklı puanlama)
-- [ ] OEE hesaplama, SPC (X̄-R, Cp/Cpk)
+- [x] Satın alma teklif karşılaştırma (ağırlıklı puanlama)
+- [x] OEE hesaplama, SPC (X̄-R, Cp/Cpk)
 - [ ] Tekstil: ölçü tablosu grading, 4 puan kumaş kontrol raporu
-- [ ] İnşaat: hakediş hesaplama (kesintiler: KDV, tevkifat, teminat, stopaj)
-- [ ] E-ticaret: pazaryeri sipariş kârlılık hesabı
+- [x] İnşaat: hakediş hesaplama (kesintiler: KDV, tevkifat, teminat, stopaj)
+- [x] E-ticaret: pazaryeri sipariş kârlılık hesabı
 - [ ] Otel: doluluk / ADR / RevPAR raporu
-- [ ] Mali tablo rasyo analizi (kredi analisti)
+- [x] Mali tablo rasyo analizi (kredi analisti)
 Agent'lar (muhakeme gereken):
-- [ ] Müşteri talebi/e-posta sınıflandırma + cevap taslağı
-- [ ] Sözleşme ön inceleme (risk maddeleri)
+- [x] Müşteri talebi/e-posta sınıflandırma + cevap taslağı
+- [x] Sözleşme ön inceleme (risk maddeleri)
 - [ ] Mali tablo yorum raporu (rasyo koduna dayanır)
 - [ ] Toplantı/görüşme notu → aksiyon listesi
-- [ ] Hasar dosyası özeti
-- [ ] Ürün açıklaması üretici
+- [x] Hasar dosyası özeti
+- [x] Ürün açıklaması üretici
 - [ ] Müşteri yorum analizi
 - [ ] İş ilanı + mülakat soru seti hazırlayıcı
 - [ ] 8D rapor taslağı
