@@ -1,0 +1,21 @@
+{
+  "id": "hasar-dosyasi-ozeti",
+  "tur": "agent",
+  "ad": "Hasar Dosyası Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./dosya_2026_0457 --gizle \"Sigortalı Adı\" \"Karşı Sürücü\"",
+  "girdiler": [
+    "Hasar dosyası klasörü: poliçe özeti, ihbar/beyan, kaza tespit tutanağı, ekspertiz raporu, faturalar (.pdf/.docx/.txt)",
+    "--gizle: modele gönderilmeden maskelenecek kişi adları",
+    "İsteğe bağlı gerekli evrak listesi (.txt)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Tek sayfalık Markdown özet (olay, kusur/rücu, teminat taslağı, tutarsızlıklar, açık sorular, önerilen adımlar, karar özeti) + Excel (Kontroller, Belgeler, Özet, 'Uzman Onayı')"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

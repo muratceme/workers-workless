@@ -1,0 +1,11 @@
+ÖRNEK OTO SERVİS — e-ARŞİV FATURA (ÖRNEK)
+Fatura No: EAR2026000004512   Fatura Tarihi: 25.09.2026
+Araç Plakası: 34 ABC 128
+Müşteri: Mehmet Örnek
+
+Arka tampon (orijinal)                 18.900,00 TL
+Sol stop lambası                       14.600,00 TL
+Bagaj kapağı onarım ve boya işçiliği   17.500,00 TL
+Ara Toplam                             51.000,00 TL
+KDV (%20)                              10.200,00 TL
+GENEL TOPLAM                           61.200,00 TL

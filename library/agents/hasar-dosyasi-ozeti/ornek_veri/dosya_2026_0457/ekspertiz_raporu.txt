@@ -1,0 +1,19 @@
+EKSPERTİZ RAPORU (ÖRNEK)
+Rapor No: EKS-2026-3310
+Eksper: Kurgu Ekspertiz Ltd. Şti.
+Poliçe No: KSK-2026-0088123
+Araç Plakası: 34 ABC 123
+Hasar Tarihi: 15.09.2026
+İnceleme Tarihi: 18.09.2026, Örnek Oto Servis
+
+Tespitler:
+Araç arka bölümünden darbe almıştır. Hasar izleri beyan edilen arkadan çarpma şekliyle uyumludur.
+Hasarlı parçalar: arka tampon (değişim), bagaj kapağı (onarım + boya), sol stop lambası (değişim).
+
+Hasar Tutarı (KDV hariç):
+  Parça: 31.250,00 TL
+  İşçilik ve boya: 17.500,00 TL
+  Toplam: 48.750,00 TL
+Sovtaj: Yok
+Değerlendirme: Hasar poliçe teminatı kapsamında görülmüştür. Kusur durumu kaza tespit tutanağına göre
+B aracı sürücüsü aleyhinedir; rücu imkânı değerlendirilmelidir.
