@@ -1,0 +1,15 @@
+{
+  "id": "kumas-kontrol-4-puan-sistemi-raporu",
+  "tur": "kod",
+  "ad": "Kumaş Kontrol (4 Puan Sistemi) Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --toplar toplar.xlsx --hatalar hata_kayitlari.xlsx --top-esik 40",
+  "girdiler": [
+    "Top listesi (.xlsx/.csv): Top No, Uzunluk (m), Kesilebilir En (cm); Parti, Renk, Etiket Uzunluğu, Sipariş Eni isteğe bağlı",
+    "Hata kayıtları (.xlsx/.csv): Top No, Konum (m), Uzunluk (cm) veya Puan; Hata Türü, Delik (E/H), Yön (boy/en) isteğe bağlı"
+  ],
+  "ciktilar": ["Excel: Partiler (alan ağırlıklı puan, kabul/ret), Toplar (puan/100 yd² ve 100 m², notlar, grafik), Hata Analizi (Pareto), Hata Kayıtları"],
+  "internet": false
+}

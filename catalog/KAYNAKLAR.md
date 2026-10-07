@@ -117,3 +117,6 @@ ve erişilebilen toplayıcı sitelerden okunmuştur.
 - Pazaryeri komisyonu: Trendyol Satıcı Bilgi Merkezi "Komisyon Faturaları Nedir" (akademi.trendyol.com) — komisyon
   faturaları KDV dahil rakamlardan hesaplanır, ekstra KDV ödenmez (bazı bloglardaki "komisyona +%20 KDV" hesabı hatalı).
 - E-ticaret stopajı %1, KDV hariç tutar üzerinden: 9284 sayılı CBK (RG 21.12.2024, 01.01.2025) — KPMG Vergi bülteni, İSMMMO.
+- Kumaş 4 puan sistemi (ASTM D5430 yaygın uygulaması): uzunluk eşikleri 3/6/9 inç, delik ≤1 inç 2 puan, yard başına en
+  fazla 4 puan, formül puan × 36 × 100 / (en inç × uzunluk yd), çözümlü örnek 22 puan / 120 yd / 45 inç = 14,66 —
+  V-Trust "Understanding the 4-point system", onlineclothingstudy.com, TradeAider.

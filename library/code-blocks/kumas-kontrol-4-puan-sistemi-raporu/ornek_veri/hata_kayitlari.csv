@@ -1,0 +1,16 @@
+Top No;Konum;Hata Türü;Uzunluk;Delik;Yön
+T-001;10,0;Leke;5;;en
+T-001;22,5;Atkı kaçığı;12;;en
+T-001;40,0;Kalın iplik;20;;boy
+T-001;40,5;Boya lekesi;30;;en
+T-001;70,0;Delik;2;E;
+T-002;10,0;Boya farkı (şerit);3000;;boy
+T-002;55,0;Leke;4;;en
+T-003;50,0;Kat izi;25;;en
+T-003;50,2;Leke;10;;en
+T-003;80,0;Düğüm;2;;en
+T-004;5,0;Düğüm;2;;en
+T-004;60,0;Leke;6;;en
+T-004;90,0;Düğüm;1;;en
+T-005;30,0;Atkı kaçığı;8;;en
+T-005;75,0;Kalın iplik;16;;boy
