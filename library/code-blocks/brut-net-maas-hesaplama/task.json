@@ -1,0 +1,20 @@
+{
+  "id": "brut-net-maas-hesaplama",
+  "tur": "kod",
+  "ad": "Brüt-Net Maaş Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --brut 85000",
+  "girdiler": [
+    "Tek kişi: --brut veya --net (aylık tutar)",
+    "Toplu: personel listesi (.xlsx/.csv) — Ad Soyad + Brüt veya Net; isteğe bağlı Gün, Önceki Kümülatif Matrah, Başlangıç Ayı",
+    "tr_parametreler.json: yıl parametreleri (kaynaklı)"
+  ],
+  "ciktilar": ["Excel: kişi başına 12 aylık bordro (SGK, işsizlik, GV, AÜ istisnaları, DV, net, işveren maliyeti), Özet, Parametreler"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "bordro.py": "_ortak/bordro.py",
+    "tr_parametreler.json": "_ortak/tr_parametreler.json"
+  }
+}

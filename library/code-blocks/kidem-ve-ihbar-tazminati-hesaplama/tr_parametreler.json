@@ -1,0 +1,103 @@
+{
+  "aciklama": "Türkiye bordro ve tazminat parametreleri. Yeni dönem başladığında yalnızca bu dosya güncellenir; kaynak ve tarih zorunludur.",
+  "guncelleme": "2026-10-07",
+  "yillar": {
+    "2026": {
+      "asgari_ucret_brut": "33030.00",
+      "sgk_isci_orani": "0.14",
+      "issizlik_isci_orani": "0.01",
+      "sgk_isveren_orani": "0.2175",
+      "issizlik_isveren_orani": "0.02",
+      "sgk_isveren_tesvik_puani": {
+        "yok": "0",
+        "imalat": "0.05",
+        "diger": "0.02"
+      },
+      "sgk_taban": "33030.00",
+      "sgk_tavan": "297270.00",
+      "damga_vergisi_orani": "0.00759",
+      "gelir_vergisi_ucret_tarifesi": [
+        [
+          "190000",
+          "0.15"
+        ],
+        [
+          "400000",
+          "0.20"
+        ],
+        [
+          "1500000",
+          "0.27"
+        ],
+        [
+          "5300000",
+          "0.35"
+        ],
+        [
+          null,
+          "0.40"
+        ]
+      ],
+      "kidem_tavani": [
+        {
+          "baslangic": "2026-01-01",
+          "bitis": "2026-06-30",
+          "tutar": "64948.77"
+        },
+        {
+          "baslangic": "2026-07-01",
+          "bitis": "2026-12-31",
+          "tutar": "73729.87"
+        }
+      ],
+      "kaynaklar": [
+        "Asgari ücret: Asgari Ücret Tespit Komisyonu kararı, Resmî Gazete 26.12.2025 (brüt 33.030,00 TL, net 28.075,50 TL)",
+        "SGK oranları, taban/tavan (9 × asgari ücret), işveren teşvik puanları: STB 2026 asgari ücret sirküleri — https://www.stb-cpaturkey.com/2026-asgari-ucret-isverene-maliyeti/",
+        "Gelir vergisi tarifesi: 332 Seri No'lu Gelir Vergisi Genel Tebliği (yeniden değerleme oranı %25,49) — https://www.stb-cpaturkey.com/2026-yili-gelir-vergisi-istisna-indirim-tarife-tutarlari/",
+        "Kıdem tazminatı tavanı: Hazine ve Maliye Bakanlığı mali ve sosyal haklar genelgesi (2026/1: 64.948,77 TL; 2026/2: 73.729,87 TL)",
+        "Damga vergisi: 488 sayılı Kanun (1) sayılı tablo IV-1-b, binde 7,59"
+      ]
+    },
+    "2025": {
+      "kidem_tavani": [
+        {
+          "baslangic": "2025-01-01",
+          "bitis": "2025-06-30",
+          "tutar": "46655.43"
+        },
+        {
+          "baslangic": "2025-07-01",
+          "bitis": "2025-12-31",
+          "tutar": "53919.68"
+        }
+      ],
+      "damga_vergisi_orani": "0.00759",
+      "kaynaklar": [
+        "Kıdem tazminatı tavanı 2025: https://www.alomaliye.com/2025/01/06/2025-yili-kidem-tazminati-tavani/ ve https://www.alomaliye.com/2025/07/07/temmuz-aralik-2025-kidem-tazminati-tavani/",
+        "Gelir vergisi tarifesi 2025: 329 Seri No'lu Gelir Vergisi Genel Tebliği (ücret: 158.000 / 330.000 / 1.200.000 / 4.300.000) — https://www.pwc.com.tr/tr/hizmetlerimiz/vergi/vergi-portali/pratik-bilgiler/oranlar/gelir-vergisi-tarifesi.html"
+      ],
+      "gelir_vergisi_ucret_tarifesi": [
+        [
+          "158000",
+          "0.15"
+        ],
+        [
+          "330000",
+          "0.20"
+        ],
+        [
+          "1200000",
+          "0.27"
+        ],
+        [
+          "4300000",
+          "0.35"
+        ],
+        [
+          null,
+          "0.40"
+        ]
+      ]
+    }
+  }
+}

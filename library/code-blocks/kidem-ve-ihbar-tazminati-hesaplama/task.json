@@ -1,0 +1,19 @@
+{
+  "id": "kidem-ve-ihbar-tazminati-hesaplama",
+  "tur": "kod",
+  "ad": "Kıdem ve İhbar Tazminatı Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --giris 15.03.2019 --cikis 30.09.2026 --brut 60000 --yan-odeme 4500",
+  "girdiler": [
+    "Tek kişi: --giris, --cikis, --brut (+ isteğe bağlı --yan-odeme, --ikramiye, --kumulatif)",
+    "Toplu: çıkış listesi (.xlsx/.csv) — Ad Soyad, İşe Giriş, İşten Çıkış, Brüt; isteğe bağlı Yan Ödeme, Yıllık İkramiye, Kümülatif Matrah, Kıdem Hakkı (E/H), İhbar Hakkı (E/H)"
+  ],
+  "ciktilar": ["Excel: kişi başına hizmet süresi, giydirilmiş ücret, kıdem tavanı, kıdem ve ihbar brüt/vergi/net, Kurallar sayfası"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "bordro.py": "_ortak/bordro.py",
+    "tr_parametreler.json": "_ortak/tr_parametreler.json"
+  }
+}
