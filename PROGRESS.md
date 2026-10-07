@@ -77,9 +77,18 @@
   plakalar takma adla maskelenir). Yeni ortak modül: `library/_ortak/belge.py` (PDF/DOCX/TXT).
 - **Toplam 27 paket** (21 kod bloğu + 6 agent), kontrol 27/27, CI yeşil.
 
+- Yeni kod blokları: `stok-abc-xyz-analizi`, `yeniden-siparis-noktasi-hesabi` (ders kitabı örnekleriyle test),
+  `doluluk-adr-ve-revpar-raporu` (GY 364 gün hizalı), `kumas-kontrol-4-puan-sistemi-raporu` (ASTM D5430 uygulaması;
+  yayımlanmış 14,66 örneğiyle test), `olcu-tablosu-beden-serisi-grading`.
+- Yeni agent'lar: `8d-rapor-taslagi`, `misafir-yorum-analizi`, `is-ilani-metni-hazirlama`, `mulakat-soru-seti-hazirlama`.
+- Yeni ortak modül: `library/_ortak/ayrimcilik.py` (4857 md.5, 6701 md.3/6/7, 6356 md.25, KVKK md.4 dayanaklı kural
+  tabanlı tarayıcı; yanlış alarm testleri var). `llm.maskele` artık sabit hat/0850 numaralarını da maskeliyor
+  (başında 0 veya +90 şart, sipariş no gibi 10 haneli sayılar etkilenmez).
+- Not: Bu bilgisayarda Excel/LibreOffice yok; mülakat formundaki Excel formülleri (AVERAGEIF, SUMPRODUCT) hesaplatılarak
+  doğrulanmadı, yalnız yapısı test edildi.
+- **Toplam 36 paket** (26 kod bloğu + 10 agent), kontrol 36/36.
+
 ### KALDIĞIM YER
-PLAN.md Aşama 2'deki sıra: stok ABC/XYZ + yeniden sipariş noktası → otel doluluk/ADR/RevPAR → tekstil 4 puan kumaş
-kontrolü → ölçü tablosu grading → agent'lar (toplantı notu→aksiyon, müşteri yorum analizi, iş ilanı+mülakat, 8D,
-mali tablo yorum raporu, PDF fatura okuma). Klasör adı = katalogdaki görev adının slug'ı (build.mjs'deki slug).
-Komut zinciri: `PYTHONIOENCODING=utf-8 .venv/Scripts/python scripts/kontrol.py --senkronla` → `--test` →
-`node scripts/build.mjs` (hata verirse çıkış kodu 1; `| tail` ile gizlemeyin) → commit + push.
+Sıradaki: agent'lar — Mülakat Değerlendirme Özeti (ortak.mjs İK), Görüşme Kaydı Özeti (müşteri hizmetleri), Destek
+Talebi Sınıflandırma (BT); sonra katalogdaki puanı (3. alan) yüksek görevlerden kod blokları. Klasör adı = görev
+adının slug'ı. Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` → commit + push.
