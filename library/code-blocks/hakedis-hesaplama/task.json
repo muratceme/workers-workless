@@ -1,0 +1,16 @@
+{
+  "id": "hakedis-hesaplama",
+  "tur": "kod",
+  "ad": "Hakediş Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --sozlesme sozlesme.json --pozlar pozlar.xlsx --metraj metraj.xlsx --hakedis 3",
+  "girdiler": [
+    "Sözleşme ayarları (sozlesme.json): KDV, KDV tevkifatı, stopaj, teminat, avans, fiyat farkı, diğer kesintiler",
+    "Poz listesi (.xlsx/.csv): Poz No, Tanım, Birim, Sözleşme Miktarı, Birim Fiyat",
+    "Dönem metrajları (.xlsx/.csv): Hakediş No, Poz No, Miktar"
+  ],
+  "ciktilar": ["Excel: Hakediş İcmali (toplam / önceki / bu hakediş, vergi ve kesintiler, ödenecek), Metraj Özeti, Hakediş Geçmişi"],
+  "internet": false
+}

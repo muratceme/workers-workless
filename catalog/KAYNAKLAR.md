@@ -105,3 +105,12 @@ ve erişilebilen toplayıcı sitelerden okunmuştur.
 
 - eleman.net "Bir Fabrikada Hangi Bölümler, Meslekler Bulunur?" ve ilanlar: "Üretim Planlama Mühendisi",
   "Fabrika Üretim Müdürü", "Fabrika Bakım Yöneticisi".
+
+## Mevzuat doğrulamaları (kod blokları)
+
+- Yapım işlerinde KDV tevkifatı 4/10, KDV dahil 5 milyon TL eşiği: KDV Genel Uygulama Tebliğinde Değişiklik (Seri No: 35,
+  RG 16.02.2021, 01.03.2021'den itibaren) — muhasebetr.com (Fuat Tekgül, "Yapım İşlerinde KDV Tevkifat Uygulaması"),
+  KPMG Vergi bülteni.
+- Yıllara yaygın inşaat ve onarım işlerinde stopaj %5: 3491 sayılı Cumhurbaşkanı Kararı (RG 04.02.2021) — KPMG ve PwC
+  Türkiye vergi bültenleri; demiryolu/gemi/nükleer santral işlerinde %1 (11344 sayılı CBK, 2026).
+- Form Ba-Bs'nin kaldırılması: 565 Sıra No'lu VUK Genel Tebliği (RG 25.09.2024).

@@ -56,9 +56,20 @@
 - Yeni paketler: `gelen-e-fatura-kayit-kontrolu`, `alacak-yaslandirma` (FIFO), `nakit-akis-tahmini` (13 hafta).
   **Toplam 17 paket** (13 kod bloğu yeni + 4 ilk paket), hepsi testli.
 
-### KALDIĞIM YER (kullanım limiti doldu)
-Sıradaki paketler (PLAN.md Aşama 2 sırasıyla): cari hesap mutabakatı → bütçe-gerçekleşen sapma → hakediş (inşaat;
-KDV tevkifatı ve stopaj oranlarını ÖNCE resmî kaynaktan doğrula) → pazaryeri sipariş kârlılık → teklif karşılaştırma
-→ mali tablo rasyo analizi → agent'lar (sözleşme ön inceleme, müşteri talebi sınıflandırma, ürün açıklaması, hasar özeti).
+### 2026-10-07 (devam oturumu)
+- Yeni paketler: `cari-hesap-mutabakati` (karşı taraf yönü otomatik, KDV/tevkifat farkı tahmini, yoldaki kalemler,
+  mutabakat mektubu), `butce-gerceklesen-sapma-raporu` (önek eşleşmesi 770.02.001→770.02, Tekdüzen gelir/gider yönü,
+  önemlilik eşiği, zamanlama uyarısı, yıl sonu tahmini), `hakedis-hesaplama` (inşaat; kümülatif icmal).
+- Hakediş için doğrulanan mevzuat: yapım işlerinde KDV tevkifatı 4/10 — belirlenmiş alıcı veya KDV dahil bedel
+  ≥ 5.000.000 TL (KDV GUT I/C-2.1.3.2.1, Seri 35, 01.03.2021); yıllara yaygın inşaat stopajı %5 (GVK 94/3, 3491 s. CBK,
+  01.03.2021), demiryolu/gemi/nükleer %1. Kaynaklar catalog/KAYNAKLAR.md'de.
+- **Toplam 20 paket**, kontrol 20/20.
+
+### KALDIĞIM YER
+Sıradaki paketler (PLAN.md Aşama 2 sırasıyla): pazaryeri sipariş kârlılık (komisyon/kargo/hizmet bedeli oranlarını
+pazaryerlerinin güncel sayfalarından doğrula; sabit oran koyma, kullanıcıdan al) → teklif karşılaştırma → mali tablo
+rasyo analizi → agent'lar (sözleşme ön inceleme, müşteri talebi sınıflandırma, ürün açıklaması, hasar özeti).
 Her paket: library/code-blocks/<id>/ (main.py, task.json, README.md, requirements.txt, ornek_veri/, tests/),
-ardından `PYTHONIOENCODING=utf-8 .venv/Scripts/python scripts/kontrol.py --senkronla` ve `--test`, commit + push.
+klasör adı katalogdaki görev adının slug'ı olmalı (build.mjs eşleştirmesi), ardından
+`PYTHONIOENCODING=utf-8 .venv/Scripts/python scripts/kontrol.py --senkronla` ve `--test`, `node scripts/build.mjs`,
+commit + push.

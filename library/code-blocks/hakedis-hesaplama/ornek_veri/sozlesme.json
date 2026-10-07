@@ -1,0 +1,15 @@
+{
+  "is_adi": "Kurgu Konutları A Blok Kaba İnşaat İşi",
+  "yuklenici": "Örnek Yapı Ltd. Şti.",
+  "isveren": "Hayali Gayrimenkul A.Ş.",
+  "kdv_orani": "0.20",
+  "kdv_tevkifati": "otomatik",
+  "belirlenmis_alici": false,
+  "yillara_yaygin": true,
+  "stopaj_orani": "0.05",
+  "damga_vergisi_orani": "0",
+  "teminat_kesintisi_orani": "0.05",
+  "avans_tutari": "620000",
+  "fiyat_farki": {"3": "85000"},
+  "diger_kesintiler": {"3": {"Şantiye elektrik bedeli": "12500"}}
+}
