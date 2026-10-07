@@ -65,7 +65,7 @@ export const ORTAK = {
       { id: "muhasebe-elemani", name: "Muhasebe Elemanı", level: "Giriş", tasks: [
         ["Banka Mutabakatı", "Banka ekstresi ile muhasebe defterini (102 Bankalar) eşleştirir; eşleşenleri, açık kalemleri ve olası nedenlerini raporlar.", 6],
         ["Cari Hesap Mutabakatı", "Firma ile karşı tarafın cari ekstrelerini karşılaştırıp fatura, ödeme ve iade bazında farkları ve olası nedenlerini çıkarır.", 5],
-        ["Form Ba-Bs Kontrolü", "Alış ve satış faturalarından Ba-Bs bildirim tutarlarını VKN bazında hesaplar, karşı tarafın bildirdikleriyle uyumsuzlukları listeler.", 4],
+        ["Gelen e-Fatura Kayıt Kontrolü", "GİB veya özel entegratör portalından alınan gelen e-Fatura / e-Arşiv listesini muhasebe alış kayıtlarıyla karşılaştırır; deftere işlenmemiş, mükerrer işlenmiş veya tutarı farklı faturaları listeler.", 4],
         ["Masraf Fişi Kategorileme", "Çalışan masraf fişlerini ve kredi kartı harcamalarını hesap planına göre sınıflandırıp muhasebe kayıt önerisi çıkarır.", 3],
         ["Fatura KDV Tutarlılık Kontrolü", "Fatura satırlarında matrah, KDV oranı ve KDV tutarı tutarlılığını, tevkifat oranlarını ve yuvarlama hatalarını kontrol eder.", 3],
       ]},

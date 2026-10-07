@@ -47,7 +47,7 @@ Kod blokları (deterministik):
 - [x] Kıdem ve ihbar tazminatı hesaplama
 - [x] Yıllık izin hakedişi hesaplama (4857 s. Kanun md. 53)
 - [ ] Cari hesap yaşlandırma (alacak/borç)
-- [ ] Form Ba/Bs mutabakat kontrolü
+- [~] ~~Form Ba/Bs~~ — 565 Sıra No'lu VUK Tebliği ile 01.10.2024'ten itibaren KALDIRILDI; yerine "Gelen e-Fatura Kayıt Kontrolü"
 - [ ] Nakit akış tahmini (vadeli alacak/borç listesinden 13 hafta)
 - [ ] Bütçe–gerçekleşen sapma raporu
 - [ ] Stok ABC/XYZ analizi, yeniden sipariş noktası, stok yaşlandırma

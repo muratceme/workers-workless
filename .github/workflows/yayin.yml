@@ -9,6 +9,11 @@ on:
 permissions:
   contents: read
 
+# Art arda push'larda GitHub Pages yayınları çakışmasın
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   kontrol:
     name: Kontrol (${{ matrix.os }}, Python ${{ matrix.python }})

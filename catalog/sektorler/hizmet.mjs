@@ -13,7 +13,7 @@ export const SMMM = {
         "e-Fatura Okuma ve Listeleme",
         ["Banka Hareketlerinden Muhasebe Fişi Önerisi", "Mükellefin banka ekstresindeki hareketleri açıklama kurallarına göre hesap kodlarıyla eşleştirip muhasebe fişi önerisi çıkarır.", 6],
         "Banka Mutabakatı",
-        "Form Ba-Bs Kontrolü",
+        "Gelen e-Fatura Kayıt Kontrolü",
         ["e-Defter Berat Yükleme Takibi", "Mükellef bazında e-defter dönemlerinin oluşturma, imzalama ve berat yükleme son tarihlerini takip eder.", 2],
       ]},
       { id: "mali-musavir-stajyeri", name: "Mali Müşavir Stajyeri", level: "Giriş", tasks: [
@@ -43,7 +43,7 @@ export const SMMM = {
         "Brüt-Net Maaş Hesaplama",
         "Puantaj Kontrolü",
         "SGK Giriş-Çıkış Bildirge Kontrolü",
-        ["SGK Teşvik Uygunluk Ön Kontrolü", "Çalışan ve işyeri bilgilerine göre yaygın SGK teşviklerinin (5510, 6111, 4447 vb.) uygunluk koşullarını ön kontrolden geçirir.", 2],
+        ["SGK Teşvik Uygunluk Ön Kontrolü", "Çalışan ve işyeri bilgilerine göre yürürlükteki SGK prim teşviklerinin uygunluk koşullarını (yaş, kayıt süresi, borç durumu vb.) ön kontrolden geçirir.", 2],
       ]},
     ],
   },
