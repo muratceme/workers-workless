@@ -1,0 +1,15 @@
+{
+  "id": "cari-hesap-mutabakati",
+  "tur": "kod",
+  "ad": "Cari Hesap Mutabakatı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --biz bizim_ekstre.xlsx --karsi karsi_taraf_ekstresi.xlsx --bitis 30.09.2026",
+  "girdiler": [
+    "Kendi cari ekstremiz (.xlsx/.csv): Tarih, Borç, Alacak (veya işaretli Tutar) zorunlu; Belge No, Belge Türü, Açıklama isteğe bağlı",
+    "Karşı tarafın gönderdiği ekstre (aynı biçim; kayıt yönü otomatik algılanır)"
+  ],
+  "ciktilar": ["Excel: Özet (iki bakiye, fark, açıklanan/açıklanamayan fark), Farklar (olası nedenleriyle), Eşleşenler, iki ekstrenin durumlu listesi, mutabakat mektubu taslağı"],
+  "internet": false
+}

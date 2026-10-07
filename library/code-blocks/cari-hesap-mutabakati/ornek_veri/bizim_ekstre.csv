@@ -1,0 +1,10 @@
+Tarih;Belge No;Belge Türü;Açıklama;Borç;Alacak
+01.07.2026;;Devir;Önceki dönemden devir;;50.000,00
+03.07.2026;KAM2026000000101;Alış Faturası;Ambalaj malzemesi;;120.000,00
+15.07.2026;;Banka;EFT ödeme - Haziran bakiyesi;50.000,00;
+05.08.2026;KAM2026000000145;Alış Faturası;Koli ve streç film;;84.000,00
+20.08.2026;;Banka;Havale ödeme;120.000,00;
+10.09.2026;KAM2026000000188;Alış Faturası;Etiket baskı;;36.000,00
+12.09.2026;KAM2026000000190;Alış Faturası;Ambalaj malzemesi;;60.000,00
+18.09.2026;ÖGD2026000000033;İade Faturası;Hatalı koli iadesi;6.000,00;
+30.09.2026;;Banka;EFT ödeme;40.000,00;
