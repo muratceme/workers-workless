@@ -1,0 +1,11 @@
+{
+  "_not": "Kıdemli İK Uzmanı ilanının ZORUNLU kriterleri (örnek). Yalnız işe dayalı kriter yazın; yaş, cinsiyet, medeni hâl, görünüş vb. kabul edilmez.",
+  "en_az_deneyim_yil": 5,
+  "en_az_egitim": "Lisans",
+  "zorunlu_diller": ["İngilizce"],
+  "zorunlu_beceriler": ["Excel", "Bordro"],
+  "beceri_gruplari": [
+    {"liste": ["SAP", "Logo", "Netsis", "Mikro", "ERP"], "en_az": 1}
+  ],
+  "zorunlu_ifadeler": []
+}

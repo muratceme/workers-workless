@@ -1,0 +1,20 @@
+{
+  "id": "cv-on-eleme",
+  "tur": "kod",
+  "ad": "CV Ön Eleme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi ./cvler --kriterler kriterler.json",
+  "girdiler": [
+    "CV klasörü (.pdf, .docx, .txt)",
+    "Zorunlu kriterler (kriterler.json): en az deneyim yılı, en az eğitim, zorunlu diller, zorunlu beceriler, 'en az N tanesi' beceri grupları, zorunlu ifadeler (gerekçeli)"
+  ],
+  "ciktilar": ["Excel: Ön Eleme (GEÇTİ / MANUEL KONTROL / ELENDİ, kriter bazında ✓ ✗ ? ve gerekçe, 'İK Onayı'), Kriterler, Bilgi"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "cv_cekirdek.py": "code-blocks/cv-raporlama/main.py",
+    "ayrimcilik.py": "_ortak/ayrimcilik.py",
+    "ornek_veri": "code-blocks/cv-raporlama/ornek_veri"
+  }
+}
