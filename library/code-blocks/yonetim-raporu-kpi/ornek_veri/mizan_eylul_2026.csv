@@ -1,0 +1,39 @@
+Örnek Sanayi A.Ş. — 01.01.2026-31.12.2026 Mizan (kapanış öncesi)
+Hesap Kodu;Hesap Adı;Borç Bakiye;Alacak Bakiye
+100;Kasa;50.000,00;
+102;Bankalar;3.850.000,00;
+102.01;Örnek Bankası TL;2.310.000,00;
+102.02;Kurgu Bankası TL;1.540.000,00;
+120;Alıcılar;4.000.000,00;
+121;Alacak Senetleri;500.000,00;
+150;İlk Madde ve Malzeme;1.500.000,00;
+152;Mamuller;1.000.000,00;
+191;İndirilecek KDV;200.000,00;
+253;Tesis, Makine ve Cihazlar;6.000.000,00;
+254;Taşıtlar;1.000.000,00;
+257;Birikmiş Amortismanlar (-);;2.000.000,00
+300;Banka Kredileri;;2.500.000,00
+320.01;Yurt içi satıcılar;;2.100.000,00
+320.01.001;Tedarikçi A;;1.500.000,00
+320.01.002;Tedarikçi B;;600.000,00
+320.02;Yurt dışı satıcılar;;900.000,00
+335;Personele Borçlar;;300.000,00
+360;Ödenecek Vergi ve Fonlar;;250.000,00
+370;Dönem Kârı Vergi ve Diğer Yasal Yükümlülük Karşılıkları;;975.000,00
+371;Dönem Kârının Peşin Ödenen Vergi ve Diğer Yükümlülükleri (-);700.000,00;
+391;Hesaplanan KDV;;350.000,00
+400;Banka Kredileri;;2.000.000,00
+500;Sermaye;;3.000.000,00
+570;Geçmiş Yıllar Kârları;;1.500.000,00
+600;Yurt İçi Satışlar;;20.000.000,00
+601;Yurt Dışı Satışlar;;4.000.000,00
+610;Satıştan İadeler (-);500.000,00;
+611;Satış İskontoları (-);300.000,00;
+620;Satılan Mamuller Maliyeti (-);16.000.000,00;
+631;Pazarlama Satış ve Dağıtım Giderleri (-);1.200.000,00;
+632;Genel Yönetim Giderleri (-);1.500.000,00;
+642;Faiz Gelirleri;;100.000,00
+646;Kambiyo Kârları;;300.000,00
+656;Kambiyo Zararları (-);200.000,00;
+660;Kısa Vadeli Borçlanma Giderleri (-);800.000,00;
+691;Dönem Kârı Vergi ve Diğer Yasal Yükümlülük Karşılıkları (-);975.000,00;

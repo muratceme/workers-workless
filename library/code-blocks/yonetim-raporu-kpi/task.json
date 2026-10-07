@@ -1,0 +1,18 @@
+{
+  "id": "yonetim-raporu-kpi",
+  "tur": "kod",
+  "ad": "Yönetim Raporu (KPI)",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --satis satislar.xlsx --ay 2026-09 --mizan mizan_eylul.xlsx",
+  "girdiler": [
+    "Satış satırları (.xlsx/.csv): Tarih, Net Tutar (KDV hariç); Fatura No, Müşteri, Ürün, Kategori, Kanal, Adet, Maliyet, Tür (iade) isteğe bağlı",
+    "İsteğe bağlı mizan (Tekdüzen Hesap Planı, kapanış öncesi) — finans göstergeleri için"
+  ],
+  "ciktilar": ["Excel: Yönetim Özeti (ay / önceki ay / GY aynı ay / YTD / GY YTD karşılaştırmalı KPI'lar, finans göstergeleri, grafikler), Trend (13 ay), Kanal, Kategori, Müşteri, Ürün kırılımları"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "rasyo_cekirdek.py": "code-blocks/mali-tablo-rasyo-analizi/main.py"
+  }
+}
