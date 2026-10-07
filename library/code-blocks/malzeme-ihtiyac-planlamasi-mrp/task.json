@@ -1,0 +1,17 @@
+{
+  "id": "malzeme-ihtiyac-planlamasi-mrp",
+  "tur": "kod",
+  "ad": "Malzeme İhtiyaç Planlaması (MRP)",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --mps mps.xlsx --bom urun_agaci.xlsx --stok malzemeler.xlsx --acik acik_siparisler.xlsx --baslangic 02.11.2026 --donem 8",
+  "girdiler": [
+    "Ana üretim planı (MPS): Ürün, Dönem (no veya tarih), Miktar",
+    "Ürün ağacı (BOM): Üst Malzeme, Alt Malzeme, Miktar, Fire %",
+    "Malzemeler: Malzeme, Eldeki, Emniyet Stoğu, Tedarik Süresi (dönem), Lot Yöntemi (L4L/Sabit), Lot Miktarı, En Az Sipariş, Ambalaj Katı",
+    "İsteğe bağlı açık siparişler (planlanmış girişler): Malzeme, Miktar, Termin"
+  ],
+  "ciktilar": ["Excel: Sipariş Önerileri (miktar, veriliş ve ihtiyaç dönemi, acil/geçmiş), MRP Kayıtları (brüt, planlanmış giriş, öngörülen stok, net, planlanan giriş ve veriliş)"],
+  "internet": false
+}

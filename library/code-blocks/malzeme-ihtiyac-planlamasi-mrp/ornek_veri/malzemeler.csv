@@ -1,0 +1,11 @@
+Malzeme;Malzeme Adı;Birim;Tedarik Türü;Eldeki;Emniyet Stoğu;Tedarik Süresi (dönem);Lot Yöntemi;Lot Miktarı;En Az Sipariş;Ambalaj Katı
+MAS-01;Çalışma masası 120x60;adet;Üretim;30;0;1;L4L;;;
+MAS-02;Çalışma masası 160x80;adet;Üretim;0;0;1;L4L;;;
+TBL-120;Tabla 120x60;adet;Üretim;40;10;1;L4L;;;
+TBL-160;Tabla 160x80;adet;Üretim;0;0;1;L4L;;;
+AYK-72;Metal ayak 72 cm;adet;Üretim;200;50;1;Sabit;200;;
+PRF-40;Kare profil 40x40;kg;Satın alma;600;50;2;L4L;;500;25
+VDA-M6;Vida M6x20;adet;Satın alma;9000;1000;2;L4L;;5000;1000
+MDF-18;MDF levha 18 mm;adet;Satın alma;90;10;3;L4L;;50;10
+PKT-01;Koli 120 lik;adet;Satın alma;100;20;1;L4L;;200;50
+PKT-02;Koli 160 lık;adet;Satın alma;60;10;1;L4L;;100;50
