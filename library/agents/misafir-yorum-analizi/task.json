@@ -1,0 +1,19 @@
+{
+  "id": "misafir-yorum-analizi",
+  "tur": "agent",
+  "ad": "Misafir Yorum Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi yorumlar.xlsx --olcek Booking=10 Google=5",
+  "girdiler": [
+    "Yorumlar (.xlsx/.csv): Yorum; Yorum No, Tarih, Platform, Puan, Başlık isteğe bağlı (çok dilli olabilir)",
+    "İsteğe bağlı platform puan ölçekleri (--olcek)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Acil (hijyen, sağlık, güvenlik, kaba davranış), Konu Analizi (bahsedilme, olumlu/olumsuz, net duygu, haftalık değişim, grafik), Yorumlar (Türkçe özet, konular, alıntılar, puan-yorum tutarsızlığı, yorumun dilinde cevap taslağı, 'Onay')"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}
