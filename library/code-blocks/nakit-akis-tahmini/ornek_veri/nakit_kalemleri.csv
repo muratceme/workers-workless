@@ -1,0 +1,18 @@
+Tür;Kategori;Açıklama;Tarih;Tutar;Tekrar;Bitiş
+Giriş;Müşteri;Deneme Lojistik - ORN051 kalan;05.07.2026;20.000,00;;
+Giriş;Müşteri;Kurgu Tekstil - ORN021;01.04.2026;64.500,00;;
+Giriş;Müşteri;Deneme Lojistik - ORN099;10.10.2026;45.000,00;;
+Giriş;Müşteri;Model Enerji - ORN094;31.10.2026;210.000,00;;
+Giriş;Müşteri;Örnek Perakende - sözleşmeli aylık tahsilat;15.10.2026;180.000,00;Aylık;31.12.2026
+Giriş;Müşteri;Diğer müşteriler - haftalık ortalama tahsilat;09.10.2026;135.000,00;Haftalık;
+Giriş;Çek;Alınan çek - Pilot Otomotiv (Ç-48211);23.10.2026;95.000,00;;
+Giriş;Çek;Alınan çek - Test İnşaat (Ç-51007);20.11.2026;140.000,00;;
+Çıkış;Tedarikçi;Kumaş tedarikçisi - fatura 4412;12.10.2026;310.000,00;;
+Çıkış;Tedarikçi;Ambalaj tedarikçisi;26.10.2026;85.000,00;;
+Çıkış;Tedarikçi;Hammadde - vadesi geçmiş fatura;28.09.2026;42.000,00;;
+Çıkış;Maaş;Personel maaşları;05.01.2026;385.000,00;Aylık;
+Çıkış;Kira;Fabrika kirası;01.01.2026;120.000,00;Aylık;
+Çıkış;Kredi;İşletme kredisi taksiti;20.01.2026;96.500,00;Aylık;20.12.2026
+Çıkış;Vergi;KDV ödemesi (örnek tarih);28.10.2026;74.000,00;;
+Çıkış;SGK;SGK prim ödemesi (örnek tarih);30.10.2026;118.000,00;;
+Çıkış;Çek;Verilen çek - makine alımı (Ç-0912);16.11.2026;250.000,00;;

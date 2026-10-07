@@ -53,3 +53,12 @@
   yürürlükte olduğunu doğrula.**
 - kontrol.py artık her paketin `--help` komutunu da çalıştırıyor (argparse "%" hatası böyle yakalandı).
 - CI: art arda push'larda Pages yayını çakışıyordu → workflow'a `concurrency` eklendi.
+- Yeni paketler: `gelen-e-fatura-kayit-kontrolu`, `alacak-yaslandirma` (FIFO), `nakit-akis-tahmini` (13 hafta).
+  **Toplam 17 paket** (13 kod bloğu yeni + 4 ilk paket), hepsi testli.
+
+### KALDIĞIM YER (kullanım limiti doldu)
+Sıradaki paketler (PLAN.md Aşama 2 sırasıyla): cari hesap mutabakatı → bütçe-gerçekleşen sapma → hakediş (inşaat;
+KDV tevkifatı ve stopaj oranlarını ÖNCE resmî kaynaktan doğrula) → pazaryeri sipariş kârlılık → teklif karşılaştırma
+→ mali tablo rasyo analizi → agent'lar (sözleşme ön inceleme, müşteri talebi sınıflandırma, ürün açıklaması, hasar özeti).
+Her paket: library/code-blocks/<id>/ (main.py, task.json, README.md, requirements.txt, ornek_veri/, tests/),
+ardından `PYTHONIOENCODING=utf-8 .venv/Scripts/python scripts/kontrol.py --senkronla` ve `--test`, commit + push.

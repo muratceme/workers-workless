@@ -1,0 +1,15 @@
+{
+  "id": "nakit-akis-tahmini",
+  "tur": "kod",
+  "ad": "Nakit Akış Tahmini",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi nakit_kalemleri.xlsx --acilis 1250000 --baslangic 05.10.2026 --minimum 250000",
+  "girdiler": [
+    "Nakit kalemleri (.xlsx/.csv): Tür (Giriş/Çıkış), Tarih, Tutar (zorunlu); Kategori, Açıklama, Tekrar (Haftalık/Aylık), Bitiş (isteğe bağlı)",
+    "Parametreler: açılış nakit, başlangıç, hafta sayısı, minimum eşik, tahsilat gecikmesi, vadesi geçmiş alacak tahsil oranı"
+  ],
+  "ciktilar": ["Excel: kategori bazında haftalık giriş-çıkış, kapanış bakiyesi, eşik altı haftalar, grafik, kalem listesi, varsayımlar"],
+  "internet": false
+}
