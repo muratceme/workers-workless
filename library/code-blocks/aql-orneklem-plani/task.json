@@ -1,0 +1,15 @@
+{
+  "id": "aql-orneklem-plani",
+  "tur": "kod",
+  "ad": "AQL Örneklem Planı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --parti 1200 --aql 2.5",
+  "girdiler": [
+    "Tek plan: --parti, --aql, --seviye (I, II, III, S-1..S-4)",
+    "Toplu: muayene listesi (.xlsx/.csv) — Parti Büyüklüğü (zorunlu); Sipariş No, Seviye, Kritik/Majör/Minör AQL ve bulunan hata sayıları (isteğe bağlı)"
+  ],
+  "ciktilar": ["Excel: parti bazında kod harfi, örneklem, kabul/ret sayıları, KABUL/RET kararı"],
+  "internet": false
+}

@@ -1,0 +1,14 @@
+{
+  "id": "risk-degerlendirmesi-fine-kinney",
+  "tur": "kod",
+  "ad": "Risk Değerlendirmesi (Fine-Kinney)",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi tehlike_listesi.xlsx",
+  "girdiler": [
+    "Tehlike listesi (.xlsx/.csv): Tehlike, Olasılık, Frekans, Şiddet (zorunlu); Bölüm, Risk, Mevcut Önlemler, Önerilen Önlemler, Sorumlu, Termin, Önlem Sonrası Olasılık/Frekans/Şiddet (isteğe bağlı)"
+  ],
+  "ciktilar": ["Excel: renkli ve önceliğe göre sıralı Risk Değerlendirmesi, Özet (sınıf ve bölüm), Skalalar"],
+  "internet": false
+}
