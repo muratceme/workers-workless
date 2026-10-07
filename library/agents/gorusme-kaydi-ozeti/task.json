@@ -1,0 +1,19 @@
+{
+  "id": "gorusme-kaydi-ozeti",
+  "tur": "agent",
+  "ad": "Görüşme Kaydı Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi gorusmeler.xlsx --tatiller dini_bayramlar.txt",
+  "girdiler": [
+    "Görüşme notları (.xlsx/.csv): Tarih, Not; Görüşme No, Kanal, Temsilci, Müşteri isteğe bağlı",
+    "İsteğe bağlı ek tatil günleri (dini bayramlar) listesi",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Takip Listesi (aksiyon ve müşteriye verilen sözler, koddan hesaplanan son tarih, gecikmiş/tarihsiz işaretleri), Görüşme Kayıtları (kategori, talep, işlem, durum, duygu, risk, kontrol)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}
