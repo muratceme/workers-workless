@@ -22,12 +22,13 @@ Kaynaklar `catalog/KAYNAKLAR.md` dosyasına işlenir.
 ## Aşamalar
 
 ### Aşama 1 — Katalog (ağaç) yeniden kurulumu
-- [ ] Sektör listesi (Türkiye'de istihdamı/şirket sayısı yüksek sektörler)
-- [ ] Her sektör için departmanlar (gerçek adlandırma)
-- [ ] Her departman için roller (kariyer.net'te doğrulanmış unvanlar)
-- [ ] Her rol için görevler (ilan/MYK'dan)
-- [ ] Ortak departmanlar: İK, Muhasebe, Finans, BT, Satın Alma, Hukuk, İdari İşler, Pazarlama, Satış, Müşteri Hizmetleri, İSG, Dış Ticaret
-- [ ] catalog.mjs formatını genişlet: görev başına `tur` önerisi (kod/agent/ikisi), kaynak notu
+- [x] Sektör listesi (Türkiye'de istihdamı/şirket sayısı yüksek sektörler)
+- [x] Her sektör için departmanlar (gerçek adlandırma)
+- [x] Her departman için roller (kariyer.net'te doğrulanmış unvanlar)
+- [x] Her rol için görevler (ilan/MYK'dan)
+- [x] Ortak departmanlar: İK, Muhasebe, Finans, BT, Satın Alma, Hukuk, İdari İşler, Pazarlama, Satış, Müşteri Hizmetleri, İSG, Dış Ticaret
+- [x] Görev kayıt defteri (aynı görev birden çok rolde)
+- [ ] (Sonra) Hukuk bürosu, otomotiv, eğitim için daha çok rol; SOON sektörleri (Enerji, Telekom, Faktoring, Kimya-İlaç)
 
 Planlanan sektörler (sıra = öncelik):
 1. Bankacılık 2. Sigortacılık 3. Üretim / Sanayi 4. Tekstil ve Hazır Giyim 5. Perakende
@@ -35,13 +36,16 @@ Planlanan sektörler (sıra = öncelik):
 11. Turizm ve Otelcilik 12. Mali Müşavirlik (SMMM bürosu) 13. Hukuk Bürosu 14. Otomotiv Bayi ve Servis
 15. Enerji 16. Eğitim (özel okul) 17. Faktoring / Leasing
 
-### Aşama 2 — Paketler (öncelik: Türkiye'ye özgü + yüksek fayda + doğrulanabilir)
+### Aşama 2 — Paketler
+Sıradaki öncelik sırası: Fine-Kinney → AQL → OEE → SPC → Erlang C → alacak yaşlandırma → nakit akış →
+cari mutabakat → Ba-Bs → bütçe sapma → hakediş (inşaat) → pazaryeri kârlılık → teklif karşılaştırma → agent'lar
+ (öncelik: Türkiye'ye özgü + yüksek fayda + doğrulanabilir)
 Kod blokları (deterministik):
-- [ ] e-Fatura / e-Arşiv UBL-TR XML okuyucu → Excel (KDV kırılımı, tevkifat)
-- [ ] TCKN / VKN / IBAN toplu doğrulama (cari ve personel listesi temizliği)
-- [ ] Brüt-net bordro hesaplama (2026 parametreleri, kaynaklı)
-- [ ] Kıdem ve ihbar tazminatı hesaplama
-- [ ] Yıllık izin hakedişi hesaplama (4857 s. Kanun md. 53)
+- [x] e-Fatura / e-Arşiv UBL-TR XML okuyucu → Excel (KDV kırılımı, tevkifat)
+- [x] TCKN / VKN / IBAN toplu doğrulama (cari ve personel listesi temizliği)
+- [x] Brüt-net bordro hesaplama (2026 parametreleri, kaynaklı)
+- [x] Kıdem ve ihbar tazminatı hesaplama
+- [x] Yıllık izin hakedişi hesaplama (4857 s. Kanun md. 53)
 - [ ] Cari hesap yaşlandırma (alacak/borç)
 - [ ] Form Ba/Bs mutabakat kontrolü
 - [ ] Nakit akış tahmini (vadeli alacak/borç listesinden 13 hafta)
@@ -67,8 +71,8 @@ Agent'lar (muhakeme gereken):
 - [ ] PDF fatura okuma (e-Fatura olmayan faturalar)
 
 ### Aşama 3 — Yayın
-- [ ] GitHub deposu (API 500 hatası; tekrar dene veya kullanıcıdan boş depo iste)
-- [ ] GitHub Pages
+- [x] GitHub deposu
+- [x] GitHub Pages
 - [ ] Agent'ların gerçek API ile testi (kullanıcı anahtar verecek)
 
 ## Çalışma kuralları
