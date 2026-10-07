@@ -1,0 +1,51 @@
+YAZILIM BAKIM VE DESTEK HİZMET SÖZLEŞMESİ
+
+MADDE 1 – TARAFLAR
+1.1. Bu sözleşme, bir tarafta Kurgu Bilişim Teknolojileri A.Ş. (bundan sonra "HİZMET VEREN" olarak anılacaktır; adres: Örnek Mah. Deneme Cad. No: 10 Ataşehir/İstanbul, VKN: 0000000000) ile diğer tarafta Hayali Lojistik Ltd. Şti. (bundan sonra "MÜŞTERİ" olarak anılacaktır; adres: Kurgu Sok. No: 5 Çankaya/Ankara) arasında aşağıdaki şartlarla akdedilmiştir.
+1.2. Müşteri adına irtibat kişisi: Ayşe Örnek, e-posta: ayse.ornek@hayalilojistik.com.tr, telefon: 0532 000 00 00.
+
+MADDE 2 – SÖZLEŞMENİN KONUSU
+2.1. İşbu sözleşmenin konusu, Hizmet Veren tarafından Müşteri'nin kullandığı depo yönetim yazılımının bakım, güncelleme ve teknik destek hizmetlerinin sağlanmasına ilişkin tarafların hak ve yükümlülüklerinin belirlenmesidir.
+2.2. Hizmet kapsamı EK-1'de yer alan hizmet seviyesi tablosunda belirtilmiştir. EK-1, Hizmet Veren tarafından tek taraflı olarak güncellenebilir.
+
+MADDE 3 – SÜRE
+3.1. Sözleşme imza tarihinden itibaren 1 (bir) yıl süreyle geçerlidir.
+3.2. Taraflardan biri süre bitiminden en az 90 (doksan) gün önce yazılı olarak bildirimde bulunmadıkça sözleşme aynı şartlarla birer yıllık dönemler hâlinde kendiliğinden uzar. Uzayan dönemlerde hizmet bedeli Hizmet Veren tarafından belirlenecek oranda artırılır.
+
+MADDE 4 – HİZMET BEDELİ VE ÖDEME
+4.1. Aylık hizmet bedeli 85.000,00 TL + KDV'dir.
+4.2. Bedel, faturanın tebliğinden itibaren 7 (yedi) gün içinde Hizmet Veren'in TR00 0000 0000 0000 0000 0000 00 IBAN numaralı hesabına ödenir.
+4.3. Ödemede gecikme hâlinde Müşteri, gecikilen her gün için fatura tutarının %1'i oranında gecikme cezası öder. Ödemenin 15 günden fazla gecikmesi hâlinde Hizmet Veren hizmeti bildirimsiz olarak durdurabilir.
+
+MADDE 5 – TARAFLARIN YÜKÜMLÜLÜKLERİ
+5.1. Hizmet Veren, kritik arızalara mesai saatleri içinde 8 saat içinde müdahale etmeyi taahhüt eder.
+5.2. Müşteri, yazılımın çalıştığı sunucu ve ağ altyapısını kesintisiz hazır bulundurmakla yükümlüdür.
+5.3. Hizmet Veren, işin ifası için gerekli gördüğü durumlarda alt yüklenici kullanabilir.
+
+MADDE 6 – SORUMLULUK
+6.1. Hizmet Veren'in bu sözleşmeden doğan her türlü sorumluluğu, kusurunun derecesine bakılmaksızın, son bir aylık hizmet bedeli ile sınırlıdır.
+6.2. Müşteri, yazılımın kullanımından doğan üçüncü kişi taleplerinden ve her türlü zarardan sınırsız olarak sorumludur.
+6.3. Hizmet Veren dolaylı zararlardan, kâr kaybından ve veri kaybından hiçbir şekilde sorumlu değildir.
+
+MADDE 7 – GİZLİLİK
+7.1. Müşteri, bu sözleşme kapsamında öğrendiği Hizmet Veren'e ait tüm ticari ve teknik bilgileri süresiz olarak gizli tutmakla yükümlüdür. Aksi hâlde 1.000.000,00 TL cezai şart öder.
+
+MADDE 8 – FESİH
+8.1. Hizmet Veren, herhangi bir sebep göstermeksizin 15 gün önceden yazılı bildirimde bulunarak sözleşmeyi feshedebilir.
+8.2. Müşteri, sözleşmeyi süresinden önce feshetmesi hâlinde kalan süreye ait hizmet bedellerinin tamamını tek seferde ödemeyi kabul eder.
+
+MADDE 9 – DEVİR
+9.1. Müşteri, bu sözleşmeden doğan hak ve yükümlülüklerini Hizmet Veren'in yazılı onayı olmaksızın üçüncü kişilere devredemez.
+
+MADDE 10 – UYUŞMAZLIKLARIN ÇÖZÜMÜ
+10.1. İşbu sözleşmeden doğacak uyuşmazlıklarda İstanbul (Anadolu) Mahkemeleri ve İcra Daireleri yetkilidir.
+10.2. Hizmet Veren'in defter ve kayıtları kesin delil niteliğindedir.
+
+MADDE 11 – DAMGA VERGİSİ VE MASRAFLAR
+11.1. Sözleşmeden doğan damga vergisinin tamamı Müşteri tarafından ödenir.
+
+MADDE 12 – YÜRÜRLÜK
+12.1. İşbu 12 (on iki) maddeden ibaret sözleşme, taraflarca okunarak .../.../2026 tarihinde 2 (iki) nüsha olarak imzalanmış ve imza tarihinde yürürlüğe girmiştir.
+
+HİZMET VEREN                                  MÜŞTERİ
+Kurgu Bilişim Teknolojileri A.Ş.              Hayali Lojistik Ltd. Şti.

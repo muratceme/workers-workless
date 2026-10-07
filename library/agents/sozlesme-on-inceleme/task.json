@@ -1,0 +1,21 @@
+{
+  "id": "sozlesme-on-inceleme",
+  "tur": "agent",
+  "ad": "Sözleşme Ön İnceleme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi sozlesme.docx --taraf \"Müşteri\"",
+  "girdiler": [
+    "Sözleşme: .docx, .pdf (metin tabanlı) veya .txt",
+    "--taraf: incelemenin kimin adına yapıldığı (riskler bu bakış açısıyla değerlendirilir)",
+    "--gizle (isteğe bağlı): modele gönderilmeden maskelenecek kişi/firma adları",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Özet ve öncelikli aksiyonlar, Madde Analizi (risk, kimin lehine, gerekçe, öneri, alternatif metin, 'Avukat Onayı'), 20 konuluk Kontrol Listesi, Sözleşme Metni; ayrıca kısa Markdown özeti"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
