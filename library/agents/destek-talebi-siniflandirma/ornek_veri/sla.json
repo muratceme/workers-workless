@@ -1,0 +1,8 @@
+{
+  "_not": "Öncelik bazında ilk yanıt ve çözüm hedefleri (saat). Kendi BT hizmet seviyesi sözleşmenize göre düzenleyin.",
+  "P1": {"ilk_yanit": 0.25, "cozum": 4},
+  "P2": {"ilk_yanit": 1, "cozum": 8},
+  "P3": {"ilk_yanit": 4, "cozum": 24},
+  "P4": {"ilk_yanit": 8, "cozum": 72},
+  "P5": {"ilk_yanit": 24, "cozum": 168}
+}

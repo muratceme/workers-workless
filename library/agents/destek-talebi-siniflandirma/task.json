@@ -1,0 +1,19 @@
+{
+  "id": "destek-talebi-siniflandirma",
+  "tur": "agent",
+  "ad": "Destek Talebi Sınıflandırma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi talepler.xlsx --sla sla.json",
+  "girdiler": [
+    "BT destek talepleri (.xlsx/.csv): Tarih, Mesaj; Talep No, Gönderen, Departman, Konu isteğe bağlı",
+    "İsteğe bağlı SLA saatleri (JSON, P1–P5 için ilk yanıt ve çözüm)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Yaygın Kesinti (ana olay önerisi), Talepler (ITIL önceliği, tür, kategori, ekip, etki, aciliyet, ilk yanıt taslağı, çözüm önerisi, SLA hedef zamanları, 'Onay'), Özet"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}
