@@ -1,0 +1,20 @@
+{
+  "id": "musteri-talebi-siniflandirma-ve-cevap-taslagi",
+  "tur": "agent",
+  "ad": "Müşteri Talebi Sınıflandırma ve Cevap Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi talepler.xlsx --bilgi bilgi_bankasi.md",
+  "girdiler": [
+    "Talepler: .xlsx/.csv listesi (Talep No, Tarih, Kanal, Gönderen, Konu, Mesaj) veya .eml/.txt dosyalarının olduğu klasör",
+    "Bilgi bankası (.md/.txt): kargo, iade, fatura, iletişim gibi şirket kuralları — cevaplar yalnız buna dayanır",
+    "İsteğe bağlı kategori ve ekip listesi (JSON)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Talepler (kategori, aciliyet, duygu, ilgili ekip, özet, cevap taslağı, dayandığı bilgi, insan gerekli, KVKK yasal süresi, 'Temsilci Onayı'), Özet"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}
