@@ -1,0 +1,11 @@
+Ürün;Operasyon Sırası;Operasyon;İş Merkezi;Birim Süre (dk);Hazırlık Süresi (dk)
+FLN-100 Flanş;10;Torna;CNC Torna;2,5;45
+FLN-100 Flanş;20;Delik delme;Matkap;0,8;20
+FLN-100 Flanş;30;Çapak alma ve kontrol;Final;0,4;0
+MIL-220 Mil;10;Torna;CNC Torna;4,0;60
+MIL-220 Mil;20;Taşlama;Taşlama;3,0;40
+MIL-220 Mil;30;Final kontrol;Final;0,5;0
+BRK-30 Braket;10;Kesme;Pres;0,3;30
+BRK-30 Braket;20;Büküm;Pres;0,4;30
+BRK-30 Braket;30;Kaynak;Kaynak;0,6;15
+BRK-30 Braket;40;Final kontrol;Final;0,2;0
