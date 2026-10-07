@@ -1,0 +1,2 @@
+# Sabit sürümler: güvenlik ve tekrarlanabilirlik için bilerek pinlenmiştir.
+openpyxl==3.1.5

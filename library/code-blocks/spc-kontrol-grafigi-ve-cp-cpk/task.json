@@ -1,0 +1,15 @@
+{
+  "id": "spc-kontrol-grafigi-ve-cp-cpk",
+  "tur": "kod",
+  "ad": "SPC Kontrol Grafiği ve Cp/Cpk",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi olcumler.xlsx --alt-sinir 24.95 --ust-sinir 25.05",
+  "girdiler": [
+    "Ölçümler (.xlsx/.csv): geniş biçim (her satır bir alt grup: Ölçüm 1, Ölçüm 2...) veya uzun biçim (Alt Grup + Ölçüm)",
+    "İsteğe bağlı: şartname sınırları (--alt-sinir, --ust-sinir), birden çok özellik varsa --ozellik"
+  ],
+  "ciktilar": ["Excel: X̄ ve R grafikleri (yerleşik), kontrol dışı noktalar (Nelson kuralları), Cp/Cpk/Pp/Ppk özeti"],
+  "internet": false
+}

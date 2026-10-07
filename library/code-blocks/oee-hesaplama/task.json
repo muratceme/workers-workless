@@ -1,0 +1,14 @@
+{
+  "id": "oee-hesaplama",
+  "tur": "kod",
+  "ad": "OEE Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi vardiya_kayitlari.xlsx",
+  "girdiler": [
+    "Vardiya kayıtları (.xlsx/.csv): Makine, Vardiya Süresi (dk), Plansız Duruş (dk), İdeal Çevrim Süresi (sn), Toplam Üretim, Hatalı (zorunlu); Tarih, Vardiya, Ürün, Planlı Duruş (dk) (isteğe bağlı)"
+  ],
+  "ciktilar": ["Excel: vardiya bazında K/P/Q/OEE, makine özeti, dakika cinsinden kayıplar, grafik"],
+  "internet": false
+}
