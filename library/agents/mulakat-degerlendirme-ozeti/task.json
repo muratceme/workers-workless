@@ -1,0 +1,20 @@
+{
+  "id": "mulakat-degerlendirme-ozeti",
+  "tur": "agent",
+  "ad": "Mülakat Değerlendirme Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi mulakat_notlari.xlsx --yetkinlikler yetkinlikler.xlsx",
+  "girdiler": [
+    "Mülakat notları (.xlsx/.csv): Aday, Mülakatçı, Yetkinlik, Puan (1-5), Not",
+    "İsteğe bağlı yetkinlik ağırlıkları (Yetkinlik, Ağırlık)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Karşılaştırma (aday × yetkinlik ortalaması, ağırlıklı toplam, önyargılı notlar hariç toplam, uyumsuz puanlar, öneri, 'Karar'), Aday Özetleri, Notlar (değerlendirme dışı işaretleri)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "ayrimcilik.py": "_ortak/ayrimcilik.py"
+  }
+}
