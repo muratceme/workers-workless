@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Workers / Workless</title>
+  <meta name="description" content="Her sektör, her departman ve her rolün tekrar eden işleri için açık kaynak kod blokları ve AI agent'lar. Ücretsiz." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231d1d1f'/%3E%3Cpath d='M7 10l3 12 3-8 3 8 3-12' stroke='%23fff' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M22 22h4' stroke='%2300c7be' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body data-mode="code">
+
+  <!-- ============================== NAV ============================== -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="logo" href="#/" aria-label="Workers / Workless ana sayfa">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text">Work<span class="logo-swap"><span class="ers">ers</span><span class="less">less</span></span></span>
+      </a>
+      <nav class="nav-links" aria-label="Ana menü">
+        <a href="#/code" data-nav="code">Kod Blokları</a>
+        <a href="#/agents" data-nav="agents">AI Agents</a>
+        <a href="#/how" data-nav="how">Nasıl çalışır</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="search-btn" id="openPalette" aria-label="Görev ara">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span>Görev ara</span>
+          <kbd class="kbd-hint">Ctrl K</kbd>
+        </button>
+        <button class="icon-btn" id="themeToggle" aria-label="Tema değiştir">
+          <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================== HOME ============================== -->
+  <main id="home" class="view">
+
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <p class="eyebrow reveal">Açık kaynak · Ücretsiz · Türkçe</p>
+      <h1 class="hero-title reveal">
+        Tekrar eden iş,<br />
+        <span class="grad">artık sizin işiniz değil.</span>
+      </h1>
+      <p class="hero-sub reveal">
+        Her sektörün, her departmanın, her rolün rutin görevleri için hazır
+        <strong>kod blokları</strong> ve <strong>AI agent'lar</strong>. İndir, çalıştır, mesaiye erken son ver.
+      </p>
+      <p class="hero-rotator reveal" aria-live="polite">
+        <span class="rot-role" id="rotRole">İK Uzmanı</span> için
+        <span class="rot-count" id="rotCount">4</span> görev hazır.
+      </p>
+
+      <div class="hero-ctas reveal">
+        <a class="cta-card spot" href="#/code" data-cta="code">
+          <span class="cta-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M13.5 5l-3 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="cta-body">
+            <span class="cta-title">Kod Blokları</span>
+            <span class="cta-desc">API anahtarı yok. İndir, çalıştır.</span>
+          </span>
+          <span class="cta-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="cta-card spot is-agent" href="#/agents" data-cta="agents">
+          <span class="cta-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z" fill="currentColor"/></svg>
+          </span>
+          <span class="cta-body">
+            <span class="cta-title">AI Agents</span>
+            <span class="cta-desc">Kendi API anahtarın, kendi bilgisayarın.</span>
+          </span>
+          <span class="cta-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <!-- Hero terminal -->
+      <div class="device reveal" aria-hidden="true">
+        <div class="device-bar">
+          <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+          <span class="device-title" id="termTitle">cv-raporlama / main.py</span>
+          <span class="device-badge">önce <b id="termBefore">8 saat</b> · şimdi <b id="termAfter">0,9 sn</b></span>
+        </div>
+        <pre class="term" id="term"></pre>
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee" aria-label="Örnek görevler">
+      <div class="marquee-row" id="mq1"></div>
+      <div class="marquee-row reverse" id="mq2"></div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats section">
+      <div class="stat reveal"><span class="stat-num" data-count="sectors">0</span><span class="stat-label">sektör</span></div>
+      <div class="stat reveal"><span class="stat-num" data-count="depts">0</span><span class="stat-label">departman</span></div>
+      <div class="stat reveal"><span class="stat-num" data-count="ready">0</span><span class="stat-label">indirilebilir paket</span></div>
+      <div class="stat reveal"><span class="stat-num" data-count="tasks">0</span><span class="stat-label">görev</span></div>
+      <div class="stat reveal wide"><span class="stat-num grad" data-count="hours">0</span><span class="stat-label">saat / hafta geri kazanılan zaman*</span></div>
+    </section>
+
+    <!-- Ready packages -->
+    <section class="section" id="ready">
+      <h2 class="section-title reveal">İlk paketler hazır. <span class="muted">İndir, örnek veriyle dene.</span></h2>
+      <div class="grid grid-ready" id="homeReady"></div>
+    </section>
+
+    <!-- How -->
+    <section class="how section" id="how">
+      <h2 class="section-title reveal">Dört tık. <span class="muted">Bir görev daha bitti.</span></h2>
+      <ol class="how-steps">
+        <li class="how-step reveal" style="--i:0"><span class="how-n">01</span><h3>Sektör</h3><p>Bankacılık, sigorta, üretim, tekstil…</p></li>
+        <li class="how-step reveal" style="--i:1"><span class="how-n">02</span><h3>Departman</h3><p>İK, finans, BT ve sektöre özel birimler.</p></li>
+        <li class="how-step reveal" style="--i:2"><span class="how-n">03</span><h3>Rol</h3><p>Stajyerden müdüre, her seviyenin işi ayrı.</p></li>
+        <li class="how-step reveal" style="--i:3"><span class="how-n">04</span><h3>Görev</h3><p>Kod bloğunu indir ya da agent'ı kur.</p></li>
+      </ol>
+    </section>
+
+    <!-- Compare -->
+    <section class="compare section" id="compare">
+      <h2 class="section-title reveal">Aynı görev. <span class="muted">İki farklı yol.</span></h2>
+      <div class="compare-grid">
+        <article class="compare-card reveal" data-variant="code">
+          <span class="pill">Kod Bloğu</span>
+          <h3>Kural belli ise.</h3>
+          <p>Deterministik Python betikleri. Aynı girdi, her seferinde aynı çıktı. İnternet ve API gerekmez, veri bilgisayarınızdan çıkmaz.</p>
+          <ul class="ticks">
+            <li>API anahtarı gerekmez</li>
+            <li>Ücretsiz, sınırsız çalıştırma</li>
+            <li>Denetlenebilir, açık mantık</li>
+          </ul>
+          <a class="text-link" href="#/code">Kod bloklarına göz at →</a>
+        </article>
+        <article class="compare-card reveal" data-variant="agents">
+          <span class="pill">AI Agent</span>
+          <h3>Muhakeme gerekiyorsa.</h3>
+          <p>Belge okuyan, yorum yapan, taslak yazan agent'lar. Kendi API anahtarınızı <code>.env</code> dosyasına eklersiniz; agent sizin bilgisayarınızda çalışır.</p>
+          <ul class="ticks">
+            <li>Claude, OpenAI veya yerel model (Ollama)</li>
+            <li>Dağınık, yapılandırılmamış veride güçlü</li>
+            <li>Her adım loglanır, insan onayı eklenebilir</li>
+          </ul>
+          <a class="text-link" href="#/agents">Agent'lara göz at →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Sector preview -->
+    <section class="section" id="sectors">
+      <h2 class="section-title reveal">Sektörünüzü seçin. <span class="muted">Gerisi hazır.</span></h2>
+      <div class="grid grid-sectors" id="homeSectors"></div>
+    </section>
+
+    <!-- Contribute -->
+    <section class="section contribute reveal">
+      <div class="contribute-inner">
+        <h2>Sizin işiniz listede yok mu?</h2>
+        <p>Tüm kütüphane GitHub'da açık. Görevinizi tarif edin, birlikte otomatize edelim.</p>
+        <a class="btn btn-primary" href="#" id="ghLink">GitHub'da katkı ver</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== EXPLORER ============================== -->
+  <main id="explorer" class="view" hidden>
+    <div class="explorer-head">
+      <div class="seg" role="tablist" aria-label="İçerik türü">
+        <span class="seg-pill" aria-hidden="true"></span>
+        <button role="tab" data-mode-btn="code">Kod Blokları</button>
+        <button role="tab" data-mode-btn="agents">AI Agents</button>
+      </div>
+
+      <ol class="stepper" id="stepper" aria-label="Adımlar">
+        <li>Sektör</li><li>Departman</li><li>Rol</li><li>Görev</li>
+      </ol>
+
+      <nav class="crumbs" id="crumbs" aria-label="Konum"></nav>
+      <h1 class="explorer-title" id="exTitle"></h1>
+      <p class="explorer-sub" id="exSub"></p>
+    </div>
+    <div class="grid" id="exGrid"></div>
+  </main>
+
+  <!-- ============================== FOOTER ============================== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>* Haftalık kazanım rakamları tahminidir; şirketinizin hacmine göre değişir.</p>
+      <p>Workers / Workless · Açık kaynak (MIT) · <a href="https://github.com/muratceme/workers-workless/blob/main/SORUMLULUK_REDDI.md" target="_blank" rel="noopener">Sorumluluk reddi ve kullanım koşulları</a> · <a href="https://github.com/muratceme/workers-workless" target="_blank" rel="noopener">GitHub</a></p>
+      <p class="wink">Bu sitenin yapımında hiçbir çalışan işten çıkarılmadı.</p>
+    </div>
+  </footer>
+
+  <!-- ============================== TASK SHEET ============================== -->
+  <div class="sheet-backdrop" id="sheetBackdrop" hidden></div>
+  <aside class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
+    <button class="sheet-close icon-btn" id="sheetClose" aria-label="Kapat">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="sheet-body" id="sheetBody"></div>
+  </aside>
+
+  <!-- ============================== PALETTE ============================== -->
+  <div class="palette" id="palette" hidden>
+    <div class="palette-box" role="dialog" aria-modal="true" aria-label="Görev ara">
+      <div class="palette-input">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="paletteInput" type="text" placeholder="Görev, rol ya da departman ara… (ör. mutabakat, CV, hasar)" autocomplete="off" />
+        <kbd>Esc</kbd>
+      </div>
+      <ul class="palette-list" id="paletteList" role="listbox"></ul>
+    </div>
+  </div>
+
+  <!-- ============================== İNDİRME ONAYI ============================== -->
+  <div class="consent" id="consent" hidden>
+    <div class="consent-box" role="dialog" aria-modal="true" aria-labelledby="consentTitle">
+      <h3 id="consentTitle">İndirmeden önce</h3>
+      <p class="consent-pkg" id="consentPkg"></p>
+      <div class="consent-list" id="consentList"></div>
+      <label class="check all"><input type="checkbox" id="consentAll"><span>Hepsini okudum ve kabul ediyorum</span></label>
+      <p class="consent-more">Tam metin: <a href="https://github.com/muratceme/workers-workless/blob/main/SORUMLULUK_REDDI.md" target="_blank" rel="noopener">Sorumluluk Reddi</a> ve <a href="https://github.com/muratceme/workers-workless/blob/main/LICENSE" target="_blank" rel="noopener">MIT Lisansı</a>. Her ikisi de paketin içindedir.</p>
+      <div class="consent-hash"><span>SHA-256</span><code id="consentHash"></code></div>
+      <div class="actions">
+        <button class="btn btn-ghost" id="consentCancel">Vazgeç</button>
+        <button class="btn btn-primary" id="consentGo" disabled>Kabul ediyorum, indir</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/catalog.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

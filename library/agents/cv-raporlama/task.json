@@ -1,0 +1,21 @@
+{
+  "id": "cv-raporlama",
+  "tur": "agent",
+  "ad": "CV Raporlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./cvler --ilan ilan.txt",
+  "girdiler": [
+    "CV klasörü: .pdf, .docx, .txt",
+    "ilan.txt (isteğe bağlı): iş ilanı metni",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel raporu: aday profilleri, ilan uyum puanı ve gerekçesi, 'İnsan Kararı' sütunu"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "cv_cekirdek.py": "code-blocks/cv-raporlama/main.py",
+    "ornek_veri": "code-blocks/cv-raporlama/ornek_veri"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cv-raporlama",
+  "tur": "kod",
+  "ad": "CV Raporlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi ./cvler --ilan ilan.txt",
+  "girdiler": [
+    "CV klasörü: .pdf, .docx, .txt (taranmış görüntü PDF'ler için önce OCR gerekir)",
+    "beceriler.txt: aranacak beceriler, her satıra bir tane",
+    "ilan.txt (isteğe bağlı): iş ilanı metni"
+  ],
+  "ciktilar": ["Excel raporu: 'Adaylar' ve 'Özet' sayfaları"],
+  "internet": false
+}

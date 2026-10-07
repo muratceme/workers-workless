@@ -1,0 +1,21 @@
+{
+  "id": "banka-mutabakati",
+  "tur": "agent",
+  "ad": "Banka Mutabakatı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --banka ekstre.xlsx --defter muavin.xlsx",
+  "girdiler": [
+    "Banka ekstresi (.csv/.xlsx): tarih, aciklama ve tutar ya da borc + alacak",
+    "Defter / 102 muavini (.csv/.xlsx): tarih, aciklama ve tutar ya da borc + alacak",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Kod bloğu raporu + açık kalemler için AI nedeni, ilişkili kalem, yevmiye taslağı ve 'İnsan Onayı' sütunu"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "mutabakat_cekirdek.py": "code-blocks/banka-mutabakati/main.py",
+    "ornek_veri": "code-blocks/banka-mutabakati/ornek_veri"
+  }
+}

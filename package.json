@@ -1,0 +1,12 @@
+{
+  "name": "workers-workless",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Her sektör, departman ve rol için açık kaynak kod blokları ve AI agent'lar.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node scripts/build.mjs",
+    "kontrol": "python scripts/kontrol.py --test"
+  }
+}

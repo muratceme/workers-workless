@@ -1,0 +1,29 @@
+name: Görev talebi
+description: Kütüphaneye eklenmesini istediğiniz bir görev
+labels: [gorev-talebi]
+body:
+  - type: input
+    id: gorev
+    attributes:
+      label: Görev
+      description: Sitedeki görev adı ya da yeni bir görev
+      placeholder: "ör. Fatura Okuma & Kayıt"
+    validations:
+      required: true
+  - type: dropdown
+    id: tur
+    attributes:
+      label: Hangi sürüm?
+      options: [Kod Bloğu, AI Agent, İkisi de]
+    validations:
+      required: true
+  - type: textarea
+    id: girdi
+    attributes:
+      label: Girdi
+      description: Elinizdeki veri nasıl? (dosya türü, sütunlar). Gerçek veya kişisel veri paylaşmayın.
+  - type: textarea
+    id: cikti
+    attributes:
+      label: Beklenen çıktı
+      description: Sonunda ne görmek istiyorsunuz?

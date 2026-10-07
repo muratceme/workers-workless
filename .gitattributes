@@ -1,0 +1,7 @@
+# Metin dosyaları her platformda LF; ikili dosyalara dokunulmaz.
+* text=auto eol=lf
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.zip binary
+*.png binary

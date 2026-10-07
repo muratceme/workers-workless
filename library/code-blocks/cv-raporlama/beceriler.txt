@@ -1,0 +1,48 @@
+# Aranacak beceriler — her satıra bir tane. Kendi pozisyonunuza göre düzenleyin.
+# Büyük/küçük harf ve Türkçe karakter farkı önemsizdir.
+
+# Ofis & raporlama
+Excel
+Power BI
+Tableau
+PowerPoint
+SQL
+
+# Yazılım & veri
+Python
+Java
+JavaScript
+C#
+SAP
+Logo
+Netsis
+Mikro
+ERP
+CRM
+Salesforce
+
+# İK
+İşe alım
+Bordro
+Performans yönetimi
+Eğitim planlama
+SGK
+İş hukuku
+Mülakat
+
+# Finans
+Muhasebe
+Mali tablo
+Bütçe
+Raporlama
+Vergi
+UFRS
+Konsolidasyon
+Nakit yönetimi
+
+# Genel
+Proje yönetimi
+Takım liderliği
+Müşteri ilişkileri
+Satış
+Analitik düşünme

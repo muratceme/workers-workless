@@ -1,0 +1,15 @@
+{
+  "id": "banka-mutabakati",
+  "tur": "kod",
+  "ad": "Banka Mutabakatı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --banka ekstre.xlsx --defter muavin.xlsx",
+  "girdiler": [
+    "Banka ekstresi (.csv/.xlsx): tarih, aciklama ve tutar ya da borc + alacak",
+    "Defter / 102 muavini (.csv/.xlsx): tarih, aciklama ve tutar ya da borc + alacak"
+  ],
+  "ciktilar": ["Excel raporu: Özet, Eşleşenler, Açık - Banka, Açık - Defter"],
+  "internet": false
+}
