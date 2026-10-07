@@ -1,0 +1,145 @@
+Stok Kodu;Stok Adı;Dönem;Miktar
+HM-001;Polipropilen granül (kg);2025-10;4000
+HM-001;Polipropilen granül (kg);2025-11;4100
+HM-001;Polipropilen granül (kg);2025-12;3900
+HM-001;Polipropilen granül (kg);2026-01;4050
+HM-001;Polipropilen granül (kg);2026-02;4000
+HM-001;Polipropilen granül (kg);2026-03;3950
+HM-001;Polipropilen granül (kg);2026-04;4100
+HM-001;Polipropilen granül (kg);2026-05;4000
+HM-001;Polipropilen granül (kg);2026-06;3980
+HM-001;Polipropilen granül (kg);2026-07;4020
+HM-001;Polipropilen granül (kg);2026-08;4060
+HM-001;Polipropilen granül (kg);2026-09;3940
+HM-002;Pigment masterbatch mavi (kg);2025-10;150
+HM-002;Pigment masterbatch mavi (kg);2025-11;40
+HM-002;Pigment masterbatch mavi (kg);2025-12;260
+HM-002;Pigment masterbatch mavi (kg);2026-01;90
+HM-002;Pigment masterbatch mavi (kg);2026-02;210
+HM-002;Pigment masterbatch mavi (kg);2026-03;30
+HM-002;Pigment masterbatch mavi (kg);2026-04;180
+HM-002;Pigment masterbatch mavi (kg);2026-05;120
+HM-002;Pigment masterbatch mavi (kg);2026-06;60
+HM-002;Pigment masterbatch mavi (kg);2026-07;240
+HM-002;Pigment masterbatch mavi (kg);2026-08;100
+HM-002;Pigment masterbatch mavi (kg);2026-09;170
+HM-003;Çelik kalıp pimi (adet);2025-10;0
+HM-003;Çelik kalıp pimi (adet);2025-11;0
+HM-003;Çelik kalıp pimi (adet);2025-12;12
+HM-003;Çelik kalıp pimi (adet);2026-01;0
+HM-003;Çelik kalıp pimi (adet);2026-02;0
+HM-003;Çelik kalıp pimi (adet);2026-03;0
+HM-003;Çelik kalıp pimi (adet);2026-04;30
+HM-003;Çelik kalıp pimi (adet);2026-05;0
+HM-003;Çelik kalıp pimi (adet);2026-06;0
+HM-003;Çelik kalıp pimi (adet);2026-07;0
+HM-003;Çelik kalıp pimi (adet);2026-08;0
+HM-003;Çelik kalıp pimi (adet);2026-09;8
+YM-010;Koli 40x30x20 (adet);2025-10;5200
+YM-010;Koli 40x30x20 (adet);2025-11;5100
+YM-010;Koli 40x30x20 (adet);2025-12;5300
+YM-010;Koli 40x30x20 (adet);2026-01;5000
+YM-010;Koli 40x30x20 (adet);2026-02;5150
+YM-010;Koli 40x30x20 (adet);2026-03;5250
+YM-010;Koli 40x30x20 (adet);2026-04;5100
+YM-010;Koli 40x30x20 (adet);2026-05;5200
+YM-010;Koli 40x30x20 (adet);2026-06;5050
+YM-010;Koli 40x30x20 (adet);2026-07;5300
+YM-010;Koli 40x30x20 (adet);2026-08;5150
+YM-010;Koli 40x30x20 (adet);2026-09;5200
+YM-011;Streç film 50 cm (rulo);2025-10;120
+YM-011;Streç film 50 cm (rulo);2025-11;80
+YM-011;Streç film 50 cm (rulo);2025-12;150
+YM-011;Streç film 50 cm (rulo);2026-01;60
+YM-011;Streç film 50 cm (rulo);2026-02;140
+YM-011;Streç film 50 cm (rulo);2026-03;90
+YM-011;Streç film 50 cm (rulo);2026-04;130
+YM-011;Streç film 50 cm (rulo);2026-05;70
+YM-011;Streç film 50 cm (rulo);2026-06;160
+YM-011;Streç film 50 cm (rulo);2026-07;100
+YM-011;Streç film 50 cm (rulo);2026-08;110
+YM-011;Streç film 50 cm (rulo);2026-09;90
+YM-012;Etiket rulosu (adet);2025-10;300
+YM-012;Etiket rulosu (adet);2025-11;310
+YM-012;Etiket rulosu (adet);2025-12;290
+YM-012;Etiket rulosu (adet);2026-01;305
+YM-012;Etiket rulosu (adet);2026-02;300
+YM-012;Etiket rulosu (adet);2026-03;295
+YM-012;Etiket rulosu (adet);2026-04;310
+YM-012;Etiket rulosu (adet);2026-05;300
+YM-012;Etiket rulosu (adet);2026-06;290
+YM-012;Etiket rulosu (adet);2026-07;305
+YM-012;Etiket rulosu (adet);2026-08;300
+YM-012;Etiket rulosu (adet);2026-09;295
+YD-020;Rulman 6205 (adet);2025-10;10
+YD-020;Rulman 6205 (adet);2025-11;0
+YD-020;Rulman 6205 (adet);2025-12;25
+YD-020;Rulman 6205 (adet);2026-01;0
+YD-020;Rulman 6205 (adet);2026-02;0
+YD-020;Rulman 6205 (adet);2026-03;40
+YD-020;Rulman 6205 (adet);2026-04;5
+YD-020;Rulman 6205 (adet);2026-05;0
+YD-020;Rulman 6205 (adet);2026-06;30
+YD-020;Rulman 6205 (adet);2026-07;0
+YD-020;Rulman 6205 (adet);2026-08;0
+YD-020;Rulman 6205 (adet);2026-09;20
+YD-021;Hidrolik yağ VG46 (lt);2025-10;60
+YD-021;Hidrolik yağ VG46 (lt);2025-11;55
+YD-021;Hidrolik yağ VG46 (lt);2025-12;65
+YD-021;Hidrolik yağ VG46 (lt);2026-01;60
+YD-021;Hidrolik yağ VG46 (lt);2026-02;58
+YD-021;Hidrolik yağ VG46 (lt);2026-03;62
+YD-021;Hidrolik yağ VG46 (lt);2026-04;60
+YD-021;Hidrolik yağ VG46 (lt);2026-05;61
+YD-021;Hidrolik yağ VG46 (lt);2026-06;59
+YD-021;Hidrolik yağ VG46 (lt);2026-07;60
+YD-021;Hidrolik yağ VG46 (lt);2026-08;63
+YD-021;Hidrolik yağ VG46 (lt);2026-09;57
+YD-022;Konveyör bandı (m);2025-10;0
+YD-022;Konveyör bandı (m);2025-11;0
+YD-022;Konveyör bandı (m);2025-12;0
+YD-022;Konveyör bandı (m);2026-01;0
+YD-022;Konveyör bandı (m);2026-02;6
+YD-022;Konveyör bandı (m);2026-03;0
+YD-022;Konveyör bandı (m);2026-04;0
+YD-022;Konveyör bandı (m);2026-05;0
+YD-022;Konveyör bandı (m);2026-06;0
+YD-022;Konveyör bandı (m);2026-07;0
+YD-022;Konveyör bandı (m);2026-08;4
+YD-022;Konveyör bandı (m);2026-09;0
+SR-030;Eldiven (çift);2025-10;400
+SR-030;Eldiven (çift);2025-11;420
+SR-030;Eldiven (çift);2025-12;380
+SR-030;Eldiven (çift);2026-01;410
+SR-030;Eldiven (çift);2026-02;400
+SR-030;Eldiven (çift);2026-03;390
+SR-030;Eldiven (çift);2026-04;415
+SR-030;Eldiven (çift);2026-05;405
+SR-030;Eldiven (çift);2026-06;395
+SR-030;Eldiven (çift);2026-07;400
+SR-030;Eldiven (çift);2026-08;410
+SR-030;Eldiven (çift);2026-09;390
+SR-031;Temizlik solventi (lt);2025-10;0
+SR-031;Temizlik solventi (lt);2025-11;0
+SR-031;Temizlik solventi (lt);2025-12;0
+SR-031;Temizlik solventi (lt);2026-01;0
+SR-031;Temizlik solventi (lt);2026-02;0
+SR-031;Temizlik solventi (lt);2026-03;0
+SR-031;Temizlik solventi (lt);2026-04;0
+SR-031;Temizlik solventi (lt);2026-05;0
+SR-031;Temizlik solventi (lt);2026-06;40
+SR-031;Temizlik solventi (lt);2026-07;45
+SR-031;Temizlik solventi (lt);2026-08;38
+SR-031;Temizlik solventi (lt);2026-09;42
+ES-099;Eski model ambalaj (adet);2025-10;0
+ES-099;Eski model ambalaj (adet);2025-11;0
+ES-099;Eski model ambalaj (adet);2025-12;0
+ES-099;Eski model ambalaj (adet);2026-01;0
+ES-099;Eski model ambalaj (adet);2026-02;0
+ES-099;Eski model ambalaj (adet);2026-03;0
+ES-099;Eski model ambalaj (adet);2026-04;0
+ES-099;Eski model ambalaj (adet);2026-05;0
+ES-099;Eski model ambalaj (adet);2026-06;0
+ES-099;Eski model ambalaj (adet);2026-07;0
+ES-099;Eski model ambalaj (adet);2026-08;0
+ES-099;Eski model ambalaj (adet);2026-09;0

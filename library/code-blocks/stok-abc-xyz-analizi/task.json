@@ -1,0 +1,15 @@
+{
+  "id": "stok-abc-xyz-analizi",
+  "tur": "kod",
+  "ad": "Stok ABC-XYZ Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi tuketim.xlsx --maliyet maliyetler.xlsx",
+  "girdiler": [
+    "Dönemsel tüketim (.xlsx/.csv): uzun biçim (Stok Kodu, Tarih/Dönem, Miktar) veya geniş biçim (Stok Kodu, 2026-01, 2026-02, ...)",
+    "Birim maliyetler (Stok Kodu, Birim Maliyet) — tüketim dosyasında varsa gerekmez"
+  ],
+  "ciktilar": ["Excel: ABC-XYZ matrisi (kalem sayısı ve değer payı), sınıf bazında stok politikası, Pareto grafiği, kalem listesi, dönem tüketimi"],
+  "internet": false
+}
