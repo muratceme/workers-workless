@@ -1,0 +1,20 @@
+{
+  "_not": "Karakter sınırları ÖRNEKTİR; kendi web sitenizin ve pazaryerlerinizin güncel içerik kurallarını girin.",
+  "Web sitesi": {
+    "baslik_max": 65,
+    "meta_aciklama_max": 160,
+    "aciklama_min": 400,
+    "aciklama_max": 1500,
+    "ozellik_maddesi": 5,
+    "ton": "Sıcak ama sade; markanın kendi sitesi. SEO için ürün tipi ve ana özellik başlıkta geçsin."
+  },
+  "Pazaryeri": {
+    "baslik_max": 100,
+    "meta_aciklama_max": 0,
+    "aciklama_min": 250,
+    "aciklama_max": 1000,
+    "ozellik_maddesi": 6,
+    "baslik_sirasi": "Marka + ürün tipi + öne çıkan özellik + ölçü/renk",
+    "ton": "Bilgi odaklı, maddeli. Pazaryeri arama sonuçları için marka başlığın başında olsun."
+  }
+}

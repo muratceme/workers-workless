@@ -1,0 +1,20 @@
+{
+  "id": "urun-aciklamasi-uretme",
+  "tur": "agent",
+  "ad": "Ürün Açıklaması Üretme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi urunler.xlsx --kanallar kanallar.json",
+  "girdiler": [
+    "Ürün özellik tablosu (.xlsx/.csv): Stok Kodu zorunlu; Marka, Ürün Tipi, Malzeme, Renk, Ölçü vb. tüm sütunlar özellik olarak kullanılır",
+    "Kanal kuralları (kanallar.json): başlık/meta/açıklama karakter sınırları, madde sayısı, başlık sırası, ton",
+    "İsteğe bağlı yasaklı ifadeler listesi (.txt)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: kanal bazında başlık, meta açıklama, açıklama, özellik maddeleri, anahtar kelimeler, karakter sayıları, düzeltme turu, kontrol sonucu ve 'Onay' sütunu"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}
