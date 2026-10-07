@@ -1,0 +1,15 @@
+Tedarikçi;Malzeme Kodu;Malzeme;Miktar;Birim;Birim Fiyat;Para Birimi;Nakliye;Termin (gün);Ödeme Vadesi (gün);Garanti (ay);Kalite Puanı;Teknik Uygun;Not
+Örnek Endüstriyel Ltd. Şti.;K-01;Rulman 6205-2RS;200;adet;95,00;TL;;7;60;12;85;E;
+Örnek Endüstriyel Ltd. Şti.;K-02;V kayışı A-42;100;adet;140,00;TL;;7;60;12;85;E;
+Örnek Endüstriyel Ltd. Şti.;K-03;Hidrolik yağ ISO VG 46 (208 L varil);10;varil;9.800,00;TL;1.500,00;7;60;12;85;E;
+Örnek Endüstriyel Ltd. Şti.;K-04;İş eldiveni EN 388;500;çift;38,00;TL;;7;60;12;85;E;
+Kurgu Rulman A.Ş.;K-01;Rulman 6205-2RS;200;adet;82,00;TL;;3;30;24;90;E;Yalnız rulman ve kayış
+Kurgu Rulman A.Ş.;K-02;V kayışı A-42;100;adet;125,00;TL;;3;30;24;90;E;
+Deneme Global Trading;K-01;Rulman 6205-2RS;200;adet;2,10;USD;;21;0;12;70;E;Peşin ödeme
+Deneme Global Trading;K-02;V kayışı A-42;100;adet;3,20;USD;;21;0;12;70;E;
+Deneme Global Trading;K-03;Hidrolik yağ ISO VG 46 (208 L varil);10;varil;215,00;USD;4.500,00;21;0;12;70;E;
+Deneme Global Trading;K-04;İş eldiveni EN 388;500;çift;0,80;USD;;21;0;12;70;E;
+Hayali Hırdavat;K-01;Rulman 6205-2RS;200;adet;99,00;TL;;10;90;6;75;E;
+Hayali Hırdavat;K-02;V kayışı A-42;100;adet;150,00;TL;;10;90;6;75;E;
+Hayali Hırdavat;K-03;Hidrolik yağ ISO VG 68 (208 L varil);10;varil;10.400,00;TL;;10;90;6;75;H;Viskozite şartnameye uymuyor
+Hayali Hırdavat;K-04;İş eldiveni EN 388;500;çift;21,00;TL;;10;90;6;75;E;

@@ -1,0 +1,15 @@
+{
+  "id": "teklif-karsilastirma",
+  "tur": "kod",
+  "ad": "Teklif Karşılaştırma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi teklifler.xlsx --kur USD=41,20 EUR=48,05 --faiz 40",
+  "girdiler": [
+    "Teklifler (.xlsx/.csv): Tedarikçi, Malzeme Kodu/Malzeme, Miktar, Birim Fiyat zorunlu; Para Birimi, Nakliye, Ek Masraf, Termin (gün), Ödeme Vadesi (gün), Garanti (ay), Kalite Puanı, Teknik Uygun isteğe bağlı",
+    "Döviz kurları (--kur) ve vade farkı için yıllık iskonto oranı (--faiz)"
+  ],
+  "ciktilar": ["Excel: Değerlendirme (ağırlıklı puan, sıralama, tek tedarikçi ve bölünmüş alım önerisi), Kalem Bazında karşılaştırma matrisi, Teklif Listesi"],
+  "internet": false
+}
