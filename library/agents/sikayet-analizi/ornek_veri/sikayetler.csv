@@ -1,0 +1,39 @@
+Şikâyet No;Tarih;Kanal;Müşteri No;Müşteri Adı;Ürün;Şikâyet;Durum;Kapanış Tarihi
+S-001;03.07.2026;Çağrı Merkezi;M1001;Elif Kurgu;Kahve Makinesi K200;Ben Elif Kurgu, aldığım kahve makinesi iki hafta sonra su kaçırmaya başladı. Tezgâh sırılsıklam oldu.;Kapandı;10.07.2026
+S-002;05.07.2026;Web Formu;M1002;Burak Örnek;Elektrikli Süpürge S50;Siparişim 7 gündür kargoya verilmedi, sitede 2 iş günü içinde kargo yazıyordu.;Kapandı;08.07.2026
+S-003;08.07.2026;E-posta;M1003;Canan Deneme;Blender B10;Kartımdan aynı sipariş için iki kez çekim yapıldı, iadesi hâlâ yapılmadı.;Kapandı;18.07.2026
+S-004;10.07.2026;Çağrı Merkezi;M1004;Deniz Kurgu;Ütü U30;Çağrı merkezine 3 gündür ulaşamıyorum, 40 dakika bekleyip hat kapanıyor.;Kapandı;11.07.2026
+S-005;12.07.2026;Mağaza;M1005;Emre Örnek;Kahve Makinesi K200;İade için mağazaya gittim, kutusu açıldığı için iade alınmadı. 14 gün içindeyim, bana kimse bunu söylememişti.;Kapandı;20.07.2026
+S-006;15.07.2026;Şikayetvar;M1006;Fatma Deneme;Elektrikli Süpürge S50;Teknik servise gönderdiğim süpürge 30 gündür dönmedi, kimse bilgi vermiyor. Tüketici hakem heyetine başvuracağım.;Kapandı;05.08.2026
+S-007;18.07.2026;Çağrı Merkezi;M1001;Elif Kurgu;Kahve Makinesi K200;Daha önce de aradım, makine yine su kaçırıyor. Artık değişim istiyorum.;Kapandı;25.07.2026
+S-008;21.07.2026;Web Formu;M1007;Gökhan Örnek;Blender B10;Blender paketinden bıçak ünitesi eksik çıktı.;Kapandı;23.07.2026
+S-009;24.07.2026;E-posta;M1008;Hande Kurgu;Ütü U30;Kampanyada 1.299 TL görünen ütü sepette 1.499 TL olarak hesaplandı.;Kapandı;26.07.2026
+S-010;26.07.2026;Çağrı Merkezi;M1009;İsmail Deneme;Kahve Makinesi K200;Görüştüğüm temsilci sesini yükseltti ve telefonu yüzüme kapattı.;Kapandı;27.07.2026
+S-011;28.07.2026;Web Formu;M1010;Kerem Örnek;Elektrikli Süpürge S50;Kargo firması paketi getirmeden "adreste bulunamadı" yazmış, evdeydim.;Kapandı;31.07.2026
+S-012;30.07.2026;Mağaza;M1011;Leyla Kurgu;Ütü U30;Ütü ilk kullanımda kısa devre yaptı, priz yandı. Çok tehlikeliydi.;Kapandı;05.08.2026
+S-013;02.08.2026;Çağrı Merkezi;M1012;Mert Deneme;Blender B10;Blender çalışırken motor kokusu geliyor ve kendiliğinden duruyor.;Kapandı;09.08.2026
+S-014;05.08.2026;Web Formu;M1013;Nazlı Örnek;Kahve Makinesi K200;Siparişim 5 gün gecikti, kargo takip numarası da çalışmıyor.;Kapandı;07.08.2026
+S-015;07.08.2026;E-posta;M1014;Okan Kurgu;Elektrikli Süpürge S50;İade ettiğim ürünün ücreti 3 haftadır hesabıma yatmadı.;Kapandı;20.08.2026
+S-016;09.08.2026;Şikayetvar;M1015;Pınar Deneme;Ütü U30;Faturam şirketimin adına kesilmedi, vergi numarası yanlış yazılmış.;Kapandı;14.08.2026
+S-017;12.08.2026;Çağrı Merkezi;M1016;Rıza Örnek;Kahve Makinesi K200;Makinenin su haznesinin kapağı kırık geldi.;Kapandı;15.08.2026
+S-018;15.08.2026;Web Formu;M1017;Selin Kurgu;Blender B10;Müşteri hizmetlerine e-posta attım, 10 gündür cevap yok.;Kapandı;19.08.2026
+S-019;18.08.2026;E-posta;M1018;Tuna Deneme;Elektrikli Süpürge S50;Teknik servis cihazı "arıza bulunamadı" diyerek geri gönderdi ama süpürge hâlâ çalışmıyor.;Kapandı;28.08.2026
+S-020;21.08.2026;Çağrı Merkezi;M1019;Ufuk Örnek;Ütü U30;Aynı model ütüyü ikinci kez arızalı aldım, buhar vermiyor. Daha önce de şikâyet etmiştim.;Kapandı;27.08.2026
+S-021;24.08.2026;Mağaza;M1020;Vildan Kurgu;Kahve Makinesi K200;Mağaza çalışanı değişim talebimi dinlemeden reddetti.;Kapandı;26.08.2026
+S-022;27.08.2026;Web Formu;M1021;Yasin Deneme;Blender B10;Kargo "teslim edildi" görünüyor ama paket bana ulaşmadı.;Kapandı;03.09.2026
+S-023;30.08.2026;E-posta;M1022;Zeynep Örnek;Elektrikli Süpürge S50;Benim adım ve adresim başka bir müşterinin faturasında yazıyor. Bu kişisel verilerin ihlalidir.;Kapandı;05.09.2026
+S-024;01.09.2026;Web Formu;M1023;Ahmet Kurgu;Ütü U30;Siparişim 8 gündür depoda bekliyor, hâlâ kargoya verilmedi.;Kapandı;04.09.2026
+S-025;03.09.2026;Çağrı Merkezi;M1024;Berna Deneme;Kahve Makinesi K200;Kargom 6 gündür aynı şubede bekliyor.;Kapandı;06.09.2026
+S-026;04.09.2026;Şikayetvar;M1025;Cem Örnek;Elektrikli Süpürge S50;Bir haftadır sipariş "hazırlanıyor" görünüyor, kimse bilgi vermiyor. Beni 0532 000 11 22 numarasından arayın, yoksa sosyal medyada paylaşacağım.;Kapandı;09.09.2026
+S-027;08.09.2026;E-posta;M1026;Damla Kurgu;Blender B10;Blenderın kapağı yerine oturmuyor, çalışırken sızdırıyor.;Kapandı;15.09.2026
+S-028;10.09.2026;Çağrı Merkezi;M1027;Erdem Deneme;Ütü U30;Teslimat tarihim üç kez ertelendi.;Kapandı;12.09.2026
+S-029;12.09.2026;Web Formu;M1028;Funda Örnek;Kahve Makinesi K200;Siparişimi iptal ettim ama ücret iadesi yapılmadı.;Açık;
+S-030;15.09.2026;Çağrı Merkezi;M1029;Hakan Kurgu;Elektrikli Süpürge S50;Kargo paketi ezik geldi, süpürgenin hortumu kırık çıktı.;Kapandı;18.09.2026
+S-031;16.09.2026;Mağaza;M1030;Irmak Deneme;Ütü U30;Kasada kampanya indirimi uygulanmadı.;Kapandı;16.09.2026
+S-032;18.09.2026;Web Formu;M1031;Kaan Örnek;Blender B10;Siparişim 10 gündür gelmedi, kargo firması telefonlara çıkmıyor.;Açık;
+S-033;20.09.2026;Çağrı Merkezi;M1032;Lale Kurgu;Kahve Makinesi K200;Makineden yine su sızıyor, ikinci kez servise gidiyor.;Açık;
+S-034;22.09.2026;E-posta;M1023;Ahmet Kurgu;Ütü U30;Geç gelen siparişimin içinden yanlış renk ürün çıktı.;Açık;
+S-035;24.09.2026;Şikayetvar;M1033;Melis Deneme;Elektrikli Süpürge S50;Teslimat yine gecikti, 9 gün oldu. Tüketici hakem heyetine gideceğim.;Açık;
+S-036;25.09.2026;Çağrı Merkezi;M1034;Nihat Örnek;Blender B10;Kargo takip sayfası 4 gündür güncellenmiyor, siparişim nerede bilmiyorum.;Açık;
+S-037;27.09.2026;Web Formu;M1035;Oya Kurgu;Ütü U30;Çağrı merkezinde 25 dakika bekledim, sonra hat düştü.;Açık;
+S-038;28.09.2026;Web Formu;M1036;Polat Deneme;Kahve Makinesi K200;Kargo şubesinde "yoğunluk var" dediler, paket 7 gündür yerinde duruyor.;Açık;

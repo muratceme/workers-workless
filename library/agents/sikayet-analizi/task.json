@@ -1,0 +1,19 @@
+{
+  "id": "sikayet-analizi",
+  "tur": "agent",
+  "ad": "Şikâyet Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi sikayetler.xlsx --konular konular.txt --donem ay",
+  "girdiler": [
+    "Şikâyet kayıtları (.xlsx/.csv): Şikâyet metni; Şikâyet No, Tarih, Kanal, Müşteri No/Adı, Ürün, Durum, Kapanış Tarihi isteğe bağlı",
+    "İsteğe bağlı sabit konu listesi (.txt, 'Konu: tanım'); verilmezse model önerir",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Özet (yükselen konular), Konu Analizi (Pareto, çözüm süresi, hedef aşımı), Eğilim (konu × dönem, grafik), Kök Neden (konu × kök neden, ürün × konu), Takip Listesi (risk işaretleri, hedef aşımı, tekrarlayan şikâyet), Kayıtlar ('Kontrol / Düzeltme'), Konu Listesi"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}
