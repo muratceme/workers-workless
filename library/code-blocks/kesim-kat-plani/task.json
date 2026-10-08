@@ -1,0 +1,15 @@
+{
+  "id": "kesim-kat-plani",
+  "tur": "kod",
+  "ad": "Kesim Kat Planı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --siparis siparis.xlsx --max-kat 80 --max-urun 6 --fazla-kesim 2",
+  "girdiler": [
+    "Sipariş beden dağılımı (.xlsx/.csv): [Model,] Renk, S, M, L … — veya Renk, Beden, Adet",
+    "İsteğe bağlı: beden başına kumaş tüketimi (m/adet) — pastal boyu ve kumaş ihtiyacı için"
+  ],
+  "ciktilar": ["Excel: kat planı (pastal oranı, kat sayısı, kesilen adet, pastal boyu, kumaş), sipariş ve kesim karşılaştırması (beden bazında fark), yöntem bilgisi"],
+  "internet": false
+}
