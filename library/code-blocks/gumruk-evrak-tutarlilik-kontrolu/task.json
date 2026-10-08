@@ -1,0 +1,16 @@
+{
+  "id": "gumruk-evrak-tutarlilik-kontrolu",
+  "tur": "kod",
+  "ad": "Gümrük Evrak Tutarlılık Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --klasor ./sevkiyat_evraki --tolerans 0.005",
+  "girdiler": [
+    "Klasör: belge_bilgileri (Alan × Fatura / Çeki Listesi / Menşe Belgesi / Taşıma Belgesi)",
+    "Kalem dosyaları: fatura (Ürün Kodu, Tanım, GTİP, Miktar, Birim Fiyat, Tutar, Menşe), çeki listesi (Miktar, Kap, Net/Brüt Ağırlık), menşe belgesi (GTİP, Miktar, Menşe Ülke)",
+    "İsteğe bağlı: sayısal tolerans"
+  ],
+  "ciktilar": ["Excel: Bulgular ('Düzeltme / Not'), Belge Bilgileri (renkli karşılaştırma), Kalem Karşılaştırma, her belgenin kalemleri"],
+  "internet": false
+}
