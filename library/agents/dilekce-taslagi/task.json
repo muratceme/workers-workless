@@ -1,0 +1,21 @@
+{
+  "id": "dilekce-taslagi",
+  "tur": "agent",
+  "ad": "Dilekçe Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./dava_klasoru",
+  "girdiler": [
+    "dava_bilgileri.txt: Mahkeme, Davacı, Davacı TCKN / Vergi No, Davacı Adres, Davacı Vekili, Davalı, Davalı Adres, Dava Türü, Dava Değeri, Konu ('Alan: değer' satırları)",
+    "olay_ozeti.txt: avukatın olay özeti; talepler.txt: talepler; deliller.csv: Delil No, Delil, Tür, Ek",
+    "İsteğe bağlı: mevzuat/ klasöründe kanun maddesi metinleri (.txt/.pdf/.docx)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Markdown dava dilekçesi taslağı (başlık, taraflar, açıklamalar, hukuki sebepler, deliller, sonuç ve istem, ekler)", "Excel: HMK md. 119 Kontrol Listesi, Vakıa–Delil eşleşmesi, Hukuki Sebepler, Kontroller, Avukata Notlar"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

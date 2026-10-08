@@ -1,0 +1,12 @@
+Mahkeme: İstanbul Anadolu Nöbetçi Asliye Ticaret Mahkemesi
+Davacı: Örnek Tekstil San. ve Tic. A.Ş.
+Davacı Vergi No: 1234567890
+Davacı Adres: Örnek Mah. Deneme Cad. No: 1 Kadıköy / İstanbul
+Davacı Vekili: Av. Deneme Avukat
+Vekil Adres: Deneme Hukuk Bürosu, Kurgu Sok. No: 3 Kadıköy / İstanbul
+Davalı: Kurgu Mağazacılık Ltd. Şti.
+Davalı Vergi No: 2468135797
+Davalı Adres: Kurgu Mah. Örnek Sok. No: 2 Ümraniye / İstanbul
+Dava Türü: Ticari alacak davası (konusu bir miktar paranın ödenmesi)
+Dava Değeri: 312.500 TL
+Konu: Ödenmeyen fatura bedellerinin avans faiziyle birlikte tahsili talebidir.
