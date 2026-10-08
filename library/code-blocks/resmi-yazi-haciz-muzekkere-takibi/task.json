@@ -1,0 +1,15 @@
+{
+  "id": "resmi-yazi-haciz-muzekkere-takibi",
+  "tur": "kod",
+  "ad": "Resmî Yazı (Haciz/Müzekkere) Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi gelen_yazilar.xlsx --tarih 09.10.2026",
+  "girdiler": [
+    "Gelen yazılar (.xlsx/.csv): Tebliğ Tarihi, Yazı Türü; Kayıt No, Kurum, Dosya No, Müşteri No/Adı, TCKN/VKN, Tutar, Yazıdaki Süre (Gün), Cevap Tarihi, Sorumlu isteğe bağlı",
+    "İsteğe bağlı ek tatil günleri (--tatiller)"
+  ],
+  "ciktilar": ["Excel: Özet (durum ve tür dağılımı), Takip Listesi (son gün, kalan iş günü, notlar, 'Yapılan İşlem'), Müşteri Özeti (açık yazı, haciz tutarı, kurum sayısı), Süre Kuralları"],
+  "internet": false
+}

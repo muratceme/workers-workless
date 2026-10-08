@@ -1,0 +1,14 @@
+Kayıt No;Tebliğ Tarihi;Kurum;Yazı Türü;Dosya No;Müşteri No;Müşteri Adı;TCKN/VKN;Tutar;Yazıdaki Süre (Gün);Cevap Tarihi;Sorumlu
+RY-2026-0101;23.09.2026;Kurgu 3. İcra Dairesi;İİK 89/1 birinci haciz ihbarnamesi;2026/1450 Esas;M100;Ahmet Kurgu;10000000146;85.000,00;;28.09.2026;Operasyon-1
+RY-2026-0102;25.09.2026;Kurgu 5. İcra Dairesi;Birinci haciz ihbarnamesi (89/1);2026/2210 Esas;M200;Kurgu İnşaat Ltd. Şti.;1234567890;1.250.000,00;;;Operasyon-2
+RY-2026-0103;26.09.2026;Kurgu 4. İcra Dairesi;89/1 haciz ihbarnamesi;2026/1777 Esas;M500;Mehmet Örnek;10000000147;42.500,00;;06.10.2026;Operasyon-1
+RY-2026-0104;01.10.2026;Kurgu 1. İcra Dairesi;89/1 haciz ihbarnamesi;2026/3001 Esas;M300;Elif Deneme;10000000214;27.300,00;;;Operasyon-1
+RY-2026-0105;02.10.2026;Kurgu 5. İcra Dairesi;İkinci haciz ihbarnamesi (89/2);2026/2210 Esas;M200;Kurgu İnşaat Ltd. Şti.;1234567890;1.250.000,00;;;Operasyon-2
+RY-2026-0106;02.10.2026;Kurgu Cumhuriyet Başsavcılığı;Bilgi ve belge talebi;2026/889 Soruşturma;M600;Deneme Ticaret A.Ş.;9876543217;;3;;Uyum
+RY-2026-0107;03.10.2026;Kurgu Vergi Dairesi Müdürlüğü;6183 sayılı Kanun md. 79 haciz bildirisi;2026/77-HB;M200;Kurgu İnşaat Ltd. Şti.;1234567890;340.000,00;7;;Operasyon-2
+RY-2026-0108;05.10.2026;Kurgu 2. İcra Dairesi;Üçüncü haciz ihbarnamesi (89/3);2026/0999 Esas;M700;Ayşe Örnek;10000000382;65.000,00;;;Hukuk
+RY-2026-0109;06.10.2026;SGK Kurgu İl Müdürlüğü;Haciz bildirisi (6183);2026/5120;M400;Can Kurgu;10000000450;18.750,00;;;Operasyon-1
+RY-2026-0110;06.10.2026;Kurgu 3. İcra Dairesi;Haciz kaldırma (fekki) yazısı;2026/1450 Esas;M100;Ahmet Kurgu;10000000146;;;07.10.2026;Operasyon-1
+RY-2026-0111;07.10.2026;Kurgu 2. Asliye Hukuk Mahkemesi;Bilgi talebi müzekkeresi;2026/410 Esas;M100;Ahmet Kurgu;10000000146;;10;;Hukuk
+RY-2026-0112;07.10.2026;Kurgu 1. İcra Dairesi;Haciz kaldırma yazısı;2026/3001 Esas;M300;Elif Deneme;10000000214;;;;Operasyon-1
+RY-2026-0113;01.10.2026;Kurgu 1. İcra Dairesi;89/1 haciz ihbarnamesi;2026/3001 Esas;M300;Elif Deneme;10000000214;27.300,00;;;Operasyon-1
