@@ -1,0 +1,18 @@
+Örnek Lojistik A.Ş. — 01.01.2026-31.12.2026 Mizan (kapanış öncesi, kurgusal)
+Hesap Kodu;Hesap Adı;Borç Bakiye;Alacak Bakiye
+100;Kasa;10.000,00;
+102;Bankalar;350.000,00;
+120;Alıcılar;500.000,00;
+120.01;Yurtiçi Alıcılar;350.000,00;
+120.02;Örnek Holding A.Ş.;150.000,00;
+254;Taşıtlar;1.200.000,00;
+257;Birikmiş Amortismanlar (-);;300.000,00
+300;Banka Kredileri;;400.000,00
+320;Satıcılar;;160.000,00
+500;Sermaye;;500.000,00
+570;Geçmiş Yıllar Kârları;;400.000,00
+600;Yurtiçi Satışlar;;1.800.000,00
+600.01;Grup Dışı Taşıma Gelirleri;;1.500.000,00
+600.02;Örnek Holding Taşıma Gelirleri;;300.000,00
+622;Satılan Hizmet Maliyeti (-);1.300.000,00;
+632;Genel Yönetim Giderleri (-);200.000,00;

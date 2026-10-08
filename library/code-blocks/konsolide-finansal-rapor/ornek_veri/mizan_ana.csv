@@ -1,0 +1,28 @@
+Örnek Holding A.Ş. — 01.01.2026-31.12.2026 Mizan (kapanış öncesi, kurgusal)
+Hesap Kodu;Hesap Adı;Borç Bakiye;Alacak Bakiye
+100;Kasa;20.000,00;
+102;Bankalar;1.000.000,00;
+120;Alıcılar;2.000.000,00;
+120.01;Yurtiçi Alıcılar;1.400.000,00;
+120.02;Örnek Pazarlama A.Ş.;600.000,00;
+153;Ticari Mallar;1.000.000,00;
+245;Bağlı Ortaklıklar;1.800.000,00;
+245.01;Örnek Pazarlama A.Ş.;1.000.000,00;
+245.02;Örnek Lojistik A.Ş.;800.000,00;
+253;Tesis, Makine ve Cihazlar;2.000.000,00;
+257;Birikmiş Amortismanlar (-);;500.000,00
+300;Banka Kredileri;;1.200.000,00
+320;Satıcılar;;900.000,00
+320.01;Yurtiçi Satıcılar;;750.000,00
+320.02;Örnek Lojistik A.Ş.;;150.000,00
+500;Sermaye;;4.000.000,00
+570;Geçmiş Yıllar Kârları;;800.000,00
+600;Yurtiçi Satışlar;;6.000.000,00
+600.01;Grup Dışı Satışlar;;4.000.000,00
+600.02;Örnek Pazarlama A.Ş.'ye Satışlar;;2.000.000,00
+621;Satılan Ticari Mallar Maliyeti (-);4.200.000,00;
+631;Pazarlama Satış ve Dağıtım Giderleri (-);500.000,00;
+631.01;Diğer Pazarlama Giderleri;200.000,00;
+631.02;Örnek Lojistik Nakliye Giderleri;300.000,00;
+632;Genel Yönetim Giderleri (-);700.000,00;
+660;Kısa Vadeli Borçlanma Giderleri (-);180.000,00;

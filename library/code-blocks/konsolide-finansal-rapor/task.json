@@ -1,0 +1,19 @@
+{
+  "id": "konsolide-finansal-rapor",
+  "tur": "kod",
+  "ad": "Konsolide Finansal Rapor",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --sirketler sirketler.xlsx --eliminasyonlar eliminasyonlar.xlsx --unvan \"Örnek Grup\"",
+  "girdiler": [
+    "Şirket listesi (Kod, Ünvan, Mizan dosyası, Pay %, Yatırım Hesabı, Edinim Özkaynağı, Rol) ve her şirketin Tekdüzen mizanı",
+    "Eliminasyon listesi (Tür: Cari / Gelir-Gider / Stoktaki Kâr / Düzeltme, Şirket, Hesap Kodu, Karşı Şirket, Karşı Hesap Kodu, Tutar)"
+  ],
+  "ciktilar": ["Excel: şirketler + konsolide yan yana bilanço ve gelir tablosu, konsolidasyon çalışma tablosu, eliminasyon kayıtları, mutabakat bulguları"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "mizan_cekirdek.py": "code-blocks/mizan-kontrolu/main.py",
+    "mali_tablo_cekirdek.py": "code-blocks/mizandan-mali-tablo-hazirlama/main.py"
+  }
+}

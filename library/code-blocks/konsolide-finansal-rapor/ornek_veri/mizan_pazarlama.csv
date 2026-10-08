@@ -1,0 +1,15 @@
+Örnek Pazarlama A.Ş. — 01.01.2026-31.12.2026 Mizan (kapanış öncesi, kurgusal)
+Hesap Kodu;Hesap Adı;Borç Bakiye;Alacak Bakiye
+100;Kasa;30.000,00;
+102;Bankalar;400.000,00;
+120;Alıcılar;1.500.000,00;
+153;Ticari Mallar;900.000,00;
+320;Satıcılar;;1.100.000,00
+320.01;Yurtiçi Satıcılar;;450.000,00
+320.02;Örnek Holding A.Ş.;;650.000,00
+360;Ödenecek Vergi ve Fonlar;;130.000,00
+500;Sermaye;;1.000.000,00
+570;Geçmiş Yıllar Kârları;;200.000,00
+600;Yurtiçi Satışlar;;3.000.000,00
+621;Satılan Ticari Mallar Maliyeti (-);2.200.000,00;
+631;Pazarlama Satış ve Dağıtım Giderleri (-);400.000,00;

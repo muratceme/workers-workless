@@ -1,0 +1,6 @@
+Tür;Şirket;Hesap Kodu;Karşı Şirket;Karşı Hesap Kodu;Tutar;Açıklama
+Cari;ANA;120.02;BP;320.02;;Holding'in Pazarlama'dan ticari alacağı
+Cari;BL;120.02;ANA;320.02;;Lojistik'in Holding'den nakliye alacağı
+Gelir-Gider;ANA;600.02;BP;621;2.000.000;Holding → Pazarlama mal satışı (Pazarlama malları grup dışına sattı)
+Gelir-Gider;BL;600.02;ANA;631.02;300.000;Lojistik → Holding nakliye hizmeti
+Stoktaki Kâr;BP;153;;621;90.000;Pazarlama stoğundaki Holding malları: 450.000 × %20 kâr marjı

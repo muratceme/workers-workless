@@ -1,0 +1,4 @@
+Kod;Ünvan;Mizan;Pay %;Yatırım Hesabı;Edinim Özkaynağı;Rol
+ANA;Örnek Holding A.Ş.;mizan_ana.csv;100;;;Ana
+BP;Örnek Pazarlama A.Ş.;mizan_pazarlama.csv;100;245.01;1.000.000;Bağlı
+BL;Örnek Lojistik A.Ş.;mizan_lojistik.csv;80;245.02;750.000;Bağlı
