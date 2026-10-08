@@ -231,10 +231,24 @@
   adlara "hacim m" ekle. Sahte model yanıtını mesaj gövdesine göre seç (terimce gibi ortak bölümler her mesajda var).
 - **Toplam 103 paket**, kontrol 103/103.
 
+- Devam (2026-10-08, 8. tur): `provizyon-talebi-degerlendirme` (sıralı karar: anlaşmasız → süre dışı → teminat yok → genel
+  şart istisnası (ICD-10 öneki) → poliçedeki ön mevcut durum → teminat / tanı bekleme süresi (ilk giriş tarihinden) →
+  inceleme (ICD yok, prim gecikmede, ilk 90 günde kronik tanı) → katılım payı + kalan yıllık limit; onaylar limitten
+  düşülür; kurum cevabı taslağı), `saglik-faturasi-kontrolu` (fiyat farkı, hesap hatası, paket içi hizmet, mükerrer,
+  provizyon başına adet sınırı, listede yok / provizyon öncesi işlem → inceleme; provizyon ret / inceleme / yok; şirket
+  payı provizyon tavanıyla sınırlı; kesinti listesi), `mulakat-takvimi-planlama` (rol paneli, pozisyon yetkisi, günlük
+  sınır, tampon, en dar müsaitlik önce, 15 dk adım; yerleşemeyen gerekçesi rol bazında; davet metni + .ics),
+  `personel-ozluk-dosyasi-eksik-evrak-takibi` (koşullu evrak listesi Alan=/!=/~, teslim süresi 0 = işe başlamadan önce,
+  boş = 30; geçerlilik ay; matris + hatırlatma metinleri), `ucret-bandi-karsilastirmasi` (pozisyon bandı önce, kısmi
+  süreli tam zamanlı karşılık, compa-ratio, asgari ücret tr_parametreler.json'dan, sıkışma ≥2 yıl kıdem + performans,
+  bütçe etkisi, cinsiyet karşılaştırması yalnız bilgi).
+- **Ders:** Sahte / örnek veri üretirken özel durum satır indekslerini üretimden sonra yazdırıp doğrula. Sıralı kural
+  motorlarında "ilk uyan kural" sırasını README tablosunda göster.
+- **Toplam 108 paket**, kontrol 108/108.
+
 ### KALDIĞIM YER
-Sıradaki: Provizyon Talebi Değerlendirme, Sağlık Faturası Kontrolü (puan 4, sağlık sigortası); ardından puan 3 İK
-görevleri (Mülakat Takvimi Planlama, Özlük Dosyası Eksik Evrak, Eğitim İhtiyaç Analizi, Ücret Bandı Karşılaştırması, Zam
-Bütçesi Simülasyonu, Performans Primi, Personel Devir Oranı…). Epikriz, ÖSS ve SGK fatura ön kontrolü (puan 5) sona
+Sıradaki (puan 3, İK): Eğitim İhtiyaç Analizi, Zam Bütçesi Simülasyonu, Performans Primi Hesaplama, Personel Devir Oranı
+Analizi, Çalışan Bağlılık Anketi Analizi, Personel Maliyet Bütçesi… Epikriz, ÖSS ve SGK fatura ön kontrolü (puan 5) sona
 bırakıldı.
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
