@@ -1,0 +1,16 @@
+{
+  "id": "urun-maliyet-hesaplama-costing",
+  "tur": "kod",
+  "ad": "Ürün Maliyet Hesaplama (Costing)",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --modeller modeller.xlsx --kalemler maliyet_kalemleri.xlsx --kur USD=41,20 EUR=48,10",
+  "girdiler": [
+    "Modeller (.xlsx/.csv): Model, Müşteri, Açıklama, Sipariş Adedi, Teklif Para Birimi, Verimlilik %, Genel Gider %, Kâr Marjı %, Komisyon %, Hedef Fiyat",
+    "Maliyet kalemleri: Model, Grup (Kumaş / Aksesuar / Fason İşlem / CM / Diğer / Sabit), Kalem, Miktar (CM için SAM dk), Birim, Fire %, Birim Fiyat, Para Birimi",
+    "Kurlar: --kur USD=… EUR=… (1 birim döviz = TL)"
+  ],
+  "ciktilar": ["Excel: Özet (model bazında grup toplamları, FOB teklif, hedef fiyatta marj), model başına maliyet föyü, Duyarlılık (kur ±%5, kumaş ±%10), Uyarılar"],
+  "internet": false
+}

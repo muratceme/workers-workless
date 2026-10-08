@@ -1,0 +1,38 @@
+Model;Grup;Kalem;Miktar;Birim;Fire %;Birim Fiyat;Para Birimi
+TS-01;Kumaş;Süprem 30/1 penye, 160 g/m²;0,22;kg;8;5,10;USD
+TS-01;Kumaş;Ribana 1x1 (yaka);0,015;kg;10;6,20;USD
+TS-01;Aksesuar;Ana etiket (dokuma);1;adet;2;0,045;USD
+TS-01;Aksesuar;Yıkama talimatı etiketi;1;adet;2;0,60;TL
+TS-01;Aksesuar;Beden etiketi;1;adet;2;0,25;TL
+TS-01;Aksesuar;Askılık kartı ve plastik;1;adet;2;0,03;USD
+TS-01;Aksesuar;Polibag;1;adet;1;0,90;TL
+TS-01;Aksesuar;Koli (36 adet/koli);0,0278;adet;0;38;TL
+TS-01;Fason İşlem;Göğüs baskı (su bazlı, 2 renk);1;adet;3;9,50;TL
+TS-01;CM;Kesim;0,9;dk;;4,10;TL
+TS-01;CM;Dikim;9,5;dk;;4,10;TL
+TS-01;CM;Ütü-paket;1,6;dk;;4,10;TL
+TS-01;Diğer;Yurt içi nakliye (limana);1;adet;;0,35;TL
+TS-01;Sabit;Test raporu (kimyasal ve fiziksel);1;sipariş;;450;USD
+TS-01;Sabit;Numune maliyetleri;1;sipariş;;3000;TL
+SW-02;Kumaş;3 iplik şardonlu, 300 g/m²;0,55;kg;10;6,40;USD
+SW-02;Kumaş;Ribana 2x2 (manşet, etek);0,06;kg;10;6,90;USD
+SW-02;Aksesuar;Ana etiket (dokuma);1;adet;2;0,05;EUR
+SW-02;Aksesuar;Yıkama talimatı etiketi;1;adet;2;0,60;TL
+SW-02;Aksesuar;Askılık kartı;1;adet;2;0,04;EUR
+SW-02;Aksesuar;Polibag;1;adet;1;1,10;TL
+SW-02;Fason İşlem;Göğüs nakış (8.000 batış);1;adet;3;14;TL
+SW-02;Fason İşlem;Enzim yıkama;1;adet;2;;TL
+SW-02;CM;Kesim;1,4;dk;;4,10;TL
+SW-02;CM;Dikim;18;dk;;4,10;TL
+SW-02;CM;Ütü-paket;2,2;dk;;4,10;TL
+SW-02;Sabit;Test raporu;1;sipariş;;380;EUR
+DR-03;Kumaş;Viskon krep, 140 cm en;1,6;m;4;3,10;EUR
+DR-03;Aksesuar;Gizli fermuar 55 cm;1;adet;2;0,22;EUR
+DR-03;Aksesuar;Düğme;2;adet;3;0,85;TL
+DR-03;Aksesuar;Tela;0,12;m;5;0,90;EUR
+DR-03;Aksesuar;Etiket seti;1;adet;2;0,09;EUR
+DR-03;Aksesuar;Askı;1;adet;1;0,12;GBP
+DR-03;CM;Kesim;2,5;dk;;4,10;TL
+DR-03;CM;Dikim;32;dk;;4,10;TL
+DR-03;CM;Ütü-paket;4;dk;;4,10;TL
+DR-03;Sabit;Test raporu;1;sipariş;;380;EUR
