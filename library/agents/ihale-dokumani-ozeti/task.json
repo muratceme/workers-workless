@@ -1,0 +1,20 @@
+{
+  "id": "ihale-dokumani-ozeti",
+  "tur": "agent",
+  "ad": "İhale Dokümanı Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./ihale_dokumani --teklif 48500000",
+  "girdiler": [
+    "İhale dokümanı klasörü veya dosyası (.pdf metin tabanlı, .docx, .txt): idari şartname, sözleşme tasarısı, teknik şartname, ilan, zeyilname",
+    "İsteğe bağlı: planlanan teklif bedeli (--teklif), yaklaşık maliyet (--yaklasik), takvim tarihi (--bugun)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Özet (ihale bilgileri, takvim), Yeterlik Kriterleri ('Firmamız Karşılıyor mu?'), Teminat ve Cezalar, Hesaplar (teminat, iş deneyimi, iş hacmi, günlük ceza tutarları), Süreler, Özel Şartlar ve Riskler, İstenen Belgeler ('Hazır mı?'), Kontroller (alıntı doğrulama, belgeler arası çelişki, özette olmayan konular), Açıklama Talepleri; ayrıca Markdown özet"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
