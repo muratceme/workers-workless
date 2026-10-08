@@ -1,0 +1,16 @@
+{
+  "id": "otomatik-sevkiyat-replenishment-onerisi",
+  "tur": "kod",
+  "ad": "Otomatik Sevkiyat (Replenishment) Önerisi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --magaza-stok magaza_stok.xlsx --satislar satislar.xlsx --depo-stok depo.xlsx --hedef-gun 14",
+  "girdiler": [
+    "Mağaza stoğu (Mağaza, Ürün Kodu, Stok [, Yoldaki, Asgari Teşhir])",
+    "Mağaza satışları (Tarih, Mağaza, Ürün Kodu, Adet)",
+    "Depo stoğu (Ürün Kodu, Stok); isteğe bağlı paket/sevk katları"
+  ],
+  "ciktilar": ["Excel: sevk listesi, hesap detayı (satış hızı, stok günü, hedef stok, ihtiyaç, öneri, sevk, uyarılar), ürün özeti"],
+  "internet": false
+}
