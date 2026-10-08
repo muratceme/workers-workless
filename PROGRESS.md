@@ -198,10 +198,25 @@
   metinlerden kaçın ("6'i", "08:15'den") — ekten bağımsız kalıp kullan ("6 iptal", "08:15 itibarıyla").
 - **Toplam 93 paket**, kontrol 93/93.
 
+- Devam (2026-10-08, 6. tur): `kestirimci-bakim-uyarilari` (ISO 10816-3 grup / temel → B/C uyarı, C/D alarm; nominal
+  akım alarm, ×0,90 uyarı; 30 günlük doğrusal eğilim + R² ≥ 0,6 ile alarma kalan gün; Kriter II ani değişim; çözünürlüğe
+  duyarlı sabit değer: medyan |Δ| ≥ 2 × çözünürlük; ölçüm gecikmiş / yok; çoklu belirti), `numune-takip-cizelgesi` (proto /
+  fit / size set / PP / SMS / TOP, termin = istenen veya talep + hazırlık; yanıt gecikmesi, açılmamış revizyon, fit onayı
+  olmadan PP, kesim öncesi PP onayı; model × tür matrisi, zamanında gönderim performansı), `urun-maliyet-hesaplama-costing`
+  (kumaş tüketim × fire × fiyat, CM = SAM × dk maliyeti ÷ verim, sabit ÷ adet, GG, FOB = maliyet ÷ (1 − marj − komisyon);
+  kur çevirisi, hedef fiyatta marj ve gereken düşüş, kur ±%5 / kumaş ±%10 duyarlılığı), `uretim-hatti-yukleme-plani`
+  (puantaj_cekirdek tatilleri; arife yarım gün; EDD sırası + en erken bitiren uygun hat, sabit atama; öğrenme eğrisi
+  50/70/85; gün ortasında devralma; tampon 2 iş günü; gereken adet/gün; hat × gün planı), `kumas-siparis-termin-takibi`
+  (tip bazında aşama şablonu, son tamamlanan aşamadan tahmin, gecikmiş aşama bugün biter, lab dip onayı yoksa boyama bugün
+  başlar; eksik teslim toleransı; kritik kumaş → kesim / sevk kayması; tedarikçi performansı).
+- **Ders:** Gürültülü ama düşük çözünürlüklü ölçümlerde "art arda aynı değer" doğaldır; sabit değer kuralını serinin
+  değişkenliğine bağla. argparse help metninde `%` → `%%`. Yerelde localhost sunucusu açıkken `build.mjs` dist
+  dosyalarına erişemeyebiliyor (ENOENT): sunucuyu durdur → build → yeniden başlat.
+- **Toplam 98 paket**, kontrol 98/98.
+
 ### KALDIĞIM YER
-Sıradaki (puan 4): Kestirimci Bakım Uyarıları, Numune Takip Çizelgesi, Ürün Maliyet Hesaplama (Costing), Üretim Hattı
-Yükleme Planı, Kumaş Sipariş Termin Takibi, Fason Atölye İş Takibi, Araç ve Sefer Takip, Parsiyel Yük Konsolidasyon, Dilekçe Taslağı (agent),
-Hasta İletişim Mesajı Çevirisi (agent), Provizyon Talebi Değerlendirme, Sağlık Faturası Kontrolü…
+Sıradaki (puan 4): Fason Atölye İş Takibi, Araç ve Sefer Takip Listesi, Parsiyel Yük Konsolidasyon Planı, Dilekçe Taslağı
+(agent), Hasta İletişim Mesajı Çevirisi (agent), Provizyon Talebi Değerlendirme, Sağlık Faturası Kontrolü…
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);
