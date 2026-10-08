@@ -1,0 +1,43 @@
+Branş;Hasar Türü;Evrak;Anahtar Kelimeler;Koşul;Kimden;Not
+Kasko|Konut|İşyeri;*;Hasar ihbar formu;ihbar;;Sigortalı;
+*;*;Banka hesap bilgisi (IBAN);iban|hesap bilgi|banka hesap;;Sigortalı;Ödeme için, sigortalı / hak sahibi adına
+*;*;Vekaletname;vekalet;vekil;Sigortalı;Başvuru vekil aracılığıyla yapılıyorsa
+*;*;Ticaret sicil gazetesi ve imza sirküleri;imza sirk|sicil gazete;tüzel kişi;Sigortalı;Sigortalı / hak sahibi şirketse
+Kasko|Konut|İşyeri;*;Ekspertiz raporu;eksper;;Şirket / eksper;Eksper ataması şirketçe yapılır
+Trafik;Maddi;Ekspertiz raporu;eksper;;Şirket / eksper;Eksper ataması şirketçe yapılır
+Kasko;Çarpışma;Kaza tespit tutanağı;kaza tespit|tutanak;;Sigortalı;Anlaşmalı tutanak veya kolluk tutanağı
+Kasko;Çarpışma;Sürücü belgesi;ehliyet|surucu belge;;Sigortalı;Kaza anındaki sürücüye ait
+Kasko;*;Araç ruhsatı;ruhsat;;Sigortalı;
+Kasko;Çarpışma|Cam kırılması;Hasar fotoğrafları;fotograf|resim;;Sigortalı;
+Kasko;Çarpışma;Alkol raporu;alkol;resmi tutanak;Sigortalı / kolluk;Kaza kolluk tarafından tutanağa bağlandıysa
+Kasko;Çarpışma;Onarım faturası;onarim|servis fatura|fatura;;Sigortalı / servis;Anlaşmalı serviste servis tarafından iletilir
+Kasko;Cam kırılması;Cam değişim faturası;fatura;;Sigortalı / servis;
+Kasko;Hırsızlık;Karakol / savcılık şikâyet tutanağı;karakol|savcilik|sikayet|ifade;;Sigortalı;
+Kasko;Hırsızlık;Aracın tüm anahtarları;anahtar;;Sigortalı;Teslim alınan anahtar sayısını kontrol edin
+Kasko;Hırsızlık;Aracın bulunamadığına dair emniyet yazısı;bulunamadi|emniyet yazi;;Sigortalı / emniyet;
+Kasko;*;Rehin kaldırma (fek) yazısı veya rehin alacaklı muvafakatnamesi;rehin|fek|muvafakat;rehinli;Sigortalı / rehin alacaklı;Araçta rehin varsa
+Trafik;*;Başvuru dilekçesi;dilekce|basvuru;;Hak sahibi;
+Trafik;*;Kaza tespit tutanağı;kaza tespit|tutanak;;Hak sahibi;
+Trafik;Maddi;Hasarlı aracın ruhsatı;ruhsat;;Hak sahibi;
+Trafik;Maddi;Sürücü belgesi;ehliyet|surucu belge;;Hak sahibi;
+Trafik;Maddi;Hasar fotoğrafları;fotograf|resim;;Hak sahibi;
+Trafik;Maddi;Onarım faturası;onarim|fatura;;Hak sahibi / servis;
+Trafik;Bedeni;Kimlik belgesi;kimlik|nufus cuzdan;;Hak sahibi;
+Trafik;Bedeni;Tedavi belgeleri (ilk müdahale raporu, epikriz);epikriz|tedavi|ilk mudahale|hastane;yaralanma;Hak sahibi;
+Trafik;Bedeni;Maluliyet (sağlık kurulu) raporu;maluliyet|engellilik|saglik kurulu;yaralanma;Hak sahibi;Sürekli sakatlık talebinde
+Trafik;Bedeni;Gelir belgesi;gelir|maas|bordro;yaralanma|ölüm;Hak sahibi;Tazminat hesabı için
+Trafik;Bedeni;Ölüm belgesi;olum belge|olum raporu|olum tutanak;ölüm;Hak sahibi;
+Trafik;Bedeni;Mirasçılık belgesi (veraset ilamı);veraset|mirascilik;ölüm;Hak sahibi;
+Trafik;Bedeni;Vukuatlı nüfus kayıt örneği;nufus kayit|vukuatli;ölüm;Hak sahibi;
+Trafik;Bedeni;Savcılık evrakı (otopsi raporu dahil);savcilik|otopsi|sorusturma;ölüm;Hak sahibi;
+Konut|İşyeri;Yangın;İtfaiye raporu;itfaiye;;Sigortalı / itfaiye;
+Konut|İşyeri;Yangın|Hırsızlık|Dahili su;Hasar fotoğrafları;fotograf|resim;;Sigortalı;
+Konut|İşyeri;Yangın;Hasarlı eşya listesi;liste|envanter;;Sigortalı;
+Konut|İşyeri;Yangın|Hırsızlık;Fatura veya proforma;fatura|proforma|teklif;;Sigortalı;Hasarlı / çalınan eşyanın değeri için
+Konut|İşyeri;Yangın;Karakol / savcılık tutanağı;karakol|savcilik|tutanak;resmi tutanak;Sigortalı / kolluk;Olay kolluğa bildirildiyse
+Konut|İşyeri;*;Rehin alacaklı (dain-i mürtehin) muvafakatnamesi;muvafakat|dain;rehinli;Sigortalı / rehin alacaklı;Poliçede rehin alacaklı varsa
+Konut|İşyeri;Hırsızlık;Karakol / savcılık şikâyet tutanağı;karakol|savcilik|sikayet|tutanak;;Sigortalı;
+Konut|İşyeri;Hırsızlık;Çalınan eşya listesi;liste|envanter;;Sigortalı;
+Konut|İşyeri;Dahili su;Su kaçağının kaynağını gösteren belge;tesisat|usta|kacak;;Sigortalı;Tesisatçı raporu veya faturası
+Konut|İşyeri;Dahili su;Onarım faturası veya proforma;onarim|proforma|tamir;;Sigortalı;
+Konut|İşyeri;Dahili su;Bina yönetimi / komşu tutanağı;yonetim|komsu;komşu;Sigortalı;Hasar komşu daireden geldiyse

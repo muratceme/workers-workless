@@ -1,0 +1,16 @@
+{
+  "id": "hasar-dosyasi-evrak-eksik-kontrolu",
+  "tur": "kod",
+  "ad": "Hasar Dosyası Evrak Eksik Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --dosyalar dosyalar.xlsx --evraklar evraklar.xlsx --tarih 09.10.2026",
+  "girdiler": [
+    "Hasar dosyaları (.xlsx/.csv): Dosya No, Branş, Hasar Türü, Sigortalı, Hasar Tarihi, İhbar Tarihi, Koşullar (vekil, tüzel kişi, rehinli, resmi tutanak, yaralanma, ölüm, komşu)",
+    "Gelen evraklar: tablo (Dosya No, Evrak, Geliş Tarihi) veya dosya numarası adlı alt klasörler",
+    "Gerekli evrak listesi (evrak_listesi.csv; örnektir, şirketinize göre düzenleyin)"
+  ],
+  "ciktilar": ["Excel: Özet, Dosyalar (durum, 'Takip Notu'), Eksik Evraklar, Gelen Evraklar (eşleşme), Talep Yazıları", "Eksikli her dosya için evrak talep yazısı taslağı (.txt)"],
+  "internet": false
+}
