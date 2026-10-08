@@ -1,0 +1,9 @@
+Müşteri No;Ad Soyad / Unvan;Tip;Doğum Tarihi;Uyruk;Rol
+C001;Muhammed Yusuf Kurgusali;Bireysel;12.04.1979;Kurgustan;Müşteri
+C002;Hüseyin Abdullah Denemeov;Bireysel;1988;Ornekistan;Müşteri
+C003;Örnek Global Trading Ltd. Şti.;Kurumsal;;;Alıcı (dış ticaret)
+C004;Ahmet Yılmaz;Bireysel;05.06.1985;Türkiye;Müşteri
+C005;Mehmet Kurgusal;Bireysel;1990;Türkiye;Müşteri
+C006;KEMAL DENEME KURGUOĞLU;Bireysel;03.09.1971;Türkiye;Kefil
+C007;Kurgu Lojistik Ticaret A.Ş.;Kurumsal;;Türkiye;Tedarikçi
+C008;Elif Kaya;Bireysel;11.11.1992;Türkiye;Müşteri

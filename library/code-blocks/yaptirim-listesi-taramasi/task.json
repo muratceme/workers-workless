@@ -1,0 +1,15 @@
+{
+  "id": "yaptirim-listesi-taramasi",
+  "tur": "kod",
+  "ad": "Yaptırım Listesi Taraması",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --musteriler musteriler.xlsx --liste consolidated.xml --liste ulusal_kararlar.xlsx",
+  "girdiler": [
+    "Taranacak müşteri / karşı taraf listesi (.xlsx/.csv): Müşteri No, Ad Soyad / Unvan, Tip, Doğum Tarihi, Uyruk [, Rol]",
+    "Yaptırım listeleri: BM Güvenlik Konseyi Konsolide Listesi (resmî XML) ve/veya CSV/Excel (Ad, Diğer Adlar, Doğum Tarihi, Uyruk, Liste, Referans)"
+  ],
+  "ciktilar": ["Excel: eşleşmeler (güçlü / olası / zayıf, puan, eşleşen ad biçimi, doğum ve uyruk karşılaştırması, analist karar sütunları), yöntem bilgisi"],
+  "internet": false
+}
