@@ -1,0 +1,20 @@
+{
+  "id": "teftis-raporu-bulgu-taslagi",
+  "tur": "agent",
+  "ad": "Teftiş Raporu Bulgu Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./teftis_klasoru",
+  "girdiler": [
+    "Çalışma kâğıdı (.csv/.xlsx): Tespit No, Birim, Konu, Tespit, Örneklem, Hatalı, Tutar, Kanıt, Personel, Müşteri, Kök Neden, Birim Açıklaması",
+    "Mevzuat / iç düzenleme metinleri (.txt/.pdf/.docx; mevzuat/ klasörü veya adında yönetmelik, yönerge, prosedür geçen dosyalar)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Markdown bulgu taslakları: tespit, kriter (doğrulanmış alıntıyla), neden, etki, risk, öneri", "Excel: Özet, Bulgular ('Müfettiş Onayı', 'Birim Cevabı'), Tespitler, Dayanak Kontrolü, Kontroller"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

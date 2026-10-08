@@ -1,0 +1,7 @@
+Tespit No;Birim;Konu;Tespit;Örneklem;Hatalı;Tutar;Kanıt;Personel;Müşteri;Kök Neden;Birim Açıklaması
+T1;Örnek Şube;Kasa sayımı;Eylül 2026 kasa sayım tutanakları incelendi, 22 iş gününün 4'ünde tutanakta ikinci yetkilinin imzası bulunmuyor.;22;4;;KS-01 tutanak fotokopileri;;;Operasyon yetkilisinin izinli olduğu günlerde ikinci yetkili belirlenmemiş.;İzin günlerinde sayıma şube müdür yardımcısı katılıyor, imza unutulmuş.
+T2;Örnek Şube;Talimatla havale;Müşteri talimatıyla yapılan 40 havale/EFT işleminden 3'ünde talimat üzerinde imza kontrolü yapıldığına ilişkin ibare ve imza yok.;40;3;186.400,00;TH-03 talimat örnekleri;Mehmet Deneme;Kurgu Tekstil Ltd. Şti.|Ali Sınamalı;;
+T3;Örnek Şube;Kart teslimi;Teslim edilen 25 kredi kartının 2'sinde teslim formunda kart sahibinin imzası yok.;25;2;;KT-07 teslim formları;;;Kartlar kurye ile değil şubeden teslim edilmiş, form sonradan imzalatılacakmış.;
+T4;Örnek Şube;Mesai dışı işlem;Veri analizinde mesai dışında yapıldığı görülen 3 işlem için yönetici onayı bulunamadı.;3;3;42.000,00;Veri analizi çıktısı, İ0058 İ0127 İ0143;Ayşe Kurgu|Can Taslak|Mehmet Deneme;;;
+T5;Örnek Şube;Personel işlemleri;Bir personelin kendi hesabından 35.000 TL tutarında EFT işlemini kendisinin yaptığı görüldü.;1;1;35.000,00;Veri analizi çıktısı, İ0067;Zeynep Örnek;;;Personel acil ihtiyaç nedeniyle yaptığını belirtti.
+T6;Örnek Şube;Müşteri dosyaları;Arşivde örnekleme ile seçilen 30 müşteri dosyasının 5'inde kimlik belgesi örneği yok.;30;5;;MD-12 dosya kontrol listesi;;;;
