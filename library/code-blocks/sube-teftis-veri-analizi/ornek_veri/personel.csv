@@ -1,0 +1,8 @@
+Sicil;Ad Soyad;Görev;Şube;İşlem Limiti;Müşteri No;Yakın Müşteri No
+P001;Ayşe Kurgu;Gişe Yetkilisi;Örnek Şube;150000;50001;
+P002;Mehmet Deneme;Gişe Yetkilisi;Örnek Şube;150000;50002;
+P003;Zeynep Örnek;Müşteri Temsilcisi;Örnek Şube;250000;50003;50013
+P004;Can Taslak;Müşteri Temsilcisi;Örnek Şube;250000;50004;50014|50024
+P005;Elif Sınama;Gişe Yetkilisi;Örnek Şube;150000;50005;
+P006;Burak Model;Operasyon Yetkilisi;Örnek Şube;500000;50006;
+P007;Selin Şablon;Operasyon Yöneticisi;Örnek Şube;1000000;50007;

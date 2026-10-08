@@ -1,0 +1,16 @@
+{
+  "id": "sube-teftis-veri-analizi",
+  "tur": "kod",
+  "ad": "Şube Teftiş Veri Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --islemler islemler.xlsx --personel personel.xlsx --mesai 08:30-17:30 --bolunmus-esik 100000",
+  "girdiler": [
+    "İşlem listesi (.xlsx/.csv): İşlem No, Tarih, Saat, Şube, Personel, Müşteri No, İşlem Türü, Tutar, Durum, Onaylayan",
+    "Personel listesi: Sicil, Ad Soyad, Görev, İşlem Limiti, Müşteri No, Yakın Müşteri No",
+    "İsteğe bağlı: mesai saatleri, cumartesi açık, ek tatiller, bölünmüş işlem eşiği, iptal katsayısı"
+  ],
+  "ciktilar": ["Excel: Özet, Bulgular ('Müfettiş Değerlendirmesi'), Personel Özeti (risk puanı), İşlemler (işaretli), Parametreler"],
+  "internet": false
+}
