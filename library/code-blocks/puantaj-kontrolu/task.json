@@ -1,0 +1,15 @@
+{
+  "id": "puantaj-kontrolu",
+  "tur": "kod",
+  "ad": "Puantaj Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi puantaj.xlsx --donem 2026-05",
+  "girdiler": [
+    "Aylık puantaj (.xlsx/.csv): Sicil, Ad Soyad, [İşe Giriş, Çıkış], 1 … 31 gün sütunları (Ç, HT, GT, Yİ, Mİ, R, Üİ, D; fazla mesai Ç+2), [Çalışılan Gün, Fazla Mesai Saati, SGK Gün, Kalan Yıllık İzin, Yıl Başından FM]",
+    "İsteğe bağlı: ek tatil günleri (Tarih, Açıklama)"
+  ],
+  "ciktilar": ["Excel: özet, bulgular (hata, yasal sınır, dikkat, bilgi), personel bazında gün dağılımı, eksik gün nedeni ve SGK prim günü, renkli puantaj görünümü, kod listesi"],
+  "internet": false
+}
