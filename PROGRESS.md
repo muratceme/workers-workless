@@ -157,11 +157,23 @@
   Windows'ta Python write_text CRLF yazar (git normalize ediyor, sorun değil).
 - **Toplam 78 paket**, kontrol 78/78.
 
+- Devam (2026-10-08, 3. tur): `log-anomali-tespiti` (access/auth/uygulama logu satırdan tanınır; SSH/web parola
+  deneme + ardından başarılı giriş = kritik, 404 taraması, saldırı imzaları, medyan+4·MAD ani artış, normalleştirilmiş hata
+  imzası; kontrol.py urllib'i yasaklıyor → URL çözme elle), `resmi-yazi-haciz-muzekkere-takibi` (yalnız İİK 89/1=7 gün,
+  89/2=15 gün kodda; diğer türlerde süre yazıdan; son gün tatile denk gelirse ilk iş günü; 89/1 cevapsızken 89/2 → kritik),
+  `geri-odeme-kapasitesi-analizi` (CFADS = FAVÖK − vergi − yatırım − NİS artışı; aylık ödeme planlarından DSCR; 6 senaryo;
+  ikili aramayla azami kredi ve kırılma satış düşüşü), `portfoy-musteri-firsat-listesi` (kural tabanlı; gecikme/limit
+  doluluğunda kart-kredi önerilmez, sigorta krediye bağlanmaz notu, İYS izni yoksa yalnız şube), `firma-istihbarat-raporu-derleme`
+  (agent; sicil ayrıştırma, ortaklık toplamı, KKB ↔ istihbarat farkı, istihbaratı alınmamış banka, olumsuz kayıt yaşı;
+  sicildeki ortak/yöneticiler otomatik [KİŞİ-n]/[ŞİRKET-n]).
+- **Ders:** Git Bash heredoc'ta bazı tırnak kombinasyonları "unexpected EOF" veriyor — uzun dosyaları Write ile yaz.
+  `node scripts/build.mjs | tail -1` hata kodunu yutuyor; bir kez OneDrive kilidi yüzünden ENOENT verdi, yeniden çalıştırınca geçti.
+- **Toplam 83 paket**, kontrol 83/83.
+
 ### KALDIĞIM YER
-Sıradaki (paketsiz, puan 4): Log Anomali Tespiti, Resmî Yazı (Haciz/Müzekkere) Takibi, Portföy Müşteri Fırsat Listesi,
-Firma İstihbarat Raporu Derleme (agent), Geri Ödeme Kapasitesi Analizi, Kredi Komitesi Değerlendirme Notu (agent), Şube
-Teftiş Veri Analizi… Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı
-anahtar verecek).
+Sıradaki (paketsiz, puan 4): Kredi Komitesi Değerlendirme Notu (agent), Şube Teftiş Veri Analizi, Teftiş Raporu Bulgu
+Taslağı (agent), Risk Değerlendirme Özeti (agent, sigorta), Hasar Dosyası Evrak Eksik Kontrolü, Teminat Kapsam Kontrolü…
+Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);
 mizan çekirdeği para() "750.000" binlik yazımı.
