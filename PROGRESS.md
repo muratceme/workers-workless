@@ -88,7 +88,16 @@
   doğrulanmadı, yalnız yapısı test edildi.
 - **Toplam 36 paket** (26 kod bloğu + 10 agent), kontrol 36/36.
 
+- Yeni paketler: `mulakat-degerlendirme-ozeti`, `gorusme-kaydi-ozeti`, `destek-talebi-siniflandirma` (agent);
+  `haftalik-uretim-cizelgesi`, `malzeme-ihtiyac-planlamasi-mrp`, `cv-on-eleme`, `yonetim-raporu-kpi`,
+  `banka-hareketlerinden-muhasebe-fisi-onerisi` (kod).
+- Hata: Türkçe küçük harf dönüşümü "IBAN"/"ID" başlıklarını "ıban"/"ıd" yapıyordu; ilgili paketlerde düzeltildi.
+- Depoda `core.autocrlf=false` yapıldı, çalışma kopyası LF'ye normalleştirildi (CRLF uyarıları bitti).
+- **Toplam 44 paket**, kontrol 44/44.
+
 ### KALDIĞIM YER
-Sıradaki: agent'lar — Mülakat Değerlendirme Özeti (ortak.mjs İK), Görüşme Kaydı Özeti (müşteri hizmetleri), Destek
-Talebi Sınıflandırma (BT); sonra katalogdaki puanı (3. alan) yüksek görevlerden kod blokları. Klasör adı = görev
-adının slug'ı. Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` → commit + push.
+Sıradaki (puanı yüksek, paketsiz): Şüpheli İşlem Senaryo Taraması (MASAK — önce mevzuatı doğrula), Ürün Maliyeti
+Hesaplama, Stok Sayım Fark Analizi, Puantaj Kontrolü, Mizan Kontrolü, Sık Sorulan Sorulara Cevap Taslağı.
+Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
+İyileştirme notu: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde).
+Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` → commit + push.
