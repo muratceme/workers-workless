@@ -1,0 +1,18 @@
+{
+  "_not": "KURGUSAL ÖRNEK. Oranları ve şartları kendi trete sözleşmenizden girin.",
+  "ad": "2026 Yangın Eksedan Tretesi (kurgusal)",
+  "tur": "eksedan",
+  "saklama_payi": 5000000,
+  "satir_sayisi": 9,
+  "devir_orani": null,
+  "komisyon_orani": 0.30,
+  "prim_depo_orani": 0.35,
+  "depo_faiz_orani": 0.20,
+  "nakit_hasar_limiti": 2000000,
+  "kar_komisyonu_orani": 0.20,
+  "yonetim_gideri_orani": 0.05,
+  "donem_baslangic": "01.07.2026",
+  "donem_bitis": "30.09.2026",
+  "onceki_depo": {"tutar": 1200000, "tutulma_tarihi": "30.09.2025"},
+  "reasurorler": [{"ad": "Örnek Re", "pay": 0.60}, {"ad": "Kurgu Re", "pay": 0.40}]
+}

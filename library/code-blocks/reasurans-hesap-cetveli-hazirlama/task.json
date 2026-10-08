@@ -1,0 +1,16 @@
+{
+  "id": "reasurans-hesap-cetveli-hazirlama",
+  "tur": "kod",
+  "ad": "Reasürans Hesap Cetveli Hazırlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --trete trete.json --primler prim_bordrosu.xlsx --hasarlar hasar_bordrosu.xlsx",
+  "girdiler": [
+    "Trete şartları (.json): tür (kotpar / eksedan), devir oranı veya saklama payı + satır sayısı, komisyon, prim depo ve faiz oranı, dönem, önceki depo, reasürör payları",
+    "Prim bordrosu (.xlsx/.csv): Poliçe No, Başlangıç, Bitiş, Sigorta Bedeli, Brüt Prim, Hareket",
+    "Hasar bordrosu: Hasar No, Poliçe No, Hasar Tarihi, Ödeme Tarihi, Ödenen, Muallak"
+  ],
+  "ciktilar": ["Excel: Hesap Cetveli (alacak / borç, bakiye, reasürör payları, kâr komisyonu ön hesabı), Prim ve Hasar Bordrosu (devir oranlı), Kontroller, Parametreler"],
+  "internet": false
+}
