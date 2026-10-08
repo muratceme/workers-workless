@@ -1,0 +1,19 @@
+{
+  "id": "uretim-hatti-yukleme-plani",
+  "tur": "kod",
+  "ad": "Üretim Hattı Yükleme Planı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --hatlar hatlar.xlsx --siparisler siparisler.xlsx --baslangic 12.10.2026",
+  "girdiler": [
+    "Hatlar (.xlsx/.csv): Hat, Operatör Sayısı, Günlük Çalışma (dk), Verimlilik %, Ürün Grupları (boş = hepsi), Müsait Olduğu Tarih",
+    "Siparişler: Sipariş No, Model, Müşteri, Ürün Grubu, Adet, SAM (dk), Kesim Hazır Tarihi, Sevk Tarihi, [Atanan Hat]",
+    "İsteğe bağlı: plan başlangıcı, öğrenme eğrisi, sevk öncesi tampon (iş günü), çalışma günü, ek tatil günleri"
+  ],
+  "ciktilar": ["Excel: Yükleme Planı (hat, başlangıç, tahmini bitiş, bolluk / gecikme), Hat Yükü (doluluk, boşalma tarihi), Günlük Plan (hat × gün adetleri), Uyarılar"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "puantaj_cekirdek.py": "code-blocks/puantaj-kontrolu/main.py"
+  }
+}

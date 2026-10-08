@@ -1,0 +1,8 @@
+Sipariş No;Model;Müşteri;Ürün Grubu;Adet;SAM (dk);Kesim Hazır Tarihi;Sevk Tarihi;Atanan Hat
+PO-501;TS-01;Örnek Buyer UK;Tişört;12000;12;12.10.2026;20.11.2026;
+PO-502;SW-02;Kurgu Retail DE;Sweatshirt;6000;21,6;15.10.2026;10.11.2026;
+PO-503;DR-03;Deneme Store NL;Elbise;3000;38,5;14.10.2026;06.11.2026;
+PO-504;PL-04;Örnek Buyer UK;Polo;4000;16;20.10.2026;27.11.2026;
+PO-505;TS-07;Kurgu Retail DE;Tişört;8000;11;26.10.2026;04.12.2026;H2
+PO-506;PN-04;Örnek Buyer UK;Pantolon;2500;28;19.10.2026;20.11.2026;
+PO-507;SK-08;Deneme Store NL;Etek;1500;14;22.10.2026;27.11.2026;H9
