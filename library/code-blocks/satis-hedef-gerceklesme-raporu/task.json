@@ -1,0 +1,15 @@
+{
+  "id": "satis-hedef-gerceklesme-raporu",
+  "tur": "kod",
+  "ad": "Satış Hedef-Gerçekleşme Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --satislar satislar.xlsx --hedefler hedefler.xlsx --ay 2026-09",
+  "girdiler": [
+    "Satışlar (.xlsx/.csv): Tarih, Net Tutar [, Temsilci, Bölge, Ürün Grubu, Tür (İade)]",
+    "Hedefler (.xlsx/.csv): Ay, [Temsilci, Bölge, Ürün Grubu], Hedef — veya geniş biçim (Temsilci, 2026-01, 2026-02 …)"
+  ],
+  "ciktilar": ["Excel: genel, temsilci, bölge ve temsilci × ürün grubu bazında ay ve YTD hedef-gerçekleşme, geçen yıl aynı dönem karşılaştırması, ay içi run-rate tahmini ve gereken günlük satış, prim çarpanı, aylık trend grafiği"],
+  "internet": false
+}
