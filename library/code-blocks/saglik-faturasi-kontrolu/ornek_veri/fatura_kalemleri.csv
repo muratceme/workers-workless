@@ -1,0 +1,16 @@
+Fatura No;Kurum;Provizyon No;İşlem Tarihi;Hizmet Kodu;Hizmet Adı;Adet;Birim Fiyat (TL);Tutar (TL)
+F-501;Örnek Hastanesi;PV-01;05.10.2026;PKT-APP;Laparoskopik apendektomi paketi;1;62000;62000
+F-501;Örnek Hastanesi;PV-01;05.10.2026;AMH-01;Ameliyathane kullanımı;1;4500;4500
+F-501;Örnek Hastanesi;PV-01;06.10.2026;YTK-01;Yatak ücreti;2;2500;5000
+F-501;Örnek Hastanesi;PV-01;05.10.2026;LAB-HMG;Hemogram;2;180;360
+F-501;Örnek Hastanesi;PV-01;05.10.2026;LAB-CRP;CRP;1;220;220
+F-501;Örnek Hastanesi;PV-01;05.10.2026;LAB-CRP;CRP;1;220;220
+F-501;Örnek Hastanesi;PV-01;06.10.2026;ILC-0457;Seftriakson 1 g flakon;4;95;380
+F-502;Örnek Hastanesi;PV-02;05.10.2026;MUA-01;Uzman hekim muayenesi;1;1200;1200
+F-502;Örnek Hastanesi;PV-02;05.10.2026;LAB-HMG;Hemogram;1;150;150
+F-502;Örnek Hastanesi;PV-02;05.10.2026;LAB-BKL;Boğaz kültürü;1;650;750
+F-502;Örnek Hastanesi;PV-02;03.10.2026;MUA-01;Uzman hekim muayenesi;1;1100;1100
+F-503;Örnek Hastanesi;PV-05;06.10.2026;FTR-01;Fizik tedavi seansı;12;900;10800
+F-504;Örnek Hastanesi;PV-03;06.10.2026;MUA-01;Uzman hekim muayenesi;1;1100;1100
+F-505;Örnek Hastanesi;PV-99;07.10.2026;MR-LOM;Lomber MR;1;3200;3200
+F-506;Örnek Hastanesi;PV-07;07.10.2026;MR-LOM;Lomber MR;1;3200;3200

@@ -1,0 +1,17 @@
+{
+  "id": "saglik-faturasi-kontrolu",
+  "tur": "kod",
+  "ad": "Sağlık Faturası Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --faturalar fatura_kalemleri.xlsx --fiyatlar fiyat_listesi.xlsx --provizyonlar provizyonlar.xlsx --paketler paket_icerikleri.csv",
+  "girdiler": [
+    "Fatura kalemleri (.xlsx/.csv): Fatura No, Kurum, Provizyon No, İşlem Tarihi, Hizmet Kodu, Hizmet Adı, Adet, Birim Fiyat, Tutar",
+    "Anlaşmalı fiyat listesi: Kurum, Hizmet Kodu, Hizmet Adı, Anlaşmalı Fiyat, Maks Adet (provizyon başına)",
+    "Provizyonlar: Talep No, Talep Tarihi, Karar, Ödenecek (onaylı tutar), Katılım Payı % — Provizyon Talebi Değerlendirme çıktısıyla uyumlu",
+    "İsteğe bağlı: paket içerikleri (Paket Kodu, Dahil Hizmet Kodu)"
+  ],
+  "ciktilar": ["Excel: Fatura Özeti (kesinti, kabul, şirket / sigortalı payı, provizyon tavanı, 'Uzman Onayı'), Satır Kontrolü, Kesinti Listesi (kuruma, 'Kurum İtirazı'), Uyarılar"],
+  "internet": false
+}

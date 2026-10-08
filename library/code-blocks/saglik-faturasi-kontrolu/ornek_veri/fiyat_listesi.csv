@@ -1,0 +1,10 @@
+Kurum;Hizmet Kodu;Hizmet Adı;Anlaşmalı Fiyat (TL);Maks Adet
+Örnek Hastanesi;PKT-APP;Laparoskopik apendektomi paketi (2 gün yatış dahil);60000;1
+Örnek Hastanesi;AMH-01;Ameliyathane kullanımı;4500;
+Örnek Hastanesi;YTK-01;Standart oda yatak ücreti (gün);2500;
+Örnek Hastanesi;LAB-HMG;Hemogram;150;
+Örnek Hastanesi;LAB-CRP;CRP;220;
+Örnek Hastanesi;LAB-BKL;Boğaz kültürü;650;
+Örnek Hastanesi;MUA-01;Uzman hekim muayenesi;1100;1
+Örnek Hastanesi;FTR-01;Fizik tedavi seansı;850;10
+Örnek Hastanesi;MR-LOM;Lomber MR;3200;1
