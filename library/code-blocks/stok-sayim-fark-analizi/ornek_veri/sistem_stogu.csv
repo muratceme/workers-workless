@@ -1,0 +1,19 @@
+Lokasyon;Stok Kodu;Stok Adı;Kategori;Birim;Sistem Miktarı;Birim Maliyet;Koli İçi
+A-01;VD-M8;Vida M8x40 galvaniz;Hırdavat;adet;1200;0,85;100
+A-01;VD-M10;Vida M10x60 galvaniz;Hırdavat;adet;800;0,95;100
+A-01;SL-SIL;Silikon şeffaf 280 ml;Yapı Kimyasalı;adet;5;95,00;24
+A-01;MS-MSK;Toz maskesi FFP2;İSG;adet;1000;6,50;50
+A-01;DB-DUB;Dübel 8 mm;Hırdavat;adet;2500;0,40;250
+A-02;BJ-1000-KIR;Boya 1 L kırmızı;Boya;kutu;40;245,00;
+A-02;BJ-1000-MAV;Boya 1 L mavi;Boya;kutu;20;245,00;
+A-02;EL-ELD;İş eldiveni nitril;İSG;çift;54;42,00;12
+A-02;BNT-48;Koli bandı 48 mm;Ambalaj;rulo;200;38,00;36
+A-02;BJ-2500-BEY;Boya 2,5 L beyaz;Boya;kutu;64;520,00;
+B-01;KB-2.5;Kablo NYA 2,5 mm²;Elektrik;metre;500;18,40;
+B-01;MT-DRL;Akülü matkap 18 V;El Aletleri;adet;12;3.450,00;
+B-01;PN-PNS;Kombine pense;El Aletleri;adet;-3;280,00;
+B-01;SG-SIG;Sigorta 16 A;Elektrik;adet;150;64,00;10
+B-02;ZM-ZIM;Zımpara P120;Hırdavat;yaprak;30;12,50;50
+B-02;KB-2.5;Kablo NYA 2,5 mm²;Elektrik;metre;0;18,40;
+B-02;PRZ-UZT;Uzatma kablosu 3'lü;Elektrik;adet;45;135,00;
+B-02;TK-TKM;Lokma takımı 24 parça;El Aletleri;takım;8;1.250,00;

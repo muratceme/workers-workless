@@ -1,0 +1,16 @@
+{
+  "id": "stok-sayim-fark-analizi",
+  "tur": "kod",
+  "ad": "Stok Sayım Fark Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --sayim sayim.xlsx --sistem stok.xlsx",
+  "girdiler": [
+    "Sayım sonuçları (.xlsx/.csv): Lokasyon, Stok Kodu, Sayılan Miktar — aynı lokasyon ve kod için birden çok satır toplanır",
+    "Sistem stoğu (.xlsx/.csv): Lokasyon, Stok Kodu, Stok Adı, Sistem Miktarı, Birim Maliyet [, Birim, Kategori, Koli İçi]",
+    "İsteğe bağlı: sayım anında işlenmemiş hareketler (Lokasyon, Stok Kodu, Miktar [, Yön])"
+  ],
+  "ciktilar": ["Excel: özet (envanter doğruluğu, lokasyon ve kategori bazında tutarlar), satır bazında farklar ve olası nedenler, ürün bazında net farklar, ikinci sayım listesi, 197/397 tutar özeti"],
+  "internet": false
+}
