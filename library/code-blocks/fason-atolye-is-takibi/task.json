@@ -1,0 +1,16 @@
+{
+  "id": "fason-atolye-is-takibi",
+  "tur": "kod",
+  "ad": "Fason Atölye İş Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --isler fason_isler.xlsx --donusler donusler.xlsx",
+  "girdiler": [
+    "Fason işler (.xlsx/.csv): İş No, Atölye, Sipariş No, Model, İşlem, Çıkış Tarihi, Çıkan Adet, Termin, Birim Fiyat (TL), Kapandı",
+    "Dönüşler (kısmi dönüşler ayrı satır): İş No, Dönüş Tarihi, Dönen Adet, Kalite Sonucu (Kabul / Tamir / Red), Hatalı Adet, Hata Açıklaması",
+    "İsteğe bağlı: hata eşiği, fire toleransı, hakediş dönemi"
+  ],
+  "ciktilar": ["Excel: Açık İşler (termine göre, 'Atölyeyle Görüşme'), Tüm İşler, Dönüşler, Atölye Performansı (zamanında %, hata %, kayıp adet), Hakediş (sağlam adet × fiyat), Uyarılar"],
+  "internet": false
+}
