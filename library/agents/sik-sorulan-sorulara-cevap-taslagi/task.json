@@ -1,0 +1,20 @@
+{
+  "id": "sik-sorulan-sorulara-cevap-taslagi",
+  "tur": "agent",
+  "ad": "Sık Sorulan Sorulara Cevap Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi sorular.xlsx --bilgi ./bilgi_bankasi",
+  "girdiler": [
+    "Sorular (.xlsx/.csv): Soru; Soru No, Tarih, Kullanıcı, Departman isteğe bağlı — veya --soru ile tek soru",
+    "Bilgi bankası: tek dosya veya .md/.txt/.docx/.pdf klasörü (başlıklarına göre bölümlenir)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Cevaplar (kapsam, güven, kaynaklı cevap taslağı, takip sorusu, insan gerekli, 'Onay'), Kaynak Eşleşmeleri, Bilgi Bankası Boşlukları, Özet"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
