@@ -1,0 +1,16 @@
+{
+  "id": "gece-denetimi-night-audit-kontrolu",
+  "tur": "kod",
+  "ad": "Gece Denetimi (Night Audit) Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --folyolar folyolar.xlsx --fiyatlar fiyatlar.xlsx --oda-durumu hk.xlsx --tahsilat tahsilat.xlsx --kasa kasa.xlsx --tarih 07.10.2026",
+  "girdiler": [
+    "Gün sonu folyo listesi (Folyo No, Oda No, Misafir, Oda Tipi, Fiyat Kodu, Giriş, Çıkış, Durum, Oda Ücreti, Bakiye)",
+    "İsteğe bağlı: fiyat listesi (Fiyat Kodu, Oda Tipi, Fiyat), kat hizmetleri oda durumu (Oda No, Durum)",
+    "İsteğe bağlı: günün tahsilatları (Folyo No, Kasiyer, Ödeme Tipi, Tutar) ve kasa sayımı / POS gün sonu (Kasiyer, Ödeme Tipi, Sayılan)"
+  ],
+  "ciktilar": ["Excel: özet (doluluk, oda geliri, ADR, RevPAR, kasa farkı), bulgular, kasa mutabakatı, folyolar"],
+  "internet": false
+}

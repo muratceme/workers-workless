@@ -1,0 +1,12 @@
+Folyo Listesi - 07.10.2026 (gün sonu)
+Folyo No;Oda No;Misafir;Oda Tipi;Fiyat Kodu;Giriş;Çıkış;Durum;Oda Ücreti;Bakiye
+F1001;101;Ahmet Yılmaz;STD;BAR;05.10.2026;09.10.2026;Konaklıyor;3.500,00;3.500,00
+F1002;102;Elif Kaya;DLX;BAR;06.10.2026;08.10.2026;Konaklıyor;4.500,00;9.300,00
+F1003;103;John Smith;STD;CORP;04.10.2026;07.10.2026;Konaklıyor;3.000,00;12.000,00
+F1004;104;Mehmet Demir;DLX;CORP;03.10.2026;10.10.2026;Konaklıyor;4.200,00;18.900,00
+F1005;105;Ayşe Tan;STD;BAR;06.10.2026;09.10.2026;Konaklıyor;;3.500,00
+F1006;106;Yönetim Misafiri;DLX;COMP;06.10.2026;08.10.2026;Konaklıyor;0,00;0,00
+F1007;107;Hans Müller;STD;BAR;02.10.2026;06.10.2026;Konaklıyor;3.500,00;3.500,00
+F1008;108;Zeynep Arslan;STD;OTA;06.10.2026;09.10.2026;Konaklıyor;3.150,00;3.150,00
+F0990;109;Can Bulut;DLX;BAR;04.10.2026;07.10.2026;Çıkış Yaptı;;1.250,00
+F0991;;Selin Öztürk;STD;BAR;07.10.2026;08.10.2026;No-Show;;3.500,00
