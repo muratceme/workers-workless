@@ -1,0 +1,20 @@
+{
+  "id": "kredi-komitesi-degerlendirme-notu",
+  "tur": "agent",
+  "ad": "Kredi Komitesi Değerlendirme Notu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./teklif_klasoru --gizle \"Ortak Adı\" \"Kefil Adı\"",
+  "girdiler": [
+    "Klasör: teklif bilgisi (.txt: Firma, VKN, Sektör, Risk Grubu, Grup Riski, Talep Gerekçesi, Ödeme Kaynağı), limit tablosu (Kredi Türü, Mevcut Limit, Mevcut Risk, Talep Edilen Limit, Vade, Fiyat), teminat tablosu (Teminat Türü, Değer, Durum, Açıklama), rasyo tablosu (Rasyo × dönem), istihbarat / analiz / ziyaret notları (.txt/.pdf/.docx)",
+    "İsteğe bağlı: banka özkaynağı (--banka-ozkaynak, BK md. 54 kontrolü), ek maskelenecek adlar (--gizle)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Markdown komite notu taslağı (tablolar koddan)", "Excel: Özet ('Komite Kararı'), Kontroller ('İnceleme'), Limitler, Teminatlar, Rasyolar, Şartlar ve İzleme"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

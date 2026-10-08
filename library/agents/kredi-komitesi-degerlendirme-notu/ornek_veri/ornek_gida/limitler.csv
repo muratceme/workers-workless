@@ -1,0 +1,5 @@
+Kredi Türü;Mevcut Limit;Mevcut Risk;Talep Edilen Limit;Vade;Fiyat
+Rotatif kredi;5.000.000;4.700.000;8.000.000;12 ay;TLREF + %4 marj
+Kısa vadeli TL kredi;3.000.000;2.100.000;3.000.000;6 ay;Aylık %3,4
+Yatırım kredisi (makine);0;0;12.000.000;48 ay (12 ay ödemesiz);TLREF + %5 marj
+Teminat mektubu;2.000.000;1.800.000;2.500.000;Süresiz;Yıllık %2 komisyon
