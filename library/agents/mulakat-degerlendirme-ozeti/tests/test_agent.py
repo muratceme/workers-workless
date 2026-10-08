@@ -46,7 +46,8 @@ class HesapTesti(unittest.TestCase):
     def test_uyumsuzluk_ve_onyargi(self):
         e = self.h["adaylar"]["Ege Deneme"]
         self.assertEqual([y for y, f, _ in e["uyumsuz"]], ["Müşteri ilişkileri ve ikna"])
-        self.assertEqual(e["onyargi"], [("Sonuç odaklılık", "Bölge Satış Müdürü", "evli")])
+        self.assertEqual(e["onyargi"], [("Sonuç odaklılık", "Bölge Satış Müdürü", "evli"),
+                                        ("Sonuç odaklılık", "Bölge Satış Müdürü", "çocuklu olduğu için")])
         self.assertEqual(self.h["adaylar"]["Deniz Kurgu"]["onyargi"], [])
 
     def test_takma_ad(self):
