@@ -1,0 +1,22 @@
+{
+  "id": "urun-sorusu-cevap-taslagi",
+  "tur": "agent",
+  "ad": "Ürün Sorusu Cevap Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --sorular sorular.xlsx --urunler urunler.xlsx --politika politikalar.md",
+  "girdiler": [
+    "Ürün soruları (.xlsx/.csv): Soru No, Tarih, Kanal, Ürün Kodu, Soru",
+    "Ürün kartları (.xlsx/.csv): ilk sütun ürün kodu, diğer sütunlar özellikler",
+    "Politikalar (.md/.txt/.docx/.pdf): kargo, iade, değişim, garanti",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Cevaplar (kapsam, cevap taslağı, dayandığı özellik/politika, insan gerekli, kod notları, 'Onay'), Özet"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py",
+    "sss_cekirdek.py": "agents/sik-sorulan-sorulara-cevap-taslagi/agent.py"
+  }
+}
