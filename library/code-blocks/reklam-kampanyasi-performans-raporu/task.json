@@ -1,0 +1,15 @@
+{
+  "id": "reklam-kampanyasi-performans-raporu",
+  "tur": "kod",
+  "ad": "Reklam Kampanyası Performans Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --dosya google_ads.csv --dosya meta_ads.csv --hedef-roas 4 --hedef-cpa 150",
+  "girdiler": [
+    "Reklam platformu dışa aktarımları (.csv/.xlsx; Google Ads, Meta, TikTok, Microsoft — Türkçe veya İngilizce): kampanya × gün",
+    "İsteğe bağlı: hedef ROAS, hedef CPA, kampanya bütçeleri (Kampanya, Bütçe, Başlangıç, Bitiş)"
+  ],
+  "ciktilar": ["Excel: platform ve kampanya bazında harcama, gösterim, tıklama, dönüşüm, CTR, TBM, BGBM, dönüşüm oranı, CPA, ROAS; değerlendirme işaretleri; haftalık trend; bütçe temposu"],
+  "internet": false
+}
