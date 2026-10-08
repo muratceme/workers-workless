@@ -134,3 +134,7 @@ ve erişilebilen toplayıcı sitelerden okunmuştur.
   tatiller izinden sayılmaz, md. 63 günlük 11 saat; 5510 md. 18 geçici iş göremezlik ödeneği 3. günden itibaren.
 - Sayım farkları (Stok Sayım Fark Analizi): 197 Sayım ve Tesellüm Noksanları / 397 Sayım ve Tesellüm Fazlaları (TDHP);
   zayi mallarda KDV indirimi KDVK md. 30 — paket yalnız tutar özeti verir, kayıt için mali müşavir yönlendirmesi yapar.
+- Şüpheli işlem senaryo taraması: 5549 sayılı Kanun md. 4 (bildirim yükümlülüğü, md. 4/2 ifşa yasağı). MASAK eşikleri
+  sık değiştiği ve yükümlü grubuna göre farklılaştığı için (ör. 33 Sıra No'lu Genel Tebliğ, RG 23.09.2026, 5 Sıra No'lu
+  tebliğdeki parasal sınırları değiştirdi) pakette yasal eşik yoktur; tüm eşikler senaryolar.json'da "örnek" olarak durur.
+  FATF çağrı listesi (Haziran 2026 genel kurulu): KP, IR, MM — FINMA ve FIAU Malta duyuruları.

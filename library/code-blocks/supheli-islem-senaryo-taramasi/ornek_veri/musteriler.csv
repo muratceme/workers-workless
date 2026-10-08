@@ -1,0 +1,7 @@
+Müşteri No;Ad / Unvan;Tip;Meslek / Faaliyet;Beyan Aylık Gelir;Risk Profili
+M001;Müşteri 1 (kurgusal);Bireysel;Mühendis;62000;Düşük
+M002;Müşteri 2 (kurgusal);Bireysel;Şoför;45000;Düşük
+M003;Müşteri 3 (kurgusal);Bireysel;Öğrenci;5000;Düşük
+M004;Müşteri 4 (kurgusal);Bireysel;Öğretmen;38000;Düşük
+M005;Müşteri 5 (kurgusal);Bireysel;Emekli;25000;Düşük
+M006;Örnek Kuyumculuk Ltd. (kurgusal);Kurumsal;Kuyumculuk;600000;Orta

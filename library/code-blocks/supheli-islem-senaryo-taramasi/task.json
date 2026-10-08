@@ -1,0 +1,16 @@
+{
+  "id": "supheli-islem-senaryo-taramasi",
+  "tur": "kod",
+  "ad": "Şüpheli İşlem Senaryo Taraması",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --islemler islemler.xlsx --musteriler musteriler.xlsx --senaryolar senaryolar.json --riskli-ulkeler ulkeler.csv",
+  "girdiler": [
+    "İşlemler (.xlsx/.csv): İşlem No, Tarih, Müşteri No, İşlem Tipi, Tutar [, Para Birimi, Yön, Karşı Taraf, Karşı Taraf Ülke, Açıklama]",
+    "Senaryo ayarları (senaryolar.json): eşikler, pencereler, ağırlıklar — örnek değerlerle gelir, kurumunuza göre değiştirin",
+    "İsteğe bağlı: müşteri listesi (beyan gelir, meslek, risk profili), riskli ülke listesi"
+  ],
+  "ciktilar": ["Excel: müşteri öncelik listesi (puan, karar sütunları), alarmlar, alarmlı işlemler, senaryo tanımları"],
+  "internet": false
+}

@@ -1,0 +1,33 @@
+{
+  "_not": "Eşikler ÖRNEKTİR. Kurumunuzun risk politikasına, müşteri profilinize ve güncel MASAK düzenlemelerine göre değiştirin. Tutarlar TL.",
+  "risk_puani": {"yuksek": 60, "orta": 30},
+  "senaryolar": {
+    "S1": {"ad": "Parçalı işlem", "aktif": true, "agirlik": 35,
+           "aciklama": "Eşiğin hemen altındaki (esik_tl × alt_oran ile esik_tl arası) işlemler pencere_gun içinde en_az_islem kez tekrarlanıyor ve toplamı eşiği aşıyor. esik_tl'yi kurumunuzun izlediği eşiğe göre belirleyin.",
+           "esik_tl": 100000, "alt_oran": 0.8, "pencere_gun": 3, "en_az_islem": 3, "kanallar": ["nakit"]},
+    "S2": {"ad": "Hızlı geçiş", "aktif": true, "agirlik": 30,
+           "aciklama": "pencere_saat içinde gelen toplam en az en_az_giris_tl ve bunun en az cikis_orani kadarı yine pencere_saat içinde çıkıyor (geçiş hesabı).",
+           "pencere_saat": 48, "en_az_giris_tl": 250000, "cikis_orani": 0.9},
+    "S3": {"ad": "Nakit yoğunluğu", "aktif": true, "agirlik": 15,
+           "aciklama": "Dönem girişlerinde nakdin payı nakit_payi ve üzerinde, nakit toplamı en_az_nakit_tl ve üzerinde. Nakit yoğun sektörlerde (perakende, kuyumculuk) müşteri profiline göre değerlendirin.",
+           "nakit_payi": 0.7, "en_az_nakit_tl": 300000},
+    "S4": {"ad": "Riskli ülke", "aktif": true, "agirlik": 30,
+           "aciklama": "Karşı taraf ülkesi --riskli-ulkeler listesinde. Listeyi FATF ve kurumunuzun ülke risk politikasına göre güncel tutun.",
+           "en_az_tl": 0},
+    "S5": {"ad": "Çok sayıda gönderen", "aktif": true, "agirlik": 35,
+           "aciklama": "pencere_gun içinde en_az_farkli_gonderen kadar farklı kişiden transfer girişi (hesap kiralama / toplama hesabı örüntüsü).",
+           "pencere_gun": 3, "en_az_farkli_gonderen": 10},
+    "S6": {"ad": "Profil dışı tutar", "aktif": true, "agirlik": 20,
+           "aciklama": "Tek işlem beyan aylık gelirin gelir_kati katı veya müşterinin önceki işlemlerinin medyanının gecmis_kati katı ve en az en_az_tl.",
+           "gelir_kati": 3, "gecmis_kati": 10, "en_az_gecmis_islem": 5, "en_az_tl": 50000},
+    "S7": {"ad": "Uyuyan hesap", "aktif": true, "agirlik": 20,
+           "aciklama": "hareketsiz_gun boyunca işlem yokken sonraki pencere_gun içinde en az en_az_tl hareket.",
+           "hareketsiz_gun": 180, "pencere_gun": 7, "en_az_tl": 200000},
+    "S8": {"ad": "Açıklamada anahtar kelime", "aktif": true, "agirlik": 25,
+           "aciklama": "İşlem açıklaması veya karşı taraf adında listedeki kelimeler (5 harften kısa kelimeler tam kelime olarak aranır).",
+           "kelimeler": ["bahis", "bet", "casino", "kumar", "slot", "kripto yatırım"]},
+    "S9": {"ad": "Yuvarlak tutar tekrarı", "aktif": true, "agirlik": 10,
+           "aciklama": "pencere_gun içinde en_az_islem adet yuvarlak_taban_tl'nin tam katı işlem.",
+           "yuvarlak_taban_tl": 10000, "pencere_gun": 7, "en_az_islem": 5}
+  }
+}
