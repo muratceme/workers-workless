@@ -1,0 +1,19 @@
+Numune No;Model;Müşteri;Sezon;Numune Türü;Revizyon;Talep Tarihi;İstenen Tarih;Gönderim Tarihi;Kargo / AWB No;Yanıt Tarihi;Müşteri Yanıtı;Müşteri Yorumu;Sorumlu
+N-001;TS-01;Örnek Buyer UK;SS27;Proto;1;10.07.2026;24.07.2026;23.07.2026;AWB 1001;30.07.2026;Onay;;Temsilci 1
+N-002;TS-01;Örnek Buyer UK;SS27;Fit;1;03.08.2026;12.08.2026;12.08.2026;AWB 1002;19.08.2026;Revize;Göğüs 1 cm daraltılsın, yaka bandı 2 cm olsun;Temsilci 1
+N-003;TS-01;Örnek Buyer UK;SS27;Fit;2;20.08.2026;29.08.2026;28.08.2026;AWB 1003;04.09.2026;Yorumlu onay;Kol boyu PP numunesinde 0,5 cm uzatılsın;Temsilci 1
+N-004;TS-01;Örnek Buyer UK;SS27;PP;1;14.09.2026;24.09.2026;30.09.2026;AWB 1004;;;;Temsilci 1
+N-005;SW-02;Kurgu Retail DE;SS27;Fit;1;01.08.2026;10.08.2026;10.08.2026;AWB 2001;17.08.2026;Onay;;Temsilci 2
+N-018;SW-02;Kurgu Retail DE;SS27;Size Set;1;20.08.2026;30.08.2026;29.08.2026;AWB 2003;27.08.2026;Onay;;Temsilci 2
+N-006;SW-02;Kurgu Retail DE;SS27;PP;1;01.09.2026;12.09.2026;11.09.2026;AWB 2002;25.09.2026;Red;Baskı rengi onaylı renk standardına uymuyor, baskı tekrarlansın;Temsilci 2
+N-007;SW-02;Kurgu Retail DE;SS27;SMS;1;15.09.2026;05.10.2026;;;;;;Temsilci 2
+N-008;DR-03;Deneme Store NL;SS27;Proto;1;01.07.2026;15.07.2026;15.07.2026;AWB 3001;22.07.2026;Revize;Etek boyu kısa, kumaş dökümü uygun değil;Temsilci 1
+N-009;DR-03;Deneme Store NL;SS27;Proto;2;27.07.2026;07.08.2026;07.08.2026;AWB 3002;14.08.2026;Revize;Kumaş değişecek, viskon krep denensin;Temsilci 1
+N-010;DR-03;Deneme Store NL;SS27;Proto;3;24.08.2026;04.09.2026;08.09.2026;AWB 3003;16.09.2026;Revize;Yaka formu değişsin;Temsilci 1
+N-011;DR-03;Deneme Store NL;SS27;Proto;4;28.09.2026;10.10.2026;;;;;;Temsilci 1
+N-012;PN-04;Örnek Buyer UK;SS27;Fit;1;25.09.2026;20.10.2026;;;;;;Temsilci 2
+N-013;PN-04;Örnek Buyer UK;SS27;PP;1;01.10.2026;;;;;;;Temsilci 2
+N-014;JK-05;Kurgu Retail DE;AW26;PP;1;20.08.2026;03.09.2026;02.09.2026;AWB 5001;10.09.2026;Onay;;Temsilci 2
+N-015;JK-05;Kurgu Retail DE;AW26;SMS;1;10.09.2026;01.10.2026;04.10.2026;AWB 5002;06.10.2026;Onay;;Temsilci 2
+N-016;JK-05;Kurgu Retail DE;AW26;TOP;1;01.10.2026;06.10.2026;06.10.2026;;;;;Temsilci 2
+N-017;KZ-06;Deneme Store NL;SS27;Proto;1;05.08.2026;19.08.2026;;;;İptal;Model koleksiyondan çıkarıldı;Temsilci 1

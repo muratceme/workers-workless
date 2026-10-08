@@ -1,0 +1,16 @@
+{
+  "id": "numune-takip-cizelgesi",
+  "tur": "kod",
+  "ad": "Numune Takip Çizelgesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --numuneler numuneler.xlsx --sureler numune_sureleri.csv --siparisler siparisler.xlsx",
+  "girdiler": [
+    "Numune listesi (.xlsx/.csv): Numune No, Model, Müşteri, Sezon, Numune Türü (Proto/Fit/Size Set/PP/SMS/TOP), Revizyon, Talep / İstenen / Gönderim / Yanıt Tarihi, AWB, Müşteri Yanıtı, Müşteri Yorumu, Sorumlu",
+    "Numune süreleri: tür bazında hazırlık süresi, beklenen müşteri yanıt süresi, kesimden önce PP onayı (gün)",
+    "İsteğe bağlı: siparişler (Model, Sipariş No, Planlanan Kesim Tarihi)"
+  ],
+  "ciktilar": ["Excel: Aksiyonlar (önem sıralı, 'Yapılan / Tarih'), Model Durumu (model × numune türü matrisi), Numuneler (durum, gecikme), Performans (zamanında gönderim, müşteri yanıt süresi)"],
+  "internet": false
+}
