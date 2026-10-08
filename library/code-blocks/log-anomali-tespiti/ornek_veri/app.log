@@ -1,0 +1,572 @@
+2026-10-07 08:02:40,978 INFO [web] Istek tamamlandi siparis=44429 sure=173ms
+2026-10-07 08:03:36,580 INFO [stok] Istek tamamlandi siparis=73185 sure=82ms
+2026-10-07 08:04:02,446 INFO [siparis] Istek tamamlandi siparis=74314 sure=264ms
+2026-10-07 08:11:46,927 INFO [stok] Istek tamamlandi siparis=69511 sure=282ms
+2026-10-07 08:12:20,288 INFO [siparis] Istek tamamlandi siparis=36370 sure=373ms
+2026-10-07 08:13:18,315 INFO [stok] Istek tamamlandi siparis=55209 sure=199ms
+2026-10-07 08:13:57,107 INFO [siparis] Istek tamamlandi siparis=74441 sure=364ms
+2026-10-07 08:16:23,760 INFO [stok] Istek tamamlandi siparis=64138 sure=133ms
+2026-10-07 08:17:23,165 INFO [stok] Istek tamamlandi siparis=97691 sure=176ms
+2026-10-07 08:20:19,590 INFO [siparis] Istek tamamlandi siparis=77662 sure=115ms
+2026-10-07 08:21:44,880 ERROR [stok] Stok kaydi bulunamadi urun_id=156
+2026-10-07 08:23:27,022 INFO [stok] Istek tamamlandi siparis=34780 sure=52ms
+2026-10-07 08:26:11,755 INFO [stok] Istek tamamlandi siparis=91980 sure=80ms
+2026-10-07 08:27:12,918 INFO [web] Istek tamamlandi siparis=69464 sure=322ms
+2026-10-07 08:27:13,970 INFO [stok] Istek tamamlandi siparis=75459 sure=94ms
+2026-10-07 08:28:36,620 INFO [siparis] Istek tamamlandi siparis=90864 sure=156ms
+2026-10-07 08:31:40,108 INFO [stok] Istek tamamlandi siparis=98538 sure=45ms
+2026-10-07 08:31:44,072 INFO [stok] Istek tamamlandi siparis=77489 sure=79ms
+2026-10-07 08:34:02,547 INFO [stok] Istek tamamlandi siparis=59183 sure=340ms
+2026-10-07 08:34:03,604 INFO [web] Istek tamamlandi siparis=66585 sure=379ms
+2026-10-07 08:35:25,305 INFO [siparis] Istek tamamlandi siparis=85771 sure=328ms
+2026-10-07 08:35:49,060 INFO [siparis] Istek tamamlandi siparis=77302 sure=323ms
+2026-10-07 08:37:10,058 INFO [web] Istek tamamlandi siparis=91185 sure=67ms
+2026-10-07 08:38:50,159 INFO [siparis] Istek tamamlandi siparis=27793 sure=266ms
+2026-10-07 08:39:08,377 INFO [web] Istek tamamlandi siparis=49229 sure=185ms
+2026-10-07 08:39:18,675 INFO [web] Istek tamamlandi siparis=33182 sure=305ms
+2026-10-07 08:40:25,163 ERROR [stok] Stok kaydi bulunamadi urun_id=306
+2026-10-07 08:40:49,581 INFO [stok] Istek tamamlandi siparis=96214 sure=236ms
+2026-10-07 08:44:21,118 INFO [web] Istek tamamlandi siparis=53006 sure=272ms
+2026-10-07 08:45:41,320 INFO [siparis] Istek tamamlandi siparis=59856 sure=388ms
+2026-10-07 08:46:07,497 ERROR [stok] Stok kaydi bulunamadi urun_id=839
+2026-10-07 08:47:05,291 INFO [web] Istek tamamlandi siparis=94523 sure=206ms
+2026-10-07 08:48:05,341 INFO [siparis] Istek tamamlandi siparis=87894 sure=64ms
+2026-10-07 08:49:16,828 INFO [web] Istek tamamlandi siparis=58026 sure=198ms
+2026-10-07 08:49:47,064 INFO [siparis] Istek tamamlandi siparis=32734 sure=191ms
+2026-10-07 08:54:34,625 INFO [stok] Istek tamamlandi siparis=22752 sure=253ms
+2026-10-07 08:57:17,804 INFO [siparis] Istek tamamlandi siparis=33053 sure=100ms
+2026-10-07 08:57:57,701 INFO [web] Istek tamamlandi siparis=24769 sure=96ms
+2026-10-07 08:59:21,950 INFO [stok] Istek tamamlandi siparis=28997 sure=130ms
+2026-10-07 08:59:34,474 INFO [siparis] Istek tamamlandi siparis=77760 sure=92ms
+2026-10-07 09:01:05,546 WARN [web] Yavas istek 2004 ms /api/fiyat
+2026-10-07 09:01:13,151 INFO [siparis] Istek tamamlandi siparis=57325 sure=223ms
+2026-10-07 09:03:54,899 INFO [web] Istek tamamlandi siparis=51901 sure=256ms
+2026-10-07 09:05:24,473 INFO [siparis] Istek tamamlandi siparis=36299 sure=206ms
+2026-10-07 09:10:22,273 INFO [siparis] Istek tamamlandi siparis=36680 sure=231ms
+2026-10-07 09:13:11,342 INFO [siparis] Istek tamamlandi siparis=36832 sure=90ms
+2026-10-07 09:14:04,121 INFO [siparis] Istek tamamlandi siparis=79856 sure=388ms
+2026-10-07 09:14:31,995 INFO [stok] Istek tamamlandi siparis=98880 sure=33ms
+2026-10-07 09:16:01,183 INFO [stok] Istek tamamlandi siparis=99015 sure=208ms
+2026-10-07 09:18:21,738 INFO [siparis] Istek tamamlandi siparis=12058 sure=93ms
+2026-10-07 09:19:38,256 INFO [web] Istek tamamlandi siparis=84887 sure=392ms
+2026-10-07 09:22:42,787 INFO [siparis] Istek tamamlandi siparis=69433 sure=161ms
+2026-10-07 09:23:44,823 INFO [siparis] Istek tamamlandi siparis=49563 sure=278ms
+2026-10-07 09:25:27,251 INFO [siparis] Istek tamamlandi siparis=89963 sure=65ms
+2026-10-07 09:31:40,616 ERROR [stok] Stok kaydi bulunamadi urun_id=421
+2026-10-07 09:32:46,117 INFO [siparis] Istek tamamlandi siparis=18585 sure=176ms
+2026-10-07 09:32:50,410 INFO [web] Istek tamamlandi siparis=28791 sure=222ms
+2026-10-07 09:34:48,462 INFO [stok] Istek tamamlandi siparis=41148 sure=210ms
+2026-10-07 09:35:26,502 INFO [siparis] Istek tamamlandi siparis=61697 sure=119ms
+2026-10-07 09:35:53,983 INFO [siparis] Istek tamamlandi siparis=60096 sure=286ms
+2026-10-07 09:37:21,908 INFO [siparis] Istek tamamlandi siparis=95426 sure=323ms
+2026-10-07 09:38:34,614 WARN [web] Yavas istek 1487 ms /api/fiyat
+2026-10-07 09:39:09,356 INFO [web] Istek tamamlandi siparis=46356 sure=316ms
+2026-10-07 09:40:26,606 INFO [siparis] Istek tamamlandi siparis=85784 sure=68ms
+2026-10-07 09:41:00,656 INFO [stok] Istek tamamlandi siparis=17213 sure=331ms
+2026-10-07 09:41:08,818 INFO [stok] Istek tamamlandi siparis=76321 sure=32ms
+2026-10-07 09:46:39,978 INFO [stok] Istek tamamlandi siparis=33091 sure=177ms
+2026-10-07 09:46:42,456 INFO [siparis] Istek tamamlandi siparis=23619 sure=370ms
+2026-10-07 09:47:02,085 INFO [stok] Istek tamamlandi siparis=74918 sure=143ms
+2026-10-07 09:47:06,384 INFO [web] Istek tamamlandi siparis=64079 sure=122ms
+2026-10-07 09:47:20,400 INFO [stok] Istek tamamlandi siparis=95766 sure=319ms
+2026-10-07 09:56:40,219 WARN [web] Yavas istek 1358 ms /api/fiyat
+2026-10-07 09:56:51,072 INFO [stok] Istek tamamlandi siparis=82895 sure=352ms
+2026-10-07 09:59:23,089 INFO [siparis] Istek tamamlandi siparis=92441 sure=290ms
+2026-10-07 09:59:28,675 INFO [siparis] Istek tamamlandi siparis=98476 sure=271ms
+2026-10-07 10:01:21,175 INFO [stok] Istek tamamlandi siparis=70106 sure=234ms
+2026-10-07 10:02:35,935 INFO [stok] Istek tamamlandi siparis=14901 sure=123ms
+2026-10-07 10:02:40,142 INFO [siparis] Istek tamamlandi siparis=72781 sure=40ms
+2026-10-07 10:03:23,558 WARN [web] Yavas istek 1648 ms /api/fiyat
+2026-10-07 10:03:36,559 INFO [web] Istek tamamlandi siparis=86735 sure=376ms
+2026-10-07 10:04:28,119 INFO [stok] Istek tamamlandi siparis=70357 sure=59ms
+2026-10-07 10:08:24,637 INFO [web] Istek tamamlandi siparis=36588 sure=21ms
+2026-10-07 10:11:46,680 WARN [web] Yavas istek 2068 ms /api/fiyat
+2026-10-07 10:11:53,172 INFO [stok] Istek tamamlandi siparis=28512 sure=232ms
+2026-10-07 10:13:01,876 INFO [siparis] Istek tamamlandi siparis=25725 sure=64ms
+2026-10-07 10:13:33,826 WARN [web] Yavas istek 2583 ms /api/fiyat
+2026-10-07 10:14:01,845 INFO [stok] Istek tamamlandi siparis=79717 sure=367ms
+2026-10-07 10:15:12,922 INFO [siparis] Istek tamamlandi siparis=36922 sure=320ms
+2026-10-07 10:18:08,188 INFO [stok] Istek tamamlandi siparis=44132 sure=209ms
+2026-10-07 10:23:20,319 INFO [web] Istek tamamlandi siparis=72851 sure=198ms
+2026-10-07 10:23:55,594 INFO [web] Istek tamamlandi siparis=95520 sure=90ms
+2026-10-07 10:23:57,466 INFO [web] Istek tamamlandi siparis=71377 sure=69ms
+2026-10-07 10:24:57,396 INFO [web] Istek tamamlandi siparis=14791 sure=255ms
+2026-10-07 10:26:53,782 INFO [stok] Istek tamamlandi siparis=60997 sure=269ms
+2026-10-07 10:27:01,054 INFO [web] Istek tamamlandi siparis=23055 sure=397ms
+2026-10-07 10:27:47,461 INFO [stok] Istek tamamlandi siparis=64206 sure=185ms
+2026-10-07 10:28:59,367 INFO [stok] Istek tamamlandi siparis=35448 sure=343ms
+2026-10-07 10:29:52,915 INFO [siparis] Istek tamamlandi siparis=64507 sure=253ms
+2026-10-07 10:31:44,775 INFO [siparis] Istek tamamlandi siparis=93379 sure=20ms
+2026-10-07 10:34:37,250 INFO [siparis] Istek tamamlandi siparis=47128 sure=313ms
+2026-10-07 10:36:53,888 INFO [web] Istek tamamlandi siparis=49745 sure=263ms
+2026-10-07 10:38:16,486 WARN [web] Yavas istek 1743 ms /api/fiyat
+2026-10-07 10:38:27,770 INFO [siparis] Istek tamamlandi siparis=30204 sure=273ms
+2026-10-07 10:38:32,325 INFO [siparis] Istek tamamlandi siparis=84035 sure=100ms
+2026-10-07 10:40:15,544 INFO [siparis] Istek tamamlandi siparis=29558 sure=251ms
+2026-10-07 10:40:58,256 INFO [stok] Istek tamamlandi siparis=24160 sure=82ms
+2026-10-07 10:41:22,783 INFO [web] Istek tamamlandi siparis=29722 sure=370ms
+2026-10-07 10:43:05,015 INFO [web] Istek tamamlandi siparis=45866 sure=78ms
+2026-10-07 10:43:47,816 INFO [web] Istek tamamlandi siparis=13631 sure=145ms
+2026-10-07 10:45:42,140 INFO [stok] Istek tamamlandi siparis=61491 sure=356ms
+2026-10-07 10:45:58,189 INFO [web] Istek tamamlandi siparis=23994 sure=87ms
+2026-10-07 10:46:49,098 INFO [stok] Istek tamamlandi siparis=91522 sure=339ms
+2026-10-07 10:51:15,591 INFO [siparis] Istek tamamlandi siparis=90154 sure=107ms
+2026-10-07 10:53:41,348 INFO [stok] Istek tamamlandi siparis=60307 sure=53ms
+2026-10-07 10:56:54,391 INFO [web] Istek tamamlandi siparis=46344 sure=51ms
+2026-10-07 10:57:35,942 INFO [siparis] Istek tamamlandi siparis=49526 sure=82ms
+2026-10-07 10:58:04,515 INFO [web] Istek tamamlandi siparis=38557 sure=99ms
+2026-10-07 10:58:54,917 INFO [siparis] Istek tamamlandi siparis=65552 sure=393ms
+2026-10-07 10:59:07,116 INFO [siparis] Istek tamamlandi siparis=26193 sure=66ms
+2026-10-07 11:01:16,191 INFO [siparis] Istek tamamlandi siparis=89388 sure=219ms
+2026-10-07 11:01:50,941 INFO [stok] Istek tamamlandi siparis=48590 sure=333ms
+2026-10-07 11:02:33,846 INFO [siparis] Istek tamamlandi siparis=52284 sure=181ms
+2026-10-07 11:04:17,346 INFO [web] Istek tamamlandi siparis=57672 sure=121ms
+2026-10-07 11:06:26,116 INFO [siparis] Istek tamamlandi siparis=18383 sure=74ms
+2026-10-07 11:07:04,913 INFO [web] Istek tamamlandi siparis=50812 sure=333ms
+2026-10-07 11:12:13,872 ERROR [stok] Stok kaydi bulunamadi urun_id=759
+2026-10-07 11:14:41,625 INFO [web] Istek tamamlandi siparis=98092 sure=165ms
+2026-10-07 11:15:18,168 INFO [stok] Istek tamamlandi siparis=20085 sure=75ms
+2026-10-07 11:15:29,644 INFO [siparis] Istek tamamlandi siparis=88134 sure=323ms
+2026-10-07 11:15:37,334 INFO [stok] Istek tamamlandi siparis=89244 sure=367ms
+2026-10-07 11:21:07,030 INFO [stok] Istek tamamlandi siparis=29073 sure=392ms
+2026-10-07 11:21:15,676 INFO [stok] Istek tamamlandi siparis=48609 sure=259ms
+2026-10-07 11:22:00,720 INFO [stok] Istek tamamlandi siparis=92157 sure=257ms
+2026-10-07 11:22:12,185 INFO [stok] Istek tamamlandi siparis=98280 sure=74ms
+2026-10-07 11:29:13,004 INFO [stok] Istek tamamlandi siparis=32514 sure=295ms
+2026-10-07 11:30:54,500 INFO [web] Istek tamamlandi siparis=87718 sure=142ms
+2026-10-07 11:31:05,782 INFO [web] Istek tamamlandi siparis=14224 sure=229ms
+2026-10-07 11:33:09,800 INFO [siparis] Istek tamamlandi siparis=79000 sure=133ms
+2026-10-07 11:33:43,306 INFO [web] Istek tamamlandi siparis=99327 sure=182ms
+2026-10-07 11:38:28,029 INFO [web] Istek tamamlandi siparis=97896 sure=199ms
+2026-10-07 11:38:32,639 INFO [stok] Istek tamamlandi siparis=62730 sure=148ms
+2026-10-07 11:38:44,238 INFO [siparis] Istek tamamlandi siparis=62990 sure=82ms
+2026-10-07 11:39:03,545 INFO [web] Istek tamamlandi siparis=47560 sure=161ms
+2026-10-07 11:39:11,660 INFO [siparis] Istek tamamlandi siparis=61463 sure=111ms
+2026-10-07 11:41:20,694 INFO [stok] Istek tamamlandi siparis=54216 sure=397ms
+2026-10-07 11:43:06,300 INFO [siparis] Istek tamamlandi siparis=92218 sure=31ms
+2026-10-07 11:44:05,324 INFO [siparis] Istek tamamlandi siparis=14546 sure=360ms
+2026-10-07 11:45:10,535 INFO [web] Istek tamamlandi siparis=93863 sure=158ms
+2026-10-07 11:46:15,901 INFO [siparis] Istek tamamlandi siparis=20611 sure=337ms
+2026-10-07 11:46:27,046 INFO [siparis] Istek tamamlandi siparis=64346 sure=231ms
+2026-10-07 11:46:47,056 INFO [web] Istek tamamlandi siparis=34227 sure=95ms
+2026-10-07 11:47:27,803 INFO [siparis] Istek tamamlandi siparis=87459 sure=240ms
+2026-10-07 11:48:55,631 INFO [stok] Istek tamamlandi siparis=42949 sure=191ms
+2026-10-07 11:49:12,059 INFO [siparis] Istek tamamlandi siparis=37400 sure=333ms
+2026-10-07 11:49:12,707 INFO [web] Istek tamamlandi siparis=20302 sure=237ms
+2026-10-07 12:01:01,496 INFO [web] Istek tamamlandi siparis=71733 sure=319ms
+2026-10-07 12:01:30,706 INFO [web] Istek tamamlandi siparis=83224 sure=334ms
+2026-10-07 12:08:32,126 INFO [stok] Istek tamamlandi siparis=24790 sure=180ms
+2026-10-07 12:12:13,081 INFO [siparis] Istek tamamlandi siparis=13418 sure=203ms
+2026-10-07 12:13:45,421 INFO [siparis] Istek tamamlandi siparis=94498 sure=191ms
+2026-10-07 12:17:00,593 INFO [siparis] Istek tamamlandi siparis=68303 sure=323ms
+2026-10-07 12:17:22,097 INFO [web] Istek tamamlandi siparis=25401 sure=291ms
+2026-10-07 12:17:49,584 ERROR [stok] Stok kaydi bulunamadi urun_id=214
+2026-10-07 12:17:56,079 INFO [web] Istek tamamlandi siparis=96849 sure=362ms
+2026-10-07 12:19:51,588 INFO [web] Istek tamamlandi siparis=15393 sure=182ms
+2026-10-07 12:20:39,489 INFO [siparis] Istek tamamlandi siparis=24884 sure=352ms
+2026-10-07 12:24:08,101 INFO [siparis] Istek tamamlandi siparis=84741 sure=54ms
+2026-10-07 12:26:07,102 INFO [siparis] Istek tamamlandi siparis=15334 sure=88ms
+2026-10-07 12:29:04,284 WARN [web] Yavas istek 2972 ms /api/fiyat
+2026-10-07 12:30:27,606 INFO [web] Istek tamamlandi siparis=94945 sure=179ms
+2026-10-07 12:37:46,603 WARN [web] Yavas istek 2767 ms /api/fiyat
+2026-10-07 12:37:53,518 INFO [web] Istek tamamlandi siparis=50340 sure=173ms
+2026-10-07 12:42:14,822 ERROR [stok] Stok kaydi bulunamadi urun_id=908
+2026-10-07 12:43:59,994 INFO [web] Istek tamamlandi siparis=73470 sure=210ms
+2026-10-07 12:49:05,503 INFO [web] Istek tamamlandi siparis=67747 sure=55ms
+2026-10-07 12:51:01,588 INFO [web] Istek tamamlandi siparis=53231 sure=220ms
+2026-10-07 12:54:34,032 INFO [web] Istek tamamlandi siparis=54025 sure=85ms
+2026-10-07 12:57:49,933 INFO [stok] Istek tamamlandi siparis=64986 sure=345ms
+2026-10-07 12:57:52,029 ERROR [stok] Stok kaydi bulunamadi urun_id=239
+2026-10-07 12:58:32,473 INFO [stok] Istek tamamlandi siparis=32923 sure=304ms
+2026-10-07 12:59:44,537 INFO [stok] Istek tamamlandi siparis=79081 sure=231ms
+2026-10-07 12:59:52,418 WARN [web] Yavas istek 1900 ms /api/fiyat
+2026-10-07 13:00:36,114 INFO [stok] Istek tamamlandi siparis=11861 sure=399ms
+2026-10-07 13:01:24,154 INFO [web] Istek tamamlandi siparis=29392 sure=274ms
+2026-10-07 13:02:42,353 INFO [web] Istek tamamlandi siparis=18305 sure=210ms
+2026-10-07 13:03:24,563 ERROR [stok] Stok kaydi bulunamadi urun_id=774
+2026-10-07 13:03:29,287 INFO [stok] Istek tamamlandi siparis=27372 sure=335ms
+2026-10-07 13:07:22,348 INFO [stok] Istek tamamlandi siparis=73556 sure=230ms
+2026-10-07 13:09:54,129 INFO [stok] Istek tamamlandi siparis=72391 sure=374ms
+2026-10-07 13:10:40,604 INFO [stok] Istek tamamlandi siparis=18050 sure=34ms
+2026-10-07 13:13:31,703 INFO [siparis] Istek tamamlandi siparis=31048 sure=151ms
+2026-10-07 13:13:52,587 INFO [stok] Istek tamamlandi siparis=16230 sure=172ms
+2026-10-07 13:14:43,291 INFO [web] Istek tamamlandi siparis=29443 sure=200ms
+2026-10-07 13:15:05,011 INFO [siparis] Istek tamamlandi siparis=26455 sure=88ms
+2026-10-07 13:18:23,457 INFO [stok] Istek tamamlandi siparis=90684 sure=315ms
+2026-10-07 13:18:40,293 INFO [siparis] Istek tamamlandi siparis=91830 sure=33ms
+2026-10-07 13:19:51,711 INFO [stok] Istek tamamlandi siparis=27635 sure=82ms
+2026-10-07 13:21:48,711 INFO [stok] Istek tamamlandi siparis=31955 sure=38ms
+2026-10-07 13:25:28,065 ERROR [stok] Stok kaydi bulunamadi urun_id=987
+2026-10-07 13:26:26,645 INFO [siparis] Istek tamamlandi siparis=61131 sure=74ms
+2026-10-07 13:27:34,320 INFO [stok] Istek tamamlandi siparis=96960 sure=296ms
+2026-10-07 13:27:58,880 INFO [stok] Istek tamamlandi siparis=63773 sure=183ms
+2026-10-07 13:28:59,571 INFO [stok] Istek tamamlandi siparis=64891 sure=22ms
+2026-10-07 13:29:28,801 INFO [siparis] Istek tamamlandi siparis=11346 sure=69ms
+2026-10-07 13:29:51,572 INFO [siparis] Istek tamamlandi siparis=49834 sure=272ms
+2026-10-07 13:29:59,604 INFO [siparis] Istek tamamlandi siparis=70420 sure=225ms
+2026-10-07 13:30:33,179 INFO [web] Istek tamamlandi siparis=78825 sure=174ms
+2026-10-07 13:31:00,441 INFO [siparis] Istek tamamlandi siparis=31514 sure=271ms
+2026-10-07 13:32:47,131 INFO [web] Istek tamamlandi siparis=25544 sure=133ms
+2026-10-07 13:39:01,784 INFO [siparis] Istek tamamlandi siparis=94465 sure=383ms
+2026-10-07 13:39:11,446 INFO [stok] Istek tamamlandi siparis=73620 sure=306ms
+2026-10-07 13:40:47,567 INFO [siparis] Istek tamamlandi siparis=68190 sure=135ms
+2026-10-07 13:41:12,555 INFO [siparis] Istek tamamlandi siparis=53160 sure=249ms
+2026-10-07 13:41:16,776 INFO [stok] Istek tamamlandi siparis=35971 sure=385ms
+2026-10-07 13:42:19,852 WARN [web] Yavas istek 1674 ms /api/fiyat
+2026-10-07 13:43:31,423 INFO [siparis] Istek tamamlandi siparis=14145 sure=159ms
+2026-10-07 13:47:04,966 INFO [siparis] Istek tamamlandi siparis=89308 sure=281ms
+2026-10-07 13:48:35,279 INFO [stok] Istek tamamlandi siparis=97965 sure=80ms
+2026-10-07 13:53:58,815 INFO [siparis] Istek tamamlandi siparis=95010 sure=384ms
+2026-10-07 13:55:44,233 INFO [web] Istek tamamlandi siparis=24435 sure=186ms
+2026-10-07 13:56:02,919 INFO [stok] Istek tamamlandi siparis=36050 sure=366ms
+2026-10-07 13:56:24,713 INFO [stok] Istek tamamlandi siparis=87772 sure=360ms
+2026-10-07 13:57:32,692 INFO [web] Istek tamamlandi siparis=22878 sure=284ms
+2026-10-07 14:01:39,426 INFO [web] Istek tamamlandi siparis=16426 sure=75ms
+2026-10-07 14:02:19,287 INFO [stok] Istek tamamlandi siparis=18678 sure=96ms
+2026-10-07 14:04:02,582 INFO [stok] Istek tamamlandi siparis=61910 sure=390ms
+2026-10-07 14:04:35,217 INFO [stok] Istek tamamlandi siparis=83454 sure=346ms
+2026-10-07 14:06:40,968 INFO [siparis] Istek tamamlandi siparis=17184 sure=283ms
+2026-10-07 14:07:55,820 INFO [stok] Istek tamamlandi siparis=18817 sure=310ms
+2026-10-07 14:08:44,333 INFO [web] Istek tamamlandi siparis=12583 sure=295ms
+2026-10-07 14:09:07,816 INFO [siparis] Istek tamamlandi siparis=72797 sure=262ms
+2026-10-07 14:09:59,133 INFO [siparis] Istek tamamlandi siparis=68149 sure=45ms
+2026-10-07 14:10:35,043 INFO [web] Istek tamamlandi siparis=54265 sure=389ms
+2026-10-07 14:15:19,975 INFO [siparis] Istek tamamlandi siparis=81646 sure=29ms
+2026-10-07 14:15:34,552 INFO [web] Istek tamamlandi siparis=58878 sure=249ms
+2026-10-07 14:16:01,626 INFO [web] Istek tamamlandi siparis=86379 sure=24ms
+2026-10-07 14:18:41,660 INFO [stok] Istek tamamlandi siparis=68177 sure=397ms
+2026-10-07 14:23:52,289 INFO [stok] Istek tamamlandi siparis=70455 sure=107ms
+2026-10-07 14:23:56,197 INFO [web] Istek tamamlandi siparis=47132 sure=148ms
+2026-10-07 14:24:04,530 INFO [web] Istek tamamlandi siparis=11690 sure=90ms
+2026-10-07 14:24:22,241 INFO [stok] Istek tamamlandi siparis=91950 sure=174ms
+2026-10-07 14:24:41,627 INFO [web] Istek tamamlandi siparis=75619 sure=393ms
+2026-10-07 14:25:15,433 INFO [stok] Istek tamamlandi siparis=76003 sure=368ms
+2026-10-07 14:27:33,526 INFO [stok] Istek tamamlandi siparis=65586 sure=129ms
+2026-10-07 14:28:49,542 INFO [web] Istek tamamlandi siparis=47992 sure=169ms
+2026-10-07 14:30:00,315 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:30:18,021 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:30:36,660 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:30:54,990 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:31:12,926 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:31:28,092 INFO [stok] Istek tamamlandi siparis=41334 sure=351ms
+2026-10-07 14:31:30,620 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:31:48,035 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:32:06,861 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:32:24,757 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:32:42,678 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:33:00,818 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:33:18,963 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:33:36,055 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:33:54,707 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:34:12,939 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:34:30,807 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:34:48,687 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:35:00,887 ERROR [odeme] Timeout calling https://pos.ornek-banka.test/api/v1/odeme after 30000 ms (siparis=80111)
+2026-10-07 14:35:06,245 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:35:24,259 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:35:40,878 ERROR [odeme] Timeout calling https://pos.ornek-banka.test/api/v1/odeme after 30000 ms (siparis=40983)
+2026-10-07 14:35:42,565 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:36:00,393 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:36:18,316 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:36:20,397 ERROR [odeme] Timeout calling https://pos.ornek-banka.test/api/v1/odeme after 30000 ms (siparis=67986)
+2026-10-07 14:36:36,654 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:36:54,981 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:37:00,931 ERROR [odeme] Timeout calling https://pos.ornek-banka.test/api/v1/odeme after 30000 ms (siparis=11031)
+2026-10-07 14:37:12,717 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:37:30,371 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:37:40,949 ERROR [odeme] Timeout calling https://pos.ornek-banka.test/api/v1/odeme after 30000 ms (siparis=61508)
+2026-10-07 14:37:48,924 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:38:06,831 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:38:20,308 ERROR [odeme] Timeout calling https://pos.ornek-banka.test/api/v1/odeme after 30000 ms (siparis=43493)
+2026-10-07 14:38:24,701 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:38:42,124 ERROR [db] Connection pool exhausted (active=50, max=50)
+2026-10-07 14:39:00,958 ERROR [odeme] Timeout calling https://pos.ornek-banka.test/api/v1/odeme after 30000 ms (siparis=21829)
+2026-10-07 14:39:03,861 INFO [siparis] Istek tamamlandi siparis=54572 sure=61ms
+2026-10-07 14:39:19,374 INFO [stok] Istek tamamlandi siparis=91151 sure=40ms
+2026-10-07 14:39:40,304 ERROR [odeme] Timeout calling https://pos.ornek-banka.test/api/v1/odeme after 30000 ms (siparis=40862)
+2026-10-07 14:40:14,721 INFO [web] Istek tamamlandi siparis=94957 sure=306ms
+2026-10-07 14:43:17,720 INFO [siparis] Istek tamamlandi siparis=16963 sure=20ms
+2026-10-07 14:49:16,971 WARN [web] Yavas istek 2432 ms /api/fiyat
+2026-10-07 14:50:26,654 INFO [web] Istek tamamlandi siparis=10867 sure=229ms
+2026-10-07 14:52:39,784 INFO [siparis] Istek tamamlandi siparis=98668 sure=200ms
+2026-10-07 14:53:54,066 INFO [web] Istek tamamlandi siparis=66010 sure=301ms
+2026-10-07 14:55:41,365 INFO [web] Istek tamamlandi siparis=66118 sure=196ms
+2026-10-07 14:55:43,579 INFO [web] Istek tamamlandi siparis=32398 sure=191ms
+2026-10-07 14:56:59,043 INFO [stok] Istek tamamlandi siparis=82596 sure=271ms
+2026-10-07 14:58:59,401 INFO [web] Istek tamamlandi siparis=21287 sure=238ms
+2026-10-07 15:00:17,753 INFO [stok] Istek tamamlandi siparis=69892 sure=327ms
+2026-10-07 15:02:53,230 INFO [web] Istek tamamlandi siparis=82737 sure=163ms
+2026-10-07 15:03:12,167 INFO [stok] Istek tamamlandi siparis=72108 sure=90ms
+2026-10-07 15:04:26,978 INFO [stok] Istek tamamlandi siparis=17872 sure=152ms
+2026-10-07 15:04:38,315 INFO [web] Istek tamamlandi siparis=80851 sure=349ms
+2026-10-07 15:07:29,994 INFO [stok] Istek tamamlandi siparis=74840 sure=322ms
+2026-10-07 15:10:31,549 INFO [siparis] Istek tamamlandi siparis=84964 sure=324ms
+2026-10-07 15:10:38,391 INFO [siparis] Istek tamamlandi siparis=51697 sure=384ms
+2026-10-07 15:12:56,692 INFO [stok] Istek tamamlandi siparis=78506 sure=357ms
+2026-10-07 15:15:32,764 INFO [stok] Istek tamamlandi siparis=49500 sure=263ms
+2026-10-07 15:17:34,092 INFO [web] Istek tamamlandi siparis=92873 sure=351ms
+2026-10-07 15:18:41,365 INFO [siparis] Istek tamamlandi siparis=38883 sure=248ms
+2026-10-07 15:19:06,589 INFO [stok] Istek tamamlandi siparis=25833 sure=370ms
+2026-10-07 15:19:07,980 INFO [web] Istek tamamlandi siparis=91863 sure=400ms
+2026-10-07 15:21:10,231 INFO [siparis] Istek tamamlandi siparis=19188 sure=296ms
+2026-10-07 15:22:55,683 INFO [web] Istek tamamlandi siparis=37745 sure=354ms
+2026-10-07 15:23:14,701 INFO [web] Istek tamamlandi siparis=88415 sure=75ms
+2026-10-07 15:23:29,216 INFO [stok] Istek tamamlandi siparis=67041 sure=299ms
+2026-10-07 15:24:33,687 ERROR [stok] Stok kaydi bulunamadi urun_id=472
+2026-10-07 15:24:51,877 INFO [stok] Istek tamamlandi siparis=66093 sure=116ms
+2026-10-07 15:29:56,250 INFO [stok] Istek tamamlandi siparis=17398 sure=358ms
+2026-10-07 15:31:02,450 INFO [stok] Istek tamamlandi siparis=41188 sure=358ms
+2026-10-07 15:31:35,561 INFO [web] Istek tamamlandi siparis=91379 sure=144ms
+2026-10-07 15:32:08,306 INFO [siparis] Istek tamamlandi siparis=17342 sure=286ms
+2026-10-07 15:32:24,088 INFO [web] Istek tamamlandi siparis=86962 sure=326ms
+2026-10-07 15:34:58,485 INFO [siparis] Istek tamamlandi siparis=80966 sure=87ms
+2026-10-07 15:35:50,436 INFO [web] Istek tamamlandi siparis=85090 sure=98ms
+2026-10-07 15:40:57,927 ERROR [stok] Stok kaydi bulunamadi urun_id=762
+2026-10-07 15:41:53,147 WARN [web] Yavas istek 1446 ms /api/fiyat
+2026-10-07 15:42:52,699 WARN [web] Yavas istek 1972 ms /api/fiyat
+2026-10-07 15:43:53,783 INFO [siparis] Istek tamamlandi siparis=75419 sure=162ms
+2026-10-07 15:43:57,510 INFO [siparis] Istek tamamlandi siparis=10973 sure=315ms
+2026-10-07 15:45:11,589 INFO [stok] Istek tamamlandi siparis=90281 sure=297ms
+2026-10-07 15:46:22,263 INFO [siparis] Istek tamamlandi siparis=97500 sure=185ms
+2026-10-07 15:46:27,538 INFO [siparis] Istek tamamlandi siparis=51482 sure=152ms
+2026-10-07 15:51:02,108 INFO [web] Istek tamamlandi siparis=90473 sure=349ms
+2026-10-07 15:55:31,710 INFO [siparis] Istek tamamlandi siparis=54852 sure=298ms
+2026-10-07 15:56:18,487 INFO [stok] Istek tamamlandi siparis=92312 sure=371ms
+2026-10-07 15:59:48,332 INFO [siparis] Istek tamamlandi siparis=74217 sure=372ms
+2026-10-07 16:00:06,472 INFO [stok] Istek tamamlandi siparis=49918 sure=166ms
+2026-10-07 16:02:19,035 INFO [siparis] Istek tamamlandi siparis=43947 sure=72ms
+2026-10-07 16:03:52,280 INFO [siparis] Istek tamamlandi siparis=93472 sure=398ms
+2026-10-07 16:05:12,295 INFO [siparis] Istek tamamlandi siparis=64474 sure=246ms
+2026-10-07 16:06:41,745 INFO [siparis] Istek tamamlandi siparis=21481 sure=130ms
+2026-10-07 16:07:01,668 INFO [web] Istek tamamlandi siparis=75234 sure=96ms
+2026-10-07 16:10:13,984 INFO [stok] Istek tamamlandi siparis=98931 sure=181ms
+2026-10-07 16:11:34,190 INFO [stok] Istek tamamlandi siparis=56570 sure=135ms
+2026-10-07 16:11:38,470 INFO [stok] Istek tamamlandi siparis=59327 sure=246ms
+2026-10-07 16:11:58,625 INFO [stok] Istek tamamlandi siparis=41359 sure=109ms
+2026-10-07 16:13:16,531 INFO [stok] Istek tamamlandi siparis=15559 sure=145ms
+2026-10-07 16:14:09,849 INFO [stok] Istek tamamlandi siparis=75726 sure=289ms
+2026-10-07 16:16:19,839 INFO [siparis] Istek tamamlandi siparis=65590 sure=302ms
+2026-10-07 16:16:48,415 INFO [stok] Istek tamamlandi siparis=28169 sure=380ms
+2026-10-07 16:17:59,728 INFO [web] Istek tamamlandi siparis=91085 sure=102ms
+2026-10-07 16:19:45,794 INFO [web] Istek tamamlandi siparis=66040 sure=227ms
+2026-10-07 16:20:07,919 INFO [web] Istek tamamlandi siparis=20508 sure=220ms
+2026-10-07 16:20:14,253 INFO [siparis] Istek tamamlandi siparis=12816 sure=40ms
+2026-10-07 16:20:18,993 INFO [stok] Istek tamamlandi siparis=30454 sure=22ms
+2026-10-07 16:22:02,180 INFO [stok] Istek tamamlandi siparis=94907 sure=123ms
+2026-10-07 16:23:39,688 INFO [siparis] Istek tamamlandi siparis=41692 sure=395ms
+2026-10-07 16:25:27,438 INFO [stok] Istek tamamlandi siparis=11901 sure=393ms
+2026-10-07 16:27:02,283 INFO [siparis] Istek tamamlandi siparis=96419 sure=126ms
+2026-10-07 16:28:20,147 INFO [stok] Istek tamamlandi siparis=40368 sure=134ms
+2026-10-07 16:28:53,507 INFO [web] Istek tamamlandi siparis=78121 sure=89ms
+2026-10-07 16:29:57,784 INFO [web] Istek tamamlandi siparis=23513 sure=286ms
+2026-10-07 16:30:24,828 INFO [stok] Istek tamamlandi siparis=93614 sure=292ms
+2026-10-07 16:32:21,067 INFO [web] Istek tamamlandi siparis=43162 sure=42ms
+2026-10-07 16:32:31,361 INFO [siparis] Istek tamamlandi siparis=53452 sure=235ms
+2026-10-07 16:33:02,386 INFO [siparis] Istek tamamlandi siparis=12914 sure=182ms
+2026-10-07 16:34:04,435 INFO [siparis] Istek tamamlandi siparis=76088 sure=37ms
+2026-10-07 16:34:41,718 INFO [siparis] Istek tamamlandi siparis=16003 sure=144ms
+2026-10-07 16:36:02,079 INFO [siparis] Istek tamamlandi siparis=96997 sure=362ms
+2026-10-07 16:38:11,686 INFO [stok] Istek tamamlandi siparis=33111 sure=101ms
+2026-10-07 16:39:36,081 INFO [stok] Istek tamamlandi siparis=63759 sure=246ms
+2026-10-07 16:39:49,057 INFO [siparis] Istek tamamlandi siparis=30487 sure=279ms
+2026-10-07 16:45:57,747 INFO [siparis] Istek tamamlandi siparis=20494 sure=92ms
+2026-10-07 16:47:11,348 INFO [siparis] Istek tamamlandi siparis=30195 sure=117ms
+2026-10-07 16:48:04,794 INFO [siparis] Istek tamamlandi siparis=78632 sure=178ms
+2026-10-07 16:48:17,294 INFO [siparis] Istek tamamlandi siparis=89269 sure=381ms
+2026-10-07 16:48:56,110 INFO [stok] Istek tamamlandi siparis=15572 sure=120ms
+2026-10-07 16:49:29,078 INFO [web] Istek tamamlandi siparis=26622 sure=278ms
+2026-10-07 16:51:36,086 INFO [siparis] Istek tamamlandi siparis=67243 sure=89ms
+2026-10-07 16:51:53,183 INFO [web] Istek tamamlandi siparis=10832 sure=23ms
+2026-10-07 16:52:29,115 INFO [web] Istek tamamlandi siparis=18567 sure=263ms
+2026-10-07 16:53:25,344 INFO [web] Istek tamamlandi siparis=98488 sure=125ms
+2026-10-07 16:54:29,965 INFO [stok] Istek tamamlandi siparis=40254 sure=341ms
+2026-10-07 16:57:27,787 INFO [web] Istek tamamlandi siparis=28857 sure=296ms
+2026-10-07 16:57:36,677 INFO [stok] Istek tamamlandi siparis=36467 sure=170ms
+2026-10-07 16:58:59,675 INFO [web] Istek tamamlandi siparis=38426 sure=321ms
+2026-10-07 17:02:33,170 INFO [siparis] Istek tamamlandi siparis=97475 sure=193ms
+2026-10-07 17:02:48,219 INFO [siparis] Istek tamamlandi siparis=19872 sure=294ms
+2026-10-07 17:03:00,064 INFO [siparis] Istek tamamlandi siparis=90691 sure=132ms
+2026-10-07 17:03:39,238 INFO [stok] Istek tamamlandi siparis=33580 sure=332ms
+2026-10-07 17:03:50,555 INFO [stok] Istek tamamlandi siparis=76164 sure=153ms
+2026-10-07 17:04:39,903 INFO [siparis] Istek tamamlandi siparis=10753 sure=331ms
+2026-10-07 17:05:15,960 INFO [web] Istek tamamlandi siparis=96613 sure=400ms
+2026-10-07 17:05:47,037 INFO [siparis] Istek tamamlandi siparis=68891 sure=28ms
+2026-10-07 17:06:00,846 INFO [siparis] Istek tamamlandi siparis=21537 sure=341ms
+2026-10-07 17:07:30,263 INFO [stok] Istek tamamlandi siparis=18127 sure=340ms
+2026-10-07 17:14:48,815 INFO [web] Istek tamamlandi siparis=63174 sure=385ms
+2026-10-07 17:17:31,063 INFO [stok] Istek tamamlandi siparis=26718 sure=170ms
+2026-10-07 17:18:52,563 INFO [siparis] Istek tamamlandi siparis=30958 sure=213ms
+2026-10-07 17:22:15,712 INFO [stok] Istek tamamlandi siparis=44946 sure=30ms
+2026-10-07 17:22:55,184 INFO [stok] Istek tamamlandi siparis=98022 sure=300ms
+2026-10-07 17:23:44,298 INFO [siparis] Istek tamamlandi siparis=16461 sure=117ms
+2026-10-07 17:29:54,484 INFO [stok] Istek tamamlandi siparis=38369 sure=322ms
+2026-10-07 17:31:23,152 INFO [stok] Istek tamamlandi siparis=98877 sure=294ms
+2026-10-07 17:32:08,810 INFO [siparis] Istek tamamlandi siparis=60343 sure=392ms
+2026-10-07 17:33:41,111 INFO [siparis] Istek tamamlandi siparis=15047 sure=286ms
+2026-10-07 17:33:43,508 WARN [web] Yavas istek 1515 ms /api/fiyat
+2026-10-07 17:33:46,774 INFO [stok] Istek tamamlandi siparis=18665 sure=322ms
+2026-10-07 17:34:09,774 INFO [siparis] Istek tamamlandi siparis=82235 sure=379ms
+2026-10-07 17:36:02,990 INFO [web] Istek tamamlandi siparis=54937 sure=63ms
+2026-10-07 17:38:15,402 INFO [stok] Istek tamamlandi siparis=53721 sure=270ms
+2026-10-07 17:39:04,311 INFO [siparis] Istek tamamlandi siparis=68360 sure=254ms
+2026-10-07 17:39:10,939 INFO [siparis] Istek tamamlandi siparis=15376 sure=69ms
+2026-10-07 17:39:23,949 INFO [stok] Istek tamamlandi siparis=11554 sure=167ms
+2026-10-07 17:40:03,355 INFO [stok] Istek tamamlandi siparis=65981 sure=127ms
+2026-10-07 17:40:07,841 INFO [stok] Istek tamamlandi siparis=72818 sure=376ms
+2026-10-07 17:40:18,625 INFO [siparis] Istek tamamlandi siparis=56376 sure=241ms
+2026-10-07 17:42:01,376 INFO [stok] Istek tamamlandi siparis=69241 sure=337ms
+2026-10-07 17:44:41,310 INFO [stok] Istek tamamlandi siparis=53704 sure=369ms
+2026-10-07 17:44:42,859 INFO [stok] Istek tamamlandi siparis=33891 sure=109ms
+2026-10-07 17:45:19,701 INFO [web] Istek tamamlandi siparis=37297 sure=315ms
+2026-10-07 17:47:29,396 INFO [stok] Istek tamamlandi siparis=15144 sure=305ms
+2026-10-07 17:48:05,980 INFO [stok] Istek tamamlandi siparis=98744 sure=363ms
+2026-10-07 17:51:18,316 INFO [siparis] Istek tamamlandi siparis=36517 sure=90ms
+2026-10-07 17:52:35,277 INFO [stok] Istek tamamlandi siparis=82006 sure=183ms
+2026-10-07 17:56:15,782 INFO [web] Istek tamamlandi siparis=52151 sure=129ms
+2026-10-07 17:56:33,038 INFO [siparis] Istek tamamlandi siparis=58099 sure=37ms
+2026-10-07 17:57:50,570 INFO [stok] Istek tamamlandi siparis=91233 sure=341ms
+2026-10-07 18:00:44,702 INFO [stok] Istek tamamlandi siparis=10803 sure=78ms
+2026-10-07 18:03:45,877 INFO [web] Istek tamamlandi siparis=21334 sure=230ms
+2026-10-07 18:04:52,481 INFO [siparis] Istek tamamlandi siparis=80699 sure=312ms
+2026-10-07 18:05:38,195 INFO [web] Istek tamamlandi siparis=60353 sure=358ms
+2026-10-07 18:06:40,157 INFO [stok] Istek tamamlandi siparis=57223 sure=233ms
+2026-10-07 18:10:01,135 INFO [web] Istek tamamlandi siparis=63296 sure=131ms
+2026-10-07 18:11:42,886 INFO [stok] Istek tamamlandi siparis=24378 sure=164ms
+2026-10-07 18:14:02,368 INFO [web] Istek tamamlandi siparis=69682 sure=316ms
+2026-10-07 18:14:32,647 INFO [stok] Istek tamamlandi siparis=78118 sure=393ms
+2026-10-07 18:15:43,484 INFO [stok] Istek tamamlandi siparis=18050 sure=342ms
+2026-10-07 18:17:04,568 INFO [siparis] Istek tamamlandi siparis=98892 sure=181ms
+2026-10-07 18:17:23,705 INFO [siparis] Istek tamamlandi siparis=67947 sure=193ms
+2026-10-07 18:19:21,237 INFO [siparis] Istek tamamlandi siparis=40266 sure=325ms
+2026-10-07 18:19:35,808 INFO [web] Istek tamamlandi siparis=50172 sure=107ms
+2026-10-07 18:20:34,594 INFO [stok] Istek tamamlandi siparis=58310 sure=77ms
+2026-10-07 18:22:53,735 INFO [siparis] Istek tamamlandi siparis=49917 sure=242ms
+2026-10-07 18:22:58,100 INFO [stok] Istek tamamlandi siparis=52260 sure=313ms
+2026-10-07 18:26:38,041 INFO [web] Istek tamamlandi siparis=64758 sure=42ms
+2026-10-07 18:28:12,629 INFO [siparis] Istek tamamlandi siparis=56380 sure=86ms
+2026-10-07 18:28:20,595 INFO [web] Istek tamamlandi siparis=44018 sure=103ms
+2026-10-07 18:31:28,732 INFO [web] Istek tamamlandi siparis=79315 sure=131ms
+2026-10-07 18:31:29,672 INFO [web] Istek tamamlandi siparis=85085 sure=46ms
+2026-10-07 18:32:05,805 INFO [stok] Istek tamamlandi siparis=95951 sure=350ms
+2026-10-07 18:32:55,935 INFO [web] Istek tamamlandi siparis=87564 sure=96ms
+2026-10-07 18:33:58,793 WARN [web] Yavas istek 2944 ms /api/fiyat
+2026-10-07 18:38:14,399 WARN [web] Yavas istek 2509 ms /api/fiyat
+2026-10-07 18:43:02,693 INFO [web] Istek tamamlandi siparis=78151 sure=192ms
+2026-10-07 18:46:48,568 INFO [siparis] Istek tamamlandi siparis=70674 sure=186ms
+2026-10-07 18:48:57,653 INFO [siparis] Istek tamamlandi siparis=38419 sure=326ms
+2026-10-07 18:50:06,878 INFO [web] Istek tamamlandi siparis=50407 sure=381ms
+2026-10-07 18:51:26,660 INFO [stok] Istek tamamlandi siparis=52914 sure=273ms
+2026-10-07 18:52:46,803 INFO [siparis] Istek tamamlandi siparis=49855 sure=392ms
+2026-10-07 18:52:47,726 INFO [siparis] Istek tamamlandi siparis=54832 sure=108ms
+2026-10-07 18:56:41,903 INFO [siparis] Istek tamamlandi siparis=10861 sure=145ms
+2026-10-07 18:56:42,116 INFO [web] Istek tamamlandi siparis=63197 sure=142ms
+2026-10-07 18:58:49,285 INFO [stok] Istek tamamlandi siparis=73508 sure=281ms
+2026-10-07 18:59:32,154 INFO [web] Istek tamamlandi siparis=87564 sure=398ms
+2026-10-07 19:00:28,782 INFO [web] Istek tamamlandi siparis=59277 sure=356ms
+2026-10-07 19:00:30,188 INFO [stok] Istek tamamlandi siparis=95140 sure=211ms
+2026-10-07 19:05:39,382 INFO [stok] Istek tamamlandi siparis=33338 sure=218ms
+2026-10-07 19:09:36,797 INFO [web] Istek tamamlandi siparis=55029 sure=293ms
+2026-10-07 19:11:06,641 INFO [stok] Istek tamamlandi siparis=84202 sure=392ms
+2026-10-07 19:11:33,206 INFO [stok] Istek tamamlandi siparis=57622 sure=243ms
+2026-10-07 19:12:49,338 INFO [web] Istek tamamlandi siparis=33020 sure=119ms
+2026-10-07 19:13:51,187 INFO [stok] Istek tamamlandi siparis=57638 sure=220ms
+2026-10-07 19:16:01,224 INFO [stok] Istek tamamlandi siparis=80742 sure=279ms
+2026-10-07 19:20:25,211 INFO [siparis] Istek tamamlandi siparis=77378 sure=72ms
+2026-10-07 19:25:04,473 INFO [stok] Istek tamamlandi siparis=80381 sure=191ms
+2026-10-07 19:25:58,770 INFO [web] Istek tamamlandi siparis=22387 sure=326ms
+2026-10-07 19:30:31,016 INFO [siparis] Istek tamamlandi siparis=59300 sure=100ms
+2026-10-07 19:31:10,036 INFO [stok] Istek tamamlandi siparis=34833 sure=91ms
+2026-10-07 19:31:50,394 INFO [web] Istek tamamlandi siparis=92222 sure=56ms
+2026-10-07 19:37:53,784 INFO [web] Istek tamamlandi siparis=77353 sure=119ms
+2026-10-07 19:39:25,399 INFO [web] Istek tamamlandi siparis=14959 sure=360ms
+2026-10-07 19:39:39,669 INFO [siparis] Istek tamamlandi siparis=71936 sure=83ms
+2026-10-07 19:43:14,682 INFO [stok] Istek tamamlandi siparis=56674 sure=263ms
+2026-10-07 19:45:42,512 INFO [stok] Istek tamamlandi siparis=21854 sure=389ms
+2026-10-07 19:47:41,712 INFO [siparis] Istek tamamlandi siparis=34217 sure=76ms
+2026-10-07 19:48:38,647 INFO [web] Istek tamamlandi siparis=11882 sure=108ms
+2026-10-07 19:52:13,273 INFO [stok] Istek tamamlandi siparis=53904 sure=158ms
+2026-10-07 19:53:33,874 INFO [stok] Istek tamamlandi siparis=14813 sure=94ms
+2026-10-07 19:58:05,406 ERROR [stok] Stok kaydi bulunamadi urun_id=192
+2026-10-07 19:59:47,591 INFO [siparis] Istek tamamlandi siparis=50957 sure=31ms
+2026-10-07 19:59:58,267 INFO [stok] Istek tamamlandi siparis=58466 sure=109ms
+2026-10-07 20:00:22,183 INFO [web] Istek tamamlandi siparis=31249 sure=94ms
+2026-10-07 20:01:04,836 INFO [web] Istek tamamlandi siparis=21866 sure=131ms
+2026-10-07 20:01:54,806 INFO [siparis] Istek tamamlandi siparis=87983 sure=313ms
+2026-10-07 20:03:36,192 INFO [web] Istek tamamlandi siparis=72242 sure=91ms
+2026-10-07 20:07:21,503 INFO [stok] Istek tamamlandi siparis=64677 sure=111ms
+2026-10-07 20:12:46,581 INFO [siparis] Istek tamamlandi siparis=20295 sure=258ms
+2026-10-07 20:13:16,181 INFO [web] Istek tamamlandi siparis=36812 sure=53ms
+2026-10-07 20:14:52,421 INFO [web] Istek tamamlandi siparis=18906 sure=26ms
+2026-10-07 20:15:25,913 INFO [siparis] Istek tamamlandi siparis=18601 sure=116ms
+2026-10-07 20:16:54,392 INFO [stok] Istek tamamlandi siparis=16758 sure=76ms
+2026-10-07 20:20:33,025 INFO [siparis] Istek tamamlandi siparis=25319 sure=177ms
+2026-10-07 20:20:33,232 INFO [siparis] Istek tamamlandi siparis=91988 sure=371ms
+2026-10-07 20:27:11,319 INFO [siparis] Istek tamamlandi siparis=80673 sure=316ms
+2026-10-07 20:28:10,714 INFO [stok] Istek tamamlandi siparis=45580 sure=370ms
+2026-10-07 20:31:18,122 INFO [siparis] Istek tamamlandi siparis=42079 sure=34ms
+2026-10-07 20:31:38,866 INFO [stok] Istek tamamlandi siparis=27575 sure=277ms
+2026-10-07 20:31:51,593 INFO [stok] Istek tamamlandi siparis=22561 sure=293ms
+2026-10-07 20:32:03,440 INFO [siparis] Istek tamamlandi siparis=78656 sure=89ms
+2026-10-07 20:32:23,906 INFO [stok] Istek tamamlandi siparis=73766 sure=63ms
+2026-10-07 20:33:48,364 INFO [siparis] Istek tamamlandi siparis=68436 sure=335ms
+2026-10-07 20:33:58,010 INFO [web] Istek tamamlandi siparis=51060 sure=300ms
+2026-10-07 20:34:29,303 INFO [stok] Istek tamamlandi siparis=79588 sure=36ms
+2026-10-07 20:34:48,911 INFO [stok] Istek tamamlandi siparis=28220 sure=246ms
+2026-10-07 20:35:29,734 INFO [web] Istek tamamlandi siparis=88154 sure=112ms
+2026-10-07 20:36:04,139 INFO [siparis] Istek tamamlandi siparis=17818 sure=163ms
+2026-10-07 20:37:14,054 INFO [web] Istek tamamlandi siparis=56843 sure=103ms
+2026-10-07 20:38:17,128 INFO [web] Istek tamamlandi siparis=39697 sure=177ms
+2026-10-07 20:38:18,750 INFO [web] Istek tamamlandi siparis=58916 sure=282ms
+2026-10-07 20:39:09,947 INFO [siparis] Istek tamamlandi siparis=23332 sure=399ms
+2026-10-07 20:39:33,184 INFO [siparis] Istek tamamlandi siparis=65797 sure=339ms
+2026-10-07 20:40:32,449 INFO [stok] Istek tamamlandi siparis=82536 sure=104ms
+2026-10-07 20:44:09,464 INFO [siparis] Istek tamamlandi siparis=53296 sure=186ms
+2026-10-07 20:45:25,818 INFO [web] Istek tamamlandi siparis=73559 sure=112ms
+2026-10-07 20:48:11,024 INFO [stok] Istek tamamlandi siparis=84760 sure=318ms
+2026-10-07 20:50:32,992 INFO [stok] Istek tamamlandi siparis=72116 sure=168ms
+2026-10-07 20:50:42,148 INFO [stok] Istek tamamlandi siparis=72205 sure=154ms
+2026-10-07 20:51:23,087 INFO [stok] Istek tamamlandi siparis=93109 sure=205ms
+2026-10-07 20:53:03,603 INFO [stok] Istek tamamlandi siparis=58033 sure=377ms
+2026-10-07 20:53:26,165 INFO [siparis] Istek tamamlandi siparis=97340 sure=98ms
+2026-10-07 20:53:57,121 INFO [stok] Istek tamamlandi siparis=35369 sure=20ms
+2026-10-07 20:55:46,190 INFO [siparis] Istek tamamlandi siparis=27947 sure=122ms
+2026-10-07 20:57:44,316 INFO [web] Istek tamamlandi siparis=64995 sure=177ms
+2026-10-07 20:58:23,256 INFO [web] Istek tamamlandi siparis=69596 sure=66ms
+2026-10-07 20:59:19,774 INFO [siparis] Istek tamamlandi siparis=87810 sure=159ms
+2026-10-07 20:59:31,318 INFO [siparis] Istek tamamlandi siparis=25182 sure=22ms
+2026-10-07 21:01:42,841 WARN [web] Yavas istek 1753 ms /api/fiyat
+2026-10-07 21:02:01,381 INFO [stok] Istek tamamlandi siparis=58448 sure=217ms
+2026-10-07 21:11:03,143 ERROR [stok] Stok kaydi bulunamadi urun_id=962
+2026-10-07 21:12:16,871 INFO [web] Istek tamamlandi siparis=38051 sure=278ms
+2026-10-07 21:12:59,591 INFO [siparis] Istek tamamlandi siparis=31926 sure=127ms
+2026-10-07 21:17:31,185 INFO [stok] Istek tamamlandi siparis=47851 sure=340ms
+2026-10-07 21:18:21,420 INFO [web] Istek tamamlandi siparis=75762 sure=157ms
+2026-10-07 21:18:46,529 INFO [siparis] Istek tamamlandi siparis=46624 sure=258ms
+2026-10-07 21:22:07,270 INFO [stok] Istek tamamlandi siparis=17120 sure=348ms
+2026-10-07 21:22:14,955 WARN [web] Yavas istek 2024 ms /api/fiyat
+2026-10-07 21:23:19,019 INFO [web] Istek tamamlandi siparis=74080 sure=354ms
+2026-10-07 21:24:06,444 INFO [web] Istek tamamlandi siparis=42483 sure=187ms
+2026-10-07 21:25:24,328 INFO [siparis] Istek tamamlandi siparis=37498 sure=135ms
+2026-10-07 21:26:38,662 INFO [siparis] Istek tamamlandi siparis=76507 sure=189ms
+2026-10-07 21:27:35,117 INFO [siparis] Istek tamamlandi siparis=85260 sure=269ms
+2026-10-07 21:28:07,810 INFO [stok] Istek tamamlandi siparis=39428 sure=33ms
+2026-10-07 21:29:25,037 INFO [siparis] Istek tamamlandi siparis=40537 sure=56ms
+2026-10-07 21:30:31,349 INFO [siparis] Istek tamamlandi siparis=13525 sure=340ms
+2026-10-07 21:33:04,700 INFO [web] Istek tamamlandi siparis=12408 sure=197ms
+2026-10-07 21:34:21,579 INFO [stok] Istek tamamlandi siparis=86161 sure=266ms
+2026-10-07 21:37:25,241 WARN [web] Yavas istek 2523 ms /api/fiyat
+2026-10-07 21:41:51,699 INFO [siparis] Istek tamamlandi siparis=40626 sure=214ms
+2026-10-07 21:43:44,818 INFO [siparis] Istek tamamlandi siparis=97410 sure=95ms
+2026-10-07 21:45:11,475 INFO [web] Istek tamamlandi siparis=16884 sure=105ms
+2026-10-07 21:48:23,758 INFO [stok] Istek tamamlandi siparis=15677 sure=73ms
+2026-10-07 21:48:28,328 INFO [stok] Istek tamamlandi siparis=93735 sure=127ms
+2026-10-07 21:50:18,785 INFO [web] Istek tamamlandi siparis=96649 sure=286ms
+2026-10-07 21:50:29,618 INFO [stok] Istek tamamlandi siparis=38816 sure=171ms
+2026-10-07 21:52:36,739 INFO [stok] Istek tamamlandi siparis=47784 sure=305ms
+2026-10-07 21:53:25,793 INFO [web] Istek tamamlandi siparis=20188 sure=29ms
+2026-10-07 21:54:27,392 INFO [web] Istek tamamlandi siparis=66414 sure=80ms
+2026-10-07 21:55:16,613 INFO [stok] Istek tamamlandi siparis=74625 sure=54ms
+2026-10-07 21:56:00,509 INFO [stok] Istek tamamlandi siparis=11600 sure=254ms
+2026-10-07 21:56:03,310 INFO [stok] Istek tamamlandi siparis=64269 sure=230ms
+2026-10-07 21:57:52,085 INFO [stok] Istek tamamlandi siparis=35652 sure=31ms
+2026-10-07 21:58:47,130 INFO [stok] Istek tamamlandi siparis=89225 sure=314ms

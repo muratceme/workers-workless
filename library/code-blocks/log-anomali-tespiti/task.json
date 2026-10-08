@@ -1,0 +1,15 @@
+{
+  "id": "log-anomali-tespiti",
+  "tur": "kod",
+  "ad": "Log Anomali Tespiti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi access.log auth.log uygulama.log --yil 2026",
+  "girdiler": [
+    "Log dosyaları veya klasör (.log, .gz): web erişim logu (Apache/Nginx), Linux auth.log/secure (sshd, sudo), uygulama logu (zaman + seviye + mesaj)",
+    "İsteğe bağlı eşikler: pencere, başarısız giriş, 404, dakikada istek, mesai saatleri"
+  ],
+  "ciktilar": ["Excel: Özet (dosyalar, önem dağılımı), Bulgular (Kritik/Yüksek/Dikkat/Bilgi, örnek satır, 'İnceleme Notu'), Zaman Çizelgesi (istek, 4xx, 5xx, başarısız giriş, uygulama hatası; grafik), IP Özeti, Hata İmzaları"],
+  "internet": false
+}
