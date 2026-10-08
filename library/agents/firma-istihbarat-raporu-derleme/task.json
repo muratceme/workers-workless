@@ -1,0 +1,20 @@
+{
+  "id": "firma-istihbarat-raporu-derleme",
+  "tur": "agent",
+  "ad": "Firma İstihbarat Raporu Derleme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./istihbarat_klasoru --tarih 08.10.2026",
+  "girdiler": [
+    "Klasör: ticaret sicili özeti (.txt/.pdf/.docx; Unvan, VKN, Kuruluş Tarihi, Sermaye, Ortaklar, Yönetim Kurulu, Değişiklikler), banka istihbaratı, piyasa görüşmeleri, KKB/memzuç risk tablosu, olumsuz kayıtlar tablosu (Tür, Tarih, Tutar, Durum)",
+    "İsteğe bağlı ek maskelenecek adlar (--gizle)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Markdown istihbarat raporu (takma adlar geri açılmış)", "Excel: Özet, Kontroller ('İnceleme'), Ortaklık ve Sicil, Banka İstihbaratı (istihbarat ↔ KKB), KKB Risk, Olumsuz Kayıtlar"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

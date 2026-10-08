@@ -1,0 +1,5 @@
+BANKA İSTİHBARATI (KURGUSAL ÖRNEK) — istihbarat tarihi 05.10.2026
+
+Örnek Bank A: 2014'ten beri çalışılıyor. Nakdi limit 15.000.000 TL, risk 13.800.000 TL. Ödemeler düzenli. Olumsuz kayıt bulunmamaktadır.
+Örnek Bank B: 2019'dan beri çalışılıyor. Nakdi limit 8.000.000 TL, risk 7.200.000 TL. 2026 Temmuz ayında bir taksit 12 gün gecikmeyle ödendi.
+Örnek Bank C: Firma ile kredili çalışma yok. Ortak Hasan Kurgucu'nun bireysel kredi kartı ödemeleri düzenli.
