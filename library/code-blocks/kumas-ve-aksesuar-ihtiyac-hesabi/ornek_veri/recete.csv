@@ -1,0 +1,20 @@
+Model;Malzeme Kodu;Malzeme Adı;Tür;Birim;Tüketim;Fire %;Renge Bağlı;Bedene Bağlı;Beden
+TS-101;KMS-SUP-160;Süprem 30/1 %100 pamuk 160 g/m²;Kumaş;kg;0,22;8;Evet;;
+TS-101;RIB-1X1;Ribana 1x1 yaka;Kumaş;kg;0,02;10;Evet;;
+TS-101;IPL-40-2;Dikiş ipliği 40/2;Aksesuar;m;180;5;Evet;;
+TS-101;ETK-MARKA;Dokuma marka etiketi;Aksesuar;adet;1;2;;;
+TS-101;ETK-BEDEN;Beden etiketi;Aksesuar;adet;1;2;;Evet;
+TS-101;ETK-YIKAMA;Yıkama talimatı etiketi;Aksesuar;adet;1;2;;;
+TS-101;POSET;Polibag poşet;Aksesuar;adet;1;1;;;
+TS-101;KOLI-60;Koli 60x40x40 (48 adet);Aksesuar;adet;0,0209;0;;;
+SW-201;KMS-3IP-320;3 iplik şardonlu 320 g/m²;Kumaş;kg;0,50;8;Evet;;S
+SW-201;KMS-3IP-320;3 iplik şardonlu 320 g/m²;Kumaş;kg;0,55;8;Evet;;M
+SW-201;KMS-3IP-320;3 iplik şardonlu 320 g/m²;Kumaş;kg;0,60;8;Evet;;L
+SW-201;KMS-3IP-320;3 iplik şardonlu 320 g/m²;Kumaş;kg;0,65;8;Evet;;XL
+SW-201;RIB-1X1;Ribana 1x1 manşet-etek;Kumaş;kg;0,06;10;Evet;;
+SW-201;IPL-40-2;Dikiş ipliği 40/2;Aksesuar;m;260;5;Evet;;
+SW-201;ETK-MARKA;Dokuma marka etiketi;Aksesuar;adet;1;2;;;
+SW-201;ETK-BEDEN;Beden etiketi;Aksesuar;adet;1;2;;Evet;
+SW-201;ETK-YIKAMA;Yıkama talimatı etiketi;Aksesuar;adet;1;2;;;
+SW-201;POSET;Polibag poşet;Aksesuar;adet;1;1;;;
+SW-201;KOLI-60;Koli 60x40x40 (24 adet);Aksesuar;adet;0,0417;0;;;

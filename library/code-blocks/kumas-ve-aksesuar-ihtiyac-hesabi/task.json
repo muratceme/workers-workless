@@ -1,0 +1,16 @@
+{
+  "id": "kumas-ve-aksesuar-ihtiyac-hesabi",
+  "tur": "kod",
+  "ad": "Kumaş ve Aksesuar İhtiyaç Hesabı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --siparis siparis.xlsx --recete recete.xlsx --malzeme malzeme_karti.xlsx --stok stok.xlsx --fazla-kesim 3",
+  "girdiler": [
+    "Sipariş (.xlsx/.csv): Model, Renk, Beden, Adet — veya Model, Renk, S, M, L … geniş biçim",
+    "Reçete (model başına malzeme): Model, Malzeme Kodu, Tür (Kumaş/Aksesuar), Birim, Tüketim [, Fire %, Renge Bağlı, Bedene Bağlı, Beden]",
+    "İsteğe bağlı: malzeme kartı (ambalaj, asgari sipariş, top boyu, en, gramaj, tedarikçi), stok"
+  ],
+  "ciktilar": ["Excel: kumaş (kg ↔ metre, top sayısı) ve aksesuar ihtiyaç listesi — brüt, stok, net, yuvarlanmış sipariş miktarı; hesap detayı"],
+  "internet": false
+}

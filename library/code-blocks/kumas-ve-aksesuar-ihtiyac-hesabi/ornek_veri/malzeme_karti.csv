@@ -1,0 +1,10 @@
+Malzeme Kodu;Malzeme Adı;Ambalaj Miktarı;Asgari Sipariş;Top Boyu;En (cm);Gramaj (g/m²);Tedarikçi;Tedarik Süresi (gün)
+KMS-SUP-160;Süprem 30/1 160 g/m²;;;25;180;160;Örnek Örme A.Ş.;21
+KMS-3IP-320;3 iplik şardonlu 320 g/m²;;;25;185;320;Örnek Örme A.Ş.;28
+RIB-1X1;Ribana 1x1;;;20;100;220;Örnek Örme A.Ş.;21
+IPL-40-2;Dikiş ipliği 40/2 (5000 m bobin);5000;;;;;Kurgu İplik Ltd.;7
+ETK-MARKA;Dokuma marka etiketi;1000;3000;;;;Deneme Etiket;14
+ETK-BEDEN;Beden etiketi;500;;;;;Deneme Etiket;14
+ETK-YIKAMA;Yıkama talimatı etiketi;1000;;;;;Deneme Etiket;14
+POSET;Polibag poşet;100;;;;;Kurgu Ambalaj;5
+KOLI-60;Koli 60x40x40;25;;;;;Kurgu Ambalaj;5
