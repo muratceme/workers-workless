@@ -1,0 +1,16 @@
+{
+  "id": "kestirimci-bakim-uyarilari",
+  "tur": "kod",
+  "ad": "Kestirimci Bakım Uyarıları",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --ekipmanlar ekipmanlar.xlsx --olcumler olcumler.xlsx",
+  "girdiler": [
+    "Ekipman listesi (.xlsx/.csv): Ekipman Kodu, Ad, Kritiklik (A/B/C), ISO 10816-3 Sınıfı, titreşim / sıcaklık / akım uyarı ve alarm limitleri, Nominal Akım, Ölçüm Periyodu (gün)",
+    "Ölçümler: Tarih, (Saat), Ekipman Kodu, Ölçüm Noktası, Parametre (Titreşim / Sıcaklık / Akım), Değer",
+    "İsteğe bağlı: rapor tarihi, eğilim penceresi, uyarı ufku, akım uyarı oranı"
+  ],
+  "ciktilar": ["Excel: Ekipman Riski (sıralı, 'Planlanan Müdahale'), Bulgular, Seriler (eğim, R², alarma kalan gün), Grafikler (limit çizgili), Ölçümler, Ekipmanlar (uygulanan limitler)"],
+  "internet": false
+}

@@ -1,0 +1,616 @@
+Tarih;Ekipman Kodu;Ölçüm Noktası;Parametre;Değer
+01.07.2026;F-201;Motor;Akım;72,8
+01.07.2026;F-201;Fan yatağı;Sıcaklık;61,8
+01.07.2026;F-201;Fan yatağı;Titreşim;3,1
+01.07.2026;G-601;Motor;Akım;337,3
+01.07.2026;G-601;Motor DE yatak;Sıcaklık;68,4
+01.07.2026;G-601;Motor DE yatak;Titreşim;3,1
+01.07.2026;K-301;Motor;Akım;115,2
+01.07.2026;K-301;Motor NDE yatak;Sıcaklık;64,6
+01.07.2026;K-301;Motor NDE yatak;Titreşim;1,2
+01.07.2026;M-401;Motor;Akım;22,7
+01.07.2026;M-401;Motor DE yatak;Sıcaklık;53,0
+01.07.2026;M-401;Motor DE yatak;Titreşim;1,5
+01.07.2026;P-101;Motor;Akım;41,4
+01.07.2026;P-101;Motor DE yatak;Sıcaklık;58,2
+01.07.2026;P-101;Motor DE yatak;Titreşim;1,6
+01.07.2026;P-102;Motor;Akım;31,1
+01.07.2026;P-102;Motor DE yatak;Sıcaklık;58,5
+01.07.2026;P-102;Motor DE yatak;Titreşim;1,3
+01.07.2026;R-501;Motor;Akım;16,4
+01.07.2026;R-501;Çıkış mili yatağı;Sıcaklık;62,3
+01.07.2026;R-501;Çıkış mili yatağı;Titreşim;1,9
+04.07.2026;F-201;Motor;Akım;71,1
+04.07.2026;F-201;Fan yatağı;Sıcaklık;62,5
+04.07.2026;F-201;Fan yatağı;Titreşim;2,9
+04.07.2026;G-601;Motor;Akım;323,1
+04.07.2026;G-601;Motor DE yatak;Sıcaklık;69,6
+04.07.2026;G-601;Motor DE yatak;Titreşim;2,9
+04.07.2026;K-301;Motor;Akım;110,6
+04.07.2026;K-301;Motor NDE yatak;Sıcaklık;67,4
+04.07.2026;K-301;Motor NDE yatak;Titreşim;1,2
+04.07.2026;M-401;Motor;Akım;23,0
+04.07.2026;M-401;Motor DE yatak;Sıcaklık;53,4
+04.07.2026;M-401;Motor DE yatak;Titreşim;1,6
+04.07.2026;P-101;Motor;Akım;42,5
+04.07.2026;P-101;Motor DE yatak;Sıcaklık;59,0
+04.07.2026;P-101;Motor DE yatak;Titreşim;1,5
+04.07.2026;P-102;Motor;Akım;29,4
+04.07.2026;P-102;Motor DE yatak;Sıcaklık;58,2
+04.07.2026;P-102;Motor DE yatak;Titreşim;1,3
+04.07.2026;R-501;Motor;Akım;17,4
+04.07.2026;R-501;Çıkış mili yatağı;Sıcaklık;64,2
+04.07.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+07.07.2026;F-201;Motor;Akım;75,4
+07.07.2026;F-201;Fan yatağı;Sıcaklık;61,8
+07.07.2026;F-201;Fan yatağı;Titreşim;3,0
+07.07.2026;G-601;Motor;Akım;327,9
+07.07.2026;G-601;Motor DE yatak;Sıcaklık;66,1
+07.07.2026;G-601;Motor DE yatak;Titreşim;3,1
+07.07.2026;K-301;Motor;Akım;112,3
+07.07.2026;K-301;Motor NDE yatak;Sıcaklık;65,5
+07.07.2026;K-301;Motor NDE yatak;Titreşim;1,3
+07.07.2026;M-401;Motor;Akım;23,6
+07.07.2026;M-401;Motor DE yatak;Sıcaklık;50,5
+07.07.2026;M-401;Motor DE yatak;Titreşim;1,5
+07.07.2026;P-101;Motor;Akım;39,9
+07.07.2026;P-101;Motor DE yatak;Sıcaklık;57,2
+07.07.2026;P-101;Motor DE yatak;Titreşim;1,6
+07.07.2026;P-102;Motor;Akım;29,2
+07.07.2026;P-102;Motor DE yatak;Sıcaklık;55,3
+07.07.2026;P-102;Motor DE yatak;Titreşim;1,4
+07.07.2026;R-501;Motor;Akım;17,2
+07.07.2026;R-501;Çıkış mili yatağı;Sıcaklık;62,4
+07.07.2026;R-501;Çıkış mili yatağı;Titreşim;1,9
+10.07.2026;F-201;Motor;Akım;75,4
+10.07.2026;F-201;Fan yatağı;Sıcaklık;60,2
+10.07.2026;F-201;Fan yatağı;Titreşim;3,0
+10.07.2026;G-601;Motor;Akım;328,8
+10.07.2026;G-601;Motor DE yatak;Sıcaklık;68,4
+10.07.2026;G-601;Motor DE yatak;Titreşim;2,9
+10.07.2026;K-301;Motor;Akım;113,6
+10.07.2026;K-301;Motor NDE yatak;Sıcaklık;64,3
+10.07.2026;K-301;Motor NDE yatak;Titreşim;1,2
+10.07.2026;M-401;Motor;Akım;23,3
+10.07.2026;M-401;Motor DE yatak;Sıcaklık;51,7
+10.07.2026;M-401;Motor DE yatak;Titreşim;1,6
+10.07.2026;P-101;Motor;Akım;40,1
+10.07.2026;P-101;Motor DE yatak;Sıcaklık;59,3
+10.07.2026;P-101;Motor DE yatak;Titreşim;1,6
+10.07.2026;P-102;Motor;Akım;30,2
+10.07.2026;P-102;Motor DE yatak;Sıcaklık;58,1
+10.07.2026;P-102;Motor DE yatak;Titreşim;1,3
+10.07.2026;R-501;Motor;Akım;17,4
+10.07.2026;R-501;Çıkış mili yatağı;Sıcaklık;63,3
+10.07.2026;R-501;Çıkış mili yatağı;Titreşim;1,9
+13.07.2026;F-201;Motor;Akım;72,5
+13.07.2026;F-201;Fan yatağı;Sıcaklık;62,6
+13.07.2026;F-201;Fan yatağı;Titreşim;2,9
+13.07.2026;G-601;Motor;Akım;325,5
+13.07.2026;G-601;Motor DE yatak;Sıcaklık;68,0
+13.07.2026;G-601;Motor DE yatak;Titreşim;3,1
+13.07.2026;K-301;Motor;Akım;109,8
+13.07.2026;K-301;Motor NDE yatak;Sıcaklık;67,1
+13.07.2026;K-301;Motor NDE yatak;Titreşim;1,2
+13.07.2026;M-401;Motor;Akım;23,3
+13.07.2026;M-401;Motor DE yatak;Sıcaklık;51,2
+13.07.2026;M-401;Motor DE yatak;Titreşim;1,4
+13.07.2026;P-101;Motor;Akım;41,6
+13.07.2026;P-101;Motor DE yatak;Sıcaklık;56,4
+13.07.2026;P-101;Motor DE yatak;Titreşim;1,5
+13.07.2026;P-102;Motor;Akım;30,3
+13.07.2026;P-102;Motor DE yatak;Sıcaklık;56,3
+13.07.2026;P-102;Motor DE yatak;Titreşim;1,3
+13.07.2026;R-501;Motor;Akım;16,9
+13.07.2026;R-501;Çıkış mili yatağı;Sıcaklık;64,7
+13.07.2026;R-501;Çıkış mili yatağı;Titreşim;1,7
+16.07.2026;F-201;Motor;Akım;76,3
+16.07.2026;F-201;Fan yatağı;Sıcaklık;62,4
+16.07.2026;F-201;Fan yatağı;Titreşim;3,0
+16.07.2026;G-601;Motor;Akım;324,3
+16.07.2026;G-601;Motor DE yatak;Sıcaklık;69,1
+16.07.2026;G-601;Motor DE yatak;Titreşim;3,0
+16.07.2026;K-301;Motor;Akım;116,3
+16.07.2026;K-301;Motor NDE yatak;Sıcaklık;67,9
+16.07.2026;K-301;Motor NDE yatak;Titreşim;1,3
+16.07.2026;M-401;Motor;Akım;22,6
+16.07.2026;M-401;Motor DE yatak;Sıcaklık;53,1
+16.07.2026;M-401;Motor DE yatak;Titreşim;1,5
+16.07.2026;P-101;Motor;Akım;40,9
+16.07.2026;P-101;Motor DE yatak;Sıcaklık;57,8
+16.07.2026;P-101;Motor DE yatak;Titreşim;1,6
+16.07.2026;P-102;Motor;Akım;30,5
+16.07.2026;P-102;Motor DE yatak;Sıcaklık;56,2
+16.07.2026;P-102;Motor DE yatak;Titreşim;1,3
+16.07.2026;R-501;Motor;Akım;17,4
+16.07.2026;R-501;Çıkış mili yatağı;Sıcaklık;63,4
+16.07.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+19.07.2026;F-201;Motor;Akım;72,3
+19.07.2026;F-201;Fan yatağı;Sıcaklık;63,1
+19.07.2026;F-201;Fan yatağı;Titreşim;2,9
+19.07.2026;G-601;Motor;Akım;322,6
+19.07.2026;G-601;Motor DE yatak;Sıcaklık;67,7
+19.07.2026;G-601;Motor DE yatak;Titreşim;3,1
+19.07.2026;K-301;Motor;Akım;109,8
+19.07.2026;K-301;Motor NDE yatak;Sıcaklık;65,6
+19.07.2026;K-301;Motor NDE yatak;Titreşim;1,2
+19.07.2026;M-401;Motor;Akım;23,1
+19.07.2026;M-401;Motor DE yatak;Sıcaklık;52,4
+19.07.2026;M-401;Motor DE yatak;Titreşim;1,4
+19.07.2026;P-101;Motor;Akım;42,4
+19.07.2026;P-101;Motor DE yatak;Sıcaklık;57,1
+19.07.2026;P-101;Motor DE yatak;Titreşim;1,7
+19.07.2026;P-102;Motor;Akım;30,5
+19.07.2026;P-102;Motor DE yatak;Sıcaklık;56,8
+19.07.2026;P-102;Motor DE yatak;Titreşim;1,3
+19.07.2026;R-501;Motor;Akım;16,6
+19.07.2026;R-501;Çıkış mili yatağı;Sıcaklık;64,5
+19.07.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+22.07.2026;F-201;Motor;Akım;76,9
+22.07.2026;F-201;Fan yatağı;Sıcaklık;63,0
+22.07.2026;F-201;Fan yatağı;Titreşim;2,9
+22.07.2026;G-601;Motor;Akım;324,3
+22.07.2026;G-601;Motor DE yatak;Sıcaklık;68,5
+22.07.2026;G-601;Motor DE yatak;Titreşim;3,0
+22.07.2026;K-301;Motor;Akım;107,8
+22.07.2026;K-301;Motor NDE yatak;Sıcaklık;64,6
+22.07.2026;K-301;Motor NDE yatak;Titreşim;1,2
+22.07.2026;M-401;Motor;Akım;23,4
+22.07.2026;M-401;Motor DE yatak;Sıcaklık;53,2
+22.07.2026;M-401;Motor DE yatak;Titreşim;1,4
+22.07.2026;P-101;Motor;Akım;39,9
+22.07.2026;P-101;Motor DE yatak;Sıcaklık;56,9
+22.07.2026;P-101;Motor DE yatak;Titreşim;1,6
+22.07.2026;P-102;Motor;Akım;29,3
+22.07.2026;P-102;Motor DE yatak;Sıcaklık;57,6
+22.07.2026;P-102;Motor DE yatak;Titreşim;1,4
+22.07.2026;R-501;Motor;Akım;16,7
+22.07.2026;R-501;Çıkış mili yatağı;Sıcaklık;63,9
+22.07.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+25.07.2026;F-201;Motor;Akım;74,4
+25.07.2026;F-201;Fan yatağı;Sıcaklık;63,0
+25.07.2026;F-201;Fan yatağı;Titreşim;3,0
+25.07.2026;G-601;Motor;Akım;327,0
+25.07.2026;G-601;Motor DE yatak;Sıcaklık;69,4
+25.07.2026;G-601;Motor DE yatak;Titreşim;2,9
+25.07.2026;K-301;Motor;Akım;112,6
+25.07.2026;K-301;Motor NDE yatak;Sıcaklık;65,9
+25.07.2026;K-301;Motor NDE yatak;Titreşim;1,2
+25.07.2026;M-401;Motor;Akım;22,4
+25.07.2026;M-401;Motor DE yatak;Sıcaklık;51,6
+25.07.2026;M-401;Motor DE yatak;Titreşim;1,6
+25.07.2026;P-101;Motor;Akım;41,5
+25.07.2026;P-101;Motor DE yatak;Sıcaklık;59,4
+25.07.2026;P-101;Motor DE yatak;Titreşim;1,7
+25.07.2026;P-102;Motor;Akım;28,9
+25.07.2026;P-102;Motor DE yatak;Sıcaklık;55,7
+25.07.2026;P-102;Motor DE yatak;Titreşim;1,4
+25.07.2026;R-501;Motor;Akım;16,9
+25.07.2026;R-501;Çıkış mili yatağı;Sıcaklık;62,3
+25.07.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+28.07.2026;F-201;Motor;Akım;73,3
+28.07.2026;F-201;Fan yatağı;Sıcaklık;61,7
+28.07.2026;F-201;Fan yatağı;Titreşim;3,0
+28.07.2026;G-601;Motor;Akım;325,0
+28.07.2026;G-601;Motor DE yatak;Sıcaklık;66,1
+28.07.2026;G-601;Motor DE yatak;Titreşim;3,0
+28.07.2026;K-301;Motor;Akım;112,3
+28.07.2026;K-301;Motor NDE yatak;Sıcaklık;66,0
+28.07.2026;K-301;Motor NDE yatak;Titreşim;1,2
+28.07.2026;M-401;Motor;Akım;22,7
+28.07.2026;M-401;Motor DE yatak;Sıcaklık;51,6
+28.07.2026;M-401;Motor DE yatak;Titreşim;1,4
+28.07.2026;P-101;Motor;Akım;40,1
+28.07.2026;P-101;Motor DE yatak;Sıcaklık;56,8
+28.07.2026;P-101;Motor DE yatak;Titreşim;1,7
+28.07.2026;P-102;Motor;Akım;29,7
+28.07.2026;P-102;Motor DE yatak;Sıcaklık;56,1
+28.07.2026;P-102;Motor DE yatak;Titreşim;1,3
+28.07.2026;R-501;Motor;Akım;16,6
+28.07.2026;R-501;Çıkış mili yatağı;Sıcaklık;64,4
+28.07.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+31.07.2026;F-201;Motor;Akım;72,2
+31.07.2026;F-201;Fan yatağı;Sıcaklık;60,2
+31.07.2026;F-201;Fan yatağı;Titreşim;2,9
+31.07.2026;G-601;Motor;Akım;331,1
+31.07.2026;G-601;Motor DE yatak;Sıcaklık;69,2
+31.07.2026;G-601;Motor DE yatak;Titreşim;2,9
+31.07.2026;K-301;Motor;Akım;107,9
+31.07.2026;K-301;Motor NDE yatak;Sıcaklık;64,3
+31.07.2026;K-301;Motor NDE yatak;Titreşim;1,2
+31.07.2026;M-401;Motor;Akım;23,6
+31.07.2026;M-401;Motor DE yatak;Sıcaklık;52,5
+31.07.2026;M-401;Motor DE yatak;Titreşim;1,6
+31.07.2026;P-101;Motor;Akım;42,4
+31.07.2026;P-101;Motor DE yatak;Sıcaklık;59,0
+31.07.2026;P-101;Motor DE yatak;Titreşim;1,5
+31.07.2026;P-102;Motor;Akım;30,6
+31.07.2026;P-102;Motor DE yatak;Sıcaklık;57,4
+31.07.2026;P-102;Motor DE yatak;Titreşim;1,3
+31.07.2026;R-501;Motor;Akım;16,4
+31.07.2026;R-501;Çıkış mili yatağı;Sıcaklık;65,8
+31.07.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+03.08.2026;F-201;Motor;Akım;76,5
+03.08.2026;F-201;Fan yatağı;Sıcaklık;62,2
+03.08.2026;F-201;Fan yatağı;Titreşim;3,1
+03.08.2026;G-601;Motor;Akım;320,8
+03.08.2026;G-601;Motor DE yatak;Sıcaklık;69,8
+03.08.2026;G-601;Motor DE yatak;Titreşim;3,0
+03.08.2026;K-301;Motor;Akım;110,4
+03.08.2026;K-301;Motor NDE yatak;Sıcaklık;65,4
+03.08.2026;K-301;Motor NDE yatak;Titreşim;1,2
+03.08.2026;M-401;Motor;Akım;23,6
+03.08.2026;M-401;Motor DE yatak;Sıcaklık;53,5
+03.08.2026;M-401;Motor DE yatak;Titreşim;1,5
+03.08.2026;P-101;Motor;Akım;40,6
+03.08.2026;P-101;Motor DE yatak;Sıcaklık;57,9
+03.08.2026;P-101;Motor DE yatak;Titreşim;1,5
+03.08.2026;P-102;Motor;Akım;28,8
+03.08.2026;P-102;Motor DE yatak;Sıcaklık;58,6
+03.08.2026;P-102;Motor DE yatak;Titreşim;1,3
+03.08.2026;R-501;Motor;Akım;16,9
+03.08.2026;R-501;Çıkış mili yatağı;Sıcaklık;63,6
+03.08.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+06.08.2026;F-201;Motor;Akım;74,5
+06.08.2026;F-201;Fan yatağı;Sıcaklık;63,7
+06.08.2026;F-201;Fan yatağı;Titreşim;3,1
+06.08.2026;G-601;Motor;Akım;334,8
+06.08.2026;G-601;Motor DE yatak;Sıcaklık;67,6
+06.08.2026;G-601;Motor DE yatak;Titreşim;2,9
+06.08.2026;K-301;Motor;Akım;112,4
+06.08.2026;K-301;Motor NDE yatak;Sıcaklık;65,0
+06.08.2026;K-301;Motor NDE yatak;Titreşim;1,1
+06.08.2026;M-401;Motor;Akım;23,5
+06.08.2026;M-401;Motor DE yatak;Sıcaklık;50,6
+06.08.2026;M-401;Motor DE yatak;Titreşim;1,5
+06.08.2026;P-101;Motor;Akım;0,0
+06.08.2026;P-101;Motor DE yatak;Sıcaklık;59,5
+06.08.2026;P-101;Motor DE yatak;Titreşim;1,6
+06.08.2026;P-102;Motor;Akım;30,4
+06.08.2026;P-102;Motor DE yatak;Sıcaklık;56,0
+06.08.2026;P-102;Motor DE yatak;Titreşim;1,3
+06.08.2026;R-501;Motor;Akım;17,3
+06.08.2026;R-501;Çıkış mili yatağı;Sıcaklık;64,4
+06.08.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+09.08.2026;F-201;Motor;Akım;76,4
+09.08.2026;F-201;Fan yatağı;Sıcaklık;63,1
+09.08.2026;F-201;Fan yatağı;Titreşim;2,9
+09.08.2026;G-601;Motor;Akım;332,6
+09.08.2026;G-601;Motor DE yatak;Sıcaklık;69,8
+09.08.2026;G-601;Motor DE yatak;Titreşim;7,4
+09.08.2026;K-301;Motor;Akım;108,4
+09.08.2026;K-301;Motor NDE yatak;Sıcaklık;67,8
+09.08.2026;K-301;Motor NDE yatak;Titreşim;1,2
+09.08.2026;M-401;Motor;Akım;23,0
+09.08.2026;M-401;Motor DE yatak;Sıcaklık;52,8
+09.08.2026;M-401;Motor DE yatak;Titreşim;1,6
+09.08.2026;P-101;Motor;Akım;41,0
+09.08.2026;P-101;Motor DE yatak;Sıcaklık;59,3
+09.08.2026;P-101;Motor DE yatak;Titreşim;1,7
+09.08.2026;P-102;Motor;Akım;30,7
+09.08.2026;P-102;Motor DE yatak;Sıcaklık;56,2
+09.08.2026;P-102;Motor DE yatak;Titreşim;1,4
+09.08.2026;R-501;Motor;Akım;17,4
+09.08.2026;R-501;Çıkış mili yatağı;Sıcaklık;65,6
+09.08.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+12.08.2026;F-201;Motor;Akım;71,8
+12.08.2026;F-201;Fan yatağı;Sıcaklık;63,6
+12.08.2026;F-201;Fan yatağı;Titreşim;2,9
+12.08.2026;G-601;Motor;Akım;330,2
+12.08.2026;G-601;Motor DE yatak;Sıcaklık;68,0
+12.08.2026;G-601;Motor DE yatak;Titreşim;3,1
+12.08.2026;K-301;Motor;Akım;114,8
+12.08.2026;K-301;Motor NDE yatak;Sıcaklık;67,3
+12.08.2026;K-301;Motor NDE yatak;Titreşim;1,2
+12.08.2026;M-401;Motor;Akım;22,4
+12.08.2026;M-401;Motor DE yatak;Sıcaklık;50,5
+12.08.2026;M-401;Motor DE yatak;Titreşim;1,6
+12.08.2026;P-101;Motor;Akım;42,4
+12.08.2026;P-101;Motor DE yatak;Sıcaklık;56,3
+12.08.2026;P-101;Motor DE yatak;Titreşim;1,6
+12.08.2026;P-102;Motor;Akım;30,4
+12.08.2026;P-102;Motor DE yatak;Sıcaklık;58,4
+12.08.2026;P-102;Motor DE yatak;Titreşim;1,3
+12.08.2026;R-501;Motor;Akım;17,0
+12.08.2026;R-501;Çıkış mili yatağı;Sıcaklık;64,3
+12.08.2026;R-501;Çıkış mili yatağı;Titreşim;1,9
+15.08.2026;F-201;Motor;Akım;76,3
+15.08.2026;F-201;Fan yatağı;Sıcaklık;62,2
+15.08.2026;F-201;Fan yatağı;Titreşim;2,9
+15.08.2026;G-601;Motor;Akım;332,0
+15.08.2026;G-601;Motor DE yatak;Sıcaklık;68,2
+15.08.2026;G-601;Motor DE yatak;Titreşim;3,0
+15.08.2026;K-301;Motor;Akım;111,1
+15.08.2026;K-301;Motor NDE yatak;Sıcaklık;64,7
+15.08.2026;K-301;Motor NDE yatak;Titreşim;2,1
+15.08.2026;M-401;Motor;Akım;22,9
+15.08.2026;M-401;Motor DE yatak;Sıcaklık;50,9
+15.08.2026;M-401;Motor DE yatak;Titreşim;1,6
+15.08.2026;P-101;Motor;Akım;42,1
+15.08.2026;P-101;Motor DE yatak;Sıcaklık;59,6
+15.08.2026;P-101;Motor DE yatak;Titreşim;1,6
+15.08.2026;P-102;Motor;Akım;29,5
+15.08.2026;P-102;Motor DE yatak;Sıcaklık;56,0
+15.08.2026;P-102;Motor DE yatak;Titreşim;1,3
+15.08.2026;R-501;Motor;Akım;17,4
+15.08.2026;R-501;Çıkış mili yatağı;Sıcaklık;62,6
+15.08.2026;R-501;Çıkış mili yatağı;Titreşim;1,9
+18.08.2026;F-201;Motor;Akım;73,2
+18.08.2026;F-201;Fan yatağı;Sıcaklık;62,1
+18.08.2026;F-201;Fan yatağı;Titreşim;3,1
+18.08.2026;G-601;Motor;Akım;334,6
+18.08.2026;G-601;Motor DE yatak;Sıcaklık;69,7
+18.08.2026;G-601;Motor DE yatak;Titreşim;3,1
+18.08.2026;K-301;Motor;Akım;112,8
+18.08.2026;K-301;Motor NDE yatak;Sıcaklık;67,8
+18.08.2026;K-301;Motor NDE yatak;Titreşim;2,1
+18.08.2026;M-401;Motor;Akım;22,5
+18.08.2026;M-401;Motor DE yatak;Sıcaklık;52,2
+18.08.2026;M-401;Motor DE yatak;Titreşim;1,5
+18.08.2026;P-101;Motor;Akım;41,4
+18.08.2026;P-101;Motor DE yatak;Sıcaklık;58,2
+18.08.2026;P-101;Motor DE yatak;Titreşim;1,6
+18.08.2026;P-102;Motor;Akım;29,6
+18.08.2026;P-102;Motor DE yatak;Sıcaklık;57,1
+18.08.2026;P-102;Motor DE yatak;Titreşim;1,2
+18.08.2026;R-501;Motor;Akım;16,7
+18.08.2026;R-501;Çıkış mili yatağı;Sıcaklık;65,5
+18.08.2026;R-501;Çıkış mili yatağı;Titreşim;1,7
+21.08.2026;F-201;Motor;Akım;72,4
+21.08.2026;F-201;Fan yatağı;Sıcaklık;61,2
+21.08.2026;F-201;Fan yatağı;Titreşim;3,1
+21.08.2026;G-601;Motor;Akım;339,6
+21.08.2026;G-601;Motor DE yatak;Sıcaklık;67,1
+21.08.2026;G-601;Motor DE yatak;Titreşim;2,9
+21.08.2026;K-301;Motor;Akım;110,9
+21.08.2026;K-301;Motor NDE yatak;Sıcaklık;66,8
+21.08.2026;K-301;Motor NDE yatak;Titreşim;2,1
+21.08.2026;M-401;Motor;Akım;22,6
+21.08.2026;M-401;Motor DE yatak;Sıcaklık;52,3
+21.08.2026;M-401;Motor DE yatak;Titreşim;1,6
+21.08.2026;P-101;Motor;Akım;40,4
+21.08.2026;P-101;Motor DE yatak;Sıcaklık;58,8
+21.08.2026;P-101;Motor DE yatak;Titreşim;1,5
+21.08.2026;P-102;Motor;Akım;31,2
+21.08.2026;P-102;Motor DE yatak;Sıcaklık;56,0
+21.08.2026;P-102;Motor DE yatak;Titreşim;1,3
+21.08.2026;R-501;Motor;Akım;17,5
+21.08.2026;R-501;Çıkış mili yatağı;Sıcaklık;65,3
+21.08.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+24.08.2026;F-201;Motor;Akım;76,8
+24.08.2026;F-201;Fan yatağı;Sıcaklık;63,3
+24.08.2026;F-201;Fan yatağı;Titreşim;3,1
+24.08.2026;G-601;Motor;Akım;335,3
+24.08.2026;G-601;Motor DE yatak;Sıcaklık;66,0
+24.08.2026;G-601;Motor DE yatak;Titreşim;2,9
+24.08.2026;K-301;Motor;Akım;115,0
+24.08.2026;K-301;Motor NDE yatak;Sıcaklık;64,9
+24.08.2026;K-301;Motor NDE yatak;Titreşim;2,2
+24.08.2026;M-401;Motor;Akım;22,4
+24.08.2026;M-401;Motor DE yatak;Sıcaklık;51,6
+24.08.2026;M-401;Motor DE yatak;Titreşim;1,5
+24.08.2026;P-101;Motor;Akım;41,4
+24.08.2026;P-101;Motor DE yatak;Sıcaklık;56,6
+24.08.2026;P-101;Motor DE yatak;Titreşim;1,6
+24.08.2026;P-102;Motor;Akım;29,6
+24.08.2026;P-102;Motor DE yatak;Sıcaklık;56,4
+24.08.2026;P-102;Motor DE yatak;Titreşim;1,3
+24.08.2026;R-501;Motor;Akım;17,6
+24.08.2026;R-501;Çıkış mili yatağı;Sıcaklık;63,3
+24.08.2026;R-501;Çıkış mili yatağı;Titreşim;1,7
+27.08.2026;F-201;Motor;Akım;72,8
+27.08.2026;F-201;Fan yatağı;Sıcaklık;62,0
+27.08.2026;F-201;Fan yatağı;Titreşim;3,0
+27.08.2026;G-601;Motor;Akım;329,0
+27.08.2026;G-601;Motor DE yatak;Sıcaklık;67,9
+27.08.2026;G-601;Motor DE yatak;Titreşim;2,9
+27.08.2026;K-301;Motor;Akım;116,1
+27.08.2026;K-301;Motor NDE yatak;Sıcaklık;64,9
+27.08.2026;K-301;Motor NDE yatak;Titreşim;2,1
+27.08.2026;M-401;Motor;Akım;22,4
+27.08.2026;M-401;Motor DE yatak;Sıcaklık;53,3
+27.08.2026;M-401;Motor DE yatak;Titreşim;1,5
+27.08.2026;P-101;Motor;Akım;42,2
+27.08.2026;P-101;Motor DE yatak;Sıcaklık;58,8
+27.08.2026;P-101;Motor DE yatak;Titreşim;1,6
+27.08.2026;P-102;Motor;Akım;31,2
+27.08.2026;P-102;Motor DE yatak;Sıcaklık;57,6
+27.08.2026;P-102;Motor DE yatak;Titreşim;1,3
+27.08.2026;R-501;Motor;Akım;16,8
+27.08.2026;R-501;Çıkış mili yatağı;Sıcaklık;64,3
+27.08.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+30.08.2026;F-201;Motor;Akım;75,0
+30.08.2026;F-201;Fan yatağı;Sıcaklık;63,7
+30.08.2026;F-201;Fan yatağı;Titreşim;3,1
+30.08.2026;G-601;Motor;Akım;334,9
+30.08.2026;G-601;Motor DE yatak;Sıcaklık;66,6
+30.08.2026;G-601;Motor DE yatak;Titreşim;3,1
+30.08.2026;K-301;Motor;Akım;111,3
+30.08.2026;K-301;Motor NDE yatak;Sıcaklık;64,1
+30.08.2026;K-301;Motor NDE yatak;Titreşim;2,0
+30.08.2026;M-401;Motor;Akım;23,0
+30.08.2026;M-401;Motor DE yatak;Sıcaklık;52,4
+30.08.2026;M-401;Motor DE yatak;Titreşim;1,6
+30.08.2026;P-101;Motor;Akım;40,9
+30.08.2026;P-101;Motor DE yatak;Sıcaklık;58,8
+30.08.2026;P-101;Motor DE yatak;Titreşim;1,8
+30.08.2026;P-102;Motor;Akım;30,1
+30.08.2026;P-102;Motor DE yatak;Sıcaklık;58,0
+30.08.2026;P-102;Motor DE yatak;Titreşim;1,3
+30.08.2026;R-501;Motor;Akım;16,9
+30.08.2026;R-501;Çıkış mili yatağı;Sıcaklık;62,2
+30.08.2026;R-501;Çıkış mili yatağı;Titreşim;1,9
+02.09.2026;F-201;Motor;Akım;74,5
+02.09.2026;F-201;Fan yatağı;Sıcaklık;63,0
+02.09.2026;F-201;Fan yatağı;Titreşim;3,0
+02.09.2026;G-601;Motor;Akım;327,8
+02.09.2026;G-601;Motor DE yatak;Sıcaklık;69,4
+02.09.2026;G-601;Motor DE yatak;Titreşim;3,1
+02.09.2026;K-301;Motor;Akım;116,1
+02.09.2026;K-301;Motor NDE yatak;Sıcaklık;65,8
+02.09.2026;K-301;Motor NDE yatak;Titreşim;2,2
+02.09.2026;M-401;Motor;Akım;23,0
+02.09.2026;M-401;Motor DE yatak;Sıcaklık;51,4
+02.09.2026;M-401;Motor DE yatak;Titreşim;1,5
+02.09.2026;P-101;Motor;Akım;39,8
+02.09.2026;P-101;Motor DE yatak;Sıcaklık;59,6
+02.09.2026;P-101;Motor DE yatak;Titreşim;2,0
+02.09.2026;P-102;Motor;Akım;29,9
+02.09.2026;P-102;Motor DE yatak;Sıcaklık;58,0
+02.09.2026;P-102;Motor DE yatak;Titreşim;1,3
+02.09.2026;R-501;Motor;Akım;16,6
+02.09.2026;R-501;Çıkış mili yatağı;Sıcaklık;63,6
+02.09.2026;R-501;Çıkış mili yatağı;Titreşim;1,7
+05.09.2026;F-201;Motor;Akım;73,3
+05.09.2026;F-201;Fan yatağı;Sıcaklık;62,9
+05.09.2026;F-201;Fan yatağı;Titreşim;2,9
+05.09.2026;G-601;Motor;Akım;336,6
+05.09.2026;G-601;Motor DE yatak;Sıcaklık;69,8
+05.09.2026;G-601;Motor DE yatak;Titreşim;2,9
+05.09.2026;K-301;Motor;Akım;116,5
+05.09.2026;K-301;Motor NDE yatak;Sıcaklık;67,1
+05.09.2026;K-301;Motor NDE yatak;Titreşim;2,1
+05.09.2026;M-401;Motor;Akım;22,7
+05.09.2026;M-401;Motor DE yatak;Sıcaklık;52,1
+05.09.2026;M-401;Motor DE yatak;Titreşim;1,6
+05.09.2026;P-101;Motor;Akım;41,9
+05.09.2026;P-101;Motor DE yatak;Sıcaklık;58,3
+05.09.2026;P-101;Motor DE yatak;Titreşim;2,2
+05.09.2026;P-102;Motor;Akım;29,5
+05.09.2026;P-102;Motor DE yatak;Sıcaklık;58,0
+05.09.2026;P-102;Motor DE yatak;Titreşim;1,2
+05.09.2026;R-501;Motor;Akım;16,5
+05.09.2026;R-501;Çıkış mili yatağı;Sıcaklık;64,0
+05.09.2026;R-501;Çıkış mili yatağı;Titreşim;1,9
+08.09.2026;F-201;Motor;Akım;74,4
+08.09.2026;F-201;Fan yatağı;Sıcaklık;61,8
+08.09.2026;F-201;Fan yatağı;Titreşim;2,9
+08.09.2026;G-601;Motor;Akım;331,2
+08.09.2026;G-601;Motor DE yatak;Sıcaklık;67,9
+08.09.2026;G-601;Motor DE yatak;Titreşim;2,9
+08.09.2026;K-301;Motor;Akım;112,0
+08.09.2026;K-301;Motor NDE yatak;Sıcaklık;65,4
+08.09.2026;K-301;Motor NDE yatak;Titreşim;2,2
+08.09.2026;M-401;Motor;Akım;22,7
+08.09.2026;M-401;Motor DE yatak;Sıcaklık;52,6
+08.09.2026;M-401;Motor DE yatak;Titreşim;1,5
+08.09.2026;P-101;Motor;Akım;42,6
+08.09.2026;P-101;Motor DE yatak;Sıcaklık;56,4
+08.09.2026;P-101;Motor DE yatak;Titreşim;2,4
+08.09.2026;P-102;Motor;Akım;30,1
+08.09.2026;P-102;Motor DE yatak;Sıcaklık;58,0
+08.09.2026;P-102;Motor DE yatak;Titreşim;1,3
+08.09.2026;R-501;Motor;Akım;17,5
+08.09.2026;R-501;Çıkış mili yatağı;Sıcaklık;62,2
+08.09.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+11.09.2026;F-201;Motor;Akım;73,2
+11.09.2026;F-201;Fan yatağı;Sıcaklık;66,0
+11.09.2026;F-201;Fan yatağı;Titreşim;3,0
+11.09.2026;G-601;Motor;Akım;333,5
+11.09.2026;G-601;Motor DE yatak;Sıcaklık;66,3
+11.09.2026;G-601;Motor DE yatak;Titreşim;2,9
+11.09.2026;K-301;Motor;Akım;112,8
+11.09.2026;K-301;Motor NDE yatak;Sıcaklık;66,5
+11.09.2026;K-301;Motor NDE yatak;Titreşim;2,1
+11.09.2026;M-401;Motor;Akım;23,7
+11.09.2026;M-401;Motor DE yatak;Sıcaklık;53,1
+11.09.2026;M-401;Motor DE yatak;Titreşim;1,5
+11.09.2026;P-101;Motor;Akım;40,3
+11.09.2026;P-101;Motor DE yatak;Sıcaklık;58,5
+11.09.2026;P-101;Motor DE yatak;Titreşim;2,6
+11.09.2026;P-102;Motor;Akım;29,1
+11.09.2026;P-102;Motor DE yatak;Sıcaklık;58,0
+11.09.2026;P-102;Motor DE yatak;Titreşim;1,3
+11.09.2026;R-501;Motor;Akım;16,8
+11.09.2026;R-501;Çıkış mili yatağı;Sıcaklık;62,7
+11.09.2026;R-501;Çıkış mili yatağı;Titreşim;1,8
+14.09.2026;F-201;Motor;Akım;74,1
+14.09.2026;F-201;Fan yatağı;Sıcaklık;69,5
+14.09.2026;F-201;Fan yatağı;Titreşim;4,2
+14.09.2026;G-601;Motor;Akım;322,1
+14.09.2026;G-601;Motor DE yatak;Sıcaklık;68,0
+14.09.2026;G-601;Motor DE yatak;Titreşim;3,0
+14.09.2026;K-301;Motor;Akım;115,7
+14.09.2026;K-301;Motor NDE yatak;Sıcaklık;67,2
+14.09.2026;K-301;Motor NDE yatak;Titreşim;2,2
+14.09.2026;M-401;Motor;Akım;22,4
+14.09.2026;M-401;Motor DE yatak;Sıcaklık;51,9
+14.09.2026;M-401;Motor DE yatak;Titreşim;1,5
+14.09.2026;P-101;Motor;Akım;39,5
+14.09.2026;P-101;Motor DE yatak;Sıcaklık;58,6
+14.09.2026;P-101;Motor DE yatak;Titreşim;2,8
+14.09.2026;P-102;Motor;Akım;29,2
+14.09.2026;P-102;Motor DE yatak;Sıcaklık;58,0
+14.09.2026;P-102;Motor DE yatak;Titreşim;1,3
+17.09.2026;F-201;Motor;Akım;76,6
+17.09.2026;F-201;Fan yatağı;Sıcaklık;73,0
+17.09.2026;F-201;Fan yatağı;Titreşim;5,0
+17.09.2026;G-601;Motor;Akım;324,4
+17.09.2026;G-601;Motor DE yatak;Sıcaklık;66,6
+17.09.2026;G-601;Motor DE yatak;Titreşim;2,9
+17.09.2026;K-301;Motor;Akım;115,4
+17.09.2026;K-301;Motor NDE yatak;Sıcaklık;65,5
+17.09.2026;K-301;Motor NDE yatak;Titreşim;2,1
+17.09.2026;M-401;Motor;Akım;22,8
+17.09.2026;M-401;Motor DE yatak;Sıcaklık;52,7
+17.09.2026;M-401;Motor DE yatak;Titreşim;1,5
+17.09.2026;P-101;Motor;Akım;40,4
+17.09.2026;P-101;Motor DE yatak;Sıcaklık;56,7
+17.09.2026;P-101;Motor DE yatak;Titreşim;3,0
+17.09.2026;P-102;Motor;Akım;29,6
+17.09.2026;P-102;Motor DE yatak;Sıcaklık;58,0
+17.09.2026;P-102;Motor DE yatak;Titreşim;1,3
+20.09.2026;F-201;Motor;Akım;74,9
+20.09.2026;F-201;Fan yatağı;Sıcaklık;76,5
+20.09.2026;F-201;Fan yatağı;Titreşim;5,9
+20.09.2026;G-601;Motor;Akım;329,7
+20.09.2026;G-601;Motor DE yatak;Sıcaklık;69,0
+20.09.2026;G-601;Motor DE yatak;Titreşim;3,0
+20.09.2026;K-301;Motor;Akım;108,3
+20.09.2026;K-301;Motor NDE yatak;Sıcaklık;66,6
+20.09.2026;K-301;Motor NDE yatak;Titreşim;2,2
+20.09.2026;M-401;Motor;Akım;25,6
+20.09.2026;M-401;Motor DE yatak;Sıcaklık;52,9
+20.09.2026;M-401;Motor DE yatak;Titreşim;1,5
+20.09.2026;P-101;Motor;Akım;40,0
+20.09.2026;P-101;Motor DE yatak;Sıcaklık;59,1
+20.09.2026;P-101;Motor DE yatak;Titreşim;3,2
+20.09.2026;P-102;Motor;Akım;31,0
+20.09.2026;P-102;Motor DE yatak;Sıcaklık;58,0
+20.09.2026;P-102;Motor DE yatak;Titreşim;1,3
+23.09.2026;F-201;Motor;Akım;74,6
+23.09.2026;F-201;Fan yatağı;Sıcaklık;80,5
+23.09.2026;F-201;Fan yatağı;Titreşim;6,8
+23.09.2026;G-601;Motor;Akım;332,1
+23.09.2026;G-601;Motor DE yatak;Sıcaklık;67,9
+23.09.2026;G-601;Motor DE yatak;Titreşim;3,0
+23.09.2026;K-301;Motor;Akım;110,6
+23.09.2026;K-301;Motor NDE yatak;Sıcaklık;66,4
+23.09.2026;K-301;Motor NDE yatak;Titreşim;2,0
+23.09.2026;M-401;Motor;Akım;26,0
+23.09.2026;M-401;Motor DE yatak;Sıcaklık;50,8
+23.09.2026;M-401;Motor DE yatak;Titreşim;1,6
+23.09.2026;P-101;Motor;Akım;41,5
+23.09.2026;P-101;Motor DE yatak;Sıcaklık;56,4
+23.09.2026;P-101;Motor DE yatak;Titreşim;3,4
+23.09.2026;P-102;Motor;Akım;30,7
+23.09.2026;P-102;Motor DE yatak;Sıcaklık;58,0
+23.09.2026;P-102;Motor DE yatak;Titreşim;1,3
+26.09.2026;F-201;Motor;Akım;71,9
+26.09.2026;F-201;Fan yatağı;Sıcaklık;84,0
+26.09.2026;F-201;Fan yatağı;Titreşim;7,6
+26.09.2026;G-601;Motor;Akım;335,7
+26.09.2026;G-601;Motor DE yatak;Sıcaklık;68,0
+26.09.2026;G-601;Motor DE yatak;Titreşim;3,1
+26.09.2026;K-301;Motor;Akım;112,7
+26.09.2026;K-301;Motor NDE yatak;Sıcaklık;66,3
+26.09.2026;K-301;Motor NDE yatak;Titreşim;2,1
+26.09.2026;M-401;Motor;Akım;26,3
+26.09.2026;M-401;Motor DE yatak;Sıcaklık;51,9
+26.09.2026;M-401;Motor DE yatak;Titreşim;1,5
+26.09.2026;P-101;Motor;Akım;41,0
+26.09.2026;P-101;Motor DE yatak;Sıcaklık;58,3
+26.09.2026;P-101;Motor DE yatak;Titreşim;3,6
+26.09.2026;P-102;Motor;Akım;31,1
+26.09.2026;P-102;Motor DE yatak;Sıcaklık;58,0
+26.09.2026;P-102;Motor DE yatak;Titreşim;1,4

@@ -1,0 +1,9 @@
+Ekipman Kodu;Ekipman Adı;Kritiklik;ISO 10816-3 Sınıfı;Titreşim Uyarı (mm/s);Titreşim Alarm (mm/s);Sıcaklık Uyarı (°C);Sıcaklık Alarm (°C);Nominal Akım (A);Akım Uyarı (A);Akım Alarm (A);Ölçüm Periyodu (gün)
+P-101;Soğutma suyu pompası motoru;A;Grup 2 rijit;;;80;90;52;;;3
+F-201;Kazan çekiş fanı;A;Grup 2 esnek;;;80;90;95;;;3
+K-301;Hava kompresörü;B;Grup 2 rijit;;;85;95;140;;;3
+M-401;Konveyör tahrik motoru;B;;2,8;4,5;70;80;28;;;3
+P-102;Proses pompası motoru;B;Grup 2 rijit;;;80;90;38;;;3
+R-501;Karıştırıcı redüktörü;C;Grup 2 rijit;;;80;90;22;;;3
+G-601;Granülatör ana motoru;A;Grup 1 rijit;;;80;90;410;;;3
+H-701;Hidrolik ünite motoru;C;Grup 2 rijit;;;80;90;30;;;7
