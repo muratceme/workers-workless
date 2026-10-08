@@ -1,0 +1,38 @@
+Şirket;Teminat;Limit;Muafiyet;Not
+Örnek A Sigorta;Yangın (bina);8.000.000;;
+Örnek A Sigorta;Yangın (emtia ve demirbaş);3.000.000;;
+Örnek A Sigorta;Deprem ve yanardağ püskürmesi;11.000.000;%2;Koasürans %80
+Örnek A Sigorta;Sel ve su baskını;11.000.000;%2;
+Örnek A Sigorta;Dahili su;500.000;5.000 TL;
+Örnek A Sigorta;Hırsızlık;300.000;%10;
+Örnek A Sigorta;Cam kırılması;50.000;;
+Örnek A Sigorta;Üçüncü şahıs mali sorumluluk;2.000.000;5.000 TL;
+Örnek B Sigorta;Yangın bina;8.000.000;;
+Örnek B Sigorta;Yangın emtia demirbaş;3.000.000;;
+Örnek B Sigorta;Deprem ve yanardağ püskürmesi;11.000.000;%5;
+Örnek B Sigorta;Sel ve su baskını;11.000.000;%2;
+Örnek B Sigorta;Dahili su;250.000;%2, en az 10.000 TL;
+Örnek B Sigorta;Hırsızlık;300.000;%10;
+Örnek B Sigorta;Cam kırılması;50.000;;
+Örnek B Sigorta;Kira kaybı;200.000;;
+Örnek B Sigorta;İş durması;1.000.000;7 gün;
+Örnek B Sigorta;Üçüncü şahıs mali sorumluluk;2.000.000;5.000 TL;
+Örnek C Sigorta;Yangın (bina);8.000.000;;
+Örnek C Sigorta;Yangın (emtia ve demirbaş);3.000.000;;
+Örnek C Sigorta;Deprem ve yanardağ püskürmesi;11.000.000;%2;
+Örnek C Sigorta;Sel ve su baskını;11.000.000;%2;
+Örnek C Sigorta;Dahili su;500.000;10.000 TL;
+Örnek C Sigorta;Hırsızlık;300.000;%10;
+Örnek C Sigorta;Kira kaybı;200.000;;
+Örnek C Sigorta;Üçüncü şahıs mali sorumluluk;1.000.000;5.000 TL;
+Örnek D Sigorta;Yangın (bina);8.000.000;;
+Örnek D Sigorta;Yangın (emtia ve demirbaş);3.000.000;;
+Örnek D Sigorta;Deprem ve yanardağ püskürmesi;11.000.000;%2;
+Örnek D Sigorta;Sel ve su baskını;11.000.000;%2;
+Örnek D Sigorta;Dahili su;500.000;%1, en az 5.000 TL;
+Örnek D Sigorta;Hırsızlık;300.000;%10;
+Örnek D Sigorta;Cam kırılması;50.000;;
+Örnek D Sigorta;Kira kaybı;200.000;;
+Örnek D Sigorta;İş durması;1.000.000;7 gün;
+Örnek D Sigorta;Üçüncü şahıs mali sorumluluk;2.000.000;5.000 TL;
+Örnek D Sigorta;Elektronik cihaz;100.000;%10;Ek teminat

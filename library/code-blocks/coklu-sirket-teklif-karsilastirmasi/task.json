@@ -1,0 +1,16 @@
+{
+  "id": "coklu-sirket-teklif-karsilastirmasi",
+  "tur": "kod",
+  "ad": "Çoklu Şirket Teklif Karşılaştırması",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --teklifler teklifler.xlsx --ozet teklif_ozeti.xlsx --talep talep.xlsx",
+  "girdiler": [
+    "Teklifler (.xlsx/.csv): Şirket, Teminat, Limit, Muafiyet, Not",
+    "Teklif özeti: Şirket, Net Prim, Brüt Prim, Ödeme Planı, Geçerlilik Tarihi, Özel Şart",
+    "Müşteri talebi (isteğe bağlı): Teminat, İstenen Limit, Azami Muafiyet, Zorunlu"
+  ],
+  "ciktilar": ["Excel: Karşılaştırma (teminat × şirket, renkli), Değerlendirme (uygunluk, uyarılar, 'Müşteri Tercihi')", "Müşteriye sunulabilecek Markdown karşılaştırma tablosu"],
+  "internet": false
+}
