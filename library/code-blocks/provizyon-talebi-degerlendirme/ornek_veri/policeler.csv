@@ -1,0 +1,8 @@
+Poliçe No;Sigortalı No;Ad Soyad;Plan;Başlangıç;Bitiş;İlk Giriş Tarihi;Prim Durumu;Beyan / Ön Mevcut Durum İstisnası
+P-1001;S-01;Sigortalı Bir;Geniş;01.01.2026;31.12.2026;01.01.2021;Ödendi;
+P-1002;S-02;Sigortalı İki;Standart;15.03.2026;14.03.2027;15.03.2026;Ödendi;
+P-1003;S-03;Sigortalı Üç;Geniş;01.02.2026;31.01.2027;01.02.2024;Ödendi;E11 Tip 2 diyabet ve komplikasyonları
+P-1004;S-04;Sigortalı Dört;Standart;01.06.2026;31.05.2027;01.06.2026;Ödendi;
+P-1005;S-05;Sigortalı Beş;Standart;01.09.2025;31.08.2026;01.09.2023;Ödendi;
+P-1006;S-06;Sigortalı Altı;Geniş;01.04.2026;31.03.2027;01.04.2022;Gecikmede;
+P-1007;S-07;Sigortalı Yedi;Standart;20.09.2026;19.09.2027;20.09.2026;Ödendi;

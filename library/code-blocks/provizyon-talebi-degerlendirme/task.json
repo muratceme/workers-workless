@@ -1,0 +1,17 @@
+{
+  "id": "provizyon-talebi-degerlendirme",
+  "tur": "kod",
+  "ad": "Provizyon Talebi Değerlendirme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --talepler talepler.xlsx --policeler policeler.xlsx --plan plan_teminatlari.csv --kurallar genel_sartlar.csv",
+  "girdiler": [
+    "Provizyon talepleri (.xlsx/.csv): Talep No, Talep Tarihi, Kurum, Anlaşmalı, Sigortalı No, Poliçe No, Teminat, ICD-10, Tanı, İşlem, Talep Tutarı",
+    "Poliçeler: Poliçe No, Sigortalı No, Ad Soyad, Plan, Başlangıç, Bitiş, İlk Giriş Tarihi, Prim Durumu, Ön Mevcut Durum İstisnası (ICD-10)",
+    "Plan teminatları: Plan, Teminat, Yıllık Limit, Katılım Payı %, Bekleme Süresi (gün)",
+    "Genel şart kuralları (düzenlenebilir): ICD-10 öneki, Kapsam (İstisna / Bekleme / Kronik), Bekleme Süresi; isteğe bağlı önceki ödemeler"
+  ],
+  "ciktilar": ["Excel: Değerlendirme (ön karar, gerekçe, katılım payı, ödenecek tutar, kalan limit, kurum cevabı taslağı, 'Uzman Kararı'), Limit Durumu, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,14 @@
+Talep No;Talep Tarihi;Kurum;Anlaşmalı;Sigortalı No;Poliçe No;Teminat;ICD-10;Tanı;İşlem;Talep Tutarı (TL)
+PV-01;05.10.2026;Örnek Hastanesi;Evet;S-01;P-1001;Yatarak Tedavi;K35.8;Akut apandisit;Laparoskopik apendektomi;68000
+PV-02;05.10.2026;Örnek Hastanesi;Evet;S-02;P-1002;Ayakta Tedavi;J02.9;Akut farenjit;Muayene ve tahlil;2400
+PV-03;06.10.2026;Kurgu Tıp Merkezi;Evet;S-02;P-1002;Doğum;O80;Normal doğum;Normal doğum paketi;35000
+PV-04;06.10.2026;Örnek Hastanesi;Evet;S-03;P-1003;Yatarak Tedavi;E11.5;Diyabetik ayak;Debridman ve yatış;42000
+PV-05;06.10.2026;Örnek Hastanesi;Evet;S-01;P-1001;Ayakta Tedavi;M54.5;Bel ağrısı;Fizik tedavi seansları;9000
+PV-06;07.10.2026;Kurgu Tıp Merkezi;Evet;S-05;P-1005;Yatarak Tedavi;K80.2;Safra kesesi taşı;Laparoskopik kolesistektomi;85000
+PV-07;07.10.2026;Örnek Hastanesi;Evet;S-06;P-1006;Yatarak Tedavi;S82.6;Ayak bileği kırığı;Açık redüksiyon ve fiksasyon;120000
+PV-08;07.10.2026;Deneme Estetik Kliniği;Evet;S-01;P-1001;Yatarak Tedavi;Z41.1;Burun estetiği;Rinoplasti;150000
+PV-09;07.10.2026;Örnek Hastanesi;Evet;S-04;P-1004;Yatarak Tedavi;H25.1;Senil katarakt;Fakoemülsifikasyon;38000
+PV-10;08.10.2026;Kurgu Tıp Merkezi;Evet;S-07;P-1007;Ayakta Tedavi;I10;Esansiyel hipertansiyon;Kardiyoloji muayenesi;1800
+PV-11;08.10.2026;Deneme Polikliniği;Hayır;S-01;P-1001;Ayakta Tedavi;J06.9;Üst solunum yolu enfeksiyonu;Muayene;1500
+PV-12;08.10.2026;Örnek Hastanesi;Evet;S-04;P-1004;Ayakta Tedavi;;Kontrol muayenesi;Muayene;1200
+PV-13;08.10.2026;Deneme Ağız ve Diş;Evet;S-02;P-1002;Diş;K02.1;Diş çürüğü;Kanal tedavisi;6000

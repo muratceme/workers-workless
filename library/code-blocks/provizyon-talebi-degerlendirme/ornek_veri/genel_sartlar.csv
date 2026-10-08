@@ -1,0 +1,11 @@
+ICD-10 / Anahtar;Kapsam;Bekleme Süresi (gün);Açıklama
+Z41.1;İstisna;;Estetik amaçlı girişimler (örnek genel şart istisnası)
+N97;İstisna;;İnfertilite tetkik ve tedavisi (örnek)
+E66;İstisna;;Obezite tedavisi ve cerrahisi (örnek)
+H25;Bekleme;180;Katarakt ameliyatı (örnek özel bekleme süresi)
+J35;Bekleme;180;Bademcik / geniz eti ameliyatı (örnek)
+K40;Bekleme;180;Fıtık ameliyatı (örnek)
+I83;Bekleme;180;Varis ameliyatı (örnek)
+E11;Kronik;;Diyabet (poliçe başına yakın tanıda ön mevcut durum araştırması)
+I10;Kronik;;Hipertansiyon
+J45;Kronik;;Astım

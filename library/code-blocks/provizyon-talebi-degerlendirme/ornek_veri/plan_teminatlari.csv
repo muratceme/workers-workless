@@ -1,0 +1,8 @@
+Plan;Teminat;Yıllık Limit (TL);Katılım Payı %;Bekleme Süresi (gün)
+Standart;Yatarak Tedavi;500000;0;
+Standart;Ayakta Tedavi;15000;20;
+Standart;Doğum;40000;0;365
+Geniş;Yatarak Tedavi;1500000;0;
+Geniş;Ayakta Tedavi;30000;10;
+Geniş;Doğum;80000;0;300
+Geniş;Diş;8000;20;90
