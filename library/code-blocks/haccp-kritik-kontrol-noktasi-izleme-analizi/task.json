@@ -1,0 +1,16 @@
+{
+  "id": "haccp-kritik-kontrol-noktasi-izleme-analizi",
+  "tur": "kod",
+  "ad": "HACCP Kritik Kontrol Noktası İzleme Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --plan kkn_tanimlari.xlsx --kayitlar izleme_kayitlari.xlsx",
+  "girdiler": [
+    "HACCP planı (.xlsx/.csv): KKN Kodu, Adım, Parametre, Birim, Kritik Alt/Üst, Operasyonel Alt/Üst, İzleme Sıklığı (dk), Tanımlı Düzeltici Faaliyet",
+    "İzleme kayıtları: Tarih, Saat, KKN Kodu, Değer (sayı veya Geçti/Kaldı), Parti/Lot, Ölçen, Düzeltici Faaliyet, Doğrulayan",
+    "İsteğe bağlı: eğilim ve tekrar eşikleri"
+  ],
+  "ciktilar": ["Excel: Özet (KKN bazında uyum), Sapmalar ('QA Değerlendirmesi'), Uyarılar, Kayıtlar (işaretli), Grafikler (limit çizgili), HACCP Planı"],
+  "internet": false
+}

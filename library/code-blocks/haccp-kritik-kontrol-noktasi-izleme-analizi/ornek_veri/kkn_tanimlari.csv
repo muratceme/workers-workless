@@ -1,0 +1,5 @@
+KKN Kodu;Adım;Parametre;Birim;Kritik Alt;Kritik Üst;Operasyonel Alt;Operasyonel Üst;İzleme Sıklığı (dk);Tanımlı Düzeltici Faaliyet
+KKN-1;Pastörizasyon;Sıcaklık;°C;72;;73;;30;Akış saptırma vanası ürünü geri döndürür, parti blokajı, QA değerlendirmesi
+KKN-2;Pastörizasyon;Tutma süresi;sn;15;;;;60;Hat durdurulur, tutma tüpü ve pompa hızı kontrol edilir
+KKN-3;Soğuk depo;Ürün sıcaklığı;°C;;4;;3,5;60;Ürün blokajı, soğutma servisi çağrılır, ürün sıcaklığı ve süre değerlendirilir
+KKN-4;Paketleme;Metal dedektör test kartı (Fe 2,0 mm / SS 3,0 mm);;;;;;120;Son başarılı testten bu yana paketlenen ürün blokajı ve yeniden kontrol
