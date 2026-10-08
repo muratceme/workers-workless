@@ -1,0 +1,16 @@
+{
+  "id": "ilk-dagitim-alokasyon-plani",
+  "tur": "kod",
+  "ad": "İlk Dağıtım (Alokasyon) Planı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --stok depo_stok.xlsx --magazalar magazalar.xlsx --egri beden_egrisi.xlsx --rezerv 30",
+  "girdiler": [
+    "Depo stoğu (.xlsx/.csv): Model, Renk, Beden, Stok — veya Model, Renk, S, M, L … geniş biçim",
+    "Mağazalar: Mağaza, Küme (A/B/C), Potansiyel (geçmiş satış adedi veya puan) [, Kapasite, Aktif]",
+    "İsteğe bağlı: beden eğrisi (mağaza, küme veya genel '*'), asorti paketi"
+  ],
+  "ciktilar": ["Excel: model özeti (depo, dağıtılan, kalan), mağaza özeti (kapasite kullanımı), dağıtım matrisi, depo sistemine aktarılabilir sevk listesi, kırık seri ve kapasite kontrolleri"],
+  "internet": false
+}
