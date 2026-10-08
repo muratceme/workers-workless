@@ -105,10 +105,20 @@
 - Bu paketlerde başlık eşleştirme `katla()` ile yapılıyor (ı/i ve Türkçe karakter farkı yok sayılır). Eski paketlere
   yaymak hâlâ açık iş.
 - **Toplam 48 paket**, kontrol 48/48.
+- Devam: `sik-sorulan-sorulara-cevap-taslagi` (agent; BM25 + Türkçe 5 harf kök, yalnız eşleşen bölümler gönderilir,
+  uydurma kaynak/parola isteyen taslak kodla yakalanır, bilgi bankası boşlukları), `supheli-islem-senaryo-taramasi`
+  (9 senaryo, senaryolar.json — yasal eşik koda gömülmedi; 5549 md. 4/2 ifşa yasağı uyarısı), `mizandan-mali-tablo-hazirlama`
+  (MSUGT bilanço/gelir tablosu, ters bakiye virmanları; mizan-kontrolu çekirdeğini ortak dosya olarak kullanır, çekirdeğe
+  TDHP_AD eklendi), `kumas-ve-aksesuar-ihtiyac-hesabi`, `ibnr-rezerv-tahmini-zincirleme-merdiven` (Taylor-Ashe ile
+  18.680.856 / Mack 2.447.095 birebir), `fazla-mesai-hesaplama` (puantaj çekirdeğini kullanır; UBGT saatlerinin 45 saate
+  dahil edilmesi tartışmalı → --ubgt-haric seçeneği), `ilk-dagitim-alokasyon-plani`.
+- **Toplam 55 paket**, kontrol 55/55.
 
 ### KALDIĞIM YER
-Sıradaki (puanı yüksek, paketsiz): Sık Sorulan Sorulara Cevap Taslağı (agent), Şüpheli İşlem Senaryo Taraması (MASAK —
-önce mevzuatı doğrula), ardından puanı 3 olan görevler.
+Sıradaki (puanı yüksek, paketsiz): Sipariş Termin Planı (T&A), Ürün Sorusu Cevap Taslağı (agent), Performans
+Değerlendirme Özeti (agent), Konsolide Finansal Rapor, Toplu Ürün Yükleme Şablonu, Kesim Kat Planı, Taşeron Hakediş
+Kontrolü, Gece Denetimi, Sınav Madde Analizi… (puan 4-5 olanlar). Sağlık/SGK faturası ve epikriz gibi görevler mevzuat
+ve klinik risk nedeniyle sona bırakıldı.
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notu: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde).
 Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` → commit + push.
