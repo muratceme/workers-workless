@@ -1,0 +1,10 @@
+Aday No;Ad Soyad;Pozisyon;E-posta;Müsaitlik
+A-01;Aday Bir;Muhasebe Uzmanı;aday1@example.com;13.10.2026 14:00-16:00
+A-02;Aday İki;Muhasebe Uzmanı;aday2@example.com;13.10.2026 15:00-17:00; 15.10.2026 14:00-16:00
+A-03;Aday Üç;Muhasebe Uzmanı;aday3@example.com;14.10.2026 09:00-17:00
+A-04;Aday Dört;Yazılım Geliştirici;aday4@example.com;13.10.2026 09:00-12:00
+A-05;Aday Beş;Yazılım Geliştirici;aday5@example.com;14.10.2026 09:00-12:00; 15.10.2026 09:00-17:00
+A-06;Aday Altı;Yazılım Geliştirici;aday6@example.com;14.10.2026 10:00-11:00
+A-07;Aday Yedi;Satış Temsilcisi;aday7@example.com;14.10.2026 13:00-17:00
+A-08;Aday Sekiz;Satış Temsilcisi;aday8@example.com;13.10.2026 09:00-10:00; 16.10.2026 09:00-10:00
+A-09;Aday Dokuz;Satış Temsilcisi;aday9@example.com;12.10.2026 10:00-12:00

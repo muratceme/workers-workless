@@ -1,0 +1,16 @@
+{
+  "id": "mulakat-takvimi-planlama",
+  "tur": "kod",
+  "ad": "Mülakat Takvimi Planlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --adaylar adaylar.xlsx --mulakatcilar mulakatcilar.xlsx --pozisyonlar pozisyonlar.csv",
+  "girdiler": [
+    "Adaylar (.xlsx/.csv): Aday No, Ad Soyad, Pozisyon, E-posta, Müsaitlik ('GG.AA.YYYY SS:DD-SS:DD; …')",
+    "Mülakatçılar: Mülakatçı, Rol (İK / Teknik / Yönetici…), Pozisyonlar (veya Tümü), Günlük En Çok, Müsaitlik",
+    "Pozisyonlar: Pozisyon, Gerekli Roller (ör. 'İK, Teknik'), Süre (dk), Format (Online / Yüz yüze)"
+  ],
+  "ciktilar": ["Excel: Takvim ('Davet Gönderildi', 'Aday Onayı'), Mülakatçı Programı ve yük özeti, Yerleşemeyenler (nedeniyle), Davet Metinleri", ".ics takvim dosyası"],
+  "internet": false
+}
