@@ -1,0 +1,15 @@
+{
+  "id": "koli-listesi-packing-list-hazirlama",
+  "tur": "kod",
+  "ad": "Koli Listesi (Packing List) Hazırlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --sevk sevk.xlsx --yontem asorti --asorti S=1,M=2,L=2,XL=1 --koli-ici 24",
+  "girdiler": [
+    "Sevk adetleri (.xlsx/.csv): Sipariş No, Model, Renk, S, M, L … (veya Beden, Adet) [, Adet Ağırlığı (kg)]",
+    "Paketleme: solid veya asorti (beden oranı), koli içi adet, koli darası, koli ölçüsü"
+  ],
+  "ciktilar": ["Excel: iki dilli packing list (koli no aralıkları, beden dağılımı, net/brüt kg, CBM, toplamlar), sipariş özeti, koli başına etiket listesi"],
+  "internet": false
+}
