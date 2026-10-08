@@ -1,0 +1,14 @@
+HASAR BİLGİLERİ (KURGUSAL ÖRNEK)
+
+Dosya No: H-2026-0412
+Sigortalı: Örnek Kırtasiye Ticaret Ltd. Şti.
+Poliçe No: IP-2026-77881
+Poliçe Başlangıç: 01.06.2026
+Poliçe Bitiş: 01.06.2027
+Hasar Tarihi: 12.09.2026
+İhbar Tarihi: 20.09.2026
+Prim Durumu: Ödendi
+Talep Edilen Teminat: Dahili su
+Hasar Tutarı: 120.000 TL
+Sigorta Bedeli: 300.000 TL
+Gerçek Değer: 400.000 TL

@@ -1,0 +1,20 @@
+{
+  "id": "teminat-kapsam-kontrolu",
+  "tur": "agent",
+  "ad": "Teminat Kapsam Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./hasar_klasoru",
+  "girdiler": [
+    "Hasar bilgileri (.txt: Poliçe Başlangıç/Bitiş, Hasar Tarihi, İhbar Tarihi, Prim Durumu, Talep Edilen Teminat, Hasar Tutarı, Sigorta Bedeli, Gerçek Değer)",
+    "Teminat tablosu (Teminat, Limit, Muafiyet); poliçe / özel şart / genel şart metinleri; ihbar, eksper raporu, tutanak (.txt/.pdf/.docx)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Markdown kapsam değerlendirmesi taslağı (alıntılı)", "Excel: Özet ('Hasar Uzmanı Kararı'), Teminat ve İstisnalar, Ön Hesap (eksik sigorta, muafiyet, limit), Kontroller"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
