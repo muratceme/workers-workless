@@ -1,0 +1,15 @@
+{
+  "id": "ibnr-rezerv-tahmini-zincirleme-merdiven",
+  "tur": "kod",
+  "ad": "IBNR Rezerv Tahmini (Zincirleme Merdiven)",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --ucgen ucgen.xlsx",
+  "girdiler": [
+    "Hasar gelişim üçgeni (.xlsx/.csv): ilk sütun kaza dönemi, sonraki sütunlar gelişim dönemleri — kümülatif veya --artimli",
+    "veya hasar ödeme/ihbar dökümü: Kaza Tarihi, Ödeme (İşlem) Tarihi, Tutar — yıllık ya da çeyreklik üçgene çevrilir"
+  ],
+  "ciktilar": ["Excel: kaza dönemi bazında nihai hasar, IBNR, Mack standart hatası ve değişim katsayısı; gelişim faktörleri ve CDF; tamamlanmış üçgen; bağlantı oranları ve sapmalar"],
+  "internet": false
+}

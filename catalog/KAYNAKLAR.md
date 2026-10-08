@@ -138,3 +138,6 @@ ve erişilebilen toplayıcı sitelerden okunmuştur.
   sık değiştiği ve yükümlü grubuna göre farklılaştığı için (ör. 33 Sıra No'lu Genel Tebliğ, RG 23.09.2026, 5 Sıra No'lu
   tebliğdeki parasal sınırları değiştirdi) pakette yasal eşik yoktur; tüm eşikler senaryolar.json'da "örnek" olarak durur.
   FATF çağrı listesi (Haziran 2026 genel kurulu): KP, IR, MM — FINMA ve FIAU Malta duyuruları.
+- Zincirleme merdiven ve Mack standart hatası: Mack, T. (1993) "Distribution-free calculation of the standard error of
+  chain ladder reserve estimates", ASTIN Bulletin 23(2); veri Taylor & Ashe (1983), R ChainLadder paketinde GenIns.
+  Paket toplam IBNR 18.680.856 ve toplam Mack std. hatası 2.447.095 değerlerini birebir üretir (testli).
