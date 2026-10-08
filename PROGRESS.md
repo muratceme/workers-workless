@@ -184,8 +184,24 @@
   Rastgele örnek veride planlı anomalilerin müşteri numaralarını arka plandan dışla (yoksa istemeden ek bulgu çıkar).
 - **Toplam 88 paket**, kontrol 88/88.
 
+- Devam (2026-10-08, 5. tur): `teminat-kapsam-kontrolu` (agent; poliçe süresi / prim / teminat var mı, eksik sigorta oranı,
+  "%2, en az 5.000 TL" muafiyet ayrıştırma, limit → ön hesap; model kapsam dışı kalemi tutar + alıntıyla verirse ikinci
+  ön hesap; örnek: dahili su, korozyon istisnası belirsiz, zemin istifi), `reasurans-hesap-cetveli-hazirlama` (kotpar /
+  eksedan oranı, kapasite aşımı → fakültatif, iptal ilk poliçe oranıyla, prim depo + faiz, bakiye ve kuruş farkı son
+  reasüröre, cash call, kâr komisyonu yalnız bilgi), `coklu-sirket-teklif-karsilastirmasi` (talep listesiyle kelime
+  benzerliği eşleştirmesi, muafiyet istenen limitte TL'ye çevrilip kıyaslanır, süre muafiyeti kıyaslanmaz, süresi dolmuş
+  teklif uygun değil; müşteriye Markdown tablo), `gumruk-evrak-tutarlilik-kontrolu` (belge_bilgileri alan × belge
+  matrisi, sayısal alanlarda çoğunluk değeri referans + tolerans, unvan eki farkı yok sayılır, kalem miktar / GTİP ilk 6 /
+  menşe, FOB-FAS-CFR-CIF + CMR uyarısı, GTİP 12 hane bilgi), `haccp-kritik-kontrol-noktasi-izleme-analizi` (kritik /
+  operasyonel limit, kategorik metal dedektör, DF kaydı yok, izleme boşluğu, eğilim, tekrar eden değer; limit çizgili grafik).
+- **Ders:** Örnek CSV metin alanlarında `;` kullanma (DF açıklamaları sütun kaydırdı). Türkçe ek gerektiren dinamik
+  metinlerden kaçın ("6'i", "08:15'den") — ekten bağımsız kalıp kullan ("6 iptal", "08:15 itibarıyla").
+- **Toplam 93 paket**, kontrol 93/93.
+
 ### KALDIĞIM YER
-Sıradaki (paketsiz, puan 4): Teminat Kapsam Kontrolü (agent, sigorta), ardından listeyi yeniden üret ve puan 4'leri sürdür…
+Sıradaki (puan 4): Kestirimci Bakım Uyarıları, Numune Takip Çizelgesi, Ürün Maliyet Hesaplama (Costing), Üretim Hattı
+Yükleme Planı, Kumaş Sipariş Termin Takibi, Fason Atölye İş Takibi, Araç ve Sefer Takip, Parsiyel Yük Konsolidasyon, Dilekçe Taslağı (agent),
+Hasta İletişim Mesajı Çevirisi (agent), Provizyon Talebi Değerlendirme, Sağlık Faturası Kontrolü…
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);
