@@ -1,0 +1,46 @@
+RİSK İNCELEME (SURVEY) RAPORU — KURGUSAL ÖRNEK
+
+Sigortalı: Örnek Plastik Ambalaj Sanayi ve Ticaret A.Ş.
+Risk Adresi: Kurgu OSB 4. Cadde No: 12, Örnekköy
+İnceleme Tarihi: 22.09.2026
+Görüşülen: Murat Denemeci (Fabrika Müdürü)
+Faaliyet: Polietilen film ve plastik ambalaj üretimi (ekstrüzyon, baskı, kesim)
+
+1. GENEL BİLGİLER
+Tesis organize sanayi bölgesinde, 18.000 m² arsa üzerinde kuruludur. Üretim iki vardiya halinde yapılmakta, toplam 85 kişi çalışmaktadır.
+
+2. YAPI
+Üretim holü 2008 yılında inşa edilmiş, çelik konstrüksiyon, tek katlı ve 6.000 m² kapalı alanlıdır. Çatı ve cepheler poliüretan dolgulu sandviç panel ile kaplıdır. İdari bina iki katlı betonarme olup 600 m²'dir. Hammadde deposu üretim holüne bitişiktir ve arada yangın duvarı bulunmamaktadır. Binaların yapı ruhsatı ve iskânı mevcuttur.
+
+3. FAALİYET VE PROSES
+Polietilen granül hammadde ekstrüzyon makinelerinde eritilerek film haline getirilmekte, flekso baskı makinelerinde solvent bazlı mürekkeple basılmaktadır. Solvent ve mürekkepler üretim holü içinde 2 adet çelik dolapta, günlük ihtiyaç kadar tutulmaktadır; ana solvent stoğu bina dışında ayrı bir depoda saklanmaktadır.
+
+4. YANGIN RİSKİ VE KORUNMA
+Otomatik sprinkler sistemi yalnız hammadde deposunda mevcuttur; üretim holünde bulunmamaktadır. Duman dedektörleri idari binada mevcut, üretim holü ve depoda yoktur. Tesiste 8 adet yangın dolabı bulunmakta olup 2 adedinin hortumu eksiktir. Yangın tüplerinin dolum ve kontrol tarihleri günceldir. Yangın suyu için 200 m³ kapasiteli depo ve dizel yangın pompası mevcuttur. OSB itfaiyesi tesise 3 km mesafededir. Elektrik panolarında son iki yılda termal kamera ölçümü yapılmamıştır. Bitmiş ürün paletleri üretim holünün dış duvarına bitişik açık alanda istiflenmektedir. Sıcak çalışma (kaynak, kesme) için yazılı izin sistemi bulunmamaktadır. Genel düzen ve temizlik iyi seviyededir; atık granül ve film parçaları her vardiya sonunda toplanmaktadır.
+
+5. DEPREM
+Binaların zemin etüdü raporu görülmemiştir. Hammadde deposundaki raf sistemleri zemine ankrajlı değildir. İdari binada görünür bir yapısal hasar gözlenmemiştir.
+
+6. SEL VE SU BASKINI
+Tesis en yakın dereye yaklaşık 400 m mesafededir. Son 10 yılda su baskını yaşanmadığı beyan edilmiştir. Bodrum kat yoktur; yağmur suyu drenaj kanalları temizdir.
+
+7. HIRSIZLIK
+Tesis çevresi beton duvar ve tel çit ile çevrilidir. 24 saat güvenlik görevlisi bulunmakta, 16 kameralı kayıtlı görüntüleme sistemi çalışmaktadır. Alarm sistemi idari binada mevcut olup depolarda bulunmamaktadır.
+
+8. SORUMLULUK
+Tesiste 85 çalışan bulunmaktadır. İş sağlığı ve güvenliği hizmeti bir OSGB'den alınmaktadır. Forklift operatörlerinin belgeleri mevcuttur. Tesise ziyaretçi girişi sınırlıdır ve kayıt altına alınmaktadır.
+
+9. HASAR GEÇMİŞİ
+2023 yılında bir elektrik panosunda çıkan yangın tesis personeli tarafından tüple söndürülmüş, hasar 180.000 TL olarak ödenmiştir.
+
+10. DEĞERLER
+Sigortalı beyanına göre maksimum stok değeri 55.000.000 TL'dir.
+
+11. ÖNERİLER
+R1. Üretim holüne otomatik sprinkler sistemi kurulmalıdır (orta vade).
+R2. Elektrik panolarında termal kamera ölçümü yaptırılmalı ve tespit edilen sıcak noktalar giderilmelidir (kısa vade).
+R3. Bitmiş ürün paletleri bina duvarından en az 10 m uzağa taşınmalıdır (poliçe öncesi).
+R4. Sıcak çalışmalar için yazılı izin prosedürü uygulanmalıdır (kısa vade).
+R5. Eksik yangın dolabı hortumları tamamlanmalıdır (poliçe öncesi).
+R6. Depo raf sistemleri zemine ankrajlanmalıdır (orta vade).
+R7. Hammadde deposu ile üretim holü arasına yangın duvarı yapılması değerlendirilmelidir (uzun vade).

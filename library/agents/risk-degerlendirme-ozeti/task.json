@@ -1,0 +1,20 @@
+{
+  "id": "risk-degerlendirme-ozeti",
+  "tur": "agent",
+  "ad": "Risk Değerlendirme Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./risk_klasoru",
+  "girdiler": [
+    "Klasör: risk inceleme (survey) raporu ve ekleri (.txt/.pdf/.docx)",
+    "İsteğe bağlı: sigorta bedelleri tablosu (Kalem, Bedel), ek maskelenecek adlar (--gizle)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Markdown risk değerlendirme özeti (alıntılı gözlemler, iyileştirmeler, kabul önerisi taslağı)", "Excel: Özet ('Underwriter Kararı'), Riskler, İyileştirmeler ('Takip'), Kontrol Listesi, Kontroller"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
