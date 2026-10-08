@@ -1,0 +1,17 @@
+{
+  "id": "erken-uyari-sinyalleri-listesi",
+  "tur": "kod",
+  "ad": "Erken Uyarı Sinyalleri Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --portfoy portfoy.xlsx --cek-senet kkb.xlsx --haciz haciz.xlsx --ciro ciro.xlsx --tarih 30.09.2026",
+  "girdiler": [
+    "Kredi portföyü (Müşteri No, Firma Adı, Şube, Limit, Risk, Gecikme Günü)",
+    "İsteğe bağlı: karşılıksız çek / protestolu senet kayıtları (Müşteri No, Tarih, Tür, Tutar, Durum)",
+    "İsteğe bağlı: haciz ihbarnameleri (Müşteri No, Tarih, Alacaklı, Tür, Tutar) ve aylık ciro (Müşteri No, Dönem, Ciro)",
+    "İsteğe bağlı: puan ve eşik ayarları (ayarlar.json)"
+  ],
+  "ciktilar": ["Excel: sınıf özeti, puan sıralı firma listesi (karar sütunlarıyla), sinyal detayı, puan tablosu"],
+  "internet": false
+}

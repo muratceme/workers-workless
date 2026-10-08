@@ -1,0 +1,8 @@
+Müşteri No;Tarih;Tür;Tutar;Durum
+1001;12.08.2026;Karşılıksız Çek;250.000;Açık
+1001;03.09.2026;Karşılıksız Çek;180.000;Açık
+1002;15.06.2026;Protestolu Senet;45.000;Açık
+1002;10.01.2026;Protestolu Senet;30.000;Ödendi
+1006;20.07.2026;Karşılıksız Çek;120.000;Açık
+1006;01.08.2025;Karşılıksız Çek;90.000;Açık
+9999;05.09.2026;Karşılıksız Çek;60.000;Açık

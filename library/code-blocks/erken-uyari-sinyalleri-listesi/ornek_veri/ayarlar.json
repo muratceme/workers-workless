@@ -1,0 +1,69 @@
+{
+  "pencere_ay": 12,
+  "gecikme": [
+    [
+      1,
+      10
+    ],
+    [
+      31,
+      25
+    ],
+    [
+      61,
+      40
+    ],
+    [
+      91,
+      60
+    ]
+  ],
+  "karsiliksiz_cek": {
+    "acik": 15,
+    "odenmis": 5,
+    "ust_sinir": 30
+  },
+  "protestolu_senet": {
+    "acik": 10,
+    "odenmis": 3,
+    "ust_sinir": 25
+  },
+  "haciz": {
+    "kamu": 15,
+    "ozel": 12,
+    "ust_sinir": 30
+  },
+  "limit": {
+    "asim": 15,
+    "doluluk_esik": 95,
+    "doluluk": 5
+  },
+  "ciro": [
+    [
+      30,
+      10
+    ],
+    [
+      50,
+      20
+    ]
+  ],
+  "siniflar": [
+    [
+      70,
+      "Kritik"
+    ],
+    [
+      40,
+      "Yakın İzleme"
+    ],
+    [
+      20,
+      "İzleme"
+    ],
+    [
+      0,
+      "Normal"
+    ]
+  ]
+}
