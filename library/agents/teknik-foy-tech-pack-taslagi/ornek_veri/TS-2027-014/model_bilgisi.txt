@@ -1,0 +1,17 @@
+MODEL BİLGİSİ (kurgusal örnek)
+
+Model Kodu: TS-2027-014
+Model Adı: Kadın oversize tişört
+Sezon: İlkbahar-Yaz 2027
+Müşteri: Kurgu Moda
+Ürün Grubu: Örme üst giyim
+Beden Aralığı: XS-XL
+Ana Beden: M
+Renkler: Ekru, Siyah, Haki
+Hedef Teslim: 15.02.2027
+
+Tasarım notu:
+Düşük omuzlu, bol kesim kadın tişört. Bisiklet yaka, yaka ribanası 1x1, yaka genişliği dar tutulacak.
+Kısa kol, kol ağzı ve etek reçmeli (katlamalı). Ön göğüs ortasında tek renk su bazlı baskı (logo, 22 cm genişlik),
+baskı yakadan 8 cm aşağıda başlayacak. Arka yaka içinde bant (aynı kumaştan). Yan dikişli.
+Müşteri yumuşak tuşe istiyor; enzim yıkama yapılacak. Ekru renkte baskı rengi siyah, diğer renklerde ekru.

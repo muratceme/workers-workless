@@ -1,0 +1,8 @@
+Tür;Malzeme Kodu;Malzeme;Kompozisyon;Gramaj;En;Renk;Tedarikçi;Kullanım Yeri;Tüketim;Birim
+Kumaş;KMS-SUP-180;Süprem 30/1 likralı;%95 Pamuk %5 Likra;180;180;Renge göre;Örnek Örme A.Ş.;Gövde, kol;0,26;kg
+Kumaş;RIB-1X1;Ribana 1x1;%100 Pamuk;220;100;Renge göre;Örnek Örme A.Ş.;Yaka;0,015;kg
+Aksesuar;IPL-40-2;Dikiş ipliği 40/2 polyester;%100 Polyester;;;Ton ton;Kurgu İplik Ltd.;Tüm dikişler;190;m
+Etiket;ETK-MARKA;Dokuma marka etiketi;;;;Siyah;Deneme Etiket;Arka yaka ortası;1;adet
+Etiket;ETK-YIKAMA;Yıkama ve kompozisyon etiketi (saten);;;;Beyaz;Deneme Etiket;Sol yan dikiş, etekten 10 cm yukarı;1;adet
+Baskı;BSK-LOGO;Su bazlı baskı boyası;;;;Siyah / Ekru;Kurgu Baskı;Ön göğüs;1;adet
+Ambalaj;POSET;Polibag poşet (uyarı yazılı);;;;Şeffaf;Kurgu Ambalaj;Paketleme;1;adet

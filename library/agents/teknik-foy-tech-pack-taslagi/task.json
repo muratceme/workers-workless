@@ -1,0 +1,20 @@
+{
+  "id": "teknik-foy-tech-pack-taslagi",
+  "tur": "agent",
+  "ad": "Teknik Föy (Tech Pack) Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./TS-2027-014 --gizle \"Müşteri Markası\"",
+  "girdiler": [
+    "Model klasörü: model bilgisi ve tasarım notu (.txt/.docx/.pdf), ölçü tablosu (Kod, Ölçü Noktası, Tolerans, bedenler), malzeme listesi (Tür, Malzeme, Kompozisyon, Gramaj, Renk, Kullanım Yeri, Tüketim)",
+    "--gizle: modele gönderilmeden maskelenecek adlar (müşteri markası, tedarikçi)",
+    ".env: sağlayıcı ve API anahtarı (veya yerel Ollama)"
+  ],
+  "ciktilar": ["Excel teknik föy (Kapak + onay alanları, Ölçü Tablosu, Malzeme Listesi, Yapım Detayları, Talimatlar, Kontroller, Revizyonlar) + Markdown özet"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
