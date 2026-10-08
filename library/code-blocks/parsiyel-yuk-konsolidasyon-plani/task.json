@@ -1,0 +1,16 @@
+{
+  "id": "parsiyel-yuk-konsolidasyon-plani",
+  "tur": "kod",
+  "ad": "Parsiyel Yük Konsolidasyon Planı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --yukler yukler.xlsx --araclar araclar.csv --tarih 09.10.2026",
+  "girdiler": [
+    "Yükler (.xlsx/.csv): Yük No, Müşteri, Varış Bölgesi, Varış Şehri, Palet Adedi, Palet En / Boy (m), İstif Katı, Brüt Ağırlık (kg), Hacim (m³), Hazır Tarihi, Son Yükleme Tarihi, ADR, Navlun",
+    "Araç tipleri: Araç Tipi, Adet, Yük Kapasitesi (kg), Hacim (m³), LDM, ADR",
+    "İsteğe bağlı: plan tarihi, asgari doluluk, ödenebilir ağırlık oranları (m³ ve LDM başına kg)"
+  ],
+  "ciktilar": ["Excel: Araç Planı (ağırlık / hacim / LDM doluluğu, belirleyici kısıt, ödenebilir ağırlık), Yükleme Listesi, Bekleyen Yükler, Bölge Özeti, Uyarılar"],
+  "internet": false
+}

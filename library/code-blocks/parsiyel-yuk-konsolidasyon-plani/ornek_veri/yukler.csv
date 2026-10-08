@@ -1,0 +1,26 @@
+Yük No;Müşteri;Varış Bölgesi;Varış Şehri;Palet Adedi;Palet En (m);Palet Boy (m);İstif Katı;Brüt Ağırlık (kg);Hacim (m³);Hazır Tarihi;Son Yükleme Tarihi;ADR;Navlun (EUR)
+Y-001;Kurgu Gıda;Almanya-Güney;München;6;0,8;1,2;2;2520;10,2;07.10.2026;16.10.2026;Hayır;600
+Y-002;Deneme Makine;Almanya-Güney;München;6;0,8;1,2;2;2520;9,0;07.10.2026;14.10.2026;Hayır;950
+Y-003;Örnek Tekstil;Almanya-Güney;Stuttgart;2;0,8;1,2;1;1000;2,4;07.10.2026;16.10.2026;Hayır;800
+Y-004;Deneme Makine;Almanya-Güney;Stuttgart;3;0,8;1,2;1;1800;4,5;07.10.2026;15.10.2026;Evet;600
+Y-005;Kurgu Mobilya;Almanya-Güney;München;2;0,8;1,2;2;1200;3,0;07.10.2026;16.10.2026;Hayır;800
+Y-006;Kurgu Mobilya;Almanya-Güney;Stuttgart;7;0,8;1,2;2;3500;10,5;12.10.2026;12.10.2026;Hayır;950
+Y-007;Kurgu Mobilya;Almanya-Güney;Nürnberg;7;0,8;1,2;2;4200;8,4;07.10.2026;12.10.2026;Hayır;800
+Y-008;Deneme Otomotiv;Almanya-Güney;München;8;0,8;1,2;2;2800;12,0;07.10.2026;14.10.2026;Hayır;600
+Y-009;Örnek Tekstil;Almanya-Güney;München;2;0,8;1,2;2;1200;2,4;07.10.2026;15.10.2026;Hayır;800
+Y-010;Kurgu Gıda;Almanya-Batı;Dortmund;7;0,8;1,2;1;5250;10,5;07.10.2026;14.10.2026;Hayır;600
+Y-011;Örnek Tekstil;Almanya-Batı;Köln;7;0,8;1,2;1;5250;11,9;07.10.2026;12.10.2026;Hayır;800
+Y-012;Deneme Makine;Almanya-Batı;Dortmund;6;0,8;1,2;2;3600;7,2;07.10.2026;08.10.2026;Hayır;950
+Y-013;Kurgu Mobilya;Almanya-Batı;Dortmund;8;0,8;1,2;1;3360;13,6;07.10.2026;16.10.2026;Hayır;950
+Y-014;Deneme Otomotiv;Almanya-Batı;Düsseldorf;3;0,8;1,2;2;1050;3,6;07.10.2026;12.10.2026;Hayır;450
+Y-015;Kurgu Gıda;Almanya-Batı;Köln;6;0,8;1,2;2;4500;10,2;07.10.2026;13.10.2026;Hayır;800
+Y-016;Kurgu Mobilya;Almanya-Batı;Düsseldorf;7;0,8;1,2;2;3500;8,4;07.10.2026;15.10.2026;Hayır;600
+Y-017;Kurgu Mobilya;Almanya-Batı;Köln;5;0,8;1,2;2;1750;8,5;07.10.2026;14.10.2026;Hayır;600
+Y-018;Örnek Kimya;Fransa;Paris;2;0,8;1,2;2;700;3,4;07.10.2026;16.10.2026;Hayır;450
+Y-019;Kurgu Gıda;Fransa;Lyon;8;0,8;1,2;2;4000;9,6;07.10.2026;16.10.2026;Hayır;800
+Y-020;Deneme Otomotiv;Fransa;Paris;4;0,8;1,2;2;1400;4,8;07.10.2026;15.10.2026;Hayır;950
+Y-021;Örnek Kimya;Fransa;Lyon;7;0,8;1,2;1;2450;11,9;07.10.2026;13.10.2026;Hayır;600
+Y-022;Örnek Tekstil;Benelüks;Antwerpen;7;0,8;1,2;2;2450;8,4;07.10.2026;12.10.2026;Hayır;950
+Y-023;Deneme Makine;Benelüks;Antwerpen;8;0,8;1,2;2;3360;13,6;07.10.2026;16.10.2026;Hayır;600
+Y-024;Deneme Otomotiv;Benelüks;Antwerpen;3;0,8;1,2;2;1800;5,1;07.10.2026;14.10.2026;Hayır;800
+Y-025;Deneme Makine;Fransa;Lyon;1;2,4;12;1;26000;60;07.10.2026;16.10.2026;Hayır;4200

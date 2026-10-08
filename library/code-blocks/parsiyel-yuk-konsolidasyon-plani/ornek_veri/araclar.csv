@@ -1,0 +1,4 @@
+Araç Tipi;Adet;Yük Kapasitesi (kg);Hacim (m³);LDM;ADR
+Tenteli TIR;3;24000;90;13,6;Hayır
+Mega TIR;1;22000;100;13,6;Evet
+Kamyon;2;10000;45;7,2;Hayır
