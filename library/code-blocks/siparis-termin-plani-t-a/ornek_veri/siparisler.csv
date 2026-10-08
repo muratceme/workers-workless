@@ -1,0 +1,4 @@
+Sipariş No;Müşteri;Model;Adet;PO Tarihi;Sevk Tarihi;Kapasite Dikim
+PO-501;Örnek Buyer UK;TS-01;12000;03.08.2026;20.11.2026;
+PO-502;Kurgu Retail DE;SW-02;6000;15.09.2026;10.11.2026;600
+PO-503;Deneme Store NL;DR-03;3000;20.07.2026;16.10.2026;

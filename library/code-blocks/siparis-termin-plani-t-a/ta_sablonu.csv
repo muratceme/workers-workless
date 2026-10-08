@@ -1,0 +1,13 @@
+Aşama;Süre (gün);Sonraki Aşama;Süre Türü;Kapasite (adet/gün)
+Lab Dip Onayı;5;Kumaş Siparişi;sabit;
+Kumaş Siparişi;1;Kumaş Üretim ve Boya;sabit;
+Kumaş Üretim ve Boya;25;Kumaş Giriş Kontrolü;sabit;
+Kumaş Giriş Kontrolü;2;Kesim;sabit;
+Aksesuar Siparişi;1;Aksesuar Tedariki;sabit;
+Aksesuar Tedariki;15;Kesim;sabit;
+PP Numune Onayı;5;Kesim;sabit;
+Kesim;;Dikim;adet;2500
+Dikim;;Ütü-Paket;adet;900
+Ütü-Paket;;Final Kontrol;adet;2000
+Final Kontrol;1;Sevk;sabit;
+Sevk;0;;sabit;

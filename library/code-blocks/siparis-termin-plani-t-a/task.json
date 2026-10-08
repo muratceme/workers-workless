@@ -1,0 +1,19 @@
+{
+  "id": "siparis-termin-plani-t-a",
+  "tur": "kod",
+  "ad": "Sipariş Termin Planı (T&A)",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --siparisler siparisler.xlsx --sablon ta_sablonu.csv --gerceklesen gerceklesen.xlsx",
+  "girdiler": [
+    "Siparişler (.xlsx/.csv): Sipariş No, Müşteri, Model, Adet, PO Tarihi, Sevk Tarihi [, Kapasite <Aşama>]",
+    "Aşama şablonu (ta_sablonu.csv, düzenlenebilir): Aşama, Süre (gün), Sonraki Aşama, Süre Türü (sabit/adet), Kapasite (adet/gün)",
+    "İsteğe bağlı: gerçekleşen tarihler (Sipariş No, Aşama, Gerçekleşen Tarih)"
+  ],
+  "ciktilar": ["Excel: sipariş özeti (plan payı, tahmini sevk ve gecikme, risk), T&A matrisi (sipariş × aşama son tarihleri, renkli durum), aşama detayı (en geç başlangıç/bitiş, gerçekleşen, tahmini bitiş)"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "puantaj_cekirdek.py": "code-blocks/puantaj-kontrolu/main.py"
+  }
+}
