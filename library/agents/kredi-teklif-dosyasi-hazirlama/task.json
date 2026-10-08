@@ -1,0 +1,21 @@
+{
+  "id": "kredi-teklif-dosyasi-hazirlama",
+  "tur": "agent",
+  "ad": "Kredi Teklif Dosyası Hazırlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./teklif_klasoru --gizle \"Ortak Adı\" \"Kefil Adı\"",
+  "girdiler": [
+    "Teklif klasörü: talep ve firma bilgisi (.txt/.docx/.pdf), mali tablolar (Kalem × yıl, .csv/.xlsx), KKB/memzuç risk (.csv/.xlsx), teminatlar (.csv/.xlsx), istihbarat notları",
+    "--gizle: modele gönderilmeden maskelenecek kişi adları (ortaklar, kefiller); firma unvanı ve VKN otomatik maskelenir",
+    "İsteğe bağlı: teminat katsayıları (.csv) — varsayılanlar örnektir",
+    ".env: sağlayıcı ve API anahtarı (veya yerel Ollama)"
+  ],
+  "ciktilar": ["Markdown teklif özeti (rasyo, KKB ve teminat tabloları koddan) + Excel (Özet, Kontroller + 'Portföy Yöneticisi Onayı', Rasyolar, KKB Risk, Teminatlar)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
