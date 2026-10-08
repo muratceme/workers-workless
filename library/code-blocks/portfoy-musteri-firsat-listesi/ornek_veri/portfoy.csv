@@ -1,0 +1,13 @@
+Müşteri No;Ad Soyad;Yaş;Maaş Müşterisi;Aylık Gelir;Vadesiz Ort. Bakiye (3 Ay);Vadeli Mevduat;Vadeli Vade Tarihi;Yatırım Fonu;Kredi Kartı;Kart Limit Kullanımı (%);BES;Hayat Sigortası;Konut Kredisi;Konut Sigortası;Taşıt Kredisi;Kasko;İhtiyaç Kredisi;Kredi Bitiş Tarihi;Mobil Bankacılık;Otomatik Ödeme Talimatı;Son İşlem Tarihi;Gecikme;Pazarlama İzni
+B1001;Ayşe Kurgu;34;E;62.000;48.000;0;;0;H;;H;H;H;H;H;H;H;;E;0;06.10.2026;H;E
+B1002;Mehmet Örnek;45;E;85.000;640.000;0;;0;E;35;E;H;E;H;H;H;H;;E;3;07.10.2026;H;E
+B1003;Zeynep Deneme;29;H;40.000;22.000;250.000;15.10.2026;0;E;20;H;H;H;H;H;H;H;;E;1;01.10.2026;H;E
+B1004;Ali Kurgu;52;E;55.000;35.000;0;;0;E;94;E;H;H;H;H;H;E;20.11.2026;E;2;05.10.2026;H;E
+B1005;Fatma Örnek;61;H;30.000;410.000;0;;120.000;E;10;H;H;H;H;H;H;H;;H;0;20.06.2026;H;E
+B1006;Can Deneme;38;E;72.000;55.000;0;;0;E;40;E;H;H;H;E;H;H;;E;4;08.10.2026;H;E
+B1007;Elif Kurgu;27;E;38.000;12.000;0;;0;H;;H;H;H;H;H;H;E;15.12.2026;E;0;04.10.2026;E;E
+B1008;Burak Örnek;41;E;95.000;180.000;0;;0;E;55;H;H;E;E;H;H;H;;E;5;07.10.2026;H;H
+B1009;Selin Deneme;33;H;48.000;160.000;0;;0;E;15;E;E;H;H;H;H;H;;E;1;03.10.2026;H;E
+B1010;Emre Kurgu;56;E;68.000;75.000;900.000;12.10.2026;300.000;E;5;E;E;H;H;H;H;H;;E;6;02.10.2026;H;E
+B1011;Deniz Örnek;24;H;18.000;6.000;0;;0;H;;H;H;H;H;H;H;H;;E;0;28.09.2026;H;E
+B1012;Gizem Deneme;47;E;110.000;95.000;0;;0;E;60;H;H;E;H;E;H;H;;E;2;06.10.2026;H;E

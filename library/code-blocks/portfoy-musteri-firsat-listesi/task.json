@@ -1,0 +1,15 @@
+{
+  "id": "portfoy-musteri-firsat-listesi",
+  "tur": "kod",
+  "ad": "Portföy Müşteri Fırsat Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi portfoy.xlsx --tarih 08.10.2026",
+  "girdiler": [
+    "Portföy listesi (.xlsx/.csv): Müşteri No; yaş, gelir, maaş müşterisi, vadesiz/vadeli bakiye, ürün sahipliği (kart, BES, sigortalar, krediler), mobil, talimat, son işlem, gecikme, pazarlama (İYS) izni",
+    "İsteğe bağlı eşik ve puan ayarları (JSON)"
+  ],
+  "ciktilar": ["Excel: Fırsat Listesi (puan, gerekçe, kanal, 'Sonuç'), Müşteri Özeti (ürün sayısı, ilk 3 aksiyon), Ürün Penetrasyonu (grafik), Kurallar"],
+  "internet": false
+}
