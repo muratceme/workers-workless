@@ -170,9 +170,22 @@
   `node scripts/build.mjs | tail -1` hata kodunu yutuyor; bir kez OneDrive kilidi yüzünden ENOENT verdi, yeniden çalıştırınca geçti.
 - **Toplam 83 paket**, kontrol 83/83.
 
+- Devam (2026-10-08, 4. tur): `kredi-komitesi-degerlendirme-notu` (agent; limit/teminat/rasyo tabloları + metinler;
+  mevcut ve tesis edilecek teminat karşılaması ayrı, rasyo yönü addan, DSCR<1 / 1–1,2, isteğe bağlı BK md. 54 %25 sınırı;
+  model sonrası: yüksek bulgu varken "Olumlu" ve şartlarda olmayan tesis edilecek teminat uyarısı), `sube-teftis-veri-analizi`
+  (personelin kendi/yakın hesabı, mesai dışı/tatil, limit aşımı onaysız, kendi onayı, onaylayan limiti, sık iptal, iptal sonrası
+  farklı tutar, bölünmüş nakit (eşik parametre, MASAK eşiği yazılmadı), yoğunlaşma; örnekte bilerek 12 bulgu),
+  `teftis-raporu-bulgu-taslagi` (agent; dayanak yalnız kullanıcının verdiği mevzuat/yönerge metninden, maddelere bölünür,
+  alıntı birebir doğrulanır; örnek yönerge kurgusal), `risk-degerlendirme-ozeti` (agent, sigorta; 25 konuluk kontrol
+  listesi, koruma önlemi + olumsuzlama = olumsuz gözlem, emtia bedeli < maks. stok uyarısı, R-numaralı öneri kapsamı),
+  `hasar-dosyasi-evrak-eksik-kontrolu` (evrak_listesi.csv örnek ve düzenlenebilir; koşullu evraklar; Türkçe ek toleranslı
+  kelime-başı eşleştirme; iç takip talep yazısına girmez).
+- **Ders:** Anahtar kelime eşleştirmede kısa kökler tuzak: "foto" → "fotokopisi". Kelime başı + uzun kök kullan.
+  Rastgele örnek veride planlı anomalilerin müşteri numaralarını arka plandan dışla (yoksa istemeden ek bulgu çıkar).
+- **Toplam 88 paket**, kontrol 88/88.
+
 ### KALDIĞIM YER
-Sıradaki (paketsiz, puan 4): Kredi Komitesi Değerlendirme Notu (agent), Şube Teftiş Veri Analizi, Teftiş Raporu Bulgu
-Taslağı (agent), Risk Değerlendirme Özeti (agent, sigorta), Hasar Dosyası Evrak Eksik Kontrolü, Teminat Kapsam Kontrolü…
+Sıradaki (paketsiz, puan 4): Teminat Kapsam Kontrolü (agent, sigorta), ardından listeyi yeniden üret ve puan 4'leri sürdür…
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);
