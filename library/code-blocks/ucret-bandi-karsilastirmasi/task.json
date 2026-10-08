@@ -1,0 +1,19 @@
+{
+  "id": "ucret-bandi-karsilastirmasi",
+  "tur": "kod",
+  "ad": "Ücret Bandı Karşılaştırması",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --calisanlar calisanlar.xlsx --bantlar bantlar.xlsx",
+  "girdiler": [
+    "Çalışanlar (.xlsx/.csv): Sicil No, Ad Soyad, Departman, Pozisyon, Kademe, Brüt Ücret, İşe Giriş, [Cinsiyet, Performans, Çalışma Oranı]",
+    "Bantlar (ücret araştırması): Kademe, Pozisyon (isteğe bağlı), Alt, Orta, Üst, Kaynak",
+    "Asgari ücret: tr_parametreler.json (yıl bazında, kaynaklı)"
+  ],
+  "ciktilar": ["Excel: Çalışanlar (karşılaştırma oranı, bant içi konum, durum, 'Öneri / Karar'), Uyarılar, Bütçe Etkisi, Kademe ve Departman Özeti, Cinsiyet Karşılaştırması"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "tr_parametreler.json": "_ortak/tr_parametreler.json"
+  }
+}
