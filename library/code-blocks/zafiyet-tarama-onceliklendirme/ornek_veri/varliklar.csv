@@ -1,0 +1,7 @@
+Host;Hostname;Kritiklik;İnternete Açık;Sahibi
+10.0.1.10;vpn-gw-01;5;Evet;Ağ Ekibi
+10.0.1.11;vpn-gw-02;5;Evet;Ağ Ekibi
+10.0.2.20;dosya-01;4;Hayır;Sistem Ekibi
+10.0.2.21;dosya-02;3;Hayır;Sistem Ekibi
+10.0.3.50;erp-app-01;5;Hayır;Uygulama Ekibi
+10.0.4.70;test-arama-01;2;Hayır;Yazılım Ekibi

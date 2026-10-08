@@ -1,0 +1,15 @@
+{
+  "id": "zafiyet-tarama-onceliklendirme",
+  "tur": "kod",
+  "ad": "Zafiyet Tarama Önceliklendirme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --tarama nessus.csv --varliklar varliklar.xlsx --kev known_exploited_vulnerabilities.csv --epss epss_scores.csv",
+  "girdiler": [
+    "Zafiyet tarayıcısı çıktısı (Nessus, OpenVAS/Greenbone, Qualys CSV veya Excel)",
+    "İsteğe bağlı: varlık listesi (Host/IP, Kritiklik 1-5, İnternete Açık, Sahibi), CISA KEV kataloğu (CSV/JSON), FIRST EPSS skorları (CSV/CSV.GZ), SLA ayarı (JSON)"
+  ],
+  "ciktilar": ["Excel: öncelikli bulgular (P1-P5, gerekçe, KEV, EPSS, hedef kapanış ve gecikme), düzeltme planı (yama paketi başına etkilenen host ve toplam risk), varlık bazında risk"],
+  "internet": false
+}

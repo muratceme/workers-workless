@@ -1,0 +1,14 @@
+Plugin ID,CVE,CVSS v3.0 Base Score,Risk,Host,Protocol,Port,Name,Solution,First Seen
+990001,CVE-2099-1001,9.8,Critical,10.0.1.10,tcp,443,Örnek VPN Ağ Geçidi kimlik doğrulama atlatma (kurgusal),Üretici yamasını (sürüm 9.4.2) uygulayın.,2026-09-25
+990001,CVE-2099-1001,9.8,Critical,10.0.1.11,tcp,443,Örnek VPN Ağ Geçidi kimlik doğrulama atlatma (kurgusal),Üretici yamasını (sürüm 9.4.2) uygulayın.,2026-09-25
+990002,CVE-2099-1002,8.1,High,10.0.2.20,tcp,445,Örnek Dosya Paylaşımı uzaktan kod çalıştırma (kurgusal),İşletim sistemi güvenlik güncellemesini kurun.,2026-08-01
+990002,CVE-2099-1002,8.1,High,10.0.2.21,tcp,445,Örnek Dosya Paylaşımı uzaktan kod çalıştırma (kurgusal),İşletim sistemi güvenlik güncellemesini kurun.,2026-08-01
+990002,CVE-2099-1002,8.1,High,10.0.3.50,tcp,445,Örnek Dosya Paylaşımı uzaktan kod çalıştırma (kurgusal),İşletim sistemi güvenlik güncellemesini kurun.,2026-08-01
+990003,CVE-2099-1003,9.1,Critical,10.0.3.50,tcp,8080,Örnek Uygulama Sunucusu deserialization (kurgusal),Uygulama sunucusunu 11.2 sürümüne yükseltin.,2026-09-30
+990004,CVE-2099-1004,7.5,High,10.0.1.10,tcp,443,Örnek TLS kütüphanesi bellek sızıntısı (kurgusal),TLS kütüphanesini güncelleyin.,2026-06-15
+990004,CVE-2099-1004,7.5,High,10.0.2.20,tcp,443,Örnek TLS kütüphanesi bellek sızıntısı (kurgusal),TLS kütüphanesini güncelleyin.,2026-06-15
+990005,CVE-2099-1005,5.3,Medium,10.0.2.21,tcp,22,SSH zayıf şifreleme algoritmaları etkin,"CBC modlu şifrelemeleri ve SHA1 MAC'leri kapatın.",2026-03-01
+990006,CVE-2099-1006,6.5,Medium,10.0.4.70,tcp,3389,Uzak masaüstü ağ düzeyinde kimlik doğrulama kapalı (kurgusal),NLA'yı etkinleştirin.,2026-09-01
+990007,,0.0,None,10.0.4.70,tcp,0,İşletim sistemi tespiti,Bilgi amaçlı.,2026-09-01
+990008,CVE-2099-1008,3.7,Low,10.0.4.70,tcp,80,HTTP sunucusu sürüm bilgisi ifşası (kurgusal),Sunucu başlıklarını gizleyin.,2026-01-10
+990009,"CVE-2099-1009, CVE-2099-1010",9.8,Critical,10.0.4.70,tcp,9200,Örnek Arama Motoru uzaktan kod çalıştırma (kurgusal),Arama motorunu 8.15 sürümüne yükseltin ve dış erişimi kapatın.,2026-09-20
