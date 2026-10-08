@@ -1,0 +1,16 @@
+Malzeme Kodu;Malzeme Adı;Birim;Birim Maliyet;Para Birimi
+SND-01;Ahşap sandalye, döşemeli;adet;;
+MSA-01;Ahşap masa 80×80;adet;;
+YM-AYAK;Ayak takımı (yarı mamul);takım;;
+YM-OTURAK;Döşemeli oturak (yarı mamul);adet;;
+KR-KAYIN;Kayın kereste, fırınlanmış;m³;38.500,00;TL
+TT-01;PVAc tutkal D3;kg;95,00;TL
+KN-18;Kontrplak 18 mm;m²;410,00;TL
+SN-30;Sünger 30 dansite 4 cm;m²;165,00;TL
+KM-01;Döşemelik kumaş;m;6,80;USD
+ZM-01;Zımba teli paketi (100'lük → adet);adet;0,35;TL
+VD-4X40;Sunta vidası 4×40;adet;0,55;TL
+VR-01;Su bazlı vernik;lt;9,40;EUR
+KL-SND;Sandalye kolisi;adet;48,00;TL
+KL-MSA;Masa kolisi;adet;135,00;TL
+TB-MDF;MDF lake tabla 80×80 (fason);adet;1.150,00;TL

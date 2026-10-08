@@ -1,0 +1,17 @@
+Ana Ürün;Bileşen;Miktar;Birim;Fire %
+SND-01;YM-AYAK;1;takım;
+SND-01;YM-OTURAK;1;adet;
+SND-01;VD-4X40;12;adet;2
+SND-01;VR-01;0,25;lt;5
+SND-01;KL-SND;1;adet;
+YM-AYAK;KR-KAYIN;0,012;m³;15
+YM-AYAK;TT-01;0,05;kg;
+YM-OTURAK;KN-18;0,25;m²;10
+YM-OTURAK;SN-30;0,22;m²;5
+YM-OTURAK;KM-01;0,30;m;8
+YM-OTURAK;ZM-01;6;adet;
+MSA-01;YM-AYAK;2;takım;
+MSA-01;TB-MDF;1;adet;
+MSA-01;VD-4X40;16;adet;2
+MSA-01;VR-01;0,60;lt;5
+MSA-01;KL-MSA;1;adet;

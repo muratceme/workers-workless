@@ -1,0 +1,16 @@
+{
+  "id": "urun-maliyeti-hesaplama",
+  "tur": "kod",
+  "ad": "Ürün Maliyeti Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --recete recete.xlsx --malzeme malzeme.xlsx --rota rota.xlsx --is-merkezi is_merkezi.xlsx --kur USD=41,20",
+  "girdiler": [
+    "Reçete / ürün ağacı (Ana Ürün, Bileşen, Miktar [, Birim, Fire %, Çıktı Miktarı]) — çok seviyeli",
+    "Malzeme maliyetleri (Malzeme Kodu, Malzeme Adı, Birim, Birim Maliyet [, Para Birimi])",
+    "İsteğe bağlı: rota (Ürün Kodu, Operasyon, İş Merkezi, Süre dk/adet, Hazırlık dk, Kişi Sayısı), iş merkezi ücretleri (İşçilik ve GÜG TL/saat), parti miktarları, satış fiyatları"
+  ],
+  "ciktilar": ["Excel: mamul ve yarı mamul birim maliyetleri (malzeme, direkt işçilik, GÜG; brüt kâr marjı), maliyet ağacı, operasyon maliyetleri, malzeme payları (Pareto)"],
+  "internet": false
+}
