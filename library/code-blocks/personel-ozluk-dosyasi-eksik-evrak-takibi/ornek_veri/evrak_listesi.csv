@@ -1,0 +1,21 @@
+Evrak;Koşul;Geçerlilik (ay);Teslim Süresi (gün)
+Kimlik fotokopisi;Tümü;;7
+Yerleşim yeri belgesi;Tümü;;15
+Diploma veya mezuniyet belgesi;Tümü;;15
+Adli sicil kaydı;Tümü;;15
+İşe giriş sağlık raporu;Tümü;;0
+İş sözleşmesi;Tümü;;0
+SGK işe giriş bildirgesi;Tümü;;0
+KVKK aydınlatma metni;Tümü;;7
+Vesikalık fotoğraf;Tümü;;7
+Banka hesap bilgisi;Tümü;;7
+Periyodik sağlık muayenesi;Tehlike Sınıfı=Çok Tehlikeli;12;
+Periyodik sağlık muayenesi;Tehlike Sınıfı=Tehlikeli;36;
+Periyodik sağlık muayenesi;Tehlike Sınıfı=Az Tehlikeli;60;
+Temel İSG eğitimi belgesi;Tehlike Sınıfı=Çok Tehlikeli;12;30
+Temel İSG eğitimi belgesi;Tehlike Sınıfı=Tehlikeli;24;30
+Temel İSG eğitimi belgesi;Tehlike Sınıfı=Az Tehlikeli;36;30
+Gece çalışması sağlık raporu;Gece Çalışması=Evet;24;0
+Askerlik durum belgesi;Cinsiyet=Erkek;;15
+Çalışma izni;Uyruk!=TC;;0
+Sürücü belgesi ve SRC belgesi;Pozisyon~şoför;;0

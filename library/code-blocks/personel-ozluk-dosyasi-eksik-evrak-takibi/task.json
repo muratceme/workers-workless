@@ -1,0 +1,16 @@
+{
+  "id": "personel-ozluk-dosyasi-eksik-evrak-takibi",
+  "tur": "kod",
+  "ad": "Personel Özlük Dosyası Eksik Evrak Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --calisanlar calisanlar.xlsx --kayitlar evrak_kayitlari.xlsx --liste evrak_listesi.csv",
+  "girdiler": [
+    "Çalışanlar (.xlsx/.csv): Sicil No, Ad Soyad, Departman, Pozisyon, İşe Giriş + koşul sütunları (Cinsiyet, Uyruk, Tehlike Sınıfı, Gece Çalışması…)",
+    "Evrak kayıtları: Sicil No, Evrak, Teslim Tarihi, [Geçerlilik Bitiş]",
+    "Evrak listesi (düzenlenebilir): Evrak, Koşul (Tümü / Alan=Değer / Alan!=Değer / Alan~içerir), Geçerlilik (ay), Teslim Süresi (gün)"
+  ],
+  "ciktilar": ["Excel: Evrak Matrisi (çalışan × evrak, renkli), Eksik Listesi ('Talep Edildi', 'Teslim Alındı'), Departman Özeti, Hatırlatma Metinleri, Uyarılar"],
+  "internet": false
+}

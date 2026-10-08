@@ -1,0 +1,9 @@
+Sicil No;Ad Soyad;Departman;Pozisyon;İşe Giriş;Cinsiyet;Uyruk;Tehlike Sınıfı;Gece Çalışması
+1001;Çalışan Bir;Üretim;Makine Operatörü;15.03.2019;Erkek;TC;Tehlikeli;Evet
+1002;Çalışan İki;Üretim;Kaynakçı;01.06.2023;Erkek;TC;Tehlikeli;Hayır
+1003;Çalışan Üç;Muhasebe;Muhasebe Uzmanı;10.01.2022;Kadın;TC;Az Tehlikeli;Hayır
+1004;Çalışan Dört;Lojistik;Şoför;05.09.2025;Erkek;TC;Tehlikeli;Hayır
+1005;Çalışan Beş;Üretim;Kalite Kontrol Teknisyeni;01.10.2026;Kadın;TC;Tehlikeli;Evet
+1006;Çalışan Altı;Üretim;Makine Operatörü;20.02.2024;Erkek;AZ;Tehlikeli;Hayır
+1007;Çalışan Yedi;İnsan Kaynakları;İK Uzmanı;01.04.2021;Kadın;TC;Az Tehlikeli;Hayır
+1008;Çalışan Sekiz;Lojistik;Depo Sorumlusu;12.08.2020;Erkek;TC;Tehlikeli;Hayır
