@@ -131,10 +131,22 @@
   önceki; bu dönem onayı talep edileni aşamaz; vergi ve kesintiler Hakediş Hesaplama paketinde).
 - **Toplam 68 paket**, kontrol 68/68.
 
+- Devam (2026-10-08): `erken-uyari-sinyalleri-listesi` (gecikme/limit/KKB çek-senet/haciz/ciro düşüşü puanlaması; 30/90 gün
+  Aşama 2/3 notu; puanlar ayarlar.json'da, örnek), `gece-denetimi-night-audit-kontrolu` (açık folyo, skip/sleep, fiyat kodu,
+  kasa mutabakatı, oda geliri/ADR/RevPAR), `konsolide-finansal-rapor` (mizan + mali tablo çekirdeklerini ortak dosya olarak
+  kullanır; cari/gelir-gider/stoktaki kâr/sermaye eliminasyonu, şerefiye 261, KGO özkaynakta "5KG" ve kârda "59K" satırı;
+  elle hesap 9.470.000 / 1.030.000 birebir), `kredi-teklif-dosyasi-hazirlama` (agent; rasyolar + KKB + katsayılı teminat
+  karşılaması koddan; unvan/VKN/ortak adları maskeli; uydurma sayı yakalanır; bankacılık sırrı uyarısı → Ollama önerisi),
+  `teknik-foy-tech-pack-taslagi` (agent; ölçü sırası/düzensiz artış, kompozisyon %100, likra→elastan lif adı, zorunlu
+  etiketler; ölçü/BOM koddan aynen, birimli uydurma değerler işaretlenir).
+- **Ders:** mizan çekirdeğinin para()'sı "750.000"ı 750 okur — tek noktalı binlik yazım için paket içinde sarmalayıcı
+  yazıldı (çekirdeğe dokunulmadı; ileride çekirdekte düzeltilebilir).
+- **Toplam 73 paket**, kontrol 73/73.
+
 ### KALDIĞIM YER
-Sıradaki (paketsiz, puan 4-5): Erken Uyarı Sinyalleri, Gece Denetimi (Night Audit), Konsolide Finansal Rapor, Kredi Teklif
-Dosyası (agent), Teknik Föy (agent), Şikâyet Analizi (agent), İhale Dokümanı Özeti (agent)… Sağlık/SGK faturası ve epikriz
+Sıradaki (paketsiz, puan 4-5): Şikâyet Analizi (agent), İhale Dokümanı Özeti (agent)… Sağlık/SGK faturası ve epikriz
 sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
-İyileştirme notu: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde).
+İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);
+mizan çekirdeği para() "750.000" binlik yazımı.
 Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` → commit + push.
