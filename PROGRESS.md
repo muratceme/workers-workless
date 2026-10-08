@@ -95,9 +95,20 @@
 - Depoda `core.autocrlf=false` yapıldı, çalışma kopyası LF'ye normalleştirildi (CRLF uyarıları bitti).
 - **Toplam 44 paket**, kontrol 44/44.
 
+### 2026-10-08
+- Yeni kod blokları: `stok-sayim-fark-analizi` (bekleyen hareket düzeltmesi, lokasyonlar arası mahsup, kural tabanlı
+  neden ipuçları: fazla sıfır, rakam yer değiştirme, koli/adet, varyant karışıklığı; ikinci sayım listesi; 197/397),
+  `mizan-kontrolu` (TDHP doğa tablosu, alt hesap ters bakiyeleri ve virman önerileri, kasa/131/KDV/7A yansıtma,
+  önceki aya göre değişim ve kümülatif azalma; yıl başı otomatik algılanır), `puantaj-kontrolu` (İş K. md. 41/46/47/56/63,
+  2025-2027 bayramları, SGK prim günü ve eksik gün nedeni), `urun-maliyeti-hesaplama` (çok seviyeli reçete, rota,
+  iş merkezi ücretleri, döviz kuru, brüt kâr marjı).
+- Bu paketlerde başlık eşleştirme `katla()` ile yapılıyor (ı/i ve Türkçe karakter farkı yok sayılır). Eski paketlere
+  yaymak hâlâ açık iş.
+- **Toplam 48 paket**, kontrol 48/48.
+
 ### KALDIĞIM YER
-Sıradaki (puanı yüksek, paketsiz): Şüpheli İşlem Senaryo Taraması (MASAK — önce mevzuatı doğrula), Ürün Maliyeti
-Hesaplama, Stok Sayım Fark Analizi, Puantaj Kontrolü, Mizan Kontrolü, Sık Sorulan Sorulara Cevap Taslağı.
+Sıradaki (puanı yüksek, paketsiz): Sık Sorulan Sorulara Cevap Taslağı (agent), Şüpheli İşlem Senaryo Taraması (MASAK —
+önce mevzuatı doğrula), ardından puanı 3 olan görevler.
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notu: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde).
 Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` → commit + push.

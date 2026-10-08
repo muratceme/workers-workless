@@ -120,3 +120,17 @@ ve erişilebilen toplayıcı sitelerden okunmuştur.
 - Kumaş 4 puan sistemi (ASTM D5430 yaygın uygulaması): uzunluk eşikleri 3/6/9 inç, delik ≤1 inç 2 puan, yard başına en
   fazla 4 puan, formül puan × 36 × 100 / (en inç × uzunluk yd), çözümlü örnek 22 puan / 120 yd / 45 inç = 14,66 —
   V-Trust "Understanding the 4-point system", onlineclothingstudy.com, TradeAider.
+- Tekdüzen Hesap Planı düzenleyici "(-)" hesaplar (Mizan Kontrolü): muhasebetr.com Tek Düzen Hesap Planı listesi
+  (103, 119, 122, 129, 137, 139, 158, 199, 222, 229, 237, 239, 241, 243, 244, 246, 247, 249, 257, 268, 278, 298, 299,
+  308, 322, 337, 371, 408, 422, 437, 501, 58, 591, 61-63, 65, 66, 68, 691; 7/A x0 gider, x1 yansıtma, 798 yansıtma).
+  124/224 ve 302/402 (finansal kiralama) ile 503 sonradan eklenen hesaplardır.
+- SGK eksik gün nedenleri (Puantaj Kontrolü): 01 İstirahat, 12 Birden fazla, 15 Devamsızlık, 21 Diğer ücretsiz izin —
+  alomaliye.com "Eksik Günlerde Kullanılacak SGK Kodları", multinet.com.tr, kolayik.com (e-Bildirge'deki güncel listeyle
+  kontrol önerilir).
+- Dini bayramlar: 2026 Ramazan 20-22 Mart (arife 19), Kurban 27-30 Mayıs (arife 26); 2027 Ramazan 9-11 Mart (arife 8),
+  Kurban 16-19 Mayıs (arife 15; 19 Mayıs ile çakışır) — CNN Türk, harbiyehukuk.com. Arifeler 13.00'ten itibaren yarım gün.
+- İş Kanunu (4857) dayanakları: md. 41 yıllık 270 saat fazla çalışma, md. 46 hafta tatili (7 günlük dönemde 24 saat,
+  tatilden önceki iş günlerinde çalışmış olma koşulu), md. 47 genel tatilde çalışma ek ücreti, md. 56 izne denk gelen
+  tatiller izinden sayılmaz, md. 63 günlük 11 saat; 5510 md. 18 geçici iş göremezlik ödeneği 3. günden itibaren.
+- Sayım farkları (Stok Sayım Fark Analizi): 197 Sayım ve Tesellüm Noksanları / 397 Sayım ve Tesellüm Fazlaları (TDHP);
+  zayi mallarda KDV indirimi KDVK md. 30 — paket yalnız tutar özeti verir, kayıt için mali müşavir yönlendirmesi yapar.
