@@ -1,0 +1,37 @@
+{
+  "aciklama": "Örnek eşleştirme: kurgusal 'Örnek Pazaryeri' şablonu için. Gerçek pazaryeri şablonunun sütun adlarını, zorunlu alanlarını ve sınırlarını satıcı panelinden indirdiğiniz şablona göre düzenleyin.",
+  "pazaryeri": "Örnek Pazaryeri",
+  "sablon_baslik_satiri": 1,
+  "alanlar": {
+    "Barkod": {"kaynak": "Barkod", "zorunlu": true, "kontrol": "gtin", "benzersiz": true},
+    "Model Kodu": {"kaynak": "Model Kodu", "zorunlu": true},
+    "Marka": {"kaynak": "Marka", "zorunlu": true},
+    "Kategori": {"kaynak": "Kategori", "zorunlu": true, "eslestirme": "kategori", "sutun": "Pazaryeri Kategori"},
+    "Kategori ID": {"kaynak": "Kategori", "zorunlu": true, "eslestirme": "kategori", "sutun": "Pazaryeri Kategori ID"},
+    "Para Birimi": {"sabit": "TRY"},
+    "Ürün Adı": {"sablon": "{Marka} {Ürün Adı} {Renk}", "zorunlu": true, "en_fazla": 100},
+    "Ürün Açıklaması": {"kaynak": "Açıklama", "zorunlu": true, "en_az": 30},
+    "Piyasa Satış Fiyatı (KDV Dahil)": {"kaynak": "Liste Fiyatı", "tur": "para", "zorunlu": true},
+    "Satış Fiyatı (KDV Dahil)": {"kaynak": "Satış Fiyatı", "tur": "para", "zorunlu": true},
+    "Ürün Stok Adedi": {"kaynak": "Stok", "tur": "tamsayi", "zorunlu": true},
+    "Stok Kodu": {"kaynak": "Stok Kodu", "benzersiz": true},
+    "KDV Oranı": {"kaynak": "KDV", "tur": "tamsayi", "zorunlu": true, "izinli": [0, 1, 10, 20]},
+    "Desi": {"kaynak": "Desi", "tur": "sayi"},
+    "Görsel 1": {"kaynak": "Görseller", "bol": "|", "sira": 1, "zorunlu": true, "kontrol": "url"},
+    "Görsel 2": {"kaynak": "Görseller", "bol": "|", "sira": 2, "kontrol": "url"},
+    "Görsel 3": {"kaynak": "Görseller", "bol": "|", "sira": 3, "kontrol": "url"},
+    "Görsel 4": {"kaynak": "Görseller", "bol": "|", "sira": 4, "kontrol": "url"},
+    "Görsel 5": {"kaynak": "Görseller", "bol": "|", "sira": 5, "kontrol": "url"},
+    "Renk": {"kaynak": "Renk", "zorunlu": true, "eslestirme": "renk"},
+    "Beden": {"kaynak": "Beden", "zorunlu": true},
+    "Cinsiyet": {"kaynak": "Cinsiyet", "izinli": ["Kadın", "Erkek", "Unisex", "Kız Çocuk", "Erkek Çocuk"]}
+  },
+  "eslestirmeler": {
+    "kategori": {"dosya": "kategori_eslestirme.csv", "anahtar": "Bizim Kategori"},
+    "renk": {"degerler": {"Siyah": "Siyah", "Beyaz": "Beyaz", "Navy": "Lacivert", "Lacivert": "Lacivert", "Gri Melanj": "Gri", "Gri": "Gri", "Bej": "Bej"}}
+  },
+  "kurallar": {
+    "fiyat": {"satis": "Satış Fiyatı (KDV Dahil)", "liste": "Piyasa Satış Fiyatı (KDV Dahil)"},
+    "varyant": {"model": "Model Kodu", "ortak": ["Marka", "Kategori", "Ürün Açıklaması"], "ayirt": ["Renk", "Beden"]}
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "toplu-urun-yukleme-sablonu-hazirlama",
+  "tur": "kod",
+  "ad": "Toplu Ürün Yükleme Şablonu Hazırlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi urunler.xlsx --sablon pazaryeri_sablonu.xlsx --eslestirme eslestirme.json",
+  "girdiler": [
+    "Ürün ana verisi (.xlsx/.csv), her satır bir varyant",
+    "Pazaryerinin toplu yükleme şablonu (satıcı panelinden indirilen .xlsx veya başlık satırlı .csv)",
+    "Eşleştirme dosyası (JSON): şablon sütunu ← ana veri sütunu, zorunlu alanlar, sınırlar, kategori/renk eşleştirmeleri"
+  ],
+  "ciktilar": [
+    "Doldurulmuş yükleme dosyası (şablonun kopyası, yalnız hatasız ürünler)",
+    "Kontrol raporu: Özet, Hatalar ('Düzeltildi mi?'), Eşleşmeyen Değerler (doldurulacak karşılıklar), Ayar Kontrolü"
+  ],
+  "internet": false
+}
