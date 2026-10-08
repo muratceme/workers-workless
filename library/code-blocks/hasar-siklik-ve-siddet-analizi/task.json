@@ -1,0 +1,15 @@
+{
+  "id": "hasar-siklik-ve-siddet-analizi",
+  "tur": "kod",
+  "ad": "Hasar Sıklık ve Şiddet Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --policeler policeler.xlsx --hasarlar hasarlar.xlsx --segment \"Araç Tipi\" --degerleme 30.09.2026",
+  "girdiler": [
+    "Poliçeler (.xlsx/.csv): Poliçe No, Başlangıç, Bitiş, Prim [, İptal Tarihi], segment sütunları",
+    "Hasarlar (.xlsx/.csv): Hasar No, Poliçe No, Hasar Tarihi, Ödenen, Muallak [, Durum] — veya Gerçekleşen"
+  ],
+  "ciktilar": ["Excel: dönem ve segment bazında maruziyet, kazanılmış prim, hasar adedi, sıklık (%95 aralık), şiddet ve sınırlı şiddet, saf prim, hasar/prim, büyük hasar sayısı, güvenilirlik; grafik"],
+  "internet": false
+}
