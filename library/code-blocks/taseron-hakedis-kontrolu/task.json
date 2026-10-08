@@ -1,0 +1,16 @@
+{
+  "id": "taseron-hakedis-kontrolu",
+  "tur": "kod",
+  "ad": "Taşeron Hakediş Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --sozlesme birim_fiyatlar.xlsx --hakedis taseron_hakedis.xlsx --saha saha_metraji.xlsx --onceki onayli_hakedis.xlsx",
+  "girdiler": [
+    "Sözleşme birim fiyat cetveli (Poz No, Tanım, Birim, Birim Fiyat [, Sözleşme Miktarı])",
+    "Taşeron hakedişi (Poz No, Birim Fiyat, Önceki / Bu Dönem / Toplam Miktar, Toplam Tutar)",
+    "İsteğe bağlı: saha (yeşil defter) metrajı ve önceki onaylı hakediş (Poz No, kümülatif miktar)"
+  ],
+  "ciktilar": ["Excel: özet (talep / onaylanabilir / fark), bulgular (seviye, kontrol, tutar etkisi), poz bazında karşılaştırma"],
+  "internet": false
+}

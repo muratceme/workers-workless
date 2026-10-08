@@ -124,11 +124,17 @@
   Python heredoc'ta `` yazınca dosyaya backspace () düşebiliyor — regex düzenlemelerini Edit aracıyla yap.
 - **Toplam 61 paket**, kontrol 61/61.
 
+- Devam: `kesim-kat-plani` (açgözlü + kapanışta 1-2 pastal, min kat), `koli-listesi-packing-list-hazirlama`,
+  `hasar-siklik-ve-siddet-analizi` (değerleme tarihi; güvenilirlik 1082), `satis-hedef-gerceklesme-raporu`,
+  `reklam-kampanyasi-performans-raporu` (TR/EN başlık eşanlamlıları, 2.500 binlik ayırıcı), `otomatik-sevkiyat-replenishment-onerisi`
+  (depo yetersizse en düşük stok günlü mağazaya önce), `taseron-hakedis-kontrolu` (sözleşme fiyatı / saha metrajı / onaylı
+  önceki; bu dönem onayı talep edileni aşamaz; vergi ve kesintiler Hakediş Hesaplama paketinde).
+- **Toplam 68 paket**, kontrol 68/68.
+
 ### KALDIĞIM YER
-Sıradaki (paketsiz, puan 4-5): Kesim Kat Planı, Koli Listesi (Packing List), Satış Hedef-Gerçekleşme Raporu, Reklam
-Kampanyası Performans Raporu, Hasar Sıklık ve Şiddet Analizi, Otomatik Sevkiyat (Replenishment), Erken Uyarı Sinyalleri,
-Taşeron Hakediş Kontrolü, Gece Denetimi (Night Audit), Konsolide Finansal Rapor, Kredi Teklif Dosyası (agent), Teknik Föy
-(agent), Şikâyet Analizi (agent), İhale Dokümanı Özeti (agent)… Sağlık/SGK faturası ve epikriz sona bırakıldı.
+Sıradaki (paketsiz, puan 4-5): Erken Uyarı Sinyalleri, Gece Denetimi (Night Audit), Konsolide Finansal Rapor, Kredi Teklif
+Dosyası (agent), Teknik Föy (agent), Şikâyet Analizi (agent), İhale Dokümanı Özeti (agent)… Sağlık/SGK faturası ve epikriz
+sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notu: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde).
 Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` → commit + push.
