@@ -1,0 +1,41 @@
+Kitapçık;Soru;Cevap;A Soru No;Kazanım;İptal
+A;1;A;1;Üslü ifadeler;
+A;2;A;2;Üslü ifadeler;
+A;3;C;3;Üslü ifadeler;
+A;4;B;4;Üslü ifadeler;
+A;5;B;5;Kareköklü ifadeler;
+A;6;B;6;Kareköklü ifadeler;
+A;7;A;7;Kareköklü ifadeler;
+A;8;A;8;Kareköklü ifadeler;
+A;9;D;9;Veri analizi;
+A;10;A;10;Veri analizi;
+A;11;A;11;Veri analizi;
+A;12;A;12;Veri analizi;
+A;13;B;13;Olasılık;
+A;14;B;14;Olasılık;
+A;15;A;15;Olasılık;
+A;16;B;16;Olasılık;
+A;17;D;17;Cebirsel ifadeler;Evet
+A;18;B;18;Cebirsel ifadeler;
+A;19;D;19;Cebirsel ifadeler;
+A;20;C;20;Cebirsel ifadeler;
+B;1;C;20;Cebirsel ifadeler;
+B;2;D;19;Cebirsel ifadeler;
+B;3;B;18;Cebirsel ifadeler;
+B;4;D;17;Cebirsel ifadeler;Evet
+B;5;B;16;Olasılık;
+B;6;A;15;Olasılık;
+B;7;B;14;Olasılık;
+B;8;B;13;Olasılık;
+B;9;A;12;Veri analizi;
+B;10;A;11;Veri analizi;
+B;11;A;10;Veri analizi;
+B;12;D;9;Veri analizi;
+B;13;A;8;Kareköklü ifadeler;
+B;14;A;7;Kareköklü ifadeler;
+B;15;B;6;Kareköklü ifadeler;
+B;16;B;5;Kareköklü ifadeler;
+B;17;B;4;Üslü ifadeler;
+B;18;C;3;Üslü ifadeler;
+B;19;A;2;Üslü ifadeler;
+B;20;A;1;Üslü ifadeler;

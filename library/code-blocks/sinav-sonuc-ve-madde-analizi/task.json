@@ -1,0 +1,15 @@
+{
+  "id": "sinav-sonuc-ve-madde-analizi",
+  "tur": "kod",
+  "ad": "Sınav Sonuç ve Madde Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --cevaplar cevaplar.xlsx --anahtar anahtar.xlsx --yanlis-katsayi 4",
+  "girdiler": [
+    "Öğrenci cevapları (.xlsx/.csv): Öğrenci No, Ad Soyad, Sınıf, Kitapçık, 1, 2, 3 … (veya tek 'Cevaplar' dizisi — optik okuyucu dökümü)",
+    "Cevap anahtarı: Kitapçık, Soru, Cevap [, A Soru No (kitapçık eşleştirmesi), Kazanım, İptal] — veya Kitapçık, 1, 2, 3 …"
+  ],
+  "ciktilar": ["Excel: öğrenci sonuçları (D/Y/B, net, puan, genel ve sınıf sırası), sınıf özeti, madde analizi (p, d, madde-toplam r, Ebel yorumu, çeldirici notları), kazanım başarı yüzdeleri, KR-20"],
+  "internet": false
+}
