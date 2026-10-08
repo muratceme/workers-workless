@@ -214,9 +214,28 @@
   dosyalarına erişemeyebiliyor (ENOENT): sunucuyu durdur → build → yeniden başlat.
 - **Toplam 98 paket**, kontrol 98/98.
 
+- Devam (2026-10-08, 7. tur): `fason-atolye-is-takibi` (kısmi dönüşler, açık adet, GECİKTİ / yaklaşıyor, tempo: süre ≥ %50 ve
+  dönüş oranı 30 puan geride, hata oranı eşiği ve 2× Yüksek, tamir, "Kapandı" + fire toleransı, fazla dönüş; atölye
+  performansı; dönem filtreli hakediş = sağlam × fiyat), `arac-ve-sefer-takip-listesi` (ülke bazında aşama süreleri saat
+  olarak, "*" varsayılan; gecikmiş aşama şimdi biter; yükleme gecikmesi; teslim gecikmesi 24 saat eşiği; eski konum; CMR;
+  araç çakışması; araç durumu / müsait zaman), `parsiyel-yuk-konsolidasyon-plani` (LDM = ⌈palet ÷ istif⌉ × en × boy ÷ 2,4;
+  ödenebilir = max(kg, m³×333, LDM×1.750); bölge sırası en erken son yükleme; ADR yük önce ve yalnız ADR araca, ADR'li araç
+  ADR'siz yüke en son; first-fit + bölge sonunda küçültme; düşük doluluk + bekletilebilir önerisi), `dilekce-taslagi`
+  (agent; HMK 119/1 kontrol listesi a–h, TCKN / VKN kontrol hanesi, zorunlu arabuluculuk ipucu (6325 md. 18/A), başlık /
+  taraflar / deliller / ekler kodla; model açıklama + olay özetinden birebir dayanak alıntısı + delil no, hukuki sebepte
+  madde no yalnız verilen mevzuattan, kanun sayısı beyaz listeden; adres ve kimlik no modele gitmez),
+  `hasta-iletisim-mesaji-cevirisi` (agent; mesaj başına çağrı; ad parçaları + uluslararası telefon + pasaport maskesi;
+  doz / ölçü (sayı + birim, Kiril birimler) çeviride korunmuş mu, kırmızı bayrak ↔ aciliyet, acil cevapta acil servis,
+  cevapta kaynaksız sayı, cevap ↔ Türkçe karşılık sayıları, terimce, alfabe ↔ dil).
+- **Ders:** `katla("*")` boş dizgi döner — varsayılan anahtar olarak "" ara. Başlıkta "m³" katlanınca "m" kalır; eş
+  adlara "hacim m" ekle. Sahte model yanıtını mesaj gövdesine göre seç (terimce gibi ortak bölümler her mesajda var).
+- **Toplam 103 paket**, kontrol 103/103.
+
 ### KALDIĞIM YER
-Sıradaki (puan 4): Fason Atölye İş Takibi, Araç ve Sefer Takip Listesi, Parsiyel Yük Konsolidasyon Planı, Dilekçe Taslağı
-(agent), Hasta İletişim Mesajı Çevirisi (agent), Provizyon Talebi Değerlendirme, Sağlık Faturası Kontrolü…
+Sıradaki: Provizyon Talebi Değerlendirme, Sağlık Faturası Kontrolü (puan 4, sağlık sigortası); ardından puan 3 İK
+görevleri (Mülakat Takvimi Planlama, Özlük Dosyası Eksik Evrak, Eğitim İhtiyaç Analizi, Ücret Bandı Karşılaştırması, Zam
+Bütçesi Simülasyonu, Performans Primi, Personel Devir Oranı…). Epikriz, ÖSS ve SGK fatura ön kontrolü (puan 5) sona
+bırakıldı.
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);
