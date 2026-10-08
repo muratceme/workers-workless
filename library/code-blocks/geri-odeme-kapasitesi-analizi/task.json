@@ -1,0 +1,16 @@
+{
+  "id": "geri-odeme-kapasitesi-analizi",
+  "tur": "kod",
+  "ad": "Geri Ödeme Kapasitesi Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --mali mali_tablolar.xlsx --borclar borclar.xlsx --oneri kredi_onerisi.json --min-dscr 1,25",
+  "girdiler": [
+    "Mali tablolar (Kalem × yıl): Net Satışlar, FAVÖK; Ödenen Vergi, Yatırım Harcamaları, Ticari Alacaklar, Stoklar, Ticari Borçlar, Hazır Değerler isteğe bağlı",
+    "Mevcut krediler: Kredi, Bakiye, Para Birimi, Yıllık Faiz, Kalan Vade (Ay), Ödeme Tipi, Faiz Tipi",
+    "Önerilen kredi yapısı (JSON): tutar, faiz, vade, ödemesiz dönem, ödeme tipi, kurlar"
+  ],
+  "ciktilar": ["Excel: Özet (en düşük DSCR, azami kredi, kırılma noktası), Projeksiyon (CFADS, borç servisi, DSCR, net borç/FAVÖK), Senaryolar, Borç Servisi, Ödeme Planı, Varsayımlar"],
+  "internet": false
+}

@@ -1,0 +1,4 @@
+Kredi;Banka;Bakiye;Para Birimi;Yıllık Faiz (%);Kalan Vade (Ay);Ödeme Tipi;Faiz Tipi
+Rotatif kredi;Örnek Bank A;5.000.000;TL;48;12;Rotatif;Değişken
+Taksitli ticari kredi;Örnek Bank B;6.000.000;TL;38;24;Eşit taksit;Sabit
+Döviz yatırım kredisi;Örnek Bank C;150.000;EUR;9;18;Eşit taksit;Değişken

@@ -1,0 +1,11 @@
+{
+  "aciklama": "Önerilen kredi yapısı (örnek). Faiz yıllık nominal %; aylık faiz = yıllık / 12.",
+  "tutar": 20000000,
+  "para_birimi": "TL",
+  "yillik_faiz": 42,
+  "vade_ay": 36,
+  "odemesiz_ay": 6,
+  "odeme_tipi": "Eşit taksit",
+  "faiz_tipi": "Sabit",
+  "kur": {"EUR": 48.05, "USD": 41.20}
+}
