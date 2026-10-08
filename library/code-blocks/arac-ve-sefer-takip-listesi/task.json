@@ -1,0 +1,16 @@
+{
+  "id": "arac-ve-sefer-takip-listesi",
+  "tur": "kod",
+  "ad": "Araç ve Sefer Takip Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --seferler seferler.xlsx --sureler asama_sureleri.csv",
+  "girdiler": [
+    "Seferler (.xlsx/.csv): Sefer No, Çekici / Dorse Plaka, Şoför, Müşteri, Varış Ülke / Şehri, Sınır Kapısı, Planlanan Yükleme / Teslim, aşama gerçekleşen zamanları (Yükleme, Çıkış Gümrüğü, Sınır Çıkış, Varış Gümrüğü, Teslim), CMR No, Son Konum, Son Konum Zamanı",
+    "Aşama süreleri (düzenlenebilir): Varış Ülke, Aşama, Süre (saat)",
+    "İsteğe bağlı: durum zamanı, konum bilgisi eskime süresi"
+  ],
+  "ciktilar": ["Excel: Seferler (tahmini teslim, gecikme, 'Operasyon Notu'), Araç Durumu (aktif sefer, müsait olacağı zaman), Aşama Matrisi, Performans (müşteri / ülke), Uyarılar"],
+  "internet": false
+}

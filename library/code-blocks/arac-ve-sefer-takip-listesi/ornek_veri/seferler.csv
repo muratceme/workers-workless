@@ -1,0 +1,9 @@
+Sefer No;Çekici Plaka;Dorse Plaka;Şoför;Müşteri;Varış Ülke;Varış Şehri;Sınır Kapısı;Planlanan Yükleme;Planlanan Teslim;Yükleme;Çıkış Gümrüğü;Sınır Çıkış;Varış Gümrüğü;Teslim;CMR No;Son Konum;Son Konum Zamanı
+S-2401;34 ABC 101;34 DR 201;Şoför 1;Örnek Tekstil;Almanya;Köln;Kapıkule;30.09.2026 08:00;05.10.2026 18:00;30.09.2026 10:00;30.09.2026 17:00;01.10.2026 05:00;03.10.2026 15:00;03.10.2026 22:00;CMR-101;Köln;03.10.2026 22:00
+S-2402;34 ABC 102;34 DR 202;Şoför 2;Kurgu Mobilya;Almanya;Münih;Kapıkule;05.10.2026 08:00;10.10.2026 12:00;05.10.2026 09:00;05.10.2026 18:00;06.10.2026 22:00;;;CMR-102;Macaristan, M1 otoyolu;08.10.2026 07:30
+S-2403;34 ABC 103;34 DR 203;Şoför 3;Örnek Tekstil;Fransa;Lyon;Kapıkule;03.10.2026 08:00;08.10.2026 18:00;03.10.2026 10:00;03.10.2026 20:00;;;;CMR-103;Kapıkule TIR parkı;06.10.2026 20:00
+S-2404;34 ABC 104;34 DR 204;Şoför 4;Deneme Otomotiv;Romanya;Bükreş;Kapıkule;07.10.2026 08:00;09.10.2026 18:00;07.10.2026 14:00;07.10.2026 22:00;08.10.2026 08:00;;;;Bulgaristan, Ruse yolu;08.10.2026 08:45
+S-2405;34 ABC 105;34 DR 205;Şoför 5;Kurgu Gıda;Irak;Erbil;Habur;06.10.2026 08:00;09.10.2026 18:00;06.10.2026 09:00;06.10.2026 16:00;;;;CMR-105;Habur kuyruğu;08.10.2026 06:00
+S-2406;34 ABC 106;34 DR 206;Şoför 6;Deneme Otomotiv;Almanya;Hamburg;Kapıkule;07.10.2026 08:00;12.10.2026 12:00;;;;;;;Tuzla depo;08.10.2026 08:00
+S-2407;34 ABC 101;34 DR 201;Şoför 1;Kurgu Mobilya;Romanya;Bükreş;Kapıkule;10.10.2026 08:00;12.10.2026 18:00;;;;;;;;
+S-2408;34 ABC 102;34 DR 207;Şoför 7;Örnek Tekstil;Almanya;Köln;Kapıkule;09.10.2026 08:00;14.10.2026 12:00;;;;;;;;
