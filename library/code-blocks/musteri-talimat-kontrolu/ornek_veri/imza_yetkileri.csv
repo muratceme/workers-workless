@@ -1,0 +1,6 @@
+Müşteri No;Yetkili;Yetki Şekli;Limit (TL);Geçerlilik Bitiş
+M100;Kemal Örnek;Münferit;500.000;31.12.2027
+M100;Selin Örnek;Müşterek;;31.12.2027
+M100;Murat Kurgu;Müşterek;2.000.000;30.06.2026
+M200;Can Kurgu;Münferit;;
+M300;Ayşe Deneme;Münferit;;

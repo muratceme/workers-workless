@@ -1,0 +1,16 @@
+Talimat No;Tarih;Tür;Müşteri No;Gönderen Unvan;Gönderen IBAN;Alıcı Unvan;Alıcı IBAN;Tutar;Tutar (Yazı);Para Birimi;Açıklama;İmzalayanlar
+T01;08.10.2026;EFT;M100;Örnek Gıda San. ve Tic. A.Ş.;TR480099900001000000100001;Kurgu Lojistik A.Ş.;TR040088800005500000000123;125.000,50;Yalnız Yüzyirmibeşbin Türk Lirası Elli Kuruş;TL;Fatura no 2026-118 ödemesi;Kemal Örnek
+T02;08.10.2026;EFT;M100;Örnek Gıda San. ve Tic. A.Ş.;TR480099900001000000100001;Deneme Ambalaj Ltd. Şti.;TR970088800005500000000778;48.000,00;Kırksekizbin TL;TL;Eylül ambalaj ödemesi;Kemal Örnek
+T03;08.10.2026;Havale;M100;Örnek Gıda San. ve Tic. A.Ş.;TR480099900001000000100001;Örnek Tarım Ürünleri A.Ş.;TR330099900001000000400001;750.000,00;Yediyüzellibin TL;TL;Hammadde avansı;Kemal Örnek
+T04;08.10.2026;Havale;M100;Örnek Gıda San. ve Tic. A.Ş.;TR480099900001000000100001;Örnek Tarım Ürünleri A.Ş.;TR330099900001000000400001;1.200.000,00;Birmilyonikiyüzbin TL;TL;Hammadde bedeli;Selin Örnek, Murat Kurgu
+T05;08.10.2026;EFT;M100;Örnek Gıda San. ve Tic. A.Ş.;TR480099900001000000100001;Kurgu Makine San. A.Ş.;TR970088800005500000000777;1.200.000,00;Bir milyon iki yüz bin TL;TL;Makine bedeli;Selin Örnek ve Kemal Örnek
+T06;08.10.2026;Virman;M100;Örnek Gıda A.Ş.;TR480099900001000000100001;Örnek Gıda San. ve Tic. A.Ş.;TR210099900001000000100002;50.000,00;Ellibin TL;TL;Hesaplar arası aktarım;Kemal Örnek
+T07;08.10.2026;Virman;M200;Kurgu Tekstil Ltd. Şti.;TR430099900001000000200001;Kurgu Tekstil Ltd. Şti.;TR040088800005500000000123;30.000,00;Otuzbin TL;TL;Diğer banka hesabımıza;Can Kurgu
+T08;08.10.2026;EFT;M200;Kurgu Tekstil Ltd. Şti.;TR430099900001000000200001;Kurgu Lojistik A.Ş.;TR040088800005500000000123;10.000,00;Onbin Dolar;USD;Navlun;Can Kurgu
+T09;08.10.2026;EFT;M200;Kurgu Tekstil Ltd. Şti.;TR430099900001000000200001;Deneme İplik A.Ş.;TR970088800005500000000777;85.200,00;Seksenikibinbeşyüz TL;TL;İplik ödemesi;Can Kurgu
+T10;08.10.2026;Havale;M300;Ayşe Deneme;TR380099900001000000300001;;TR330099900001000000400001;15.000,00;Onbeşbin TL;TL;Kira;Ayşe Deneme
+T11;08.10.2026;EFT;M100;Örnek Gıda San. ve Tic. A.Ş.;TR480099900001000000100001;Kurgu Lojistik A.Ş.;TR040088800005500000000123;125.000,50;Yüzyirmibeşbin TL Elli Kr.;TL;Fatura no 2026-118 ödemesi;Kemal Örnek
+T12;08.10.2026;EFT;M300;Ayşe Deneme;TR380099900001000000300001;Örnek Tarım Ürünleri A.Ş.;TR330099900001000000400001;20.000,00;Yirmibin TL;TL;Ürün bedeli;Ayşe Deneme
+T13;08.10.2026;EFT;M200;Kurgu Tekstil Ltd. Şti.;TR430099900001000000200001;Deneme İplik A.Ş.;TR970088800005500000000777;40.000,00;Kırkbin TL;TL;İplik ödemesi;Ali Yabancı
+T14;08.10.2026;EFT;M100;Örnek Gıda San. ve Tic. A.Ş.;TR430099900001000000200001;Deneme Ambalaj Ltd. Şti.;TR970088800005500000000777;5.000,00;Beşbin TL;TL;Numune bedeli;Kemal Örnek
+T15;10.10.2026;EFT;M300;Ayşe Deneme;TR380099900001000000300001;Kurgu Lojistik A.Ş.;TR040088800005500000000123;3.750,25;Üçbinyediyüzelli TL Yirmibeş Kuruş;TL;Taşıma ücreti;Ayşe Deneme

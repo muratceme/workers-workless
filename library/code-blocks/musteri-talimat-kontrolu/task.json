@@ -1,0 +1,16 @@
+{
+  "id": "musteri-talimat-kontrolu",
+  "tur": "kod",
+  "ad": "Müşteri Talimat Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi talimatlar.xlsx --hesaplar hesaplar.xlsx --yetkiler imza_yetkileri.xlsx",
+  "girdiler": [
+    "Talimatlar (.xlsx/.csv): Talimat No, Tarih, Tür (EFT/FAST/Havale/Virman), Müşteri No, Gönderen Unvan ve IBAN, Alıcı Unvan ve IBAN, Tutar, Tutar (Yazı), Para Birimi, İmzalayanlar",
+    "İsteğe bağlı müşteri hesapları (Müşteri No, Unvan, IBAN, Para Birimi)",
+    "İsteğe bağlı imza yetkileri (Müşteri No, Yetkili, Yetki Şekli, Limit, Geçerlilik Bitiş)"
+  ],
+  "ciktilar": ["Excel: Özet (hatalı/kontrol/uygun, kontrol alanı bazında bulgu sayısı), Talimatlar (durum, bulgular, 'Kontrol Eden / Onay'), Bulgular"],
+  "internet": false
+}
