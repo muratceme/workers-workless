@@ -1,0 +1,18 @@
+{
+  "id": "fazla-mesai-hesaplama",
+  "tur": "kod",
+  "ad": "Fazla Mesai Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kayitlar pdks.xlsx --personel personel.xlsx",
+  "girdiler": [
+    "Günlük giriş-çıkış kayıtları / PDKS dökümü (.xlsx/.csv): Sicil, Ad Soyad, Tarih, Giriş, Çıkış [, Mola (dk)] — veya Çalışma Saati",
+    "Personel (.xlsx/.csv): Sicil, Aylık Brüt Ücret [, Saat Ücreti, Haftalık Sözleşme Saati, Yıl Başından FM]"
+  ],
+  "ciktilar": ["Excel: personel bazında fazla çalışma (×1,5), fazla sürelerle çalışma (×1,25), genel tatil ücreti, serbest zaman karşılığı, yıllık 270 saat kontrolü; haftalık döküm; günlük kayıtlar (ara dinlenme, 11 saat ve gece 7,5 saat aşımları)"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "puantaj_cekirdek.py": "code-blocks/puantaj-kontrolu/main.py"
+  }
+}

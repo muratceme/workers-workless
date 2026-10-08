@@ -141,3 +141,7 @@ ve erişilebilen toplayıcı sitelerden okunmuştur.
 - Zincirleme merdiven ve Mack standart hatası: Mack, T. (1993) "Distribution-free calculation of the standard error of
   chain ladder reserve estimates", ASTIN Bulletin 23(2); veri Taylor & Ashe (1983), R ChainLadder paketinde GenIns.
   Paket toplam IBNR 18.680.856 ve toplam Mack std. hatası 2.447.095 değerlerini birebir üretir (testli).
+- Fazla mesai: 4857 md. 41 (×1,5 fazla çalışma, ×1,25 fazla sürelerle çalışma, serbest zaman 1 sa 30 dk / 1 sa 15 dk,
+  6 ay, yıllık 270 saat), md. 68 ara dinlenmesi (≤4 sa 15 dk, ≤7,5 sa 30 dk, >7,5 sa 1 sa) — muhasebetr.com, cottgroup.com,
+  kadimhukuk.com.tr. Genel tatil saatlerinin haftalık 45 saate dahil edilmesi konusunda yerleşik içtihat bulunamadı;
+  pakette seçenek (--ubgt-haric) olarak bırakıldı.
