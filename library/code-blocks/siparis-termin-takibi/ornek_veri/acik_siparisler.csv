@@ -1,0 +1,19 @@
+Sipariş No;Satır;Tedarikçi;Malzeme Kodu;Malzeme;Sipariş Tarihi;Termin;Teyit Termini;Sipariş Miktarı;Teslim Alınan;Birim;Birim Fiyat;Para Birimi;İhtiyaç Tarihi
+SA-26-0090;10;Kurgu Kimya Ltd. Şti.;K-5001;Epoksi boya RAL 7035;15.08.2026;01.09.2026;01.09.2026;800;0;kg;9,80;EUR;10.09.2026
+SA-26-0101;10;Örnek Metal San. Ltd. Şti.;M-1001;Sac levha DKP 2 mm;01.09.2026;25.09.2026;25.09.2026;500;200;kg;52,00;TL;
+SA-26-0101;20;Örnek Metal San. Ltd. Şti.;M-1002;Kutu profil 40x40x2;01.09.2026;25.09.2026;30.09.2026;300;0;m;180,00;TL;
+SA-26-0102;10;Kurgu Plastik A.Ş.;P-2001;Kapak PP siyah;02.09.2026;20.09.2026;20.09.2026;10000;10000;adet;1,85;TL;
+SA-26-0105;10;Deneme Elektrik Ltd. Şti.;E-3001;Kontaktör 25A;03.09.2026;01.10.2026;01.10.2026;120;60;adet;38,00;USD;
+SA-26-0105;20;Deneme Elektrik Ltd. Şti.;E-3002;Termik röle 18-25A;03.09.2026;01.10.2026;01.10.2026;120;120;adet;31,50;USD;
+SA-26-0110;10;Örnek Ambalaj A.Ş.;A-4001;Koli 60x40x40 5 kat;05.09.2026;15.09.2026;15.09.2026;3000;0;adet;18,00;TL;
+SA-26-0110;20;Örnek Ambalaj A.Ş.;A-4002;Streç film 50 cm;05.09.2026;15.09.2026;;200;0;rulo;210,00;TL;
+SA-26-0115;10;Örnek Metal San. Ltd. Şti.;M-1003;Lama 30x5;10.09.2026;05.10.2026;;200;0;kg;48,00;TL;
+SA-26-0118;10;Kurgu Plastik A.Ş.;P-2004;Tapa PE beyaz;12.09.2026;02.10.2026;02.10.2026;2000;2100;adet;0,95;TL;
+SA-26-0120;10;Kurgu Plastik A.Ş.;P-2002;Gövde ABS gri;15.09.2026;10.10.2026;10.10.2026;5000;0;adet;14,50;TL;
+SA-26-0121;10;Kurgu Plastik A.Ş.;P-2003;Conta EPDM;15.09.2026;30.10.2026;30.10.2026;8000;0;adet;2,10;TL;
+SA-26-0125;10;Deneme Elektrik Ltd. Şti.;E-3003;PLC giriş modülü;18.09.2026;16.10.2026;23.10.2026;10;0;adet;420,00;USD;20.10.2026
+SA-26-0128;10;Örnek Ambalaj A.Ş.;A-4001;Koli 60x40x40 5 kat;20.09.2026;09.10.2026;09.10.2026;3000;0;adet;18,00;TL;
+SA-26-0130;10;Örnek Metal San. Ltd. Şti.;M-1001;Sac levha DKP 2 mm;22.09.2026;12.10.2026;12.10.2026;400;0;kg;52,00;TL;15.10.2026
+SA-26-0131;10;Kurgu Kimya Ltd. Şti.;K-5002;Selülozik tiner;01.10.2026;20.10.2026;;400;0;lt;3,20;EUR;
+SA-26-0135;10;Deneme Rulman A.Ş.;R-6001;Rulman 6204-2RS;05.10.2026;25.10.2026;;500;0;adet;85,00;TL;
+SA-26-0136;10;Deneme Rulman A.Ş.;R-6002;Rulman 6205-2RS;05.10.2026;;;300;0;adet;96,00;TL;

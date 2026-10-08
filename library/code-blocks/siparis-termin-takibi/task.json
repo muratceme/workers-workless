@@ -1,0 +1,16 @@
+{
+  "id": "siparis-termin-takibi",
+  "tur": "kod",
+  "ad": "Sipariş Termin Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi acik_siparisler.xlsx --gecmis teslimler.xlsx --kur USD=41,20 EUR=48,05",
+  "girdiler": [
+    "Açık siparişler (.xlsx/.csv): Sipariş No, Tedarikçi, Sipariş Miktarı, Termin; Satır, Malzeme, Sipariş Tarihi, Teyit Termini, Teslim Alınan, Birim Fiyat, Para Birimi, İhtiyaç Tarihi isteğe bağlı",
+    "İsteğe bağlı geçmiş teslimler (Tedarikçi, Termin, Teslim Tarihi) — tedarikçinin ortalama gecikmesi için",
+    "Döviz kurları (--kur), rapor tarihi (--tarih)"
+  ],
+  "ciktilar": ["Excel: Özet (tedarikçi bazında açık/geciken tutar, zamanında teslim oranı), Gecikenler (Kritik/Yüksek/Gecikmiş), Gecikme Riski, Termin Takvimi (haftalık), Açık Siparişler, Tedarikçi Hatırlatma (metin taslağı), Kontroller"],
+  "internet": false
+}
