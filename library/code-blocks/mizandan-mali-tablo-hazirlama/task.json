@@ -1,0 +1,18 @@
+{
+  "id": "mizandan-mali-tablo-hazirlama",
+  "tur": "kod",
+  "ad": "Mizandan Mali Tablo Hazırlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --mizan mizan_2026.xlsx --onceki mizan_2025.xlsx --unvan \"Örnek A.Ş.\"",
+  "girdiler": [
+    "Cari dönem mizanı (.xlsx/.csv, Tekdüzen Hesap Planı): Hesap Kodu, Hesap Adı ve Borç/Alacak Bakiye (veya Borç/Alacak ya da Bakiye)",
+    "İsteğe bağlı: önceki dönem mizanı (karşılaştırmalı tablo)"
+  ],
+  "ciktilar": ["Excel: MSUGT biçiminde ayrıntılı bilanço (aktif, pasif) ve gelir tablosu, karşılaştırmalı; ters bakiye virmanları; denklik ve kapanış uyarıları"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "mizan_cekirdek.py": "code-blocks/mizan-kontrolu/main.py"
+  }
+}
