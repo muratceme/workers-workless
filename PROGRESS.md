@@ -113,12 +113,22 @@
   18.680.856 / Mack 2.447.095 birebir), `fazla-mesai-hesaplama` (puantaj çekirdeğini kullanır; UBGT saatlerinin 45 saate
   dahil edilmesi tartışmalı → --ubgt-haric seçeneği), `ilk-dagitim-alokasyon-plani`.
 - **Toplam 55 paket**, kontrol 55/55.
+- Devam: `siparis-termin-plani-t-a` (geriye planlama + ileri tahmin; puantaj takvim çekirdeği), `urun-sorusu-cevap-taslagi`
+  (agent; SSS arama çekirdeğini kullanır; iletişim bilgisi/uydurma sayı/teslim sözü kodla yakalanır),
+  `performans-degerlendirme-ozeti` (agent; puanlar koddan, takma ad P1/Y1, değerlendirici eğilimi; ortak ayrımcılık
+  tarayıcısına değerlendirme yorumu desenleri eklendi: "yaşı gereği", "çocuklu olduğu için", "sağlık sorunları nedeniyle",
+  "doğum iznine çıkacağı" — iş ilanı yanlış alarmları test edildi), `sinav-sonuc-ve-madde-analizi` (p, d, r, KR-20 elle
+  hesapla test), `zafiyet-tarama-onceliklendirme` (KEV + EPSS + CVSS + varlık; örnek CVE'ler kurgusal CVE-2099-…),
+  `yaptirim-listesi-taramasi` (BM XML yapısı resmî dosyadan doğrulandı; Türkçe/transliterasyon normalleştirme).
+- **Ders:** test ve commit'i `&&` ile zincirle (bir kez `;` yüzünden kırık commit push edildi, hemen düzeltildi).
+  Python heredoc'ta `` yazınca dosyaya backspace () düşebiliyor — regex düzenlemelerini Edit aracıyla yap.
+- **Toplam 61 paket**, kontrol 61/61.
 
 ### KALDIĞIM YER
-Sıradaki (puanı yüksek, paketsiz): Sipariş Termin Planı (T&A), Ürün Sorusu Cevap Taslağı (agent), Performans
-Değerlendirme Özeti (agent), Konsolide Finansal Rapor, Toplu Ürün Yükleme Şablonu, Kesim Kat Planı, Taşeron Hakediş
-Kontrolü, Gece Denetimi, Sınav Madde Analizi… (puan 4-5 olanlar). Sağlık/SGK faturası ve epikriz gibi görevler mevzuat
-ve klinik risk nedeniyle sona bırakıldı.
+Sıradaki (paketsiz, puan 4-5): Kesim Kat Planı, Koli Listesi (Packing List), Satış Hedef-Gerçekleşme Raporu, Reklam
+Kampanyası Performans Raporu, Hasar Sıklık ve Şiddet Analizi, Otomatik Sevkiyat (Replenishment), Erken Uyarı Sinyalleri,
+Taşeron Hakediş Kontrolü, Gece Denetimi (Night Audit), Konsolide Finansal Rapor, Kredi Teklif Dosyası (agent), Teknik Föy
+(agent), Şikâyet Analizi (agent), İhale Dokümanı Özeti (agent)… Sağlık/SGK faturası ve epikriz sona bırakıldı.
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notu: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde).
 Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` → commit + push.
