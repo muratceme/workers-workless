@@ -143,9 +143,25 @@
   yazıldı (çekirdeğe dokunulmadı; ileride çekirdekte düzeltilebilir).
 - **Toplam 73 paket**, kontrol 73/73.
 
+- Devam (2026-10-08, 2. tur): `sikayet-analizi` (agent; konu listesi verilmezse model örneklemle 5-12 konu önerir,
+  sonra 25'lik paketlerle sınıflar; eğilim/Pareto/hedef süre/30 gün tekrar koddan; listede olmayan konu → "Diğer"),
+  `ihale-dokumani-ozeti` (agent; her kalem kaynak madde + birebir alıntı, kod alıntıyı belgede arar; işin süresi ve günlük
+  gecikme cezası belgeler arası çelişki taraması; özette atlanan konu taraması; --teklif ile teminat/iş deneyimi/ciro/ceza
+  tutarları; örnek ihale kurgusal, 300↔330 gün çelişkisi bilerek), `siparis-termin-takibi` (teyit termini esas; 1-7/8-30/30+
+  öncelik; geçmiş teslimlerden ort. gecikme → tahmini teslim; ihtiyaç tarihi riski; tedarikçi hatırlatma metni taslağı),
+  `musteri-talimat-kontrolu` (IBAN mod 97 + TR rezerv hane; bitişik Türkçe yazıyla tutar ayrıştırıcı; havale/virman/EFT tür
+  kuralları, EFT yalnız TL; münferit/müşterek imza + limit + süresi dolmuş yetki; mükerrer), `toplu-urun-yukleme-sablonu-hazirlama`
+  (belirli pazaryeri taklit edilmez: JSON eşleştirme + kullanıcının indirdiği şablon; GTIN kontrol hanesi, varyant tekrarı,
+  KDV 18 → izinsiz; .xlsx şablon kopyalanıp doldurulur).
+- **Ders:** `;` ayırıcılı CSV'de çoklu değer (görsel listesi, imzalayanlar) için `|` / `,` kullan — aynı ayırıcı sütunu böler.
+  Windows'ta Python write_text CRLF yazar (git normalize ediyor, sorun değil).
+- **Toplam 78 paket**, kontrol 78/78.
+
 ### KALDIĞIM YER
-Sıradaki (paketsiz, puan 4-5): Şikâyet Analizi (agent), İhale Dokümanı Özeti (agent)… Sağlık/SGK faturası ve epikriz
-sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
+Sıradaki (paketsiz, puan 4): Log Anomali Tespiti, Resmî Yazı (Haciz/Müzekkere) Takibi, Portföy Müşteri Fırsat Listesi,
+Firma İstihbarat Raporu Derleme (agent), Geri Ödeme Kapasitesi Analizi, Kredi Komitesi Değerlendirme Notu (agent), Şube
+Teftiş Veri Analizi… Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı
+anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);
 mizan çekirdeği para() "750.000" binlik yazımı.
