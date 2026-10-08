@@ -1,0 +1,21 @@
+{
+  "id": "hasta-iletisim-mesaji-cevirisi",
+  "tur": "agent",
+  "ad": "Hasta İletişim Mesajı Çevirisi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./gelen_kutusu",
+  "girdiler": [
+    "mesajlar/ klasörü: her hasta mesajı ayrı .txt/.docx/.pdf/.eml dosyası (isteğe bağlı başlık satırları: 'Hasta:', 'Tarih:')",
+    "kurum_bilgileri.txt: cevaplarda kullanılabilecek kurum bilgileri (transfer, tercümanlık, süreç)",
+    "terimce.csv (isteğe bağlı): Kaynak Terim, Türkçe",
+    ".env: sağlayıcı ve API anahtarı (sağlık verisi için yerel model önerilir)"
+  ],
+  "ciktilar": ["Mesaj başına Markdown: Türkçe çeviri, talepler, cevap taslağı (hastanın dilinde) ve Türkçe karşılığı", "Excel: Mesajlar (aciliyete göre, 'Koordinatör Onayı'), Terimler, Kontroller"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

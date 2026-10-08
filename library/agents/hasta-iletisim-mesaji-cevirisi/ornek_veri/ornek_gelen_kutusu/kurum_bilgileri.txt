@@ -1,0 +1,7 @@
+Örnek Hastanesi Uluslararası Hasta Merkezi (kurgusal kurum)
+- Havalimanı, hastane ve otel arasındaki transfer uluslararası hastalarımız için ücretsizdir.
+- Tercümanlık hizmeti İngilizce, Almanca, Rusça ve Arapça dillerinde verilir.
+- Fiyat teklifi, doktor değerlendirmesinden sonra koordinatör tarafından yazılı olarak iletilir.
+- Tedavi planı ve İstanbul'da kalış süresi doktor değerlendirmesinden sonra belirlenir.
+- Değerlendirme için son 6 ay içindeki tetkik sonuçları (MR, kan tahlili, ilaç listesi) e-posta ile istenir.
+- Uluslararası Hasta Merkezi 7/24 ulaşılabilir.
