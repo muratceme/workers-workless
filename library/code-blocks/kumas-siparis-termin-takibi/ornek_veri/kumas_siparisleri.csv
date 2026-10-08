@@ -1,0 +1,7 @@
+Kumaş Sipariş No;Tedarikçi;Kumaş;Renk;Tip;Miktar;Birim;Bağlı Sipariş;Sipariş Tarihi;Termin;Lab Dip Onayı;İplik Temini;Örme;Dokuma;Boyama;Apre / Fikse;Kalite Kontrol;Sevk;Teslim Alınan Miktar;Teslim Tarihi
+KS-101;Tedarikçi A Örme;Süprem 30/1;Lacivert;Örme;2900;kg;PO-501;01.09.2026;05.10.2026;10.09.2026;06.09.2026;15.09.2026;;25.09.2026;29.09.2026;01.10.2026;03.10.2026;2900;03.10.2026
+KS-102;Tedarikçi A Örme;Ribana 1x1;Lacivert;Örme;200;kg;PO-501;01.09.2026;06.10.2026;10.09.2026;08.09.2026;20.09.2026;;;;;;;
+KS-103;Tedarikçi B Örme;3 iplik şardonlu;Gri melanj;Örme;3600;kg;PO-502;05.09.2026;12.10.2026;12.09.2026;12.09.2026;25.09.2026;;03.10.2026;;;;;
+KS-104;Tedarikçi B Örme;Ribana 2x2;Gri melanj;Örme;400;kg;PO-502;05.09.2026;15.10.2026;;14.09.2026;28.09.2026;;;;;;;
+KS-105;Tedarikçi C Dokuma;Viskon krep;Siyah;Dokuma;4900;m;PO-503;20.08.2026;04.10.2026;28.08.2026;;;20.09.2026;28.09.2026;01.10.2026;03.10.2026;05.10.2026;4550;06.10.2026
+KS-106;Tedarikçi A Örme;Pike;Beyaz;Örme;1500;kg;PO-504;25.09.2026;25.10.2026;30.09.2026;;;;;;;;;

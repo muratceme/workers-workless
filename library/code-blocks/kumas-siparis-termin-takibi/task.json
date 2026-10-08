@@ -1,0 +1,16 @@
+{
+  "id": "kumas-siparis-termin-takibi",
+  "tur": "kod",
+  "ad": "Kumaş Sipariş Termin Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kumaslar kumas_siparisleri.xlsx --sureler asama_sureleri.csv --siparisler siparisler.xlsx",
+  "girdiler": [
+    "Kumaş siparişleri (.xlsx/.csv): Kumaş Sipariş No, Tedarikçi, Kumaş, Renk, Tip (Örme/Dokuma), Miktar, Birim, Bağlı Sipariş, Sipariş Tarihi, Termin, Lab Dip Onayı, aşama gerçekleşen tarihleri (İplik Temini, Örme / Dokuma, Boyama, Apre / Fikse, Kalite Kontrol, Sevk), Teslim Alınan Miktar, Teslim Tarihi",
+    "Aşama süreleri (düzenlenebilir): Tip, Aşama, Süre (gün)",
+    "İsteğe bağlı: konfeksiyon siparişleri (Sipariş No, Model, Planlanan Kesim Tarihi, Sevk Tarihi)"
+  ],
+  "ciktilar": ["Excel: Sipariş Etkisi (kritik kumaş, kesim / sevk kayması), Kumaş Durumu (mevcut aşama, tahmini teslim, termin farkı), Aşama Matrisi (gerçekleşen / tahmini), Tedarikçi Performansı, Uyarılar"],
+  "internet": false
+}
