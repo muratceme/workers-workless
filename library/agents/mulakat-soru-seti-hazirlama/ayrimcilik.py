@@ -1,5 +1,5 @@
 """
-ayrimcilik.py — Workers / Workless ortak ayrımcı ifade tarayıcısı (iş ilanı, mülakat soruları)
+ayrimcilik.py — Workers / Workless ortak ayrımcı ifade tarayıcısı (iş ilanı, mülakat, performans yorumları)
 
 Kaynağı: library/_ortak/ayrimcilik.py; paket klasörlerindeki kopyalar CI tarafından bununla aynı tutulur.
 
@@ -40,6 +40,14 @@ KURALLAR = [
     ("yüksek", "Etnik köken ve dil", r"(?:\bırk(?:ı|ınız)?\b|etnik köken|\bkürt|türk asıllı|nerelisiniz|memleketiniz|hemşehri|aslen nereli)",
      "Etnik köken / köken sorusu"),
     ("dikkat", "Etnik köken ve dil", r"(?:anadili|ana dili)", "Anadili şartı (işin gereği değilse dil yeterliliği yazın)"),
+    # Değerlendirme yorumlarında (mülakat, performans) korunan özelliği gerekçe gösteren ifadeler
+    ("yüksek", "Yaş", r"\byaş\w*\s+(?:gereği|nedeniyle|yüzünden|sebebiyle|dolayı|itibarıyla|ilerle)", "Yaşı gerekçe gösteren değerlendirme"),
+    ("yüksek", "Yaş", r"\b(?:genç|yaşlı|ileri yaşta) olduğu(?:ndan| için)|\bemekliliğ\w* (?:yaklaş|yakın)", "Yaşa dayalı değerlendirme"),
+    ("yüksek", "Sağlık ve engellilik", r"(?:sağlık\s+(?:sorun|problem|durum)\w*|hastalı\w+|rahatsızlı\w+|engel(?:li|i|lili)\w*)\s+"
+                                       r"(?:nedeniyle|yüzünden|sebebiyle|dolayı)|raporlu (?:olduğu|kaldığı)", "Sağlık / engellilik gerekçesi"),
+    ("yüksek", "Medeni hâl ve aile", r"\b(?:çocuklu|anne|baba) olduğu(?:ndan| için)|\bannelik\b|doğum izn\w*\s+(?:nedeniyle|yüzünden|çıkacağı)",
+     "Aile durumu / doğum izni gerekçesi"),
+    ("dikkat", "Yasal haklar", r"(?:sık|çok|fazla)\s+(?:izin|rapor)\s+(?:kullan|al)", "Yasal izin/rapor kullanımı performans ölçütü olmamalı"),
     ("yüksek", "Siyasi görüş ve sendika", r"(?:siyasi görüş|hangi partiy|parti üyeliği|sendika üye|sendikalı|sendikaya)", "Siyasi görüş / sendika üyeliği"),
     ("dikkat", "Askerlik", r"askerli(?:ğini|k)\s*(?:yapmış|tamamlamış|ile ilişiği|ilişiği|durumu|tecilli|muaf)", "Askerlik şartı (dolaylı cinsiyet ayrımı riski)"),
     ("dikkat", "Uyruk", r"(?:t\.?c\.? vatandaşı|türk vatandaşı|uyruklu|vatandaşı olmak)", "Uyruk şartı (yasal zorunluluk yoksa)"),

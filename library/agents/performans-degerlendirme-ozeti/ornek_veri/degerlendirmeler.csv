@@ -1,0 +1,37 @@
+Sicil;Ad Soyad;Departman;Yönetici;Tür;Kalem;Ağırlık;Puan;Öz Puan;Yorum
+1001;Elif Arslan;Satış;Murat Kılıç;Hedef;Yıllık satış hedefi (32 milyon TL);50;5;4;Hedefin %118'ini gerçekleştirdi, iki yeni kurumsal müşteri kazandı.
+1001;Elif Arslan;Satış;Murat Kılıç;Hedef;Tahsilat süresi (ort. 45 gün);30;4;4;Ortalama tahsil süresini 52 günden 44 güne indirdi.
+1001;Elif Arslan;Satış;Murat Kılıç;Hedef;CRM kayıt disiplini;20;4;5;Görüşmelerin büyük kısmını CRM'e zamanında girdi.
+1001;Elif Arslan;Satış;Murat Kılıç;Yetkinlik;Müşteri odaklılık;40;5;5;Müşteri şikâyetlerini hızla çözdü, memnuniyet anketinde ekibin en yüksek puanı.
+1001;Elif Arslan;Satış;Murat Kılıç;Yetkinlik;Takım çalışması;30;4;4;Yeni katılan iki arkadaşına mentorluk yaptı.
+1001;Elif Arslan;Satış;Murat Kılıç;Yetkinlik;Planlama;30;4;3;Ziyaret planlarını haftalık hazırladı.
+1002;Can Öztürk;Satış;Murat Kılıç;Hedef;Yıllık satış hedefi (28 milyon TL);50;3;4;Hedefin %92'sini gerçekleştirdi; ikinci yarıda toparlandı.
+1002;Can Öztürk;Satış;Murat Kılıç;Hedef;Tahsilat süresi (ort. 45 gün);30;2;4;Ortalama tahsil süresi 61 gün; vadesi geçen alacak takibi zayıf.
+1002;Can Öztürk;Satış;Murat Kılıç;Hedef;CRM kayıt disiplini;20;3;3;Kayıtlar çoğunlukla gecikmeli.
+1002;Can Öztürk;Satış;Murat Kılıç;Yetkinlik;Müşteri odaklılık;40;4;4;Müşterilerle ilişkisi iyi, yeniden satın alma oranı yüksek.
+1002;Can Öztürk;Satış;Murat Kılıç;Yetkinlik;Takım çalışması;30;3;4;Bilgi paylaşımı sınırlı.
+1002;Can Öztürk;Satış;Murat Kılıç;Yetkinlik;Planlama;30;2;4;Ziyaret planları düzensiz; son dakika değişiklikleri sık.
+1003;Zeynep Kaya;Satış;Murat Kılıç;Hedef;Yıllık satış hedefi (30 milyon TL);50;3;3;Hedefin %97'sini gerçekleştirdi.
+1003;Zeynep Kaya;Satış;Murat Kılıç;Hedef;Tahsilat süresi (ort. 45 gün);30;3;3;Ortalama tahsil süresi 47 gün.
+1003;Zeynep Kaya;Satış;Murat Kılıç;Hedef;CRM kayıt disiplini;20;4;4;Kayıtlar düzenli.
+1003;Zeynep Kaya;Satış;Murat Kılıç;Yetkinlik;Müşteri odaklılık;40;3;4;Hamile kaldığından beri müşteri ziyaretlerini azalttı, doğum iznine çıkacağı için büyük müşteriler devredildi.
+1003;Zeynep Kaya;Satış;Murat Kılıç;Yetkinlik;Takım çalışması;30;4;4;Ekip içi iletişimi güçlü.
+1003;Zeynep Kaya;Satış;Murat Kılıç;Yetkinlik;Planlama;30;3;3;Planlarını genelde uyguladı.
+1004;Mehmet Şahin;Muhasebe;Ayşe Yıldız;Hedef;Ay sonu kapanış süresi (5 iş günü);40;4;4;Kapanışı ortalama 4,5 iş gününde tamamladı.
+1004;Mehmet Şahin;Muhasebe;Ayşe Yıldız;Hedef;Mutabakat farklarının kapatılması;40;4;4;Cari mutabakat farklarının %90'ını kapattı.
+1004;Mehmet Şahin;Muhasebe;Ayşe Yıldız;Hedef;e-Fatura kayıt hataları;30;5;5;Hata oranını sıfıra yakın tuttu.
+1004;Mehmet Şahin;Muhasebe;Ayşe Yıldız;Yetkinlik;Doğruluk ve titizlik;50;5;5;Denetimde bulgu çıkmadı.
+1004;Mehmet Şahin;Muhasebe;Ayşe Yıldız;Yetkinlik;Değişime uyum;50;3;4;Yaşı gereği yeni ERP modülüne geç uyum sağladı.
+1005;Selin Aydın;Muhasebe;Ayşe Yıldız;Hedef;Ay sonu kapanış süresi (5 iş günü);40;3;4;Kapanış ortalama 5 iş günü.
+1005;Selin Aydın;Muhasebe;Ayşe Yıldız;Hedef;Mutabakat farklarının kapatılması;40;3;3;Farkların %75'i kapatıldı.
+1005;Selin Aydın;Muhasebe;Ayşe Yıldız;Hedef;e-Fatura kayıt hataları;20;4;4;Hatalar azaldı.
+1005;Selin Aydın;Muhasebe;Ayşe Yıldız;Yetkinlik;Doğruluk ve titizlik;50;3;3;Küçük kayıt hataları tekrarladı.
+1005;Selin Aydın;Muhasebe;Ayşe Yıldız;Yetkinlik;Değişime uyum;50;4;4;Yeni ERP modülünü ekibe tanıttı.
+1006;Burak Demir;Lojistik;Okan Er;Hedef;Zamanında sevkiyat oranı (%95);60;5;4;Zamanında sevkiyat %98.
+1006;Burak Demir;Lojistik;Okan Er;Hedef;Depo sayım farkı;40;5;5;Sayım farkı %0,2'nin altında.
+1006;Burak Demir;Lojistik;Okan Er;Yetkinlik;Problem çözme;50;5;5;Rampa planlamasını yeniden düzenledi.
+1006;Burak Demir;Lojistik;Okan Er;Yetkinlik;Takım çalışması;50;5;4;Vardiya ekipleriyle uyumlu.
+1007;Deniz Koç;Lojistik;Okan Er;Hedef;Zamanında sevkiyat oranı (%95);60;5;3;Zamanında sevkiyat %94.
+1007;Deniz Koç;Lojistik;Okan Er;Hedef;Depo sayım farkı;40;5;3;Sayım farkı %0,6.
+1007;Deniz Koç;Lojistik;Okan Er;Yetkinlik;Problem çözme;50;4;3;Günlük sorunları çözdü.
+1007;Deniz Koç;Lojistik;Okan Er;Yetkinlik;Takım çalışması;50;5;4;Sorun yok.

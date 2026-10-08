@@ -1,0 +1,19 @@
+{
+  "id": "performans-degerlendirme-ozeti",
+  "tur": "agent",
+  "ad": "Performans Değerlendirme Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi degerlendirmeler.xlsx --hedef-agirligi 60",
+  "girdiler": [
+    "Değerlendirme formları (.xlsx/.csv): Sicil, Ad Soyad, Departman, Yönetici, Tür (Hedef/Yetkinlik), Kalem, Ağırlık, Puan (1-5) [, Öz Puan], Yorum",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Çalışan Özeti (koddan puan ve kategori; modelden güçlü yönler, gelişim alanları, öneriler, görüşme notları; uyarılar, 'İK Onayı'), Dağılım (grafik, departman), Değerlendiriciler (eğilim), Kalem Detayı, yazdırılabilir Özet Kartları"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "ayrimcilik.py": "_ortak/ayrimcilik.py"
+  }
+}
