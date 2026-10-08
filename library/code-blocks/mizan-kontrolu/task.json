@@ -1,0 +1,15 @@
+{
+  "id": "mizan-kontrolu",
+  "tur": "kod",
+  "ad": "Mizan Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --mizan eylul.xlsx --onceki agustos.xlsx",
+  "girdiler": [
+    "Aylık mizan (.xlsx/.csv): Hesap Kodu, Hesap Adı, Borç, Alacak, Borç Bakiye, Alacak Bakiye (en az bakiye sütunları)",
+    "İsteğe bağlı: önceki ay mizanı (aynı biçim)"
+  ],
+  "ciktilar": ["Excel: özet (denklik, seviyelere göre bulgu sayısı), bulgular (ters bakiye, mantık, değişim; açıklama ve öneri), ana hesaplar karşılaştırması"],
+  "internet": false
+}
