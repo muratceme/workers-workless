@@ -1,0 +1,5 @@
+Kural;Rol A;Rol B;Risk
+Ödeme hazırlama ve onaylama;Ödeme Hazırlama;Ödeme Onayı*;Aynı kişi ödeme talimatını hazırlayıp onaylayabilir
+Muhasebe kaydı ve ödeme onayı;Muhasebe Kayıt;Ödeme Onayı*;Kayıt atan kişi ödemeyi de onaylayabilir
+Tedarikçi açma ve sipariş;Tedarikçi Kartı Açma;Satın Alma Siparişi;Sahte tedarikçi açıp sipariş verilebilir
+Sipariş ve mal kabul;Satın Alma Siparişi;Mal Kabul;Sipariş veren teslimatı da onaylayabilir

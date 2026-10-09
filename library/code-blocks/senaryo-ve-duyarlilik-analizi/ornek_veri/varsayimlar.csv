@@ -1,0 +1,20 @@
+Parametre;Değer;Açıklama
+Satış hacmi;120000;adet / yıl
+İhracat payı;%40;hacmin yurt dışına satılan kısmı
+Yurt içi birim fiyat;2350;TL
+İhracat birim fiyatı;52;EUR
+EUR/TRY;48,50;dönem ortalama kuru
+EUR/TRY dönem başı;47,00;net döviz pozisyonu kur farkı için
+USD/TRY;41,80;
+Birim ithal hammadde;18;USD
+Birim yerli değişken maliyet;520;TL
+Personel gideri;38000000;TL / yıl
+Diğer sabit giderler;21000000;TL / yıl
+Amortisman;9500000;TL / yıl
+TL kredi;40000000;TL
+TL faiz oranı;%42;yıllık
+EUR kredi;1500000;EUR
+EUR faiz oranı;%7;yıllık
+Net EUR pozisyonu;-900000;EUR (varlık − borç)
+Yatırım harcaması;12000000;TL / yıl
+Vergi oranı;%25;

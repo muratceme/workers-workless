@@ -1,0 +1,15 @@
+{
+  "id": "kvkk-kisisel-veri-isleme-envanteri",
+  "tur": "kod",
+  "ad": "KVKK Kişisel Veri İşleme Envanteri",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --formlar departman_formlari.xlsx --departmanlar departmanlar.csv",
+  "girdiler": [
+    "Departman veri işleme formları (.xlsx/.csv): Departman, Süreç, Veri Konusu Kişi Grubu, Veri Kategorisi, Veri Alanları, Özel Nitelikli, İşleme Amacı, Hukuki Sebep, Toplama Yöntemi, Saklama Ortamı, Saklama Süresi, Süre Dayanağı, Alıcı Grupları, Yurt Dışı Aktarım, Aktarım Ülkesi, Aktarım Dayanağı, Teknik Tedbirler, İdari Tedbirler",
+    "İsteğe bağlı departman listesi (formu gelmeyenler için)"
+  ],
+  "ciktilar": ["Excel: Bulgular, Envanter (KVKK maddesiyle), Özel Nitelikli Veriler, Yurt Dışı Aktarımlar, Saklama ve İmha, Kategori Özeti, Departman Durumu"],
+  "internet": false
+}

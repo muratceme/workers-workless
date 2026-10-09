@@ -1,0 +1,15 @@
+{
+  "id": "yatirim-fizibilitesi-npv-irr",
+  "tur": "kod",
+  "ad": "Yatırım Fizibilitesi (NPV/IRR)",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --akislar nakit_akislari.xlsx --iskonto 35 --vergi 25",
+  "girdiler": [
+    "Yıllık nakit akışları (.xlsx/.csv): Yıl, Yatırım Harcaması, Gelir, Nakit Gider, Amortisman, İşletme Sermayesi Değişimi, Hurda Değeri — veya doğrudan Nakit Akışı",
+    "İskonto oranı, vergi oranı, akış türü (nominal/reel) ve enflasyon, MIRR oranları"
+  ],
+  "ciktilar": ["Excel: Özet (NBD, İVO, MIRR, kârlılık endeksi, basit ve iskontolu geri dönüş), Nakit Akışı (vergi ve zarar mahsubu), Duyarlılık (grafik), Varsayımlar, Uyarılar"],
+  "internet": false
+}

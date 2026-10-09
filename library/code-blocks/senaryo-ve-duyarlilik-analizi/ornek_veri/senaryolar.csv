@@ -1,0 +1,14 @@
+Senaryo;Parametre;Değişim;Değer
+İyimser;Satış hacmi;%;8
+İyimser;EUR/TRY;%;5
+İyimser;USD/TRY;%;5
+İyimser;TL faiz oranı;puan;-5
+Kötümser;Satış hacmi;%;-12
+Kötümser;EUR/TRY;%;15
+Kötümser;USD/TRY;%;18
+Kötümser;Birim yerli değişken maliyet;%;10
+Kötümser;TL faiz oranı;puan;8
+Kur şoku;EUR/TRY;%;25
+Kur şoku;USD/TRY;%;25
+İhracat odaklı;İhracat payı;=;55
+İhracat odaklı;Yurt içi birim fiyat;%;-3

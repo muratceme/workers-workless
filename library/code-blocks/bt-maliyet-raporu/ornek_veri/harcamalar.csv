@@ -1,0 +1,50 @@
+Tarih;Tedarikçi;Kalem;Kategori;Birim;Tutar;Döviz;Kur;Dönem Tipi;Sözleşme Bitiş
+05.01.2026;Örnek Bulut Hizmetleri;Bulut sunucu ve depolama (aylık kullanım);;Bilgi İşlem;2400;USD;39,5;Aylık;
+05.01.2026;Örnek Telekom AŞ;Kurumsal internet hattı;;Genel;18500;TRY;;Aylık;31.12.2026
+05.01.2026;Örnek Telekom AŞ;Mobil hat paketi;;Satış;9200;TRY;;Aylık;31.12.2026
+05.01.2026;Örnek Destek Ltd.;Yardım masası dış kaynak hizmeti;;Bilgi İşlem;42000;TRY;;Aylık;30.06.2027
+10.01.2026;Örnek Yazılım Bayi;Microsoft 365 Business Standard yıllık abonelik (120 kullanıcı);Lisans;Genel;15840;USD;39,5;Yıllık;10.01.2027
+15.01.2026;Örnek ERP AŞ;ERP lisans bakım bedeli;;Finans;360000;TRY;;Yıllık;15.01.2027
+05.02.2026;Örnek Bulut Hizmetleri;Bulut sunucu ve depolama (aylık kullanım);;Bilgi İşlem;2450;USD;39,9;Aylık;
+05.02.2026;Örnek Telekom AŞ;Kurumsal internet hattı;;Genel;18500;TRY;;Aylık;31.12.2026
+05.02.2026;Örnek Telekom AŞ;Mobil hat paketi;;Satış;9200;TRY;;Aylık;31.12.2026
+05.02.2026;Örnek Destek Ltd.;Yardım masası dış kaynak hizmeti;;Bilgi İşlem;42000;TRY;;Aylık;30.06.2027
+05.03.2026;Örnek Bulut Hizmetleri;Bulut sunucu ve depolama (aylık kullanım);;Bilgi İşlem;2500;USD;40,2;Aylık;
+05.03.2026;Örnek Telekom AŞ;Kurumsal internet hattı;;Genel;18500;TRY;;Aylık;31.12.2026
+05.03.2026;Örnek Telekom AŞ;Mobil hat paketi;;Satış;9200;TRY;;Aylık;31.12.2026
+05.03.2026;Örnek Destek Ltd.;Yardım masası dış kaynak hizmeti;;Bilgi İşlem;42000;TRY;;Aylık;30.06.2027
+12.03.2026;Örnek Bilgisayar Ltd.;Dizüstü bilgisayar (8 adet);;Satış;344000;TRY;;Tek seferlik;
+20.03.2026;Örnek CAD Yazılım;CAD yazılımı yıllık abonelik (10 kullanıcı);;Ar-Ge;9800;EUR;46,63;Yıllık;20.03.2027
+05.04.2026;Örnek Bulut Hizmetleri;Bulut sunucu ve depolama (aylık kullanım);;Bilgi İşlem;2600;USD;40,5;Aylık;
+05.04.2026;Örnek Telekom AŞ;Kurumsal internet hattı;;Genel;18500;TRY;;Aylık;31.12.2026
+05.04.2026;Örnek Telekom AŞ;Mobil hat paketi;;Satış;9200;TRY;;Aylık;31.12.2026
+05.04.2026;Örnek Destek Ltd.;Yardım masası dış kaynak hizmeti;;Bilgi İşlem;42000;TRY;;Aylık;30.06.2027
+05.05.2026;Örnek Bulut Hizmetleri;Bulut sunucu ve depolama (aylık kullanım);;Bilgi İşlem;2650;USD;40,8;Aylık;
+05.05.2026;Örnek Telekom AŞ;Kurumsal internet hattı;;Genel;18500;TRY;;Aylık;31.12.2026
+05.05.2026;Örnek Telekom AŞ;Mobil hat paketi;;Satış;9200;TRY;;Aylık;31.12.2026
+05.05.2026;Örnek Destek Ltd.;Yardım masası dış kaynak hizmeti;;Bilgi İşlem;42000;TRY;;Aylık;30.06.2027
+08.05.2026;Örnek Güvenlik AŞ;Güvenlik duvarı lisans yenileme;;Bilgi İşlem;6200;USD;;Yıllık;08.05.2027
+22.05.2026;Örnek Danışmanlık;Sızma testi hizmeti;;Bilgi İşlem;185000;TRY;;Tek seferlik;
+05.06.2026;Örnek Bulut Hizmetleri;Bulut sunucu ve depolama (aylık kullanım);;Bilgi İşlem;2700;USD;41,0;Aylık;
+05.06.2026;Örnek Telekom AŞ;Kurumsal internet hattı;;Genel;18500;TRY;;Aylık;31.12.2026
+05.06.2026;Örnek Telekom AŞ;Mobil hat paketi;;Satış;9200;TRY;;Aylık;31.12.2026
+05.06.2026;Örnek Destek Ltd.;Yardım masası dış kaynak hizmeti;;Bilgi İşlem;42000;TRY;;Aylık;30.06.2027
+18.06.2026;Örnek Tasarım SaaS;Tasarım aracı aylık abonelik (kredi kartı);;Pazarlama;340;USD;41,0;Aylık;
+05.07.2026;Örnek Bulut Hizmetleri;Bulut sunucu ve depolama (aylık kullanım);;Bilgi İşlem;3900;USD;41,2;Aylık;
+05.07.2026;Örnek Telekom AŞ;Kurumsal internet hattı;;Genel;18500;TRY;;Aylık;31.12.2026
+05.07.2026;Örnek Telekom AŞ;Mobil hat paketi;;Satış;9200;TRY;;Aylık;31.12.2026
+05.07.2026;Örnek Destek Ltd.;Yardım masası dış kaynak hizmeti;;Bilgi İşlem;42000;TRY;;Aylık;30.06.2027
+03.07.2026;Örnek Sunucu Ltd.;Sunucu disk ve bellek yükseltme;;Bilgi İşlem;128500;TRY;;Tek seferlik;
+18.07.2026;Örnek Tasarım SaaS;Tasarım aracı aylık abonelik (kredi kartı);;Pazarlama;340;USD;41,2;Aylık;
+05.08.2026;Örnek Bulut Hizmetleri;Bulut sunucu ve depolama (aylık kullanım);;Bilgi İşlem;2750;USD;41,5;Aylık;
+05.08.2026;Örnek Telekom AŞ;Kurumsal internet hattı;;Genel;18500;TRY;;Aylık;31.12.2026
+05.08.2026;Örnek Telekom AŞ;Mobil hat paketi;;Satış;9200;TRY;;Aylık;31.12.2026
+05.08.2026;Örnek Destek Ltd.;Yardım masası dış kaynak hizmeti;;Bilgi İşlem;42000;TRY;;Aylık;30.06.2027
+18.08.2026;Örnek Tasarım SaaS;Tasarım aracı aylık abonelik (kredi kartı);;Pazarlama;340;USD;41,5;Aylık;
+19.08.2026;Örnek Tasarım SaaS;Tasarım aracı aylık abonelik (kredi kartı);;Satış;340;USD;41,5;Aylık;
+05.09.2026;Örnek Bulut Hizmetleri;Bulut sunucu ve depolama (aylık kullanım);;Bilgi İşlem;2800;USD;41,8;Aylık;
+05.09.2026;Örnek Telekom AŞ;Kurumsal internet hattı;;Genel;18500;TRY;;Aylık;31.12.2026
+05.09.2026;Örnek Telekom AŞ;Mobil hat paketi;;Satış;9200;TRY;;Aylık;31.12.2026
+05.09.2026;Örnek Destek Ltd.;Yardım masası dış kaynak hizmeti;;Bilgi İşlem;42000;TRY;;Aylık;30.06.2027
+18.09.2026;Örnek Tasarım SaaS;Tasarım aracı aylık abonelik (kredi kartı);;Pazarlama;340;USD;41,8;Aylık;
+19.09.2026;Örnek Tasarım SaaS;Tasarım aracı aylık abonelik (kredi kartı);;Satış;340;USD;41,8;Aylık;

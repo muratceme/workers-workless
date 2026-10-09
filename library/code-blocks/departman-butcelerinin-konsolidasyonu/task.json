@@ -1,0 +1,16 @@
+{
+  "id": "departman-butcelerinin-konsolidasyonu",
+  "tur": "kod",
+  "ad": "Departman Bütçelerinin Konsolidasyonu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --klasor butceler/ --hesap-plani hesap_plani.xlsx --tavanlar tavanlar.xlsx",
+  "girdiler": [
+    "Departman bütçe şablonları klasörü (.xlsx): Departman etiketi, Hesap Kodu, Gider Kalemi, Ocak … Aralık, Toplam, Açıklama",
+    "İsteğe bağlı hesap planı (Hesap Kodu, Hesap Adı)",
+    "İsteğe bağlı bütçe tavanları ve önceki yıl gerçekleşen (Departman, Bütçe Tavanı, Önceki Yıl Gerçekleşen)"
+  ],
+  "ciktilar": ["Excel: Hatalar (dosya / hücre adresiyle), Konsolide Bütçe (hesap × ay), Departman × Hesap, Departman Özeti (tavan, değişim, grafik), Uzun Liste (pivot için)"],
+  "internet": false
+}

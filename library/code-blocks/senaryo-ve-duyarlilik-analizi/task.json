@@ -1,0 +1,15 @@
+{
+  "id": "senaryo-ve-duyarlilik-analizi",
+  "tur": "kod",
+  "ad": "Senaryo ve Duyarlılık Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --varsayimlar varsayimlar.csv --senaryolar senaryolar.csv",
+  "girdiler": [
+    "Temel varsayımlar (Parametre;Değer): satış hacmi, fiyatlar, ihracat payı, EUR/TRY ve USD/TRY, maliyetler, sabit giderler, krediler ve faizler, net döviz pozisyonu, yatırım, vergi oranı",
+    "Senaryolar: Senaryo;Parametre;Değişim (% / puan / =);Değer"
+  ],
+  "ciktilar": ["Excel: Senaryolar (gelir → net kâr ve serbest nakit, farklar, grafik), Tornado (duyarlılık), Başa Baş (hacim ve kur), Varsayımlar, Uyarılar"],
+  "internet": false
+}

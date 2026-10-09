@@ -1,0 +1,26 @@
+Sistem;Kullanıcı Adı;Ad Soyad;E-posta;Sicil No;Rol;Son Giriş;Hesap Durumu;Hesap Türü
+ERP;ayilmaz;Ayşe Yılmaz;ayse.yilmaz@ornek.com.tr;5001;Muhasebe Onay;06.10.2026;Aktif;Kişisel
+ERP;mkaya;Mehmet Kaya;mehmet.kaya@ornek.com.tr;5002;Muhasebe Kayıt;08.10.2026;Aktif;Kişisel
+ERP;mkaya;Mehmet Kaya;mehmet.kaya@ornek.com.tr;5002;Ödeme Onayı;08.10.2026;Aktif;Kişisel
+ERP;zdemir;Zeynep Demir;zeynep.demir@ornek.com.tr;;Muhasebe Kayıt;12.08.2026;Aktif;Kişisel
+ERP;acelik;Ali Çelik;ali.celik@ornek.com.tr;5004;Satın Alma Siparişi;07.10.2026;Aktif;Kişisel
+ERP;acelik;Ali Çelik;ali.celik@ornek.com.tr;5004;Tedarikçi Kartı Açma;07.10.2026;Aktif;Kişisel
+ERP;acelik;Ali Çelik;ali.celik@ornek.com.tr;5004;Mal Kabul;07.10.2026;Aktif;Kişisel
+ERP;fsahin;Fatma Şahin;fatma.sahin@ornek.com.tr;5005;Satın Alma Onay;02.10.2026;Aktif;Kişisel
+ERP;eozturk;Emre Öztürk;emre.ozturk@ornek.com.tr;5006;Ödeme Hazırlama;05.10.2026;Aktif;Kişisel
+ERP;bkoc;Burak Koç;burak.koc@ornek.com.tr;5008;Satış Siparişi;10.09.2026;Kilitli;Kişisel
+ERP;cyildiz;Cem Yıldız;cem.yildiz@ornek.com.tr;5010;Sistem Yöneticisi;08.10.2026;Aktif;Kişisel
+ERP;entegrasyon;;;;Sistem Yöneticisi;09.10.2026;Aktif;Servis
+ERP;stajyer01;Stajyer Hesabı;;;Muhasebe Kayıt;20.06.2026;Aktif;Ortak
+Banka Portalı;AYILMAZ;Ayşe Yılmaz;;;Ödeme Onayı (2. imza);30.09.2026;Aktif;Kişisel
+Banka Portalı;SARSLAN;Selin Arslan;;;Ödeme Onayı (1. imza);03.10.2026;Aktif;Kişisel
+Banka Portalı;EOZTURK;Emre Öztürk;;;Ödeme Hazırlama;06.10.2026;Aktif;Kişisel
+Banka Portalı;EOZTURK;Emre Öztürk;;;Ödeme Onayı (1. imza);06.10.2026;Aktif;Kişisel
+Banka Portalı;ZDEMIR;Zeynep Demir;;;Ödeme Hazırlama;14.08.2026;Aktif;Kişisel
+E-posta / AD;ayse.yilmaz;Ayşe Yılmaz;ayse.yilmaz@ornek.com.tr;;Kullanıcı;08.10.2026;Aktif;Kişisel
+E-posta / AD;zeynep.demir;Zeynep Demir;zeynep.demir@ornek.com.tr;;Kullanıcı;29.07.2026;Pasif;Kişisel
+E-posta / AD;burak.koc;Burak Koç;burak.koc@ornek.com.tr;;Kullanıcı;20.09.2026;Aktif;Kişisel
+E-posta / AD;elif.aksoy;Elif Aksoy;elif.aksoy@ornek.com.tr;;Kullanıcı;01.06.2026;Aktif;Kişisel
+E-posta / AD;cem.yildiz;Cem Yıldız;cem.yildiz@ornek.com.tr;;Domain Admin;08.10.2026;Aktif;Kişisel
+E-posta / AD;murat.ekinci;Murat Ekinci;murat.ekinci@ornek.com.tr;;Kullanıcı;04.10.2026;Aktif;Kişisel
+E-posta / AD;deniz.aydin;Deniz Aydın;deniz.aydin@ornek.com.tr;;Kullanıcı;08.10.2026;Aktif;Kişisel

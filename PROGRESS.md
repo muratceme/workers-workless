@@ -266,11 +266,28 @@
   kayıtlarına varsayılan vade yazma (fazla tahsilat "vadesi geçmiş" görünüyordu).
 - **Toplam 118 paket**, kontrol 118/118.
 
+- Devam (2026-10-09, 10. tur, 10 paket): `standart-fiili-maliyet-sapma-analizi` (711/712/721/722, GÜG üç sapma 731/732/733;
+  toplam = fiili − standart mutabakatı; elle hesaplanmış örnek), `stok-degerleme` (FIFO / hareketli / dönem sonu AO yan yana;
+  alış ve satış iadesi; eksi stokta son maliyet + sonraki girişte düzeltme → değer korunumu; NGD testi),
+  `kdv-beyannamesi-on-kontrolu` (liste ↔ mizan 190/191/391 ↔ beyanname; kısmi tevkifatta satıcı KDV − tevkif; KDVK 29/3
+  indirim süresi; beyanname aritmetiği; sade Alan;Tutar beyan dosyası), `cek-senet-portfoy-takibi` (TTK 796 ibraz süresi,
+  banka karşılık açığı kümülatif, karşılıksız keşidecinin diğer evrakı, yoğunlaşma, ciro riski, haftalık vade),
+  `yatirim-fizibilitesi-npv-irr` (vergi + 5 yıl zarar mahsubu, reel/nominal dönüşüm, IRR ikiye bölme — Wikipedia örneği
+  %5,96 ile test, MIRR, geri dönüş), `senaryo-ve-duyarlilik-analizi` (sürücü tabanlı tek yıllık model, %/puan/= senaryo,
+  tornado, başa baş hacim ve kur), `departman-butcelerinin-konsolidasyonu` (klasördeki xlsx şablonları, hücre adresli hatalar,
+  Excel TOPLA metin sayıyı atlar uyarısı, hesaplanmamış formül, mükerrer departman), `kullanici-yetki-gozden-gecirme`
+  (sicil → e-posta → ad eşleşmesi, ayrılıştan sonra giriş, sistemler arası SoD, rol matrisi '*', yönetici onay listesi),
+  `kvkk-kisisel-veri-isleme-envanteri` (md. 5 / md. 6 / md. 9 — 7499 sayılı Kanun 2024; özel nitelikli veri anahtar
+  kelime, kısa kelimeler tam kelime), `bt-maliyet-raporu` (yıllık ödemeler aylara yayılır, rapor ayı sonrası peşin;
+  tahakkuk + peşin = ödenen; atıl lisans, mükerrer abonelik, bulut artışı, yenileme takvimi).
+- **Ders:** Tahakkukta rapor ayından sonraki aylar da "dönem"e yazılıyordu (bütçe ↔ kategori sayfası farkı testte görüldü).
+  Decimal ile float sınır karşılaştırması (`< 0.8`) tam sınırda yanlış sonuç verir; Decimal("0.8") kullan.
+- **Toplam 128 paket**, kontrol 128/128.
+
 ### KALDIĞIM YER
-Sıradaki (puan 3): Standart-Fiili Maliyet Sapma Analizi, Stok Değerleme, KDV Beyannamesi Ön Kontrolü, Çek-Senet Portföy
-Takibi, Departman Bütçelerinin Konsolidasyonu, Yatırım Fizibilitesi (NPV/IRR), Senaryo ve Duyarlılık Analizi, Kullanıcı
-Yetki Gözden Geçirme, KVKK Envanteri, BT Maliyet Raporu, Satın Alma… Epikriz, ÖSS ve SGK fatura ön kontrolü (puan 5) sona
-bırakıldı.
+Sıradaki (puan 3): Satın Alma Talebi Konsolidasyonu, Tedarikçi Performans Değerlendirme, Harcama Analizi (ABC), Dava ve
+Duruşma Takvimi, İcra Takip Durum Raporu, Mevzuat Değişikliği Özeti (agent), Hizmet Alımı Fatura Kontrolü… Epikriz, ÖSS ve
+SGK fatura ön kontrolü (puan 5) sona bırakıldı.
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);

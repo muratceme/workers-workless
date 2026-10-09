@@ -1,0 +1,16 @@
+{
+  "id": "kullanici-yetki-gozden-gecirme",
+  "tur": "kod",
+  "ad": "Kullanıcı Yetki Gözden Geçirme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --personel ik.xlsx --yetkiler yetkiler.xlsx --rol-matrisi rol_matrisi.csv --gorev-ayriligi gorev_ayriligi.csv",
+  "girdiler": [
+    "İK personel listesi: Sicil, Ad Soyad, E-posta, Departman, Pozisyon, Durum, Ayrılış Tarihi, Yönetici",
+    "Sistem kullanıcı-yetki listeleri: Sistem, Kullanıcı Adı, Ad Soyad, E-posta, Sicil, Rol, Son Giriş, Hesap Durumu, Hesap Türü",
+    "İsteğe bağlı rol matrisi, görevler ayrılığı kuralları ve kritik roller"
+  ],
+  "ciktilar": ["Excel: Bulgular (aksiyon takibi), Yönetici Onay Listesi (Onay / İptal), Görevler Ayrılığı, Hesap Eşleşmesi, Sistem Özeti"],
+  "internet": false
+}

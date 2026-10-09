@@ -1,0 +1,12 @@
+Sicil No;Ad Soyad;E-posta;Departman;Pozisyon;Durum;Ayrılış Tarihi;Yönetici
+5001;Ayşe Yılmaz;ayse.yilmaz@ornek.com.tr;Muhasebe;Muhasebe Müdürü;Aktif;;Genel Müdür
+5002;Mehmet Kaya;mehmet.kaya@ornek.com.tr;Muhasebe;Muhasebe Uzmanı;Aktif;;Ayşe Yılmaz
+5003;Zeynep Demir;zeynep.demir@ornek.com.tr;Muhasebe;Muhasebe Uzmanı;Ayrıldı;31.07.2026;Ayşe Yılmaz
+5004;Ali Çelik;ali.celik@ornek.com.tr;Satın Alma;Satın Alma Uzmanı;Aktif;;Fatma Şahin
+5005;Fatma Şahin;fatma.sahin@ornek.com.tr;Satın Alma;Satın Alma Müdürü;Aktif;;Genel Müdür
+5006;Emre Öztürk;emre.ozturk@ornek.com.tr;Finans;Finans Uzmanı;Aktif;;Selin Arslan
+5007;Selin Arslan;selin.arslan@ornek.com.tr;Finans;Finans Müdürü;Aktif;;Genel Müdür
+5008;Burak Koç;burak.koc@ornek.com.tr;Satış;Satış Temsilcisi;Ayrıldı;15.09.2026;Deniz Aydın
+5009;Deniz Aydın;deniz.aydin@ornek.com.tr;Satış;Satış Müdürü;Aktif;;Genel Müdür
+5010;Cem Yıldız;cem.yildiz@ornek.com.tr;Bilgi İşlem;Sistem Yöneticisi;Aktif;;Genel Müdür
+5011;Elif Aksoy;elif.aksoy@ornek.com.tr;İnsan Kaynakları;İK Uzmanı;İzinde;;Genel Müdür

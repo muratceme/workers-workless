@@ -1,0 +1,13 @@
+Pozisyon;Sistem;İzinli Roller
+Muhasebe Müdürü;ERP;Muhasebe Onay|Muhasebe Kayıt
+Muhasebe Müdürü;Banka Portalı;Ödeme Onayı (2. imza)
+Muhasebe Uzmanı;ERP;Muhasebe Kayıt
+Satın Alma Uzmanı;ERP;Satın Alma Siparişi|Mal Kabul
+Satın Alma Müdürü;ERP;Satın Alma Onay|Tedarikçi Kartı Açma
+Finans Uzmanı;ERP;Ödeme Hazırlama
+Finans Uzmanı;Banka Portalı;Ödeme Hazırlama
+Finans Müdürü;Banka Portalı;Ödeme Onayı (1. imza)
+Satış Temsilcisi;ERP;Satış Siparişi
+Sistem Yöneticisi;ERP;Sistem Yöneticisi
+Sistem Yöneticisi;E-posta / AD;Domain Admin|Kullanıcı
+*;E-posta / AD;Kullanıcı

@@ -1,0 +1,15 @@
+{
+  "id": "bt-maliyet-raporu",
+  "tur": "kod",
+  "ad": "BT Maliyet Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --harcamalar harcamalar.xlsx --lisanslar lisanslar.xlsx --butce butce.csv --birimler birimler.csv",
+  "girdiler": [
+    "BT harcamaları (.xlsx/.csv): Tarih, Tedarikçi, Kalem, Kategori, Birim, Tutar, Döviz, Kur, Dönem Tipi (Aylık/Yıllık/Tek seferlik), Sözleşme Bitiş",
+    "İsteğe bağlı lisans envanteri (toplam / kullanılan / birim fiyat / yenileme), kategori bütçeleri, birim çalışan sayıları"
+  ],
+  "ciktilar": ["Excel: Özet (kişi başı maliyet), Kategori × Ay (tahakkuk, grafik), Birim × Kategori, Tedarikçiler (Pareto), Bütçe (yıl sonu tahmini), Lisans Kullanımı, Yenileme Takvimi, Harcamalar, Uyarılar"],
+  "internet": false
+}
