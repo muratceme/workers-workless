@@ -1,0 +1,19 @@
+Tür;Seri No;Keşideci / Borçlu;Cari;Banka;Vade;Tutar;Döviz;Durum;Durum Tarihi
+Alınan Çek;A-100231;Örnek Yapı Ltd.;Örnek Yapı Ltd.;X Bankası;14.10.2026;150000,00;TRY;Portföyde;30.07.2026
+Alınan Çek;A-100232;Örnek Yapı Ltd.;Örnek Yapı Ltd.;X Bankası;13.11.2026;150000,00;TRY;Portföyde;30.07.2026
+Alınan Çek;B-552018;Örnek Market Zinciri AŞ;Örnek Market Zinciri AŞ;Y Bankası;20.10.2026;84000,00;TRY;Tahsile Verildi;05.10.2026
+Alınan Çek;C-778120;Örnek İnşaat Taahhüt AŞ;Örnek Yapı Ltd.;Z Bankası;22.10.2026;95000,00;TRY;Teminata Verildi;01.09.2026
+Alınan Çek;D-330981;Örnek Otel AŞ;Örnek Otel AŞ;X Bankası;25.09.2026;42000,00;TRY;Portföyde;01.08.2026
+Alınan Çek;E-901244;Örnek Kırtasiye Ltd.;Örnek Kırtasiye Ltd.;Y Bankası;10.09.2026;18500,00;TRY;Karşılıksız;12.09.2026
+Alınan Çek;E-901245;Örnek Kırtasiye Ltd.;Örnek Kırtasiye Ltd.;Y Bankası;10.11.2026;18500,00;TRY;Portföyde;15.07.2026
+Alınan Çek;F-220114;Örnek Mobilya Ltd.;Örnek Mobilya Ltd.;W Bankası;04.12.2026;210000,00;TRY;Portföyde;20.09.2026
+Alınan Çek;G-450032;Foreign Buyer GmbH;Foreign Buyer GmbH;X Bankası;30.10.2026;12000,00;EUR;Portföyde;01.10.2026
+Alınan Çek;A-099870;Örnek Yapı Ltd.;Örnek Yapı Ltd.;X Bankası;15.09.2026;150000,00;TRY;Tahsil Edildi;16.09.2026
+Alınan Çek;H-612001;Örnek Market Zinciri AŞ;Örnek Market Zinciri AŞ;Y Bankası;27.10.2026;60000,00;TRY;Ciro Edildi;02.10.2026
+Alınan Senet;S-2026-014;Örnek Bayi Ltd.;Örnek Bayi Ltd.;;30.09.2026;35000,00;TRY;Portföyde;30.06.2026
+Alınan Senet;S-2026-022;Örnek Bayi Ltd.;Örnek Bayi Ltd.;;31.10.2026;35000,00;TRY;Portföyde;30.06.2026
+Verilen Çek;K-000451;Firmamız;Örnek Ambalaj San. Ltd.;X Bankası;16.10.2026;198750,00;TRY;Verildi;15.08.2026
+Verilen Çek;K-000452;Firmamız;Örnek Nakliyat AŞ;X Bankası;19.10.2026;72000,00;TRY;Verildi;05.09.2026
+Verilen Çek;K-000453;Firmamız;Örnek Ambalaj San. Ltd.;Y Bankası;11.11.2026;176300,00;TRY;Verildi;12.09.2026
+Verilen Çek;K-000440;Firmamız;Örnek Kimya AŞ;X Bankası;30.09.2026;64000,00;TRY;Ödendi;30.09.2026
+Verilen Senet;VS-2026-003;Firmamız;Örnek Makine AŞ;;15.10.2026;120000,00;TRY;Verildi;15.04.2026

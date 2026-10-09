@@ -1,0 +1,17 @@
+{
+  "id": "kdv-beyannamesi-on-kontrolu",
+  "tur": "kod",
+  "ad": "KDV Beyannamesi Ön Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --satislar satislar.xlsx --alislar alislar.xlsx --mizan mizan.xlsx --beyanname beyanname.csv --donem 2026-09",
+  "girdiler": [
+    "Satış faturaları listesi: Fatura No, Tarih, Alıcı, Matrah, KDV Oranı, KDV Tutarı, Tevkifat Oranı, Tevkif Edilen KDV, İşlem Türü",
+    "Alış faturaları listesi: Fatura No, Tarih, Satıcı, Matrah, KDV Oranı, KDV Tutarı, İndirilebilir, Tevkifat Oranı, Sorumlu Sıfatıyla Beyan Edilen KDV",
+    "İsteğe bağlı mizan (190, 191, 391, 600–612) ve beyanname tutarları (Alan;Tutar)",
+    "Beyan dönemi (YYYY-AA)"
+  ],
+  "ciktilar": ["Excel: Mutabakat (liste / mizan / beyanname), Beyanname Aritmetiği, Liste Bulguları, Oran Özeti (sorumlu sıfatıyla KDV), Uyarılar"],
+  "internet": false
+}

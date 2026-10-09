@@ -1,0 +1,11 @@
+Ürün;Tür;Kalem;Birim;Standart Miktar;Standart Fiyat
+Masa;Malzeme;Yonga levha;m2;1,8;420
+Masa;Malzeme;Kenar bandı;m;6;12
+Masa;Malzeme;Bağlantı seti;set;1;85
+Masa;İşçilik;Kesim;saat;0,4;300
+Masa;İşçilik;Montaj;saat;0,6;280
+Sandalye;Malzeme;Yonga levha;m2;0,5;420
+Sandalye;Malzeme;Bağlantı seti;set;1;85
+Sandalye;Malzeme;Kumaş;m;0,8;160
+Sandalye;İşçilik;Kesim;saat;0,2;300
+Sandalye;İşçilik;Montaj;saat;0,5;280

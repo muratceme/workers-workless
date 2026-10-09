@@ -1,0 +1,17 @@
+{
+  "id": "standart-fiili-maliyet-sapma-analizi",
+  "tur": "kod",
+  "ad": "Standart-Fiili Maliyet Sapma Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --standartlar standartlar.xlsx --uretim uretim.xlsx --fiili fiili.xlsx --gug gug.xlsx",
+  "girdiler": [
+    "Standart maliyet kartları (.xlsx/.csv): Ürün, Tür (Malzeme/İşçilik), Kalem, Birim, Standart Miktar, Standart Fiyat",
+    "Dönem fiili üretimi: Ürün, Üretim Miktarı",
+    "Fiili tüketim ve maliyet: Tür (Malzeme/İşçilik/GÜG), Kalem, Fiili Miktar, Fiili Tutar",
+    "İsteğe bağlı GÜG oranları: İş Merkezi, Değişken Oran, Bütçelenen Sabit GÜG, Normal Kapasite"
+  ],
+  "ciktilar": ["Excel: Sapma Özeti (711/712/721/722/731/732/733, grafik, mutabakat), Malzeme, İşçilik, GÜG, Standart Maliyet Kartı, Uyarılar"],
+  "internet": false
+}

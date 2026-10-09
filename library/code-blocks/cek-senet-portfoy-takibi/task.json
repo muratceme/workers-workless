@@ -1,0 +1,15 @@
+{
+  "id": "cek-senet-portfoy-takibi",
+  "tur": "kod",
+  "ad": "Çek-Senet Portföy Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --portfoy portfoy.xlsx --banka-bakiyeleri bakiyeler.xlsx --hafta 8",
+  "girdiler": [
+    "Çek-senet listesi (.xlsx/.csv): Tür (Alınan/Verilen Çek/Senet), Seri No, Keşideci/Borçlu, Cari, Banka, Vade, Tutar, Döviz, Durum, Durum Tarihi",
+    "İsteğe bağlı banka bakiyeleri (verilen çek karşılık kontrolü)"
+  ],
+  "ciktilar": ["Excel: Özet (durum bazında, ortalama vade), Haftalık Vade (tahsilat / teminat / ödeme / kümülatif net, grafik), Banka Karşılık, Portföy, Keşideci Riski, Uyarılar"],
+  "internet": false
+}

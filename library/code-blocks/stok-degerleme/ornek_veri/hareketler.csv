@@ -1,0 +1,18 @@
+Tarih;Stok Kodu;Stok Adı;Birim;Hareket;Miktar;Birim Fiyat;Belge No
+01.01.2026;STK-01;Vida M8x40;adet;Devir;1000;2,00;DEVIR
+10.01.2026;STK-01;Vida M8x40;adet;Giriş;2000;2,20;ALS-0110
+15.01.2026;STK-01;Vida M8x40;adet;Çıkış;1500;;URT-0115
+05.02.2026;STK-01;Vida M8x40;adet;Giriş;1000;2,50;ALS-0205
+20.02.2026;STK-01;Vida M8x40;adet;Çıkış;1800;;URT-0220
+10.03.2026;STK-01;Vida M8x40;adet;Çıkış;400;;URT-0310
+01.01.2026;STK-02;Boya RAL 9010 (kg);kg;Devir;120;310,00;DEVIR
+12.01.2026;STK-02;Boya RAL 9010 (kg);kg;Çıkış;90;;URT-0112
+02.02.2026;STK-02;Boya RAL 9010 (kg);kg;Çıkış;60;;URT-0202
+08.02.2026;STK-02;Boya RAL 9010 (kg);kg;Giriş;200;335,00;ALS-0208
+25.03.2026;STK-02;Boya RAL 9010 (kg);kg;Çıkış;80;;URT-0325
+01.01.2026;STK-03;Eski model menteşe;adet;Devir;850;14,50;DEVIR
+01.01.2026;STK-04;Laminat panel 18 mm;adet;Devir;40;1150,00;DEVIR
+14.01.2026;STK-04;Laminat panel 18 mm;adet;Giriş;60;1240,00;ALS-0114
+18.02.2026;STK-04;Laminat panel 18 mm;adet;Çıkış;70;;SAT-0218
+03.03.2026;STK-04;Laminat panel 18 mm;adet;Giriş;30;;IADE-0303
+20.03.2026;STK-04;Laminat panel 18 mm;adet;Alış İadesi;10;1240,00;ALS-IADE-0320

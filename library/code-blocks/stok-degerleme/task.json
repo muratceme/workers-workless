@@ -1,0 +1,15 @@
+{
+  "id": "stok-degerleme",
+  "tur": "kod",
+  "ad": "Stok Değerleme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --hareketler stok_hareketleri.xlsx --yontem fifo",
+  "girdiler": [
+    "Stok hareketleri (.xlsx/.csv): Tarih, Stok Kodu, Stok Adı, Birim, Hareket (Devir/Giriş/Çıkış/Alış İadesi/Satış İadesi), Miktar, Birim Fiyat, Belge No",
+    "İsteğe bağlı tahmini satış fiyatları (net gerçekleşebilir değer testi)"
+  ],
+  "ciktilar": ["Excel: Değerleme Özeti (üç yöntem yan yana), Yöntem Karşılaştırması, Hareket Detayı, FIFO Katmanları, Değer Düşüklüğü, Uyarılar"],
+  "internet": false
+}
