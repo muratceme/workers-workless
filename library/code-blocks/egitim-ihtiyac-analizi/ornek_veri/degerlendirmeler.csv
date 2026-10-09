@@ -1,0 +1,46 @@
+Sicil No;Ad Soyad;Departman;Pozisyon;Yetkinlik;Yönetici Puanı;Öz Değerlendirme
+4001;Çalışan 4001;Satış;Satış Temsilcisi;Müzakere;2;4
+4001;Çalışan 4001;Satış;Satış Temsilcisi;CRM kullanımı;3;3
+4001;Çalışan 4001;Satış;Satış Temsilcisi;Ürün bilgisi;3;4
+4001;Çalışan 4001;Satış;Satış Temsilcisi;Etkili iletişim;3;4
+4002;Çalışan 4002;Satış;Satış Temsilcisi;Müzakere;3;3
+4002;Çalışan 4002;Satış;Satış Temsilcisi;CRM kullanımı;2;2
+4002;Çalışan 4002;Satış;Satış Temsilcisi;Ürün bilgisi;4;3
+4002;Çalışan 4002;Satış;Satış Temsilcisi;Etkili iletişim;4;3
+4003;Çalışan 4003;Satış;Satış Temsilcisi;Müzakere;3;3
+4003;Çalışan 4003;Satış;Satış Temsilcisi;CRM kullanımı;1;3
+4003;Çalışan 4003;Satış;Satış Temsilcisi;Ürün bilgisi;2;3
+4003;Çalışan 4003;Satış;Satış Temsilcisi;Etkili iletişim;3;3
+4004;Çalışan 4004;Satış;Satış Temsilcisi;Müzakere;4;4
+4004;Çalışan 4004;Satış;Satış Temsilcisi;CRM kullanımı;3;3
+4004;Çalışan 4004;Satış;Satış Temsilcisi;Ürün bilgisi;3;3
+4005;Çalışan 4005;Satış;Satış Temsilcisi;Müzakere;3;2
+4005;Çalışan 4005;Satış;Satış Temsilcisi;CRM kullanımı;2;2
+4005;Çalışan 4005;Satış;Satış Temsilcisi;Ürün bilgisi;3;3
+4005;Çalışan 4005;Satış;Satış Temsilcisi;Etkili iletişim;2;3
+4006;Çalışan 4006;Satış;Satış Temsilcisi;Müzakere;;3
+4006;Çalışan 4006;Satış;Satış Temsilcisi;CRM kullanımı;;2
+4006;Çalışan 4006;Satış;Satış Temsilcisi;Ürün bilgisi;;2
+4006;Çalışan 4006;Satış;Satış Temsilcisi;Etkili iletişim;;4
+4011;Çalışan 4011;Muhasebe;Muhasebe Uzmanı;e-Dönüşüm uygulamaları;2;3
+4011;Çalışan 4011;Muhasebe;Muhasebe Uzmanı;İleri Excel;2;4
+4011;Çalışan 4011;Muhasebe;Muhasebe Uzmanı;Finansal raporlama;4;4
+4012;Çalışan 4012;Muhasebe;Muhasebe Uzmanı;e-Dönüşüm uygulamaları;3;3
+4012;Çalışan 4012;Muhasebe;Muhasebe Uzmanı;İleri Excel;3;3
+4012;Çalışan 4012;Muhasebe;Muhasebe Uzmanı;Finansal raporlama;3;2
+4013;Çalışan 4013;Muhasebe;Muhasebe Uzmanı;e-Dönüşüm uygulamaları;2;2
+4013;Çalışan 4013;Muhasebe;Muhasebe Uzmanı;İleri Excel;2;2
+4013;Çalışan 4013;Muhasebe;Muhasebe Uzmanı;Finansal raporlama;4;3
+4021;Çalışan 4021;Üretim;Ekip Lideri;Geri bildirim verme;1;3
+4021;Çalışan 4021;Üretim;Ekip Lideri;Planlama;3;4
+4021;Çalışan 4021;Üretim;Ekip Lideri;Etkili iletişim;2;3
+4021;Çalışan 4021;Üretim;Ekip Lideri;İleri Excel;1;1
+4022;Çalışan 4022;Üretim;Ekip Lideri;Geri bildirim verme;2;2
+4022;Çalışan 4022;Üretim;Ekip Lideri;Planlama;4;4
+4022;Çalışan 4022;Üretim;Ekip Lideri;Etkili iletişim;3;3
+4022;Çalışan 4022;Üretim;Ekip Lideri;İleri Excel;2;2
+4023;Çalışan 4023;Üretim;Ekip Lideri;Geri bildirim verme;2;4
+4023;Çalışan 4023;Üretim;Ekip Lideri;Planlama;2;3
+4023;Çalışan 4023;Üretim;Ekip Lideri;Etkili iletişim;3;3
+4023;Çalışan 4023;Üretim;Ekip Lideri;İleri Excel;2;3
+4023;Çalışan 4023;Üretim;Ekip Lideri;Liderlik;3;3

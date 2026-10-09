@@ -1,0 +1,12 @@
+Soru Kodu;Soru;Boyut;Ters Madde
+S01;Bu şirkette çalışmaktan gurur duyuyorum.;Bağlılık;Hayır
+S02;Bir yıl sonra da burada çalışıyor olmayı düşünüyorum.;Bağlılık;Hayır
+S03;Yöneticim çalışmalarım hakkında düzenli geri bildirim verir.;Yönetici;Hayır
+S04;Yöneticime bir sorunu rahatça iletebilirim.;Yönetici;Hayır
+S05;Aldığım ücret, yaptığım işe göre adildir.;Ücret ve Yan Haklar;Hayır
+S06;Yan haklar ihtiyaçlarımı karşılıyor.;Ücret ve Yan Haklar;Hayır
+S07;Burada kendimi geliştirme fırsatım var.;Gelişim;Hayır
+S08;İş yüküm çoğu zaman taşıyabileceğimden fazla.;İş Yükü ve Denge;Evet
+S09;İş ve özel hayatım arasında denge kurabiliyorum.;İş Yükü ve Denge;Hayır
+S10;Birimler arası iletişim iyi işler.;İletişim;Hayır
+S11;Şirketi bir arkadaşıma iş yeri olarak tavsiye etme olasılığınız nedir? (0–10);eNPS;Hayır

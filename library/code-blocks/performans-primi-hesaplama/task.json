@@ -1,0 +1,17 @@
+{
+  "id": "performans-primi-hesaplama",
+  "tur": "kod",
+  "ad": "Performans Primi Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --calisanlar calisanlar.xlsx --hedefler hedefler.xlsx --skala skala.csv --donem 01.01.2026 30.06.2026",
+  "girdiler": [
+    "Çalışanlar (.xlsx/.csv): Sicil No, Ad Soyad, Departman, Brüt Ücret, Hedef Prim (Maaş katı veya TL), İşe Giriş, Ayrılış Tarihi",
+    "Hedefler: Sicil No, Hedef, Ağırlık (%), Hedef Değer, Gerçekleşen, Yön (Artan/Azalan) veya Gerçekleşme (%)",
+    "Prim skalası: Gerçekleşme (%) → Prim Çarpanı (%)",
+    "İsteğe bağlı şirket çarpanı, bireysel ağırlık, bütçe"
+  ],
+  "ciktilar": ["Excel: Prim Listesi (skor, çarpan, kıst, brüt prim, 'Onay'), Hedef Detayı, Departman Özeti ve çarpan dağılımı, Uyarılar"],
+  "internet": false
+}

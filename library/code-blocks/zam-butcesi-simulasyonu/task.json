@@ -1,0 +1,20 @@
+{
+  "id": "zam-butcesi-simulasyonu",
+  "tur": "kod",
+  "ad": "Zam Bütçesi Simülasyonu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --calisanlar calisanlar.xlsx --senaryolar senaryolar.csv --bantlar bantlar.xlsx --butce 25",
+  "girdiler": [
+    "Çalışanlar (.xlsx/.csv): Sicil No, Ad Soyad, Departman, Kademe, Brüt Ücret, İşe Giriş, Performans, [Çalışma Oranı]",
+    "Senaryolar: Senaryo, Performans, Konum (Alt/Orta/Üst), Oran (%), Sabit Tutar (TL); '*' her değere uyar",
+    "İsteğe bağlı ücret bantları (konum için), yeni asgari ücret, bütçe oranı",
+    "SGK işveren oranları ve tavanı: tr_parametreler.json (yıl bazında, kaynaklı)"
+  ],
+  "ciktilar": ["Excel: Senaryo Karşılaştırması (aylık artış, işveren maliyeti, bütçe farkı), Kişi Bazında yeni ücretler, Departman, Senaryo Tanımları, Uyarılar"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "tr_parametreler.json": "_ortak/tr_parametreler.json"
+  }
+}

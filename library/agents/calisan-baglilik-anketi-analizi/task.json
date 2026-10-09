@@ -1,0 +1,20 @@
+{
+  "id": "calisan-baglilik-anketi-analizi",
+  "tur": "agent",
+  "ad": "Çalışan Bağlılık Anketi Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --anket anket.xlsx --sorular sorular.xlsx --min-yanit 5",
+  "girdiler": [
+    "Anket yanıtları (.xlsx/.csv): Yanıt No, Birim, [Kıdem], soru kodu sütunları (1–5; tavsiye sorusu 0–10), Görüş ve Öneriler",
+    "Soru listesi: Soru Kodu, Soru, Boyut, Ters Madde",
+    "İsteğe bağlı birim çalışan sayıları (katılım oranı)",
+    ".env: sağlayıcı ve API anahtarı (--yorum-yok ile gerekmez)"
+  ],
+  "ciktilar": ["Excel: Özet (boyut skorları, eNPS), Hassas Yorumlar, Birim × Boyut ısı haritası, Sorular, Sorun Başlıkları (doğrulanmış alıntılarla), Temalar, Yorumlar, Uyarılar"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

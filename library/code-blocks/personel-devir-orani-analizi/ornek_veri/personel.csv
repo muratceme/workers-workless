@@ -1,0 +1,64 @@
+Sicil No;Ad Soyad;Departman;Pozisyon;Yönetici;İşe Giriş;Ayrılış Tarihi;Ayrılış Nedeni
+3001;Çalışan 3001;Üretim;Operatör;Yönetici A;06.04.2021;;
+3002;Çalışan 3002;Üretim;Operatör;Yönetici A;20.05.2017;;
+3003;Çalışan 3003;Üretim;Operatör;Yönetici A;09.11.2022;;
+3004;Çalışan 3004;Üretim;Operatör;Yönetici A;31.01.2015;;
+3005;Çalışan 3005;Üretim;Operatör;Yönetici A;17.08.2015;;
+3006;Çalışan 3006;Üretim;Operatör;Yönetici A;11.02.2016;;
+3007;Çalışan 3007;Üretim;Operatör;Yönetici A;15.03.2022;;
+3008;Çalışan 3008;Üretim;Operatör;Yönetici A;21.04.2015;;
+3009;Çalışan 3009;Üretim;Operatör;Yönetici A;19.05.2025;;
+3010;Çalışan 3010;Üretim;Operatör;Yönetici A;25.10.2018;07.06.2026;Askerlik
+3011;Çalışan 3011;Üretim;Operatör;Yönetici A;04.11.2014;;
+3012;Çalışan 3012;Üretim;Operatör;Yönetici A;06.12.2015;09.05.2026;İstifa
+3013;Çalışan 3013;Üretim;Operatör;Yönetici A;23.09.2023;;
+3014;Çalışan 3014;Üretim;Operatör;Yönetici A;19.05.2023;;
+3015;Çalışan 3015;Üretim;Operatör;Yönetici B;27.07.2015;;
+3016;Çalışan 3016;Üretim;Operatör;Yönetici B;26.05.2019;;
+3017;Çalışan 3017;Üretim;Operatör;Yönetici B;14.01.2016;;
+3018;Çalışan 3018;Üretim;Operatör;Yönetici B;10.07.2023;;
+3019;Çalışan 3019;Üretim;Operatör;Yönetici B;30.04.2015;12.09.2026;İstifa - daha yüksek ücret
+3020;Çalışan 3020;Üretim;Operatör;Yönetici B;11.10.2016;11.02.2026;İstifa
+3021;Çalışan 3021;Üretim;Operatör;Yönetici B;03.01.2019;;
+3022;Çalışan 3022;Üretim;Operatör;Yönetici B;22.05.2015;29.06.2026;İstifa
+3023;Çalışan 3023;Üretim;Operatör;Yönetici B;24.11.2022;;
+3024;Çalışan 3024;Üretim;Operatör;Yönetici B;11.02.2015;25.01.2026;İstifa
+3025;Çalışan 3025;Üretim;Operatör;Yönetici B;17.12.2018;;
+3026;Çalışan 3026;Üretim;Operatör;Yönetici B;17.01.2015;07.08.2026;İstifa
+3027;Çalışan 3027;Üretim;Operatör;Yönetici B;26.12.2016;;
+3028;Çalışan 3028;Üretim;Operatör;Yönetici B;30.06.2020;14.06.2026;İşveren feshi - performans
+3029;Çalışan 3029;Satış;Satış Temsilcisi;Yönetici C;27.05.2023;;
+3030;Çalışan 3030;Satış;Satış Temsilcisi;Yönetici C;27.03.2017;;
+3031;Çalışan 3031;Satış;Satış Temsilcisi;Yönetici C;22.08.2016;;
+3032;Çalışan 3032;Satış;Satış Temsilcisi;Yönetici C;02.12.2020;;
+3033;Çalışan 3033;Satış;Satış Temsilcisi;Yönetici C;20.01.2018;26.08.2026;İstifa
+3034;Çalışan 3034;Satış;Satış Temsilcisi;Yönetici C;24.04.2016;16.09.2026;İstifa - taşınma
+3035;Çalışan 3035;Satış;Satış Temsilcisi;Yönetici C;20.03.2018;;
+3036;Çalışan 3036;Satış;Satış Temsilcisi;Yönetici C;09.05.2022;;
+3037;Çalışan 3037;Depo;Depo Elemanı;Yönetici D;09.03.2016;;
+3038;Çalışan 3038;Depo;Depo Elemanı;Yönetici D;30.05.2015;07.02.2026;İstifa
+3039;Çalışan 3039;Depo;Depo Elemanı;Yönetici D;04.05.2015;12.06.2026;İstifa - taşınma
+3040;Çalışan 3040;Depo;Depo Elemanı;Yönetici D;15.08.2018;21.08.2026;İstifa
+3041;Çalışan 3041;Depo;Depo Elemanı;Yönetici D;18.02.2025;;
+3042;Çalışan 3042;Depo;Depo Elemanı;Yönetici D;04.08.2023;;
+3043;Çalışan 3043;Depo;Depo Elemanı;Yönetici D;17.01.2021;01.07.2026;İşveren feshi - performans
+3044;Çalışan 3044;Depo;Depo Elemanı;Yönetici D;11.06.2024;;
+3045;Çalışan 3045;Muhasebe;Muhasebe Uzmanı;Yönetici E;01.03.2024;;
+3046;Çalışan 3046;Muhasebe;Muhasebe Uzmanı;Yönetici E;10.02.2022;;
+3047;Çalışan 3047;Muhasebe;Muhasebe Uzmanı;Yönetici E;21.09.2020;;
+3048;Çalışan 3048;Muhasebe;Muhasebe Uzmanı;Yönetici E;29.07.2019;;
+3049;Çalışan 3049;Muhasebe;Muhasebe Uzmanı;Yönetici E;12.01.2018;;
+3050;Çalışan 3050;Üretim;Operatör;Yönetici B;02.02.2026;20.03.2026;İstifa
+3051;Çalışan 3051;Üretim;Operatör;Yönetici B;16.02.2026;01.04.2026;Deneme süresinde işveren feshi
+3052;Çalışan 3052;Üretim;Operatör;Yönetici B;06.04.2026;;
+3053;Çalışan 3053;Üretim;Operatör;Yönetici B;04.05.2026;;
+3054;Çalışan 3054;Üretim;Operatör;Yönetici A;02.03.2026;;
+3055;Çalışan 3055;Satış;Satış Temsilcisi;Yönetici C;01.04.2026;;
+3056;Çalışan 3056;Depo;Depo Elemanı;Yönetici D;12.01.2026;06.02.2026;İstifa
+3057;Çalışan 3057;Depo;Depo Elemanı;Yönetici D;09.03.2026;;
+3058;Çalışan 3058;Depo;Depo Elemanı;Yönetici D;01.06.2026;14.08.2026;İstifa
+3059;Çalışan 3059;Depo;Depo Elemanı;Yönetici D;24.08.2026;;
+3060;Çalışan 3060;Muhasebe;Muhasebe Uzmanı;Yönetici E;01.07.2026;;
+3061;Çalışan 3061;Üretim;Operatör;Yönetici A;02.06.2025;30.01.2026;Belirli süreli sözleşmenin sona ermesi
+3062;Çalışan 3062;Satış;Satış Temsilcisi;Yönetici C;03.11.2025;;
+3063;Çalışan 3063;Muhasebe;Muhasebe Uzmanı;Yönetici E;01.03.2024;30.09.2025;İstifa

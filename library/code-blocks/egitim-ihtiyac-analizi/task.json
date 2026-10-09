@@ -1,0 +1,16 @@
+{
+  "id": "egitim-ihtiyac-analizi",
+  "tur": "kod",
+  "ad": "Eğitim İhtiyaç Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --matris yetkinlik_matrisi.xlsx --degerlendirmeler degerlendirmeler.xlsx --performans performans.xlsx --talepler talepler.xlsx",
+  "girdiler": [
+    "Yetkinlik matrisi (.xlsx/.csv): Pozisyon, Yetkinlik, Gerekli Seviye (1–5), Kritiklik, Önerilen Eğitim",
+    "Değerlendirmeler: Sicil No, Ad Soyad, Departman, Pozisyon, Yetkinlik, Yönetici Puanı, Öz Değerlendirme",
+    "İsteğe bağlı: performans sonuçları (Sicil, Performans) ve eğitim talepleri (Sicil, Talep Edilen Eğitim)"
+  ],
+  "ciktilar": ["Excel: Öncelik Listesi (departman × yetkinlik), Eğitim Planı (grup / bireysel), Bireysel İhtiyaçlar ('Onay'), Departman Özeti, Algı Farkları, Talepler, Uyarılar"],
+  "internet": false
+}

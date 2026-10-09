@@ -1,0 +1,15 @@
+{
+  "id": "personel-devir-orani-analizi",
+  "tur": "kod",
+  "ad": "Personel Devir Oranı Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --personel personel.xlsx --donem 01.01.2026 31.12.2026",
+  "girdiler": [
+    "Personel giriş-çıkış listesi (.xlsx/.csv): Sicil No, Ad Soyad, Departman, Pozisyon, Yönetici, İşe Giriş, Ayrılış Tarihi, Ayrılış Nedeni, [Ayrılış Türü]",
+    "Analiz dönemi"
+  ],
+  "ciktilar": ["Excel: Özet (ortalama personel, devir ve gönüllü devir oranı, tutma oranı), Kırılımlar (departman, yönetici, kıdem), Aylık Trend (grafik), Erken Ayrılma, Ayrılanlar, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,16 @@
+Sicil No;Hedef;Ağırlık (%);Hedef Değer;Gerçekleşen;Yön
+2001;Satış cirosu (TL);60;6000000;6600000;Artan
+2001;Yeni müşteri sayısı;40;20;14;Artan
+2002;Satış cirosu (TL);60;4000000;3800000;Artan
+2002;Yeni müşteri sayısı;40;10;12;Artan
+2003;Bölge cirosu (TL);70;30000000;34500000;Artan
+2003;Ortalama tahsilat süresi (gün);30;45;50;Azalan
+2004;Üretim adedi;50;120000;126000;Artan
+2004;Fire oranı (%);30;2,0;1,6;Azalan
+2004;İş kazası sayısı;20;0;0;Azalan
+2005;Müşteri şikâyeti sayısı;50;12;9;Azalan
+2005;Tedarikçi denetimi sayısı;50;8;8;Artan
+2006;Plan uyumu (%);100;95;88;Artan
+2007;Ay sonu kapanış süresi (gün);50;5;5;Azalan
+2007;Bütçe sapması (%);50;3;4,5;Azalan
+2009;Satış cirosu (TL);100;1000000;900000;Artan
