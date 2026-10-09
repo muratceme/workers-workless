@@ -1,0 +1,16 @@
+{
+  "id": "masraf-fisi-kategorileme",
+  "tur": "kod",
+  "ad": "Masraf Fişi Kategorileme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --masraflar masraflar.xlsx --kurallar kurallar.csv --departmanlar departmanlar.csv",
+  "girdiler": [
+    "Masraflar (.xlsx/.csv): Fiş No, Tarih, Çalışan, Departman, Satıcı, Açıklama, Tutar (KDV dahil), KDV Oranı, KDV Tutarı, Belge Türü, Ödeme",
+    "Kurallar: Öncelik, Anahtar Kelimeler, Alan, Kategori, Alt Hesap, KDV İndirilebilir, KKEG (%), Limit (TL), Not",
+    "Departman → gider (fonksiyon) hesabı eşlemesi; ödeme şekli → hesap eşlemesi"
+  ],
+  "ciktilar": ["Excel: Sınıflandırma (kategori, gider hesabı, indirilecek KDV, KKEG, bulgular, 'Onay / Düzeltme'), Yevmiye Önerisi, Kategori ve Departman Özeti, KKEG Listesi, Uyarılar"],
+  "internet": false
+}

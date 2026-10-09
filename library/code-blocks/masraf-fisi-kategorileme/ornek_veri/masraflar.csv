@@ -1,0 +1,19 @@
+Fiş No;Tarih;Çalışan;Departman;Satıcı;Açıklama;Tutar (KDV dahil);KDV Oranı;KDV Tutarı;Belge Türü;Ödeme
+M-1001;01.09.2026;Çalışan 501;Satış;Örnek Otel Turizm AŞ;Ankara müşteri ziyareti konaklama (2 gece);6600,00;10;600,00;e-Arşiv Fatura;Şirket Kartı
+M-1002;01.09.2026;Çalışan 501;Satış;Örnek Lokanta;Akşam yemeği;980,00;10;89,09;ÖKC Fişi;Şirket Kartı
+M-1003;02.09.2026;Çalışan 501;Satış;Örnek Restoran Ltd.;Müşteri yemeği - X Market satın alma ekibi (4 kişi);4200,00;10;381,82;e-Arşiv Fatura;Şirket Kartı
+M-1004;02.09.2026;Çalışan 501;Satış;THY;Ankara-İstanbul uçak bileti;3450,00;20;575,00;e-Bilet;Şirket Kartı
+M-1005;03.09.2026;Çalışan 502;Pazarlama;Örnek Akaryakıt;Şirket aracı yakıt (binek) 34 ABC 123;2800,00;20;466,67;e-Arşiv Fatura;Şirket Kartı
+M-1006;04.09.2026;Çalışan 503;Üretim;Örnek Petrol;Motorin - forklift servis aracı;3600,00;20;600,00;e-Fatura;Nakit
+M-1007;05.09.2026;Çalışan 502;Pazarlama;Emniyet Genel Müdürlüğü;Trafik cezası 34 ABC 123;2167,00;0;0,00;Makbuz;Kişisel Kart
+M-1008;06.09.2026;Çalışan 504;Muhasebe;Örnek Kırtasiye;Toner ve kâğıt;1450,00;20;241,67;e-Arşiv Fatura;Nakit
+M-1009;07.09.2026;Çalışan 505;İnsan Kaynakları;Örnek Eğitim Ltd.;İş hukuku semineri katılım;5400,00;20;900,00;e-Fatura;Şirket Kartı
+M-1010;07.09.2026;Çalışan 504;Muhasebe;Örnek Noterliği;Vekâletname noter harcı;1185,50;0;0,00;Makbuz;Nakit
+M-1011;08.09.2026;Çalışan 506;Ar-Ge;Örnek Software Inc.;Tasarım yazılımı aylık abonelik;1890,00;0;0,00;Yurt dışı fatura;Şirket Kartı
+M-1012;09.09.2026;Çalışan 501;Satış;Örnek Taksi;Havalimanı taksi;850,00;10;77,27;Belgesiz;Kişisel Kart
+M-1013;10.09.2026;Çalışan 507;Yönetim;Örnek Çiçekçi;Açılış için çiçek gönderimi;1800,00;20;300,00;e-Arşiv Fatura;Şirket Kartı
+M-1014;12.09.2026;Çalışan 501;Satış;Örnek Lokanta;Öğle yemeği;640,00;10;58,18;ÖKC Fişi;Şirket Kartı
+M-1015;12.09.2026;Çalışan 501;Satış;Örnek Lokanta;Öğle yemeği;640,00;10;58,18;ÖKC Fişi;Şirket Kartı
+M-1016;15.09.2026;Çalışan 508;Satış;Örnek Kargo AŞ;Numune gönderimi kargo;420,00;20;80,00;e-Arşiv Fatura;Nakit
+M-1017;16.09.2026;Çalışan 503;Üretim;Örnek Otoyol İşletmesi;Köprü ve otoyol geçiş ücreti;245,00;20;40,83;e-Arşiv Fatura;Kişisel Kart
+M-1018;18.09.2026;Çalışan 509;Lojistik;Örnek Kargo AŞ;Acil yedek parça kurye;1250,00;20;208,33;e-Arşiv Fatura;Nakit

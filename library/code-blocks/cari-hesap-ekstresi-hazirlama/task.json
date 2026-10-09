@@ -1,0 +1,16 @@
+{
+  "id": "cari-hesap-ekstresi-hazirlama",
+  "tur": "kod",
+  "ad": "Cari Hesap Ekstresi Hazırlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --hareketler hareketler.xlsx --cariler cariler.xlsx --donem 01.07.2026 30.09.2026",
+  "girdiler": [
+    "Cari hareketleri (.xlsx/.csv): Tarih, Cari Kod, [Cari Unvan], Belge Türü, Belge No, Açıklama, Borç, Alacak, Vade Tarihi",
+    "İsteğe bağlı cari listesi: Cari Kod, Unvan, Tür (Müşteri/Tedarikçi), Vade (gün)",
+    "Ekstre dönemi"
+  ],
+  "ciktilar": ["Excel: Bakiye Özeti (devir, dönem, bakiye, vadesi geçmiş), Ekstreler (yürüyen bakiye), Açık Kalemler (FIFO), Mutabakat Metinleri, Uyarılar; isteğe bağlı cari başına ayrı ekstre dosyası"],
+  "internet": false
+}

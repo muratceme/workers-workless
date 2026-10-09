@@ -1,0 +1,15 @@
+{
+  "id": "donem-sonu-kur-degerleme",
+  "tur": "kod",
+  "ad": "Dönem Sonu Kur Değerleme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --bakiyeler bakiyeler.xlsx --kurlar kurlar.csv --tarih 31.12.2026",
+  "girdiler": [
+    "Döviz hesap bakiyeleri (.xlsx/.csv): Hesap Kodu, Hesap Adı, Döviz, Döviz Bakiye, Borç/Alacak, TL Bakiye, [Kur]",
+    "Değerleme kurları: Döviz, Kur, Kaynak (değerleme gününün resmî kuru kullanıcı tarafından girilir)"
+  ],
+  "ciktilar": ["Excel: Değerleme (kayıtlı ve değerleme kuru, kur farkı, durum), Yevmiye Önerisi (646 / 656, denge kontrolü), Döviz Özeti (net pozisyon), Uyarılar"],
+  "internet": false
+}

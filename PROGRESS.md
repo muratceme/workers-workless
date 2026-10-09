@@ -246,9 +246,30 @@
   motorlarında "ilk uyan kural" sırasını README tablosunda göster.
 - **Toplam 108 paket**, kontrol 108/108.
 
+- Devam (2026-10-09, 9. tur, 10 paket): `zam-butcesi-simulasyonu` (Performans × Konum → Oran + Sabit Tutar, '*' ve en özel
+  satır; compa-ratio konumu; asgari ücret tabanı — yılı yoksa önceki yıl + uyarı; kıst, bant üstü sınırı → tek seferlik,
+  yuvarlama; bütçeye ölçekleme ikiye bölmeyle; işveren maliyeti SGK tavanlı), `performans-primi-hesaplama` (artan / azalan /
+  hedefi 0 hedef, hedef tavanı, skala eşik + doğrusal / kademeli + tavan, şirket çarpanı, kıst, ayrılana ödeme politikası,
+  bütçe aşımı), `personel-devir-orani-analizi` (ortalama = dönem başı + ay sonları; ayrılış türü nedenden anahtar
+  kelimeyle; kıdem bandı paydası; 90 gün erken ayrılma kohortu; 1,5 kat sinyali; bağımsız hesapla doğrulandı),
+  `egitim-ihtiyac-analizi` (açık × kritiklik + düşük performans + talep → öncelik; algı farkı; eğitim planı grup /
+  bireysel), `calisan-baglilik-anketi-analizi` (**agent**: puanlar kodda, anonimlik birleştirme, eNPS; yorumlar
+  maskeli ve birimsiz gönderilir; alıntı doğrulama; başlıklar yorum kimliğine dayanmalı; anahtar kelimeyle hassas yorum
+  güvenlik ağı; prompt.md iki bölümlü), `fatura-kdv-tutarlilik-kontrolu` (10.07.2023 oran değişimi, tevkifat oran
+  kümesi, yuvarlama sınıfı, e-fatura paketinin Excel çıktısını okur), `donem-sonu-kur-degerleme` (işaretli bakiye,
+  646 / 656, TL kalıntısı, avanslar hariç, ters bakiye, kur sapması), `cari-hesap-ekstresi-hazirlama` (devir,
+  yürüyen bakiye, FIFO açık kalem, vade yalnız fatura türü kalemlerde, mutabakat metni, ayrı dosyalar),
+  `masraf-fisi-kategorileme` (öncelikli kural dosyası, fonksiyon hesabı + alt hesap, belge türüne göre KDV, KKEG,
+  ödeme hesapları 309 / 195 / 335), `personel-maliyet-butcesi` (kadro + yan hak kapsamı, SGK tavanı ve teşvik, zam
+  mevcut kadroya, gerçekleşme sapması).
+- **Ders:** Başlangıç ayı boş = mevcut kadro; "ilk ay" ile karıştırma (Ocak zammı hatası testte yakalandı). Ödeme
+  kayıtlarına varsayılan vade yazma (fazla tahsilat "vadesi geçmiş" görünüyordu).
+- **Toplam 118 paket**, kontrol 118/118.
+
 ### KALDIĞIM YER
-Sıradaki (puan 3, İK): Eğitim İhtiyaç Analizi, Zam Bütçesi Simülasyonu, Performans Primi Hesaplama, Personel Devir Oranı
-Analizi, Çalışan Bağlılık Anketi Analizi, Personel Maliyet Bütçesi… Epikriz, ÖSS ve SGK fatura ön kontrolü (puan 5) sona
+Sıradaki (puan 3): Standart-Fiili Maliyet Sapma Analizi, Stok Değerleme, KDV Beyannamesi Ön Kontrolü, Çek-Senet Portföy
+Takibi, Departman Bütçelerinin Konsolidasyonu, Yatırım Fizibilitesi (NPV/IRR), Senaryo ve Duyarlılık Analizi, Kullanıcı
+Yetki Gözden Geçirme, KVKK Envanteri, BT Maliyet Raporu, Satın Alma… Epikriz, ÖSS ve SGK fatura ön kontrolü (puan 5) sona
 bırakıldı.
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.

@@ -1,0 +1,20 @@
+{
+  "id": "personel-maliyet-butcesi",
+  "tur": "kod",
+  "ad": "Personel Maliyet Bütçesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kadro kadro.xlsx --yan-haklar yan_haklar.csv --yil 2027 --zam 1=25 7=10",
+  "girdiler": [
+    "Kadro planı (.xlsx/.csv): Kadro No, Pozisyon, Departman, Brüt Ücret, Başlangıç Ayı, Bitiş Ayı, Teşvik",
+    "Yan haklar: Kalem, Tür (TL / %), Tutar, Kapsam, SGK'ya Tabi, Aylar",
+    "İsteğe bağlı gerçekleşen maliyet: Departman, Ay, Tutar",
+    "SGK oranları ve tavanı: tr_parametreler.json (yıl bazında, kaynaklı)"
+  ],
+  "ciktilar": ["Excel: Aylık Bütçe (departman × ay, grafik), Maliyet Bileşenleri, Kişi Bazında, Gerçekleşme (sapma), Varsayımlar, Uyarılar"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "tr_parametreler.json": "_ortak/tr_parametreler.json"
+  }
+}

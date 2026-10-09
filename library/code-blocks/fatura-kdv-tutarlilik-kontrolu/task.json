@@ -1,0 +1,16 @@
+{
+  "id": "fatura-kdv-tutarlilik-kontrolu",
+  "tur": "kod",
+  "ad": "Fatura KDV Tutarlılık Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --satirlar satirlar.xlsx --faturalar faturalar.xlsx",
+  "girdiler": [
+    "Fatura satırları (.xlsx/.csv): Fatura No, Tarih, Satıcı, Sıra, Mal/Hizmet, Miktar, Birim Fiyat, İskonto, Tutar, KDV Oranı, KDV Tutarı, [Tevkifat Oranı, Tevkif Edilen KDV]",
+    "İsteğe bağlı fatura toplamları: Mal/Hizmet Toplamı, Toplam KDV, KDV Tevkifatı, Vergiler Dahil, Ödenecek",
+    "E-Fatura Okuma ve Listeleme paketinin Excel çıktısı doğrudan verilebilir"
+  ],
+  "ciktilar": ["Excel: Bulgular (hata / uyarı / yuvarlama, 'Karar / Düzeltme'), Fatura Özeti (durum), Satırlar (beyan ve hesaplanan değerler), KDV Oran Özeti"],
+  "internet": false
+}

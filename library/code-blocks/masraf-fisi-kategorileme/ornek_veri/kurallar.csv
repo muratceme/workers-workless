@@ -1,0 +1,13 @@
+Öncelik;Anahtar Kelimeler;Alan;Kategori;Alt Hesap;KDV İndirilebilir;KKEG (%);Limit (TL);Not
+1;trafik cezası|para cezası|gecikme cezası|idari para;Hepsi;Ceza;99;Hayır;100;;Vergi cezaları ve para cezaları gider yazılamaz (KVK md. 11/1-d) — doğrulayın
+2;binek|şirket aracı yakıt;Açıklama;Binek araç gideri;05;Evet;30;;Binek otomobil giderlerinin %70'i gider yazılabilir (GVK md. 40/5) — oranı ve kapsamı doğrulayın
+3;akaryakıt|benzin|motorin|opet|shell|petrol ofisi|bp ;Hepsi;Yakıt (ticari araç);04;Evet;0;;Aracın binek olup olmadığını kontrol edin
+4;otel|konaklama|pansiyon;Hepsi;Konaklama;02;Evet;0;3500;Gecelik politika limiti örnektir
+5;uçak|thy|pegasus|ajet|otobüs bileti|tren|yht|taksi|bitaksi|uber|köprü|otoyol|hgs;Hepsi;Yol ve ulaşım;01;Evet;0;;
+6;müşteri yemeği|temsil|ağırlama;Açıklama;Temsil ve ağırlama;06;Evet;0;;Katılımcı ve iş amacı belgelenmeli
+7;yemek|restoran|lokanta|kafe|cafe;Hepsi;Yemek (iş seyahati);03;Evet;0;750;Kişi başı günlük limit örnektir
+8;kırtasiye|toner|kâğıt|kalem|dosya;Hepsi;Kırtasiye;07;Evet;0;;
+9;kargo|kurye|yurtiçi kargo|aras|mng;Hepsi;Kargo ve posta;08;Evet;0;;
+10;noter|harç|apostil;Hepsi;Noter ve harç;09;Hayır;0;;Noter harçlarında KDV yoktur; noter ücreti faturasındaki KDV ayrıca değerlendirilir
+11;eğitim|seminer|kurs|konferans;Hepsi;Eğitim;10;Evet;0;;
+12;yazılım|abonelik|lisans|bulut;Hepsi;Yazılım aboneliği;11;Evet;0;;Yurt dışı hizmet alımında sorumlu sıfatıyla KDV (2 No'lu beyanname) gerekebilir

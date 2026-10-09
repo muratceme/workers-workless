@@ -1,0 +1,18 @@
+Fatura No;Tarih;Satıcı;Sıra;Mal/Hizmet;Miktar;Birim Fiyat;İskonto;Tutar;KDV Oranı;KDV Tutarı;Tevkifat Oranı;Tevkif Edilen KDV
+ABC2026000000101;05.09.2026;Örnek Kırtasiye Ltd.;1;A4 fotokopi kâğıdı;20;185,00;0;3700,00;20;740,00;;
+ABC2026000000101;05.09.2026;Örnek Kırtasiye Ltd.;2;Toner;2;1450,00;100,00;2800,00;20;560,00;;
+ABC2026000000102;08.09.2026;Örnek Gıda AŞ;1;Ekmek;100;12,50;0;1250,00;1;12,50;;
+ABC2026000000102;08.09.2026;Örnek Gıda AŞ;2;Kuru gıda paketi;15;420,00;0;6230,00;10;623,00;;
+ABC2026000000102;08.09.2026;Örnek Gıda AŞ;3;Deterjan;6;89,90;0;539,40;20;107,88;;
+ABC2026000000103;10.09.2026;Örnek Temizlik Hizmetleri Ltd.;1;Ofis temizlik hizmeti (Eylül);1;48000,00;0;48000,00;20;9600,00;9/10;8640,00
+ABC2026000000104;12.09.2026;Örnek Yemek Hizmetleri AŞ;1;Personel yemeği (kişi/öğün);1250;210,00;0;262500,00;10;26250,00;5/10;13125,00
+ABC2026000000105;15.09.2026;Örnek Bilişim Ltd.;1;Dizüstü bilgisayar;3;42000,00;0;126000,00;20;25200,00;;
+ABC2026000000105;15.09.2026;Örnek Bilişim Ltd.;2;Kurulum hizmeti;3;1500,00;0;4500,00;18;810,00;;
+ABC2026000000106;18.09.2026;Örnek Nakliyat Ltd.;1;Nakliye bedeli;1;15000,00;0;15000,00;20;3000,00;6/10;1800,00
+ABC2026000000107;20.09.2026;Örnek Matbaa Ltd.;1;Broşür baskı;5000;1,85;0;9250,00;20;1850,00;7/10;1259,00
+ABC2026000000108;22.09.2026;Örnek Kırtasiye Ltd.;1;Klasör;40;65,00;0;2600,00;20;520,00;;
+ABC2026000000108;22.09.2026;Örnek Kırtasiye Ltd.;2;Kalem (kutu);10;130,00;0;1300,00;0;26,00;;
+ABC2026000000109;25.09.2026;Örnek Elektrik Malz. Ltd.;1;Kablo (m);250;23,47;0;5867,50;20;1173,50;;
+ABC2026000000109;25.09.2026;Örnek Elektrik Malz. Ltd.;2;Priz;37;48,33;0;1788,21;20;357,64;;
+ABC2026000000109;25.09.2026;Örnek Elektrik Malz. Ltd.;3;Sigorta;12;76,15;0;913,80;20;182,76;;
+ABC2026000000101;05.09.2026;Örnek Kırtasiye Ltd.;3;Zımba;4;95,00;0;380,00;20;76,00;;

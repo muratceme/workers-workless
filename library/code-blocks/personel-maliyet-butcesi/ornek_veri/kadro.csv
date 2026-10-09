@@ -1,0 +1,15 @@
+Kadro No;Pozisyon;Departman;Brüt Ücret (TL);Başlangıç Ayı;Bitiş Ayı;Teşvik
+K01;Fabrika Müdürü;Üretim;145000;;;imalat
+K02;Üretim Mühendisi;Üretim;72000;;;imalat
+K03;Ekip Lideri;Üretim;52000;;;imalat
+K04;Operatör;Üretim;38500;;;imalat
+K05;Operatör;Üretim;38500;;;imalat
+K06;Operatör;Üretim;36000;;;imalat
+K07;Operatör (yeni kadro);Üretim;36000;4;;imalat
+K08;Satış Müdürü;Satış;118000;;;yok
+K09;Satış Temsilcisi;Satış;56000;;;yok
+K10;Satış Temsilcisi;Satış;52000;;8;yok
+K11;Muhasebe Uzmanı;Muhasebe;64000;;;yok
+K12;İK Uzmanı;İnsan Kaynakları;61000;;;yok
+K13;Genel Müdür;Yönetim;320000;;;yok
+K14;Satış Temsilcisi (yeni kadro);Satış;54000;9;;yok
