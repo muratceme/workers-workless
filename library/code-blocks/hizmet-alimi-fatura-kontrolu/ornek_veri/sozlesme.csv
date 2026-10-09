@@ -1,0 +1,9 @@
+Hizmet;Kalem;Birim;Birim Fiyat;KDV Oranı;Tevkifat;Geçerlilik Başlangıç;Geçerlilik Bitiş;Asgari Günlük;Faturalama Esası;Ay Esası
+Yemek;Öğle yemeği;öğün;165,00;%10;5/10;01.01.2026;30.06.2026;120;Fiilî;
+Yemek;Öğle yemeği;öğün;185,00;%10;5/10;01.07.2026;31.12.2026;120;Fiilî;
+Yemek;Kumanya (gece vardiyası);adet;95,00;%10;5/10;01.01.2026;31.12.2026;;Fiilî;
+Servis;Güzergah 1 - Merkez;sefer;2.400,00;%20;5/10;01.01.2026;31.12.2026;;Fiilî;
+Servis;Güzergah 2 - Gebze;sefer;2.150,00;%20;5/10;01.01.2026;31.12.2026;;Fiilî;
+Temizlik;Temizlik personeli;kişi-ay;58.000,00;%20;9/10;01.01.2026;31.12.2026;;Puantaj;30
+Güvenlik;Güvenlik görevlisi;kişi-ay;62.000,00;%20;9/10;01.01.2026;31.12.2026;;Puantaj;30
+Güvenlik;Fazla mesai;saat;520,00;%20;9/10;01.01.2026;31.12.2026;;Fiilî;

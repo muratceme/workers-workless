@@ -284,10 +284,30 @@
   Decimal ile float sınır karşılaştırması (`< 0.8`) tam sınırda yanlış sonuç verir; Decimal("0.8") kullan.
 - **Toplam 128 paket**, kontrol 128/128.
 
+- Devam (2026-10-09, 11. tur, 10 paket): `satin-alma-talebi-konsolidasyonu` (onay durumu, birim eş adları, net ihtiyaç = talep −
+  (stok − emniyet) − açık sipariş, asgari sipariş + kat, termin riski, 3 teklif eşiği, tedarikçi × malzeme teklif listesi ve
+  ayrı teklif formları), `tedarikci-performans-degerlendirme` (kısmi teslim birikimi, eksik kapama / Satır Durumu, açık gecikmiş,
+  kriter ağırlıkları ve verisi olmayan kriterin çıkarılması, çeyreklik trend, karne metni; bir tedarikçi elle doğrulandı),
+  `harcama-analizi` (ABC önceki kümülatif paya göre, tedarikçi adı birleştirme, ay içi fiyat farkı, medyana göre fiyat artışı —
+  enflasyon, pazarlık öncelik kuralları), `dava-ve-durusma-takvimi` (HMK 92/93/104 + İYUK süre tablosu, adli tatil 7 Eylül,
+  bayramlar dosyadan, yarım gün uyarısı, iç hedef, duruşma çakışması, .ics), `icra-takip-durum-raporu` (basit faiz + TBK 100 mahsup
+  sırası, İİK 62/67/68/78/149/168 süreleri, işlemsiz dosya, fazla tahsilat), `mevzuat-degisikligi-ozeti` (**agent**: fihrist
+  ayrıştırma, başlık sınıflandırma, yürürlük maddesi kodda birebir + tarih kuralları, değişiklik alıntı doğrulama, bülten .md;
+  örnek veri tamamen kurgusal), `hizmet-alimi-fatura-kontrolu` (Fiilî + asgari günlük / Puantaj kişi-gün/30 / Sabit, fiyat
+  geçerlilik dönemi, KDV oranı, tevkifat kesri, mükerrer fatura, itiraz listesi), `musteri-segmentasyonu-rfm` (eşitlik korumalı
+  puan, 10 segmentli R×F haritası tam kapsama, iade / fatura no, kayıp sinyali, segment CSV), `cagri-merkezi-performans-raporu`
+  (kısa terk, SL tanımı, FCR tekrar arama + veri sonu dışlama, Erlang C personel ihtiyacı, numara maskeleme),
+  `isg-egitim-ve-muayene-takibi` (**02.04.2026 tarihli yeni İSG eğitim yönetmeliği**, RG 33212: 8/12/16 saat, 3 ay, tekrar
+  3/2/1 yıl ve en az 8 saat, md. 18/19; muayene 5/3/1 yıl + özel periyot; ilkyardımcı 20/15/10 ve 3 yıl).
+- **Ders:** Bash heredoc içinde kesme işareti (') sorun çıkarıyor → Write aracı. CSV'de ';' ayraçlı dosyada liste değerlerini
+  '/' ile ayır. Enflasyon ortamında mutlak fiyat artışı eşiği her şeyi işaretler → medyana göre fark. İSG eğitim yönetmeliği
+  2026'da yenilenmiş; mevzuat dayanaklarını her pakette güncel kaynaktan teyit et.
+- **Toplam 138 paket**, kontrol 138/138.
+
 ### KALDIĞIM YER
-Sıradaki (puan 3): Satın Alma Talebi Konsolidasyonu, Tedarikçi Performans Değerlendirme, Harcama Analizi (ABC), Dava ve
-Duruşma Takvimi, İcra Takip Durum Raporu, Mevzuat Değişikliği Özeti (agent), Hizmet Alımı Fatura Kontrolü… Epikriz, ÖSS ve
-SGK fatura ön kontrolü (puan 5) sona bırakıldı.
+Sıradaki (puan 3): Sosyal Medya İçerik Takvimi (agent), Rakip Analizi Raporu, Anket Sonuç Analizi (agent), Müşteri Ziyaret Planı,
+Teklif Hazırlama, Satış Tahmini, Memnuniyet (NPS) Anketi Analizi, Çağrı Kalite Değerlendirmesi (agent), Proforma Fatura, İhracat
+Evrak Kontrol Listesi, Akreditif Evrak Uygunluk, Sevkiyat Araç Planlama… Epikriz, ÖSS ve SGK fatura ön kontrolü (puan 5) sona bırakıldı.
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);

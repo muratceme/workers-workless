@@ -1,0 +1,20 @@
+{
+  "id": "mevzuat-degisikligi-ozeti",
+  "tur": "agent",
+  "ad": "Mevzuat Değişikliği Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --fihrist rg_2026-10-09.txt --metinler metinler/ --profil profil.txt",
+  "girdiler": [
+    "Resmî Gazete içindekiler (fihrist) sayfası, metin olarak kaydedilmiş (.txt); birden çok gün verilebilir",
+    "İsteğe bağlı tam metinler klasörü (.txt; ilk satır düzenlemenin başlığı)",
+    "Şirket profili (.txt): Faaliyet, Birimler, Anahtar kelimeler satırları",
+    ".env: sağlayıcı ve API anahtarı (--model-yok ile gerekmez)"
+  ],
+  "ciktilar": ["Excel: Özet, İlgili Düzenlemeler, Değişiklikler (doğrulanmış alıntılarla), Yapılacaklar, Yürürlük Takvimi, Tüm Başlıklar, Uyarılar", "Mevzuat bülteni (.md)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

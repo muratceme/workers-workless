@@ -1,0 +1,15 @@
+{
+  "id": "cagri-merkezi-performans-raporu",
+  "tur": "kod",
+  "ad": "Çağrı Merkezi Performans Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --cagrilar cagrilar.xlsx --sl-sure 20 --sl-hedef 80",
+  "girdiler": [
+    "Çağrı kayıtları (.xlsx/.csv): Çağrı ID, Başlangıç, Kuyruk, Temsilci, Bekleme, Görüşme, Beklemeye Alma, Çağrı Sonrası İş (sn veya ss:dd:sn), Durum (Cevaplandı / Terk), Arayan, Kategori, Çözüldü",
+    "İsteğe bağlı parametreler: SL süresi ve hedefi, kısa terk, tekrar arama günü, kayıp payı, terk hedefi"
+  ],
+  "ciktilar": ["Excel: Özet (kuyruk bazında), Günlük, Aralıklar (30 dk; Erlang C personel ihtiyacı, grafik), Temsilciler, Tekrar Arayanlar (maskeli), Uyarılar"],
+  "internet": false
+}

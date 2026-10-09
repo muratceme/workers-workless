@@ -1,0 +1,16 @@
+{
+  "id": "isg-egitim-ve-muayene-takibi",
+  "tur": "kod",
+  "ad": "İSG Eğitim ve Muayene Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --calisanlar calisanlar.xlsx --egitimler egitimler.xlsx --muayeneler muayeneler.xlsx --tehlike tehlikeli",
+  "girdiler": [
+    "Çalışanlar (.xlsx/.csv): Sicil, Ad Soyad, Birim, Görev, İşyeri, İşe Giriş, İşten Çıkış, Tehlike Sınıfı, Özel Muayene Periyodu (ay), Uzun Ayrılık Dönüşü, İş Kazası Dönüşü",
+    "Eğitim kayıtları: Sicil, Tarih, Eğitim Türü (İşe başlama / Temel / Tekrar / Bilgi yenileme / İlave / İlkyardım), Süre (ders saati)",
+    "Muayene kayıtları: Sicil, Tarih, Muayene Türü, Sonuç"
+  ],
+  "ciktilar": ["Excel: Durum (çalışan bazında), Aksiyon Listesi (tarih sırasıyla), Aylık Plan (6 ay), Birim Özeti, İlkyardımcı yeterliliği, Uyarılar"],
+  "internet": false
+}

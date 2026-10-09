@@ -1,0 +1,28 @@
+Sicil;Ad Soyad;Birim;Görev;İşyeri;İşe Giriş;İşten Çıkış;Tehlike Sınıfı;Özel Muayene Periyodu (ay);Uzun Ayrılık Dönüşü;İş Kazası Dönüşü
+S001;Örnek Çalışan 1;Üretim;Operatör;Kocaeli Fabrika;02.04.2019;;;;;
+S002;Örnek Çalışan 2;Depo;Depo görevlisi;Kocaeli Fabrika;03.05.2020;;;;;
+S003;Örnek Çalışan 3;Bakım;Bakım teknisyeni;Kocaeli Fabrika;04.06.2021;;;;;
+S004;Örnek Çalışan 4;Kalite;Kalite kontrol;Kocaeli Fabrika;05.07.2022;;;;;
+S005;Örnek Çalışan 5;Üretim;Operatör;Kocaeli Fabrika;06.08.2018;;;;;
+S006;Örnek Çalışan 6;Üretim;Operatör;Kocaeli Fabrika;07.03.2019;;;;;
+S007;Örnek Çalışan 7;Depo;Depo görevlisi;Kocaeli Fabrika;08.04.2020;;;;;
+S008;Örnek Çalışan 8;Kaynak;Kaynakçı;Kocaeli Fabrika;09.05.2021;;Çok tehlikeli;;;
+S009;Örnek Çalışan 9;Kaynak;Kaynakçı;Kocaeli Fabrika;10.06.2022;;Çok tehlikeli;;;
+S010;Örnek Çalışan 10;Üretim;Operatör;Kocaeli Fabrika;01.09.2026;;;;;
+S011;Örnek Çalışan 11;Depo;Depo görevlisi;Kocaeli Fabrika;15.05.2026;;;;;
+S012;Örnek Çalışan 12;Depo;Depo görevlisi;Kocaeli Fabrika;13.03.2020;;;;01.09.2026;
+S013;Örnek Çalışan 13;Bakım;Bakım teknisyeni;Kocaeli Fabrika;14.04.2021;;;;;15.07.2026
+S014;Örnek Çalışan 14;Kalite;Kalite kontrol;Kocaeli Fabrika;15.05.2022;;;;;20.09.2026
+S015;Örnek Çalışan 15;Üretim;Operatör;Kocaeli Fabrika;16.06.2018;;;12;;
+S016;Örnek Çalışan 16;Üretim;Operatör;Kocaeli Fabrika;17.07.2019;;;;;
+S017;Örnek Çalışan 17;Depo;Depo görevlisi;Kocaeli Fabrika;18.08.2020;;;;;
+S018;Örnek Çalışan 18;Bakım;Bakım teknisyeni;Kocaeli Fabrika;19.03.2021;;;;;
+S019;Örnek Çalışan 19;Kalite;Kalite kontrol;Kocaeli Fabrika;20.04.2022;;;;;
+S020;Örnek Çalışan 20;Üretim;Operatör;Kocaeli Fabrika;21.05.2018;;;;;
+S021;Örnek Çalışan 21;İdari;Uzman;İstanbul Ofis;10.02.2020;;Az tehlikeli;;;
+S022;Örnek Çalışan 22;İdari;Uzman;İstanbul Ofis;10.02.2021;;Az tehlikeli;;;
+S023;Örnek Çalışan 23;İdari;Uzman;İstanbul Ofis;10.02.2022;;Az tehlikeli;;;
+S024;Örnek Çalışan 24;İdari;Uzman;İstanbul Ofis;10.02.2019;;Az tehlikeli;;;
+S025;Örnek Çalışan 25;İdari;Uzman;İstanbul Ofis;10.02.2020;;Az tehlikeli;;;
+S026;Örnek Çalışan 26;Üretim;Operatör;Kocaeli Fabrika;03.02.2025;;;;;
+S030;Örnek Çalışan 30;Üretim;Operatör;Kocaeli Fabrika;06.01.2020;30.06.2026;;;;

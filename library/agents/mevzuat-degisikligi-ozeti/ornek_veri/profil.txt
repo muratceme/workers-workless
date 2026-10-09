@@ -1,0 +1,7 @@
+Şirket: Örnek Ambalaj Sanayi A.Ş. (kurgusal)
+Faaliyet: Plastik ve karton ambalaj üretimi; yurt içi satış ve ihracat (Avrupa ve Orta Doğu)
+Sektör (NACE): 22.22 Plastik torba, çanta, poşet, çuval, kutu, damacana, şişe vb. ambalaj malzemelerinin imalatı
+Çalışan sayısı: 180; tehlike sınıfı: tehlikeli
+Tesisler: İstanbul (merkez ofis), Kocaeli (fabrika, kendi trafo merkezi)
+Birimler: İnsan Kaynakları; Muhasebe ve Finans; Satın Alma; Üretim; İSG; Çevre; Dış Ticaret; Hukuk; Bilgi İşlem
+Anahtar kelimeler: ambalaj; atık; iş sağlığı; iş güvenliği; ihracat; gümrük; katma değer vergisi; vergi usul; kurumlar vergisi; sosyal güvenlik; asgari ücret; kişisel veri; enerji; elektrik; plastik

@@ -1,0 +1,16 @@
+{
+  "id": "hizmet-alimi-fatura-kontrolu",
+  "tur": "kod",
+  "ad": "Hizmet Alımı Fatura Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --sozlesme sozlesme.xlsx --kullanim kullanim.xlsx --faturalar faturalar.xlsx --donem 2026-09",
+  "girdiler": [
+    "Sözleşme birim fiyatları (.xlsx/.csv): Hizmet, Kalem, Birim, Birim Fiyat, KDV Oranı, Tevkifat, Geçerlilik Başlangıç / Bitiş, Asgari Günlük, Faturalama Esası (Fiilî / Puantaj / Sabit), Ay Esası",
+    "Fiilî kullanım: Tarih, Hizmet, Kalem, Miktar (öğün, sefer, saat; puantajda kişi-gün), Kaynak",
+    "Faturalar: Fatura No, Fatura Tarihi, Tedarikçi, Dönem, Hizmet, Kalem, Miktar, Birim Fiyat, Tutar, KDV Oranı, KDV Tutarı, Tevkifat Tutarı"
+  ],
+  "ciktilar": ["Excel: İtiraz Listesi (tedarikçiye gönderilebilir), Dönem Mutabakatı, Fatura Kontrolü, Kullanım Özeti, Uyarılar"],
+  "internet": false
+}

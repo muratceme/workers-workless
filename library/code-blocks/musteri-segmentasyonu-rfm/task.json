@@ -1,0 +1,15 @@
+{
+  "id": "musteri-segmentasyonu-rfm",
+  "tur": "kod",
+  "ad": "Müşteri Segmentasyonu (RFM)",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --satislar satislar.xlsx --bugun 09.10.2026 --segment-dosyalari",
+  "girdiler": [
+    "Satış geçmişi (.xlsx/.csv): Müşteri No, Müşteri Adı, Fatura Tarihi, Fatura No, Tutar (iade eksi), Bölge, Kanal",
+    "İsteğe bağlı parametreler: analiz tarihi, pencere (ay), kayıp sinyali katsayısı"
+  ],
+  "ciktilar": ["Excel: Segment Özeti (müşteri ve ciro payı, önerilen aksiyon), Müşteriler (R/F/M ve puanlar), R × F Matrisi, Kayıp Sinyali, Uyarılar", "İsteğe bağlı: her segment için CSV (CRM'e aktarım)"],
+  "internet": false
+}

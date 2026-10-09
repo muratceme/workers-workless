@@ -1,0 +1,10 @@
+Fatura No;Fatura Tarihi;Tedarikçi;Dönem;Hizmet;Kalem;Miktar;Birim Fiyat;Tutar;KDV Oranı;KDV Tutarı;Tevkifat Tutarı
+YEM2026000912;30.09.2026;Örnek Yemek Hizmetleri A.Ş.;09.2026;Yemek;Öğle yemeği;2789;185,00;515.965,00;%10;51.596,50;25.798,25
+YEM2026000912;30.09.2026;Örnek Yemek Hizmetleri A.Ş.;09.2026;Yemek;Kumanya (gece vardiyası);392;98,00;38.416,00;%10;3.841,60;1.920,80
+SRV2026000455;30.09.2026;Örnek Personel Taşımacılığı Ltd. Şti.;09.2026;Servis;Güzergah 1 - Merkez;46;2.400,00;110.400,00;%20;22.080,00;11.040,00
+SRV2026000455;30.09.2026;Örnek Personel Taşımacılığı Ltd. Şti.;09.2026;Servis;Güzergah 2 - Gebze;44;2.150,00;94.600,00;%18;17.028,00;8.514,00
+TMZ2026000301;30.09.2026;Örnek Tesis Temizlik A.Ş.;09.2026;Temizlik;Temizlik personeli;6;58.000,00;348.000,00;%20;69.600,00;34.800,00
+GVN2026000188;30.09.2026;Örnek Güvenlik Hizmetleri A.Ş.;09.2026;Güvenlik;Güvenlik görevlisi;4;62.000,00;248.000,00;%20;49.600,00;44.640,00
+GVN2026000188;30.09.2026;Örnek Güvenlik Hizmetleri A.Ş.;09.2026;Güvenlik;Fazla mesai;48;520,00;25.960,00;%20;5.192,00;4.672,80
+GVN2026000191;02.10.2026;Örnek Güvenlik Hizmetleri A.Ş.;09.2026;Güvenlik;Güvenlik görevlisi;4;62.000,00;248.000,00;%20;49.600,00;44.640,00
+YEM2026000913;30.09.2026;Örnek Yemek Hizmetleri A.Ş.;09.2026;Yemek;Kahvaltı;150;60,00;9.000,00;%10;900,00;450,00

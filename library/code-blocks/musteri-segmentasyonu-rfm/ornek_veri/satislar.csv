@@ -1,0 +1,672 @@
+Müşteri No;Müşteri Adı;Fatura Tarihi;Fatura No;Tutar;Bölge;Kanal
+C0089;Örnek Müşteri 89;09.05.2026;F10508;19809,85;Karadeniz;Saha satış
+C0019;Örnek Müşteri 19;14.05.2026;F10221;12400,62;Karadeniz;E-ticaret
+C0002;Örnek Müşteri 2;05.05.2026;F10021;22475,9;Ege;Saha satış
+C0077;Örnek Müşteri 77;09.12.2025;F10420;9690,65;Ege;Saha satış
+C0091;Örnek Müşteri 91;28.04.2026;F10534;21966,84;İç Anadolu;E-ticaret
+C0013;Örnek Müşteri 13;08.10.2026;F10173;20861,48;Akdeniz;E-ticaret
+C0093;Örnek Müşteri 93;21.03.2026;F10571;16400,99;Akdeniz;Bayi
+C0018;Örnek Müşteri 18;08.07.2026;F10215;8623,59;Akdeniz;Bayi
+C0016;Örnek Müşteri 16;02.09.2026;F10202;5188,26;İç Anadolu;E-ticaret
+C0064;Örnek Müşteri 64;22.07.2026;F10384;4084,08;Karadeniz;E-ticaret
+C0028;Örnek Müşteri 28;24.05.2026;F10295;11635,11;Akdeniz;E-ticaret
+C0120;Örnek Müşteri 120;29.01.2026;F10666;1598,59;Marmara;Bayi
+C0003;Örnek Müşteri 3;11.05.2026;F10036;21186,32;Akdeniz;Bayi
+C0013;Örnek Müşteri 13;26.01.2026;F10163;20557,23;Akdeniz;E-ticaret
+C0091;Örnek Müşteri 91;21.02.2026;F10531;17995,45;İç Anadolu;E-ticaret
+C0088;Örnek Müşteri 88;19.02.2026;F10494;10542,13;Akdeniz;E-ticaret
+C0009;Örnek Müşteri 9;27.06.2026;F10121;25547,58;Karadeniz;Bayi
+C0017;Örnek Müşteri 17;29.01.2026;F10206;5112,45;Ege;Saha satış
+C0002;Örnek Müşteri 2;04.06.2026;F10023;27742,64;Ege;Saha satış
+C0005;Örnek Müşteri 5;03.10.2026;F10066;28962,24;Marmara;Saha satış
+C0010;Örnek Müşteri 10;16.09.2026;F10131;16490,96;Marmara;E-ticaret
+C0090;Örnek Müşteri 90;17.01.2026;F10514;14761,89;Marmara;Bayi
+C0002;Örnek Müşteri 2;13.01.2026;F10017;9641,71;Ege;Saha satış
+C0006;Örnek Müşteri 6;01.09.2026;F10078;10937,83;İç Anadolu;Bayi
+C0001;Örnek Müşteri 1;30.06.2026;F10006;24529,04;İç Anadolu;E-ticaret
+C0081;Örnek Müşteri 81;08.12.2025;F10447;7230,0;İç Anadolu;Bayi
+C0095;Örnek Müşteri 95;20.02.2026;F10600;16454,46;Marmara;Saha satış
+C0007;Örnek Müşteri 7;07.01.2026;F10083;20100,79;Ege;E-ticaret
+C0022;Örnek Müşteri 22;29.03.2026;F10246;11930,35;Ege;E-ticaret
+C0091;Örnek Müşteri 91;05.04.2026;F10533;10008,87;İç Anadolu;E-ticaret
+C0022;Örnek Müşteri 22;03.06.2026;F10249;8749,15;Ege;E-ticaret
+C0004;Örnek Müşteri 4;20.04.2026;F10048;11587,9;Karadeniz;E-ticaret
+C0010;Örnek Müşteri 10;20.05.2026;F10127;23378,57;Marmara;E-ticaret
+C0074;Örnek Müşteri 74;23.02.2026;F10406;11814,67;Karadeniz;Saha satış
+C0020;Örnek Müşteri 20;11.12.2025;F10225;12708,78;Marmara;Saha satış
+C0092;Örnek Müşteri 92;09.02.2026;F10550;22715,55;Ege;Saha satış
+C0079;Örnek Müşteri 79;29.04.2026;F10438;9390,89;Karadeniz;E-ticaret
+C0082;Örnek Müşteri 82;08.11.2025;F10451;4316,67;Ege;E-ticaret
+C0118;Örnek Müşteri 118;27.01.2026;F10663;2550,76;Akdeniz;E-ticaret
+C0024;Örnek Müşteri 24;20.06.2026;F10262;6932,57;Karadeniz;Bayi
+C0008;Örnek Müşteri 8;26.07.2026;F10107;22475,11;Akdeniz;Saha satış
+C0090;Örnek Müşteri 90;08.04.2026;F10520;22419,65;Marmara;Bayi
+C0100;Örnek Müşteri 100;23.10.2025;F10632;1557,82;Marmara;E-ticaret
+C0005;Örnek Müşteri 5;06.12.2025;F10056;27148,48;Marmara;Saha satış
+C0023;Örnek Müşteri 23;12.09.2026;F10257;7958,05;Akdeniz;Saha satış
+C0045;Örnek Müşteri 45;14.05.2026;F10356;8876,49;Marmara;Bayi
+C0093;Örnek Müşteri 93;28.02.2026;F10566;15121,93;Akdeniz;Bayi
+C0019;Örnek Müşteri 19;16.12.2025;F10219;12551,72;Karadeniz;E-ticaret
+C0002;Örnek Müşteri 2;29.01.2026;F10018;12342,3;Ege;Saha satış
+C0017;Örnek Müşteri 17;17.03.2026;F10207;8519,18;Ege;Saha satış
+C0007;Örnek Müşteri 7;23.04.2026;F10092;24806,24;Ege;E-ticaret
+C0047;Örnek Müşteri 47;25.03.2026;F10362;7766,39;Ege;Saha satış
+C0048;Örnek Müşteri 48;30.01.2026;F10364;7159,84;Akdeniz;Bayi
+C0005;Örnek Müşteri 5;03.12.2025;F10055;16679,56;Marmara;Saha satış
+C0058;Örnek Müşteri 58;06.10.2026;F10376;5707,44;Akdeniz;E-ticaret
+C0001;Örnek Müşteri 1;01.06.2026;F10005;11188,29;İç Anadolu;E-ticaret
+C0033;Örnek Müşteri 33;21.01.2026;F10323;4201,49;Akdeniz;Bayi
+C0092;Örnek Müşteri 92;14.11.2025;F10541;11954,26;Ege;Saha satış
+C0083;Örnek Müşteri 83;13.11.2025;F10456;4430,54;Akdeniz;Saha satış
+C0013;Örnek Müşteri 13;15.11.2025;F10159;12186,66;Akdeniz;E-ticaret
+C0025;Örnek Müşteri 25;10.06.2026;F10268;11362,14;Marmara;E-ticaret
+C0030;Örnek Müşteri 30;27.04.2026;F10312;8117,89;Marmara;Bayi
+C0011;Örnek Müşteri 11;18.02.2026;F10140;29626,16;İç Anadolu;Saha satış
+C0093;Örnek Müşteri 93;06.03.2026;F10568;18378,23;Akdeniz;Bayi
+C0089;Örnek Müşteri 89;02.11.2025;F10496;18738,21;Karadeniz;Saha satış
+C0028;Örnek Müşteri 28;27.01.2026;F10293;13180,95;Akdeniz;E-ticaret
+C0006;Örnek Müşteri 6;22.05.2026;F10073;20855,48;İç Anadolu;Bayi
+C0014;Örnek Müşteri 14;12.12.2025;F10174;13934,03;Karadeniz;Saha satış
+C0002;Örnek Müşteri 2;23.07.2026;F10026;20322,71;Ege;Saha satış
+C0093;Örnek Müşteri 93;04.02.2026;F10564;24864,31;Akdeniz;Bayi
+C0027;Örnek Müşteri 27;06.01.2026;F10286;9052,33;Ege;Bayi
+C0090;Örnek Müşteri 90;28.02.2026;F10517;24386,51;Marmara;Bayi
+C0067;Örnek Müşteri 67;21.06.2026;F10389;3061,0;Ege;E-ticaret
+C0002;Örnek Müşteri 2;26.12.2025;F10015;18338,72;Ege;Saha satış
+C0092;Örnek Müşteri 92;25.11.2025;F10544;24325,63;Ege;Saha satış
+C0009;Örnek Müşteri 9;22.05.2026;F10120;17394,98;Karadeniz;Bayi
+C0025;Örnek Müşteri 25;21.09.2026;F10273;11357,6;Marmara;E-ticaret
+C0027;Örnek Müşteri 27;08.02.2026;F10288;7031,57;Ege;Bayi
+C0023;Örnek Müşteri 23;25.11.2025;F10252;11336,72;Akdeniz;Saha satış
+C0011;Örnek Müşteri 11;26.05.2026;F10143;17532,02;İç Anadolu;Saha satış
+C0011;Örnek Müşteri 11;17.12.2025;F10136;19492,27;İç Anadolu;Saha satış
+C0012;Örnek Müşteri 12;14.03.2026;F10151;22731,0;Ege;Bayi
+C0068;Örnek Müşteri 68;01.07.2026;F10391;5708,7;Akdeniz;Saha satış
+C0025;Örnek Müşteri 25;02.07.2026;F10269;11357,25;Marmara;E-ticaret
+C0110;Örnek Müşteri 110;18.03.2026;F10650;2439,96;Marmara;Saha satış
+C0013;Örnek Müşteri 13;03.06.2026;F10166;26497,51;Akdeniz;E-ticaret
+C0014;Örnek Müşteri 14;06.09.2026;F10187;18891,29;Karadeniz;Saha satış
+C0085;Örnek Müşteri 85;30.01.2026;F10473;11513,84;Marmara;E-ticaret
+C0042;Örnek Müşteri 42;24.09.2026;F10349;5840,25;Ege;Bayi
+C0075;Örnek Müşteri 75;26.01.2026;F10410;6163,11;Marmara;Bayi
+C0005;Örnek Müşteri 5;19.03.2026;F10058;11214,52;Marmara;Saha satış
+C0026;Örnek Müşteri 26;20.10.2025;F10274;14022,04;İç Anadolu;Saha satış
+C0044;Örnek Müşteri 44;09.03.2026;F10352;7601,39;Karadeniz;Saha satış
+C0008;Örnek Müşteri 8;14.08.2026;F10109;27095,34;Akdeniz;Saha satış
+C0026;Örnek Müşteri 26;06.08.2026;F10281;7992,68;İç Anadolu;Saha satış
+C0093;Örnek Müşteri 93;29.12.2025;F10561;20269,82;Akdeniz;Bayi
+C0014;Örnek Müşteri 14;23.06.2026;F10181;19258,62;Karadeniz;Saha satış
+C0096;Örnek Müşteri 96;29.11.2025;F10617;10613,75;İç Anadolu;Bayi
+C0003;Örnek Müşteri 3;20.09.2026;F10668;-4500,0;Akdeniz;Bayi
+C0089;Örnek Müşteri 89;21.12.2025;F10499;23826,93;Karadeniz;Saha satış
+C0094;Örnek Müşteri 94;03.01.2026;F10581;11145,05;Karadeniz;E-ticaret
+C0063;Örnek Müşteri 63;02.07.2026;F10383;5217,5;Akdeniz;Bayi
+C0029;Örnek Müşteri 29;02.08.2026;F10305;10306,32;Karadeniz;Saha satış
+C0093;Örnek Müşteri 93;19.11.2025;F10559;24475,8;Akdeniz;Bayi
+C0087;Örnek Müşteri 87;02.04.2026;F10487;7235,74;Ege;Bayi
+C0079;Örnek Müşteri 79;06.12.2025;F10435;5381,65;Karadeniz;E-ticaret
+C0080;Örnek Müşteri 80;23.10.2025;F10439;10609,83;Marmara;Saha satış
+C0013;Örnek Müşteri 13;04.09.2026;F10171;20647,55;Akdeniz;E-ticaret
+C0087;Örnek Müşteri 87;17.01.2026;F10484;9999,39;Ege;Bayi
+C0015;Örnek Müşteri 15;16.04.2026;F10193;10245,8;Marmara;Bayi
+C0114;Örnek Müşteri 114;10.10.2025;F10656;2440,92;Karadeniz;Bayi
+C0113;Örnek Müşteri 113;28.11.2025;F10655;1934,92;Akdeniz;Saha satış
+C0074;Örnek Müşteri 74;16.03.2026;F10408;11241,89;Karadeniz;Saha satış
+C0007;Örnek Müşteri 7;28.02.2026;F10089;8172,1;Ege;E-ticaret
+C0025;Örnek Müşteri 25;26.08.2026;F10271;8463,77;Marmara;E-ticaret
+C0041;Örnek Müşteri 41;13.07.2026;F10346;3821,3;İç Anadolu;Saha satış
+C0090;Örnek Müşteri 90;05.02.2026;F10515;12761,72;Marmara;Bayi
+C0093;Örnek Müşteri 93;18.04.2026;F10573;23472,4;Akdeniz;Bayi
+C0110;Örnek Müşteri 110;19.12.2025;F10649;4274,62;Marmara;Saha satış
+C0024;Örnek Müşteri 24;29.01.2026;F10261;8681,87;Karadeniz;Bayi
+C0025;Örnek Müşteri 25;28.12.2025;F10266;14622,16;Marmara;E-ticaret
+C0059;Örnek Müşteri 59;12.07.2026;F10378;4463,37;Karadeniz;Saha satış
+C0079;Örnek Müşteri 79;03.01.2026;F10436;8760,4;Karadeniz;E-ticaret
+C0006;Örnek Müşteri 6;08.08.2026;F10077;27923,35;İç Anadolu;Bayi
+C0102;Örnek Müşteri 102;23.10.2025;F10635;2004,38;Ege;Bayi
+C0028;Örnek Müşteri 28;01.08.2026;F10296;5090,7;Akdeniz;E-ticaret
+C0029;Örnek Müşteri 29;04.05.2026;F10301;5797,9;Karadeniz;Saha satış
+C0092;Örnek Müşteri 92;15.12.2025;F10549;12752,72;Ege;Saha satış
+C0001;Örnek Müşteri 1;27.02.2026;F10003;28521,12;İç Anadolu;E-ticaret
+C0038;Örnek Müşteri 38;09.09.2026;F10338;4637,36;Akdeniz;Saha satış
+C0016;Örnek Müşteri 16;09.07.2026;F10198;8684,94;İç Anadolu;E-ticaret
+C0083;Örnek Müşteri 83;21.01.2026;F10460;5175,84;Akdeniz;Saha satış
+C0018;Örnek Müşteri 18;01.07.2026;F10214;13827,87;Akdeniz;Bayi
+C0010;Örnek Müşteri 10;14.07.2026;F10129;13396,74;Marmara;E-ticaret
+C0037;Örnek Müşteri 37;02.12.2025;F10334;7314,33;Ege;E-ticaret
+C0009;Örnek Müşteri 9;10.11.2025;F10115;22553,01;Karadeniz;Bayi
+C0096;Örnek Müşteri 96;28.12.2025;F10620;14571,31;İç Anadolu;Bayi
+C0093;Örnek Müşteri 93;05.03.2026;F10567;11786,24;Akdeniz;Bayi
+C0079;Örnek Müşteri 79;26.03.2026;F10437;9769,37;Karadeniz;E-ticaret
+C0034;Örnek Müşteri 34;04.10.2026;F10328;8075,48;Karadeniz;E-ticaret
+C0093;Örnek Müşteri 93;04.01.2026;F10562;13416,76;Akdeniz;Bayi
+C0095;Örnek Müşteri 95;10.10.2025;F10591;15824,58;Marmara;Saha satış
+C0035;Örnek Müşteri 35;22.08.2026;F10329;8393,96;Marmara;Saha satış
+C0096;Örnek Müşteri 96;18.02.2026;F10624;14354,23;İç Anadolu;Bayi
+C0030;Örnek Müşteri 30;22.02.2026;F10309;13206,1;Marmara;Bayi
+C0002;Örnek Müşteri 2;22.11.2025;F10014;22632,38;Ege;Saha satış
+C0082;Örnek Müşteri 82;04.11.2025;F10450;11843,02;Ege;E-ticaret
+C0057;Örnek Müşteri 57;29.09.2026;F10375;6927,84;Ege;Bayi
+C0021;Örnek Müşteri 21;20.12.2025;F10234;8936,12;İç Anadolu;Bayi
+C0091;Örnek Müşteri 91;08.02.2026;F10530;15102,67;İç Anadolu;E-ticaret
+C0027;Örnek Müşteri 27;13.09.2026;F10291;5849,87;Ege;Bayi
+C0081;Örnek Müşteri 81;15.10.2025;F10443;5489,61;İç Anadolu;Bayi
+C0037;Örnek Müşteri 37;29.09.2026;F10336;6359,24;Ege;E-ticaret
+C0011;Örnek Müşteri 11;03.10.2026;F10145;16183,45;İç Anadolu;Saha satış
+C0009;Örnek Müşteri 9;04.12.2025;F10117;14062,81;Karadeniz;Bayi
+C0111;Örnek Müşteri 111;17.10.2025;F10652;3789,1;İç Anadolu;Bayi
+C0048;Örnek Müşteri 48;02.05.2026;F10365;6027,75;Akdeniz;Bayi
+C0083;Örnek Müşteri 83;20.10.2025;F10455;11322,56;Akdeniz;Saha satış
+C0038;Örnek Müşteri 38;28.10.2025;F10337;6755,49;Akdeniz;Saha satış
+C0095;Örnek Müşteri 95;15.10.2025;F10592;16700,64;Marmara;Saha satış
+C0010;Örnek Müşteri 10;29.06.2026;F10128;23025,46;Marmara;E-ticaret
+C0040;Örnek Müşteri 40;22.09.2026;F10344;8413,37;Marmara;E-ticaret
+C0095;Örnek Müşteri 95;13.04.2026;F10608;20181,2;Marmara;Saha satış
+C0030;Örnek Müşteri 30;08.12.2025;F10308;9867,44;Marmara;Bayi
+C0006;Örnek Müşteri 6;14.07.2026;F10076;29091,68;İç Anadolu;Bayi
+C0088;Örnek Müşteri 88;16.11.2025;F10490;11498,37;Akdeniz;E-ticaret
+C0087;Örnek Müşteri 87;02.01.2026;F10483;5416,21;Ege;Bayi
+C0001;Örnek Müşteri 1;23.03.2026;F10004;17420,2;İç Anadolu;E-ticaret
+C0014;Örnek Müşteri 14;13.08.2026;F10186;8817,25;Karadeniz;Saha satış
+C0014;Örnek Müşteri 14;29.01.2026;F10178;27583,22;Karadeniz;Saha satış
+C0025;Örnek Müşteri 25;05.11.2025;F10265;10006,28;Marmara;E-ticaret
+C0107;Örnek Müşteri 107;03.12.2025;F10643;2776,58;Ege;Saha satış
+C0004;Örnek Müşteri 4;08.06.2026;F10051;15625,41;Karadeniz;E-ticaret
+C0112;Örnek Müşteri 112;01.03.2026;F10653;4838,79;Ege;E-ticaret
+C0026;Örnek Müşteri 26;22.05.2026;F10278;5134,73;İç Anadolu;Saha satış
+C0003;Örnek Müşteri 3;24.03.2026;F10032;23751,96;Akdeniz;Bayi
+C0085;Örnek Müşteri 85;01.12.2025;F10469;6109,11;Marmara;E-ticaret
+C0016;Örnek Müşteri 16;07.01.2026;F10197;5210,46;İç Anadolu;E-ticaret
+C0092;Örnek Müşteri 92;15.11.2025;F10542;15218,12;Ege;Saha satış
+C0078;Örnek Müşteri 78;08.12.2025;F10428;6728,28;Akdeniz;Bayi
+C0099;Örnek Müşteri 99;12.01.2026;F10630;1531,23;Karadeniz;Bayi
+C0055;Örnek Müşteri 55;15.09.2026;F10373;7566,87;Marmara;E-ticaret
+C0029;Örnek Müşteri 29;27.10.2025;F10299;6821,4;Karadeniz;Saha satış
+C0093;Örnek Müşteri 93;25.02.2026;F10565;18158,72;Akdeniz;Bayi
+C0093;Örnek Müşteri 93;22.10.2025;F10557;22701,23;Akdeniz;Bayi
+C0077;Örnek Müşteri 77;09.03.2026;F10426;9768,35;Ege;Saha satış
+C0001;Örnek Müşteri 1;15.07.2026;F10008;23266,21;İç Anadolu;E-ticaret
+C0024;Örnek Müşteri 24;23.01.2026;F10260;11492,61;Karadeniz;Bayi
+C0045;Örnek Müşteri 45;12.09.2026;F10357;4542,91;Marmara;Bayi
+C0086;Örnek Müşteri 86;27.11.2025;F10474;9474,88;İç Anadolu;Saha satış
+C0008;Örnek Müşteri 8;16.07.2026;F10105;12429,09;Akdeniz;Saha satış
+C0116;Örnek Müşteri 116;13.03.2026;F10660;3428,73;İç Anadolu;Saha satış
+C0056;Örnek Müşteri 56;01.10.2026;F10374;3794,71;İç Anadolu;Saha satış
+C0084;Örnek Müşteri 84;03.02.2026;F10464;7832,14;Karadeniz;Bayi
+C0092;Örnek Müşteri 92;13.10.2025;F10538;22800,07;Ege;Saha satış
+C0092;Örnek Müşteri 92;09.02.2026;F10551;15113,12;Ege;Saha satış
+C0012;Örnek Müşteri 12;21.01.2026;F10148;16837,04;Ege;Bayi
+C0016;Örnek Müşteri 16;16.08.2026;F10199;9784,9;İç Anadolu;E-ticaret
+C0094;Örnek Müşteri 94;05.02.2026;F10586;18263,36;Karadeniz;E-ticaret
+C0024;Örnek Müşteri 24;21.06.2026;F10263;6410,32;Karadeniz;Bayi
+C0073;Örnek Müşteri 73;12.04.2026;F10401;5558,97;Akdeniz;E-ticaret
+C0094;Örnek Müşteri 94;26.11.2025;F10578;17354,73;Karadeniz;E-ticaret
+C0015;Örnek Müşteri 15;12.05.2026;F10194;5783,12;Marmara;Bayi
+C0076;Örnek Müşteri 76;24.01.2026;F10418;8083,89;İç Anadolu;E-ticaret
+C0014;Örnek Müşteri 14;18.09.2026;F10188;22976,66;Karadeniz;Saha satış
+C0039;Örnek Müşteri 39;21.02.2026;F10339;7739,5;Karadeniz;Bayi
+C0022;Örnek Müşteri 22;17.04.2026;F10248;12512,95;Ege;E-ticaret
+C0012;Örnek Müşteri 12;06.09.2026;F10157;15713,18;Ege;Bayi
+C0021;Örnek Müşteri 21;06.08.2026;F10241;7272,69;İç Anadolu;Bayi
+C0067;Örnek Müşteri 67;30.01.2026;F10388;3954,08;Ege;E-ticaret
+C0105;Örnek Müşteri 105;15.02.2026;F10640;1627,12;Marmara;Bayi
+C0096;Örnek Müşteri 96;03.03.2026;F10625;20778,15;İç Anadolu;Bayi
+C0013;Örnek Müşteri 13;17.08.2026;F10170;13375,11;Akdeniz;E-ticaret
+C0108;Örnek Müşteri 108;02.11.2025;F10645;3194,38;Akdeniz;Bayi
+C0090;Örnek Müşteri 90;16.05.2026;F10523;19247,9;Marmara;Bayi
+C0091;Örnek Müşteri 91;06.01.2026;F10527;11058,55;İç Anadolu;E-ticaret
+C0021;Örnek Müşteri 21;13.03.2026;F10238;10764,37;İç Anadolu;Bayi
+C0011;Örnek Müşteri 11;16.04.2026;F10142;11661,73;İç Anadolu;Saha satış
+C0070;Örnek Müşteri 70;06.07.2026;F10394;3569,65;Marmara;E-ticaret
+C0018;Örnek Müşteri 18;31.01.2026;F10211;10548,59;Akdeniz;Bayi
+C0096;Örnek Müşteri 96;10.02.2026;F10623;22700,18;İç Anadolu;Bayi
+C0008;Örnek Müşteri 8;15.04.2026;F10102;12170,16;Akdeniz;Saha satış
+C0044;Örnek Müşteri 44;10.05.2026;F10353;8705,82;Karadeniz;Saha satış
+C0054;Örnek Müşteri 54;15.09.2026;F10372;4376,72;Karadeniz;Bayi
+C0052;Örnek Müşteri 52;03.10.2026;F10370;7571,43;Ege;E-ticaret
+C0018;Örnek Müşteri 18;19.07.2026;F10216;5828,17;Akdeniz;Bayi
+C0008;Örnek Müşteri 8;30.07.2026;F10108;17246,01;Akdeniz;Saha satış
+C0090;Örnek Müşteri 90;30.10.2025;F10511;22224,31;Marmara;Bayi
+C0013;Örnek Müşteri 13;14.03.2026;F10164;28063,77;Akdeniz;E-ticaret
+C0003;Örnek Müşteri 3;09.07.2026;F10040;29559,89;Akdeniz;Bayi
+C0032;Örnek Müşteri 32;30.04.2026;F10319;7353,91;Ege;Saha satış
+C0061;Örnek Müşteri 61;21.07.2026;F10380;3946,08;İç Anadolu;E-ticaret
+C0093;Örnek Müşteri 93;12.10.2025;F10555;17401,23;Akdeniz;Bayi
+C0019;Örnek Müşteri 19;30.07.2026;F10223;7126,76;Karadeniz;E-ticaret
+C0121;Örnek Müşteri 121;01.08.2026;F10669;3000,0;İç Anadolu;E-ticaret
+C0043;Örnek Müşteri 43;25.08.2026;F10351;6062,13;Akdeniz;E-ticaret
+C0086;Örnek Müşteri 86;29.12.2025;F10477;11851,76;İç Anadolu;Saha satış
+C0040;Örnek Müşteri 40;17.07.2026;F10343;4000,76;Marmara;E-ticaret
+C0093;Örnek Müşteri 93;19.04.2026;F10574;13928,03;Akdeniz;Bayi
+C0093;Örnek Müşteri 93;18.11.2025;F10558;12317,99;Akdeniz;Bayi
+C0091;Örnek Müşteri 91;28.01.2026;F10529;21082,53;İç Anadolu;E-ticaret
+C0002;Örnek Müşteri 2;01.02.2026;F10019;22823,48;Ege;Saha satış
+C0096;Örnek Müşteri 96;28.01.2026;F10622;20345,22;İç Anadolu;Bayi
+C0014;Örnek Müşteri 14;04.05.2026;F10180;9487,88;Karadeniz;Saha satış
+C0030;Örnek Müşteri 30;06.11.2025;F10307;10848,73;Marmara;Bayi
+C0095;Örnek Müşteri 95;13.01.2026;F10599;20116,1;Marmara;Saha satış
+C0094;Örnek Müşteri 94;23.11.2025;F10576;22196,65;Karadeniz;E-ticaret
+C0066;Örnek Müşteri 66;30.07.2026;F10386;3629,87;İç Anadolu;Bayi
+C0089;Örnek Müşteri 89;12.03.2026;F10505;15177,68;Karadeniz;Saha satış
+C0077;Örnek Müşteri 77;25.11.2025;F10419;5537,47;Ege;Saha satış
+C0120;Örnek Müşteri 120;18.02.2026;F10667;4402,17;Marmara;Bayi
+C0088;Örnek Müşteri 88;20.01.2026;F10491;5528,03;Akdeniz;E-ticaret
+C0053;Örnek Müşteri 53;25.09.2026;F10371;3516,6;Akdeniz;Saha satış
+C0095;Örnek Müşteri 95;24.10.2025;F10593;21912,96;Marmara;Saha satış
+C0106;Örnek Müşteri 106;29.01.2026;F10641;1780,46;İç Anadolu;E-ticaret
+C0022;Örnek Müşteri 22;09.04.2026;F10247;13652,73;Ege;E-ticaret
+C0021;Örnek Müşteri 21;28.10.2025;F10233;8768,73;İç Anadolu;Bayi
+C0094;Örnek Müşteri 94;06.01.2026;F10582;23269,76;Karadeniz;E-ticaret
+C0086;Örnek Müşteri 86;21.12.2025;F10475;4209,14;İç Anadolu;Saha satış
+C0040;Örnek Müşteri 40;09.07.2026;F10342;4269,82;Marmara;E-ticaret
+C0076;Örnek Müşteri 76;16.11.2025;F10416;8302,54;İç Anadolu;E-ticaret
+C0007;Örnek Müşteri 7;04.10.2026;F10098;8922,05;Ege;E-ticaret
+C0035;Örnek Müşteri 35;17.09.2026;F10330;4089,61;Marmara;Saha satış
+C0006;Örnek Müşteri 6;13.11.2025;F10067;23076,57;İç Anadolu;Bayi
+C0091;Örnek Müşteri 91;22.03.2026;F10532;15053,24;İç Anadolu;E-ticaret
+C0069;Örnek Müşteri 69;31.07.2026;F10392;5673,63;Karadeniz;Bayi
+C0018;Örnek Müşteri 18;13.09.2026;F10217;9055,74;Akdeniz;Bayi
+C0059;Örnek Müşteri 59;11.01.2026;F10377;2747,45;Karadeniz;Saha satış
+C0042;Örnek Müşteri 42;18.06.2026;F10348;3665,85;Ege;Bayi
+C0041;Örnek Müşteri 41;26.12.2025;F10345;5317,8;İç Anadolu;Saha satış
+C0096;Örnek Müşteri 96;10.10.2025;F10609;16167,95;İç Anadolu;Bayi
+C0089;Örnek Müşteri 89;16.04.2026;F10507;17166,22;Karadeniz;Saha satış
+C0090;Örnek Müşteri 90;21.04.2026;F10522;12424,33;Marmara;Bayi
+C0088;Örnek Müşteri 88;01.11.2025;F10488;11575,7;Akdeniz;E-ticaret
+C0094;Örnek Müşteri 94;18.02.2026;F10588;17098,34;Karadeniz;E-ticaret
+C0094;Örnek Müşteri 94;02.01.2026;F10580;15649,86;Karadeniz;E-ticaret
+C0015;Örnek Müşteri 15;10.09.2026;F10196;7137,15;Marmara;Bayi
+C0010;Örnek Müşteri 10;07.10.2026;F10135;29762,59;Marmara;E-ticaret
+C0020;Örnek Müşteri 20;04.06.2026;F10230;8780,4;Marmara;Saha satış
+C0017;Örnek Müşteri 17;07.11.2025;F10203;14418,34;Ege;Saha satış
+C0010;Örnek Müşteri 10;07.02.2026;F10125;22696,63;Marmara;E-ticaret
+C0014;Örnek Müşteri 14;08.08.2026;F10185;9292,73;Karadeniz;Saha satış
+C0090;Örnek Müşteri 90;07.03.2026;F10518;23437,43;Marmara;Bayi
+C0043;Örnek Müşteri 43;26.03.2026;F10350;3667,94;Akdeniz;E-ticaret
+C0007;Örnek Müşteri 7;22.09.2026;F10097;14899,58;Ege;E-ticaret
+C0018;Örnek Müşteri 18;10.02.2026;F10212;12755,78;Akdeniz;Bayi
+C0013;Örnek Müşteri 13;26.07.2026;F10169;27415,86;Akdeniz;E-ticaret
+C0034;Örnek Müşteri 34;26.06.2026;F10327;5127,88;Karadeniz;E-ticaret
+C0074;Örnek Müşteri 74;10.02.2026;F10405;9372,57;Karadeniz;Saha satış
+C0092;Örnek Müşteri 92;09.03.2026;F10554;14000,01;Ege;Saha satış
+C0008;Örnek Müşteri 8;08.09.2026;F10112;25768,82;Akdeniz;Saha satış
+C0002;Örnek Müşteri 2;09.01.2026;F10016;26043,18;Ege;Saha satış
+C0048;Örnek Müşteri 48;02.10.2026;F10366;3253,15;Akdeniz;Bayi
+C0008;Örnek Müşteri 8;08.04.2026;F10101;24671,88;Akdeniz;Saha satış
+C0085;Örnek Müşteri 85;16.10.2025;F10466;9926,51;Marmara;E-ticaret
+C0085;Örnek Müşteri 85;10.11.2025;F10468;5930,79;Marmara;E-ticaret
+C0024;Örnek Müşteri 24;23.08.2026;F10264;5577,49;Karadeniz;Bayi
+C0020;Örnek Müşteri 20;31.12.2025;F10226;12513,8;Marmara;Saha satış
+C0044;Örnek Müşteri 44;06.09.2026;F10354;6324,71;Karadeniz;Saha satış
+C0005;Örnek Müşteri 5;19.06.2026;F10063;22305,51;Marmara;Saha satış
+C0078;Örnek Müşteri 78;10.01.2026;F10431;9432,46;Akdeniz;Bayi
+C0078;Örnek Müşteri 78;21.12.2025;F10430;4457,33;Akdeniz;Bayi
+C0005;Örnek Müşteri 5;03.06.2026;F10061;9086,85;Marmara;Saha satış
+C0096;Örnek Müşteri 96;05.03.2026;F10626;18038,9;İç Anadolu;Bayi
+C0006;Örnek Müşteri 6;05.09.2026;F10079;10086,46;İç Anadolu;Bayi
+C0095;Örnek Müşteri 95;31.12.2025;F10597;10466,42;Marmara;Saha satış
+C0015;Örnek Müşteri 15;24.01.2026;F10191;11908,62;Marmara;Bayi
+C0096;Örnek Müşteri 96;25.12.2025;F10619;10768,73;İç Anadolu;Bayi
+C0094;Örnek Müşteri 94;21.03.2026;F10589;24710,1;Karadeniz;E-ticaret
+C0078;Örnek Müşteri 78;13.12.2025;F10429;7422,62;Akdeniz;Bayi
+C0028;Örnek Müşteri 28;10.09.2026;F10298;8181,41;Akdeniz;E-ticaret
+C0004;Örnek Müşteri 4;11.05.2026;F10050;8313,78;Karadeniz;E-ticaret
+C0013;Örnek Müşteri 13;19.04.2026;F10165;17507,61;Akdeniz;E-ticaret
+C0096;Örnek Müşteri 96;18.10.2025;F10610;20802,76;İç Anadolu;Bayi
+C0093;Örnek Müşteri 93;22.01.2026;F10563;17954,58;Akdeniz;Bayi
+C0093;Örnek Müşteri 93;05.12.2025;F10560;16545,49;Akdeniz;Bayi
+C0039;Örnek Müşteri 39;21.09.2026;F10341;8361,53;Karadeniz;Bayi
+C0005;Örnek Müşteri 5;21.08.2026;F10065;18539,47;Marmara;Saha satış
+C0004;Örnek Müşteri 4;04.12.2025;F10042;11517,47;Karadeniz;E-ticaret
+C0088;Örnek Müşteri 88;12.02.2026;F10493;5827,24;Akdeniz;E-ticaret
+C0049;Örnek Müşteri 49;03.10.2026;F10367;3949,21;Karadeniz;E-ticaret
+C0011;Örnek Müşteri 11;04.02.2026;F10139;24345,45;İç Anadolu;Saha satış
+C0080;Örnek Müşteri 80;31.03.2026;F10441;5457,7;Marmara;Saha satış
+C0097;Örnek Müşteri 97;12.10.2025;F10627;3600,37;Ege;E-ticaret
+C0006;Örnek Müşteri 6;18.01.2026;F10069;8517,01;İç Anadolu;Bayi
+C0014;Örnek Müşteri 14;16.02.2026;F10179;9562,33;Karadeniz;Saha satış
+C0030;Örnek Müşteri 30;01.09.2026;F10314;7696,73;Marmara;Bayi
+C0096;Örnek Müşteri 96;11.11.2025;F10613;21499,11;İç Anadolu;Bayi
+C0011;Örnek Müşteri 11;15.04.2026;F10141;29798,44;İç Anadolu;Saha satış
+C0078;Örnek Müşteri 78;11.03.2026;F10433;5873,44;Akdeniz;Bayi
+C0005;Örnek Müşteri 5;03.04.2026;F10059;11326,37;Marmara;Saha satış
+C0075;Örnek Müşteri 75;10.02.2026;F10411;8016,14;Marmara;Bayi
+C0005;Örnek Müşteri 5;12.12.2025;F10057;22199,58;Marmara;Saha satış
+C0092;Örnek Müşteri 92;06.12.2025;F10547;13109,11;Ege;Saha satış
+C0029;Örnek Müşteri 29;02.11.2025;F10300;14262,26;Karadeniz;Saha satış
+C0033;Örnek Müşteri 33;27.10.2025;F10322;5553,09;Akdeniz;Bayi
+C0103;Örnek Müşteri 103;04.02.2026;F10637;1952,95;Akdeniz;E-ticaret
+C0032;Örnek Müşteri 32;06.08.2026;F10320;3280,34;Ege;Saha satış
+C0089;Örnek Müşteri 89;29.11.2025;F10498;24821,76;Karadeniz;Saha satış
+C0080;Örnek Müşteri 80;10.02.2026;F10440;8546,68;Marmara;Saha satış
+C0033;Örnek Müşteri 33;13.09.2026;F10325;4285,4;Akdeniz;Bayi
+C0013;Örnek Müşteri 13;30.12.2025;F10162;11656,47;Akdeniz;E-ticaret
+C0093;Örnek Müşteri 93;14.03.2026;F10570;14785,9;Akdeniz;Bayi
+C0024;Örnek Müşteri 24;17.12.2025;F10259;8351,04;Karadeniz;Bayi
+C0100;Örnek Müşteri 100;02.11.2025;F10633;4631,69;Marmara;E-ticaret
+C0007;Örnek Müşteri 7;18.07.2026;F10095;13563,93;Ege;E-ticaret
+C0087;Örnek Müşteri 87;26.01.2026;F10485;4617,34;Ege;Bayi
+C0025;Örnek Müşteri 25;14.07.2026;F10270;8657,29;Marmara;E-ticaret
+C0081;Örnek Müşteri 81;27.01.2026;F10449;6743,0;İç Anadolu;Bayi
+C0020;Örnek Müşteri 20;10.03.2026;F10228;7529,52;Marmara;Saha satış
+C0046;Örnek Müşteri 46;14.09.2026;F10361;4229,0;İç Anadolu;E-ticaret
+C0006;Örnek Müşteri 6;11.09.2026;F10080;10066,65;İç Anadolu;Bayi
+C0031;Örnek Müşteri 31;05.11.2025;F10315;7474,46;İç Anadolu;E-ticaret
+C0019;Örnek Müşteri 19;23.10.2025;F10218;14546,19;Karadeniz;E-ticaret
+C0007;Örnek Müşteri 7;10.02.2026;F10087;25033,47;Ege;E-ticaret
+C0119;Örnek Müşteri 119;09.01.2026;F10664;4036,2;Karadeniz;Saha satış
+C0021;Örnek Müşteri 21;30.01.2026;F10237;10814,84;İç Anadolu;Bayi
+C0012;Örnek Müşteri 12;06.03.2026;F10150;22646,6;Ege;Bayi
+C0019;Örnek Müşteri 19;02.09.2026;F10224;10325,04;Karadeniz;E-ticaret
+C0002;Örnek Müşteri 2;14.08.2026;F10027;20296,74;Ege;Saha satış
+C0090;Örnek Müşteri 90;09.04.2026;F10521;17674,2;Marmara;Bayi
+C0024;Örnek Müşteri 24;26.10.2025;F10258;11864,08;Karadeniz;Bayi
+C0074;Örnek Müşteri 74;30.12.2025;F10403;11423,15;Karadeniz;Saha satış
+C0095;Örnek Müşteri 95;01.04.2026;F10607;21746,56;Marmara;Saha satış
+C0084;Örnek Müşteri 84;04.11.2025;F10462;7294,79;Karadeniz;Bayi
+C0011;Örnek Müşteri 11;23.12.2025;F10137;21639,27;İç Anadolu;Saha satış
+C0083;Örnek Müşteri 83;31.01.2026;F10461;8131,26;Akdeniz;Saha satış
+C0026;Örnek Müşteri 26;31.01.2026;F10275;12491,43;İç Anadolu;Saha satış
+C0013;Örnek Müşteri 13;30.06.2026;F10168;17177,03;Akdeniz;E-ticaret
+C0008;Örnek Müşteri 8;28.12.2025;F10100;21743,99;Akdeniz;Saha satış
+C0089;Örnek Müşteri 89;06.04.2026;F10506;15607,32;Karadeniz;Saha satış
+C0096;Örnek Müşteri 96;29.11.2025;F10618;13334,37;İç Anadolu;Bayi
+C0031;Örnek Müşteri 31;06.09.2026;F10318;3637,85;İç Anadolu;E-ticaret
+C0086;Örnek Müşteri 86;21.12.2025;F10476;9044,89;İç Anadolu;Saha satış
+C0098;Örnek Müşteri 98;21.11.2025;F10629;2422,1;Akdeniz;Saha satış
+C0088;Örnek Müşteri 88;06.11.2025;F10489;9724,37;Akdeniz;E-ticaret
+C0094;Örnek Müşteri 94;10.02.2026;F10587;24917,51;Karadeniz;E-ticaret
+C0046;Örnek Müşteri 46;03.03.2026;F10359;6908,49;İç Anadolu;E-ticaret
+C0004;Örnek Müşteri 4;27.09.2026;F10053;22672,6;Karadeniz;E-ticaret
+C0009;Örnek Müşteri 9;22.11.2025;F10116;8924,88;Karadeniz;Bayi
+C0023;Örnek Müşteri 23;05.04.2026;F10255;7648,41;Akdeniz;Saha satış
+C0081;Örnek Müşteri 81;17.11.2025;F10446;7582,89;İç Anadolu;Bayi
+C0073;Örnek Müşteri 73;23.12.2025;F10397;8124,93;Akdeniz;E-ticaret
+C0003;Örnek Müşteri 3;14.06.2026;F10038;20573,41;Akdeniz;Bayi
+C0012;Örnek Müşteri 12;15.12.2025;F10147;16638,71;Ege;Bayi
+C0004;Örnek Müşteri 4;02.09.2026;F10052;19134,95;Karadeniz;E-ticaret
+C0027;Örnek Müşteri 27;23.10.2025;F10283;6117,56;Ege;Bayi
+C0072;Örnek Müşteri 72;13.06.2026;F10396;2315,62;Ege;Bayi
+C0002;Örnek Müşteri 2;01.07.2026;F10024;29754,02;Ege;Saha satış
+C0020;Örnek Müşteri 20;23.08.2026;F10232;7654,87;Marmara;Saha satış
+C0037;Örnek Müşteri 37;08.03.2026;F10335;4824,7;Ege;E-ticaret
+C0068;Örnek Müşteri 68;02.02.2026;F10390;3207,33;Akdeniz;Saha satış
+C0073;Örnek Müşteri 73;05.01.2026;F10398;5933,15;Akdeniz;E-ticaret
+C0036;Örnek Müşteri 36;22.12.2025;F10331;5207,38;İç Anadolu;Bayi
+C0082;Örnek Müşteri 82;18.02.2026;F10453;10404,71;Ege;E-ticaret
+C0006;Örnek Müşteri 6;14.04.2026;F10071;22164,9;İç Anadolu;Bayi
+C0095;Örnek Müşteri 95;12.03.2026;F10603;12380,68;Marmara;Saha satış
+C0111;Örnek Müşteri 111;13.10.2025;F10651;3386,77;İç Anadolu;Bayi
+C0087;Örnek Müşteri 87;07.12.2025;F10481;4605,1;Ege;Bayi
+C0089;Örnek Müşteri 89;03.01.2026;F10500;20313,8;Karadeniz;Saha satış
+C0017;Örnek Müşteri 17;10.07.2026;F10209;11071,88;Ege;Saha satış
+C0012;Örnek Müşteri 12;18.11.2025;F10146;11457,6;Ege;Bayi
+C0003;Örnek Müşteri 3;06.04.2026;F10033;29612,62;Akdeniz;Bayi
+C0027;Örnek Müşteri 27;04.01.2026;F10285;6156,06;Ege;Bayi
+C0007;Örnek Müşteri 7;01.02.2026;F10085;23639,27;Ege;E-ticaret
+C0045;Örnek Müşteri 45;19.10.2025;F10355;8009,55;Marmara;Bayi
+C0021;Örnek Müşteri 21;23.05.2026;F10240;6969,29;İç Anadolu;Bayi
+C0007;Örnek Müşteri 7;01.04.2026;F10090;18205,35;Ege;E-ticaret
+C0003;Örnek Müşteri 3;01.07.2026;F10039;15010,11;Akdeniz;Bayi
+C0014;Örnek Müşteri 14;21.07.2026;F10183;12175,22;Karadeniz;Saha satış
+C0046;Örnek Müşteri 46;15.04.2026;F10360;6781,23;İç Anadolu;E-ticaret
+C0046;Örnek Müşteri 46;27.12.2025;F10358;6179,49;İç Anadolu;E-ticaret
+C0119;Örnek Müşteri 119;23.03.2026;F10665;3696,01;Karadeniz;Saha satış
+C0094;Örnek Müşteri 94;29.01.2026;F10584;21504,43;Karadeniz;E-ticaret
+C0005;Örnek Müşteri 5;04.04.2026;F10060;24026,37;Marmara;Saha satış
+C0095;Örnek Müşteri 95;25.12.2025;F10596;20856,67;Marmara;Saha satış
+C0014;Örnek Müşteri 14;11.07.2026;F10182;22916,2;Karadeniz;Saha satış
+C0031;Örnek Müşteri 31;06.02.2026;F10316;7964,43;İç Anadolu;E-ticaret
+C0085;Örnek Müşteri 85;16.01.2026;F10471;8475,38;Marmara;E-ticaret
+C0008;Örnek Müşteri 8;08.12.2025;F10099;14415,61;Akdeniz;Saha satış
+C0002;Örnek Müşteri 2;21.11.2025;F10013;11324,15;Ege;Saha satış
+C0002;Örnek Müşteri 2;20.08.2026;F10028;16536,21;Ege;Saha satış
+C0007;Örnek Müşteri 7;29.05.2026;F10094;23652,73;Ege;E-ticaret
+C0092;Örnek Müşteri 92;22.02.2026;F10552;18248,48;Ege;Saha satış
+C0002;Örnek Müşteri 2;17.07.2026;F10025;9560,39;Ege;Saha satış
+C0075;Örnek Müşteri 75;11.03.2026;F10413;8839,85;Marmara;Bayi
+C0094;Örnek Müşteri 94;26.11.2025;F10577;20824,8;Karadeniz;E-ticaret
+C0009;Örnek Müşteri 9;24.09.2026;F10124;13011,24;Karadeniz;Bayi
+C0005;Örnek Müşteri 5;24.11.2025;F10054;13469,08;Marmara;Saha satış
+C0113;Örnek Müşteri 113;02.11.2025;F10654;4025,18;Akdeniz;Saha satış
+C0092;Örnek Müşteri 92;10.10.2025;F10537;24125,28;Ege;Saha satış
+C0082;Örnek Müşteri 82;24.11.2025;F10452;11729,52;Ege;E-ticaret
+C0008;Örnek Müşteri 8;04.10.2026;F10114;19110,95;Akdeniz;Saha satış
+C0088;Örnek Müşteri 88;20.01.2026;F10492;10372,16;Akdeniz;E-ticaret
+C0017;Örnek Müşteri 17;06.12.2025;F10204;14367,77;Ege;Saha satış
+C0004;Örnek Müşteri 4;06.04.2026;F10047;28191,24;Karadeniz;E-ticaret
+C0012;Örnek Müşteri 12;25.07.2026;F10156;12734,17;Ege;Bayi
+C0025;Örnek Müşteri 25;30.08.2026;F10272;12549,75;Marmara;E-ticaret
+C0010;Örnek Müşteri 10;24.09.2026;F10132;21523,61;Marmara;E-ticaret
+C0005;Örnek Müşteri 5;12.07.2026;F10064;28051,79;Marmara;Saha satış
+C0074;Örnek Müşteri 74;25.01.2026;F10404;6112,96;Karadeniz;Saha satış
+C0003;Örnek Müşteri 3;08.11.2025;F10030;26350,65;Akdeniz;Bayi
+C0021;Örnek Müşteri 21;23.01.2026;F10236;11643,45;İç Anadolu;Bayi
+C0007;Örnek Müşteri 7;12.04.2026;F10091;9396,81;Ege;E-ticaret
+C0018;Örnek Müşteri 18;17.05.2026;F10213;12399,62;Akdeniz;Bayi
+C0094;Örnek Müşteri 94;27.10.2025;F10575;24625,14;Karadeniz;E-ticaret
+C0077;Örnek Müşteri 77;19.01.2026;F10422;7342,74;Ege;Saha satış
+C0028;Örnek Müşteri 28;17.02.2026;F10294;10204,2;Akdeniz;E-ticaret
+C0077;Örnek Müşteri 77;25.01.2026;F10423;11134,43;Ege;Saha satış
+C0019;Örnek Müşteri 19;13.04.2026;F10220;14843,0;Karadeniz;E-ticaret
+C0091;Örnek Müşteri 91;15.12.2025;F10526;23661,63;İç Anadolu;E-ticaret
+C0014;Örnek Müşteri 14;28.01.2026;F10177;21796,33;Karadeniz;Saha satış
+C0021;Örnek Müşteri 21;26.08.2026;F10242;12341,43;İç Anadolu;Bayi
+C0032;Örnek Müşteri 32;21.09.2026;F10321;6756,9;Ege;Saha satış
+C0004;Örnek Müşteri 4;23.12.2025;F10043;8807,34;Karadeniz;E-ticaret
+C0084;Örnek Müşteri 84;19.01.2026;F10463;7612,65;Karadeniz;Bayi
+C0086;Örnek Müşteri 86;05.01.2026;F10478;4557,7;İç Anadolu;Saha satış
+C0107;Örnek Müşteri 107;05.03.2026;F10644;3591,5;Ege;Saha satış
+C0099;Örnek Müşteri 99;27.02.2026;F10631;4963,88;Karadeniz;Bayi
+C0001;Örnek Müşteri 1;25.09.2026;F10012;16948,92;İç Anadolu;E-ticaret
+C0015;Örnek Müşteri 15;17.07.2026;F10195;13272,76;Marmara;Bayi
+C0109;Örnek Müşteri 109;04.12.2025;F10647;4586,73;Karadeniz;E-ticaret
+C0007;Örnek Müşteri 7;10.08.2026;F10096;23328,13;Ege;E-ticaret
+C0004;Örnek Müşteri 4;29.01.2026;F10045;22475,57;Karadeniz;E-ticaret
+C0092;Örnek Müşteri 92;20.10.2025;F10539;14707,39;Ege;Saha satış
+C0092;Örnek Müşteri 92;30.11.2025;F10545;14481,2;Ege;Saha satış
+C0029;Örnek Müşteri 29;13.06.2026;F10302;14647,03;Karadeniz;Saha satış
+C0075;Örnek Müşteri 75;09.04.2026;F10414;10477,56;Marmara;Bayi
+C0031;Örnek Müşteri 31;20.04.2026;F10317;6075,95;İç Anadolu;E-ticaret
+C0015;Örnek Müşteri 15;20.02.2026;F10192;12278,15;Marmara;Bayi
+C0090;Örnek Müşteri 90;18.05.2026;F10524;13377,14;Marmara;Bayi
+C0122;Örnek Müşteri 122;01.06.2025;F10671;9000,0;Ege;Saha satış
+C0096;Örnek Müşteri 96;14.11.2025;F10615;16326,52;İç Anadolu;Bayi
+C0096;Örnek Müşteri 96;24.10.2025;F10611;11010,34;İç Anadolu;Bayi
+C0009;Örnek Müşteri 9;18.07.2026;F10122;16776,66;Karadeniz;Bayi
+C0089;Örnek Müşteri 89;19.01.2026;F10501;22504,78;Karadeniz;Saha satış
+C0071;Örnek Müşteri 71;18.07.2026;F10395;4132,97;İç Anadolu;Saha satış
+C0016;Örnek Müşteri 16;27.08.2026;F10200;13641,95;İç Anadolu;E-ticaret
+C0085;Örnek Müşteri 85;19.01.2026;F10472;5860,06;Marmara;E-ticaret
+C0027;Örnek Müşteri 27;29.01.2026;F10287;12608,7;Ege;Bayi
+C0090;Örnek Müşteri 90;11.02.2026;F10516;10627,7;Marmara;Bayi
+C0097;Örnek Müşteri 97;07.11.2025;F10628;1628,25;Ege;E-ticaret
+C0005;Örnek Müşteri 5;09.06.2026;F10062;11070,95;Marmara;Saha satış
+C0026;Örnek Müşteri 26;30.05.2026;F10279;7711,13;İç Anadolu;Saha satış
+C0074;Örnek Müşteri 74;09.03.2026;F10407;8224,78;Karadeniz;Saha satış
+C0025;Örnek Müşteri 25;22.02.2026;F10267;8738,99;Marmara;E-ticaret
+C0116;Örnek Müşteri 116;06.02.2026;F10659;4151,46;İç Anadolu;Saha satış
+C0017;Örnek Müşteri 17;27.04.2026;F10208;11135,95;Ege;Saha satış
+C0006;Örnek Müşteri 6;04.10.2026;F10081;8556,97;İç Anadolu;Bayi
+C0012;Örnek Müşteri 12;30.09.2026;F10158;21848,15;Ege;Bayi
+C0088;Örnek Müşteri 88;08.03.2026;F10495;4149,16;Akdeniz;E-ticaret
+C0077;Örnek Müşteri 77;28.01.2026;F10424;9255,0;Ege;Saha satış
+C0004;Örnek Müşteri 4;26.01.2026;F10044;19432,58;Karadeniz;E-ticaret
+C0090;Örnek Müşteri 90;18.12.2025;F10512;20296,92;Marmara;Bayi
+C0013;Örnek Müşteri 13;19.09.2026;F10172;26123,27;Akdeniz;E-ticaret
+C0029;Örnek Müşteri 29;01.08.2026;F10304;12197,06;Karadeniz;Saha satış
+C0095;Örnek Müşteri 95;05.03.2026;F10602;20217,85;Marmara;Saha satış
+C0108;Örnek Müşteri 108;30.12.2025;F10646;1718,91;Akdeniz;Bayi
+C0066;Örnek Müşteri 66;05.08.2026;F10387;5934,81;İç Anadolu;Bayi
+C0092;Örnek Müşteri 92;15.12.2025;F10548;22291,29;Ege;Saha satış
+C0083;Örnek Müşteri 83;10.12.2025;F10457;10128,43;Akdeniz;Saha satış
+C0002;Örnek Müşteri 2;18.05.2026;F10022;28884,74;Ege;Saha satış
+C0081;Örnek Müşteri 81;28.10.2025;F10444;8687,97;İç Anadolu;Bayi
+C0117;Örnek Müşteri 117;26.10.2025;F10661;3642,88;Ege;Bayi
+C0096;Örnek Müşteri 96;03.11.2025;F10612;18872,74;İç Anadolu;Bayi
+C0027;Örnek Müşteri 27;02.09.2026;F10290;10387,03;Ege;Bayi
+C0076;Örnek Müşteri 76;21.12.2025;F10417;9572,58;İç Anadolu;E-ticaret
+C0033;Örnek Müşteri 33;28.05.2026;F10324;3190,37;Akdeniz;Bayi
+C0014;Örnek Müşteri 14;23.12.2025;F10176;14555,74;Karadeniz;Saha satış
+C0022;Örnek Müşteri 22;23.10.2025;F10243;8894,52;Ege;E-ticaret
+C0030;Örnek Müşteri 30;06.03.2026;F10310;6379,94;Marmara;Bayi
+C0026;Örnek Müşteri 26;01.02.2026;F10276;8448,51;İç Anadolu;Saha satış
+C0041;Örnek Müşteri 41;16.09.2026;F10347;3024,08;İç Anadolu;Saha satış
+C0051;Örnek Müşteri 51;19.09.2026;F10369;6565,04;İç Anadolu;Bayi
+C0019;Örnek Müşteri 19;13.07.2026;F10222;12417,45;Karadeniz;E-ticaret
+C0085;Örnek Müşteri 85;31.12.2025;F10470;8593,43;Marmara;E-ticaret
+C0087;Örnek Müşteri 87;21.02.2026;F10486;6974,37;Ege;Bayi
+C0101;Örnek Müşteri 101;03.01.2026;F10634;2716,78;İç Anadolu;Saha satış
+C0027;Örnek Müşteri 27;27.07.2026;F10289;11996,41;Ege;Bayi
+C0081;Örnek Müşteri 81;18.01.2026;F10448;11702,48;İç Anadolu;Bayi
+C0001;Örnek Müşteri 1;02.07.2026;F10007;28272,89;İç Anadolu;E-ticaret
+C0006;Örnek Müşteri 6;29.03.2026;F10070;21061,1;İç Anadolu;Bayi
+C0022;Örnek Müşteri 22;16.12.2025;F10245;10984,9;Ege;E-ticaret
+C0104;Örnek Müşteri 104;17.10.2025;F10638;2407,78;Karadeniz;Saha satış
+C0087;Örnek Müşteri 87;15.12.2025;F10482;10794,86;Ege;Bayi
+C0030;Örnek Müşteri 30;09.03.2026;F10311;12211,75;Marmara;Bayi
+C0115;Örnek Müşteri 115;07.03.2026;F10658;2311,31;Marmara;E-ticaret
+C0008;Örnek Müşteri 8;15.04.2026;F10103;21562,1;Akdeniz;Saha satış
+C0012;Örnek Müşteri 12;26.03.2026;F10152;22688,7;Ege;Bayi
+C0020;Örnek Müşteri 20;20.08.2026;F10231;9895,78;Marmara;Saha satış
+C0009;Örnek Müşteri 9;16.05.2026;F10119;16900,82;Karadeniz;Bayi
+C0014;Örnek Müşteri 14;19.12.2025;F10175;15768,78;Karadeniz;Saha satış
+C0026;Örnek Müşteri 26;06.08.2026;F10280;11923,66;İç Anadolu;Saha satış
+C0001;Örnek Müşteri 1;17.02.2026;F10002;8310,67;İç Anadolu;E-ticaret
+C0095;Örnek Müşteri 95;24.02.2026;F10601;24606,09;Marmara;Saha satış
+C0004;Örnek Müşteri 4;27.04.2026;F10049;24320,94;Karadeniz;E-ticaret
+C0089;Örnek Müşteri 89;12.05.2026;F10509;10377,69;Karadeniz;Saha satış
+C0007;Örnek Müşteri 7;11.01.2026;F10084;9015,99;Ege;E-ticaret
+C0093;Örnek Müşteri 93;12.03.2026;F10569;17556,87;Akdeniz;Bayi
+C0083;Örnek Müşteri 83;11.01.2026;F10459;8606,97;Akdeniz;Saha satış
+C0089;Örnek Müşteri 89;12.03.2026;F10504;15742,5;Karadeniz;Saha satış
+C0009;Örnek Müşteri 9;21.02.2026;F10118;20966,97;Karadeniz;Bayi
+C0008;Örnek Müşteri 8;23.07.2026;F10106;9436,93;Akdeniz;Saha satış
+C0012;Örnek Müşteri 12;21.07.2026;F10155;29453,83;Ege;Bayi
+C0094;Örnek Müşteri 94;31.01.2026;F10585;22887,61;Karadeniz;E-ticaret
+C0021;Örnek Müşteri 21;31.03.2026;F10239;14976,49;İç Anadolu;Bayi
+C0081;Örnek Müşteri 81;31.10.2025;F10445;9150,37;İç Anadolu;Bayi
+C0095;Örnek Müşteri 95;23.11.2025;F10594;22503,62;Marmara;Saha satış
+C0006;Örnek Müşteri 6;15.05.2026;F10072;26737,01;İç Anadolu;Bayi
+C0013;Örnek Müşteri 13;02.12.2025;F10160;16152,61;Akdeniz;E-ticaret
+C0010;Örnek Müşteri 10;30.09.2026;F10134;29201,5;Marmara;E-ticaret
+C0079;Örnek Müşteri 79;22.11.2025;F10434;10167,34;Karadeniz;E-ticaret
+C0091;Örnek Müşteri 91;01.11.2025;F10525;17128,19;İç Anadolu;E-ticaret
+C0102;Örnek Müşteri 102;13.12.2025;F10636;1710,12;Ege;Bayi
+C0096;Örnek Müşteri 96;13.11.2025;F10614;18089,51;İç Anadolu;Bayi
+C0002;Örnek Müşteri 2;28.04.2026;F10020;25664,1;Ege;Saha satış
+C0074;Örnek Müşteri 74;07.12.2025;F10402;9062,35;Karadeniz;Saha satış
+C0065;Örnek Müşteri 65;01.07.2026;F10385;5550,92;Marmara;Saha satış
+C0020;Örnek Müşteri 20;15.05.2026;F10229;9301,3;Marmara;Saha satış
+C0078;Örnek Müşteri 78;09.03.2026;F10432;11654,29;Akdeniz;Bayi
+C0006;Örnek Müşteri 6;14.06.2026;F10074;13658,33;İç Anadolu;Bayi
+C0003;Örnek Müşteri 3;11.05.2026;F10035;9542,57;Akdeniz;Bayi
+C0007;Örnek Müşteri 7;19.02.2026;F10088;25395,96;Ege;E-ticaret
+C0094;Örnek Müşteri 94;23.03.2026;F10590;11210,72;Karadeniz;E-ticaret
+C0022;Örnek Müşteri 22;22.06.2026;F10250;7503,93;Ege;E-ticaret
+C0047;Örnek Müşteri 47;29.09.2026;F10363;3969,76;Ege;Saha satış
+C0089;Örnek Müşteri 89;16.05.2026;F10510;18089,75;Karadeniz;Saha satış
+C0023;Örnek Müşteri 23;17.08.2026;F10256;11823,51;Akdeniz;Saha satış
+C0007;Örnek Müşteri 7;20.05.2026;F10093;11856,54;Ege;E-ticaret
+C0092;Örnek Müşteri 92;30.11.2025;F10546;15786,54;Ege;Saha satış
+C0017;Örnek Müşteri 17;25.01.2026;F10205;12938,73;Ege;Saha satış
+C0008;Örnek Müşteri 8;16.08.2026;F10110;22337,68;Akdeniz;Saha satış
+C0012;Örnek Müşteri 12;17.04.2026;F10153;21677,64;Ege;Bayi
+C0013;Örnek Müşteri 13;20.12.2025;F10161;8065,88;Akdeniz;E-ticaret
+C0080;Örnek Müşteri 80;08.05.2026;F10442;11682,81;Marmara;Saha satış
+C0076;Örnek Müşteri 76;18.10.2025;F10415;5625,89;İç Anadolu;E-ticaret
+C0078;Örnek Müşteri 78;25.10.2025;F10427;6992,76;Akdeniz;Bayi
+C0074;Örnek Müşteri 74;02.04.2026;F10409;4757,62;Karadeniz;Saha satış
+C0030;Örnek Müşteri 30;18.06.2026;F10313;8904,68;Marmara;Bayi
+C0104;Örnek Müşteri 104;13.11.2025;F10639;3476,43;Karadeniz;Saha satış
+C0089;Örnek Müşteri 89;07.11.2025;F10497;14040,02;Karadeniz;Saha satış
+C0003;Örnek Müşteri 3;30.04.2026;F10034;8062,3;Akdeniz;Bayi
+C0006;Örnek Müşteri 6;10.07.2026;F10075;16923,34;İç Anadolu;Bayi
+C0010;Örnek Müşteri 10;20.07.2026;F10130;28166,94;Marmara;E-ticaret
+C0001;Örnek Müşteri 1;20.09.2026;F10011;24955,43;İç Anadolu;E-ticaret
+C0095;Örnek Müşteri 95;27.03.2026;F10606;18529,69;Marmara;Saha satış
+C0022;Örnek Müşteri 22;07.11.2025;F10244;11284,75;Ege;E-ticaret
+C0006;Örnek Müşteri 6;18.01.2026;F10068;28987,44;İç Anadolu;Bayi
+C0007;Örnek Müşteri 7;14.12.2025;F10082;23619,45;Ege;E-ticaret
+C0020;Örnek Müşteri 20;09.02.2026;F10227;11507,79;Marmara;Saha satış
+C0075;Örnek Müşteri 75;23.02.2026;F10412;4696,03;Marmara;Bayi
+C0028;Örnek Müşteri 28;03.12.2025;F10292;10767,31;Akdeniz;E-ticaret
+C0095;Örnek Müşteri 95;16.03.2026;F10604;13053,99;Marmara;Saha satış
+C0084;Örnek Müşteri 84;02.04.2026;F10465;6262,71;Karadeniz;Bayi
+C0121;Örnek Müşteri 121;05.08.2026;F10670;-3000,0;İç Anadolu;E-ticaret
+C0003;Örnek Müşteri 3;23.05.2026;F10037;19487,8;Akdeniz;Bayi
+C0036;Örnek Müşteri 36;27.03.2026;F10332;8415,97;İç Anadolu;Bayi
+C0036;Örnek Müşteri 36;04.09.2026;F10333;6911,34;İç Anadolu;Bayi
+C0008;Örnek Müşteri 8;11.09.2026;F10113;29504,79;Akdeniz;Saha satış
+C0029;Örnek Müşteri 29;22.06.2026;F10303;12762,25;Karadeniz;Saha satış
+C0092;Örnek Müşteri 92;28.10.2025;F10540;22974,0;Ege;Saha satış
+C0008;Örnek Müşteri 8;22.04.2026;F10104;15166,32;Akdeniz;Saha satış
+C0114;Örnek Müşteri 114;16.10.2025;F10657;2177,17;Karadeniz;Bayi
+C0086;Örnek Müşteri 86;10.01.2026;F10479;4939,42;İç Anadolu;Saha satış
+C0077;Örnek Müşteri 77;28.01.2026;F10425;6085,85;Ege;Saha satış
+C0002;Örnek Müşteri 2;07.10.2026;F10029;15507,09;Ege;Saha satış
+C0062;Örnek Müşteri 62;19.06.2026;F10382;4195,16;Ege;Saha satış
+C0001;Örnek Müşteri 1;31.01.2026;F10001;25344,88;İç Anadolu;E-ticaret
+C0091;Örnek Müşteri 91;12.05.2026;F10536;19522,07;İç Anadolu;E-ticaret
+C0073;Örnek Müşteri 73;07.02.2026;F10400;6236,36;Akdeniz;E-ticaret
+C0034;Örnek Müşteri 34;06.03.2026;F10326;4492,15;Karadeniz;E-ticaret
+C0027;Örnek Müşteri 27;03.01.2026;F10284;10344,63;Ege;Bayi
+C0092;Örnek Müşteri 92;06.03.2026;F10553;23148,8;Ege;Saha satış
+C0109;Örnek Müşteri 109;05.02.2026;F10648;2029,75;Karadeniz;E-ticaret
+C0012;Örnek Müşteri 12;14.02.2026;F10149;18135,81;Ege;Bayi
+C0093;Örnek Müşteri 93;19.10.2025;F10556;16355,83;Akdeniz;Bayi
+C0096;Örnek Müşteri 96;24.11.2025;F10616;24111,39;İç Anadolu;Bayi
+C0039;Örnek Müşteri 39;04.09.2026;F10340;8232,76;Karadeniz;Bayi
+C0096;Örnek Müşteri 96;06.01.2026;F10621;17244,09;İç Anadolu;Bayi
+C0026;Örnek Müşteri 26;06.02.2026;F10277;6543,95;İç Anadolu;Saha satış
+C0028;Örnek Müşteri 28;17.08.2026;F10297;8026,04;Akdeniz;E-ticaret
+C0014;Örnek Müşteri 14;08.10.2026;F10190;11480,12;Karadeniz;Saha satış
+C0001;Örnek Müşteri 1;27.07.2026;F10010;29898,21;İç Anadolu;E-ticaret
+C0010;Örnek Müşteri 10;27.09.2026;F10133;26146,36;Marmara;E-ticaret
+C0092;Örnek Müşteri 92;21.11.2025;F10543;16282,41;Ege;Saha satış
+C0001;Örnek Müşteri 1;19.07.2026;F10009;17610,83;İç Anadolu;E-ticaret
+C0070;Örnek Müşteri 70;20.02.2026;F10393;5076,32;Marmara;E-ticaret
+C0004;Örnek Müşteri 4;06.03.2026;F10046;13314,17;Karadeniz;E-ticaret
+C0095;Örnek Müşteri 95;06.12.2025;F10595;20281,61;Marmara;Saha satış
+C0003;Örnek Müşteri 3;21.09.2026;F10041;10479,61;Akdeniz;Bayi
+C0060;Örnek Müşteri 60;15.06.2026;F10379;3523,03;Marmara;Bayi
+C0009;Örnek Müşteri 9;20.07.2026;F10123;15204,98;Karadeniz;Bayi
+C0014;Örnek Müşteri 14;24.07.2026;F10184;13936,89;Karadeniz;Saha satış
+C0089;Örnek Müşteri 89;04.03.2026;F10503;17274,58;Karadeniz;Saha satış
+C0095;Örnek Müşteri 95;21.03.2026;F10605;16648,93;Marmara;Saha satış
+C0095;Örnek Müşteri 95;31.12.2025;F10598;13564,46;Marmara;Saha satış
+C0090;Örnek Müşteri 90;29.12.2025;F10513;13929,68;Marmara;Bayi
+C0021;Örnek Müşteri 21;30.12.2025;F10235;5037,45;İç Anadolu;Bayi
+C0085;Örnek Müşteri 85;17.10.2025;F10467;8595,52;Marmara;E-ticaret
+C0106;Örnek Müşteri 106;04.03.2026;F10642;4264,39;İç Anadolu;E-ticaret
+C0013;Örnek Müşteri 13;25.06.2026;F10167;14790,17;Akdeniz;E-ticaret
+C0050;Örnek Müşteri 50;04.10.2026;F10368;7081,72;Marmara;Saha satış
+C0008;Örnek Müşteri 8;28.08.2026;F10111;21784,04;Akdeniz;Saha satış
+C0083;Örnek Müşteri 83;11.01.2026;F10458;11311,61;Akdeniz;Saha satış
+C0007;Örnek Müşteri 7;08.02.2026;F10086;27225,12;Ege;E-ticaret
+C0094;Örnek Müşteri 94;09.01.2026;F10583;22111,26;Karadeniz;E-ticaret
+C0077;Örnek Müşteri 77;15.12.2025;F10421;11747,88;Ege;Saha satış
+C0022;Örnek Müşteri 22;12.08.2026;F10251;12818,91;Ege;E-ticaret
+C0010;Örnek Müşteri 10;01.03.2026;F10126;26895,93;Marmara;E-ticaret
+C0093;Örnek Müşteri 93;24.03.2026;F10572;11868,64;Akdeniz;Bayi
+C0003;Örnek Müşteri 3;11.03.2026;F10031;11496,76;Akdeniz;Bayi
+C0089;Örnek Müşteri 89;20.01.2026;F10502;13666,11;Karadeniz;Saha satış
+C0090;Örnek Müşteri 90;09.03.2026;F10519;18537,05;Marmara;Bayi
+C0073;Örnek Müşteri 73;04.02.2026;F10399;8410,5;Akdeniz;E-ticaret
+C0094;Örnek Müşteri 94;05.12.2025;F10579;19143,76;Karadeniz;E-ticaret
+C0014;Örnek Müşteri 14;25.09.2026;F10189;22369,81;Karadeniz;Saha satış
+C0061;Örnek Müşteri 61;05.08.2026;F10381;5636,86;İç Anadolu;E-ticaret
+C0029;Örnek Müşteri 29;29.08.2026;F10306;6639,78;Karadeniz;Saha satış
+C0012;Örnek Müşteri 12;17.05.2026;F10154;10177,09;Ege;Bayi
+C0117;Örnek Müşteri 117;08.11.2025;F10662;4744,93;Ege;Bayi
+C0023;Örnek Müşteri 23;21.02.2026;F10253;6461,6;Akdeniz;Saha satış
+C0011;Örnek Müşteri 11;17.08.2026;F10144;22930,74;İç Anadolu;Saha satış
+C0017;Örnek Müşteri 17;12.08.2026;F10210;12556,76;Ege;Saha satış
+C0026;Örnek Müşteri 26;23.08.2026;F10282;14645,55;İç Anadolu;Saha satış
+C0011;Örnek Müşteri 11;20.01.2026;F10138;16259,28;İç Anadolu;Saha satış
+C0082;Örnek Müşteri 82;19.02.2026;F10454;6696,61;Ege;E-ticaret
+C0016;Örnek Müşteri 16;30.08.2026;F10201;9414,87;İç Anadolu;E-ticaret
+C0086;Örnek Müşteri 86;25.03.2026;F10480;7983,85;İç Anadolu;Saha satış
+C0091;Örnek Müşteri 91;01.05.2026;F10535;20614,88;İç Anadolu;E-ticaret
+C0091;Örnek Müşteri 91;15.01.2026;F10528;24538,02;İç Anadolu;E-ticaret
+C0023;Örnek Müşteri 23;23.03.2026;F10254;13311,6;Akdeniz;Saha satış
