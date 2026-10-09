@@ -1,0 +1,15 @@
+Malzeme Kodu;Malzeme Adı;Kategori;Tedarikçiler;Son Alış Fiyatı;Döviz;Birim;Asgari Sipariş;Sipariş Katı;Tedarik Süresi (gün)
+M-1001;A4 fotokopi kağıdı 80 gr;Kırtasiye;Örnek Kırtasiye A.Ş. / Beta Ofis Ltd.;650;TRY;Koli;10;;3
+M-2001;İş eldiveni nitril;İSG Malzemesi;Örnek İSG Malzemeleri / Delta Endüstriyel / Gama Tedarik;18;TRY;Çift;;50;5
+M-2002;Baret;İSG Malzemesi;Örnek İSG Malzemeleri / Delta Endüstriyel;240;TRY;Adet;;;5
+M-3001;Rulman 6205 2RS;Yedek Parça;Örnek Rulman Ltd.;95;TRY;Adet;50;;7
+M-3002;Hidrolik yağ ISO VG 46;Yağ ve Kimyasal;Örnek Madeni Yağ A.Ş. / Delta Endüstriyel;145;TRY;lt;;200;10
+M-3003;Servo motor sürücü 2 kW;Yedek Parça;Örnek Otomasyon A.Ş.;68000;TRY;Adet;;;45
+M-3004;Gres yağı;Yağ ve Kimyasal;Örnek Madeni Yağ A.Ş.;210;TRY;kg;;;7
+M-4001;Dizüstü bilgisayar (standart konfigürasyon);Bilgisayar ve Donanım;Örnek Bilişim A.Ş. / Epsilon Teknoloji / Zeta Bilgisayar;42000;TRY;Adet;;;14
+M-4002;Toner 59A;Kırtasiye;Örnek Kırtasiye A.Ş. / Beta Ofis Ltd.;2900;TRY;Adet;;;3
+M-4003;Monitör 27 inç;Bilgisayar ve Donanım;Örnek Bilişim A.Ş. / Epsilon Teknoloji;9800;TRY;Adet;;;10
+M-5001;Streç film 50 cm;Ambalaj;Örnek Ambalaj Ltd. / Gama Tedarik;310;TRY;Rulo;;6;4
+M-5002;Ahşap palet 80x120;Ambalaj;Örnek Palet Ltd. / Teta Ahşap;450;TRY;Adet;;;7
+M-5003;Forklift lastiği;Yedek Parça;Örnek Forklift Servisi;6500;TRY;Adet;;;10
+M-6001;Dijital kumpas 0-150 mm;Ölçüm Aleti;Örnek Ölçüm Ltd.;1850;TRY;Adet;;;7

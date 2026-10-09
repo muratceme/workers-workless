@@ -1,0 +1,16 @@
+{
+  "id": "dava-ve-durusma-takvimi",
+  "tur": "kod",
+  "ad": "Dava ve Duruşma Takvimi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --davalar davalar.xlsx --sureler sureler.xlsx --tatiller tatiller.csv",
+  "girdiler": [
+    "Dava listesi (.xlsx/.csv): Dosya No, Mahkeme, Usul (HMK/İYUK), Dava Türü, Müvekkil, Karşı Taraf, Müvekkil Sıfatı, Sorumlu Avukat, Duruşma Tarihi, Duruşma Saati, Adli Tatile Tabi, Durum",
+    "Süre olayları: Dosya No, Olay (cevap, cevaba cevap, bilirkişi raporuna itiraz, istinaf, temyiz, kesin süre...), Başlangıç (tebliğ) Tarihi, Süre (boşsa kanuni süre tablosu), Tamamlandı",
+    "İsteğe bağlı tatil dosyası: dinî bayramlar ve arifeler (yarım gün)"
+  ],
+  "ciktilar": ["Excel: Takvim, Süreler (hesap adımlarıyla), Duruşmalar, Avukat Bazında, Hatırlatmalar, Uyarılar", "Takvim uygulamalarına aktarılabilir .ics dosyası (hatırlatıcılı)"],
+  "internet": false
+}

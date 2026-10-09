@@ -1,0 +1,15 @@
+{
+  "id": "tedarikci-performans-degerlendirme",
+  "tur": "kod",
+  "ad": "Tedarikçi Performans Değerlendirme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --teslimatlar teslimatlar.xlsx --bugun 09.10.2026",
+  "girdiler": [
+    "Teslimat kayıtları (.xlsx/.csv): Sipariş No, Tedarikçi, Malzeme, Sipariş Tarihi, Termin Tarihi, Teslim Tarihi, Sipariş Miktarı, Teslim Miktarı, Ret Miktarı, Sipariş Birim Fiyatı, Fatura Birim Fiyatı, Satır Durumu (Açık/Kapalı)",
+    "İsteğe bağlı parametreler: kriter ağırlıkları, sınıf sınırları, teslim / miktar / fiyat toleransları"
+  ],
+  "ciktilar": ["Excel: Karne (kriter puanları, toplam puan, A/B/C/D sınıfı), Çeyreklik Trend (grafik), Geciken Siparişler, Kalite Retleri, Fiyat Farkları, Sipariş Satırları, Karne Metinleri, Uyarılar"],
+  "internet": false
+}

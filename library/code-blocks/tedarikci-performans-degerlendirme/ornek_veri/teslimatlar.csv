@@ -1,0 +1,75 @@
+Sipariş No;Tedarikçi;Malzeme;Sipariş Tarihi;Termin Tarihi;Teslim Tarihi;Sipariş Miktarı;Teslim Miktarı;Ret Miktarı;Sipariş Birim Fiyatı;Fatura Birim Fiyatı;Satır Durumu
+PO-4501;Örnek Metal A.Ş.;Profil 40x40;29.12.2025;12.01.2026;08.01.2026;10;10;0;420;420;Kapalı
+PO-4502;Örnek Metal A.Ş.;Sac levha 2 mm;18.01.2026;29.01.2026;25.01.2026;50;25;0;1850;1850;Kapalı
+PO-4502;Örnek Metal A.Ş.;Sac levha 2 mm;18.01.2026;29.01.2026;28.01.2026;50;25;0;1850;1850;Kapalı
+PO-4503;Örnek Metal A.Ş.;Lama 30x5;05.02.2026;16.02.2026;18.02.2026;50;25;0;260;260;Kapalı
+PO-4503;Örnek Metal A.Ş.;Lama 30x5;05.02.2026;16.02.2026;21.02.2026;50;25;0;260;260;Kapalı
+PO-4504;Örnek Metal A.Ş.;Lama 30x5;14.02.2026;05.03.2026;01.03.2026;20;20;0;260;260;Kapalı
+PO-4505;Örnek Metal A.Ş.;Lama 30x5;12.03.2026;23.03.2026;19.03.2026;20;20;0;260;260;Kapalı
+PO-4506;Örnek Metal A.Ş.;Profil 40x40;24.03.2026;14.04.2026;13.04.2026;20;20;0;420;420;Kapalı
+PO-4507;Örnek Metal A.Ş.;Profil 40x40;07.04.2026;01.05.2026;28.04.2026;10;10;0;420;420;Kapalı
+PO-4508;Örnek Metal A.Ş.;Lama 30x5;09.05.2026;20.05.2026;16.05.2026;10;10;0;260;260;Kapalı
+PO-4509;Örnek Metal A.Ş.;Lama 30x5;12.05.2026;06.06.2026;03.06.2026;50;25;0;260;260;Kapalı
+PO-4509;Örnek Metal A.Ş.;Lama 30x5;12.05.2026;06.06.2026;06.06.2026;50;25;0;260;260;Kapalı
+PO-4510;Örnek Metal A.Ş.;Lama 30x5;08.06.2026;27.06.2026;24.06.2026;50;50;0;260;260;Kapalı
+PO-4511;Örnek Metal A.Ş.;Profil 40x40;02.07.2026;15.07.2026;13.07.2026;10;10;0;420;420;Kapalı
+PO-4512;Örnek Metal A.Ş.;Sac levha 2 mm;10.07.2026;04.08.2026;31.07.2026;20;20;0;1850;1850;Kapalı
+PO-4513;Örnek Metal A.Ş.;Lama 30x5;02.08.2026;20.08.2026;17.08.2026;50;50;0;260;260;Kapalı
+PO-4514;Örnek Metal A.Ş.;Profil 40x40;25.08.2026;04.09.2026;04.09.2026;20;20;0;420;420;Kapalı
+PO-4515;Beta Plastik Ltd.;PP granül;29.12.2025;12.01.2026;08.01.2026;50;50;0;62;62;Kapalı
+PO-4516;Beta Plastik Ltd.;PP granül;15.01.2026;31.01.2026;31.01.2026;20;20;0;62;62;Kapalı
+PO-4517;Beta Plastik Ltd.;Plastik kapak 38 mm;12.02.2026;25.02.2026;24.02.2026;1000;1000;0;1,4;1,4;Kapalı
+PO-4518;Beta Plastik Ltd.;PP granül;19.02.2026;16.03.2026;13.03.2026;10;10;0;62;62;Kapalı
+PO-4519;Beta Plastik Ltd.;Plastik kapak 38 mm;21.03.2026;10.04.2026;09.04.2026;500;500;0;1,4;1,4;Kapalı
+PO-4520;Beta Plastik Ltd.;Plastik kapak 38 mm;21.04.2026;01.05.2026;29.04.2026;100;100;0;1,4;1,4;Kapalı
+PO-4521;Beta Plastik Ltd.;PP granül;01.05.2026;21.05.2026;18.05.2026;20;20;0;62;62;Kapalı
+PO-4522;Beta Plastik Ltd.;PP granül;30.05.2026;09.06.2026;08.06.2026;40;40;0;62;62;Kapalı
+PO-4523;Beta Plastik Ltd.;PP granül;10.06.2026;01.07.2026;10.07.2026;20;20;0;62;62;Kapalı
+PO-4524;Beta Plastik Ltd.;Plastik kapak 38 mm;14.07.2026;24.07.2026;24.07.2026;250;250;0;1,4;1,4;Kapalı
+PO-4525;Beta Plastik Ltd.;PP granül;17.07.2026;11.08.2026;09.08.2026;50;50;0;62;62;Kapalı
+PO-4526;Beta Plastik Ltd.;PP granül;24.08.2026;05.09.2026;05.09.2026;20;20;0;62;62;Kapalı
+PO-4527;Gama Ambalaj San.;Streç film;17.12.2025;11.01.2026;10.01.2026;20;22;0;310;310;Kapalı
+PO-4528;Gama Ambalaj San.;Oluklu koli 40x30x30;09.01.2026;01.02.2026;06.02.2026;200;200;0;18,5;18,5;Kapalı
+PO-4529;Gama Ambalaj San.;Oluklu koli 40x30x30;10.02.2026;24.02.2026;20.02.2026;250;250;0;18,5;18,5;Kapalı
+PO-4530;Gama Ambalaj San.;Oluklu koli 40x30x30;01.03.2026;15.03.2026;11.03.2026;500;425;0;18,5;18,5;Kapalı
+PO-4531;Gama Ambalaj San.;Streç film;29.03.2026;09.04.2026;09.04.2026;50;50;1;310;310;Kapalı
+PO-4532;Gama Ambalaj San.;Oluklu koli 40x30x30;06.04.2026;30.04.2026;26.04.2026;100;100;5;18,5;18,5;Kapalı
+PO-4533;Gama Ambalaj San.;Oluklu koli 40x30x30;26.04.2026;21.05.2026;16.05.2026;1000;500;0;18,5;18,5;Kapalı
+PO-4533;Gama Ambalaj San.;Oluklu koli 40x30x30;26.04.2026;21.05.2026;19.05.2026;1000;500;50;18,5;18,5;Kapalı
+PO-4534;Gama Ambalaj San.;Streç film;16.05.2026;07.06.2026;09.06.2026;40;20;0;310;310;Kapalı
+PO-4534;Gama Ambalaj San.;Streç film;16.05.2026;07.06.2026;12.06.2026;40;20;0;310;310;Kapalı
+PO-4535;Gama Ambalaj San.;Streç film;21.06.2026;05.07.2026;04.07.2026;20;20;0;310;310;Kapalı
+PO-4536;Gama Ambalaj San.;Oluklu koli 40x30x30;28.06.2026;23.07.2026;20.07.2026;200;200;0;18,5;18,5;Kapalı
+PO-4537;Gama Ambalaj San.;Oluklu koli 40x30x30;20.07.2026;10.08.2026;07.08.2026;250;250;0;18,5;18,5;Kapalı
+PO-4538;Gama Ambalaj San.;Oluklu koli 40x30x30;18.08.2026;31.08.2026;06.09.2026;100;85;4;18,5;18,5;Kapalı
+PO-4539;Delta Kimya Tic.;Endüstriyel temizleyici;28.12.2025;15.01.2026;11.01.2026;20;20;0;88;88;Kapalı
+PO-4540;Delta Kimya Tic.;Endüstriyel temizleyici;20.01.2026;04.02.2026;04.02.2026;10;10;0;88;88;Kapalı
+PO-4541;Delta Kimya Tic.;Hidrolik yağ 46;19.02.2026;08.03.2026;02.03.2026;40;22;0;145;152,25;Kapalı
+PO-4541;Delta Kimya Tic.;Hidrolik yağ 46;19.02.2026;08.03.2026;05.03.2026;40;22;0;145;152,25;Kapalı
+PO-4542;Delta Kimya Tic.;Hidrolik yağ 46;15.03.2026;01.04.2026;31.03.2026;20;20;0;145;152,25;Kapalı
+PO-4543;Delta Kimya Tic.;Endüstriyel temizleyici;04.04.2026;23.04.2026;23.04.2026;20;20;0;88;90,64;Kapalı
+PO-4544;Delta Kimya Tic.;Endüstriyel temizleyici;05.05.2026;21.05.2026;21.05.2026;20;20;0;88;88;Kapalı
+PO-4545;Delta Kimya Tic.;Endüstriyel temizleyici;25.05.2026;16.06.2026;14.06.2026;20;20;0;88;88;Kapalı
+PO-4546;Delta Kimya Tic.;Endüstriyel temizleyici;16.06.2026;08.07.2026;08.07.2026;10;10;0;88;88;Kapalı
+PO-4547;Delta Kimya Tic.;Hidrolik yağ 46;23.07.2026;03.08.2026;29.07.2026;50;25;0;145;145;Kapalı
+PO-4547;Delta Kimya Tic.;Hidrolik yağ 46;23.07.2026;03.08.2026;01.08.2026;50;25;1;145;145;Kapalı
+PO-4548;Delta Kimya Tic.;Endüstriyel temizleyici;20.08.2026;30.08.2026;23.08.2026;40;20;0;88;92,4;Kapalı
+PO-4548;Delta Kimya Tic.;Endüstriyel temizleyici;20.08.2026;30.08.2026;26.08.2026;40;20;0;88;92,4;Kapalı
+PO-4549;Epsilon Elektrik;Kontaktör 25A;21.12.2025;12.01.2026;21.01.2026;50;27;0;640;640;Kapalı
+PO-4549;Epsilon Elektrik;Kontaktör 25A;21.12.2025;12.01.2026;24.01.2026;50;28;1;640;640;Kapalı
+PO-4550;Epsilon Elektrik;Kablo NYAF 2,5;28.01.2026;08.02.2026;17.02.2026;100;55;0;14;14;Kapalı
+PO-4550;Epsilon Elektrik;Kablo NYAF 2,5;28.01.2026;08.02.2026;20.02.2026;100;55;0;14;14;Kapalı
+PO-4551;Epsilon Elektrik;Kablo NYAF 2,5;13.02.2026;07.03.2026;18.03.2026;500;500;0;14;15,12;Kapalı
+PO-4552;Epsilon Elektrik;Kontaktör 25A;18.03.2026;01.04.2026;03.04.2026;20;18;0;640;640;Kapalı
+PO-4553;Epsilon Elektrik;Kontaktör 25A;14.04.2026;25.04.2026;27.04.2026;20;20;0;640;691,2;Kapalı
+PO-4554;Epsilon Elektrik;Kablo NYAF 2,5;05.05.2026;17.05.2026;15.05.2026;250;212;0;14;15,12;Kapalı
+PO-4555;Epsilon Elektrik;Kablo NYAF 2,5;03.06.2026;15.06.2026;11.06.2026;250;250;12;14;15,12;Kapalı
+PO-4556;Epsilon Elektrik;Kontaktör 25A;23.06.2026;12.07.2026;21.07.2026;10;11;0;640;659,2;Kapalı
+PO-4557;Epsilon Elektrik;Kablo NYAF 2,5;16.07.2026;04.08.2026;04.08.2026;500;250;0;14;14;Kapalı
+PO-4557;Epsilon Elektrik;Kablo NYAF 2,5;16.07.2026;04.08.2026;07.08.2026;500;250;0;14;14;Kapalı
+PO-4558;Epsilon Elektrik;Kablo NYAF 2,5;20.08.2026;30.08.2026;09.09.2026;500;500;0;14;14;Kapalı
+PO-4559;Zeta Hırdavat;Vida M8x30;30.12.2025;11.01.2026;09.01.2026;200;200;0;1,2;1,2;Kapalı
+PO-4560;Zeta Hırdavat;Vida M8x30;26.04.2026;17.05.2026;14.05.2026;500;500;0;1,2;1,2;Kapalı
+PO-4601;Epsilon Elektrik;Kontaktör 25A;20.08.2026;15.09.2026;;30;;;640;;Açık
+PO-4602;Epsilon Elektrik;Kablo NYAF 2,5;01.09.2026;30.09.2026;28.09.2026;1000;400;0;14;14;Açık
+PO-4603;Örnek Metal A.Ş.;Sac levha 2 mm;01.10.2026;20.10.2026;;20;;;1850;;Açık

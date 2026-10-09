@@ -1,0 +1,13 @@
+İcra Dairesi;Dosya No;Borçlu;Takip Türü;Takip Tarihi;Asıl Alacak;İşlemiş Faiz;Faiz Oranı;Ödeme Emri Tebliğ Tarihi;İtiraz;İtiraz Tebliğ Tarihi;Haciz Tarihi;Aşama;Sorumlu;Son İşlem Tarihi;Durum;Not
+İstanbul 12. İcra Dairesi;2026/1201 E.;Örnek Ticaret Ltd. Şti.;İlamsız;15.01.2026;250.000,00;18.500,00;%24;05.02.2026;Yok;;20.03.2026;Haciz;Av. Örnek Avukat 1;15.09.2026;Açık;Maaş haczi var
+İstanbul 12. İcra Dairesi;2026/1388 E.;Beta Gıda San. Tic. A.Ş.;İlamsız;03.03.2026;85.000,00;2.400,00;24;20.03.2026;Var;06.04.2026;;İtiraz - dava değerlendirilecek;Av. Örnek Avukat 1;06.04.2026;Açık;Fatura alacağı
+İstanbul Anadolu 4. İcra Dairesi;2025/9870 E.;Gama Yapı Ltd. Şti.;Kambiyo (çek);10.10.2025;420.000,00;0;24;28.10.2025;Yok;;;Kesinleşti - haciz talep edilecek;Av. Örnek Avukat 2;28.10.2025;Açık;Karşılıksız çek
+İstanbul 7. İcra Dairesi;2026/455 E.;Delta Lojistik A.Ş.;İlamlı;12.08.2026;132.000,00;21.000,00;24;24.08.2026;Yok;;15.09.2026;Kesinleşti;Av. Örnek Avukat 2;01.10.2026;Açık;İlam: İstanbul 5. ATM
+İzmir 2. İcra Dairesi;2024/7712 E.;Örnek Borçlu Kişi 1;İlamsız;05.04.2024;48.000,00;1.200,00;24;25.04.2024;Yok;;;Kesinleşti;Av. Örnek Avukat 3;10.02.2025;Açık;Adres araştırması yapılacak
+İstanbul 12. İcra Dairesi;2026/2050 E.;Epsilon Market Ltd. Şti.;İlamsız;25.09.2026;36.000,00;650,00;24;;;;;Ödeme emri gönderildi;Av. Örnek Avukat 1;25.09.2026;Açık;
+Bursa 1. İcra Dairesi;2026/610 E.;Zeta Tekstil San. A.Ş.;Rehin (ipotek);20.04.2026;1.250.000,00;45.000,00;30;08.05.2026;Var;;;İtiraz;Av. Örnek Avukat 3;20.05.2026;Açık;İpotekli taşınmaz
+İstanbul 7. İcra Dairesi;2025/3321 E.;Örnek Borçlu Kişi 2;İlamsız;02.06.2025;22.000,00;0;24;20.06.2025;Yok;;15.07.2025;Tahsil edildi;Av. Örnek Avukat 2;30.12.2025;Kapandı;
+İstanbul Anadolu 4. İcra Dairesi;2026/1590 E.;Teta Mobilya Ltd. Şti.;Kambiyo (bono);21.09.2026;75.000,00;0;24;05.10.2026;Yok;;;Ödeme emri tebliğ edildi;Av. Örnek Avukat 2;05.10.2026;Açık;
+İstanbul 12. İcra Dairesi;2026/233 E.;Örnek Borçlu Kişi 3;İlamsız;10.02.2026;64.000,00;900,00;;01.03.2026;Yok;;10.04.2026;Haciz - taksitli ödeme;Av. Örnek Avukat 1;30.09.2026;Açık;Taksit protokolü
+Ankara 3. İcra Dairesi;2026/1201 E.;Örnek Yapı A.Ş.;İlamsız;01.06.2026;18.000,00;0;24;15.06.2026;Yok;;;Kesinleşti;Av. Örnek Avukat 3;15.06.2026;Açık;Aynı esas no farklı daire
+Ankara 3. İcra Dairesi;2026/1777 E.;Örnek Borçlu Kişi 4;İlamsız;;;;24;;;;;;Av. Örnek Avukat 3;;Açık;Eksik kayıt

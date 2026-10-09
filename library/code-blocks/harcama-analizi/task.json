@@ -1,0 +1,15 @@
+{
+  "id": "harcama-analizi",
+  "tur": "kod",
+  "ad": "Harcama Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --veri satinalma.xlsx",
+  "girdiler": [
+    "Satın alma verisi (.xlsx/.csv): Tarih, Tedarikçi, Kategori, Malzeme, Miktar, Birim, Birim Fiyat, Tutar (KDV hariç), Döviz, Kur, Departman",
+    "İsteğe bağlı parametreler: ABC sınırları, fiyat artışı eşiği, tek kaynak payı, fiyat karşılaştırma dönemi"
+  ],
+  "ciktilar": ["Excel: Özet, Pazarlık Öncelikleri, Kategori ABC (grafik), Tedarikçi ABC, Kategori × Tedarikçi, Fiyat Farkları, Fiyat Artışları, Aylık Trend, Veri, Uyarılar"],
+  "internet": false
+}

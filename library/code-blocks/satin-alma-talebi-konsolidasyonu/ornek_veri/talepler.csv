@@ -1,0 +1,26 @@
+Talep No;Talep Tarihi;Departman;Talep Eden;Malzeme Kodu;Malzeme Adı;Miktar;Birim;İstenen Teslim;Onay Durumu;Gerekçe
+T-1001;28.09.2026;İdari İşler;Örnek Kişi 1;M-1001;A4 fotokopi kağıdı 80 gr;20;Koli;30.10.2026;Onaylandı;Aylık tüketim
+T-1002;29.09.2026;İnsan Kaynakları;Örnek Kişi 2;M-1001;A4 fotokopi kağıdı;5;koli;30.10.2026;Onaylandı;
+T-1003;01.10.2026;Üretim;Örnek Kişi 3;M-2001;İş eldiveni nitril;120;Çift;20.10.2026;Onaylandı;Vardiya ihtiyacı
+T-1004;01.10.2026;Bakım;Örnek Kişi 4;M-2001;İş eldiveni nitril;50;çift;20.10.2026;Onaylandı;
+T-1005;02.10.2026;Depo;Örnek Kişi 5;M-2001;Nitril eldiven;100;Çift;25.10.2026;Onaylandı;
+T-1006;02.10.2026;Üretim;Örnek Kişi 3;M-2002;Baret;15;Adet;20.10.2026;Onaylandı;Yeni başlayanlar
+T-1007;02.10.2026;Bakım;Örnek Kişi 4;M-3001;Rulman 6205 2RS;40;Adet;30.10.2026;Onaylandı;Konveyör bakımı
+T-1008;03.10.2026;Bakım;Örnek Kişi 4;M-3002;Hidrolik yağ ISO VG 46;400;lt;30.10.2026;Onaylandı;Pres hattı yağ değişimi
+T-1009;03.10.2026;Üretim;Örnek Kişi 6;M-3002;Hidrolik yağ 46;200;Litre;06.11.2026;Onaylandı;
+T-1010;05.10.2026;Bakım;Örnek Kişi 4;M-3003;Servo motor sürücü 2 kW;2;Adet;15.11.2026;Onaylandı;Arızalı sürücü yedeği
+T-1011;05.10.2026;Üretim;Örnek Kişi 3;M-2001;İş eldiveni nitril;80;Çift;20.10.2026;Onaylandı;
+T-1012;05.10.2026;Bilgi İşlem;Örnek Kişi 7;M-4001;Dizüstü bilgisayar (standart konfigürasyon);6;Adet;30.11.2026;Onaylandı;Yeni personel ve yenileme
+T-1013;06.10.2026;İdari İşler;Örnek Kişi 1;M-4002;Toner 59A;6;Adet;30.10.2026;Onaylandı;
+T-1014;06.10.2026;Kalite;Örnek Kişi 8;M-4002;Yazıcı toneri 59A;2;ad;30.10.2026;Onaylandı;
+T-1015;06.10.2026;İnsan Kaynakları;Örnek Kişi 2;M-4002;Toner;2;Adet;30.10.2026;Onaylandı;
+T-1016;06.10.2026;Kalite;Örnek Kişi 8;M-1001;A4 fotokopi kağıdı;10;Paket;30.10.2026;Onaylandı;
+T-1017;07.10.2026;Depo;Örnek Kişi 5;M-5001;Streç film 50 cm;30;Rulo;23.10.2026;Onaylandı;
+T-1018;07.10.2026;Depo;Örnek Kişi 5;M-5002;Ahşap palet 80x120;100;Adet;05.10.2026;Onaylandı;Sevkiyat yoğunluğu
+T-1019;07.10.2026;Bakım;Örnek Kişi 4;;Kablo bağı 200 mm (100'lü paket);20;Paket;30.10.2026;Onaylandı;
+T-1020;08.10.2026;Üretim;Örnek Kişi 6;;Kablo bağı 200mm 100 lü paket;10;Paket;30.10.2026;Onaylandı;
+T-1021;08.10.2026;İnsan Kaynakları;Örnek Kişi 2;;Ergonomik ofis sandalyesi;4;Adet;15.11.2026;Onaylandı;Yeni ofis düzeni
+T-1022;08.10.2026;Bilgi İşlem;Örnek Kişi 7;M-4003;Monitör 27 inç;4;Adet;30.11.2026;Onay bekliyor;
+T-1023;08.10.2026;Kalite;Örnek Kişi 8;M-6001;Dijital kumpas 0-150 mm;2;Adet;15.11.2026;Onay bekliyor;Kalibrasyon dışı kalan kumpas
+T-1024;08.10.2026;Depo;Örnek Kişi 5;M-5003;Forklift lastiği;4;Adet;30.10.2026;Reddedildi;Bütçe dışı
+T-1025;09.10.2026;Bakım;Örnek Kişi 4;M-3004;Gres yağı;;kg;30.10.2026;Onaylandı;

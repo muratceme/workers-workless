@@ -1,0 +1,15 @@
+{
+  "id": "satin-alma-talebi-konsolidasyonu",
+  "tur": "kod",
+  "ad": "Satın Alma Talebi Konsolidasyonu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --talepler talepler.xlsx --malzemeler malzemeler.xlsx --stok stok.xlsx --ayri-dosya",
+  "girdiler": [
+    "Satın alma talepleri (.xlsx/.csv): Talep No, Talep Tarihi, Departman, Talep Eden, Malzeme Kodu, Malzeme Adı, Miktar, Birim, İstenen Teslim, Onay Durumu, Gerekçe",
+    "İsteğe bağlı malzeme kartı (kategori, tedarikçiler, son alış fiyatı, asgari sipariş, sipariş katı, tedarik süresi) ve stok (eldeki, emniyet stoğu, açık sipariş)"
+  ],
+  "ciktilar": ["Excel: Özet, Konsolide Liste (net ihtiyaç, sipariş miktarı, tahmini tutar, gerekli teklif sayısı), Teklif İstek Listesi (tedarikçi × malzeme), Bekleyen Talepler, Talep Detayı, Uyarılar", "İsteğe bağlı: her tedarikçi için ayrı teklif formu (.xlsx)"],
+  "internet": false
+}

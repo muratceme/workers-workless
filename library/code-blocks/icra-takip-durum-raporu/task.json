@@ -1,0 +1,15 @@
+{
+  "id": "icra-takip-durum-raporu",
+  "tur": "kod",
+  "ad": "İcra Takip Durum Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --dosyalar dosyalar.xlsx --hareketler hareketler.xlsx --bugun 09.10.2026",
+  "girdiler": [
+    "İcra dosyaları (.xlsx/.csv): İcra Dairesi, Dosya No, Borçlu, Takip Türü (İlamsız / Kambiyo / İlamlı / Rehin), Takip Tarihi, Asıl Alacak, İşlemiş Faiz, Faiz Oranı, Ödeme Emri Tebliğ Tarihi, İtiraz, İtiraz Tebliğ Tarihi, Haciz Tarihi, Aşama, Sorumlu, Son İşlem Tarihi, Durum",
+    "Dosya hareketleri: Dosya No, Tarih, Tür (Tahsilat / Masraf), Tutar, Açıklama"
+  ],
+  "ciktilar": ["Excel: Özet (aşama ve takip türü dağılımı, alacak / tahsilat / kalan), Dosyalar, Hesap Dökümü (faiz ve mahsup adımları), Süre Takibi (İİK 62 / 67 / 68 / 78 / 168), İşlemsiz Dosyalar, Aylık Tahsilat, Uyarılar"],
+  "internet": false
+}
