@@ -304,10 +304,29 @@
   2026'da yenilenmiş; mevzuat dayanaklarını her pakette güncel kaynaktan teyit et.
 - **Toplam 138 paket**, kontrol 138/138.
 
+- Devam (2026-10-10, 12. tur, 10 paket): `rakip-analizi-raporu` (birim fiyat endeksi — ambalaj boyu normalize, medyana göre
+  fiyat dezavantajı, süren derin indirim, özellik eksiği / avantajı), `satis-tahmini` (naif, mevsimsel naif, HO3, Holt, Holt-Winters
+  toplamsal / çarpımsal; ızgara araması; geriye dönük test WAPE ile seçim; MAD tabanlı aykırı ay + yankı kuralı),
+  `teklif-hazirlama` (döviz çevrimi, aynı grupta en yüksek + gruplar arası zincirleme iskonto, müşteri dosyası ve ayrı iç kontrol:
+  marj / onay), `musteri-ziyaret-plani` (vade = son ziyaret + sıklık, süpürme ile güne dağıtım, en yakın komşu + 2-opt, haversine ×
+  1,3, kapasite aşımında düşük öncelik çıkar), `proforma-fatura-hazirlama` (Incoterms 2020 kuralları: deniz kuralları, navlun /
+  sigorta kimde, DAT → DPU; çeki listesi koli / ağırlık / hacim; İngilizce yazıyla tutar; ayrı kontrol dosyası),
+  `ihracat-evrak-kontrol-listesi` (kural tablosu: A.TR / EUR.1 / menşe şahadetnamesi, taşıma senedi, CIF-CIP sigorta, ISPM 15...;
+  evraklar arası tutarlılık; ek kural / kaldır), `anket-sonuc-analizi` (frekans + hata payı, ölçek kutuları, ki-kare — gama
+  fonksiyonuyla p, kritik değer tablosuyla test edildi; kelime başı kod çerçevesi; düz çizgi), `memnuniyet-nps-anketi-analizi`
+  (**agent**: NPS hata payı formülü, önem × performans; tema / duygu / alıntı doğrulama; kimliğe dayalı öneriler; puan–yorum
+  çelişkisi), `cagri-kalite-degerlendirmesi` (**agent**: kendi kalite formu; alıntı temsilci sözünde olmalı; anahtar ifade kod
+  kontrolü; İhlal türü kriter; kritik hata → 0; doğrulanamayan → insan incelemesi), `sosyal-medya-icerik-takvimi` (**agent**:
+  takvim iskeleti kodda — özel günler, anma günlerinde satış yok, kampanya dönemi; taslak denetimi: karakter sınırı, iddia,
+  yasaklı ifade, doğrulanmamış oran).
+- **Ders:** Özel markalı / uç değerli rakip tüm ürünleri "pahalı" gösterir → en düşüğe değil medyana göre karşılaştır. Mevsimsel
+  fark tabanlı aykırı tespiti ertesi yılı da işaretler (yankı). "Yapılmaması gereken" kalite kriterlerinde alıntı mantığı ters
+  çalışır (ihlal varsa alıntı). Python .lower() "İ"yi "i̇" yapar; testlerde de Türkçe katlama kullan.
+- **Toplam 148 paket**, kontrol 148/148.
+
 ### KALDIĞIM YER
-Sıradaki (puan 3): Sosyal Medya İçerik Takvimi (agent), Rakip Analizi Raporu, Anket Sonuç Analizi (agent), Müşteri Ziyaret Planı,
-Teklif Hazırlama, Satış Tahmini, Memnuniyet (NPS) Anketi Analizi, Çağrı Kalite Değerlendirmesi (agent), Proforma Fatura, İhracat
-Evrak Kontrol Listesi, Akreditif Evrak Uygunluk, Sevkiyat Araç Planlama… Epikriz, ÖSS ve SGK fatura ön kontrolü (puan 5) sona bırakıldı.
+Sıradaki (puan 3): Akreditif Evrak Uygunluk Kontrolü, Sevkiyat Araç Planlama ve kalan2.mjs listesindeki diğerleri. Epikriz, ÖSS ve
+SGK fatura ön kontrolü (puan 5) sona bırakıldı.
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);

@@ -1,0 +1,16 @@
+{
+  "id": "anket-sonuc-analizi",
+  "tur": "kod",
+  "ad": "Anket Sonuç Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --yanitlar yanitlar.xlsx --sorular sorular.xlsx --kodlar kod_cercevesi.xlsx --kirilim \"Yaş Grubu\" Cinsiyet",
+  "girdiler": [
+    "Anket yanıtları (.xlsx/.csv): her satır bir yanıt; Yanıt No, demografi sütunları, soru kodu sütunları",
+    "Soru listesi: Soru Kodu, Soru, Tür (Tek seçim / Çoklu seçim / Ölçek / Sayı / Açık uçlu / Demografi), Seçenekler",
+    "İsteğe bağlı açık uçlu kod çerçevesi: Soru Kodu, Kod, Anahtar Kelimeler"
+  ],
+  "ciktilar": ["Excel: Özet, Frekanslar (hata payıyla), Ölçek Soruları, Çapraz Tablolar (ki-kare), Anlamlı Farklar, Açık Uçlu Kodlar, Kodlanmayan Yanıtlar, Uyarılar"],
+  "internet": false
+}

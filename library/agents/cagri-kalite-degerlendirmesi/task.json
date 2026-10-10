@@ -1,0 +1,19 @@
+{
+  "id": "cagri-kalite-degerlendirmesi",
+  "tur": "agent",
+  "ad": "Çağrı Kalite Değerlendirmesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --dokum gorusmeler/ --form kalite_formu.xlsx",
+  "girdiler": [
+    "Görüşme dökümü (.txt) veya döküm klasörü; satırlar 'Temsilci:' / 'Müşteri:' ile başlar",
+    "Kalite formu (.xlsx/.csv): Kod, Bölüm, Kriter, Açıklama, Puan, Kritik, Anahtar İfadeler, Tür (Davranış / İhlal)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Özet (puan, kritik hata, inceleme bekleyen), Kriter Sonuçları (gerekçe ve doğrulanmış alıntı), Geri Bildirim (taslak not), Uyarılar"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

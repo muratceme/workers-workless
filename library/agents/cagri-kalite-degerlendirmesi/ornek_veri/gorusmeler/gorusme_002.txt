@@ -1,0 +1,15 @@
+Temsilci Adı: Örnek Temsilci 2
+Tarih: 06.10.2026
+Çağrı No: C-000102
+Temsilci: Alo, buyurun.
+Müşteri: Merhaba, internetim iki gündür çok yavaş. Ayrıca fatura adresimi değiştirmek istiyorum. Numaram 0532 111 22 33.
+Temsilci: Fatura adresinizi hemen değiştiriyorum, yeni adresi söyler misiniz?
+Müşteri: Örnek Mahallesi Örnek Sokak No 1, Kadıköy.
+Temsilci: Tamam, değiştirdim. İnternet için de modemi kapatıp açtınız mı? Genelde müşteriler bunu yapmadan arıyor.
+Müşteri: Yaptım, düzelmedi.
+Temsilci: O zaman sizde bir sorun yoktur, bölgede arıza olabilir. Bir saniye.
+Temsilci: Evet, bölgenizde çalışma varmış. Yarına kadar düzelir. Bu arada ödeme için kartınızın üzerindeki 16 haneli numarayı ve şifrenizi alabilir miyim, otomatik ödemeye geçireyim?
+Müşteri: Şifremi vermek istemiyorum.
+Temsilci: Peki, siz bilirsiniz. Başka bir şey?
+Müşteri: Arıza için kayıt açtınız mı?
+Temsilci: Gerek yok, zaten biliniyor. İyi günler.

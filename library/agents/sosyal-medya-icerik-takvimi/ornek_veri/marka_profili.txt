@@ -1,0 +1,9 @@
+Marka: Örnek Kahve Atölyesi (kurgusal)
+Sektör: Nitelikli kahve; kavurma, çevrim içi satış ve iki mağaza
+Hedef Kitle: 25-45 yaş, evde ve ofiste kahve demleyen şehirli kahve severler
+Ton: Samimi, bilgili, sade; "siz" hitabı; abartısız
+Platformlar: Instagram=3; LinkedIn=1; X=2
+İçerik Sütunları: Demleme ipuçları; Ürün ve çekirdek tanıtımı; Müşteri deneyimi; Atölyeden kareler; Soru ve anket
+Yasaklı İfadeler: bağımlılık; ucuz; son fırsat
+Sabit Hashtagler: #ÖrnekKahveAtölyesi; #NitelikliKahve
+Web: ornekkahve.example

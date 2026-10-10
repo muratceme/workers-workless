@@ -1,0 +1,14 @@
+Soru Kodu;Soru;Tür;Seçenekler
+Yaş Grubu;Yaş grubunuz;Demografi;18-24|25-34|35-44|45+
+Cinsiyet;Cinsiyetiniz;Demografi;Kadın|Erkek
+Şehir;Yaşadığınız şehir;Demografi;
+S1;Ürünümüzü ne sıklıkla satın alıyorsunuz?;Tek seçim;Haftada bir veya daha sık|Ayda birkaç kez|Ayda bir|Daha seyrek
+S2;Ürünü nereden alıyorsunuz? (birden çok seçilebilir);Çoklu seçim;Süpermarket|Online|Bakkal|Kafe
+S3;Fiyatından memnuniyetiniz;Ölçek;1|2|3|4|5
+S4;Tadından memnuniyetiniz;Ölçek;1|2|3|4|5
+S5;Ambalajından memnuniyetiniz;Ölçek;1|2|3|4|5
+S6;Kolay bulunabilmesinden memnuniyetiniz;Ölçek;1|2|3|4|5
+S7;Genel memnuniyetiniz;Ölçek;1|2|3|4|5
+S8;Ürünü tekrar satın alır mısınız?;Tek seçim;Evet|Kararsızım|Hayır
+S9;Bu ürün grubuna aylık harcamanız (TL);Sayı;
+S10;Sizce neyi geliştirmeliyiz?;Açık uçlu;

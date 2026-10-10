@@ -1,0 +1,19 @@
+{
+  "id": "sosyal-medya-icerik-takvimi",
+  "tur": "agent",
+  "ad": "Sosyal Medya İçerik Takvimi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --ay 2026-11 --profil marka_profili.txt --kampanyalar kampanyalar.xlsx --ozel-gunler ozel_gunler.csv",
+  "girdiler": [
+    "Marka profili (.txt): Marka, Sektör, Hedef Kitle, Ton, Platformlar (haftalık gönderi sayısıyla), İçerik Sütunları, Yasaklı İfadeler, Sabit Hashtagler",
+    "İsteğe bağlı kampanyalar (Başlangıç, Bitiş, Kampanya, Mesaj, Ürün, Platformlar) ve ek özel günler (Tarih, Ad, Tür)",
+    ".env: sağlayıcı ve API anahtarı (--model-yok ile gerekmez)"
+  ],
+  "ciktilar": ["Excel: Takvim (tarih, platform, tür, brif, metin taslağı, hashtag, görsel fikri, kontrol, onay), Özet, Özel Günler, Uyarılar", "CSV (planlama araçlarına aktarım)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

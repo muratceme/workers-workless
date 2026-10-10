@@ -1,0 +1,18 @@
+Temsilci Adı: Örnek Temsilci 1
+Tarih: 05.10.2026
+Çağrı No: C-000101
+Temsilci: Örnek İletişim'e hoş geldiniz, ben Örnek Temsilci 1, size nasıl yardımcı olabilirim?
+Müşteri: Merhaba, bu ayki faturam her zamankinden çok yüksek geldi, nedenini öğrenmek istiyorum.
+Temsilci: Anlıyorum, beklenmedik bir tutar görmek can sıkıcı olabilir. Hemen birlikte inceleyelim. Hesabınıza bakabilmem için önce kimlik doğrulaması yapmam gerekiyor, doğum tarihinizi ve kayıtlı telefonunuzun son dört hanesini alabilir miyim?
+Müşteri: Tabii, 12 Mart 1985, son dört hane 2233.
+Temsilci: Teşekkür ederim, doğrulama tamamlandı. Yani bu ayki faturanızın neden yüksek geldiğini öğrenmek istiyorsunuz, doğru mu?
+Müşteri: Evet.
+Temsilci: Kontrol etmem için sizi kısa bir süre bekletebilir miyim?
+Müşteri: Olur.
+Temsilci: Beklediğiniz için teşekkür ederim. Faturanızda geçen ay yurt dışında kullandığınız 3 günlük dolaşım paketi ücreti görünüyor, fark bundan kaynaklanıyor.
+Müşteri: Ben o paketi iptal ettirmiştim ama.
+Temsilci: Haklısınız, kayıtlarda iptal talebiniz görünüyor ama paket bir gün geç kapatılmış. Bu bir günlük ücret için itiraz kaydı açıyorum. Talep numaranız 458812, inceleme en geç beş iş günü içinde sonuçlanır ve sonucu SMS ile bildiririz.
+Müşteri: Tamam, teşekkürler.
+Temsilci: Rica ederim. Yardımcı olabileceğim başka bir konu var mı?
+Müşteri: Yok, sağ olun.
+Temsilci: Bizi aradığınız için teşekkür eder, iyi günler dilerim.

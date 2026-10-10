@@ -1,0 +1,19 @@
+{
+  "id": "memnuniyet-nps-anketi-analizi",
+  "tur": "agent",
+  "ad": "Memnuniyet (NPS) Anketi Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --anket nps.xlsx --min-yanit 30",
+  "girdiler": [
+    "Anket yanıtları (.xlsx/.csv): Yanıt No, Tarih, Segment, Kanal, NPS (0–10), memnuniyet ölçütleri (1–5), Yorum",
+    "İsteğe bağlı tema listesi",
+    ".env: sağlayıcı ve API anahtarı (--yorum-yok ile gerekmez)"
+  ],
+  "ciktilar": ["Excel: Özet (NPS, hata payı; segment ve ay bazında), Ölçütler (önem × performans), Öneriler (doğrulanmış alıntılarla), Temalar, Yorumlar, Uyarılar"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

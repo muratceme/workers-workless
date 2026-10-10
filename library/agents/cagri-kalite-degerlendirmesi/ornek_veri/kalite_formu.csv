@@ -1,0 +1,11 @@
+Kod;Bölüm;Kriter;Açıklama;Puan;Kritik;Anahtar İfadeler;Tür
+K01;Açılış;Karşılama ve kendini tanıtma;Kurum adı ve kendi adıyla karşılar;5;Hayır;hoş geldiniz|iyi günler|günaydın;Davranış
+K02;Güvenlik;İşlem öncesi kimlik doğrulama;Hesap bilgisi vermeden veya işlem yapmadan önce doğrulama sorularını sorar;15;Evet;doğrulama|teyit|doğum tarih|son dört;Davranış
+K03;Dinleme;Talebi anlama ve özetleme;Müşteriyi dinler, talebi kendi cümleleriyle özetleyip teyit eder;10;Hayır;;Davranış
+K04;İletişim;Empati ve nezaket;Müşterinin durumunu anladığını gösterir, nazik bir dil kullanır;10;Hayır;;Davranış
+K05;Çözüm;Doğru bilgi ve çözüm;Talebe uygun, net ve tutarlı bilgi verir veya çözüm sunar;20;Hayır;;Davranış
+K06;Çözüm;Kayıt ve talep numarası;Açılan kaydın numarasını ve sonraki adımı bildirir;10;Hayır;talep numara|kayıt numara;Davranış
+K07;Süreç;Bekletme kuralı;Bekletmeden önce izin ister, döndüğünde teşekkür eder;5;Hayır;;Davranış
+K08;İletişim;Olumsuz veya yasaklı ifade kullanmama;Suçlayıcı, küçümseyici veya kurum aleyhine ifade kullanmaz;10;Hayır;;İhlal
+K09;Kapanış;Başka talep sorma ve kapanış;Başka bir konu olup olmadığını sorar ve teşekkür ederek kapatır;5;Hayır;başka bir konu|yardımcı olabileceğim başka;Davranış
+K10;Güvenlik;Gereksiz kişisel veri istememe;İşlem için gerekmeyen kişisel veri (kart şifresi, tam kart numarası vb.) istemez;10;Evet;;İhlal
