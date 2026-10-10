@@ -1,0 +1,16 @@
+{
+  "id": "teklif-hazirlama",
+  "tur": "kod",
+  "ad": "Teklif Hazırlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --fiyat-listesi fiyat.xlsx --iskontolar iskonto.xlsx --teklif kalemler.xlsx --bilgi teklif_bilgisi.csv",
+  "girdiler": [
+    "Fiyat listesi (.xlsx/.csv): Ürün Kodu, Ürün, Kategori, Birim, Liste Fiyatı, Döviz, KDV Oranı, Maliyet (iç), Asgari Sipariş",
+    "İskonto kuralları: Kural, Tür (Müşteri grubu / Kategori / Ürün / Miktar / Kampanya), Koşul, Min Miktar, İskonto, Grup, Başlangıç, Bitiş",
+    "Teklif kalemleri (Ürün Kodu, Miktar, Ek İskonto) ve teklif bilgisi (Alan;Değer: müşteri, döviz, kurlar, şartlar)"
+  ],
+  "ciktilar": ["Müşteriye gönderilecek teklif (.xlsx; satırlar, KDV dökümü, şartlar)", "İç kontrol dosyası (.xlsx; iskonto zinciri, marj, yönetici onayı gereksinimi)"],
+  "internet": false
+}

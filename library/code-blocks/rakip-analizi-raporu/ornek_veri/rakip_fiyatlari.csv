@@ -1,0 +1,93 @@
+Tarih;Rakip;Kanal;Bizim Ürün Kodu;Rakip Ürün;Fiyat;İndirimli Fiyat;Ambalaj Miktarı;Birim;Stokta
+01.09.2026;Rakip A;Online;D-001;Rakip A Sıvı ürün;364,86;;3;L;Evet
+05.10.2026;Rakip A;Online;D-001;Rakip A Sıvı ürün;377,42;;3;L;Evet
+01.09.2026;Rakip B;Online;D-001;Rakip B Sıvı ürün;280,03;;2,5;L;Evet
+05.10.2026;Rakip B;Online;D-001;Rakip B Sıvı ürün;277,32;221,86;2,5;L;Evet
+01.09.2026;Rakip C (özel marka);Online;D-001;Rakip C (özel marka) Sıvı ürün;233,6;;2,5;L;Evet
+05.10.2026;Rakip C (özel marka);Online;D-001;Rakip C (özel marka) Sıvı ürün;236,78;;2,5;L;Evet
+01.09.2026;Rakip D;Online;D-001;Rakip D Sıvı ürün;330,12;;2,5;L;Evet
+05.10.2026;Rakip D;Online;D-001;Rakip D Sıvı ürün;341,73;;2,5;L;Evet
+01.09.2026;Rakip A;Online;D-002;Rakip A Toz ürün;274,8;;4;kg;Evet
+05.10.2026;Rakip A;Online;D-002;Rakip A Toz ürün;279,65;;4;kg;Evet
+01.09.2026;Rakip B;Online;D-002;Rakip B Toz ürün;256,3;;4;kg;Evet
+05.10.2026;Rakip B;Online;D-002;Rakip B Toz ürün;253,63;202,9;4;kg;Evet
+01.09.2026;Rakip C (özel marka);Online;D-002;Rakip C (özel marka) Toz ürün;221,0;;4;kg;Evet
+05.10.2026;Rakip C (özel marka);Online;D-002;Rakip C (özel marka) Toz ürün;220,4;;4;kg;Evet
+01.09.2026;Rakip D;Online;D-002;Rakip D Toz ürün;300,43;;4;kg;Evet
+05.10.2026;Rakip D;Online;D-002;Rakip D Toz ürün;321,47;;4;kg;Evet
+01.09.2026;Rakip A;Online;D-003;Rakip A Bulaşık ürün;375,77;;40;adet;Evet
+05.10.2026;Rakip A;Online;D-003;Rakip A Bulaşık ürün;390,46;;40;adet;Evet
+01.09.2026;Rakip B;Online;D-003;Rakip B Bulaşık ürün;343,48;;40;adet;Evet
+05.10.2026;Rakip B;Online;D-003;Rakip B Bulaşık ürün;335,24;268,19;40;adet;Evet
+01.09.2026;Rakip C (özel marka);Online;D-003;Rakip C (özel marka) Bulaşık ürün;284,74;;40;adet;Evet
+05.10.2026;Rakip C (özel marka);Online;D-003;Rakip C (özel marka) Bulaşık ürün;288,38;;40;adet;Evet
+01.09.2026;Rakip D;Online;D-003;Rakip D Bulaşık ürün;395,52;;40;adet;Evet
+05.10.2026;Rakip D;Online;D-003;Rakip D Bulaşık ürün;413,35;;40;adet;Hayır
+01.09.2026;Rakip A;Online;D-004;Rakip A Elde ürün;85,98;;1;L;Evet
+05.10.2026;Rakip A;Online;D-004;Rakip A Elde ürün;86,63;;1;L;Evet
+01.09.2026;Rakip B;Online;D-004;Rakip B Elde ürün;77,83;;1;L;Evet
+05.10.2026;Rakip B;Online;D-004;Rakip B Elde ürün;78,04;62,43;1;L;Evet
+01.09.2026;Rakip C (özel marka);Online;D-004;Rakip C (özel marka) Elde ürün;65,53;;1;L;Evet
+05.10.2026;Rakip C (özel marka);Online;D-004;Rakip C (özel marka) Elde ürün;64,67;;1;L;Evet
+01.09.2026;Rakip D;Online;D-004;Rakip D Elde ürün;89,39;;1;L;Evet
+05.10.2026;Rakip D;Online;D-004;Rakip D Elde ürün;91,54;;1;L;Evet
+01.09.2026;Rakip A;Online;T-001;Rakip A Yüzey ürün;69,99;;1;L;Evet
+05.10.2026;Rakip A;Online;T-001;Rakip A Yüzey ürün;72,59;;1;L;Evet
+01.09.2026;Rakip B;Online;T-001;Rakip B Yüzey ürün;63,07;;1;L;Evet
+05.10.2026;Rakip B;Online;T-001;Rakip B Yüzey ürün;62,45;;1;L;Evet
+01.09.2026;Rakip C (özel marka);Online;T-001;Rakip C (özel marka) Yüzey ürün;54,09;;1;L;Evet
+05.10.2026;Rakip C (özel marka);Online;T-001;Rakip C (özel marka) Yüzey ürün;53,37;;1;L;Evet
+01.09.2026;Rakip D;Online;T-001;Rakip D Yüzey ürün;73,8;;1;L;Evet
+05.10.2026;Rakip D;Online;T-001;Rakip D Yüzey ürün;76,65;;1;L;Evet
+01.09.2026;Rakip A;Online;T-002;Rakip A Çamaşır ürün;79,42;;3,5;L;Evet
+05.10.2026;Rakip A;Online;T-002;Rakip A Çamaşır ürün;82,29;;3,5;L;Evet
+01.09.2026;Rakip B;Online;T-002;Rakip B Çamaşır ürün;72,94;;3,5;L;Evet
+05.10.2026;Rakip B;Online;T-002;Rakip B Çamaşır ürün;72,45;;3,5;L;Evet
+01.09.2026;Rakip C (özel marka);Online;T-002;Rakip C (özel marka) Çamaşır ürün;60,59;;3,5;L;Evet
+05.10.2026;Rakip C (özel marka);Online;T-002;Rakip C (özel marka) Çamaşır ürün;60,94;;3,5;L;Evet
+01.09.2026;Rakip D;Online;T-002;Rakip D Çamaşır ürün;84,94;;3,5;L;Evet
+05.10.2026;Rakip D;Online;T-002;Rakip D Çamaşır ürün;85,65;;3,5;L;Hayır
+01.09.2026;Rakip A;Online;T-003;Rakip A Cam ürün;62,34;;750;ml;Evet
+05.10.2026;Rakip A;Online;T-003;Rakip A Cam ürün;66,37;;750;ml;Evet
+01.09.2026;Rakip B;Online;T-003;Rakip B Cam ürün;57,59;;750;ml;Evet
+05.10.2026;Rakip B;Online;T-003;Rakip B Cam ürün;58,18;;750;ml;Evet
+01.09.2026;Rakip C (özel marka);Online;T-003;Rakip C (özel marka) Cam ürün;49,06;;750;ml;Evet
+05.10.2026;Rakip C (özel marka);Online;T-003;Rakip C (özel marka) Cam ürün;48,81;;750;ml;Evet
+01.09.2026;Rakip D;Online;T-003;Rakip D Cam ürün;68,42;;750;ml;Evet
+05.10.2026;Rakip D;Online;T-003;Rakip D Cam ürün;68,92;;750;ml;Evet
+01.09.2026;Rakip A;Online;T-004;Rakip A Kireç ürün;94,96;;1;L;Evet
+05.10.2026;Rakip A;Online;T-004;Rakip A Kireç ürün;97,93;;1;L;Evet
+01.09.2026;Rakip B;Online;T-004;Rakip B Kireç ürün;65,75;;750;ml;Evet
+05.10.2026;Rakip B;Online;T-004;Rakip B Kireç ürün;64,82;;750;ml;Evet
+01.09.2026;Rakip C (özel marka);Online;T-004;Rakip C (özel marka) Kireç ürün;73,29;;1;L;Evet
+05.10.2026;Rakip C (özel marka);Online;T-004;Rakip C (özel marka) Kireç ürün;74,45;;1;L;Evet
+01.09.2026;Rakip D;Online;T-004;Rakip D Kireç ürün;99,97;;1;L;Evet
+05.10.2026;Rakip D;Online;T-004;Rakip D Kireç ürün;104,96;;1;L;Evet
+01.09.2026;Rakip A;Online;K-001;Rakip A Sıvı ürün;91,45;;1,5;L;Evet
+05.10.2026;Rakip A;Online;K-001;Rakip A Sıvı ürün;92,1;;1,5;L;Evet
+01.09.2026;Rakip B;Online;K-001;Rakip B Sıvı ürün;80,91;;1,5;L;Evet
+05.10.2026;Rakip B;Online;K-001;Rakip B Sıvı ürün;81,46;;1,5;L;Evet
+01.09.2026;Rakip C (özel marka);Online;K-001;Rakip C (özel marka) Sıvı ürün;70,36;;1,5;L;Evet
+05.10.2026;Rakip C (özel marka);Online;K-001;Rakip C (özel marka) Sıvı ürün;69,94;;1,5;L;Evet
+01.09.2026;Rakip A;Online;K-002;Rakip A Şampuan ürün;144,74;;500;ml;Evet
+05.10.2026;Rakip A;Online;K-002;Rakip A Şampuan ürün;151,1;;500;ml;Evet
+01.09.2026;Rakip B;Online;K-002;Rakip B Şampuan ürün;139,66;;500;ml;Evet
+05.10.2026;Rakip B;Online;K-002;Rakip B Şampuan ürün;141,25;;500;ml;Evet
+01.09.2026;Rakip C (özel marka);Online;K-002;Rakip C (özel marka) Şampuan ürün;135,36;;500;ml;Evet
+05.10.2026;Rakip C (özel marka);Online;K-002;Rakip C (özel marka) Şampuan ürün;138,97;;500;ml;Evet
+01.09.2026;Rakip D;Online;K-002;Rakip D Şampuan ürün;158,34;;500;ml;Evet
+05.10.2026;Rakip D;Online;K-002;Rakip D Şampuan ürün;165,05;;500;ml;Evet
+01.09.2026;Rakip A;Online;K-003;Rakip A Duş ürün;106,89;;750;ml;Evet
+05.10.2026;Rakip A;Online;K-003;Rakip A Duş ürün;112,16;;750;ml;Evet
+01.09.2026;Rakip B;Online;K-003;Rakip B Duş ürün;95,04;;750;ml;Evet
+05.10.2026;Rakip B;Online;K-003;Rakip B Duş ürün;96,09;;750;ml;Evet
+01.09.2026;Rakip C (özel marka);Online;K-003;Rakip C (özel marka) Duş ürün;83,44;;750;ml;Evet
+05.10.2026;Rakip C (özel marka);Online;K-003;Rakip C (özel marka) Duş ürün;82,82;;750;ml;Evet
+01.09.2026;Rakip A;Online;K-004;Rakip A Islak ürün;94,95;;;;Evet
+05.10.2026;Rakip A;Online;K-004;Rakip A Islak ürün;100,86;;;;Evet
+01.09.2026;Rakip B;Online;K-004;Rakip B Islak ürün;87,62;;;;Evet
+05.10.2026;Rakip B;Online;K-004;Rakip B Islak ürün;88,31;;;;Evet
+01.09.2026;Rakip C (özel marka);Online;K-004;Rakip C (özel marka) Islak ürün;73,11;;;;Evet
+05.10.2026;Rakip C (özel marka);Online;K-004;Rakip C (özel marka) Islak ürün;72,81;;;;Evet
+05.10.2026;Rakip A;Online;;Rakip A oda kokusu;69,90;;300;ml;Evet
+05.10.2026;Rakip B;Online;X-999;Rakip B yumuşatıcı;99,90;;1,5;L;Evet

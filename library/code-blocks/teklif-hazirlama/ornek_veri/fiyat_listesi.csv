@@ -1,0 +1,9 @@
+Ürün Kodu;Ürün;Kategori;Birim;Liste Fiyatı;Döviz;KDV Oranı;Maliyet;Asgari Sipariş
+PMP-100;Santrifüj pompa 1,5 kW;Pompa;Adet;850,00;EUR;%20;610,00;
+PMP-220;Dalgıç pompa 2,2 kW;Pompa;Adet;1.240,00;EUR;%20;905,00;
+VAN-050;Küresel vana DN50;Vana;Adet;2.450,00;TRY;%20;1.520,00;10
+VAN-080;Kelebek vana DN80;Vana;Adet;3.900,00;TRY;%20;2.680,00;5
+BRU-025;Galvaniz boru 1" (6 m);Boru;Boy;1.180,00;TRY;%20;905,00;20
+FLT-010;Y tipi pislik tutucu DN50;Filtre;Adet;1.650,00;TRY;%20;1.090,00;
+SRV-001;Montaj ve devreye alma hizmeti;Hizmet;Saat;2.200,00;TRY;%20;1.400,00;
+OTM-300;Hidrofor kontrol paneli;Otomasyon;Adet;520,00;USD;%20;;

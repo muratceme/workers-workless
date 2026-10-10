@@ -1,0 +1,16 @@
+{
+  "id": "rakip-analizi-raporu",
+  "tur": "kod",
+  "ad": "Rakip Analizi Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --urunler urunler.xlsx --fiyatlar rakip_fiyatlari.xlsx --kampanyalar kampanyalar.xlsx --ozellikler ozellikler.xlsx",
+  "girdiler": [
+    "Ürünlerimiz (.xlsx/.csv): Ürün Kodu, Ürün, Kategori, Fiyat, Ambalaj Miktarı, Birim",
+    "Rakip fiyat gözlemleri: Tarih, Rakip, Kanal, Bizim Ürün Kodu, Rakip Ürün, Fiyat, İndirimli Fiyat, Ambalaj Miktarı, Birim, Stokta",
+    "İsteğe bağlı: rakip kampanyaları ve ürün özellik matrisi (Marka, Kategori, Özellik, Değer)"
+  ],
+  "ciktilar": ["Excel: Özet, Fiyat Karşılaştırma (birim fiyat endeksi), Rakip Özeti, Kategori Özeti, Fiyat Değişimi, Kampanyalar, Özellik Matrisi, Veri, Uyarılar"],
+  "internet": false
+}

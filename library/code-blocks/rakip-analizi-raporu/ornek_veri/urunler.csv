@@ -1,0 +1,13 @@
+Ürün Kodu;Ürün;Kategori;Fiyat;Ambalaj Miktarı;Birim
+D-001;Sıvı çamaşır deterjanı 2,5 L;Deterjan;289,9;2,5;L
+D-002;Toz deterjan 4 kg;Deterjan;319,9;4;kg
+D-003;Bulaşık makinesi tableti 40'lı;Deterjan;349,9;40;adet
+D-004;Elde bulaşık deterjanı 1 L;Deterjan;79,9;1;L
+T-001;Yüzey temizleyici 1 L;Temizlik;64,9;1;L
+T-002;Çamaşır suyu 3,5 L;Temizlik;74,9;3,5;L
+T-003;Cam temizleyici 750 ml;Temizlik;59,9;750;ml
+T-004;Kireç çözücü 1 L;Temizlik;89,9;1;L
+K-001;Sıvı sabun 1,5 L;Kişisel bakım;84,9;1,5;L
+K-002;Şampuan 500 ml;Kişisel bakım;119,9;500;ml
+K-003;Duş jeli 750 ml;Kişisel bakım;99,9;750;ml
+K-004;Islak mendil 3'lü paket;Kişisel bakım;89,9;;

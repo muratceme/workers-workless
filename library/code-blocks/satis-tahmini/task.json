@@ -1,0 +1,15 @@
+{
+  "id": "satis-tahmini",
+  "tur": "kod",
+  "ad": "Satış Tahmini",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --satislar satislar.xlsx --ufuk 12 --test 6",
+  "girdiler": [
+    "Aylık satışlar (.xlsx/.csv): Ay, Ürün Grubu, Bölge, Miktar, Tutar (en az 24 ay önerilir)",
+    "İsteğe bağlı parametreler: tahmin edilecek değer (Miktar / Tutar), ufuk, geriye dönük test süresi"
+  ],
+  "ciktilar": ["Excel: Tahmin (seri × ay, yaklaşık aralık), Yöntem Karşılaştırma (WAPE), Toplam (grafik), Mevsimsellik endeksi, Geçmiş + Tahmin, Uyarılar"],
+  "internet": false
+}

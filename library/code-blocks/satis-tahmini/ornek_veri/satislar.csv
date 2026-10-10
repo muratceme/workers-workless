@@ -1,0 +1,413 @@
+Ay;Ürün Grubu;Bölge;Miktar;Tutar
+2023-10;Klima;Marmara;199;4776000
+2023-11;Klima;Marmara;124;3050400
+2023-12;Klima;Marmara;168;4233600
+2024-01;Klima;Marmara;117;3018600
+2024-02;Klima;Marmara;135;3564000
+2024-03;Klima;Marmara;208;5616000
+2024-04;Klima;Marmara;331;9135600
+2024-05;Klima;Marmara;592;16694400
+2024-06;Klima;Marmara;858;24710400
+2024-07;Klima;Marmara;991;29135400
+2024-08;Klima;Marmara;859;25770000
+2024-09;Klima;Marmara;464;14198400
+2024-10;Klima;Marmara;216;6739200
+2024-11;Klima;Marmara;137;4356600
+2024-12;Klima;Marmara;177;5734800
+2025-01;Klima;Marmara;151;4983000
+2025-02;Klima;Marmara;155;5208000
+2025-03;Klima;Marmara;253;8652600
+2025-04;Klima;Marmara;363;12632400
+2025-05;Klima;Marmara;658;23293200
+2025-06;Klima;Marmara;918;33048000
+2025-07;Klima;Marmara;1085;39711000
+2025-08;Klima;Marmara;1013;37683600
+2025-09;Klima;Marmara;471;17803800
+2025-10;Klima;Marmara;239;9177600
+2025-11;Klima;Marmara;166;6474000
+2025-12;Klima;Marmara;210;8316000
+2026-01;Klima;Marmara;148;5949600
+2026-02;Klima;Marmara;202;8241600
+2026-03;Klima;Marmara;289;11964600
+2026-04;Klima;Marmara;408;17136000
+2026-05;Klima;Marmara;705;30033000
+2026-06;Klima;Marmara;990;42768000
+2026-07;Klima;Marmara;1192;52209600
+2026-08;Klima;Marmara;1091;48440400
+2026-09;Klima;Marmara;537;24165000
+2023-10;Klima;İç Anadolu;113;2712000
+2023-11;Klima;İç Anadolu;62;1525200
+2023-12;Klima;İç Anadolu;85;2142000
+2024-01;Klima;İç Anadolu;72;1857600
+2024-02;Klima;İç Anadolu;79;2085600
+2024-03;Klima;İç Anadolu;115;3105000
+2024-04;Klima;İç Anadolu;192;5299200
+2024-05;Klima;İç Anadolu;309;8713800
+2024-06;Klima;İç Anadolu;450;12960000
+2024-07;Klima;İç Anadolu;496;14582400
+2024-08;Klima;İç Anadolu;485;14550000
+2024-09;Klima;İç Anadolu;268;8200800
+2024-10;Klima;İç Anadolu;135;4212000
+2024-11;Klima;İç Anadolu;78;2480400
+2024-12;Klima;İç Anadolu;100;3240000
+2025-01;Klima;İç Anadolu;76;2508000
+2025-02;Klima;İç Anadolu;95;3192000
+2025-03;Klima;İç Anadolu;136;4651200
+2025-04;Klima;İç Anadolu;201;6994800
+2025-05;Klima;İç Anadolu;336;11894400
+2025-06;Klima;İç Anadolu;507;18252000
+2025-07;Klima;İç Anadolu;607;22216200
+2025-08;Klima;İç Anadolu;555;20646000
+2025-09;Klima;İç Anadolu;281;10621800
+2025-10;Klima;İç Anadolu;131;5030400
+2025-11;Klima;İç Anadolu;90;3510000
+2025-12;Klima;İç Anadolu;114;4514400
+2026-01;Klima;İç Anadolu;88;3537600
+2026-02;Klima;İç Anadolu;98;3998400
+2026-03;Klima;İç Anadolu;147;6085800
+2026-04;Klima;İç Anadolu;235;9870000
+2026-05;Klima;İç Anadolu;409;17423400
+2026-06;Klima;İç Anadolu;542;23414400
+2026-07;Klima;İç Anadolu;681;29827800
+2026-08;Klima;İç Anadolu;558;24775200
+2026-09;Klima;İç Anadolu;322;14490000
+2023-10;Klima;Ege;111;2664000
+2023-11;Klima;Ege;70;1722000
+2023-12;Klima;Ege;96;2419200
+2024-01;Klima;Ege;76;1960800
+2024-02;Klima;Ege;82;2164800
+2024-03;Klima;Ege;126;3402000
+2024-04;Klima;Ege;196;5409600
+2024-05;Klima;Ege;326;9193200
+2024-06;Klima;Ege;498;14342400
+2024-07;Klima;Ege;628;18463200
+2024-08;Klima;Ege;509;15270000
+2024-09;Klima;Ege;291;8904600
+2024-10;Klima;Ege;130;4056000
+2024-11;Klima;Ege;89;2830200
+2024-12;Klima;Ege;110;3564000
+2025-01;Klima;Ege;81;2673000
+2025-02;Klima;Ege;104;3494400
+2025-03;Klima;Ege;154;5266800
+2025-04;Klima;Ege;215;7482000
+2025-05;Klima;Ege;369;13062600
+2025-06;Klima;Ege;590;21240000
+2025-07;Klima;Ege;1675;61305000
+2025-08;Klima;Ege;553;20571600
+2025-09;Klima;Ege;282;10659600
+2025-10;Klima;Ege;143;5491200
+2025-11;Klima;Ege;95;3705000
+2025-12;Klima;Ege;136;5385600
+2026-01;Klima;Ege;103;4140600
+2026-02;Klima;Ege;112;4569600
+2026-03;Klima;Ege;149;6168600
+2026-04;Klima;Ege;254;10668000
+2026-05;Klima;Ege;448;19084800
+2026-06;Klima;Ege;665;28728000
+2026-07;Klima;Ege;754;33025200
+2026-08;Klima;Ege;614;27261600
+2026-09;Klima;Ege;342;15390000
+2023-10;Klima;Akdeniz;139;3336000
+2023-11;Klima;Akdeniz;87;2140200
+2023-12;Klima;Akdeniz;110;2772000
+2024-01;Klima;Akdeniz;93;2399400
+2024-02;Klima;Akdeniz;109;2877600
+2024-03;Klima;Akdeniz;140;3780000
+2024-04;Klima;Akdeniz;232;6403200
+2024-05;Klima;Akdeniz;418;11787600
+2024-06;Klima;Akdeniz;562;16185600
+2024-07;Klima;Akdeniz;731;21491400
+2024-08;Klima;Akdeniz;597;17910000
+2024-09;Klima;Akdeniz;327;10006200
+2024-10;Klima;Akdeniz;165;5148000
+2024-11;Klima;Akdeniz;93;2957400
+2024-12;Klima;Akdeniz;126;4082400
+2025-01;Klima;Akdeniz;95;3135000
+2025-02;Klima;Akdeniz;120;4032000
+2025-03;Klima;Akdeniz;174;5950800
+2025-04;Klima;Akdeniz;256;8908800
+2025-05;Klima;Akdeniz;475;16815000
+2025-06;Klima;Akdeniz;651;23436000
+2025-07;Klima;Akdeniz;739;27047400
+2025-08;Klima;Akdeniz;665;24738000
+2025-09;Klima;Akdeniz;385;14553000
+2025-10;Klima;Akdeniz;182;6988800
+2025-11;Klima;Akdeniz;111;4329000
+2025-12;Klima;Akdeniz;157;6217200
+2026-01;Klima;Akdeniz;119;4783800
+2026-02;Klima;Akdeniz;136;5548800
+2026-03;Klima;Akdeniz;186;7700400
+2026-04;Klima;Akdeniz;309;12978000
+2026-05;Klima;Akdeniz;531;22620600
+2026-06;Klima;Akdeniz;770;33264000
+2026-07;Klima;Akdeniz;871;38149800
+2026-08;Klima;Akdeniz;731;32456400
+2026-09;Klima;Akdeniz;389;17505000
+2023-10;Isıtıcı;Marmara;311;2021500
+2023-11;Isıtıcı;Marmara;521;3471162
+2023-12;Isıtıcı;Marmara;595;4060875
+2024-01;Isıtıcı;Marmara;610;4262375
+2024-02;Isıtıcı;Marmara;536;3832400
+2024-03;Isıtıcı;Marmara;366;2676375
+2024-04;Isıtıcı;Marmara;205;1532375
+2024-05;Isıtıcı;Marmara;104;794300
+2024-06;Isıtıcı;Marmara;66;514800
+2024-07;Isıtıcı;Marmara;70;557375
+2024-08;Isıtıcı;Marmara;82;666250
+2024-09;Isıtıcı;Marmara;159;1317712
+2024-10;Isıtıcı;Marmara;335;2830750
+2024-11;Isıtıcı;Marmara;572;4926350
+2024-12;Isıtıcı;Marmara;787;6905925
+2025-01;Isıtıcı;Marmara;693;6193688
+2025-02;Isıtıcı;Marmara;576;5241600
+2025-03;Isıtıcı;Marmara;405;3751312
+2025-04;Isıtıcı;Marmara;206;1941550
+2025-05;Isıtıcı;Marmara;111;1064212
+2025-06;Isıtıcı;Marmara;77;750750
+2025-07;Isıtıcı;Marmara;74;733525
+2025-08;Isıtıcı;Marmara;91;916825
+2025-09;Isıtıcı;Marmara;189;1934888
+2025-10;Isıtıcı;Marmara;375;3900000
+2025-11;Isıtıcı;Marmara;683;7214188
+2025-12;Isıtıcı;Marmara;779;8354775
+2026-01;Isıtıcı;Marmara;705;7675688
+2026-02;Isıtıcı;Marmara;622;6873100
+2026-03;Isıtıcı;Marmara;459;5146538
+2026-04;Isıtıcı;Marmara;255;2900625
+2026-05;Isıtıcı;Marmara;127;1465262
+2026-06;Isıtıcı;Marmara;89;1041300
+2026-07;Isıtıcı;Marmara;82;972725
+2026-08;Isıtıcı;Marmara;98;1178450
+2026-09;Isıtıcı;Marmara;213;2595938
+2023-10;Isıtıcı;İç Anadolu;164;1066000
+2023-11;Isıtıcı;İç Anadolu;269;1792212
+2023-12;Isıtıcı;İç Anadolu;364;2484300
+2024-01;Isıtıcı;İç Anadolu;317;2215038
+2024-02;Isıtıcı;İç Anadolu;265;1894750
+2024-03;Isıtıcı;İç Anadolu;187;1367438
+2024-04;Isıtıcı;İç Anadolu;114;852150
+2024-05;Isıtıcı;İç Anadolu;49;374238
+2024-06;Isıtıcı;İç Anadolu;35;273000
+2024-07;Isıtıcı;İç Anadolu;35;278688
+2024-08;Isıtıcı;İç Anadolu;44;357500
+2024-09;Isıtıcı;İç Anadolu;92;762450
+2024-10;Isıtıcı;İç Anadolu;180;1521000
+2024-11;Isıtıcı;İç Anadolu;346;2979925
+2024-12;Isıtıcı;İç Anadolu;405;3553875
+2025-01;Isıtıcı;İç Anadolu;382;3414125
+2025-02;Isıtıcı;İç Anadolu;298;2711800
+2025-03;Isıtıcı;İç Anadolu;217;2009962
+2025-04;Isıtıcı;İç Anadolu;122;1149850
+2025-05;Isıtıcı;İç Anadolu;64;613600
+2025-06;Isıtıcı;İç Anadolu;39;380250
+2025-07;Isıtıcı;İç Anadolu;41;406412
+2025-08;Isıtıcı;İç Anadolu;55;554125
+2025-09;Isıtıcı;İç Anadolu;111;1136363
+2025-10;Isıtıcı;İç Anadolu;203;2111200
+2025-11;Isıtıcı;İç Anadolu;367;3876438
+2025-12;Isıtıcı;İç Anadolu;474;5083650
+2026-01;Isıtıcı;İç Anadolu;408;4442100
+2026-02;Isıtıcı;İç Anadolu;362;4000100
+2026-03;Isıtıcı;İç Anadolu;251;2814338
+2026-04;Isıtıcı;İç Anadolu;145;1649375
+2026-05;Isıtıcı;İç Anadolu;68;784550
+2026-06;Isıtıcı;İç Anadolu;47;549900
+2026-07;Isıtıcı;İç Anadolu;45;533813
+2026-08;Isıtıcı;İç Anadolu;60;721500
+2026-09;Isıtıcı;İç Anadolu;114;1389375
+2023-10;Isıtıcı;Ege;180;1170000
+2023-11;Isıtıcı;Ege;303;2018737
+2023-12;Isıtıcı;Ege;375;2559375
+2024-01;Isıtıcı;Ege;334;2333825
+2024-02;Isıtıcı;Ege;289;2066350
+2024-03;Isıtıcı;Ege;211;1542938
+2024-04;Isıtıcı;Ege;111;829725
+2024-05;Isıtıcı;Ege;54;412425
+2024-06;Isıtıcı;Ege;41;319800
+2024-07;Isıtıcı;Ege;39;310538
+2024-08;Isıtıcı;Ege;54;438750
+2024-09;Isıtıcı;Ege;103;853612
+2024-10;Isıtıcı;Ege;202;1706900
+2024-11;Isıtıcı;Ege;375;3229688
+2024-12;Isıtıcı;Ege;470;4124250
+2025-01;Isıtıcı;Ege;392;3503500
+2025-02;Isıtıcı;Ege;323;2939300
+2025-03;Isıtıcı;Ege;244;2260050
+2025-04;Isıtıcı;Ege;139;1310075
+2025-05;Isıtıcı;Ege;67;642362
+2025-06;Isıtıcı;Ege;47;458250
+2025-07;Isıtıcı;Ege;44;436150
+2025-08;Isıtıcı;Ege;58;584350
+2025-09;Isıtıcı;Ege;110;1126125
+2025-10;Isıtıcı;Ege;228;2371200
+2025-11;Isıtıcı;Ege;390;4119375
+2025-12;Isıtıcı;Ege;487;5223075
+2026-01;Isıtıcı;Ege;446;4855825
+2026-02;Isıtıcı;Ege;404;4464200
+2026-03;Isıtıcı;Ege;253;2836762
+2026-04;Isıtıcı;Ege;140;1592500
+2026-05;Isıtıcı;Ege;71;819162
+2026-06;Isıtıcı;Ege;54;631800
+2026-07;Isıtıcı;Ege;50;593125
+2026-08;Isıtıcı;Ege;59;709475
+2026-09;Isıtıcı;Ege;135;1645312
+2023-10;Isıtıcı;Akdeniz;223;1449500
+2023-11;Isıtıcı;Akdeniz;380;2531750
+2023-12;Isıtıcı;Akdeniz;441;3009825
+2024-01;Isıtıcı;Akdeniz;429;2997638
+2024-02;Isıtıcı;Akdeniz;341;2438150
+2024-03;Isıtıcı;Akdeniz;231;1689188
+2024-04;Isıtıcı;Akdeniz;143;1068925
+2024-05;Isıtıcı;Akdeniz;72;549900
+2024-06;Isıtıcı;Akdeniz;44;343200
+2024-07;Isıtıcı;Akdeniz;49;390163
+2024-08;Isıtıcı;Akdeniz;54;438750
+2024-09;Isıtıcı;Akdeniz;115;953062
+2024-10;Isıtıcı;Akdeniz;222;1875900
+2024-11;Isıtıcı;Akdeniz;391;3367488
+2024-12;Isıtıcı;Akdeniz;487;4273425
+2025-01;Isıtıcı;Akdeniz;487;4352562
+2025-02;Isıtıcı;Akdeniz;387;3521700
+2025-03;Isıtıcı;Akdeniz;264;2445300
+2025-04;Isıtıcı;Akdeniz;145;1366625
+2025-05;Isıtıcı;Akdeniz;75;719062
+2025-06;Isıtıcı;Akdeniz;55;536250
+2025-07;Isıtıcı;Akdeniz;53;525362
+2025-08;Isıtıcı;Akdeniz;62;624650
+2025-09;Isıtıcı;Akdeniz;138;1412775
+2025-10;Isıtıcı;Akdeniz;272;2828800
+2025-11;Isıtıcı;Akdeniz;460;4858750
+2025-12;Isıtıcı;Akdeniz;581;6231225
+2026-01;Isıtıcı;Akdeniz;541;5890138
+2026-02;Isıtıcı;Akdeniz;470;5193500
+2026-03;Isıtıcı;Akdeniz;312;3498300
+2026-04;Isıtıcı;Akdeniz;175;1990625
+2026-05;Isıtıcı;Akdeniz;86;992225
+2026-06;Isıtıcı;Akdeniz;59;690300
+2026-07;Isıtıcı;Akdeniz;58;688025
+2026-08;Isıtıcı;Akdeniz;73;877825
+2026-09;Isıtıcı;Akdeniz;149;1815938
+2023-10;Küçük ev aletleri;Marmara;978;3129600
+2023-11;Küçük ev aletleri;Marmara;1098;3601440
+2023-12;Küçük ev aletleri;Marmara;1378;4630080
+2024-01;Küçük ev aletleri;Marmara;838;2882720
+2024-02;Küçük ev aletleri;Marmara;847;2981440
+2024-03;Küçük ev aletleri;Marmara;934;3362400
+2024-04;Küçük ev aletleri;Marmara;1035;3808800
+2024-05;Küçük ev aletleri;Marmara;1054;3963040
+2024-06;Küçük ev aletleri;Marmara;877;3367680
+2024-07;Küçük ev aletleri;Marmara;835;3273200
+2024-08;Küçük ev aletleri;Marmara;923;3692000
+2024-09;Küçük ev aletleri;Marmara;1060;4324800
+2024-10;Küçük ev aletleri;Marmara;1140;4742400
+2024-11;Küçük ev aletleri;Marmara;1223;5185520
+2024-12;Küçük ev aletleri;Marmara;1369;5914080
+2025-01;Küçük ev aletleri;Marmara;896;3942400
+2025-02;Küçük ev aletleri;Marmara;851;3812480
+2025-03;Küçük ev aletleri;Marmara;956;4359360
+2025-04;Küçük ev aletleri;Marmara;1008;4677120
+2025-05;Küçük ev aletleri;Marmara;1114;5258080
+2025-06;Küçük ev aletleri;Marmara;942;4521600
+2025-07;Küçük ev aletleri;Marmara;986;4811680
+2025-08;Küçük ev aletleri;Marmara;1043;5173280
+2025-09;Küçük ev aletleri;Marmara;1234;6219360
+2025-10;Küçük ev aletleri;Marmara;1307;6691840
+2025-11;Küçük ev aletleri;Marmara;1520;7904000
+2025-12;Küçük ev aletleri;Marmara;1772;9356160
+2026-01;Küçük ev aletleri;Marmara;991;5311760
+2026-02;Küçük ev aletleri;Marmara;978;5320320
+2026-03;Küçük ev aletleri;Marmara;1231;6795120
+2026-04;Küçük ev aletleri;Marmara;1219;6826400
+2026-05;Küçük ev aletleri;Marmara;1236;7020480
+2026-06;Küçük ev aletleri;Marmara;1167;6721920
+2026-07;Küçük ev aletleri;Marmara;1055;6161200
+2026-08;Küçük ev aletleri;Marmara;1148;6796160
+2026-09;Küçük ev aletleri;Marmara;1240;7440000
+2023-10;Küçük ev aletleri;İç Anadolu;498;1593600
+2023-11;Küçük ev aletleri;İç Anadolu;585;1918800
+2023-12;Küçük ev aletleri;İç Anadolu;722;2425920
+2024-01;Küçük ev aletleri;İç Anadolu;495;1702800
+2024-02;Küçük ev aletleri;İç Anadolu;475;1672000
+2024-03;Küçük ev aletleri;İç Anadolu;520;1872000
+2024-04;Küçük ev aletleri;İç Anadolu;567;2086560
+2024-05;Küçük ev aletleri;İç Anadolu;551;2071760
+2024-06;Küçük ev aletleri;İç Anadolu;473;1816320
+2024-07;Küçük ev aletleri;İç Anadolu;498;1952160
+2024-08;Küçük ev aletleri;İç Anadolu;507;2028000
+2024-09;Küçük ev aletleri;İç Anadolu;576;2350080
+2024-10;Küçük ev aletleri;İç Anadolu;548;2279680
+2024-11;Küçük ev aletleri;İç Anadolu;684;2900160
+2024-12;Küçük ev aletleri;İç Anadolu;807;3486240
+2025-01;Küçük ev aletleri;İç Anadolu;545;2398000
+2025-02;Küçük ev aletleri;İç Anadolu;528;2365440
+2025-03;Küçük ev aletleri;İç Anadolu;589;2685840
+2025-04;Küçük ev aletleri;İç Anadolu;586;2719040
+2025-05;Küçük ev aletleri;İç Anadolu;626;2954720
+2025-06;Küçük ev aletleri;İç Anadolu;584;2803200
+2025-07;Küçük ev aletleri;İç Anadolu;568;2771840
+2025-08;Küçük ev aletleri;İç Anadolu;562;2787520
+2025-09;Küçük ev aletleri;İç Anadolu;601;3029040
+2025-10;Küçük ev aletleri;İç Anadolu;683;3496960
+2025-11;Küçük ev aletleri;İç Anadolu;809;4206800
+2025-12;Küçük ev aletleri;İç Anadolu;889;4693920
+2026-01;Küçük ev aletleri;İç Anadolu;564;3023040
+2026-02;Küçük ev aletleri;İç Anadolu;552;3002880
+2026-03;Küçük ev aletleri;İç Anadolu;645;3560400
+2026-04;Küçük ev aletleri;İç Anadolu;633;3544800
+2026-05;Küçük ev aletleri;İç Anadolu;718;4078240
+2026-06;Küçük ev aletleri;İç Anadolu;661;3807360
+2026-07;Küçük ev aletleri;İç Anadolu;610;3562400
+2026-08;Küçük ev aletleri;İç Anadolu;602;3563840
+2026-09;Küçük ev aletleri;İç Anadolu;694;4164000
+2023-10;Küçük ev aletleri;Ege;531;1699200
+2023-11;Küçük ev aletleri;Ege;709;2325520
+2023-12;Küçük ev aletleri;Ege;790;2654400
+2024-01;Küçük ev aletleri;Ege;477;1640880
+2024-02;Küçük ev aletleri;Ege;485;1707200
+2024-03;Küçük ev aletleri;Ege;552;1987200
+2024-04;Küçük ev aletleri;Ege;586;2156480
+2024-05;Küçük ev aletleri;Ege;603;2267280
+2024-06;Küçük ev aletleri;Ege;516;1981440
+2024-07;Küçük ev aletleri;Ege;497;1948240
+2024-08;Küçük ev aletleri;Ege;588;2352000
+2024-09;Küçük ev aletleri;Ege;595;2427600
+2024-10;Küçük ev aletleri;Ege;649;2699840
+2024-11;Küçük ev aletleri;Ege;775;3286000
+2024-12;Küçük ev aletleri;Ege;837;3615840
+2025-01;Küçük ev aletleri;Ege;564;2481600
+2025-02;Küçük ev aletleri;Ege;521;2334080
+2025-03;Küçük ev aletleri;Ege;600;2736000
+2025-04;Küçük ev aletleri;Ege;643;2983520
+2025-05;Küçük ev aletleri;Ege;680;3209600
+2025-06;Küçük ev aletleri;Ege;645;3096000
+2025-07;Küçük ev aletleri;Ege;556;2713280
+2025-08;Küçük ev aletleri;Ege;598;2966080
+2025-09;Küçük ev aletleri;Ege;706;3558240
+2025-10;Küçük ev aletleri;Ege;718;3676160
+2025-11;Küçük ev aletleri;Ege;880;4576000
+2025-12;Küçük ev aletleri;Ege;1015;5359200
+2026-01;Küçük ev aletleri;Ege;600;3216000
+2026-02;Küçük ev aletleri;Ege;630;3427200
+2026-03;Küçük ev aletleri;Ege;647;3571440
+2026-04;Küçük ev aletleri;Ege;705;3948000
+2026-05;Küçük ev aletleri;Ege;816;4634880
+2026-06;Küçük ev aletleri;Ege;725;4176000
+2026-07;Küçük ev aletleri;Ege;659;3848560
+2026-08;Küçük ev aletleri;Ege;648;3836160
+2026-09;Küçük ev aletleri;Ege;759;4554000
+2025-06;Küçük ev aletleri;Akdeniz;679;3259200
+2025-07;Küçük ev aletleri;Akdeniz;707;3450160
+2025-08;Küçük ev aletleri;Akdeniz;686;3402560
+2025-09;Küçük ev aletleri;Akdeniz;765;3855600
+2025-10;Küçük ev aletleri;Akdeniz;871;4459520
+2025-11;Küçük ev aletleri;Akdeniz;1046;5439200
+2025-12;Küçük ev aletleri;Akdeniz;1174;6198720
+2026-01;Küçük ev aletleri;Akdeniz;748;4009280
+2026-02;Küçük ev aletleri;Akdeniz;768;4177920
+2026-03;Küçük ev aletleri;Akdeniz;801;4421520
+2026-04;Küçük ev aletleri;Akdeniz;917;5135200
+2026-05;Küçük ev aletleri;Akdeniz;892;5066560
+2026-06;Küçük ev aletleri;Akdeniz;780;4492800
+2026-07;Küçük ev aletleri;Akdeniz;731;4269040
+2026-08;Küçük ev aletleri;Akdeniz;826;4889920
+2026-09;Küçük ev aletleri;Akdeniz;931;5586000

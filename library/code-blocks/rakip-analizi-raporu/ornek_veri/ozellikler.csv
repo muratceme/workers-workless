@@ -1,0 +1,22 @@
+Marka;Kategori;Özellik;Değer
+Biz;Deterjan;Konsantre formül;Var
+Rakip A;Deterjan;Konsantre formül;Var
+Rakip B;Deterjan;Konsantre formül;Yok
+Rakip C (özel marka);Deterjan;Konsantre formül;Yok
+Rakip D;Deterjan;Konsantre formül;Var
+Biz;Deterjan;Geri dönüştürülmüş ambalaj;Yok
+Rakip A;Deterjan;Geri dönüştürülmüş ambalaj;Var
+Rakip B;Deterjan;Geri dönüştürülmüş ambalaj;Var
+Rakip C (özel marka);Deterjan;Geri dönüştürülmüş ambalaj;Yok
+Rakip D;Deterjan;Geri dönüştürülmüş ambalaj;Var
+Biz;Deterjan;Parfümsüz seçenek;Var
+Rakip A;Deterjan;Parfümsüz seçenek;Yok
+Rakip B;Deterjan;Parfümsüz seçenek;Yok
+Rakip C (özel marka);Deterjan;Parfümsüz seçenek;Yok
+Rakip D;Deterjan;Parfümsüz seçenek;Yok
+Biz;Kişisel bakım;Dermatolojik test;Var
+Rakip A;Kişisel bakım;Dermatolojik test;Var
+Rakip B;Kişisel bakım;Dermatolojik test;Var
+Rakip C (özel marka);Kişisel bakım;Dermatolojik test;Yok
+Biz;Kişisel bakım;Garanti süresi (ay);—
+Rakip A;Kişisel bakım;Garanti süresi (ay);—

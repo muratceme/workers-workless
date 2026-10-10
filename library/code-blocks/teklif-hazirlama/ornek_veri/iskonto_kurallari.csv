@@ -1,0 +1,9 @@
+Kural;Tür;Koşul;Min Miktar;İskonto;Grup;Başlangıç;Bitiş
+Bayi iskontosu;Müşteri grubu;Bayi;;%15;Müşteri;;
+Proje iskontosu;Müşteri grubu;Proje;;%8;Müşteri;;
+Vana 20 adet ve üzeri;Miktar;Vana;20;%5;Miktar;;
+Vana 50 adet ve üzeri;Miktar;Vana;50;%10;Miktar;;
+Boru 100 boy ve üzeri;Miktar;Boru;100;%7;Miktar;;
+Pompa sonbahar kampanyası;Kampanya;Pompa;;%5;Kampanya;01.10.2026;31.10.2026
+Eski kampanya;Kampanya;Vana;;%12;Kampanya;01.06.2026;31.08.2026
+Hizmette iskonto yok;Kategori;Hizmet;;%0;Hizmet;;
