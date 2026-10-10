@@ -1,0 +1,15 @@
+{
+  "id": "ihracat-evrak-kontrol-listesi",
+  "tur": "kod",
+  "ad": "İhracat Evrak Kontrol Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --sevkiyat sevkiyat.csv --evraklar evraklar.xlsx",
+  "girdiler": [
+    "Sevkiyat bilgisi (Alan;Değer): Sevkiyat No, Alıcı, Ülke, Ülke Grubu, Teslim Şekli, Taşıma Şekli, Ödeme Şekli, Ürün Türü, ürün özellikleri (ahşap ambalaj, tehlikeli madde...)",
+    "İsteğe bağlı: hazırlanan evrakların bilgileri (Evrak; Alan; Değer) ve ek kural tablosu"
+  ],
+  "ciktilar": ["Excel: Kontrol Listesi (gereken evrak, zorunluluk, gerekçe, düzenleyen, durum), Tutarlılık (alan × evrak), Uyarılar"],
+  "internet": false
+}

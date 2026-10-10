@@ -1,0 +1,49 @@
+Müşteri No;Müşteri;İlçe;Enlem;Boylam;Ziyaret Sıklığı;Ziyaret Süresi (dk);Öncelik;Son Ziyaret;Uygun Günler
+M001;Örnek Müşteri 1;Maltepe;40,92982;29,14377;Haftalık;45;A;09.10.2026;
+M002;Örnek Müşteri 2;Ataşehir;40,97747;29,14056;2 haftada bir;30;B;29.09.2026;
+M003;Örnek Müşteri 3;Kadıköy;40,98337;29,03766;2 haftada bir;30;B;02.10.2026;
+M004;Örnek Müşteri 4;Tuzla;40,81358;29,29671;Haftalık;45;A;07.10.2026;
+M005;Örnek Müşteri 5;Tuzla;40,82897;29,33056;Aylık;20;C;07.09.2026;Sal, Per
+M006;Örnek Müşteri 6;Kartal;40,88389;29,20571;2 haftada bir;30;B;29.09.2026;
+M007;Örnek Müşteri 7;Ataşehir;40,99843;29,11692;2 haftada bir;30;B;28.09.2026;
+M008;Örnek Müşteri 8;Maltepe;40,93826;29,13211;Haftalık;45;A;09.10.2026;
+M009;Örnek Müşteri 9;Sancaktepe;;;Aylık;20;C;14.09.2026;
+M010;Örnek Müşteri 10;Sancaktepe;40,99143;29,22283;Aylık;20;C;24.09.2026;
+M011;Örnek Müşteri 11;Ümraniye;41,03557;29,08988;2 haftada bir;30;B;24.09.2026;
+M012;Örnek Müşteri 12;Pendik;40,89800;29,26717;2 haftada bir;30;B;;
+M013;Örnek Müşteri 13;Kartal;40,88601;29,19144;2 haftada bir;30;B;04.10.2026;
+M014;Örnek Müşteri 14;Maltepe;40,92877;29,17040;2 haftada bir;30;B;02.10.2026;
+M015;Örnek Müşteri 15;Kartal;40,88135;29,17774;2 haftada bir;30;B;24.09.2026;
+M016;Örnek Müşteri 16;Tuzla;40,81701;29,30481;Haftalık;45;A;04.10.2026;
+M017;Örnek Müşteri 17;Kadıköy;40,97307;29,05332;2 haftada bir;30;B;05.10.2026;Sal, Per
+M018;Örnek Müşteri 18;Tuzla;40,82367;29,29351;2 haftada bir;30;B;02.10.2026;
+M019;Örnek Müşteri 19;Ümraniye;41,02140;29,10730;2 haftada bir;30;B;26.09.2026;
+M020;Örnek Müşteri 20;Ataşehir;40,98355;29,10476;Haftalık;45;A;09.10.2026;
+M021;Örnek Müşteri 21;Pendik;40,86615;29,27182;2 haftada bir;30;B;01.07.2026;
+M022;Örnek Müşteri 22;Ataşehir;40,97959;29,14563;2 haftada bir;30;B;25.09.2026;
+M023;Örnek Müşteri 23;Ataşehir;41,00175;29,11757;Aylık;20;C;28.09.2026;Cmt
+M024;Örnek Müşteri 24;Sancaktepe;40,98840;29,24876;Haftalık;45;A;03.10.2026;
+M025;Örnek Müşteri 25;Ümraniye;41,01211;29,13349;2 haftada bir;30;B;04.10.2026;
+M026;Örnek Müşteri 26;Maltepe;40,93922;29,14986;2 haftada bir;30;B;03.10.2026;
+M027;Örnek Müşteri 27;Tuzla;40,81488;29,31404;2 haftada bir;30;B;03.10.2026;
+M028;Örnek Müşteri 28;Sancaktepe;41,00058;29,20952;Aylık;20;C;10.09.2026;
+M029;Örnek Müşteri 29;Tuzla;40,84266;29,30777;Haftalık;45;A;09.10.2026;
+M030;Örnek Müşteri 30;Sancaktepe;40,98446;29,21556;Haftalık;45;A;05.10.2026;
+M031;Örnek Müşteri 31;Kadıköy;40,99121;29,05646;ara sıra;30;B;24.09.2026;
+M032;Örnek Müşteri 32;Maltepe;40,93506;29,14121;2 haftada bir;30;B;27.09.2026;
+M033;Örnek Müşteri 33;Maltepe;40,91527;29,15566;Aylık;20;C;05.09.2026;
+M034;Örnek Müşteri 34;Pendik;40,89710;29,27409;Haftalık;45;A;07.10.2026;
+M035;Örnek Müşteri 35;Ataşehir;40,99389;29,14884;2 haftada bir;30;B;24.09.2026;
+M036;Örnek Müşteri 36;Pendik;40,88065;29,25626;Aylık;20;C;03.09.2026;
+M037;Örnek Müşteri 37;Kartal;40,90606;29,17046;2 haftada bir;30;B;29.09.2026;
+M038;Örnek Müşteri 38;Kartal;40,88821;29,18485;2 haftada bir;30;B;25.09.2026;
+M039;Örnek Müşteri 39;Pendik;40,89284;29,25525;2 haftada bir;30;B;29.09.2026;
+M040;Örnek Müşteri 40;Maltepe;40,93460;29,15145;Aylık;20;C;20.09.2026;
+M041;Örnek Müşteri 41;Ümraniye;41,00775;29,12166;2 haftada bir;30;B;29.09.2026;
+M042;Örnek Müşteri 42;Ataşehir;40,99698;29,14125;Aylık;20;C;20.09.2026;
+M043;Örnek Müşteri 43;Kartal;40,89109;29,20942;2 haftada bir;30;B;30.09.2026;
+M044;Örnek Müşteri 44;Maltepe;40,95362;29,16451;Aylık;20;C;21.09.2026;
+M045;Örnek Müşteri 45;Maltepe;40,94753;29,15483;Aylık;20;C;17.09.2026;
+M046;Örnek Müşteri 46;Sancaktepe;41,01123;29,24467;2 haftada bir;30;B;25.09.2026;
+M047;Örnek Müşteri 47;Ümraniye;41,03621;29,13465;Aylık;20;C;03.09.2026;
+M048;Örnek Müşteri 48;Ümraniye;41,00588;29,09456;2 haftada bir;30;B;04.10.2026;

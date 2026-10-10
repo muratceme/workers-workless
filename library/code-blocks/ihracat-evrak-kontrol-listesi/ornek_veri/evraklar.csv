@@ -1,0 +1,29 @@
+Evrak;Alan;Değer
+Ticari Fatura;Fatura No;IHR2026000000331
+Ticari Fatura;Alıcı;Example Home Textiles GmbH
+Ticari Fatura;Toplam Tutar;85.512,00
+Ticari Fatura;Döviz;EUR
+Ticari Fatura;Teslim Şekli;CIF Hamburg
+Ticari Fatura;Koli Sayısı;431
+Ticari Fatura;Net Ağırlık;5.983,50
+Ticari Fatura;Brüt Ağırlık;6.539,80
+Ticari Fatura;GTİP;630260000011
+Ticari Fatura;Menşe;Türkiye
+Çeki Listesi;Alıcı;Example Home Textiles GmbH
+Çeki Listesi;Koli Sayısı;431
+Çeki Listesi;Net Ağırlık;5.983,50
+Çeki Listesi;Brüt Ağırlık;6.539,80
+Konşimento;Alıcı;Example Home Textile GmbH
+Konşimento;Koli Sayısı;430
+Konşimento;Brüt Ağırlık;6.539,80
+Konşimento;Yükleme Limanı;Izmir
+Konşimento;Varış Limanı;Hamburg
+A.TR Dolaşım Belgesi;Alıcı;Example Home Textiles GmbH
+A.TR Dolaşım Belgesi;Brüt Ağırlık;6.539,80
+A.TR Dolaşım Belgesi;Koli Sayısı;431
+İhracat Gümrük Beyannamesi;Toplam Tutar;85.512,00
+İhracat Gümrük Beyannamesi;Döviz;EUR
+İhracat Gümrük Beyannamesi;GTİP;6302.60
+İhracat Gümrük Beyannamesi;Teslim Şekli;CIF
+İhracat Gümrük Beyannamesi;Brüt Ağırlık;6.539,80
+Kalite Sertifikası;Alıcı;Example Home Textiles GmbH

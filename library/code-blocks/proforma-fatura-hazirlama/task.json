@@ -1,0 +1,16 @@
+{
+  "id": "proforma-fatura-hazirlama",
+  "tur": "kod",
+  "ad": "Proforma Fatura Hazırlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --siparis siparis.xlsx --urunler urunler.xlsx --bilgi proforma_bilgisi.csv",
+  "girdiler": [
+    "Sipariş (.xlsx/.csv): Ürün Kodu, Miktar, Birim Fiyat (anlaşılan), Not",
+    "Ürün kartları: Ürün Kodu, Tanım (İngilizce), GTİP, Menşe, Birim, Birim Fiyat, Döviz, Net Ağırlık, Koli İçi Adet, Koli Darası, Koli Ölçüleri",
+    "Proforma bilgisi (Alan;Değer): satıcı, alıcı, teslim şekli (Incoterms 2020) ve yeri, taşıma, ödeme, döviz, navlun, sigorta, banka"
+  ],
+  "ciktilar": ["Alıcıya gönderilecek dosya (.xlsx): Proforma Invoice + Packing List (İngilizce)", "İç kontrol dosyası (.xlsx): Incoterms, GTİP, menşe, ağırlık ve banka kontrolleri"],
+  "internet": false
+}

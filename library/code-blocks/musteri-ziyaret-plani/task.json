@@ -1,0 +1,15 @@
+{
+  "id": "musteri-ziyaret-plani",
+  "tur": "kod",
+  "ad": "Müşteri Ziyaret Planı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --musteriler musteriler.xlsx --hafta 12.10.2026 --baslangic 40.99,29.12",
+  "girdiler": [
+    "Müşteri listesi (.xlsx/.csv): Müşteri No, Müşteri, İlçe, Enlem, Boylam, Ziyaret Sıklığı, Ziyaret Süresi (dk), Öncelik (A/B/C), Son Ziyaret, Uygun Günler",
+    "Parametreler: haftanın ilk günü, başlangıç noktası (enlem,boylam), günlük süre, ortalama hız, yol katsayısı"
+  ],
+  "ciktilar": ["Excel: Haftalık Plan (gün, rota sırası, tahmini varış, harita bağlantısı), Gün Özeti (km, süre, kapasite), Sığmayanlar, Bu Hafta Gerekmeyenler, Uyarılar"],
+  "internet": false
+}
