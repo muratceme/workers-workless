@@ -1,0 +1,5 @@
+﻿Araç Tipi;Palet Kapasitesi;Ağırlık Kapasitesi (kg);Hacim Kapasitesi (m3);Sefer Maliyeti (TL);Mevcut Adet
+Panelvan;3;1000;10;6500;
+Kamyonet;8;3000;20;9500;
+Kamyon (10 teker);18;13000;45;16000;
+TIR (13,60 m);33;24000;86;24000;4

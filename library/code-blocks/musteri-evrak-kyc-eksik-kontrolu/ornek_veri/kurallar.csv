@@ -1,0 +1,17 @@
+﻿Müşteri Tipi;Ürün;Belge;Geçerlilik (ay);Açıklama
+Gerçek Kişi;*;Kimlik Belgesi;;Belgedeki son geçerlilik tarihi "Geçerlilik Bitiş" sütununa yazılır
+Gerçek Kişi;*;Adres Teyit Belgesi;;
+Gerçek Kişi;*;Müşteri Tanıma Formu;;
+Şahıs İşletmesi;*;Kimlik Belgesi;;
+Şahıs İşletmesi;*;Vergi Levhası;;
+Şahıs İşletmesi;*;İmza Beyannamesi;;
+Şahıs İşletmesi;*;Oda Kayıt Belgesi;12;
+Tüzel Kişi;*;Ticaret Sicil Gazetesi;;Kuruluş ve son değişiklikler
+Tüzel Kişi;*;Vergi Levhası;;
+Tüzel Kişi;*;İmza Sirküleri;;Yetki süresinin bitişi "Geçerlilik Bitiş" sütununa yazılır
+Tüzel Kişi;*;Faaliyet Belgesi;6;
+Tüzel Kişi;*;Gerçek Faydalanıcı Beyanı;12;
+Tüzel Kişi;*;Yetkili Kimlik Belgeleri;;
+*;Kredi;Gelir veya Mali Durum Belgesi;12;
+*;Kredi;Kredi Genel Sözleşmesi;;
+*;Yatırım;Yatırımcı Bilgi Formu;24;

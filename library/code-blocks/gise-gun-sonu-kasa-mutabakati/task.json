@@ -1,0 +1,16 @@
+{
+  "id": "gise-gun-sonu-kasa-mutabakati",
+  "tur": "kod",
+  "ad": "Gişe Gün Sonu Kasa Mutabakatı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --sayim sayim.xlsx --sistem sistem.xlsx --islemler islemler.xlsx",
+  "girdiler": [
+    "Sayım (.xlsx/.csv): Gişe, Para Birimi, Kupür, Adet",
+    "Sistem: Gişe, Para Birimi, Devir Bakiyesi, Sistem Bakiyesi, Kasa Limiti",
+    "İsteğe bağlı işlemler: İşlem No, Saat, Gişe, İşlem Türü, Para Birimi, Giriş, Çıkış, Kur, Açıklama"
+  ],
+  "ciktilar": ["Excel: Mutabakat (gişe ve para birimi bazında fark), Kupür Dökümü, Araştırma Listesi (aday işlemler), Uyarılar"],
+  "internet": false
+}

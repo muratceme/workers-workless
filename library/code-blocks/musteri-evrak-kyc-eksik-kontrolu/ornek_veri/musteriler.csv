@@ -1,0 +1,20 @@
+﻿Müşteri No;Ad / Unvan;Müşteri Tipi;Ürünler;Risk Sınıfı;Şube;Portföy Yöneticisi
+M10501;A. Yılmaz;Gerçek Kişi;Vadesiz, Kredi Kartı;Düşük;Merkez;PY-01
+M10502;M. Kaya;Gerçek Kişi;Vadesiz, Kredi Kartı, Kredi;Orta;Merkez;PY-02
+M10503;S. Demir;Gerçek Kişi;Vadesiz, Kredi;Düşük;Merkez;PY-01
+M10504;E. Tekin;Gerçek Kişi;Vadesiz, Yatırım;Düşük;Merkez;PY-02
+M10505;Z. Arslan;Gerçek Kişi;Vadesiz, Kredi;Yüksek;Sanayi;PY-03
+M10506;H. Çelik;Gerçek Kişi;Vadesiz, Yatırım;Düşük;Sanayi;PY-03
+M10507;B. Öztürk;Gerçek Kişi;Vadesiz, Yatırım, Kredi Kartı;Orta;Sanayi;PY-03
+M10508;C. Şahin;Gerçek Kişi;Vadesiz, Yatırım;Orta;Sanayi;PY-03
+M10509;D. Aydın;Gerçek Kişi;Vadesiz, Kredi;Orta;Merkez;PY-01
+M10510;Örnek Kırtasiye (K. Polat);Şahıs İşletmesi;Vadesiz, Yatırım;Düşük;Sanayi;PY-03
+M10511;Deneme Oto Yıkama (R. Acar);Şahıs İşletmesi;Vadesiz, Kredi, Kredi Kartı;Düşük;Sanayi;PY-03
+M10512;Numune Terzi (N. Güneş);Şahıs İşletmesi;Vadesiz, Kredi, Kredi Kartı;Düşük;Merkez;PY-02
+M10513;Örnek İnşaat A.Ş.;Tüzel Kişi;Vadesiz;Düşük;Sanayi;PY-03
+M10514;Deneme Gıda Ltd. Şti.;Tüzel Kişi;Vadesiz, Yatırım;Yüksek;Sanayi;PY-03
+M10515;Numune Tekstil A.Ş.;Tüzel Kişi;Vadesiz, Kredi Kartı;Düşük;Merkez;PY-01
+M10516;Misal Lojistik Ltd. Şti.;Tüzel Kişi;Vadesiz, Kredi Kartı;Düşük;Merkez;PY-02
+M10517;Atölye Mobilya Ltd. Şti.;Tüzel Kişi;Vadesiz;Yüksek;Sanayi;PY-03
+M10518;Örnek Yazılım A.Ş.;Tüzel Kişi;Vadesiz;Düşük;Sanayi;PY-03
+M10519;Örnek Derneği;Dernek;Vadesiz;Orta;Merkez;PY-01

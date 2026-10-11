@@ -1,0 +1,16 @@
+{
+  "id": "musteri-evrak-kyc-eksik-kontrolu",
+  "tur": "kod",
+  "ad": "Müşteri Evrak (KYC) Eksik Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --musteriler musteriler.xlsx --belgeler belgeler.xlsx --kurallar kurallar.xlsx",
+  "girdiler": [
+    "Müşteriler (.xlsx/.csv): Müşteri No, Ad / Unvan, Müşteri Tipi, Ürünler, Risk Sınıfı, Şube, Portföy Yöneticisi",
+    "Belgeler: Müşteri No, Belge, Belge Tarihi, Geçerlilik Bitiş",
+    "Kurallar: Müşteri Tipi, Ürün, Belge, Geçerlilik (ay), Açıklama"
+  ],
+  "ciktilar": ["Excel: Eksik Listesi (eksik / süresi dolmuş / yaklaşan), Müşteri Özeti, Belge Özeti, Şube Özeti, Uyarılar"],
+  "internet": false
+}

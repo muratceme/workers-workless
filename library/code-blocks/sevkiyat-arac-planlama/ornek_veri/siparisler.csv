@@ -1,0 +1,36 @@
+﻿Sipariş No;Müşteri;Teslim Bölgesi;Teslim Tarihi;Palet;Ağırlık (kg);Hacim (m3)
+SP-2601;Deneme Gıda Toptan Ankara;Ankara;13.10.2026;2;1040;2,4
+SP-2602;Atölye Ev Tekstili Ankara;Ankara;14.10.2026;1;420;1,2
+SP-2603;Deneme Gıda Toptan Ankara;Ankara;12.10.2026;1;520;2,1
+SP-2604;Örnek Yapı Market Ankara;Ankara;12.10.2026;1;650;2,1
+SP-2605;Deneme Züccaciye Ankara;Ankara;14.10.2026;1;350;1,2
+SP-2606;Misal Kırtasiye Ankara;Ankara;12.10.2026;2;560;3,0
+SP-2607;Misal Kırtasiye Ankara;Ankara;13.10.2026;2;1300;2,4
+SP-2608;Atölye Ev Tekstili Ankara;Ankara;14.10.2026;12;4200;14,4
+SP-2609;Örnek Yapı Market Ankara;Ankara;13.10.2026;1;650;1,2
+SP-2610;Örnek Hırdavat İzmir;İzmir;14.10.2026;2;1040;4,2
+SP-2611;Misal Kırtasiye İzmir;İzmir;13.10.2026;10;5200;18,0
+SP-2612;Deneme Gıda Toptan İzmir;İzmir;12.10.2026;2;1560;3,0
+SP-2613;Örnek Hırdavat İzmir;İzmir;14.10.2026;3;1950;6,3
+SP-2614;Deneme Gıda Toptan İzmir;İzmir;13.10.2026;3;1950;3,6
+SP-2615;Numune Mobilya İzmir;İzmir;14.10.2026;5;1750;9,0
+SP-2616;Örnek Hırdavat İzmir;İzmir;13.10.2026;5;1400;6,0
+SP-2617;Numune Elektrik İzmir;İzmir;13.10.2026;4;2600;8,4
+SP-2618;Deneme Gıda Toptan İzmir;İzmir;12.10.2026;1;420;2,1
+SP-2619;Misal Kırtasiye İzmir;İzmir;12.10.2026;3;2340;6,3
+SP-2620;Numune Elektrik Bursa;Bursa;13.10.2026;12;5040;14,4
+SP-2621;Numune Elektrik Bursa;Bursa;13.10.2026;2;1300;2,4
+SP-2622;Atölye Ev Tekstili Bursa;Bursa;12.10.2026;2;840;3,0
+SP-2623;Numune Mobilya Bursa;Bursa;13.10.2026;5;2600;6,0
+SP-2624;Numune Mobilya Bursa;Bursa;13.10.2026;5;3250;9,0
+SP-2625;Örnek Hırdavat Bursa;Bursa;13.10.2026;8;3360;16,8
+SP-2626;Numune Mobilya Bursa;Bursa;13.10.2026;2;700;2,4
+SP-2627;Örnek Yapı Market Bursa;Bursa;12.10.2026;2;1560;3,0
+SP-2628;Misal Kırtasiye Antalya;Antalya;13.10.2026;10;3500;18,0
+SP-2629;Örnek Hırdavat Antalya;Antalya;12.10.2026;2;1040;3,6
+SP-2630;Numune Elektrik Antalya;Antalya;12.10.2026;8;5200;9,6
+SP-2631;Deneme Züccaciye Antalya;Antalya;14.10.2026;5;2600;10,5
+SP-2632;Örnek Yapı Market Antalya;Antalya;12.10.2026;6;4680;12,6
+SP-2633;Numune Mobilya Antalya;Antalya;12.10.2026;1;350;2,1
+SP-2640;Örnek Yapı Market İzmir;İzmir;13.10.2026;40;26000;72,0
+SP-2641;Deneme Gıda Toptan Ankara;Ankara;;4;1800;6,0

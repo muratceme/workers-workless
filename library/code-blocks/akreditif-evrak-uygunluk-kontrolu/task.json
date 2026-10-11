@@ -1,0 +1,16 @@
+{
+  "id": "akreditif-evrak-uygunluk-kontrolu",
+  "tur": "kod",
+  "ad": "Akreditif Evrak Uygunluk Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --akreditif akreditif.csv --istenen istenen_evraklar.csv --evraklar evraklar.csv --ibraz 02.11.2026",
+  "girdiler": [
+    "Akreditif (.csv/.xlsx, Alan;Değer): Para Birimi, Tutar, Vade, Son Yükleme Tarihi, İbraz Süresi, Lehtar, Amir, Mal Tanımı, Miktar, toleranslar, limanlar",
+    "İstenen evraklar: Evrak, Asıl, Kopya, Şart",
+    "Hazırlanan evraklardaki bilgiler: Evrak, Alan, Değer"
+  ],
+  "ciktilar": ["Excel: Özet (en geç ibraz günü, kalan gün), Rezervler (UCP 600 maddesiyle), Evrak Listesi, Çapraz Kontrol"],
+  "internet": false
+}

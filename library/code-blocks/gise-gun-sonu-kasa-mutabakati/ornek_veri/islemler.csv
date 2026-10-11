@@ -1,0 +1,46 @@
+﻿İşlem No;Saat;Gişe;İşlem Türü;Para Birimi;Giriş;Çıkış;Kur;Açıklama
+F26101;09:28;G1;Havale ödemesi;TL;;3.500,00;;E. T.
+F26102;10:11;G1;Havale ödemesi;TL;;10.000,00;;S. D.
+F26103;11:06;G1;Hesaba yatırma;TL;750,00;;;A. Y.
+F26137;11:20;G1;Döviz satış;USD;;300,00;40,50;A. Y.
+F26138;11:20;G1;Döviz satış (TL karşılığı);TL;12.150,00;;40,50;A. Y.
+F26104;12:38;G1;Havale ödemesi;TL;;10.000,00;;S. D.
+F26105;13:39;G1;Kredi kartı ödemesi;TL;750,00;;;A. Y.
+F26106;14:02;G1;Hesaba yatırma;TL;4.800,00;;;A. Y.
+F26139;14:05;G1;Döviz hesabına yatırma;EUR;2.500,00;;;M. K.
+F26107;15:49;G1;Fatura tahsilatı;TL;4.800,00;;;E. T.
+F26108;16:33;G1;Fatura tahsilatı;TL;3.000,00;;;A. Y.
+F26109;17:42;G1;Kredi kartı ödemesi;TL;2.350,00;;;B. Ö.
+F26110;09:35;G2;Hesaptan çekme;TL;;10.000,00;;Z. A.
+F26111;10:20;G2;Havale ödemesi;TL;;500,00;;M. K.
+F26112;11:36;G2;Havale ödemesi;TL;;500,00;;Z. A.
+F26113;12:24;G2;Hesaba yatırma;TL;12.000,00;;;A. Y.
+F26114;13:13;G2;Hesaba yatırma;TL;3.000,00;;;B. Ö.
+F26140;13:40;G2;Hesaba yatırma;TL;5.400,00;;;S. D.
+F26115;14:45;G2;Hesaba yatırma;TL;4.800,00;;;E. T.
+F26141;15:10;G2;Döviz hesabından çekme;USD;;1.200,00;;E. T.
+F26116;15:49;G2;Havale ödemesi;TL;;500,00;;Z. A.
+F26117;16:21;G2;Fatura tahsilatı;TL;12.000,00;;;M. K.
+F26118;17:08;G2;Hesaba yatırma;TL;750,00;;;A. Y.
+F26119;09:29;G3;Hesaptan çekme;TL;;10.000,00;;E. T.
+F26142;10:15;G3;Hesaptan çekme;TL;;1.000,00;;Z. A.
+F26120;10:28;G3;Kredi kartı ödemesi;TL;12.000,00;;;S. D.
+F26121;11:26;G3;Hesaptan çekme;TL;;3.500,00;;B. Ö.
+F26122;12:13;G3;Kredi kartı ödemesi;TL;2.350,00;;;A. Y.
+F26123;13:13;G3;Kredi kartı ödemesi;TL;6.500,00;;;M. K.
+F26124;14:02;G3;Hesaptan çekme;TL;;3.500,00;;Z. A.
+F26125;15:00;G3;Havale ödemesi;TL;;2.000,00;;B. Ö.
+F26143;16:00;G3;Döviz hesabına yatırma;EUR;800,00;;;H. Ç.
+F26126;16:04;G3;Hesaba yatırma;TL;4.800,00;;;E. T.
+F26127;17:00;G3;Havale ödemesi;TL;;7.000,00;;C. Ş.
+F26128;09:08;G4;Havale ödemesi;TL;;7.000,00;;S. D.
+F26129;10:55;G4;Kredi kartı ödemesi;TL;1.200,00;;;Z. A.
+F26130;11:58;G4;Kredi kartı ödemesi;TL;1.200,00;;;E. T.
+F26131;12:10;G4;Hesaptan çekme;TL;;10.000,00;;B. Ö.
+F26144;12:30;G4;Döviz satış;USD;;1.000,00;40,50;B. Ö.
+F26145;12:30;G4;Döviz satış (TL karşılığı);TL;40.500,00;;40,50;B. Ö.
+F26132;13:56;G4;Hesaba yatırma;TL;3.000,00;;;A. Y.
+F26133;14:06;G4;Kredi kartı ödemesi;TL;2.350,00;;;E. T.
+F26134;15:47;G4;Havale ödemesi;TL;;3.500,00;;C. Ş.
+F26135;16:18;G4;Kredi kartı ödemesi;TL;750,00;;;S. D.
+F26136;17:14;G4;Kredi kartı ödemesi;TL;12.000,00;;;M. K.

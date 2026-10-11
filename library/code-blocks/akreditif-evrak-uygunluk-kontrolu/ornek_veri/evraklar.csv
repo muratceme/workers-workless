@@ -1,0 +1,36 @@
+Evrak;Alan;Değer
+Ticari Fatura;Tarih;09.10.2026
+Ticari Fatura;Asıl Adet;3
+Ticari Fatura;Kopya Adet;3
+Ticari Fatura;Düzenleyen;Örnek Tekstil Dış Ticaret A.Ş., Mersin
+Ticari Fatura;Alıcı;Sample Fashion Trading GmbH, Hamburg
+Ticari Fatura;Para Birimi;USD
+Ticari Fatura;Tutar;84.000,00
+Ticari Fatura;Miktar;24000
+Ticari Fatura;Mal Tanımı;24000 PCS COTTON KNITTED T-SHIRTS AS PER PROFORMA INVOICE NO PF-2026-118
+Ticari Fatura;Teslim Şekli;CIF Hamburg
+Ticari Fatura;Koli;480
+Konşimento;Tarih;12.10.2026
+Konşimento;Yükleme Tarihi;12.10.2026
+Konşimento;Yükleme Kaydı;Shipped on board
+Konşimento;Asıl Adet;2
+Konşimento;Kopya Adet;3
+Konşimento;Yükleme Limanı;Mersin
+Konşimento;Boşaltma Limanı;Hamburg
+Konşimento;Şerh;Yok
+Konşimento;Koli;480
+Konşimento;Brüt Ağırlık;5.280
+Sigorta Poliçesi;Tarih;13.10.2026
+Sigorta Poliçesi;Asıl Adet;2
+Sigorta Poliçesi;Para Birimi;USD
+Sigorta Poliçesi;Sigorta Tutarı;88.200,00
+Çeki Listesi;Tarih;09.10.2026
+Çeki Listesi;Asıl Adet;3
+Çeki Listesi;Koli;480
+Çeki Listesi;Brüt Ağırlık;5.340
+Çeki Listesi;Net Ağırlık;4.800
+Çeki Listesi;Miktar;24000
+Menşe Şahadetnamesi;Tarih;12.10.2026
+Menşe Şahadetnamesi;Asıl Adet;1
+Menşe Şahadetnamesi;Kopya Adet;2
+Menşe Şahadetnamesi;Menşe Ülke;Türkiye

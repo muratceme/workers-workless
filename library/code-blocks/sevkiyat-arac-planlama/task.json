@@ -1,0 +1,15 @@
+{
+  "id": "sevkiyat-arac-planlama",
+  "tur": "kod",
+  "ad": "Sevkiyat Araç Planlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --siparisler siparisler.xlsx --araclar araclar.xlsx",
+  "girdiler": [
+    "Siparişler (.xlsx/.csv): Sipariş No, Müşteri, Teslim Bölgesi, Teslim Tarihi, Palet, Ağırlık (kg), Hacim (m3)",
+    "Araçlar: Araç Tipi, Palet Kapasitesi, Ağırlık Kapasitesi (kg), Hacim Kapasitesi (m3), Sefer Maliyeti, Mevcut Adet"
+  ],
+  "ciktilar": ["Excel: Araç Planı (doluluk, sınırlayan boyut, maliyet), Yükleme Listesi, Özet, Uyarılar"],
+  "internet": false
+}
