@@ -1,0 +1,11 @@
+Poliçe No;Müşteri;Telefon;E-posta;Branş;Sigorta Şirketi;Konu;Bitiş Tarihi;Prim;Müşteri Temsilcisi;İletişim İzni;Yenilendi
+Y-01;Ayşe Örnek;0500 000 00 01;ayse@ornek.example;Kasko;Kurgu Sigorta;34 ABC 001;05.10.2026;28.000,00;Zeynep T.;Evet;
+Y-02;Ayşe Örnek;0500 000 00 01;ayse@ornek.example;Trafik;Kurgu Sigorta;34 ABC 001;05.10.2026;9.500,00;Zeynep T.;Evet;
+Y-03;Mehmet Deneme;0500 000 00 02;;Konut;Hayali Sigorta;Çınar Mahallesi daire;20.10.2026;4.200,00;Zeynep T.;Hayır;
+Y-04;Deneme Plastik San. A.Ş.;0500 000 00 03;muhasebe@denemeplastik.example;Yangın;Kurgu Sigorta;Fabrika binası;28.09.2026;185.000,00;Ali K.;Evet;
+Y-05;Kurgu Mobilya Ltd. Şti.;0500 000 00 04;info@kurgumobilya.example;İşyeri;Hayali Sigorta;Mağaza;31.10.2026;22.000,00;Ali K.;Evet;
+Y-06;Sahte Tekstil A.Ş.;0500 000 00 05;finans@sahtetekstil.example;Nakliyat;Uydurma Sigorta;Emtia abonman;01.11.2026;60.000,00;Ali K.;Evet;
+Y-07;Zeynep Kurgu;0500 000 00 06;zeynep@kurgu.example;Sağlık;Uydurma Sigorta;;01.10.2026;35.000,00;Zeynep T.;Evet;
+Y-08;Ali Sahte;0500 000 00 07;;Kasko;Kurgu Sigorta;06 XYZ 002;10.09.2026;19.000,00;Zeynep T.;Evet;
+Y-09;Veli Uydurma;0500 000 00 08;;Konut;Hayali Sigorta;;12.10.2026;1.100,00;Zeynep T.;Evet;Evet
+Y-10;Hayali Lojistik A.Ş.;0500 000 00 09;;Kasko;Kurgu Sigorta;34 LJ 010;Ekim sonu;41.000,00;Ali K.;Evet;

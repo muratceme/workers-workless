@@ -1,0 +1,15 @@
+{
+  "id": "vardiya-uretim-raporu",
+  "tur": "kod",
+  "ad": "Vardiya Üretim Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --uretim uretim.xlsx --duruslar duruslar.xlsx --tarih 05.10.2026",
+  "girdiler": [
+    "Üretim (.xlsx/.csv): Tarih, Vardiya, Hat, Ürün, Hedef Adet, Üretilen Adet, Fire Adet, Planlı Süre (dk)",
+    "İsteğe bağlı duruşlar: Tarih, Vardiya, Hat, Duruş Nedeni, Tür (Planlı / Plansız), Süre (dk)"
+  ],
+  "ciktilar": ["Excel: Vardiya Özeti, Hat Bazında, Duruş Nedenleri, Vardiya Duruşları, Uyarılar", "Metin: vardiya raporu (vardiya_raporu.txt)"],
+  "internet": false
+}

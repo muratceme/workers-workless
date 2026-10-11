@@ -1,0 +1,12 @@
+{
+  "id": "musteri-hasar-dosyasi-takibi",
+  "tur": "kod",
+  "ad": "Müşteri Hasar Dosyası Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --dosyalar hasar_dosyalari.xlsx --tarih 01.10.2026",
+  "girdiler": ["Hasar dosyaları (.xlsx/.csv): Dosya No, Müşteri, Telefon, Branş, Sigorta Şirketi, Şirket Dosya No, Eksper, Hasar Tarihi, İhbar Tarihi, Aşama, Son İşlem Tarihi, Tahmini Tutar, Bekleyen Evraklar"],
+  "ciktilar": ["Excel: Açık Dosyalar, Şirket Bazında, Eksper Bazında, Bekleyen Evraklar, Uyarılar", "Metin: müşteri bazında evrak hatırlatma listesi (evrak_hatirlatma.txt)"],
+  "internet": false
+}

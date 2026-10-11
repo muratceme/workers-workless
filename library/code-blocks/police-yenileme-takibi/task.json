@@ -1,0 +1,12 @@
+{
+  "id": "police-yenileme-takibi",
+  "tur": "kod",
+  "ad": "Poliçe Yenileme Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --policeler policeler.xlsx --tarih 01.10.2026 --gun 30",
+  "girdiler": ["Poliçeler (.xlsx/.csv): Poliçe No, Müşteri, Telefon, E-posta, Branş, Sigorta Şirketi, Konu, Bitiş Tarihi, Prim, Müşteri Temsilcisi, İletişim İzni, Yenilendi"],
+  "ciktilar": ["Excel: Yenileme Listesi, Mesajlar, Temsilci Özeti, Uyarılar", "Metin: müşteri başına hatırlatma mesajı taslakları (yenileme_mesajlari.txt)"],
+  "internet": false
+}

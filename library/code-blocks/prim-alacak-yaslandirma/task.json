@@ -1,0 +1,12 @@
+{
+  "id": "prim-alacak-yaslandirma",
+  "tur": "kod",
+  "ad": "Prim Alacak Yaşlandırma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --taksitler prim_taksitleri.xlsx --tarih 01.10.2026",
+  "girdiler": ["Prim taksitleri (.xlsx/.csv): Poliçe No, Acente, Sigortalı, Branş, Taksit No, Vade Tarihi, Taksit Tutarı, Tahsil Edilen"],
+  "ciktilar": ["Excel: Yaşlandırma, Acente Bazında, Branş Bazında, Poliçe Bazında, Takip Listesi, Açık Taksitler, Uyarılar"],
+  "internet": false
+}

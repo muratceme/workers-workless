@@ -1,0 +1,15 @@
+Poliçe No;Acente;Sigortalı;Branş;Taksit No;Vade Tarihi;Taksit Tutarı;Tahsil Edilen
+P-1;Örnek Acente A;Deneme Plastik San. A.Ş.;Yangın;1;01.07.2026;50.000,00;50.000,00
+P-1;Örnek Acente A;Deneme Plastik San. A.Ş.;Yangın;2;01.08.2026;50.000,00;50.000,00
+P-1;Örnek Acente A;Deneme Plastik San. A.Ş.;Yangın;3;01.09.2026;50.000,00;20.000,00
+P-1;Örnek Acente A;Deneme Plastik San. A.Ş.;Yangın;4;01.11.2026;50.000,00;
+P-2;Örnek Acente A;Kurgu Mobilya Ltd. Şti.;Yangın;1;15.06.2026;30.000,00;
+P-2;Örnek Acente A;Kurgu Mobilya Ltd. Şti.;Yangın;2;15.07.2026;30.000,00;
+P-2;Örnek Acente A;Kurgu Mobilya Ltd. Şti.;Yangın;3;15.08.2026;30.000,00;
+P-3;Örnek Acente B;Sahte Tekstil A.Ş.;Nakliyat;1;25.09.2026;80.000,00;
+P-3;Örnek Acente B;Sahte Tekstil A.Ş.;Nakliyat;2;25.10.2026;80.000,00;
+P-4;Örnek Acente B;Uydurma Gıda Paz. Ltd.;Kasko;1;01.08.2026;12.000,00;12.000,00
+P-4;Örnek Acente B;Uydurma Gıda Paz. Ltd.;Kasko;2;01.09.2026;12.000,00;
+P-5;Örnek Acente C;Hayali Lojistik A.Ş.;Kasko;1;31.08.2026;40.000,00;10.000,00
+P-6;Örnek Acente C;Örnek Otomotiv Yan San.;Yangın;1;01.10.2026;100.000,00;
+P-7;Örnek Acente C;Yeni Müşteri A.Ş.;Yangın;1;01.06.2026;20.000,00;25.000,00

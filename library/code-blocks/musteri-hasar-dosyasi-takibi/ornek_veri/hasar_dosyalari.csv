@@ -1,0 +1,9 @@
+Dosya No;Müşteri;Telefon;Branş;Sigorta Şirketi;Şirket Dosya No;Eksper;Hasar Tarihi;İhbar Tarihi;Aşama;Son İşlem Tarihi;Tahmini Tutar;Bekleyen Evraklar
+D-01;Ayşe Örnek;0500 000 00 01;Kasko;Kurgu Sigorta;KS-1001;Eksper A;20.09.2026;21.09.2026;Evrak bekleniyor;24.09.2026;45.000,00;Ruhsat fotokopisi|Kaza tespit tutanağı
+D-02;Mehmet Deneme;0500 000 00 02;Konut;Hayali Sigorta;HS-7001;Eksper B;01.09.2026;02.09.2026;Eksper incelemesinde;10.09.2026;120.000,00;
+D-03;Deneme Plastik San. A.Ş.;0500 000 00 03;Yangın;Kurgu Sigorta;KS-1002;Eksper A;01.08.2026;02.08.2026;Şirket incelemesinde;25.09.2026;900.000,00;
+D-04;Kurgu Mobilya Ltd. Şti.;0500 000 00 04;İşyeri;Hayali Sigorta;HS-7002;;25.09.2026;26.09.2026;İhbar yapıldı;26.09.2026;30.000,00;
+D-05;Sahte Tekstil A.Ş.;0500 000 00 05;Nakliyat;Uydurma Sigorta;US-3001;Eksper C;10.08.2026;12.08.2026;Ödeme bekleniyor;20.09.2026;75.000,00;
+D-06;Zeynep Kurgu;0500 000 00 06;Kasko;Kurgu Sigorta;KS-1003;Eksper A;15.07.2026;16.07.2026;Kapandı;20.08.2026;18.000,00;
+D-07;Ali Sahte;0500 000 00 07;Kasko;Uydurma Sigorta;US-3002;Eksper B;18.09.2026;19.09.2026;Evrak bekleniyor;19.09.2026;22.000,00;Ehliyet fotokopisi
+D-08;Veli Uydurma;0500 000 00 08;Sağlık;Hayali Sigorta;;;28.09.2026;;Evrak bekleniyor;29.09.2026;;Fatura aslı|Epikriz

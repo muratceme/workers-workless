@@ -1,0 +1,9 @@
+Tarih;Vardiya;Hat;Duruş Nedeni;Tür;Süre (dk)
+05.10.2026;1;Hat 1;Kalıp değişimi;Planlı;30
+05.10.2026;1;Hat 1;Malzeme bekleme;Plansız;15
+05.10.2026;2;Hat 1;Arıza - enjeksiyon ünitesi;Plansız;75
+05.10.2026;2;Hat 1;Ayar;Plansız;20
+05.10.2026;2;Hat 2;Malzeme bekleme;Plansız;10
+05.10.2026;3;Hat 2;Arıza - robot;Plansız;150
+05.10.2026;3;Hat 2;Mola;Planlı;30
+05.10.2026;3;Hat 1;Mola;Planlı;30

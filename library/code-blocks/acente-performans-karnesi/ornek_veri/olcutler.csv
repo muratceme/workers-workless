@@ -1,0 +1,6 @@
+Gösterge;Ağırlık;Sıfır Puan;Tam Puan;Açıklama
+Hedef gerçekleşme %;25;50;100;Hedefin yarısı ve altı 0 puan, hedef ve üstü 100 puan
+Büyüme %;15;0;50;Büyüme yoksa 0 puan, yüzde 50 ve üstü 100 puan
+Hasar/prim %;25;100;40;Yüzde 100 ve üstü 0 puan, yüzde 40 ve altı 100 puan
+Tahsilat oranı %;20;70;100;Yüzde 70 ve altı 0 puan
+Yenileme oranı %;15;50;90;Yüzde 50 ve altı 0 puan, yüzde 90 ve üstü 100 puan

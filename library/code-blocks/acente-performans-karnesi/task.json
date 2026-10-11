@@ -1,0 +1,15 @@
+{
+  "id": "acente-performans-karnesi",
+  "tur": "kod",
+  "ad": "Acente Performans Karnesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --acenteler acente_verisi.xlsx --olcutler olcutler.xlsx",
+  "girdiler": [
+    "Acente verisi (.xlsx/.csv): Acente, Bölge, Üretim, Önceki Dönem Üretim, Hedef, Kazanılmış Prim, Gerçekleşen Hasar, Tahakkuk, Tahsilat, Yenilenecek Poliçe, Yenilenen Poliçe",
+    "İsteğe bağlı ölçütler: Gösterge, Ağırlık, Sıfır Puan, Tam Puan"
+  ],
+  "ciktilar": ["Excel: Karne, Gösterge Puanları, Bölge Özeti, Ölçütler, Uyarılar"],
+  "internet": false
+}

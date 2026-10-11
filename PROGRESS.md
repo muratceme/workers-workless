@@ -347,12 +347,34 @@
   yazıp bir betikle doldurmak tur başına ciddi zaman kazandırıyor (betik depo dışında, geçici klasörde). Örtük birleştirilen
   f-string'lerde `.replace(",", ".")` yalnız son parçaya uygulanır → sayıyı ayrı bir yardımcıyla biçimle. Bankacılık
   paketlerinde yasal eşikleri koda gömme: kural / eşik dosyadan veya parametreden gelsin, README "yasal ölçüm değildir" desin.
-- **Toplam 163 paket**, kontrol 163/163.
+- Devam (2026-10-11, 14. tur, 15 paket, hepsi kod bloğu): `kkb-ve-risk-merkezi-raporu-ozeti` (tabloya aktarılan limit-risk satırları;
+  nakdi / gayrinakdi, kullanım, banka payı, dönemsel değişim, gecikme / aşım / olumsuz kayıt bulguları; rapor şablonu okumaz),
+  `sektor-karsilastirmali-rasyo-analizi` (18 rasyo; sektör değerlerini kullanıcı girer, gömülü TCMB verisi yok; sapma %, tolerans,
+  çeyrek konumu, kalıp yorumlar), `teklif-talebi-bilgi-kontrolu` (kural dosyası: branş × alan × tür × seçenek × asgari × koşul;
+  acenteye eksik metni), `police-uretim-kontrolu` (teklif ↔ poliçe: teminat, bedel, prim, muafiyet, tarih, özel şart; mükerrer
+  üretim, üretilmemiş teklif), `sigorta-primi-hesaplama` (bedel × ‰ fiyat × gün/365 × zincirleme veya toplamsal indirim-sürprim;
+  asgari prim, indirim tavanı; vergi varsayılan 0), `hasar-prim-orani-analizi` (kazanılmış prim pro-rata, ödenen + muallak;
+  müşteri / acente / branş; 40-80 eşikli yenileme önerisi), `suistimal-risk-gostergeleri` (9 gösterge, puan 0-100; "gösterge
+  kanıt değildir" uyarısı her çıktıda; ayar dosyası), `rucu-potansiyeli-tespiti` (ödenen × karşı kusur %; muhatap; iç takip
+  tarihi — zamanaşımı hesabı DEĞİL), `tarife-etki-simulasyonu` (kural = alan × değer × değişim × kayıp; azami artış; hedef H/P
+  için gerekli değişim; statik as-if), `kumul-risk-kontrolu` (bölge kümülü × PML % ÷ kapasite; lokasyon kümülü; yürürlük
+  filtresi), `acente-performans-karnesi` (5 gösterge doğrusal puan, ağırlıklı karne, A-D not; eksik göstergenin ağırlığı
+  dağıtılır), `prim-alacak-yaslandirma` (taksit bazında kalan alacak, aralıklar, takip listesi), `police-yenileme-takibi`
+  (kapsam −15 / +30 gün; müşteri başına tek mesaj taslağı, şablon; iletişim izni işareti), `musteri-hasar-dosyasi-takibi`
+  (dosya yaşı, hareketsiz gün, öncelik, aşamaya göre aksiyon, evrak hatırlatma metni), `vardiya-uretim-raporu` (sağlam adet,
+  gerçekleşme, fire, kullanılabilirlik, duruş nedenleri, vardiya raporu metni; OEE değil).
+  Dersler: Git Bash `sed` ile Türkçe karakterli satır değiştirme güvenilmez → Edit aracı veya Python kullan; `main()` içinde
+  argparse değişkeni `a` iken `for a in ...` döngüsü onu ezer (acente karnesinde yakalandı) → döngü değişkenine başka ad ver;
+  kur.py artık çıktıyı UTF-8 yazıyor (cp1254 hatası giderildi). Bu turda internetten kaynak teyidi yapılmadı: TTK 1427 (45 gün),
+  halefiyet ve BSMV atıfları README'lerde genel ifadeyle ve "hukuk birimine danışın" notuyla geçiyor.
+- **Toplam 178 paket**, kontrol 178/178.
 
 ### KALDIĞIM YER
-Sıradaki (puan 3): sigorta (Teklif Talebi Bilgi Kontrolü, Poliçe Üretim Kontrolü, Sigorta Primi Hesaplama, Hasar/Prim Oranı
-Analizi, Tarife Etki Simülasyonu...), bankacılıktan kalanlar (KKB ve Risk Merkezi Raporu Özeti, Sektör Karşılaştırmalı Rasyo
-Analizi, Şüpheli İşlem Bildirim Taslağı — agent), sonra üretim ve tekstil. Epikriz, ÖSS ve SGK fatura ön kontrolü (puan 5) sonda.
+Sıradaki (puan 3): üretim (Fire ve Verim Analizi, Kapasite Darboğaz Analizi, Ölçüm Verisi Uygunluk Kontrolü, MTBF ve MTTR
+Analizi, Zaman Etüdü ve Standart Süre, Hat Dengeleme, Test Sonuçları Spesifikasyon Karşılaştırması), tekstil (Numune Ölçü
+Kontrolü, Kesim Föyü ve Fire Raporu, Fason Hakediş Hesaplama, Final Kontrol Raporu, Denetim Bulgu ve DF Takibi, Karbon Ayak İzi),
+sonra perakende / e-ticaret. Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti
+Kök Neden Analizi, Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti. Epikriz, ÖSS ve SGK fatura (puan 5) sonda.
 Kullanıcı tur boyunu 15 pakete çıkardı (15 paket → dur → /compact).
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
