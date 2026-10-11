@@ -466,7 +466,9 @@
 
   /* ------------------------------ ana sayfa ------------------------------ */
   $("#homeSectors").innerHTML = TREE.map((s, i) => sectorCard(s, i, "code")).join("");
-  $("#homeReady").innerHTML = INDEX.filter((x) => isReady(x.t)).map((x, i) => {
+  // hazır paketler: tümü yerine 6 paketlik vitrin (en az 2 agent); düğmeyle karıştırılır
+  const READY_ALL = INDEX.filter((x) => isReady(x.t));
+  const readyCard = (x, i) => {
     const c = readyOf("code", x.t), g = readyOf("agents", x.t);
     return `
     <a class="card spot ready-card" href="${href(c ? "code" : "agents", x.s.id, x.d.id, x.r.id, x.t.id)}" style="--i:${i}">
@@ -479,7 +481,17 @@
         <span class="tag accent">~${x.t.hours} sa / hafta</span>
       </div>
     </a>`;
-  }).join("");
+  };
+  function showReady() {
+    const mix = (a) => a.slice().sort(() => Math.random() - 0.5);
+    const agents = mix(READY_ALL.filter((x) => readyOf("agents", x.t))).slice(0, 2);
+    const rest = mix(READY_ALL.filter((x) => !agents.includes(x))).slice(0, 6 - agents.length);
+    $("#homeReady").innerHTML = mix([...agents, ...rest]).map(readyCard).join("");
+  }
+  showReady();
+  $("#readyCount").textContent = Object.keys(READY["code-blocks"]).length + Object.keys(READY.agents).length;
+  $("#readyShuffle").addEventListener("click", showReady);
+  $("#readySearch").addEventListener("click", () => $("#openPalette").click());
   $("#ghLink").href = repoUrl();
 
   // marquee

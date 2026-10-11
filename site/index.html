@@ -109,8 +109,12 @@
 
     <!-- Ready packages -->
     <section class="section" id="ready">
-      <h2 class="section-title reveal">İlk paketler hazır. <span class="muted">İndir, örnek veriyle dene.</span></h2>
+      <h2 class="section-title reveal"><span id="readyCount">0</span> paket hazır. <span class="muted">İndir, örnek veriyle dene.</span></h2>
       <div class="grid grid-ready" id="homeReady"></div>
+      <div class="ready-actions">
+        <button class="btn btn-ghost" id="readyShuffle" type="button">Başka paketler göster</button>
+        <button class="btn btn-primary" id="readySearch" type="button">Tüm paketlerde ara</button>
+      </div>
     </section>
 
     <!-- How -->
