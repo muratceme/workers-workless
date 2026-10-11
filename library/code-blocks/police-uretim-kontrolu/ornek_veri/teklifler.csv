@@ -1,0 +1,15 @@
+Teklif No;Sigortalı;Teminat;Bedel;Prim;Muafiyet;Başlangıç;Bitiş;Özel Şartlar
+TK-3001;Deneme Plastik San. A.Ş.;Yangın;65.000.000,00;58.500,00;;01.11.2026;01.11.2027;Dain-i mürtehin klozu|Sprinkler çalışır durumda olacaktır
+TK-3001;Deneme Plastik San. A.Ş.;Deprem;65.000.000,00;97.500,00;%2;01.11.2026;01.11.2027;
+TK-3001;Deneme Plastik San. A.Ş.;Hırsızlık;10.000.000,00;12.000,00;;01.11.2026;01.11.2027;
+TK-3002;Kurgu Mobilya Ltd. Şti.;Yangın;20.000.000,00;30.000,00;;15.10.2026;15.10.2027;Sıcak çalışma klozu
+TK-3002;Kurgu Mobilya Ltd. Şti.;Deprem;20.000.000,00;36.000,00;%2;15.10.2026;15.10.2027;
+TK-3002;Kurgu Mobilya Ltd. Şti.;Sel ve Su Baskını;20.000.000,00;6.000,00;%2;15.10.2026;15.10.2027;
+TK-3003;Sahte Tekstil A.Ş.;Yangın;75.000.000,00;82.500,00;;01.12.2026;01.12.2027;
+TK-3003;Sahte Tekstil A.Ş.;Deprem;75.000.000,00;120.000,00;%2;01.12.2026;01.12.2027;
+TK-3003;Sahte Tekstil A.Ş.;Kâr Kaybı;15.000.000,00;22.500,00;3 gün;01.12.2026;01.12.2027;
+TK-3004;Uydurma Gıda Paz. Ltd.;Yangın;6.000.000,00;7.200,00;;05.11.2026;05.11.2027;
+TK-3004;Uydurma Gıda Paz. Ltd.;Hırsızlık;2.000.000,00;3.000,00;;05.11.2026;05.11.2027;
+TK-3005;Örnek Otomotiv Yan San.;Yangın;145.000.000,00;116.000,00;;01.01.2027;01.01.2028;
+TK-3005;Örnek Otomotiv Yan San.;Deprem;145.000.000,00;203.000,00;%2;01.01.2027;01.01.2028;
+TK-3006;Hayali Lojistik A.Ş.;Yangın;15.000.000,00;13.500,00;;10.11.2026;10.11.2027;

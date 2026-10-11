@@ -1,0 +1,7 @@
+Teminat;Risk Sınıfı;Fiyat (‰);Asgari Prim
+Yangın;A;0,60;500,00
+Yangın;B;0,90;500,00
+Yangın;C;1,50;750,00
+Deprem;*;1,50;
+Hırsızlık;*;1,20;300,00
+Sel ve Su Baskını;*;0,30;

@@ -1,0 +1,15 @@
+{
+  "id": "kumul-risk-kontrolu",
+  "tur": "kod",
+  "ad": "Kümül Risk Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --policeler policeler.xlsx --kapasiteler kapasiteler.xlsx --lokasyon-kapasite 1000000000 --tarih 01.10.2026",
+  "girdiler": [
+    "Poliçeler (.xlsx/.csv): Poliçe No, Sigortalı, Kümül Bölgesi, İl, İlçe, Adres, Adres Kodu, Deprem Bedeli, Şirket Payı %, Başlangıç, Bitiş",
+    "Kapasiteler: Kümül Bölgesi, Kapasite, PML %"
+  ],
+  "ciktilar": ["Excel: Bölge Kümülü, Lokasyon Kümülü, Poliçeler, Uyarılar"],
+  "internet": false
+}

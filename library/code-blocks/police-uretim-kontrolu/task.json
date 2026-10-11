@@ -1,0 +1,15 @@
+{
+  "id": "police-uretim-kontrolu",
+  "tur": "kod",
+  "ad": "Poliçe Üretim Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --teklifler teklifler.xlsx --policeler policeler.xlsx",
+  "girdiler": [
+    "Onaylı teklifler (.xlsx/.csv): Teklif No, Sigortalı, Teminat, Bedel, Prim, Muafiyet, Başlangıç, Bitiş, Özel Şartlar",
+    "Üretilen poliçeler: Poliçe No, Teklif No + aynı sütunlar (her satır bir teminat)"
+  ],
+  "ciktilar": ["Excel: Poliçe Özeti, Farklar, Üretilmemiş Teklifler, Uyarılar"],
+  "internet": false
+}

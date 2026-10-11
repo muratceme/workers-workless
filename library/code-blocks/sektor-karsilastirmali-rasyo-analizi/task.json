@@ -1,0 +1,15 @@
+{
+  "id": "sektor-karsilastirmali-rasyo-analizi",
+  "tur": "kod",
+  "ad": "Sektör Karşılaştırmalı Rasyo Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --firma firma_finansallari.xlsx --sektor sektor_degerleri.xlsx",
+  "girdiler": [
+    "Firma finansalları (.xlsx/.csv): ilk sütun Kalem, sonraki sütunlar dönemler",
+    "Sektör değerleri: Rasyo, Sektör Ortalaması, Alt Çeyrek, Üst Çeyrek (değerleri siz girersiniz)"
+  ],
+  "ciktilar": ["Excel: Karşılaştırma, Dönemsel Rasyolar, Yorumlar, Uyarılar"],
+  "internet": false
+}

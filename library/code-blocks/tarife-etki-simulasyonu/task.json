@@ -1,0 +1,15 @@
+{
+  "id": "tarife-etki-simulasyonu",
+  "tur": "kod",
+  "ad": "Tarife Etki Simülasyonu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --portfoy portfoy.xlsx --senaryolar senaryolar.xlsx --hedef-hp 60",
+  "girdiler": [
+    "Portföy (.xlsx/.csv): Poliçe No, Prim, Hasar + segment sütunları (Branş, Risk Sınıfı, Bölge ...)",
+    "Senaryolar: Senaryo, Alan, Değer, Değişim %, Kayıp %, Açıklama"
+  ],
+  "ciktilar": ["Excel: Senaryo Özeti, Segment Etkisi, Poliçe Etkisi, Uyarılar"],
+  "internet": false
+}

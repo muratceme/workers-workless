@@ -1,0 +1,11 @@
+Poliçe No;Müşteri;Acente;Branş;Başlangıç;Bitiş;Prim
+P-101;Deneme Plastik San. A.Ş.;Örnek Acente A;Yangın;01.10.2025;01.10.2026;200.000,00
+P-102;Deneme Plastik San. A.Ş.;Örnek Acente A;Nakliyat;01.10.2025;01.10.2026;50.000,00
+P-103;Kurgu Mobilya Ltd. Şti.;Örnek Acente A;Yangın;01.04.2026;01.04.2027;73.000,00
+P-104;Sahte Tekstil A.Ş.;Örnek Acente B;Yangın;01.01.2026;01.01.2027;146.000,00
+P-105;Sahte Tekstil A.Ş.;Örnek Acente B;Makine Kırılması;01.01.2026;01.01.2027;36.500,00
+P-106;Uydurma Gıda Paz. Ltd.;Örnek Acente B;Yangın;01.10.2025;01.10.2026;30.000,00
+P-107;Hayali Lojistik A.Ş.;Örnek Acente C;Nakliyat;01.07.2026;01.07.2027;73.000,00
+P-108;Örnek Otomotiv Yan San.;Örnek Acente C;Yangın;01.10.2025;01.10.2026;400.000,00
+P-109;Örnek Otomotiv Yan San.;Örnek Acente C;Makine Kırılması;01.10.2025;01.10.2026;80.000,00
+P-110;Yeni Müşteri A.Ş.;Örnek Acente C;Yangın;15.10.2026;15.10.2027;60.000,00

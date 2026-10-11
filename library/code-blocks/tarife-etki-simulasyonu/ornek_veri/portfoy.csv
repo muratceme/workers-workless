@@ -1,0 +1,13 @@
+Poliçe No;Branş;Risk Sınıfı;Bölge;Prim;Hasar
+PF-01;Yangın;A;Marmara;100.000,00;20.000,00
+PF-02;Yangın;A;Ege;80.000,00;0,00
+PF-03;Yangın;B;Marmara;120.000,00;90.000,00
+PF-04;Yangın;B;İç Anadolu;60.000,00;30.000,00
+PF-05;Yangın;C;Marmara;150.000,00;180.000,00
+PF-06;Yangın;C;Ege;90.000,00;110.000,00
+PF-07;Hırsızlık;A;Marmara;40.000,00;10.000,00
+PF-08;Hırsızlık;B;Ege;30.000,00;45.000,00
+PF-09;Hırsızlık;C;Marmara;50.000,00;20.000,00
+PF-10;Nakliyat;A;Marmara;70.000,00;35.000,00
+PF-11;Nakliyat;B;Ege;60.000,00;15.000,00
+PF-12;Nakliyat;C;İç Anadolu;50.000,00;40.000,00

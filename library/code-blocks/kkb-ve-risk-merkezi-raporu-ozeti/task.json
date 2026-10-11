@@ -1,0 +1,15 @@
+{
+  "id": "kkb-ve-risk-merkezi-raporu-ozeti",
+  "tur": "kod",
+  "ad": "KKB ve Risk Merkezi Raporu Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --rapor risk_raporu.xlsx --olumsuz olumsuz_kayitlar.xlsx",
+  "girdiler": [
+    "Rapor satırları (.xlsx/.csv): Dönem, Banka, Kredi Türü, Nakdi/Gayrinakdi, Limit, Risk, Gecikme Gün, Geciken Tutar",
+    "İsteğe bağlı olumsuz kayıtlar: Tür, Tarih, Tutar, Durum, Açıklama"
+  ],
+  "ciktilar": ["Excel: Özet, Banka Bazında, Tür Bazında, Dönemsel Seyir, Bulgular, Uyarılar"],
+  "internet": false
+}

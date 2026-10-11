@@ -1,0 +1,5 @@
+Senaryo;Alan;Değer;Değişim %;Kayıp %;Açıklama
+S1 C sınıfı zam;Risk Sınıfı;C;20;;C sınıfına yüzde 20 zam
+S2 Genel zam;*;;10;;Tüm portföye yüzde 10 zam
+S2 Genel zam;Risk Sınıfı;A;-5;;A sınıfına yüzde 5 indirim
+S3 C sınıfı zam ve kayıp;Risk Sınıfı;C;30;15;Yüzde 30 zam, poliçelerin yüzde 15 kadarının ayrılacağı varsayımı

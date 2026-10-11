@@ -1,0 +1,15 @@
+{
+  "id": "suistimal-risk-gostergeleri",
+  "tur": "kod",
+  "ad": "Suistimal Risk Göstergeleri",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --hasarlar hasarlar.xlsx --gostergeler gostergeler.xlsx",
+  "girdiler": [
+    "Hasarlar (.xlsx/.csv): Hasar No, Poliçe No, Sigortalı No, Sigortalı, Hasar Türü, Poliçe Başlangıç, Poliçe Bitiş, Zeyil Tarihi, Hasar Tarihi, İhbar Tarihi, Sigorta Bedeli, Talep Tutarı, Eksper Tutarı, Beyan Edilen Önceki Hasar, Resmi Tutanak",
+    "İsteğe bağlı gösterge ayarları: Kod, Puan, Eşik"
+  ],
+  "ciktilar": ["Excel: İnceleme Önceliği, Gösterge Ayrıntısı, Gösterge Özeti, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,15 @@
+Branş;Alan;Tür;Seçenekler;Asgari;Koşul;Açıklama
+*;Sigortalı;Metin;;;;Tam unvan veya ad soyad
+*;Vergi / TC Kimlik No;Metin;;10;;
+*;Risk Adresi;Metin;;20;;Mahalle, cadde veya sokak, kapı numarası
+*;İl;Metin;;;;
+*;İlçe;Metin;;;;
+*;Başlangıç Tarihi;Tarih;;;;
+*;Toplam Sigorta Bedeli;Sayı;;;;
+*;Önceki Hasar;Seçenek;Var|Yok;;;Son üç yıl
+*;Hasar Açıklaması;Metin;;10;Önceki Hasar=Var;Tarih, neden ve yaklaşık tutar
+Yangın|İşyeri;Faaliyet Konusu;Metin;;5;;Riskte fiilen yapılan iş
+Yangın|İşyeri;Yapı Tarzı;Seçenek;Betonarme|Çelik|Yığma Kagir|Ahşap|Diğer;;;
+Yangın|İşyeri;İnşa Yılı;Sayı;;1900;;
+Konut;Yapı Tarzı;Seçenek;Betonarme|Çelik|Yığma Kagir|Ahşap|Diğer;;;
+Konut;Brüt Alan (m²);Sayı;;10;;

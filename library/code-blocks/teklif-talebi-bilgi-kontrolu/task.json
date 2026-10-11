@@ -1,0 +1,15 @@
+{
+  "id": "teklif-talebi-bilgi-kontrolu",
+  "tur": "kod",
+  "ad": "Teklif Talebi Bilgi Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --talepler talepler.xlsx --kurallar kurallar.xlsx",
+  "girdiler": [
+    "Talepler (.xlsx/.csv): Talep No, Acente, Sigortalı, Branş + kurallarda adı geçen bilgi sütunları",
+    "Kurallar: Branş, Alan, Tür (Metin / Sayı / Tarih / Seçenek), Seçenekler, Asgari, Koşul, Açıklama"
+  ],
+  "ciktilar": ["Excel: Talep Özeti, Eksikler, Acente Özeti, Alan Özeti, Uyarılar", "Metin: acentelere gönderilecek eksik listesi (acente_eksik_notlari.txt)"],
+  "internet": false
+}

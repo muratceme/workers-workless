@@ -1,0 +1,10 @@
+Kod;Puan;Eşik;Açıklama
+YAKIN_BASLANGIC;20;30;Hasar, poliçe başlangıcından sonraki ilk 30 gün içinde
+YAKIN_BITIS;10;15;Hasar, poliçe bitişinden önceki son 15 gün içinde
+GEC_IHBAR;10;10;İhbar, hasardan 10 günden fazla sonra
+SIK_HASAR;20;3;Aynı sigortalının son 365 günde 3 ve üzeri hasarı
+ZEYIL_SONRASI;20;30;Teminat artırım zeylinden sonraki ilk 30 gün içinde hasar
+BEDELE_YAKIN;10;90;Talep, sigorta bedelinin en az yüzde 90 kadarı
+EKSPER_FARKI;15;30;Talep, eksper tespitinin yüzde 30 fazlasından büyük
+BEYAN_TUTARSIZ;15;;Beyan edilen önceki hasar sayısı kayıtlı olandan az
+TUTANAK_YOK;10;;Resmi tutanak yok

@@ -1,0 +1,12 @@
+Hasar No;Poliçe No;Sigortalı;Branş;Hasar Tarihi;Ödeme Tarihi;Ödenen Tazminat;Karşı Taraf;Karşı Taraf Kusur %;Karşı Taraf Sigortacısı;Karşı Poliçe No;Tahsil Edilen Rücu
+H-301;P-11;Deneme Ticaret Ltd.;Kasko;10.03.2026;05.04.2026;120.000,00;Ahmet Örnek;100;Kurgu Sigorta;KS-556677;
+H-302;P-12;Kurgu Market A.Ş.;Kasko;15.05.2026;10.06.2026;80.000,00;Deneme Lojistik Ltd.;75;;;
+H-303;P-13;Sahte Tekstil A.Ş.;Yangın;20.11.2024;15.01.2025;900.000,00;Sahte Atölye (komşu işyeri);100;Hayali Sigorta;HS-102030;
+H-304;P-14;Uydurma Gıda Ltd.;Kasko;02.08.2024;01.09.2024;45.000,00;Mehmet Deneme;50;Kurgu Sigorta;KS-112233;
+H-305;P-15;Hayali Elektronik Ltd.;Nakliyat;12.06.2026;20.07.2026;300.000,00;Uydurma Taşımacılık A.Ş.;;;;
+H-306;P-16;Örnek İnşaat A.Ş.;Kasko;01.07.2026;25.07.2026;30.000,00;;100;;;
+H-307;P-17;Deneme Gıda San.;Kasko;03.07.2026;28.07.2026;50.000,00;Ali Kurgu;0;Kurgu Sigorta;;
+H-308;P-18;Kurgu Otomotiv Ltd.;Kasko;20.04.2026;12.05.2026;70.000,00;Veli Sahte;100;Kurgu Sigorta;KS-998877;70.000,00
+H-309;P-19;Sahte Nakliyat Ltd.;Kasko;25.04.2026;18.05.2026;40.000,00;Ayşe Uydurma;100;Hayali Sigorta;HS-405060;15.000,00
+H-310;P-20;Örnek Büro Hizmetleri;Su Baskını;05.09.2026;;0,00;Üst kat maliki;100;;;
+H-311;P-21;Deneme Plastik San. A.Ş.;Kasko;10.09.2026;25.09.2026;4.000,00;Zeynep Hayali;50;;;

@@ -1,0 +1,11 @@
+Talep No;Acente;Sigortalı;Vergi / TC Kimlik No;Branş;Risk Adresi;İl;İlçe;Faaliyet Konusu;Yapı Tarzı;İnşa Yılı;Brüt Alan (m²);Bina Bedeli;Muhteviyat Bedeli;Toplam Sigorta Bedeli;Önceki Hasar;Hasar Açıklaması;Başlangıç Tarihi;Bitiş Tarihi
+TT-5001;Örnek Acente A;Deneme Plastik San. A.Ş.;1234567890;Yangın;Organize Sanayi Bölgesi 4. Cadde No: 12;Bursa;Nilüfer;Plastik enjeksiyon üretimi;Çelik;2012;;40.000.000,00;25.000.000,00;65.000.000,00;Yok;;01.11.2026;01.11.2027
+TT-5002;Örnek Acente A;Kurgu Mobilya Ltd. Şti.;2345678901;Yangın;Sanayi Sitesi;Kayseri;Melikgazi;Mobilya imalatı;Prefabrik;;;12.000.000,00;8.000.000,00;20.000.000,00;Var;;15.10.2026;15.10.2027
+TT-5003;Örnek Acente A;Ayşe Örnek;11111111110;Konut;Çınar Mahallesi Gül Sokak No: 5 Daire: 3;İzmir;Bornova;;Betonarme;;120;3.500.000,00;900.000,00;4.400.000,00;Yok;;20.10.2026;20.10.2027
+TT-5004;Örnek Acente B;Sahte Tekstil A.Ş.;3456789012;Yangın;Atatürk Bulvarı No: 88 Kat: 2;Denizli;Merkezefendi;Dokuma;Betonarme;1998;;30.000.000,00;45.000.000,00;70.000.000,00;Var;2025 Mart elektrik kaynaklı yangın, yaklaşık 1,2 milyon TL;01.12.2026;01.12.2027
+TT-5005;Örnek Acente B;Mehmet Deneme;22222222220;Konut;Bahçe Sokak 7;Ankara;;;Betonarme;;8;2.000.000,00;;2.000.000,00;;;01.11.2026;01.11.2026
+TT-5006;Örnek Acente B;Uydurma Gıda Paz. Ltd.;456789;İşyeri;Hal Kompleksi C Blok No: 41 Yenimahalle;Ankara;Yenimahalle;Gıda toptan satış;Betonarme;2005;;;6.000.000,00;6.000.000,00;Yok;;05.11.2026;05.11.2027
+TT-5007;Örnek Acente C;Hayali Lojistik A.Ş.;5678901234;Nakliyat;Liman Caddesi No: 3 Antrepo 2;Mersin;Akdeniz;Depolama;Çelik;2018;;;;15.000.000,00;Yok;;10.11.2026;10.11.2027
+TT-5008;Örnek Acente C;Örnek Otomotiv Yan San.;6789012345;Yangın;İstasyon Mahallesi 1203. Sokak No: 9;Kocaeli;Gebze;Metal pres ve kaynak;Çelik;2009;;55.000.000,00;90.000.000,00;145.000.000,00;Yok;;01.01.2027;01.01.2028
+TT-5009;Örnek Acente C;Zeynep Kurgu;33333333330;Konut;Deniz Mahallesi Sahil Caddesi No: 14 Daire: 9;Antalya;Muratpaşa;;Yığma Kagir;;95;2.800.000,00;600.000,00;3.400.000,00;Yok;;25.10.2026;25.10.2027
+TT-5010;Örnek Acente A;Deneme Kimya San. Tic. A.Ş.;7890123456;Yangın;Kimya İhtisas OSB 7. Yol No: 21;Kocaeli;Dilovası;Boya ve solvent üretimi;Betonarme;bilinmiyor;;28.000.000,00;40.000.000,00;68.000.000,00;var;Yok;01.11.2026;01.11.2027

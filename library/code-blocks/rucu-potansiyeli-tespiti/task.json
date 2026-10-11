@@ -1,0 +1,14 @@
+{
+  "id": "rucu-potansiyeli-tespiti",
+  "tur": "kod",
+  "ad": "Rücu Potansiyeli Tespiti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --hasarlar odenen_hasarlar.xlsx --tarih 01.10.2026",
+  "girdiler": [
+    "Ödenen hasarlar (.xlsx/.csv): Hasar No, Poliçe No, Sigortalı, Branş, Hasar Tarihi, Ödeme Tarihi, Ödenen Tazminat, Karşı Taraf, Karşı Taraf Kusur %, Karşı Taraf Sigortacısı, Karşı Poliçe No, Tahsil Edilen Rücu"
+  ],
+  "ciktilar": ["Excel: Özet, Rücu Dosyaları, Muhatap Bazında, Uyarılar"],
+  "internet": false
+}
