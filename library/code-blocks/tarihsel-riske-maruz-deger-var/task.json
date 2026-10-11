@@ -1,0 +1,15 @@
+{
+  "id": "tarihsel-riske-maruz-deger-var",
+  "tur": "kod",
+  "ad": "Tarihsel Riske Maruz Değer (VaR)",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --pozisyonlar pozisyonlar.xlsx --fiyatlar fiyatlar.xlsx --guven 99 --pencere 250 --elde-tutma 10",
+  "girdiler": [
+    "Pozisyonlar (.xlsx/.csv): Enstrüman, Risk Faktörü, Piyasa Değeri (kısa pozisyon eksi), Portföy",
+    "Fiyatlar: Tarih + her risk faktörü için günlük kapanış sütunu"
+  ],
+  "ciktilar": ["Excel: Özet (VaR, ES, çeşitlendirme etkisi, geriye dönük test), Pozisyonlar (bireysel VaR, ES katkısı), Senaryolar, Geriye Dönük Test, Uyarılar"],
+  "internet": false
+}

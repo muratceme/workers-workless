@@ -1,0 +1,56 @@
+﻿Kredi No;Müşteri No;Müşteri;Şube;Ürün;Risk Bakiyesi;Geciken Tutar;En Eski Vade Tarihi
+KR880100;M20499;Müşteri 20499;Sanayi;Taşıt Kredisi;309.100,00;32.460,00;27.06.2026
+KR880101;M20501;Müşteri 20501;Sanayi;Rotatif;507.800,00;35.550,00;22.07.2026
+KR880102;M20502;Müşteri 20502;Merkez;Konut Kredisi;1.603.800,00;0,00;
+KR880103;M20503;Müşteri 20503;Organize;Konut Kredisi;2.988.500,00;0,00;
+KR880104;M20504;Müşteri 20504;Merkez;İhtiyaç Kredisi;67.400,00;2.360,00;03.08.2026
+KR880105;M20505;Müşteri 20505;Merkez;Konut Kredisi;821.300,00;0,00;
+KR880106;M20506;Müşteri 20506;Çarşı;Konut Kredisi;506.700,00;0,00;
+KR880107;M20506;Müşteri 20506;Organize;Ticari Taksitli;618.100,00;0,00;
+KR880108;M20508;Müşteri 20508;Merkez;İhtiyaç Kredisi;44.600,00;0,00;
+KR880109;M20509;Müşteri 20509;Merkez;Ticari Taksitli;769.500,00;0,00;
+KR880110;M20510;Müşteri 20510;Organize;Ticari Taksitli;1.311.800,00;0,00;
+KR880111;M20511;Müşteri 20511;Organize;Konut Kredisi;1.798.600,00;0,00;
+KR880112;M20512;Müşteri 20512;Çarşı;İhtiyaç Kredisi;114.300,00;0,00;
+KR880113;M20513;Müşteri 20513;Organize;Konut Kredisi;2.839.400,00;99.380,00;11.08.2026
+KR880114;M20513;Müşteri 20513;Organize;İhtiyaç Kredisi;117.500,00;8.220,00;27.07.2026
+KR880115;M20515;Müşteri 20515;Organize;Rotatif;593.900,00;0,00;
+KR880116;M20516;Müşteri 20516;Organize;Ticari Taksitli;340.600,00;0,00;
+KR880117;M20517;Müşteri 20517;Çarşı;Taşıt Kredisi;193.500,00;0,00;
+KR880118;M20518;Müşteri 20518;Çarşı;Rotatif;357.800,00;0,00;
+KR880119;M20519;Müşteri 20519;Organize;Ticari Taksitli;1.872.500,00;0,00;
+KR880120;M20520;Müşteri 20520;Çarşı;Rotatif;846.900,00;0,00;
+KR880121;M20520;Müşteri 20520;Merkez;Taşıt Kredisi;445.900,00;0,00;
+KR880122;M20522;Müşteri 20522;Merkez;Rotatif;302.100,00;10.570,00;03.08.2026
+KR880123;M20523;Müşteri 20523;Merkez;İhtiyaç Kredisi;149.200,00;0,00;
+KR880124;M20524;Müşteri 20524;Çarşı;İhtiyaç Kredisi;140.000,00;0,00;
+KR880125;M20525;Müşteri 20525;Merkez;Taşıt Kredisi;430.000,00;0,00;
+KR880126;M20526;Müşteri 20526;Sanayi;Ticari Taksitli;495.700,00;0,00;
+KR880127;M20527;Müşteri 20527;Organize;Konut Kredisi;3.096.300,00;0,00;
+KR880128;M20527;Müşteri 20527;Merkez;İhtiyaç Kredisi;91.500,00;0,00;
+KR880129;M20529;Müşteri 20529;Sanayi;Ticari Taksitli;957.000,00;66.990,00;22.07.2026
+KR880130;M20530;Müşteri 20530;Merkez;Rotatif;388.700,00;0,00;
+KR880131;M20531;Müşteri 20531;Organize;Rotatif;315.000,00;0,00;
+KR880132;M20532;Müşteri 20532;Organize;Konut Kredisi;2.210.700,00;0,00;
+KR880133;M20533;Müşteri 20533;Merkez;Taşıt Kredisi;349.400,00;0,00;
+KR880134;M20534;Müşteri 20534;Çarşı;Rotatif;1.025.500,00;0,00;
+KR880135;M20534;Müşteri 20534;Organize;Rotatif;468.400,00;0,00;
+KR880136;M20536;Müşteri 20536;Merkez;Konut Kredisi;919.000,00;64.330,00;18.07.2026
+KR880137;M20537;Müşteri 20537;Sanayi;Ticari Taksitli;1.669.200,00;0,00;
+KR880138;M20538;Müşteri 20538;Sanayi;Ticari Taksitli;1.847.400,00;64.660,00;13.08.2026
+KR880139;M20539;Müşteri 20539;Organize;Taşıt Kredisi;647.100,00;45.300,00;04.07.2026
+KR880141;M20541;Müşteri 20541;Organize;Ticari Taksitli;1.053.200,00;0,00;
+KR880142;M20541;Müşteri 20541;Organize;Taşıt Kredisi;310.800,00;0,00;
+KR880143;M20543;Müşteri 20543;Sanayi;Ticari Taksitli;1.839.700,00;64.390,00;13.08.2026
+KR880144;M20544;Müşteri 20544;Merkez;Taşıt Kredisi;759.700,00;0,00;
+KR880145;M20545;Müşteri 20545;Merkez;Ticari Taksitli;1.976.800,00;207.560,00;17.06.2026
+KR880146;M20546;Müşteri 20546;Merkez;Rotatif;281.100,00;29.520,00;26.06.2026
+KR880147;M20547;Müşteri 20547;Çarşı;Taşıt Kredisi;486.000,00;0,00;
+KR880148;M20548;Müşteri 20548;Organize;Taşıt Kredisi;401.400,00;0,00;
+KR880149;M20548;Müşteri 20548;Organize;Konut Kredisi;3.095.800,00;0,00;
+KR880150;M20550;Müşteri 20550;Çarşı;Taşıt Kredisi;328.300,00;0,00;
+KR880151;M20551;Müşteri 20551;Organize;Rotatif;1.126.300,00;0,00;
+KR880152;M20552;Müşteri 20552;Merkez;Ticari Taksitli;838.800,00;0,00;
+KR880153;M20553;Müşteri 20553;Çarşı;Konut Kredisi;1.434.200,00;0,00;
+KR880154;M20554;Müşteri 20554;Sanayi;İhtiyaç Kredisi;63.200,00;6.640,00;27.06.2026
+KR880155;M20555;Müşteri 20555;Merkez;Ticari Taksitli;1.709.500,00;0,00;

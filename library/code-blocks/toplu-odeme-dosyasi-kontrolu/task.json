@@ -1,0 +1,15 @@
+{
+  "id": "toplu-odeme-dosyasi-kontrolu",
+  "tur": "kod",
+  "ad": "Toplu Ödeme Dosyası Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --dosya odemeler.xlsx --beklenen-adet 120 --beklenen-toplam 4.250.000,00 --onceki gecen_ay.xlsx",
+  "girdiler": [
+    "Ödeme dosyası (.xlsx/.csv): Alıcı Adı, IBAN, Tutar, TCKN / VKN, Açıklama; isteğe bağlı TOPLAM satırı",
+    "İsteğe bağlı önceki dönem dosyası, beklenen adet ve toplam, gönderen IBAN, tek ödeme sınırı"
+  ],
+  "ciktilar": ["Excel: Özet (sonuç, toplamlar, banka dağılımı), Satır Kontrolü, Bulgular"],
+  "internet": false
+}

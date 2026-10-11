@@ -1,0 +1,16 @@
+{
+  "id": "sube-hedef-gerceklesme-panosu",
+  "tur": "kod",
+  "ad": "Şube Hedef-Gerçekleşme Panosu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --hedefler hedefler.xlsx --gerceklesmeler gerceklesmeler.xlsx --tarih 16.10.2026",
+  "girdiler": [
+    "Hedefler (.xlsx/.csv): Portföy Yöneticisi, Kalem, Hedef, Birim, Ağırlık, Ay",
+    "Gerçekleşmeler: Tarih, Portföy Yöneticisi, Kalem, Gerçekleşen",
+    "İsteğe bağlı resmî tatil listesi"
+  ],
+  "ciktilar": ["Excel: Pano (kişi × kalem, karne puanı), Detay (olması gereken, sapma, ay sonu tahmini, günlük gereken), Şube Toplamı, Uyarılar"],
+  "internet": false
+}

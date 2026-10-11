@@ -1,0 +1,15 @@
+{
+  "id": "gecikme-yaslandirma-raporu",
+  "tur": "kod",
+  "ad": "Gecikme Yaşlandırma Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --krediler krediler.xlsx --onceki onceki_donem.xlsx --tarih 30.09.2026 --onceki-tarih 31.08.2026",
+  "girdiler": [
+    "Krediler (.xlsx/.csv): Kredi No, Müşteri No, Müşteri, Şube, Ürün, Risk Bakiyesi, Geciken Tutar, En Eski Vade Tarihi veya Gecikme Gün",
+    "İsteğe bağlı önceki dönem dosyası (aynı biçim)"
+  ],
+  "ciktilar": ["Excel: Yaşlandırma (PAR30 / PAR90), Şube Bazında, Ürün Bazında, Gecikmeli Krediler, Müşteri Bazında, Geçiş Matrisi, Aralık Değiştirenler, Uyarılar"],
+  "internet": false
+}

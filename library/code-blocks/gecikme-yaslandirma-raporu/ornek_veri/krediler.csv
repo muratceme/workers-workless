@@ -1,0 +1,59 @@
+﻿Kredi No;Müşteri No;Müşteri;Şube;Ürün;Risk Bakiyesi;Geciken Tutar;En Eski Vade Tarihi
+KR880100;M20499;Müşteri 20499;Sanayi;Taşıt Kredisi;303.000,00;42.420,00;27.06.2026
+KR880101;M20501;Müşteri 20501;Sanayi;Rotatif;497.800,00;52.270,00;22.07.2026
+KR880102;M20502;Müşteri 20502;Merkez;Konut Kredisi;1.572.400,00;0,00;
+KR880103;M20503;Müşteri 20503;Organize;Konut Kredisi;2.929.900,00;0,00;
+KR880104;M20504;Müşteri 20504;Merkez;İhtiyaç Kredisi;66.100,00;4.630,00;03.08.2026
+KR880105;M20505;Müşteri 20505;Merkez;Konut Kredisi;805.200,00;0,00;
+KR880106;M20506;Müşteri 20506;Çarşı;Konut Kredisi;496.800,00;0,00;
+KR880107;M20506;Müşteri 20506;Organize;Ticari Taksitli;606.000,00;0,00;
+KR880108;M20508;Müşteri 20508;Merkez;İhtiyaç Kredisi;43.700,00;0,00;
+KR880109;M20509;Müşteri 20509;Merkez;Ticari Taksitli;754.400,00;0,00;
+KR880110;M20510;Müşteri 20510;Organize;Ticari Taksitli;1.286.100,00;0,00;
+KR880111;M20511;Müşteri 20511;Organize;Konut Kredisi;1.763.300,00;0,00;
+KR880113;M20513;Müşteri 20513;Organize;Konut Kredisi;2.783.700,00;194.860,00;11.08.2026
+KR880114;M20513;Müşteri 20513;Organize;İhtiyaç Kredisi;115.200,00;12.100,00;27.07.2026
+KR880115;M20515;Müşteri 20515;Organize;Rotatif;582.300,00;0,00;
+KR880116;M20516;Müşteri 20516;Organize;Ticari Taksitli;333.900,00;0,00;
+KR880117;M20517;Müşteri 20517;Çarşı;Taşıt Kredisi;189.700,00;0,00;
+KR880118;M20518;Müşteri 20518;Çarşı;Rotatif;350.800,00;0,00;
+KR880119;M20519;Müşteri 20519;Organize;Ticari Taksitli;1.835.800,00;0,00;
+KR880120;M20520;Müşteri 20520;Çarşı;Rotatif;830.300,00;0,00;
+KR880121;M20520;Müşteri 20520;Merkez;Taşıt Kredisi;437.200,00;0,00;
+KR880122;M20522;Müşteri 20522;Merkez;Rotatif;296.200,00;20.730,00;03.08.2026
+KR880123;M20523;Müşteri 20523;Merkez;İhtiyaç Kredisi;146.300,00;0,00;
+KR880124;M20524;Müşteri 20524;Çarşı;İhtiyaç Kredisi;137.300,00;0,00;
+KR880125;M20525;Müşteri 20525;Merkez;Taşıt Kredisi;421.600,00;0,00;
+KR880126;M20526;Müşteri 20526;Sanayi;Ticari Taksitli;486.000,00;0,00;
+KR880128;M20527;Müşteri 20527;Merkez;İhtiyaç Kredisi;89.700,00;0,00;
+KR880129;M20529;Müşteri 20529;Sanayi;Ticari Taksitli;938.200,00;0,00;
+KR880130;M20530;Müşteri 20530;Merkez;Rotatif;381.100,00;0,00;
+KR880131;M20531;Müşteri 20531;Organize;Rotatif;308.800,00;0,00;
+KR880132;M20532;Müşteri 20532;Organize;Konut Kredisi;2.167.400,00;0,00;
+KR880133;M20533;Müşteri 20533;Merkez;Taşıt Kredisi;342.500,00;0,00;
+KR880134;M20534;Müşteri 20534;Çarşı;Rotatif;1.005.400,00;0,00;
+KR880135;M20534;Müşteri 20534;Organize;Rotatif;459.200,00;0,00;
+KR880136;M20536;Müşteri 20536;Merkez;Konut Kredisi;901.000,00;0,00;
+KR880137;M20537;Müşteri 20537;Sanayi;Ticari Taksitli;1.636.500,00;0,00;
+KR880138;M20538;Müşteri 20538;Sanayi;Ticari Taksitli;1.811.200,00;126.780,00;13.08.2026
+KR880139;M20539;Müşteri 20539;Organize;Taşıt Kredisi;634.400,00;66.610,00;04.07.2026
+KR880140;M20540;Müşteri 20540;Çarşı;Konut Kredisi;2.407.800,00;505.640,00;23.04.2026
+KR880141;M20541;Müşteri 20541;Organize;Ticari Taksitli;1.032.500,00;0,00;
+KR880142;M20541;Müşteri 20541;Organize;Taşıt Kredisi;304.700,00;0,00;
+KR880143;M20543;Müşteri 20543;Sanayi;Ticari Taksitli;1.803.600,00;126.250,00;13.08.2026
+KR880144;M20544;Müşteri 20544;Merkez;Taşıt Kredisi;744.800,00;0,00;
+KR880145;M20545;Müşteri 20545;Merkez;Ticari Taksitli;1.938.000,00;271.320,00;17.06.2026
+KR880146;M20546;Müşteri 20546;Merkez;Rotatif;275.600,00;38.580,00;26.06.2026
+KR880147;M20547;Müşteri 20547;Çarşı;Taşıt Kredisi;476.500,00;0,00;
+KR880148;M20548;Müşteri 20548;Organize;Taşıt Kredisi;393.500,00;0,00;
+KR880149;M20548;Müşteri 20548;Organize;Konut Kredisi;3.035.100,00;0,00;
+KR880150;M20550;Müşteri 20550;Çarşı;Taşıt Kredisi;321.900,00;11.270,00;15.09.2026
+KR880151;M20551;Müşteri 20551;Organize;Rotatif;1.104.200,00;0,00;
+KR880152;M20552;Müşteri 20552;Merkez;Ticari Taksitli;822.400,00;0,00;
+KR880153;M20553;Müşteri 20553;Çarşı;Konut Kredisi;1.406.100,00;0,00;
+KR880154;M20554;Müşteri 20554;Sanayi;İhtiyaç Kredisi;62.000,00;8.680,00;27.06.2026
+KR880155;M20555;Müşteri 20555;Merkez;Ticari Taksitli;1.676.000,00;0,00;
+KR880156;M20555;Müşteri 20555;Çarşı;Taşıt Kredisi;754.500,00;0,00;
+KR880157;M20557;Müşteri 20557;Merkez;Konut Kredisi;1.665.000,00;58.280,00;22.09.2026
+KR880158;M20558;Müşteri 20558;Sanayi;Ticari Taksitli;1.480.000,00;51.800,00;22.09.2026
+KR880159;M20559;Müşteri 20559;Çarşı;Konut Kredisi;2.460.200,00;0,00;
