@@ -1,0 +1,6 @@
+Parça Kodu;Karakteristik;Nominal;Alt Tolerans;Üst Tolerans;Alt Limit;Üst Limit;Birim
+MIL-100;Çap D1;25,000;-0,021;0;;;mm
+MIL-100;Boy L1;80,00;-0,10;0,10;;;mm
+MIL-100;Delik d2;10,000;0;0,015;;;mm
+MIL-100;Yüzey pürüzlülüğü Ra;;;;;1,6;µm
+MIL-100;Sertlik;;;;58;;HRC

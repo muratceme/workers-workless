@@ -1,0 +1,12 @@
+{
+  "id": "fire-ve-verim-analizi",
+  "tur": "kod",
+  "ad": "Fire ve Verim Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kayitlar uretim_kayitlari.xlsx",
+  "girdiler": ["Üretim kayıtları (.xlsx/.csv): Tarih, Hat, Ürün, Hammadde Girişi (kg), Mamul Çıkışı (kg), Geri Kazanılan (kg), Birim Maliyet (TL/kg), Standart Fire %"],
+  "ciktilar": ["Excel: Özet, Ürün Bazında, Hat Bazında, Ürün-Hat, Kayıtlar, Uyarılar"],
+  "internet": false
+}

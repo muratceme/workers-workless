@@ -1,0 +1,15 @@
+{
+  "id": "olcum-verisi-uygunluk-kontrolu",
+  "tur": "kod",
+  "ad": "Ölçüm Verisi Uygunluk Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --olcumler olcumler.xlsx --toleranslar toleranslar.xlsx",
+  "girdiler": [
+    "Ölçümler (.xlsx/.csv): Parça Kodu, Numune No, Karakteristik, Ölçülen, Tarih, Operatör, Cihaz",
+    "Toleranslar: Parça Kodu, Karakteristik, Nominal, Alt Tolerans, Üst Tolerans veya Alt Limit, Üst Limit, Birim"
+  ],
+  "ciktilar": ["Excel: Parça Özeti (KABUL / RET), Karakteristik Özeti, Ölçüm Sonuçları, Uyarılar"],
+  "internet": false
+}

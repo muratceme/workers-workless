@@ -1,0 +1,15 @@
+{
+  "id": "kapasite-darbogaz-analizi",
+  "tur": "kod",
+  "ad": "Kapasite Darboğaz Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --is-emirleri is_emirleri.xlsx --kapasiteler kapasiteler.xlsx",
+  "girdiler": [
+    "İş emirleri (.xlsx/.csv): İş Emri, İş Merkezi, Hafta, Yük (saat) veya Adet + Birim Süre (dk) + Hazırlık (dk), Termin Haftası",
+    "Kapasiteler: İş Merkezi, Haftalık Kapasite (saat), Hafta (isteğe bağlı, haftaya özel kapasite)"
+  ],
+  "ciktilar": ["Excel: Yükleme Tablosu, Darboğazlar, Kaydırma Önerileri, Uyarılar"],
+  "internet": false
+}

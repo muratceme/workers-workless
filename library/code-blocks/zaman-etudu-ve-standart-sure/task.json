@@ -1,0 +1,12 @@
+{
+  "id": "zaman-etudu-ve-standart-sure",
+  "tur": "kod",
+  "ad": "Zaman Etüdü ve Standart Süre",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --gozlemler gozlemler.xlsx --tolerans 12 --vardiya-dk 450",
+  "girdiler": ["Gözlemler (.xlsx/.csv): Operasyon, Eleman, Süre (sn), Performans %, Frekans, Tolerans % (her satır bir kronometre ölçümü)"],
+  "ciktilar": ["Excel: Standart Süreler, Elemanlar, Uyarılar"],
+  "internet": false
+}

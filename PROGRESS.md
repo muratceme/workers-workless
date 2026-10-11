@@ -367,11 +367,13 @@
   argparse değişkeni `a` iken `for a in ...` döngüsü onu ezer (acente karnesinde yakalandı) → döngü değişkenine başka ad ver;
   kur.py artık çıktıyı UTF-8 yazıyor (cp1254 hatası giderildi). Bu turda internetten kaynak teyidi yapılmadı: TTK 1427 (45 gün),
   halefiyet ve BSMV atıfları README'lerde genel ifadeyle ve "hukuk birimine danışın" notuyla geçiyor.
-- **Toplam 178 paket**, kontrol 178/178.
+- Devam (2026-10-11, 15. tur — kullanım sınırı nedeniyle 6 pakette durdu, hepsi kod bloğu): `fire-ve-verim-analizi`,
+  `kapasite-darbogaz-analizi` (kaydırma önerisi sezgisel), `olcum-verisi-uygunluk-kontrolu` (nokta = ondalık, binlik yok),
+  `mtbf-ve-mttr-analizi`, `zaman-etudu-ve-standart-sure`, `hat-dengeleme` (RPW / LCT). Turun kalan 9 paketi yapılmadı.
+- **Toplam 184 paket**, kontrol 184/184.
 
 ### KALDIĞIM YER
-Sıradaki (puan 3): üretim (Fire ve Verim Analizi, Kapasite Darboğaz Analizi, Ölçüm Verisi Uygunluk Kontrolü, MTBF ve MTTR
-Analizi, Zaman Etüdü ve Standart Süre, Hat Dengeleme, Test Sonuçları Spesifikasyon Karşılaştırması), tekstil (Numune Ölçü
+Sıradaki (puan 3, 15. turun kalanı — 9 paket): Test Sonuçları Spesifikasyon Karşılaştırması, tekstil (Numune Ölçü
 Kontrolü, Kesim Föyü ve Fire Raporu, Fason Hakediş Hesaplama, Final Kontrol Raporu, Denetim Bulgu ve DF Takibi, Karbon Ayak İzi),
 sonra perakende / e-ticaret. Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti
 Kök Neden Analizi, Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti. Epikriz, ÖSS ve SGK fatura (puan 5) sonda.

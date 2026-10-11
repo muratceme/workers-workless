@@ -1,0 +1,15 @@
+{
+  "id": "mtbf-ve-mttr-analizi",
+  "tur": "kod",
+  "ad": "MTBF ve MTTR Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --arizalar ariza_kayitlari.xlsx --makineler makineler.xlsx",
+  "girdiler": [
+    "Arıza kayıtları (.xlsx/.csv): Makine, Başlangıç, Bitiş (GG.AA.YYYY SS:DD) veya Süre (dk), Arıza Tipi",
+    "İsteğe bağlı makineler: Makine, Planlı Çalışma Süresi (saat)"
+  ],
+  "ciktilar": ["Excel: Makine Bazında (MTBF, MTTR, kullanılabilirlik), Arıza Tipi Bazında, Uyarılar"],
+  "internet": false
+}

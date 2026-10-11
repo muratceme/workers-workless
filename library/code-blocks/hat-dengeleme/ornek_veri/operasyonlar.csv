@@ -1,0 +1,11 @@
+Operasyon;Açıklama;Süre (sn);Öncül
+A;Gövdeyi fikstüre yerleştir;40;
+B;Alt kapağı tak;30;A
+C;Motoru yerleştir;50;A
+D;Alt kapak vidalarını sık;40;B
+E;Etiket yapıştır;6;B
+F;Kabloları bağla;25;C
+G;Motor braketini sabitle;15;C
+H;Alt grup kontrolü;20;D, E
+I;Elektrik testi;18;F, G
+J;Üst kapağı kapat ve paketle;30;H, I

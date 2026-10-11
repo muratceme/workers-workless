@@ -1,0 +1,7 @@
+Tarih;Hat;Ürün;Hammadde Girişi (kg);Mamul Çıkışı (kg);Geri Kazanılan (kg);Birim Maliyet (TL/kg);Standart Fire %
+01.09.2026;Hat 1;Kapak A;1.000;940;20;50,00;3
+02.09.2026;Hat 1;Kapak A;1.200;1.150;14;50,00;3
+01.09.2026;Hat 2;Gövde B;2.000;1.800;50;40,00;5
+02.09.2026;Hat 2;Gövde B;2.000;1.900;20;40,00;5
+03.09.2026;Hat 2;Kapak A;800;700;20;50,00;3
+03.09.2026;Hat 1;Gövde B;500;510;0;40,00;5

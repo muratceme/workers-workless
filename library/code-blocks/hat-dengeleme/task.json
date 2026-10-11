@@ -1,0 +1,12 @@
+{
+  "id": "hat-dengeleme",
+  "tur": "kod",
+  "ad": "Hat Dengeleme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --operasyonlar operasyonlar.xlsx --cevrim 80",
+  "girdiler": ["Operasyonlar (.xlsx/.csv): Operasyon, Açıklama, Süre (sn), Öncül (virgülle ayrılmış operasyon kodları)"],
+  "ciktilar": ["Excel: Özet (istasyon sayısı, hat verimi, denge gecikmesi), İstasyonlar, Operasyonlar, Uyarılar"],
+  "internet": false
+}

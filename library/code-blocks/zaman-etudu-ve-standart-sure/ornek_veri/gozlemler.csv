@@ -1,0 +1,19 @@
+Operasyon;Eleman;Süre (sn);Performans %;Frekans
+Montaj A;Parçayı al ve yerleştir;5,0;100;1
+Montaj A;Parçayı al ve yerleştir;5,2;100;1
+Montaj A;Parçayı al ve yerleştir;4,8;100;1
+Montaj A;Parçayı al ve yerleştir;5,1;100;1
+Montaj A;Parçayı al ve yerleştir;4,9;100;1
+Montaj A;Vidala;12,0;110;1
+Montaj A;Vidala;12,5;110;1
+Montaj A;Vidala;11,5;110;1
+Montaj A;Vidala;12,2;110;1
+Montaj A;Vidala;11,8;110;1
+Montaj A;Kontrol et;4,0;90;1
+Montaj A;Kontrol et;4,2;90;1
+Montaj A;Kontrol et;3,8;90;1
+Montaj A;Kontrol et;4,1;90;1
+Montaj A;Kontrol et;3,9;90;1
+Montaj A;Kutu değiştir;20;100;1/10
+Montaj A;Kutu değiştir;22;100;1/10
+Montaj A;Kutu değiştir;18;100;1/10
