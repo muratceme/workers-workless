@@ -1,0 +1,126 @@
+﻿Tarih;Kalem;Yön;Tutar;Para Birimi;Kesinlik;Karşı Taraf
+02.10.2026;Geciken ticari kredi tahsilatı;Giriş;45.000.000,00;TL;Beklenen;Örnek İnşaat A.Ş.
+05.10.2026;Kredi kullandırımları;Çıkış;86.000.000,00;TL;Beklenen;
+05.10.2026;Kredi taksit tahsilatları;Giriş;108.000.000,00;TL;Beklenen;
+05.10.2026;Repo dönüşü;Çıkış;650.000.000,00;TL;Kesin;Bankalar arası
+05.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;238.000.000,00;TL;Beklenen;
+05.10.2026;Yeni / yenilenen mevduat;Giriş;264.000.000,00;TL;Beklenen;
+05.10.2026;Yeni repo;Giriş;600.000.000,00;TL;Beklenen;Bankalar arası
+06.10.2026;DTH vade dönüşleri;Çıkış;9.000.000,00;USD;Beklenen;
+06.10.2026;Kredi kullandırımları;Çıkış;80.000.000,00;TL;Beklenen;
+06.10.2026;Kredi taksit tahsilatları;Giriş;65.000.000,00;TL;Beklenen;
+06.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;229.000.000,00;TL;Beklenen;
+06.10.2026;Yeni / yenilenen mevduat;Giriş;350.000.000,00;TL;Beklenen;
+06.10.2026;Yeni DTH;Giriş;7.000.000,00;USD;Beklenen;
+07.10.2026;Kredi kullandırımları;Çıkış;96.000.000,00;TL;Beklenen;
+07.10.2026;Kredi taksit tahsilatları;Giriş;124.000.000,00;TL;Beklenen;
+07.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;215.000.000,00;TL;Beklenen;
+07.10.2026;Yeni / yenilenen mevduat;Giriş;233.000.000,00;TL;Beklenen;
+08.10.2026;DTH vade dönüşleri;Çıkış;8.000.000,00;USD;Beklenen;
+08.10.2026;Kredi kullandırımları;Çıkış;128.000.000,00;TL;Beklenen;
+08.10.2026;Kredi taksit tahsilatları;Giriş;63.000.000,00;TL;Beklenen;
+08.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;282.000.000,00;TL;Beklenen;
+08.10.2026;Yeni / yenilenen mevduat;Giriş;334.000.000,00;TL;Beklenen;
+08.10.2026;Yeni DTH;Giriş;7.000.000,00;USD;Beklenen;
+09.10.2026;Kredi kullandırımları;Çıkış;133.000.000,00;TL;Beklenen;
+09.10.2026;Kredi taksit tahsilatları;Giriş;109.000.000,00;TL;Beklenen;
+09.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;304.000.000,00;TL;Beklenen;
+09.10.2026;Yeni / yenilenen mevduat;Giriş;286.000.000,00;TL;Beklenen;
+09.10.2026;İhracat kredisi tahsilatı;Giriş;12.000.000,00;USD;Kesin;Deneme Tekstil A.Ş.
+10.10.2026;Kupon tahsilatı (hafta sonu);Giriş;85.000.000,00;TL;Kesin;Hazine
+12.10.2026;Kredi kullandırımları;Çıkış;81.000.000,00;TL;Beklenen;
+12.10.2026;Kredi taksit tahsilatları;Giriş;111.000.000,00;TL;Beklenen;
+12.10.2026;Repo dönüşü;Çıkış;650.000.000,00;TL;Kesin;Bankalar arası
+12.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;326.000.000,00;TL;Beklenen;
+12.10.2026;Yeni / yenilenen mevduat;Giriş;219.000.000,00;TL;Beklenen;
+12.10.2026;Yeni repo;Giriş;600.000.000,00;TL;Beklenen;Bankalar arası
+13.10.2026;DTH vade dönüşleri;Çıkış;5.000.000,00;USD;Beklenen;
+13.10.2026;Kredi kullandırımları;Çıkış;104.000.000,00;TL;Beklenen;
+13.10.2026;Kredi taksit tahsilatları;Giriş;62.000.000,00;TL;Beklenen;
+13.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;304.000.000,00;TL;Beklenen;
+13.10.2026;Yeni / yenilenen mevduat;Giriş;229.000.000,00;TL;Beklenen;
+13.10.2026;Yeni DTH;Giriş;9.000.000,00;USD;Beklenen;
+14.10.2026;Hazine bonosu itfası;Giriş;1.500.000.000,00;TL;Kesin;Hazine
+14.10.2026;Kredi kullandırımları;Çıkış;118.000.000,00;TL;Beklenen;
+14.10.2026;Kredi taksit tahsilatları;Giriş;120.000.000,00;TL;Beklenen;
+14.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;313.000.000,00;TL;Beklenen;
+14.10.2026;Yeni / yenilenen mevduat;Giriş;274.000.000,00;TL;Beklenen;
+15.10.2026;DTH vade dönüşleri;Çıkış;7.000.000,00;USD;Beklenen;
+15.10.2026;Kredi kullandırımları;Çıkış;82.000.000,00;TL;Beklenen;
+15.10.2026;Kredi taksit tahsilatları;Giriş;93.000.000,00;TL;Beklenen;
+15.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;365.000.000,00;TL;Beklenen;
+15.10.2026;Yeni / yenilenen mevduat;Giriş;199.000.000,00;TL;Beklenen;
+15.10.2026;Yeni DTH;Giriş;5.000.000,00;USD;Beklenen;
+16.10.2026;Kredi kullandırımları;Çıkış;149.000.000,00;TL;Beklenen;
+16.10.2026;Kredi taksit tahsilatları;Giriş;109.000.000,00;TL;Beklenen;
+16.10.2026;Sendikasyon kredisi geri ödemesi;Çıkış;85.000.000,00;USD;Kesin;Sendikasyon bankaları
+16.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;388.000.000,00;TL;Beklenen;
+16.10.2026;Yeni / yenilenen mevduat;Giriş;186.000.000,00;TL;Beklenen;
+19.10.2026;Kredi kullandırımları;Çıkış;77.000.000,00;TL;Beklenen;
+19.10.2026;Kredi taksit tahsilatları;Giriş;73.000.000,00;TL;Beklenen;
+19.10.2026;Repo dönüşü;Çıkış;650.000.000,00;TL;Kesin;Bankalar arası
+19.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;392.000.000,00;TL;Beklenen;
+19.10.2026;Yeni / yenilenen mevduat;Giriş;266.000.000,00;TL;Beklenen;
+19.10.2026;Yeni repo;Giriş;600.000.000,00;TL;Beklenen;Bankalar arası
+20.10.2026;DTH vade dönüşleri;Çıkış;7.000.000,00;USD;Beklenen;
+20.10.2026;Kredi kullandırımları;Çıkış;133.000.000,00;TL;Beklenen;
+20.10.2026;Kredi taksit tahsilatları;Giriş;71.000.000,00;TL;Beklenen;
+20.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;266.000.000,00;TL;Beklenen;
+20.10.2026;Yeni / yenilenen mevduat;Giriş;230.000.000,00;TL;Beklenen;
+20.10.2026;Yeni DTH;Giriş;3.000.000,00;USD;Beklenen;
+21.10.2026;Banka bonosu itfası;Çıkış;1.200.000.000,00;TL;Kesin;Yatırımcılar
+21.10.2026;Kredi kullandırımları;Çıkış;96.000.000,00;TL;Beklenen;
+21.10.2026;Kredi taksit tahsilatları;Giriş;126.000.000,00;TL;Beklenen;
+21.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;411.000.000,00;TL;Beklenen;
+21.10.2026;Yeni / yenilenen mevduat;Giriş;336.000.000,00;TL;Beklenen;
+22.10.2026;DTH vade dönüşleri;Çıkış;8.000.000,00;USD;Beklenen;
+22.10.2026;Kredi kullandırımları;Çıkış;147.000.000,00;TL;Beklenen;
+22.10.2026;Kredi taksit tahsilatları;Giriş;78.000.000,00;TL;Beklenen;
+22.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;328.000.000,00;TL;Beklenen;
+22.10.2026;Yeni / yenilenen mevduat;Giriş;376.000.000,00;TL;Beklenen;
+22.10.2026;Yeni DTH;Giriş;5.000.000,00;USD;Beklenen;
+23.10.2026;Kredi kullandırımları;Çıkış;132.000.000,00;TL;Beklenen;
+23.10.2026;Kredi taksit tahsilatları;Giriş;64.000.000,00;TL;Beklenen;
+23.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;196.000.000,00;TL;Beklenen;
+23.10.2026;Yeni / yenilenen mevduat;Giriş;308.000.000,00;TL;Beklenen;
+23.10.2026;Yeni sendikasyon kredisi;Giriş;75.000.000,00;USD;Beklenen;Sendikasyon bankaları
+26.10.2026;Kredi kullandırımları;Çıkış;144.000.000,00;TL;Beklenen;
+26.10.2026;Kredi taksit tahsilatları;Giriş;78.000.000,00;TL;Beklenen;
+26.10.2026;Kurumlar vergisi ve SGK ödemeleri (müşteri çıkışı);Çıkış;900.000.000,00;TL;Beklenen;
+26.10.2026;Repo dönüşü;Çıkış;650.000.000,00;TL;Kesin;Bankalar arası
+26.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;359.000.000,00;TL;Beklenen;
+26.10.2026;Yeni / yenilenen mevduat;Giriş;219.000.000,00;TL;Beklenen;
+26.10.2026;Yeni repo;Giriş;600.000.000,00;TL;Beklenen;Bankalar arası
+27.10.2026;DTH vade dönüşleri;Çıkış;7.000.000,00;USD;Beklenen;
+27.10.2026;Kredi kullandırımları;Çıkış;126.000.000,00;TL;Beklenen;
+27.10.2026;Kredi taksit tahsilatları;Giriş;134.000.000,00;TL;Beklenen;
+27.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;296.000.000,00;TL;Beklenen;
+27.10.2026;Yeni / yenilenen mevduat;Giriş;356.000.000,00;TL;Beklenen;
+27.10.2026;Yeni DTH;Giriş;5.000.000,00;USD;Beklenen;
+28.10.2026;Eurobond kupon ödemesi;Çıkış;6.500.000,00;USD;Kesin;
+28.10.2026;Kredi kullandırımları;Çıkış;124.000.000,00;TL;Beklenen;
+28.10.2026;Kredi taksit tahsilatları;Giriş;105.000.000,00;TL;Beklenen;
+28.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;253.000.000,00;TL;Beklenen;
+28.10.2026;Yeni / yenilenen mevduat;Giriş;312.000.000,00;TL;Beklenen;
+29.10.2026;Kredi kullandırımları;Çıkış;82.000.000,00;TL;Beklenen;
+29.10.2026;Kredi taksit tahsilatları;Giriş;136.000.000,00;TL;Beklenen;
+29.10.2026;Tahvil kupon tahsilatı;Giriş;140.000.000,00;TL;Kesin;Hazine
+29.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;214.000.000,00;TL;Beklenen;
+29.10.2026;Yeni / yenilenen mevduat;Giriş;210.000.000,00;TL;Beklenen;
+30.10.2026;DTH vade dönüşleri;Çıkış;4.000.000,00;USD;Beklenen;
+30.10.2026;Kredi kullandırımları;Çıkış;115.000.000,00;TL;Beklenen;
+30.10.2026;Kredi taksit tahsilatları;Giriş;100.000.000,00;TL;Beklenen;
+30.10.2026;Vadeli mevduat vade dönüşleri;Çıkış;316.000.000,00;TL;Beklenen;
+30.10.2026;Yeni / yenilenen mevduat;Giriş;346.000.000,00;TL;Beklenen;
+30.10.2026;Yeni DTH;Giriş;6.000.000,00;USD;Beklenen;
+02.11.2026;Kredi kullandırımları;Çıkış;134.000.000,00;TL;Beklenen;
+02.11.2026;Kredi taksit tahsilatları;Giriş;123.000.000,00;TL;Beklenen;
+02.11.2026;Repo dönüşü;Çıkış;650.000.000,00;TL;Kesin;Bankalar arası
+02.11.2026;Vadeli mevduat vade dönüşleri;Çıkış;344.000.000,00;TL;Beklenen;
+02.11.2026;Yeni / yenilenen mevduat;Giriş;385.000.000,00;TL;Beklenen;
+02.11.2026;Yeni repo;Giriş;600.000.000,00;TL;Beklenen;Bankalar arası
+03.11.2026;Kredi kullandırımları;Çıkış;89.000.000,00;TL;Beklenen;
+03.11.2026;Kredi taksit tahsilatları;Giriş;99.000.000,00;TL;Beklenen;
+03.11.2026;Vadeli mevduat vade dönüşleri;Çıkış;339.000.000,00;TL;Beklenen;
+03.11.2026;Yeni / yenilenen mevduat;Giriş;220.000.000,00;TL;Beklenen;
+14.11.2026;Dönem dışı akış;Çıkış;300.000.000,00;TL;Kesin;

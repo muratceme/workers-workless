@@ -1,0 +1,16 @@
+{
+  "id": "gunluk-likidite-raporu",
+  "tur": "kod",
+  "ad": "Günlük Likidite Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --akislar akislar.xlsx --hazir hazir_degerler.xlsx --tarih 05.10.2026 --gun 30",
+  "girdiler": [
+    "Akışlar (.xlsx/.csv): Tarih, Kalem, Yön (Giriş / Çıkış), Tutar, Para Birimi, Kesinlik (Kesin / Beklenen), Karşı Taraf",
+    "Hazır değerler: Kalem, Tutar, Para Birimi, İskonto (%)",
+    "İsteğe bağlı resmî tatil listesi"
+  ],
+  "ciktilar": ["Excel: Özet (en düşük likidite, ilk açık günü, dayanma süresi), Günlük ve Haftalık tablolar (para birimi bazında, stres sütunuyla), Büyük Akışlar, Hazır Değerler, Uyarılar"],
+  "internet": false
+}

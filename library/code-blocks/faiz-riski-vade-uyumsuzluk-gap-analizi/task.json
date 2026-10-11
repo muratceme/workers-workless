@@ -1,0 +1,15 @@
+{
+  "id": "faiz-riski-vade-uyumsuzluk-gap-analizi",
+  "tur": "kod",
+  "ad": "Faiz Riski Vade Uyumsuzluk (Gap) Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kalemler bilanco.xlsx --tarih 30.09.2026 --sok 100,-100 --ozkaynak 2.400.000.000",
+  "girdiler": [
+    "Kalemler (.xlsx/.csv): Kalem, Tür (Varlık / Yükümlülük), Tutar, Faiz Tipi (Sabit / Değişken / Faizsiz), Vade Tarihi, Yeniden Fiyatlama Tarihi, Faiz Oranı, Para Birimi",
+    "Şok büyüklükleri (baz puan), isteğe bağlı özkaynak tutarı"
+  ],
+  "ciktilar": ["Excel: Gap Tablosu (dilim, gap, kümülatif gap), Şok Etkisi (net faiz geliri ve ekonomik değer), Kalemler, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,45 @@
+﻿Kredi No;Müşteri No;Müşteri;Segment;Ürün;Risk Bakiyesi;Gecikme Gün;Yeniden Yapılandırma;Yakın İzleme;Temerrüt;İlk Not;Güncel Not;İlk TO (%);Güncel TO (%);Aşama
+KR910100;M40100;Müşteri 40100;Bireysel;Konut Kredisi;260.900,00;0;;;;BBB;BBB;0,25;0,25;1
+KR910101;M40101;Müşteri 40101;Bireysel;Konut Kredisi;554.800,00;0;;;;BBB;BBB;0,25;0,25;1
+KR910102;M40102;Müşteri 40102;Bireysel;Taşıt Kredisi;109.300,00;0;;;;BB;BB;0,45;0,45;1
+KR910103;M40103;Müşteri 40103;Bireysel;İhtiyaç Kredisi;345.900,00;0;;;;B;B;0,8;0,8;1
+KR910104;M40104;Müşteri 40104;Bireysel;İhtiyaç Kredisi;366.400,00;0;;;;BB;BB;0,45;0,45;1
+KR910105;M40105;Müşteri 40105;KOBİ;Ticari Taksitli;1.013.100,00;0;;;;BBB;BBB;0,25;0,25;1
+KR910106;M40106;Müşteri 40106;KOBİ;Ticari Taksitli;3.582.600,00;0;;;;BBB;BBB;0,25;0,25;1
+KR910107;M40107;Müşteri 40107;KOBİ;Ticari Taksitli;2.703.600,00;150;Evet;;Evet;A;BBB;0,15;0,25;3
+KR910108;M40108;Müşteri 40108;Ticari;Ticari Taksitli;18.888.700,00;0;;;;A;A;0,15;0,15;1
+KR910109;M40109;Müşteri 40109;Ticari;Rotatif;18.405.400,00;0;;;;BBB;BBB;0,25;0,25;1
+KR910110;M40110;Müşteri 40110;Bireysel;Taşıt Kredisi;172.900,00;0;;;;B;B;0,8;0,8;1
+KR910111;M40110;Müşteri 40110;Bireysel;Konut Kredisi;404.600,00;0;;;;BB;BB;0,45;0,45;1
+KR910112;M40112;Müşteri 40112;Bireysel;Konut Kredisi;570.100,00;0;;;;B;B;0,8;0,8;1
+KR910113;M40113;Müşteri 40113;Bireysel;Taşıt Kredisi;414.900,00;0;;;;BBB;BBB;0,25;0,25;1
+KR910114;M40114;Müşteri 40114;Bireysel;Konut Kredisi;537.000,00;0;;Evet;;B;B;0,8;0,8;2
+KR910115;M40115;Müşteri 40115;KOBİ;Rotatif;1.262.700,00;0;;;;A;A;0,15;0,15;1
+KR910116;M40116;Müşteri 40116;KOBİ;Rotatif;1.152.300,00;12;;;;B;CCC;0,8;1,5;1
+KR910117;M40117;Müşteri 40117;KOBİ;Ticari Taksitli;3.356.600,00;0;;;;A;A;0,15;0,15;1
+KR910118;M40118;Müşteri 40118;Ticari;Yatırım Kredisi;22.289.400,00;0;Evet;;;BBB;BBB;0,25;0,25;2
+KR910119;M40119;Müşteri 40119;Ticari;Ticari Taksitli;17.674.100,00;0;;;;B;B;0,8;0,8;1
+KR910120;M40120;Müşteri 40120;Bireysel;İhtiyaç Kredisi;329.100,00;0;;;;B;B;0,8;0,8;1
+KR910121;M40121;Müşteri 40121;Bireysel;Konut Kredisi;517.700,00;0;;;;A;A;0,15;0,15;1
+KR910122;M40122;Müşteri 40122;Bireysel;İhtiyaç Kredisi;452.700,00;0;;;;A;A;0,15;0,15;1
+KR910123;M40123;Müşteri 40123;Bireysel;Taşıt Kredisi;203.700,00;0;;;;A;A;0,15;0,15;1
+KR910124;M40124;Müşteri 40124;Bireysel;Taşıt Kredisi;288.300,00;70;;;;B;C;0,8;5,0;2
+KR910125;M40125;Müşteri 40125;KOBİ;Rotatif;3.602.600,00;150;;;Evet;BB;B;0,45;0,8;3
+KR910126;M40126;Müşteri 40126;KOBİ;Rotatif;1.827.000,00;0;;;;BBB;BBB;0,25;0,25;1
+KR910127;M40127;Müşteri 40127;KOBİ;Rotatif;2.460.800,00;40;;;;B;C;0,8;5,0;2
+KR910128;M40128;Müşteri 40128;Ticari;Ticari Taksitli;20.137.300,00;40;;;;BB;B;0,45;0,8;2
+KR910129;M40128;Müşteri 40128;Ticari;Rotatif;21.750.400,00;0;;;;A;A;0,15;0,15;1
+KR910130;M40130;Müşteri 40130;Bireysel;Taşıt Kredisi;371.100,00;0;;;;A;A;0,15;0,15;1
+KR910131;M40131;Müşteri 40131;Bireysel;Taşıt Kredisi;164.400,00;0;;;;BBB;BBB;0,25;0,25;1
+KR910132;M40132;Müşteri 40132;Bireysel;Konut Kredisi;136.500,00;0;;;;B;B;0,8;0,8;1
+KR910133;M40133;Müşteri 40133;Bireysel;İhtiyaç Kredisi;276.700,00;0;;;;A;A;0,15;0,15;1
+KR910134;M40134;Müşteri 40134;Bireysel;İhtiyaç Kredisi;340.400,00;0;;;;A;A;0,15;0,15;1
+KR910135;M40135;Müşteri 40135;KOBİ;Rotatif;3.386.400,00;100;;;Evet;A;BB;0,15;0,45;3
+KR910136;M40136;Müşteri 40136;KOBİ;Rotatif;2.892.000,00;0;;;;BBB;BBB;0,25;0,25;1
+KR910137;M40136;Müşteri 40136;KOBİ;Ticari Taksitli;923.400,00;0;;;;B;B;0,8;0,8;1
+KR910138;M40138;Müşteri 40138;Ticari;Ticari Taksitli;13.354.900,00;0;;;;BB;BB;0,45;0,45;1
+KR910139;M40139;Müşteri 40139;Ticari;Rotatif;15.150.200,00;0;;;;B;B;0,8;0,8;1
+KR910140;M40140;Müşteri 40140;Bireysel;İhtiyaç Kredisi;296.500,00;0;;;;A;A;0,15;0,15;1
+KR910141;M40141;Müşteri 40141;Bireysel;Taşıt Kredisi;251.900,00;0;;;;BB;BB;0,45;0,45;1
+KR910142;M40142;Müşteri 40142;Bireysel;İhtiyaç Kredisi;343.900,00;0;;;;BB;BB;0,45;0,45;1
+KR910143;M40143;Müşteri 40143;Bireysel;Konut Kredisi;481.400,00;0;;;;BBB;BBB;0,25;0,25;1

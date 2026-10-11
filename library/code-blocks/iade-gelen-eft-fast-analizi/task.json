@@ -1,0 +1,15 @@
+{
+  "id": "iade-gelen-eft-fast-analizi",
+  "tur": "kod",
+  "ad": "İade Gelen EFT/FAST Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --iadeler iadeler.xlsx --gonderilen gonderilen.xlsx",
+  "girdiler": [
+    "İadeler (.xlsx/.csv): Referans, Gönderim Tarihi, İade Tarihi, Şube, Kanal, Sistem, Gönderen Müşteri, Alıcı, Alıcı IBAN, Tutar, İade Kodu, İade Açıklaması, Kullanıcı",
+    "İsteğe bağlı: gönderilen işlem adetleri (Şube, Kanal, Gönderilen Adet), kendi hata türü tanımlarınız"
+  ],
+  "ciktilar": ["Excel: Hata Türleri (Pareto, öneri), Şube Bazında, Kanal Bazında, Tekrarlayanlar, Günlük, İadeler, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "tfrs-9-asama-siniflandirmasi",
+  "tur": "kod",
+  "ad": "TFRS 9 Aşama Sınıflandırması",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --krediler krediler.xlsx --onceki onceki_donem.xlsx --not-olcegi \"AAA,AA,A,BBB,BB,B,CCC,CC,C\" --bulasma \"Ticari,KOBİ\"",
+  "girdiler": [
+    "Krediler (.xlsx/.csv): Kredi No, Müşteri No, Segment, Risk Bakiyesi, Gecikme Gün, Yeniden Yapılandırma, Yakın İzleme, Temerrüt, İlk Not, Güncel Not, İlk TO, Güncel TO",
+    "İsteğe bağlı önceki dönem dosyası (aynı biçim veya Aşama sütunlu)"
+  ],
+  "ciktilar": ["Excel: Özet (aşama, segment, gerekçe dağılımı), Sınıflandırma (gerekçeli), Aşama Değişenler, Geçiş Matrisi, Uyarılar"],
+  "internet": false
+}

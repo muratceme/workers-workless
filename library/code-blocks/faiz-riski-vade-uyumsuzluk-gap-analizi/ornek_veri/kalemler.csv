@@ -1,0 +1,27 @@
+Kalem;Tür;Tutar (TL);Faiz Tipi;Vade Tarihi;Yeniden Fiyatlama Tarihi;Faiz Oranı (%);Para Birimi
+Nakit ve merkez bankası (faizsiz);Varlık;1.800.000.000;Faizsiz;;;;TL
+Bankalar arası plasman (gecelik);Varlık;1.200.000.000;Sabit;01.10.2026;;41,0;TL
+Ters repo (1 hafta);Varlık;900.000.000;Sabit;07.10.2026;;41,5;TL
+Hazine bonosu (3 ay);Varlık;1.500.000.000;Sabit;16.12.2026;;39,0;TL
+Devlet tahvili sabit kuponlu (2 yıl);Varlık;2.400.000.000;Sabit;20.09.2028;;34,0;TL
+Devlet tahvili sabit kuponlu (5 yıl);Varlık;1.600.000.000;Sabit;14.05.2031;;29,0;TL
+TLREF endeksli tahvil;Varlık;1.300.000.000;Değişken;18.08.2029;18.11.2026;42,0;TL
+TÜFE endeksli tahvil;Varlık;1.000.000.000;Değişken;12.03.2030;12.03.2027;;TL
+Ticari krediler - rotatif;Varlık;3.200.000.000;Değişken;30.06.2027;31.10.2026;48,0;TL
+Ticari krediler - taksitli (1 yıla kadar);Varlık;4.100.000.000;Sabit;15.03.2027;;46,0;TL
+Ticari krediler - taksitli (1-2 yıl);Varlık;2.700.000.000;Sabit;20.02.2028;;44,0;TL
+İhtiyaç kredileri;Varlık;3.600.000.000;Sabit;10.01.2028;;55,0;TL
+Konut kredileri;Varlık;2.900.000.000;Sabit;15.06.2033;;38,0;TL
+Kredi kartı alacakları;Varlık;2.200.000.000;Değişken;;31.10.2026;51,0;TL
+Sabit kıymetler ve diğer aktifler;Varlık;1.100.000.000;Faizsiz;;;;TL
+Vadesiz mevduat;Yükümlülük;5.400.000.000;Faizsiz;;;;TL
+Vadeli mevduat (1 aya kadar);Yükümlülük;7.800.000.000;Sabit;22.10.2026;;45,0;TL
+Vadeli mevduat (1-3 ay);Yükümlülük;6.900.000.000;Sabit;05.12.2026;;44,0;TL
+Vadeli mevduat (3-6 ay);Yükümlülük;2.300.000.000;Sabit;18.02.2027;;42,0;TL
+Vadeli mevduat (6-12 ay);Yükümlülük;900.000.000;Sabit;10.07.2027;;40,0;TL
+Repo borçları;Yükümlülük;2.100.000.000;Sabit;06.10.2026;;41,0;TL
+İhraç edilen bono;Yükümlülük;1.200.000.000;Sabit;25.11.2026;;43,0;TL
+Sendikasyon kredisi (değişken);Yükümlülük;1.500.000.000;Değişken;15.05.2027;15.11.2026;40,0;TL
+Sermaye benzeri borç (5 yıl);Yükümlülük;800.000.000;Sabit;30.06.2031;;37,0;TL
+Diğer pasifler;Yükümlülük;200.000.000;Faizsiz;;;;TL
+Özkaynak;Yükümlülük;2.400.000.000;Faizsiz;;;;TL
