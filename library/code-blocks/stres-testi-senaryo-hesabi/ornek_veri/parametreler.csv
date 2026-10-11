@@ -1,0 +1,11 @@
+Alan;Değer;Açıklama
+Özkaynak;5.400.000.000;Yasal özkaynak (TL)
+Risk Ağırlıklı Varlıklar;36.000.000.000;Kredi + piyasa + operasyonel risk tutarı
+Yabancı Para RAV;12.000.000.000;RAV içindeki yabancı para cinsi kısım (TL karşılığı)
+Net Yabancı Para Pozisyonu;-450.000.000;TL karşılığı; eksi = kısa pozisyon
+Net Faiz Geliri Duyarlılığı (+100 bp);-68.000.000;Faizler 100 baz puan artarsa 12 aylık net faiz geliri değişimi
+Değerleme Duyarlılığı (+100 bp);-95.000.000;Faizler 100 baz puan artarsa menkul kıymet değerleme farkı
+Toplam Krediler;24.000.000.000;Canlı + takipteki
+Takipteki Krediler;600.000.000;
+Karşılık Oranı (%);65;Yeni takibe ayrılacak karşılık oranı
+Baz Yıllık Kâr;1.300.000.000;Vergi öncesi; şok olmadan beklenen

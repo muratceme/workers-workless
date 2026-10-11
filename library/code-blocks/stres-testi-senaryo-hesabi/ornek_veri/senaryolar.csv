@@ -1,0 +1,7 @@
+Senaryo;Kur Şoku (%);Faiz Şoku (bp);Takip Oranı Artışı (puan);Karşılık Oranı (%);Açıklama
+Ilımlı;10;300;1;;Kur yüzde 10 artar, faizler 300 baz puan yükselir, takip oranı 1 puan artar
+Kur şoku;30;0;0;;Yalnız kur
+Faiz şoku;0;1000;0;;Yalnız faiz
+Kredi kalitesi bozulması;0;0;5;75;Takip oranı 5 puan artar, karşılık oranı yüzde 75
+Şiddetli (birleşik);40;1000;6;75;Tüm şoklar birlikte
+Faiz indirimi;0;-500;0;;Faizler 500 baz puan düşer

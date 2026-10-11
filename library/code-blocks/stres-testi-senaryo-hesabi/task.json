@@ -1,0 +1,15 @@
+{
+  "id": "stres-testi-senaryo-hesabi",
+  "tur": "kod",
+  "ad": "Stres Testi Senaryo Hesabı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --parametreler banka.csv --senaryolar senaryolar.csv --asgari 8 --hedef 12",
+  "girdiler": [
+    "Parametreler (.csv/.xlsx, Alan;Değer): Özkaynak, Risk Ağırlıklı Varlıklar, Yabancı Para RAV, Net Yabancı Para Pozisyonu, faiz duyarlılıkları, Toplam Krediler, Takipteki Krediler, Karşılık Oranı, Baz Yıllık Kâr",
+    "Senaryolar: Senaryo, Kur Şoku (%), Faiz Şoku (bp), Takip Oranı Artışı (puan), Karşılık Oranı (%)"
+  ],
+  "ciktilar": ["Excel: Senaryo Sonuçları (sermaye yeterliliği, durum, ek özkaynak ihtiyacı), Etki Dökümü, Ters Stres, Parametreler, Uyarılar"],
+  "internet": false
+}

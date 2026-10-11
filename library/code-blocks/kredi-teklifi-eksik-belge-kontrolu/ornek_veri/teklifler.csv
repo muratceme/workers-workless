@@ -1,0 +1,13 @@
+﻿Teklif No;Şube;Müşteri;Teklif Tipi;Müşteri Tipi;Tutar;Teminat;Gönderen;Kullanım Amacı;Vade (ay);Geri Ödeme Kaynağı;Şube Görüşü;Ziyaret Tarihi;Risk Grubu
+TK-2601;Merkez;Örnek İnşaat A.Ş.;Yeni Limit;Tüzel;65.000.000,00;İpotek, Kefalet;PY-ME;İşletme sermayesi;36;Faaliyet nakit akışı;Olumlu;;Yok
+TK-2602;Merkez;Deneme Gıda Ltd. Şti.;Limit Artışı;Tüzel;12.000.000,00;Kefalet;PY-ME;Makine yatırımı;36;Faaliyet nakit akışı;Olumlu;04.10.2026;Yok
+TK-2603;Sanayi;Numune Tekstil A.Ş.;Yenileme;Tüzel;30.000.000,00;İpotek;PY-SA;İşletme sermayesi;24;Faaliyet nakit akışı;Olumlu;28.09.2026;Yok
+TK-2604;Sanayi;K. Polat (Örnek Kırtasiye);Yeni Limit;Şahıs;750.000,00;Kefalet;PY-SA;Makine yatırımı;36;;Olumlu;24.09.2026;Yok
+TK-2605;Çarşı;Misal Lojistik Ltd. Şti.;Yeni Limit;Tüzel;8.500.000,00;Araç Rehni;PY-ÇA;İşletme sermayesi;24;;;30.09.2026;Yok
+TK-2606;Çarşı;R. Acar (Deneme Oto Yıkama);Limit Artışı;Şahıs;400.000,00;Teminatsız;PY-ÇA;Makine yatırımı;12;Faaliyet nakit akışı;Olumlu;30.09.2026;Yok
+TK-2607;Merkez;Atölye Mobilya Ltd. Şti.;Yenileme;Tüzel;5.000.000,00;Kefalet;PY-ME;Stok finansmanı;12;Faaliyet nakit akışı;Olumlu;13.09.2026;Yok
+TK-2608;Sanayi;Örnek Yazılım A.Ş.;Yeni Limit;Tüzel;15.000.000,00;Teminatsız;PY-SA;Makine yatırımı;24;Faaliyet nakit akışı;Olumlu;;Yok
+TK-2609;Sanayi;Numune Makine A.Ş.;Limit Artışı;Tüzel;55.000.000,00;İpotek;PY-SA;Stok finansmanı;36;Faaliyet nakit akışı;Olumlu;;
+TK-2610;Çarşı;N. Güneş (Numune Terzi);Yeni Limit;Şahıs;250.000,00;Kefalet;PY-ÇA;Makine yatırımı;24;Faaliyet nakit akışı;Olumlu;28.09.2026;Yok
+TK-2611;Merkez;Deneme Enerji A.Ş.;Yeni Limit;Tüzel;90.000.000,00;İpotek, Kefalet;PY-ME;Stok finansmanı;24;Faaliyet nakit akışı;Olumlu;28.09.2026;Yok
+TK-2612;Sanayi;Örnek Plastik Ltd. Şti.;Proje Finansmanı;Tüzel;20.000.000,00;İpotek;PY-SA;Makine yatırımı;36;Faaliyet nakit akışı;;29.09.2026;Yok

@@ -1,0 +1,19 @@
+Tür;Ad;Teklif Tipi;Müşteri Tipi;Teminat;Asgari Tutar;Geçerlilik (gün);Açıklama
+Belge;Kredi Talep Formu;*;*;*;;;Müşteri imzalı
+Belge;Vergi Levhası;*;*;*;;;
+Belge;İmza Sirküleri;*;Tüzel;*;;;
+Belge;Mali Tablolar;*;Tüzel;*;;150;Son dönem bilanço ve gelir tablosu
+Belge;Bağımsız Denetim Raporu;*;Tüzel;*;50.000.000;;
+Belge;İstihbarat Raporu;*;*;*;;30;Risk Merkezi ve çek / senet sorguları
+Belge;Ekspertiz Raporu;*;*;İpotek;;180;
+Belge;Tapu Kaydı;*;*;İpotek;;30;Güncel takyidat bilgisi
+Belge;Kefil Mali Bilgileri;*;*;Kefalet;;;
+Belge;Araç Ruhsatı;*;*;Araç Rehni;;;
+Belge;Limit Kullanım Dökümü;Limit Artışı;*;*;;;
+Belge;Önceki Tahsis Kararı;Yenileme;*;*;;;
+Bilgi;Kullanım Amacı;*;*;*;;;
+Bilgi;Vade (ay);*;*;*;;;
+Bilgi;Geri Ödeme Kaynağı;*;*;*;;;
+Bilgi;Şube Görüşü;*;*;*;;;
+Bilgi;Ziyaret Tarihi;Yeni Limit;Tüzel;*;;;İşyeri ziyaret tutanağının tarihi
+Bilgi;Risk Grubu;*;Tüzel;*;10.000.000;;

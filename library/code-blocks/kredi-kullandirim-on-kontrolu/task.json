@@ -1,0 +1,16 @@
+{
+  "id": "kredi-kullandirim-on-kontrolu",
+  "tur": "kod",
+  "ad": "Kredi Kullandırım Ön Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --talepler talepler.xlsx --onaylar onaylar.xlsx --sartlar sartlar.xlsx",
+  "girdiler": [
+    "Talepler (.xlsx/.csv): Talep No, Müşteri No, Müşteri, Şube, Onay No, Ürün, Tutar, Para Birimi, Vade (ay), Faiz Oranı, Kullandırım Tarihi",
+    "Onaylar: Onay No, Müşteri No, Onaylı Limit, Para Birimi, Ürünler, Azami Vade, Asgari Faiz, Geçerlilik Bitiş, Mevcut Risk, Sözleşme Tutarı, Sözleşme Durumu",
+    "Şartlar: Onay No, Şart, Tür, Zamanlama, Gereken Tutar, Tesis Edilen Tutar, Durum, Tamamlanma Tarihi"
+  ],
+  "ciktilar": ["Excel: Talep Sonuçları (Kullandırılabilir / Kontrol edin / Engel var), Bulgular, Şart Takibi, Uyarılar"],
+  "internet": false
+}

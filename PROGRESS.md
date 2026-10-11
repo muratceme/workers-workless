@@ -324,9 +324,36 @@
   çalışır (ihlal varsa alıntı). Python .lower() "İ"yi "i̇" yapar; testlerde de Türkçe katlama kullan.
 - **Toplam 148 paket**, kontrol 148/148.
 
+- Devam (2026-10-11, 13. tur, 15 paket — tur boyu artık 15): `akreditif-evrak-uygunluk-kontrolu` (UCP 600: md. 14(c) 21 gün,
+  md. 29(a) hafta sonu uzaması — ibraz için son gün de uzar, md. 18 fatura, md. 20 / 27 konşimento, md. 28 sigorta %110, md. 30
+  toleranslar, md. 14(d) evraklar arası çelişki), `sevkiyat-arac-planlama` (gün + bölge grubu; palet / kg / m³; karma ve tek
+  tipli denemelerden en ucuzu; küçültme; sipariş bölme; günlük araç adedi), `gise-gun-sonu-kasa-mutabakati` (kupür sayımı;
+  ipuçları: tutar eşit, ters yön = 2 kat, rakam yer değişimi = 9'a bölünür, kupür katı, gişeler arası, döviz oranı),
+  `musteri-evrak-kyc-eksik-kontrolu` (kural dosyası: tip × ürün × belge × geçerlilik; eksik / süresi dolmuş / yaklaşan),
+  `sube-hedef-gerceklesme-panosu` (iş günü bazlı olması gereken, ay sonu tahmini, günlük gereken, tavanlı karne puanı),
+  `gecikme-yaslandirma-raporu` (aralıklar, PAR30 / PAR90, müşteri bazı, geçiş matrisi), `toplu-odeme-dosyasi-kontrolu` (IBAN mod
+  97 + TR kuralları, TCKN / VKN, mükerrer, kontrol toplamı, önceki dosyaya göre IBAN değişikliği), `tarihsel-riske-maruz-deger-var`
+  (k = ⌊N(1−α)⌋ + 1; ES; karekök kuralı; ES katkıları toplamı = ES; geriye dönük test ve bölgeler),
+  `faiz-riski-vade-uyumsuzluk-gap-analizi` (yeniden fiyatlama dilimleri; NFG etkisi = tutar × Δr × (1 − t); ED ≈ tutar × t ÷ (1 + r)
+  × Δr), `gunluk-likidite-raporu` (para birimi bazında günlük / haftalık; hazır değer iskontosu; dayanma süresi; beklenen
+  akışlara stres), `iade-gelen-eft-fast-analizi` (açıklamadan hata türü, Pareto, iade oranı, tekrarlayan gönderen / alıcı),
+  `tfrs-9-asama-siniflandirmasi` (30 / 90 gün, yapılandırma, yakın izleme, not kademesi, TO katı; müşteri bazı; geçiş matrisi),
+  `stres-testi-senaryo-hesabi` (kur / faiz / takip şokları; kâr tamponu; stres sonrası SYR; ters stres — ikiye bölme),
+  `kredi-teklifi-eksik-belge-kontrolu` (kural: tip × müşteri tipi × teminat × asgari tutar × geçerlilik; şube iade metni),
+  `kredi-kullandirim-on-kontrolu` (limit — sıralı düşüm, geçerlilik, ürün, vade, faiz, sözleşme, teminat tesis tutarı, şartlar).
+- Ana sayfa: "İlk paketler hazır" bölümü tüm paketleri listeliyordu; 6 paketlik vitrin + "Başka paketler göster" / "Tüm
+  paketlerde ara" düğmelerine çevrildi (site/assets/app.js, index.html, styles.css).
+- **Ders:** Ortak yardımcılar (okuma, biçim, uyarı sayfası) her pakete aynı metinle gömülüyor; main.py'yi `#@ORTAK` işaretiyle
+  yazıp bir betikle doldurmak tur başına ciddi zaman kazandırıyor (betik depo dışında, geçici klasörde). Örtük birleştirilen
+  f-string'lerde `.replace(",", ".")` yalnız son parçaya uygulanır → sayıyı ayrı bir yardımcıyla biçimle. Bankacılık
+  paketlerinde yasal eşikleri koda gömme: kural / eşik dosyadan veya parametreden gelsin, README "yasal ölçüm değildir" desin.
+- **Toplam 163 paket**, kontrol 163/163.
+
 ### KALDIĞIM YER
-Sıradaki (puan 3): Akreditif Evrak Uygunluk Kontrolü, Sevkiyat Araç Planlama ve kalan2.mjs listesindeki diğerleri. Epikriz, ÖSS ve
-SGK fatura ön kontrolü (puan 5) sona bırakıldı.
+Sıradaki (puan 3): sigorta (Teklif Talebi Bilgi Kontrolü, Poliçe Üretim Kontrolü, Sigorta Primi Hesaplama, Hasar/Prim Oranı
+Analizi, Tarife Etki Simülasyonu...), bankacılıktan kalanlar (KKB ve Risk Merkezi Raporu Özeti, Sektör Karşılaştırmalı Rasyo
+Analizi, Şüpheli İşlem Bildirim Taslağı — agent), sonra üretim ve tekstil. Epikriz, ÖSS ve SGK fatura ön kontrolü (puan 5) sonda.
+Kullanıcı tur boyunu 15 pakete çıkardı (15 paket → dur → /compact).
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
 İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);

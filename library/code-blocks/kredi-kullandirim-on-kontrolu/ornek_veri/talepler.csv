@@ -1,0 +1,11 @@
+Talep No;Müşteri No;Müşteri;Şube;Onay No;Ürün;Tutar;Para Birimi;Vade (ay);Faiz Oranı (%);Kullandırım Tarihi
+KT-9001;M50101;Örnek İnşaat A.Ş.;Merkez;ON-5001;Rotatif;5.000.000,00;TL;12;44,5;09.10.2026
+KT-9002;M50101;Örnek İnşaat A.Ş.;Merkez;ON-5001;Ticari Taksitli;4.000.000,00;TL;24;43,0;09.10.2026
+KT-9003;M50102;Misal Lojistik Ltd. Şti.;Çarşı;ON-5002;Ticari Taksitli;6.000.000,00;TL;24;45,0;09.10.2026
+KT-9004;M50103;Numune Tekstil A.Ş.;Sanayi;ON-5003;Rotatif;3.000.000,00;TL;12;41,0;09.10.2026
+KT-9005;M50104;Deneme Gıda Ltd. Şti.;Merkez;ON-5004;Rotatif;2.000.000,00;TL;12;46,0;12.10.2026
+KT-9006;M50105;Deneme Enerji A.Ş.;Merkez;ON-5005;Yatırım Kredisi;30.000.000,00;TL;60;39,0;09.10.2026
+KT-9007;M50106;Atölye Mobilya Ltd. Şti.;Sanayi;ON-5006;İhracat Kredisi;1.000.000,00;USD;12;7,0;09.10.2026
+KT-9008;M50107;Örnek Yazılım A.Ş.;Sanayi;ON-5007;Ticari Taksitli;3.000.000,00;TL;48;43,5;10.10.2026
+KT-9009;M50108;Örnek Plastik Ltd. Şti.;Sanayi;ON-5008;Spot Kredi;2.500.000,00;TL;6;44,0;09.10.2026
+KT-9010;M50199;Numune Makine A.Ş.;Çarşı;ON-5099;Rotatif;1.000.000,00;TL;12;45,0;09.10.2026

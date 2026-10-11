@@ -1,0 +1,16 @@
+{
+  "id": "kredi-teklifi-eksik-belge-kontrolu",
+  "tur": "kod",
+  "ad": "Kredi Teklifi Eksik Belge Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --teklifler teklifler.xlsx --belgeler belgeler.xlsx --kurallar kurallar.xlsx",
+  "girdiler": [
+    "Teklifler (.xlsx/.csv): Teklif No, Şube, Müşteri, Teklif Tipi, Müşteri Tipi, Tutar, Teminat + zorunlu bilgi sütunları",
+    "Belgeler: Teklif No, Belge, Belge Tarihi",
+    "Kurallar: Tür (Belge / Bilgi), Ad, Teklif Tipi, Müşteri Tipi, Teminat, Asgari Tutar, Geçerlilik (gün), Açıklama"
+  ],
+  "ciktilar": ["Excel: Teklif Özeti, Eksikler, Şube Özeti, Uyarılar", "Metin: şubelere gönderilecek eksik listesi (sube_iade_notlari.txt)"],
+  "internet": false
+}

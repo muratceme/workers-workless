@@ -1,0 +1,9 @@
+Onay No;Müşteri No;Onaylı Limit;Para Birimi;Ürünler;Azami Vade (ay);Asgari Faiz (%);Geçerlilik Bitiş;Mevcut Risk;Sözleşme Tutarı;Sözleşme Durumu
+ON-5001;M50101;20.000.000,00;TL;Rotatif, Ticari Taksitli;36;42,0;31.03.2027;12.500.000,00;30.000.000,00;İmzalı
+ON-5002;M50102;8.000.000,00;TL;Ticari Taksitli;24;44,0;30.06.2027;0,00;10.000.000,00;İmzalı
+ON-5003;M50103;15.000.000,00;TL;*;48;40,0;30.09.2026;4.000.000,00;20.000.000,00;İmzalı
+ON-5004;M50104;5.000.000,00;TL;Rotatif;12;45,0;15.10.2026;1.000.000,00;5.000.000,00;İmzalı
+ON-5005;M50105;40.000.000,00;TL;Yatırım Kredisi;60;38,0;31.12.2027;0,00;25.000.000,00;İmzalı
+ON-5006;M50106;2.000.000,00;USD;İhracat Kredisi;12;7,5;31.05.2027;500.000,00;3.000.000,00;İmzalı
+ON-5007;M50107;6.000.000,00;TL;Ticari Taksitli;36;43,0;31.08.2027;0,00;6.000.000,00;İmza bekliyor
+ON-5008;M50108;10.000.000,00;TL;Rotatif, Ticari Taksitli;24;42,0;30.04.2027;2.000.000,00;;
