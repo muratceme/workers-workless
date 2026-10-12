@@ -1,0 +1,16 @@
+{
+  "id": "kesinti-ve-itiraz-takibi",
+  "tur": "kod",
+  "ad": "Kesinti ve İtiraz Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kesintiler kesintiler.xlsx --kurallar neden_kurallari.xlsx --sureler itiraz_sureleri.xlsx",
+  "girdiler": [
+    "Kesintiler (.xlsx/.csv): Sigorta Şirketi, Fatura No, Kesinti Tarihi, Kesinti Tutarı, Kesinti Nedeni, İtiraz Tarihi, İtiraz Sonucu, Geri Alınan Tutar",
+    "Neden kuralları: Neden Kategorisi, Anahtar Kelimeler, İtiraz Edilebilir",
+    "İsteğe bağlı itiraz süreleri: Sigorta Şirketi, İtiraz Süresi (gün)"
+  ],
+  "ciktilar": ["Excel: Kesinti Takibi (durum, son itiraz günü), Şirket Özeti, Neden Özeti, Uyarılar"],
+  "internet": false
+}

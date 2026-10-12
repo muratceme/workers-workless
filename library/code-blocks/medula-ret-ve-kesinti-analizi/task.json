@@ -1,0 +1,12 @@
+{
+  "id": "medula-ret-ve-kesinti-analizi",
+  "tur": "kod",
+  "ad": "Medula Ret ve Kesinti Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kayitlar ret_kesinti_kayitlari.xlsx --min-donem 2 --min-adet 3",
+  "girdiler": ["Ret/kesinti kayıtları (.xlsx/.csv): Dönem, Branş, İşlem Kodu, İşlem Adı, Hata Kodu, Hata Açıklaması, Tutar"],
+  "ciktilar": ["Excel: Hata Kodu Bazında (Pareto, tekrarlayan), Tekrarlayan Hata-İşlem, Branş Bazında, İşlem Bazında, Dönem Eğilimi, Uyarılar"],
+  "internet": false
+}

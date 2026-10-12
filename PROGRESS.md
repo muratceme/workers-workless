@@ -380,15 +380,35 @@
   Dersler: liste üretecinin koşulunda `dict.pop()` her adımda çağrılır → önce değişkene al; "sevk" gibi kısa anahtar sözcük
   "Sevke hazır"ı da yakalar → anahtarı uzat; elle hesaplanan sezgisel sonuçları (kaydırma, hat dengeleme) koşturup doğrula.
   Bu turda da internetten kaynak teyidi yapılmadı.
-- **Toplam 193 paket**, kontrol 193/193.
+- Devam (2026-10-12, 16. tur, 15 paket, hepsi kod bloğu): `kampanya-etki-analizi` (beklenen adet düz ortalama; kanibalizasyon
+  aynı kategoriyle sınırlı; başabaş adet), `magazalar-arasi-transfer-onerisi` (kapsama haftası; sezgisel eşleştirme, aynı bölge
+  önce), `sepet-birliktelik-analizi` (destek, güven, lift; yalnız ikili çiftler), `envanter-kayip-risk-skoru` (puan = oran ÷ eşik
+  × 50; eşik ve ağırlıklar varsayılan), `kanallar-arasi-stok-ve-fiyat-kontrolu` (kanal fiyat farkı ayarı; kanalda olmayan ürün),
+  `e-ticaret-satis-performans-raporu` (pazartesi-pazar hafta; önceki haftayla kıyas), `geciken-siparis-takibi` (termin dosyadan
+  veya kanal süresinden; iş günü seçeneği; gün düzeyinde), `pazaryeri-reklam-sponsorlu-urun-analizi` (ACOS ↔ marj; "Veri az"
+  sınıfı), `randevu-doluluk-ve-gelmeme-analizi` (fazla randevu = kapasite × p ÷ (1 − p) × emniyet, üst sınırlı; üç koşul),
+  `taburcu-dosyasi-eksik-kontrolu` (kural dosyası: belge + koşul sütunu + diğer adlar), `kesinti-ve-itiraz-takibi` (kelime
+  eşleşmesiyle neden kategorisi; itiraz süresi kullanıcıdan), `medula-ret-ve-kesinti-analizi` (Pareto, tekrarlayan hata ve
+  hata-işlem çifti; SUT kuralı değerlendirmez), `kalite-gostergeleri-hesaplama` (formüller tanım dosyasından; örnek tanımlar
+  "ÖRNEK TANIM" etiketli), `tedavi-fiyat-teklifi-hazirlama` (TR / EN teklif metni; tek para birimi; KDV hesabı yok),
+  `magaza-vardiya-planlama` (sezgisel atama; 45 / 11 / 11 saat ve 6 gün varsayılan, parametreli).
+  Dersler: Bash aracında Türkçe karakterli çok dosyalı heredoc "unexpected EOF" verdi → dosyaları Write aracıyla yaz, üretilecek
+  örnek veriyi küçük Python betiğiyle üret; gün adı kısaltmasında "Pazar", "Pazartesi"nin ön eki → önce tam eşleşme, sonra tekil
+  ön ek; iki sözlüğü `|` ile birleştirirken aynı anahtar (ad ↔ sayı) ezilir → alan adlarını ayır.
+  Bu turda da internetten kaynak teyidi yapılmadı: vardiya paketindeki İş Kanunu sınırları, sağlık paketlerindeki SKS / Medula /
+  sağlık turizmi atıfları genel ifadeyle ve "doğrulayın" notuyla geçiyor; kodlar hiçbir mevzuat değerini sabit varsaymıyor.
+- **Toplam 208 paket**, kontrol 208/208.
 
 ### KALDIĞIM YER
-Sıradaki (puan 3): perakende / e-ticaret (Mağaza Vardiya Planlama, Kampanya Etki Analizi, Mağazalar Arası Transfer Önerisi,
-Sepet Birliktelik Analizi, Envanter Kayıp Risk Skoru, Kanallar Arası Stok ve Fiyat Kontrolü, E-ticaret Satış Performans Raporu,
-Geciken Sipariş Takibi, Pazaryeri Reklam Analizi), sağlık (Randevu Doluluk ve Gelmeme, Taburcu Dosyası Eksik Kontrolü, Kesinti ve
-İtiraz Takibi, Medula Ret Analizi, Kalite Göstergeleri, Tedavi Fiyat Teklifi), sonra lojistik ve inşaat. Agent olarak bekleyenler:
+Sıradaki (puan 3): sağlığın kalanı (Provizyon ve Sigorta Bilgisi Ön Kontrolü), lojistik (Yük Planlama LDM ve Palet, Sefer
+Kârlılık Hesabı, Parsiyel Hakediş ve Kârlılık, Navlun Teklif Hesaplama, Konteyner Demuraj ve Detention Takibi, İthalat Vergi
+Hesaplama, Depolama Hizmeti Faturalandırma, Yakıt Tüketim Analizi, Sürücü Çalışma ve Dinlenme Süresi Kontrolü), inşaat (Metraj
+Cetveli Kontrolü, Birim Fiyat Analizi, Proje Maliyet Kontrol Raporu, Fiyat Farkı Hesaplama, İş İlerleme Raporu, Kritik Yol
+Analizi, Kazanılmış Değer Analizi, Teklif Birim Fiyat Karşılaştırması), sonra gıda ve otelcilik. Agent olarak bekleyenler:
 Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden, Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu
-Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi, Planogram Uyum. Epikriz, ÖSS ve SGK fatura (puan 5) sonda.
+Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi, Planogram Uyum, Hasta Şikâyet Sınıflandırma, Hasta
+Memnuniyet Anketi Analizi, Müşteri Yük Durum Bilgilendirmesi, Konşimento Bilgi Çıkarma, Günlük Şantiye Raporu. Epikriz, ÖSS ve
+SGK fatura (puan 5) sonda.
 Kullanıcı tur boyunu 15 pakete çıkardı (15 paket → dur → /compact).
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.

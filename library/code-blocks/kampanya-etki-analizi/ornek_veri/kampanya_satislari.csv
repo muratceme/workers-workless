@@ -1,0 +1,7 @@
+Kategori;Ürün;Kampanyada;Baz Dönem Adet;Kampanya Dönemi Adet;Normal Fiyat;Kampanya Fiyatı;Birim Maliyet
+Kahve;Filtre kahve 250 g;Evet;400;260;200,00;160,00;120,00
+Kahve;Türk kahvesi 100 g;Hayır;800;170;60,00;;45,00
+Kahve;Granül kahve 200 g;Hayır;200;40;180,00;;130,00
+Çay;Siyah çay 1 kg;Evet;600;210;300,00;240,00;230,00
+Çay;Bitki çayı 20 poşet;Hayır;120;36;90,00;;60,00
+Atıştırmalık;Bisküvi 150 g;Hayır;400;110;25,00;;18,00

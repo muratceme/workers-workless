@@ -1,0 +1,4 @@
+Gösterge;Pay;Payda;Çarpan;Hedef;Yön;Ölçü Birimi
+Düşme oranı (ÖRNEK TANIM);Düşen hasta sayısı;Hasta günü;1000;1,00;Düşük iyi;binde (hasta günü)
+Bası yarası oranı (ÖRNEK TANIM);Bası yarası gelişen hasta sayısı;Yatan hasta sayısı;100;2,00;Düşük iyi;%
+Enfeksiyon hızı (ÖRNEK TANIM);Enfeksiyon sayısı;Hasta günü;1000;3,00;Düşük iyi;binde (hasta günü)

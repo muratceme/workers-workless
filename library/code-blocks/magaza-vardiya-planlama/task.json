@@ -1,0 +1,16 @@
+{
+  "id": "magaza-vardiya-planlama",
+  "tur": "kod",
+  "ad": "Mağaza Vardiya Planlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --trafik saatlik_trafik.xlsx --personel personel.xlsx --vardiyalar vardiyalar.xlsx --musteri-basina 20 --min-personel 2",
+  "girdiler": [
+    "Saatlik trafik (.xlsx/.csv): Gün, Saat, Müşteri",
+    "Personel: Personel, Haftalık Saat, İzin Günleri",
+    "Vardiyalar: Vardiya, Başlangıç, Bitiş, Mola (dk)"
+  ],
+  "ciktilar": ["Excel: Vardiya Planı (personel × gün), Gün Özeti, Saatlik Kapsama, Uyarılar"],
+  "internet": false
+}

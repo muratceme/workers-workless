@@ -1,0 +1,15 @@
+{
+  "id": "kalite-gostergeleri-hesaplama",
+  "tur": "kod",
+  "ad": "Kalite Göstergeleri Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --veriler gosterge_verileri.xlsx --tanimlar gosterge_tanimlari.xlsx --donem 2026-09",
+  "girdiler": [
+    "Gösterge verileri (.xlsx/.csv): Dönem, Birim, Veri, Değer",
+    "Gösterge tanımları: Gösterge, Pay, Payda, Çarpan, Hedef, Yön, Ölçü Birimi"
+  ],
+  "ciktilar": ["Excel: Gösterge Özeti (değer, hedef durumu, eğilim), Birim Bazında, Dönem Eğilimi, Uyarılar"],
+  "internet": false
+}

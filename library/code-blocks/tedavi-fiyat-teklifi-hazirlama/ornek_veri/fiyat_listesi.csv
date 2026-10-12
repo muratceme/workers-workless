@@ -1,0 +1,6 @@
+Kod;Kalem;Kategori;Birim Fiyat;Para Birimi;İngilizce Ad
+T-01;Diş implantı (tek);Tedavi;600,00;EUR;Dental implant (single)
+T-02;Zirkonyum kaplama (tek diş);Tedavi;180,00;EUR;Zirconia crown (per tooth)
+T-03;Panoramik röntgen;Tedavi;30,00;EUR;Panoramic X-ray
+K-01;Otel konaklama (gece, kahvaltı dahil);Konaklama;70,00;EUR;Hotel accommodation (per night, breakfast included)
+TR-01;Havalimanı - otel transferi (tek yön);Transfer;40,00;EUR;Airport - hotel transfer (one way)

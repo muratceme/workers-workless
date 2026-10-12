@@ -1,0 +1,11 @@
+Sipariş No;Kanal;Depo;Sipariş Tarihi;Termin;Kargoya Veriliş Tarihi;Durum
+S-1001;Web Sitesi;İstanbul;07.10.2026;;;Hazırlanıyor
+S-1002;Web Sitesi;İstanbul;10.10.2026;;;Hazırlanıyor
+S-1003;Web Sitesi;Ankara;11.10.2026;;;Yeni
+S-1004;Pazaryeri A;İstanbul;09.10.2026;;10.10.2026;Kargoda
+S-1005;Pazaryeri A;İstanbul;08.10.2026;;11.10.2026;Kargoda
+S-1006;Pazaryeri A;Ankara;10.10.2026;;;Hazırlanıyor
+S-1007;Pazaryeri B;Ankara;06.10.2026;08.10.2026;;Tedarik bekleniyor
+S-1008;Pazaryeri B;İstanbul;09.10.2026;;12.10.2026;Kargoda
+S-1009;Web Sitesi;İstanbul;08.10.2026;;;İptal
+S-1010;Pazaryeri A;İstanbul;11.10.2026;;;Yeni

@@ -1,0 +1,6 @@
+Protokol No;Servis;Hekim;Taburcu Tarihi;Ameliyat;Konsültasyon
+P-1001;Genel Cerrahi;Dr. A;05.10.2026;Evet;Hayır
+P-1002;Genel Cerrahi;Dr. A;08.10.2026;Evet;Evet
+P-1003;Dahiliye;Dr. B;09.10.2026;Hayır;Evet
+P-1004;Dahiliye;Dr. B;10.10.2026;Hayır;Hayır
+P-1005;Kardiyoloji;Dr. C;02.10.2026;Hayır;Hayır

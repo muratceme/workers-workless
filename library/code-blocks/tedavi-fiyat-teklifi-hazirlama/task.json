@@ -1,0 +1,15 @@
+{
+  "id": "tedavi-fiyat-teklifi-hazirlama",
+  "tur": "kod",
+  "ad": "Tedavi Fiyat Teklifi Hazırlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --plan tedavi_plani.xlsx --fiyatlar fiyat_listesi.xlsx --hasta-ref UH-2026-001 --indirim 5 --dil en",
+  "girdiler": [
+    "Tedavi planı (.xlsx/.csv): Kalem (fiyat listesindeki kod veya ad), Adet, Not",
+    "Fiyat listesi: Kod, Kalem, Kategori (Tedavi / Konaklama / Transfer / Diğer), Birim Fiyat, Para Birimi, İngilizce Ad"
+  ],
+  "ciktilar": ["Excel: Teklif (kalemler, ara toplamlar, indirim, genel toplam), Uyarılar", "Metin: Türkçe veya İngilizce teklif metni (.txt)"],
+  "internet": false
+}

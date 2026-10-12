@@ -1,0 +1,15 @@
+{
+  "id": "kampanya-etki-analizi",
+  "tur": "kod",
+  "ad": "Kampanya Etki Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --satislar kampanya_satislari.xlsx --baz-gun 28 --kampanya-gun 7 --gider 1000",
+  "girdiler": [
+    "Kampanya satışları (.xlsx/.csv): Ürün, Kategori, Kampanyada (Evet/Hayır), Baz Dönem Adet, Kampanya Dönemi Adet, Normal Fiyat, Kampanya Fiyatı, Birim Maliyet",
+    "Baz dönem ve kampanya dönemi gün sayısı, kampanya gideri"
+  ],
+  "ciktilar": ["Excel: Özet (net etki), Ürün Bazında (ek satış, kâr farkı, başabaş adet), Kategori Bazında (kanibalizasyon), Uyarılar"],
+  "internet": false
+}

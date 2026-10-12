@@ -1,0 +1,14 @@
+Kanal;Stok Kodu;Stok;Fiyat
+Web Sitesi;SKU-001;20;300,00
+Web Sitesi;SKU-002;0;300,00
+Web Sitesi;SKU-003;5;900,00
+Web Sitesi;SKU-004;8;1.800,00
+Web Sitesi;SKU-005;15;150,00
+Pazaryeri A;SKU-001;20;330,00
+Pazaryeri A;SKU-002;3;330,00
+Pazaryeri A;SKU-003;9;990,00
+Pazaryeri A;SKU-004;8;2.000,00
+Pazaryeri A;SKU-009;4;500,00
+Pazaryeri B;SKU-001;0;300,00
+Pazaryeri B;SKU-003;5;950,00
+Pazaryeri B;SKU-005;15;151,00

@@ -1,0 +1,12 @@
+{
+  "id": "e-ticaret-satis-performans-raporu",
+  "tur": "kod",
+  "ad": "E-ticaret Satış Performans Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --satislar eticaret_satislari.xlsx --hafta 07.10.2026",
+  "girdiler": ["E-ticaret satışları (.xlsx/.csv): Tarih, Kanal, Kategori, Ürün, Ziyaret, Sipariş, Satış Adedi, Ciro, İade Adedi"],
+  "ciktilar": ["Excel: Kanal Bazında, Kategori Bazında, Ürün Bazında (işaretler), Uyarılar"],
+  "internet": false
+}

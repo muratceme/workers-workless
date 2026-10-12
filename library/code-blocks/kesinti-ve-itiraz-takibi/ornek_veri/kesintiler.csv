@@ -1,0 +1,10 @@
+Sigorta Şirketi;Fatura No;Kesinti Tarihi;Kesinti Tutarı;Kesinti Nedeni;İtiraz Tarihi;İtiraz Sonucu;Geri Alınan Tutar
+Sigorta A;F-101;01.10.2026;4.000,00;Anlaşma fiyatı üzerinde faturalama;;;
+Sigorta A;F-102;15.09.2026;2.500,00;Provizyon onayı alınmamış;20.09.2026;Kabul;2.500,00
+Sigorta A;F-103;05.09.2026;1.200,00;Poliçe teminat kapsamı dışı işlem;;;
+Sigorta B;F-201;20.09.2026;6.000,00;Epikriz raporu eksik;;;
+Sigorta B;F-202;30.09.2026;3.000,00;Tarife farkı;;;
+Sigorta B;F-203;10.09.2026;5.000,00;Provizyon limiti aşıldı;18.09.2026;Kısmi kabul;2.000,00
+Sigorta C;F-301;25.09.2026;1.800,00;Mükerrer fatura;28.09.2026;;
+Sigorta C;F-302;02.10.2026;900,00;Hekim kaşesi yok;;;
+Sigorta A;F-104;01.09.2026;700,00;Fiyat farkı;10.09.2026;Ret;0,00

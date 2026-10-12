@@ -1,0 +1,12 @@
+{
+  "id": "pazaryeri-reklam-sponsorlu-urun-analizi",
+  "tur": "kod",
+  "ad": "Pazaryeri Reklam (Sponsorlu Ürün) Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --reklam reklam_raporu.xlsx --hedef-acos 20",
+  "girdiler": ["Reklam raporu (.xlsx/.csv): Ürün, Kampanya, Gösterim, Tıklama, Harcama, Reklam Satışı, Sipariş, Marj %"],
+  "ciktilar": ["Excel: Ürün Bazında (ACOS, ROAS, sınıf, reklam sonrası kâr), Kampanya Bazında, Uyarılar"],
+  "internet": false
+}

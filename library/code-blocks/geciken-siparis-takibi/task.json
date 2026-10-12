@@ -1,0 +1,15 @@
+{
+  "id": "geciken-siparis-takibi",
+  "tur": "kod",
+  "ad": "Geciken Sipariş Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --siparisler siparisler.xlsx --kanal-sure kanal_sureleri.xlsx --tarih 12.10.2026",
+  "girdiler": [
+    "Siparişler (.xlsx/.csv): Sipariş No, Kanal, Depo, Sipariş Tarihi, Termin, Kargoya Veriliş Tarihi, Durum",
+    "İsteğe bağlı kanal süreleri: Kanal, Süre (gün)"
+  ],
+  "ciktilar": ["Excel: Bekleyen Siparişler, Kanal Özeti, Depo Özeti, Kargolananlar, Uyarılar"],
+  "internet": false
+}

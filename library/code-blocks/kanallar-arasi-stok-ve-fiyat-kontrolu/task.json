@@ -1,0 +1,16 @@
+{
+  "id": "kanallar-arasi-stok-ve-fiyat-kontrolu",
+  "tur": "kod",
+  "ad": "Kanallar Arası Stok ve Fiyat Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --merkez merkez_liste.xlsx --kanal kanal_listesi.xlsx --kanal-ayar kanal_ayarlari.xlsx --fiyat-tolerans 1",
+  "girdiler": [
+    "Merkezi liste (.xlsx/.csv): Stok Kodu, Ürün, Stok, Fiyat",
+    "Kanal listesi: Kanal, Stok Kodu, Stok, Fiyat (tüm kanallar alt alta)",
+    "İsteğe bağlı kanal ayarları: Kanal, Fiyat Farkı %"
+  ],
+  "ciktilar": ["Excel: Uyumsuzluklar, Kanal Özeti, Kanalda Olmayan Ürünler, Tüm Kayıtlar, Uyarılar"],
+  "internet": false
+}

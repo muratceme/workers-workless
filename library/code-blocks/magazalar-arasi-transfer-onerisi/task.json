@@ -1,0 +1,12 @@
+{
+  "id": "magazalar-arasi-transfer-onerisi",
+  "tur": "kod",
+  "ad": "Mağazalar Arası Transfer Önerisi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --stok magaza_stok_satis.xlsx --donem-gun 28 --hedef-hafta 4",
+  "girdiler": ["Mağaza stok ve satış listesi (.xlsx/.csv): Mağaza, Bölge, Ürün, Beden, Renk, Stok, Satış (dönem adedi)"],
+  "ciktilar": ["Excel: Transfer Önerileri, Karşılanamayan İhtiyaç, Kalan Fazla Stok, Mağaza Özeti, Uyarılar"],
+  "internet": false
+}

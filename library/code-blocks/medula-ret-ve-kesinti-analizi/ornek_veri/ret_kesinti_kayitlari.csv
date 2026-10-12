@@ -1,0 +1,11 @@
+Dönem;Branş;İşlem Kodu;İşlem Adı;Hata Kodu;Hata Açıklaması;Tutar
+2026-07;Dahiliye;I-100;Muayene;H-01;Tanı ile işlem uyumsuz (örnek açıklama);200,00
+2026-07;Dahiliye;I-100;Muayene;H-01;Tanı ile işlem uyumsuz (örnek açıklama);200,00
+2026-07;Ortopedi;I-300;Görüntüleme;H-02;Adet sınırı aşıldı (örnek açıklama);1.500,00
+2026-08;Dahiliye;I-100;Muayene;H-01;Tanı ile işlem uyumsuz (örnek açıklama);200,00
+2026-08;Ortopedi;I-300;Görüntüleme;H-02;Adet sınırı aşıldı (örnek açıklama);1.500,00
+2026-08;Ortopedi;I-310;Fizik tedavi seansı;H-03;Rapor eksik (örnek açıklama);800,00
+2026-09;Dahiliye;I-100;Muayene;H-01;Tanı ile işlem uyumsuz (örnek açıklama);200,00
+2026-09;Dahiliye;I-120;Tahlil;H-01;Tanı ile işlem uyumsuz (örnek açıklama);300,00
+2026-09;Ortopedi;I-300;Görüntüleme;H-02;Adet sınırı aşıldı (örnek açıklama);1.500,00
+2026-09;Kardiyoloji;I-400;EKG;H-04;Tekrar süresi dolmadan işlem (örnek açıklama);400,00

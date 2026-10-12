@@ -1,0 +1,12 @@
+{
+  "id": "sepet-birliktelik-analizi",
+  "tur": "kod",
+  "ad": "Sepet Birliktelik Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --fisler fis_satirlari.xlsx --min-fis 20 --min-lift 1",
+  "girdiler": ["Fiş satırları (.xlsx/.csv): Fiş No, Ürün (her satır bir fiş kalemi)"],
+  "ciktilar": ["Excel: Ürün Çiftleri (destek, güven, lift), Ürünler, Özet, Uyarılar"],
+  "internet": false
+}

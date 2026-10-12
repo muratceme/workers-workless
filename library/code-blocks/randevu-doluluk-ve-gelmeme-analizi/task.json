@@ -1,0 +1,15 @@
+{
+  "id": "randevu-doluluk-ve-gelmeme-analizi",
+  "tur": "kod",
+  "ad": "Randevu Doluluk ve Gelmeme Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --randevular randevular.xlsx --kapasite kapasite.xlsx",
+  "girdiler": [
+    "Randevular (.xlsx/.csv): Tarih, Bölüm, Hekim, Durum (Geldi / Gelmedi / İptal), Adet (isteğe bağlı)",
+    "İsteğe bağlı kapasite: Hekim, Günlük Kapasite, Çalışılan Gün"
+  ],
+  "ciktilar": ["Excel: Hekim Bazında (oranlar, fazla randevu önerisi), Bölüm Bazında, Haftanın Günü, Uyarılar"],
+  "internet": false
+}

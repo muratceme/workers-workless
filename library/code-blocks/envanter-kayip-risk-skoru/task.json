@@ -1,0 +1,12 @@
+{
+  "id": "envanter-kayip-risk-skoru",
+  "tur": "kod",
+  "ad": "Envanter Kayıp Risk Skoru",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --magazalar magaza_gostergeleri.xlsx --sayim-esik 1 --iade-esik 5 --agirlik 40,20,20,20",
+  "girdiler": ["Mağaza göstergeleri (.xlsx/.csv): Mağaza, Bölge, Net Satış, Sayım Farkı (eksik negatif), Fire, İade, İptal (tutar)"],
+  "ciktilar": ["Excel: Denetim Önceliği (skor, sınıf, baskın gösterge), Göstergeler (eşik, ağırlık, zincir ortalaması), Uyarılar"],
+  "internet": false
+}

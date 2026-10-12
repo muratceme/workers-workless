@@ -1,0 +1,16 @@
+{
+  "id": "taburcu-dosyasi-eksik-kontrolu",
+  "tur": "kod",
+  "ad": "Taburcu Dosyası Eksik Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --taburcu taburcu_listesi.xlsx --belgeler belge_listesi.xlsx --kurallar belge_kurallari.xlsx --sure-gun 3",
+  "girdiler": [
+    "Taburcu listesi (.xlsx/.csv): Protokol No, Servis, Hekim, Taburcu Tarihi, koşul sütunları (ör. Ameliyat, Konsültasyon)",
+    "Belge listesi: Protokol No, Belge",
+    "Belge kuralları: Belge, Koşul, Diğer Adlar"
+  ],
+  "ciktilar": ["Excel: Dosya Durumu (eksik belgeler), Servis Özeti, Belge Özeti, Uyarılar"],
+  "internet": false
+}
