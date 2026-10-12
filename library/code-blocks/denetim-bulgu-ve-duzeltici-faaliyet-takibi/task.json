@@ -1,0 +1,12 @@
+{
+  "id": "denetim-bulgu-ve-duzeltici-faaliyet-takibi",
+  "tur": "kod",
+  "ad": "Denetim Bulgu ve Düzeltici Faaliyet Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --bulgular bulgular.xlsx --tarih 12.10.2026",
+  "girdiler": ["Bulgular (.xlsx/.csv): Bulgu No, Denetim, Denetim Tarihi, Tesis, Konu, Bulgu, Derece, Düzeltici Faaliyet, Sorumlu, Termin, Durum, Tamamlanma Tarihi, Kanıt"],
+  "ciktilar": ["Excel: Takip Listesi, Denetim Bazında, Sorumlu Bazında, Konu Bazında, Derece Bazında, Uyarılar"],
+  "internet": false
+}

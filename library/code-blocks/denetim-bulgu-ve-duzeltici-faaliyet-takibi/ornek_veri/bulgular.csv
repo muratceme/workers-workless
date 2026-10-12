@@ -1,0 +1,9 @@
+Bulgu No;Denetim;Denetim Tarihi;Tesis;Konu;Bulgu;Derece;Düzeltici Faaliyet;Sorumlu;Termin;Durum;Tamamlanma Tarihi;Kanıt
+B-01;BSCI;15.08.2026;Fabrika 1;İş sağlığı ve güvenliği;Acil çıkış kapısının önü malzemeyle kapalı;Kritik;Çıkış önleri boşaltıldı ve zemin işaretlendi;İSG Uzmanı;20.08.2026;Tamamlandı;19.08.2026;Var
+B-02;BSCI;15.08.2026;Fabrika 1;Çalışma saatleri;Fazla mesai haftalık sınırı aşıyor;Majör;Vardiya planı yeniden düzenlenecek;İK Müdürü;30.09.2026;Devam ediyor;;
+B-03;BSCI;15.08.2026;Fabrika 1;İş sağlığı ve güvenliği;Yangın tüplerinin kontrol etiketleri eksik;Minör;Tüpler kontrol edilip etiketlenecek;İSG Uzmanı;20.10.2026;Açık;;
+B-04;Sedex SMETA;01.09.2026;Fabrika 1;Ücretler;Bordro ile puantaj kayıtları uyuşmuyor;Majör;;;;Açık;;
+B-05;Sedex SMETA;01.09.2026;Fabrika 1;Çevre;Kimyasal deposunda taşma havuzu yok;Majör;Taşma havuzu kurulacak;Bakım Şefi;30.11.2026;Açık;;
+B-06;Müşteri denetimi;10.09.2026;Fabrika 2;İş sağlığı ve güvenliği;Kişisel koruyucu donanım zimmet formları imzasız;Minör;Formlar imzalatıldı;İSG Uzmanı;25.09.2026;Tamamlandı;05.10.2026;Yok
+B-07;Müşteri denetimi;10.09.2026;Fabrika 2;Yönetim sistemi;Alt yüklenici listesi güncel değil;Gözlem;Liste güncellenecek;Satın Alma Sorumlusu;15.10.2026;Devam ediyor;;
+B-08;BSCI;15.08.2026;Fabrika 1;Çalışma saatleri;Haftalık izin günü kayıtları eksik;Majör;Kayıt düzeni kurulacak;İK Müdürü;15.09.2026;Açık;;

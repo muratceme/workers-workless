@@ -1,0 +1,6 @@
+Denetim No;Tarih;Sipariş No;Model;Atölye;Müşteri;Parti Adedi;Numune Adedi;Kabul Kritik;Kabul Majör;Kabul Minör;Denetçi
+FD-01;05.10.2026;SP-100;TS-1001;Örnek Atölye A;Deneme Giyim;1200;80;0;5;7;Denetçi 1
+FD-02;06.10.2026;SP-101;GM-2002;Örnek Atölye B;Deneme Giyim;500;50;0;3;5;Denetçi 1
+FD-03;07.10.2026;SP-102;PN-3003;Örnek Atölye B;Kurgu Moda;3200;125;0;7;10;Denetçi 2
+FD-04;07.10.2026;SP-103;TS-1005;Örnek Atölye A;Kurgu Moda;150;20;0;1;2;Denetçi 2
+FD-05;08.10.2026;SP-104;EL-4004;Örnek Atölye C;Deneme Giyim;800;80;0;5;;Denetçi 1

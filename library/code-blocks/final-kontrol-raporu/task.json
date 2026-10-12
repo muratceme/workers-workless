@@ -1,0 +1,15 @@
+{
+  "id": "final-kontrol-raporu",
+  "tur": "kod",
+  "ad": "Final Kontrol Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --denetimler denetimler.xlsx --hatalar hatalar.xlsx",
+  "girdiler": [
+    "Denetimler (.xlsx/.csv): Denetim No, Sipariş No, Model, Atölye, Müşteri, Parti Adedi, Numune Adedi, Kabul Kritik, Kabul Majör, Kabul Minör, Tarih, Denetçi",
+    "Hatalar: Denetim No, Hata, Sınıf (Kritik / Majör / Minör), Adet, Bölge"
+  ],
+  "ciktilar": ["Excel: Denetim Sonuçları (KABUL / RET), Hata Dağılımı, Atölye Bazında, Uyarılar"],
+  "internet": false
+}

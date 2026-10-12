@@ -1,0 +1,12 @@
+{
+  "id": "fason-hakedis-hesaplama",
+  "tur": "kod",
+  "ad": "Fason Hakediş Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --teslimler fason_teslimler.xlsx --tolerans 1 --kdv 10 --tevkifat 7/10",
+  "girdiler": ["Fason teslimler (.xlsx/.csv): Atölye, Sipariş No, Model, Verilen Adet, Sağlam Adet, Defolu Adet, Birim Fiyat, Malzeme Bedeli, Avans, Diğer Kesinti"],
+  "ciktilar": ["Excel: Hakediş Özeti (atölye bazında net ödenecek), Satırlar, Uyarılar"],
+  "internet": false
+}

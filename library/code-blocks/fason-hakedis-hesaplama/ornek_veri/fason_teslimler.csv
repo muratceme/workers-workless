@@ -1,0 +1,5 @@
+Atölye;Sipariş No;Model;Verilen Adet;Sağlam Adet;Defolu Adet;Birim Fiyat;Malzeme Bedeli;Avans;Diğer Kesinti
+Örnek Atölye A;SP-100;TS-1001 Beyaz;1.025;1.000;15;40,00;180,00;10.000,00;
+Örnek Atölye A;SP-100;TS-1001 Siyah;822;815;5;40,00;180,00;;
+Örnek Atölye B;SP-101;GM-2002;500;460;25;65,00;320,00;5.000,00;1.500,00
+Örnek Atölye B;SP-102;PN-3003;300;310;0;55,00;250,00;;

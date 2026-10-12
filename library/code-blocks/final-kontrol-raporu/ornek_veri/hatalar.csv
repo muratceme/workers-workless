@@ -1,0 +1,16 @@
+Denetim No;Hata;Sınıf;Adet;Bölge
+FD-01;Dikiş atlaması;Majör;2;Yan dikiş
+FD-01;Leke;Majör;2;Ön beden
+FD-01;İplik ucu;Minör;6;Genel
+FD-02;Ölçü dışı;Majör;3;Boy
+FD-02;Dikiş atlaması;Majör;2;Kol
+FD-02;İplik ucu;Minör;2;Genel
+FD-03;Kırık iğne ucu;Kritik;1;Yaka
+FD-03;Leke;Majör;2;Arka beden
+FD-03;Renk farkı;Majör;1;Kol
+FD-03;İplik ucu;Minör;3;Genel
+FD-03;Ütü izi;Minör;1;Ön beden
+FD-05;Leke;Majör;2;Ön beden
+FD-05;İplik ucu;Minör;5;Genel
+FD-05;Ütü izi;Minör;4;Etek
+FD-99;Leke;Majör;1;
