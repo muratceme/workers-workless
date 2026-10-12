@@ -1,0 +1,15 @@
+{
+  "id": "kategori-performans-raporu",
+  "tur": "kod",
+  "ad": "Kategori Performans Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --satislar urun_satislari.xlsx --pazar pazar_verisi.xlsx --donem-gun 30",
+  "girdiler": [
+    "Ürün satışları (.xlsx/.csv): Kategori, Marka, Ürün, Satış Adedi, Net Satış, SMM, Stok (maliyet), Önceki Dönem Satış",
+    "İsteğe bağlı pazar verisi: Kategori, Pazar Cirosu"
+  ],
+  "ciktilar": ["Excel: Kategori Özeti, Marka Bazında, Ürün Bazında (performans işaretleri, ABC), Uyarılar"],
+  "internet": false
+}

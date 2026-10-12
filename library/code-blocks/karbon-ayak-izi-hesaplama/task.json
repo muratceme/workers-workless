@@ -1,0 +1,16 @@
+{
+  "id": "karbon-ayak-izi-hesaplama",
+  "tur": "kod",
+  "ad": "Karbon Ayak İzi Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --tuketimler tuketimler.xlsx --faktorler emisyon_faktorleri.xlsx --uretim uretim.xlsx",
+  "girdiler": [
+    "Tüketimler (.xlsx/.csv): Dönem, Tesis, Kaynak, Miktar, Birim",
+    "Emisyon faktörleri: Kaynak, Birim, Emisyon Faktörü (kg CO2e / birim), Kapsam, Kaynakça (değerleri siz girersiniz)",
+    "İsteğe bağlı üretim: Dönem, Tesis, Üretim Miktarı"
+  ],
+  "ciktilar": ["Excel: Özet (kapsam 1-2-3, ürün başına), Dönem Bazında, Kaynak Bazında, Tesis Bazında, Faktörler, Uyarılar"],
+  "internet": false
+}

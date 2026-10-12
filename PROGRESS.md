@@ -367,16 +367,28 @@
   argparse değişkeni `a` iken `for a in ...` döngüsü onu ezer (acente karnesinde yakalandı) → döngü değişkenine başka ad ver;
   kur.py artık çıktıyı UTF-8 yazıyor (cp1254 hatası giderildi). Bu turda internetten kaynak teyidi yapılmadı: TTK 1427 (45 gün),
   halefiyet ve BSMV atıfları README'lerde genel ifadeyle ve "hukuk birimine danışın" notuyla geçiyor.
-- Devam (2026-10-11, 15. tur — kullanım sınırı nedeniyle 6 pakette durdu, hepsi kod bloğu): `fire-ve-verim-analizi`,
-  `kapasite-darbogaz-analizi` (kaydırma önerisi sezgisel), `olcum-verisi-uygunluk-kontrolu` (nokta = ondalık, binlik yok),
-  `mtbf-ve-mttr-analizi`, `zaman-etudu-ve-standart-sure`, `hat-dengeleme` (RPW / LCT). Turun kalan 9 paketi yapılmadı.
-- **Toplam 184 paket**, kontrol 184/184.
+- Devam (2026-10-11 / 12, 15. tur, 15 paket, hepsi kod bloğu): `fire-ve-verim-analizi` (standart üstü fire kayıt bazında
+  toplanır), `kapasite-darbogaz-analizi` (yükleme %, sezgisel kaydırma önerisi, termin riski), `olcum-verisi-uygunluk-kontrolu`
+  (nokta = ondalık, binlik yok; sınıra yakın), `mtbf-ve-mttr-analizi` (çalışma süresi ÷ arıza sayısı), `zaman-etudu-ve-standart-sure`
+  (performans, tolerans, frekans, gerekli gözlem sayısı), `hat-dengeleme` (RPW / LCT), `test-sonuclari-spesifikasyon-karsilastirmasi`
+  (prototipler arası marj eğilimi), `numune-olcu-kontrolu` (geniş ölçü tablosu, kritik ölçü), `kesim-foyu-ve-fire-raporu`
+  (beden-renk kesim %, plana göre kesim firesi), `fason-hakedis-hesaplama` (tolerans adedi, malzeme kesintisi; KDV / tevkifat
+  varsayılan 0, kullanıcı verir), `final-kontrol-raporu` (hata sayısı ↔ kullanıcının girdiği kabul sayıları; plan üretmez),
+  `denetim-bulgu-ve-duzeltici-faaliyet-takibi` (CAP takip durumu; standardı yorumlamaz), `karbon-ayak-izi-hesaplama` (emisyon
+  faktörü kullanıcıdan; örnek faktörler "doğrulanmamış" etiketli), `musteri-haftalik-durum-raporu` (TR / EN rapor metni),
+  `kategori-performans-raporu` (marj, stok gün, GMROI, ABC, işaretler).
+  Dersler: liste üretecinin koşulunda `dict.pop()` her adımda çağrılır → önce değişkene al; "sevk" gibi kısa anahtar sözcük
+  "Sevke hazır"ı da yakalar → anahtarı uzat; elle hesaplanan sezgisel sonuçları (kaydırma, hat dengeleme) koşturup doğrula.
+  Bu turda da internetten kaynak teyidi yapılmadı.
+- **Toplam 193 paket**, kontrol 193/193.
 
 ### KALDIĞIM YER
-Sıradaki (puan 3, 15. turun kalanı — 9 paket): Test Sonuçları Spesifikasyon Karşılaştırması, tekstil (Numune Ölçü
-Kontrolü, Kesim Föyü ve Fire Raporu, Fason Hakediş Hesaplama, Final Kontrol Raporu, Denetim Bulgu ve DF Takibi, Karbon Ayak İzi),
-sonra perakende / e-ticaret. Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti
-Kök Neden Analizi, Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti. Epikriz, ÖSS ve SGK fatura (puan 5) sonda.
+Sıradaki (puan 3): perakende / e-ticaret (Mağaza Vardiya Planlama, Kampanya Etki Analizi, Mağazalar Arası Transfer Önerisi,
+Sepet Birliktelik Analizi, Envanter Kayıp Risk Skoru, Kanallar Arası Stok ve Fiyat Kontrolü, E-ticaret Satış Performans Raporu,
+Geciken Sipariş Takibi, Pazaryeri Reklam Analizi), sağlık (Randevu Doluluk ve Gelmeme, Taburcu Dosyası Eksik Kontrolü, Kesinti ve
+İtiraz Takibi, Medula Ret Analizi, Kalite Göstergeleri, Tedavi Fiyat Teklifi), sonra lojistik ve inşaat. Agent olarak bekleyenler:
+Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden, Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu
+Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi, Planogram Uyum. Epikriz, ÖSS ve SGK fatura (puan 5) sonda.
 Kullanıcı tur boyunu 15 pakete çıkardı (15 paket → dur → /compact).
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.

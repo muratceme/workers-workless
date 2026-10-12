@@ -1,0 +1,12 @@
+{
+  "id": "musteri-haftalik-durum-raporu",
+  "tur": "kod",
+  "ad": "Müşteri Haftalık Durum Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --siparisler siparisler.xlsx --tarih 12.10.2026 --dil en",
+  "girdiler": ["Siparişler (.xlsx/.csv): Müşteri, Sipariş No, Model, Renk, Sipariş Adedi, Aşama, Planlanan Sevk, Tahmini Sevk, Sevk Edilen Adet, Not"],
+  "ciktilar": ["Excel: Sipariş Durumu, Müşteri Özeti, Uyarılar", "Metin: müşteri bazında haftalık durum raporu, Türkçe veya İngilizce (haftalik_durum_raporu.txt)"],
+  "internet": false
+}

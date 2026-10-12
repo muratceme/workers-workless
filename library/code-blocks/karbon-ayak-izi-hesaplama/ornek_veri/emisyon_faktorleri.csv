@@ -1,0 +1,4 @@
+Kaynak;Birim;Emisyon Faktörü (kg CO2e / birim);Kapsam;Kaynakça
+Doğal gaz;m³;2,00;1;ÖRNEK DEĞER - doğrulanmamıştır, kendi kaynağınızı ve yılını yazın
+Motorin;L;2,68;1;ÖRNEK DEĞER - doğrulanmamıştır, kendi kaynağınızı ve yılını yazın
+Elektrik;kWh;0,44;2;ÖRNEK DEĞER - doğrulanmamıştır, şebeke faktörü yıla göre değişir

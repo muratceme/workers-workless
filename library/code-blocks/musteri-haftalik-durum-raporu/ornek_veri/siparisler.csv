@@ -1,0 +1,9 @@
+Müşteri;Sipariş No;Model;Renk;Sipariş Adedi;Aşama;Planlanan Sevk;Tahmini Sevk;Sevk Edilen Adet;Not
+Deneme Giyim;PO-501;TS-1001;Beyaz;1000;Dikim;20.10.2026;20.10.2026;;
+Deneme Giyim;PO-502;TS-1001;Siyah;800;Kesim;16.10.2026;;;
+Deneme Giyim;PO-503;GM-2002;Lacivert;500;Yıkama;15.10.2026;22.10.2026;;Yıkama tekrarı yapılıyor
+Deneme Giyim;PO-504;PN-3003;Haki;300;Sevk edildi;05.10.2026;05.10.2026;300;
+Kurgu Moda;PO-601;EL-4004;Kırmızı;1200;Final kontrol;14.10.2026;;;
+Kurgu Moda;PO-602;EL-4005;Mavi;600;Dikim;08.10.2026;;;Aksesuar geç geldi
+Kurgu Moda;PO-603;KB-5005;Siyah;900;Ütü-paket;18.10.2026;;400;
+Kurgu Moda;PO-604;KB-5006;Bej;400;Nakış;30.10.2026;;;
