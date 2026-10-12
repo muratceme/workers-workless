@@ -1,0 +1,15 @@
+{
+  "id": "parsiyel-hakedis-ve-karlilik-hesabi",
+  "tur": "kod",
+  "ad": "Parsiyel Hakediş ve Kârlılık Hesabı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --yukler yukler.xlsx --seferler sefer_maliyetleri.xlsx --anahtar ldm",
+  "girdiler": [
+    "Yükler (.xlsx/.csv): Sefer, Müşteri, Yük Ref, Navlun Geliri, LDM, Ağırlık (kg)",
+    "Sefer maliyetleri: Sefer, Araç Maliyeti, Kapasite LDM"
+  ],
+  "ciktilar": ["Excel: Araç Özeti (kâr, doluluk), Yük Bazında (maliyet payı, kâr), Müşteri Bazında, Uyarılar"],
+  "internet": false
+}

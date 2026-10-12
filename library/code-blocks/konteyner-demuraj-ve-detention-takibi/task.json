@@ -1,0 +1,15 @@
+{
+  "id": "konteyner-demuraj-ve-detention-takibi",
+  "tur": "kod",
+  "ad": "Konteyner Demuraj ve Detention Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --konteynerler konteynerler.xlsx --tarife tarife.xlsx --tarih 12.10.2026",
+  "girdiler": [
+    "Konteynerler (.xlsx/.csv): Konteyner No, Tip, Hat, Dosya No, Tahliye Tarihi, Limandan Çıkış, Boş İade",
+    "Tarife: Hat, Tip, Ücret Türü (Demuraj / Detention), Gün Başlangıç, Gün Bitiş, Günlük Ücret, Para Birimi"
+  ],
+  "ciktilar": ["Excel: Konteyner Takibi (gün, ücret, kalan serbest gün, günlük işleyen ücret), Uyarılar"],
+  "internet": false
+}

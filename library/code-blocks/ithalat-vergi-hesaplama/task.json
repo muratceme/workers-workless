@@ -1,0 +1,15 @@
+{
+  "id": "ithalat-vergi-hesaplama",
+  "tur": "kod",
+  "ad": "İthalat Vergi Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kalemler ithalat_kalemleri.xlsx --kur 41,25 --yurt-ici-gider 8500",
+  "girdiler": [
+    "İthalat kalemleri (.xlsx/.csv): Kalem / GTİP, Açıklama, CIF Kıymet, GV %, İGV %, ÖTV %, KDV %, Diğer Vergi",
+    "Kur, KKDF oranı, damga vergisi ve yurt içi gider tutarı (parametre)"
+  ],
+  "ciktilar": ["Excel: Vergi Özeti, Kalem Bazında (matrahlar ve vergiler), Uyarılar"],
+  "internet": false
+}

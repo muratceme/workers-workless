@@ -1,0 +1,12 @@
+{
+  "id": "is-programi-kritik-yol-analizi",
+  "tur": "kod",
+  "ad": "İş Programı Kritik Yol Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --faaliyetler faaliyetler.xlsx --baslangic 12.10.2026 --calisma-gunu 6",
+  "girdiler": ["Faaliyetler (.xlsx/.csv): Faaliyet Kodu, Faaliyet, Süre (gün), Öncüller (virgülle; gecikme için B+2)"],
+  "ciktilar": ["Excel: Faaliyetler (erken / geç zamanlar, bolluklar, tarihler), Kritik Yol, Uyarılar"],
+  "internet": false
+}

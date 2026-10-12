@@ -1,0 +1,16 @@
+{
+  "id": "fiyat-farki-hesaplama",
+  "tur": "kod",
+  "ad": "Fiyat Farkı Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --katsayilar katsayilar.xlsx --endeksler endeksler.xlsx --hakedisler hakedisler.xlsx --temel-donem 2026-03",
+  "girdiler": [
+    "Katsayılar (.xlsx/.csv): Katsayı, Değer, Endeks",
+    "Endeksler: Dönem, Endeks, Değer",
+    "Hakedişler: Hakediş No, Dönem, Tutar (An)"
+  ],
+  "ciktilar": ["Excel: Fiyat Farkı (Pn, tutar, kümülatif), Pn Detayı, Uyarılar"],
+  "internet": false
+}

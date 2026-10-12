@@ -1,0 +1,15 @@
+{
+  "id": "yuk-planlama-ldm-ve-palet",
+  "tur": "kod",
+  "ad": "Yük Planlama (LDM ve Palet)",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --yukler yukler.xlsx --araclar arac_tipleri.xlsx",
+  "girdiler": [
+    "Yükler (.xlsx/.csv): Yük, Adet, Boy (cm), En (cm), Yükseklik (cm), Ağırlık (kg), İstif Katı",
+    "Araç tipleri: Araç Tipi, Yükleme Uzunluğu (m), İç Genişlik (m), İç Yükseklik (m), Kapasite (kg)"
+  ],
+  "ciktilar": ["Excel: Yük Planı (LDM, ağırlık, hacim, önerilen araç), Araç Uygunluğu, Uyarılar"],
+  "internet": false
+}

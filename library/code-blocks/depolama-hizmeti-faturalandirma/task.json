@@ -1,0 +1,16 @@
+{
+  "id": "depolama-hizmeti-faturalandirma",
+  "tur": "kod",
+  "ad": "Depolama Hizmeti Faturalandırma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --hareketler stok_hareketleri.xlsx --tarife tarife.xlsx --hizmetler hizmetler.xlsx --donem 2026-09",
+  "girdiler": [
+    "Stok hareketleri (.xlsx/.csv): Müşteri, Tarih, Tür (Giriş / Çıkış / Devir), Palet",
+    "Tarife: Müşteri, Kalem (Depolama / Giriş / Çıkış / Asgari), Birim Fiyat",
+    "İsteğe bağlı hizmetler: Müşteri, Hizmet, Adet, Birim Fiyat, Tarih"
+  ],
+  "ciktilar": ["Excel: Fatura Özeti, Fatura Kalemleri, Stok Hareketi, Uyarılar"],
+  "internet": false
+}

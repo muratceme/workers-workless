@@ -1,0 +1,9 @@
+Faaliyet Kodu;Faaliyet;Süre (gün);Öncüller
+A;Kazı;5;
+B;Temel;10;A
+C;Kaba yapı;20;B
+D;Çatı;7;C
+E;Tesisat;12;C
+F;Sıva;10;D, E
+G;Doğrama;6;C
+H;Boya;5;F, G

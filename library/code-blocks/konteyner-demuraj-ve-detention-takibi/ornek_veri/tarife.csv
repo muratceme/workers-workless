@@ -1,0 +1,10 @@
+Hat;Tip;Ücret Türü;Gün Başlangıç;Gün Bitiş;Günlük Ücret;Para Birimi
+;20DC;Demuraj;1;7;0,00;USD
+;20DC;Demuraj;8;14;40,00;USD
+;20DC;Demuraj;15;;80,00;USD
+;40HC;Demuraj;1;7;0,00;USD
+;40HC;Demuraj;8;14;70,00;USD
+;40HC;Demuraj;15;;140,00;USD
+;;Detention;1;10;0,00;USD
+;;Detention;11;20;30,00;USD
+;;Detention;21;;60,00;USD

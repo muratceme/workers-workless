@@ -1,0 +1,15 @@
+{
+  "id": "metraj-cetveli-kontrolu",
+  "tur": "kod",
+  "ad": "Metraj Cetveli Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --metraj metraj_cetveli.xlsx --icmal icmal.xlsx",
+  "girdiler": [
+    "Metraj cetveli (.xlsx/.csv): Poz No, Tanım, Benzer, Adet, Boy, En, Yükseklik, Miktar, Minha",
+    "İsteğe bağlı icmal: Poz No, Miktar"
+  ],
+  "ciktilar": ["Excel: Satır Kontrolü (hesap hataları, mükerrer satırlar), Poz Toplamları, Uyarılar"],
+  "internet": false
+}

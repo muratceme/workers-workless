@@ -1,0 +1,15 @@
+{
+  "id": "yakit-tuketim-analizi",
+  "tur": "kod",
+  "ad": "Yakıt Tüketim Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --alimlar yakit_alimlari.xlsx --araclar araclar.xlsx --tolerans 10",
+  "girdiler": [
+    "Yakıt alımları (.xlsx/.csv): Plaka, Tarih, Km (sayaç), Litre, Tutar, Sürücü",
+    "İsteğe bağlı araçlar: Plaka, Hedef Tüketim (L/100 km), Depo Kapasitesi (L), Araç Tipi"
+  ],
+  "ciktilar": ["Excel: Araç Bazında (tüketim, sapma, km başına maliyet), Sürücü Bazında, Dilimler, Uyarılar"],
+  "internet": false
+}

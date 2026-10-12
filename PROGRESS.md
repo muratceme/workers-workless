@@ -397,18 +397,36 @@
   ön ek; iki sözlüğü `|` ile birleştirirken aynı anahtar (ad ↔ sayı) ezilir → alan adlarını ayır.
   Bu turda da internetten kaynak teyidi yapılmadı: vardiya paketindeki İş Kanunu sınırları, sağlık paketlerindeki SKS / Medula /
   sağlık turizmi atıfları genel ifadeyle ve "doğrulayın" notuyla geçiyor; kodlar hiçbir mevzuat değerini sabit varsaymıyor.
-- **Toplam 208 paket**, kontrol 208/208.
+- Devam (2026-10-12, 17. tur, 15 paket, hepsi kod bloğu): `yuk-planlama-ldm-ve-palet` (zemin yeri × boy × en ÷ 2,4; araç tipleri
+  dosyadan), `sefer-karlilik-hesabi` (sefere yazılan masraflar; km başına), `parsiyel-hakedis-ve-karlilik-hesabi` (araç maliyeti
+  LDM / kg / gelire göre dağıtılır; kuruş farkı son yükte), `navlun-teklif-hesaplama` (hava 1:6000 + 0,5 kg yuvarlama; deniz W/M;
+  tarife dosyadan), `konteyner-demuraj-ve-detention-takibi` (gün dilimli tarife; hat + tip önceliği; başlangıç günü dahil /
+  hariç), `ithalat-vergi-hesaplama` (GV, İGV, KKDF, ÖTV, KDV matrah sırası; oranlar kullanıcıdan), `depolama-hizmeti-
+  faturalandirma` (gün sonu stokuyla palet-gün; asgari fatura), `yakit-tuketim-analizi` (ilk alım hariç litre ÷ km; şüpheli
+  dilim), `surucu-calisma-ve-dinlenme-suresi-kontrolu` (günlük özetten 9 / 10, 4,5, 11 / 9, 56, 90 saat kontrolleri),
+  `metraj-cetveli-kontrolu` (çarpım yeniden hesaplanır; virgül ve nokta ondalık), `birim-fiyat-analizi` (rayiç eşleştirme; %25
+  kâr ve genel gider parametre), `proje-maliyet-kontrol-raporu` (kalem bazında EV, EAC; iki yöntem), `fiyat-farki-hesaplama`
+  (Pn = Σ katsayı × endeks oranı; F = An × B × (Pn − 1)), `is-programi-kritik-yol-analizi` (FS + gecikme; 5 / 6 / 7 günlük hafta),
+  `kazanilmis-deger-analizi` (SPI, CPI, üç EAC, TCPI).
+  Dersler: ölçü, miktar, katsayı ve endeks gibi alanlarda `para()` "12.500"ü 12500 okur → bu alanlarda virgül ve noktayı ondalık
+  sayan yerel çözücü kullan (metraj, birim fiyat, fiyat farkı); yuvarlanmış orana göre eşik testi yazarken sınırın hemen
+  ötesindeki değer yuvarlamayla sınıra düşebilir (900,01 → %10,00) → testte belirgin değer kullan; örnek dosya başlığına
+  parantezli birim eklenince ("Hedef Tüketim (L/100 km)") takma ad listesine katlanmış halini de ekle.
+  Bu turda da internetten kaynak teyidi yapılmadı. En çok doğrulama isteyenler: ithalat vergisinde matrah sırası, fiyat farkı
+  formülü ve B = 0,90, AETR sınırları, hava kargoda 0,5 kg yuvarlama. Hepsi parametreli ve README'lerde "doğrulayın" notlu.
+- **Toplam 223 paket**, kontrol 223/223.
 
 ### KALDIĞIM YER
-Sıradaki (puan 3): sağlığın kalanı (Provizyon ve Sigorta Bilgisi Ön Kontrolü), lojistik (Yük Planlama LDM ve Palet, Sefer
-Kârlılık Hesabı, Parsiyel Hakediş ve Kârlılık, Navlun Teklif Hesaplama, Konteyner Demuraj ve Detention Takibi, İthalat Vergi
-Hesaplama, Depolama Hizmeti Faturalandırma, Yakıt Tüketim Analizi, Sürücü Çalışma ve Dinlenme Süresi Kontrolü), inşaat (Metraj
-Cetveli Kontrolü, Birim Fiyat Analizi, Proje Maliyet Kontrol Raporu, Fiyat Farkı Hesaplama, İş İlerleme Raporu, Kritik Yol
-Analizi, Kazanılmış Değer Analizi, Teklif Birim Fiyat Karşılaştırması), sonra gıda ve otelcilik. Agent olarak bekleyenler:
-Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden, Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu
-Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi, Planogram Uyum, Hasta Şikâyet Sınıflandırma, Hasta
-Memnuniyet Anketi Analizi, Müşteri Yük Durum Bilgilendirmesi, Konşimento Bilgi Çıkarma, Günlük Şantiye Raporu. Epikriz, ÖSS ve
-SGK fatura (puan 5) sonda.
+Sıradaki (puan 3): Provizyon ve Sigorta Bilgisi Ön Kontrolü, İş İlerleme Raporu, Teklif Birim Fiyat Karşılaştırması; gıda
+(Geri Çağırma Simülasyonu, Analiz Sonucu Spesifikasyon Kontrolü, Parti Verim ve Fire Raporu, Reçete Maliyet Hesaplama, Bayi ve
+Distribütör Satış Raporu); otelcilik (Acente Kontenjan Takibi, Rezervasyon Pick-up Raporu, Dinamik Fiyat Önerisi, Oda Temizlik
+Atama Planı, Menü Mühendisliği Analizi, Porsiyon Maliyeti Hesaplama); mali müşavirlik ve hukuk (Mükellef Evrak Eksik Takibi,
+Mükellef Beyanname Takvimi, Geçici Vergi Hesaplama, Duruşma ve Kesin Süre Takvimi, İcra Dosyası Faiz ve Alacak Hesabı); sonra
+otomotiv ve eğitim. Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,
+Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi,
+Planogram Uyum, Hasta Şikâyet Sınıflandırma, Hasta Memnuniyet Anketi Analizi, Müşteri Yük Durum Bilgilendirmesi, Konşimento Bilgi
+Çıkarma, Günlük Şantiye Raporu, Etiket Bilgisi Kontrolü, Misafir Mesajlarına Cevap Taslağı, Yorum Cevap Taslağı, Karar ve İçtihat
+Özeti. Epikriz, ÖSS ve SGK fatura (puan 5) sonda.
 Kullanıcı tur boyunu 15 pakete çıkardı (15 paket → dur → /compact).
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.

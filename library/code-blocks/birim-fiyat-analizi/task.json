@@ -1,0 +1,15 @@
+{
+  "id": "birim-fiyat-analizi",
+  "tur": "kod",
+  "ad": "Birim Fiyat Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --analiz analiz_girdileri.xlsx --rayicler rayicler.xlsx --kar-orani 25",
+  "girdiler": [
+    "Analiz girdileri (.xlsx/.csv): Poz No, Poz Tanımı, Ölçü Birimi, Tür, Rayiç No, Girdi, Birim, Miktar, Birim Fiyat",
+    "İsteğe bağlı rayiçler: Rayiç No, Tanım, Birim, Fiyat"
+  ],
+  "ciktilar": ["Excel: Poz Özeti (analiz toplamı, kâr ve genel gider, birim fiyat), Analiz Detayı, Uyarılar"],
+  "internet": false
+}

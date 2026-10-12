@@ -1,0 +1,12 @@
+{
+  "id": "proje-maliyet-kontrol-raporu",
+  "tur": "kod",
+  "ad": "Proje Maliyet Kontrol Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kalemler is_kalemleri.xlsx --yontem performans --sozlesme-bedeli 28000000",
+  "girdiler": ["İş kalemleri (.xlsx/.csv): İş Kalemi, Bütçe, Gerçekleşen Maliyet, Tamamlanma %, Hakediş Geliri"],
+  "ciktilar": ["Excel: Maliyet Kontrol (kazanılan değer, maliyet sapması, tamamlanma tahmini, durum), Uyarılar"],
+  "internet": false
+}

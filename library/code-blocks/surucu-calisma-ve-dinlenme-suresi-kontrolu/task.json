@@ -1,0 +1,12 @@
+{
+  "id": "surucu-calisma-ve-dinlenme-suresi-kontrolu",
+  "tur": "kod",
+  "ad": "Sürücü Çalışma ve Dinlenme Süresi Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kayitlar takograf_ozeti.xlsx",
+  "girdiler": ["Günlük takograf özeti (.xlsx/.csv): Sürücü, Tarih, Sürüş Süresi, En Uzun Kesintisiz Sürüş, Günlük Dinlenme, Plaka"],
+  "ciktilar": ["Excel: İhlaller, Sürücü Özeti, Haftalık Toplamlar, Günlük Kayıtlar, Uyarılar"],
+  "internet": false
+}

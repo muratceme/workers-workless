@@ -1,0 +1,5 @@
+Sefer No;Tarih;Müşteri;Güzergah;Km;Navlun Geliri;Alt Nakliyeci;Yakıt;Otoyol;Gümrük;Harcırah;Diğer
+S-01;01.10.2026;Müşteri A;İstanbul - Münih;2.000;3.000,00;0,00;1.100,00;300,00;150,00;250,00;100,00
+S-02;03.10.2026;Müşteri A;İstanbul - Münih;2.000;2.800,00;2.600,00;0,00;0,00;150,00;0,00;0,00
+S-03;05.10.2026;Müşteri B;İstanbul - Milano;2.300;3.200,00;0,00;1.300,00;450,00;150,00;300,00;1.100,00
+S-04;08.10.2026;Müşteri B;İstanbul - Milano;2.300;3.400,00;0,00;1.250,00;450,00;150,00;300,00;50,00

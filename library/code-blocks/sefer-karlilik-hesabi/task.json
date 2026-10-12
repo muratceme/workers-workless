@@ -1,0 +1,12 @@
+{
+  "id": "sefer-karlilik-hesabi",
+  "tur": "kod",
+  "ad": "Sefer Kârlılık Hesabı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --seferler seferler.xlsx --marj-esik 10",
+  "girdiler": ["Seferler (.xlsx/.csv): Sefer No, Tarih, Müşteri, Güzergah, Km, Navlun Geliri, Alt Nakliyeci, Yakıt, Otoyol, Gümrük, Harcırah, Diğer"],
+  "ciktilar": ["Excel: Sefer Bazında (kâr, marj, km başına), Müşteri Bazında, Güzergah Bazında, Uyarılar"],
+  "internet": false
+}

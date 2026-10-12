@@ -1,0 +1,15 @@
+{
+  "id": "navlun-teklif-hesaplama",
+  "tur": "kod",
+  "ad": "Navlun Teklif Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kaplar kaplar.xlsx --tarife tarife.xlsx --mod hava",
+  "girdiler": [
+    "Kaplar (.xlsx/.csv): Kap, Adet, Boy (cm), En (cm), Yükseklik (cm), Ağırlık (kg)",
+    "Tarife: Kalem, Birim (Ücrete esas / Kap / Sabit), Birim Fiyat, Asgari, Para Birimi"
+  ],
+  "ciktilar": ["Excel: Teklif (ücrete esas ağırlık veya W/M, masraf kalemleri, toplam), Kap Listesi, Uyarılar"],
+  "internet": false
+}

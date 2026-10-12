@@ -1,0 +1,8 @@
+Poz No;Tanım;Benzer;Adet;Boy;En;Yükseklik;Miktar;Minha
+POZ-01;Temel T1 betonu;1;4;2,00;1,50;0,50;6,00;
+POZ-01;Kolon K1 betonu;1;8;0,40;0,40;3,00;3,84;
+POZ-01;Kiriş B1 betonu;2;3;4,00;0,25;0,50;2,50;
+POZ-01;Kolon K1 betonu;1;8;0,40;0,40;3,00;3,84;
+POZ-02;Dış duvar;1;1;20,00;;3,00;60,00;
+POZ-02;Pencere boşluğu;1;4;1,20;;1,50;-7,20;Evet
+POZ-02;İç duvar;1;1;12,50;;3,00;;

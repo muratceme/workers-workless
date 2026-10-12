@@ -1,0 +1,10 @@
+Poz No;Poz Tanımı;Ölçü Birimi;Tür;Rayiç No;Girdi;Birim;Miktar;Birim Fiyat
+POZ-01;Beton dökülmesi (örnek analiz, miktarlar kurgusal);m³;Malzeme;R-101;Çimento;ton;0,25;
+POZ-01;;;Malzeme;R-102;Kum-çakıl;m³;1,20;
+POZ-01;;;Malzeme;R-103;Su;m³;0,15;
+POZ-01;;;İşçilik;R-201;Düz işçi;saat;4,00;
+POZ-01;;;İşçilik;R-202;Usta;saat;1,00;
+POZ-01;;;Makine;R-301;Betoniyer;saat;0,50;
+POZ-02;Sıva yapılması (örnek analiz, miktarlar kurgusal);m²;Malzeme;R-104;Hazır harç;m³;0,03;
+POZ-02;;;İşçilik;R-202;Usta;saat;0,80;
+POZ-02;;;İşçilik;R-201;Düz işçi;saat;0,80;

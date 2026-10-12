@@ -1,0 +1,12 @@
+{
+  "id": "kazanilmis-deger-analizi",
+  "tur": "kod",
+  "ad": "Kazanılmış Değer Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --donemler donemler.xlsx --bac 12000000",
+  "girdiler": ["Dönemler (.xlsx/.csv): Dönem, Planlanan Değer, Kazanılmış Değer, Gerçekleşen Maliyet"],
+  "ciktilar": ["Excel: Özet (SV, CV, SPI, CPI, EAC, ETC, VAC, TCPI), Dönem Bazında, Uyarılar"],
+  "internet": false
+}
