@@ -1,0 +1,15 @@
+{
+  "id": "test-sonuclari-spesifikasyon-karsilastirmasi",
+  "tur": "kod",
+  "ad": "Test Sonuçları Spesifikasyon Karşılaştırması",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --sonuclar test_sonuclari.xlsx --spesifikasyon spesifikasyon.xlsx",
+  "girdiler": [
+    "Test sonuçları (.xlsx/.csv): Prototip, Numune, Parametre, Sonuç, Tarih, Koşul",
+    "Spesifikasyon: Parametre, Alt Limit, Üst Limit, Hedef, Birim"
+  ],
+  "ciktilar": ["Excel: Prototip Özeti, Eğilim, Parametre Özeti, Sonuçlar, Uyarılar"],
+  "internet": false
+}

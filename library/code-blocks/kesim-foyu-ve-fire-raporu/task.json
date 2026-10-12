@@ -1,0 +1,16 @@
+{
+  "id": "kesim-foyu-ve-fire-raporu",
+  "tur": "kod",
+  "ad": "Kesim Föyü ve Fire Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --siparis siparis.xlsx --kesim kesim.xlsx --kumas kumas.xlsx",
+  "girdiler": [
+    "Sipariş (.xlsx/.csv): Sipariş No, Model, Renk, Beden, Sipariş Adedi",
+    "Kesim: Sipariş No, Renk, Beden, Kesilen Adet, Pastal No",
+    "İsteğe bağlı kumaş: Sipariş No, Renk, Verilen Kumaş, İade, Planlanan Birim Sarfiyat, Birim"
+  ],
+  "ciktilar": ["Excel: Kesim Föyü (beden-renk karşılaştırma), Kumaş ve Fire, Uyarılar"],
+  "internet": false
+}

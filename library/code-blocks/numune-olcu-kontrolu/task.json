@@ -1,0 +1,15 @@
+{
+  "id": "numune-olcu-kontrolu",
+  "tur": "kod",
+  "ad": "Numune Ölçü Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --olcumler numune_olcumleri.xlsx --tablo olcu_tablosu.xlsx",
+  "girdiler": [
+    "Numune ölçümleri (.xlsx/.csv): Model, Beden, Numune, Ölçü Noktası, Ölçülen",
+    "Ölçü tablosu: Ölçü Noktası, Kritik, Tolerans (±), sonra her beden bir sütun (S, M, L ...)"
+  ],
+  "ciktilar": ["Excel: Numune Özeti, Ölçü Karşılaştırma, Ölçü Noktası Özeti, Uyarılar"],
+  "internet": false
+}

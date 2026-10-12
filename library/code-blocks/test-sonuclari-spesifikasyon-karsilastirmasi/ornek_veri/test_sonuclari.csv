@@ -1,0 +1,25 @@
+Prototip;Numune;Parametre;Sonuç;Tarih;Koşul
+P1;1;Debi;38;01.09.2026;Nominal gerilim
+P1;2;Debi;39;01.09.2026;Nominal gerilim
+P1;1;Gürültü;62;01.09.2026;Nominal gerilim
+P1;2;Gürültü;61;01.09.2026;Nominal gerilim
+P1;1;Akım;2,9;01.09.2026;Nominal gerilim
+P1;2;Akım;3,1;01.09.2026;Nominal gerilim
+P1;1;Sıcaklık artışı;30;01.09.2026;Nominal gerilim
+P1;2;Sıcaklık artışı;31;01.09.2026;Nominal gerilim
+P2;1;Debi;41;15.09.2026;Nominal gerilim
+P2;2;Debi;42;15.09.2026;Nominal gerilim
+P2;1;Gürültü;59;15.09.2026;Nominal gerilim
+P2;2;Gürültü;60;15.09.2026;Nominal gerilim
+P2;1;Akım;2,7;15.09.2026;Nominal gerilim
+P2;2;Akım;2,8;15.09.2026;Nominal gerilim
+P2;1;Sıcaklık artışı;32;15.09.2026;Nominal gerilim
+P2;2;Sıcaklık artışı;33;15.09.2026;Nominal gerilim
+P3;1;Debi;44;01.10.2026;Nominal gerilim
+P3;2;Debi;45;01.10.2026;Nominal gerilim
+P3;1;Gürültü;57;01.10.2026;Nominal gerilim
+P3;2;Gürültü;58;01.10.2026;Nominal gerilim
+P3;1;Akım;2,5;01.10.2026;Nominal gerilim
+P3;2;Akım;2,6;01.10.2026;Nominal gerilim
+P3;1;Sıcaklık artışı;34;01.10.2026;Nominal gerilim
+P3;2;Sıcaklık artışı;36;01.10.2026;Nominal gerilim
