@@ -1,0 +1,7 @@
+Müşteri No;Müşteri;Kredi No;Risk;Gecikme Gün;Hesap Kat Tarihi;Kredi Sözleşmesi;Hesap Kat İhtarı;Tebliğ Şerhi;Teminat Evrakı;Kefil Bilgileri
+5001;Alfa Market;K-11;850000;125;10.09.2026;Var;Var;Var;Var;Var
+5002;Beta Yapı;K-12;2300000;140;01.09.2026;Var;Var;Yok;Var;Var
+5003;Gama Gıda;K-13;420000;95;;Var;Yok;Yok;Var;Gerekmez
+5004;Delta Tekstil;K-14;600000;60;;Var;Yok;Yok;Var;Var
+5005;Epsilon Otomotiv;K-15;1500000;40;05.10.2026;Var;Var;Var;Yok;Var
+5006;Zeta Mobilya;K-16;350000;180;15.07.2026;Var;Var;Var;Gerekmez;Gerekmez

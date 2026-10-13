@@ -1,0 +1,12 @@
+{
+  "id": "tahsilat-ve-avukat-performans-raporu",
+  "tur": "kod",
+  "ad": "Tahsilat ve Avukat Performans Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --dosyalar dosyalar.xlsx",
+  "girdiler": ["Takip dosyaları (.xlsx/.csv): Dosya No, Avukat, Takip Tarihi, Takip Tutarı, Tahsilat, Masraf, Durum"],
+  "ciktilar": ["Excel: Avukatlar (tahsilat oranı, masraf, net), Dosya Yaşı (yaş dilimi bazında), Avukat × Yaş, Dosyalar, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,24 @@
+Dönem;Gösterge;Değer;Hedef;Yön;Birim
+2026-Q1;İncelenen uyarı sayısı;420;;;adet
+2026-Q2;İncelenen uyarı sayısı;465;;;adet
+2026-Q3;İncelenen uyarı sayısı;610;;;adet
+2026-Q1;Ortalama uyarı inceleme süresi;4,2;5;Düşük iyi;gün
+2026-Q2;Ortalama uyarı inceleme süresi;4,8;5;Düşük iyi;gün
+2026-Q3;Ortalama uyarı inceleme süresi;6,5;5;Düşük iyi;gün
+2026-Q1;Şüpheli işlem bildirimi sayısı;12;;;adet
+2026-Q2;Şüpheli işlem bildirimi sayısı;15;;;adet
+2026-Q3;Şüpheli işlem bildirimi sayısı;14;;;adet
+2026-Q1;Uyum eğitimini tamamlayan personel;82;95;Yüksek iyi;%
+2026-Q2;Uyum eğitimini tamamlayan personel;91;95;Yüksek iyi;%
+2026-Q3;Uyum eğitimini tamamlayan personel;96;95;Yüksek iyi;%
+2026-Q1;Müşteri tanıma bilgisi eksik dosya oranı;3,1;2;Düşük iyi;%
+2026-Q2;Müşteri tanıma bilgisi eksik dosya oranı;2,4;2;Düşük iyi;%
+2026-Q3;Müşteri tanıma bilgisi eksik dosya oranı;1,8;2;Düşük iyi;%
+2026-Q1;Yaptırım taramasında bekleyen eşleşme;35;20;Düşük iyi;adet
+2026-Q2;Yaptırım taramasında bekleyen eşleşme;18;20;Düşük iyi;adet
+2026-Q3;Yaptırım taramasında bekleyen eşleşme;25;20;Düşük iyi;adet
+2026-Q1;Süresi geçmiş denetim bulgusu;2;0;Düşük iyi;adet
+2026-Q2;Süresi geçmiş denetim bulgusu;1;0;Düşük iyi;adet
+2026-Q3;Süresi geçmiş denetim bulgusu;0;0;Düşük iyi;adet
+2026-Q1;Gözden geçirilen politika oranı;70;100;Yüksek iyi;%
+2026-Q2;Gözden geçirilen politika oranı;85;100;Yüksek iyi;%

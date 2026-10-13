@@ -1,0 +1,12 @@
+{
+  "id": "mevduat-maliyeti-ve-kredi-getirisi-analizi",
+  "tur": "kod",
+  "ad": "Mevduat Maliyeti ve Kredi Getirisi Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --urunler urunler.xlsx",
+  "girdiler": ["Ürünler (.xlsx/.csv): Ürün, Tür (Mevduat / Kredi), Para Birimi, Bakiye, Faiz Oranı %"],
+  "ciktilar": ["Excel: Marj (para birimi bazında mevduat maliyeti, kredi getirisi, marj, kredi/mevduat oranı), Ürünler (pay, katkı, faiz tutarı), Uyarılar"],
+  "internet": false
+}

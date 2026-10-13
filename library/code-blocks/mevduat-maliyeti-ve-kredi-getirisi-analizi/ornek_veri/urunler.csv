@@ -1,0 +1,12 @@
+Ürün;Tür;Para Birimi;Bakiye;Faiz Oranı %
+Vadesiz Mevduat;Mevduat;TRY;400000000;0
+Vadeli 1 Aya Kadar;Mevduat;TRY;600000000;42
+Vadeli 1-3 Ay;Mevduat;TRY;800000000;45
+Vadeli 3 Ay Üstü;Mevduat;TRY;200000000;40
+Ticari Krediler;Kredi;TRY;900000000;52
+Bireysel İhtiyaç Kredisi;Kredi;TRY;300000000;62
+Konut Kredisi;Kredi;TRY;200000000;30
+Kredi Kartı;Kredi;TRY;100000000;55
+Vadesiz Mevduat;Mevduat;USD;10000000;0
+Vadeli Mevduat;Mevduat;USD;30000000;3,5
+Ticari Krediler;Kredi;USD;25000000;8,5

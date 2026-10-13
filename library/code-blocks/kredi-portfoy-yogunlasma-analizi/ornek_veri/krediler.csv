@@ -1,0 +1,11 @@
+Müşteri;Risk Grubu;Sektör;Teminat Türü;Risk
+Alfa İnşaat;Alfa Grubu;İnşaat;İpotek;3000000
+Alfa Yapı Malzemeleri;Alfa Grubu;İnşaat;Kefalet;1500000
+Beta Tekstil;;Tekstil;İpotek;2000000
+Gama Gıda;;Gıda;Çek;1200000
+Delta Lojistik;Delta Grubu;Lojistik;Araç Rehni;900000
+Delta Depo;Delta Grubu;Lojistik;İpotek;600000
+Epsilon Turizm;;Turizm;İpotek;1800000
+Zeta İnşaat;;İnşaat;Teminatsız;1000000
+Eta Enerji;;Enerji;İpotek;2500000
+Teta Tekstil;;Tekstil;Çek;500000

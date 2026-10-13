@@ -1,0 +1,10 @@
+Müşteri No;Müşteri;Kredi No;Ürün;Risk Bakiyesi;Geciken Tutar;Gecikme Gün;Erken Uyarı;Portföy Yöneticisi
+3001;Alfa Market;K-1;Taksitli Ticari;1200000;85000;72;;Zeynep Ak
+3001;Alfa Market;K-2;Rotatif;400000;0;0;;Zeynep Ak
+3002;Beta Yapı;K-3;Taksitli Ticari;2500000;310000;45;;Zeynep Ak
+3003;Gama Gıda;K-4;İşletme Kredisi;600000;42000;12;;Okan Er
+3004;Delta Tekstil;K-5;Taksitli Ticari;900000;300000;20;;Okan Er
+3005;Epsilon Otomotiv;K-6;Rotatif;1500000;0;0;Çek iadeleri arttı, limit sürekli dolu;Okan Er
+3006;Zeta Mobilya;K-7;İşletme Kredisi;350000;350000;104;;Okan Er
+3007;Eta Plastik;K-8;Taksitli Ticari;800000;0;0;;Zeynep Ak
+3003;Gama Gıda;K-9;Rotatif;200000;15000;30;;Okan Er

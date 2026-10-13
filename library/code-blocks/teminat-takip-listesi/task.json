@@ -1,0 +1,12 @@
+{
+  "id": "teminat-takip-listesi",
+  "tur": "kod",
+  "ad": "Teminat Takip Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --teminatlar teminatlar.xlsx --riskler riskler.xlsx --oranlar oranlar.xlsx",
+  "girdiler": ["Teminatlar (.xlsx/.csv): Müşteri No, Müşteri, Teminat Türü, Teminat Değeri, Geçerlilik Tarihi, Ekspertiz Tarihi, Sigorta Bitiş, Açıklama", "Riskler (isteğe bağlı): Müşteri No, Müşteri, Kredi Riski", "Oranlar (isteğe bağlı): Teminat Türü, Dikkate Alma Oranı"],
+  "ciktilar": ["Excel: Teminatlar (durum, dikkate alınan değer, yapılacak), Müşteriler (karşılama oranı, teminat açığı), Teminat Türleri, Uyarılar"],
+  "internet": false
+}

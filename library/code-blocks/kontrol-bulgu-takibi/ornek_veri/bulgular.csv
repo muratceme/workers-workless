@@ -1,0 +1,10 @@
+Bulgu No;Bulgu;Birim;Önem;Açılış Tarihi;Termin;Kapanış Tarihi;Aksiyon Sahibi;Termin Revizyon Sayısı;Tekrar
+B-01;Kasa limit aşımlarında onay eksikliği;Şube Operasyon;Yüksek;10.03.2026;30.06.2026;;Operasyon Müdürü;2;Evet
+B-02;Kullanıcı yetkilerinin periyodik gözden geçirilmemesi;Bilgi Teknolojileri;Yüksek;15.05.2026;31.10.2026;;BT Müdürü;0;Hayır
+B-03;Tedarikçi sözleşmelerinde imza yetkisi kontrolü;Satın Alma;Orta;01.02.2026;31.05.2026;20.05.2026;Satın Alma Müdürü;0;Hayır
+B-04;Mutabakat farklarının zamanında kapatılmaması;Muhasebe;Orta;20.04.2026;31.08.2026;15.09.2026;Muhasebe Müdürü;1;Hayır
+B-05;Felaket kurtarma testinin yapılmaması;Bilgi Teknolojileri;Yüksek;05.01.2026;30.09.2026;;BT Müdürü;1;Hayır
+B-06;Zimmet kayıtlarının güncel olmaması;İdari İşler;Düşük;12.06.2026;20.10.2026;;İdari İşler Müdürü;0;Hayır
+B-07;Masraf beyanlarında belge eksikliği;Muhasebe;Düşük;01.07.2026;;;Muhasebe Müdürü;0;Evet
+B-08;Müşteri şikâyet kayıtlarının eksik tutulması;Şube Operasyon;Orta;18.08.2026;15.09.2026;;Operasyon Müdürü;3;Hayır
+B-09;Stok sayım tutanaklarının imzasız olması;İdari İşler;Düşük;03.03.2026;30.04.2026;28.04.2026;İdari İşler Müdürü;0;Hayır

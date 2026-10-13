@@ -1,0 +1,12 @@
+{
+  "id": "cek-takas-kontrol-listesi",
+  "tur": "kod",
+  "ad": "Çek Takas Kontrol Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --cekler cekler.xlsx",
+  "girdiler": ["Çekler (.xlsx/.csv): Çek No, Yön (Takasa Verilecek / Takastan Gelen), Banka, Keşide Tarihi, Tutar (rakam), Tutar (yazı), Karekod, Ciro Silsilesi, İmza, Farklı Yer"],
+  "ciktilar": ["Excel: Kontrol Listesi (sonuç, ibraz son günü, bulgu, paraf sütunu), Özet (yön bazında), Bulgular, Uyarılar"],
+  "internet": false
+}

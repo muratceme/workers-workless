@@ -1,0 +1,4 @@
+Kredi;Tutar;Aylık Faiz %;Vade (ay);Ödeme Tipi;Balon Tutarı;BSMV %;KKDF %;İlk Taksit Tarihi;Masraf
+Tüketici Kredisi;100000;3,5;12;Eşit Taksit;;15;15;15.11.2026;500
+Ticari Taksitli Kredi;500000;3;24;Eşit Anapara;;5;0;01.11.2026;
+Taşıt Kredisi (balonlu);800000;2,8;36;Balon;300000;15;15;20.11.2026;

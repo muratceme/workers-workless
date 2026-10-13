@@ -1,0 +1,31 @@
+İşlem No;Tarih;Tutar;Risk;Açıklama
+IS-001;01.09.2026;12500;Orta;EFT
+IS-002;02.09.2026;8400;Düşük;Kredi kullandırımı
+IS-003;03.09.2026;150000;Yüksek;Masraf iadesi
+IS-004;04.09.2026;3200;Düşük;Döviz işlemi
+IS-005;05.09.2026;47000;Orta;Havale
+IS-006;06.09.2026;9800;Düşük;EFT
+IS-007;07.09.2026;22000;Orta;Kredi kullandırımı
+IS-008;08.09.2026;5600;Düşük;Masraf iadesi
+IS-009;09.09.2026;310000;Yüksek;Döviz işlemi
+IS-010;10.09.2026;14500;Düşük;Havale
+IS-011;11.09.2026;7300;Düşük;EFT
+IS-012;12.09.2026;68000;Orta;Kredi kullandırımı
+IS-013;13.09.2026;2900;Düşük;Masraf iadesi
+IS-014;14.09.2026;18500;Orta;Döviz işlemi
+IS-015;15.09.2026;95000;Yüksek;Havale
+IS-016;16.09.2026;4100;Düşük;EFT
+IS-017;17.09.2026;26000;Orta;Kredi kullandırımı
+IS-018;18.09.2026;11200;Düşük;Masraf iadesi
+IS-019;19.09.2026;530000;Yüksek;Döviz işlemi
+IS-020;20.09.2026;6700;Düşük;Havale
+IS-021;21.09.2026;39000;Orta;EFT
+IS-022;22.09.2026;15800;Düşük;Kredi kullandırımı
+IS-023;23.09.2026;8900;Düşük;Masraf iadesi
+IS-024;24.09.2026;72000;Orta;Döviz işlemi
+IS-025;25.09.2026;3500;Düşük;Havale
+IS-026;26.09.2026;21000;Orta;EFT
+IS-027;27.09.2026;125000;Yüksek;Kredi kullandırımı
+IS-028;28.09.2026;9400;Düşük;Masraf iadesi
+IS-029;29.09.2026;44000;Orta;Döviz işlemi
+IS-030;30.09.2026;17300;Düşük;Havale

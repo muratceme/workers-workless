@@ -1,0 +1,13 @@
+Çek No;Yön;Banka;Keşide Tarihi;Tutar (rakam);Tutar (yazı);Karekod;Ciro Silsilesi;İmza;Farklı Yer
+1000101;Takasa Verilecek;A Bankası;05.10.2026;125000;125000;Var;Tam;Var;Hayır
+1000102;Takasa Verilecek;B Bankası;20.10.2026;80000;80000;Var;Tam;Var;Hayır
+1000103;Takasa Verilecek;A Bankası;28.09.2026;45000;45000;Var;Tam;Var;Hayır
+1000104;Takasa Verilecek;C Bankası;28.09.2026;60000;60000;Var;Tam;Var;Evet
+1000105;Takasa Verilecek;B Bankası;06.10.2026;32500;35200;Var;Tam;Var;Hayır
+1000106;Takasa Verilecek;C Bankası;07.10.2026;210000;210000;Okunamadı;Tam;Var;Hayır
+2000201;Takastan Gelen;Şubemiz;08.10.2026;54000;54000;Var;Kopuk;Var;Hayır
+2000202;Takastan Gelen;Şubemiz;09.10.2026;18000;18000;Var;Tam;Yok;Hayır
+2000203;Takastan Gelen;Şubemiz;09.10.2026;96000;96000;Var;Tam;Var;Hayır
+2000204;Takastan Gelen;Şubemiz;09.10.2026;30000;30000;Var;Tam;Var;Hayır
+2000204;Takastan Gelen;Şubemiz;09.10.2026;30000;30000;Var;Tam;Var;Hayır
+2000205;Takastan Gelen;Şubemiz;10.10.2026;40000;40000;;;;Hayır

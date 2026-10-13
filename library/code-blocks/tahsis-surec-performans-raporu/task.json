@@ -1,0 +1,12 @@
+{
+  "id": "tahsis-surec-performans-raporu",
+  "tur": "kod",
+  "ad": "Tahsis Süreç Performans Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --teklifler teklifler.xlsx",
+  "girdiler": ["Teklifler (.xlsx/.csv): Teklif No, Şube, Segment, Tutar, Giriş Tarihi, Karar Tarihi, Karar (Onay / Ret / İade / Bekliyor), İade Nedeni, Analist"],
+  "ciktilar": ["Excel: Özet (oranlar, ortalama ve medyan süre), Şubeler, Segmentler, Analistler, İade Nedenleri, Bekleyenler, Teklifler, Uyarılar"],
+  "internet": false
+}

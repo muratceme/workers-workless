@@ -1,0 +1,12 @@
+{
+  "id": "kontrol-testi-orneklem-secimi",
+  "tur": "kod",
+  "ad": "Kontrol Testi Örneklem Seçimi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --populasyon populasyon.xlsx --yontem tutar --adet 25 --tohum 2026",
+  "girdiler": ["Popülasyon (.xlsx/.csv): İşlem No, Tarih, Tutar, Risk (Yüksek / Orta / Düşük), Açıklama"],
+  "ciktilar": ["Excel: Örneklem (seçim nedeni, test sonucu ve bulgu sütunları), Özet (kapsama, seçim parametreleri, risk tabakaları), Uyarılar"],
+  "internet": false
+}

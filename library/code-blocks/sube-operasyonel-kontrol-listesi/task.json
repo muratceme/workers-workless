@@ -1,0 +1,12 @@
+{
+  "id": "sube-operasyonel-kontrol-listesi",
+  "tur": "kod",
+  "ad": "Şube Operasyonel Kontrol Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kontroller kontroller.xlsx",
+  "girdiler": ["Kontroller (.xlsx/.csv): Kontrol, Periyot (Günlük / Haftalık / Aylık / Üç Aylık / Altı Aylık / Yıllık), Sorumlu, Son Yapılma Tarihi, Sonuç, Not", "Tatiller (.xlsx/.csv, isteğe bağlı): her satırda bir tarih"],
+  "ciktilar": ["Excel: Bugünün Listesi (geciken ve bugün yapılacak kontroller, paraf sütunu), Tüm Kontroller, Periyot Özeti, Sorumlu Özeti, Uyarılar"],
+  "internet": false
+}

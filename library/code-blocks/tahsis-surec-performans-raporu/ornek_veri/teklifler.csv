@@ -1,0 +1,14 @@
+Teklif No;Şube;Segment;Tutar;Giriş Tarihi;Karar Tarihi;Karar;İade Nedeni;Analist
+TK-01;Merkez;KOBİ;500000;01.09.2026;03.09.2026;Onay;;Ali Can
+TK-02;Merkez;KOBİ;750000;02.09.2026;09.09.2026;Onay;;Ali Can
+TK-03;Merkez;Ticari;3000000;05.09.2026;15.09.2026;Ret;;Ece Tan
+TK-04;Çarşı;KOBİ;300000;08.09.2026;10.09.2026;İade;Eksik mali veri;Ali Can
+TK-05;Çarşı;KOBİ;450000;10.09.2026;14.09.2026;Onay;;Ece Tan
+TK-06;Çarşı;Ticari;2000000;12.09.2026;13.09.2026;İade;Teminat yetersiz;Ece Tan
+TK-07;Sanayi;KOBİ;600000;15.09.2026;18.09.2026;Onay;;Ali Can
+TK-08;Sanayi;Ticari;5000000;18.09.2026;30.09.2026;Onay;;Ece Tan
+TK-09;Sanayi;KOBİ;250000;22.09.2026;24.09.2026;İade;Eksik mali veri;Ali Can
+TK-10;Çarşı;KOBİ;350000;25.09.2026;29.09.2026;Ret;;Ali Can
+TK-11;Merkez;Ticari;4000000;28.09.2026;;;;Ece Tan
+TK-12;Sanayi;KOBİ;400000;06.10.2026;;Bekliyor;;Ali Can
+TK-13;Çarşı;KOBİ;200000;09.10.2026;;;;Ali Can

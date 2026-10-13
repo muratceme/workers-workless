@@ -479,12 +479,38 @@ sonra gelir, test beklentisini buna göre yaz); "(yok)" etiketli grup katla ile 
 bölme sonrası yukarı yuvarlamadan önce 6 haneye yuvarla (46,4999… → 46,50 hatası olmasın); marj koruma yolunda
 fiyat × yeni maliyet ÷ eski maliyet kullan (iki kez bölme yapma).
 
+### Tur 22 (15 kod bloğu)
+cek-takas-kontrol-listesi, sube-operasyonel-kontrol-listesi, teminat-takip-listesi, sube-risk-ve-gecikme-listesi,
+kredi-portfoy-yogunlasma-analizi, tahsis-surec-performans-raporu, yapilandirma-takip-listesi,
+takibe-aktarilacak-krediler-listesi, tahsilat-ve-avukat-performans-raporu, doviz-pozisyonu-raporu,
+mevduat-maliyeti-ve-kredi-getirisi-analizi, odeme-plani-hesaplama, uyum-programi-gosterge-raporu,
+kontrol-testi-orneklem-secimi, kontrol-bulgu-takibi.
+Toplam 298 paket (266 kod + 32 agent), kontrol 298/298.
+Notlar: bu tur bankacılık ağırlıklı (şube, tahsis, izleme-takip, hazine, operasyon, uyum, iç kontrol). İnternetten kaynak teyidi
+yapılmadı. Yasal oran koda gömülmedi; hepsi parametre ve README'de "çalışma varsayımı / politikanız" notlu.
+Teyit edilmemiş içerik varsayımları (uzman bakmalı):
+- Çek takas: ibraz süresi varsayılanları 10 gün (aynı yer) / 1 ay (başka yer) TTK'daki genel süreler hatırlanarak kondu;
+  ileri tarihli çekte "keşide tarihinden önce ibraz" kuralı dönemsel düzenleme, kod yalnız "İşleme alma" der ve doğrulatır.
+- Şube risk listesi ve takibe aktarım: 90 gün takip eşiği; yapılandırma takibi: 30 gün gecikme ve 12 ay izleme süresi
+  (kredilerin sınıflandırılması düzenlemesinden hatırlanan değerler; güncel metinle doğrulanmadı).
+- Yoğunlaşma analizi: risk grubu / özkaynak %25 sınırı ve %10 büyük kredi eşiği (Bankacılık Kanunu'ndan hatırlanan genel
+  oranlar); yasal hesaptaki dikkate alınma oranları ve istisnalar uygulanmıyor, README "yasal raporlama için kullanmayın" diyor.
+- Döviz pozisyonu: limit yüzdesi varsayılmadı (kullanıcı verir); yasal YPNGP hesabının özel kuralları yok.
+- Ödeme planı: BSMV ve KKDF varsayılanı 0, kullanıcı girer; örnek dosyada %15/%15 ve %5/%0 yalnız gösterim. Vergili oran
+  rv = r × (1 + BSMV + KKDF) ile anüite; eşit aylık dönem varsayımı (gün sayımı yok); yıllık maliyet oranı hesaplanmıyor.
+- Teminat takibi: dikkate alma oranları ve ekspertiz yenileme 12 ay tamamen kullanıcı politikası; örnek oranlar kurgusal.
+Tasarım tercihleri: takibe aktarımda evrak listesi dosyanın sütunlarından okunur (bilinen sütunlar dışındaki her sütun evrak);
+örneklemde yalnız rng.random() kullanılır (sürümler arası aynı sonuç), örneklem popülasyon sırasıyla yazılır; tutar yönteminde
+kesin seçimden sonra aralık yeniden hesaplanır; uyum göstergelerinde yönsüz gösterge hedefle karşılaştırılmaz (ŞİB sayısına
+hedef konmasın diye); döviz pozisyonu ve mevduat-kredi marjında para birimleri birbirine çevrilmeden ayrı raporlanır.
+Dersler: testte elle toplam yazarken iki kez topla (bu turda üç beklenti toplama hatasıydı, kod doğruydu); "✓" gibi işaretler
+katla() ile boşalır → ham metne ayrıca bak; argparse'ta değişken adı `a` ile parametre `a` çakışmasın (args kullan).
+
 ### KALDIĞIM YER
-Sıradaki (puan 2): Çek Takas Kontrol Listesi, Şube Operasyonel Kontrol Listesi, Teminat Takip Listesi, Şube Risk ve Gecikme
-Listesi, Kredi Portföy Yoğunlaşma Analizi, Tahsis Süreç Performans Raporu, Yapılandırma Takip Listesi, Takibe Aktarılacak
-Krediler Listesi, Tahsilat ve Avukat Performans Raporu, Döviz Pozisyonu Raporu, Mevduat Maliyeti ve Kredi Getirisi Analizi,
-Ödeme Planı Hesaplama, Uyum Programı Gösterge Raporu, Kontrol Testi Örneklem Seçimi, Kontrol Bulgu Takibi, Operasyonel Risk
-Kayıp Veri Analizi, Branş Kârlılık Raporu, Muallak Hasar Takibi… (tam liste için kalan2.mjs).
+Sıradaki (puan 2): Operasyonel Risk Kayıp Veri Analizi, Branş Kârlılık Raporu, Muallak Hasar Takibi, Rücu Tahsilat Takibi,
+Muallak Hasar Raporu, Eksper Performans Analizi, Kurum Fiyat Karşılaştırması, Üretim Hedef Takibi, Prim Ödenmemesi Nedeniyle
+İptal Listesi, Acente Portföy ve Komisyon Raporu, Müşteri Tahsilat Takibi, Duruş Nedeni Pareto Analizi, Üretim Performans
+Panosu… (tam liste için kalan2.mjs). Teminat Mektubu Metin Kontrolü ve Şüpheli İşlem Bildirim Taslağı agent adayı.
 Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,
 Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi,
 Planogram Uyum, Hasta Şikâyet Sınıflandırma, Hasta Memnuniyet Anketi Analizi, Müşteri Yük Durum Bilgilendirmesi, Konşimento Bilgi

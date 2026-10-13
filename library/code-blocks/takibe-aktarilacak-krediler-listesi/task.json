@@ -1,0 +1,12 @@
+{
+  "id": "takibe-aktarilacak-krediler-listesi",
+  "tur": "kod",
+  "ad": "Takibe Aktarılacak Krediler Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --krediler krediler.xlsx",
+  "girdiler": ["Krediler (.xlsx/.csv): Müşteri No, Müşteri, Kredi No, Risk, Gecikme Gün, Hesap Kat Tarihi, Not ve istediğiniz kadar evrak sütunu (Var / Yok / Gerekmez)"],
+  "ciktilar": ["Excel: Aktarım Listesi (durum, aday olma nedeni, evrak durumu, eksik evrak), Özet (durum ve evrak bazında), Uyarılar"],
+  "internet": false
+}

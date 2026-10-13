@@ -1,0 +1,12 @@
+{
+  "id": "doviz-pozisyonu-raporu",
+  "tur": "kod",
+  "ad": "Döviz Pozisyonu Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kalemler kalemler.xlsx --kurlar kurlar.xlsx --ozkaynak 2000000000",
+  "girdiler": ["Kalemler (.xlsx/.csv): Kalem, Tür (Bilanço İçi Varlık / Bilanço İçi Yükümlülük / Bilanço Dışı Alım / Bilanço Dışı Satım), Para Birimi, Tutar", "Kurlar (.xlsx/.csv): Para Birimi, Kur"],
+  "ciktilar": ["Excel: Pozisyon (döviz cinsi bazında bilanço içi, bilanço dışı ve net genel pozisyon, TL karşılığı, kur şoku etkisi), Kalemler, Uyarılar"],
+  "internet": false
+}

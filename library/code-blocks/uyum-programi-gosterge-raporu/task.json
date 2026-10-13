@@ -1,0 +1,12 @@
+{
+  "id": "uyum-programi-gosterge-raporu",
+  "tur": "kod",
+  "ad": "Uyum Programı Gösterge Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --gostergeler gostergeler.xlsx",
+  "girdiler": ["Göstergeler (.xlsx/.csv): Dönem, Gösterge, Değer, Hedef, Yön (Yüksek iyi / Düşük iyi), Birim"],
+  "ciktilar": ["Excel: Gösterge Tablosu (dönemler, değişim, eğilim, hedef durumu, sapma, açıklama sütunu), Özet, Uyarılar"],
+  "internet": false
+}

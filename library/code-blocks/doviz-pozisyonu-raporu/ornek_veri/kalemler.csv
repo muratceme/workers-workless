@@ -1,0 +1,16 @@
+Kalem;Tür;Para Birimi;Tutar
+Nakit ve Merkez Bankası;Bilanço İçi Varlık;USD;12000000
+Bankalar;Bilanço İçi Varlık;USD;8000000
+Krediler;Bilanço İçi Varlık;USD;55000000
+Menkul Kıymetler;Bilanço İçi Varlık;USD;15000000
+Mevduat;Bilanço İçi Yükümlülük;USD;70000000
+Alınan Krediler;Bilanço İçi Yükümlülük;USD;30000000
+Swap Alım;Bilanço Dışı Alım;USD;14000000
+Vadeli Satım;Bilanço Dışı Satım;USD;2000000
+Krediler;Bilanço İçi Varlık;EUR;40000000
+Bankalar;Bilanço İçi Varlık;EUR;5000000
+Mevduat;Bilanço İçi Yükümlülük;EUR;28000000
+Alınan Krediler;Bilanço İçi Yükümlülük;EUR;10000000
+Swap Satım;Bilanço Dışı Satım;EUR;9000000
+Bankalar;Bilanço İçi Varlık;GBP;1000000
+Mevduat;Bilanço İçi Yükümlülük;GBP;1500000

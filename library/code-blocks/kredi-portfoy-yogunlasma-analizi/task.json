@@ -1,0 +1,12 @@
+{
+  "id": "kredi-portfoy-yogunlasma-analizi",
+  "tur": "kod",
+  "ad": "Kredi Portföy Yoğunlaşma Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --krediler krediler.xlsx --limitler limitler.xlsx",
+  "girdiler": ["Krediler (.xlsx/.csv): Müşteri, Risk Grubu, Sektör, Teminat Türü, Risk", "Limitler (.xlsx/.csv, isteğe bağlı): Boyut, Değer, Limit %"],
+  "ciktilar": ["Excel: Özet (boyut bazında HHI, eşdeğer sayı, en büyük pay), Sektör, Risk Grubu, Teminat Türü (pay, limit, durum), Uyarılar"],
+  "internet": false
+}

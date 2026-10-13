@@ -1,0 +1,7 @@
+Müşteri No;Müşteri;Kredi No;Yapılandırma Tarihi;Yapılandırılan Tutar;Kalan Risk;Vadesi Gelen Tutar;Ödenen Tutar;Gecikme Gün;İzleme Süresi (ay);Yapılandırma Sayısı
+4001;Alfa Market;Y-1;10.01.2026;1200000;950000;300000;300000;0;12;1
+4002;Beta Yapı;Y-2;05.03.2026;2500000;2300000;400000;250000;45;12;1
+4003;Gama Gıda;Y-3;20.09.2025;800000;350000;500000;500000;0;12;1
+4004;Delta Tekstil;Y-4;15.06.2026;600000;560000;80000;60000;12;12;2
+4005;Epsilon Otomotiv;Y-5;01.10.2026;1500000;1500000;0;0;0;12;1
+4006;Zeta Mobilya;Y-6;12.12.2025;400000;300000;150000;140000;0;;1

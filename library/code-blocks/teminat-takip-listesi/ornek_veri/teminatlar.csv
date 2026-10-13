@@ -1,0 +1,9 @@
+Müşteri No;Müşteri;Teminat Türü;Teminat Değeri;Geçerlilik Tarihi;Ekspertiz Tarihi;Sigorta Bitiş;Açıklama
+2001;Alfa İnşaat;İpotek;5000000;;15.03.2026;20.11.2026;Fabrika binası, 1. derece
+2001;Alfa İnşaat;Müşteri Çeki;400000;25.10.2026;;;Portföydeki çekler
+2002;Beta Tekstil;Teminat Mektubu;1500000;05.10.2026;;;Başka banka mektubu
+2002;Beta Tekstil;Kefalet;1000000;;;;Ortak kefaleti
+2003;Gama Gıda;İpotek;3000000;;10.08.2025;01.10.2026;Depo, 1. derece
+2003;Gama Gıda;Araç Rehni;600000;;;30.10.2026;3 adet kamyonet
+2004;Delta Lojistik;İpotek;2000000;;;15.06.2027;Arsa
+2005;Epsilon Kimya;Nakit Blokaj;800000;;;;Vadeli mevduat blokesi

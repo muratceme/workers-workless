@@ -1,0 +1,12 @@
+{
+  "id": "odeme-plani-hesaplama",
+  "tur": "kod",
+  "ad": "Ödeme Planı Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --tutar 100000 --faiz 3,5 --vade 12 --bsmv 15 --kkdf 15 --ilk-taksit 15.11.2026",
+  "girdiler": ["Komut satırı: kredi tutarı, aylık faiz, vade, ödeme tipi, balon, BSMV, KKDF, ilk taksit tarihi", "ya da Krediler (.xlsx/.csv): Kredi, Tutar, Aylık Faiz %, Vade (ay), Ödeme Tipi, Balon Tutarı, BSMV %, KKDF %, İlk Taksit Tarihi, Masraf"],
+  "ciktilar": ["Excel: Özet (taksit, toplam faiz, KKDF, BSMV, toplam maliyet), her kredi için Plan sayfası (taksit, anapara, faiz, KKDF, BSMV, kalan anapara), Uyarılar"],
+  "internet": false
+}

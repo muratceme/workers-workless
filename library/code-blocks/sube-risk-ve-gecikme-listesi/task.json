@@ -1,0 +1,12 @@
+{
+  "id": "sube-risk-ve-gecikme-listesi",
+  "tur": "kod",
+  "ad": "Şube Risk ve Gecikme Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --krediler krediler.xlsx",
+  "girdiler": ["Krediler (.xlsx/.csv): Müşteri No, Müşteri, Kredi No, Ürün, Risk Bakiyesi, Geciken Tutar, Gecikme Gün, Erken Uyarı, Portföy Yöneticisi"],
+  "ciktilar": ["Excel: Öncelik Listesi (müşteri bazında), Özet (gecikme dilimleri, gecikme oranı, portföy yöneticisi), Krediler, Uyarılar"],
+  "internet": false
+}
