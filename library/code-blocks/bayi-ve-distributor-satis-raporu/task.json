@@ -1,0 +1,12 @@
+{
+  "id": "bayi-ve-distributor-satis-raporu",
+  "tur": "kod",
+  "ad": "Bayi ve Distribütör Satış Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --bayiler bayiler.xlsx --gun 30 --alacak-gun 60 --stok-gun 45",
+  "girdiler": ["Bayiler (.xlsx/.csv): Bayi, Bölge, Satış, Hedef, Tahsilat, Açık Alacak, Bayi Stoku, Bayi Satışı, Önceki Dönem Satış"],
+  "ciktilar": ["Excel: Bayiler (gerçekleşme, büyüme, tahsilat oranı, alacak ve stok günü, işaretler), Bölge Özeti, Uyarılar"],
+  "internet": false
+}

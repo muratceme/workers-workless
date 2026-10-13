@@ -1,0 +1,10 @@
+Randevu Tarihi;Saat;Hasta;TC Kimlik No;Branş;Hekim;Ödeme Tipi;Sigorta Şirketi;Poliçe No;Poliçe Bitiş;Provizyon No;Provizyon Durumu;Müstahaklık;Telefon
+13.10.2026;09:00;Örnek Hasta Bir;12345678950;Kardiyoloji;Dr. Örnek Hekim A;SGK;;;;;;Var;0500 000 00 01
+13.10.2026;09:30;Örnek Hasta İki;23456789060;Ortopedi;Dr. Örnek Hekim B;ÖSS;Örnek Sigorta A.Ş.;P-1001;31.12.2026;PRV-5501;Onaylandı;;0500 000 00 02
+13.10.2026;10:00;Örnek Hasta Üç;34567890170;Göz Hastalıkları;Dr. Örnek Hekim C;ÖSS;Deneme Sigorta A.Ş.;P-2002;30.09.2026;;;;0500 000 00 03
+13.10.2026;10:30;Örnek Hasta Dört;45678901280;Dahiliye;Dr. Örnek Hekim D;TSS;Örnek Sigorta A.Ş.;P-3003;15.03.2027;;Beklemede;;0500 000 00 04
+13.10.2026;11:00;Örnek Hasta Beş;56789012390;Kardiyoloji;Dr. Örnek Hekim A;SGK;;;;;;Yok;0500 000 00 05
+14.10.2026;09:00;Örnek Hasta Altı;12345678901;Dermatoloji;Dr. Örnek Hekim E;Ücretli;;;;;;;0500 000 00 06
+14.10.2026;09:30;Örnek Hasta Yedi;67890123400;Ortopedi;Dr. Örnek Hekim B;;;;;;;;
+14.10.2026;10:00;Örnek Hasta Sekiz;78901234510;Dahiliye;Dr. Örnek Hekim D;SGK;;;;;;Var;0500 000 00 08
+14.10.2026;15:00;Örnek Hasta Sekiz;78901234510;Dahiliye;Dr. Örnek Hekim D;SGK;;;;;;Var;0500 000 00 08

@@ -1,0 +1,25 @@
+Parti No;Ürün;Parametre;Sonuç;Analiz Tarihi
+P-101;Örnek Beyaz Peynir;pH;4,55;05.10.2026
+P-101;Örnek Beyaz Peynir;Kuru Madde;46,2;05.10.2026
+P-101;Örnek Beyaz Peynir;Tuz;5,2;05.10.2026
+P-101;Örnek Beyaz Peynir;Koliform;<10;06.10.2026
+P-101;Örnek Beyaz Peynir;Salmonella;Negatif;08.10.2026
+P-102;Örnek Beyaz Peynir;pH;4,78;06.10.2026
+P-102;Örnek Beyaz Peynir;Kuru Madde;45,0;06.10.2026
+P-102;Örnek Beyaz Peynir;Tuz;5,0;06.10.2026
+P-102;Örnek Beyaz Peynir;Koliform;20;07.10.2026
+P-102;Örnek Beyaz Peynir;Salmonella;Negatif;09.10.2026
+P-103;Örnek Beyaz Peynir;pH;4,50;07.10.2026
+P-103;Örnek Beyaz Peynir;Kuru Madde;38,6;07.10.2026
+P-103;Örnek Beyaz Peynir;Tuz;6,7;07.10.2026
+P-103;Örnek Beyaz Peynir;Koliform;40;08.10.2026
+P-103;Örnek Beyaz Peynir;Salmonella;Negatif;10.10.2026
+P-104;Örnek Beyaz Peynir;pH;4,60;08.10.2026
+P-104;Örnek Beyaz Peynir;Kuru Madde;47,0;08.10.2026
+P-104;Örnek Beyaz Peynir;Tuz;5,5;08.10.2026
+P-104;Örnek Beyaz Peynir;Salmonella;Negatif;11.10.2026
+P-105;Örnek Beyaz Peynir;pH;4,62;09.10.2026
+P-105;Örnek Beyaz Peynir;Kuru Madde;46,0;09.10.2026
+P-105;Örnek Beyaz Peynir;Tuz;5,4;09.10.2026
+P-105;Örnek Beyaz Peynir;Koliform;>150;10.10.2026
+P-105;Örnek Beyaz Peynir;Salmonella;Negatif;12.10.2026

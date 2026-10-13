@@ -1,0 +1,17 @@
+Oda No;Kat;Durum;Giriş Var;Ek Süre (dk);Oda Tipi
+101;1;Çıkış;Evet;;Standart
+102;1;Konaklama;;;Standart
+103;1;Konaklama;;;Standart
+104;1;Çıkış;;;Standart
+105;1;Boş;;;Standart
+106;1;Çıkış;;15;Suit
+201;2;Konaklama;;;Standart
+202;2;Konaklama;;;Standart
+203;2;Çıkış;Evet;;Standart
+204;2;Çıkış;;;Standart
+205;2;Arızalı;;;Standart
+206;2;Konaklama;;;Standart
+301;3;Çıkış;;;Standart
+302;3;Çıkış;Evet;;Standart
+303;3;Konaklama;;;Standart
+304;3;Konaklama;;10;Aile

@@ -1,0 +1,15 @@
+{
+  "id": "oda-temizlik-atama-plani",
+  "tur": "kod",
+  "ad": "Oda Temizlik Atama Planı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --odalar odalar.xlsx --gorevliler gorevliler.xlsx --cikis-dk 30 --konaklama-dk 20",
+  "girdiler": [
+    "Odalar (.xlsx/.csv): Oda No, Kat, Durum (Çıkış / Konaklama / Boş / Arızalı), Giriş Var, Ek Süre (dk), Oda Tipi",
+    "Görevliler: Görevli, Kapasite (dk)"
+  ],
+  "ciktilar": ["Excel: Görevli Özeti (oda sayısı, süre, yük %), Atama Planı (temizlik sırasıyla), Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,16 @@
+{
+  "id": "rezervasyon-pick-up-raporu",
+  "tur": "kod",
+  "ad": "Rezervasyon Pick-up Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --bugun bugun.xlsx --onceki onceki.xlsx --gecen-yil gecen_yil.xlsx --butce butce.xlsx --kapasite 120",
+  "girdiler": [
+    "Bugünkü döküm (.xlsx/.csv): Konaklama Tarihi, Satılan Oda, Gelir",
+    "Önceki döküm (ör. 7 gün önce): aynı sütunlar",
+    "İsteğe bağlı geçen yıl ve bütçe dosyaları: aynı sütunlar"
+  ],
+  "ciktilar": ["Excel: Günlük Pick-up (oda, gelir, ADR, doluluk, geçen yıl ve bütçe farkı), Aylık Özet, Uyarılar"],
+  "internet": false
+}

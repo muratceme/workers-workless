@@ -1,0 +1,12 @@
+{
+  "id": "dinamik-fiyat-onerisi",
+  "tur": "kod",
+  "ad": "Dinamik Fiyat Önerisi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --durum durum.xlsx --tarih 12.10.2026 --hedef 85 --duyarlilik 0,5 --azami 20 --rakip-bant 15",
+  "girdiler": ["Durum (.xlsx/.csv): Tarih, Oda Tipi, Kapasite, Satılan Oda, Son 7 Gün Pick-up, Mevcut Fiyat, Rakip Fiyat, Taban Fiyat, Tavan Fiyat"],
+  "ciktilar": ["Excel: Fiyat Önerisi (tahmini doluluk, ayar, önerilen fiyat, gerekçe), Kurallar, Uyarılar"],
+  "internet": false
+}

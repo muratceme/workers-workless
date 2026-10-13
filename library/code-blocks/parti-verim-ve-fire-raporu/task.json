@@ -1,0 +1,15 @@
+{
+  "id": "parti-verim-ve-fire-raporu",
+  "tur": "kod",
+  "ad": "Parti Verim ve Fire Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --partiler partiler.xlsx --hedefler hedefler.xlsx --tolerans 2",
+  "girdiler": [
+    "Partiler (.xlsx/.csv): Parti No, Ürün, Tarih, Hat, Hammadde Girişi, Mamul Çıkışı, Fire, Yeniden İşleme",
+    "İsteğe bağlı hedefler: Ürün, Hedef Verim %"
+  ],
+  "ciktilar": ["Excel: Partiler (verim, fire, sapma, durum), Ürün Özeti, Hat Özeti, Uyarılar"],
+  "internet": false
+}

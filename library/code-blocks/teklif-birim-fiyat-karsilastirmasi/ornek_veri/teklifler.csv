@@ -1,0 +1,15 @@
+Poz No;İş Kalemi;Birim;Miktar;Firma;Birim Fiyat
+P-01;Alçı sıva yapılması;m2;2.400,00;Örnek Yapı Ltd.;185,00
+P-01;Alçı sıva yapılması;m2;2.400,00;Deneme İnşaat A.Ş.;210,00
+P-01;Alçı sıva yapılması;m2;2.400,00;Numune Taahhüt Ltd.;198,00
+P-02;Seramik yer kaplaması;m2;1.150,00;Örnek Yapı Ltd.;640,00
+P-02;Seramik yer kaplaması;m2;1.150,00;Deneme İnşaat A.Ş.;590,00
+P-02;Seramik yer kaplaması;m2;1.150,00;Numune Taahhüt Ltd.;610,00
+P-03;Saten boya yapılması;m2;5.200,00;Örnek Yapı Ltd.;95,00
+P-03;Saten boya yapılması;m2;5.200,00;Deneme İnşaat A.Ş.;58,00
+P-03;Saten boya yapılması;m2;5.200,00;Numune Taahhüt Ltd.;92,00
+P-04;Asma tavan yapılması;m2;800,00;Örnek Yapı Ltd.;420,00
+P-04;Asma tavan yapılması;m2;800,00;Deneme İnşaat A.Ş.;445,00
+P-04;Asma tavan yapılması;m2;800,00;Numune Taahhüt Ltd.;
+P-05;Süpürgelik yapılması;m;650,00;Örnek Yapı Ltd.;75,00
+P-05;Süpürgelik yapılması;m;650,00;Deneme İnşaat A.Ş.;72,00

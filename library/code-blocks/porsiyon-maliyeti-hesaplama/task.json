@@ -1,0 +1,16 @@
+{
+  "id": "porsiyon-maliyeti-hesaplama",
+  "tur": "kod",
+  "ad": "Porsiyon Maliyeti Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --receteler receteler.xlsx --fiyatlar fiyatlar.xlsx --menu menu.xlsx --hedef 30 --kdv 10",
+  "girdiler": [
+    "Reçeteler (.xlsx/.csv): Menü Kalemi, Malzeme, Miktar, Birim (g, kg, ml, cl, l, adet), Fire %",
+    "Fiyatlar: Malzeme, Alış Fiyatı, Birim",
+    "İsteğe bağlı menü: Menü Kalemi, Satış Fiyatı, Porsiyon Sayısı"
+  ],
+  "ciktilar": ["Excel: Porsiyon Maliyeti (maliyet oranı, brüt kâr, hedef fiyat), Malzeme Detayı, Uyarılar"],
+  "internet": false
+}

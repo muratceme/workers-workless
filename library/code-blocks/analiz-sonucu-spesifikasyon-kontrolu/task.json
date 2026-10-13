@@ -1,0 +1,15 @@
+{
+  "id": "analiz-sonucu-spesifikasyon-kontrolu",
+  "tur": "kod",
+  "ad": "Analiz Sonucu Spesifikasyon Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --sonuclar analiz_sonuclari.xlsx --spesifikasyon spesifikasyon.xlsx --yakin 10",
+  "girdiler": [
+    "Analiz sonuçları (.xlsx/.csv): Parti No, Ürün, Parametre, Sonuç, Analiz Tarihi",
+    "Spesifikasyon: Ürün (boşsa tüm ürünler), Parametre, Alt Limit, Üst Limit, Beklenen (nitel), Birim"
+  ],
+  "ciktilar": ["Excel: Parti Özeti (karar önerisi), Sonuçlar (limit ve durum), Parametre Özeti, Uyarılar"],
+  "internet": false
+}

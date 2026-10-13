@@ -1,0 +1,7 @@
+Parti No;Ürün;Tarih;Hat;Hammadde Girişi (kg);Mamul Çıkışı (kg);Fire (kg);Yeniden İşleme (kg)
+B-001;Örnek Bisküvi;01.10.2026;Hat 1;1000;925;50;
+B-002;Örnek Bisküvi;02.10.2026;Hat 1;1000;880;70;
+B-003;Örnek Bisküvi;03.10.2026;Hat 2;1200;1110;60;20
+K-001;Örnek Kraker;01.10.2026;Hat 2;800;728;40;
+K-002;Örnek Kraker;02.10.2026;Hat 2;800;690;30;
+K-003;Örnek Kraker;03.10.2026;Hat 1;500;510;5;

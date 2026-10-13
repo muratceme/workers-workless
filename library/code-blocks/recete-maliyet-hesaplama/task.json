@@ -1,0 +1,16 @@
+{
+  "id": "recete-maliyet-hesaplama",
+  "tur": "kod",
+  "ad": "Reçete Maliyet Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --recete recete.xlsx --fiyatlar fiyatlar.xlsx --urunler urunler.xlsx",
+  "girdiler": [
+    "Reçete (.xlsx/.csv): Ürün, Bileşen, Miktar, Fire %",
+    "Fiyatlar: Bileşen, Birim Fiyat",
+    "İsteğe bağlı ürünler: Ürün, Proses Verimi %, Ambalaj Net (g), Ambalaj Maliyeti"
+  ],
+  "ciktilar": ["Excel: Ürün Maliyeti (kg ve ambalaj başına), Bileşen Detayı (brüt ihtiyaç, maliyet payı), Uyarılar"],
+  "internet": false
+}

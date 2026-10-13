@@ -1,0 +1,15 @@
+{
+  "id": "acente-kontenjan-allotment-takibi",
+  "tur": "kod",
+  "ad": "Acente Kontenjan (Allotment) Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kontratlar kontratlar.xlsx --rezervasyonlar rezervasyonlar.xlsx --tarih 12.10.2026 --ufuk 30",
+  "girdiler": [
+    "Kontratlar (.xlsx/.csv): Acente, Oda Tipi, Başlangıç, Bitiş, Kontenjan, Release (gün)",
+    "Rezervasyonlar: Acente, Oda Tipi, Giriş, Çıkış, Oda Sayısı, Durum"
+  ],
+  "ciktilar": ["Excel: Özet (oda-gece kullanım, release ile dönen, aşım), Günlük Durum, Yaklaşan Release, Uyarılar"],
+  "internet": false
+}

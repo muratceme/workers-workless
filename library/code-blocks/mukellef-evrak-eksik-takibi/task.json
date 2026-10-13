@@ -1,0 +1,15 @@
+{
+  "id": "mukellef-evrak-eksik-takibi",
+  "tur": "kod",
+  "ad": "Mükellef Evrak Eksik Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --beklenen beklenen_belgeler.xlsx --gelen gelen_belgeler.xlsx --donem 2026-09 --son-gun 10",
+  "girdiler": [
+    "Beklenen belgeler (.xlsx/.csv): Mükellef, Belge Türü, Sorumlu, İletişim",
+    "Gelen belgeler: Mükellef, Belge Türü, Dönem, Geliş Tarihi, Not"
+  ],
+  "ciktilar": ["Excel: Mükellef Özeti (tamamlanma, eksikler, hatırlatma metni), Belge Matrisi, Eksik Belgeler, Sorumlu Özeti, Uyarılar"],
+  "internet": false
+}

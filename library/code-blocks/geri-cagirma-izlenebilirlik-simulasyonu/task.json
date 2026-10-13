@@ -1,0 +1,16 @@
+{
+  "id": "geri-cagirma-izlenebilirlik-simulasyonu",
+  "tur": "kod",
+  "ad": "Geri Çağırma (İzlenebilirlik) Simülasyonu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --uretim uretim.xlsx --kullanim hammadde_kullanim.xlsx --sevkiyat sevkiyat.xlsx --lot HM-2609-A",
+  "girdiler": [
+    "Üretim (.xlsx/.csv): Üretim Partisi, Ürün, Üretim Tarihi, Üretilen Miktar, Birim",
+    "Hammadde kullanımı: Üretim Partisi, Hammadde, Hammadde Lot, Kullanılan Miktar",
+    "Sevkiyat: Üretim Partisi, Müşteri, Sevk Tarihi, Miktar, İrsaliye No"
+  ],
+  "ciktilar": ["Excel: Özet, Etkilenen Partiler, Müşteriler, Sevkiyatlar, Lot Bağlantıları, Uyarılar"],
+  "internet": false
+}

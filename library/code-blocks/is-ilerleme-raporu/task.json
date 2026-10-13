@@ -1,0 +1,12 @@
+{
+  "id": "is-ilerleme-raporu",
+  "tur": "kod",
+  "ad": "İş İlerleme Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kalemler is_kalemleri.xlsx --tarih 12.10.2026",
+  "girdiler": ["İş kalemleri (.xlsx/.csv): İş Kalemi, Başlangıç, Bitiş, Ağırlık (veya Bütçe), Gerçekleşen %"],
+  "ciktilar": ["Excel: Özet, İş Kalemleri (planlanan, gerçekleşen, sapma, durum), S-Eğrisi (grafikli), Gecikenler, Uyarılar"],
+  "internet": false
+}

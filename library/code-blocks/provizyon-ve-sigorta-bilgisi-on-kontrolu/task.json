@@ -1,0 +1,14 @@
+{
+  "id": "provizyon-ve-sigorta-bilgisi-on-kontrolu",
+  "tur": "kod",
+  "ad": "Provizyon ve Sigorta Bilgisi Ön Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --randevular randevular.xlsx --baslangic 13.10.2026 --bitis 13.10.2026",
+  "girdiler": [
+    "Randevular (.xlsx/.csv): Randevu Tarihi, Saat, Hasta, TC Kimlik No, Branş, Hekim, Ödeme Tipi, Sigorta Şirketi, Poliçe No, Poliçe Bitiş, Provizyon No, Provizyon Durumu, Müstahaklık, Telefon"
+  ],
+  "ciktilar": ["Excel: Kontrol Listesi (durum ve eksikler, kimlik maskeli), Özet (ödeme tipi bazında), Uyarılar"],
+  "internet": false
+}

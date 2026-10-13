@@ -1,0 +1,12 @@
+{
+  "id": "teklif-birim-fiyat-karsilastirmasi",
+  "tur": "kod",
+  "ad": "Teklif Birim Fiyat Karşılaştırması",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --teklifler teklifler.xlsx --dusuk 30",
+  "girdiler": ["Teklifler (.xlsx/.csv): Poz No, İş Kalemi, Birim, Miktar, Firma, Birim Fiyat (her firma-poz bir satır)"],
+  "ciktilar": ["Excel: Karşılaştırma (poz × firma), Firma Toplamları, Karma Cetvel (her pozda en düşük fiyat), Uyarılar"],
+  "internet": false
+}

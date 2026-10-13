@@ -416,13 +416,24 @@
   formülü ve B = 0,90, AETR sınırları, hava kargoda 0,5 kg yuvarlama. Hepsi parametreli ve README'lerde "doğrulayın" notlu.
 - **Toplam 223 paket**, kontrol 223/223.
 
+### Tur 18 (15 kod bloğu)
+provizyon-ve-sigorta-bilgisi-on-kontrolu, is-ilerleme-raporu, teklif-birim-fiyat-karsilastirmasi, geri-cagirma-izlenebilirlik-simulasyonu,
+analiz-sonucu-spesifikasyon-kontrolu, parti-verim-ve-fire-raporu, recete-maliyet-hesaplama, bayi-ve-distributor-satis-raporu,
+acente-kontenjan-allotment-takibi, rezervasyon-pick-up-raporu, dinamik-fiyat-onerisi, oda-temizlik-atama-plani,
+menu-muhendisligi-analizi, porsiyon-maliyeti-hesaplama, mukellef-evrak-eksik-takibi.
+Toplam 238 paket (206 kod + 32 agent), kontrol 238/238.
+Dersler: miktar/ölçüm için yerel `olcu()` (virgül ve tek nokta ondalık, "1.250,5" binlik) kullanıldı, para için `para()`;
+bölge/ay/toplam düzeyinde karşılaştırmalar (büyüme, geçen yıl, bütçe) yalnız karşılaştırma verisi olan satırlar üzerinden yapılmalı;
+test yardımcı lambda'larında veri ve ayar kwargs'ları ayrılmalı; ROUND_FLOOR/ROUND_CEILING ortak importta yok, ayrıca import edilir.
+İnternet teyidi yapılmadı: TCKN algoritması, Kasavana-Smith %70 eşiği, release sayımı, varsayılan parametreler (hedef doluluk 85,
+maliyet oranı 30, temizlik 30/20 dk) README'lerde varsayım olarak işaretli.
+
 ### KALDIĞIM YER
-Sıradaki (puan 3): Provizyon ve Sigorta Bilgisi Ön Kontrolü, İş İlerleme Raporu, Teklif Birim Fiyat Karşılaştırması; gıda
-(Geri Çağırma Simülasyonu, Analiz Sonucu Spesifikasyon Kontrolü, Parti Verim ve Fire Raporu, Reçete Maliyet Hesaplama, Bayi ve
-Distribütör Satış Raporu); otelcilik (Acente Kontenjan Takibi, Rezervasyon Pick-up Raporu, Dinamik Fiyat Önerisi, Oda Temizlik
-Atama Planı, Menü Mühendisliği Analizi, Porsiyon Maliyeti Hesaplama); mali müşavirlik ve hukuk (Mükellef Evrak Eksik Takibi,
-Mükellef Beyanname Takvimi, Geçici Vergi Hesaplama, Duruşma ve Kesin Süre Takvimi, İcra Dosyası Faiz ve Alacak Hesabı); sonra
-otomotiv ve eğitim. Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,
+Sıradaki (puan 3): Mükellef Beyanname Takvimi, Geçici Vergi Hesaplama, Duruşma ve Kesin Süre Takvimi, İcra Dosyası Faiz ve Alacak
+Hesabı; otomotiv (Araç Satış Teklifi Hesaplama, İkinci El Araç Fiyat Değerleme, Garanti Başvuru Dosyası Kontrolü, Yedek Parça Sipariş
+Önerisi); eğitim (Kazanım Bazlı Başarı Raporu); sonra puan 2 grubu (İşe Alım Süreç Raporu, SGK Giriş-Çıkış Bildirge Kontrolü,
+Yıllık Eğitim Planı, Eğitim Değerlendirme Raporu, Tahsilat ve Ödeme Listesi, Ay Sonu Kapanış Kontrol Listesi, Amortisman Hesaplama…).
+Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,
 Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi,
 Planogram Uyum, Hasta Şikâyet Sınıflandırma, Hasta Memnuniyet Anketi Analizi, Müşteri Yük Durum Bilgilendirmesi, Konşimento Bilgi
 Çıkarma, Günlük Şantiye Raporu, Etiket Bilgisi Kontrolü, Misafir Mesajlarına Cevap Taslağı, Yorum Cevap Taslağı, Karar ve İçtihat
