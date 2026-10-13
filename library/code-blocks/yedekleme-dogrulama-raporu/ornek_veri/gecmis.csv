@@ -1,0 +1,26 @@
+İş Adı;Sistem;Başlangıç;Bitiş;Durum;Boyut (GB);Tür
+Dosya Sunucusu Günlük;FS01;06.10.2026 02:00;06.10.2026 03:00;Başarılı;410;Artımlı
+Dosya Sunucusu Günlük;FS01;07.10.2026 02:00;07.10.2026 03:00;Başarılı;411;Artımlı
+Dosya Sunucusu Günlük;FS01;08.10.2026 02:00;08.10.2026 03:00;Başarılı;412;Artımlı
+Dosya Sunucusu Günlük;FS01;09.10.2026 02:00;09.10.2026 03:00;Başarılı;413;Artımlı
+Dosya Sunucusu Günlük;FS01;10.10.2026 02:00;10.10.2026 03:00;Başarılı;414;Artımlı
+Dosya Sunucusu Günlük;FS01;11.10.2026 02:00;11.10.2026 03:00;Başarılı;415;Artımlı
+Dosya Sunucusu Günlük;FS01;12.10.2026 02:00;12.10.2026 03:00;Başarılı;416;Artımlı
+Muhasebe Veritabanı;DB01;06.10.2026 01:00;06.10.2026 01:20;Başarılı;52;Tam
+Muhasebe Veritabanı;DB01;07.10.2026 01:00;07.10.2026 01:20;Başarılı;52;Tam
+Muhasebe Veritabanı;DB01;08.10.2026 01:00;08.10.2026 01:20;Başarılı;53;Tam
+Muhasebe Veritabanı;DB01;09.10.2026 01:00;09.10.2026 01:20;Başarılı;53;Tam
+Muhasebe Veritabanı;DB01;10.10.2026 01:00;10.10.2026 01:20;Başarılı;53;Tam
+Muhasebe Veritabanı;DB01;11.10.2026 01:00;11.10.2026 01:02;Başarısız;;Tam
+Muhasebe Veritabanı;DB01;12.10.2026 01:00;12.10.2026 01:02;Başarısız;;Tam
+E-posta Sunucusu;MX01;06.10.2026 03:00;06.10.2026 05:00;Başarılı;120;Tam
+E-posta Sunucusu;MX01;07.10.2026 03:00;07.10.2026 05:00;Başarılı;121;Tam
+E-posta Sunucusu;MX01;08.10.2026 03:00;08.10.2026 05:00;Başarılı;121;Tam
+E-posta Sunucusu;MX01;09.10.2026 03:00;09.10.2026 05:00;Başarılı;122;Tam
+E-posta Sunucusu;MX01;10.10.2026 03:00;10.10.2026 05:00;Başarılı;122;Tam
+E-posta Sunucusu;MX01;11.10.2026 03:00;11.10.2026 05:00;Başarılı;123;Tam
+E-posta Sunucusu;MX01;12.10.2026 03:00;12.10.2026 03:25;Başarılı;40;Tam
+Sanal Makineler Haftalık;HV01;04.10.2026 22:00;05.10.2026 04:00;Başarılı;800;Tam
+Sanal Makineler Haftalık;HV01;11.10.2026 22:00;12.10.2026 07:30;Uyarı;805;Tam
+Arşiv Aylık;NAS01;01.10.2026 00:00;01.10.2026 06:00;Başarılı;2000;Tam
+Test Ortamı;TST01;09.10.2026 12:00;09.10.2026 12:10;Başarılı;5;Tam

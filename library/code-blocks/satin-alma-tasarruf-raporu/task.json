@@ -1,0 +1,12 @@
+{
+  "id": "satin-alma-tasarruf-raporu",
+  "tur": "kod",
+  "ad": "Satın Alma Tasarruf Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --alimlar alimlar.xlsx",
+  "girdiler": ["Alımlar (.xlsx/.csv): Tarih, Kategori, Malzeme, Tedarikçi, Miktar, Bütçe Fiyatı, İlk Teklif Fiyatı, Gerçekleşen Fiyat, Tasarruf Türü, Satın Almacı"],
+  "ciktilar": ["Excel: Özet (brüt ve net tasarruf, aşım, pazarlık kazancı), Kategori / Tasarruf Türü / Satın Almacı / Ay kırılımları, Alımlar, Uyarılar"],
+  "internet": false
+}

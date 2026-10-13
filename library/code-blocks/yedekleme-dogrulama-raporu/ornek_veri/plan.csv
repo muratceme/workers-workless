@@ -1,0 +1,7 @@
+İş Adı;Sistem;Sıklık;Azami Süre (dk)
+Dosya Sunucusu Günlük;FS01;Günlük;120
+Muhasebe Veritabanı;DB01;Günlük;60
+E-posta Sunucusu;MX01;Günlük;180
+Sanal Makineler Haftalık;HV01;Haftalık;480
+Arşiv Aylık;NAS01;Aylık;
+Web Sunucusu;WEB01;Günlük;60

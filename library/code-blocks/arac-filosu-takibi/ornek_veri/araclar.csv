@@ -1,0 +1,7 @@
+Plaka;Marka Model;Kullanıcı;Muayene Bitiş;Trafik Sigortası Bitiş;Kasko Bitiş;Son Bakım Tarihi;Son Bakım Km;Güncel Km;Bakım Aralığı (km);Bakım Aralığı (ay);Lastik
+34 ABC 101;Binek A 1.6;Satış - Burak Şen;15.03.2027;20.10.2026;20.10.2026;10.02.2026;45000;58500;15000;12;Yaz
+34 ABC 102;Binek A 1.6;Satış - Deniz Acar;05.10.2026;14.06.2027;14.06.2027;01.09.2026;30000;31200;15000;12;Yaz
+34 ABC 103;Hafif Ticari B;Lojistik;22.11.2026;01.02.2027;;05.11.2025;80000;95400;15000;12;Kış
+34 ABC 104;Kamyonet C;Lojistik;18.08.2027;03.11.2026;03.11.2026;20.04.2026;120000;133500;15000;6;Dört Mevsim
+34 ABC 105;Binek D Elektrikli;Genel Müdür;30.09.2028;09.09.2027;09.09.2027;;;12000;;;Dört Mevsim
+34 ABC 106;Hafif Ticari B;Servis;10.01.2027;01.10.2026;15.05.2027;15.06.2026;60000;59000;15000;12;Yaz

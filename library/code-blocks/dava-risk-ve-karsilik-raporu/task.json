@@ -1,0 +1,12 @@
+{
+  "id": "dava-risk-ve-karsilik-raporu",
+  "tur": "kod",
+  "ad": "Dava Risk ve Karşılık Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --davalar davalar.xlsx",
+  "girdiler": ["Davalar (.xlsx/.csv): Dosya No, Karşı Taraf, Konu, Taraf Sıfatı, Dava Değeri, Kaybetme Olasılığı, Tahmini Yükümlülük, Önceki Karşılık, Aşama, Avukat"],
+  "ciktilar": ["Excel: Dava Listesi (sınıf, karşılık, dönem değişimi, yapılacak işlem), Özet, Konu Kırılımı, Avukat Kırılımı, Uyarılar"],
+  "internet": false
+}

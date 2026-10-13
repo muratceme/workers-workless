@@ -1,0 +1,12 @@
+{
+  "id": "ay-sonu-kapanis-kontrol-listesi",
+  "tur": "kod",
+  "ad": "Ay Sonu Kapanış Kontrol Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --adimlar adimlar.xlsx --donem 09.2026",
+  "girdiler": ["Kapanış adımları (.xlsx/.csv): Sıra, Adım, Kategori, Sorumlu, Gün, Önkoşul, Durum, Tamamlanma Tarihi, Not", "İsteğe bağlı resmî tatil listesi"],
+  "ciktilar": ["Excel: Kontrol Listesi (hedef tarih, izleme durumu, engelleyen adımlar), Kategori Özeti, Sorumlu Özeti, Uyarılar"],
+  "internet": false
+}

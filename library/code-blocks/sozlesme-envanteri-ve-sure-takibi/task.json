@@ -1,0 +1,12 @@
+{
+  "id": "sozlesme-envanteri-ve-sure-takibi",
+  "tur": "kod",
+  "ad": "Sözleşme Envanteri ve Süre Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --sozlesmeler sozlesmeler.xlsx",
+  "girdiler": ["Sözleşmeler (.xlsx/.csv): Sözleşme No, Karşı Taraf, Konu, Tür, Başlangıç, Bitiş, Otomatik Yenileme, Yenileme Süresi (ay), Fesih Bildirim Süresi (gün), Sorumlu, Yıllık Tutar"],
+  "ciktilar": ["Excel: Envanter (durum, güncel bitiş, fesih bildirim son günü, karar tarihi, kalan gün), Tür Özeti, Sorumlu Özeti, Uyarılar"],
+  "internet": false
+}

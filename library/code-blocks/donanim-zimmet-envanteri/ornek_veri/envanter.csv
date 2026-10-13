@@ -1,0 +1,12 @@
+Demirbaş No;Tür;Marka Model;Seri No;Zimmetli;Departman;Zimmet Tarihi;Alım Tarihi;Garanti Bitiş;Durum
+BT-0101;Dizüstü Bilgisayar;Model A 14;SN-A1001;Ayşe Kara;Muhasebe;10.03.2024;01.03.2024;01.03.2027;Kullanımda
+BT-0102;Dizüstü Bilgisayar;Model A 14;SN-A1002;Burak Şen;Satış;15.06.2022;01.06.2022;01.06.2025;Kullanımda
+BT-0103;Dizüstü Bilgisayar;Model B 15;SN-B2001;Deniz Acar;Satış;05.11.2023;20.10.2023;20.11.2026;Kullanımda
+BT-0104;Dizüstü Bilgisayar;Model B 15;SN-B2002;;;;20.10.2023;20.11.2026;Kullanımda
+BT-0105;Monitör;Model M 24;SN-M3001;Ayşe Kara;Muhasebe;10.03.2024;01.03.2024;01.03.2026;Kullanımda
+BT-0106;Cep Telefonu;Model T;SN-T4001;Burak Şen;Satış;01.02.2025;15.01.2025;15.01.2027;Kullanımda
+BT-0107;Cep Telefonu;Model T;SN-T4002;Emre Tunç;Satış;01.02.2025;15.01.2025;15.01.2027;Kullanımda
+BT-0108;Dizüstü Bilgisayar;Model A 14;SN-A1003;Ayşe Kara;Muhasebe;01.09.2026;01.03.2024;01.03.2027;Kullanımda
+BT-0109;Yazıcı;Model Y;SN-Y5001;;Muhasebe;;10.05.2021;10.05.2023;Arızalı
+BT-0110;Dizüstü Bilgisayar;Model C 13;SN-A1002;Fatma Öz;İnsan Kaynakları;01.10.2026;15.09.2026;15.09.2028;Kullanımda
+BT-0111;Monitör;Model M 24;SN-M3002;Deniz Acar;;;01.03.2024;01.03.2026;Depoda

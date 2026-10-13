@@ -441,12 +441,27 @@ KKDF/BSMV kullanıcıdan geliyor. Koddaki yasal varsayımlar (README'de işaretl
 Dersler: nested f-string'de aynı tırnak Python 3.10/3.11'de hata verir (ayrı değişkene al); argparse negatif sayıyı
 "--ad=-5" biçiminde ister; test yardımcılarında .lower() yerine katla() (İ harfi).
 
+### Tur 20 (15 kod bloğu)
+ay-sonu-kapanis-kontrol-listesi, denetim-hazirlik-dosyasi, banka-limit-ve-risk-raporu, odeme-onceliklendirme,
+kur-riski-pozisyon-raporu, donanim-zimmet-envanteri, yedekleme-dogrulama-raporu, kapasite-raporu, bt-proje-portfoy-durumu,
+satin-alma-fiyat-gecmisi-analizi, tedarikci-risk-skoru, satin-alma-tasarruf-raporu, dava-risk-ve-karsilik-raporu,
+sozlesme-envanteri-ve-sure-takibi, arac-filosu-takibi.
+Toplam 268 paket (236 kod + 32 agent), kontrol 268/268.
+Notlar: bu grup genel departman görevleri; yasal oran yok, eşiklerin hepsi parametre ve README'de "yönetim tercihi" notlu
+(kullanım %90, RAG 0,95 / 0,85, risk skoru ağırlıkları 30-25-25-20, kapasite %90 / 30 / 90 gün, yedek toleransı 6 saat).
+Teyit edilmemiş içerik varsayımları: dava raporunda TMS 37 sınıflaması (muhtemel > %50; "uzak" için %10 çalışma varsayımı),
+araç filosunda kış lastiği dönemi (koda gömülmedi; örnek çalıştırmada 01.12 – 01.04 gösterim amaçlı, güncel düzenleme farklı
+olabilir), ödeme önceliklendirmede sıra kuralı (zorunlu → önem → gecikmiş → gecikme maliyeti) tasarım tercihi.
+Dersler: özet/kırılım adlarını sıralamadan ÖNCE üret (ilk görülen yazım girdi sırasına göre kalsın); yuvarlanmış orana göre
+değil ham değere göre eşik karşılaştır (kapasite: son ≥ eşik değeri); sıfır ilerlemede endeks (MPE) hesaplama, ayrı uyarı ver;
+"aşım" koşulunda tasarruf < 0 şartını da ara (eşik 0 iken sıfır tasarruf aşım sayılmasın); tarih-saat için yerel `zaman()`.
+
 ### KALDIĞIM YER
-Sıradaki (puan 2): Ay Sonu Kapanış Kontrol Listesi, Denetim Hazırlık Dosyası, Banka Limit ve Risk Raporu, Ödeme Önceliklendirme,
-Kur Riski Pozisyon Raporu, Donanım Zimmet Envanteri, Yedekleme Doğrulama Raporu, Kapasite Raporu, BT Proje Portföy Durumu,
-Satın Alma Fiyat Geçmişi Analizi, Tedarikçi Risk Skoru, Satın Alma Tasarruf Raporu, Dava Risk ve Karşılık Raporu, Sözleşme Envanteri
-ve Süre Takibi, Araç Filosu Takibi, Demirbaş ve Zimmet Takibi, Pazarlama Bütçesi Takibi, Teklif Takip Listesi, Müşteri Risk ve Limit
-Takibi… (tam liste için kalan2.mjs).
+Sıradaki (puan 2): Demirbaş ve Zimmet Takibi, Pazarlama Bütçesi Takibi, Teklif Takip Listesi, Müşteri Risk ve Limit Takibi,
+Fiyat Listesi Güncelleme, Satış Primi Hesaplama, Periyodik Kontrol Takibi, İş Kazası ve Ramak Kala Analizi, Dahilde İşleme İzin
+Belgesi Takibi, Stok Yaşlandırma Raporu, Depo Yerleşim (ABC) Önerisi, Nakliye Maliyet Analizi, Teslimat Performansı (OTIF) Raporu,
+Çek Takas Kontrol Listesi, Şube Operasyonel Kontrol Listesi, Kıymetli Evrak Sayım Kontrolü, Vadesi Dolan Mevduat Takibi, Teminat
+Takip Listesi… (tam liste için kalan2.mjs).
 Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,
 Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi,
 Planogram Uyum, Hasta Şikâyet Sınıflandırma, Hasta Memnuniyet Anketi Analizi, Müşteri Yük Durum Bilgilendirmesi, Konşimento Bilgi

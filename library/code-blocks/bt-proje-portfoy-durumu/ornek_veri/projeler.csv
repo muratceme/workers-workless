@@ -1,0 +1,7 @@
+Proje;Sahip;Başlangıç;Planlanan Bitiş;Tahmini Bitiş;Bütçe;Harcanan;İlerleme %;Risk;Durum;Öncelik
+ERP Sürüm Yükseltme;Ali Demir;01.04.2026;31.12.2026;31.01.2027;4.000.000;3.100.000;55;Yüksek;Devam;1
+Yedekleme Altyapısı Yenileme;Ece Kaya;01.07.2026;30.11.2026;30.11.2026;1.200.000;640.000;70;Düşük;Devam;2
+E-posta Sistemi Göçü;Ece Kaya;01.06.2026;30.09.2026;31.10.2026;600.000;580.000;90;Orta;Devam;2
+Ağ Anahtarları Yenileme;Can Öz;01.09.2026;28.02.2027;28.02.2027;2.000.000;350.000;20;Düşük;Devam;3
+Siber Güvenlik Farkındalık Eğitimi;Can Öz;01.03.2026;30.06.2026;30.06.2026;250.000;240.000;100;Düşük;Tamamlandı;3
+Veri Ambarı Kurulumu;Ali Demir;01.11.2026;30.06.2027;;3.000.000;0;0;Orta;Beklemede;4

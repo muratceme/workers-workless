@@ -1,0 +1,12 @@
+{
+  "id": "bt-proje-portfoy-durumu",
+  "tur": "kod",
+  "ad": "BT Proje Portföy Durumu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --projeler projeler.xlsx",
+  "girdiler": ["Projeler (.xlsx/.csv): Proje, Sahip, Başlangıç, Planlanan Bitiş, Tahmini Bitiş, Bütçe, Harcanan, İlerleme %, Risk, Durum, Öncelik"],
+  "ciktilar": ["Excel: Portföy (takvim ve bütçe rengi, TPE, MPE, tahmini toplam maliyet), Özet, Uyarılar"],
+  "internet": false
+}

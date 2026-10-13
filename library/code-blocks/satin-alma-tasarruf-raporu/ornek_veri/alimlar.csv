@@ -1,0 +1,9 @@
+Tarih;Kategori;Malzeme;Tedarikçi;Miktar;Bütçe Fiyatı;İlk Teklif Fiyatı;Gerçekleşen Fiyat;Tasarruf Türü;Satın Almacı
+06.07.2026;Ambalaj;Oluklu Koli;Ambalaj A Ltd.;15000;5,60;5,80;5,40;Pazarlık;Zeynep Ak
+14.07.2026;Hammadde;Polietilen Granül;Kimya B A.Ş.;5000;50,00;51,00;47,50;Pazarlık;Okan Er
+22.07.2026;Hammadde;Boya Pigmenti;Kimya H Ltd.;800;120,00;;132,00;;Okan Er
+03.08.2026;Ambalaj;Streç Film;Ambalaj C Ltd.;1000;75,00;72,00;64,00;Alternatif Tedarikçi;Zeynep Ak
+18.08.2026;Yedek Parça;Rulman 6205;Teknik J Ltd.;200;180,00;185,00;171,00;Toplu Alım;Okan Er
+25.08.2026;Hizmet;Forklift Bakım Sözleşmesi;Servis K A.Ş.;1;240.000,00;260.000,00;228.000,00;Pazarlık;Zeynep Ak
+09.09.2026;Yedek Parça;Konveyör Bandı;Teknik J Ltd.;4;;9.500,00;9.000,00;Pazarlık;Okan Er
+21.09.2026;Ambalaj;Ürün Etiketi;Matbaa D Ltd.;50000;0,40;0,38;0,22;Alternatif Tedarikçi;Zeynep Ak

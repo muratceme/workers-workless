@@ -1,0 +1,12 @@
+{
+  "id": "odeme-onceliklendirme",
+  "tur": "kod",
+  "ad": "Ödeme Önceliklendirme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --odemeler odemeler.xlsx --nakit 900000",
+  "girdiler": ["Ödemeler (.xlsx/.csv): Alacaklı, Belge No, Vade, Tutar, Tür, Önem, Gecikme Faizi (aylık %), Zorunlu", "Eldeki nakit (--nakit)"],
+  "ciktilar": ["Excel: Ödeme Sırası (Öde / Ertele kararı, gerekçe, kalan nakit), Özet, Uyarılar"],
+  "internet": false
+}

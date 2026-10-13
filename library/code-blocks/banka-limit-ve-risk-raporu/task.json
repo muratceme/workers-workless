@@ -1,0 +1,12 @@
+{
+  "id": "banka-limit-ve-risk-raporu",
+  "tur": "kod",
+  "ad": "Banka Limit ve Risk Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --limitler limitler.xlsx --kurlar kurlar.xlsx",
+  "girdiler": ["Limitler (.xlsx/.csv): Banka, Ürün, Sınıf (Nakdi/Gayrinakdi), Para Birimi, Limit, Kullanım, Faiz Oranı, Limit Bitiş, Teminat, Teminat Tutarı", "Kurlar: Para Birimi, Kur"],
+  "ciktilar": ["Excel: Limit ve Risk (boş limit, kullanım oranı, kalan gün), Banka Özeti (nakdi/gayrinakdi risk, pay, ağırlıklı faiz), Uyarılar"],
+  "internet": false
+}

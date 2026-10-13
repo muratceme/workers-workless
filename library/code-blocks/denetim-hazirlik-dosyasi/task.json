@@ -1,0 +1,12 @@
+{
+  "id": "denetim-hazirlik-dosyasi",
+  "tur": "kod",
+  "ad": "Denetim Hazırlık Dosyası",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --talepler talepler.xlsx --klasor denetim_belgeleri",
+  "girdiler": ["Denetçi talep listesi (.xlsx/.csv): No, Talep, Alan, Sorumlu, İstenen Tarih, Durum, Gönderim Tarihi, Dosya, Not", "İsteğe bağlı belge klasörü"],
+  "ciktilar": ["Excel: Talep Listesi (izleme durumu, gecikme, klasörde eksik dosya), Alan Özeti, Sorumlu Özeti, Uyarılar"],
+  "internet": false
+}

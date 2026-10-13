@@ -1,0 +1,11 @@
+Alacaklı;Belge No;Vade;Tutar;Tür;Önem;Gecikme Faizi (aylık %);Zorunlu
+Personel;Ekim maaş ödemesi;15.10.2026;420.000;Maaş;Kritik;;Evet
+A Bankası;Kredi taksiti 10/2026;14.10.2026;180.000;Kredi;Kritik;;Evet
+Vergi Dairesi;KDV 09/2026;26.10.2026;310.000;Vergi;Kritik;;Evet
+Demir Çelik A.Ş.;FT-2291;25.09.2026;150.000;Tedarikçi;Yüksek;3;
+Ambalaj Ltd.;FT-0417;02.10.2026;60.000;Tedarikçi;Normal;2;
+Lojistik A.Ş.;FT-7730;13.10.2026;95.000;Tedarikçi;Yüksek;;
+Kırtasiye Ltd.;FT-0092;05.10.2026;8.000;Tedarikçi;Düşük;;
+Enerji Dağıtım;Fatura 09/2026;16.10.2026;72.000;Fatura;Kritik;4;
+Ofis Kira;Ekim kirası;10.10.2026;45.000;Kira;Yüksek;;
+Yazılım Ltd.;FT-1150;30.10.2026;38.000;Tedarikçi;Normal;;

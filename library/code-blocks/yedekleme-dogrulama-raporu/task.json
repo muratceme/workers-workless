@@ -1,0 +1,12 @@
+{
+  "id": "yedekleme-dogrulama-raporu",
+  "tur": "kod",
+  "ad": "Yedekleme Doğrulama Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --gecmis gecmis.csv --plan plan.csv",
+  "girdiler": ["Yedekleme iş geçmişi (.xlsx/.csv): İş Adı, Sistem, Başlangıç, Bitiş, Durum, Boyut (GB), Tür", "Yedekleme planı: İş Adı, Sistem, Sıklık, Azami Süre (dk)"],
+  "ciktilar": ["Excel: İş Özeti (son geçerli yedek, yaş, başarı oranı, durum), Sorunlu Koşular, Uyarılar"],
+  "internet": false
+}

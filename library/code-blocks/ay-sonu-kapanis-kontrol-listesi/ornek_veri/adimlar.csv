@@ -1,0 +1,16 @@
+Sıra;Adım;Kategori;Sorumlu;Gün;Önkoşul;Durum;Tamamlanma Tarihi;Not
+1;Kasa sayımı ve kasa hesabı mutabakatı;Nakit ve Banka;Elif Arslan;0;;Tamamlandı;30.09.2026;
+2;Banka hesapları mutabakatı;Nakit ve Banka;Elif Arslan;1;;Tamamlandı;01.10.2026;
+3;Satış faturalarında dönem kesimi kontrolü;Gelir;Mert Kaya;1;;Tamamlandı;02.10.2026;
+4;Alış faturaları ve gider tahakkukları;Gider;Mert Kaya;2;;Tamamlandı;02.10.2026;
+5;Cari hesap mutabakatları;Cari Hesaplar;Selin Demir;3;3,4;Devam ediyor;;
+6;Dövizli hesapların kur değerlemesi;Değerleme;Elif Arslan;2;2;Tamamlandı;02.10.2026;
+7;Amortisman kaydı;Değerleme;Selin Demir;2;;Başlamadı;;
+8;Peşin ödenen giderlerin dönem payı;Gider;Mert Kaya;3;4;Başlamadı;;
+9;Stok sayım farkları ve satılan malın maliyeti;Stok;Can Yıldız;3;;Devam ediyor;;
+10;Bordro ve SGK tahakkuk kaydı;Personel;Selin Demir;1;;Tamamlandı;01.10.2026;
+11;KDV hesaplarının mahsubu;Vergi;Mert Kaya;4;3,4;Başlamadı;;
+12;Kredi faiz tahakkukları;Finansman;Elif Arslan;3;2;Başlamadı;;
+13;Geçici mizan kontrolü;Raporlama;Can Yıldız;5;5,6,7,8,9,11,12;Başlamadı;;
+14;Yönetim raporu;Raporlama;Can Yıldız;6;13;Başlamadı;;
+15;Konsolidasyon paketi;Raporlama;;7;13;Uygulanmaz;;Tek şirket

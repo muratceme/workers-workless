@@ -1,0 +1,12 @@
+{
+  "id": "satin-alma-fiyat-gecmisi-analizi",
+  "tur": "kod",
+  "ad": "Satın Alma Fiyat Geçmişi Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --alimlar alimlar.xlsx --endeks endeks.xlsx --kurlar kurlar.xlsx",
+  "girdiler": ["Alımlar (.xlsx/.csv): Tarih, Malzeme Kodu, Malzeme, Tedarikçi, Miktar, Birim Fiyat, Para Birimi", "İsteğe bağlı aylık endeks (Dönem, Endeks) ve aylık kurlar (Dönem, Para Birimi, Kur)"],
+  "ciktilar": ["Excel: Malzeme Özeti (nominal ve reel değişim, ağırlıklı ortalama fiyat), Alım Geçmişi (önceki alıma göre değişim, endeks farkı, işaret), Uyarılar"],
+  "internet": false
+}

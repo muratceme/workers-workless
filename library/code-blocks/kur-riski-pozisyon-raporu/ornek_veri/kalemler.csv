@@ -1,0 +1,10 @@
+Kalem;Tür;Para Birimi;Tutar;Vade
+Banka mevduatı;Varlık;USD;250.000;
+Ticari alacaklar;Varlık;USD;600.000;15.11.2026
+Ticari alacaklar;Varlık;EUR;400.000;30.11.2026
+Ticari borçlar;Yükümlülük;USD;350.000;05.11.2026
+Ticari borçlar;Yükümlülük;EUR;300.000;20.12.2026
+Banka kredisi;Yükümlülük;EUR;1.200.000;30.06.2027
+İhracat kredisi;Yükümlülük;USD;300.000;15.01.2027
+Vadeli döviz alım sözleşmesi;Türev alım;EUR;500.000;30.06.2027
+Finansal kiralama borcu;Yükümlülük;EUR;150.000;15.03.2028

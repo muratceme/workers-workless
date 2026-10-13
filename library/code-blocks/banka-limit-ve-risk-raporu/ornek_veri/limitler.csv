@@ -1,0 +1,8 @@
+Banka;Ürün;Sınıf;Para Birimi;Limit;Kullanım;Faiz Oranı (%);Limit Bitiş;Teminat;Teminat Tutarı
+A Bankası;Rotatif Kredi;Nakdi;TL;5.000.000;4.600.000;52;31.03.2027;Ortak kefaleti;
+A Bankası;Teminat Mektubu;Gayrinakdi;TL;3.000.000;1.250.000;;31.03.2027;;
+B Bankası;Spot Kredi;Nakdi;TL;4.000.000;2.000.000;48;30.10.2026;Müşteri çekleri;2.400.000
+B Bankası;İhracat Kredisi;Nakdi;USD;500.000;300.000;8,5;15.01.2027;;
+C Bankası;Taksitli Ticari Kredi;Nakdi;TL;2.000.000;2.100.000;50;30.06.2027;İpotek;3.000.000
+C Bankası;Teminat Mektubu;Gayrinakdi;EUR;200.000;50.000;;30.09.2026;;
+D Bankası;Kredili Mevduat Hesabı;Nakdi;TL;500.000;0;55;31.12.2026;;

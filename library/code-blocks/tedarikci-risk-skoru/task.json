@@ -1,0 +1,12 @@
+{
+  "id": "tedarikci-risk-skoru",
+  "tur": "kod",
+  "ad": "Tedarikçi Risk Skoru",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --tedarikciler tedarikciler.xlsx",
+  "girdiler": ["Tedarikçiler (.xlsx/.csv): Tedarikçi, Yıllık Alım Tutarı, Kalem Sayısı, Tek Kaynak Kalem, Gecikmeli Teslimat %, Ret %, Finansal Durum (İyi / Orta / Zayıf)"],
+  "ciktilar": ["Excel: Risk Skoru (0–100 skor, sınıf, ölçüt puanları, harcama payı), Uyarılar"],
+  "internet": false
+}

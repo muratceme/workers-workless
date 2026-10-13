@@ -1,0 +1,12 @@
+{
+  "id": "kapasite-raporu",
+  "tur": "kod",
+  "ad": "Kapasite Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --olcumler olcumler.csv",
+  "girdiler": ["Kullanım ölçümleri (.xlsx/.csv): Tarih, Sistem, Kaynak, Kullanılan, Kapasite, Birim"],
+  "ciktilar": ["Excel: Kapasite Özeti (kullanım oranı, günlük büyüme, eşiğe ve dolmaya kalan gün, tahmini tarih), Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,12 @@
+{
+  "id": "donanim-zimmet-envanteri",
+  "tur": "kod",
+  "ad": "Donanım Zimmet Envanteri",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --envanter envanter.xlsx --personel personel.xlsx",
+  "girdiler": ["Envanter (.xlsx/.csv): Demirbaş No, Tür, Marka Model, Seri No, Zimmetli, Departman, Zimmet Tarihi, Alım Tarihi, Garanti Bitiş, Durum, Yenileme Ömrü (yıl)", "İsteğe bağlı güncel personel listesi"],
+  "ciktilar": ["Excel: Envanter (garanti ve yenileme durumu), Kişi Özeti, Tür Özeti, Uyarılar"],
+  "internet": false
+}

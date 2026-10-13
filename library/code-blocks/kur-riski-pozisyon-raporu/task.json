@@ -1,0 +1,12 @@
+{
+  "id": "kur-riski-pozisyon-raporu",
+  "tur": "kod",
+  "ad": "Kur Riski Pozisyon Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kalemler kalemler.xlsx --kurlar kurlar.xlsx --ozkaynak 60000000",
+  "girdiler": ["Döviz kalemleri (.xlsx/.csv): Kalem, Tür (Varlık / Yükümlülük / Türev alım / Türev satım), Para Birimi, Tutar, Vade", "Kurlar: Para Birimi, Kur"],
+  "ciktilar": ["Excel: Pozisyon (para birimi bazında net pozisyon), Senaryolar (kur şoku etkisi), Vade Kırılımı, Kalemler, Uyarılar"],
+  "internet": false
+}

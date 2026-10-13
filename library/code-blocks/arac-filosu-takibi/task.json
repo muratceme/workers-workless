@@ -1,0 +1,12 @@
+{
+  "id": "arac-filosu-takibi",
+  "tur": "kod",
+  "ad": "Araç Filosu Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --araclar araclar.xlsx",
+  "girdiler": ["Araçlar (.xlsx/.csv): Plaka, Marka Model, Kullanıcı, Muayene Bitiş, Trafik Sigortası Bitiş, Kasko Bitiş, Son Bakım Tarihi, Son Bakım Km, Güncel Km, Bakım Aralığı (km), Bakım Aralığı (ay), Lastik"],
+  "ciktilar": ["Excel: Araçlar (muayene, sigorta, kasko, bakım durumu), Yapılacak İşler (tarih sırasıyla), Uyarılar"],
+  "internet": false
+}

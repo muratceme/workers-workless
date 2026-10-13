@@ -1,0 +1,9 @@
+Sözleşme No;Karşı Taraf;Konu;Tür;Başlangıç;Bitiş;Otomatik Yenileme;Yenileme Süresi (ay);Fesih Bildirim Süresi (gün);Sorumlu;Yıllık Tutar
+S-001;Ofis Gayrimenkul A.Ş.;Genel müdürlük kira sözleşmesi;Kira;01.01.2024;31.12.2026;Evet;12;90;İdari İşler;1.800.000
+S-002;Yazılım B Ltd.;ERP lisans ve bakım sözleşmesi;Lisans;01.12.2025;30.11.2026;Evet;12;30;Bilgi Teknolojileri;650.000
+S-003;Güvenlik C A.Ş.;Özel güvenlik hizmeti;Hizmet;01.11.2025;31.10.2026;Hayır;;;İdari İşler;1.200.000
+S-004;Lojistik F A.Ş.;Nakliye çerçeve sözleşmesi;Hizmet;01.07.2025;30.06.2026;Hayır;;;Lojistik;
+S-005;Temizlik D Ltd.;Temizlik hizmeti;Hizmet;01.09.2024;31.08.2025;Evet;12;60;İdari İşler;480.000
+S-006;Tedarikçi C Ltd.;Hammadde tedarik sözleşmesi;Tedarik;15.03.2025;;;;60;Satın Alma;
+S-007;Danışmanlık E Ltd.;Vergi danışmanlığı;Danışmanlık;01.01.2026;31.12.2026;Evet;12;;Mali İşler;360.000
+S-008;Sigorta G A.Ş.;İşyeri sigorta poliçesi;Sigorta;01.03.2026;01.03.2027;Hayır;;;Mali İşler;220.000
