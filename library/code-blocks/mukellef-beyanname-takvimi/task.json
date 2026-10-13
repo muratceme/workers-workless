@@ -1,0 +1,16 @@
+{
+  "id": "mukellef-beyanname-takvimi",
+  "tur": "kod",
+  "ad": "Mükellef Beyanname Takvimi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --yukumlulukler yukumlulukler.xlsx --turler beyanname_turleri.xlsx --durum durum.xlsx --ay 2026-10",
+  "girdiler": [
+    "Yükümlülükler (.xlsx/.csv): Mükellef, Beyanname, Sorumlu",
+    "Beyanname türleri: Beyanname, Periyot, Dönem Sonu Ayları, Kaç Ay Sonra, Beyan Günü, Ödeme Günü",
+    "İsteğe bağlı durum (Mükellef, Beyanname, Dönem, Verildi, Ödendi) ve tatiller (Tarih, Açıklama)"
+  ],
+  "ciktilar": ["Excel: Takvim (son gün bazında), Mükellef Bazında (durum ve ödeme durumu), Uyarılar"],
+  "internet": false
+}

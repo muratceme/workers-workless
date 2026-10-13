@@ -1,0 +1,15 @@
+{
+  "id": "tahsilat-ve-odeme-listesi",
+  "tur": "kod",
+  "ad": "Tahsilat ve Ödeme Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --alacaklar alacaklar.xlsx --borclar borclar.xlsx --tarih 12.10.2026 --gun 7 --kasa 10000",
+  "girdiler": [
+    "Alacaklar (.xlsx/.csv): Cari, Belge No, Vade, Tutar, Açıklama",
+    "Borçlar: Cari, Belge No, Vade, Tutar, Açıklama"
+  ],
+  "ciktilar": ["Excel: Tahsilat Listesi, Ödeme Listesi, Günlük Özet (kümülatif nakit), Cari Özeti, Uyarılar"],
+  "internet": false
+}

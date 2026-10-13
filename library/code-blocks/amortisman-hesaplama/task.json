@@ -1,0 +1,12 @@
+{
+  "id": "amortisman-hesaplama",
+  "tur": "kod",
+  "ad": "Amortisman Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --demirbaslar demirbaslar.xlsx --yil 2026",
+  "girdiler": ["Demirbaşlar (.xlsx/.csv): Kod, Demirbaş, Aktife Giriş Tarihi, Maliyet, Faydalı Ömür (yıl), Yöntem (Normal / Azalan), Kıst"],
+  "ciktilar": ["Excel: Dönem Amortismanı (yıl amortismanı, birikmiş, net defter değeri), Amortisman Planı, Uyarılar"],
+  "internet": false
+}

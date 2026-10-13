@@ -1,0 +1,12 @@
+{
+  "id": "arac-satis-teklifi-hesaplama",
+  "tur": "kod",
+  "ad": "Araç Satış Teklifi Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --teklifler teklifler.xlsx --kkdf 15 --bsmv 15",
+  "girdiler": ["Teklifler (.xlsx/.csv): Teklif No, Müşteri, Araç, Liste Fiyatı, Kampanya İndirimi, Takas Değeri, Peşinat, Kredi Vadesi (ay), Aylık Faiz %, Kasko, Trafik Sigortası, Diğer Masraflar"],
+  "ciktilar": ["Excel: Teklifler (kredi tutarı, aylık taksit, ilk gün ödenecek, toplam maliyet), Ödeme Planı, Uyarılar"],
+  "internet": false
+}

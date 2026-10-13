@@ -1,0 +1,15 @@
+{
+  "id": "garanti-basvuru-dosyasi-kontrolu",
+  "tur": "kod",
+  "ad": "Garanti Başvuru Dosyası Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --basvurular basvurular.xlsx --kodlar kodlar.xlsx --garanti-ay 24 --garanti-km 100000 --basvuru-gun 30",
+  "girdiler": [
+    "Başvurular (.xlsx/.csv): Başvuru No, Şasi No, Garanti Başlangıç, Arıza Tarihi, Onarım Tarihi, Başvuru Tarihi, Km, Arıza Kodu, İşçilik Kodu, İşçilik Süresi, Parça No, Parça Adedi",
+    "İsteğe bağlı kod listesi: Kod Türü (Arıza / İşçilik), Kod, Standart Süre"
+  ],
+  "ciktilar": ["Excel: Kontrol Sonucu (durum ve bulgular), Bulgu Özeti, Uyarılar"],
+  "internet": false
+}

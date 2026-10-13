@@ -1,0 +1,15 @@
+{
+  "id": "ikinci-el-arac-fiyat-degerleme",
+  "tur": "kod",
+  "ad": "İkinci El Araç Fiyat Değerleme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --ilanlar ilanlar.xlsx --araclar araclar.xlsx --yil-fark 1 --km-fark 30 --marj 10",
+  "girdiler": [
+    "İlanlar (.xlsx/.csv): Marka, Model, Yıl, Km, Fiyat, Yakıt, Vites, Paket",
+    "Değerlenecek araçlar: Araç (plaka veya ad), Marka, Model, Yıl, Km, Yakıt, Vites, Paket, Hasar Tutarı"
+  ],
+  "ciktilar": ["Excel: Değerleme (piyasa aralığı, medyan, alım önerisi), Emsal İlanlar, Uyarılar"],
+  "internet": false
+}

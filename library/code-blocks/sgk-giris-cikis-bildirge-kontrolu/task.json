@@ -1,0 +1,15 @@
+{
+  "id": "sgk-giris-cikis-bildirge-kontrolu",
+  "tur": "kod",
+  "ad": "SGK Giriş-Çıkış Bildirge Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --personel personel.xlsx --bildirgeler bildirgeler.xlsx --tarih 13.10.2026",
+  "girdiler": [
+    "Personel (.xlsx/.csv): TC Kimlik No (veya Sicil No), Ad Soyad, İşe Giriş Tarihi, İşten Çıkış Tarihi",
+    "Bildirgeler: TC Kimlik No, Ad Soyad, Tür (Giriş / Çıkış), Bildirge Tarihi, Bildirilen Tarih"
+  ],
+  "ciktilar": ["Excel: Bildirge Kontrolü (son gün, durum, gecikme; kimlik maskeli), Uyarılar"],
+  "internet": false
+}

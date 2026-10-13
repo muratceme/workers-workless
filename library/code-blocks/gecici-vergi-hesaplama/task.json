@@ -1,0 +1,15 @@
+{
+  "id": "gecici-vergi-hesaplama",
+  "tur": "kod",
+  "ad": "Geçici Vergi Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --mizan mizan.xlsx --duzeltmeler duzeltmeler.xlsx --oran 25 --onceki 80000 --stopaj 5000",
+  "girdiler": [
+    "Mizan (.xlsx/.csv): Hesap Kodu, Hesap Adı, Borç Bakiye, Alacak Bakiye (dönem sonu kümülatif)",
+    "İsteğe bağlı düzeltmeler: Kalem, Tür (KKEG / İstisna / Geçmiş Yıl Zararı / İndirim), Tutar"
+  ],
+  "ciktilar": ["Excel: Hesap (adım adım matrah ve ödenecek vergi), Gelir Tablosu Hesapları, Düzeltmeler, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,12 @@
+{
+  "id": "egitim-degerlendirme-raporu",
+  "tur": "kod",
+  "ad": "Eğitim Değerlendirme Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --katilim egitim_katilim.xlsx --gecme 70 --katilim-esik 80 --memnuniyet-esik 3,5",
+  "girdiler": ["Katılım (.xlsx/.csv): Eğitim, Katılımcı, Departman, Katıldı, Ön Test, Son Test, Memnuniyet"],
+  "ciktilar": ["Excel: Eğitim Özeti (katılım, test ortalamaları, gelişim, başarı, memnuniyet), Departman Özeti, Takip Listesi, Uyarılar"],
+  "internet": false
+}

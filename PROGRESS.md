@@ -428,11 +428,25 @@ test yardımcı lambda'larında veri ve ayar kwargs'ları ayrılmalı; ROUND_FLO
 İnternet teyidi yapılmadı: TCKN algoritması, Kasavana-Smith %70 eşiği, release sayımı, varsayılan parametreler (hedef doluluk 85,
 maliyet oranı 30, temizlik 30/20 dk) README'lerde varsayım olarak işaretli.
 
+### Tur 19 (15 kod bloğu)
+mukellef-beyanname-takvimi, gecici-vergi-hesaplama, durusma-ve-kesin-sure-takvimi, icra-dosyasi-faiz-ve-alacak-hesabi,
+arac-satis-teklifi-hesaplama, ikinci-el-arac-fiyat-degerleme, garanti-basvuru-dosyasi-kontrolu, yedek-parca-siparis-onerisi,
+kazanim-bazli-basari-raporu, ise-alim-surec-raporu, sgk-giris-cikis-bildirge-kontrolu, yillik-egitim-plani,
+egitim-degerlendirme-raporu, tahsilat-ve-odeme-listesi, amortisman-hesaplama.
+Toplam 253 paket (221 kod + 32 agent), kontrol 253/253.
+Notlar: durusma-ve-kesin-sure-takvimi, dava-ve-durusma-takvimi paketinin aynı çekirdekle farklı rol için kopyasıdır (çekirdek
+değişirse ikisi birlikte güncellenmeli). Yasal oran ve günler koda gömülmedi: beyanname günleri, geçici vergi oranı, faiz oranları,
+KKDF/BSMV kullanıcıdan geliyor. Koddaki yasal varsayımlar (README'de işaretli, teyit edilmedi): SGK giriş bildirgesi 1 gün önce,
+çıkış 10 gün; azalan bakiyeler oranı normalin 2 katı ve en çok %50; kıst amortisman; ödeme mahsup sırası masraf → faiz → asıl.
+Dersler: nested f-string'de aynı tırnak Python 3.10/3.11'de hata verir (ayrı değişkene al); argparse negatif sayıyı
+"--ad=-5" biçiminde ister; test yardımcılarında .lower() yerine katla() (İ harfi).
+
 ### KALDIĞIM YER
-Sıradaki (puan 3): Mükellef Beyanname Takvimi, Geçici Vergi Hesaplama, Duruşma ve Kesin Süre Takvimi, İcra Dosyası Faiz ve Alacak
-Hesabı; otomotiv (Araç Satış Teklifi Hesaplama, İkinci El Araç Fiyat Değerleme, Garanti Başvuru Dosyası Kontrolü, Yedek Parça Sipariş
-Önerisi); eğitim (Kazanım Bazlı Başarı Raporu); sonra puan 2 grubu (İşe Alım Süreç Raporu, SGK Giriş-Çıkış Bildirge Kontrolü,
-Yıllık Eğitim Planı, Eğitim Değerlendirme Raporu, Tahsilat ve Ödeme Listesi, Ay Sonu Kapanış Kontrol Listesi, Amortisman Hesaplama…).
+Sıradaki (puan 2): Ay Sonu Kapanış Kontrol Listesi, Denetim Hazırlık Dosyası, Banka Limit ve Risk Raporu, Ödeme Önceliklendirme,
+Kur Riski Pozisyon Raporu, Donanım Zimmet Envanteri, Yedekleme Doğrulama Raporu, Kapasite Raporu, BT Proje Portföy Durumu,
+Satın Alma Fiyat Geçmişi Analizi, Tedarikçi Risk Skoru, Satın Alma Tasarruf Raporu, Dava Risk ve Karşılık Raporu, Sözleşme Envanteri
+ve Süre Takibi, Araç Filosu Takibi, Demirbaş ve Zimmet Takibi, Pazarlama Bütçesi Takibi, Teklif Takip Listesi, Müşteri Risk ve Limit
+Takibi… (tam liste için kalan2.mjs).
 Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,
 Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi,
 Planogram Uyum, Hasta Şikâyet Sınıflandırma, Hasta Memnuniyet Anketi Analizi, Müşteri Yük Durum Bilgilendirmesi, Konşimento Bilgi

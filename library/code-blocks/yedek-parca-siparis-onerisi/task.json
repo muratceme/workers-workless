@@ -1,0 +1,12 @@
+{
+  "id": "yedek-parca-siparis-onerisi",
+  "tur": "kod",
+  "ad": "Yedek Parça Sipariş Önerisi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --parcalar parcalar.xlsx --emniyet-gun 7 --kapsama-gun 30",
+  "girdiler": ["Parçalar (.xlsx/.csv): Parça No, Parça Adı, Stok, Yoldaki, Aylık Tüketim, Bekleyen İş Emri, Tedarik Süresi (gün), Paket Adedi, Birim Fiyat"],
+  "ciktilar": ["Excel: Sipariş Önerisi (durum, sipariş noktası, hedef stok, önerilen adet ve tutar), Uyarılar"],
+  "internet": false
+}

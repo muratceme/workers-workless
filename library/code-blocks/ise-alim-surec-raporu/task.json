@@ -1,0 +1,15 @@
+{
+  "id": "ise-alim-surec-raporu",
+  "tur": "kod",
+  "ad": "İşe Alım Süreç Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --adaylar adaylar.xlsx --pozisyonlar pozisyonlar.xlsx --tarih 13.10.2026 --bekleme 7",
+  "girdiler": [
+    "Adaylar (.xlsx/.csv): Pozisyon, Aday, Kaynak, Başvuru Tarihi, Aşama, Aşama Tarihi",
+    "İsteğe bağlı pozisyonlar: Pozisyon, Departman, Açılış Tarihi, Kapanış Tarihi, Sorumlu"
+  ],
+  "ciktilar": ["Excel: Pozisyon Özeti (aşama dağılımı, açık gün, işe alım süresi), Kaynak Analizi, Bekleyen Adaylar, Uyarılar"],
+  "internet": false
+}

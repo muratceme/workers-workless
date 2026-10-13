@@ -1,0 +1,7 @@
+Parça No;Parça Adı;Stok;Yoldaki;Aylık Tüketim;Bekleyen İş Emri;Tedarik Süresi (gün);Paket Adedi;Birim Fiyat
+YP-1001;Yağ Filtresi;20;;60;5;10;10;100,00
+YP-1002;Hava Filtresi;100;;30;;5;1;180,00
+YP-1003;Ön Fren Balatası (takım);18;2;30;;15;1;950,00
+YP-1004;Silecek Süpürgesi (eski model);7;;0;;10;1;220,00
+YP-1005;Debriyaj Seti;1;;0;3;20;1;8.500,00
+YP-1006;Buji;2;;10;;3;5;

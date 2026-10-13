@@ -1,0 +1,11 @@
+Hesap Kodu;Hesap Adı;Borç Bakiye;Alacak Bakiye
+100;Kasa;100.000,00;
+102;Bankalar;1.580.000,00;
+500;Sermaye;;1.000.000,00
+600;Yurtiçi Satışlar;;5.000.000,00
+610;Satıştan İadeler;100.000,00;
+621;Satılan Ticari Mallar Maliyeti;3.200.000,00;
+632;Genel Yönetim Giderleri;900.000,00;
+642;Faiz Gelirleri;;50.000,00
+660;Kısa Vadeli Borçlanma Giderleri;150.000,00;
+689;Diğer Olağandışı Gider ve Zararlar;20.000,00;

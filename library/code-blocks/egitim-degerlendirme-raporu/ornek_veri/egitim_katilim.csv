@@ -1,0 +1,11 @@
+Eğitim;Katılımcı;Departman;Katıldı;Ön Test;Son Test;Memnuniyet
+İleri Excel;Örnek Personel 1;Finans;Evet;40;80;5
+İleri Excel;Örnek Personel 2;Finans;Evet;60;70;4
+İleri Excel;Örnek Personel 3;Satış;Evet;50;65;3
+İleri Excel;Örnek Personel 4;Satış;Evet;;90;
+İleri Excel;Örnek Personel 5;Satış;Hayır;;;
+Etkili Sunum;Örnek Personel 3;Satış;Evet;70;60;2
+Etkili Sunum;Örnek Personel 6;Pazarlama;Evet;80;80;3
+Zaman Yönetimi;Örnek Personel 1;Finans;Evet;;;
+Zaman Yönetimi;Örnek Personel 6;Pazarlama;Hayır;;;
+Zaman Yönetimi;Örnek Personel 7;Pazarlama;Hayır;;;

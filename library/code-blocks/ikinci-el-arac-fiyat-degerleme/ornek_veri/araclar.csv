@@ -1,0 +1,4 @@
+Araç;Marka;Model;Yıl;Km;Yakıt;Vites;Paket;Hasar Tutarı
+Stok-001;Örnek Marka;Model A;2020;85000;Benzin;Otomatik;Orta;
+Stok-002;Örnek Marka;Model A;2020;150000;Benzin;Otomatik;Orta;45.000
+Stok-003;Örnek Marka;Model B;2022;35000;Hibrit;Otomatik;Üst;

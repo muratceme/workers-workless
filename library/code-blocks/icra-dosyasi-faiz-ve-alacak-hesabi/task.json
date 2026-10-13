@@ -1,0 +1,16 @@
+{
+  "id": "icra-dosyasi-faiz-ve-alacak-hesabi",
+  "tur": "kod",
+  "ad": "İcra Dosyası Faiz ve Alacak Hesabı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --dosyalar dosyalar.xlsx --oranlar faiz_oranlari.xlsx --odemeler odemeler.xlsx --tarih 13.10.2026",
+  "girdiler": [
+    "Dosyalar (.xlsx/.csv): Dosya No, Borçlu, Asıl Alacak, Faiz Başlangıç, Faiz Türü, Sabit Oran, Masraflar, Vekalet Ücreti",
+    "Faiz oranları: Faiz Türü, Başlangıç, Yıllık Oran",
+    "İsteğe bağlı ödemeler: Dosya No, Tarih, Tutar"
+  ],
+  "ciktilar": ["Excel: Dosya Özeti (işlemiş faiz, güncel borç, günlük faiz), Faiz Dönemleri, Ödeme Mahsubu, Uyarılar"],
+  "internet": false
+}

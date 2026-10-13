@@ -1,0 +1,15 @@
+{
+  "id": "kazanim-bazli-basari-raporu",
+  "tur": "kod",
+  "ad": "Kazanım Bazlı Başarı Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --cevaplar cevaplar.xlsx --anahtar cevap_anahtari.xlsx --esik 50",
+  "girdiler": [
+    "Cevaplar (.xlsx/.csv): Öğrenci, Sınıf ve her soru için bir sütun (başlık soru numarası, hücre işaretlenen seçenek)",
+    "Cevap anahtarı: Soru, Doğru Cevap, Kazanım"
+  ],
+  "ciktilar": ["Excel: Kazanım Özeti (genel ve sınıf bazında), Öğrenci × Kazanım, Soru Analizi, Uyarılar"],
+  "internet": false
+}

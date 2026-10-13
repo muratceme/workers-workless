@@ -1,0 +1,4 @@
+Dosya No;Borçlu;Asıl Alacak;Faiz Başlangıç;Faiz Türü;Sabit Oran;Masraflar;Vekalet Ücreti
+2026/101;Örnek Borçlu A;100.000,00;01.01.2026;Yasal Faiz;;1.000,00;2.000,00
+2026/102;Örnek Borçlu B;250.000,00;15.03.2026;Ticari Avans Faizi;;;
+2026/103;Örnek Borçlu C;50.000,00;01.06.2026;;30;;
