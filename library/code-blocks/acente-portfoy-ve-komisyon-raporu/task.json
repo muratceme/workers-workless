@@ -1,0 +1,12 @@
+{
+  "id": "acente-portfoy-ve-komisyon-raporu",
+  "tur": "kod",
+  "ad": "Acente Portföy ve Komisyon Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --policeler policeler.xlsx",
+  "girdiler": ["Poliçeler (.xlsx/.csv): Poliçe No, Sigorta Şirketi, Branş, Tanzim Tarihi, Net Prim, Brüt Prim, Komisyon, Komisyon Oranı, Tahsil Edilen"],
+  "ciktilar": ["Excel: Şirketler, Branşlar, Şirket × Branş (prim, komisyon, komisyon oranı, açık alacak, tahsilat oranı), Aylar, Poliçeler, Uyarılar"],
+  "internet": false
+}

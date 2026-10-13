@@ -1,0 +1,12 @@
+{
+  "id": "operasyonel-risk-kayip-veri-analizi",
+  "tur": "kod",
+  "ad": "Operasyonel Risk Kayıp Veri Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kayiplar kayiplar.xlsx",
+  "girdiler": ["Kayıp olayları (.xlsx/.csv): Olay No, Olay Tarihi, Olay Türü, İş Kolu, Brüt Kayıp, Geri Kazanım, Birim, Açıklama"],
+  "ciktilar": ["Excel: Özet, Olay Türleri, İş Kolları, Dönemler, Tür × İş Kolu, Tutar Dilimleri, Büyük Olaylar, Tüm Olaylar, Uyarılar"],
+  "internet": false
+}

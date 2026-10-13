@@ -506,11 +506,40 @@ hedef konmasın diye); döviz pozisyonu ve mevduat-kredi marjında para birimler
 Dersler: testte elle toplam yazarken iki kez topla (bu turda üç beklenti toplama hatasıydı, kod doğruydu); "✓" gibi işaretler
 katla() ile boşalır → ham metne ayrıca bak; argparse'ta değişken adı `a` ile parametre `a` çakışmasın (args kullan).
 
+### Tur 23 (15 kod bloğu)
+operasyonel-risk-kayip-veri-analizi, brans-karlilik-raporu, muallak-hasar-takibi, muallak-hasar-raporu, rucu-tahsilat-takibi,
+eksper-performans-analizi, kurum-fiyat-karsilastirmasi, uretim-hedef-takibi, prim-odenmemesi-nedeniyle-iptal-listesi,
+acente-portfoy-ve-komisyon-raporu, musteri-tahsilat-takibi, durus-nedeni-pareto-analizi, uretim-performans-panosu,
+plan-uyum-raporu, dof-takibi.
+Toplam 313 paket (281 kod + 32 agent).
+Notlar: bu tur sigorta (teknik, hasar, sağlık, satış, tahsilat, acente) ve üretim (üretim, planlama, kalite) ağırlıklı.
+İnternetten kaynak teyidi yapılmadı. Yasal oran ve süre koda gömülmedi; hepsi parametre.
+Teyit edilmemiş içerik varsayımları (uzman bakmalı):
+- Prim ödenmemesi / iptal listesi: ilk taksitte vadeden başlayan 3 aylık cayma süresi ve izleyen taksitlerde ihtarla 10 gün
+  (TTK'nın prim borcunda temerrüt maddesinden hatırlanan genel kural). Madde numarası README'ye yazılmadı; zorunlu sigortalar,
+  hayat ve sağlıkta farklı kurallar olabileceği notu var. Kod iptal kararı vermez, "aday" der.
+- Rücu takibi: zamanaşımı süresi hesaplanmıyor, tarihi kullanıcı yazıyor; cevap ve tahsilat için 30 gün çalışma eşiği.
+- Branş kârlılığı: komisyon ve gider oranının paydası kazanılmış prim (bazı raporlarda yazılan prim kullanılır, README'de
+  notlu); mali tablodaki teknik kâr değil (yatırım geliri, DERK, dengeleme karşılığı yok).
+- Muallak hasar raporu: "gerçekleşme oranı" (ödenen ÷ ilk muallak) yönetim göstergesi; aktüeryal yeterlilik hesabı değil.
+- Operasyonel risk: Basel'in 7 olay türü / 8 iş kolu yalnız README'de anılıyor; kod sınıflandırmayı dayatmıyor.
+- Üretim panosu: OEE hedefi varsayılanı %60 (politika); "dünya sınıfı %85" her süreç için ölçüt değildir notu var.
+- Acente raporları: komisyon oranı varsayılmıyor; şirkete aktarılacak tutarı kullanıcı yazıyor (boşsa taksitin tamamı).
+Tasarım tercihleri: oranlar her yerde toplamların oranı (ortalamaların ortalaması değil); kurum fiyat endeksi ortancaya göre
+ve adet ağırlıklı; Pareto'da A sınıfı = kendisinden önceki kümülatif pay eşiğin altında olan kalem (eşiği geçiren kalem
+dahil); plan uyumunda fazla üretim miktar uyumunu artırmaz ve "uygun" sayılmaz; DÖF ancak etkinlik "Etkin" ise kapalı;
+üretim hedefinde yalnız yıl yazılan hedef 12 aya eşit bölünür.
+Dersler: adet / miktar sütunlarında olcu() "1.000" değerini 1 okur → adet ve süre sütunlarında para() kullan (bu turda
+kurum fiyat, duruş pareto ve üretim panosunda düzeltildi; önceki turlarda olcu() ile okunan adet sütunları gözden
+geçirilmeli); Bash heredoc içindeki Python'da "\n" kaçışı gerçek satır sonuna dönüşüyor → test dosyası yamalarında
+chr(92) ya da Edit aracı kullan.
+
 ### KALDIĞIM YER
-Sıradaki (puan 2): Operasyonel Risk Kayıp Veri Analizi, Branş Kârlılık Raporu, Muallak Hasar Takibi, Rücu Tahsilat Takibi,
-Muallak Hasar Raporu, Eksper Performans Analizi, Kurum Fiyat Karşılaştırması, Üretim Hedef Takibi, Prim Ödenmemesi Nedeniyle
-İptal Listesi, Acente Portföy ve Komisyon Raporu, Müşteri Tahsilat Takibi, Duruş Nedeni Pareto Analizi, Üretim Performans
-Panosu… (tam liste için kalan2.mjs). Teminat Mektubu Metin Kontrolü ve Şüpheli İşlem Bildirim Taslağı agent adayı.
+Sıradaki (puan 2): Kalitesizlik Maliyeti Raporu, Tedarikçi Kalite Karnesi, Periyodik Bakım İş Emri Listesi, Yedek Parça Kritik
+Stok Önerisi, Bakım Maliyet ve Performans Raporu, Kaizen Önerisi Değerlendirme, Ürün Ağacı (BOM) Karşılaştırma, Lab Dip ve
+Onay Takibi, Kumaş Fiyat Takibi, Hata Türü Pareto Analizi, Gün Sonu Kasa Raporu, Kasa Fark ve İptal Analizi, Mağaza Satış
+Performans Panosu, Fire ve Kayıp Analizi, Personel Satış Performansı… (tam liste için kalan2.mjs). Teminat Mektubu Metin
+Kontrolü, Müşteri İhtiyaç Analizi, Vardiya Devir Notu Özeti ve Şüpheli İşlem Bildirim Taslağı agent adayı.
 Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,
 Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi,
 Planogram Uyum, Hasta Şikâyet Sınıflandırma, Hasta Memnuniyet Anketi Analizi, Müşteri Yük Durum Bilgilendirmesi, Konşimento Bilgi

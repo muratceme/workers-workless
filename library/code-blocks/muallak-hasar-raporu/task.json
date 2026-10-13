@@ -1,0 +1,12 @@
+{
+  "id": "muallak-hasar-raporu",
+  "tur": "kod",
+  "ad": "Muallak Hasar Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --dosyalar hasar_dosyalari.xlsx",
+  "girdiler": ["Hasar dosyaları (.xlsx/.csv): Dosya No, Branş, İhbar Tarihi, Kapanış Tarihi, İlk Muallak, Güncel Muallak, Ödenen Tutar"],
+  "ciktilar": ["Excel: Özet (yaş ve tutar dağılımı), Branşlar (Açık), Rezerv Yeterliliği, Açık Dosyalar, Kapanan Dosyalar, Uyarılar"],
+  "internet": false
+}

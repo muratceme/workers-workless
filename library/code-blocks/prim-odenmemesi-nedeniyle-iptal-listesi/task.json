@@ -1,0 +1,12 @@
+{
+  "id": "prim-odenmemesi-nedeniyle-iptal-listesi",
+  "tur": "kod",
+  "ad": "Prim Ödenmemesi Nedeniyle İptal Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --taksitler taksitler.xlsx",
+  "girdiler": ["Taksitler (.xlsx/.csv): Poliçe No, Sigortalı, Branş, Taksit No, Vade, Tutar, Ödenen, İhtar Tebliğ Tarihi"],
+  "ciktilar": ["Excel: Poliçeler (durum sırasıyla; iptal adayları üstte), Özet, Taksitler, Uyarılar"],
+  "internet": false
+}

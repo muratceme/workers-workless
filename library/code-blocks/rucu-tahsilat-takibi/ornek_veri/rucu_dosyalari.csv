@@ -1,0 +1,10 @@
+Rücu No;Hasar Dosya No;Karşı Taraf;Rücu Tutarı;Talep Tarihi;Cevap Tarihi;Aşama;Tahsil Edilen;Zamanaşımı Tarihi;Sorumlu
+R-001;H-2025-0311;Örnek Sigorta A.Ş.;85000;10.06.2026;02.07.2026;Tahsil edildi;85000;15.03.2027;E. Arslan
+R-002;H-2025-0420;Deneme Sigorta A.Ş.;140000;01.08.2026;;Talep gönderildi;0;20.05.2027;E. Arslan
+R-003;H-2025-0518;Numune Sigorta A.Ş.;62000;15.09.2026;;Talep gönderildi;0;10.08.2027;E. Arslan
+R-004;H-2024-0907;Örnek Sigorta A.Ş.;230000;05.03.2026;28.03.2026;Tahkim;0;30.11.2026;F. Polat
+R-005;H-2025-0633;Kurgu Nakliyat Ltd. Şti.;48000;;;Hazırlık;0;25.06.2027;F. Polat
+R-006;H-2025-0702;Deneme Sigorta A.Ş.;96000;12.07.2026;30.07.2026;Kabul edildi;40000;18.04.2027;E. Arslan
+R-007;H-2024-0655;Numune Sigorta A.Ş.;31000;20.01.2026;15.02.2026;Reddedildi;0;01.09.2026;F. Polat
+R-008;H-2025-0188;Kurgu Nakliyat Ltd. Şti.;54000;10.02.2026;05.03.2026;Kapatıldı;20000;;F. Polat
+R-009;H-2025-0740;Örnek Sigorta A.Ş.;120000;01.09.2026;25.09.2026;Kabul edildi;0;12.07.2027;E. Arslan

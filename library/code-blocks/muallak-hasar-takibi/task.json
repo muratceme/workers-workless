@@ -1,0 +1,12 @@
+{
+  "id": "muallak-hasar-takibi",
+  "tur": "kod",
+  "ad": "Muallak Hasar Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --dosyalar acik_dosyalar.xlsx",
+  "girdiler": ["Açık hasar dosyaları (.xlsx/.csv): Dosya No, Branş, Sigortalı, İhbar Tarihi, Son İşlem Tarihi, Muallak Tutar, Bekleyen Aksiyon, Sorumlu"],
+  "ciktilar": ["Excel: Takip Listesi (öncelik sırasıyla), Özet (yaş dağılımı), Bekleyen Aksiyonlar, Sorumlular, Branşlar, Uyarılar"],
+  "internet": false
+}

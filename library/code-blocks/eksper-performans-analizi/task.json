@@ -1,0 +1,12 @@
+{
+  "id": "eksper-performans-analizi",
+  "tur": "kod",
+  "ad": "Eksper Performans Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --dosyalar ekspertiz_dosyalari.xlsx",
+  "girdiler": ["Ekspertiz dosyaları (.xlsx/.csv): Dosya No, Eksper, Branş, Atama Tarihi, Rapor Tarihi, Tespit Tutarı, Ödenen Tutar, İtiraz, Eksper Ücreti"],
+  "ciktilar": ["Excel: Eksperler (süre, tespit–ödeme farkı, itiraz oranı, değerlendirme), Bekleyen Raporlar, Dosyalar, Uyarılar"],
+  "internet": false
+}

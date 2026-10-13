@@ -1,0 +1,12 @@
+{
+  "id": "dof-takibi",
+  "tur": "kod",
+  "ad": "DÖF Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --doflar dof_listesi.xlsx",
+  "girdiler": ["DÖF listesi (.xlsx/.csv): DÖF No, Tür, Kaynak, Konu, Sorumlu, Açılış Tarihi, Termin, Aksiyon Tamamlanma Tarihi, Etkinlik Doğrulama Tarihi, Etkinlik Sonucu"],
+  "ciktilar": ["Excel: DÖF Listesi (durum sırasıyla), Özet (kapanma, etkinlik ve zamanında aksiyon oranları), Sorumlular, Kaynaklar, Türler, Uyarılar"],
+  "internet": false
+}

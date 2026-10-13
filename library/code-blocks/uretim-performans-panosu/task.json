@@ -1,0 +1,12 @@
+{
+  "id": "uretim-performans-panosu",
+  "tur": "kod",
+  "ad": "Üretim Performans Panosu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kayitlar gunluk_uretim.xlsx",
+  "girdiler": ["Günlük üretim (.xlsx/.csv): Tarih, Hat, Planlı Süre (dk), Duruş (dk), İdeal Çevrim Süresi (sn), Üretilen Adet, Sağlam Adet ya da Fire Adet, Planlanan Adet, İş Kazası"],
+  "ciktilar": ["Excel: Pano (Hat × Hafta; OEE, kullanılabilirlik, performans, kalite, plan uyumu, fire, iş kazası), Hatlar, Haftalar, Günlük Kayıtlar, Uyarılar"],
+  "internet": false
+}

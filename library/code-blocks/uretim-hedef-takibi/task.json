@@ -1,0 +1,12 @@
+{
+  "id": "uretim-hedef-takibi",
+  "tur": "kod",
+  "ad": "Üretim Hedef Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --hedefler hedefler.xlsx --uretim uretim.xlsx --ay 09.2026",
+  "girdiler": ["Hedefler (.xlsx/.csv): Acente, Branş, Ay, Hedef", "Üretim (.xlsx/.csv): Acente, Branş, Tarih ya da Ay, Prim"],
+  "ciktilar": ["Excel: Acenteler, Branşlar, Acente × Branş (ay ve kümülatif gerçekleşme, kalan hedef, gereken aylık üretim), Aylar, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,11 @@
+Poliçe No;Sigorta Şirketi;Branş;Tanzim Tarihi;Net Prim;Brüt Prim;Komisyon;Komisyon Oranı;Tahsil Edilen
+A-001;Örnek Sigorta;Kasko;05.07.2026;40000;42000;6000;;42000
+A-002;Örnek Sigorta;Trafik;12.07.2026;12000;12600;;10;12600
+A-003;Örnek Sigorta;Kasko;20.07.2026;30000;31500;4500;;15750
+A-004;Deneme Sigorta;Yangın;03.08.2026;80000;84000;16000;;84000
+A-005;Deneme Sigorta;Kasko;11.08.2026;50000;52500;7500;;0
+A-006;Örnek Sigorta;Sağlık;18.08.2026;25000;25000;3750;;25000
+A-007;Numune Sigorta;Trafik;02.09.2026;10000;10500;;10;10500
+A-008;Örnek Sigorta;Kasko;09.09.2026;60000;63000;9000;;21000
+A-009;Örnek Sigorta;Kasko;15.09.2026;-30000;-31500;-4500;;-15750
+A-010;Deneme Sigorta;Yangın;22.09.2026;20000;21000;;;21000

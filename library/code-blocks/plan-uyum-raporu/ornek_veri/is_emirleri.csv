@@ -1,0 +1,11 @@
+İş Emri No;Ürün;Hat;Planlanan Miktar;Gerçekleşen Miktar;Planlanan Bitiş;Gerçekleşen Bitiş;Sapma Nedeni
+IE-1001;Braket A;Pres 1;5000;5000;05.10.2026;05.10.2026;
+IE-1002;Braket B;Pres 1;3000;2400;06.10.2026;06.10.2026;Mekanik arıza
+IE-1003;Kapak C;Pres 2;4000;4000;06.10.2026;08.10.2026;Malzeme gecikmesi
+IE-1004;Gövde D;CNC 1;800;800;07.10.2026;07.10.2026;
+IE-1005;Mil E;CNC 1;600;450;08.10.2026;09.10.2026;Takım kırılması
+IE-1006;Braket A;Pres 1;5000;5300;08.10.2026;08.10.2026;
+IE-1007;Kapak C;Pres 2;4000;3900;09.10.2026;09.10.2026;Kalite reddi
+IE-1008;Gövde D;CNC 1;800;300;10.10.2026;;Mekanik arıza
+IE-1009;Mil E;CNC 1;600;0;14.10.2026;;
+IE-1010;Braket B;Pres 2;3000;3000;09.10.2026;09.10.2026;

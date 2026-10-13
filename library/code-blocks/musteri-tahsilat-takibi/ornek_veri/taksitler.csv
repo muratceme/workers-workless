@@ -1,0 +1,8 @@
+Poliçe No;Müşteri;Sigorta Şirketi;Vade;Tutar;Tahsil Edilen;Şirkete Ödeme Vadesi;Şirkete Aktarılacak;Şirkete Ödenen
+P-201;Örnek Lojistik A.Ş.;Örnek Sigorta;01.09.2026;12000;0;15.09.2026;10200;10200
+P-201;Örnek Lojistik A.Ş.;Örnek Sigorta;01.10.2026;12000;0;15.10.2026;10200;0
+P-202;Deneme Gıda Ltd. Şti.;Deneme Sigorta;20.09.2026;8000;8000;05.10.2026;6800;0
+P-203;Numune Tekstil A.Ş.;Örnek Sigorta;15.10.2026;15000;0;30.10.2026;12750;0
+P-204;Kurgu İnşaat Ltd. Şti.;Deneme Sigorta;25.08.2026;6000;2500;10.09.2026;5100;2500
+P-205;Numune Tekstil A.Ş.;Numune Sigorta;05.11.2026;9000;9000;20.11.2026;7650;7650
+P-206;Deneme Gıda Ltd. Şti.;Örnek Sigorta;10.11.2026;5000;0;25.11.2026;4250;0

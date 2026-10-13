@@ -1,0 +1,12 @@
+{
+  "id": "plan-uyum-raporu",
+  "tur": "kod",
+  "ad": "Plan Uyum Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --emirler is_emirleri.xlsx",
+  "girdiler": ["İş emirleri (.xlsx/.csv): İş Emri No, Ürün, Hat, Planlanan Miktar, Gerçekleşen Miktar, Planlanan Bitiş, Gerçekleşen Bitiş, Sapma Nedeni"],
+  "ciktilar": ["Excel: İş Emirleri (durum sırasıyla), Özet (plan uyumu, miktar uyumu, zamanında bitirme), Sapma Nedenleri, Hatlar, Ürünler, Uyarılar"],
+  "internet": false
+}

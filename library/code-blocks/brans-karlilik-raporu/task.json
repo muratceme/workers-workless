@@ -1,0 +1,12 @@
+{
+  "id": "brans-karlilik-raporu",
+  "tur": "kod",
+  "ad": "Branş Kârlılık Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --veri brans_verisi.xlsx",
+  "girdiler": ["Branş verisi (.xlsx/.csv): Branş, Dönem, Yazılan Prim, Devreden KPK, Dönem Sonu KPK, Ödenen Hasar, Devreden Muallak, Dönem Sonu Muallak, Komisyon Gideri, Faaliyet Gideri"],
+  "ciktilar": ["Excel: Branşlar (kazanılmış prim, gerçekleşen hasar, hasar prim oranı, bileşik oran, teknik sonuç), Hesap Ayrıntısı, Dönemler, Uyarılar"],
+  "internet": false
+}

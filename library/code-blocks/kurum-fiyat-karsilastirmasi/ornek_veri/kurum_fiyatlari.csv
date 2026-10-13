@@ -1,0 +1,27 @@
+Kurum;Bölge;Kurum Grubu;İşlem Kodu;İşlem Adı;Fiyat;Adet
+Örnek Hastanesi 1;İstanbul;A Grubu;ISL-001;Uzman hekim muayenesi;2000;400
+Örnek Hastanesi 1;İstanbul;A Grubu;ISL-002;Tam kan sayımı;300;600
+Örnek Hastanesi 1;İstanbul;A Grubu;ISL-003;Beyin MR;6000;50
+Örnek Hastanesi 1;İstanbul;A Grubu;ISL-004;Normal doğum paketi;60000;10
+Örnek Hastanesi 2;İstanbul;A Grubu;ISL-001;Uzman hekim muayenesi;2400;400
+Örnek Hastanesi 2;İstanbul;A Grubu;ISL-002;Tam kan sayımı;320;600
+Örnek Hastanesi 2;İstanbul;A Grubu;ISL-003;Beyin MR;7000;50
+Örnek Hastanesi 2;İstanbul;A Grubu;ISL-004;Normal doğum paketi;66000;10
+Örnek Hastanesi 3;İstanbul;A Grubu;ISL-001;Uzman hekim muayenesi;2200;400
+Örnek Hastanesi 3;İstanbul;A Grubu;ISL-002;Tam kan sayımı;280;600
+Örnek Hastanesi 3;İstanbul;A Grubu;ISL-003;Beyin MR;6400;50
+Örnek Hastanesi 3;İstanbul;A Grubu;ISL-004;Normal doğum paketi;90000;10
+Örnek Hastanesi 4;İstanbul;A Grubu;ISL-001;Uzman hekim muayenesi;3200;400
+Örnek Hastanesi 4;İstanbul;A Grubu;ISL-002;Tam kan sayımı;500;600
+Örnek Hastanesi 4;İstanbul;A Grubu;ISL-003;Beyin MR;9600;50
+Örnek Hastanesi 4;İstanbul;A Grubu;ISL-004;Normal doğum paketi;84000;10
+Deneme Tıp Merkezi 1;Ankara;B Grubu;ISL-001;Uzman hekim muayenesi;1500;300
+Deneme Tıp Merkezi 1;Ankara;B Grubu;ISL-002;Tam kan sayımı;200;500
+Deneme Tıp Merkezi 1;Ankara;B Grubu;ISL-003;Beyin MR;4500;40
+Deneme Tıp Merkezi 2;Ankara;B Grubu;ISL-001;Uzman hekim muayenesi;1600;300
+Deneme Tıp Merkezi 2;Ankara;B Grubu;ISL-002;Tam kan sayımı;220;500
+Deneme Tıp Merkezi 2;Ankara;B Grubu;ISL-003;Beyin MR;5000;40
+Deneme Tıp Merkezi 3;Ankara;B Grubu;ISL-001;Uzman hekim muayenesi;1400;300
+Deneme Tıp Merkezi 3;Ankara;B Grubu;ISL-002;Tam kan sayımı;260;500
+Deneme Tıp Merkezi 3;Ankara;B Grubu;ISL-003;Beyin MR;4800;40
+Numune Hastanesi;İzmir;A Grubu;ISL-001;Uzman hekim muayenesi;2100;150

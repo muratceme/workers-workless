@@ -1,0 +1,12 @@
+{
+  "id": "rucu-tahsilat-takibi",
+  "tur": "kod",
+  "ad": "Rücu Tahsilat Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --dosyalar rucu_dosyalari.xlsx",
+  "girdiler": ["Rücu dosyaları (.xlsx/.csv): Rücu No, Hasar Dosya No, Karşı Taraf, Rücu Tutarı, Talep Tarihi, Cevap Tarihi, Aşama, Tahsil Edilen, Zamanaşımı Tarihi, Sorumlu"],
+  "ciktilar": ["Excel: Açık Dosyalar (öncelik sırasıyla), Özet, Aşamalar, Karşı Taraflar, Tüm Dosyalar, Uyarılar"],
+  "internet": false
+}

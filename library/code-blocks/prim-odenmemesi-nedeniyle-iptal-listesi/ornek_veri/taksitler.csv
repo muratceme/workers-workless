@@ -1,0 +1,13 @@
+Poliçe No;Sigortalı;Branş;Taksit No;Vade;Tutar;Ödenen;İhtar Tebliğ Tarihi
+P-1001;Örnek Lojistik A.Ş.;Kasko;1;10.06.2026;12000;12000;
+P-1001;Örnek Lojistik A.Ş.;Kasko;2;10.07.2026;12000;12000;
+P-1001;Örnek Lojistik A.Ş.;Kasko;3;10.08.2026;12000;0;25.09.2026
+P-1001;Örnek Lojistik A.Ş.;Kasko;4;10.09.2026;12000;0;
+P-1002;Deneme Gıda Ltd. Şti.;Yangın;1;15.09.2026;30000;0;
+P-1003;Numune Tekstil A.Ş.;Sağlık;1;01.03.2026;8000;8000;
+P-1003;Numune Tekstil A.Ş.;Sağlık;2;01.09.2026;8000;3000;05.10.2026
+P-1004;Kurgu İnşaat Ltd. Şti.;İşyeri;1;01.07.2026;20000;0;
+P-1005;Örnek Lojistik A.Ş.;Nakliyat;1;05.08.2026;15000;15000;
+P-1005;Örnek Lojistik A.Ş.;Nakliyat;2;05.11.2026;15000;0;
+P-1006;Deneme Gıda Ltd. Şti.;Kasko;1;20.08.2026;9000;9000;
+P-1006;Deneme Gıda Ltd. Şti.;Kasko;2;20.09.2026;9000;0;

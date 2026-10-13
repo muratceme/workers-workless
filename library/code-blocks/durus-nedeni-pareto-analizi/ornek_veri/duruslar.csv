@@ -1,0 +1,15 @@
+Tarih;Vardiya;Makine;Duruş Nedeni;Başlangıç;Bitiş;Süre (dk);Tür
+05.10.2026;1;Pres 1;Mekanik arıza;;;95;Plansız
+05.10.2026;1;CNC 1;Malzeme bekleme;10:15;10:50;;Plansız
+05.10.2026;2;Pres 2;Kalıp değişimi;;;40;Plansız
+06.10.2026;1;Pres 1;Mekanik arıza;;;130;Plansız
+06.10.2026;2;CNC 1;Takım kırılması;;;25;Plansız
+06.10.2026;3;Pres 2;Elektrik arızası;23:40;00:30;;Plansız
+07.10.2026;1;Pres 1;Kalıp değişimi;;;55;Plansız
+07.10.2026;1;CNC 1;Malzeme bekleme;;;45;Plansız
+07.10.2026;2;Pres 2;Operatör yok;;;20;Plansız
+08.10.2026;1;Pres 1;Mekanik arıza;;;75;Plansız
+08.10.2026;2;CNC 1;Kalite onayı bekleme;;;30;Plansız
+08.10.2026;1;Pres 2;Planlı bakım;;;120;Planlı
+09.10.2026;1;Pres 1;Malzeme bekleme;;;20;Plansız
+09.10.2026;2;CNC 1;Diğer;;;15;Plansız

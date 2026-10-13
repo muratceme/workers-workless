@@ -1,0 +1,12 @@
+{
+  "id": "durus-nedeni-pareto-analizi",
+  "tur": "kod",
+  "ad": "Duruş Nedeni Pareto Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --duruslar duruslar.xlsx",
+  "girdiler": ["Duruş kayıtları (.xlsx/.csv): Tarih, Vardiya, Makine, Duruş Nedeni, Süre (dk) ya da Başlangıç ve Bitiş, Tür (Planlı/Plansız)"],
+  "ciktilar": ["Excel: Neden Pareto (pay, kümülatif pay, A sınıfı), Makine Pareto, Özet (vardiya kırılımı), Duruşlar, Uyarılar"],
+  "internet": false
+}

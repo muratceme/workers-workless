@@ -1,0 +1,12 @@
+{
+  "id": "kurum-fiyat-karsilastirmasi",
+  "tur": "kod",
+  "ad": "Kurum Fiyat Karşılaştırması",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --fiyatlar kurum_fiyatlari.xlsx",
+  "girdiler": ["Kurum fiyatları (.xlsx/.csv): Kurum, Bölge, Kurum Grubu, İşlem Kodu, İşlem Adı, Fiyat, Adet"],
+  "ciktilar": ["Excel: Kurumlar (kurum endeksi, durum, ortanca üstü tutar), İşlemler (en düşük, ortanca, en yüksek, yayılım), Fiyatlar, Uyarılar"],
+  "internet": false
+}

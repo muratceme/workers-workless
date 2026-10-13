@@ -1,0 +1,11 @@
+DÖF No;Tür;Kaynak;Konu;Sorumlu;Açılış Tarihi;Termin;Aksiyon Tamamlanma Tarihi;Etkinlik Doğrulama Tarihi;Etkinlik Sonucu
+DOF-26-031;Düzeltici;Müşteri şikâyeti;Çapak kaynaklı iade;Üretim Müdürü;10.08.2026;10.09.2026;;;
+DOF-26-032;Düzeltici;İç denetim;Kalibrasyon etiketleri eksik;Kalite Mühendisi;15.08.2026;15.09.2026;12.09.2026;05.10.2026;Etkin
+DOF-26-033;Önleyici;Risk analizi;Yedek kalıp bulunmaması;Bakım Mühendisi;20.08.2026;20.10.2026;;;
+DOF-26-034;Düzeltici;Proses hatası;Boya kalınlığı tolerans dışı;Üretim Müdürü;25.08.2026;25.09.2026;24.09.2026;;
+DOF-26-035;Düzeltici;Müşteri şikâyeti;Etiket hatası;Kalite Mühendisi;01.07.2026;31.07.2026;28.07.2026;01.09.2026;Etkisiz
+DOF-26-036;Düzeltici;Tedarikçi hatası;Hammadde sertifikası eksik;Satın Alma Uzmanı;01.09.2026;;;;
+DOF-26-037;Önleyici;İç denetim;Eğitim kayıtları güncel değil;İK Uzmanı;05.08.2026;05.09.2026;10.09.2026;;
+DOF-26-038;Düzeltici;Proses hatası;Kaynak dikişinde gözenek;Üretim Müdürü;10.09.2026;05.10.2026;;;
+DOF-26-039;Düzeltici;İç denetim;Doküman revizyonu yapılmamış;Kalite Mühendisi;01.09.2026;30.11.2026;;;
+DOF-26-040;Önleyici;Risk analizi;Kritik makine için yedek parça;Bakım Mühendisi;01.06.2026;30.06.2026;25.06.2026;30.07.2026;Etkin

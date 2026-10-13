@@ -1,0 +1,12 @@
+{
+  "id": "musteri-tahsilat-takibi",
+  "tur": "kod",
+  "ad": "Müşteri Tahsilat Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --taksitler taksitler.xlsx",
+  "girdiler": ["Taksitler (.xlsx/.csv): Poliçe No, Müşteri, Sigorta Şirketi, Vade, Tutar, Tahsil Edilen, Şirkete Ödeme Vadesi, Şirkete Aktarılacak, Şirkete Ödenen"],
+  "ciktilar": ["Excel: Taksitler (durum sırasıyla), Özet (yaşlandırma), Müşteriler, Şirketler (kalan borç, vadesi geçmiş, aktarılmayan tahsilat), Uyarılar"],
+  "internet": false
+}
