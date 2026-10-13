@@ -1,0 +1,12 @@
+{
+  "id": "teslimat-performansi-otif-raporu",
+  "tur": "kod",
+  "ad": "Teslimat Performansı (OTIF) Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --siparisler siparisler.xlsx",
+  "girdiler": ["Sipariş satırları (.xlsx/.csv): Sipariş No, Müşteri, Taşıyıcı, Söz Verilen Tarih, Teslim Tarihi, Sipariş Miktarı, Teslim Miktarı"],
+  "ciktilar": ["Excel: Özet (zamanında, eksiksiz, OTIF, miktar karşılama), Müşteriler, Taşıyıcılar, Aylar, Siparişler, Uyarılar"],
+  "internet": false
+}

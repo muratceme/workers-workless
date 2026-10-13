@@ -1,0 +1,14 @@
+Teklif No;Teklif Tarihi;Müşteri;Tutar;Durum;Geçerlilik Tarihi;Son Takip Tarihi;Sonuç Tarihi;Temsilci;Kayıp Nedeni
+T-101;01.09.2026;Alfa Makine;480000;Kazanıldı;01.10.2026;;18.09.2026;Burak Şen;
+T-102;03.09.2026;Beta Gıda;150000;Kaybedildi;03.10.2026;;25.09.2026;Burak Şen;Fiyat
+T-103;10.09.2026;Gama Tekstil;320000;Açık;10.10.2026;20.09.2026;;Deniz Acar;
+T-104;15.09.2026;Delta Yapı;900000;Açık;15.10.2026;08.10.2026;;Burak Şen;
+T-105;20.09.2026;Epsilon Lojistik;210000;Açık;20.11.2026;25.09.2026;;Deniz Acar;
+T-106;28.09.2026;Zeta Kimya;640000;Açık;28.11.2026;09.10.2026;;Ece Yurt;
+T-107;05.10.2026;Eta Plastik;95000;Açık;05.11.2026;;;Ece Yurt;
+T-108;22.08.2026;Teta Otomotiv;1250000;Kazanıldı;22.09.2026;;15.09.2026;Ece Yurt;
+T-109;25.08.2026;İota Enerji;380000;Kaybedildi;25.09.2026;;30.09.2026;Deniz Acar;Teslim Süresi
+T-110;27.08.2026;Kapa Mobilya;275000;Kaybedildi;27.09.2026;;10.09.2026;Deniz Acar;Fiyat
+T-111;02.09.2026;Lambda Medikal;60000;İptal;;;;Burak Şen;
+T-112;08.10.2026;Mü Elektrik;430000;Açık;08.11.2026;;;Burak Şen;
+T-113;12.09.2026;Nü Ambalaj;185000;Kazanıldı;12.10.2026;;;Deniz Acar;

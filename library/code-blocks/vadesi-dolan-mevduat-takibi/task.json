@@ -1,0 +1,12 @@
+{
+  "id": "vadesi-dolan-mevduat-takibi",
+  "tur": "kod",
+  "ad": "Vadesi Dolan Mevduat Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --hesaplar hesaplar.xlsx --kurlar kurlar.xlsx",
+  "girdiler": ["Hesaplar (.xlsx/.csv): Müşteri No, Müşteri, Ürün, Para Birimi, Tutar, Vade Tarihi, Faiz Oranı, Otomatik Yenileme, Son Görüşme Tarihi, Portföy Yöneticisi", "Kurlar (.xlsx/.csv, isteğe bağlı): Para Birimi, Kur"],
+  "ciktilar": ["Excel: Görüşme Listesi (öncelik sırasıyla müşteriler), Hesaplar, Özet (para birimi, portföy yöneticisi, vade takvimi), Uyarılar"],
+  "internet": false
+}

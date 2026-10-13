@@ -1,0 +1,12 @@
+{
+  "id": "pazarlama-butcesi-takibi",
+  "tur": "kod",
+  "ad": "Pazarlama Bütçesi Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --butce butce.xlsx --harcamalar harcamalar.xlsx --donem-baslangic 01.01.2026 --donem-bitis 31.12.2026",
+  "girdiler": ["Bütçe (.xlsx/.csv): Kanal, Kampanya, Bütçe", "Harcamalar (.xlsx/.csv): Tarih, Kanal, Kampanya, Harcama, Gelir, Dönüşüm"],
+  "ciktilar": ["Excel: Kampanyalar (bütçe, harcama, kalan, ROAS, ROI, harcama hızı), Kanallar, Aylar, Uyarılar"],
+  "internet": false
+}

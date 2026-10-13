@@ -1,0 +1,12 @@
+{
+  "id": "satis-primi-hesaplama",
+  "tur": "kod",
+  "ad": "Satış Primi Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --gerceklesme gerceklesme.xlsx --dilimler dilimler.xlsx",
+  "girdiler": ["Gerçekleşme (.xlsx/.csv): Temsilci, Hedef, Gerçekleşen, Tahsilat", "Prim sistemi (.xlsx/.csv): Alt Sınır (gerçekleşme %), Prim Oranı (%)"],
+  "ciktilar": ["Excel: Primler (gerçekleşme, kademe, brüt prim), Dilim Dökümü, Prim Sistemi, Uyarılar"],
+  "internet": false
+}

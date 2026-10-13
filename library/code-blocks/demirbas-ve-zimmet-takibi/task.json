@@ -1,0 +1,12 @@
+{
+  "id": "demirbas-ve-zimmet-takibi",
+  "tur": "kod",
+  "ad": "Demirbaş ve Zimmet Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --demirbaslar demirbaslar.xlsx --sayim sayim.xlsx",
+  "girdiler": ["Demirbaşlar (.xlsx/.csv): Demirbaş No, Demirbaş, Kategori, Konum, Zimmetli, Durum, Alış Tarihi, Değer", "Sayım listesi (.xlsx/.csv, isteğe bağlı): Demirbaş No, Bulunduğu Konum, Sayan, Sayım Tarihi, Not"],
+  "ciktilar": ["Excel: Demirbaşlar, Sayım Farkları (bulunamayan, farklı konumda, mükerrer, kayıt dışı), Konum Özeti, Zimmet Özeti, Uyarılar"],
+  "internet": false
+}

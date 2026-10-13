@@ -1,0 +1,12 @@
+{
+  "id": "periyodik-kontrol-takibi",
+  "tur": "kod",
+  "ad": "Periyodik Kontrol Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --ekipman ekipman.xlsx",
+  "girdiler": ["Ekipman listesi (.xlsx/.csv): Ekipman No, Ekipman, Tür, Konum, Son Kontrol Tarihi, Kontrol Periyodu (ay), Sonuç, Kontrolü Yapan, Rapor No"],
+  "ciktilar": ["Excel: Ekipmanlar (sonraki kontrol, kalan gün, durum), Yapılacak Kontroller, Tür Özeti, Konum Özeti, Aylık Plan, Uyarılar"],
+  "internet": false
+}

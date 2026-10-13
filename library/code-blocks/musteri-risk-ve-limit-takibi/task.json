@@ -1,0 +1,12 @@
+{
+  "id": "musteri-risk-ve-limit-takibi",
+  "tur": "kod",
+  "ad": "Müşteri Risk ve Limit Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --musteriler musteriler.xlsx --kalemler acik_kalemler.xlsx --siparisler siparisler.xlsx",
+  "girdiler": ["Müşteriler (.xlsx/.csv): Müşteri Kodu, Müşteri, Kredi Limiti, Teminat", "Açık kalemler (.xlsx/.csv): Müşteri Kodu, Belge No, Vade, Tutar", "Siparişler (.xlsx/.csv, isteğe bağlı): Müşteri Kodu, Sipariş No, Tutar"],
+  "ciktilar": ["Excel: Müşteriler (karar, limit kullanımı, vadesi geçmiş, gerekçe), Siparişler (sevk kararı), Uyarılar"],
+  "internet": false
+}

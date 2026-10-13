@@ -1,0 +1,12 @@
+{
+  "id": "is-kazasi-ve-ramak-kala-analizi",
+  "tur": "kod",
+  "ad": "İş Kazası ve Ramak Kala Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --olaylar olaylar.xlsx --bolumler bolumler.xlsx",
+  "girdiler": ["Olaylar (.xlsx/.csv): Tarih, Saat, Tür (İş Kazası / Ramak Kala), Bölüm, Neden, Kayıp Gün, Vardiya, Açıklama", "Bölümler (.xlsx/.csv, isteğe bağlı): Bölüm, Çalışan Sayısı, Çalışma Saati"],
+  "ciktilar": ["Excel: Özet (sıklık ve ağırlık oranı), Bölümler, Neden Pareto, Aylar, Haftanın Günü, Saat Dilimi, Vardiya, Olaylar, Uyarılar"],
+  "internet": false
+}

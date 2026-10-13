@@ -1,0 +1,15 @@
+Sipariş No;Müşteri;Taşıyıcı;Söz Verilen Tarih;Teslim Tarihi;Sipariş Miktarı;Teslim Miktarı
+SP-01;Alfa Market;Hızlı Nakliyat;05.09.2026;04.09.2026;100;100
+SP-02;Alfa Market;Hızlı Nakliyat;08.09.2026;08.09.2026;200;200
+SP-03;Alfa Market;Yıldız Lojistik;12.09.2026;14.09.2026;150;150
+SP-04;Beta Yapı;Yıldız Lojistik;15.09.2026;15.09.2026;80;60
+SP-05;Beta Yapı;Yıldız Lojistik;18.09.2026;21.09.2026;120;90
+SP-06;Beta Yapı;Hızlı Nakliyat;22.09.2026;22.09.2026;50;50
+SP-06;Beta Yapı;Hızlı Nakliyat;22.09.2026;22.09.2026;30;30
+SP-07;Gama Gıda;Ege Taşıma;25.09.2026;24.09.2026;300;300
+SP-07;Gama Gıda;Ege Taşıma;25.09.2026;27.09.2026;100;100
+SP-08;Gama Gıda;Ege Taşıma;29.09.2026;29.09.2026;60;66
+SP-09;Gama Gıda;Ege Taşıma;02.10.2026;;90;
+SP-10;Alfa Market;Hızlı Nakliyat;06.10.2026;06.10.2026;40;40
+SP-11;Delta Tekstil;Hızlı Nakliyat;20.10.2026;;70;
+SP-12;Delta Tekstil;Yıldız Lojistik;09.10.2026;09.10.2026;500;500

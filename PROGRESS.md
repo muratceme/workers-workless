@@ -456,12 +456,35 @@ Dersler: özet/kırılım adlarını sıralamadan ÖNCE üret (ilk görülen yaz
 değil ham değere göre eşik karşılaştır (kapasite: son ≥ eşik değeri); sıfır ilerlemede endeks (MPE) hesaplama, ayrı uyarı ver;
 "aşım" koşulunda tasarruf < 0 şartını da ara (eşik 0 iken sıfır tasarruf aşım sayılmasın); tarih-saat için yerel `zaman()`.
 
+### Tur 21 (15 kod bloğu)
+demirbas-ve-zimmet-takibi, pazarlama-butcesi-takibi, teklif-takip-listesi, musteri-risk-ve-limit-takibi,
+fiyat-listesi-guncelleme, satis-primi-hesaplama, periyodik-kontrol-takibi, is-kazasi-ve-ramak-kala-analizi,
+dahilde-isleme-izin-belgesi-takibi, stok-yaslandirma-raporu, depo-yerlesim-abc-onerisi, nakliye-maliyet-analizi,
+teslimat-performansi-otif-raporu, kiymetli-evrak-sayim-kontrolu, vadesi-dolan-mevduat-takibi.
+Toplam 283 paket (251 kod + 32 agent), kontrol 283/283.
+Notlar: internetten kaynak teyidi yapılmadı. Eşikler parametre ve README'de "yönetim tercihi / çalışma varsayımı" notlu
+(teklif takip 7 gün, limit kullanımı %90 ve gecikme 30 gün, stok 90/180 gün, ABC 80/95, nakliye medyan +%30, OTIF hedef %95,
+mevduat penceresi 15 gün / acil 3 gün / 1.000.000 TL).
+Teyit edilmemiş içerik varsayımları (uzman bakmalı): DİİB kapatma başvurusu süresi "süre sonu + 3 ay" (--kapatma-ay ile
+değişir; 2006/12 sayılı Tebliğ'den hatırlanan süre, güncel metinle doğrulanmadı); iş kazası oranlarında çarpanlar (sıklık
+1.000.000, ağırlık 1.000; SGK istatistikleri farklı çarpan kullanabilir, parametre); periyodik kontrol örnek verisindeki
+süreler (kaldırma 3 ay, basınçlı kap / tesisat / yangın 12 ay, söndürücü 6 ay) yalnız gösterim, kod süre bilmez;
+satış primi README'sinde "prim ücrettir, SGK + gelir vergisi + damga vergisi kesilir" ifadesi (oran verilmedi).
+Tasarım tercihleri: müşteri risk kararı (Sevk etme / Onay gerekli / Uygun) müşteri düzeyinde; fiyat listesinde kural sırası
+yuvarla → indirim yapma → tavan → asgari fiyat → asgari değişim; satış priminde tahsilat esası = prim × min(tahsilat/satış, 1);
+OTIF sipariş bazında ve "bütün satırlar" kuralıyla; DİİB'de süre sonundan sonraki hareket sayılmaz.
+Dersler: Bash heredoc ile çok dosyalı paket yazımı tırnak yüzünden kırılıyor → dosyaları Write ile yaz, heredoc yalnız küçük
+Python yamaları için; argparse help metninde "%" → "%%"; sirala() kod noktasına göre sıralar ("İ" ve "Ç" Latin harflerden
+sonra gelir, test beklentisini buna göre yaz); "(yok)" etiketli grup katla ile sıralanınca araya girer → açıkça sona al;
+bölme sonrası yukarı yuvarlamadan önce 6 haneye yuvarla (46,4999… → 46,50 hatası olmasın); marj koruma yolunda
+fiyat × yeni maliyet ÷ eski maliyet kullan (iki kez bölme yapma).
+
 ### KALDIĞIM YER
-Sıradaki (puan 2): Demirbaş ve Zimmet Takibi, Pazarlama Bütçesi Takibi, Teklif Takip Listesi, Müşteri Risk ve Limit Takibi,
-Fiyat Listesi Güncelleme, Satış Primi Hesaplama, Periyodik Kontrol Takibi, İş Kazası ve Ramak Kala Analizi, Dahilde İşleme İzin
-Belgesi Takibi, Stok Yaşlandırma Raporu, Depo Yerleşim (ABC) Önerisi, Nakliye Maliyet Analizi, Teslimat Performansı (OTIF) Raporu,
-Çek Takas Kontrol Listesi, Şube Operasyonel Kontrol Listesi, Kıymetli Evrak Sayım Kontrolü, Vadesi Dolan Mevduat Takibi, Teminat
-Takip Listesi… (tam liste için kalan2.mjs).
+Sıradaki (puan 2): Çek Takas Kontrol Listesi, Şube Operasyonel Kontrol Listesi, Teminat Takip Listesi, Şube Risk ve Gecikme
+Listesi, Kredi Portföy Yoğunlaşma Analizi, Tahsis Süreç Performans Raporu, Yapılandırma Takip Listesi, Takibe Aktarılacak
+Krediler Listesi, Tahsilat ve Avukat Performans Raporu, Döviz Pozisyonu Raporu, Mevduat Maliyeti ve Kredi Getirisi Analizi,
+Ödeme Planı Hesaplama, Uyum Programı Gösterge Raporu, Kontrol Testi Örneklem Seçimi, Kontrol Bulgu Takibi, Operasyonel Risk
+Kayıp Veri Analizi, Branş Kârlılık Raporu, Muallak Hasar Takibi… (tam liste için kalan2.mjs).
 Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,
 Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi,
 Planogram Uyum, Hasta Şikâyet Sınıflandırma, Hasta Memnuniyet Anketi Analizi, Müşteri Yük Durum Bilgilendirmesi, Konşimento Bilgi

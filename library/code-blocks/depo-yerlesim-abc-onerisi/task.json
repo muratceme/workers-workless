@@ -1,0 +1,12 @@
+{
+  "id": "depo-yerlesim-abc-onerisi",
+  "tur": "kod",
+  "ad": "Depo Yerleşim (ABC) Önerisi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --cikislar cikislar.xlsx --urunler urunler.xlsx",
+  "girdiler": ["Çıkışlar (.xlsx/.csv): Tarih, Stok Kodu, Miktar (her satır bir çıkış) ya da özet: Stok Kodu, Çıkış Sayısı, Miktar", "Ürünler (.xlsx/.csv, isteğe bağlı): Stok Kodu, Stok Adı, Mevcut Konum, Bölge (A/B/C)"],
+  "ciktilar": ["Excel: Sınıflandırma (sıklık, pay, sınıf, önerilen bölge), Taşıma Listesi, Özet (sınıf dağılımı, bölge-sınıf matrisi), Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,13 @@
+Ekipman No;Ekipman;Tür;Konum;Son Kontrol Tarihi;Kontrol Periyodu (ay);Sonuç;Kontrolü Yapan;Rapor No
+PK-001;Forklift 2,5 ton;Kaldırma ve İletme;Depo;20.07.2026;3;Uygun;A Muayene Ltd.;R-2026-311
+PK-002;Tavan Vinci 5 ton;Kaldırma ve İletme;Üretim Holü;01.07.2026;3;Uygun;A Muayene Ltd.;R-2026-290
+PK-003;Transpalet;Kaldırma ve İletme;Depo;15.09.2026;3;Uygun;A Muayene Ltd.;R-2026-402
+PK-004;Hava Kompresörü Tankı;Basınçlı Kap;Kompresör Odası;05.11.2025;12;Uygun;B Kontrol A.Ş.;R-2025-880
+PK-005;Buhar Kazanı;Basınçlı Kap;Kazan Dairesi;18.03.2026;12;Uygun;B Kontrol A.Ş.;R-2026-121
+PK-006;Elektrik Tesisatı;Tesisat;Tüm Tesis;10.10.2025;12;Uygun;C Mühendislik;R-2025-744
+PK-007;Topraklama Tesisatı;Tesisat;Tüm Tesis;10.10.2025;12;Uygun Değil;C Mühendislik;R-2025-745
+PK-008;Paratoner;Tesisat;Çatı;22.04.2026;12;Uygun;C Mühendislik;R-2026-188
+PK-009;Yangın Tesisatı ve Hortumlar;Yangın;Tüm Tesis;30.01.2026;12;Uygun;D Yangın Ltd.;R-2026-040
+PK-010;Yangın Söndürme Cihazları;Yangın;Tüm Tesis;;6;;;
+PK-011;Havalandırma Tesisatı;Tesisat;Üretim Holü;14.06.2026;;Uygun;C Mühendislik;R-2026-260
+PK-012;Raf Sistemi;Depolama;Depo;31.08.2026;12;Uygun;A Muayene Ltd.;R-2026-377

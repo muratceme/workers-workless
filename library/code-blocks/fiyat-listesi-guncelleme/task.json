@@ -1,0 +1,12 @@
+{
+  "id": "fiyat-listesi-guncelleme",
+  "tur": "kod",
+  "ad": "Fiyat Listesi Güncelleme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --urunler urunler.xlsx --yuvarla 0,50 --azami-artis 20",
+  "girdiler": ["Ürünler (.xlsx/.csv): Ürün Kodu, Ürün, Kategori, Mevcut Fiyat, Eski Maliyet, Yeni Maliyet, Hedef Marj %, Asgari Fiyat, Adet"],
+  "ciktilar": ["Excel: Yeni Fiyat Listesi, Değişim Raporu (marjlar, değişim, uygulanan kural, ciro etkisi), Özet (kategori bazında), Uyarılar"],
+  "internet": false
+}

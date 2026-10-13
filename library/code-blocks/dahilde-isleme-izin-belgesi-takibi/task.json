@@ -1,0 +1,12 @@
+{
+  "id": "dahilde-isleme-izin-belgesi-takibi",
+  "tur": "kod",
+  "ad": "Dahilde İşleme İzin Belgesi Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --belgeler belge_satirlari.xlsx --hareketler hareketler.xlsx",
+  "girdiler": ["Belge satırları (.xlsx/.csv): Belge No, Belge Tarihi, Süre Sonu, Tür (İthalat / İhracat), Madde, Birim, Miktar, Tutar", "Hareketler (.xlsx/.csv): Belge No, Tarih, Tür, Madde, Beyanname No, Miktar, Tutar"],
+  "ciktilar": ["Excel: Belgeler (durum, süre, taahhüt ve izin gerçekleşmesi, kapatma son günü), Satırlar (madde bazında kalan), Uyarılar"],
+  "internet": false
+}

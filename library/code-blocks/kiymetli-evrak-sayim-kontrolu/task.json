@@ -1,0 +1,12 @@
+{
+  "id": "kiymetli-evrak-sayim-kontrolu",
+  "tur": "kod",
+  "ad": "Kıymetli Evrak Sayım Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kayit kayit.xlsx --sayim sayim.xlsx",
+  "girdiler": ["Kayıt (.xlsx/.csv): Evrak Türü, Seri Başlangıç, Seri Bitiş", "Sayım (.xlsx/.csv): Evrak Türü, Seri Başlangıç, Seri Bitiş, Sayan"],
+  "ciktilar": ["Excel: Özet (tür bazında kayıtlı, sayılan, eksik, fazla, sonuç), Farklar (seri numarası aralıkları), Uyarılar"],
+  "internet": false
+}

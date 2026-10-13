@@ -1,0 +1,12 @@
+{
+  "id": "stok-yaslandirma-raporu",
+  "tur": "kod",
+  "ad": "Stok Yaşlandırma Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --stok stok.xlsx",
+  "girdiler": ["Stok listesi (.xlsx/.csv): Stok Kodu, Stok Adı, Depo, Kategori, Miktar, Birim Maliyet, Son Çıkış Tarihi, Son Giriş Tarihi"],
+  "ciktilar": ["Excel: Özet (yaş dilimleri ve durumlar), Depolar, Kategoriler, Hareketsiz Stok, Stoklar, Uyarılar"],
+  "internet": false
+}

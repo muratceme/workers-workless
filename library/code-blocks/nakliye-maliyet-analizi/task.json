@@ -1,0 +1,12 @@
+{
+  "id": "nakliye-maliyet-analizi",
+  "tur": "kod",
+  "ad": "Nakliye Maliyet Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --seferler seferler.xlsx",
+  "girdiler": ["Seferler (.xlsx/.csv): Tarih, Sefer No, Taşıyıcı, Bölge, Ağırlık (kg), Km, Araç Kapasitesi (kg), Fatura Tutarı"],
+  "ciktilar": ["Excel: Bölgeler, Taşıyıcılar, Aylar (kg, km, ton-km başı maliyet, doluluk), Bölge-Taşıyıcı karşılaştırması, Seferler, Uyarılar"],
+  "internet": false
+}

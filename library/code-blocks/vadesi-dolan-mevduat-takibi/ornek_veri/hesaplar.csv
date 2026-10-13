@@ -1,0 +1,10 @@
+Müşteri No;Müşteri;Ürün;Para Birimi;Tutar;Vade Tarihi;Faiz Oranı;Otomatik Yenileme;Son Görüşme Tarihi;Portföy Yöneticisi
+1001;Ahmet Yılmaz;Vadeli Mevduat;TRY;750000;14.10.2026;42;Hayır;01.09.2026;Zeynep Ak
+1001;Ahmet Yılmaz;Vadeli Mevduat;USD;20000;20.10.2026;3,5;Evet;01.09.2026;Zeynep Ak
+1002;Fatma Demir;Vadeli Mevduat;TRY;2400000;22.10.2026;44;Hayır;15.08.2026;Zeynep Ak
+1002;Fatma Demir;Hazine Bonosu;TRY;600000;27.10.2026;;;15.08.2026;Zeynep Ak
+1003;Mehmet Kaya;Yatırım Fonu;TRY;300000;26.10.2026;;;;Okan Er
+1004;Ayşe Çelik;Vadeli Mevduat;EUR;15000;17.10.2026;2,75;Hayır;;Okan Er
+1005;Ali Şahin;Vadeli Mevduat;TRY;500000;09.10.2026;41;Hayır;20.09.2026;Okan Er
+1006;Elif Arslan;Vadeli Mevduat;TRY;1200000;15.11.2026;43;Evet;;Zeynep Ak
+1007;Hasan Koç;Vadeli Mevduat;GBP;10000;19.10.2026;3;Hayır;;Okan Er

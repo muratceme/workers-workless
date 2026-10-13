@@ -1,0 +1,12 @@
+Stok Kodu;Stok Adı;Depo;Kategori;Miktar;Birim Maliyet;Son Çıkış Tarihi;Son Giriş Tarihi
+S-001;Rulman 6204;Ana Depo;Yedek Parça;400;85;05.10.2026;20.09.2026
+S-002;V Kayışı A-42;Ana Depo;Yedek Parça;150;120;28.08.2026;01.06.2026
+S-003;Hidrolik Yağ 20 L;Ana Depo;Sarf;60;1900;01.08.2026;15.07.2026
+S-004;Kaynak Teli 1,2 mm;Ana Depo;Sarf;80;650;10.06.2026;02.05.2026
+S-005;Redüktör Dişlisi;Ana Depo;Yedek Parça;12;7500;15.02.2026;10.01.2026
+S-006;Eski Model Kapak;Şube Depo;Mamul;300;240;20.08.2025;05.03.2025
+S-007;Ambalaj Kolisi 40x30;Şube Depo;Ambalaj;5000;9;30.09.2026;25.09.2026
+S-008;Özel Sipariş Flanş;Şube Depo;Mamul;40;3200;;12.11.2025
+S-009;Etiket Rulosu;Şube Depo;Ambalaj;200;55;;
+S-010;Conta Seti;Ana Depo;Yedek Parça;-5;300;01.09.2026;
+S-011;Boya Tineri;Ana Depo;Sarf;25;0;10.07.2026;01.07.2026
