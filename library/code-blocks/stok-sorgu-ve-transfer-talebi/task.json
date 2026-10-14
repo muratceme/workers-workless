@@ -1,0 +1,12 @@
+{
+  "id": "stok-sorgu-ve-transfer-talebi",
+  "tur": "kod",
+  "ad": "Stok Sorgu ve Transfer Talebi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --stok stok.xlsx --talepler talepler.xlsx --magazalar magazalar.xlsx --birak 1",
+  "girdiler": ["Mağaza stokları (.xlsx/.csv): Mağaza, Ürün Kodu, Ürün Adı, Renk, Beden, Stok, Rezerve", "Talepler (.xlsx/.csv): Talep Eden Mağaza, Ürün Kodu, Renk, Beden, Adet, Müşteri / Not", "İsteğe bağlı mağazalar: Mağaza, Bölge, Şehir"],
+  "ciktilar": ["Excel: Transfer Talepleri (kaynak → hedef), Stok Sorgusu (stoku olan mağazalar), Karşılanamayan, Uyarılar", "CSV: transfer talebi listesi"],
+  "internet": false
+}

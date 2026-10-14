@@ -1,0 +1,20 @@
+{
+  "id": "magaza-ziyaret-raporu",
+  "tur": "agent",
+  "ad": "Mağaza Ziyaret Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --kontrol kontrol_listesi.xlsx --notlar ziyaret_notlari.docx --tarih 14.10.2026",
+  "girdiler": [
+    "Kontrol listesi (.xlsx/.csv): Bölüm, Madde, Sonuç (Uygun / Kısmen / Uygun değil / DD), Not",
+    "Ziyaret notları (.txt, .md, .docx, .pdf)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Rapor, Aksiyon Planı (öncelik, ilgili madde, sorumlu, termin, 'Durum'), Bölüm Puanları, Kontrol Listesi + Markdown rapor"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

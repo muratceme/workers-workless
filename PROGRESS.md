@@ -616,14 +616,42 @@ Dersler: argparse help metninde "%" tek başına hata verir ("%%" yaz). Gün ad�
 "cumartesi"[:3] = "cum" (cuma) tuzağı; tam ad önce kontrol edilmeli. analiz() girdi sözlüklerini değiştiriyorsa ikinci çağrıda
 özgün değerden başla (denetim listesinde "girilen" alanı).
 
+### Tur 28 (12 kod bloğu + 3 agent)
+Kod: e-defter-berat-yukleme-takibi, vergi-takvimi-takibi, vekalet-ucreti-ve-masraf-hesabi, borclu-odeme-plani-hesaplama,
+devamsizlik-takip-raporu, ogrenim-ucreti-ve-indirim-hesabi, ssl-sertifika-ve-lisans-sure-takibi, abonelik-ve-sozlesme-takibi,
+yetki-limiti-asim-kontrolu, ic-tetkik-bulgu-takibi, stok-sorgu-ve-transfer-talebi, fiyat-degisikligi-etiket-listesi.
+Agent: vardiya-devir-notu-ozeti, magaza-ziyaret-raporu, randevu-hatirlatma-mesajlari.
+Toplam 388 paket (353 kod + 35 agent).
+İnternet teyidi (14.10.2026):
+- e-Defter: Elektronik Defter Genel Tebliği 4.3.4 (21.05.2024 ve 08.11.2024 değişiklikleri) — aylık tercihte dönemi izleyen
+  4. ayın 10'u (GV) / 14'ü (KV); son ay: yıllık beyanname ayını izleyen ayın 10 / 14'ü. Kod 2024/07 için 11.11.2024 ve
+  14.11.2024 üretiyor (duyuruyla aynı). 2026'da süre uzatmaları var → --uzatma parametresi. Geçici vergi dönemi tercihi hesaplanmıyor.
+- Vergi takvimi: KDV 28, muhtasar ve prim hizmet 26, damga ve konaklama 26, geçici vergi 17 (2. ay), 4. dönem geçici vergi
+  2022'den beri yok (7338), KV 30 Nisan, GV 31 Mart / 2. taksit 31 Temmuz. Ba-Bs "izleyen ayın son günü" doğrudan teyit
+  edilemedi (README'de not). Resmî tatiller: sabit ulusal + 2026 dini bayramları (Ramazan 20–22 Mart, Kurban 27–30 Mayıs);
+  2027 Kurban tarihi kaynaklar arasında çelişkili → kodda yok, --tatiller ile eklenir.
+- AAÜT 2025-2026 (RG 04.11.2025) nispi dilimleri: 600k %16, 600k %15, 1,2M %14, 1,2M %13, 1,8M %11, 2,4M %8, 3M %5, 3,6M %3,
+  4,2M %2, 18,6M üstü %1; asliye hukuk maktu 45.000; ücret kabul / red miktarını geçemez (AAÜT 13/2). Tarife dosyadan okunuyor.
+- Lise devamsızlığı: özürsüz 10, toplam 30 (birinci derece yakın kaybı 40), art arda 2 gün özürsüz veli bildirimi, 5. günde
+  veli daveti. İlkokul / ortaokul için kaynaklar çelişkili → kodda sınır yok (parametre).
+- Fiyat Etiketi Yönetmeliği (değişiklik RG 18.02.2022, yürürlük 01.03.2022): indirimde önceki fiyat = son 30 günün en düşük
+  fiyatı; çabuk bozulanlarda bir önceki fiyat.
+Varsayımlar (parametre): borç planı faizi kullanıcıdan; vekâlet maktu tabanı kullanıcıdan; öğrenim ücreti tavanı %50, zincir
+birleştirme; SSL 7/30/90 gün, atıl lisans %60; sözleşme ihbar 30 / bitiş 60 gün (ihbar yalnız otomatik yenilenenlerde);
+yetki limitine yakın %90, bölme penceresi 30 gün; iç tetkik majör 30 / minör 60 gün; transferde kaynakta 1 adet bırakılır;
+etiket büyük değişim %50.
+Agent tasarımları: vardiya devir notu her maddeyi defter satır numarasına bağlar, güvenlik / duruş satırlarını atlatmaz;
+mağaza ziyareti her uygun olmayan maddeye terminli aksiyon zorunlu kılar; randevu hatırlatma hasta verisini modele göndermez
+(yalnız bölüm / işlem / dil + onaylı talimat), talimattaki sayıları ve tıbbi ifadeleri denetler. Agent'lar sahte modelle test
+edildi; gerçek API ile denenmedi.
+Dersler: argparse yardım metninde "%" → "%%". Uzatma anahtarı hem asıl hem kaydırılmış tarihle eşleşmeli. Bash heredoc yine
+uzun içerikte kırıldı → Write aracı.
+
 ### KALDIĞIM YER
-Sıradaki (puan 2, kod): e-Defter Berat Yükleme Takibi (süreler teyit edilmeli), SGK Teşvik Uygunluk Ön Kontrolü (mevzuat
-teyidi gerekir), Vekâlet Ücreti ve Masraf Hesabı (AAÜT / harç tarifesi teyidi gerekir), Borçlu Ödeme Planı Hesaplama, Devamsızlık
-Takip Raporu (MEB yönetmeliği sınırları teyit edilmeli), Öğrenim Ücreti ve İndirim Hesabı; puan 1: Vergi Takvimi Takibi, SSL /
-Lisans Süre Takibi, Abonelik ve Sözleşme Takibi, Yetki Limiti Aşım Kontrolü, İç Tetkik Bulgu Takibi, Stok Sorgu ve Transfer
-Talebi, Fiyat Değişikliği Etiket Listesi (tam liste için kalan2.mjs; proje klasöründen çalıştır).
-Agent adayları (puan 2): Teminat Mektubu Metin Kontrolü, Müşteri İhtiyaç Analizi, Vardiya Devir Notu Özeti, Mağaza Ziyaret
-Raporu, Vitrin Yönergesi, Renk Paleti, Trend Raporu Özeti, Randevu Hatırlatma Mesajları, Tıbbi Rapor Yazım Kontrolü.
+Kod tarafında yalnız SGK Teşvik Uygunluk Ön Kontrolü kaldı (çok sayıda teşvik, sık değişiyor → kapsamlı mevzuat teyidiyle,
+belki yalnız birkaç temel teşvik). Kalan işlerin büyük kısmı agent (tam liste için kalan2.mjs; proje klasöründen çalıştır).
+Agent adayları (puan 2): Teminat Mektubu Metin Kontrolü, Müşteri İhtiyaç Analizi, Vitrin Yönergesi, Renk Paleti, Trend Raporu
+Özeti, Tıbbi Rapor Yazım Kontrolü.
 Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,
 Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi,
 Planogram Uyum, Hasta Şikâyet Sınıflandırma, Hasta Memnuniyet Anketi Analizi, Müşteri Yük Durum Bilgilendirmesi, Konşimento Bilgi

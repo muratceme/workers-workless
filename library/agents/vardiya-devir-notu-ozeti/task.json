@@ -1,0 +1,19 @@
+{
+  "id": "vardiya-devir-notu-ozeti",
+  "tur": "agent",
+  "ad": "Vardiya Devir Notu Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi vardiya_defteri.docx",
+  "girdiler": [
+    "Vardiya defteri notları (.txt, .md, .docx, .pdf): saatli serbest metin",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Devir Notu (bölüm, madde, detay, öncelik / durum, sorumlu, defter satırı, 'Devralan Onayı'), Defter (her satırın kullanıldığı bölüm ve kod bulgusu) + Markdown devir notu"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

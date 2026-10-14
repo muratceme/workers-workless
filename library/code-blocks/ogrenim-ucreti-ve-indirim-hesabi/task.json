@@ -1,0 +1,12 @@
+{
+  "id": "ogrenim-ucreti-ve-indirim-hesabi",
+  "tur": "kod",
+  "ad": "Öğrenim Ücreti ve İndirim Hesabı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --ucretler ucretler.xlsx --indirimler indirimler.xlsx --ogrenciler ogrenciler.xlsx --ilk-taksit 01.09.2026 --pesinat 20",
+  "girdiler": ["Ücretler (.xlsx/.csv): Kademe, Sınıf (boş = tümü), Yıllık Ücret", "İndirimler (.xlsx/.csv): Kod (KARDES2 / KARDES3 / ERKEN / PESIN / PERSONEL), İndirim, Oran %", "Öğrenciler (.xlsx/.csv): Öğrenci No, Ad Soyad, Kademe, Sınıf, Kardeş Sırası, Erken Kayıt, Personel Çocuğu, Burs %, Diğer İndirim %, Taksit Sayısı"],
+  "ciktilar": ["Excel: Öğrenci Ücretleri (brüt, uygulanan indirimler, toplam indirim %, net), Taksit Planı, Kademe Özeti (indirim maliyeti), Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,11 @@
+Randevu No;Hasta Adı;Telefon;Tarih;Saat;Bölüm;Hekim;İşlem;Dil
+R-90011;Ayşe Kaya;0532 111 22 33;15.10.2026;08:30;Gastroenteroloji;Uzm. Dr. A. Yılmaz;Kolonoskopi;TR
+R-90012;Mehmet Demir;0542 222 33 44;15.10.2026;09:00;Gastroenteroloji;Uzm. Dr. A. Yılmaz;Gastroskopi;TR
+R-90013;Elif Şahin;0553 333 44 55;15.10.2026;09:40;Radyoloji;Uzm. Dr. B. Kara;Kontrastlı MR;TR
+R-90014;John Smith;+44 7700 900123;15.10.2026;10:15;Radyoloji;Uzm. Dr. B. Kara;Kontrastlı MR;EN
+R-90015;Can Yıldız;0555 444 55 66;15.10.2026;11:00;Kardiyoloji;Doç. Dr. C. Aksoy;Efor testi;TR
+R-90016;Zeynep Arslan;;15.10.2026;13:30;Dahiliye;Uzm. Dr. D. Polat;Muayene;TR
+R-90017;Hakan Polat;0532 555 66 77;15.10.2026;14:00;Dahiliye;Uzm. Dr. D. Polat;Muayene;TR
+R-90018;Selin Aydın;0544 666 77 88;15.10.2026;15:20;Biyokimya Laboratuvarı;;Açlık kan şekeri;TR
+R-90019;Burak Öztürk;0533 777 88 99;16.10.2026;09:00;Dahiliye;Uzm. Dr. D. Polat;Muayene;TR
+R-90020;Gizem Ekinci;0532 888 99 00;15.10.2026;16:00;Ortopedi;Op. Dr. E. Koç;Muayene;TR

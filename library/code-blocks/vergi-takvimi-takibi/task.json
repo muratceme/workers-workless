@@ -1,0 +1,12 @@
+{
+  "id": "vergi-takvimi-takibi",
+  "tur": "kod",
+  "ad": "Vergi Takvimi Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --yukumlulukler yukumlulukler.xlsx --verilenler verilenler.xlsx --ileri 45",
+  "girdiler": ["Yükümlülükler (.xlsx/.csv): Şirket, Yükümlülük (KDV / Muhtasar ve prim hizmet / Damga / Konaklama / Ba-Bs / Geçici vergi / Kurumlar / Gelir / e-Defter berat), Vergi Türü, Sorumlu", "Verilenler (.xlsx/.csv, isteğe bağlı): Şirket, Yükümlülük, Dönem, Veriliş Tarihi", "İsteğe bağlı ek tatil listesi"],
+  "ciktilar": ["Excel: Vergi Takvimi (son gün, kalan gün, durum, tatil / uzatma kaydırması), Uyarılar"],
+  "internet": false
+}

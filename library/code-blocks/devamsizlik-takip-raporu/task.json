@@ -1,0 +1,12 @@
+{
+  "id": "devamsizlik-takip-raporu",
+  "tur": "kod",
+  "ad": "Devamsızlık Takip Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --yoklama yoklama.xlsx --esik 80",
+  "girdiler": ["Yoklama (.xlsx/.csv): Öğrenci No, Ad Soyad, Sınıf, Kademe (İlkokul / Ortaokul / Lise), Tarih, Süre (Tam / Yarım), Tür (Özürlü / Özürsüz), Toplam Sınır (isteğe bağlı)"],
+  "ciktilar": ["Excel: Öğrenciler (özürsüz, özürlü, toplam, sınır, kalan hak, durum, art arda özürsüz, özürsüz 5. gün), Sınıflar, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,46 @@
+Öğrenci No;Ad Soyad;Kademe;Sınıf;Kardeş Sırası;Erken Kayıt;Personel Çocuğu;Burs %;Diğer İndirim %;Taksit Sayısı
+2001;Mert Şahin;Anaokulu;5 yaş;2;;;50;5;
+2002;Çınar Şahin;Lise;Hazırlık;1;Evet;;;;
+2003;Duru Aydın;Lise;9;1;Evet;;;;10
+2004;Deniz Aydın;Ortaokul;5;1;Evet;;25;;1
+2005;Nehir Aydın;Lise;11;1;Evet;;;;8
+2006;Duru Öztürk;Ortaokul;7;2;;;;;8
+2007;Yusuf Yılmaz;İlkokul;1;2;;;;;10
+2008;Duru Doğan;Ortaokul;7;1;;;50;5;
+2009;Lina Şahin;Lise;10;2;Evet;;;5;
+2010;Duru Aydın;Ortaokul;6;1;;;50;5;
+2011;Ela Çelik;İlkokul;3;1;;;25;;8
+2012;Zeynep Öztürk;Lise;11;3;;;;;1
+2013;Lina Demir;Ortaokul;8;3;Evet;;;;8
+2014;Kerem Kaya;Lise;12;1;;;50;;1
+2015;Duru Demir;Anaokulu;4 yaş;1;Evet;;25;;1
+2016;Zeynep Demir;İlkokul;3;1;Evet;;50;;8
+2017;Mert Öztürk;Anaokulu;4 yaş;1;Evet;;50;;1
+2018;Ömer Çelik;Ortaokul;8;1;Evet;;;;1
+2019;Defne Öztürk;Ortaokul;7;1;Evet;;;;1
+2020;Zeynep Yılmaz;İlkokul;1;1;;;25;;1
+2021;Defne Doğan;Ortaokul;6;1;;;;;
+2022;Asel Demir;Anaokulu;5 yaş;1;;;50;;8
+2023;Ömer Doğan;Ortaokul;8;1;;;;;
+2024;Ada Kaya;İlkokul;4;2;;;50;;1
+2025;Zeynep Aydın;İlkokul;2;1;;;;;8
+2026;Eymen Doğan;İlkokul;2;1;Evet;;;;10
+2027;Nehir Demir;Anaokulu;4 yaş;1;Evet;;;;1
+2028;Deniz Yılmaz;İlkokul;4;2;;;;;1
+2029;Asel Kaya;İlkokul;1;2;;;;;
+2030;Ela Öztürk;İlkokul;3;1;;;25;;10
+2031;Eymen Öztürk;İlkokul;3;3;Evet;;;;8
+2032;Asel Kaya;Ortaokul;7;2;Evet;;;;1
+2033;Mert Demir;Ortaokul;5;1;Evet;;25;;1
+2034;Yusuf Aydın;İlkokul;4;1;Evet;;;;1
+2035;Aras Çelik;Ortaokul;6;1;Evet;;;;8
+2036;Deniz Demir;Anaokulu;4 yaş;2;;;;;10
+2037;Ömer Yılmaz;Ortaokul;5;1;Evet;Evet;;;10
+2038;Aras Aydın;Lise;9;1;Evet;;;;8
+2039;Duru Koç;Ortaokul;7;1;;;;;
+2040;Lina Yılmaz;Lise;9;1;Evet;;;;1
+2041;Asel Koç;Ortaokul;5;3;Evet;;;;8
+2042;Yusuf Öztürk;Anaokulu;5 yaş;1;Evet;;25;;1
+2099;Tam Burs Örneği;Lise;10;3;Evet;Evet;100;;8
+2100;Hatalı Satır;Lise;10;0;;;;;8
+2101;Ücretsiz Kademe;Üniversite;1;1;;;;;8

@@ -1,0 +1,12 @@
+{
+  "id": "ic-tetkik-bulgu-takibi",
+  "tur": "kod",
+  "ad": "İç Tetkik Bulgu Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --bulgular bulgular.xlsx --major 30 --minor 60",
+  "girdiler": ["Bulgular (.xlsx/.csv): Bulgu No, Tetkik No, Tetkik Tarihi, Birim, Madde, Tür (Majör / Minör / Gözlem / İyileştirme fırsatı), Açıklama, Sorumlu, Termin, Kök Neden, Düzeltici Faaliyet, Kapanış Tarihi, Etkinlik Doğrulama"],
+  "ciktilar": ["Excel: Açık Bulgular (gecikme), Birim / Madde / Tetkik özetleri, Tekrar Eden bulgular, Tüm Bulgular, Uyarılar"],
+  "internet": false
+}

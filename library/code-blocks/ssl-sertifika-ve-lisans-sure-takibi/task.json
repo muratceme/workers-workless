@@ -1,0 +1,12 @@
+{
+  "id": "ssl-sertifika-ve-lisans-sure-takibi",
+  "tur": "kod",
+  "ad": "SSL Sertifika ve Lisans Süre Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --varliklar varliklar.xlsx --kritik 7 --yakin 30 --izle 90",
+  "girdiler": ["Varlıklar (.xlsx/.csv): Varlık, Tür (SSL / Alan adı / Lisans / Abonelik / Destek), Sağlayıcı, Bitiş Tarihi, Otomatik Yenileme, Sorumlu, Yıllık Maliyet, Para Birimi, Lisans Adedi, Kullanılan"],
+  "ciktilar": ["Excel: Varlıklar (kalan gün, durum, kullanım %), Yenileme Takvimi (12 ay, para birimi bazında), Uyarılar"],
+  "internet": false
+}

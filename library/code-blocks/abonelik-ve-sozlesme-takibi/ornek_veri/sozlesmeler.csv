@@ -1,0 +1,15 @@
+Sözleşme;Kategori;Tedarikçi;Abone No;Lokasyon;Başlangıç;Bitiş;Tutar;Ödeme Periyodu;Para Birimi;Otomatik Yenileme;Fesih İhbar Süresi;Artış Esası;Sorumlu
+Merkez ofis kira;Kira;Mülk sahibi (şahıs);;Merkez;01.11.2023;31.10.2026;185.000;Aylık;TRY;Evet;30;TÜFE 12 aylık ortalama;İdari İşler
+Depo kira;Kira;Gayrimenkul A.Ş.;;Depo;15.01.2025;14.01.2027;9.500;Aylık;USD;Evet;90;Sabit %5;İdari İşler
+Elektrik (serbest tüketici);Enerji;Elektrik Tedarik Şirketi;4001234567;Merkez;01.01.2026;31.12.2026;62.000;Aylık;TRY;Hayır;45;;İdari İşler
+Doğalgaz;Enerji;Gaz Dağıtım Şirketi;9876543;Merkez;;;18.500;Aylık;TRY;;;;İdari İşler
+Su;Su;Belediye Su İdaresi;55512;Merkez;;;4.200;Aylık;TRY;;;;İdari İşler
+Fiber internet 1 Gbps;İletişim;İnternet Servis Sağlayıcı;FTTH-77881;Merkez;20.11.2024;19.11.2026;7.900;Aylık;TRY;Evet;30;;BT
+Yedek hat (4.5G);İletişim;Mobil Operatör;5321112233;Merkez;01.06.2025;31.05.2027;1.250;Aylık;TRY;Evet;15;;BT
+Asansör bakım;Bakım;Asansör Servis Firması;;Merkez;01.02.2026;31.01.2027;54.000;Yıllık;TRY;Evet;60;Sabit %10;İdari İşler
+Klima bakım;Bakım;Mekanik Servis Firması;;Merkez;15.10.2025;14.10.2026;36.000;Yıllık;TRY;Hayır;30;;İdari İşler
+Güvenlik hizmeti;Hizmet alımı;Özel Güvenlik Şirketi;;Merkez;01.01.2026;31.12.2026;210.000;Aylık;TRY;Hayır;60;Asgari ücret artışı;İnsan Kaynakları
+Temizlik hizmeti;Hizmet alımı;Temizlik Şirketi;;Merkez;01.04.2026;31.03.2027;145.000;Aylık;TRY;Evet;30;Asgari ücret artışı;İnsan Kaynakları
+Fotokopi kiralama;Kiralama;Ofis Ekipmanları Ltd.;;Merkez;01.09.2024;31.08.2026;3.400;Aylık;TRY;Hayır;30;;İdari İşler
+Kargo anlaşması;Lojistik;Kargo Firması;;Depo;01.03.2026;28.02.2027;x;Aylık;TRY;Hayır;30;;Satış
+Araç kiralama (3 araç);Kiralama;Filo Kiralama A.Ş.;;Merkez;01.12.2024;30.11.2026;96.000;Aylık;TRY;Hayır;45;;İdari İşler

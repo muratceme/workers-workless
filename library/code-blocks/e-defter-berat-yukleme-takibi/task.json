@@ -1,0 +1,12 @@
+{
+  "id": "e-defter-berat-yukleme-takibi",
+  "tur": "kod",
+  "ad": "e-Defter Berat Yükleme Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --mukellefler mukellefler.xlsx --yuklemeler yuklemeler.xlsx --uyari 10",
+  "girdiler": ["Mükellefler (.xlsx/.csv): Mükellef, VKN / TCKN, Vergi Türü (Gelir / Kurumlar), Yükleme Tercihi (Aylık / Geçici vergi dönemi), Sorumlu", "Yüklemeler (.xlsx/.csv, isteğe bağlı): VKN ya da Mükellef, Dönem (2026/09), Oluşturma, İmza, Berat Yükleme Tarihi", "İsteğe bağlı ek tatil listesi"],
+  "ciktilar": ["Excel: Dönem Takibi (son tarih, kalan gün, durum), Son Tarih Takvimi, Uyarılar"],
+  "internet": false
+}

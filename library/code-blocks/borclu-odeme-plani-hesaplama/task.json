@@ -1,0 +1,12 @@
+{
+  "id": "borclu-odeme-plani-hesaplama",
+  "tur": "kod",
+  "ad": "Borçlu Ödeme Planı Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --borc 120.000 --pesinat 20.000 --taksit 10 --faiz 24 --ilk 15.11.2026 --protokol 14.10.2026",
+  "girdiler": ["Tek dosya: --borc --pesinat --taksit --faiz --ilk --protokol --yontem", "ya da dosyalar (.xlsx/.csv): Dosya No, Borçlu, Toplam Borç, Peşinat, Taksit Sayısı, Yıllık Faiz %, Protokol Tarihi, İlk Taksit Tarihi, Yöntem (Azalan / Eşit)"],
+  "ciktilar": ["Excel: Özet (toplam faiz, toplam ödeme, protokol özeti metni), Ödeme Planı (vade, gün, anapara, faiz, taksit, kalan), Uyarılar"],
+  "internet": false
+}

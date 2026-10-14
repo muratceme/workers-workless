@@ -1,0 +1,36 @@
+Bulgu No;Tetkik No;Tetkik Tarihi;Birim;Madde;Tür;Açıklama;Sorumlu;Termin;Kök Neden;Düzeltici Faaliyet;Kapanış Tarihi;Etkinlik Doğrulama
+B-001;İT-2025-2;12.11.2025;Satın Alma;8.5.1;Majör uygunsuzluk;Kontrol planındaki ölçüm sıklığına uyulmamış;Satın Alma Sorumlusu;12.12.2025;;Sorumluluk tanımlandı ve hatırlatma kuruldu;31.01.2026;Etkin
+B-002;İT-2025-2;12.11.2025;İnsan Kaynakları;6.1;Gözlem;Süreç risk değerlendirmesi güncellenmemiş;İnsan Kaynakları Sorumlusu;;;;;
+B-003;İT-2025-2;12.11.2025;Bakım;8.5.1;Gözlem;Kontrol planındaki ölçüm sıklığına uyulmamış;Bakım Sorumlusu;;;;20.12.2025;
+B-004;İT-2025-2;12.11.2025;Satış;8.4;Minör uygunsuzluk;Tedarikçi değerlendirmesi yapılmamış;Satış Sorumlusu;;;;;
+B-005;İT-2025-2;12.11.2025;Kalite Kontrol;8.4;Minör uygunsuzluk;Tedarikçi değerlendirmesi yapılmamış;Kalite Kontrol Sorumlusu;11.01.2026;Takip sistemi yok;Takip listesi oluşturuldu;16.01.2026;Etkin
+B-006;İT-2025-2;12.11.2025;Bakım;7.2;Minör uygunsuzluk;Yeni personelin eğitim kaydı yok;Bakım Sorumlusu;11.01.2026;Eğitim eksikliği;Talimat revize edildi, eğitim verildi;27.11.2025;
+B-007;İT-2025-2;12.11.2025;Satın Alma;6.1;Majör uygunsuzluk;Süreç risk değerlendirmesi güncellenmemiş;Satın Alma Sorumlusu;12.12.2025;Takip sistemi yok;Sorumluluk tanımlandı ve hatırlatma kuruldu;27.12.2025;Etkin
+B-008;İT-2025-2;12.11.2025;Satın Alma;6.1;Gözlem;Süreç risk değerlendirmesi güncellenmemiş;Satın Alma Sorumlusu;;;;11.12.2025;
+B-009;İT-2025-2;12.11.2025;Bakım;9.1.2;Gözlem;Müşteri geri bildirimleri analiz edilmemiş;Bakım Sorumlusu;;;;04.12.2025;
+B-010;İT-2025-2;12.11.2025;İnsan Kaynakları;10.2;Minör uygunsuzluk;Önceki düzeltici faaliyetin etkinliği değerlendirilmemiş;İnsan Kaynakları Sorumlusu;11.01.2026;Eğitim eksikliği;Sorumluluk tanımlandı ve hatırlatma kuruldu;11.01.2026;
+B-011;İT-2025-2;12.11.2025;Satın Alma;7.5.3;Minör uygunsuzluk;Güncel olmayan talimat kullanımda;Satın Alma Sorumlusu;11.01.2026;Eğitim eksikliği;Süreç yeniden tasarlandı;20.12.2025;
+B-012;İT-2026-1;20.05.2026;Kalite Kontrol;7.5.3;Minör uygunsuzluk;Güncel olmayan talimat kullanımda;Kalite Kontrol Sorumlusu;19.07.2026;Eğitim eksikliği;Talimat revize edildi, eğitim verildi;21.07.2026;Etkin
+B-013;İT-2026-1;20.05.2026;Bakım;7.2;Minör uygunsuzluk;Yeni personelin eğitim kaydı yok;Bakım Sorumlusu;;Takip sistemi yok;Takip listesi oluşturuldu;04.08.2026;Etkin
+B-014;İT-2026-1;20.05.2026;İnsan Kaynakları;10.2;Minör uygunsuzluk;Önceki düzeltici faaliyetin etkinliği değerlendirilmemiş;İnsan Kaynakları Sorumlusu;;Eğitim eksikliği;Süreç yeniden tasarlandı;04.07.2026;Etkin
+B-015;İT-2026-1;20.05.2026;Bakım;7.2;Minör uygunsuzluk;Yeni personelin eğitim kaydı yok;Bakım Sorumlusu;19.07.2026;Eğitim eksikliği;Süreç yeniden tasarlandı;30.06.2026;Etkin
+B-016;İT-2026-1;20.05.2026;Depo;7.5.3;Gözlem;Güncel olmayan talimat kullanımda;Depo Sorumlusu;;;;25.06.2026;
+B-017;İT-2026-1;20.05.2026;Satın Alma;7.5.3;Gözlem;Güncel olmayan talimat kullanımda;Satın Alma Sorumlusu;;;;22.06.2026;
+B-018;İT-2026-1;20.05.2026;Depo;6.1;Minör uygunsuzluk;Süreç risk değerlendirmesi güncellenmemiş;Depo Sorumlusu;19.07.2026;Eğitim eksikliği;Süreç yeniden tasarlandı;07.06.2026;Etkin
+B-019;İT-2026-1;20.05.2026;Satın Alma;7.5.3;Minör uygunsuzluk;Güncel olmayan talimat kullanımda;Satın Alma Sorumlusu;19.07.2026;İş yükü / önceliklendirme;Süreç yeniden tasarlandı;08.06.2026;
+B-020;İT-2026-1;20.05.2026;Satış;7.2;Minör uygunsuzluk;Yeni personelin eğitim kaydı yok;Satış Sorumlusu;19.07.2026;;;;
+B-021;İT-2026-1;20.05.2026;Üretim;6.1;Minör uygunsuzluk;Süreç risk değerlendirmesi güncellenmemiş;Üretim Sorumlusu;;Takip sistemi yok;Talimat revize edildi, eğitim verildi;26.06.2026;
+B-022;İT-2026-1;20.05.2026;Bakım;10.2;Minör uygunsuzluk;Önceki düzeltici faaliyetin etkinliği değerlendirilmemiş;Bakım Sorumlusu;;;;;
+B-023;İT-2026-1;20.05.2026;Depo;7.2;Minör uygunsuzluk;Yeni personelin eğitim kaydı yok;Depo Sorumlusu;19.07.2026;Takip sistemi yok;Talimat revize edildi, eğitim verildi;17.06.2026;Etkin
+B-024;İT-2026-2;16.09.2026;Üretim;8.4;Minör uygunsuzluk;Tedarikçi değerlendirmesi yapılmamış;Üretim Sorumlusu;;Prosedür yetersizliği;Takip listesi oluşturuldu;13.10.2026;
+B-025;İT-2026-2;16.09.2026;Kalite Kontrol;8.5.1;İyileştirme fırsatı;Kontrol planındaki ölçüm sıklığına uyulmamış;Kalite Kontrol Sorumlusu;;;;03.11.2026;
+B-026;İT-2026-2;16.09.2026;Üretim;8.4;Majör uygunsuzluk;Tedarikçi değerlendirmesi yapılmamış;Üretim Sorumlusu;16.10.2026;;;;
+B-027;İT-2026-2;16.09.2026;Satış;9.1.2;Minör uygunsuzluk;Müşteri geri bildirimleri analiz edilmemiş;Satış Sorumlusu;15.11.2026;Takip sistemi yok;Sorumluluk tanımlandı ve hatırlatma kuruldu;13.10.2026;
+B-028;İT-2026-2;16.09.2026;İnsan Kaynakları;8.5.1;İyileştirme fırsatı;Kontrol planındaki ölçüm sıklığına uyulmamış;İnsan Kaynakları Sorumlusu;;;;;
+B-029;İT-2026-2;16.09.2026;Depo;9.1.2;Minör uygunsuzluk;Müşteri geri bildirimleri analiz edilmemiş;Depo Sorumlusu;15.11.2026;;;;
+B-030;İT-2026-2;16.09.2026;Satın Alma;8.7;Gözlem;Uygun olmayan ürün etiketlenmeden bekletilmiş;Satın Alma Sorumlusu;;;;11.11.2026;
+B-031;İT-2026-2;16.09.2026;Üretim;6.1;Minör uygunsuzluk;Süreç risk değerlendirmesi güncellenmemiş;Üretim Sorumlusu;15.11.2026;Takip sistemi yok;Talimat revize edildi, eğitim verildi;12.10.2026;
+B-032;İT-2026-2;16.09.2026;Satış;7.2;Minör uygunsuzluk;Yeni personelin eğitim kaydı yok;Satış Sorumlusu;15.11.2026;İş yükü / önceliklendirme;Takip listesi oluşturuldu;13.10.2026;
+B-033;İT-2026-2;16.09.2026;Kalite Kontrol;8.5.1;Minör uygunsuzluk;Kontrol planındaki ölçüm sıklığına uyulmamış;Kalite Kontrol Sorumlusu;15.11.2026;Prosedür yetersizliği;Sorumluluk tanımlandı ve hatırlatma kuruldu;13.10.2026;
+B-034;İT-2026-2;16.09.2026;Kalite Kontrol;7.1.5;İyileştirme fırsatı;Ölçüm cihazının kalibrasyon süresi geçmiş;Kalite Kontrol Sorumlusu;;;;28.09.2026;
+B-035;İT-2026-2;16.09.2026;Satış;6.1;Minör uygunsuzluk;Süreç risk değerlendirmesi güncellenmemiş;Satış Sorumlusu;;;;;

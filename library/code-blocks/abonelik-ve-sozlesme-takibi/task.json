@@ -1,0 +1,12 @@
+{
+  "id": "abonelik-ve-sozlesme-takibi",
+  "tur": "kod",
+  "ad": "Abonelik ve Sözleşme Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --sozlesmeler sozlesmeler.xlsx --ihbar 30 --bitis 60",
+  "girdiler": ["Sözleşmeler (.xlsx/.csv): Sözleşme, Kategori, Tedarikçi, Abone No, Lokasyon, Başlangıç, Bitiş, Tutar, Ödeme Periyodu (Aylık / Yıllık / 3 aylık / 6 aylık), Para Birimi, Otomatik Yenileme, Fesih İhbar Süresi (gün), Artış Esası, Sorumlu"],
+  "ciktilar": ["Excel: Sözleşmeler (kalan gün, ihbar son günü, durum, aylık karşılık, artış tarihi), Maliyet (kategori ve para birimi bazında aylık / yıllık), Uyarılar"],
+  "internet": false
+}

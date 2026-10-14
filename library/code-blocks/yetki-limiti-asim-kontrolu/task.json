@@ -1,0 +1,12 @@
+{
+  "id": "yetki-limiti-asim-kontrolu",
+  "tur": "kod",
+  "ad": "Yetki Limiti Aşım Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --yetkiler yetkiler.xlsx --teklifler teklifler.xlsx --yakin 90 --gun 30",
+  "girdiler": ["Yetki matrisi (.xlsx/.csv): Personel, Unvan, Branş (boş / Tümü), Azami Sigorta Bedeli, Azami İndirim %, Para Birimi", "Onaylanan teklifler (.xlsx/.csv): Teklif No, Onay Tarihi, Branş, Onaylayan, Sigortalı, Sigorta Bedeli, İndirim %, Prim, Para Birimi"],
+  "ciktilar": ["Excel: Teklif Kontrolü (limit kullanımı, sonuç), Personel özeti, Bölme Şüphesi, Uyarılar"],
+  "internet": false
+}

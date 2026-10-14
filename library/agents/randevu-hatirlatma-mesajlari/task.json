@@ -1,0 +1,20 @@
+{
+  "id": "randevu-hatirlatma-mesajlari",
+  "tur": "agent",
+  "ad": "Randevu Hatırlatma Mesajları",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --randevular randevular.xlsx --talimatlar hazirlik_talimatlari.xlsx --tarih 16.10.2026 --kurum \"Hastane Adı\" --iletisim \"0212 000 00 00\"",
+  "girdiler": [
+    "Randevular (.xlsx/.csv): Randevu No, Hasta Adı, Telefon, Tarih, Saat, Bölüm, Hekim, İşlem, Dil",
+    "Onaylı hazırlık talimatları (.xlsx/.csv): Bölüm, İşlem (boş / Tümü), Hazırlık Talimatı",
+    ".env: sağlayıcı ve API anahtarı (hasta verisi gönderilmez)"
+  ],
+  "ciktilar": ["Excel: Şablonlar (onaylı talimatlar, şablon metni, 'Onay'), Mesajlar, Gönderilemeyen", "CSV: Telefon; Mesaj (SMS sistemine aktarmak için)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

@@ -1,0 +1,14 @@
+Varlık;Tür;Sağlayıcı;Bitiş Tarihi;Otomatik Yenileme;Sorumlu;Yıllık Maliyet;Para Birimi;Lisans Adedi;Kullanılan
+www.ornekfirma.com.tr;SSL sertifikası;Sertifika Sağlayıcı A;19.10.2026;Hayır;Sistem - Emre;3.200;TRY;;
+mail.ornekfirma.com.tr;SSL sertifikası;Otomatik (ACME);05.11.2026;Evet;Sistem - Emre;0;TRY;;
+b2b.ornekfirma.com.tr;SSL sertifikası;Sertifika Sağlayıcı A;02.10.2026;Hayır;;3.200;TRY;;
+ornekfirma.com.tr;Alan adı;Alan Adı Kayıt Firması;28.01.2027;Evet;Sistem - Emre;850;TRY;;
+ornekfirma.com;Alan adı;Alan Adı Kayıt Firması;12.11.2026;Hayır;Sistem - Emre;25;USD;;
+Ofis paketi (bulut);Abonelik;Yazılım Üreticisi B;31.12.2026;Evet;BT Müdürü;14.400;USD;120;131
+ERP kullanıcı lisansı;Yazılım lisansı;ERP Çözüm Ortağı;31.03.2027;Hayır;BT Müdürü;420.000;TRY;80;52
+Antivirüs / uç nokta koruma;Yazılım lisansı;Güvenlik Yazılımı C;20.12.2026;Hayır;Sistem - Emre;2.900;EUR;150;142
+Yedekleme yazılımı;Yazılım lisansı;Yedekleme Üreticisi D;15.10.2026;Hayır;Sistem - Emre;1.800;EUR;10;8
+Güvenlik duvarı destek;Destek sözleşmesi;Ağ Cihazı Distribütörü;08.01.2027;Hayır;Ağ - Seda;3.600;USD;;
+Sunucu donanım bakımı;Destek sözleşmesi;Donanım Servis Firması;30.06.2027;Hayır;Sistem - Emre;95.000;TRY;;
+Tasarım yazılımı;Abonelik;Yazılım Üreticisi E;10.09.2027;Evet;Pazarlama;1.100;USD;6;2
+Uzaktan erişim (VPN);Yazılım lisansı;Ağ Cihazı Distribütörü;x;Hayır;Ağ - Seda;;;;

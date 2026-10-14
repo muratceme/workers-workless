@@ -1,0 +1,12 @@
+{
+  "id": "vekalet-ucreti-ve-masraf-hesabi",
+  "tur": "kod",
+  "ad": "Vekâlet Ücreti ve Masraf Hesabı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --dosyalar dosyalar.xlsx --tarife tarife.csv",
+  "girdiler": ["Tarife (.csv/.xlsx): Dilim Tutarı, Oran % — son satır 'Kalan' (örnek: 2025-2026 AAÜT üçüncü kısım dilimleri)", "Dosyalar (.xlsx/.csv): Dosya No, Dava Değeri, Kabul Edilen, Maktu Ücret, Harç, Bilirkişi, Tebligat ve Posta, Tanık, Keşif, Diğer", "ya da tek dosya için --deger --kabul --maktu --gider"],
+  "ciktilar": ["Excel: Dosyalar (davacı ve davalı lehine vekâlet ücreti, uygulanan kural, gider paylaşımı), Dilim Detayı, Tarife, Uyarılar"],
+  "internet": false
+}

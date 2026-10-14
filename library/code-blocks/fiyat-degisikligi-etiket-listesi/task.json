@@ -1,0 +1,12 @@
+{
+  "id": "fiyat-degisikligi-etiket-listesi",
+  "tur": "kod",
+  "ad": "Fiyat Değişikliği Etiket Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --degisiklikler fiyat_degisiklikleri.xlsx --yerlesim yerlesim.xlsx --gecmis fiyat_gecmisi.xlsx",
+  "girdiler": ["Fiyat değişiklikleri (.xlsx/.csv): Ürün Kodu, Ürün Adı, Eski Fiyat, Yeni Fiyat, Geçerlilik Tarihi, Çabuk Bozulan", "İsteğe bağlı yerleşim: Ürün Kodu, Reyon, Raf, Sıra", "İsteğe bağlı fiyat geçmişi: Ürün Kodu, Tarih, Fiyat"],
+  "ciktilar": ["Excel: Etiket Listesi (reyon / raf / sıra düzeninde; değişim %, yön, etikette gösterilecek önceki fiyat, indirim gösterilebilir mi, işaret sütunu), Reyon Özeti, Uyarılar"],
+  "internet": false
+}
