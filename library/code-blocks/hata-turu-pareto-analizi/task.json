@@ -1,0 +1,12 @@
+{
+  "id": "hata-turu-pareto-analizi",
+  "tur": "kod",
+  "ad": "Hata Türü Pareto Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --hatalar hata_kayitlari.xlsx --kontrol kontrol_adetleri.xlsx",
+  "girdiler": ["Hata kayıtları (.xlsx/.csv): Tarih, Hat, Operasyon, Hata Türü, Kontrol (Ara/Final), Hata Adedi", "Kontrol adetleri (isteğe bağlı): Tarih, Hat, Kontrol Edilen Adet"],
+  "ciktilar": ["Excel: Hata Türü Pareto, Operasyon Pareto, Hat Pareto (hata oranı, en sık hata), Hat × Hata Türü, Özet, Uyarılar"],
+  "internet": false
+}

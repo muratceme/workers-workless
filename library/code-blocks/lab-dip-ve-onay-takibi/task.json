@@ -1,0 +1,12 @@
+{
+  "id": "lab-dip-ve-onay-takibi",
+  "tur": "kod",
+  "ad": "Lab Dip ve Onay Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --onaylar onay_kayitlari.xlsx",
+  "girdiler": ["Onay kayıtları (.xlsx/.csv): Sipariş No, Müşteri, Model, Onay Türü, Renk / Detay, Tur, Gönderim Tarihi, Cevap Tarihi, Sonuç, Onay Termini, Sorumlu"],
+  "ciktilar": ["Excel: Onay Kalemleri (durum ve termin sırasıyla), Özet, Siparişler, Müşteriler, Onay Türleri, Uyarılar"],
+  "internet": false
+}

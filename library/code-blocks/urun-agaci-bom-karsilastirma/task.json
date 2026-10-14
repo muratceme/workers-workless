@@ -1,0 +1,12 @@
+{
+  "id": "urun-agaci-bom-karsilastirma",
+  "tur": "kod",
+  "ad": "Ürün Ağacı (BOM) Karşılaştırma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --eski bom_v1.xlsx --yeni bom_v2.xlsx",
+  "girdiler": ["Eski sürüm (.xlsx/.csv): Üst Kod, Bileşen Kodu, Bileşen Adı, Miktar, Birim, Birim Maliyet", "Yeni sürüm (.xlsx/.csv): aynı sütunlar"],
+  "ciktilar": ["Excel: Değişiklikler (eklenen, çıkarılan, miktarı / birimi / fiyatı / tanımı değişen kalemler, maliyet etkisi), Tüm Kalemler, Özet, Uyarılar"],
+  "internet": false
+}

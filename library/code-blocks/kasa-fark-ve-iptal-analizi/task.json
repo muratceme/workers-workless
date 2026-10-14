@@ -1,0 +1,12 @@
+{
+  "id": "kasa-fark-ve-iptal-analizi",
+  "tur": "kod",
+  "ad": "Kasa Fark ve İptal Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kayitlar kasiyer_gunluk.xlsx",
+  "girdiler": ["Günlük kasiyer kayıtları (.xlsx/.csv): Tarih, Kasiyer, Fiş Adedi, Satış Tutarı, İade Adedi, İade Tutarı, İptal Adedi, İptal Tutarı, Kasa Farkı"],
+  "ciktilar": ["Excel: Kasiyerler (iade ve iptal oranları, kasa farkı örüntüsü, değerlendirme), Günlük Kayıtlar, Uyarılar"],
+  "internet": false
+}

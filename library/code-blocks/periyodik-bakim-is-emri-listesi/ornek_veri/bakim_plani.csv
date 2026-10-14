@@ -1,0 +1,11 @@
+Ekipman;Bakım Adı;Periyot;Son Bakım Tarihi;Tahmini Süre (saat);Sorumlu;Malzemeler
+Pres 1;Hidrolik yağ seviyesi ve kaçak kontrolü;1 hafta;06.10.2026;0,5;Mekanik Bakım;
+Pres 1;Hidrolik filtre değişimi;3 ay;14.07.2026;2;Mekanik Bakım;Hidrolik filtre x1, Hidrolik yağ (lt) x20
+Pres 2;Kızak yağlama;30 gün;12.09.2026;1;Mekanik Bakım;Gres (kg) x2, Temizlik bezi
+Pres 2;Emniyet ışık perdesi testi;1 ay;16.09.2026;1;Elektrik Bakım;
+CNC 1;Soğutma sıvısı değişimi;6 ay;20.02.2026;3;Mekanik Bakım;Soğutma sıvısı (lt) x60, Temizlik bezi x2
+CNC 1;Eksen yağlama;2 hafta;05.10.2026;0,5;Mekanik Bakım;Kızak yağı (lt) x1
+Kompresör;Hava filtresi değişimi;3 ay;;1,5;Mekanik Bakım;Hava filtresi x1
+Kompresör;Kayış gerginlik kontrolü;1 ay;20.09.2026;0,5;Mekanik Bakım;
+Forklift;Akü ve şarj kontrolü;1 hafta;08.10.2026;0,5;Elektrik Bakım;Saf su (lt) x2
+Ana pano;Termal kamera kontrolü;1 yıl;15.10.2025;2;Elektrik Bakım;

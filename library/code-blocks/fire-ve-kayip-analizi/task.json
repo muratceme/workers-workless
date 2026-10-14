@@ -1,0 +1,12 @@
+{
+  "id": "fire-ve-kayip-analizi",
+  "tur": "kod",
+  "ad": "Fire ve Kayıp Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --fire fire_kayitlari.xlsx --gruplar urun_gruplari.xlsx",
+  "girdiler": ["Fire kayıtları (.xlsx/.csv): Tarih, Ürün Grubu, Neden, Adet, Tutar", "Ürün grupları (isteğe bağlı): Ürün Grubu, Satış, Sayım Farkı"],
+  "ciktilar": ["Excel: Ürün Grupları (fire oranı, bilinmeyen kayıp, toplam kayıp oranı), Neden Pareto, Grup × Neden, Fire Kayıtları, Uyarılar"],
+  "internet": false
+}

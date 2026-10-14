@@ -1,0 +1,12 @@
+{
+  "id": "magaza-satis-performans-panosu",
+  "tur": "kod",
+  "ad": "Mağaza Satış Performans Panosu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --satislar gunluk_satislar.xlsx",
+  "girdiler": ["Günlük satışlar (.xlsx/.csv): Tarih, Mağaza, Ciro, Fiş Adedi, Ziyaretçi, Satılan Adet, Geçen Yıl Ciro, Hedef Ciro"],
+  "ciktilar": ["Excel: Mağazalar (ciro, sepet ortalaması, dönüşüm, fiş başına adet, LFL büyüme, hedef gerçekleşme), Günler, Günlük Pano, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,12 @@
+{
+  "id": "kumas-fiyat-takibi",
+  "tur": "kod",
+  "ad": "Kumaş Fiyat Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --fiyatlar fiyat_listeleri.xlsx",
+  "girdiler": ["Fiyat listeleri (.xlsx/.csv): Tarih, Tedarikçi, Kalite, Birim, Para Birimi, Fiyat"],
+  "ciktilar": ["Excel: Kalite Karşılaştırması (en düşük, ortanca, en yüksek güncel teklif), Güncel Fiyatlar (son ve dönem değişimi), Fiyat Geçmişi, Uyarılar"],
+  "internet": false
+}

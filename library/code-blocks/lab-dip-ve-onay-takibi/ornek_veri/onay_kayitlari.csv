@@ -1,0 +1,10 @@
+Sipariş No;Müşteri;Model;Onay Türü;Renk / Detay;Tur;Gönderim Tarihi;Cevap Tarihi;Sonuç;Onay Termini;Sorumlu
+PO-5001;Örnek Moda GmbH;Kadın Sweatshirt 2140;Lab dip;Lacivert;1;01.09.2026;08.09.2026;Ret;30.09.2026;Z. Aksoy
+PO-5001;Örnek Moda GmbH;Kadın Sweatshirt 2140;Lab dip;Lacivert;2;15.09.2026;20.09.2026;Onay;30.09.2026;Z. Aksoy
+PO-5001;Örnek Moda GmbH;Kadın Sweatshirt 2140;Lab dip;Kırmızı;1;05.10.2026;;;15.10.2026;Z. Aksoy
+PO-5001;Örnek Moda GmbH;Kadın Sweatshirt 2140;Baskı;Göğüs logosu;1;01.10.2026;;;10.10.2026;Z. Aksoy
+PO-5001;Örnek Moda GmbH;Kadın Sweatshirt 2140;Aksesuar;Fermuar;1;10.09.2026;14.09.2026;Onay;25.09.2026;Z. Aksoy
+PO-5002;Deneme Retail Ltd.;Erkek Polo 3310;Aksesuar;Düğme;1;;;;30.10.2026;M. Tekin
+PO-5002;Deneme Retail Ltd.;Erkek Polo 3310;Lab dip;Bej;1;01.10.2026;06.10.2026;Yorum;25.10.2026;M. Tekin
+PO-5002;Deneme Retail Ltd.;Erkek Polo 3310;Lab dip;Siyah;1;20.09.2026;25.09.2026;;25.10.2026;M. Tekin
+PO-5002;Deneme Retail Ltd.;Erkek Polo 3310;Nakış;Yaka nakışı;1;12.09.2026;18.09.2026;Onay;05.10.2026;M. Tekin

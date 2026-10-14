@@ -1,0 +1,12 @@
+{
+  "id": "periyodik-bakim-is-emri-listesi",
+  "tur": "kod",
+  "ad": "Periyodik Bakım İş Emri Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --plan bakim_plani.xlsx --hafta 12.10.2026",
+  "girdiler": ["Bakım planı (.xlsx/.csv): Ekipman, Bakım Adı, Periyot, Son Bakım Tarihi, Tahmini Süre (saat), Sorumlu, Malzemeler"],
+  "ciktilar": ["Excel: İş Emirleri (haftanın bakımları ve gecikenler), Malzeme İhtiyacı, Haftalık Yük, Sonraki Hafta, Uyarılar"],
+  "internet": false
+}

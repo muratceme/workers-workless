@@ -1,0 +1,12 @@
+{
+  "id": "yedek-parca-kritik-stok-onerisi",
+  "tur": "kod",
+  "ad": "Yedek Parça Kritik Stok Önerisi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --parcalar parcalar.xlsx --kullanim parca_kullanimi.xlsx --gun 365",
+  "girdiler": ["Parçalar (.xlsx/.csv): Parça Kodu, Parça Adı, Kritiklik, Tedarik Süresi (gün), Mevcut Stok, Birim Fiyat", "Parça kullanımı (.xlsx/.csv): Tarih, Parça Kodu, Miktar, Ekipman"],
+  "ciktilar": ["Excel: Stok Önerisi (önerilen minimum stok, eksik miktar, sipariş tutarı, durum), Özet, Uyarılar"],
+  "internet": false
+}

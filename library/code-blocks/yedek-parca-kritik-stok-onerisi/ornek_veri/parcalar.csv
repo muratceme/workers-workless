@@ -1,0 +1,8 @@
+Parça Kodu;Parça Adı;Kritiklik;Tedarik Süresi (gün);Mevcut Stok;Birim Fiyat
+YP-001;Hidrolik pompa;Yüksek;45;1;85000
+YP-002;Rulman 6204;Orta;7;12;350
+YP-003;V kayışı;Orta;14;1;900
+YP-004;Servo sürücü;Yüksek;60;0;140000
+YP-005;Hava filtresi;Düşük;10;6;450
+YP-006;Emniyet rölesi;Yüksek;30;3;12000
+YP-007;Eski tip sensör;Düşük;20;8;2500

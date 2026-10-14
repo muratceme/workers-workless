@@ -534,12 +534,31 @@ kurum fiyat, duruş pareto ve üretim panosunda düzeltildi; önceki turlarda ol
 geçirilmeli); Bash heredoc içindeki Python'da "\n" kaçışı gerçek satır sonuna dönüşüyor → test dosyası yamalarında
 chr(92) ya da Edit aracı kullan.
 
+### Tur 24 (15 kod bloğu)
+kalitesizlik-maliyeti-raporu, tedarikci-kalite-karnesi, periyodik-bakim-is-emri-listesi, yedek-parca-kritik-stok-onerisi,
+bakim-maliyet-ve-performans-raporu, kaizen-onerisi-degerlendirme, urun-agaci-bom-karsilastirma, lab-dip-ve-onay-takibi,
+kumas-fiyat-takibi, hata-turu-pareto-analizi, gun-sonu-kasa-raporu, kasa-fark-ve-iptal-analizi, magaza-satis-performans-panosu,
+fire-ve-kayip-analizi, personel-satis-performansi.
+Toplam 328 paket (296 kod + 32 agent).
+Notlar: bu tur kalite, bakım, Ar-Ge, tekstil ve mağaza operasyonları. İnternetten kaynak teyidi yapılmadı; yasal oran yok.
+Varsayımlar (politika, kullanıcı değiştirir): tedarikçi karnesi A ≤ 1.000 ppm / B ≤ 5.000 ppm; dış hata payı %50 uyarısı;
+yedek parça emniyet payı %100/%50/%25 (istatistiksel model değil, README açıkça söylüyor); planlı bakım payı hedefi %70;
+kaizen eşikleri ve ağırlıkları 50/30/20; lab dip cevap süresi 7 gün; kumaş fiyat artış uyarısı %10; kasa toleransı 5 TL;
+kasa analizinde "diğer kasiyerlerin" oranının 2 katı; mağaza LFL eşiği −%5, hedef %90; fire/kayıp eşiği %2; personel
+priminde kod varsayılan kademe kullanmıyor (örnek veri 90:1;100:2;120:3 ile çalışıyor).
+Tasarım tercihleri: kasa analizinde kasiyer kendi oranıyla değil, kendisi hariç diğerlerinin toplam oranıyla karşılaştırılır
+(az kişide ortalamayı tek aykırı değer şişirmesin diye); BOM'da 0.250 ondalık, 1.000 binlik okunur (miktar_oku); bakım
+planında malzeme hücresi "Ad x2, Ad" biçiminde, x'ten önce boşluk şart (10x20 gibi adlar bozulmasın); hata pareto ve kasa
+analizinde kişisel veri / suistimal değildir notları README'de.
+Dersler: gruplamayı sıralamadan önce yap ya da ilk görülen yazımı sakla (kaizen bölüm adı); uyarı "kim" alanı strip edilir
+(test beklentisinde sondaki boşluk olmaz); yuvarlanmış ara değerden oran hesaplayıp test yazma (personel UPT endeksi).
+
 ### KALDIĞIM YER
-Sıradaki (puan 2): Kalitesizlik Maliyeti Raporu, Tedarikçi Kalite Karnesi, Periyodik Bakım İş Emri Listesi, Yedek Parça Kritik
-Stok Önerisi, Bakım Maliyet ve Performans Raporu, Kaizen Önerisi Değerlendirme, Ürün Ağacı (BOM) Karşılaştırma, Lab Dip ve
-Onay Takibi, Kumaş Fiyat Takibi, Hata Türü Pareto Analizi, Gün Sonu Kasa Raporu, Kasa Fark ve İptal Analizi, Mağaza Satış
-Performans Panosu, Fire ve Kayıp Analizi, Personel Satış Performansı… (tam liste için kalan2.mjs). Teminat Mektubu Metin
-Kontrolü, Müşteri İhtiyaç Analizi, Vardiya Devir Notu Özeti ve Şüpheli İşlem Bildirim Taslağı agent adayı.
+Sıradaki (puan 2): Bölge Mağaza Karşılaştırma Raporu, Rakip Fiyat Karşılaştırması, Ürün Gamı (Delist) Önerisi, Tedarikçi
+Ciro Primi Hesabı, Satış Hızı (Sell-Through) Raporu, Kayıp Müşteri (Churn) Listesi, Kampanya Fiyat Simülasyonu, Ürün Başlığı SEO
+Kontrolü, Kargo Teslim Performansı… (tam liste için kalan2.mjs; proje klasöründen çalıştır). Teminat Mektubu Metin Kontrolü,
+Müşteri İhtiyaç Analizi, Vardiya Devir Notu Özeti, Mağaza Ziyaret Raporu, Vitrin Yönergesi, Renk Paleti, Trend Raporu Özeti ve
+Şüpheli İşlem Bildirim Taslağı agent adayı.
 Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,
 Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi,
 Planogram Uyum, Hasta Şikâyet Sınıflandırma, Hasta Memnuniyet Anketi Analizi, Müşteri Yük Durum Bilgilendirmesi, Konşimento Bilgi

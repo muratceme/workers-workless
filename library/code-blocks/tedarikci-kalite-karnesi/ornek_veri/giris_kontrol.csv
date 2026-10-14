@@ -1,0 +1,15 @@
+Tarih;Tedarikçi;Malzeme;Parti No;Gelen Miktar;Ret Miktar;Karar
+06.07.2026;Örnek Metal A.Ş.;Sac 2 mm;OM-0701;10000;0;Kabul
+14.07.2026;Deneme Plastik Ltd. Şti.;Kapak;DP-0702;5000;15;Kabul
+21.07.2026;Örnek Metal A.Ş.;Cıvata M8;OM-0703;50000;20;Kabul
+28.07.2026;Numune Döküm San.;Gövde;ND-0704;1000;0;Kabul
+04.08.2026;Örnek Metal A.Ş.;Sac 2 mm;OM-0801;12000;6;Kabul
+11.08.2026;Deneme Plastik Ltd. Şti.;Kapak;DP-0802;5000;0;Kabul
+18.08.2026;Numune Döküm San.;Gövde;ND-0803;1200;1200;Ret
+25.08.2026;Kurgu Kimya Ltd. Şti.;Boya;KK-0804;200;0;Kabul
+01.09.2026;Örnek Metal A.Ş.;Cıvata M8;OM-0901;40000;14;Kabul
+08.09.2026;Deneme Plastik Ltd. Şti.;Kapak;DP-0902;6000;30;Şartlı kabul
+15.09.2026;Numune Döküm San.;Gövde;ND-0903;800;20;Kabul
+18.09.2026;Örnek Metal A.Ş.;Sac 2 mm;OM-0904;8000;0;Kabul
+22.09.2026;Deneme Plastik Ltd. Şti.;Kapak;DP-0905;4000;5;Kabul
+29.09.2026;Kurgu Kimya Ltd. Şti.;Boya;KK-0906;300;0;Kabul

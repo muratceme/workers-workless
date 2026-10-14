@@ -1,0 +1,16 @@
+Tarih;Hat;Operasyon;Hata Türü;Kontrol;Hata Adedi
+05.10.2026;Hat 1;Yan dikiş;Dikiş atlaması;Ara;14
+05.10.2026;Hat 1;Yaka takma;Yaka potluğu;Ara;9
+05.10.2026;Hat 1;Etek reçme;Dikiş kayması;Final;6
+05.10.2026;Hat 2;Yan dikiş;Dikiş atlaması;Ara;8
+05.10.2026;Hat 2;Kol takma;Kol potluğu;Ara;11
+05.10.2026;Hat 2;Ütü paket;Leke;Final;7
+05.10.2026;Hat 3;Yaka takma;Yaka potluğu;Ara;4
+05.10.2026;Hat 3;Etek reçme;İplik temizliği;Final;10
+06.10.2026;Hat 1;Yan dikiş;Dikiş atlaması;Ara;12
+06.10.2026;Hat 1;Ütü paket;Leke;Final;5
+06.10.2026;Hat 2;Kol takma;Kol potluğu;Ara;13
+06.10.2026;Hat 2;Yan dikiş;Dikiş kayması;Ara;4
+06.10.2026;Hat 3;Etek reçme;İplik temizliği;Final;8
+06.10.2026;Hat 3;Ütü paket;Ölçü hatası;Final;3
+06.10.2026;Hat 3;Yan dikiş;Diğer;Ara;2

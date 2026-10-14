@@ -1,0 +1,12 @@
+{
+  "id": "tedarikci-kalite-karnesi",
+  "tur": "kod",
+  "ad": "Tedarikçi Kalite Karnesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kayitlar giris_kontrol.xlsx",
+  "girdiler": ["Giriş kalite kontrol kayıtları (.xlsx/.csv): Tarih, Tedarikçi, Malzeme, Parti No, Gelen Miktar, Ret Miktar, Karar"],
+  "ciktilar": ["Excel: Karne (ppm, ret oranı, hatalı parti oranı, not), Tedarikçi × Malzeme, Aylar, Partiler, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,12 @@
+{
+  "id": "kalitesizlik-maliyeti-raporu",
+  "tur": "kod",
+  "ad": "Kalitesizlik Maliyeti Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kayitlar kalitesizlik_kayitlari.xlsx --ciro 6500000",
+  "girdiler": ["Kalitesizlik kayıtları (.xlsx/.csv): Tarih, Ürün, Maliyet Türü, Neden, Adet, Tutar"],
+  "ciktilar": ["Excel: Özet (iç ve dış hata, ciroya oran, türler, aylar), Ürün Pareto, Neden Pareto, Ürün × Tür, Kayıtlar, Uyarılar"],
+  "internet": false
+}

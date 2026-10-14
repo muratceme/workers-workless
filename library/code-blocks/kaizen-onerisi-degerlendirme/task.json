@@ -1,0 +1,12 @@
+{
+  "id": "kaizen-onerisi-degerlendirme",
+  "tur": "kod",
+  "ad": "Kaizen Önerisi Değerlendirme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --oneriler kaizen_onerileri.xlsx",
+  "girdiler": ["Öneriler (.xlsx/.csv): Öneri No, Öneren, Bölüm, Konu, Yıllık Kazanç, Uygulama Maliyeti, Uygulanabilirlik (1–5)"],
+  "ciktilar": ["Excel: Öneriler (puan sırasıyla; sınıf, geri ödeme süresi, alt puanlar), Özet, Bölümler, Uyarılar"],
+  "internet": false
+}

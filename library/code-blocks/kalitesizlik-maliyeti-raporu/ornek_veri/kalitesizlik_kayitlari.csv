@@ -1,0 +1,12 @@
+Tarih;Ürün;Maliyet Türü;Neden;Adet;Tutar
+03.07.2026;Braket A;Hurda;Çapak;120;18000
+10.07.2026;Kapak C;Yeniden işleme;Boya kalınlığı;300;9000
+18.07.2026;Braket A;İade;Çapak;80;32000
+05.08.2026;Gövde D;Hurda;Ölçü hatası;15;22500
+12.08.2026;Kapak C;Garanti;Boya dökülmesi;40;28000
+20.08.2026;Braket A;Hurda;Çapak;90;13500
+27.08.2026;Mil E;Yeniden işleme;Ölçü hatası;60;6000
+04.09.2026;Kapak C;İade;Boya dökülmesi;55;38500
+11.09.2026;Gövde D;Hurda;Malzeme hatası;10;15000
+18.09.2026;Braket A;Ayıklama;Çapak;2000;8000
+25.09.2026;Mil E;Garanti;;5;4500

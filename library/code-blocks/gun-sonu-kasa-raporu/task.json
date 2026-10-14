@@ -1,0 +1,12 @@
+{
+  "id": "gun-sonu-kasa-raporu",
+  "tur": "kod",
+  "ad": "Gün Sonu Kasa Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kasalar kasa_gun_sonu.xlsx",
+  "girdiler": ["Kasa gün sonu (.xlsx/.csv): Kasa, Kasiyer, Açılış Nakdi, Nakit Satış, Kredi Kartı Satış, Diğer Ödeme, Nakit İade, Kart İade, İptal Tutarı, İptal Adedi, Kasadan Çıkış, Sayılan Nakit, POS Gün Sonu, Fiş Adedi"],
+  "ciktilar": ["Excel: Kasa Mutabakatı (beklenen ve sayılan nakit, nakit farkı, kart farkı), Satış Özeti (ödeme türleri, iade, iptal), Uyarılar"],
+  "internet": false
+}

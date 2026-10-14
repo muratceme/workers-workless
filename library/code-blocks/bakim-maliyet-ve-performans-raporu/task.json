@@ -1,0 +1,12 @@
+{
+  "id": "bakim-maliyet-ve-performans-raporu",
+  "tur": "kod",
+  "ad": "Bakım Maliyet ve Performans Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --emirler bakim_is_emirleri.xlsx",
+  "girdiler": ["Bakım iş emirleri (.xlsx/.csv): İş Emri No, Tarih, Ekipman, Bakım Türü, İşçilik Maliyeti, Malzeme Maliyeti, Dış Hizmet Maliyeti, Duruş Süresi (saat), İşçilik Saati"],
+  "ciktilar": ["Excel: Özet (maliyet dağılımı, planlı bakım payı, MTTR, MTBF), Ekipmanlar, Bakım Türleri, Aylar, İş Emirleri, Uyarılar"],
+  "internet": false
+}

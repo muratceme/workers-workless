@@ -1,0 +1,12 @@
+Üst Kod;Bileşen Kodu;Bileşen Adı;Miktar;Birim;Birim Maliyet
+MAMUL-100;YM-110;Gövde alt grubu;1;adet;
+MAMUL-100;YM-120;Kapak alt grubu;1;adet;
+MAMUL-100;HM-001;Cıvata M8x20;6;adet;2,50
+MAMUL-100;HM-002;Etiket (QR kodlu);1;adet;1,20
+MAMUL-100;HM-003;Karton kutu;1;adet;21
+MAMUL-100;HM-004;Kullanım kılavuzu;1;adet;4
+YM-110;HM-010;Sac 2 mm;3,2;kg;42
+YM-110;HM-011;Kaynak teli;150;g;0,16
+YM-110;HM-012;Toz boya gri;0,25;kg;240
+YM-120;HM-020;Plastik granül ABS;0,4;kg;95
+YM-120;HM-021;Conta;1;adet;6
