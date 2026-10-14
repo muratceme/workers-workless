@@ -1,0 +1,12 @@
+{
+  "id": "musteri-memnuniyeti-csi-analizi",
+  "tur": "kod",
+  "ad": "Müşteri Memnuniyeti (CSI) Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --anket anketler.xlsx --olcek 10 --min 5",
+  "girdiler": ["Anketler (.xlsx/.csv): Anket No, İş Emri No, Tarih, Danışman, İş Türü, Genel Memnuniyet, Tavsiye (0-10), \"Soru: …\" sütunları, Yorum, Geri Arama İstiyor"],
+  "ciktilar": ["Excel: Danışman, İş Türü ve Ay kırılımları (anket, ortalama, en üst kutu %, düşük puan, NPS, soru ortalamaları), Geri Arama listesi, Uyarılar"],
+  "internet": false
+}

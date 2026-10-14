@@ -1,0 +1,12 @@
+{
+  "id": "arac-stok-yaslandirma",
+  "tur": "kod",
+  "ad": "Araç Stok Yaşlandırma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --stok stok.xlsx --faiz 36 --firsat-faiz 25",
+  "girdiler": ["Araç stoğu (.xlsx/.csv): Şasi No, Marka, Model, Versiyon, Renk, Model Yılı, Stoğa Giriş Tarihi, Alış Maliyeti, Liste Fiyatı, Durum (Stokta / Rezerve / Satıldı), Finansman (Floor plan / Kredi / Özkaynak), Faizsiz Gün"],
+  "ciktilar": ["Excel: Yaş Bandı, Model ve Renk özetleri (adet, alış değeri, ortalama stok günü, 90+ gün, finansman maliyeti), Araç Listesi (stok günü, faizli gün, finansman maliyeti, marj tüketimi), Uyarılar"],
+  "internet": false
+}

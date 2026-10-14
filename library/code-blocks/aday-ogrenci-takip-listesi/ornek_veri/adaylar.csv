@@ -1,0 +1,185 @@
+Aday No;Öğrenci;Veli;Telefon;Kademe;Hedef Sınıf;Kaynak;İlk Temas Tarihi;Aşama;Kayıp Aşaması;Son Temas Tarihi;Sonraki Takip Tarihi;Kayıp Nedeni;Sorumlu;Kayıt Tarihi
+AD-501;Ömer Kaya;Ali Kaya;0553 395 97 88;Anaokulu;4 yaş;Veli referansı;18.05.2026;Kayıt;;24.06.2026;;;Kayıt Sorumlusu 1;24.06.2026
+AD-502;Defne Kaya;Ayşe Kaya;0553 854 50 88;İlkokul;2. sınıf;Eğitim fuarı;19.07.2026;Değerlendirme / tanışma;;02.10.2026;06.10.2026;;Kayıt Sorumlusu 2;
+AD-503;Ela Şahin;Ayşe Şahin;0555 169 72 39;İlkokul;2. sınıf;Veli referansı;24.07.2026;Kayıp;Ön görüşme;27.07.2026;;Başka okulu tercih etti;Kayıt Sorumlusu 1;
+AD-504;Aras Çelik;Murat Çelik;0553 749 57 75;Ortaokul;6. sınıf;Eğitim fuarı;07.06.2026;Kayıt;;17.07.2026;;;Kayıt Sorumlusu 1;17.07.2026
+AD-505;Kerem Kurt;Ayşe Kurt;0542 319 56 94;Anaokulu;4 yaş;Eğitim fuarı;10.09.2026;Kayıt;;13.10.2026;;;Rehberlik;13.10.2026
+AD-506;Defne Yılmaz;Murat Yılmaz;0555 963 93 76;İlkokul;1. sınıf;Veli referansı;19.07.2026;Kayıp;Okul gezisi;31.07.2026;;Başka okulu tercih etti;Rehberlik;
+AD-507;Mert Kaya;Fatma Kaya;0553 941 44 34;Ortaokul;6. sınıf;Okul önünden geçerken;27.06.2026;Kayıt;;25.07.2026;;;Rehberlik;25.07.2026
+AD-508;Lina Doğan;Ali Doğan;0555 227 93 20;İlkokul;1. sınıf;Web sitesi;25.05.2026;Kayıp;Ön görüşme;25.05.2026;;Başka okulu tercih etti;Kayıt Sorumlusu 2;
+AD-509;Çınar Yılmaz;Can Yılmaz;0542 816 16 33;Ortaokul;7. sınıf;Okul önünden geçerken;27.09.2026;Okul gezisi;;09.10.2026;16.10.2026;;Kayıt Sorumlusu 2;
+AD-510;Ela Şahin;Murat Şahin;0542 608 19 59;İlkokul;1. sınıf;Web sitesi;27.07.2026;Kayıp;Değerlendirme / tanışma;06.08.2026;;Taşınma;Rehberlik;
+AD-511;Asel Polat;Murat Polat;0532 967 31 59;Anaokulu;4 yaş;Veli referansı;07.06.2026;Okul gezisi;;07.10.2026;;;Kayıt Sorumlusu 2;
+AD-512;Ada Demir;Ayşe Demir;0555 401 27 30;Ortaokul;5. sınıf;Okul önünden geçerken;25.06.2026;Kayıt;;19.07.2026;;;Kayıt Sorumlusu 2;19.07.2026
+AD-513;Çınar Çelik;Ali Çelik;0542 428 92 33;Lise;9. sınıf;Web sitesi;05.10.2026;Ön görüşme;;10.10.2026;14.10.2026;;Kayıt Sorumlusu 2;
+AD-514;Çınar Arslan;Ali Arslan;0555 748 62 55;Anaokulu;5 yaş;Veli referansı;09.09.2026;Ön görüşme;;09.10.2026;19.10.2026;;Rehberlik;
+AD-515;Asel Demir;Elif Demir;0532 997 19 77;İlkokul;3. sınıf;Web sitesi;06.06.2026;Kayıp;Okul gezisi;19.06.2026;;Ulaşım / servis uygun değil;Rehberlik;
+AD-516;Deniz Aydın;Ali Aydın;0553 147 26 73;Ortaokul;7. sınıf;Veli referansı;01.08.2026;Kayıt;;08.09.2026;;;Kayıt Sorumlusu 2;08.09.2026
+AD-517;Duru Kaya;Elif Kaya;0542 607 96 90;Ortaokul;5. sınıf;Okul önünden geçerken;20.09.2026;Ön görüşme;;11.10.2026;21.10.2026;;Kayıt Sorumlusu 1;
+AD-518;Defne Doğan;Murat Doğan;0553 229 71 87;İlkokul;1. sınıf;Web sitesi;20.09.2026;Ön görüşme;;29.09.2026;06.10.2026;;Kayıt Sorumlusu 2;
+AD-519;Duru Öztürk;Murat Öztürk;0542 686 61 59;Lise;Hazırlık;Veli referansı;02.09.2026;Kayıt;;14.10.2026;;;Rehberlik;14.10.2026
+AD-520;Ada Kaya;Murat Kaya;0555 858 72 59;İlkokul;3. sınıf;Web sitesi;25.05.2026;Kayıp;Ücret görüşmesi;13.06.2026;;Devlet okulunda kaldı;Kayıt Sorumlusu 2;
+AD-521;Deniz Doğan;Fatma Doğan;0542 344 67 46;Ortaokul;6. sınıf;Veli referansı;24.09.2026;Ücret görüşmesi;;08.10.2026;15.10.2026;;Kayıt Sorumlusu 2;
+AD-522;Ömer Kurt;Elif Kurt;0542 775 64 97;Anaokulu;5 yaş;Veli referansı;19.05.2026;Kayıp;Ön görüşme;21.05.2026;;Başka okulu tercih etti;Kayıt Sorumlusu 2;
+AD-523;Ela Kaya;Fatma Kaya;0532 409 86 36;İlkokul;3. sınıf;Web sitesi;06.09.2026;Kayıt;;30.09.2026;;;Rehberlik;30.09.2026
+AD-524;Nehir Doğan;Murat Doğan;0555 414 39 51;Ortaokul;6. sınıf;Okul önünden geçerken;18.08.2026;Kayıp;Ön görüşme;21.08.2026;;Taşınma;Kayıt Sorumlusu 2;
+AD-525;Aras Kaya;Ali Kaya;0555 846 82 30;Anaokulu;5 yaş;Veli referansı;13.08.2026;Ön görüşme;;30.09.2026;07.10.2026;;Rehberlik;
+AD-526;Deniz Polat;Ayşe Polat;0542 542 84 33;Anaokulu;5 yaş;Web sitesi;16.09.2026;Ön görüşme;;04.10.2026;07.10.2026;;Kayıt Sorumlusu 1;
+AD-527;Eymen Kurt;Murat Kurt;0553 942 51 67;İlkokul;1. sınıf;Okul önünden geçerken;07.08.2026;Kayıp;Değerlendirme / tanışma;17.08.2026;;Başka okulu tercih etti;Kayıt Sorumlusu 2;
+AD-528;Mert Şahin;Fatma Şahin;0542 934 69 17;İlkokul;2. sınıf;Eğitim fuarı;29.05.2026;Kayıp;Ücret görüşmesi;20.06.2026;;Ücret yüksek bulundu;Rehberlik;
+AD-529;Eymen Doğan;Murat Doğan;0553 809 58 70;İlkokul;3. sınıf;Sosyal medya;15.07.2026;Kayıp;Okul gezisi;22.07.2026;;Taşınma;Rehberlik;
+AD-530;Eymen Doğan;Can Doğan;0532 110 28 93;İlkokul;1. sınıf;Web sitesi;14.09.2026;Kayıp;Ön görüşme;16.09.2026;;Taşınma;Rehberlik;
+AD-531;Aras Polat;Ayşe Polat;0532 837 44 66;İlkokul;2. sınıf;Eğitim fuarı;06.10.2026;Okul gezisi;;14.10.2026;25.10.2026;;Kayıt Sorumlusu 2;
+AD-532;Defne Çelik;Ayşe Çelik;0542 474 82 53;Ortaokul;5. sınıf;Veli referansı;12.10.2026;Ön görüşme;;14.10.2026;18.10.2026;;Kayıt Sorumlusu 2;
+AD-533;Mert Koç;Murat Koç;0542 180 86 60;Ortaokul;5. sınıf;Veli referansı;07.09.2026;Kayıt;;04.10.2026;;;Kayıt Sorumlusu 2;04.10.2026
+AD-534;Asel Polat;Murat Polat;0555 128 59 52;Anaokulu;5 yaş;Sosyal medya;15.08.2026;Kayıt;;09.09.2026;;;Rehberlik;09.09.2026
+AD-535;Lina Polat;Ali Polat;0555 154 19 25;Ortaokul;7. sınıf;Sosyal medya;08.09.2026;Kayıp;Değerlendirme / tanışma;23.09.2026;;Başka okulu tercih etti;Rehberlik;
+AD-536;Ada Şahin;Can Şahin;0542 645 10 40;Anaokulu;5 yaş;Veli referansı;26.07.2026;Kayıt;;26.08.2026;;;Rehberlik;26.08.2026
+AD-537;Deniz Şahin;Ayşe Şahin;0542 293 48 66;Anaokulu;4 yaş;Web sitesi;12.08.2026;Kayıp;Okul gezisi;18.08.2026;;Taşınma;Rehberlik;
+AD-538;Lina Aydın;Murat Aydın;0553 112 62 87;Lise;9. sınıf;Veli referansı;03.07.2026;Okul gezisi;;10.10.2026;23.10.2026;;Kayıt Sorumlusu 2;
+AD-539;Ela Kaya;Ali Kaya;0553 515 46 58;Ortaokul;6. sınıf;Veli referansı;07.08.2026;Kayıt;;14.09.2026;;;Kayıt Sorumlusu 1;14.09.2026
+AD-540;Yusuf Arslan;Ayşe Arslan;0532 556 34 29;İlkokul;3. sınıf;Okul önünden geçerken;27.07.2026;Kayıp;Okul gezisi;01.08.2026;;Devlet okulunda kaldı;Kayıt Sorumlusu 1;
+AD-541;Ela Koç;Ali Koç;0553 784 56 57;Anaokulu;4 yaş;Veli referansı;16.05.2026;Kayıt;;10.06.2026;;;Kayıt Sorumlusu 2;10.06.2026
+AD-542;Aras Çelik;Elif Çelik;0542 448 76 14;İlkokul;1. sınıf;Sosyal medya;08.07.2026;Kayıp;Ücret görüşmesi;05.08.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 1;
+AD-543;Defne Şahin;Fatma Şahin;0555 859 28 63;Anaokulu;5 yaş;Okul önünden geçerken;29.08.2026;Kayıp;Ön görüşme;30.08.2026;;Taşınma;Rehberlik;
+AD-544;Ela Demir;Elif Demir;0555 173 50 50;Anaokulu;4 yaş;Web sitesi;19.08.2026;Kayıp;Değerlendirme / tanışma;31.08.2026;;Taşınma;Kayıt Sorumlusu 1;
+AD-545;Duru Koç;Murat Koç;0553 368 48 95;Ortaokul;5. sınıf;Eğitim fuarı;19.08.2026;Okul gezisi;;30.09.2026;02.10.2026;;Rehberlik;
+AD-546;Çınar Çelik;Ayşe Çelik;0532 151 70 52;Anaokulu;5 yaş;Web sitesi;27.06.2026;Kayıt;;08.08.2026;;;Kayıt Sorumlusu 2;08.08.2026
+AD-547;Eymen Aydın;Elif Aydın;0542 535 73 39;İlkokul;1. sınıf;Veli referansı;02.06.2026;Kayıt;;22.06.2026;;;Kayıt Sorumlusu 2;22.06.2026
+AD-548;Zeynep Öztürk;Murat Öztürk;0553 894 10 95;İlkokul;1. sınıf;Eğitim fuarı;01.09.2026;Kayıp;Ön görüşme;02.09.2026;;Ücret yüksek bulundu;Rehberlik;
+AD-549;Asel Polat;Ali Polat;0553 660 81 99;Anaokulu;5 yaş;Web sitesi;10.09.2026;Kayıp;Ücret görüşmesi;08.10.2026;;Taşınma;Kayıt Sorumlusu 1;
+AD-550;Asel Kurt;Fatma Kurt;0553 865 48 23;İlkokul;2. sınıf;Okul önünden geçerken;26.07.2026;Kayıp;Ön görüşme;26.07.2026;;Taşınma;Kayıt Sorumlusu 1;
+AD-551;Yusuf Aydın;Ayşe Aydın;0542 202 31 13;İlkokul;2. sınıf;Okul önünden geçerken;17.05.2026;Kayıp;Ön görüşme;18.05.2026;;Taşınma;Kayıt Sorumlusu 1;
+AD-552;Defne Kurt;Ayşe Kurt;0532 982 58 17;Lise;Hazırlık;Web sitesi;27.07.2026;Kayıp;Değerlendirme / tanışma;11.08.2026;;Devlet okulunda kaldı;Kayıt Sorumlusu 1;
+AD-553;Lina Kurt;Ali Kurt;0542 697 89 72;Ortaokul;6. sınıf;Veli referansı;05.08.2026;Kayıt;;03.09.2026;;;Rehberlik;03.09.2026
+AD-554;Çınar Koç;Fatma Koç;0555 835 98 78;İlkokul;1. sınıf;Web sitesi;30.09.2026;Ön görüşme;;05.10.2026;10.10.2026;;Kayıt Sorumlusu 1;
+AD-555;Yusuf Polat;Fatma Polat;0553 983 53 44;Anaokulu;5 yaş;Web sitesi;17.07.2026;Kayıt;;18.08.2026;;;Kayıt Sorumlusu 1;18.08.2026
+AD-556;Ada Kaya;Fatma Kaya;0542 939 27 61;Ortaokul;6. sınıf;Okul önünden geçerken;20.08.2026;Okul gezisi;;01.10.2026;07.10.2026;;Kayıt Sorumlusu 2;
+AD-557;Ela Demir;Fatma Demir;0555 515 99 58;Lise;9. sınıf;Eğitim fuarı;10.07.2026;Kayıp;Ön görüşme;11.07.2026;;Ulaşım / servis uygun değil;Rehberlik;
+AD-558;Ada Koç;Murat Koç;0555 493 35 38;Anaokulu;5 yaş;Web sitesi;13.08.2026;Kayıp;Ön görüşme;14.08.2026;;Başka okulu tercih etti;Kayıt Sorumlusu 1;
+AD-559;Asel Arslan;Elif Arslan;0542 100 70 73;Ortaokul;5. sınıf;Web sitesi;10.09.2026;Kayıt;;14.10.2026;;;Kayıt Sorumlusu 2;14.10.2026
+AD-560;Mert Arslan;Ali Arslan;0555 947 37 36;İlkokul;3. sınıf;Okul önünden geçerken;13.09.2026;Kayıp;Okul gezisi;25.09.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 1;
+AD-561;Ela Koç;Elif Koç;0555 964 22 63;Ortaokul;6. sınıf;Sosyal medya;19.08.2026;Okul gezisi;;13.10.2026;19.10.2026;;Rehberlik;
+AD-562;Yusuf Aydın;Ali Aydın;0532 992 85 32;Anaokulu;4 yaş;Eğitim fuarı;08.06.2026;Ücret görüşmesi;;11.10.2026;19.10.2026;;Kayıt Sorumlusu 1;
+AD-563;Mert Kurt;Fatma Kurt;0532 206 58 81;İlkokul;3. sınıf;Eğitim fuarı;13.07.2026;Kayıp;Okul gezisi;18.07.2026;;Ulaşım / servis uygun değil;Kayıt Sorumlusu 2;
+AD-564;Mert Yılmaz;Elif Yılmaz;0553 816 81 51;Lise;9. sınıf;Eğitim fuarı;02.10.2026;Okul gezisi;;14.10.2026;27.10.2026;;Rehberlik;
+AD-565;Ela Şahin;Fatma Şahin;0553 113 65 63;Ortaokul;7. sınıf;Eğitim fuarı;28.06.2026;Okul gezisi;;11.10.2026;14.10.2026;;Rehberlik;
+AD-566;Yusuf Çelik;Fatma Çelik;0532 942 24 85;Anaokulu;5 yaş;Veli referansı;01.06.2026;Kayıt;;01.07.2026;;;Rehberlik;01.07.2026
+AD-567;Eymen Öztürk;Can Öztürk;0555 293 66 70;İlkokul;3. sınıf;Veli referansı;24.08.2026;Kayıt;;19.09.2026;;;Kayıt Sorumlusu 1;19.09.2026
+AD-568;Çınar Polat;Fatma Polat;0555 399 79 12;İlkokul;1. sınıf;Veli referansı;07.09.2026;Kayıt;;14.10.2026;;;;14.10.2026
+AD-569;Ömer Doğan;Can Doğan;0555 729 24 65;Ortaokul;5. sınıf;Sosyal medya;23.08.2026;Kayıp;Okul gezisi;01.09.2026;;Taşınma;Kayıt Sorumlusu 2;
+AD-570;Lina Kaya;Fatma Kaya;0553 220 24 20;Ortaokul;6. sınıf;Okul önünden geçerken;08.06.2026;Ön görüşme;;09.10.2026;12.10.2026;;Rehberlik;
+AD-571;Ela Doğan;Murat Doğan;0553 831 44 80;Anaokulu;4 yaş;Okul önünden geçerken;12.06.2026;Kayıp;Ücret görüşmesi;29.06.2026;;Ulaşım / servis uygun değil;Rehberlik;
+AD-572;Zeynep Yılmaz;Ayşe Yılmaz;0532 796 82 13;İlkokul;1. sınıf;Veli referansı;22.08.2026;Kayıp;Ücret görüşmesi;23.09.2026;;Taşınma;Rehberlik;
+AD-573;Nehir Öztürk;Ali Öztürk;0555 100 35 68;Ortaokul;7. sınıf;Okul önünden geçerken;10.10.2026;Ön görüşme;;10.10.2026;14.10.2026;;Rehberlik;
+AD-574;Mert Çelik;Can Çelik;0542 651 28 91;Anaokulu;4 yaş;Sosyal medya;12.10.2026;Ön görüşme;;14.10.2026;;;Kayıt Sorumlusu 1;
+AD-575;Mert Öztürk;Ayşe Öztürk;0532 684 89 83;Anaokulu;4 yaş;Web sitesi;04.07.2026;Kayıp;Değerlendirme / tanışma;29.07.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 1;
+AD-576;Lina Aydın;Murat Aydın;0555 785 31 46;Anaokulu;5 yaş;Web sitesi;21.08.2026;Ön görüşme;;03.10.2026;17.10.2026;;Kayıt Sorumlusu 2;
+AD-577;Çınar Doğan;Fatma Doğan;0542 383 11 47;Anaokulu;4 yaş;Okul önünden geçerken;02.10.2026;Ön görüşme;;08.10.2026;11.10.2026;;Kayıt Sorumlusu 1;
+AD-578;Eymen Demir;Fatma Demir;0555 241 87 93;Lise;Hazırlık;Sosyal medya;29.09.2026;Okul gezisi;;06.10.2026;;;Kayıt Sorumlusu 1;
+AD-579;Yusuf Aydın;Ayşe Aydın;0553 714 26 55;İlkokul;3. sınıf;Web sitesi;14.09.2026;Kayıp;Değerlendirme / tanışma;09.10.2026;;Ulaşım / servis uygun değil;Kayıt Sorumlusu 1;
+AD-580;Kerem Koç;Ali Koç;0555 741 67 21;Lise;Hazırlık;Veli referansı;18.09.2026;Kayıp;Okul gezisi;29.09.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 2;
+AD-581;Ela Çelik;Ali Çelik;0553 372 37 65;Lise;9. sınıf;Veli referansı;29.07.2026;Kayıp;Ücret görüşmesi;14.08.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 1;
+AD-582;Deniz Şahin;Ayşe Şahin;0555 526 10 15;Anaokulu;5 yaş;Web sitesi;24.06.2026;Kayıp;Okul gezisi;02.07.2026;;Başka okulu tercih etti;Kayıt Sorumlusu 2;
+AD-583;Nehir Kurt;Murat Kurt;0532 569 61 94;İlkokul;1. sınıf;Okul önünden geçerken;07.09.2026;Kayıp;Ücret görüşmesi;29.09.2026;;Taşınma;Kayıt Sorumlusu 2;
+AD-584;Deniz Yılmaz;Murat Yılmaz;0553 346 42 61;Ortaokul;5. sınıf;Veli referansı;29.07.2026;Kayıt;;03.09.2026;;;Kayıt Sorumlusu 1;03.09.2026
+AD-585;Aras Çelik;Can Çelik;0555 934 27 34;Anaokulu;4 yaş;Okul önünden geçerken;01.10.2026;Okul gezisi;;11.10.2026;24.10.2026;;Kayıt Sorumlusu 2;
+AD-586;Ada Yılmaz;Ali Yılmaz;0532 226 31 52;Anaokulu;5 yaş;Okul önünden geçerken;14.08.2026;Kayıp;Ücret görüşmesi;03.09.2026;;Taşınma;Kayıt Sorumlusu 1;
+AD-587;Zeynep Öztürk;Can Öztürk;0542 644 69 40;Anaokulu;4 yaş;Veli referansı;02.08.2026;Kayıt;;31.08.2026;;;Rehberlik;31.08.2026
+AD-588;Eymen Kurt;Can Kurt;0553 229 24 69;İlkokul;1. sınıf;Veli referansı;13.07.2026;Okul gezisi;;05.10.2026;;;Kayıt Sorumlusu 2;
+AD-589;Eymen Şahin;Fatma Şahin;0532 425 13 90;Ortaokul;7. sınıf;Okul önünden geçerken;27.06.2026;Kayıt;;03.08.2026;;;Kayıt Sorumlusu 1;03.08.2026
+AD-590;Aras Kaya;Murat Kaya;0532 601 19 57;Lise;9. sınıf;Eğitim fuarı;24.07.2026;Kayıp;Ön görüşme;29.07.2026;;Ücret yüksek bulundu;Rehberlik;
+AD-591;Duru Çelik;Fatma Çelik;0553 234 48 34;İlkokul;1. sınıf;Web sitesi;08.10.2026;Ön görüşme;;10.10.2026;;;Kayıt Sorumlusu 1;
+AD-592;Kerem Demir;Can Demir;0542 211 63 54;Ortaokul;5. sınıf;Web sitesi;05.08.2026;Kayıp;Ön görüşme;06.08.2026;;Taşınma;Kayıt Sorumlusu 1;
+AD-593;Nehir Çelik;Ali Çelik;0553 790 85 14;Lise;Hazırlık;Okul önünden geçerken;18.07.2026;Ön görüşme;;03.10.2026;;;Rehberlik;
+AD-594;Aras Yılmaz;Can Yılmaz;0553 547 86 31;İlkokul;3. sınıf;Sosyal medya;17.05.2026;Kayıp;Okul gezisi;30.05.2026;;Devlet okulunda kaldı;Kayıt Sorumlusu 2;
+AD-595;Çınar Aydın;Ayşe Aydın;0553 306 22 85;Ortaokul;5. sınıf;Eğitim fuarı;17.05.2026;Kayıp;Ön görüşme;20.05.2026;;Başka okulu tercih etti;Rehberlik;
+AD-596;Deniz Şahin;Murat Şahin;0532 448 42 36;Ortaokul;5. sınıf;Veli referansı;23.09.2026;Ücret görüşmesi;;03.10.2026;06.10.2026;;Rehberlik;
+AD-597;Eymen Öztürk;Can Öztürk;0553 586 27 59;Anaokulu;5 yaş;Web sitesi;03.09.2026;Kayıt;;01.10.2026;;;Kayıt Sorumlusu 1;01.10.2026
+AD-598;Defne Öztürk;Ayşe Öztürk;0555 949 96 79;İlkokul;3. sınıf;Web sitesi;29.06.2026;Değerlendirme / tanışma;;30.09.2026;;;Rehberlik;
+AD-599;Eymen Çelik;Can Çelik;0542 642 83 61;Anaokulu;5 yaş;Web sitesi;20.06.2026;Kayıt;;14.07.2026;;;Kayıt Sorumlusu 2;14.07.2026
+AD-600;Aras Arslan;Ayşe Arslan;0555 638 93 33;Anaokulu;4 yaş;Eğitim fuarı;16.09.2026;Kayıp;Okul gezisi;27.09.2026;;Taşınma;Kayıt Sorumlusu 2;
+AD-601;Mert Polat;Murat Polat;0555 264 59 23;Ortaokul;6. sınıf;Eğitim fuarı;28.07.2026;Kayıp;Ön görüşme;28.07.2026;;Başka okulu tercih etti;Kayıt Sorumlusu 1;
+AD-602;Lina Şahin;Elif Şahin;0532 320 54 28;Anaokulu;5 yaş;Web sitesi;30.06.2026;Okul gezisi;;30.09.2026;;;Kayıt Sorumlusu 1;
+AD-603;Çınar Kurt;Can Kurt;0532 271 85 68;Anaokulu;4 yaş;Veli referansı;17.07.2026;Kayıp;Ön görüşme;19.07.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 1;
+AD-604;Çınar Şahin;Elif Şahin;0532 543 80 23;Anaokulu;5 yaş;Veli referansı;16.05.2026;Kayıp;Okul gezisi;25.05.2026;;Başka okulu tercih etti;Rehberlik;
+AD-605;Eymen Doğan;Ayşe Doğan;0532 467 64 45;Ortaokul;6. sınıf;Veli referansı;12.09.2026;Kayıt;;14.10.2026;;;Kayıt Sorumlusu 1;14.10.2026
+AD-606;Defne Polat;Elif Polat;0532 407 64 20;İlkokul;2. sınıf;Veli referansı;10.08.2026;Kayıt;;03.09.2026;;;Kayıt Sorumlusu 2;03.09.2026
+AD-607;Ömer Doğan;Ali Doğan;0542 404 21 39;Lise;9. sınıf;Veli referansı;25.05.2026;Kayıp;Ücret görüşmesi;27.06.2026;;Ulaşım / servis uygun değil;Rehberlik;
+AD-608;Ela Öztürk;Ali Öztürk;0555 169 68 20;Ortaokul;5. sınıf;Sosyal medya;07.07.2026;Kayıt;;04.08.2026;;;Rehberlik;04.08.2026
+AD-609;Lina Öztürk;Elif Öztürk;0532 709 52 64;Anaokulu;5 yaş;Sosyal medya;05.07.2026;Kayıp;Ön görüşme;10.07.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 2;
+AD-610;Mert Polat;Elif Polat;0542 538 19 59;Lise;9. sınıf;Eğitim fuarı;12.06.2026;Okul gezisi;;11.10.2026;14.10.2026;;Rehberlik;
+AD-611;Mert Öztürk;Ali Öztürk;0532 474 98 61;Ortaokul;7. sınıf;Web sitesi;30.08.2026;Kayıt;;18.09.2026;;;Kayıt Sorumlusu 1;18.09.2026
+AD-612;Aras Çelik;Can Çelik;0532 641 64 78;Ortaokul;6. sınıf;Eğitim fuarı;11.09.2026;Kayıt;;14.10.2026;;;Kayıt Sorumlusu 2;14.10.2026
+AD-613;Yusuf Kaya;Murat Kaya;0542 952 81 20;İlkokul;2. sınıf;Veli referansı;10.08.2026;Kayıt;;30.08.2026;;;Rehberlik;30.08.2026
+AD-614;Ömer Şahin;Murat Şahin;0532 481 65 45;Anaokulu;5 yaş;Eğitim fuarı;07.08.2026;Kayıp;Okul gezisi;16.08.2026;;Başka okulu tercih etti;Kayıt Sorumlusu 2;
+AD-615;Yusuf Çelik;Elif Çelik;0555 244 61 79;Anaokulu;5 yaş;Veli referansı;27.07.2026;Kayıt;;28.08.2026;;;Rehberlik;28.08.2026
+AD-616;Lina Doğan;Murat Doğan;0553 543 54 57;Ortaokul;5. sınıf;Veli referansı;05.10.2026;Ön görüşme;;14.10.2026;28.10.2026;;Kayıt Sorumlusu 1;
+AD-617;Yusuf Çelik;Elif Çelik;0553 857 58 11;Anaokulu;4 yaş;Web sitesi;29.09.2026;Ön görüşme;;06.10.2026;08.10.2026;;Kayıt Sorumlusu 1;
+AD-618;Çınar Şahin;Ayşe Şahin;0553 149 19 70;İlkokul;1. sınıf;Web sitesi;23.08.2026;Kayıp;Ön görüşme;26.08.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 2;
+AD-619;Lina Demir;Can Demir;0555 658 71 75;İlkokul;1. sınıf;Okul önünden geçerken;31.08.2026;Kayıp;Ön görüşme;03.09.2026;;Taşınma;Rehberlik;
+AD-620;Asel Aydın;Ali Aydın;0532 891 10 35;Anaokulu;4 yaş;Eğitim fuarı;07.08.2026;Kayıp;Değerlendirme / tanışma;29.08.2026;;Başka okulu tercih etti;Kayıt Sorumlusu 2;
+AD-621;Çınar Yılmaz;Elif Yılmaz;0555 846 69 75;Anaokulu;4 yaş;Web sitesi;10.06.2026;Kayıt;;01.07.2026;;;Kayıt Sorumlusu 1;01.07.2026
+AD-622;Ada Demir;Can Demir;0542 402 53 87;Ortaokul;5. sınıf;Veli referansı;07.06.2026;Kayıp;Okul gezisi;20.06.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 1;
+AD-623;Ömer Kurt;Can Kurt;0542 801 98 45;İlkokul;2. sınıf;Veli referansı;17.08.2026;Kayıp;Ön görüşme;20.08.2026;;Devlet okulunda kaldı;Kayıt Sorumlusu 1;
+AD-624;Aras Çelik;Fatma Çelik;0532 897 49 49;İlkokul;1. sınıf;Veli referansı;15.09.2026;Okul gezisi;;14.10.2026;16.10.2026;;Kayıt Sorumlusu 1;
+AD-625;Asel Kaya;Fatma Kaya;0532 760 14 62;Lise;Hazırlık;Okul önünden geçerken;31.05.2026;Kayıp;Ön görüşme;04.06.2026;;Başka okulu tercih etti;Kayıt Sorumlusu 1;
+AD-626;Yusuf Aydın;Fatma Aydın;0542 394 97 79;Ortaokul;6. sınıf;Web sitesi;30.08.2026;Kayıp;Okul gezisi;11.09.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 1;
+AD-627;Asel Yılmaz;Ali Yılmaz;0553 223 87 81;İlkokul;2. sınıf;Veli referansı;27.09.2026;Ön görüşme;;04.10.2026;10.10.2026;;Kayıt Sorumlusu 1;
+AD-628;Deniz Aydın;Murat Aydın;0553 974 51 73;İlkokul;1. sınıf;Okul önünden geçerken;25.09.2026;Ücret görüşmesi;;14.10.2026;16.10.2026;;Kayıt Sorumlusu 1;
+AD-629;Ada Kurt;Ayşe Kurt;0542 176 59 42;Anaokulu;5 yaş;Okul önünden geçerken;17.07.2026;Kayıp;Değerlendirme / tanışma;01.08.2026;;Devlet okulunda kaldı;Kayıt Sorumlusu 2;
+AD-630;Deniz Doğan;Murat Doğan;0542 804 80 63;İlkokul;1. sınıf;Okul önünden geçerken;22.09.2026;Değerlendirme / tanışma;;03.10.2026;05.10.2026;;Kayıt Sorumlusu 1;
+AD-631;Lina Demir;Fatma Demir;0555 540 58 21;Anaokulu;4 yaş;Veli referansı;11.10.2026;Ön görüşme;;13.10.2026;16.10.2026;;Rehberlik;
+AD-632;Asel Öztürk;Elif Öztürk;0532 930 17 13;Ortaokul;5. sınıf;Veli referansı;19.09.2026;Kayıt;;14.10.2026;;;Rehberlik;14.10.2026
+AD-633;Zeynep Şahin;Murat Şahin;0553 437 63 59;Ortaokul;7. sınıf;Web sitesi;13.07.2026;Ön görüşme;;10.10.2026;;;Kayıt Sorumlusu 1;
+AD-634;Ada Arslan;Elif Arslan;0532 398 66 73;Lise;9. sınıf;Sosyal medya;16.05.2026;Kayıp;Ücret görüşmesi;05.06.2026;;Taşınma;Rehberlik;
+AD-635;Yusuf Çelik;Ayşe Çelik;0542 252 63 23;Ortaokul;5. sınıf;Eğitim fuarı;27.09.2026;Okul gezisi;;08.10.2026;22.10.2026;;Kayıt Sorumlusu 1;
+AD-636;Ada Arslan;Fatma Arslan;0553 569 55 75;Anaokulu;4 yaş;Okul önünden geçerken;12.06.2026;Kayıp;Ücret görüşmesi;17.07.2026;;Devlet okulunda kaldı;Kayıt Sorumlusu 1;
+AD-637;Eymen Kaya;Murat Kaya;0532 857 98 44;Anaokulu;5 yaş;Veli referansı;23.09.2026;Ön görüşme;;13.10.2026;24.10.2026;;Kayıt Sorumlusu 1;
+AD-638;Ela Çelik;Fatma Çelik;0555 129 16 94;İlkokul;2. sınıf;Sosyal medya;30.05.2026;Kayıp;Ön görüşme;03.06.2026;;;Rehberlik;
+AD-639;Duru Öztürk;Can Öztürk;0532 795 78 76;Ortaokul;7. sınıf;Web sitesi;18.08.2026;Kayıp;Okul gezisi;24.08.2026;;Devlet okulunda kaldı;Kayıt Sorumlusu 2;
+AD-640;Duru Şahin;Ali Şahin;0542 151 79 76;Ortaokul;5. sınıf;Web sitesi;18.05.2026;Kayıt;;17.06.2026;;;Kayıt Sorumlusu 1;17.06.2026
+AD-641;Kerem Kaya;Ali Kaya;0542 720 66 54;İlkokul;1. sınıf;Sosyal medya;05.09.2026;Okul gezisi;;13.10.2026;16.10.2026;;Kayıt Sorumlusu 2;
+AD-642;Mert Kurt;Murat Kurt;0553 161 55 75;Ortaokul;7. sınıf;Eğitim fuarı;28.05.2026;Kayıt;;26.06.2026;;;Kayıt Sorumlusu 1;26.06.2026
+AD-643;Lina Çelik;Can Çelik;0532 549 63 16;Anaokulu;4 yaş;Web sitesi;08.08.2026;Kayıt;;13.09.2026;;;Kayıt Sorumlusu 1;13.09.2026
+AD-644;Yusuf Koç;Elif Koç;0553 524 72 45;Ortaokul;7. sınıf;Veli referansı;27.09.2026;Değerlendirme / tanışma;;14.10.2026;20.10.2026;;Rehberlik;
+AD-645;Ela Arslan;Elif Arslan;0555 664 45 80;Lise;Hazırlık;Okul önünden geçerken;04.07.2026;Kayıp;Ön görüşme;04.07.2026;;Taşınma;Rehberlik;
+AD-646;Ada Polat;Elif Polat;0553 403 73 45;Anaokulu;5 yaş;Sosyal medya;23.07.2026;Kayıp;Değerlendirme / tanışma;02.08.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 2;
+AD-647;Ömer Yılmaz;Fatma Yılmaz;0553 448 97 44;Lise;9. sınıf;Web sitesi;26.08.2026;Kayıp;Okul gezisi;07.09.2026;;Ulaşım / servis uygun değil;Kayıt Sorumlusu 1;
+AD-648;Eymen Aydın;Ayşe Aydın;0555 877 40 19;Anaokulu;4 yaş;Sosyal medya;08.10.2026;Ön görüşme;;12.10.2026;19.10.2026;;Kayıt Sorumlusu 2;
+AD-649;Lina Arslan;Ali Arslan;0555 429 12 34;İlkokul;1. sınıf;Veli referansı;24.07.2026;Kayıp;Okul gezisi;01.08.2026;;;Kayıt Sorumlusu 2;
+AD-650;Kerem Çelik;Elif Çelik;0555 219 70 59;İlkokul;2. sınıf;Veli referansı;03.09.2026;Kayıt;;15.09.2026;;;Kayıt Sorumlusu 2;15.09.2026
+AD-651;Ada Kaya;Murat Kaya;0553 762 77 79;Lise;9. sınıf;Eğitim fuarı;11.06.2026;Kayıp;Ön görüşme;15.06.2026;;Ulaşım / servis uygun değil;Kayıt Sorumlusu 2;
+AD-652;Eymen Arslan;Ali Arslan;0555 916 25 31;Anaokulu;5 yaş;Eğitim fuarı;13.07.2026;Okul gezisi;;10.10.2026;18.10.2026;;Rehberlik;
+AD-653;Aras Aydın;Fatma Aydın;0542 340 44 78;Ortaokul;7. sınıf;Sosyal medya;11.07.2026;Kayıp;Değerlendirme / tanışma;29.07.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 1;
+AD-654;Zeynep Yılmaz;Murat Yılmaz;0532 115 42 65;Anaokulu;4 yaş;Veli referansı;02.09.2026;Kayıt;;14.10.2026;;;Rehberlik;14.10.2026
+AD-655;Yusuf Çelik;Murat Çelik;0532 239 19 28;İlkokul;1. sınıf;Sosyal medya;18.06.2026;Kayıp;Ön görüşme;22.06.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 1;
+AD-656;Aras Öztürk;Can Öztürk;0532 273 97 85;Lise;9. sınıf;Veli referansı;24.06.2026;Kayıt;;23.07.2026;;;Kayıt Sorumlusu 1;23.07.2026
+AD-657;Ada Yılmaz;Ayşe Yılmaz;0553 913 90 20;Ortaokul;5. sınıf;Web sitesi;18.06.2026;Kayıp;Okul gezisi;27.06.2026;;Ücret yüksek bulundu;Rehberlik;
+AD-658;Mert Doğan;Murat Doğan;0553 425 64 66;Ortaokul;5. sınıf;Eğitim fuarı;03.07.2026;Kayıp;Okul gezisi;10.07.2026;;Taşınma;Rehberlik;
+AD-659;Ada Kurt;Murat Kurt;0555 701 39 55;Anaokulu;5 yaş;Okul önünden geçerken;12.08.2026;Kayıp;Ön görüşme;15.08.2026;;Devlet okulunda kaldı;Rehberlik;
+AD-660;Eymen Doğan;Murat Doğan;0553 949 23 66;Lise;9. sınıf;Okul önünden geçerken;17.08.2026;Kayıt;;18.09.2026;;;Kayıt Sorumlusu 2;18.09.2026
+AD-661;Defne Koç;Can Koç;0542 670 68 12;Ortaokul;6. sınıf;Eğitim fuarı;27.07.2026;Okul gezisi;;29.09.2026;;;Kayıt Sorumlusu 2;
+AD-662;Ela Çelik;Elif Çelik;0555 864 78 38;Lise;Hazırlık;Veli referansı;05.08.2026;Kayıp;Ücret görüşmesi;17.08.2026;;Devlet okulunda kaldı;Kayıt Sorumlusu 2;
+AD-663;Lina Aydın;Can Aydın;0553 251 44 39;Anaokulu;5 yaş;Eğitim fuarı;13.09.2026;Kayıp;Ücret görüşmesi;14.10.2026;;Ulaşım / servis uygun değil;Rehberlik;
+AD-664;Aras Çelik;Murat Çelik;0553 847 86 55;Anaokulu;5 yaş;Veli referansı;11.09.2026;Kayıt;;14.10.2026;;;Rehberlik;14.10.2026
+AD-665;Zeynep Aydın;Elif Aydın;0553 919 95 30;İlkokul;1. sınıf;Sosyal medya;21.07.2026;Kayıp;Okul gezisi;31.07.2026;;Taşınma;Kayıt Sorumlusu 2;
+AD-666;Deniz Aydın;Elif Aydın;0532 796 25 92;İlkokul;1. sınıf;Sosyal medya;03.10.2026;Okul gezisi;;08.10.2026;14.10.2026;;Kayıt Sorumlusu 2;
+AD-667;Nehir Polat;Ali Polat;0555 802 47 83;Lise;9. sınıf;Veli referansı;27.09.2026;Değerlendirme / tanışma;;09.10.2026;21.10.2026;;Rehberlik;
+AD-668;Nehir Polat;Fatma Polat;0555 928 53 82;Lise;Hazırlık;Okul önünden geçerken;24.06.2026;Kayıp;Okul gezisi;04.07.2026;;Ulaşım / servis uygun değil;Kayıt Sorumlusu 1;
+AD-669;Lina Doğan;Can Doğan;0542 744 21 60;Anaokulu;5 yaş;Eğitim fuarı;10.08.2026;Kayıt;;30.08.2026;;;Rehberlik;30.08.2026
+AD-670;Eymen Çelik;Murat Çelik;0542 694 66 10;Lise;Hazırlık;Okul önünden geçerken;10.10.2026;Ön görüşme;;14.10.2026;;;Kayıt Sorumlusu 2;
+AD-671;Duru Şahin;Fatma Şahin;0542 686 35 44;İlkokul;1. sınıf;Veli referansı;06.07.2026;Okul gezisi;;14.10.2026;25.10.2026;;Kayıt Sorumlusu 2;
+AD-672;Kerem Öztürk;Can Öztürk;0532 693 97 67;Ortaokul;7. sınıf;Web sitesi;28.09.2026;Değerlendirme / tanışma;;14.10.2026;17.10.2026;;Rehberlik;
+AD-673;Yusuf Kaya;Murat Kaya;0532 757 72 61;Ortaokul;5. sınıf;Sosyal medya;09.07.2026;Kayıp;Ön görüşme;10.07.2026;;Taşınma;Kayıt Sorumlusu 2;
+AD-674;Nehir Şahin;Murat Şahin;0542 867 54 16;Lise;Hazırlık;Web sitesi;07.10.2026;Okul gezisi;;13.10.2026;;;Kayıt Sorumlusu 2;
+AD-675;Lina Şahin;Ali Şahin;0532 451 86 57;İlkokul;2. sınıf;Eğitim fuarı;03.07.2026;Kayıt;;28.07.2026;;;Kayıt Sorumlusu 1;28.07.2026
+AD-676;Çınar Öztürk;Murat Öztürk;0555 333 85 41;Anaokulu;5 yaş;Okul önünden geçerken;02.09.2026;Ön görüşme;;11.10.2026;24.10.2026;;Kayıt Sorumlusu 1;
+AD-677;Eymen Kaya;Can Kaya;0555 977 74 65;Ortaokul;5. sınıf;Eğitim fuarı;08.09.2026;Kayıp;Ön görüşme;13.09.2026;;Devlet okulunda kaldı;Rehberlik;
+AD-678;Nehir Yılmaz;Ali Yılmaz;0555 993 32 40;Ortaokul;7. sınıf;Veli referansı;18.06.2026;Kayıt;;13.07.2026;;;Rehberlik;13.07.2026
+AD-679;Defne Demir;Fatma Demir;0555 810 16 67;Lise;9. sınıf;Web sitesi;23.05.2026;Kayıp;Ön görüşme;23.05.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 1;
+AD-680;Aras Koç;Murat Koç;0542 170 90 60;Anaokulu;4 yaş;Web sitesi;05.09.2026;Kayıp;Değerlendirme / tanışma;28.09.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 1;
+AD-681;Ömer Aydın;Ali Aydın;0532 800 80 15;Anaokulu;4 yaş;Veli referansı;13.07.2026;Kayıt;;31.07.2026;;;Kayıt Sorumlusu 2;31.07.2026
+AD-682;Defne Çelik;Ayşe Çelik;0532 823 29 18;Lise;9. sınıf;Web sitesi;23.07.2026;Kayıp;Ücret görüşmesi;14.08.2026;;Ücret yüksek bulundu;Kayıt Sorumlusu 1;
+AD-683;Ela Demir;Murat Demir;0542 987 28 61;Anaokulu;5 yaş;Okul önünden geçerken;02.06.2026;Kayıt;;12.07.2026;;;Rehberlik;12.07.2026
+AD-684;Eymen Şahin;Ali Şahin;0555 820 57 11;İlkokul;1. sınıf;Veli referansı;13.07.2026;Kayıt;;16.08.2026;;;Rehberlik;16.08.2026

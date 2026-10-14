@@ -1,0 +1,12 @@
+{
+  "id": "kanal-maliyet-analizi",
+  "tur": "kod",
+  "ad": "Kanal Maliyet Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --rezervasyonlar rezervasyonlar.xlsx --kanallar kanallar.xlsx",
+  "girdiler": ["Rezervasyonlar (.xlsx/.csv): Rezervasyon No, Kanal, Giriş Tarihi, Çıkış Tarihi ya da Gece, Tutar, Komisyon % (isteğe bağlı), Durum", "Kanal maliyetleri (.xlsx/.csv): Kanal, Kanal Türü, Komisyon %, İşlem Ücreti %, Rezervasyon Başı Ücret, Aylık Sabit Maliyet"],
+  "ciktilar": ["Excel: Kanal Karşılaştırma (brüt gelir, ADR, komisyon, işlem ücreti, sabit maliyet, maliyet %, net gelir, net ADR, en iyi kanala fark), Uyarılar"],
+  "internet": false
+}

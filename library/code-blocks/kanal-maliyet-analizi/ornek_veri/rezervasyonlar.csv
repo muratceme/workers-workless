@@ -1,0 +1,321 @@
+Rezervasyon No;Kanal;Giriş Tarihi;Gece;Tutar;Komisyon %;Durum
+R-80001;Web sitesi;15.10.2026;2;8057,77;;Konakladı
+R-80002;OTA A;23.10.2026;5;15948,46;18;Konakladı
+R-80003;OTA A;29.10.2026;2;6744,60;18;Konakladı
+R-80004;Tur operatörü;06.09.2026;7;20811,75;;Konakladı
+R-80005;Web sitesi;13.10.2026;4;16285,28;;İptal
+R-80006;Kurumsal;12.10.2026;4;11262,34;;Konakladı
+R-80007;OTA B;12.10.2026;2;7017,51;;Konakladı
+R-80008;OTA A;26.09.2026;2;7715,31;18;İptal
+R-80009;Web sitesi;06.09.2026;2;6873,78;;Konakladı
+R-80010;Tur operatörü;04.09.2026;2;6195,38;;Konakladı
+R-80011;OTA B;10.09.2026;3;11149,30;;Konakladı
+R-80012;OTA A;29.09.2026;4;12849,50;18;Konakladı
+R-80013;OTA A;23.09.2026;5;14380,05;18;Konakladı
+R-80014;Web sitesi;06.10.2026;1;3288,16;;Konakladı
+R-80015;OTA B;11.10.2026;1;3058,20;;Konakladı
+R-80016;Web sitesi;06.09.2026;2;6866,66;;Konakladı
+R-80017;OTA A;02.09.2026;2;6110,35;18;Konakladı
+R-80018;Telefon / e-posta;14.10.2026;1;2809,49;;İptal
+R-80019;Metasearch;19.09.2026;7;26950,19;;İptal
+R-80020;OTA B;18.10.2026;4;14179,79;;Konakladı
+R-80021;Kurumsal;23.09.2026;1;3202,04;;Konakladı
+R-80022;OTA A;24.10.2026;3;11294,50;21;İptal
+R-80023;Etkinlik ajansı;03.09.2026;2;5405,74;;İptal
+R-80024;OTA A;31.10.2026;4;14014,40;18;Konakladı
+R-80025;OTA B;18.09.2026;1;3458,09;;Konakladı
+R-80026;Tur operatörü;14.09.2026;3;8826,62;;Konakladı
+R-80027;Tur operatörü;22.10.2026;2;5728,01;;Konakladı
+R-80028;Tur operatörü;04.09.2026;2;4647,49;;Konakladı
+R-80029;Tur operatörü;06.09.2026;2;5209,38;;Konakladı
+R-80030;OTA A;26.09.2026;1;3237,44;18;Konakladı
+R-80031;Web sitesi;02.09.2026;2;8020,30;;Konakladı
+R-80032;Tur operatörü;04.10.2026;4;11030,84;;Konakladı
+R-80033;Kurumsal;13.09.2026;1;3136,35;;Konakladı
+R-80034;Web sitesi;24.09.2026;3;10936,45;;Konakladı
+R-80035;Web sitesi;11.09.2026;1;3306,04;;Konakladı
+R-80036;Web sitesi;29.10.2026;3;10349,68;;İptal
+R-80037;Tur operatörü;08.10.2026;1;2844,31;;Konakladı
+R-80038;OTA A;09.10.2026;4;13735,57;18;Konakladı
+R-80039;OTA A;13.10.2026;7;26505,36;21;Konakladı
+R-80040;Web sitesi;05.10.2026;3;11641,75;;Konakladı
+R-80041;Kurumsal;02.10.2026;3;8789,15;;Konakladı
+R-80042;OTA A;02.10.2026;2;7030,55;18;Konakladı
+R-80043;Web sitesi;06.10.2026;2;6310,55;;Konakladı
+R-80044;OTA A;19.09.2026;2;7375,55;18;Konakladı
+R-80045;OTA A;12.09.2026;1;3412,97;18;Konakladı
+R-80046;OTA B;16.09.2026;2;7522,52;;Konakladı
+R-80047;Metasearch;20.09.2026;5;18865,46;;Konakladı
+R-80048;OTA B;10.10.2026;2;6054,43;;İptal
+R-80049;OTA A;04.09.2026;4;15682,86;18;Konakladı
+R-80050;Kurumsal;05.10.2026;3;9808,31;;Konakladı
+R-80051;Web sitesi;02.09.2026;2;5838,31;;Konakladı
+R-80052;Tur operatörü;17.10.2026;1;2597,28;;Konakladı
+R-80053;OTA A;19.09.2026;1;2948,35;21;Konakladı
+R-80054;OTA A;02.09.2026;5;15672,91;21;Konakladı
+R-80055;OTA A;15.10.2026;7;20633,03;18;Konakladı
+R-80056;OTA B;18.09.2026;2;6764,18;;Konakladı
+R-80057;Metasearch;03.10.2026;4;13900,46;;İptal
+R-80058;Web sitesi;28.09.2026;3;11706,21;;Konakladı
+R-80059;Tur operatörü;22.09.2026;3;7819,53;;Konakladı
+R-80060;OTA A;09.09.2026;3;11119,94;18;Konakladı
+R-80061;OTA A;29.10.2026;5;18192,89;18;Konakladı
+R-80062;OTA A;06.09.2026;1;3852,88;21;Konakladı
+R-80063;OTA B;29.10.2026;5;16720,46;;Konakladı
+R-80064;OTA A;12.10.2026;2;6197,65;18;Konakladı
+R-80065;OTA A;13.10.2026;4;15300,11;21;Konakladı
+R-80066;OTA B;26.09.2026;7;22088,24;;Konakladı
+R-80067;Tur operatörü;01.09.2026;2;4441,39;;Konakladı
+R-80068;Web sitesi;29.09.2026;1;3392,44;;Konakladı
+R-80069;Tur operatörü;04.09.2026;2;5733,23;;Konakladı
+R-80070;Etkinlik ajansı;26.10.2026;5;13410,01;;Konakladı
+R-80071;OTA A;23.10.2026;2;5909,21;18;Konakladı
+R-80072;OTA A;02.10.2026;5;16554,87;18;Konakladı
+R-80073;Kurumsal;11.09.2026;2;6672,55;;Konakladı
+R-80074;OTA A;20.09.2026;4;14104,95;18;Konakladı
+R-80075;OTA B;13.10.2026;2;5654,19;;Konakladı
+R-80076;Tur operatörü;10.10.2026;2;5684,57;;Konakladı
+R-80077;Telefon / e-posta;24.09.2026;4;13110,96;;Konakladı
+R-80078;Kurumsal;15.09.2026;3;8107,65;;Konakladı
+R-80079;Web sitesi;11.10.2026;2;6819,74;;Konakladı
+R-80080;Web sitesi;25.10.2026;1;3907,60;;Konakladı
+R-80081;Tur operatörü;15.10.2026;4;12285,64;;Konakladı
+R-80082;GDS;01.09.2026;4;13689,13;;Konakladı
+R-80083;OTA A;18.09.2026;7;25500,18;21;Konakladı
+R-80084;Tur operatörü;29.09.2026;4;11328,16;;Konakladı
+R-80085;Metasearch;14.10.2026;7;24367,96;;Konakladı
+R-80086;OTA A;11.10.2026;2;6702,73;18;Konakladı
+R-80087;OTA A;03.09.2026;7;26373,01;18;Konakladı
+R-80088;OTA A;03.10.2026;2;6915,30;18;Konakladı
+R-80089;Tur operatörü;31.10.2026;3;7293,34;;Konakladı
+R-80090;Telefon / e-posta;25.10.2026;3;9140,78;;Konakladı
+R-80091;OTA A;01.10.2026;1;3074,08;18;Konakladı
+R-80092;Metasearch;04.09.2026;4;15703,15;;Konakladı
+R-80093;Tur operatörü;03.09.2026;1;2432,50;;Konakladı
+R-80094;Tur operatörü;29.09.2026;5;15415,50;;İptal
+R-80095;Web sitesi;26.09.2026;1;3242,97;;Konakladı
+R-80096;Web sitesi;31.10.2026;7;23478,23;;Konakladı
+R-80097;Web sitesi;13.09.2026;2;6544,68;;Konakladı
+R-80098;Web sitesi;22.09.2026;1;3029,96;;Konakladı
+R-80099;OTA B;22.10.2026;2;5744,24;;Konakladı
+R-80100;Metasearch;07.10.2026;2;5703,71;;Konakladı
+R-80101;Web sitesi;26.10.2026;5;18172,06;;Konakladı
+R-80102;Metasearch;10.09.2026;2;6492,14;;Konakladı
+R-80103;OTA A;05.09.2026;1;3020,74;18;Konakladı
+R-80104;OTA A;07.10.2026;1;3197,64;18;Konakladı
+R-80105;Telefon / e-posta;05.10.2026;2;7872,31;;İptal
+R-80106;OTA A;08.09.2026;1;3176,79;18;Konakladı
+R-80107;OTA B;01.10.2026;3;9567,77;;Konakladı
+R-80108;OTA B;25.09.2026;2;6349,92;;Konakladı
+R-80109;Web sitesi;24.10.2026;1;3414,82;;Konakladı
+R-80110;Telefon / e-posta;09.09.2026;2;6930,21;;Konakladı
+R-80111;Etkinlik ajansı;17.10.2026;2;6890,67;;İptal
+R-80112;OTA B;14.10.2026;3;11236,59;;Konakladı
+R-80113;Kurumsal;23.10.2026;1;3105,65;;Konakladı
+R-80114;OTA A;03.10.2026;4;12328,33;21;Konakladı
+R-80115;OTA A;29.09.2026;2;7552,47;21;Konakladı
+R-80116;OTA A;03.10.2026;5;17026,40;18;Konakladı
+R-80117;OTA B;03.10.2026;2;6716,60;;Konakladı
+R-80118;Tur operatörü;16.09.2026;3;7063,44;;Konakladı
+R-80119;Tur operatörü;26.10.2026;2;4440,64;;İptal
+R-80120;OTA A;11.09.2026;4;13009,13;18;Konakladı
+R-80121;OTA A;28.10.2026;2;6201,58;18;Konakladı
+R-80122;Tur operatörü;16.10.2026;7;20909,99;;Konakladı
+R-80123;OTA B;30.09.2026;1;3453,40;;Konakladı
+R-80124;OTA B;11.10.2026;4;10888,59;;İptal
+R-80125;Tur operatörü;26.09.2026;5;15056,61;;Konakladı
+R-80126;Tur operatörü;02.09.2026;1;3112,53;;Konakladı
+R-80127;OTA A;08.10.2026;2;6340,86;18;Konakladı
+R-80128;Tur operatörü;12.09.2026;1;2799,85;;Konakladı
+R-80129;OTA A;22.10.2026;1;3194,58;18;Konakladı
+R-80130;Telefon / e-posta;25.10.2026;5;15689,07;;Konakladı
+R-80131;Kurumsal;10.09.2026;2;6632,93;;Konakladı
+R-80132;Web sitesi;31.10.2026;5;18491,70;;Konakladı
+R-80133;OTA B;21.10.2026;5;15965,10;;Konakladı
+R-80134;Tur operatörü;08.10.2026;2;5411,02;;Konakladı
+R-80135;Tur operatörü;15.09.2026;1;2847,16;;Konakladı
+R-80136;OTA A;25.10.2026;1;3636,33;18;Konakladı
+R-80137;OTA A;29.10.2026;3;10231,60;18;Konakladı
+R-80138;Web sitesi;07.10.2026;5;18017,44;;Konakladı
+R-80139;Web sitesi;21.10.2026;2;7237,66;;Konakladı
+R-80140;OTA B;11.10.2026;2;5923,12;;Konakladı
+R-80141;Telefon / e-posta;16.09.2026;3;10117,03;;Konakladı
+R-80142;OTA B;12.09.2026;5;16885,37;;Konakladı
+R-80143;Telefon / e-posta;27.09.2026;1;3316,98;;Konakladı
+R-80144;OTA A;29.09.2026;2;6292,45;18;İptal
+R-80145;Web sitesi;19.09.2026;3;9113,43;;İptal
+R-80146;OTA A;23.10.2026;2;5627,96;18;Konakladı
+R-80147;OTA B;03.09.2026;2;7280,13;;Konakladı
+R-80148;Tur operatörü;30.09.2026;2;5552,30;;Konakladı
+R-80149;Kurumsal;23.10.2026;1;3558,34;;İptal
+R-80150;Kurumsal;16.09.2026;5;16610,97;;İptal
+R-80151;Metasearch;25.10.2026;1;3343,93;;İptal
+R-80152;OTA A;18.09.2026;2;6212,82;18;Konakladı
+R-80153;OTA A;11.09.2026;4;14965,15;18;Konakladı
+R-80154;Web sitesi;17.10.2026;1;3286,46;;Konakladı
+R-80155;Tur operatörü;25.09.2026;2;5074,96;;Konakladı
+R-80156;Tur operatörü;04.09.2026;2;6105,95;;Konakladı
+R-80157;Kurumsal;14.09.2026;2;5291,33;;Konakladı
+R-80158;Telefon / e-posta;18.10.2026;1;3843,17;;Konakladı
+R-80159;OTA A;01.09.2026;2;7841,38;18;Konakladı
+R-80160;Tur operatörü;11.09.2026;2;5816,82;;Konakladı
+R-80161;OTA A;26.09.2026;3;11742,74;18;Konakladı
+R-80162;GDS;14.10.2026;1;3769,78;;Konakladı
+R-80163;Tur operatörü;09.09.2026;2;4503,37;;Konakladı
+R-80164;Tur operatörü;01.09.2026;4;11827,12;;Konakladı
+R-80165;OTA A;12.10.2026;1;3427,62;18;Konakladı
+R-80166;Kurumsal;29.10.2026;5;15908,68;;Konakladı
+R-80167;GDS;26.09.2026;2;8879,82;;Konakladı
+R-80168;Telefon / e-posta;09.10.2026;2;7429,58;;Konakladı
+R-80169;Kurumsal;24.09.2026;7;23937,91;;Konakladı
+R-80170;Tur operatörü;28.09.2026;2;5470,44;;Konakladı
+R-80171;OTA A;30.09.2026;5;16611,28;18;Konakladı
+R-80172;Kurumsal;27.09.2026;2;6426,09;;Konakladı
+R-80173;OTA A;23.09.2026;2;7809,12;18;Konakladı
+R-80174;Tur operatörü;30.09.2026;2;5796,03;;Konakladı
+R-80175;Tur operatörü;02.09.2026;1;2522,79;;Konakladı
+R-80176;Tur operatörü;15.09.2026;3;8583,30;;Konakladı
+R-80177;OTA B;05.09.2026;5;16091,98;;Konakladı
+R-80178;OTA A;01.09.2026;1;3834,00;18;Konakladı
+R-80179;OTA A;24.10.2026;7;25155,79;18;Konakladı
+R-80180;Metasearch;04.09.2026;2;6725,20;;Konakladı
+R-80181;OTA A;01.09.2026;3;9867,92;18;İptal
+R-80182;OTA A;22.10.2026;3;10247,59;18;Konakladı
+R-80183;OTA B;25.09.2026;4;14983,77;;Konakladı
+R-80184;OTA A;31.10.2026;2;6635,62;18;Konakladı
+R-80185;GDS;03.10.2026;2;7786,43;;Konakladı
+R-80186;OTA A;30.10.2026;1;3468,41;18;Konakladı
+R-80187;Metasearch;07.09.2026;4;15266,23;;Konakladı
+R-80188;OTA A;30.09.2026;1;3676,51;21;Konakladı
+R-80189;OTA B;11.09.2026;3;8627,04;;Konakladı
+R-80190;Kurumsal;12.09.2026;2;5383,13;;Konakladı
+R-80191;OTA B;01.09.2026;4;13155,69;;Konakladı
+R-80192;OTA B;28.10.2026;7;26091,84;;Konakladı
+R-80193;Tur operatörü;14.09.2026;2;5567,69;;Konakladı
+R-80194;Tur operatörü;19.10.2026;5;13026,79;;Konakladı
+R-80195;OTA A;08.09.2026;1;2995,66;18;Konakladı
+R-80196;OTA A;01.10.2026;2;7589,66;21;Konakladı
+R-80197;OTA A;07.09.2026;1;3787,39;21;Konakladı
+R-80198;OTA B;10.09.2026;2;6972,35;;Konakladı
+R-80199;OTA B;09.10.2026;3;9557,60;;Konakladı
+R-80200;OTA B;26.10.2026;3;9289,73;;Konakladı
+R-80201;OTA A;11.10.2026;2;6758,91;18;Konakladı
+R-80202;Kurumsal;24.10.2026;7;23522,41;;Konakladı
+R-80203;Kurumsal;06.10.2026;1;3297,03;;Konakladı
+R-80204;OTA B;21.10.2026;2;5450,60;;Konakladı
+R-80205;Telefon / e-posta;09.09.2026;4;12208,26;;İptal
+R-80206;OTA B;21.09.2026;2;7286,79;;Konakladı
+R-80207;OTA A;18.09.2026;1;2876,21;18;Konakladı
+R-80208;Tur operatörü;17.10.2026;1;2879,34;;Konakladı
+R-80209;Tur operatörü;04.10.2026;2;6181,75;;Konakladı
+R-80210;Tur operatörü;27.09.2026;7;17213,82;;Konakladı
+R-80211;Tur operatörü;24.09.2026;5;13090,50;;Konakladı
+R-80212;OTA A;01.10.2026;3;9895,63;18;Konakladı
+R-80213;OTA A;21.09.2026;2;7865,18;21;Konakladı
+R-80214;Tur operatörü;28.09.2026;4;11309,94;;Konakladı
+R-80215;Tur operatörü;23.09.2026;3;7249,76;;Konakladı
+R-80216;OTA A;10.09.2026;2;7723,11;18;Konakladı
+R-80217;OTA B;07.10.2026;5;18547,45;;Konakladı
+R-80218;OTA A;01.09.2026;2;6587,48;18;Konakladı
+R-80219;Web sitesi;01.09.2026;2;6364,80;;Konakladı
+R-80220;Tur operatörü;11.10.2026;2;5123,44;;Konakladı
+R-80221;OTA A;09.10.2026;2;6939,26;21;Konakladı
+R-80222;OTA A;09.09.2026;4;11248,33;18;Konakladı
+R-80223;OTA A;05.10.2026;7;25531,06;18;Konakladı
+R-80224;OTA A;08.09.2026;3;8640,24;18;Konakladı
+R-80225;OTA A;21.09.2026;1;3169,34;18;Konakladı
+R-80226;Tur operatörü;22.10.2026;4;11922,58;;Konakladı
+R-80227;OTA B;31.10.2026;5;15279,96;;Konakladı
+R-80228;OTA A;13.09.2026;2;5664,50;18;Konakladı
+R-80229;Tur operatörü;31.10.2026;2;5524,43;;Konakladı
+R-80230;Kurumsal;03.09.2026;1;3224,92;;Konakladı
+R-80231;Tur operatörü;25.09.2026;5;12051,49;;Konakladı
+R-80232;OTA A;16.09.2026;5;14318,00;18;Konakladı
+R-80233;Tur operatörü;20.09.2026;1;2607,29;;Konakladı
+R-80234;OTA A;13.09.2026;5;15769,82;18;Konakladı
+R-80235;OTA A;27.09.2026;3;10448,28;21;Konakladı
+R-80236;GDS;18.10.2026;2;7617,33;;Konakladı
+R-80237;Web sitesi;17.10.2026;1;3073,03;;Konakladı
+R-80238;OTA A;06.10.2026;2;6784,36;18;Konakladı
+R-80239;Telefon / e-posta;25.09.2026;1;3423,23;;Konakladı
+R-80240;Web sitesi;11.10.2026;1;3644,58;;Konakladı
+R-80241;OTA A;30.09.2026;5;18898,21;18;Konakladı
+R-80242;Tur operatörü;13.09.2026;3;8609,21;;Konakladı
+R-80243;Telefon / e-posta;12.09.2026;3;11690,86;;Konakladı
+R-80244;Kurumsal;04.10.2026;1;3594,31;;İptal
+R-80245;OTA A;15.10.2026;2;7800,73;18;Konakladı
+R-80246;Metasearch;25.10.2026;3;10103,95;;Konakladı
+R-80247;OTA B;08.09.2026;1;3197,97;;Konakladı
+R-80248;Web sitesi;27.09.2026;1;3873,81;;Konakladı
+R-80249;OTA A;08.10.2026;2;6683,31;18;Konakladı
+R-80250;OTA A;20.09.2026;1;3393,76;21;Konakladı
+R-80251;OTA A;19.09.2026;1;3479,51;18;Konakladı
+R-80252;Telefon / e-posta;26.09.2026;3;11782,89;;Konakladı
+R-80253;Tur operatörü;01.10.2026;1;2321,40;;Konakladı
+R-80254;Tur operatörü;28.10.2026;3;7973,47;;Konakladı
+R-80255;Web sitesi;30.10.2026;1;2971,88;;Konakladı
+R-80256;Telefon / e-posta;22.10.2026;4;14144,16;;Konakladı
+R-80257;Tur operatörü;07.09.2026;2;5475,97;;Konakladı
+R-80258;Tur operatörü;22.10.2026;1;2415,23;;Konakladı
+R-80259;Tur operatörü;11.10.2026;3;7557,96;;Konakladı
+R-80260;Tur operatörü;06.09.2026;2;4447,95;;Konakladı
+R-80261;OTA A;27.10.2026;7;21308,79;21;Konakladı
+R-80262;Tur operatörü;06.09.2026;1;2632,60;;Konakladı
+R-80263;OTA B;16.10.2026;7;24179,72;;Konakladı
+R-80264;OTA B;02.09.2026;3;8737,16;;Konakladı
+R-80265;Web sitesi;02.10.2026;2;7435,34;;Konakladı
+R-80266;Web sitesi;08.09.2026;7;24714,44;;İptal
+R-80267;OTA A;26.09.2026;1;3283,46;18;Konakladı
+R-80268;OTA B;24.10.2026;1;3176,60;;Konakladı
+R-80269;OTA A;17.10.2026;4;12501,93;18;Konakladı
+R-80270;Kurumsal;01.09.2026;2;6760,58;;Konakladı
+R-80271;OTA A;23.10.2026;5;15215,73;18;Konakladı
+R-80272;Tur operatörü;17.09.2026;5;12265,13;;Konakladı
+R-80273;Web sitesi;31.10.2026;1;2984,70;;Konakladı
+R-80274;Web sitesi;20.10.2026;7;23930,64;;Konakladı
+R-80275;OTA A;25.10.2026;3;11622,46;21;Konakladı
+R-80276;OTA A;27.09.2026;3;8901,36;18;Konakladı
+R-80277;OTA B;30.09.2026;1;3836,55;;Konakladı
+R-80278;GDS;09.10.2026;3;12131,17;;Konakladı
+R-80279;OTA B;11.09.2026;3;8186,18;;İptal
+R-80280;Web sitesi;22.09.2026;1;3379,56;;Konakladı
+R-80281;Kurumsal;30.09.2026;3;8456,82;;Konakladı
+R-80282;OTA A;07.10.2026;1;2977,42;21;Konakladı
+R-80283;Tur operatörü;08.09.2026;3;6770,86;;Konakladı
+R-80284;Web sitesi;12.09.2026;1;2989,80;;Konakladı
+R-80285;OTA A;08.10.2026;3;9066,22;18;Konakladı
+R-80286;OTA A;24.10.2026;1;3665,84;18;Konakladı
+R-80287;Web sitesi;15.10.2026;1;3661,14;;Konakladı
+R-80288;Web sitesi;21.09.2026;1;3409,19;;Konakladı
+R-80289;Tur operatörü;15.09.2026;3;7299,70;;Konakladı
+R-80290;OTA A;29.09.2026;2;5798,28;18;Konakladı
+R-80291;OTA A;22.10.2026;7;26202,92;18;Konakladı
+R-80292;Web sitesi;02.10.2026;2;7895,09;;Konakladı
+R-80293;Telefon / e-posta;20.09.2026;5;17524,23;;Konakladı
+R-80294;Telefon / e-posta;12.10.2026;1;2886,23;;Konakladı
+R-80295;Etkinlik ajansı;27.10.2026;1;2923,08;;Konakladı
+R-80296;Tur operatörü;30.10.2026;7;20968,46;;Konakladı
+R-80297;OTA B;01.10.2026;1;3258,80;;Konakladı
+R-80298;Etkinlik ajansı;03.10.2026;2;6053,34;;Konakladı
+R-80299;OTA A;03.09.2026;1;3315,66;21;Konakladı
+R-80300;Web sitesi;02.09.2026;3;9718,33;;Konakladı
+R-80301;OTA B;24.10.2026;2;5726,21;;Konakladı
+R-80302;OTA A;23.10.2026;1;3036,12;18;Konakladı
+R-80303;Tur operatörü;25.10.2026;7;18624,04;;Konakladı
+R-80304;Telefon / e-posta;14.10.2026;4;12993,46;;Konakladı
+R-80305;Tur operatörü;12.10.2026;4;10577,62;;Konakladı
+R-80306;OTA B;21.10.2026;1;3395,01;;Konakladı
+R-80307;OTA A;19.10.2026;5;18463,71;18;Konakladı
+R-80308;Metasearch;24.10.2026;1;3683,93;;İptal
+R-80309;Etkinlik ajansı;14.10.2026;2;6358,54;;Konakladı
+R-80310;OTA A;01.10.2026;4;11341,41;18;Konakladı
+R-80311;OTA A;06.10.2026;1;2861,61;18;Konakladı
+R-80312;Kurumsal;16.09.2026;2;6669,34;;Konakladı
+R-80313;OTA A;29.10.2026;1;2931,86;18;Konakladı
+R-80314;OTA A;08.10.2026;3;8835,40;21;Konakladı
+R-80315;Telefon / e-posta;04.10.2026;3;8437,25;;Konakladı
+R-80316;Web sitesi;30.09.2026;2;5903,62;;Konakladı
+R-80317;OTA B;18.10.2026;3;8355,99;;Konakladı
+R-80318;OTA A;08.09.2026;2;5752,71;21;Konakladı
+R-80319;Tur operatörü;29.09.2026;1;2333,35;;Konakladı
+R-80320;Web sitesi;19.10.2026;2;7552,45;;Konakladı

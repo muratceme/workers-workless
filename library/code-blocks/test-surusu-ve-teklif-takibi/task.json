@@ -1,0 +1,12 @@
+{
+  "id": "test-surusu-ve-teklif-takibi",
+  "tur": "kod",
+  "ad": "Test Sürüşü ve Teklif Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --firsatlar firsatlar.xlsx --takip 3 --soguma 30",
+  "girdiler": ["Fırsatlar (.xlsx/.csv): Kayıt No, Müşteri, Telefon, Danışman, Model, İlk Temas Tarihi, Test Sürüşü Tarihi, Teklif Tarihi, Teklif Tutarı, Son Temas Tarihi, Planlanan Arama, Durum (Açık / Satış / Kayıp), Kayıp Nedeni, Takas, Kredi, Satış Tarihi"],
+  "ciktilar": ["Excel: Geri Dönüş Listesi (öncelik ve gerekçe), Danışman ve Model özetleri (test sürüşü %, teklif %, kapanış %, test sürüşü yapanlarda kapanış %, ortalama satış süresi), Kayıp Nedenleri, Uyarılar"],
+  "internet": false
+}

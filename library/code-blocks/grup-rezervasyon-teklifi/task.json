@@ -1,0 +1,12 @@
+{
+  "id": "grup-rezervasyon-teklifi",
+  "tur": "kod",
+  "ad": "Grup Rezervasyon Teklifi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --talep talep.xlsx --fiyatlar fiyatlar.xlsx --grup \"ABC Derneği\" --kisi 48 --ucretsiz 20",
+  "girdiler": ["Grup talebi (.xlsx/.csv): Tarih, Kalem, Adet", "Fiyat listesi (.xlsx/.csv): Kalem, Tür (Oda / Yemek / Salon / Diğer), Birim, Fiyat (KDV hariç), KDV %, Konaklama Vergisi (Evet / Hayır), Başlangıç, Bitiş"],
+  "ciktilar": ["Excel: Teklif (tutarlar, ücretsiz oda, indirim, konaklama vergisi, KDV, genel toplam, kişi başı, kapora, opsiyon ve bakiye tarihi), Detay (gün × kalem), Kalem Özeti, Uyarılar"],
+  "internet": false
+}

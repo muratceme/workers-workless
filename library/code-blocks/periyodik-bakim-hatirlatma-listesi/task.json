@@ -1,0 +1,12 @@
+{
+  "id": "periyodik-bakim-hatirlatma-listesi",
+  "tur": "kod",
+  "ad": "Periyodik Bakım Hatırlatma Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --araclar araclar.xlsx --pencere 30 --firma \"Servis Adı\"",
+  "girdiler": ["Araçlar (.xlsx/.csv): Plaka, Müşteri, Telefon, Model, Son Bakım Tarihi, Son Bakım Km, Önceki Bakım Tarihi, Önceki Bakım Km, Bakım Aralığı Km, Bakım Aralığı Ay, İleti İzni"],
+  "ciktilar": ["Excel: Hatırlatma Listesi (gecikmiş ve yaklaşan bakımlar), Tüm Araçlar (günlük km, tahmini km, bakım vadesi, kalan gün), Mesajlar, Uyarılar", "CSV: Telefon; Mesaj (yalnız ileti izni olanlar)"],
+  "internet": false
+}

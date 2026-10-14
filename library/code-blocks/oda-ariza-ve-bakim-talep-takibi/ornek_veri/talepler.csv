@@ -1,0 +1,125 @@
+Talep No;Oda;Bildirim Zamanı;Kategori;Açıklama;Öncelik;Durum;Tamamlanma Zamanı;Satışa Kapalı;Sorumlu
+T-0001;210;01.09.2026 17:16;Mobilya;Dolap kapağı menteşesi kopuk;Normal;Tamamlandı;02.09.2026 14:53;;Teknik - Volkan
+T-0002;215;01.09.2026 18:23;Klima;Klima su damlatıyor;Normal;Tamamlandı;02.09.2026 09:13;;Teknik - Serkan
+T-0003;320;03.09.2026 06:36;Klima;Klima su damlatıyor;Normal;Tamamlandı;04.09.2026 07:25;;Teknik - Volkan
+T-0004;209;03.09.2026 10:03;Sıhhi tesisat;Duş basıncı düşük;Normal;Tamamlandı;04.09.2026 09:28;;Teknik - Ahmet
+T-0005;105;03.09.2026 15:20;Klima;Klima su damlatıyor;Normal;Tamamlandı;04.09.2026 07:30;;Teknik - Volkan
+T-0006;311;03.09.2026 22:44;Sıhhi tesisat;Klozet rezervuarı su kaçırıyor;Normal;Tamamlandı;04.09.2026 22:56;;Teknik - Serkan
+T-0007;211;05.09.2026 01:41;TV / elektronik;Kumanda çalışmıyor;Normal;Tamamlandı;05.09.2026 22:03;;Teknik - Volkan
+T-0008;305;05.09.2026 07:04;Sıhhi tesisat;Lavabo gideri tıkalı;Düşük;Tamamlandı;07.09.2026 02:29;Evet;Teknik - Serkan
+T-0009;101;06.09.2026 05:28;Elektrik;Priz çalışmıyor;Normal;Tamamlandı;06.09.2026 13:19;;Teknik - Ahmet
+T-0010;219;06.09.2026 16:23;Elektrik;Banyo aydınlatması arızalı;Normal;Tamamlandı;06.09.2026 23:45;;Teknik - Volkan
+T-0011;109;06.09.2026 20:05;TV / elektronik;TV açılmıyor;Normal;Tamamlandı;07.09.2026 22:22;;Teknik - Ahmet
+T-0012;210;07.09.2026 00:55;Elektrik;Priz çalışmıyor;Normal;Tamamlandı;07.09.2026 16:48;;Teknik - Volkan
+T-0013;315;07.09.2026 09:55;TV / elektronik;Kanal ayarı bozuk;Düşük;Tamamlandı;08.09.2026 08:32;;Teknik - Volkan
+T-0014;106;07.09.2026 16:27;TV / elektronik;TV açılmıyor;Normal;Tamamlandı;08.09.2026 06:56;;Teknik - Ahmet
+T-0015;210;07.09.2026 18:24;Sıhhi tesisat;Lavabo gideri tıkalı;Normal;Tamamlandı;08.09.2026 13:25;;Teknik - Volkan
+T-0016;302;07.09.2026 21:30;TV / elektronik;Kanal ayarı bozuk;Normal;Tamamlandı;08.09.2026 22:32;;Teknik - Volkan
+T-0017;114;08.09.2026 00:48;Kapı kilidi;Kilit pili zayıf;Acil;Tamamlandı;08.09.2026 02:27;;Teknik - Volkan
+T-0018;217;08.09.2026 14:32;TV / elektronik;Kumanda çalışmıyor;Normal;Tamamlandı;09.09.2026 10:39;;Teknik - Ahmet
+T-0019;101;09.09.2026 07:13;Sıhhi tesisat;Duş basıncı düşük;Normal;Tamamlandı;09.09.2026 19:05;;Teknik - Serkan
+T-0020;201;09.09.2026 16:37;Klima;Klima su damlatıyor;Düşük;Tamamlandı;11.09.2026 04:04;;Teknik - Ahmet
+T-0021;102;09.09.2026 23:44;Mobilya;Dolap kapağı menteşesi kopuk;Normal;Tamamlandı;10.09.2026 14:29;;Teknik - Ahmet
+T-0022;205;10.09.2026 01:10;Klima;Klima soğutmuyor;Normal;Tamamlandı;10.09.2026 21:53;;Teknik - Volkan
+T-0023;108;10.09.2026 20:39;Klima;Klima sesli çalışıyor;Normal;Tamamlandı;14.09.2026 09:18;;Teknik - Serkan
+T-0024;214;11.09.2026 08:39;Sıhhi tesisat;Klozet rezervuarı su kaçırıyor;Normal;Tamamlandı;11.09.2026 19:55;;Teknik - Volkan
+T-0025;317;11.09.2026 09:38;TV / elektronik;Kumanda çalışmıyor;Acil;Tamamlandı;11.09.2026 17:23;;Teknik - Volkan
+T-0026;316;11.09.2026 22:31;Elektrik;Priz çalışmıyor;Düşük;Tamamlandı;12.09.2026 17:29;;Teknik - Volkan
+T-0027;111;11.09.2026 23:37;Sıhhi tesisat;Klozet rezervuarı su kaçırıyor;Normal;Tamamlandı;12.09.2026 13:06;Evet;Teknik - Ahmet
+T-0028;310;12.09.2026 05:44;Kapı kilidi;Kartlı kilit kartı okumuyor;Acil;Tamamlandı;12.09.2026 19:54;;Teknik - Serkan
+T-0029;312;12.09.2026 17:01;Sıhhi tesisat;Klozet rezervuarı su kaçırıyor;Acil;Tamamlandı;12.09.2026 18:35;;Teknik - Ahmet
+T-0030;105;13.09.2026 04:24;Sıhhi tesisat;Lavabo gideri tıkalı;Normal;Tamamlandı;13.09.2026 13:46;;Teknik - Ahmet
+T-0031;203;13.09.2026 05:03;Klima;Klima sesli çalışıyor;Normal;Tamamlandı;14.09.2026 01:37;;Teknik - Ahmet
+T-0032;110;14.09.2026 01:59;TV / elektronik;Kanal ayarı bozuk;Normal;Tamamlandı;17.09.2026 21:59;;Teknik - Ahmet
+T-0033;214;14.09.2026 04:21;Sıhhi tesisat;Klozet rezervuarı su kaçırıyor;Acil;Tamamlandı;14.09.2026 07:02;;Teknik - Ahmet
+T-0034;306;14.09.2026 10:11;Elektrik;Priz çalışmıyor;Normal;Tamamlandı;14.09.2026 16:18;;Teknik - Ahmet
+T-0035;214;14.09.2026 11:43;Boya / duvar;Duvarda leke;Acil;Tamamlandı;14.09.2026 16:02;;Teknik - Volkan
+T-0036;218;14.09.2026 12:54;Klima;Klima soğutmuyor;Normal;Tamamlandı;14.09.2026 18:41;;Teknik - Serkan
+T-0037;319;15.09.2026 08:13;TV / elektronik;Kumanda çalışmıyor;Normal;Tamamlandı;15.09.2026 21:49;;Teknik - Volkan
+T-0038;219;15.09.2026 13:25;Boya / duvar;Duvarda leke;Acil;Tamamlandı;15.09.2026 15:32;;Teknik - Ahmet
+T-0039;208;15.09.2026 14:40;Mobilya;Sandalye ayağı sallanıyor;Normal;Tamamlandı;15.09.2026 20:57;;Teknik - Serkan
+T-0040;312;15.09.2026 18:53;Sıhhi tesisat;Duş basıncı düşük;Normal;Tamamlandı;17.09.2026 15:53;;Teknik - Ahmet
+T-0041;301;16.09.2026 02:54;TV / elektronik;Kumanda çalışmıyor;Acil;Tamamlandı;16.09.2026 06:30;;Teknik - Volkan
+T-0042;113;17.09.2026 14:26;Klima;Klima sesli çalışıyor;Normal;Tamamlandı;18.09.2026 12:20;;Teknik - Serkan
+T-0043;210;17.09.2026 15:38;Boya / duvar;Tavanda nem izi;Normal;Tamamlandı;18.09.2026 12:01;;Teknik - Ahmet
+T-0044;110;17.09.2026 17:04;Elektrik;Banyo aydınlatması arızalı;Normal;Tamamlandı;18.09.2026 04:49;;Teknik - Serkan
+T-0045;310;17.09.2026 23:43;Klima;Klima soğutmuyor;Normal;Tamamlandı;18.09.2026 18:32;Evet;Teknik - Volkan
+T-0046;115;18.09.2026 13:33;Sıhhi tesisat;Klozet rezervuarı su kaçırıyor;Düşük;Tamamlandı;21.09.2026 00:10;;Teknik - Serkan
+T-0047;310;18.09.2026 17:02;Sıhhi tesisat;Lavabo gideri tıkalı;Acil;Tamamlandı;18.09.2026 19:04;;Teknik - Serkan
+T-0048;318;19.09.2026 14:36;Klima;Klima sesli çalışıyor;Düşük;Tamamlandı;21.09.2026 11:12;;Teknik - Serkan
+T-0049;107;19.09.2026 19:36;Boya / duvar;Duvarda leke;Acil;Tamamlandı;19.09.2026 21:34;Evet;Teknik - Serkan
+T-0050;307;20.09.2026 02:48;Elektrik;Banyo aydınlatması arızalı;Düşük;Tamamlandı;21.09.2026 11:46;;Teknik - Ahmet
+T-0051;207;20.09.2026 12:37;Kapı kilidi;Kilit pili zayıf;Acil;Tamamlandı;20.09.2026 14:59;;Teknik - Ahmet
+T-0052;215;21.09.2026 02:38;Klima;Klima soğutmuyor;Normal;Tamamlandı;21.09.2026 15:57;;Teknik - Ahmet
+T-0053;317;21.09.2026 04:37;Klima;Klima soğutmuyor;Düşük;Tamamlandı;23.09.2026 21:35;;Teknik - Ahmet
+T-0054;201;21.09.2026 17:25;Sıhhi tesisat;Duş basıncı düşük;Normal;Tamamlandı;22.09.2026 07:53;;Teknik - Serkan
+T-0055;109;21.09.2026 23:51;Kapı kilidi;Kartlı kilit kartı okumuyor;Acil;Tamamlandı;22.09.2026 02:42;;Teknik - Ahmet
+T-0056;202;22.09.2026 05:02;Klima;Klima su damlatıyor;Normal;Tamamlandı;22.09.2026 20:25;;Teknik - Serkan
+T-0057;214;22.09.2026 14:10;Klima;Klima su damlatıyor;Acil;Tamamlandı;22.09.2026 18:00;;Teknik - Serkan
+T-0058;101;22.09.2026 17:03;TV / elektronik;TV açılmıyor;Normal;Tamamlandı;23.09.2026 18:42;;Teknik - Ahmet
+T-0059;103;22.09.2026 21:26;Sıhhi tesisat;Klozet rezervuarı su kaçırıyor;Normal;Tamamlandı;23.09.2026 19:15;;Teknik - Ahmet
+T-0060;310;23.09.2026 00:53;Sıhhi tesisat;Lavabo gideri tıkalı;Normal;Tamamlandı;25.09.2026 01:32;Evet;Teknik - Ahmet
+T-0061;213;23.09.2026 01:11;Sıhhi tesisat;Duş basıncı düşük;Düşük;Tamamlandı;25.09.2026 10:02;;Teknik - Serkan
+T-0062;304;23.09.2026 12:10;Klima;Klima su damlatıyor;Normal;Tamamlandı;27.09.2026 09:07;;Teknik - Serkan
+T-0063;105;23.09.2026 15:40;Mobilya;Dolap kapağı menteşesi kopuk;Normal;Tamamlandı;24.09.2026 16:59;;Teknik - Volkan
+T-0064;304;23.09.2026 16:48;Elektrik;Başucu lambası yanmıyor;Normal;Tamamlandı;24.09.2026 11:43;;Teknik - Ahmet
+T-0065;206;23.09.2026 17:07;Mobilya;Sandalye ayağı sallanıyor;Normal;Tamamlandı;24.09.2026 18:00;;Teknik - Ahmet
+T-0066;210;23.09.2026 17:57;TV / elektronik;Kanal ayarı bozuk;Düşük;Tamamlandı;30.09.2026 02:56;;Teknik - Serkan
+T-0067;214;23.09.2026 23:51;Sıhhi tesisat;Duş basıncı düşük;Acil;Tamamlandı;24.09.2026 03:57;;Teknik - Ahmet
+T-0068;317;24.09.2026 00:30;Elektrik;Priz çalışmıyor;Normal;Tamamlandı;24.09.2026 14:53;;Teknik - Ahmet
+T-0069;309;24.09.2026 09:18;Boya / duvar;Tavanda nem izi;Normal;Tamamlandı;24.09.2026 20:28;;Teknik - Ahmet
+T-0070;304;24.09.2026 10:10;Sıhhi tesisat;Duş basıncı düşük;Düşük;Tamamlandı;25.09.2026 03:13;;Teknik - Volkan
+T-0071;210;24.09.2026 23:04;TV / elektronik;Kumanda çalışmıyor;Düşük;Tamamlandı;26.09.2026 11:52;;Teknik - Volkan
+T-0072;220;25.09.2026 06:08;Boya / duvar;Duvarda leke;Normal;Tamamlandı;25.09.2026 23:29;;Teknik - Ahmet
+T-0073;303;25.09.2026 13:14;Boya / duvar;Duvarda leke;Normal;Tamamlandı;25.09.2026 19:11;;Teknik - Serkan
+T-0074;113;25.09.2026 21:59;Klima;Klima sesli çalışıyor;Normal;Tamamlandı;26.09.2026 20:36;;Teknik - Serkan
+T-0075;105;26.09.2026 20:25;Sıhhi tesisat;Lavabo gideri tıkalı;Normal;Tamamlandı;27.09.2026 10:47;;Teknik - Volkan
+T-0076;204;27.09.2026 12:45;Elektrik;Priz çalışmıyor;Düşük;Tamamlandı;30.09.2026 01:22;;Teknik - Serkan
+T-0077;205;27.09.2026 18:09;Sıhhi tesisat;Klozet rezervuarı su kaçırıyor;Normal;Devam ediyor;;;Teknik - Volkan
+T-0078;118;28.09.2026 17:46;Kapı kilidi;Kartlı kilit kartı okumuyor;Acil;Tamamlandı;28.09.2026 20:37;;Teknik - Ahmet
+T-0079;316;28.09.2026 19:03;Boya / duvar;Tavanda nem izi;Normal;Tamamlandı;29.09.2026 17:54;;Teknik - Ahmet
+T-0080;109;29.09.2026 07:43;TV / elektronik;TV açılmıyor;Normal;Tamamlandı;30.09.2026 10:00;;Teknik - Serkan
+T-0081;315;29.09.2026 20:01;Sıhhi tesisat;Lavabo gideri tıkalı;Normal;Tamamlandı;30.09.2026 03:39;;Teknik - Volkan
+T-0082;112;30.09.2026 13:42;Boya / duvar;Duvarda leke;Normal;Tamamlandı;01.10.2026 11:37;;Teknik - Volkan
+T-0083;217;01.10.2026 00:20;Klima;Klima soğutmuyor;Düşük;Tamamlandı;02.10.2026 11:20;;Teknik - Ahmet
+T-0084;103;01.10.2026 01:12;Klima;Klima sesli çalışıyor;Normal;Tamamlandı;01.10.2026 21:23;Evet;Teknik - Ahmet
+T-0085;214;01.10.2026 21:40;Klima;Klima su damlatıyor;Normal;Tamamlandı;02.10.2026 16:57;;Teknik - Volkan
+T-0086;205;01.10.2026 22:17;Elektrik;Banyo aydınlatması arızalı;Normal;Tamamlandı;02.10.2026 12:06;;Teknik - Volkan
+T-0087;206;02.10.2026 20:39;TV / elektronik;Kumanda çalışmıyor;Normal;Tamamlandı;03.10.2026 03:21;;Teknik - Ahmet
+T-0088;306;03.10.2026 06:27;Sıhhi tesisat;Lavabo gideri tıkalı;Düşük;Tamamlandı;04.10.2026 04:39;;Teknik - Volkan
+T-0089;307;03.10.2026 08:30;Sıhhi tesisat;Lavabo gideri tıkalı;Normal;Tamamlandı;05.10.2026 11:50;;Teknik - Volkan
+T-0090;314;03.10.2026 12:35;Klima;Klima su damlatıyor;Acil;Tamamlandı;03.10.2026 16:55;;Teknik - Volkan
+T-0091;118;04.10.2026 08:18;Boya / duvar;Tavanda nem izi;Düşük;Tamamlandı;05.10.2026 10:19;;Teknik - Volkan
+T-0092;310;04.10.2026 08:22;Klima;Klima sesli çalışıyor;Normal;Tamamlandı;04.10.2026 13:47;;Teknik - Ahmet
+T-0093;117;04.10.2026 12:06;Elektrik;Priz çalışmıyor;Düşük;Tamamlandı;06.10.2026 07:29;;Teknik - Ahmet
+T-0094;214;04.10.2026 19:17;Boya / duvar;Duvarda leke;Düşük;Tamamlandı;07.10.2026 22:40;;Teknik - Ahmet
+T-0095;313;05.10.2026 03:25;Mobilya;Sandalye ayağı sallanıyor;Normal;Tamamlandı;06.10.2026 01:02;;Teknik - Ahmet
+T-0096;210;05.10.2026 03:43;Sıhhi tesisat;Lavabo gideri tıkalı;Acil;Tamamlandı;05.10.2026 07:50;;Teknik - Ahmet
+T-0097;209;05.10.2026 06:24;Klima;Klima soğutmuyor;Normal;Tamamlandı;05.10.2026 14:54;;Teknik - Ahmet
+T-0098;219;05.10.2026 07:00;Kapı kilidi;Kartlı kilit kartı okumuyor;Acil;Tamamlandı;05.10.2026 10:12;;Teknik - Ahmet
+T-0099;204;05.10.2026 12:40;Sıhhi tesisat;Lavabo gideri tıkalı;Normal;Tamamlandı;05.10.2026 23:40;;Teknik - Serkan
+T-0100;113;05.10.2026 13:02;Kapı kilidi;Kilit pili zayıf;Acil;Tamamlandı;05.10.2026 14:37;;Teknik - Volkan
+T-0101;205;05.10.2026 19:14;Elektrik;Priz çalışmıyor;Normal;Tamamlandı;06.10.2026 17:28;;Teknik - Serkan
+T-0102;219;06.10.2026 05:24;Elektrik;Priz çalışmıyor;Normal;Tamamlandı;07.10.2026 04:19;;Teknik - Ahmet
+T-0103;320;06.10.2026 05:27;Elektrik;Başucu lambası yanmıyor;Normal;Tamamlandı;06.10.2026 11:57;;Teknik - Ahmet
+T-0104;203;06.10.2026 12:44;Kapı kilidi;Kilit pili zayıf;Acil;Tamamlandı;06.10.2026 14:33;;Teknik - Serkan
+T-0105;210;07.10.2026 08:41;TV / elektronik;Kanal ayarı bozuk;Normal;Tamamlandı;07.10.2026 13:45;;Teknik - Serkan
+T-0106;218;08.10.2026 07:49;Mobilya;Sandalye ayağı sallanıyor;Düşük;Tamamlandı;09.10.2026 04:08;;Teknik - Volkan
+T-0107;207;08.10.2026 17:03;Klima;Klima soğutmuyor;Düşük;Tamamlandı;11.10.2026 23:36;;Teknik - Volkan
+T-0108;105;09.10.2026 03:44;Sıhhi tesisat;Duş basıncı düşük;Normal;Tamamlandı;09.10.2026 18:27;;Teknik - Ahmet
+T-0109;214;09.10.2026 11:05;Klima;Klima su damlatıyor;Normal;Tamamlandı;09.10.2026 19:35;;Teknik - Serkan
+T-0110;109;09.10.2026 19:25;Mobilya;Sandalye ayağı sallanıyor;Normal;Tamamlandı;13.10.2026 03:51;;Teknik - Volkan
+T-0111;114;10.10.2026 17:47;TV / elektronik;TV açılmıyor;Normal;Tamamlandı;11.10.2026 03:31;;Teknik - Serkan
+T-0112;302;10.10.2026 20:34;Boya / duvar;Duvarda leke;Normal;Tamamlandı;11.10.2026 15:09;;Teknik - Volkan
+T-0113;302;11.10.2026 09:34;Kapı kilidi;Kilit pili zayıf;Acil;Açık;;;Teknik - Serkan
+T-0114;118;11.10.2026 11:28;Klima;Klima sesli çalışıyor;Acil;Tamamlandı;11.10.2026 14:19;;Teknik - Serkan
+T-0115;215;11.10.2026 13:14;Elektrik;Priz çalışmıyor;Acil;Tamamlandı;11.10.2026 16:53;;Teknik - Serkan
+T-0116;104;11.10.2026 22:28;Boya / duvar;Duvarda leke;Acil;Tamamlandı;12.10.2026 01:45;Evet;Teknik - Serkan
+T-0117;316;12.10.2026 00:15;Klima;Klima soğutmuyor;Acil;Tamamlandı;12.10.2026 02:16;;Teknik - Volkan
+T-0118;110;12.10.2026 02:39;TV / elektronik;Kanal ayarı bozuk;Normal;Tamamlandı;12.10.2026 18:35;;Teknik - Volkan
+T-0119;312;12.10.2026 09:49;TV / elektronik;Kanal ayarı bozuk;Normal;Tamamlandı;13.10.2026 11:34;;Teknik - Serkan
+T-0120;307;12.10.2026 19:15;Sıhhi tesisat;Lavabo gideri tıkalı;Normal;Tamamlandı;13.10.2026 09:30;;Teknik - Serkan
+T-0121;109;14.10.2026 04:38;Boya / duvar;Duvarda leke;Normal;Tamamlandı;14.10.2026 10:41;;Teknik - Volkan
+T-0122;307;14.10.2026 07:50;Sıhhi tesisat;Lavabo gideri tıkalı;Düşük;Parça bekliyor;;;Teknik - Serkan
+T-0123;108;15.10.2026 04:26;Kapı kilidi;Kilit pili zayıf;Acil;Tamamlandı;15.10.2026 07:29;;Teknik - Ahmet
+T-0124;205;15.10.2026 05:34;Elektrik;Priz çalışmıyor;Normal;Parça bekliyor;;;Teknik - Ahmet

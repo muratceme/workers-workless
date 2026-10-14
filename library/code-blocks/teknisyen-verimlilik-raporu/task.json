@@ -1,0 +1,12 @@
+{
+  "id": "teknisyen-verimlilik-raporu",
+  "tur": "kod",
+  "ad": "Teknisyen Verimlilik Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --is-emirleri is_emirleri.xlsx --puantaj puantaj.xlsx",
+  "girdiler": ["İş emri satırları (.xlsx/.csv): İş Emri No, Tarih, Teknisyen, İş Türü (Müşteri / Garanti / İç), Satılan Saat, Çalışılan Saat", "Puantaj (.xlsx/.csv, isteğe bağlı): Teknisyen, Tarih, Mevcut Saat"],
+  "ciktilar": ["Excel: Teknisyen (satılan, çalışılan, mevcut, boş saat; verimlilik, kullanım, üretkenlik % ve atölye toplamı), İş Türü, Uyarılar"],
+  "internet": false
+}

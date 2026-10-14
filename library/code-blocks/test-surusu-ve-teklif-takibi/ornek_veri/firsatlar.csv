@@ -1,0 +1,161 @@
+Kayıt No;Müşteri;Telefon;Danışman;Model;İlk Temas Tarihi;Test Sürüşü Tarihi;Teklif Tarihi;Teklif Tutarı;Son Temas Tarihi;Planlanan Arama;Durum;Kayıp Nedeni;Takas;Kredi;Satış Tarihi
+F-1001;Selim Öztürk;0555 226 48 27;Danışman C;Kompakt SUV;26.08.2026;;;;29.08.2026;01.09.2026;Açık;;Evet;Evet;
+F-1002;Kerem Arslan;0532 879 27 48;Danışman C;Kompakt SUV;03.10.2026;08.10.2026;;;14.10.2026;;Açık;;Evet;Evet;
+F-1003;Esra Arslan;0553 117 84 62;Danışman C;Kompakt SUV;10.10.2026;;;;13.10.2026;20.10.2026;Açık;;;;
+F-1004;Ali Aydın;0555 985 32 84;Danışman C;Kompakt SUV;07.08.2026;;09.08.2026;2176263;20.08.2026;;Kayıp;Kredi onaylanmadı;Evet;Evet;
+F-1005;Merve Öztürk;0542 226 71 53;Danışman D;Orta SUV;25.09.2026;26.09.2026;01.10.2026;2865436;09.10.2026;18.10.2026;Açık;;;;
+F-1006;Can Doğan;0553 953 84 53;Danışman A;Kompakt SUV;10.08.2026;;;;20.08.2026;;Açık;;Evet;;
+F-1007;Büşra Çelik;0555 459 93 38;Danışman C;Sedan;12.08.2026;16.08.2026;18.08.2026;1669114;19.08.2026;;Kayıp;Fiyat / indirim;;;
+F-1008;Burak Çelik;0555 284 16 82;Danışman A;Sedan;10.08.2026;;;;12.08.2026;;Satış;;;;12.08.2026
+F-1009;Ali Koç;0553 209 79 80;Danışman D;Orta SUV;29.09.2026;;04.10.2026;2891559;11.10.2026;20.10.2026;Açık;;Evet;;
+F-1010;Ayşe Yıldız;0532 582 49 27;Danışman A;Kompakt SUV;28.09.2026;;;;14.10.2026;;Satış;;;Evet;14.10.2026
+F-1011;Hasan Öztürk;0532 760 74 84;Danışman D;Sedan;13.08.2026;;;;17.08.2026;;Kayıp;Alımı erteledi;Evet;;
+F-1012;Seda Doğan;0532 693 65 13;Danışman C;Hafif Ticari;04.08.2026;09.08.2026;13.08.2026;1271540;31.08.2026;;Satış;;;;31.08.2026
+F-1013;Ahmet Öztürk;0532 526 79 68;Danışman B;Kompakt SUV;21.09.2026;;;;30.09.2026;;Kayıp;Fiyat / indirim;Evet;;
+F-1014;Selim Arslan;0532 471 53 64;Danışman C;Sedan;31.07.2026;05.08.2026;10.08.2026;1785423;12.08.2026;;Satış;;;;12.08.2026
+F-1015;Derya Kılıç;0542 957 98 64;Danışman D;Sedan;23.09.2026;;;;01.10.2026;09.10.2026;Açık;;;;
+F-1016;Burak Demir;0553 494 79 42;Danışman D;Sedan;03.09.2026;06.09.2026;11.09.2026;1717695;24.09.2026;;Satış;;Evet;;24.09.2026
+F-1017;Selim Aslan;0555 917 94 68;Danışman D;Kompakt SUV;05.09.2026;06.09.2026;09.09.2026;2211316;19.09.2026;;Satış;;;Evet;19.09.2026
+F-1018;Hasan Aydın;0542 298 47 47;Danışman C;Hafif Ticari;01.10.2026;03.10.2026;08.10.2026;1351862;14.10.2026;;Kayıp;Alımı erteledi;;;
+F-1019;Mehmet Çelik;0553 227 24 28;Danışman D;Hafif Ticari;01.09.2026;01.09.2026;06.09.2026;1302437;15.09.2026;;Kayıp;Fiyat / indirim;;;
+F-1020;Hasan Çelik;0532 650 75 29;Danışman D;Sedan;09.10.2026;10.10.2026;14.10.2026;1714409;14.10.2026;;Açık;;Evet;Evet;
+F-1021;Zeynep Şahin;0553 495 76 17;Danışman A;Kompakt SUV;24.09.2026;24.09.2026;28.09.2026;2162071;03.10.2026;;Satış;;Evet;Evet;03.10.2026
+F-1022;Büşra Aydın;0532 174 21 71;Danışman C;Kompakt SUV;20.09.2026;;;;05.10.2026;;Kayıp;Fiyat / indirim;Evet;Evet;
+F-1023;Ali Öztürk;0542 358 96 73;Danışman D;Kompakt SUV;04.08.2026;;;;13.08.2026;22.08.2026;Açık;;Evet;Evet;
+F-1024;Kerem Doğan;0555 831 25 48;Danışman B;Sedan;19.09.2026;20.09.2026;23.09.2026;1707823;10.10.2026;;Satış;;;Evet;10.10.2026
+F-1025;Emre Öztürk;0532 848 44 38;Danışman D;Kompakt HB;21.08.2026;24.08.2026;24.08.2026;1364092;07.09.2026;;Satış;;;;07.09.2026
+F-1026;Elif Kurt;0532 435 97 86;Danışman D;Kompakt HB;20.08.2026;20.08.2026;21.08.2026;1382117;30.08.2026;;Satış;;;Evet;30.08.2026
+F-1027;Can Yıldız;0553 689 86 66;Danışman B;Orta SUV;24.08.2026;;24.08.2026;2907427;02.09.2026;;Satış;;;;02.09.2026
+F-1028;Fatma Koç;0555 693 44 78;Danışman C;Orta SUV;14.09.2026;;;;15.09.2026;21.09.2026;Açık;;;Evet;
+F-1029;Burak Öztürk;0532 261 50 34;Danışman B;Kompakt SUV;21.08.2026;23.08.2026;25.08.2026;2079481;11.09.2026;;Satış;;;;11.09.2026
+F-1030;Fatma Kılıç;0555 124 30 75;Danışman D;Kompakt SUV;02.08.2026;05.08.2026;09.08.2026;2115848;18.08.2026;;Satış;;;;18.08.2026
+F-1031;Zeynep Öztürk;0555 717 47 14;Danışman A;Kompakt HB;01.10.2026;;04.10.2026;1409710;06.10.2026;;Satış;;;Evet;06.10.2026
+F-1032;Elif Kılıç;0532 289 58 67;Danışman C;Orta SUV;04.10.2026;;;;06.10.2026;14.10.2026;Açık;;Evet;Evet;
+F-1033;Fatma Arslan;0553 551 34 65;Danışman B;Kompakt SUV;20.09.2026;;;;02.10.2026;10.10.2026;Açık;;;Evet;
+F-1034;Gizem Çelik;0542 969 98 55;Danışman C;Hafif Ticari;08.10.2026;;;;14.10.2026;;Açık;;Evet;;
+F-1035;Emre Demir;0542 822 39 77;Danışman A;Sedan;10.09.2026;10.09.2026;;;13.09.2026;23.09.2026;Açık;;Evet;;
+F-1036;Selim Yılmaz;0532 421 72 96;Danışman A;Sedan;18.09.2026;;;;23.09.2026;;Kayıp;Teslim süresi uzun;;Evet;
+F-1037;Emre Kaya;0553 291 54 90;Danışman A;Kompakt SUV;19.08.2026;20.08.2026;;;07.09.2026;;Satış;;;;07.09.2026
+F-1038;Selim Aydın;0555 279 38 64;Danışman A;Kompakt HB;21.09.2026;25.09.2026;25.09.2026;1422247;30.09.2026;;Satış;;Evet;Evet;30.09.2026
+F-1039;Elif Koç;0532 635 58 52;Danışman B;Orta SUV;03.08.2026;;;;18.08.2026;;Kayıp;;;Evet;
+F-1040;Esra Çelik;0532 321 89 72;Danışman A;Kompakt HB;19.08.2026;19.08.2026;;;21.08.2026;30.08.2026;Açık;;Evet;Evet;
+F-1041;Elif Şahin;0553 817 97 94;Danışman C;Sedan;25.09.2026;28.09.2026;29.09.2026;1795457;03.10.2026;;Satış;;;Evet;03.10.2026
+F-1042;Mehmet Aslan;0555 248 40 12;Danışman B;Kompakt SUV;23.09.2026;;25.09.2026;2150137;02.10.2026;;Kayıp;Fiyat / indirim;Evet;;
+F-1043;Kerem Demir;0553 612 30 14;Danışman A;Kompakt SUV;09.08.2026;12.08.2026;16.08.2026;2089636;22.08.2026;;Satış;;;;22.08.2026
+F-1044;Seda Kaya;0555 613 54 96;Danışman D;Hafif Ticari;01.08.2026;03.08.2026;08.08.2026;1298673;10.08.2026;20.08.2026;Açık;;;;
+F-1045;Büşra Kaya;0542 896 62 24;Danışman C;Hafif Ticari;18.09.2026;18.09.2026;18.09.2026;1291900;05.10.2026;;Satış;;;;05.10.2026
+F-1046;Derya Öztürk;0555 973 33 59;Danışman B;Orta SUV;06.10.2026;09.10.2026;12.10.2026;2886152;14.10.2026;;Açık;;;Evet;
+F-1047;Can Kaya;0532 221 76 61;Danışman B;Kompakt SUV;10.08.2026;;;;17.08.2026;;Açık;;Evet;;
+F-1048;Ali Yılmaz;0542 270 60 19;Danışman D;Hafif Ticari;16.08.2026;21.08.2026;21.08.2026;1378183;22.08.2026;;Kayıp;;;;
+F-1049;Mehmet Arslan;0555 972 80 69;Danışman A;Orta SUV;30.09.2026;01.10.2026;04.10.2026;2861759;14.10.2026;;Satış;;;;14.10.2026
+F-1050;Zeynep Doğan;0532 131 20 34;Danışman C;Kompakt HB;23.09.2026;;;;02.10.2026;;Satış;;;;02.10.2026
+F-1051;Ali Koç;0553 970 58 25;Danışman C;Hafif Ticari;06.09.2026;;;;16.09.2026;;Kayıp;Rakip markadan aldı;;;
+F-1052;Elif Yılmaz;0532 590 47 39;Danışman D;Orta SUV;09.08.2026;11.08.2026;11.08.2026;2940709;16.08.2026;;Kayıp;Takas değeri düşük bulundu;Evet;Evet;
+F-1053;Elif Çelik;0553 729 19 31;Danışman A;Orta SUV;23.08.2026;28.08.2026;02.09.2026;2940364;05.09.2026;;Kayıp;Fiyat / indirim;Evet;;
+F-1054;Emre Çelik;0555 686 78 36;Danışman C;Hafif Ticari;08.09.2026;09.09.2026;;;18.09.2026;;Kayıp;Rakip markadan aldı;;;
+F-1055;Selim Aydın;0553 831 17 98;Danışman B;Kompakt HB;21.08.2026;27.08.2026;31.08.2026;1376629;14.09.2026;;Kayıp;Fiyat / indirim;Evet;;
+F-1056;Zeynep Doğan;0532 897 78 56;Danışman B;Kompakt HB;05.10.2026;;;;14.10.2026;18.10.2026;Açık;;;Evet;
+F-1057;Kerem Doğan;0555 934 84 87;Danışman B;Kompakt HB;03.08.2026;;05.08.2026;1392720;10.08.2026;;Satış;;;Evet;10.08.2026
+F-1058;Gizem Çelik;0542 676 75 40;Danışman C;Sedan;16.09.2026;22.09.2026;24.09.2026;1806244;03.10.2026;;Satış;;;Evet;03.10.2026
+F-1059;Kerem Yıldız;0542 266 39 26;Danışman C;Sedan;08.10.2026;08.10.2026;13.10.2026;1733791;14.10.2026;18.10.2026;Açık;;;Evet;
+F-1060;Elif Öztürk;0542 106 44 68;Danışman A;Sedan;08.08.2026;;;;16.08.2026;;Kayıp;Rakip markadan aldı;;;
+F-1061;Hasan Kaya;0553 339 43 62;Danışman A;Kompakt HB;27.08.2026;27.08.2026;;;28.08.2026;03.09.2026;Açık;;;;
+F-1062;Derya Öztürk;0555 669 11 86;Danışman C;Hafif Ticari;15.09.2026;15.09.2026;17.09.2026;1317059;26.09.2026;;Satış;;Evet;;26.09.2026
+F-1063;Ali Aydın;0555 361 39 56;Danışman A;Sedan;10.08.2026;15.08.2026;18.08.2026;1816308;30.08.2026;;Satış;;;;30.08.2026
+F-1064;Mehmet Aslan;0553 511 68 64;Danışman B;Kompakt SUV;26.08.2026;;;;01.09.2026;03.09.2026;Açık;;;;
+F-1065;Elif Kılıç;0555 293 76 92;Danışman B;Orta SUV;17.09.2026;;;;28.09.2026;;Kayıp;Rakip markadan aldı;Evet;Evet;
+F-1066;Kerem Kurt;0553 273 62 46;Danışman A;Hafif Ticari;13.10.2026;;;;13.10.2026;23.10.2026;Açık;;;;
+F-1067;Elif Doğan;0532 561 83 46;Danışman B;Sedan;17.09.2026;;;;22.09.2026;;Kayıp;Alımı erteledi;;;
+F-1068;Büşra Yıldız;0555 524 40 92;Danışman A;Hafif Ticari;23.08.2026;;;;26.08.2026;03.09.2026;Açık;;Evet;;
+F-1069;Esra Şahin;0555 753 73 42;Danışman D;Kompakt HB;12.10.2026;;;;14.10.2026;18.10.2026;Açık;;Evet;;
+F-1070;Büşra Çelik;0553 444 35 56;Danışman D;Hafif Ticari;05.10.2026;;;;06.10.2026;15.10.2026;Açık;;Evet;;
+F-1071;Ahmet Çelik;0555 168 76 52;Danışman C;Hafif Ticari;11.09.2026;;;;21.09.2026;;Açık;;Evet;Evet;
+F-1072;Hasan Arslan;0553 747 80 13;Danışman B;Kompakt SUV;06.09.2026;;;;07.09.2026;;Kayıp;Takas değeri düşük bulundu;Evet;;
+F-1073;Derya Yıldız;0553 141 66 82;Danışman B;Orta SUV;11.08.2026;;11.08.2026;2909688;16.08.2026;;Kayıp;;;Evet;
+F-1074;Hasan Yılmaz;0553 995 39 54;Danışman B;Sedan;06.09.2026;07.09.2026;07.09.2026;1752154;22.09.2026;;Satış;;Evet;;22.09.2026
+F-1075;Burak Doğan;0542 162 90 36;Danışman B;Kompakt SUV;03.10.2026;07.10.2026;09.10.2026;2162344;14.10.2026;;Satış;;;;14.10.2026
+F-1076;Ali Çelik;0555 426 99 72;Danışman B;Hafif Ticari;07.08.2026;10.08.2026;10.08.2026;1261032;18.08.2026;;Satış;;Evet;;18.08.2026
+F-1077;Onur Kurt;0532 623 76 79;Danışman D;Kompakt SUV;22.09.2026;28.09.2026;02.10.2026;2193085;10.10.2026;15.10.2026;Açık;;;;
+F-1078;Ali Doğan;0553 448 99 64;Danışman D;Hafif Ticari;17.09.2026;23.09.2026;27.09.2026;1393140;11.10.2026;;Satış;;;;11.10.2026
+F-1079;Ahmet Öztürk;0532 843 74 83;Danışman D;Hafif Ticari;05.08.2026;11.08.2026;13.08.2026;1312983;19.08.2026;;Kayıp;Teslim süresi uzun;;Evet;
+F-1080;Ahmet Yıldız;0553 952 93 24;Danışman A;Kompakt HB;14.09.2026;;;;28.09.2026;;Kayıp;Kredi onaylanmadı;Evet;;
+F-1081;Selim Doğan;0532 988 85 22;Danışman D;Orta SUV;08.10.2026;;;;08.10.2026;15.10.2026;Açık;;Evet;Evet;
+F-1082;Ahmet Doğan;0532 944 82 14;Danışman B;Sedan;08.09.2026;12.09.2026;;;26.09.2026;;Kayıp;Fiyat / indirim;;Evet;
+F-1083;Onur Yılmaz;0553 240 58 92;Danışman C;Kompakt HB;09.10.2026;09.10.2026;13.10.2026;1443992;14.10.2026;;Açık;;;;
+F-1084;Ahmet Demir;0532 866 21 42;Danışman C;Sedan;08.08.2026;;08.08.2026;1704401;18.08.2026;;Açık;;;;
+F-1085;Selim Yıldız;0553 245 31 81;Danışman C;Kompakt HB;16.08.2026;19.08.2026;21.08.2026;1431580;02.09.2026;;Satış;;;;02.09.2026
+F-1086;Mehmet Yılmaz;0553 347 96 68;Danışman A;Hafif Ticari;08.09.2026;;13.09.2026;1297114;26.09.2026;;Kayıp;Fiyat / indirim;;;
+F-1087;Esra Doğan;0532 969 16 27;Danışman A;Kompakt HB;02.10.2026;;;;05.10.2026;;Kayıp;Teslim süresi uzun;Evet;;
+F-1088;Derya Doğan;0542 505 22 49;Danışman B;Kompakt HB;06.09.2026;;;;10.09.2026;17.09.2026;Açık;;Evet;;
+F-1089;Emre Doğan;0532 581 60 58;Danışman C;Hafif Ticari;01.10.2026;02.10.2026;05.10.2026;1395601;08.10.2026;;Kayıp;Teslim süresi uzun;;;
+F-1090;Derya Arslan;0532 436 44 94;Danışman C;Kompakt HB;20.09.2026;20.09.2026;22.09.2026;1405986;25.09.2026;;Satış;;;;25.09.2026
+F-1091;Derya Çelik;0542 747 73 18;Danışman B;Kompakt SUV;12.09.2026;17.09.2026;19.09.2026;2002523;27.09.2026;;Satış;;Evet;;27.09.2026
+F-1092;Hasan Arslan;0532 548 41 94;Danışman A;Sedan;05.08.2026;08.08.2026;10.08.2026;1674562;23.08.2026;;Satış;;Evet;;23.08.2026
+F-1093;Emre Aydın;0553 914 46 70;Danışman C;Kompakt SUV;02.10.2026;;;;14.10.2026;;Kayıp;Fiyat / indirim;;Evet;
+F-1094;Büşra Öztürk;0542 880 88 50;Danışman A;Hafif Ticari;24.08.2026;27.08.2026;31.08.2026;1392602;05.09.2026;;Satış;;;Evet;05.09.2026
+F-1095;Ahmet Arslan;0542 976 85 26;Danışman D;Kompakt HB;25.09.2026;;;;27.09.2026;;Açık;;;;
+F-1096;Merve Koç;0553 663 33 35;Danışman D;Kompakt SUV;16.09.2026;;19.09.2026;2153815;25.09.2026;26.09.2026;Açık;;Evet;;
+F-1097;Merve Şahin;0532 491 80 61;Danışman B;Sedan;30.09.2026;30.09.2026;;;14.10.2026;;Satış;;;;14.10.2026
+F-1098;Merve Demir;0553 595 21 32;Danışman D;Kompakt SUV;01.10.2026;02.10.2026;;;11.10.2026;;Kayıp;Alımı erteledi;;;
+F-1099;Seda Şahin;0555 724 71 77;Danışman C;Kompakt HB;23.09.2026;27.09.2026;30.09.2026;1446897;05.10.2026;;Satış;;;Evet;05.10.2026
+F-1100;Derya Doğan;0555 165 59 70;Danışman A;Sedan;13.10.2026;;;;14.10.2026;19.10.2026;Açık;;;;
+F-1101;Büşra Aydın;0532 595 94 29;Danışman B;Kompakt SUV;13.10.2026;;;;14.10.2026;19.10.2026;Açık;;Evet;Evet;
+F-1102;Esra Şahin;0542 247 33 14;Danışman D;Hafif Ticari;13.08.2026;;;;17.08.2026;;Açık;;Evet;Evet;
+F-1103;Ayşe Aydın;0553 241 27 27;Danışman C;Kompakt HB;10.08.2026;13.08.2026;15.08.2026;1338452;19.08.2026;;Açık;;Evet;;
+F-1104;Elif Yıldız;0532 893 19 86;Danışman B;Kompakt HB;23.09.2026;;;;29.09.2026;;Açık;;Evet;;
+F-1105;Ayşe Yılmaz;0555 154 39 53;Danışman C;Hafif Ticari;05.08.2026;09.08.2026;11.08.2026;1267259;22.08.2026;;Açık;;Evet;;
+F-1106;Merve Koç;0555 446 19 65;Danışman C;Sedan;23.09.2026;27.09.2026;;;30.09.2026;;Açık;;;Evet;
+F-1107;Emre Öztürk;0542 790 49 62;Danışman D;Kompakt SUV;04.10.2026;05.10.2026;07.10.2026;2055815;14.10.2026;24.10.2026;Açık;;;;
+F-1108;Merve Şahin;0542 328 87 10;Danışman C;Kompakt HB;07.09.2026;07.09.2026;10.09.2026;1445620;29.09.2026;;Satış;;;;29.09.2026
+F-1109;Zeynep Doğan;0532 275 90 66;Danışman A;Sedan;05.09.2026;07.09.2026;07.09.2026;1709212;20.09.2026;;Kayıp;Rakip markadan aldı;;;
+F-1110;Burak Kaya;0532 870 30 64;Danışman B;Orta SUV;26.08.2026;;;;28.08.2026;;Kayıp;Fiyat / indirim;Evet;Evet;
+F-1111;Mehmet Öztürk;0532 190 35 62;Danışman B;Sedan;08.10.2026;;11.10.2026;1835139;12.10.2026;;Açık;;;;
+F-1112;Merve Koç;0542 166 22 67;Danışman A;Kompakt SUV;13.10.2026;14.10.2026;;;14.10.2026;18.10.2026;Açık;;Evet;;
+F-1113;Merve Kılıç;0542 633 31 86;Danışman C;Hafif Ticari;14.08.2026;16.08.2026;;;26.08.2026;04.09.2026;Açık;;Evet;Evet;
+F-1114;Mehmet Kurt;0532 430 61 20;Danışman B;Kompakt SUV;15.09.2026;15.09.2026;18.09.2026;2164743;25.09.2026;;Satış;;;;25.09.2026
+F-1115;Fatma Şahin;0555 176 71 64;Danışman D;Orta SUV;07.10.2026;08.10.2026;11.10.2026;2765955;13.10.2026;;Açık;;;;
+F-1116;Zeynep Şahin;0532 818 78 73;Danışman A;Sedan;08.08.2026;;09.08.2026;1660900;09.08.2026;16.08.2026;Açık;;;Evet;
+F-1117;Zeynep Yıldız;0553 756 66 59;Danışman C;Orta SUV;03.10.2026;;03.10.2026;2719468;09.10.2026;;Açık;;;;
+F-1118;Onur Aslan;0542 542 89 73;Danışman A;Sedan;12.08.2026;;14.08.2026;1810895;23.08.2026;26.08.2026;Açık;;;Evet;
+F-1119;Kerem Yıldız;0532 437 94 70;Danışman B;Sedan;01.08.2026;;02.08.2026;1677021;05.08.2026;;Açık;;Evet;;
+F-1120;Esra Doğan;0555 619 98 39;Danışman D;Sedan;15.09.2026;;19.09.2026;1781621;28.09.2026;;Açık;;Evet;Evet;
+F-1121;Onur Doğan;0532 823 47 55;Danışman A;Sedan;03.09.2026;;;;06.09.2026;;Kayıp;Alımı erteledi;Evet;;
+F-1122;Kerem Çelik;0542 230 41 16;Danışman A;Sedan;15.08.2026;;;;21.08.2026;;Satış;;Evet;;21.08.2026
+F-1123;Ahmet Kurt;0555 332 62 39;Danışman C;Sedan;10.08.2026;;;;21.08.2026;;Kayıp;Fiyat / indirim;;Evet;
+F-1124;Emre Öztürk;0553 272 87 10;Danışman A;Hafif Ticari;10.09.2026;11.09.2026;;;11.09.2026;18.09.2026;Açık;;Evet;;
+F-1125;Derya Demir;0555 433 37 26;Danışman D;Kompakt HB;13.08.2026;13.08.2026;17.08.2026;1359872;31.08.2026;;Kayıp;Fiyat / indirim;;;
+F-1126;Onur Öztürk;0553 946 17 10;Danışman A;Kompakt HB;27.08.2026;;31.08.2026;1313987;02.09.2026;;Satış;;;;02.09.2026
+F-1127;Hasan Kaya;0555 261 40 90;Danışman C;Kompakt HB;27.08.2026;;;;29.08.2026;;Kayıp;Rakip markadan aldı;Evet;Evet;
+F-1128;Esra Kaya;0532 330 16 20;Danışman A;Kompakt SUV;12.08.2026;17.08.2026;17.08.2026;2006042;30.08.2026;;Satış;;;Evet;30.08.2026
+F-1129;Esra Öztürk;0542 278 63 27;Danışman A;Hafif Ticari;01.09.2026;;;;12.09.2026;17.09.2026;Açık;;;;
+F-1130;Burak Doğan;0555 633 84 45;Danışman C;Kompakt HB;20.09.2026;25.09.2026;27.09.2026;1452783;05.10.2026;07.10.2026;Açık;;;Evet;
+F-1131;Zeynep Şahin;0553 148 25 77;Danışman B;Hafif Ticari;23.09.2026;;23.09.2026;1397120;01.10.2026;;Satış;;;Evet;01.10.2026
+F-1132;Zeynep Yıldız;0555 661 28 37;Danışman B;Sedan;14.10.2026;;;;14.10.2026;23.10.2026;Açık;;;;
+F-1133;Emre Demir;0542 591 27 60;Danışman A;Orta SUV;05.09.2026;08.09.2026;09.09.2026;2828567;25.09.2026;;Satış;;;;25.09.2026
+F-1134;Ayşe Aydın;0555 713 24 88;Danışman D;Kompakt HB;02.10.2026;;;;05.10.2026;15.10.2026;Açık;;Evet;Evet;
+F-1135;Elif Yılmaz;0553 510 93 53;Danışman D;Kompakt HB;25.09.2026;;30.09.2026;1442715;07.10.2026;14.10.2026;Açık;;;;
+F-1136;Can Kurt;0542 902 17 82;Danışman A;Kompakt SUV;22.08.2026;;;;25.08.2026;;Açık;;;Evet;
+F-1137;Mehmet Aydın;0555 558 36 91;Danışman A;Hafif Ticari;30.08.2026;03.09.2026;03.09.2026;1383622;07.09.2026;;Satış;;;Evet;07.09.2026
+F-1138;Fatma Kaya;0532 872 92 20;Danışman D;Kompakt SUV;29.09.2026;;29.09.2026;2122710;03.10.2026;;Satış;;;Evet;03.10.2026
+F-1139;Derya Aydın;0532 849 65 45;Danışman B;Orta SUV;25.09.2026;25.09.2026;25.09.2026;2853528;06.10.2026;;Satış;;Evet;;06.10.2026
+F-1140;Onur Demir;0542 827 31 73;Danışman C;Orta SUV;31.07.2026;06.08.2026;09.08.2026;2853388;24.08.2026;;Kayıp;Alımı erteledi;Evet;;
+F-1141;Hasan Aydın;0542 884 90 58;Danışman B;Orta SUV;23.08.2026;29.08.2026;03.09.2026;2669365;16.09.2026;;Satış;;;Evet;16.09.2026
+F-1142;Zeynep Yıldız;0542 408 24 23;Danışman C;Sedan;24.09.2026;25.09.2026;;;29.09.2026;;Açık;;;Evet;
+F-1143;Esra Kurt;0532 572 69 39;Danışman C;Orta SUV;14.09.2026;20.09.2026;23.09.2026;2750133;04.10.2026;;Kayıp;Kredi onaylanmadı;Evet;Evet;
+F-1144;Mehmet Aslan;0542 770 47 28;Danışman A;Kompakt HB;12.10.2026;;;;14.10.2026;18.10.2026;Açık;;;Evet;
+F-1145;Zeynep Yılmaz;0542 840 25 94;Danışman C;Kompakt SUV;21.08.2026;;;;24.08.2026;;Kayıp;Rakip markadan aldı;;Evet;
+F-1146;Hasan Aydın;0532 871 94 67;Danışman C;Kompakt SUV;17.09.2026;20.09.2026;24.09.2026;2012695;05.10.2026;;Kayıp;Kredi onaylanmadı;;;
+F-1147;Zeynep Koç;0555 764 10 31;Danışman C;Hafif Ticari;25.08.2026;;;;09.09.2026;;Kayıp;Fiyat / indirim;;;
+F-1148;Gizem Yılmaz;0555 812 21 95;Danışman B;Hafif Ticari;25.09.2026;28.09.2026;03.10.2026;1275663;08.10.2026;;Satış;;;Evet;08.10.2026
+F-1149;Merve Çelik;0553 222 58 25;Danışman D;Hafif Ticari;02.08.2026;07.08.2026;12.08.2026;1347743;19.08.2026;;Kayıp;;;Evet;
+F-1150;Esra Çelik;0542 291 74 72;Danışman B;Orta SUV;04.08.2026;10.08.2026;15.08.2026;2820019;18.08.2026;;Kayıp;Fiyat / indirim;;;
+F-1151;Ali Çelik;0542 245 92 43;Danışman C;Hafif Ticari;15.09.2026;;20.09.2026;1351023;05.10.2026;;Kayıp;;;Evet;
+F-1152;Emre Doğan;0542 438 40 24;Danışman B;Sedan;03.10.2026;03.10.2026;05.10.2026;1693089;11.10.2026;;Satış;;;;11.10.2026
+F-1153;Selim Doğan;0555 346 57 87;Danışman A;Sedan;16.08.2026;;;;21.08.2026;;Açık;;;;
+F-1154;Fatma Yılmaz;0555 385 26 23;Danışman A;Sedan;19.08.2026;25.08.2026;27.08.2026;1684836;04.09.2026;;Satış;;;;04.09.2026
+F-1155;Seda Kılıç;0542 504 23 31;Danışman A;Kompakt HB;02.09.2026;;;;19.09.2026;;Satış;;;Evet;19.09.2026
+F-1156;Hasan Arslan;0542 498 12 71;Danışman A;Kompakt SUV;05.10.2026;;;;07.10.2026;;Açık;;;Evet;
+F-1157;Derya Şahin;0542 379 94 60;Danışman C;Kompakt SUV;11.09.2026;;;;27.09.2026;;Satış;;;;27.09.2026
+F-1158;Seda Demir;0542 208 10 44;Danışman A;Hafif Ticari;02.10.2026;07.10.2026;;;14.10.2026;;Satış;;Evet;Evet;14.10.2026
+F-1159;Elif Koç;0532 766 56 11;Danışman D;Kompakt HB;20.09.2026;;20.09.2026;1432585;02.10.2026;;Kayıp;Rakip markadan aldı;;Evet;
+F-1160;Selim Koç;0542 855 24 54;Danışman B;Kompakt SUV;15.09.2026;20.09.2026;25.09.2026;2168544;07.10.2026;;Satış;;;;07.10.2026

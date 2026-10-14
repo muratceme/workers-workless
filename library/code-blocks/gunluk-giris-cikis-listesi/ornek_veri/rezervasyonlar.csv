@@ -1,0 +1,26 @@
+Rezervasyon No;Misafir;Giriş Tarihi;Çıkış Tarihi;Oda No;Oda Tipi;Yetişkin;Çocuk;Kanal;Pansiyon;Özel İstek;Durum;Toplam Tutar;Ödenen;Ödeme Şekli
+R-7101;Ayşe Kaya;15.10.2026;18.10.2026;204;Standart;2;0;Web sitesi;Oda Kahvaltı;Yüksek kat, sessiz oda;Kesin;9.600,00;9.600,00;Kredi kartı
+R-7102;Mehmet Demir;15.10.2026;17.10.2026;311;Deluxe;2;1;OTA A;Oda Kahvaltı;Bebek yatağı;Kesin;8.400,00;0;Otelde ödeme
+R-7103;Elif Şahin;15.10.2026;16.10.2026;;Standart;1;0;OTA B;Oda Kahvaltı;;Kesin;3.100,00;0;Otelde ödeme
+R-7104;John Smith;15.10.2026;20.10.2026;502;Suit;2;0;Tur operatörü;Yarım Pansiyon;Havalimanı transferi 14:00;Kesin;27.500,00;0;Acente faturası
+R-7105;Can Yıldız;15.10.2026;17.10.2026;108;Standart;2;0;Telefon;Oda Kahvaltı;Erken giriş (11:00);Opsiyon;6.200,00;0;Otelde ödeme
+R-7106;Zeynep Arslan;15.10.2026;19.10.2026;207;Standart;1;0;Kurumsal;Oda Kahvaltı;Fatura şirkete;Kesin;11.200,00;0;Şirket cari
+R-7107;Murat Koç;15.10.2026;16.10.2026;315;Deluxe;2;0;Web sitesi;Oda Kahvaltı;Gluten hassasiyeti;Kesin;4.300,00;2.000,00;Kredi kartı
+R-7108;Selin Aydın;15.10.2026;18.10.2026;;Deluxe;2;2;OTA A;Oda Kahvaltı;İki ek yatak;Kesin;15.900,00;0;Otelde ödeme
+R-7109;Burak Öztürk;15.10.2026;16.10.2026;210;Standart;1;0;OTA A;Oda Kahvaltı;;İptal;3.000,00;0;Otelde ödeme
+R-7110;Hana Müller;15.10.2026;22.10.2026;401;Deluxe;2;0;Tur operatörü;Yarım Pansiyon;;No-show;28.000,00;0;Acente faturası
+R-7051;Ali Çelik;12.10.2026;15.10.2026;108;Standart;2;0;OTA A;Oda Kahvaltı;;Konaklıyor;9.300,00;0;Otelde ödeme
+R-7052;Deniz Yılmaz;13.10.2026;15.10.2026;305;Deluxe;2;0;Web sitesi;Oda Kahvaltı;;Konaklıyor;8.600,00;8.600,00;Kredi kartı
+R-7053;Peter Brown;10.10.2026;15.10.2026;501;Suit;2;0;Tur operatörü;Yarım Pansiyon;;Konaklıyor;27.000,00;0;Acente faturası
+R-7054;Gizem Ekinci;14.10.2026;15.10.2026;202;Standart;1;0;OTA B;Oda Kahvaltı;;Konaklıyor;3.100,00;1.500,00;Kredi kartı
+R-7055;Hakan Polat;11.10.2026;15.10.2026;314;Deluxe;2;1;Telefon;Oda Kahvaltı;;Konaklıyor;17.200,00;5.000,00;Nakit
+R-7056;Oya Kurt;13.10.2026;15.10.2026;206;Standart;2;0;Kurumsal;Oda Kahvaltı;;Çıkış yaptı;6.200,00;0;Şirket cari
+R-7031;Kemal Aksoy;12.10.2026;17.10.2026;203;Standart;2;0;Web sitesi;Oda Kahvaltı;;Konaklıyor;15.500,00;15.500,00;Kredi kartı
+R-7032;Maria Rossi;13.10.2026;18.10.2026;402;Deluxe;2;0;Tur operatörü;Yarım Pansiyon;;Konaklıyor;21.000,00;0;Acente faturası
+R-7033;Emre Tan;14.10.2026;16.10.2026;309;Deluxe;1;0;OTA A;Oda Kahvaltı;;Konaklıyor;8.200,00;0;Otelde ödeme
+R-7034;Leyla Güneş;14.10.2026;19.10.2026;205;Standart;2;1;OTA B;Oda Kahvaltı;;Konaklıyor;16.000,00;4.000,00;Kredi kartı
+R-7035;Tolga Erdem;14.10.2026;17.10.2026;310;Deluxe;2;0;OTA A;Oda Kahvaltı;;Kesin;12.600,00;0;Otelde ödeme
+R-7036;Sibel Uçar;10.10.2026;20.10.2026;503;Suit;2;0;Kurumsal;Oda Kahvaltı;;Konaklıyor;52.000,00;0;Şirket cari
+R-7037;Okan Bulut;14.10.2026;16.10.2026;205;Standart;1;0;Telefon;Oda Kahvaltı;;Konaklıyor;6.000,00;0;Nakit
+R-7120;Nur Kılıç;16.10.2026;18.10.2026;204;Standart;2;0;Web sitesi;Oda Kahvaltı;;Kesin;6.400,00;0;Kredi kartı
+R-7121;Ahmet Uysal;17.10.2026;19.10.2026;;Deluxe;2;0;OTA A;Oda Kahvaltı;;Kesin;8.600,00;0;Otelde ödeme

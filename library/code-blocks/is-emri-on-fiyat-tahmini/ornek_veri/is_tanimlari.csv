@@ -1,0 +1,20 @@
+İş Kodu;İş Adı;Tür;Parça Kodu;Miktar
+PB-15;Periyodik bakım 15.000 km;İşçilik;;1,2
+PB-15;Periyodik bakım 15.000 km;Parça;YAG-5W30;4,5
+PB-15;Periyodik bakım 15.000 km;Parça;FLT-YAG;1
+PB-15;Periyodik bakım 15.000 km;Parça;FLT-HAVA;1
+PB-15;Periyodik bakım 15.000 km;Parça;FLT-POLEN;1
+PB-15;Periyodik bakım 15.000 km;Parça;CNT-KARTER;1
+FRN-ON;Ön fren balata değişimi;İşçilik;;1,0
+FRN-ON;Ön fren balata değişimi;Parça;BLT-ON;1
+FRN-DSK;Ön fren disk + balata;İşçilik;;1,6
+FRN-DSK;Ön fren disk + balata;Parça;DSK-ON;2
+FRN-DSK;Ön fren disk + balata;Parça;BLT-ON;1
+KLM-BKM;Klima bakımı ve gaz dolumu;İşçilik;;0,8
+KLM-BKM;Klima bakımı ve gaz dolumu;Parça;GAZ-R1234;0,5
+KLM-BKM;Klima bakımı ve gaz dolumu;Parça;FLT-POLEN;1
+AKU;Akü değişimi;İşçilik;;0,4
+AKU;Akü değişimi;Parça;AKU-60;1
+DIAG;Arıza tespit (diagnoz);İşçilik;;1,0
+LST-4;Lastik değişimi ve balans (4 adet);İşçilik;;0,8
+LST-4;Lastik değişimi ve balans (4 adet);Parça;BLNS-KRS;4

@@ -594,12 +594,34 @@ duyusal α 0,05, panelist sapması 1,5; zincir listeleme %80, OOS %10, fiyat ±%
 Bilinen eski sorun: önceki turlardaki bazı uyarı metinlerinde sayıdan sonra sabit "'i" eki var (ör. "%33'i"); Türkçe ek
 uyumu her sayı için doğru değil. Bu turda yazılanlar düzeltildi; eskiler için toplu tarama yapılabilir.
 
+### Tur 27 (15 kod bloğu)
+gunluk-giris-cikis-listesi, grup-rezervasyon-teklifi, kanal-maliyet-analizi, oda-ariza-ve-bakim-talep-takibi,
+yiyecek-icecek-maliyet-orani-raporu, denetim-hazirlik-kontrol-listesi, arac-stok-yaslandirma, servis-randevu-kapasite-plani,
+periyodik-bakim-hatirlatma-listesi, test-surusu-ve-teklif-takibi, is-emri-on-fiyat-tahmini, geri-cagirma-kampanyasi-arac-eslestirme,
+teknisyen-verimlilik-raporu, musteri-memnuniyeti-csi-analizi, aday-ogrenci-takip-listesi.
+Toplam 373 paket (341 kod + 32 agent).
+Notlar: otel (ön büro, rezervasyon, kat hizmetleri, F&B), gıda denetim hazırlığı, otomotiv bayi satış ve servis, okul kayıt.
+İnternet teyidi (14.10.2026): konaklama vergisi 11263 sayılı CBK ile 01.05.2026–31.12.2026 arası %1 (kanuni oran %2), KDV
+matrahına dahil değil; grup teklifinde tarihe göre seçiliyor, --kv ile tek oran verilebilir. KDV oranları fiyat listesinden
+okunuyor (kod sabitlemiyor). Bilinen dayanaklar (README'de teyit notuyla): 6563 sayılı Kanun / İYS (bakım hatırlatma, aday,
+test sürüşü), 4857 İş Kanunu haftalık 45 saat (servis kapasitesi örneği 7,5 sa × 6 gün), KVKK notları. F&B maliyet: USALI
+yaklaşımı (personel yemeği ve ikram satılan maliyetten düşülür). Teknisyen oranları: verimlilik = satılan ÷ çalışılan,
+kullanım = çalışılan ÷ mevcut, üretkenlik = satılan ÷ mevcut. NPS = %9–10 − %0–6.
+Varsayımlar (politika, parametre): ücretsiz oda N+1 (örnek 20), kapora %30, opsiyon 7 gün, bakiye girişten 7 gün önce;
+kanal maliyet eşiği %25; arıza hedefleri 4/24/72 saat, tekrar 3 talep / 30 gün; F&B tolerans 1 puan, hedefin 5 puan altı bilgi;
+denetimde kısmen %50, doküman geçerliliği 365 gün; araç stok 90/180 gün, marj tüketimi %50, faiz yalnız kullanıcıdan (örnek %36);
+servis hedef doluluk %85, rezerv %0; bakım 15.000 km / 12 ay, 40 km/gün, pencere 30 gün; teklif takibi 3 gün, soğuma 30 gün;
+iş emri KDV %20, aralık ±%10; CSI düşük ≤6 (10'luk) / ≤3 (5'lik), en az 5 anket; aday takip 7 gün.
+Dersler: argparse help metninde "%" tek başına hata verir ("%%" yaz). Gün adı ayrıştırmada "pazartesi"[:3] = "paz" (pazar) ve
+"cumartesi"[:3] = "cum" (cuma) tuzağı; tam ad önce kontrol edilmeli. analiz() girdi sözlüklerini değiştiriyorsa ikinci çağrıda
+özgün değerden başla (denetim listesinde "girilen" alanı).
+
 ### KALDIĞIM YER
-Sıradaki (puan 2, kod): Denetim Hazırlık Kontrol Listesi, otel (Günlük Giriş-Çıkış Listesi, Grup Rezervasyon Teklifi, Kanal
-Maliyet Analizi, Oda Arıza ve Bakım Talep Takibi, Yiyecek-İçecek Maliyet Oranı Raporu), e-Defter Berat Yükleme Takibi, SGK Teşvik
-Uygunluk Ön Kontrolü (mevzuat teyidi gerekir), Vekâlet Ücreti ve Masraf Hesabı (tarife teyidi gerekir), Borçlu Ödeme Planı
-Hesaplama, Araç Stok Yaşlandırma, Servis Randevu Kapasite Planı, Periyodik Bakım Hatırlatma Listesi, Test Sürüşü ve Teklif
-Takibi… (tam liste için kalan2.mjs; proje klasöründen çalıştır).
+Sıradaki (puan 2, kod): e-Defter Berat Yükleme Takibi (süreler teyit edilmeli), SGK Teşvik Uygunluk Ön Kontrolü (mevzuat
+teyidi gerekir), Vekâlet Ücreti ve Masraf Hesabı (AAÜT / harç tarifesi teyidi gerekir), Borçlu Ödeme Planı Hesaplama, Devamsızlık
+Takip Raporu (MEB yönetmeliği sınırları teyit edilmeli), Öğrenim Ücreti ve İndirim Hesabı; puan 1: Vergi Takvimi Takibi, SSL /
+Lisans Süre Takibi, Abonelik ve Sözleşme Takibi, Yetki Limiti Aşım Kontrolü, İç Tetkik Bulgu Takibi, Stok Sorgu ve Transfer
+Talebi, Fiyat Değişikliği Etiket Listesi (tam liste için kalan2.mjs; proje klasöründen çalıştır).
 Agent adayları (puan 2): Teminat Mektubu Metin Kontrolü, Müşteri İhtiyaç Analizi, Vardiya Devir Notu Özeti, Mağaza Ziyaret
 Raporu, Vitrin Yönergesi, Renk Paleti, Trend Raporu Özeti, Randevu Hatırlatma Mesajları, Tıbbi Rapor Yazım Kontrolü.
 Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,

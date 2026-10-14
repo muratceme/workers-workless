@@ -1,0 +1,626 @@
+İş Emri No;Tarih;Teknisyen;İş Türü;Satılan Saat;Çalışılan Saat
+IE-26001;01.09.2026;Usta 2;Garanti;2,3;2,7
+IE-26002;01.09.2026;Usta 2;Müşteri;2,2;2,0
+IE-26003;01.09.2026;Usta 2;Garanti;1,3;1,6
+IE-26004;01.09.2026;Usta 3;Müşteri;2,6;2,9
+IE-26005;01.09.2026;Usta 3;Müşteri;0,8;1,0
+IE-26006;01.09.2026;Usta 3;Müşteri;0,8;0,7
+IE-26007;01.09.2026;Usta 3;Garanti;1,2;1,3
+IE-26008;01.09.2026;Usta 3;Müşteri;1,0;1,0
+IE-26009;01.09.2026;Teknisyen 4;Müşteri;0,6;0,7
+IE-26010;01.09.2026;Teknisyen 4;Garanti;1,8;2,4
+IE-26011;01.09.2026;Teknisyen 4;Müşteri;2,6;2,7
+IE-26012;01.09.2026;Teknisyen 5;Müşteri;1,0;1,4
+IE-26013;01.09.2026;Teknisyen 5;Müşteri;2,4;2,8
+IE-26014;01.09.2026;Teknisyen 5;Müşteri;0,4;0,5
+IE-26015;01.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;2,2;2,5
+IE-26016;01.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,6;0,6
+IE-26017;01.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,7;0,8
+IE-26018;01.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;1,7;2,3
+IE-26019;02.09.2026;Usta 1 (Kıdemli);Müşteri;2,9;2,3
+IE-26020;02.09.2026;Usta 1 (Kıdemli);Müşteri;3,6;2,8
+IE-26021;02.09.2026;Usta 1 (Kıdemli);Müşteri;1,5;1,3
+IE-26022;02.09.2026;Usta 2;Müşteri;1,7;1,9
+IE-26023;02.09.2026;Usta 2;İç iş;3,9;3,5
+IE-26024;02.09.2026;Usta 3;Müşteri;1,3;1,2
+IE-26025;02.09.2026;Usta 3;Müşteri;0,4;0,5
+IE-26026;02.09.2026;Usta 3;Garanti;2,9;2,9
+IE-26027;02.09.2026;Usta 3;İç iş;1,7;2,1
+IE-26028;02.09.2026;Teknisyen 4;Müşteri;1,2;1,5
+IE-26029;02.09.2026;Teknisyen 4;Garanti;2,0;2,3
+IE-26030;02.09.2026;Teknisyen 4;Müşteri;1,2;1,5
+IE-26031;02.09.2026;Teknisyen 5;Müşteri;2,3;2,6
+IE-26032;02.09.2026;Teknisyen 5;Müşteri;0,8;1,1
+IE-26033;02.09.2026;Teknisyen 5;Müşteri;0,7;1,0
+IE-26034;02.09.2026;Teknisyen 5;Müşteri;0,5;0,6
+IE-26035;02.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;2,2;2,5
+IE-26036;02.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,9;1,1
+IE-26037;02.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,6;0,6
+IE-26038;02.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,7;0,8
+IE-26039;03.09.2026;Usta 1 (Kıdemli);Müşteri;1,7;1,5
+IE-26040;03.09.2026;Usta 1 (Kıdemli);Müşteri;1,8;1,7
+IE-26041;03.09.2026;Usta 1 (Kıdemli);Müşteri;1,1;1,1
+IE-26042;03.09.2026;Usta 1 (Kıdemli);Müşteri;0,9;0,9
+IE-26043;03.09.2026;Usta 1 (Kıdemli);Müşteri;0,5;0,5
+IE-26044;03.09.2026;Usta 2;Müşteri;2,1;2,1
+IE-26045;03.09.2026;Usta 2;Müşteri;0,6;0,7
+IE-26046;03.09.2026;Usta 2;Müşteri;2,5;2,4
+IE-26047;03.09.2026;Usta 2;Müşteri;0,5;0,5
+IE-26048;03.09.2026;Usta 3;Garanti;0,8;0,9
+IE-26049;03.09.2026;Usta 3;Müşteri;0,9;0,9
+IE-26050;03.09.2026;Usta 3;Garanti;0,5;0,7
+IE-26051;03.09.2026;Usta 3;Garanti;1,7;1,7
+IE-26052;03.09.2026;Usta 3;İç iş;0,6;0,7
+IE-26053;03.09.2026;Usta 3;Müşteri;0,9;0,9
+IE-26054;03.09.2026;Teknisyen 4;Müşteri;1,2;1,3
+IE-26055;03.09.2026;Teknisyen 4;İç iş;1,8;1,8
+IE-26056;03.09.2026;Teknisyen 4;Müşteri;2,3;2,5
+IE-26057;03.09.2026;Teknisyen 4;Müşteri;0,6;0,7
+IE-26058;03.09.2026;Teknisyen 5;Müşteri;1,7;2,4
+IE-26059;03.09.2026;Teknisyen 5;Müşteri;0,5;0,7
+IE-26060;03.09.2026;Teknisyen 5;Müşteri;0,6;0,8
+IE-26061;03.09.2026;Teknisyen 5;Müşteri;0,8;0,9
+IE-26062;03.09.2026;Teknisyen 5;Müşteri;0,5;0,6
+IE-26063;03.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;0,9;1,2
+IE-26064;03.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,5;1,9
+IE-26065;03.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;1,9;2,5
+IE-26066;03.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,5;0,5
+IE-26067;04.09.2026;Usta 1 (Kıdemli);Müşteri;4,3;3,3
+IE-26068;04.09.2026;Usta 1 (Kıdemli);İç iş;3,1;2,5
+IE-26069;04.09.2026;Usta 1 (Kıdemli);Müşteri;0,7;0,6
+IE-26070;04.09.2026;Usta 2;Müşteri;2,4;2,2
+IE-26071;04.09.2026;Usta 2;Müşteri;1,5;1,6
+IE-26072;04.09.2026;Usta 2;Garanti;1,0;1,1
+IE-26073;04.09.2026;Usta 2;Müşteri;0,6;0,5
+IE-26074;04.09.2026;Usta 2;İç iş;0,5;0,5
+IE-26075;04.09.2026;Usta 3;Müşteri;1,7;1,6
+IE-26076;04.09.2026;Usta 3;Garanti;1,7;1,8
+IE-26077;04.09.2026;Usta 3;Müşteri;0,5;0,5
+IE-26078;04.09.2026;Usta 3;Müşteri;1,3;1,2
+IE-26079;04.09.2026;Usta 3;İç iş;1,5;1,6
+IE-26080;04.09.2026;Teknisyen 4;Garanti;1,9;2,4
+IE-26081;04.09.2026;Teknisyen 4;Müşteri;2,1;2,7
+IE-26082;04.09.2026;Teknisyen 4;Garanti;0,3;0,4
+IE-26083;04.09.2026;Teknisyen 5;Müşteri;1,0;1,2
+IE-26084;04.09.2026;Teknisyen 5;Müşteri;1,9;2,7
+IE-26085;04.09.2026;Teknisyen 5;Müşteri;1,3;1,5
+IE-26086;05.09.2026;Usta 1 (Kıdemli);İç iş;2,6;2,5
+IE-26087;05.09.2026;Usta 1 (Kıdemli);İç iş;0,9;0,7
+IE-26088;05.09.2026;Usta 1 (Kıdemli);Müşteri;1,1;0,9
+IE-26089;05.09.2026;Usta 1 (Kıdemli);Müşteri;3,4;2,6
+IE-26090;05.09.2026;Usta 1 (Kıdemli);Müşteri;0,9;0,7
+IE-26091;05.09.2026;Usta 2;Müşteri;2,3;2,1
+IE-26092;05.09.2026;Usta 2;Müşteri;0,5;0,6
+IE-26093;05.09.2026;Usta 2;Garanti;0,8;0,8
+IE-26094;05.09.2026;Usta 2;İç iş;1,7;1,6
+IE-26095;05.09.2026;Usta 2;Müşteri;0,5;0,5
+IE-26096;05.09.2026;Usta 2;Müşteri;1,1;0,9
+IE-26097;05.09.2026;Usta 3;Müşteri;2,5;2,9
+IE-26098;05.09.2026;Usta 3;Müşteri;1,6;1,5
+IE-26099;05.09.2026;Usta 3;Müşteri;1,7;2,0
+IE-26100;05.09.2026;Teknisyen 4;Müşteri;1,1;1,2
+IE-26101;05.09.2026;Teknisyen 4;Müşteri;2,4;3,0
+IE-26102;05.09.2026;Teknisyen 4;Müşteri;1,0;1,3
+IE-26103;05.09.2026;Teknisyen 4;Garanti;0,2;0,3
+IE-26104;05.09.2026;Teknisyen 5;Müşteri;0,9;1,0
+IE-26105;05.09.2026;Teknisyen 5;Garanti;1,7;2,3
+IE-26106;05.09.2026;Teknisyen 5;Garanti;0,8;1,0
+IE-26107;05.09.2026;Teknisyen 5;Garanti;0,6;0,8
+IE-26108;05.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;2,7;3,1
+IE-26109;05.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,0;1,0
+IE-26110;05.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,5;0,6
+IE-26111;05.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,4;0,5
+IE-26112;05.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,7;0,8
+IE-26113;05.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,4;0,4
+IE-26114;07.09.2026;Usta 1 (Kıdemli);Müşteri;1,5;1,4
+IE-26115;07.09.2026;Usta 1 (Kıdemli);Müşteri;2,9;2,3
+IE-26116;07.09.2026;Usta 1 (Kıdemli);Müşteri;0,8;0,7
+IE-26117;07.09.2026;Usta 1 (Kıdemli);Garanti;2,8;2,8
+IE-26118;07.09.2026;Usta 2;Garanti;2,4;2,4
+IE-26119;07.09.2026;Usta 2;Müşteri;1,8;1,8
+IE-26120;07.09.2026;Usta 2;Müşteri;2,2;1,9
+IE-26121;07.09.2026;Usta 3;Müşteri;0,7;0,8
+IE-26122;07.09.2026;Usta 3;Müşteri;1,6;1,6
+IE-26123;07.09.2026;Usta 3;Müşteri;2,2;2,1
+IE-26124;07.09.2026;Usta 3;Müşteri;1,2;1,1
+IE-26125;07.09.2026;Teknisyen 4;Müşteri;1,5;1,8
+IE-26126;07.09.2026;Teknisyen 4;Garanti;0,5;0,8
+IE-26127;07.09.2026;Teknisyen 4;Müşteri;0,7;0,7
+IE-26128;07.09.2026;Teknisyen 4;Müşteri;1,8;2,1
+IE-26129;07.09.2026;Teknisyen 5;Müşteri;1,5;1,6
+IE-26130;07.09.2026;Teknisyen 5;Müşteri;2,0;2,8
+IE-26131;07.09.2026;Teknisyen 5;İç iş;0,4;0,5
+IE-26132;07.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,5;1,9
+IE-26133;07.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;0,9;0,9
+IE-26134;07.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,9;0,9
+IE-26135;07.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,0;1,0
+IE-26136;07.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,7;0,9
+IE-26137;08.09.2026;Usta 1 (Kıdemli);Müşteri;1,1;0,9
+IE-26138;08.09.2026;Usta 1 (Kıdemli);Müşteri;0,6;0,5
+IE-26139;08.09.2026;Usta 1 (Kıdemli);Garanti;4,0;3,5
+IE-26140;08.09.2026;Usta 1 (Kıdemli);Müşteri;1,4;1,1
+IE-26141;08.09.2026;Usta 2;Müşteri;0,5;0,5
+IE-26142;08.09.2026;Usta 2;Müşteri;0,9;0,8
+IE-26143;08.09.2026;Usta 2;Müşteri;3,2;2,8
+IE-26144;08.09.2026;Usta 2;Müşteri;0,9;0,8
+IE-26145;08.09.2026;Usta 2;Müşteri;1,6;1,4
+IE-26146;08.09.2026;Usta 3;Müşteri;1,0;1,2
+IE-26147;08.09.2026;Usta 3;Garanti;1,4;1,5
+IE-26148;08.09.2026;Usta 3;Müşteri;0,8;0,8
+IE-26149;08.09.2026;Usta 3;Garanti;1,2;1,4
+IE-26150;08.09.2026;Usta 3;Müşteri;1,0;1,1
+IE-26151;08.09.2026;Usta 3;Müşteri;0,6;0,6
+IE-26152;08.09.2026;Teknisyen 4;Müşteri;0,9;1,0
+IE-26153;08.09.2026;Teknisyen 4;Müşteri;2,0;2,0
+IE-26154;08.09.2026;Teknisyen 4;İç iş;0,5;0,6
+IE-26155;08.09.2026;Teknisyen 4;Müşteri;0,7;0,9
+IE-26156;08.09.2026;Teknisyen 4;Müşteri;0,7;0,7
+IE-26157;08.09.2026;Teknisyen 5;Müşteri;1,6;2,4
+IE-26158;08.09.2026;Teknisyen 5;Müşteri;1,7;2,2
+IE-26159;08.09.2026;Teknisyen 5;Garanti;0,9;1,1
+IE-26160;08.09.2026;Elektrik / Diagnoz Uzmanı;İç iş;0,9;0,9
+IE-26161;08.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,5;1,7
+IE-26162;08.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,3;1,4
+IE-26163;08.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,3;1,4
+IE-26164;08.09.2026;Elektrik / Diagnoz Uzmanı;İç iş;0,6;0,7
+IE-26165;08.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;0,3;0,4
+IE-26166;09.09.2026;Usta 1 (Kıdemli);Müşteri;1,3;1,2
+IE-26167;09.09.2026;Usta 1 (Kıdemli);Müşteri;1,6;1,4
+IE-26168;09.09.2026;Usta 1 (Kıdemli);Müşteri;0,6;0,6
+IE-26169;09.09.2026;Usta 1 (Kıdemli);Garanti;1,5;1,4
+IE-26170;09.09.2026;Usta 1 (Kıdemli);Müşteri;2,8;2,3
+IE-26171;09.09.2026;Usta 1 (Kıdemli);Müşteri;0,7;0,5
+IE-26172;09.09.2026;Usta 2;Müşteri;1,7;1,6
+IE-26173;09.09.2026;Usta 2;Müşteri;1,6;1,7
+IE-26174;09.09.2026;Usta 2;Müşteri;0,6;0,6
+IE-26175;09.09.2026;Usta 2;İç iş;2,2;2,2
+IE-26176;09.09.2026;Usta 3;Garanti;0,6;0,7
+IE-26177;09.09.2026;Usta 3;Müşteri;1,3;1,3
+IE-26178;09.09.2026;Usta 3;Garanti;0,5;0,7
+IE-26179;09.09.2026;Usta 3;Müşteri;1,8;1,8
+IE-26180;09.09.2026;Usta 3;Garanti;0,8;0,9
+IE-26181;09.09.2026;Usta 3;Garanti;1,1;1,3
+IE-26182;09.09.2026;Teknisyen 4;Müşteri;1,3;1,6
+IE-26183;09.09.2026;Teknisyen 4;Müşteri;0,9;1,0
+IE-26184;09.09.2026;Teknisyen 4;Müşteri;1,5;1,7
+IE-26185;09.09.2026;Teknisyen 4;Müşteri;0,5;0,7
+IE-26186;09.09.2026;Teknisyen 4;Müşteri;0,6;0,7
+IE-26187;09.09.2026;Teknisyen 4;Müşteri;0,8;0,9
+IE-26188;09.09.2026;Teknisyen 5;Garanti;0,6;0,7
+IE-26189;09.09.2026;Teknisyen 5;Müşteri;0,9;1,2
+IE-26190;09.09.2026;Teknisyen 5;Garanti;0,6;1,0
+IE-26191;09.09.2026;Teknisyen 5;Garanti;0,9;1,5
+IE-26192;09.09.2026;Teknisyen 5;Müşteri;0,8;1,0
+IE-26193;09.09.2026;Teknisyen 5;Müşteri;0,3;0,4
+IE-26194;09.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,7;0,7
+IE-26195;09.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,9;2,4
+IE-26196;09.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,3;1,4
+IE-26197;09.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,9;0,9
+IE-26198;10.09.2026;Usta 1 (Kıdemli);İç iş;3,0;2,2
+IE-26199;10.09.2026;Usta 1 (Kıdemli);Müşteri;4,2;3,4
+IE-26200;10.09.2026;Usta 1 (Kıdemli);Müşteri;0,6;0,5
+IE-26201;10.09.2026;Usta 2;Müşteri;2,9;3,0
+IE-26202;10.09.2026;Usta 2;İç iş;0,6;0,6
+IE-26203;10.09.2026;Usta 2;Müşteri;3,4;3,1
+IE-26204;10.09.2026;Usta 3;Müşteri;1,3;1,6
+IE-26205;10.09.2026;Usta 3;İç iş;2,1;2,1
+IE-26206;10.09.2026;Usta 3;Müşteri;1,7;1,7
+IE-26207;10.09.2026;Teknisyen 4;Garanti;1,3;1,6
+IE-26208;10.09.2026;Teknisyen 4;Müşteri;2,1;2,1
+IE-26209;10.09.2026;Teknisyen 4;Garanti;0,8;0,9
+IE-26210;10.09.2026;Teknisyen 4;Müşteri;1,2;1,3
+IE-26211;10.09.2026;Teknisyen 5;Müşteri;0,9;1,1
+IE-26212;10.09.2026;Teknisyen 5;Müşteri;0,9;1,1
+IE-26213;10.09.2026;Teknisyen 5;Müşteri;2,1;3,0
+IE-26214;10.09.2026;Teknisyen 5;Müşteri;0,6;0,8
+IE-26215;10.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,6;0,6
+IE-26216;10.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,8;0,8
+IE-26217;10.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;1,9;2,3
+IE-26218;10.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,5;1,6
+IE-26219;11.09.2026;Usta 1 (Kıdemli);Müşteri;3,3;2,6
+IE-26220;11.09.2026;Usta 1 (Kıdemli);Müşteri;1,8;1,6
+IE-26221;11.09.2026;Usta 1 (Kıdemli);Müşteri;0,6;0,6
+IE-26222;11.09.2026;Usta 1 (Kıdemli);Garanti;0,8;0,7
+IE-26223;11.09.2026;Usta 1 (Kıdemli);Müşteri;0,6;0,5
+IE-26224;11.09.2026;Usta 1 (Kıdemli);Müşteri;1,2;0,9
+IE-26225;11.09.2026;Usta 2;Müşteri;1,3;1,4
+IE-26226;11.09.2026;Usta 2;İç iş;0,5;0,5
+IE-26227;11.09.2026;Usta 2;Garanti;2,0;2,3
+IE-26228;11.09.2026;Usta 2;Müşteri;1,7;1,4
+IE-26229;11.09.2026;Usta 2;Müşteri;0,8;0,7
+IE-26230;11.09.2026;Usta 3;Müşteri;0,5;0,5
+IE-26231;11.09.2026;Usta 3;Müşteri;2,2;2,5
+IE-26232;11.09.2026;Usta 3;Garanti;2,0;2,1
+IE-26233;11.09.2026;Usta 3;Müşteri;0,6;0,7
+IE-26234;11.09.2026;Usta 3;Müşteri;0,7;0,8
+IE-26235;11.09.2026;Teknisyen 4;Müşteri;1,4;1,6
+IE-26236;11.09.2026;Teknisyen 4;Müşteri;1,6;1,9
+IE-26237;11.09.2026;Teknisyen 4;Garanti;1,6;1,8
+IE-26238;11.09.2026;Teknisyen 4;Garanti;0,8;0,9
+IE-26239;11.09.2026;Teknisyen 5;İç iş;2,3;3,3
+IE-26240;11.09.2026;Teknisyen 5;Müşteri;1,7;2,2
+IE-26241;11.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;0,9;1,2
+IE-26242;11.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,8;2,1
+IE-26243;11.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,0;1,1
+IE-26244;11.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,9;0,9
+IE-26245;12.09.2026;Usta 1 (Kıdemli);İç iş;0,7;0,5
+IE-26246;12.09.2026;Usta 1 (Kıdemli);Müşteri;2,4;2,2
+IE-26247;12.09.2026;Usta 1 (Kıdemli);Müşteri;3,2;2,9
+IE-26248;12.09.2026;Usta 1 (Kıdemli);Garanti;2,0;1,7
+IE-26249;12.09.2026;Usta 2;Müşteri;2,3;2,1
+IE-26250;12.09.2026;Usta 2;Müşteri;1,0;1,1
+IE-26251;12.09.2026;Usta 2;Müşteri;2,3;2,0
+IE-26252;12.09.2026;Usta 2;Müşteri;1,1;1,1
+IE-26253;12.09.2026;Usta 3;İç iş;2,9;2,6
+IE-26254;12.09.2026;Usta 3;İç iş;1,1;1,1
+IE-26255;12.09.2026;Usta 3;Garanti;2,1;2,3
+IE-26256;12.09.2026;Usta 3;Müşteri;0,4;0,4
+IE-26257;12.09.2026;Teknisyen 4;Müşteri;2,5;2,7
+IE-26258;12.09.2026;Teknisyen 4;İç iş;1,6;1,7
+IE-26259;12.09.2026;Teknisyen 4;Müşteri;1,1;1,3
+IE-26260;12.09.2026;Teknisyen 4;Garanti;0,5;0,6
+IE-26261;12.09.2026;Teknisyen 5;Garanti;0,4;0,6
+IE-26262;12.09.2026;Teknisyen 5;Garanti;1,9;2,4
+IE-26263;12.09.2026;Teknisyen 5;Garanti;0,7;0,9
+IE-26264;12.09.2026;Teknisyen 5;İç iş;0,7;1,0
+IE-26265;12.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;2,9;3,6
+IE-26266;12.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,5;1,5
+IE-26267;14.09.2026;Usta 1 (Kıdemli);Müşteri;2,6;2,5
+IE-26268;14.09.2026;Usta 1 (Kıdemli);Müşteri;3,7;2,8
+IE-26269;14.09.2026;Usta 1 (Kıdemli);İç iş;1,5;1,2
+IE-26270;14.09.2026;Usta 2;Müşteri;0,5;0,5
+IE-26271;14.09.2026;Usta 2;Müşteri;1,3;1,2
+IE-26272;14.09.2026;Usta 2;Garanti;3,5;3,3
+IE-26273;14.09.2026;Usta 2;Müşteri;1,7;1,4
+IE-26274;14.09.2026;Usta 3;Müşteri;2,7;2,8
+IE-26275;14.09.2026;Usta 3;İç iş;2,3;2,8
+IE-26276;14.09.2026;Teknisyen 4;Müşteri;2,2;2,2
+IE-26277;14.09.2026;Teknisyen 4;Müşteri;0,9;1,1
+IE-26278;14.09.2026;Teknisyen 4;Müşteri;0,7;0,9
+IE-26279;14.09.2026;Teknisyen 4;Garanti;1,8;2,2
+IE-26280;14.09.2026;Teknisyen 5;Müşteri;1,4;1,7
+IE-26281;14.09.2026;Teknisyen 5;Müşteri;0,4;0,5
+IE-26282;14.09.2026;Teknisyen 5;Müşteri;1,7;2,2
+IE-26283;14.09.2026;Teknisyen 5;İç iş;0,3;0,4
+IE-26284;14.09.2026;Elektrik / Diagnoz Uzmanı;İç iş;2,8;3,2
+IE-26285;14.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;1,9;2,3
+IE-26286;15.09.2026;Usta 1 (Kıdemli);Garanti;0,6;0,5
+IE-26287;15.09.2026;Usta 1 (Kıdemli);Müşteri;0,9;0,7
+IE-26288;15.09.2026;Usta 1 (Kıdemli);Garanti;0,6;0,5
+IE-26289;15.09.2026;Usta 1 (Kıdemli);Garanti;2,9;2,5
+IE-26290;15.09.2026;Usta 1 (Kıdemli);İç iş;3,3;2,8
+IE-26291;15.09.2026;Usta 2;Müşteri;1,2;1,0
+IE-26292;15.09.2026;Usta 2;Müşteri;1,1;1,1
+IE-26293;15.09.2026;Usta 2;Müşteri;0,5;0,5
+IE-26294;15.09.2026;Usta 2;Garanti;1,5;1,6
+IE-26295;15.09.2026;Usta 2;Müşteri;1,8;1,6
+IE-26296;15.09.2026;Usta 3;Müşteri;0,9;0,8
+IE-26297;15.09.2026;Usta 3;Müşteri;1,3;1,3
+IE-26298;15.09.2026;Usta 3;Müşteri;1,2;1,3
+IE-26299;15.09.2026;Usta 3;Müşteri;1,1;1,2
+IE-26300;15.09.2026;Usta 3;Müşteri;1,8;1,8
+IE-26301;15.09.2026;Teknisyen 4;Müşteri;2,8;3,2
+IE-26302;15.09.2026;Teknisyen 4;Garanti;1,8;2,1
+IE-26303;15.09.2026;Teknisyen 4;İç iş;0,5;0,5
+IE-26304;15.09.2026;Teknisyen 5;Garanti;1,7;2,6
+IE-26305;15.09.2026;Teknisyen 5;Garanti;0,6;0,9
+IE-26306;15.09.2026;Teknisyen 5;Müşteri;1,4;1,5
+IE-26307;15.09.2026;Teknisyen 5;Müşteri;0,2;0,3
+IE-26308;15.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;2,2;2,6
+IE-26309;15.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;2,0;2,6
+IE-26310;16.09.2026;Usta 1 (Kıdemli);Garanti;0,5;0,5
+IE-26311;16.09.2026;Usta 1 (Kıdemli);Müşteri;3,9;3,0
+IE-26312;16.09.2026;Usta 1 (Kıdemli);Müşteri;0,9;0,8
+IE-26313;16.09.2026;Usta 1 (Kıdemli);Müşteri;2,5;2,3
+IE-26314;16.09.2026;Usta 2;Müşteri;1,5;1,3
+IE-26315;16.09.2026;Usta 2;Müşteri;3,3;3,1
+IE-26316;16.09.2026;Usta 2;Müşteri;1,1;1,2
+IE-26317;16.09.2026;Usta 3;Müşteri;2,1;2,2
+IE-26318;16.09.2026;Usta 3;Müşteri;2,0;1,9
+IE-26319;16.09.2026;Usta 3;Müşteri;1,7;1,6
+IE-26320;16.09.2026;Teknisyen 4;Garanti;3,0;3,3
+IE-26321;16.09.2026;Teknisyen 4;Garanti;2,4;2,9
+IE-26322;16.09.2026;Teknisyen 5;Müşteri;2,0;2,2
+IE-26323;16.09.2026;Teknisyen 5;Garanti;0,5;0,8
+IE-26324;16.09.2026;Teknisyen 5;Müşteri;0,7;0,8
+IE-26325;16.09.2026;Teknisyen 5;Garanti;0,8;1,2
+IE-26326;16.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,7;0,7
+IE-26327;16.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;0,9;1,1
+IE-26328;16.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,8;2,2
+IE-26329;16.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,8;2,2
+IE-26330;17.09.2026;Usta 1 (Kıdemli);Müşteri;1,4;1,2
+IE-26331;17.09.2026;Usta 1 (Kıdemli);Müşteri;0,5;0,5
+IE-26332;17.09.2026;Usta 1 (Kıdemli);Garanti;0,5;0,5
+IE-26333;17.09.2026;Usta 1 (Kıdemli);Garanti;0,9;0,8
+IE-26334;17.09.2026;Usta 1 (Kıdemli);İç iş;0,7;0,6
+IE-26335;17.09.2026;Usta 1 (Kıdemli);Garanti;1,0;0,9
+IE-26336;17.09.2026;Usta 1 (Kıdemli);Müşteri;2,8;2,1
+IE-26337;17.09.2026;Usta 2;Garanti;0,4;0,5
+IE-26338;17.09.2026;Usta 2;Müşteri;1,9;1,7
+IE-26339;17.09.2026;Usta 2;Garanti;2,7;3,3
+IE-26340;17.09.2026;Usta 2;Müşteri;0,9;0,9
+IE-26341;17.09.2026;Usta 3;Müşteri;2,6;2,5
+IE-26342;17.09.2026;Usta 3;Müşteri;0,9;0,8
+IE-26343;17.09.2026;Usta 3;Müşteri;0,7;0,7
+IE-26344;17.09.2026;Usta 3;Müşteri;1,4;1,4
+IE-26345;17.09.2026;Teknisyen 4;Müşteri;1,6;2,0
+IE-26346;17.09.2026;Teknisyen 4;Müşteri;0,8;1,0
+IE-26347;17.09.2026;Teknisyen 4;Müşteri;1,2;1,3
+IE-26348;17.09.2026;Teknisyen 4;Müşteri;1,3;1,5
+IE-26349;17.09.2026;Teknisyen 5;Garanti;1,3;1,6
+IE-26350;17.09.2026;Teknisyen 5;Müşteri;1,6;2,1
+IE-26351;17.09.2026;Teknisyen 5;Müşteri;0,5;0,6
+IE-26352;17.09.2026;Teknisyen 5;Müşteri;0,5;0,6
+IE-26353;17.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,2;1,3
+IE-26354;17.09.2026;Elektrik / Diagnoz Uzmanı;İç iş;1,3;1,5
+IE-26355;17.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,8;1,0
+IE-26356;17.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,9;2,2
+IE-26357;18.09.2026;Usta 1 (Kıdemli);Müşteri;1,1;0,8
+IE-26358;18.09.2026;Usta 1 (Kıdemli);Müşteri;1,1;1,0
+IE-26359;18.09.2026;Usta 1 (Kıdemli);Garanti;1,0;0,9
+IE-26360;18.09.2026;Usta 1 (Kıdemli);Müşteri;0,6;0,5
+IE-26361;18.09.2026;Usta 1 (Kıdemli);Müşteri;1,3;1,1
+IE-26362;18.09.2026;Usta 1 (Kıdemli);Garanti;3,4;3,1
+IE-26363;18.09.2026;Usta 2;Müşteri;0,9;0,9
+IE-26364;18.09.2026;Usta 2;Müşteri;0,7;0,6
+IE-26365;18.09.2026;Usta 2;Müşteri;2,0;2,1
+IE-26366;18.09.2026;Usta 2;Müşteri;1,5;1,3
+IE-26367;18.09.2026;Usta 2;Müşteri;1,0;1,0
+IE-26368;18.09.2026;Usta 3;Müşteri;2,0;1,8
+IE-26369;18.09.2026;Usta 3;Müşteri;1,7;1,9
+IE-26370;18.09.2026;Usta 3;Müşteri;0,5;0,6
+IE-26371;18.09.2026;Usta 3;Müşteri;1,9;1,8
+IE-26372;18.09.2026;Usta 3;Garanti;0,7;0,8
+IE-26373;18.09.2026;Teknisyen 4;İç iş;1,3;1,4
+IE-26374;18.09.2026;Teknisyen 4;Garanti;0,5;0,7
+IE-26375;18.09.2026;Teknisyen 4;Garanti;0,7;0,8
+IE-26376;18.09.2026;Teknisyen 4;Müşteri;1,0;1,0
+IE-26377;18.09.2026;Teknisyen 4;Müşteri;1,0;1,1
+IE-26378;18.09.2026;Teknisyen 4;Müşteri;0,3;0,4
+IE-26379;18.09.2026;Teknisyen 5;Garanti;0,7;1,0
+IE-26380;18.09.2026;Teknisyen 5;Müşteri;1,1;1,5
+IE-26381;18.09.2026;Teknisyen 5;Müşteri;0,4;0,6
+IE-26382;18.09.2026;Teknisyen 5;Müşteri;0,5;0,6
+IE-26383;18.09.2026;Teknisyen 5;Müşteri;0,8;0,9
+IE-26384;18.09.2026;Elektrik / Diagnoz Uzmanı;İç iş;1,6;1,9
+IE-26385;18.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;2,3;2,3
+IE-26386;18.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,6;0,7
+IE-26387;18.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,4;0,5
+IE-26388;19.09.2026;Usta 1 (Kıdemli);Müşteri;3,8;3,5
+IE-26389;19.09.2026;Usta 1 (Kıdemli);Müşteri;3,0;2,3
+IE-26390;19.09.2026;Usta 1 (Kıdemli);Müşteri;1,1;1,1
+IE-26391;19.09.2026;Usta 2;Müşteri;1,6;1,4
+IE-26392;19.09.2026;Usta 2;Garanti;1,2;1,2
+IE-26393;19.09.2026;Usta 2;Garanti;1,1;1,0
+IE-26394;19.09.2026;Usta 2;Müşteri;3,7;3,1
+IE-26395;19.09.2026;Usta 2;İç iş;0,6;0,5
+IE-26396;19.09.2026;Usta 3;İç iş;1,4;1,3
+IE-26397;19.09.2026;Usta 3;Garanti;0,4;0,5
+IE-26398;19.09.2026;Usta 3;İç iş;0,7;0,6
+IE-26399;19.09.2026;Usta 3;İç iş;1,4;1,5
+IE-26400;19.09.2026;Usta 3;Müşteri;1,8;2,0
+IE-26401;19.09.2026;Teknisyen 4;Müşteri;1,7;2,1
+IE-26402;19.09.2026;Teknisyen 4;Garanti;1,1;1,3
+IE-26403;19.09.2026;Teknisyen 4;Müşteri;1,5;2,0
+IE-26404;19.09.2026;Teknisyen 5;Müşteri;1,9;2,1
+IE-26405;19.09.2026;Teknisyen 5;Müşteri;0,6;0,9
+IE-26406;19.09.2026;Teknisyen 5;Müşteri;1,0;1,2
+IE-26407;19.09.2026;Teknisyen 5;Müşteri;1,0;1,5
+IE-26408;19.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;2,3;2,4
+IE-26409;19.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;2,4;2,7
+IE-26410;19.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,4;0,5
+IE-26411;19.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;0,3;0,3
+IE-26412;21.09.2026;Usta 1 (Kıdemli);Garanti;2,7;2,9
+IE-26413;21.09.2026;Usta 1 (Kıdemli);Müşteri;1,8;1,5
+IE-26414;21.09.2026;Usta 1 (Kıdemli);Garanti;2,8;2,5
+IE-26415;21.09.2026;Usta 2;Garanti;2,6;2,4
+IE-26416;21.09.2026;Usta 2;Müşteri;0,5;0,5
+IE-26417;21.09.2026;Usta 2;Müşteri;1,1;0,9
+IE-26418;21.09.2026;Usta 2;Müşteri;1,8;1,9
+IE-26419;21.09.2026;Usta 2;İç iş;1,6;1,4
+IE-26420;21.09.2026;Usta 3;Garanti;0,5;0,5
+IE-26421;21.09.2026;Usta 3;Müşteri;1,3;1,4
+IE-26422;21.09.2026;Usta 3;Müşteri;1,2;1,2
+IE-26423;21.09.2026;Usta 3;Garanti;1,7;2,0
+IE-26424;21.09.2026;Usta 3;Garanti;0,9;1,0
+IE-26425;21.09.2026;Teknisyen 4;Müşteri;1,2;1,2
+IE-26426;21.09.2026;Teknisyen 4;Müşteri;2,0;2,2
+IE-26427;21.09.2026;Teknisyen 4;Müşteri;0,9;0,9
+IE-26428;21.09.2026;Teknisyen 4;Müşteri;0,9;1,0
+IE-26429;21.09.2026;Teknisyen 5;Garanti;0,3;0,5
+IE-26430;21.09.2026;Teknisyen 5;Garanti;1,0;1,4
+IE-26431;21.09.2026;Teknisyen 5;Müşteri;2,0;2,4
+IE-26432;21.09.2026;Teknisyen 5;Müşteri;1,0;1,1
+IE-26433;21.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,5;1,5
+IE-26434;21.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;2,4;2,7
+IE-26435;21.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,7;0,7
+IE-26436;21.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,6;0,7
+IE-26437;22.09.2026;Usta 1 (Kıdemli);Garanti;3,4;2,9
+IE-26438;22.09.2026;Usta 1 (Kıdemli);Müşteri;1,9;1,7
+IE-26439;22.09.2026;Usta 1 (Kıdemli);Müşteri;0,9;0,7
+IE-26440;22.09.2026;Usta 1 (Kıdemli);Müşteri;1,6;1,3
+IE-26441;22.09.2026;Usta 2;Garanti;1,4;1,6
+IE-26442;22.09.2026;Usta 2;İç iş;1,6;1,6
+IE-26443;22.09.2026;Usta 2;Müşteri;0,7;0,6
+IE-26444;22.09.2026;Usta 2;Müşteri;3,3;2,8
+IE-26445;22.09.2026;Usta 3;Müşteri;1,1;1,1
+IE-26446;22.09.2026;Usta 3;Müşteri;0,7;0,9
+IE-26447;22.09.2026;Usta 3;Müşteri;3,1;3,0
+IE-26448;22.09.2026;Usta 3;Müşteri;1,5;1,5
+IE-26449;22.09.2026;Teknisyen 4;Müşteri;1,8;2,0
+IE-26450;22.09.2026;Teknisyen 4;Müşteri;1,2;1,2
+IE-26451;22.09.2026;Teknisyen 4;Müşteri;0,7;0,7
+IE-26452;22.09.2026;Teknisyen 4;İç iş;1,9;2,2
+IE-26453;22.09.2026;Teknisyen 5;Müşteri;0,6;0,8
+IE-26454;22.09.2026;Teknisyen 5;Müşteri;2,7;3,0
+IE-26455;22.09.2026;Teknisyen 5;Müşteri;1,2;1,4
+IE-26456;22.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,8;1,0
+IE-26457;22.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;2,2;2,3
+IE-26458;22.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,3;1,3
+IE-26459;22.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,8;0,8
+IE-26460;22.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;0,7;0,8
+IE-26461;23.09.2026;Usta 2;Müşteri;0,8;0,7
+IE-26462;23.09.2026;Usta 2;Müşteri;2,3;2,2
+IE-26463;23.09.2026;Usta 2;Müşteri;2,2;1,9
+IE-26464;23.09.2026;Usta 2;Müşteri;1,3;1,2
+IE-26465;23.09.2026;Usta 2;İç iş;1,2;1,1
+IE-26466;23.09.2026;Usta 3;Müşteri;2,0;2,2
+IE-26467;23.09.2026;Usta 3;Müşteri;1,6;1,5
+IE-26468;23.09.2026;Usta 3;Müşteri;2,3;2,5
+IE-26469;23.09.2026;Usta 3;Müşteri;0,5;0,5
+IE-26470;23.09.2026;Teknisyen 4;Müşteri;1,5;1,5
+IE-26471;23.09.2026;Teknisyen 4;Garanti;1,1;1,4
+IE-26472;23.09.2026;Teknisyen 4;Müşteri;2,1;2,5
+IE-26473;23.09.2026;Teknisyen 5;Müşteri;2,0;2,5
+IE-26474;23.09.2026;Teknisyen 5;Müşteri;0,7;0,8
+IE-26475;23.09.2026;Teknisyen 5;Müşteri;0,6;0,7
+IE-26476;23.09.2026;Teknisyen 5;Garanti;0,8;1,2
+IE-26477;23.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;0,7;0,8
+IE-26478;23.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,4;0,5
+IE-26479;23.09.2026;Elektrik / Diagnoz Uzmanı;İç iş;1,8;1,8
+IE-26480;23.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,2;1,3
+IE-26481;23.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,0;1,3
+IE-26482;23.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,6;0,6
+IE-26483;24.09.2026;Usta 1 (Kıdemli);İç iş;1,1;1,0
+IE-26484;24.09.2026;Usta 1 (Kıdemli);Müşteri;0,6;0,6
+IE-26485;24.09.2026;Usta 1 (Kıdemli);Garanti;0,9;0,9
+IE-26486;24.09.2026;Usta 1 (Kıdemli);Müşteri;2,0;1,7
+IE-26487;24.09.2026;Usta 1 (Kıdemli);Müşteri;3,0;2,6
+IE-26488;24.09.2026;Usta 2;Müşteri;2,1;2,3
+IE-26489;24.09.2026;Usta 2;Müşteri;2,4;2,0
+IE-26490;24.09.2026;Usta 2;Müşteri;2,2;2,2
+IE-26491;24.09.2026;Usta 3;Müşteri;0,4;0,5
+IE-26492;24.09.2026;Usta 3;Garanti;1,4;1,9
+IE-26493;24.09.2026;Usta 3;Müşteri;1,1;1,1
+IE-26494;24.09.2026;Usta 3;Garanti;2,6;3,0
+IE-26495;24.09.2026;Teknisyen 4;Müşteri;2,0;2,3
+IE-26496;24.09.2026;Teknisyen 4;Müşteri;1,0;1,3
+IE-26497;24.09.2026;Teknisyen 4;Garanti;2,1;2,4
+IE-26498;24.09.2026;Teknisyen 5;Müşteri;0,4;0,5
+IE-26499;24.09.2026;Teknisyen 5;Müşteri;1,4;1,7
+IE-26500;24.09.2026;Teknisyen 5;Müşteri;1,0;1,4
+IE-26501;24.09.2026;Teknisyen 5;Müşteri;0,8;1,1
+IE-26502;24.09.2026;Teknisyen 5;Müşteri;1,0;1,1
+IE-26503;24.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,2;1,4
+IE-26504;24.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;3,0;3,5
+IE-26505;24.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,0;1,2
+IE-26506;25.09.2026;Usta 1 (Kıdemli);Garanti;2,1;2,2
+IE-26507;25.09.2026;Usta 1 (Kıdemli);Müşteri;1,7;1,7
+IE-26508;25.09.2026;Usta 1 (Kıdemli);Müşteri;1,1;1,0
+IE-26509;25.09.2026;Usta 1 (Kıdemli);Müşteri;2,7;2,5
+IE-26510;25.09.2026;Usta 2;İç iş;1,4;1,4
+IE-26511;25.09.2026;Usta 2;Müşteri;2,4;2,5
+IE-26512;25.09.2026;Usta 2;Garanti;0,6;0,6
+IE-26513;25.09.2026;Usta 2;Müşteri;1,9;1,7
+IE-26514;25.09.2026;Usta 3;Müşteri;1,0;1,1
+IE-26515;25.09.2026;Usta 3;Müşteri;2,6;2,7
+IE-26516;25.09.2026;Usta 3;Müşteri;0,5;0,6
+IE-26517;25.09.2026;Usta 3;Garanti;0,4;0,5
+IE-26518;25.09.2026;Usta 3;Müşteri;0,6;0,6
+IE-26519;25.09.2026;Teknisyen 4;Müşteri;1,1;1,3
+IE-26520;25.09.2026;Teknisyen 4;Müşteri;1,0;1,1
+IE-26521;25.09.2026;Teknisyen 4;Müşteri;0,5;0,6
+IE-26522;25.09.2026;Teknisyen 4;Müşteri;1,2;1,4
+IE-26523;25.09.2026;Teknisyen 4;Müşteri;2,0;2,2
+IE-26524;25.09.2026;Teknisyen 5;Müşteri;1,9;2,7
+IE-26525;25.09.2026;Teknisyen 5;Müşteri;0,5;0,6
+IE-26526;25.09.2026;Teknisyen 5;Garanti;0,7;0,9
+IE-26527;25.09.2026;Teknisyen 5;Müşteri;0,6;0,9
+IE-26528;25.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,0;1,0
+IE-26529;25.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;2,0;2,2
+IE-26530;25.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;1,7;2,4
+IE-26531;26.09.2026;Usta 1 (Kıdemli);Müşteri;4,4;3,4
+IE-26532;26.09.2026;Usta 1 (Kıdemli);Müşteri;1,0;0,9
+IE-26533;26.09.2026;Usta 1 (Kıdemli);Garanti;0,5;0,5
+IE-26534;26.09.2026;Usta 1 (Kıdemli);Müşteri;2,2;1,8
+IE-26535;26.09.2026;Usta 2;Garanti;0,7;0,8
+IE-26536;26.09.2026;Usta 2;İç iş;0,6;0,6
+IE-26537;26.09.2026;Usta 2;Müşteri;2,2;1,9
+IE-26538;26.09.2026;Usta 2;Müşteri;1,1;1,0
+IE-26539;26.09.2026;Usta 2;Müşteri;0,9;0,9
+IE-26540;26.09.2026;Usta 2;Müşteri;1,8;2,0
+IE-26541;26.09.2026;Usta 3;Müşteri;1,4;1,4
+IE-26542;26.09.2026;Usta 3;Müşteri;0,9;0,9
+IE-26543;26.09.2026;Usta 3;Müşteri;2,0;2,1
+IE-26544;26.09.2026;Usta 3;Müşteri;1,5;1,6
+IE-26545;26.09.2026;Teknisyen 4;İç iş;1,0;1,2
+IE-26546;26.09.2026;Teknisyen 4;Müşteri;2,4;2,5
+IE-26547;26.09.2026;Teknisyen 4;Müşteri;1,3;1,6
+IE-26548;26.09.2026;Teknisyen 5;Müşteri;1,1;1,4
+IE-26549;26.09.2026;Teknisyen 5;Garanti;2,0;2,9
+IE-26550;26.09.2026;Teknisyen 5;Müşteri;0,6;0,7
+IE-26551;26.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;1,3;1,5
+IE-26552;26.09.2026;Elektrik / Diagnoz Uzmanı;İç iş;1,3;1,6
+IE-26553;26.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;2,1;2,4
+IE-26554;28.09.2026;Usta 1 (Kıdemli);Müşteri;0,7;0,6
+IE-26555;28.09.2026;Usta 1 (Kıdemli);İç iş;1,7;1,6
+IE-26556;28.09.2026;Usta 1 (Kıdemli);Müşteri;0,9;0,7
+IE-26557;28.09.2026;Usta 1 (Kıdemli);Müşteri;1,5;1,2
+IE-26558;28.09.2026;Usta 1 (Kıdemli);Müşteri;1,5;1,1
+IE-26559;28.09.2026;Usta 1 (Kıdemli);İç iş;1,4;1,3
+IE-26560;28.09.2026;Usta 1 (Kıdemli);Müşteri;0,4;0,4
+IE-26561;28.09.2026;Usta 2;Müşteri;3,7;3,1
+IE-26562;28.09.2026;Usta 2;Müşteri;0,6;0,6
+IE-26563;28.09.2026;Usta 2;Garanti;0,5;0,5
+IE-26564;28.09.2026;Usta 2;Müşteri;3,1;2,8
+IE-26565;28.09.2026;Usta 3;Müşteri;1,0;1,2
+IE-26566;28.09.2026;Usta 3;Müşteri;1,8;1,7
+IE-26567;28.09.2026;Usta 3;Müşteri;0,8;0,9
+IE-26568;28.09.2026;Usta 3;Garanti;1,1;1,2
+IE-26569;28.09.2026;Usta 3;Garanti;1,4;1,7
+IE-26570;28.09.2026;Teknisyen 4;Müşteri;1,1;1,3
+IE-26571;28.09.2026;Teknisyen 4;Müşteri;1,8;2,3
+IE-26572;28.09.2026;Teknisyen 4;Müşteri;1,8;2,1
+IE-26573;28.09.2026;Teknisyen 5;Müşteri;0,7;0,8
+IE-26574;28.09.2026;Teknisyen 5;Müşteri;3,1;3,5
+IE-26575;28.09.2026;Teknisyen 5;Müşteri;0,4;0,4
+IE-26576;28.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;2,0;2,5
+IE-26577;28.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;2,1;2,6
+IE-26578;29.09.2026;Usta 1 (Kıdemli);Müşteri;1,5;1,3
+IE-26579;29.09.2026;Usta 1 (Kıdemli);Müşteri;2,4;2,2
+IE-26580;29.09.2026;Usta 1 (Kıdemli);Garanti;0,8;0,8
+IE-26581;29.09.2026;Usta 1 (Kıdemli);İç iş;2,6;2,2
+IE-26582;29.09.2026;Usta 2;Müşteri;0,8;0,9
+IE-26583;29.09.2026;Usta 2;Müşteri;0,8;0,7
+IE-26584;29.09.2026;Usta 2;Müşteri;1,3;1,3
+IE-26585;29.09.2026;Usta 2;Müşteri;2,7;2,3
+IE-26586;29.09.2026;Usta 2;Müşteri;1,0;1,1
+IE-26587;29.09.2026;Usta 3;Garanti;0,9;1,0
+IE-26588;29.09.2026;Usta 3;Garanti;0,5;0,5
+IE-26589;29.09.2026;Usta 3;Müşteri;2,6;2,5
+IE-26590;29.09.2026;Usta 3;Müşteri;1,0;1,0
+IE-26591;29.09.2026;Usta 3;Müşteri;0,7;0,7
+IE-26592;29.09.2026;Teknisyen 4;Müşteri;0,5;0,6
+IE-26593;29.09.2026;Teknisyen 4;Müşteri;1,2;1,4
+IE-26594;29.09.2026;Teknisyen 4;Müşteri;2,1;2,2
+IE-26595;29.09.2026;Teknisyen 4;İç iş;0,7;0,7
+IE-26596;29.09.2026;Teknisyen 4;Müşteri;0,3;0,3
+IE-26597;29.09.2026;Teknisyen 5;Müşteri;1,6;2,0
+IE-26598;29.09.2026;Teknisyen 5;İç iş;1,6;2,3
+IE-26599;29.09.2026;Teknisyen 5;Müşteri;0,7;1,0
+IE-26600;29.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;3,7;3,6
+IE-26601;29.09.2026;Elektrik / Diagnoz Uzmanı;Müşteri;0,7;0,8
+IE-26602;29.09.2026;Elektrik / Diagnoz Uzmanı;Garanti;0,9;1,2
+IE-26603;30.09.2026;Usta 1 (Kıdemli);İç iş;2,3;2,2
+IE-26604;30.09.2026;Usta 1 (Kıdemli);Müşteri;2,3;2,1
+IE-26605;30.09.2026;Usta 1 (Kıdemli);Müşteri;1,5;1,3
+IE-26606;30.09.2026;Usta 1 (Kıdemli);Müşteri;0,8;0,7
+IE-26607;30.09.2026;Usta 1 (Kıdemli);Müşteri;1,1;0,8
+IE-26608;30.09.2026;Usta 2;Müşteri;0,8;0,7
+IE-26609;30.09.2026;Usta 2;Müşteri;3,5;2,9
+IE-26610;30.09.2026;Usta 2;Müşteri;0,7;0,6
+IE-26611;30.09.2026;Usta 2;Müşteri;1,5;1,4
+IE-26612;30.09.2026;Usta 3;Müşteri;2,8;3,2
+IE-26613;30.09.2026;Usta 3;Müşteri;1,6;1,5
+IE-26614;30.09.2026;Usta 3;Müşteri;1,3;1,2
+IE-26615;30.09.2026;Teknisyen 4;Müşteri;0,5;0,7
+IE-26616;30.09.2026;Teknisyen 4;Müşteri;0,6;0,7
+IE-26617;30.09.2026;Teknisyen 4;İç iş;1,2;1,3
+IE-26618;30.09.2026;Teknisyen 4;Müşteri;1,1;1,2
+IE-26619;30.09.2026;Teknisyen 4;Müşteri;1,6;1,8
+IE-26620;30.09.2026;Teknisyen 5;Müşteri;0,6;0,7
+IE-26621;30.09.2026;Teknisyen 5;Müşteri;2,4;3,0
+IE-26622;30.09.2026;Teknisyen 5;Garanti;0,5;0,8
+IE-26623;30.09.2026;Teknisyen 5;Garanti;0,8;1,1
+IE-99001;17.09.2026;Usta 2;Müşteri;6,0;6,5
+IE-99002;17.09.2026;Usta 2;Müşteri;2,0;2,5

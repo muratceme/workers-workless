@@ -1,0 +1,12 @@
+{
+  "id": "is-emri-on-fiyat-tahmini",
+  "tur": "kod",
+  "ad": "İş Emri Ön Fiyat Tahmini",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --talepler talepler.xlsx --isler is_tanimlari.xlsx --parcalar parcalar.xlsx --saat-ucreti 2400",
+  "girdiler": ["İş emri talepleri (.xlsx/.csv): İş Emri No, Plaka, Müşteri, İş Kodu, Adet", "İş tanımları (.xlsx/.csv): İş Kodu, İş Adı, Tür (İşçilik / Parça), Parça Kodu, Miktar (saat ya da adet)", "Parça fiyat listesi (.xlsx/.csv): Parça Kodu, Parça Adı, Birim, Birim Fiyat (KDV hariç)"],
+  "ciktilar": ["Excel: Ön Fiyat Özeti (iş emri bazında işçilik, parça, iskonto, KDV, toplam ve tahmin aralığı), Detay (satır satır işçilik ve parça), Uyarılar"],
+  "internet": false
+}

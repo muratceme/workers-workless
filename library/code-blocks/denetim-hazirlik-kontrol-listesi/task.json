@@ -1,0 +1,12 @@
+{
+  "id": "denetim-hazirlik-kontrol-listesi",
+  "tur": "kod",
+  "ad": "Denetim Hazırlık Kontrol Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --liste denetim_listesi.xlsx --denetim 20.11.2026",
+  "girdiler": ["Denetim listesi (.xlsx/.csv): Standart, Bölüm, Madde No, Gereklilik, Gerekli Kayıt / Doküman, Kritik, Sorumlu, Durum (Hazır / Kısmen / Güncellenmeli / Eksik / Uygulanamaz), Son Güncelleme, Termin, Not"],
+  "ciktilar": ["Excel: Özet (genel, standart ve bölüm bazında hazırlık %), Aksiyon Listesi (hazır olmayan maddeler, sorumlu, termin), Tüm Maddeler, Uyarılar"],
+  "internet": false
+}

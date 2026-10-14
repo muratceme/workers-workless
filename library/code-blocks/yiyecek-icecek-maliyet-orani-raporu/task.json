@@ -1,0 +1,12 @@
+{
+  "id": "yiyecek-icecek-maliyet-orani-raporu",
+  "tur": "kod",
+  "ad": "Yiyecek-İçecek Maliyet Oranı Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --donem donem.xlsx --tolerans 1 --gun 30",
+  "girdiler": ["Dönem verisi (.xlsx/.csv): Departman, Tür (Yiyecek / İçecek), Açılış Stok, Alım, Transfer Giriş, Transfer Çıkış, Kapanış Stok, Personel Yemeği, İkram, Net Satış, Hedef %, Önceki Dönem %"],
+  "ciktilar": ["Excel: Maliyet Oranı (departman × tür; tüketim ve satılan maliyet, oran, hedef farkı, önceki döneme değişim, stok günü; yiyecek, içecek ve genel toplam), Uyarılar"],
+  "internet": false
+}

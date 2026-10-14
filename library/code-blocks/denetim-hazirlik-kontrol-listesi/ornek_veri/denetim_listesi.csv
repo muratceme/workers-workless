@@ -1,0 +1,30 @@
+Standart;Bölüm;Madde No;Gereklilik;Gerekli Kayıt / Doküman;Kritik;Sorumlu;Durum;Son Güncelleme;Termin;Not
+Sertifikasyon;Üst yönetim taahhüdü;S-1.1;Gıda güvenliği ve kalite politikası;İmzalı politika, yayım kaydı;Evet;Genel Müdür;Hazır;12.02.2026;;
+Sertifikasyon;Üst yönetim taahhüdü;S-1.2;Yönetimin gözden geçirmesi;Son YGG toplantı tutanağı ve aksiyonları;Evet;Kalite Müdürü;Kısmen;;30.10.2026;Aksiyon takibi eksik
+Sertifikasyon;Üst yönetim taahhüdü;S-1.3;Gıda güvenliği kültürü planı;Kültür değerlendirme anketi ve eylem planı;Hayır;İK Müdürü;Eksik;;15.11.2026;
+Sertifikasyon;Tehlike analizi (HACCP);S-2.1;HACCP ekibi ve yetkinlikleri;Ekip listesi, eğitim sertifikaları;Evet;Kalite Güvence Uzmanı;Hazır;05.03.2026;;
+Sertifikasyon;Tehlike analizi (HACCP);S-2.2;Akış şeması doğrulaması;Sahada doğrulanmış akış şemaları;Evet;Kalite Güvence Uzmanı;Hazır;18.09.2025;;Yeni hat şemaya eklenmeli mi?
+Sertifikasyon;Tehlike analizi (HACCP);S-2.3;Kritik kontrol noktaları ve kritik limitler;KKN tablosu, validasyon kanıtı;Evet;Kalite Güvence Uzmanı;Güncellenmeli;10.01.2025;25.10.2026;Kritik limit validasyonu yenilenecek
+Sertifikasyon;Tehlike analizi (HACCP);S-2.4;HACCP planının yıllık gözden geçirilmesi;Gözden geçirme tutanağı;Evet;HACCP Ekip Lideri;Eksik;;28.11.2026;
+Sertifikasyon;Doküman ve kayıt kontrolü;S-3.1;Doküman kontrol prosedürü;Prosedür, ana doküman listesi;Hayır;Doküman Sorumlusu;Hazır;02.06.2026;;
+Sertifikasyon;Doküman ve kayıt kontrolü;S-3.2;Kayıtların saklanması;Saklama süreleri listesi;Hayır;Doküman Sorumlusu;Hazır;02.06.2026;;
+Sertifikasyon;Tedarikçi onayı;S-4.1;Hammadde risk değerlendirmesi;Hammadde risk analizi tablosu;Evet;Satın Alma Uzmanı;Kısmen;;01.11.2026;Ambalaj malzemeleri eksik
+Sertifikasyon;Tedarikçi onayı;S-4.2;Onaylı tedarikçi listesi ve performans izlemesi;Onaylı tedarikçi listesi, değerlendirme kayıtları;Hayır;Satın Alma Uzmanı;Hazır;20.08.2026;;
+Sertifikasyon;Tedarikçi onayı;S-4.3;Hizmet sağlayıcı (haşere, laboratuvar) sözleşmeleri;Güncel sözleşmeler ve yetki belgeleri;Hayır;;Eksik;;;
+Sertifikasyon;İzlenebilirlik;S-5.1;İzlenebilirlik testi;Son izlenebilirlik tatbikatı raporu (süre ve kütle denkliği);Evet;Planlama Şefi;Eksik;;10.10.2026;Tatbikat ertelendi
+Sertifikasyon;İzlenebilirlik;S-5.2;Geri çağırma prosedürü ve iletişim listesi;Prosedür, güncel iletişim listesi;Evet;Kalite Müdürü;Hazır;14.04.2026;;
+Sertifikasyon;Alerjen yönetimi;S-6.1;Alerjen risk değerlendirmesi;Alerjen matrisi, çapraz bulaşma analizi;Evet;Kalite Güvence Uzmanı;Hazır;08.07.2026;;
+Sertifikasyon;Alerjen yönetimi;S-6.2;Alerjen temizlik validasyonu;Temizlik sonrası alerjen test sonuçları;Evet;Üretim Müdürü;Kısmen;;05.11.2026;Hat 2 testi bekleniyor
+Sertifikasyon;Tesis ve hijyen;S-7.1;Temizlik planı ve doğrulama kayıtları;Temizlik planı, ATP / swap sonuçları;Hayır;Sanitasyon Sorumlusu;Hazır;30.09.2026;;
+Sertifikasyon;Tesis ve hijyen;S-7.2;Haşere kontrol programı;Krokiler, ziyaret raporları, trend analizi;Hayır;Sanitasyon Sorumlusu;Kısmen;;20.10.2026;Trend analizi yapılmadı
+Sertifikasyon;Tesis ve hijyen;S-7.3;Cam ve kırılabilir malzeme kaydı;Kırılabilir malzeme listesi ve kontrol formları;Hayır;Bakım Şefi;Hazır;16.09.2026;;
+Sertifikasyon;Personel;S-8.1;Hijyen eğitimi kayıtları;Eğitim planı ve katılım listeleri;Hayır;İK Uzmanı;Kısmen;;31.10.2026;Yeni başlayan 6 kişi
+Sertifikasyon;Personel;S-8.2;Ziyaretçi ve yüklenici kuralları;Ziyaretçi formu, sağlık beyanı;Hayır;İdari İşler;Uygulanamaz;;;
+Resmî kontrol;Kayıt / onay belgeleri;R-1;İşletme kayıt / onay belgesi;Belgenin aslı ve güncel faaliyet konusu;Evet;Genel Müdür;Hazır;;;Süresiz belge
+Resmî kontrol;Kayıt / onay belgeleri;R-2;Sorumlu yönetici;Görevlendirme yazısı ve diploma;Hayır;Genel Müdür;Hazır;11.01.2026;;
+Resmî kontrol;İzleme;R-3;Su analiz raporları;Son dönem içme suyu analiz raporları;Evet;Bakım Şefi;Eksik;;24.10.2026;Numune alındı
+Resmî kontrol;İzleme;R-4;Ürün etiketleri;Güncel etiket örnekleri ve onay kayıtları;Hayır;Ar-Ge Uzmanı;Hazır;02.09.2026;;
+Resmî kontrol;İzleme;R-5;Atık ve yan ürün kayıtları;Atık bertaraf belgeleri;Hayır;Çevre Sorumlusu;Kısmen;;;
+Müşteri denetimi;Ürün güvenliği;M-1;Yabancı madde kontrol planı;Metal dedektör doğrulama kayıtları;Evet;Üretim Şefi;Hazır;13.10.2026;;
+Müşteri denetimi;Ürün güvenliği;M-2;Müşteri şikâyet analizi;Son 12 ay şikâyet trendi ve kök neden analizleri;Hayır;Kalite Müdürü;Kısmen;;12.11.2026;
+Müşteri denetimi;Ürün güvenliği;M-3;Gıda sahteciliği (fraud) zafiyet analizi;Zafiyet değerlendirme tablosu;Evet;Kalite Güvence Uzmanı;Eksik;;25.11.2026;

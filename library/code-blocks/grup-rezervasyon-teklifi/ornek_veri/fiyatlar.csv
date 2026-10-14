@@ -1,0 +1,10 @@
+Kalem;Tür;Birim;Fiyat;KDV %;Konaklama Vergisi;Başlangıç;Bitiş
+Standart Oda (Oda Kahvaltı);Oda;oda-gece;3.200,00;10;Evet;01.10.2026;13.11.2026
+Standart Oda (Oda Kahvaltı);Oda;oda-gece;2.900,00;10;Evet;14.11.2026;31.12.2026
+Deluxe Oda (Oda Kahvaltı);Oda;oda-gece;4.400,00;10;Evet;;
+Öğle Yemeği (set menü);Yemek;kişi;650,00;10;Hayır;;
+Akşam Yemeği (açık büfe);Yemek;kişi;850,00;10;Hayır;;
+Gala Yemeği;Yemek;kişi;1.450,00;10;Hayır;;
+Kahve Arası;Yemek;kişi;220,00;10;Hayır;;
+Toplantı Salonu (tam gün);Salon;gün;18.000,00;20;Hayır;;
+Teknik Ekipman (projeksiyon + ses);Diğer;gün;4.500,00;20;Hayır;;

@@ -1,0 +1,12 @@
+{
+  "id": "geri-cagirma-kampanyasi-arac-eslestirme",
+  "tur": "kod",
+  "ad": "Geri Çağırma Kampanyası Araç Eşleştirme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kampanya kampanya_sasileri.xlsx --musteriler musteriler.xlsx --yapilanlar yapilanlar.xlsx",
+  "girdiler": ["Kampanya şasi listesi (.xlsx/.csv): Kampanya Kodu, Kampanya Adı, Başlangıç Tarihi, Şasi No", "Servis müşteri kayıtları (.xlsx/.csv): Şasi No, Plaka, Müşteri, Telefon, Son Servis Tarihi", "Yapılan kampanya işlemleri (.xlsx/.csv, isteğe bağlı): Şasi No, Kampanya Kodu, İşlem Tarihi, İş Emri No"],
+  "ciktilar": ["Excel: Kampanya Özeti (şasi, bizde kayıtlı, yapılan, bekleyen, tamamlanma %), Bekleyen Araçlar (iletişim bilgisi, kaçırılan ziyaret), Uyarılar", "CSV: bekleyen araçlar (arama listesi)"],
+  "internet": false
+}

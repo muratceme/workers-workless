@@ -1,0 +1,12 @@
+{
+  "id": "aday-ogrenci-takip-listesi",
+  "tur": "kod",
+  "ad": "Aday Öğrenci Takip Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --adaylar adaylar.xlsx --takip 7",
+  "girdiler": ["Adaylar (.xlsx/.csv): Aday No, Öğrenci, Veli, Telefon, Kademe, Hedef Sınıf, Kaynak, İlk Temas Tarihi, Aşama, Kayıp Aşaması, Son Temas Tarihi, Sonraki Takip Tarihi, Kayıp Nedeni, Sorumlu, Kayıt Tarihi"],
+  "ciktilar": ["Excel: Takip Listesi, Huni (aşama bazında ulaşan aday ve geçiş %), Kademe / Kaynak / Sorumlu özetleri (dönüşüm %, kapanış %, ortalama kayıt süresi), Kayıp Nedenleri, Uyarılar"],
+  "internet": false
+}
