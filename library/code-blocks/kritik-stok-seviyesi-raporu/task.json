@@ -1,0 +1,12 @@
+{
+  "id": "kritik-stok-seviyesi-raporu",
+  "tur": "kod",
+  "ad": "Kritik Stok Seviyesi Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --stok eczane_stok_durumu.xlsx --tarih 30.09.2026 --emniyet 7 --kapsam 30",
+  "girdiler": ["Eczane stok durumu (.xlsx/.csv): Malzeme Kodu, Malzeme Adı, Birim, Mevcut Stok, Günlük ya da Aylık Tüketim, Tedarik Süresi, Emniyet Günü, Bekleyen Sipariş, Birim Fiyat, Hayati", "Dönem tüketimi (isteğe bağlı): Malzeme Kodu, Tüketim"],
+  "ciktilar": ["Excel: Kritik Stok (durum, emniyet stoğu, kritik seviye, stok günü, tahmini tükenme, önerilen sipariş), Tüm Malzemeler, Uyarılar"],
+  "internet": false
+}

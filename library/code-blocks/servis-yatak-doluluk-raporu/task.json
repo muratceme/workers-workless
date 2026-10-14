@@ -1,0 +1,12 @@
+{
+  "id": "servis-yatak-doluluk-raporu",
+  "tur": "kod",
+  "ad": "Servis Yatak Doluluk Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --servisler servisler.xlsx --yatislar yatislar.xlsx --tarih 30.09.2026",
+  "girdiler": ["Servisler (.xlsx/.csv): Servis, Yatak Sayısı", "Yatışlar: Protokol No, Hasta, Servis, Yatış Tarihi, Taburcu Tarihi, Planlanan Taburcu, Hekim"],
+  "ciktilar": ["Excel: Servisler (hasta günü, doluluk, ortalama kalış, devir hızı, yatan hasta, boş yatak), Beklenen Taburcular, Yatan Hastalar, Uyarılar"],
+  "internet": false
+}

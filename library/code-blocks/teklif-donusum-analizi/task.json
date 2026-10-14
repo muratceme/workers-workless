@@ -1,0 +1,12 @@
+{
+  "id": "teklif-donusum-analizi",
+  "tur": "kod",
+  "ad": "Teklif Dönüşüm Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --teklifler navlun_teklifleri.xlsx --tarih 30.09.2026",
+  "girdiler": ["Navlun teklifleri (.xlsx/.csv): Teklif No, Tarih, Müşteri, Çıkış, Varış (ya da Hat), Mod, Teklif Fiyatı, Para Birimi, Durum, Rakip Fiyat, Kayıp Nedeni, Satış Temsilcisi"],
+  "ciktilar": ["Excel: Özet, Kırılımlar (hat, müşteri, ay, mod, temsilci bazında kazanma oranı), Fiyat Farkı (bantlara göre kazanma oranı), Kayıp Nedenleri, Bekleyen Teklifler, Uyarılar"],
+  "internet": false
+}

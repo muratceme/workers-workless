@@ -1,0 +1,12 @@
+{
+  "id": "kampanya-fiyat-simulasyonu",
+  "tur": "kod",
+  "ad": "Kampanya Fiyat Simülasyonu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --urunler kampanya_urunleri.xlsx --min-marj 10",
+  "girdiler": ["Kampanya ürünleri (.xlsx/.csv): Ürün Kodu, Ürün Adı, Satış Fiyatı (KDV dahil), KDV, Birim Maliyet, Komisyon %, Kargo, Hizmet Bedeli, Mevcut Adet, İndirim %, Kupon, Beklenen Adet"],
+  "ciktilar": ["Excel: Simülasyon (mevcut ve kampanya birim kârı, marj, gerekli adet artışı, başabaş ve min. marj fiyatı, toplam kâr farkı), Birim Kırılım, Uyarılar"],
+  "internet": false
+}

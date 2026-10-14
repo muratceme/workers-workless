@@ -1,0 +1,12 @@
+{
+  "id": "kayip-musteri-churn-listesi",
+  "tur": "kod",
+  "ad": "Kayıp Müşteri (Churn) Listesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --alisverisler uye_alisverisleri.xlsx --uyeler uyeler.xlsx --tarih 30.09.2026",
+  "girdiler": ["Üye alışverişleri (.xlsx/.csv): Üye No, Ad Soyad, Tarih, Tutar", "Üyeler: Üye No, Ad Soyad, İleti İzni (Evet / Hayır), Kanal"],
+  "ciktilar": ["Excel: Kampanya Listesi (izinli risk altında, tek alışverişli ve kayıp üyeler), Tüm Hedef Üyeler, Tüm Üyeler (alışveriş aralığı, değer segmenti), Özet, Uyarılar"],
+  "internet": false
+}

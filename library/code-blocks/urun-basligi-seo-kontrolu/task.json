@@ -1,0 +1,12 @@
+{
+  "id": "urun-basligi-seo-kontrolu",
+  "tur": "kod",
+  "ad": "Ürün Başlığı SEO Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --urunler urun_basliklari.xlsx --min 30 --max 100",
+  "girdiler": ["Ürün başlıkları (.xlsx/.csv): Ürün Kodu, Başlık, Marka, Ürün Tipi, Renk, Materyal, Beden / Ebat, Model", "Yasaklı ifadeler (isteğe bağlı): her satıra bir ifade"],
+  "ciktilar": ["Excel: Başlık Kontrolü (uzunluk, sorunlar, önerilen başlık), Sorun Özeti, Uyarılar"],
+  "internet": false
+}

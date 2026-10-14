@@ -1,0 +1,9 @@
+Ürün Kodu;Barkod;Ürün Adı;Kategori;Fiyat;Satış Adedi
+S001;8690000000011;Tam Yağlı Süt 1 L;Süt Ürünleri;42,50;1.200
+S002;8690000000028;Beyaz Peynir 500 g;Süt Ürünleri;189,90;300
+S003;8690000000035;Yoğurt 1 kg;Süt Ürünleri;64,90;800
+G001;8690000000042;Ayçiçek Yağı 5 L;Temel Gıda;389,00;250
+G002;8690000000059;Pirinç 1 kg;Temel Gıda;74,90;600
+G003;8690000000066;Toz Şeker 3 kg;Temel Gıda;129,90;400
+T001;8690000000073;Çamaşır Deterjanı 4 kg;Temizlik;249,90;150
+T002;8690000000080;Bulaşık Deterjanı 1 L;Temizlik;69,90;350

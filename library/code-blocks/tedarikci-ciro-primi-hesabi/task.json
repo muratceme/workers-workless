@@ -1,0 +1,12 @@
+{
+  "id": "tedarikci-ciro-primi-hesabi",
+  "tur": "kod",
+  "ad": "Tedarikçi Ciro Primi Hesabı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --anlasmalar ciro_primi_anlasmalari.xlsx --alimlar tedarikci_alimlari.xlsx --baslangic 01.01.2026 --bitis 31.12.2026 --tarih 30.09.2026",
+  "girdiler": ["Ciro primi anlaşmaları (.xlsx/.csv): Tedarikçi, Alt Sınır, Prim %, Yöntem (Tüm ciro / Dilimli)", "Tedarikçi alımları: Tedarikçi, Tarih, Tutar (KDV hariç), Tür (Alış / İade)"],
+  "ciktilar": ["Excel: Prim Hesabı (net ciro, ulaşılan kademe, hak edilen prim, sonraki kademe, dönem sonu tahmini), Kademeler, Aylık Ciro, Uyarılar"],
+  "internet": false
+}

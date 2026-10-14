@@ -1,0 +1,12 @@
+{
+  "id": "satis-hizi-sell-through-raporu",
+  "tur": "kod",
+  "ad": "Satış Hızı (Sell-Through) Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --satislar urun_magaza_satislari.xlsx --tarih 30.09.2026 --sezon-sonu 15.11.2026",
+  "girdiler": ["Ürün-mağaza satışları (.xlsx/.csv): Ürün Kodu, Ürün Adı, Mağaza, Giriş Tarihi, Gelen Adet, Satış Adedi, Eldeki Stok, Son 7 Gün Satış"],
+  "ciktilar": ["Excel: Ürünler (satış oranı, günlük hız, stok günü, öneri, transfer önerisi), Mağaza Detayı, Uyarılar"],
+  "internet": false
+}

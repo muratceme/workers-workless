@@ -1,0 +1,63 @@
+Teklif No;Tarih;Müşteri;Çıkış;Varış;Mod;Teklif Fiyatı;Para Birimi;Durum;Rakip Fiyat;Kayıp Nedeni;Satış Temsilcisi
+TK-2601;01.07.2026;Örnek Gıda İhracat;İstanbul;New York;Hava;5,59;USD;Kaybedildi;5,26;Fiyat;Satış 2
+TK-2602;03.07.2026;Örnek Makine Ltd.;Mersin;Hamburg;Deniz FCL;2555,07;USD;Kazanıldı;;;Satış 2
+TK-2603;03.07.2026;Örnek Gıda İhracat;Mersin;Hamburg;Deniz FCL;2318,11;USD;Kaybedildi;2151,81;Fiyat;Satış 2
+TK-2604;05.07.2026;Örnek Gıda İhracat;Bursa;Milano;Karayolu LTL;1286,33;EUR;Kazanıldı;;;Satış 1
+TK-2605;05.07.2026;Örnek Otomotiv Yan Sanayi;Mersin;Hamburg;Deniz FCL;2551,02;USD;Kazanıldı;2568,00;;Satış 2
+TK-2606;07.07.2026;Örnek Tekstil A.Ş.;İstanbul;New York;Hava;5,97;USD;Kaybedildi;6,02;Ekipman / araç yok;Satış 3
+TK-2607;09.07.2026;Örnek Mobilya;Bursa;Milano;Karayolu LTL;1323,04;EUR;Kazanıldı;1415,63;;Satış 3
+TK-2608;09.07.2026;Örnek Mobilya;İzmir;Rotterdam;Deniz FCL;2032,19;USD;Kaybedildi;;Transit süre;Satış 2
+TK-2609;11.07.2026;Örnek Makine Ltd.;Mersin;Hamburg;Deniz FCL;2650,88;USD;Kazanıldı;2656,82;;Satış 1
+TK-2610;13.07.2026;Örnek Gıda İhracat;İstanbul;New York;Hava;5,44;USD;Kaybedildi;5,40;Müşteri vazgeçti;Satış 2
+TK-2611;13.07.2026;Örnek Makine Ltd.;Gebze;Paris;Karayolu FTL;3532,41;EUR;Kaybedildi;3329,26;Fiyat;Satış 1
+TK-2612;15.07.2026;Örnek Mobilya;İstanbul;New York;Hava;5,90;USD;Kazanıldı;6,23;;Satış 2
+TK-2613;17.07.2026;Örnek Tekstil A.Ş.;Bursa;Milano;Karayolu LTL;1251,78;EUR;İptal;;;Satış 2
+TK-2614;19.07.2026;Örnek Otomotiv Yan Sanayi;İstanbul;New York;Hava;5,16;USD;Kaybedildi;4,83;Fiyat;Satış 1
+TK-2615;19.07.2026;Örnek Tekstil A.Ş.;Bursa;Milano;Karayolu LTL;1299,96;EUR;Kaybedildi;1201,37;Fiyat;Satış 1
+TK-2616;21.07.2026;Örnek Gıda İhracat;Mersin;Hamburg;Deniz FCL;2749,74;USD;Kaybedildi;2491,94;Fiyat;Satış 2
+TK-2617;23.07.2026;Örnek Mobilya;Mersin;Hamburg;Deniz FCL;2733,87;USD;Kaybedildi;2586,92;Fiyat;Satış 2
+TK-2618;25.07.2026;Örnek Gıda İhracat;İzmir;Rotterdam;Deniz FCL;1999,12;USD;Kaybedildi;1874,26;Fiyat;Satış 1
+TK-2619;27.07.2026;Örnek Otomotiv Yan Sanayi;İstanbul;New York;Hava;5,64;USD;Kaybedildi;5,12;Fiyat;Satış 2
+TK-2620;27.07.2026;Örnek Mobilya;Gebze;Paris;Karayolu FTL;3486,10;EUR;İptal;;;Satış 3
+TK-2621;29.07.2026;Örnek Makine Ltd.;Gebze;Paris;Karayolu FTL;3950,88;EUR;Kaybedildi;3518,44;Fiyat;Satış 2
+TK-2622;31.07.2026;Örnek Otomotiv Yan Sanayi;Mersin;Hamburg;Deniz FCL;2317,65;USD;Kazanıldı;2446,00;;Satış 1
+TK-2623;02.08.2026;Örnek Gıda İhracat;Gebze;Paris;Karayolu FTL;3541,46;EUR;Kaybedildi;3457,82;Transit süre;Satış 3
+TK-2624;04.08.2026;Örnek Otomotiv Yan Sanayi;Gebze;Paris;Karayolu FTL;3262,76;EUR;Kaybedildi;2838,75;Fiyat;Satış 1
+TK-2625;06.08.2026;Örnek Gıda İhracat;Bursa;Milano;Karayolu LTL;1408,82;EUR;İptal;;;Satış 3
+TK-2626;08.08.2026;Örnek Tekstil A.Ş.;İstanbul;New York;Hava;5,59;USD;Kaybedildi;5,58;Transit süre;Satış 2
+TK-2627;08.08.2026;Örnek Tekstil A.Ş.;Mersin;Hamburg;Deniz FCL;2756,78;USD;Kaybedildi;;Müşteri vazgeçti;Satış 1
+TK-2628;10.08.2026;Örnek Gıda İhracat;Mersin;Hamburg;Deniz FCL;2684,68;USD;Kaybedildi;2604,21;Fiyat;Satış 1
+TK-2629;12.08.2026;Örnek Makine Ltd.;Gebze;Paris;Karayolu FTL;3925,50;EUR;Kazanıldı;;;Satış 2
+TK-2630;14.08.2026;Örnek Mobilya;İstanbul;New York;Hava;4,71;USD;Kazanıldı;4,82;;Satış 3
+TK-2631;14.08.2026;Örnek Otomotiv Yan Sanayi;İstanbul;New York;Hava;4,68;USD;İptal;;;Satış 3
+TK-2632;16.08.2026;Örnek Gıda İhracat;İstanbul;Münih;Karayolu FTL;3600,77;EUR;Kaybedildi;;Transit süre;Satış 2
+TK-2633;18.08.2026;Örnek Gıda İhracat;İstanbul;Münih;Karayolu FTL;2903,41;EUR;Kazanıldı;;;Satış 1
+TK-2634;18.08.2026;Örnek Tekstil A.Ş.;İstanbul;New York;Hava;5,44;USD;Kaybedildi;4,67;Fiyat;Satış 2
+TK-2635;20.08.2026;Örnek Makine Ltd.;İstanbul;New York;Hava;5,18;USD;Kaybedildi;4,59;Fiyat;Satış 1
+TK-2636;22.08.2026;Örnek Tekstil A.Ş.;Gebze;Paris;Karayolu FTL;3904,08;EUR;Kaybedildi;;Transit süre;Satış 1
+TK-2637;24.08.2026;Örnek Makine Ltd.;İzmir;Rotterdam;Deniz FCL;2023,93;USD;Kaybedildi;1765,13;Fiyat;Satış 3
+TK-2638;26.08.2026;Örnek Gıda İhracat;Mersin;Hamburg;Deniz FCL;2176,80;USD;Kaybedildi;;Müşteri vazgeçti;Satış 2
+TK-2639;26.08.2026;Örnek Gıda İhracat;Gebze;Paris;Karayolu FTL;3346,77;EUR;Kaybedildi;3390,57;Müşteri vazgeçti;Satış 2
+TK-2640;28.08.2026;Örnek Gıda İhracat;İzmir;Rotterdam;Deniz FCL;2091,90;USD;Kaybedildi;2114,68;Transit süre;Satış 2
+TK-2641;28.08.2026;Örnek Otomotiv Yan Sanayi;İstanbul;New York;Hava;5,76;USD;Kazanıldı;6,05;;Satış 2
+TK-2642;30.08.2026;Örnek Gıda İhracat;İstanbul;Münih;Karayolu FTL;3307,02;EUR;Kazanıldı;;;Satış 2
+TK-2643;01.09.2026;Örnek Tekstil A.Ş.;Bursa;Milano;Karayolu LTL;1217,45;EUR;Kaybedildi;1239,20;Müşteri vazgeçti;Satış 1
+TK-2644;03.09.2026;Örnek Gıda İhracat;Mersin;Hamburg;Deniz FCL;2758,24;USD;Kaybedildi;2368,21;Fiyat;Satış 2
+TK-2645;03.09.2026;Örnek Otomotiv Yan Sanayi;İstanbul;New York;Hava;5,30;USD;Kaybedildi;5,06;Fiyat;Satış 3
+TK-2646;05.09.2026;Örnek Tekstil A.Ş.;İstanbul;Münih;Karayolu FTL;3148,25;EUR;Kazanıldı;;;Satış 1
+TK-2647;05.09.2026;Örnek Otomotiv Yan Sanayi;Mersin;Hamburg;Deniz FCL;2343,19;USD;Kaybedildi;2193,82;Fiyat;Satış 1
+TK-2648;07.09.2026;Örnek Tekstil A.Ş.;Bursa;Milano;Karayolu LTL;1195,70;EUR;Kazanıldı;;;Satış 2
+TK-2649;07.09.2026;Örnek Mobilya;Mersin;Hamburg;Deniz FCL;2423,07;USD;Kaybedildi;2139,08;Fiyat;Satış 1
+TK-2650;09.09.2026;Örnek Mobilya;İstanbul;New York;Hava;5,39;USD;Kaybedildi;;Ekipman / araç yok;Satış 1
+TK-2651;11.09.2026;Örnek Tekstil A.Ş.;İstanbul;Münih;Karayolu FTL;3570,50;EUR;Kaybedildi;3456,73;Fiyat;Satış 3
+TK-2652;13.09.2026;Örnek Makine Ltd.;İzmir;Rotterdam;Deniz FCL;2008,58;USD;Kaybedildi;1833,18;Fiyat;Satış 2
+TK-2653;13.09.2026;Örnek Mobilya;Gebze;Paris;Karayolu FTL;3597,51;EUR;Kaybedildi;3460,73;Fiyat;Satış 2
+TK-2654;15.09.2026;Örnek Tekstil A.Ş.;İzmir;Rotterdam;Deniz FCL;2128,74;USD;İptal;;;Satış 3
+TK-2655;17.09.2026;Örnek Mobilya;Mersin;Hamburg;Deniz FCL;2481,42;USD;Kazanıldı;;;Satış 2
+TK-2656;19.09.2026;Örnek Otomotiv Yan Sanayi;İzmir;Rotterdam;Deniz FCL;2173,59;USD;Kaybedildi;;Müşteri vazgeçti;Satış 2
+TK-2657;21.09.2026;Örnek Makine Ltd.;Mersin;Hamburg;Deniz FCL;2267,03;USD;Beklemede;;;Satış 3
+TK-2658;23.09.2026;Örnek Makine Ltd.;Gebze;Paris;Karayolu FTL;3871,14;EUR;Beklemede;;;Satış 1
+TK-2659;25.09.2026;Örnek Otomotiv Yan Sanayi;İstanbul;New York;Hava;5,66;USD;Beklemede;;;Satış 2
+TK-2660;25.09.2026;Örnek Tekstil A.Ş.;İzmir;Rotterdam;Deniz FCL;1979,24;USD;Beklemede;;;Satış 2
+TK-2661;27.09.2026;Örnek Otomotiv Yan Sanayi;İstanbul;New York;Hava;5,50;USD;Beklemede;;;Satış 2
+TK-2662;29.09.2026;Örnek Gıda İhracat;Mersin;Hamburg;Deniz FCL;2300,46;USD;Beklemede;;;Satış 1

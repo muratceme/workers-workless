@@ -1,0 +1,12 @@
+{
+  "id": "son-kullanma-tarihi-takibi",
+  "tur": "kod",
+  "ad": "Son Kullanma Tarihi Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --stok ilac_stok_lotlari.xlsx --tarih 30.09.2026 --yakin 90",
+  "girdiler": ["İlaç ve sarf stok lotları (.xlsx/.csv): Malzeme Kodu, Malzeme Adı, Lot No, Son Kullanma Tarihi, Miktar, Birim Fiyat, Depo, Günlük ya da Aylık Tüketim", "Dönem tüketimi (isteğe bağlı): Malzeme Kodu, Tüketim"],
+  "ciktilar": ["Excel: Lotlar (kalan gün, durum, süresinde kullanılabilecek ve risk miktarı, risk tutarı), Malzemeler, Uyarılar"],
+  "internet": false
+}

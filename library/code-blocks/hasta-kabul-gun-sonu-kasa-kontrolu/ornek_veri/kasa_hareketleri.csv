@@ -1,0 +1,21 @@
+Makbuz No;Saat;Protokol No;Hasta;İşlem;Ödeme Türü;Tutar;Fatura No;Kullanıcı
+M-1001;08:12;P-24501;A. Y.;Tahsilat;Nakit;350,00;F-55001;Kayıt 1
+M-1002;08:25;P-24502;M. K.;Tahsilat;Kredi Kartı;1.200,00;F-55002;Kayıt 1
+M-1003;08:41;P-24503;S. D.;Tahsilat;Nakit;600,00;F-55003;Kayıt 2
+M-1004;09:05;P-24504;E. T.;Tahsilat;Kredi Kartı;2.750,00;F-55004;Kayıt 2
+M-1005;09:18;P-24505;H. B.;Tahsilat;Nakit;1.450,00;F-55005;Kayıt 1
+M-1006;09:40;P-24506;Z. A.;Tahsilat;Kredi Kartı;3.900,00;F-55006;Kayıt 1
+M-1007;10:02;P-24507;C. Ö.;Tahsilat;Havale / EFT;5.000,00;F-55007;Kayıt 2
+M-1008;10:15;P-24508;B. Ç.;Tahsilat;Nakit;2.400,00;F-55008;Kayıt 2
+M-1009;10:33;P-24503;S. D.;İade;Nakit;150,00;F-55003;Kayıt 1
+M-1010;11:10;P-24509;F. G.;Tahsilat;Kredi Kartı;4.600,00;F-55009;Kayıt 1
+M-1011;11:22;P-24510;K. İ.;Tahsilat;Nakit;800,00;;Kayıt 2
+M-1012;11:47;P-24511;D. U.;Tahsilat;Nakit;1.950,00;F-55011;Kayıt 1
+M-1013;12:05;P-24512;O. E.;İptal;Nakit;500,00;F-55012;Kayıt 2
+M-1014;12:06;P-24512;O. E.;Tahsilat;Nakit;450,00;F-55012;Kayıt 2
+M-1015;13:30;P-24513;G. R.;Tahsilat;Kredi Kartı;7.100,00;F-55013;Kayıt 1
+M-1016;14:02;P-24514;T. N.;Tahsilat;Nakit;3.200,00;F-55014;Kayıt 2
+M-1017;14:20;P-24402;L. S.;İade;Kredi Kartı;600,00;;Kayıt 1
+M-1018;15:11;P-24515;V. M.;Tahsilat;Nakit;2.000,00;F-55015;Kayıt 1
+M-1019;15:45;P-24516;Ş. H.;Tahsilat;Kredi Kartı;500,00;F-55016;Kayıt 2
+M-1020;16:10;P-24517;İ. Ç.;Tahsilat;Nakit;1.120,00;F-55017;Kayıt 2

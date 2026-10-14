@@ -1,0 +1,12 @@
+{
+  "id": "urun-gami-delist-onerisi",
+  "tur": "kod",
+  "ad": "Ürün Gamı (Delist) Önerisi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --urunler kategori_urun_performansi.xlsx --tarih 30.09.2026",
+  "girdiler": ["Ürün performansı (.xlsx/.csv): Kategori, Ürün Kodu, Ürün Adı, Satış Adedi, Ciro, Brüt Kâr (ya da Maliyet), Raf Alanı, Listeleme Tarihi, Stratejik"],
+  "ciktilar": ["Excel: Delist Adayları (gerekçeli), Tüm Ürünler (ciro / kâr / raf payı, raf verimliliği, öneri), Kategoriler, Uyarılar"],
+  "internet": false
+}

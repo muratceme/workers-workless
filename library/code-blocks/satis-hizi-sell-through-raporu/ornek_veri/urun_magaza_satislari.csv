@@ -1,0 +1,14 @@
+Ürün Kodu;Ürün Adı;Mağaza;Giriş Tarihi;Gelen Adet;Satış Adedi;Eldeki Stok;Son 7 Gün Satış
+KZ-1001;Örme Kazak Lacivert;Merkez;01.08.2026;120;84;36;14
+KZ-1001;Örme Kazak Lacivert;Sahil;01.08.2026;80;61;19;12
+KZ-1001;Örme Kazak Lacivert;AVM;01.08.2026;100;30;70;3
+GM-2040;Keten Gömlek Beyaz;Merkez;15.07.2026;90;22;68;2
+GM-2040;Keten Gömlek Beyaz;Sahil;15.07.2026;60;20;40;1
+GM-2040;Keten Gömlek Beyaz;AVM;15.07.2026;80;18;62;
+PN-3300;Kadife Pantolon Kahve;Merkez;01.09.2026;100;45;55;12
+PN-3300;Kadife Pantolon Kahve;AVM;01.09.2026;100;38;62;10
+MN-5100;Yün Kaban Siyah;Merkez;15.09.2026;40;4;36;3
+MN-5100;Yün Kaban Siyah;AVM;15.09.2026;40;2;38;1
+TS-0800;Basic Tişört Beyaz;Merkez;01.06.2026;300;270;30;15
+TS-0800;Basic Tişört Beyaz;Sahil;01.06.2026;200;152;48;4
+TS-0800;Basic Tişört Beyaz;AVM;01.06.2026;250;245;5;7

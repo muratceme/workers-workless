@@ -1,0 +1,16 @@
+Kategori;Ürün Kodu;Ürün Adı;Satış Adedi;Ciro;Brüt Kâr;Raf Alanı;Listeleme Tarihi;Stratejik
+Bisküvi;B01;Kakaolu Bisküvi 200 g;9.500;285.000;71.250;120;15.03.2023;
+Bisküvi;B02;Sade Bisküvi 150 g;8.200;196.800;43.300;90;15.03.2023;
+Bisküvi;B03;Kremalı Bisküvi 100 g;5.100;153.000;41.300;90;10.01.2024;
+Bisküvi;B04;Yulaflı Bisküvi 250 g;2.300;103.500;25.900;60;01.06.2024;
+Bisküvi;B05;Tam Buğdaylı Kraker;1.100;38.500;6.200;60;01.02.2024;
+Bisküvi;B06;Hindistan Cevizli Bisküvi;650;19.500;2.150;60;01.04.2023;
+Bisküvi;B07;Glutensiz Bisküvi 150 g;400;22.000;5.500;30;01.05.2024;Evet
+Bisküvi;B08;Portakallı Bisküvi;280;8.400;-350;40;01.09.2023;
+Bisküvi;B09;Fıstık Ezmeli Bisküvi;350;12.250;3.400;30;20.08.2026;
+Şampuan;S01;Şampuan Normal Saç 500 ml;3.200;256.000;64.000;100;01.01.2023;
+Şampuan;S02;Şampuan Kepeğe Karşı 500 ml;2.400;216.000;58.300;100;01.01.2023;
+Şampuan;S03;Şampuan Boyalı Saç 400 ml;900;99.000;23.800;80;01.03.2024;
+Şampuan;S04;Bebek Şampuanı 300 ml;800;72.000;19.400;60;01.03.2024;Evet
+Şampuan;S05;Şampuan Yağlı Saç 500 ml;350;31.500;4.400;80;01.06.2023;
+Şampuan;S06;Şampuan Kuru Saç 600 ml;300;30.000;6.600;40;01.06.2023;

@@ -1,0 +1,12 @@
+{
+  "id": "hasta-kabul-gun-sonu-kasa-kontrolu",
+  "tur": "kod",
+  "ad": "Hasta Kabul Gün Sonu Kasa Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --hareketler kasa_hareketleri.xlsx --faturalar gunun_faturalari.xlsx --devir 2500 --bankaya 10000 --sayim 6665 --pos 19450",
+  "girdiler": ["HBYS kasa hareketleri (.xlsx/.csv): Makbuz No, Saat, Protokol No, Hasta, İşlem (Tahsilat / İade / İptal), Ödeme Türü, Tutar, Fatura No, Kullanıcı", "Günün faturaları (isteğe bağlı): Fatura No, Protokol No, Hasta, Tahsil Edilecek", "Komut satırı: devir, bankaya teslim, sayılan nakit, POS gün sonu"],
+  "ciktilar": ["Excel: Kasa Devir Raporu (beklenen nakit, sayım farkı, POS farkı, devreden nakit), Ödeme Türleri, Kullanıcılar, Fatura Kontrolü, Hareketler, Uyarılar"],
+  "internet": false
+}

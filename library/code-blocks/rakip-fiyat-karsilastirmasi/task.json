@@ -1,0 +1,12 @@
+{
+  "id": "rakip-fiyat-karsilastirmasi",
+  "tur": "kod",
+  "ad": "Rakip Fiyat Karşılaştırması",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --urunler bizim_fiyatlar.xlsx --taramalar rakip_taramalari.xlsx",
+  "girdiler": ["Bizim fiyatlar (.xlsx/.csv): Ürün Kodu, Barkod, Ürün Adı, Kategori, Fiyat, Satış Adedi", "Rakip taramaları: Tarih, Rakip, Ürün Kodu ya da Barkod, Rakip Fiyat, Kampanya"],
+  "ciktilar": ["Excel: Endeks Özeti (rakip ve kategori bazında ağırlıklı fiyat endeksi), Ürün Karşılaştırma, Taramalar, Uyarılar"],
+  "internet": false
+}

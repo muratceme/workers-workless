@@ -1,0 +1,13 @@
+Malzeme Kodu;Malzeme Adı;Birim;Mevcut Stok;Aylık Tüketim;Tedarik Süresi;Emniyet Günü;Bekleyen Sipariş;Birim Fiyat;Hayati
+IL-0101;Parasetamol 500 mg tablet;Tablet;9.000;2.400;5;;;1,20;
+IL-0215;Seftriakson 1 g flakon;Flakon;120;150;7;;;38,50;
+IL-0330;Enoksaparin 4000 IU şırınga;Şırınga;35;120;10;;100;92,00;
+IL-0412;Omeprazol 40 mg flakon;Flakon;140;60;7;;;64,00;
+IL-0520;Ondansetron 8 mg ampul;Ampul;12;30;7;;;27,40;
+IL-0710;Adrenalin 1 mg ampul;Ampul;0;20;3;14;;12,80;Evet
+IL-0725;Atropin 1 mg ampul;Ampul;18;15;3;14;;9,60;Evet
+IL-0801;Heparin 25.000 IU flakon;Flakon;40;45;10;;;48,00;
+SR-1001;Serum fizyolojik %0,9 500 ml;Şişe;1.550;900;3;;;14,30;
+TM-2005;IV kanül 20G;Adet;2.500;600;14;;;6,80;
+TM-2010;Steril eldiven 7,5;Çift;800;;10;;;9,90;
+TM-2020;Cerrahi maske;Adet;300;1.500;5;;2.000;1,10;

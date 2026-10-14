@@ -1,0 +1,14 @@
+Malzeme Kodu;Malzeme Adı;Lot No;Son Kullanma Tarihi;Miktar;Birim Fiyat;Depo;Aylık Tüketim
+IL-0101;Parasetamol 500 mg tablet;PRC2401;11/2026;3.000;1,20;Ana Eczane;2.400
+IL-0101;Parasetamol 500 mg tablet;PRC2409;06/2027;6.000;1,20;Ana Eczane;2.400
+IL-0215;Seftriakson 1 g flakon;SFT5512;31.10.2026;180;38,50;Ana Eczane;150
+IL-0215;Seftriakson 1 g flakon;SFT5590;03/2027;400;38,50;Ana Eczane;150
+IL-0330;Enoksaparin 4000 IU şırınga;ENX7781;12/2026;450;92,00;Ana Eczane;120
+IL-0412;Omeprazol 40 mg flakon;OMP1120;08/2026;25;64,00;Acil Depo;60
+IL-0412;Omeprazol 40 mg flakon;OMP1188;01/2027;140;64,00;Ana Eczane;60
+IL-0520;Ondansetron 8 mg ampul;OND3305;15.11.2026;90;27,40;Ana Eczane;30
+IL-0611;Amoksisilin-klavulanat 1 g flakon;AMK9012;02/2027;300;55,10;Ana Eczane;45
+SR-1001;Serum fizyolojik %0,9 500 ml;SF26-114;04/2027;1.200;14,30;Serum Deposu;900
+SR-1001;Serum fizyolojik %0,9 500 ml;SF26-071;10/2026;350;14,30;Serum Deposu;900
+TM-2005;IV kanül 20G;KN-55120;09/2028;2.500;6,80;Sarf Deposu;600
+TM-2010;Steril eldiven 7,5;ELD-8812;12/2026;800;9,90;Sarf Deposu;

@@ -1,0 +1,12 @@
+{
+  "id": "bolge-magaza-karsilastirma-raporu",
+  "tur": "kod",
+  "ad": "Bölge Mağaza Karşılaştırma Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --magazalar magaza_donem_verileri.xlsx --gun 30",
+  "girdiler": ["Mağaza dönem verileri (.xlsx/.csv): Bölge, Mağaza, Satış Alanı m², Ciro, Geçen Yıl Ciro, Fiş Adedi, Ziyaretçi, Satılan Malın Maliyeti, Ortalama Stok"],
+  "ciktilar": ["Excel: Mağazalar (m² verimliliği, LFL, dönüşüm, sepet, stok devir hızı, bölgeye göre endeks ve sıra), Bölgeler, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,9 @@
+Ürün Kodu;Ürün Adı;Satış Fiyatı;KDV;Birim Maliyet;Komisyon;Kargo;Hizmet Bedeli;Mevcut Adet;İndirim;Kupon;Beklenen Adet
+EV-101;Kahve Makinesi;2.499,00;20;1.150,00;15;65;8;120;15;100;200
+EV-102;Su Isıtıcı;899,00;20;390,00;15;45;8;300;20;0;420
+EV-103;Tost Makinesi;1.299,00;20;640,00;15;55;8;150;25;50;260
+TK-201;Pamuklu Nevresim Takımı;1.149,00;10;470,00;18;50;8;90;30;0;180
+TK-202;Banyo Havlusu Seti;549,00;10;230,00;18;40;8;200;10;25;420
+KZ-301;Saklama Kabı 3'lü;299,00;20;120,00;20;35;8;400;20;0;650
+KZ-302;Döküm Tava 28 cm;1.799,00;20;860,00;15;55;8;60;10;0;120
+KZ-303;Çelik Termos 750 ml;649,00;;260,00;15;40;8;180;15;50;

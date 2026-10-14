@@ -1,0 +1,12 @@
+{
+  "id": "kargo-teslim-performansi",
+  "tur": "kod",
+  "ad": "Kargo Teslim Performansı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --gonderiler kargo_gonderileri.xlsx --tarih 30.09.2026 --hedef 3",
+  "girdiler": ["Kargo gönderileri (.xlsx/.csv): Gönderi No, Kargo Firması, Kargoya Veriliş Tarihi, Teslim Tarihi, Durum, İl"],
+  "ciktilar": ["Excel: Firmalar (ortalama ve medyan teslim süresi, zamanında teslim, hasar, kayıp ve iade oranı), Firma ve İl, Gecikmiş Gönderiler, Uyarılar"],
+  "internet": false
+}

@@ -553,12 +553,36 @@ analizinde kişisel veri / suistimal değildir notları README'de.
 Dersler: gruplamayı sıralamadan önce yap ya da ilk görülen yazımı sakla (kaizen bölüm adı); uyarı "kim" alanı strip edilir
 (test beklentisinde sondaki boşluk olmaz); yuvarlanmış ara değerden oran hesaplayıp test yazma (personel UPT endeksi).
 
+### Tur 25 (15 kod bloğu)
+bolge-magaza-karsilastirma-raporu, rakip-fiyat-karsilastirmasi, urun-gami-delist-onerisi, tedarikci-ciro-primi-hesabi,
+satis-hizi-sell-through-raporu, kayip-musteri-churn-listesi, kampanya-fiyat-simulasyonu, urun-basligi-seo-kontrolu,
+kargo-teslim-performansi, hasta-kabul-gun-sonu-kasa-kontrolu, servis-yatak-doluluk-raporu, kurum-bazli-gelir-ve-kesinti-raporu,
+son-kullanma-tarihi-takibi, kritik-stok-seviyesi-raporu, teklif-donusum-analizi.
+Toplam 343 paket (311 kod + 32 agent).
+Notlar: perakende kategori, e-ticaret, hastane (kasa, yatak, kurum faturası, eczane) ve lojistik satış. İnternetten kaynak
+teyidi yapılmadı. Yasal dayanak olarak yalnız churn README'sinde 6563 sayılı Kanun / İYS onay şartı anıldı; KDV oranı
+varsayılanı %20 (yalnız kampanya simülasyonunda, KDV sütunu boşsa; --kdv ile değişir). Yatak doluluk / ortalama kalış
+formülleri yaygın hastane istatistiği tanımı; README kurum ve SB tanımıyla doğrulanmasını söylüyor.
+Varsayımlar (politika): bölge sapma %20, LFL −%5; rakip endeks bandı ±%5, tarama geçerliliği 30 gün, yarı/iki kat şüpheli
+eşleşme; delist kuyruğu %10, raf verimi 50, yeni ürün 90 gün; sell-through %40, 4 hafta, stok günü 7/60; churn 180 gün kayıp,
+ortalama aralığın 2 katı risk, tek alışveriş 90 gün; kampanya min. marj %10, komisyon matrahı KDV dahil; başlık 30-100
+karakter + varsayılan yasaklı ifade listesi; kargo hedef 3 gün, %90 zamanında, %1 hasar, %0,5 kayıp; kasa toleransı 1 TL;
+doluluk %90/%50; kesinti %5, tahsil 90 gün; SKT yakın 90 gün (FEFO); kritik stok emniyet 7 gün, kapsam 30 gün;
+teklif kazanma eşiği %20 (en az 5 sonuçlanmış teklif), bekleme 14 gün.
+Tasarım tercihleri: rakip fiyatında şüpheli eşleşme ve kampanyalı tarama endekse girmez; başlık önerisi sıra doğruysa
+özgün kelime sırasını korur, özellik eşleşmesinde ek almış hâl sayılır (pamuk → pamuklu); kritik stokta sipariş önerisi yalnız
+stoksuz / kritik altındakilere (sipariş noktası mantığı); SKT'de ay-yıl yazımı ayın son günü.
+Dersler: Bash heredoc'u bazı içeriklerde (çok satırlı CSV + test) "unexpected EOF" verdi; uzun dosyaları Write aracıyla yaz.
+Python 3.10 hedefinde f-string içinde aynı tırnakla iç içe f-string kullanma (3.12 özelliği).
+
 ### KALDIĞIM YER
-Sıradaki (puan 2): Bölge Mağaza Karşılaştırma Raporu, Rakip Fiyat Karşılaştırması, Ürün Gamı (Delist) Önerisi, Tedarikçi
-Ciro Primi Hesabı, Satış Hızı (Sell-Through) Raporu, Kayıp Müşteri (Churn) Listesi, Kampanya Fiyat Simülasyonu, Ürün Başlığı SEO
-Kontrolü, Kargo Teslim Performansı… (tam liste için kalan2.mjs; proje klasöründen çalıştır). Teminat Mektubu Metin Kontrolü,
-Müşteri İhtiyaç Analizi, Vardiya Devir Notu Özeti, Mağaza Ziyaret Raporu, Vitrin Yönergesi, Renk Paleti, Trend Raporu Özeti ve
-Şüpheli İşlem Bildirim Taslağı agent adayı.
+Sıradaki (puan 2, kod): Hasta Seyahat ve Tedavi Takvimi, Hastane Operasyon Panosu, Hekim Performans Raporu, Güvenlik
+Raporlama Sistemi Olay Analizi, SKS Öz Değerlendirme Takibi, Beton Numune ve Kırım Takibi, Şantiye Puantajı, Malzeme Talep ve
+Sevk Takibi, İmalat Kontrol Formu Takibi, Denetim Hazırlık Kontrol Listesi, Besin Değeri Hesaplama, Raf Ömrü Takibi, Temizlik ve
+Sanitasyon Kayıt Kontrolü, Duyusal Test Sonuç Analizi, Zincir Market Listeleme Takibi, otel (giriş-çıkış, no-show, grup teklifi,
+kanal maliyeti, oda arıza, F&B maliyet), e-Defter berat takibi… (tam liste için kalan2.mjs; proje klasöründen çalıştır).
+Agent adayları (puan 2): Teminat Mektubu Metin Kontrolü, Müşteri İhtiyaç Analizi, Vardiya Devir Notu Özeti, Mağaza Ziyaret
+Raporu, Vitrin Yönergesi, Renk Paleti, Trend Raporu Özeti, Randevu Hatırlatma Mesajları, Tıbbi Rapor Yazım Kontrolü.
 Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,
 Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi,
 Planogram Uyum, Hasta Şikâyet Sınıflandırma, Hasta Memnuniyet Anketi Analizi, Müşteri Yük Durum Bilgilendirmesi, Konşimento Bilgi

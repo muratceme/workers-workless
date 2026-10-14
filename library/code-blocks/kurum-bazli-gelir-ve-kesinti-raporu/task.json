@@ -1,0 +1,12 @@
+{
+  "id": "kurum-bazli-gelir-ve-kesinti-raporu",
+  "tur": "kod",
+  "ad": "Kurum Bazlı Gelir ve Kesinti Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --faturalar kurum_faturalari.xlsx --tarih 30.09.2026",
+  "girdiler": ["Kurum faturaları (.xlsx/.csv): Fatura No, Kurum, Kurum Türü, Fatura Tarihi, Fatura Tutarı, Kesinti, Tahsil Edilen, Tahsil Tarihi"],
+  "ciktilar": ["Excel: Kurumlar (kesinti oranı, tahsil oranı, açık bakiye, ortalama tahsil süresi, yaşlandırma), Kurum Türleri, Açık Faturalar, Uyarılar"],
+  "internet": false
+}
