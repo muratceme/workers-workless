@@ -1,0 +1,12 @@
+{
+  "id": "sks-oz-degerlendirme-takibi",
+  "tur": "kod",
+  "ad": "SKS Öz Değerlendirme Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --degerlendirme oz_degerlendirme.xlsx --tarih 30.09.2026",
+  "girdiler": ["Öz değerlendirme (.xlsx/.csv): Standart Kodu, Bölüm, Birim, Değerlendirme (Karşılıyor / Kısmen / Karşılamıyor / Değerlendirme dışı), Puan, Gerekli Doküman, Doküman Durumu, Sorumlu, Termin, Açıklama"],
+  "ciktilar": ["Excel: Birimler (uyum oranı, eksik doküman), Bölümler, Aksiyon Listesi (termin, gecikme, sorumlu), Tüm Değerlendirmeler, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,12 @@
+{
+  "id": "zincir-market-listeleme-takibi",
+  "tur": "kod",
+  "ad": "Zincir Market Listeleme Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --tarama magaza_ziyaretleri.xlsx --urunler urun_listesi.xlsx",
+  "girdiler": ["Mağaza ziyaretleri (.xlsx/.csv): Tarih, Zincir, Mağaza, Ürün Kodu, Listeli, Raf Fiyatı, Stok Durumu", "Ürün listesi (isteğe bağlı): Ürün Kodu, Ürün Adı, Önerilen Raf Fiyatı"],
+  "ciktilar": ["Excel: Zincir × Ürün (listeleme %, stoksuzluk %, raf fiyatı ve sapma), Zincirler, Mağaza Detayı, Uyarılar"],
+  "internet": false
+}

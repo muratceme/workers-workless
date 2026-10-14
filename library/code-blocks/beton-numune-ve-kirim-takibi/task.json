@@ -1,0 +1,12 @@
+{
+  "id": "beton-numune-ve-kirim-takibi",
+  "tur": "kod",
+  "ad": "Beton Numune ve Kırım Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --numuneler beton_numuneleri.xlsx --tarih 15.10.2026",
+  "girdiler": ["Beton numuneleri (.xlsx/.csv): Döküm No, Döküm Tarihi, Yer / Eleman, Beton Sınıfı (C30/37), Numune Tipi (Küp / Silindir), Numune No, Kırım Yaşı, Dayanım (MPa)"],
+  "ciktilar": ["Excel: Kırım Sonuçları (ortalama, fck'ye oran, numune farkı, bireysel kriter), Grup Değerlendirmesi, Uyarılar"],
+  "internet": false
+}

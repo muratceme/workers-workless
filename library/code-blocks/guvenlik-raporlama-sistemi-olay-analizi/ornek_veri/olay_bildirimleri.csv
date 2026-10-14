@@ -1,0 +1,75 @@
+Bildirim No;Olay Tarihi;Birim;Olay Türü;Olay Kategorisi;Zarar Düzeyi;Önlenebilir;Kök Neden;DÖF No;Kapanış Tarihi
+GRS-501;02.07.2026;Dahiliye;Çalışan güvenliği;Sözlü şiddet;Orta;Evet;Prosedüre uyulmaması;DÖF-828;
+GRS-502;08.07.2026;Laboratuvar;Hasta güvenliği;Basınç yarası;Ramak kala;Evet;İş yükü;;18.07.2026
+GRS-503;08.07.2026;Yoğun Bakım;Hasta güvenliği;Kimlik doğrulama hatası;Zarar yok;Hayır;Prosedüre uyulmaması;;26.07.2026
+GRS-504;09.07.2026;Ameliyathane;Hasta güvenliği;Düşme;Ramak kala;Evet;Prosedüre uyulmaması;;03.08.2026
+GRS-505;10.07.2026;Dahiliye;Hasta güvenliği;Transfüzyon;Zarar yok;Evet;Çevresel;;26.07.2026
+GRS-506;11.07.2026;Genel Cerrahi;Hasta güvenliği;Cerrahi güvenlik;Ramak kala;;;;16.07.2026
+GRS-507;12.07.2026;Yoğun Bakım;Hasta güvenliği;Basınç yarası;Orta;Hayır;Ekipman;;
+GRS-508;14.07.2026;Ameliyathane;Çalışan güvenliği;Fiziksel şiddet;Ramak kala;Evet;Eğitim eksikliği;;29.07.2026
+GRS-509;14.07.2026;Yoğun Bakım;Hasta güvenliği;Düşme;Orta;;;DÖF-301;
+GRS-510;16.07.2026;Genel Cerrahi;Çalışan güvenliği;Kayma / takılma;Zarar yok;Evet;Ekipman;;23.08.2026
+GRS-511;21.07.2026;Genel Cerrahi;Hasta güvenliği;Cerrahi güvenlik;Ramak kala;;;;27.07.2026
+GRS-512;22.07.2026;Yoğun Bakım;Çalışan güvenliği;Kan ve vücut sıvısı teması;Hafif;Evet;Çevresel;;01.08.2026
+GRS-513;22.07.2026;Ameliyathane;Hasta güvenliği;Cerrahi güvenlik;Ramak kala;Hayır;İş yükü;;25.08.2026
+GRS-514;23.07.2026;Genel Cerrahi;Hasta güvenliği;Basınç yarası;Hafif;Hayır;İletişim;;23.08.2026
+GRS-515;26.07.2026;Ameliyathane;Hasta güvenliği;Transfüzyon;Ramak kala;Evet;Eğitim eksikliği;;17.08.2026
+GRS-516;26.07.2026;Acil;Hasta güvenliği;Transfüzyon;Hafif;;;;12.08.2026
+GRS-517;27.07.2026;Acil;Hasta güvenliği;Cerrahi güvenlik;Zarar yok;Hayır;Eğitim eksikliği;;07.08.2026
+GRS-518;27.07.2026;Yoğun Bakım;Çalışan güvenliği;Fiziksel şiddet;Zarar yok;Evet;İletişim;;
+GRS-519;28.07.2026;Genel Cerrahi;Hasta güvenliği;Basınç yarası;Zarar yok;Evet;Ekipman;;
+GRS-520;29.07.2026;Ameliyathane;Hasta güvenliği;Cerrahi güvenlik;Ramak kala;Evet;Ekipman;;03.08.2026
+GRS-521;29.07.2026;Yoğun Bakım;Hasta güvenliği;Basınç yarası;Zarar yok;Evet;İş yükü;;26.08.2026
+GRS-522;30.07.2026;Laboratuvar;Hasta güvenliği;İlaç hatası;Zarar yok;Hayır;Ekipman;;21.08.2026
+GRS-523;04.08.2026;Laboratuvar;Hasta güvenliği;Basınç yarası;Zarar yok;Hayır;İletişim;;18.08.2026
+GRS-524;04.08.2026;Acil;Hasta güvenliği;Cerrahi güvenlik;Hafif;Evet;Ekipman;;07.08.2026
+GRS-525;05.08.2026;Yoğun Bakım;Çalışan güvenliği;Sözlü şiddet;Hafif;Hayır;Prosedüre uyulmaması;;
+GRS-526;07.08.2026;Genel Cerrahi;Çalışan güvenliği;Kan ve vücut sıvısı teması;Zarar yok;Evet;İletişim;;15.09.2026
+GRS-527;07.08.2026;Yoğun Bakım;Çalışan güvenliği;Kayma / takılma;Zarar yok;;;;
+GRS-528;08.08.2026;Yoğun Bakım;Çalışan güvenliği;Kayma / takılma;Orta;Evet;İletişim;;
+GRS-529;09.08.2026;Genel Cerrahi;Çalışan güvenliği;Sözlü şiddet;Ramak kala;;;;01.09.2026
+GRS-530;09.08.2026;Dahiliye;Çalışan güvenliği;Kesici-delici alet yaralanması;Zarar yok;Evet;İş yükü;;12.09.2026
+GRS-531;12.08.2026;Yoğun Bakım;Çalışan güvenliği;Kayma / takılma;Ramak kala;;;;18.09.2026
+GRS-532;14.08.2026;Acil;Hasta güvenliği;Basınç yarası;Hafif;Evet;İletişim;;07.09.2026
+GRS-533;15.08.2026;Yoğun Bakım;Hasta güvenliği;Transfüzyon;Zarar yok;Hayır;Prosedüre uyulmaması;;11.09.2026
+GRS-534;17.08.2026;Dahiliye;Çalışan güvenliği;Kayma / takılma;Zarar yok;;;;28.08.2026
+GRS-535;18.08.2026;Yoğun Bakım;Hasta güvenliği;Transfüzyon;Ramak kala;Evet;Eğitim eksikliği;;19.09.2026
+GRS-536;18.08.2026;Yoğun Bakım;Çalışan güvenliği;Sözlü şiddet;Ramak kala;;;;19.09.2026
+GRS-537;19.08.2026;Yoğun Bakım;Çalışan güvenliği;Kayma / takılma;Zarar yok;Hayır;İş yükü;;19.09.2026
+GRS-538;20.08.2026;Dahiliye;Hasta güvenliği;İlaç hatası;Ramak kala;Evet;İletişim;;30.08.2026
+GRS-539;21.08.2026;Yoğun Bakım;Hasta güvenliği;Basınç yarası;Zarar yok;Evet;Ekipman;;29.08.2026
+GRS-540;22.08.2026;Acil;Hasta güvenliği;İlaç hatası;Zarar yok;;;;03.09.2026
+GRS-541;22.08.2026;Ameliyathane;Hasta güvenliği;Cerrahi güvenlik;Zarar yok;Evet;Çevresel;;14.09.2026
+GRS-542;23.08.2026;Laboratuvar;Çalışan güvenliği;Kan ve vücut sıvısı teması;Hafif;Evet;Ekipman;;11.09.2026
+GRS-543;23.08.2026;Acil;Hasta güvenliği;Transfüzyon;Zarar yok;Hayır;Prosedüre uyulmaması;;30.08.2026
+GRS-544;26.08.2026;Ameliyathane;Çalışan güvenliği;Sözlü şiddet;Zarar yok;;;;09.09.2026
+GRS-545;27.08.2026;Genel Cerrahi;Hasta güvenliği;Transfüzyon;Zarar yok;;;;
+GRS-546;27.08.2026;Acil;Hasta güvenliği;Basınç yarası;Zarar yok;Evet;Ekipman;;07.09.2026
+GRS-547;31.08.2026;Ameliyathane;Hasta güvenliği;Cerrahi güvenlik;Ramak kala;Evet;İletişim;;21.09.2026
+GRS-548;04.09.2026;Ameliyathane;Hasta güvenliği;Düşme;Zarar yok;;;;
+GRS-549;05.09.2026;Ameliyathane;Hasta güvenliği;Kimlik doğrulama hatası;Zarar yok;Evet;Prosedüre uyulmaması;;12.09.2026
+GRS-550;06.09.2026;Yoğun Bakım;Hasta güvenliği;Düşme;Zarar yok;Evet;Prosedüre uyulmaması;;
+GRS-551;06.09.2026;Acil;Çalışan güvenliği;Kesici-delici alet yaralanması;Zarar yok;Evet;Eğitim eksikliği;;
+GRS-552;07.09.2026;Yoğun Bakım;Hasta güvenliği;Basınç yarası;Orta;Evet;Prosedüre uyulmaması;DÖF-346;26.09.2026
+GRS-553;08.09.2026;Dahiliye;Hasta güvenliği;Laboratuvar numune hatası;Hafif;Evet;İş yükü;;28.09.2026
+GRS-554;08.09.2026;Genel Cerrahi;Hasta güvenliği;İlaç hatası;Zarar yok;;;;
+GRS-555;10.09.2026;Laboratuvar;Hasta güvenliği;Kimlik doğrulama hatası;Zarar yok;Hayır;Prosedüre uyulmaması;;
+GRS-556;11.09.2026;Acil;Hasta güvenliği;Laboratuvar numune hatası;Ramak kala;Evet;Eğitim eksikliği;;
+GRS-557;12.09.2026;Ameliyathane;Çalışan güvenliği;Kayma / takılma;Zarar yok;Evet;Eğitim eksikliği;;
+GRS-558;13.09.2026;Laboratuvar;Çalışan güvenliği;Kayma / takılma;Hafif;Evet;Çevresel;;16.09.2026
+GRS-559;13.09.2026;Dahiliye;Çalışan güvenliği;Fiziksel şiddet;Zarar yok;Hayır;Prosedüre uyulmaması;;21.09.2026
+GRS-560;14.09.2026;Ameliyathane;Hasta güvenliği;İlaç hatası;Orta;;;DÖF-773;
+GRS-561;15.09.2026;Ameliyathane;Hasta güvenliği;Düşme;Ramak kala;Hayır;İş yükü;;24.09.2026
+GRS-562;15.09.2026;Acil;Hasta güvenliği;Laboratuvar numune hatası;Hafif;Evet;İletişim;;
+GRS-563;16.09.2026;Acil;Hasta güvenliği;Basınç yarası;Zarar yok;Evet;Prosedüre uyulmaması;;23.09.2026
+GRS-564;16.09.2026;Ameliyathane;Hasta güvenliği;Kimlik doğrulama hatası;Ramak kala;Evet;İletişim;;28.09.2026
+GRS-565;19.09.2026;Dahiliye;Hasta güvenliği;Basınç yarası;Ramak kala;Hayır;Eğitim eksikliği;;28.09.2026
+GRS-566;20.09.2026;Ameliyathane;Çalışan güvenliği;Kesici-delici alet yaralanması;Ramak kala;Evet;Ekipman;;
+GRS-567;22.09.2026;Ameliyathane;Hasta güvenliği;Düşme;Ramak kala;Evet;İş yükü;;
+GRS-568;23.09.2026;Yoğun Bakım;Hasta güvenliği;Cerrahi güvenlik;Zarar yok;Evet;İş yükü;;
+GRS-569;24.09.2026;Acil;Hasta güvenliği;Basınç yarası;Orta;Evet;İletişim;DÖF-944;
+GRS-570;24.09.2026;Dahiliye;Hasta güvenliği;Cerrahi güvenlik;Zarar yok;Evet;Prosedüre uyulmaması;;
+GRS-571;26.09.2026;Genel Cerrahi;Hasta güvenliği;Transfüzyon;Ramak kala;;;;
+GRS-572;27.09.2026;Dahiliye;Çalışan güvenliği;Kayma / takılma;Zarar yok;Hayır;Eğitim eksikliği;;
+GRS-573;28.09.2026;Ameliyathane;Hasta güvenliği;Basınç yarası;Hafif;Evet;Ekipman;;
+GRS-574;14.09.2026;Genel Cerrahi;Hasta güvenliği;Cerrahi güvenlik;Ciddi;Evet;Prosedüre uyulmaması;;

@@ -1,0 +1,12 @@
+{
+  "id": "malzeme-talep-ve-sevk-takibi",
+  "tur": "kod",
+  "ad": "Malzeme Talep ve Sevk Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --talepler malzeme_talepleri.xlsx --tarih 15.10.2026 --tedarik 7",
+  "girdiler": ["Malzeme talepleri (.xlsx/.csv): Talep No, Talep Tarihi, Malzeme, Miktar, Birim, İhtiyaç Tarihi, İmalat / Yer, Sipariş No, Sipariş Tarihi, Tedarikçi, Termin, Teslim Edilen, Teslim Tarihi"],
+  "ciktilar": ["Excel: Talepler (durum, kalan miktar, risk), Tedarikçiler (zamanında teslim %, ortalama süre), Uyarılar"],
+  "internet": false
+}

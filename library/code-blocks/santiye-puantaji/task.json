@@ -1,0 +1,12 @@
+{
+  "id": "santiye-puantaji",
+  "tur": "kod",
+  "ad": "Şantiye Puantajı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --puantaj gunluk_puantaj.xlsx --gun-saat 7,5",
+  "girdiler": ["Günlük puantaj (.xlsx/.csv): Tarih, Personel, Sicil, Firma, Ekip, İmalat, Saat (ya da Gün), Fazla Mesai"],
+  "ciktilar": ["Excel: Puantaj Cetveli (kişi × gün), Özet (firma, ekip, imalat bazında adam-gün), Günlük, Uyarılar"],
+  "internet": false
+}

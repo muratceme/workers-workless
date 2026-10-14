@@ -575,12 +575,31 @@ stoksuz / kritik altındakilere (sipariş noktası mantığı); SKT'de ay-yıl y
 Dersler: Bash heredoc'u bazı içeriklerde (çok satırlı CSV + test) "unexpected EOF" verdi; uzun dosyaları Write aracıyla yaz.
 Python 3.10 hedefinde f-string içinde aynı tırnakla iç içe f-string kullanma (3.12 özelliği).
 
+### Tur 26 (15 kod bloğu)
+guvenlik-raporlama-sistemi-olay-analizi, sks-oz-degerlendirme-takibi, hasta-seyahat-ve-tedavi-takvimi, hastane-operasyon-panosu,
+hekim-performans-raporu, beton-numune-ve-kirim-takibi, santiye-puantaji, malzeme-talep-ve-sevk-takibi, imalat-kontrol-formu-takibi,
+besin-degeri-hesaplama, raf-omru-takibi, temizlik-ve-sanitasyon-kayit-kontrolu, duyusal-test-sonuc-analizi,
+zincir-market-listeleme-takibi, iptal-ve-no-show-analizi.
+Toplam 358 paket (326 kod + 32 agent).
+Notlar: hastane kalite/yönetim, şantiye, gıda kalite/Ar-Ge, kanal satış, otel ön büro. İnternetten teyit yapılmadı; bilinen
+dayanaklar: TS EN 206 başlangıç üretimi kriteri (fcm ≥ fck+4, fci ≥ fck−4; parametreli), C30/37 silindir/küp okuması;
+4857 İş Kanunu günlük 11 / haftalık 45 saat; TGK etiketleme yönetmeliği enerji katsayıları (yağ 37/9, karb 17/4, protein 17/4,
+lif 8/2, poliol 10/2,4, alkol 29/7, organik asit 13/3), tuz = sodyum × 2,5, referans alım (8400 kJ/2000 kcal, yağ 70, doymuş 20,
+karb 260, şeker 90, protein 50, tuz 6); rekabet hukuku: tavsiye raf fiyatı zorlanamaz (README notu). Hepsi README'de "güncel
+metinden doğrulayın" diye geçiyor. Duyusal analizde F / t dağılımı kodda (eksik beta), bilinen kritik değerlerle test edildi.
+Varsayımlar: GRS açık bildirim 30 gün; SKS kısmen %50, hedef %80; hasta takviminde uçuş süresi varsayılanı yok (örnekte 5);
+pano doluluk %95/%50, hedef %90; hekim sapma %50 (bilgi); beton tolerans 2 gün, numune farkı %15; puantaj 7,5 saat/adam-gün;
+malzeme tedarik 7 gün; ITP bekleme 2 gün; raf ömrü kabul %66, yakın 30 gün; sanitasyon vardiya/kapalı gün parametre;
+duyusal α 0,05, panelist sapması 1,5; zincir listeleme %80, OOS %10, fiyat ±%5; iptal %25, no-show %5 (en az 10 rez).
+Bilinen eski sorun: önceki turlardaki bazı uyarı metinlerinde sayıdan sonra sabit "'i" eki var (ör. "%33'i"); Türkçe ek
+uyumu her sayı için doğru değil. Bu turda yazılanlar düzeltildi; eskiler için toplu tarama yapılabilir.
+
 ### KALDIĞIM YER
-Sıradaki (puan 2, kod): Hasta Seyahat ve Tedavi Takvimi, Hastane Operasyon Panosu, Hekim Performans Raporu, Güvenlik
-Raporlama Sistemi Olay Analizi, SKS Öz Değerlendirme Takibi, Beton Numune ve Kırım Takibi, Şantiye Puantajı, Malzeme Talep ve
-Sevk Takibi, İmalat Kontrol Formu Takibi, Denetim Hazırlık Kontrol Listesi, Besin Değeri Hesaplama, Raf Ömrü Takibi, Temizlik ve
-Sanitasyon Kayıt Kontrolü, Duyusal Test Sonuç Analizi, Zincir Market Listeleme Takibi, otel (giriş-çıkış, no-show, grup teklifi,
-kanal maliyeti, oda arıza, F&B maliyet), e-Defter berat takibi… (tam liste için kalan2.mjs; proje klasöründen çalıştır).
+Sıradaki (puan 2, kod): Denetim Hazırlık Kontrol Listesi, otel (Günlük Giriş-Çıkış Listesi, Grup Rezervasyon Teklifi, Kanal
+Maliyet Analizi, Oda Arıza ve Bakım Talep Takibi, Yiyecek-İçecek Maliyet Oranı Raporu), e-Defter Berat Yükleme Takibi, SGK Teşvik
+Uygunluk Ön Kontrolü (mevzuat teyidi gerekir), Vekâlet Ücreti ve Masraf Hesabı (tarife teyidi gerekir), Borçlu Ödeme Planı
+Hesaplama, Araç Stok Yaşlandırma, Servis Randevu Kapasite Planı, Periyodik Bakım Hatırlatma Listesi, Test Sürüşü ve Teklif
+Takibi… (tam liste için kalan2.mjs; proje klasöründen çalıştır).
 Agent adayları (puan 2): Teminat Mektubu Metin Kontrolü, Müşteri İhtiyaç Analizi, Vardiya Devir Notu Özeti, Mağaza Ziyaret
 Raporu, Vitrin Yönergesi, Renk Paleti, Trend Raporu Özeti, Randevu Hatırlatma Mesajları, Tıbbi Rapor Yazım Kontrolü.
 Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,

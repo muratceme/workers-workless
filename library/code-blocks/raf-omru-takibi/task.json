@@ -1,0 +1,12 @@
+{
+  "id": "raf-omru-takibi",
+  "tur": "kod",
+  "ad": "Raf Ömrü Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --stok parti_stoklari.xlsx --musteriler musteri_kabul_kriterleri.xlsx --sevkiyat planlanan_sevkiyat.xlsx --tarih 15.10.2026",
+  "girdiler": ["Parti stokları (.xlsx/.csv): Ürün Kodu, Ürün Adı, Parti No, Üretim Tarihi, Son Tüketim Tarihi ya da Raf Ömrü, Miktar, Depo", "Müşteri kabul kriterleri (isteğe bağlı): Müşteri, Ürün Kodu, Kabul Kriteri %, En Az Kalan Gün", "Planlanan sevkiyat (isteğe bağlı): Sevk Tarihi, Müşteri, Ürün Kodu, Parti No, Miktar"],
+  "ciktilar": ["Excel: Partiler (kalan gün, kalan ömür %, durum, uygun müşteriler), Sevkiyat Kontrolü, Uyarılar"],
+  "internet": false
+}

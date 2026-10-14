@@ -1,0 +1,12 @@
+{
+  "id": "iptal-ve-no-show-analizi",
+  "tur": "kod",
+  "ad": "İptal ve No-Show Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --rezervasyonlar rezervasyonlar.xlsx --min 10",
+  "girdiler": ["Rezervasyonlar (.xlsx/.csv): Rezervasyon No, Rezervasyon Tarihi, Giriş Tarihi, Çıkış Tarihi (ya da Gece), Kanal, Oda Tipi, Durum (Konakladı / İptal / No-show), İptal Tarihi, Tutar"],
+  "ciktilar": ["Excel: Kırılımlar (kanal, oda tipi, rezervasyon öncesi süre, ay bazında iptal ve no-show oranı, kayıp oda-gece ve gelir), İptal Zamanı, Uyarılar"],
+  "internet": false
+}

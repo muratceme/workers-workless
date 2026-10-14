@@ -1,0 +1,10 @@
+Ürün Kodu;Ürün Adı;Parti No;Üretim Tarihi;Son Tüketim Tarihi;Raf Ömrü;Miktar;Depo
+YG-500;Süzme yoğurt 500 g;Y261012;12.10.2026;;30;840;Soğuk depo 1
+YG-500;Süzme yoğurt 500 g;Y261005;05.10.2026;;30;320;Soğuk depo 1
+YG-500;Süzme yoğurt 500 g;Y260920;20.09.2026;;30;60;Soğuk depo 1
+YG-500;Süzme yoğurt 500 g;Y260910;10.09.2026;;30;24;İade rafı
+PN-250;Beyaz peynir 250 g;P260901;01.09.2026;01.03.2027;;1.150;Soğuk depo 2
+PN-250;Beyaz peynir 250 g;P260615;15.06.2026;15.12.2026;;400;Soğuk depo 2
+BS-120;Bisküvi 120 g;B260915;15.09.2026;15.06.2027;;2.400;Kuru depo
+BS-120;Bisküvi 120 g;B260320;20.03.2026;20.12.2026;;900;Kuru depo
+SC-1000;Meyve suyu 1 L;S260901;01.09.2026;01.06.2027;;1.300;Kuru depo

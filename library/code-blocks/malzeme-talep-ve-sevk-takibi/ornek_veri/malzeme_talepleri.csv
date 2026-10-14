@@ -1,0 +1,11 @@
+Talep No;Talep Tarihi;Malzeme;Miktar;Birim;İhtiyaç Tarihi;İmalat / Yer;Sipariş No;Sipariş Tarihi;Tedarikçi;Termin;Teslim Edilen;Teslim Tarihi
+MT-301;22.09.2026;Nervürlü inşaat demiri Ø12;24;ton;01.10.2026;A Blok 3. kat döşeme;SA-1101;23.09.2026;Örnek Demir Ticaret;30.09.2026;24;29.09.2026
+MT-302;22.09.2026;Nervürlü inşaat demiri Ø16;18;ton;01.10.2026;A Blok 3. kat kolonlar;SA-1101;23.09.2026;Örnek Demir Ticaret;30.09.2026;18;02.10.2026
+MT-303;25.09.2026;Plywood kalıp levhası 18 mm;250;adet;05.10.2026;A Blok 3. kat döşeme;SA-1108;26.09.2026;Örnek Kalıp Malzemeleri;03.10.2026;250;03.10.2026
+MT-304;29.09.2026;Hazır beton C30/37;180;m³;12.10.2026;A Blok 3. kat döşeme;SA-1115;30.09.2026;Örnek Hazır Beton;12.10.2026;150;12.10.2026
+MT-305;01.10.2026;Gazbeton blok 20 cm;3.200;adet;14.10.2026;A Blok 1. kat duvarlar;SA-1120;02.10.2026;Örnek Yapı Market;16.10.2026;;
+MT-306;03.10.2026;Bitümlü su yalıtım membranı;120;rulo;18.10.2026;A Blok temel perdeleri;;;;;;
+MT-307;03.10.2026;PVC drenaj borusu Ø160;300;m;24.10.2026;Çevre drenajı;;;;;;
+MT-308;06.10.2026;Elektrik kablosu NYM 3x2,5;2.000;m;20.10.2026;A Blok kaba elektrik;SA-1124;07.10.2026;Örnek Elektrik Malzemeleri;19.10.2026;;
+MT-309;06.10.2026;İskele kelepçesi;400;adet;10.10.2026;B Blok iskele;SA-1125;07.10.2026;Örnek Kalıp Malzemeleri;09.10.2026;400;11.10.2026
+MT-310;08.10.2026;Nervürlü inşaat demiri Ø10;12;ton;22.10.2026;B Blok temel;SA-1130;09.10.2026;Örnek Demir Ticaret;20.10.2026;;

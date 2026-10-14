@@ -1,0 +1,12 @@
+{
+  "id": "guvenlik-raporlama-sistemi-olay-analizi",
+  "tur": "kod",
+  "ad": "Güvenlik Raporlama Sistemi Olay Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --bildirimler olay_bildirimleri.xlsx --hasta-gunu birim_hasta_gunu.xlsx --tarih 30.09.2026",
+  "girdiler": ["Olay bildirimleri (.xlsx/.csv): Bildirim No, Olay Tarihi, Birim, Olay Türü, Olay Kategorisi, Zarar Düzeyi, Önlenebilir, Kök Neden, DÖF No, Kapanış Tarihi", "Birim hasta günü (isteğe bağlı): Birim, Hasta Günü"],
+  "ciktilar": ["Excel: Özet (ramak kala ve önlenebilir oranı), Dağılımlar (tür, zarar, kategori, birim, ay, kök neden), Açık Bildirimler, Bildirimler, Uyarılar"],
+  "internet": false
+}

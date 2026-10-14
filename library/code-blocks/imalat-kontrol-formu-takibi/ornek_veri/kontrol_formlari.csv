@@ -1,0 +1,41 @@
+Form No;Talep Tarihi;Blok;Kat;İmalat Türü;Durum;Onay Tarihi;Kontrol Eden;Açıklama
+KF-001;20.08.2026;A;Bodrum;Kalıp;Onaylandı;20.08.2026;Kontrol Müh. B;
+KF-002;21.08.2026;A;Bodrum;Donatı;Onaylandı;22.08.2026;Kontrol Müh. B;
+KF-003;22.08.2026;A;Bodrum;Beton döküm öncesi;Reddedildi;22.08.2026;Kontrol Müh. C;Kalıp temizliği yapılmamış
+KF-004;23.08.2026;A;Bodrum;Beton döküm öncesi;Reddedildi;24.08.2026;Kontrol Müh. B;Kalıp temizliği yapılmamış
+KF-005;25.08.2026;A;Bodrum;Beton döküm öncesi;Onaylandı;26.08.2026;Kontrol Müh. A;
+KF-006;23.08.2026;A;Bodrum;Tesisat (döşeme içi);Onaylandı;23.08.2026;Kontrol Müh. B;
+KF-007;31.08.2026;A;Zemin;Kalıp;Onaylandı;01.09.2026;Kontrol Müh. A;
+KF-008;01.09.2026;A;Zemin;Donatı;Onaylandı;03.09.2026;Kontrol Müh. B;
+KF-009;02.09.2026;A;Zemin;Beton döküm öncesi;Onaylandı;02.09.2026;Kontrol Müh. A;
+KF-010;03.09.2026;A;Zemin;Tesisat (döşeme içi);Onaylandı;04.09.2026;Kontrol Müh. A;
+KF-011;10.09.2026;A;1;Kalıp;Onaylandı;11.09.2026;Kontrol Müh. B;
+KF-012;11.09.2026;A;1;Donatı;Onaylandı;12.09.2026;Kontrol Müh. B;
+KF-013;12.09.2026;A;1;Beton döküm öncesi;Şartlı onay;12.09.2026;Kontrol Müh. A;Eksik kenar kalıbı tamamlanacak
+KF-014;13.09.2026;A;1;Tesisat (döşeme içi);Reddedildi;13.09.2026;Kontrol Müh. B;Boru sabitlemesi eksik
+KF-015;14.09.2026;A;1;Tesisat (döşeme içi);Onaylandı;15.09.2026;Kontrol Müh. B;
+KF-016;21.09.2026;A;2;Kalıp;Onaylandı;22.09.2026;Kontrol Müh. B;
+KF-017;22.09.2026;A;2;Donatı;Onaylandı;23.09.2026;Kontrol Müh. C;
+KF-018;23.09.2026;A;2;Beton döküm öncesi;Onaylandı;24.09.2026;Kontrol Müh. B;
+KF-019;24.09.2026;A;2;Tesisat (döşeme içi);Reddedildi;25.09.2026;Kontrol Müh. C;Boru sabitlemesi eksik
+KF-020;26.09.2026;A;2;Tesisat (döşeme içi);Reddedildi;27.09.2026;Kontrol Müh. A;Boru sabitlemesi eksik
+KF-021;28.09.2026;A;2;Tesisat (döşeme içi);Onaylandı;29.09.2026;Kontrol Müh. A;
+KF-022;01.10.2026;A;3;Kalıp;Onaylandı;02.10.2026;Kontrol Müh. A;
+KF-023;02.10.2026;A;3;Donatı;Onaylandı;04.10.2026;Kontrol Müh. A;
+KF-024;03.10.2026;A;3;Beton döküm öncesi;Reddedildi;03.10.2026;Kontrol Müh. A;Kalıp temizliği yapılmamış
+KF-025;04.10.2026;A;3;Tesisat (döşeme içi);Onaylandı;06.10.2026;Kontrol Müh. B;
+KF-026;07.09.2026;B;Bodrum;Kalıp;Onaylandı;08.09.2026;Kontrol Müh. C;
+KF-027;08.09.2026;B;Bodrum;Donatı;Onaylandı;10.09.2026;Kontrol Müh. A;
+KF-028;09.09.2026;B;Bodrum;Beton döküm öncesi;Onaylandı;11.09.2026;Kontrol Müh. A;
+KF-029;10.09.2026;B;Bodrum;Tesisat (döşeme içi);Onaylandı;11.09.2026;Kontrol Müh. C;
+KF-030;18.09.2026;B;Zemin;Kalıp;Reddedildi;20.09.2026;Kontrol Müh. B;Kalıp düşeyliği tolerans dışı
+KF-031;21.09.2026;B;Zemin;Kalıp;Onaylandı;22.09.2026;Kontrol Müh. B;
+KF-032;19.09.2026;B;Zemin;Donatı;Onaylandı;20.09.2026;Kontrol Müh. C;
+KF-033;20.09.2026;B;Zemin;Beton döküm öncesi;Onaylandı;21.09.2026;Kontrol Müh. B;
+KF-034;21.09.2026;B;Zemin;Tesisat (döşeme içi);Reddedildi;22.09.2026;Kontrol Müh. B;Boru sabitlemesi eksik
+KF-035;29.09.2026;B;1;Kalıp;Onaylandı;30.09.2026;Kontrol Müh. C;
+KF-036;30.09.2026;B;1;Donatı;Onaylandı;30.09.2026;Kontrol Müh. B;
+KF-037;01.10.2026;B;1;Beton döküm öncesi;Onaylandı;03.10.2026;Kontrol Müh. C;
+KF-038;02.10.2026;B;1;Tesisat (döşeme içi);Onaylandı;03.10.2026;Kontrol Müh. C;
+KF-101;07.10.2026;B;2;Kalıp;Bekliyor;;;
+KF-102;09.10.2026;A;4;Kalıp;Bekliyor;;;

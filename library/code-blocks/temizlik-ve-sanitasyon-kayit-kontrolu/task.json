@@ -1,0 +1,12 @@
+{
+  "id": "temizlik-ve-sanitasyon-kayit-kontrolu",
+  "tur": "kod",
+  "ad": "Temizlik ve Sanitasyon Kayıt Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --plan temizlik_plani.xlsx --kayitlar temizlik_kayitlari.xlsx --vardiya 2 --kapali Paz",
+  "girdiler": ["Temizlik planı (.xlsx/.csv): Hat / Alan, Görev, Sıklık (Vardiya, Günlük, Haftalık, Aylık, 'N gün')", "Temizlik kayıtları: Tarih, Vardiya, Hat / Alan, Görev, Yapan, Kontrol Eden, Sonuç, Düzeltici Faaliyet"],
+  "ciktilar": ["Excel: Görev Uyumu (beklenen, yapılan, uyum %, eksik periyotlar), Kayıtlar, Uyarılar"],
+  "internet": false
+}

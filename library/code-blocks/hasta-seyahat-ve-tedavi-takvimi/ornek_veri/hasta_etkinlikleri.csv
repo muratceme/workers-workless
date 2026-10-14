@@ -1,0 +1,25 @@
+Hasta;Tür;Başlangıç;Bitiş;Yer;Açıklama
+UH-2026-041;Varış uçuşu;10.10.2026 07:45;;İstanbul Havalimanı;Uçuş XX 1234, refakatçi 1 kişi
+UH-2026-041;Transfer;10.10.2026 08:30;;Havalimanı → Otel;Karşılama tabelası, Arapça tercüman
+UH-2026-041;Konaklama;10.10.2026;11.10.2026;Anlaşmalı otel;Tek kişilik oda + refakatçi
+UH-2026-041;Muayene;10.10.2026 14:00;;Ortopedi polikliniği;Ön değerlendirme, görüntüleme getirildi
+UH-2026-041;Tetkik;10.10.2026 15:00;;Radyoloji;MR
+UH-2026-041;Operasyon;11.10.2026 08:00;;Ameliyathane;Diz protezi (sağ)
+UH-2026-041;Yatış;11.10.2026;14.10.2026;Ortopedi servisi;
+UH-2026-041;Konaklama;14.10.2026;19.10.2026;Anlaşmalı otel;
+UH-2026-041;Kontrol;16.10.2026 10:00;;Ortopedi polikliniği;Pansuman
+UH-2026-041;Kontrol;18.10.2026 10:00;;Ortopedi polikliniği;Dikiş kontrolü, uçuş uygunluğu
+UH-2026-041;Dönüş uçuşu;19.10.2026 16:20;;İstanbul Havalimanı;Uçuş XX 1235
+UH-2026-041;Transfer;19.10.2026 13:00;;Otel → Havalimanı;
+UH-2026-047;Varış uçuşu;12.10.2026 22:10;;Sabiha Gökçen Havalimanı;Uçuş YY 778
+UH-2026-047;Transfer;12.10.2026 23:00;;Havalimanı → Otel;Rusça tercüman
+UH-2026-047;Konaklama;12.10.2026;14.10.2026;Anlaşmalı otel;
+UH-2026-047;Muayene;13.10.2026 09:30;;Kardiyoloji polikliniği;
+UH-2026-047;Tetkik;13.10.2026 09:30;;Kardiyoloji;Efor testi, EKO
+UH-2026-047;Operasyon;14.10.2026 11:00;;Anjiyo ünitesi;Koroner anjiyografi
+UH-2026-047;Yatış;14.10.2026;15.10.2026;Kardiyoloji servisi;
+UH-2026-047;Dönüş uçuşu;17.10.2026 09:00;;Sabiha Gökçen Havalimanı;Uçuş YY 779
+UH-2026-052;Muayene;11.10.2026 11:00;;Göz polikliniği;Online ön görüşme sonrası
+UH-2026-052;Varış uçuşu;11.10.2026 13:30;;İstanbul Havalimanı;Uçuş ZZ 455
+UH-2026-052;Konaklama;11.10.2026;13.10.2026;Anlaşmalı otel;
+UH-2026-052;Operasyon;12.10.2026 10:00;;Göz ameliyathanesi;Katarakt (sol)

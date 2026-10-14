@@ -1,0 +1,12 @@
+{
+  "id": "duyusal-test-sonuc-analizi",
+  "tur": "kod",
+  "ad": "Duyusal Test Sonuç Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --puanlar panel_puanlari.xlsx --alfa 0,05",
+  "girdiler": ["Panel puanları (.xlsx/.csv): Panelist, Numune ve her özellik için bir sütun (ör. Görünüş, Koku, Tat, Doku, Genel Beğeni)"],
+  "ciktilar": ["Excel: Özet (ortalamalar, harf grupları, F, p, LSD), Çift Karşılaştırma, Tanımlayıcı, Uyarılar"],
+  "internet": false
+}

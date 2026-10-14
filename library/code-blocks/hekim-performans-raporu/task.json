@@ -1,0 +1,12 @@
+{
+  "id": "hekim-performans-raporu",
+  "tur": "kod",
+  "ad": "Hekim Performans Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --veriler hekim_aylik_verileri.xlsx",
+  "girdiler": ["Hekim verileri (.xlsx/.csv): Hekim, Bölüm, Tarih ya da Çalışma Günü, Muayene, Ameliyat, Yatış, Gelir"],
+  "ciktilar": ["Excel: Hekimler (günlük muayene / ameliyat / gelir, muayeneden yatış, bölüme göre endeks, gelir payı), Bölümler, Uyarılar"],
+  "internet": false
+}

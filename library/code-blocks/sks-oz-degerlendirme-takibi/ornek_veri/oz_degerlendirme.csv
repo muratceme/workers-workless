@@ -1,0 +1,61 @@
+Standart Kodu;Bölüm;Birim;Değerlendirme;Puan;Gerekli Doküman;Doküman Durumu;Sorumlu;Termin;Açıklama
+ÖD-1.01;Kurumsal Hizmetler;Genel Cerrahi;Karşılıyor;10;Doküman yönetimi prosedürü / talimatı;Var;;;
+ÖD-1.02;Kurumsal Hizmetler;Genel Cerrahi;Kısmen;10;Risk yönetimi prosedürü / talimatı;Var;Sorumlu Hemşire;10.11.2026;Kayıtlar eksik
+ÖD-1.03;Kurumsal Hizmetler;Genel Cerrahi;Karşılıyor;5;Eğitim planı prosedürü / talimatı;Yok;;27.10.2026;
+ÖD-2.01;Hasta ve Çalışan Odaklı Hizmetler;Genel Cerrahi;Karşılamıyor;10;Hasta hakları prosedürü / talimatı;Yok;Sorumlu Hemşire;22.09.2026;Kayıtlar eksik
+ÖD-2.02;Hasta ve Çalışan Odaklı Hizmetler;Genel Cerrahi;Karşılıyor;5;Çalışan güvenliği prosedürü / talimatı;Var;;;
+ÖD-2.03;Hasta ve Çalışan Odaklı Hizmetler;Genel Cerrahi;Karşılıyor;10;Geri bildirim prosedürü / talimatı;Var;;;
+ÖD-3.01;Sağlık Hizmetleri;Genel Cerrahi;Karşılıyor;15;İlaç güvenliği prosedürü / talimatı;Var;;;
+ÖD-3.02;Sağlık Hizmetleri;Genel Cerrahi;Karşılıyor;5;Hasta kimlik doğrulama prosedürü / talimatı;Yok;Birim Kalite Sorumlusu;16.09.2026;
+ÖD-3.03;Sağlık Hizmetleri;Genel Cerrahi;Karşılıyor;5;Düşme riski prosedürü / talimatı;Var;;;
+ÖD-3.04;Sağlık Hizmetleri;Genel Cerrahi;Değerlendirme dışı;5;;;;;
+ÖD-4.01;Destek Hizmetleri;Genel Cerrahi;Karşılıyor;5;Atık yönetimi prosedürü / talimatı;Var;;;
+ÖD-4.02;Destek Hizmetleri;Genel Cerrahi;Karşılıyor;15;Tesis güvenliği prosedürü / talimatı;Var;;;
+ÖD-1.01;Kurumsal Hizmetler;Dahiliye;Kısmen;5;Doküman yönetimi prosedürü / talimatı;Güncel değil;Sorumlu Hemşire;09.10.2026;Kayıtlar eksik
+ÖD-1.02;Kurumsal Hizmetler;Dahiliye;Karşılıyor;5;Risk yönetimi prosedürü / talimatı;Var;;;
+ÖD-1.03;Kurumsal Hizmetler;Dahiliye;Karşılıyor;15;Eğitim planı prosedürü / talimatı;Var;;;
+ÖD-2.01;Hasta ve Çalışan Odaklı Hizmetler;Dahiliye;Karşılıyor;10;Hasta hakları prosedürü / talimatı;Var;;;
+ÖD-2.02;Hasta ve Çalışan Odaklı Hizmetler;Dahiliye;Karşılıyor;15;Çalışan güvenliği prosedürü / talimatı;Yok;Klinik Şefi;25.10.2026;
+ÖD-2.03;Hasta ve Çalışan Odaklı Hizmetler;Dahiliye;Karşılıyor;15;Geri bildirim prosedürü / talimatı;Var;;;
+ÖD-3.01;Sağlık Hizmetleri;Dahiliye;Karşılıyor;5;İlaç güvenliği prosedürü / talimatı;Var;;;
+ÖD-3.02;Sağlık Hizmetleri;Dahiliye;Karşılıyor;5;Hasta kimlik doğrulama prosedürü / talimatı;Yok;;17.09.2026;
+ÖD-3.03;Sağlık Hizmetleri;Dahiliye;Karşılıyor;5;Düşme riski prosedürü / talimatı;Yok;Sorumlu Hemşire;07.11.2026;
+ÖD-3.04;Sağlık Hizmetleri;Dahiliye;Değerlendirme dışı;5;;;;;
+ÖD-4.01;Destek Hizmetleri;Dahiliye;Karşılamıyor;10;Atık yönetimi prosedürü / talimatı;Var;Kalite Birimi;26.10.2026;Kayıtlar eksik
+ÖD-4.02;Destek Hizmetleri;Dahiliye;Karşılıyor;15;Tesis güvenliği prosedürü / talimatı;Var;;;
+ÖD-1.01;Kurumsal Hizmetler;Yoğun Bakım;Karşılıyor;10;Doküman yönetimi prosedürü / talimatı;Yok;Birim Kalite Sorumlusu;09.11.2026;
+ÖD-1.02;Kurumsal Hizmetler;Yoğun Bakım;Karşılıyor;10;Risk yönetimi prosedürü / talimatı;Yok;Klinik Şefi;19.10.2026;
+ÖD-1.03;Kurumsal Hizmetler;Yoğun Bakım;Karşılıyor;5;Eğitim planı prosedürü / talimatı;Yok;Birim Kalite Sorumlusu;28.09.2026;
+ÖD-2.01;Hasta ve Çalışan Odaklı Hizmetler;Yoğun Bakım;Karşılıyor;15;Hasta hakları prosedürü / talimatı;Var;;;
+ÖD-2.02;Hasta ve Çalışan Odaklı Hizmetler;Yoğun Bakım;Karşılıyor;10;Çalışan güvenliği prosedürü / talimatı;Var;;;
+ÖD-2.03;Hasta ve Çalışan Odaklı Hizmetler;Yoğun Bakım;Karşılıyor;10;Geri bildirim prosedürü / talimatı;Var;;;
+ÖD-3.01;Sağlık Hizmetleri;Yoğun Bakım;Karşılıyor;10;İlaç güvenliği prosedürü / talimatı;Var;;;
+ÖD-3.02;Sağlık Hizmetleri;Yoğun Bakım;Karşılıyor;5;Hasta kimlik doğrulama prosedürü / talimatı;Yok;Birim Kalite Sorumlusu;28.10.2026;
+ÖD-3.03;Sağlık Hizmetleri;Yoğun Bakım;Karşılıyor;15;Düşme riski prosedürü / talimatı;Var;;;
+ÖD-3.04;Sağlık Hizmetleri;Yoğun Bakım;Değerlendirme dışı;5;;;;;
+ÖD-4.01;Destek Hizmetleri;Yoğun Bakım;Karşılamıyor;10;Atık yönetimi prosedürü / talimatı;Var;Birim Kalite Sorumlusu;04.09.2026;Kayıtlar eksik
+ÖD-4.02;Destek Hizmetleri;Yoğun Bakım;Karşılıyor;10;Tesis güvenliği prosedürü / talimatı;Var;;;
+ÖD-1.01;Kurumsal Hizmetler;Acil;Karşılıyor;5;Doküman yönetimi prosedürü / talimatı;Güncel değil;Klinik Şefi;06.09.2026;
+ÖD-1.02;Kurumsal Hizmetler;Acil;Karşılıyor;10;Risk yönetimi prosedürü / talimatı;Var;;;
+ÖD-1.03;Kurumsal Hizmetler;Acil;Karşılıyor;15;Eğitim planı prosedürü / talimatı;Var;;;
+ÖD-2.01;Hasta ve Çalışan Odaklı Hizmetler;Acil;Karşılıyor;5;Hasta hakları prosedürü / talimatı;Güncel değil;Kalite Birimi;06.10.2026;
+ÖD-2.02;Hasta ve Çalışan Odaklı Hizmetler;Acil;Karşılıyor;15;Çalışan güvenliği prosedürü / talimatı;Güncel değil;Kalite Birimi;01.10.2026;
+ÖD-2.03;Hasta ve Çalışan Odaklı Hizmetler;Acil;Karşılıyor;15;Geri bildirim prosedürü / talimatı;Var;;;
+ÖD-3.01;Sağlık Hizmetleri;Acil;Karşılıyor;10;İlaç güvenliği prosedürü / talimatı;Var;;;
+ÖD-3.02;Sağlık Hizmetleri;Acil;Karşılıyor;15;Hasta kimlik doğrulama prosedürü / talimatı;Var;;;
+ÖD-3.03;Sağlık Hizmetleri;Acil;Karşılamıyor;15;Düşme riski prosedürü / talimatı;Güncel değil;Sorumlu Hemşire;07.09.2026;Kayıtlar eksik
+ÖD-3.04;Sağlık Hizmetleri;Acil;Değerlendirme dışı;5;;;;;
+ÖD-4.01;Destek Hizmetleri;Acil;Kısmen;10;Atık yönetimi prosedürü / talimatı;Yok;Klinik Şefi;23.10.2026;Kayıtlar eksik
+ÖD-4.02;Destek Hizmetleri;Acil;Karşılamıyor;10;Tesis güvenliği prosedürü / talimatı;Var;;25.10.2026;Kayıtlar eksik
+ÖD-1.01;Kurumsal Hizmetler;Ameliyathane;Karşılıyor;15;Doküman yönetimi prosedürü / talimatı;Güncel değil;Kalite Birimi;20.09.2026;
+ÖD-1.02;Kurumsal Hizmetler;Ameliyathane;Karşılıyor;10;Risk yönetimi prosedürü / talimatı;Güncel değil;Birim Kalite Sorumlusu;04.09.2026;
+ÖD-1.03;Kurumsal Hizmetler;Ameliyathane;Karşılıyor;5;Eğitim planı prosedürü / talimatı;Var;;;
+ÖD-2.01;Hasta ve Çalışan Odaklı Hizmetler;Ameliyathane;Karşılıyor;10;Hasta hakları prosedürü / talimatı;Var;;;
+ÖD-2.02;Hasta ve Çalışan Odaklı Hizmetler;Ameliyathane;Karşılıyor;5;Çalışan güvenliği prosedürü / talimatı;Var;;;
+ÖD-2.03;Hasta ve Çalışan Odaklı Hizmetler;Ameliyathane;Karşılıyor;10;Geri bildirim prosedürü / talimatı;Var;;;
+ÖD-3.01;Sağlık Hizmetleri;Ameliyathane;Karşılıyor;15;İlaç güvenliği prosedürü / talimatı;Güncel değil;Sorumlu Hemşire;03.09.2026;
+ÖD-3.02;Sağlık Hizmetleri;Ameliyathane;Karşılıyor;5;Hasta kimlik doğrulama prosedürü / talimatı;Güncel değil;Klinik Şefi;09.11.2026;
+ÖD-3.03;Sağlık Hizmetleri;Ameliyathane;Karşılıyor;10;Düşme riski prosedürü / talimatı;Güncel değil;Sorumlu Hemşire;05.11.2026;
+ÖD-3.04;Sağlık Hizmetleri;Ameliyathane;Karşılıyor;10;Cerrahi güvenlik prosedürü / talimatı;Var;;;
+ÖD-4.01;Destek Hizmetleri;Ameliyathane;Karşılıyor;10;Atık yönetimi prosedürü / talimatı;Var;;;
+ÖD-4.02;Destek Hizmetleri;Ameliyathane;Karşılıyor;5;Tesis güvenliği prosedürü / talimatı;Var;;;

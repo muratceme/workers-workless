@@ -1,0 +1,12 @@
+{
+  "id": "hasta-seyahat-ve-tedavi-takvimi",
+  "tur": "kod",
+  "ad": "Hasta Seyahat ve Tedavi Takvimi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --etkinlikler hasta_etkinlikleri.xlsx --tarih 09.10.2026 --ucus-sure 5",
+  "girdiler": ["Hasta etkinlikleri (.xlsx/.csv): Hasta, Tür (uçuş, transfer, konaklama, muayene, tetkik, operasyon, yatış, kontrol), Başlangıç (tarih saat), Bitiş, Yer, Açıklama"],
+  "ciktilar": ["Excel: Takvim, Yaklaşanlar, Uyarılar (plan tutarlılığı)", "Takvim dosyası (.ics)"],
+  "internet": false
+}

@@ -227,7 +227,7 @@ def analiz(gonderiler: list[dict], gun: date, hedef: int = 3, gecikme: int = 5, 
         l = firmalar[k]
         f = {"firma": l[0]["firma"], **gosterge(l, hedef)}
         if f["zamaninda"] is not None and f["zamaninda"] < zamaninda:
-            uy.append(uyari("Orta", "Zamanında teslim düşük", f["firma"], f"{f['teslim']} teslimin %{f['zamaninda']}'i {hedef} gün içinde (eşik %{zamaninda}); ortalama {f['ort']} gün."))
+            uy.append(uyari("Orta", "Zamanında teslim düşük", f["firma"], f"{f['teslim']} teslimden {hedef} gün içinde olanlar %{f['zamaninda']} (eşik %{zamaninda}); ortalama {f['ort']} gün."))
         if f["hasar_oran"] > hasar:
             uy.append(uyari("Orta", "Hasar oranı yüksek", f["firma"], f"{f['gonderi']} gönderide {f['hasar']} hasarlı (%{f['hasar_oran']}; eşik %{hasar})."))
         if f["kayip_oran"] > kayip:

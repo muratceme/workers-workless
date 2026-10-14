@@ -1,0 +1,12 @@
+{
+  "id": "hastane-operasyon-panosu",
+  "tur": "kod",
+  "ad": "Hastane Operasyon Panosu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --veriler bolum_gunluk_verileri.xlsx",
+  "girdiler": ["Bölüm günlük verileri (.xlsx/.csv): Tarih, Bölüm, Poliklinik, Acil, Yatış, Ameliyat, Dolu Yatak, Yatak Sayısı, Gelir, Hedef Poliklinik, Hedef Gelir"],
+  "ciktilar": ["Excel: Bölümler (doluluk, poliklinikten yatış, hasta başına gelir, hedef gerçekleşme), Günler, Günlük Pano, Uyarılar"],
+  "internet": false
+}

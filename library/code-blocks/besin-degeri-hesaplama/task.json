@@ -1,0 +1,12 @@
+{
+  "id": "besin-degeri-hesaplama",
+  "tur": "kod",
+  "ad": "Besin Değeri Hesaplama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --recete recete.xlsx --tablo besin_tablosu.xlsx --son-agirlik 1000 --porsiyon 40",
+  "girdiler": ["Reçete (.xlsx/.csv): Bileşen, Miktar (g)", "Besin tablosu: Bileşen, Yağ, Doymuş Yağ, Karbonhidrat, Şeker, Lif, Protein, Tuz ya da Sodyum (100 g'da)"],
+  "ciktilar": ["Excel: Besin Değeri Tablosu (100 g, porsiyon, referans alım %), Bileşen Katkısı, Uyarılar"],
+  "internet": false
+}

@@ -1,0 +1,12 @@
+{
+  "id": "imalat-kontrol-formu-takibi",
+  "tur": "kod",
+  "ad": "İmalat Kontrol Formu Takibi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --formlar kontrol_formlari.xlsx --tarih 10.10.2026",
+  "girdiler": ["Kontrol formları (.xlsx/.csv): Form No, Talep Tarihi, Blok, Kat, İmalat Türü, Kontrol Noktası, Durum, Onay Tarihi, Kontrol Eden, Açıklama"],
+  "ciktilar": ["Excel: Durum Matrisi (blok · kat × imalat), Özet (red oranı, karar süresi), Bekleyenler, Tüm Formlar, Uyarılar"],
+  "internet": false
+}
