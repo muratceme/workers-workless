@@ -75,11 +75,15 @@ export const ETICARET = {
       { id: "eticaret-musteri-hizmetleri-temsilcisi", name: "Müşteri Hizmetleri Temsilcisi", level: "Giriş", tasks: [
         ["Ürün Sorusu Cevap Taslağı", "Pazaryeri ürün sorularına ürün bilgisi ve şirket politikalarına dayanarak cevap taslağı hazırlar.", 5],
         ["Ürün Değerlendirme Analizi", "Ürün yorumlarını duygu ve konu (kalite, beden, kargo, paketleme) bazında sınıflandırıp ürün bazında özetler.", 3],
+        "Geciken Sipariş Takibi",
+        "Kargo Teslim Performansı",
       ]},
       { id: "eticaret-musteri-deneyimi-uzmani", name: "Müşteri Deneyimi Uzmanı", level: "Uzman", tasks: [
         "Şikâyet Analizi",
         "İade Nedeni Analizi",
         "Memnuniyet (NPS) Anketi Analizi",
+        "Kargo Teslim Performansı",
+        "Talep ve Şikâyet Süre (SLA) Takibi",
       ]},
     ],
   },

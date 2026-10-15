@@ -72,6 +72,8 @@ export const PERAKENDE = {
       { id: "gorsel-duzenleme-uzmani", name: "Görsel Düzenleme Uzmanı", level: "Uzman", tasks: [
         ["Planogram Uyum Kontrolü", "Raf fotoğrafı ve planogram listesini karşılaştırıp eksik, yanlış yerleştirilmiş ve fiyat etiketi olmayan ürünleri listeler.", 3],
         ["Vitrin Yönergesi Hazırlama", "Kampanya ve ürün listesinden mağazalara gönderilecek adım adım vitrin düzenleme yönergesi hazırlar.", 2],
+        "Fiyat Değişikliği Etiket Listesi",
+        "Satış Hızı (Sell-Through) Raporu",
       ]},
       { id: "magaza-gorsel-duzenleme-sorumlusu", name: "Mağaza Görsel Düzenleme Sorumlusu", level: "Giriş", tasks: [
         "Planogram Uyum Kontrolü",

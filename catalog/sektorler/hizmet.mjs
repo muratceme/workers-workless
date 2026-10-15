@@ -69,6 +69,8 @@ export const HUKUK_BUROSU = {
         ["Dilekçe Taslağı", "Olay özeti, talepler ve deliller listesinden dava dilekçesi taslağı hazırlar (avukat kontrolü zorunludur).", 4],
         ["Karar ve İçtihat Özeti", "Mahkeme kararını taraflar, olay, hukuki mesele ve hüküm başlıklarıyla özetler.", 3],
         ["Müvekkil Dosya Durum Raporu", "Dava ve icra dosyalarının son durumunu müvekkile gönderilecek rapor formatında hazırlar.", 2],
+        "Duruşma ve Kesin Süre Takvimi",
+        "Vekâlet Ücreti ve Masraf Hesabı",
       ]},
       { id: "hukuk-sekreteri", name: "Hukuk Sekreteri", level: "Giriş", tasks: [
         ["Duruşma ve Kesin Süre Takvimi", "Dosya listesinden duruşma tarihleri ile tebliğ tarihine göre işleyen kesin süreleri (cevap, istinaf, temyiz) hesaplayıp takvim çıkarır.", 3],
@@ -172,6 +174,8 @@ export const EGITIM = {
       ]},
       { id: "rehber-ogretmen", name: "Rehber Öğretmen", level: "Uzman", tasks: [
         ["Öğrenci Gelişim Raporu Taslağı", "Not, devamsızlık ve öğretmen gözlemlerinden veli görüşmesi için öğrenci gelişim raporu taslağı hazırlar.", 3],
+        "Devamsızlık Takip Raporu",
+        "Kazanım Bazlı Başarı Raporu",
       ]},
     ],
   },

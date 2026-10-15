@@ -27,6 +27,8 @@ export const TEKSTIL = {
         ["Renk Paleti Çıkarma", "Görsellerden baskın renkleri çıkarıp en yakın Pantone TCX kodlarıyla renk paleti oluşturur.", 2],
         ["Teknik Föy (Tech Pack) Taslağı", "Model bilgisi, ölçüler, kumaş ve aksesuar listesinden teknik föy taslağını hazırlar.", 5],
         ["Trend Raporu Özeti", "Sezon trend raporlarını koleksiyona uygulanabilir renk, kumaş ve detay maddelerine indirir.", 2],
+        "Lab Dip ve Onay Takibi",
+        "Numune Takip Çizelgesi",
       ]},
       { id: "tasarim-asistani", name: "Tasarım Asistanı", level: "Giriş", tasks: [
         "Renk Paleti Çıkarma",

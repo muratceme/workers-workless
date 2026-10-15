@@ -75,11 +75,15 @@ export const OTEL = {
       { id: "misafir-iliskileri-muduru", name: "Misafir İlişkileri Müdürü", level: "Yönetici", tasks: [
         ["Misafir Yorum Analizi", "Online platform yorumlarını konu (temizlik, yemek, personel, oda) ve duygu bazında analiz edip haftalık rapor çıkarır.", 3],
         ["Yorum Cevap Taslağı", "Misafir yorumlarına otelin üslubuna uygun, kişiselleştirilmiş cevap taslağı hazırlar.", 3],
+        "Talep ve Şikâyet Süre (SLA) Takibi",
+        "Günlük Giriş-Çıkış Listesi",
       ]},
       { id: "misafir-iliskileri-temsilcisi", name: "Misafir İlişkileri Temsilcisi (GRO)", level: "Uzman", tasks: [
         "Misafir Mesajlarına Cevap Taslağı",
         "Yorum Cevap Taslağı",
         "Misafir Yorum Analizi",
+        "Günlük Giriş-Çıkış Listesi",
+        "Oda Arıza ve Bakım Talep Takibi",
       ]},
     ],
   },

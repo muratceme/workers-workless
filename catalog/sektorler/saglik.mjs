@@ -14,6 +14,8 @@ export const SAGLIK = {
       { id: "hasta-iliskileri-yoneticisi", name: "Hasta İlişkileri ve Hasta Hakları Yöneticisi", level: "Yönetici", tasks: [
         ["Hasta Şikâyet Sınıflandırma", "Hasta şikâyet ve önerilerini birim, konu ve önem derecesine göre sınıflandırıp yasal cevap süresiyle takip eder.", 3],
         ["Hasta Memnuniyet Anketi Analizi", "Anket puan ve yorumlarından birim ve hekim bazında memnuniyet raporu ve iyileştirme başlıkları çıkarır.", 3],
+        "Talep ve Şikâyet Süre (SLA) Takibi",
+        "SKS Öz Değerlendirme Takibi",
       ]},
       { id: "randevu-planlama-sorumlusu", name: "Randevu Planlama Sorumlusu", level: "Uzman", tasks: [
         ["Randevu Doluluk ve Gelmeme Analizi", "Hekim ve bölüm bazında randevu doluluk, gelmeme (no-show) ve iptal oranlarını hesaplayıp fazla randevu (overbooking) önerisi çıkarır.", 3],
@@ -28,6 +30,7 @@ export const SAGLIK = {
       { id: "tibbi-sekreter", name: "Tıbbi Sekreter", level: "Giriş", tasks: [
         ["Epikriz Taslağı", "Hekim notları ve tetkik sonuçlarından epikriz taslağı oluşturur (hekim onayı zorunludur).", 5],
         ["Tıbbi Rapor Yazım Kontrolü", "Hekimin dikte ettiği rapor metnini yazım, tarih ve hasta bilgisi tutarlılığı açısından kontrol eder.", 2],
+        "Randevu Doluluk ve Gelmeme Analizi",
       ]},
       { id: "yatan-hasta-tibbi-sekreteri", name: "Yatan Hasta Tıbbi Sekreteri", level: "Giriş", tasks: [
         ["Taburcu Dosyası Eksik Kontrolü", "Taburcu olan hastaların dosyalarında onam, epikriz, ameliyat notu ve konsültasyon belgelerinin eksiksizliğini kontrol eder.", 3],

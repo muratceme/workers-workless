@@ -773,3 +773,10 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - README'ler: 432 pakete standart "Sorumluluk" bölümü (agent'larda yapay zekâ hatası, maskeleme sınırı, API ücreti); mevzuata dayanan 100 pakete "Kaynaklar ve dayanaklar" tablosu (resmî link, ikincil kaynak, karşılaştırılan maddeler, kontrol tarihi). Teyit edilemeyenler: KDV beyanının ayın 28'i oluşu (aramayla doğrulanmadı), yıllara yaygın inşaatta %5 stopaj. Betik: scratchpad/readme_guncelle.py (tekrar çalıştırılabilir).
 - SORUMLULUK_REDDI.md ve ana README güncellendi (ana README'deki eski 2 paketlik tablo yerine güncel sayılar).
 - Açık: CONFIG.contact için e-posta / LinkedIn bilgisi bekleniyor.
+
+## Boş görünen roller ve yayın hatası (2026-10-15)
+- Yayın akışı 15.10 öğleden beri her push'ta duruyordu: metraj-cetveli-kontrolu/main.py'de Python 3.11+ sözdizimi (indeks içinde *liste) CI'daki Python 3.10 kontrolünü bozuyordu. Düzeltildi; tüm .py dosyaları Python 3.11 ile derlendi, 3.11/3.12'ye özgü başka kullanım bulunmadı. Canlı site bu yüzden 12.10 derlemesinde kalmıştı (176 rol).
+- Rol bazında modlara göre sayım (scratchpad/bos.mjs): her rolde en az bir indirilebilir paket var, ama Kod Blokları modunda 13 rolün, AI Agents modunda 155 rolün hiç hazır görevi yoktu (kartlar "Yakında").
+- Kod modu dolduruldu: 13 role, mevcut ve role uyan kod blokları eklendi (Müfettiş, Moda Tasarımcısı, Görsel Düzenleme Uzmanı, e-ticaret müşteri hizmetleri/deneyimi, Hasta İlişkileri, Tıbbi Sekreter, Misafir İlişkileri Müdürü/GRO, Avukat, Rehber Öğretmen). Yeni kod bloğu: talep-ve-sikayet-sure-sla-takibi (Müşteri Temsilcisi, Müşteri Deneyimi Uzmanı, Hasta İlişkileri, Misafir İlişkileri Müdürü; 8 test). Kod modunda hazırı olmayan rol: 0.
+- Toplam 431 görev, 433 paket (357 kod + 76 agent).
+- Sıradaki: AI Agents modunda hazırı olmayan 155 rol.

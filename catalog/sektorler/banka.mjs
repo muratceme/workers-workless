@@ -154,6 +154,8 @@ export const BANKA = {
       ]},
       { id: "mufettis", name: "Müfettiş", level: "Uzman", tasks: [
         ["Teftiş Raporu Bulgu Taslağı", "Çalışma kâğıtlarındaki tespitlerden mevzuat dayanağı, risk ve öneri içeren bulgu metinleri taslağı hazırlar.", 4],
+        "Şube Teftiş Veri Analizi",
+        "Kontrol Testi Örneklem Seçimi",
       ]},
     ],
   },

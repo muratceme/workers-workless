@@ -262,11 +262,14 @@ export const ORTAK = {
       { id: "musteri-temsilcisi", name: "Müşteri Temsilcisi", level: "Giriş", tasks: [
         ["Müşteri Talebi Sınıflandırma ve Cevap Taslağı", "Gelen e-posta, form ve mesajları konu ve aciliyete göre sınıflandırır, şirket bilgilerine dayanarak cevap taslağı hazırlar.", 8],
         ["Görüşme Kaydı Özeti", "Müşteri görüşme notlarını talep, yapılan işlem ve bekleyen aksiyon olarak standart kayıt formatına çevirir.", 3],
+        ["Talep ve Şikâyet Süre (SLA) Takibi", "Açık talep ve şikâyetleri hedef cevap ve çözüm sürelerine göre izler; süresi geçen ve yaklaşanları sorumlu bazında listeler.", 3],
       ]},
       { id: "musteri-deneyimi-uzmani", name: "Müşteri Deneyimi Uzmanı", level: "Uzman", tasks: [
         ["Şikâyet Analizi", "Şikâyet kayıtlarını konu, ürün ve kök neden başlıklarına kümeleyip eğilim raporu çıkarır.", 4],
         ["Memnuniyet (NPS) Anketi Analizi", "NPS ve memnuniyet anketlerinin puan ve yorumlarını analiz edip iyileştirme önerileri çıkarır.", 3],
         ["Çağrı Kalite Değerlendirmesi", "Görüşme dökümünü kalite formundaki kriterlere göre puanlayıp geri bildirim notu hazırlar.", 3],
+        "Talep ve Şikâyet Süre (SLA) Takibi",
+        "Çağrı Merkezi Performans Raporu",
       ]},
       { id: "cagri-merkezi-yoneticisi", name: "Çağrı Merkezi Yöneticisi", level: "Yönetici", tasks: [
         ["Çağrı Merkezi Performans Raporu", "Çağrı verisinden karşılama oranı, servis seviyesi, ortalama görüşme süresi ve ilk temasta çözüm oranını hesaplar.", 3],

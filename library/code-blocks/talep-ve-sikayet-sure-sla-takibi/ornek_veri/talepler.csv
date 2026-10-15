@@ -1,0 +1,14 @@
+Talep No;Açılış Tarihi;Kanal;Konu;Öncelik;Sorumlu;İlk Cevap Tarihi;Kapanış Tarihi;Durum
+T-201;08.10.2026;E-posta;Teslimat;Normal;Ayşe;09.10.2026;;Açık
+T-202;14.10.2026;Telefon;Teslimat;Yüksek;Ayşe;14.10.2026;;Açık
+T-203;13.10.2026;Web formu;Fatura;Normal;Mehmet;;;Açık
+T-204;12.10.2026;E-posta;Fatura;Normal;Mehmet;12.10.2026;;İşlemde
+T-205;15.10.2026;Telefon;Ürün;Düşük;Zeynep;;;Yeni
+T-206;05.10.2026;Mağaza;İade;Yüksek;Zeynep;05.10.2026;06.10.2026;Kapandı
+T-207;01.10.2026;E-posta;Ürün;Normal;Ayşe;03.10.2026;09.10.2026;Kapandı
+T-208;07.10.2026;Telefon;Teslimat;Normal;Mehmet;07.10.2026;10.10.2026;Kapandı
+T-209;02.10.2026;Web formu;Fatura;Yüksek;Zeynep;;;Açık
+T-210;09.10.2026;E-posta;Ürün;Normal;Ayşe;;;İptal
+T-211;10.10.2026;Telefon;Teslimat;Normal;Zeynep;11.10.2026;;Çözüldü
+T-212;11.10.2026;E-posta;Kampanya;Normal;Mehmet;12.10.2026;14.10.2026;Kapandı
+T-213;14.10.2026;Telefon;Ürün;Acil;Ayşe;;;Açık
