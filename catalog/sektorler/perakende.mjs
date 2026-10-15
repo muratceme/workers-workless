@@ -57,6 +57,11 @@ export const PERAKENDE = {
         ["Mağazalar Arası Transfer Önerisi", "Fazla stoklu ve tükenme riskli mağazaları eşleştirip beden-renk bazında transfer önerisi çıkarır.", 3],
         ["Satış Hızı (Sell-Through) Raporu", "Ürün ve mağaza bazında satış oranı ve stok günü raporlar, indirime aday ürünleri belirler.", 2],
       ]},
+      { id: "urun-planlama-muduru", name: "Ürün Planlama Müdürü", level: "Yönetici", tasks: [
+        "Satış Hızı (Sell-Through) Raporu",
+        "Kategori Performans Raporu",
+        "Stok Yaşlandırma Raporu",
+      ]},
     ],
   },
 
@@ -67,6 +72,11 @@ export const PERAKENDE = {
       { id: "gorsel-duzenleme-uzmani", name: "Görsel Düzenleme Uzmanı", level: "Uzman", tasks: [
         ["Planogram Uyum Kontrolü", "Raf fotoğrafı ve planogram listesini karşılaştırıp eksik, yanlış yerleştirilmiş ve fiyat etiketi olmayan ürünleri listeler.", 3],
         ["Vitrin Yönergesi Hazırlama", "Kampanya ve ürün listesinden mağazalara gönderilecek adım adım vitrin düzenleme yönergesi hazırlar.", 2],
+      ]},
+      { id: "magaza-gorsel-duzenleme-sorumlusu", name: "Mağaza Görsel Düzenleme Sorumlusu", level: "Giriş", tasks: [
+        "Planogram Uyum Kontrolü",
+        "Vitrin Yönergesi Hazırlama",
+        "Fiyat Değişikliği Etiket Listesi",
       ]},
     ],
   },
@@ -80,6 +90,11 @@ export const PERAKENDE = {
         ["Sepet Birliktelik Analizi", "Fiş satırlarından birlikte alınan ürün çiftlerini destek, güven ve lift değerleriyle çıkarır.", 3],
         ["Kayıp Müşteri (Churn) Listesi", "Alışveriş sıklığı düşen sadakat programı üyelerini belirleyip geri kazanım kampanyası listesi çıkarır.", 2],
       ]},
+      { id: "crm-muduru", name: "CRM Müdürü", level: "Yönetici", tasks: [
+        "Müşteri Segmentasyonu (RFM)",
+        "Kampanya Etki Analizi",
+        "Memnuniyet (NPS) Anketi Analizi",
+      ]},
     ],
   },
 
@@ -90,6 +105,11 @@ export const PERAKENDE = {
       { id: "kayip-onleme-uzmani", name: "Kayıp Önleme Uzmanı", level: "Uzman", tasks: [
         "Kasa Fark ve İptal Analizi",
         ["Envanter Kayıp Risk Skoru", "Sayım farkı, fire, iade ve iptal göstergelerinden mağaza bazında kayıp risk skoru üretir, denetim önceliği çıkarır.", 3],
+      ]},
+      { id: "kayip-onleme-muduru", name: "Kayıp Önleme Müdürü", level: "Yönetici", tasks: [
+        "Fire ve Kayıp Analizi",
+        "Stok Sayım Fark Analizi",
+        "Envanter Kayıp Risk Skoru",
       ]},
     ],
   },

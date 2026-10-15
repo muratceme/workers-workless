@@ -43,6 +43,11 @@ export const INSAAT = {
         ["İş Programı Kritik Yol Analizi", "Faaliyet süreleri ve bağımlılıklardan kritik yolu, bolluk sürelerini ve proje bitiş tarihini hesaplar.", 3],
         ["Kazanılmış Değer Analizi", "Planlanan değer, kazanılmış değer ve gerçekleşen maliyetten SPI, CPI ve tamamlanma maliyet tahminini hesaplar.", 3],
       ]},
+      { id: "proje-kontrol-uzmani", name: "Proje Kontrol Uzmanı", level: "Uzman", tasks: [
+        "Kazanılmış Değer Analizi",
+        "Proje Maliyet Kontrol Raporu",
+        "İş İlerleme Raporu",
+      ]},
     ],
   },
 
@@ -54,6 +59,11 @@ export const INSAAT = {
         ["İhale Dokümanı Özeti", "İdari ve teknik şartnamelerden yeterlik kriterleri, teminat, süre, ceza ve özel şartları özetler.", 4],
         ["Teklif Birim Fiyat Karşılaştırması", "Taşeron ve tedarikçi tekliflerini poz bazında karşılaştırıp en uygun fiyatlarla teklif cetveli oluşturur.", 3],
       ]},
+      { id: "maliyet-analisti", name: "Maliyet ve Teklif Uzmanı", level: "Uzman", tasks: [
+        "Birim Fiyat Analizi",
+        "Metraj Cetveli Kontrolü",
+        "Teklif Birim Fiyat Karşılaştırması",
+      ]},
     ],
   },
 
@@ -64,6 +74,11 @@ export const INSAAT = {
       { id: "kalite-kontrol-muhendisi-insaat", name: "Kalite Kontrol Mühendisi", level: "Uzman", tasks: [
         ["İmalat Kontrol Formu Takibi", "İmalat kontrol talepleri (ITP) ve onay durumlarını kat, blok ve imalat türü bazında takip eder.", 2],
         "DÖF Takibi",
+      ]},
+      { id: "kalite-kontrol-teknikeri", name: "Kalite Kontrol Teknikeri", level: "Giriş", tasks: [
+        "Beton Numune ve Kırım Takibi",
+        "İmalat Kontrol Formu Takibi",
+        "Ölçüm Verisi Uygunluk Kontrolü",
       ]},
     ],
   },

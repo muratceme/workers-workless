@@ -63,6 +63,11 @@ export const SAGLIK = {
         ["Güvenlik Raporlama Sistemi Olay Analizi", "Hasta ve çalışan güvenliği olay bildirimlerini tür, birim ve önlenebilirlik açısından analiz eder.", 2],
         ["SKS Öz Değerlendirme Takibi", "SKS standartlarına göre öz değerlendirme puanlarını ve eksik dokümanları birim bazında takip eder.", 2],
       ]},
+      { id: "kalite-direktoru", name: "Kalite Direktörü", level: "Yönetici", tasks: [
+        "Kalite Göstergeleri Hesaplama",
+        "Hasta Şikâyet Sınıflandırma",
+        "Hasta Memnuniyet Anketi Analizi",
+      ]},
     ],
   },
 
@@ -75,6 +80,11 @@ export const SAGLIK = {
         ["Hasta İletişim Mesajı Çevirisi", "Hasta ile yazışmaları tıbbi terimleri koruyarak çevirir ve kültüre uygun cevap taslağı hazırlar.", 4],
         ["Hasta Seyahat ve Tedavi Takvimi", "Uçuş, konaklama, muayene ve operasyon tarihlerinden hasta bazında takvim ve hatırlatmalar oluşturur.", 2],
       ]},
+      { id: "uluslararasi-hasta-muduru", name: "Uluslararası Hasta Müdürü", level: "Yönetici", tasks: [
+        "Tedavi Fiyat Teklifi Hazırlama",
+        "Hasta Memnuniyet Anketi Analizi",
+        "Kurum Bazlı Gelir ve Kesinti Raporu",
+      ]},
     ],
   },
 
@@ -86,6 +96,11 @@ export const SAGLIK = {
         ["Son Kullanma Tarihi Takibi", "İlaç ve sarf stoklarını son kullanma tarihine göre listeler, yaklaşanları ve tüketim hızına göre süresi içinde tükenmeyecekleri işaretler.", 2],
         ["Kritik Stok Seviyesi Raporu", "Günlük tüketim ve tedarik süresine göre kritik stok seviyesinin altına düşen ilaç ve malzemeleri listeler.", 2],
       ]},
+      { id: "eczane-teknikeri", name: "Eczane Teknikeri", level: "Giriş", tasks: [
+        "Son Kullanma Tarihi Takibi",
+        "Kritik Stok Seviyesi Raporu",
+        "Stok Sayım Fark Analizi",
+      ]},
     ],
   },
 
@@ -96,6 +111,11 @@ export const SAGLIK = {
       { id: "hastane-muduru", name: "Hastane Müdürü", level: "Yönetici", tasks: [
         ["Hastane Operasyon Panosu", "Poliklinik, yatış, ameliyat, doluluk ve gelir göstergelerini bölüm bazında günlük panoda toplar.", 2],
         ["Hekim Performans Raporu", "Hekim bazında muayene, ameliyat, yatış ve gelir göstergelerini raporlar.", 2],
+      ]},
+      { id: "bashekim", name: "Başhekim", level: "Yönetici", tasks: [
+        "Hekim Performans Raporu",
+        "Kalite Göstergeleri Hesaplama",
+        "Servis Yatak Doluluk Raporu",
       ]},
     ],
   },

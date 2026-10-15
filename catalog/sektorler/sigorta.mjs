@@ -70,6 +70,11 @@ export const SIGORTA = {
         ["IBNR Rezerv Tahmini (Zincirleme Merdiven)", "Hasar gelişim üçgeninden zincirleme merdiven yöntemiyle gerçekleşmiş ancak rapor edilmemiş hasar karşılığını hesaplar.", 4],
         ["Tarife Etki Simülasyonu", "Tarife parametresi değişikliğinin mevcut portföyde prim ve hasar/prim oranına etkisini simüle eder.", 3],
       ]},
+      { id: "akturya-muduru", name: "Aktüerya Müdürü", level: "Yönetici", tasks: [
+        "Hasar/Prim Oranı Analizi",
+        "Branş Kârlılık Raporu",
+        "Muallak Hasar Raporu",
+      ]},
     ],
   },
 
@@ -80,6 +85,11 @@ export const SIGORTA = {
       { id: "reasurans-uzmani", name: "Reasürans Uzmanı", level: "Uzman", tasks: [
         ["Reasürans Hesap Cetveli Hazırlama", "Trete şartlarına göre devredilen prim, komisyon ve hasar paylarını dönem bazında hesaplayıp hesap cetvelini hazırlar.", 4],
         ["Kümül Risk Kontrolü", "Deprem bölgesi ve adres bazında aynı lokasyondaki poliçelerin toplam bedelini trete kapasitesiyle karşılaştırır.", 3],
+      ]},
+      { id: "reasurans-muduru", name: "Reasürans Müdürü", level: "Yönetici", tasks: [
+        "Kümül Risk Kontrolü",
+        "Hasar/Prim Oranı Analizi",
+        "Branş Kârlılık Raporu",
       ]},
     ],
   },
@@ -92,6 +102,11 @@ export const SIGORTA = {
         ["Acente Performans Karnesi", "Acente bazında üretim, büyüme, hasar/prim, tahsilat ve yenileme oranını karşılaştırmalı karnede toplar.", 3],
         ["Üretim Hedef Takibi", "Branş ve acente bazında aylık üretim hedefi-gerçekleşmesini takip eder.", 2],
       ]},
+      { id: "acente-destek-uzmani", name: "Acente Destek Uzmanı", level: "Uzman", tasks: [
+        "Üretim Hedef Takibi",
+        "Satış Hedef-Gerçekleşme Raporu",
+        "Prim Alacak Yaşlandırma",
+      ]},
     ],
   },
 
@@ -102,6 +117,11 @@ export const SIGORTA = {
       { id: "tahsilat-uzmani-sigorta", name: "Tahsilat Uzmanı", level: "Uzman", tasks: [
         ["Prim Alacak Yaşlandırma", "Acente ve poliçe bazında tahsil edilmemiş primleri vade gününe göre yaşlandırır.", 3],
         ["Prim Ödenmemesi Nedeniyle İptal Listesi", "Taksiti ödenmeyen poliçeleri genel şartlardaki süre kurallarına göre iptal adayı olarak listeler.", 2],
+      ]},
+      { id: "tahsilat-muduru", name: "Tahsilat Müdürü", level: "Yönetici", tasks: [
+        "Prim Alacak Yaşlandırma",
+        "Prim Ödenmemesi Nedeniyle İptal Listesi",
+        "Tahsilat ve Avukat Performans Raporu",
       ]},
     ],
   },

@@ -201,6 +201,11 @@ export const ORTAK = {
         ["Hizmet Alımı Fatura Kontrolü", "Yemek, servis, temizlik ve güvenlik faturalarını sözleşme birim fiyatı ve fiilî kullanım (kişi/gün, sefer) ile karşılaştırır.", 3],
         ["Abonelik ve Sözleşme Takibi", "Kira, elektrik, su, internet ve bakım sözleşmelerinin tutar, vade ve yenileme tarihlerini izler.", 1],
       ]},
+      { id: "idari-isler-muduru", name: "İdari İşler Müdürü", level: "Yönetici", tasks: [
+        "Sözleşme Envanteri ve Süre Takibi",
+        "Harcama Analizi",
+        "Teklif Karşılaştırma",
+      ]},
     ],
   },
 
@@ -282,6 +287,10 @@ export const ORTAK = {
         ["İş Kazası ve Ramak Kala Analizi", "Kaza ve ramak kala kayıtlarından bölüm, neden ve zaman bazlı analiz ve kaza sıklık oranlarını üretir.", 2],
         ["Acil Durum Eylem Planı Taslağı", "İşyeri bilgilerinden acil durum senaryoları, ekipler ve tahliye adımlarını içeren plan taslağı hazırlar.", 2],
       ]},
+      { id: "isyeri-hekimi", name: "İşyeri Hekimi", level: "Uzman", tasks: [
+        "İSG Eğitim ve Muayene Takibi",
+        "İş Kazası ve Ramak Kala Analizi",
+      ]},
     ],
   },
 
@@ -296,6 +305,11 @@ export const ORTAK = {
         ["GTİP Sınıflandırma Önerisi", "Ürün tanımından olası GTİP kodlarını gerekçesiyle önerir (gümrük müşaviri onayı gerekir).", 2],
         ["Akreditif Evrak Uygunluk Kontrolü", "Akreditif şartlarını ibraz edilecek evraklarla karşılaştırıp olası rezervleri (uyumsuzlukları) işaretler.", 3],
         ["Dahilde İşleme İzin Belgesi Takibi", "DİİB kapsamındaki ithalat ve ihracat taahhütlerini, kalan miktarları ve süre sonunu takip eder.", 2],
+      ]},
+      { id: "dis-ticaret-operasyon-elemani", name: "Dış Ticaret Operasyon Elemanı", level: "Giriş", tasks: [
+        "Proforma Fatura Hazırlama",
+        "İhracat Evrak Kontrol Listesi",
+        "Koli Listesi (Packing List) Hazırlama",
       ]},
     ],
   },

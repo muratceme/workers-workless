@@ -25,7 +25,7 @@
         <a href="#/code" data-nav="code">Kod Blokları</a>
         <a href="#/agents" data-nav="agents">AI Agents</a>
         <a href="#/how" data-nav="how">Nasıl çalışır</a>
-        <a href="#/iletisim" data-nav="iletisim">İletişim</a>
+        <a href="#/iletisim" data-nav="iletisim">Yardım al</a>
       </nav>
       <div class="nav-actions">
         <button class="search-btn" id="openPalette" aria-label="Görev ara">
@@ -126,17 +126,32 @@
       </ol>
     </section>
 
-    <!-- İletişim: düğmeler CONFIG.contact doluysa görünür -->
+    <!-- Amaç -->
+    <section class="section purpose" id="amac">
+      <div class="purpose-inner reveal">
+        <p class="eyebrow">Neden bu site</p>
+        <h2>Amaç: her meslekte rutini azaltmak.</h2>
+        <p>Bu siteyi; her gün aynı tabloları birleştiren, aynı kontrolleri elle yapan, aynı yazıları yeniden yazan çalışanların işini kolaylaştırmak için hazırladım. Muhasebeden şantiyeye, otel ön bürosundan hastane faturalamasına kadar her rolün tekrar eden işlerini tek tek ele alıp ücretsiz ve açık kodlu araçlara dönüştürüyorum. Hedef basit: insanların zamanı kopyala-yapıştıra değil; kontrol etmeye, karar vermeye ve insanlarla ilgilenmeye kalsın.</p>
+        <ul class="purpose-points">
+          <li><b>Ücretsiz ve açık.</b> Her paketin kodu GitHub'da; herkes inceleyebilir, değiştirebilir.</li>
+          <li><b>Veriniz sizde.</b> Kod blokları internete bağlanmaz. Agent'lar veri göndermeden önce onayınızı ister.</li>
+          <li><b>Son söz sizde.</b> Araçlar taslak ve öneri üretir; sonucu kontrol etmek ve kullanmak kullanıcının sorumluluğundadır.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Yardım al: düğmeler CONFIG.contact doluysa görünür -->
     <section class="section contact" id="iletisim">
       <div class="contact-inner reveal">
         <div class="contact-text">
-          <p class="eyebrow">Akışınıza göre uyarlama</p>
-          <h2>Veriniz bu kalıba uymuyor mu?</h2>
-          <p>Her şirketin dosya düzeni, kullandığı program ve onay adımları farklı. Bir paket işinize tam oturmuyorsa ya da aradığınız iş listede yoksa, işin bugün nasıl yürüdüğünü anlatın; size uyan sürümü birlikte kuralım.</p>
+          <p class="eyebrow">Yardım al</p>
+          <h2>Takıldığınız yerde birlikte çözelim.</h2>
+          <p>Paketler ücretsiz; ama Python kurmak, dosyaları doğru biçime getirmek ya da kendi iş akışınızı bir araca dönüştürmek her ekipte kolay değil. Kurulumdan uyarlamaya, listede olmayan bir işe kadar yazın; nereden başlayacağımızı birlikte belirleyelim.</p>
           <ul class="ticks">
-            <li>Hazır bir paketi kendi dosya ve sütun yapınıza uyarlama</li>
-            <li>Listede olmayan bir iş için yeni kod bloğu ya da agent</li>
-            <li>Kurulum ve ekibinize kısa bir kullanım anlatımı</li>
+            <li>Kurulum: Python, paketler ve agent'lar için API anahtarı ayarı</li>
+            <li>Uyarlama: kendi dosya, sütun ve program çıktılarınıza göre</li>
+            <li>Yeni iş: sektörünüze, departmanınıza ya da rolünüze özel akış</li>
+            <li>Ekibinize kısa bir kullanım anlatımı</li>
           </ul>
         </div>
         <div class="contact-actions">
@@ -202,13 +217,14 @@
       <p class="explorer-sub" id="exSub"></p>
     </div>
     <div class="grid" id="exGrid"></div>
+    <div class="fit help-strip" id="exHelp" hidden></div>
   </main>
 
   <!-- ============================== FOOTER ============================== -->
   <footer class="footer">
     <div class="footer-inner">
       <p>* Haftalık kazanım rakamları tahminidir; şirketinizin hacmine göre değişir.</p>
-      <p>Workers / Workless · Açık kaynak (MIT) · <a href="https://github.com/muratceme/workers-workless/blob/main/SORUMLULUK_REDDI.md" target="_blank" rel="noopener">Sorumluluk reddi ve kullanım koşulları</a> · <a href="https://github.com/muratceme/workers-workless" target="_blank" rel="noopener">GitHub</a> · <a href="#/iletisim">İletişim</a></p>
+      <p>Workers / Workless · Açık kaynak (MIT) · <a href="https://github.com/muratceme/workers-workless/blob/main/SORUMLULUK_REDDI.md" target="_blank" rel="noopener">Sorumluluk reddi ve kullanım koşulları</a> · <a href="https://github.com/muratceme/workers-workless" target="_blank" rel="noopener">GitHub</a> · <a href="#/amac">Neden bu site</a> · <a href="#/iletisim">Yardım al</a></p>
       <p class="wink">Bu sitenin yapımında hiçbir çalışan işten çıkarılmadı.</p>
     </div>
   </footer>

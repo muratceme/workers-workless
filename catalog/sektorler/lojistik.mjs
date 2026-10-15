@@ -12,6 +12,11 @@ export const LOJISTIK = {
         ["Müşteri Yük Durum Bilgilendirmesi", "Sefer durumundan müşteriye gönderilecek yük durum e-postalarını hazırlar.", 3],
         ["Sefer Kârlılık Hesabı", "Navlun geliri, alt nakliyeci bedeli, otoyol, gümrük ve diğer masraflardan sefer bazında kârlılığı hesaplar.", 3],
       ]},
+      { id: "karayolu-operasyon-muduru", name: "Karayolu Operasyon Müdürü", level: "Yönetici", tasks: [
+        "Sefer Kârlılık Hesabı",
+        "Teslimat Performansı (OTIF) Raporu",
+        "Yakıt Tüketim Analizi",
+      ]},
     ],
   },
 
@@ -22,6 +27,11 @@ export const LOJISTIK = {
       { id: "parsiyel-operasyon-uzmani", name: "Parsiyel Operasyon Uzmanı", level: "Uzman", tasks: [
         ["Parsiyel Yük Konsolidasyon Planı", "Bekleyen parsiyel yükleri varış bölgesi, hacim ve ağırlığa göre araçlara gruplayıp doluluk oranını hesaplar.", 4],
         ["Parsiyel Hakediş ve Kârlılık Hesabı", "Araçtaki yüklerin navlun gelirlerini, araç maliyetini ve yük bazında kâr payını hesaplar.", 3],
+      ]},
+      { id: "parsiyel-operasyon-sefi", name: "Parsiyel Operasyon Şefi", level: "Yönetici", tasks: [
+        "Parsiyel Hakediş ve Kârlılık Hesabı",
+        "Teslimat Performansı (OTIF) Raporu",
+        "Sevkiyat Araç Planlama",
       ]},
     ],
   },
@@ -35,6 +45,11 @@ export const LOJISTIK = {
         ["Konteyner Demuraj ve Detention Takibi", "Konteynerlerin limanda bekleme ve iade sürelerini serbest gün kurallarıyla izleyip oluşacak masrafı hesaplar.", 3],
         ["Konşimento Bilgi Çıkarma", "Konşimento (B/L) belgesinden yükleyici, alıcı, liman, konteyner ve yük bilgilerini yapılandırılmış kayda dönüştürür.", 3],
       ]},
+      { id: "havayolu-operasyon-uzmani", name: "Havayolu Operasyon Uzmanı", level: "Uzman", tasks: [
+        "Navlun Teklif Hesaplama",
+        "Gümrük Evrak Tutarlılık Kontrolü",
+        "Akreditif Evrak Uygunluk Kontrolü",
+      ]},
     ],
   },
 
@@ -46,6 +61,11 @@ export const LOJISTIK = {
         ["Gümrük Evrak Tutarlılık Kontrolü", "Fatura, çeki listesi, menşe belgesi ve taşıma belgesindeki ürün, miktar, ağırlık ve değer bilgilerini karşılaştırıp uyumsuzlukları listeler.", 4],
         "GTİP Sınıflandırma Önerisi",
         ["İthalat Vergi Hesaplama", "CIF kıymet, gümrük vergisi, ilave gümrük vergisi ve KDV oranlarından ithalatta ödenecek vergileri hesaplar.", 3],
+      ]},
+      { id: "gumruk-musaviri-yardimcisi", name: "Gümrük Müşaviri Yardımcısı", level: "Giriş", tasks: [
+        "Gümrük Evrak Tutarlılık Kontrolü",
+        "İthalat Vergi Hesaplama",
+        "Dahilde İşleme İzin Belgesi Takibi",
       ]},
     ],
   },
@@ -59,6 +79,11 @@ export const LOJISTIK = {
         ["Depolama Hizmeti Faturalandırma", "Müşteri bazında palet-gün, giriş-çıkış elleçleme ve katma değerli hizmetlerden aylık depolama faturasını hesaplar.", 3],
         "Depo Yerleşim (ABC) Önerisi",
       ]},
+      { id: "depo-operasyon-elemani", name: "Depo Operasyon Elemanı", level: "Giriş", tasks: [
+        "Stok Sayım Fark Analizi",
+        "Stok Yaşlandırma Raporu",
+        "Sevkiyat Araç Planlama",
+      ]},
     ],
   },
 
@@ -71,6 +96,11 @@ export const LOJISTIK = {
         ["Sürücü Çalışma ve Dinlenme Süresi Kontrolü", "Takograf verisinden günlük ve haftalık sürüş ile dinlenme sürelerini AETR kurallarına göre kontrol eder, ihlalleri listeler.", 3],
         "Araç Filosu Takibi",
       ]},
+      { id: "filo-uzmani", name: "Filo Uzmanı", level: "Uzman", tasks: [
+        "Araç Filosu Takibi",
+        "Yakıt Tüketim Analizi",
+        "Sürücü Çalışma ve Dinlenme Süresi Kontrolü",
+      ]},
     ],
   },
 
@@ -81,6 +111,11 @@ export const LOJISTIK = {
       { id: "lojistik-satis-uzmani", name: "Lojistik Satış Uzmanı", level: "Uzman", tasks: [
         "Navlun Teklif Hesaplama",
         ["Teklif Dönüşüm Analizi", "Verilen navlun tekliflerinin kazanılma oranını hat, müşteri ve fiyat farkı bazında analiz eder.", 2],
+      ]},
+      { id: "lojistik-satis-muduru", name: "Lojistik Satış Müdürü", level: "Yönetici", tasks: [
+        "Teklif Dönüşüm Analizi",
+        "Satış Hedef-Gerçekleşme Raporu",
+        "Müşteri Risk ve Limit Takibi",
       ]},
     ],
   },

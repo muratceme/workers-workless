@@ -678,3 +678,19 @@ body::before {
   .fit { flex-direction: column; align-items: flex-start; }
   .fit .btn { margin-left: 0; }
 }
+
+/* Keşif sayfalarının altındaki yardım şeridi */
+.help-strip { max-width: 1156px; margin: -72px auto 120px; }
+.help-strip[hidden] { display: none; }
+@media (max-width: 760px) { .help-strip { margin: -72px 16px 96px; } }
+
+/* Amaç bölümü */
+.purpose { padding-top: 32px; }
+.purpose-inner { max-width: 1200px; margin: 0 auto; padding: 0 22px; }
+.purpose .eyebrow { margin-bottom: 18px; }
+.purpose h2 { font-size: clamp(30px, 4vw, 48px); letter-spacing: -.035em; line-height: 1.05; margin: 0 0 16px; }
+.purpose-inner > p { color: var(--muted); font-size: 17px; max-width: 70ch; margin: 0 0 28px; }
+.purpose-points { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.purpose-points li { padding: 20px 22px; border-radius: 18px; background: var(--card); box-shadow: var(--bezel); font-size: 14.5px; color: var(--muted); }
+.purpose-points b { display: block; color: var(--text); font-size: 15.5px; margin-bottom: 4px; }
+@media (max-width: 760px) { .purpose-points { grid-template-columns: 1fr; } .purpose-inner { padding: 0 16px; } }

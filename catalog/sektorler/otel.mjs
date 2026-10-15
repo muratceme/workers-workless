@@ -44,6 +44,10 @@ export const OTEL = {
         ["Oda Temizlik Atama Planı", "Giriş-çıkış ve konaklama odalarını temizlik süresi kredilerine göre kat görevlilerine dengeli şekilde atar.", 3],
         ["Oda Arıza ve Bakım Talep Takibi", "Odalardan bildirilen arızaları oda, tür ve bekleme süresine göre takip eder.", 2],
       ]},
+      { id: "kat-sefi", name: "Kat Şefi", level: "Uzman", tasks: [
+        "Oda Temizlik Atama Planı",
+        "Oda Arıza ve Bakım Talep Takibi",
+      ]},
     ],
   },
 
@@ -56,6 +60,11 @@ export const OTEL = {
         ["Porsiyon Maliyeti Hesaplama", "Standart reçete, porsiyon gramajı ve güncel alış fiyatlarından menü kalemi başına porsiyon maliyetini ve maliyet oranını hesaplar.", 3],
         ["Yiyecek-İçecek Maliyet Oranı Raporu", "Dönem tüketimi ve satışlardan departman bazında yiyecek ve içecek maliyet oranını hesaplar.", 2],
       ]},
+      { id: "ascibasi", name: "Aşçıbaşı (Executive Chef)", level: "Uzman", tasks: [
+        "Porsiyon Maliyeti Hesaplama",
+        "Menü Mühendisliği Analizi",
+        "Reçete Maliyet Hesaplama",
+      ]},
     ],
   },
 
@@ -66,6 +75,28 @@ export const OTEL = {
       { id: "misafir-iliskileri-muduru", name: "Misafir İlişkileri Müdürü", level: "Yönetici", tasks: [
         ["Misafir Yorum Analizi", "Online platform yorumlarını konu (temizlik, yemek, personel, oda) ve duygu bazında analiz edip haftalık rapor çıkarır.", 3],
         ["Yorum Cevap Taslağı", "Misafir yorumlarına otelin üslubuna uygun, kişiselleştirilmiş cevap taslağı hazırlar.", 3],
+      ]},
+      { id: "misafir-iliskileri-temsilcisi", name: "Misafir İlişkileri Temsilcisi (GRO)", level: "Uzman", tasks: [
+        "Misafir Mesajlarına Cevap Taslağı",
+        "Yorum Cevap Taslağı",
+        "Misafir Yorum Analizi",
+      ]},
+    ],
+  },
+
+  "otel-teknik": {
+    name: "Teknik Servis", short: "TKN",
+    desc: "Bina, tesisat ve ekipman bakımı, periyodik kontroller ve arıza yönetimi.",
+    roles: [
+      { id: "otel-teknisyeni", name: "Teknisyen", level: "Giriş", tasks: [
+        "Arıza Kaydı Sınıflandırma",
+        "Periyodik Bakım İş Emri Listesi",
+        "Oda Arıza ve Bakım Talep Takibi",
+      ]},
+      { id: "teknik-mudur", name: "Teknik Müdür", level: "Yönetici", tasks: [
+        "Bakım Maliyet ve Performans Raporu",
+        "Periyodik Kontrol Takibi",
+        "Abonelik ve Sözleşme Takibi",
       ]},
     ],
   },

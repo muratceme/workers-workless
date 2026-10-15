@@ -28,6 +28,11 @@ export const TEKSTIL = {
         ["Teknik Föy (Tech Pack) Taslağı", "Model bilgisi, ölçüler, kumaş ve aksesuar listesinden teknik föy taslağını hazırlar.", 5],
         ["Trend Raporu Özeti", "Sezon trend raporlarını koleksiyona uygulanabilir renk, kumaş ve detay maddelerine indirir.", 2],
       ]},
+      { id: "tasarim-asistani", name: "Tasarım Asistanı", level: "Giriş", tasks: [
+        "Renk Paleti Çıkarma",
+        "Trend Raporu Özeti",
+        "Numune Takip Çizelgesi",
+      ]},
     ],
   },
 
@@ -38,6 +43,11 @@ export const TEKSTIL = {
       { id: "modelist", name: "Modelist", level: "Uzman", tasks: [
         ["Ölçü Tablosu Beden Serisi (Grading)", "Ana beden ölçülerinden beden artış kurallarıyla tüm beden serisinin ölçü tablosunu üretir.", 4],
         ["Numune Ölçü Kontrolü", "Numune ölçümlerini ölçü tablosu ve toleranslarla karşılaştırıp tolerans dışı noktaları raporlar.", 3],
+      ]},
+      { id: "modelhane-sefi", name: "Modelhane Şefi", level: "Yönetici", tasks: [
+        "Numune Ölçü Kontrolü",
+        "Müşteri Yorumları (Fit Comments) Özeti",
+        "Numune Takip Çizelgesi",
       ]},
     ],
   },
@@ -51,6 +61,11 @@ export const TEKSTIL = {
         ["Kesim Kat Planı", "Sipariş beden dağılımı, pastal boyu ve maksimum kat sayısına göre pastal (marker) kombinasyonlarını ve kat adetlerini çıkarır.", 4],
         ["Üretim Hattı Yükleme Planı", "Siparişlerin dakika değeri (SAM) ve hat kapasitesinden hat bazında yükleme planı ve tahmini bitiş tarihlerini hesaplar.", 4],
       ]},
+      { id: "planlama-muduru", name: "Planlama Müdürü", level: "Yönetici", tasks: [
+        "Kapasite Darboğaz Analizi",
+        "Plan Uyum Raporu",
+        "Sipariş Termin Planı (T&A)",
+      ]},
     ],
   },
 
@@ -62,6 +77,11 @@ export const TEKSTIL = {
         ["Kumaş Sipariş Termin Takibi", "Kumaş siparişlerinin boyahane/örme aşamalarını ve termin durumunu takip eder, sipariş sevk tarihine etkisini hesaplar.", 4],
         "Teklif Karşılaştırma",
         ["Kumaş Fiyat Takibi", "Tedarikçi kumaş ve iplik fiyat listelerini toplayıp kalite bazında fiyat geçmişi tablosu oluşturur.", 2],
+      ]},
+      { id: "aksesuar-satin-alma-uzmani", name: "Aksesuar Satın Alma Uzmanı", level: "Uzman", tasks: [
+        "Sipariş Termin Takibi",
+        "Tedarikçi Performans Değerlendirme",
+        "Satın Alma Fiyat Geçmişi Analizi",
       ]},
     ],
   },
@@ -104,6 +124,11 @@ export const TEKSTIL = {
         ["Koli Listesi (Packing List) Hazırlama", "Sipariş beden-renk dağılımı ve koli kurallarından (solid/asorti) koli bazında çeki listesi, brüt-net ağırlık ve hacim hesaplar.", 4],
         "Proforma Fatura Hazırlama",
       ]},
+      { id: "utu-paket-sefi", name: "Ütü-Paket Şefi", level: "Uzman", tasks: [
+        "Final Kontrol Raporu",
+        "AQL Örneklem Planı",
+        "Koli Listesi (Packing List) Hazırlama",
+      ]},
     ],
   },
 
@@ -114,6 +139,11 @@ export const TEKSTIL = {
       { id: "sosyal-uygunluk-uzmani", name: "Sosyal Uygunluk Uzmanı", level: "Uzman", tasks: [
         ["Denetim Bulgu ve Düzeltici Faaliyet Takibi", "BSCI, Sedex ve müşteri denetim bulgularını düzeltici faaliyet planı (CAP), sorumlu ve termin bazında takip eder.", 3],
         ["Karbon Ayak İzi Hesaplama", "Enerji, yakıt ve malzeme tüketim verisinden kapsam 1-2 emisyonlarını ve ürün başına karbon değerini hesaplar.", 3],
+      ]},
+      { id: "surdurulebilirlik-uzmani", name: "Sürdürülebilirlik Uzmanı", level: "Uzman", tasks: [
+        "Karbon Ayak İzi Hesaplama",
+        "Denetim Bulgu ve Düzeltici Faaliyet Takibi",
+        "Tedarikçi Risk Skoru",
       ]},
     ],
   },

@@ -33,6 +33,11 @@ export const SMMM = {
         ["Mükellef Bilgilendirme Yazısı", "Mevzuat değişikliği veya beyan sonucunu mükellefe anlaşılır dille açıklayan bilgilendirme yazısı hazırlar.", 2],
         "Mevzuat Değişikliği Özeti",
       ]},
+      { id: "vergi-uzmani-buro", name: "Kıdemli Muhasebe ve Vergi Uzmanı", level: "Uzman", tasks: [
+        "KDV Beyannamesi Ön Kontrolü",
+        "Geçici Vergi Hesaplama",
+        "Mükellef Beyanname Takvimi",
+      ]},
     ],
   },
   "smmm-bordro": {
@@ -44,6 +49,11 @@ export const SMMM = {
         "Puantaj Kontrolü",
         "SGK Giriş-Çıkış Bildirge Kontrolü",
         ["SGK Teşvik Uygunluk Ön Kontrolü", "Çalışan ve işyeri bilgilerine göre yürürlükteki SGK prim teşviklerinin uygunluk koşullarını (yaş, kayıt süresi, borç durumu vb.) ön kontrolden geçirir.", 2],
+      ]},
+      { id: "bordro-uzmani-buro", name: "Bordro Uzmanı", level: "Uzman", tasks: [
+        "Kıdem ve İhbar Tazminatı Hesaplama",
+        "Yıllık İzin Hakedişi Hesaplama",
+        "Fazla Mesai Hesaplama",
       ]},
     ],
   },
@@ -74,6 +84,11 @@ export const HUKUK_BUROSU = {
         ["İcra Dosyası Faiz ve Alacak Hesabı", "Asıl alacak, takip tarihi ve faiz türüne (yasal, ticari avans) göre dönemsel oranlarla işlemiş faizi ve güncel borcu hesaplar.", 3],
         "İcra Takip Durum Raporu",
         ["Borçlu Ödeme Planı Hesaplama", "Toplam borç ve taksit sayısına göre faiz dahil ödeme planı ve protokol özeti çıkarır.", 2],
+      ]},
+      { id: "icra-avukati", name: "İcra Avukatı", level: "Uzman", tasks: [
+        "İcra Takip Durum Raporu",
+        "İcra Dosyası Faiz ve Alacak Hesabı",
+        "Müvekkil Dosya Durum Raporu",
       ]},
     ],
   },
@@ -122,6 +137,11 @@ export const OTOMOTIV = {
       { id: "yedek-parca-danismani", name: "Yedek Parça Danışmanı", level: "Uzman", tasks: [
         ["Yedek Parça Sipariş Önerisi", "Parça bazında tüketim, bekleyen iş emirleri ve tedarik süresine göre stok siparişi önerir.", 3],
         "Stok ABC-XYZ Analizi",
+      ]},
+      { id: "yedek-parca-muduru", name: "Yedek Parça Müdürü", level: "Yönetici", tasks: [
+        "Stok ABC-XYZ Analizi",
+        "Stok Yaşlandırma Raporu",
+        "Yedek Parça Sipariş Önerisi",
       ]},
     ],
   },

@@ -27,6 +27,11 @@ export const GIDA = {
         ["Analiz Sonucu Spesifikasyon Kontrolü", "Laboratuvar analiz sonuçlarını ürün spesifikasyon limitleriyle karşılaştırıp uygunsuz partileri ve sınıra yakın değerleri işaretler.", 3],
         ["Raf Ömrü Takibi", "Stok ve sevkiyat verisinden son tüketim tarihine kalan süreyi hesaplar, müşteri kabul kriterini karşılamayan partileri listeler.", 2],
       ]},
+      { id: "laboratuvar-sefi", name: "Laboratuvar Şefi", level: "Uzman", tasks: [
+        "Analiz Sonucu Spesifikasyon Kontrolü",
+        "SPC Kontrol Grafiği ve Cp/Cpk",
+        "Raf Ömrü Takibi",
+      ]},
     ],
   },
 
@@ -38,6 +43,11 @@ export const GIDA = {
         ["Parti Verim ve Fire Raporu", "Parti bazında hammadde girişi, mamul çıkışı ve fireden verimi hesaplar, hedef dışı partileri listeler.", 3],
         "Vardiya Üretim Raporu",
         ["Temizlik ve Sanitasyon Kayıt Kontrolü", "Hat temizlik ve sanitasyon kayıtlarını plana göre kontrol edip eksik veya geciken kayıtları listeler.", 2],
+      ]},
+      { id: "hat-sorumlusu", name: "Hat Sorumlusu", level: "Giriş", tasks: [
+        "Vardiya Devir Notu Özeti",
+        "Temizlik ve Sanitasyon Kayıt Kontrolü",
+        "Vardiya Üretim Raporu",
       ]},
     ],
   },
@@ -51,6 +61,11 @@ export const GIDA = {
         "Besin Değeri Hesaplama",
         ["Duyusal Test Sonuç Analizi", "Panel değerlendirme puanlarını numune ve özellik bazında istatistiksel olarak karşılaştırır.", 2],
       ]},
+      { id: "gida-arge-muduru", name: "Ar-Ge Müdürü", level: "Yönetici", tasks: [
+        "Reçete Maliyet Hesaplama",
+        "Ar-Ge Proje Raporu Taslağı",
+        "Duyusal Test Sonuç Analizi",
+      ]},
     ],
   },
 
@@ -61,6 +76,11 @@ export const GIDA = {
       { id: "kanal-satis-yoneticisi", name: "Kanal Satış Yöneticisi", level: "Yönetici", tasks: [
         ["Bayi ve Distribütör Satış Raporu", "Bayi bazında satış, hedef, tahsilat ve stok günlerini raporlar.", 3],
         ["Zincir Market Listeleme Takibi", "Zincir marketlerde listelenen ürünleri, raf fiyatlarını ve stoksuz mağazaları takip eder.", 2],
+      ]},
+      { id: "bolge-satis-temsilcisi", name: "Bölge Satış Temsilcisi", level: "Uzman", tasks: [
+        "Müşteri Ziyaret Planı",
+        "Ziyaret Notu Özeti",
+        "Zincir Market Listeleme Takibi",
       ]},
     ],
   },

@@ -12,6 +12,11 @@ export const ETICARET = {
         ["Kanallar Arası Stok ve Fiyat Kontrolü", "Farklı satış kanallarındaki stok ve fiyatları merkezi listeyle karşılaştırıp uyumsuzlukları listeler.", 3],
         ["Kampanya Fiyat Simülasyonu", "Planlanan indirim ve kupon kurgularının ürün bazında kâr marjına etkisini hesaplar.", 2],
       ]},
+      { id: "pazaryeri-yoneticisi", name: "Pazaryeri Yöneticisi", level: "Yönetici", tasks: [
+        "Pazaryeri Sipariş Kârlılık Hesabı",
+        "E-ticaret Satış Performans Raporu",
+        "Pazaryeri Reklam (Sponsorlu Ürün) Analizi",
+      ]},
     ],
   },
 
@@ -39,6 +44,11 @@ export const ETICARET = {
         ["Kargo Teslim Performansı", "Kargo firması bazında teslim süresi, hasarlı ve kayıp gönderi oranlarını hesaplar.", 2],
         ["İade Nedeni Analizi", "İade açıklamalarını neden kategorilerine (beden, kusur, beklenti farkı) ayırıp ürün bazında iade oranı çıkarır.", 3],
       ]},
+      { id: "eticaret-operasyon-muduru", name: "E-ticaret Operasyon Müdürü", level: "Yönetici", tasks: [
+        "Kargo Teslim Performansı",
+        "Teslimat Performansı (OTIF) Raporu",
+        "Nakliye Maliyet Analizi",
+      ]},
     ],
   },
 
@@ -50,6 +60,11 @@ export const ETICARET = {
         "Reklam Kampanyası Performans Raporu",
         ["Pazaryeri Reklam (Sponsorlu Ürün) Analizi", "Pazaryeri reklam raporlarından ürün bazında reklam maliyeti/satış oranını hesaplayıp kârsız reklamları işaretler.", 3],
       ]},
+      { id: "performans-pazarlama-yoneticisi", name: "Performans Pazarlama Yöneticisi", level: "Yönetici", tasks: [
+        "Pazarlama Bütçesi Takibi",
+        "Kampanya Etki Analizi",
+        "Müşteri Segmentasyonu (RFM)",
+      ]},
     ],
   },
 
@@ -60,6 +75,11 @@ export const ETICARET = {
       { id: "eticaret-musteri-hizmetleri-temsilcisi", name: "Müşteri Hizmetleri Temsilcisi", level: "Giriş", tasks: [
         ["Ürün Sorusu Cevap Taslağı", "Pazaryeri ürün sorularına ürün bilgisi ve şirket politikalarına dayanarak cevap taslağı hazırlar.", 5],
         ["Ürün Değerlendirme Analizi", "Ürün yorumlarını duygu ve konu (kalite, beden, kargo, paketleme) bazında sınıflandırıp ürün bazında özetler.", 3],
+      ]},
+      { id: "eticaret-musteri-deneyimi-uzmani", name: "Müşteri Deneyimi Uzmanı", level: "Uzman", tasks: [
+        "Şikâyet Analizi",
+        "İade Nedeni Analizi",
+        "Memnuniyet (NPS) Anketi Analizi",
       ]},
     ],
   },

@@ -89,6 +89,11 @@ export const URETIM = {
         ["Hat Dengeleme", "Operasyon süreleri ve öncelik ilişkilerinden hedef çevrim süresine göre istasyon atamasını ve hat verimini hesaplar.", 3],
         ["Kaizen Önerisi Değerlendirme", "Çalışan iyileştirme önerilerini kazanç, maliyet ve uygulanabilirliğe göre puanlar.", 2],
       ]},
+      { id: "surec-gelistirme-uzmani", name: "Süreç Geliştirme Uzmanı", level: "Uzman", tasks: [
+        "OEE Hesaplama",
+        "Duruş Nedeni Pareto Analizi",
+        "Kaizen Önerisi Değerlendirme",
+      ]},
     ],
   },
 
@@ -100,6 +105,11 @@ export const URETIM = {
         ["Test Sonuçları Spesifikasyon Karşılaştırması", "Prototip test sonuçlarını spesifikasyon limitleriyle karşılaştırıp uygunsuzlukları ve eğilimleri raporlar.", 3],
         ["Ürün Ağacı (BOM) Karşılaştırma", "İki ürün ağacı versiyonunu karşılaştırıp eklenen, çıkarılan ve miktarı değişen kalemleri listeler.", 2],
         ["Ar-Ge Proje Raporu Taslağı", "Proje notları ve sonuçlarından TÜBİTAK/teşvik formatına uygun dönem raporu taslağı hazırlar.", 3],
+      ]},
+      { id: "arge-muduru", name: "Ar-Ge Müdürü", level: "Yönetici", tasks: [
+        "Ar-Ge Proje Raporu Taslağı",
+        "Yatırım Fizibilitesi (NPV/IRR)",
+        "Bütçe-Gerçekleşen Sapma Raporu",
       ]},
     ],
   },

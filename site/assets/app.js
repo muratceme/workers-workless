@@ -116,6 +116,11 @@
   const hasContact = Boolean(CONTACT.email || CONTACT.linkedin);
   const mailto = (subject) => `mailto:${CONTACT.email}?subject=${encodeURIComponent(subject)}`;
   const contactHref = (subject) => (CONTACT.email ? mailto(subject) : CONTACT.linkedin || "#/iletisim");
+  // Adres girilmemişse yardım bağlantıları ana sayfadaki "Yardım al" bölümüne gider
+  const helpLink = (subject, label, cls = "btn btn-ghost") => {
+    const ext = hasContact && !CONTACT.email;
+    return `<a class="${cls}" href="${hasContact ? contactHref(subject) : "#/iletisim"}"${ext ? ' target="_blank" rel="noopener"' : ""}>${label}</a>`;
+  };
   if (hasContact) {
     if (CONTACT.email) Object.assign($("#contactMail"), { href: mailto("Workers / Workless: iş akışım hakkında"), hidden: false });
     if (CONTACT.linkedin) Object.assign($("#contactLinkedin"), { href: CONTACT.linkedin, hidden: false });
@@ -136,7 +141,7 @@
       <span class="card-icon">${icon(x.icon, 26)}</span>
       <h3>${esc(x.name)}</h3>
       <p>Yakında. Bu sektördeyseniz hangi işlerin önce geleceğini birlikte belirleyelim.</p>
-      ${hasContact ? `<div class="card-meta"><a class="tag accent" href="#/iletisim">Yazın →</a></div>` : ""}
+      <div class="card-meta">${helpLink(`Workers / Workless: ${x.name} sektörü`, "Yazın →", "tag accent")}</div>
     </div>`;
 
   const deptCard = (s, d, i) => `
@@ -220,6 +225,16 @@
     // animasyonu yeniden tetikle
     [title, sub].forEach((el) => { el.style.animation = "none"; void el.offsetWidth; el.style.animation = ""; });
     $("#exGrid").innerHTML = html;
+
+    // Yardım şeridi: bu düzeyde aranan iş yoksa ya da akış farklıysa
+    const yer = r ? `${r.name} rolü` : d ? `${d.name} departmanı` : s ? `${s.name} sektörü` : "";
+    $("#exHelp").hidden = !yer;
+    if (yer) {
+      $("#exHelp").innerHTML = `
+        <div><b>${esc(yer)} için aradığınız iş burada yok mu?</b>
+        <span>Ya da işiniz başka adımlarla yürüyor olabilir. Bugün nasıl yaptığınızı anlatın; uygun bir kod bloğu ya da agent'ı birlikte kuralım.</span></div>
+        ${helpLink(`Workers / Workless: ${[s && s.name, d && d.name, r && r.name].filter(Boolean).join(" / ")}`, "Yardım al")}`;
+    }
   }
 
   /* ------------------------------ sözdizimi vurgulama ------------------------------ */
@@ -297,9 +312,8 @@
         <div class="fact"><b>Ücretsiz</b><span>açık kaynak, MIT lisansı</span></div>
       </div>
       <div class="actions">
-        ${hasContact
-          ? `<a class="btn btn-primary" href="${contactHref(`Workers / Workless: ${t.name}`)}"${CONTACT.email ? "" : ' target="_blank" rel="noopener"'}>Bu iş için yazın</a>`
-          : `<a class="btn btn-primary" href="${issueUrl(m, t)}" target="_blank" rel="noopener">Bu görevi talep et ↗</a>`}
+        ${helpLink(`Workers / Workless: ${t.name}`, "Bu iş için yazın", "btn btn-primary")}
+        <a class="btn btn-ghost" href="${issueUrl(m, t)}" target="_blank" rel="noopener">GitHub'da talep et ↗</a>
       </div>`;
   }
 
@@ -318,11 +332,11 @@
       <h2 id="sheetTitle">${esc(t.name)}</h2>
       <p class="sheet-desc">${esc(t.desc)}</p>
       ${pkg ? readyBody(mode, t, pkg) : wipBody(mode, t)}
-      ${pkg && hasContact ? `
+      ${pkg ? `
       <div class="fit">
-        <div><b>Dosyalarınız bu biçimde değil mi?</b>
-        <span>Sütun adları, kullandığınız programın çıktısı ya da onay adımları farklıysa bu paketi kendi akışınıza göre uyarlayabiliriz.</span></div>
-        <a class="btn btn-ghost" href="${contactHref(`Workers / Workless: ${t.name} uyarlama`)}"${CONTACT.email ? "" : ' target="_blank" rel="noopener"'}>Yazın</a>
+        <div><b>Kurulumda ya da uyarlamada yardım mı lazım?</b>
+        <span>Python kurulumu, ${mode === "agents" ? "API anahtarı ayarı, " : ""}kendi dosya ve sütunlarınıza uyarlama ya da onay adımlarınızın eklenmesi: hangisinde takıldıysanız yazın, birlikte çözelim.</span></div>
+        ${helpLink(`Workers / Workless: ${t.name} kurulum / uyarlama`, "Yardım al")}
       </div>` : ""}
       <a class="crosslink" href="${href(other, s.id, d.id, r.id, t.id)}">
         <span class="x-ic" style="background:linear-gradient(135deg,${O.c1},${O.c2})">${icon(other === "code" ? "code" : "spark", 18)}</span>
@@ -433,9 +447,12 @@
 
     if (!MODES[p[0]]) {
       hideSheet();
+      const fromExplorer = $("#home").hidden;
       $("#home").hidden = false;
       $("#explorer").hidden = true;
-      if (p[0] && document.getElementById(p[0])) document.getElementById(p[0]).scrollIntoView({ behavior: "smooth" });
+      const hedef = p[0] && document.getElementById(p[0]);
+      // Keşif sayfasından dönülüyorsa düzen oturduktan sonra doğrudan atla (yumuşak kaydırma hedefi aşıyordu)
+      if (hedef) setTimeout(() => hedef.scrollIntoView({ behavior: fromExplorer ? "instant" : "smooth" }), 0);
       else window.scrollTo({ top: 0 });
       return;
     }
@@ -636,7 +653,7 @@
           <span class="p-main"><b>${mark(x.t.name, words.slice(0, 1))}</b><small>${esc(x.where)} › ${esc(x.d.name)} › ${esc(x.r.name)}</small></span>
           <span class="p-h">${isReady(x.t) ? '<span class="tag ok sm">Hazır</span> ' : ""}~${x.t.hours} sa/hf</span>
         </li>`).join("")
-      : `<li class="palette-empty">Sonuç yok.${hasContact ? ' Aradığınız iş listede yoksa <a href="#/iletisim">bize yazın</a>.' : ""}</li>`;
+      : `<li class="palette-empty">Sonuç yok. Aradığınız iş listede yoksa <a href="#/iletisim">yardım alın</a>.</li>`;
   }
   function choose(i) {
     const x = results[i];
