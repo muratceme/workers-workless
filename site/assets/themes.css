@@ -14,23 +14,29 @@
 .ds { position: relative; }
 .ds-btn { width: auto; padding: 0 12px 0 10px; gap: 7px; display: inline-flex; align-items: center; font-size: 13px; font-weight: 600; }
 .ds-menu {
-  position: absolute; right: 0; top: calc(100% + 10px); z-index: 60; width: min(300px, calc(100vw - 24px));
-  padding: 6px; background: var(--card); border: 1px solid var(--line-2); border-radius: 16px; box-shadow: var(--shadow-lg);
-  animation: pop .25s var(--ease) both;
+  position: absolute; right: 0; top: calc(100% + 10px); z-index: 70; width: min(640px, calc(100vw - 24px));
+  padding: 8px; background: var(--card); border: 1px solid var(--line-2); border-radius: 18px; box-shadow: var(--shadow-lg);
+  font-family: var(--font); animation: pop .25s var(--ease) both;
 }
+.ds-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
 .ds-head { margin: 0; padding: 8px 10px 6px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--faint); }
 .ds-item {
-  display: flex; align-items: center; gap: 12px; width: 100%; padding: 9px 10px; border: 0; border-radius: 10px;
+  display: flex; align-items: center; gap: 12px; width: 100%; padding: 8px 10px; border: 0; border-radius: 10px;
   background: none; text-align: left; color: var(--text);
 }
 .ds-item:hover, .ds-item:focus-visible { background: var(--bg-2); outline: none; }
 .ds-item[aria-checked="true"] { background: var(--a-soft); }
-.ds-sw { display: flex; flex: none; width: 38px; height: 26px; border-radius: 6px; overflow: hidden; border: 1px solid var(--line-2); }
+.ds-item[aria-checked="true"] .ds-ic { color: var(--a1); border-color: var(--a1); }
+.ds-sw, .ds-ic { display: flex; flex: none; width: 38px; height: 28px; border-radius: 7px; overflow: hidden; border: 1px solid var(--line-2); }
+.ds-ic { align-items: center; justify-content: center; color: var(--muted); background: var(--bg-2); }
 .ds-sw i { flex: 1; }
 .ds-txt { display: flex; flex-direction: column; min-width: 0; }
 .ds-txt b { font-size: 14px; font-weight: 600; }
 .ds-txt small { font-size: 12px; color: var(--muted); }
 .ds-n { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.ds-foot { margin: 6px 10px 4px; padding-top: 8px; border-top: 1px solid var(--line); font-size: 11.5px; color: var(--faint); }
+.ds-foot code { font-size: 11px; }
+@media (max-width: 640px) { .ds-cols { grid-template-columns: 1fr; } }
 @media (max-width: 760px) { .ds-label { display: none; } .ds-btn { width: 32px; padding: 0; justify-content: center; } }
 
 /* =========================================================================

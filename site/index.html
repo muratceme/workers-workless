@@ -10,9 +10,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231d1d1f'/%3E%3Cpath d='M7 10l3 12 3-8 3 8 3-12' stroke='%23fff' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M22 22h4' stroke='%2300c7be' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="assets/styles.css" />
-  <!-- GEÇİCİ: tasarım alternatifleri -->
+  <!-- GEÇİCİ: tasarım (düzen) ve tema alternatifleri -->
   <link rel="stylesheet" href="assets/themes.css" />
-  <script>try{var d=new URLSearchParams(location.search).get("tasarim");if(d===null)d=localStorage.getItem("ww-design");if(d)document.documentElement.dataset.design=d}catch(e){}</script>
+  <link rel="stylesheet" href="assets/layouts.css" />
+  <script>try{var q=new URLSearchParams(location.search),r=document.documentElement,d=q.has("tasarim")?q.get("tasarim"):localStorage.getItem("ww-design"),l=q.has("duzen")?q.get("duzen"):localStorage.getItem("ww-layout");if(d)r.dataset.design=d;if(l)r.dataset.layout=l}catch(e){}</script>
 </head>
 <body data-mode="code">
 

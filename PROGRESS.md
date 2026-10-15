@@ -741,7 +741,10 @@ Sıradaki olası işler:
 Listeyi üretmek için: scratchpad kalan3.mjs (catalog DEPTS → slug → library/code-blocks + library/agents ile karşılaştırır).
 Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` → commit + push.
 
-## Tasarım alternatifleri (geçici, 2026-10-15)
-- Sağ üstte "Tasarım" menüsü: Orijinal + 5 alternatif (Editoryal, İsviçre Baskı, Terminal, Cam, Yumuşak Yapı). Kurulan taste-skill (minimalist-ui, industrial-brutalist-ui, high-end-visual-design, redesign-existing-projects) kurallarıyla yazıldı.
-- Dosyalar: `site/assets/themes.css`, `site/assets/design-switcher.js`; index.html'de "GEÇİCİ" yorumlu link + head betiği + script satırı. Paylaşım: `?tasarim=isvicre`.
-- Karar sonrası: seçilen tasarım styles.css'e işlenecek, bu dosyalar ve satırlar silinecek.
+## Tasarım ve tema alternatifleri (geçici, 2026-10-15)
+- Sağ üstte "Tasarım" menüsü, iki grup; ikisi birlikte seçilebilir:
+  - **Tasarım (sayfa yapısı)**: Orijinal + Yan Panel (sol sabit menü + sektör dizini), Bölünmüş (dev başlık, yapışkan sol sütunlar, kenara yaslı panel), Bento (karo ızgara, öne çıkan büyük karolar, ortada pencere), Dizin (numaralı satırlar, künye üst bar, tam sayfa görev), Arama + Dok (büyük arama kutusu, altta yüzen menü, yatay raflar, duvar düzeni, alttan panel).
+  - **Tema (renk ve yazı)**: Orijinal + Editoryal, İsviçre Baskı, Terminal, Cam, Yumuşak Yapı.
+- taste-skill kurallarıyla yazıldı (minimalist-ui, industrial-brutalist-ui, high-end-visual-design, redesign-existing-projects); playwright-cli ile masaüstü, telefon (390 px, yatay taşma yok), görev paneli ve kombinasyonlar kontrol edildi.
+- Dosyalar: `site/assets/themes.css`, `site/assets/layouts.css`, `site/assets/design-switcher.js`; index.html'de "GEÇİCİ" yorumlu iki link + head betiği + script satırı. Paylaşım: `?duzen=bento&tasarim=cam`.
+- Karar sonrası: seçilen düzen ve tema styles.css'e (gerekirse index.html'e) işlenecek, bu dosyalar ve satırlar silinecek.
