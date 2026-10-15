@@ -746,3 +746,18 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - "Katkı ver" dili kaldırıldı; yerine iletişim: ana sayfada "Veriniz bu kalıba uymuyor mu?" bölümü (`#/iletisim`), menüde ve alt bilgide "İletişim", hazır paket panelinde "Dosyalarınız bu biçimde değil mi?" kutusu, yapım aşamasındaki görevde "Bu iş için yazın", yakında sektör kartlarında "Yazın", aramada sonuç yoksa bağlantı. E-posta düğmeleri konu satırı hazır açılır (görev adıyla).
 - İletişim bölümü ana sayfada "Nasıl çalışır"ın hemen altında; bölüm ve menü/alt bilgi bağlantısı her zaman görünür.
 - **Bekleyen:** `catalog/catalog.mjs` → `CONFIG.contact.email` ve `linkedin` boş. Boşken bölümdeki düğmeler, paneldeki uyarlama kutusu ve kart/arama bağlantıları gizli; yapım aşamasındaki görevde eski GitHub talep düğmesi görünür. Kullanıcıdan adresler bekleniyor.
+
+## Uçtan uca test turu (2026-10-15)
+- Birim testleri: 432/432 geçti (kontrol.py --test). 356 kod bloğu örnek veriyle argümansız çalıştırıldı: hepsi çıktı üretti; 380 çıktı dosyasında boş sayfa, nan / None / #DIV gibi hatalı hücre yok.
+- 76 agent gerçek API olmadan uçtan uca çalıştırıldı: model isteği dosyaya yazılıp cevabı Claude (bu oturum) verdi, cevap şemaya göre doğrulanıp agent'a geri verildi (scratchpad: ajan_kos.py). 76'sı da rapor üretti.
+- Bu testte bulunan ve düzeltilen hatalar (her birine test eklendi). Hepsi aynı aileden: kontrol kodu modele verdiği bilgiyi "uydurma" sayıp gereksiz düzeltme turu açıyordu:
+  - acil-durum-eylem-plani-taslagi: talimatın istediği "(E5)", "R3" kimlikleri uydurma sayı sayılıyordu.
+  - teminat-mektubu-metin-kontrolu: "S5", "T6" kimlikleri uydurma sayı sayılıyordu; yalnız ek farkı olan kısa cümle ({LEHTAR}'na / 'ne) "Aynı" kabul edilmiyordu (talimatla çelişki).
+  - vitrin-yonergesi-hazirlama: adımlardaki "Manken 1 ve 2", "podyum 1" numaraları uydurma sayı sayılıyordu.
+  - muvekkil-dosya-durum-raporu: modele verilen "N gündür işlem yok" sayısı reddediliyordu.
+  - supheli-islem-bildirim-taslagi: profildeki hesap açılış tarihi reddediliyordu.
+  - ihale-dokumani-ozeti: "açıklama talep" anahtarı "talebi" yazımını kaçırıp yanlış "özette yok" uyarısı veriyordu (ünsüz yumuşaması).
+- Açık bulgular (değiştirilmedi, kullanıcıya soruldu):
+  - Gizlilik: ortak maskeleme yalnız telefon / e-posta / TCKN / IBAN / LinkedIn. Serbest metindeki kişi adları (hasar-ihbari, hasta-sikayet hekim adı, firma-istihbarat eski yönetici), adres ve doğum tarihi modele gidiyor; banka agent'larında ortak / kefil adı için --gizle gerekiyor.
+  - Küçük: ariza-kaydi müdahalesiz kayıtta müdahale alanı boş olamıyor; urun-sorusu kargo politikası "yarın elimde olur mu" sorusunda getirilmiyor; planogram örnek görselinde Türkçe harfler kutu çıkıyor.
+- Yasal varsayımların web teyidi: SGK giriş "işe başlamadan önce", çıkış 10 gün (5510 md. 8 ve 9); azalan bakiyeler normal oranın 2 katı, en çok %50; kısmi ödemede faiz ve giderler temerrütte ise önce onlara mahsup (TBK 100, Yargıtay 3. HD 2020/3605); 7566 sayılı Kanun ile 4. geçici vergi dönemi geri geldi. README'lerdeki "teyit edilmedi" notları henüz güncellenmedi.

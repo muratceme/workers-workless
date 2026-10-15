@@ -273,6 +273,8 @@ def denetle(vitrinler: list[dict], sonuc: dict, urunler: list[dict], kampanya: s
         if not any(FIYAT.search(s) for s in t["adimlar"] + t["kontrol_listesi"]):
             sorun.append(f"{a}: vitrindeki ürünlerin fiyat etiketiyle ilgili adım yok")
         for ad, m in [("Afiş", t["afis_metni"])] + [(f"Adım {i}", s) for i, s in enumerate(t["adimlar"], 1)]:
+            # SKU'lar ve "Manken 1 ve 2", "podyum 1'e" gibi numaralar sayı sayılmaz
+            m = re.sub(r"(?i)\b(?:manken|podyum)\w*\s+\d+(?:\s*(?:,|ve|ile|-)\s*\d+)*", " ", m)
             fazla = sorted(sayilar(re.sub(r"\b[A-Z]{1,4}-?\d+\b", " ", m)) - izinli)
             if fazla:
                 sorun.append(f"{a}: {ad}: kampanya bilgisinde olmayan sayı / tarih: {', '.join(fazla)}")

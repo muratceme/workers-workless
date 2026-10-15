@@ -371,7 +371,8 @@ def kimlik_haritasi(islemler, n, k) -> dict:
 
 def izinli_sayilar(islemler, n, k, oz, harita) -> set:
     parcalar = [f"{x['zaman']:%d.%m.%Y %H:%M} {para(x['tutar'])}" for x in islemler] + [gizle(g, harita) for g in n["gozlemler"]]
-    parcalar += [x["metin"] for x in k] + [f"{oz['adet']} {para(oz['giris'])} {para(oz['cikis'])} {n['gelir']} {n['supheli_tarih']}"]
+    # Modele verilen müşteri profilindeki hesap açılış tarihi de izinli
+    parcalar += [x["metin"] for x in k] + [f"{oz['adet']} {para(oz['giris'])} {para(oz['cikis'])} {n['gelir']} {n['supheli_tarih']} {n['acilis'] or ''}"]
     s = sayilar(" ".join(parcalar))
     return s | {re.sub(r"\D", "", m) for m in re.findall(r"\{KT\d+\}", " ".join(parcalar))}
 

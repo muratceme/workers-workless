@@ -68,6 +68,12 @@ class KodTesti(unittest.TestCase):
         self.assertTrue(any(x.startswith("Büyük") and "kapasite" in x for x in s) and any(x.startswith("Büyük") and "fiyat etiketi" in x for x in s)
                         and any(x.startswith("Küçük") and "Erkek, Kadın" in x for x in s) and any(x.startswith("Küçük") and "TR-05" in x for x in s)
                         and any(x.startswith("Küçük") and "40" in x for x in s))
+        # Talimat numaraları 1'den başlatmayı ister; "Manken 1 ve 2", "podyum 1'e" uydurma sayı değildir, uydurma oran yine yakalanır
+        y = {x["tip"]: yonerge(x["tip"]) for x in v}
+        y["Büyük"]["adimlar"] += ["Manken 1 ve 2'yi kadın, manken 3, 4 erkek kombiniyle giydirin; podyum 1'e çantayı koyun."]
+        self.assertEqual(agent.denetle(v, y, u, k), [])
+        y["Büyük"]["adimlar"] += ["Podyum 2'ye %30 indirim kartı koyun."]
+        self.assertTrue(any("30" in x for x in agent.denetle(v, y, u, k)))
 
 
 class AgentTesti(unittest.TestCase):

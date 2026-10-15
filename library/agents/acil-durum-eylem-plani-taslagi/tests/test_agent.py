@@ -73,6 +73,9 @@ class KodTesti(unittest.TestCase):
         for parca in ("söndürme ekibine", "110", "5 (ekip", "R3", "R5", "R6", "sayım", "refakat", "ziyaretçi"):
             self.assertTrue(any(parca in x for x in s), (parca, s))
         self.assertEqual(len(s), 9, s)
+        # Talimattaki "(E5)" gibi kimlikler uydurma sayı sayılmaz; gerçek sayı yine yakalanır
+        self.assertEqual(agent._sayi_sorunlari("S1", "Ana şalteri kapatır (E5); R3, B4 ve E7 bölgelerini boşaltır.", {"112"}), [])
+        self.assertEqual(len(agent._sayi_sorunlari("S1", "E5 şalterini 3 dakikada kapatır.", {"112"})), 1)
 
 
 class AgentTesti(unittest.TestCase):

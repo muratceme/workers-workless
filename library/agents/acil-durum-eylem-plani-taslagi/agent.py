@@ -348,6 +348,8 @@ def denetle(t: dict, n: dict) -> list[str]:
 
 def _sayi_sorunlari(ad: str, metin: str, izinli: set) -> list[str]:
     sorun = []
+    metin = re.sub(r"\b[BRE]\d+\b", " ", metin)  # "(E5)", "R1" gibi kimlikler sayı sayılmaz
+
     eski = sorted(ESKI_NUMARA & sayilar(metin))
     if eski:
         sorun.append(f"{ad}: eski acil numarası ({', '.join(eski)}); tüm acil çağrılar için 112 yazın")

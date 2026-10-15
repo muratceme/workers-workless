@@ -80,6 +80,10 @@ class KodTesti(unittest.TestCase):
         for parca in ("T5: 'Aynı' denmiş ama S4 ile sayı", "T6: standartta olmayan riskli", "T6: açıklamada", "T7: talep cümlesi sınıflandırılmamış"):
             self.assertTrue(any(parca in x for x in s), (parca, s))
         self.assertEqual(len(s), 4, s)
+        # Talimata uygun: yalnız ek farkı olan cümle "Aynı" sayılabilir; "S5" gibi kimlik sayı değildir
+        c = cevap()
+        c["eslesmeler"][0].update(durum="Aynı", aciklama="Yalnız ek farkı; S5 hükmü talepte yok.")
+        self.assertEqual(agent.denetle(c, std, tal), [])
 
 
 class AgentTesti(unittest.TestCase):

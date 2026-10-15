@@ -268,7 +268,9 @@ def muvekkiller(dosyalar: list[dict]) -> list[dict]:
 
 def dosya_rakamlari(d: dict) -> set[str]:
     alanlar = [d[a] for a in ("dosya", "mahkeme", "esas", "son_tarih", "son", "sonraki_tarih", "sonraki", "alacak", "tahsil")]
-    return set().union(*(sayilar(x) for x in alanlar), *(sayilar(tl(d[a])) for a in ("alacak_v", "tahsil_v", "kalan_v") if d[a] is not None))
+    # Modele verilen "N gündür işlem yok" sayısı da dosya bilgisidir
+    gun = sayilar(str(d["hareketsiz_gun"])) if d.get("hareketsiz_gun") is not None else set()
+    return set().union(gun, *(sayilar(x) for x in alanlar), *(sayilar(tl(d[a])) for a in ("alacak_v", "tahsil_v", "kalan_v") if d[a] is not None))
 
 
 def dosya_satiri(d: dict, karsi: dict, hareketsiz: int) -> str:

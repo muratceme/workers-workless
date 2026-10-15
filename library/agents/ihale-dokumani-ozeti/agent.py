@@ -51,7 +51,7 @@ KONULAR = [
     ("Gecikme cezası", ("gecikme ceza",)), ("Fiyat farkı", ("fiyat fark",)), ("Avans", ("avans",)), ("Alt yüklenici", ("alt yuklenici",)),
     ("Teklif geçerlilik süresi", ("gecerlilik sure",)), ("Yer teslimi", ("yer teslim",)), ("İş artışı", ("is artis",)),
     ("Sigorta", ("sigorta",)), ("Geçici / kesin kabul", ("gecici kabul", "kesin kabul")), ("Hakediş / ödeme", ("hakedis", "odeme")),
-    ("Açıklama talebi", ("aciklama talep",)), ("Kalite belgesi", ("iso 9001", "kalite yonetim")),
+    ("Açıklama talebi", ("aciklama tale",)), ("Kalite belgesi", ("iso 9001", "kalite yonetim")),
 ]
 
 

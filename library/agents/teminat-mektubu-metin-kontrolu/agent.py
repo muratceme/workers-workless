@@ -313,7 +313,9 @@ def cumleler(metin: str, on: str) -> dict:
 
 
 def benzerlik(a: str, b: str) -> float:
-    return difflib.SequenceMatcher(None, katla(a), katla(b)).ratio()
+    # Kesme işaretinden sonraki ek farkı ({LEHTAR}'na / {LEHTAR}'ne) benzerliği düşürmesin
+    ek_at = lambda s: re.sub(r"['’]\w+", "", s)  # noqa: E731
+    return difflib.SequenceMatcher(None, katla(ek_at(a)), katla(ek_at(b))).ratio()
 
 
 def alan_kontrol(f: dict, ham: str, standart: dict, talep: dict) -> list[str]:
@@ -381,7 +383,7 @@ def denetle(t: dict, standart: dict, talep: dict) -> list[str]:
         yeni = [r for r in riskli_mi(talep[tid]) if r not in std_risk]
         if yeni and (e["durum"] not in ("Esaslı sapma", "Standartta yok") or e["risk"] == "Düşük"):
             sorun.append(f"{tid}: standartta olmayan riskli hüküm ({', '.join(yeni)}) esaslı sapma ve en az orta risk olarak işaretlenmeli")
-        fazla = sorted(sayilar(e["aciklama"]) - izinli)
+        fazla = sorted(sayilar(re.sub(r"\b[ST]\d+\b", " ", e["aciklama"])) - izinli)  # S5, T6 gibi kimlikler sayı değil
         if fazla:
             sorun.append(f"{tid}: açıklamada metinlerde olmayan sayı: {', '.join(fazla)}")
     for tid in talep:

@@ -66,6 +66,10 @@ class KodTesti(unittest.TestCase):
         self.assertEqual(len(s), 4, s)
         self.assertTrue(all(x.startswith("M1:") for x in s) and any("2024/087" in x for x in s) and any("26.11.2026" in x for x in s)
                         and any("19.11.2026" in x for x in s) and any("kazanaca" in x for x in s))
+        # Modele verilen "165 gündür işlem yok" bilgisini aktarmak uydurma sayı sayılmaz
+        hk = rapor("M1")
+        hk["dosyalar"][2]["durum"] += " Dosyada 165 gündür işlem yapılmamıştır."
+        self.assertEqual(agent.denetle(g, {"M1": hk, "M2": rapor("M2")}, 90), [])
         sizinti = rapor("M2")
         sizinti["dosyalar"][0]["durum"] += " Benzer bir dosyada (2025/8841) haciz uygulandı. {KT2} ile görüşüldü."
         s = agent.denetle(g, {"M1": rapor("M1"), "M2": sizinti}, 90)

@@ -78,6 +78,10 @@ class KodTesti(unittest.TestCase):
         for parca in ("145000", "yalnız gözleme", "kesin hüküm", "5549", "K2:", "K3:", "K4:"):
             self.assertTrue(any(parca in x for x in s), (parca, s))
         self.assertEqual(len(s), 7, s)
+        # Profildeki hesap açılış tarihi modele verilir; özete yazılması uydurma sayılmaz
+        t = taslak()
+        t["olay_ozeti"][0]["metin"] += f" Hesap {n['acilis']} tarihinde açılmıştır."
+        self.assertEqual(agent.denetle(t, i, n, k, oz, h), [])
 
 
 class AgentTesti(unittest.TestCase):

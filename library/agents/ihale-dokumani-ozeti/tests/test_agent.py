@@ -105,6 +105,12 @@ class KodTesti(unittest.TestCase):
         self.assertEqual([(x.ad, x.tur) for x in self.d], [(I, "İdari şartname"), (S, "Sözleşme tasarısı"), (T, "Teknik şartname")])
         self.assertEqual(self.atlanan, [])
 
+    def test_konu_anahtari_unsuz_yumusamasi(self):
+        # Belgede "açıklama talepleri", özette "açıklama talebi": ikisi de aynı konu sayılmalı
+        anahtarlar = dict(agent.KONULAR)["Açıklama talebi"]
+        for ifade in ("açıklama talepleri", "Açıklama talebi son günü"):
+            self.assertTrue(any(a in agent.katla(ifade) for a in anahtarlar), ifade)
+
     def test_tutarlilik(self):
         b = agent.tutarlilik(self.d)
         self.assertEqual(len(b), 1)                                        # gecikme cezası tek belgede, çelişki yok
