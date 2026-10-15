@@ -666,18 +666,39 @@ numarası ve veride olmayan sayı yakalanır; misafir mesajı / yorum cevabında
 oda numarası denetlenir; hasta şikâyeti, memnuniyet, misafir mesajı, veli mesajı agent'larında ad / kimlik modele gitmez.
 Örnek karar metni kurgusaldır (mevzuat atıfları TBK 49, 52, HMK 266 gerçek).
 
+### Tur 30 (15 agent)
+Agent: ihtarname-taslagi, aday-bilgilendirme-e-postalari, oltalama-e-postasi-analizi, yonetim-kurulu-finans-sunumu-ozeti,
+piyasa-gunlugu-ozeti, ziyaret-notu-ozeti, basin-bulteni-taslagi, e-bulten-metni-hazirlama, musteri-ihtiyac-analizi,
+trend-raporu-ozeti, urun-bilgi-karti-ozeti, vitrin-yonergesi-hazirlama, mukellef-bilgilendirme-yazisi,
+muvekkil-dosya-durum-raporu, ogrenci-gelisim-raporu-taslagi.
+Toplam 418 paket (353 kod + 65 agent). Testler 418/418.
+İnternet teyidi (15.10.2026):
+- TBK m.315: kiracının temerrüdünde süre en az 10 gün, konut ve çatılı işyerinde en az 30 gün (ihtarname agent'ı
+  --tur-ihtar kira-konut / kira-diger ile daha kısa süreyi reddeder). Noter ihtarnamesi talep kalıbı (tebliğ, saklama,
+  tebliğ şerhli nüsha) örneklerden.
+- Ticari elektronik ileti: gönderen kimliği (tacirde unvan + MERSİS), erişilebilir iletişim bilgisi ve ret imkânı
+  zorunlu (6563 sayılı Kanun ve yönetmelik; e-bülten alt bilgisini kod ekler).
+- Geçici vergi: dönemi izleyen 2. ayın 17'si; 4. dönem 7338 ile 2022'den itibaren kaldırılmış, 7566 sayılı Kanun
+  (RG 19.12.2025) ile yeniden getirilmiş (mükellef yazısı örnek notu buna göre). Hafızadaki "4. dönem yok" bilgisi
+  ESKİYDİ — mevzuat içeren örneklerde mutlaka teyit.
+Tasarım notları: aday / veli / mükellef / müvekkil / öğrenci agent'larında ad, e-posta, vergi no modele gitmez (yer
+tutucu ya da kod); oltalama agent'ı .eml'i kendi ayrıştırır, bağlantıya gitmez, çıktıdaki alan adlarını etkisizleştirme
+(hxxp, [.]) denetler; finans / piyasa özetinde rakamlar koddan, metindeki her sayı dayandığı kalemin hazır rakamlarıyla
+karşılaştırılır (faiz / CDS baz puan birimi denetlenir); ziyaret notunda göreli tarih ifadeleri ("haftaya cuma", "ay
+sonu", "3 iş günü") koddan hesaplanır.
+Testlerin yakaladığı gerçek hatalar: trend agent'ında "rengi" (k→g yumuşaması) renk kategorisi sayılmıyordu; müvekkil
+raporunda {KT2} yer tutucusundaki rakam sayı denetimine giriyordu; aday e-postasında CSV'den gelen "65000" ücret
+biçimlenmiyordu.
+
 ### KALDIĞIM YER
-Kod tarafında yalnız SGK Teşvik Uygunluk Ön Kontrolü kaldı (çok sayıda teşvik, sık değişiyor → kapsamlı mevzuat teyidiyle).
-Kalan ~29 görevin neredeyse tamamı agent (tam liste: kalan2.mjs). Sıradaki agent adayları: Şüpheli İşlem Bildirim Taslağı
-(MASAK, dikkatli), Ar-Ge Proje Raporu Taslağı, Planogram Uyum Kontrolü (görsel girdi gerekir), Etiket Bilgisi Kontrolü (TGK
-etiketleme yönetmeliği teyidi gerekir), Öğrenci Gelişim Raporu, Aday Bilgilendirme E-postaları, Yönetim Kurulu Finans Özeti,
-Oltalama E-postası Analizi, İhtarname Taslağı, KVKK Aydınlatma Metni, E-bülten, Ziyaret Notu Özeti, Acil Durum Eylem Planı,
-GTİP Önerisi, Piyasa Günlüğü, Teminat Mektubu Kontrolü, Müşteri İhtiyaç Analizi, Renk Paleti, Trend Raporu, Vitrin Yönergesi,
-Tıbbi Rapor Yazım Kontrolü, Mükellef Bilgilendirme Yazısı, Müvekkil Dosya Durum Raporu, Basın Bülteni, Ürün Bilgi Kartı.
-Epikriz, ÖSS ve SGK fatura (puan 5) sonda.
-Kullanıcı tur boyunu 15 pakete çıkardı (15 paket → dur → /compact).
-Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
-Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.
+Kalan 14 görev: kod tarafında yalnız SGK Teşvik Uygunluk Ön Kontrolü (çok sayıda teşvik, sık değişiyor → kapsamlı mevzuat
+teyidi). Agent adayları: KVKK Aydınlatma Metni Taslağı, Acil Durum Eylem Planı Taslağı (yönetmelik teyidi), GTİP
+Sınıflandırma Önerisi, Teminat Mektubu Metin Kontrolü, Şüpheli İşlem Bildirim Taslağı (MASAK, dikkatli), Ar-Ge Proje
+Raporu Taslağı, Renk Paleti Çıkarma (görsel girdi), Planogram Uyum Kontrolü (görsel girdi), Etiket Bilgisi Kontrolü (TGK
+etiketleme yönetmeliği teyidi), Tıbbi Rapor Yazım Kontrolü. Epikriz, ÖSS ve SGK fatura en sonda.
+Kullanıcı tur boyunu 15 pakete çıkardı (15 paket → dur → /compact). Son turda kalan 14'ün hepsi yapılabilir.
+Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
+Listeyi üretmek için: scratchpad kalan3.mjs (catalog DEPTS → slug → library/code-blocks + library/agents ile karşılaştırır).
 İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);
 mizan çekirdeği para() "750.000" binlik yazımı.
 Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` → commit + push.

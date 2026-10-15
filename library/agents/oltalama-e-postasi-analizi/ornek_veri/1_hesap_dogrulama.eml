@@ -1,0 +1,27 @@
+Return-Path: <bounce@mailer-ornekbank.xyz>
+Authentication-Results: mx.ornekfirma.com.tr; spf=fail smtp.mailfrom=mailer-ornekbank.xyz; dkim=none; dmarc=fail header.from=ornekbank-guvenlik.com
+From: "Ornek Bank Guvenlik" <guvenlik@ornekbank-guvenlik.com>
+Reply-To: destek@mail-ornekbank.xyz
+To: muhasebe@ornekfirma.com.tr
+Subject: =?utf-8?q?Hesab=C4=B1n=C4=B1z_ask=C4=B1ya_al=C4=B1nacakt=C4=B1r?=
+Date: Wed, 14 Oct 2026 08:12:00 +0300
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="SINIR1"
+
+--SINIR1
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<html><body><p>Değerli müşterimiz,</p>
+<p>Güvenlik sistemimiz hesabınızda olağandışı bir giriş tespit etti. Hesabınız 24 saat içinde askıya alınacaktır.</p>
+<p>Hesabınızı korumak için lütfen <a href="http://198.51.100.23/ornekbank/giris">https://www.ornekbank.com.tr/giris</a> adresinden kullanıcı adı ve şifrenizi girerek doğrulayın.</p>
+<p>Ayrıntılar ekteki hesap özetinde yer almaktadır.</p>
+<p>Ornek Bank Güvenlik Ekibi</p></body></html>
+
+--SINIR1
+Content-Type: text/html; name="hesap_ozeti.pdf.html"
+Content-Disposition: attachment; filename="hesap_ozeti.pdf.html"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PC9odG1sPg==
+--SINIR1--

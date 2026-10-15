@@ -1,0 +1,20 @@
+{
+  "id": "ziyaret-notu-ozeti",
+  "tur": "agent",
+  "ad": "Ziyaret Notu Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ziyaret_notlari.txt --rakipler \"X Ambalaj,Y Kutu\"",
+  "girdiler": [
+    "Ziyaret notları (.txt, .docx): her ziyaret 'Ziyaret: Müşteri | GG.AA.YYYY' satırıyla başlar, altında serbest notlar",
+    "Rakip firma adları (isteğe bağlı)",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta ve kimlik numarası maskelenir)"
+  ],
+  "ciktilar": ["Excel: CRM (özet, fırsat aşaması, tahmini tutar, ihtiyaçlar, itirazlar, rakip bilgisi), Aksiyonlar (sorumlu, termin, 'termin belirsiz' ve 'yönetici onayı gerekir' uyarıları, dayanak satırlar)", "CSV: Müşteri; Görev; Sorumlu; Termin (CRM'e aktarmak için)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

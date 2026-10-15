@@ -1,0 +1,19 @@
+{
+  "id": "basin-bulteni-taslagi",
+  "tur": "agent",
+  "ad": "Basın Bülteni Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi bilgi_notu.txt",
+  "girdiler": [
+    "Bilgi notu (.txt, .docx): Şirket, Şehir, Tarih, Basın İletişimi, Şirket Hakkında satırları; 'Bilgiler' bölümünde onaylı bilgiler; 'Alıntılar' bölümünde 'Ad Soyad, Unvan: \"söz\"' satırları",
+    ".env: sağlayıcı ve API anahtarı (basın iletişimi bilgileri gönderilmez)"
+  ],
+  "ciktilar": ["TXT: basın bülteni (başlık, spot, yer-tarih, paragraflar, şirket hakkında, basın iletişimi)", "Excel: Bülten (her paragrafın dayandığı bilgi ve alıntılar, kontrol sonucu)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

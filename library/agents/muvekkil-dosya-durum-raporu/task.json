@@ -1,0 +1,18 @@
+{
+  "id": "muvekkil-dosya-durum-raporu",
+  "tur": "agent",
+  "ad": "Müvekkil Dosya Durum Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi dosyalar.xlsx --buro \"Av. Ad Soyad Hukuk Bürosu\" --hareketsiz 90",
+  "girdiler": [
+    "Dosya listesi (.xlsx/.csv): Dosya No, Müvekkil; Tür, Mahkeme / Daire, Esas No, Karşı Taraf, Son İşlem Tarihi, Son İşlem, Sonraki İşlem Tarihi, Sonraki İşlem, Alacak Tutarı, Tahsil Edilen",
+    ".env: sağlayıcı ve API anahtarı (müvekkil ve karşı taraf adları gönderilmez, kodlanır)"
+  ],
+  "ciktilar": ["TXT: müvekkil başına dosya durum raporu", "Excel: Dosyalar (hareketsiz gün, sonraki işleme kalan gün, kalan alacak, rapordaki açıklama; hareketsiz ve yaklaşan işlemler işaretli)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

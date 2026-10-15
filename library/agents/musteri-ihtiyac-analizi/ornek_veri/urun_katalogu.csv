@@ -1,0 +1,9 @@
+Ürün;Branş;Kapsam;Zorunlu
+Zorunlu Trafik Sigortası;Oto;"Aracın üçüncü kişilere verdiği zararlar";E
+Kasko;Oto;"Aracın kendi hasarı, çalınma, doğal afet (poliçe şartlarına göre)";H
+DASK (Zorunlu Deprem Sigortası);Konut;"Konut binasının deprem ve deprem kaynaklı hasarı (limitler dahilinde)";E
+Konut Sigortası;Konut;"Bina ve ev eşyası; yangın, hırsızlık, su baskını (poliçe şartlarına göre)";H
+İşyeri Sigortası;İşyeri;"Demirbaş, ekipman ve emtia; yangın, hırsızlık (poliçe şartlarına göre)";H
+İşveren Mali Sorumluluk Sigortası;Sorumluluk;"Çalışanların iş kazası nedeniyle işverene yönelttiği tazminat talepleri";H
+Tamamlayıcı Sağlık Sigortası;Sağlık;"SGK anlaşmalı özel hastanelerde fark ücretleri (ağ ve limitlere göre)";H
+Ferdi Kaza Sigortası;Kişi;"Kaza sonucu vefat ve sürekli sakatlık";H

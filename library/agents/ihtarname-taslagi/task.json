@@ -1,0 +1,21 @@
+{
+  "id": "ihtarname-taslagi",
+  "tur": "agent",
+  "ad": "İhtarname Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --olay olay.txt --taraflar taraflar.txt --talep \"…\" --sure 30 --tur-ihtar kira-konut",
+  "girdiler": [
+    "Olay özeti (.txt, .docx, .pdf): her satır bir olgu",
+    "Taraf bilgileri (.txt): Noterlik, Keşideci, Keşideci Adres, Vekil, Muhatap, Muhatap Adres, Kimlik No satırları",
+    "Talep, süre (gün), ihtar türü (genel / kira-konut / kira-diger) ve atıf yapılabilecek maddeler",
+    ".env: sağlayıcı ve API anahtarı (taraf adları, adres ve kimlik no gönderilmez)"
+  ],
+  "ciktilar": ["TXT: noter ihtarnamesi taslağı (başlık, taraflar, konu, açıklamalar, sonuç ve istem, noterlik talep kalıbı)", "Excel: Paragraflar (dayanak satırlarıyla), Eksik Bilgiler"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

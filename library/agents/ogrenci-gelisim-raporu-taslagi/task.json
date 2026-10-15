@@ -1,0 +1,21 @@
+{
+  "id": "ogrenci-gelisim-raporu-taslagi",
+  "tur": "agent",
+  "ad": "Öğrenci Gelişim Raporu Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --notlar notlar.xlsx --devamsizlik devamsizlik.xlsx --gozlemler gozlemler.txt",
+  "girdiler": [
+    "Not tablosu (.xlsx/.csv): Öğrenci No, Ders, Bu Dönem; Ad Soyad, Sınıf, Önceki Dönem",
+    "Devamsızlık (.xlsx/.csv): Öğrenci No; Özürsüz, Özürlü (isteğe bağlı)",
+    "Öğretmen gözlemleri (.txt, .docx): '1021: gözlem' satırları (isteğe bağlı)",
+    ".env: sağlayıcı ve API anahtarı (öğrenci adı ve numarası gönderilmez)"
+  ],
+  "ciktilar": ["TXT: öğrenci başına gelişim raporu taslağı (güçlü yönler, gelişime açık alanlar, öneriler, veli görüşmesi soruları)", "Excel: Özet (ortalama, belirgin düşüş, devamsızlık, kontrol sonucu)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

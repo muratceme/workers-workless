@@ -1,0 +1,20 @@
+{
+  "id": "trend-raporu-ozeti",
+  "tur": "agent",
+  "ad": "Trend Raporu Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --rapor trend_raporu.pdf --brif koleksiyon_brifi.txt",
+  "girdiler": [
+    "Sezon trend raporu (.pdf, .docx, .txt)",
+    "Koleksiyon brifi (.txt, .docx): Sezon, Hedef Müşteri, Ürün Grupları, Fiyat Segmenti, Ana Kumaşlar, Kaçınılacaklar",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Maddeler (kategori, trend, rapordan alıntı, koleksiyona uygulama, ürün grupları, öncelik, 'Karar'), Uygulanmayacaklar (gerekçesiyle)", "TXT: kategori bazında trend özeti"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

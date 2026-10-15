@@ -1,0 +1,18 @@
+Gönderen Unvan: Örnek Mağazacılık A.Ş.
+MERSİS No: 0123456789000015
+İletişim: musteri@ornekmagaza.example · 0850 000 00 00
+Ret Bağlantısı: https://ornekmagaza.example/abonelik-iptal
+Kampanya: Sonbahar İndirimi
+Başlangıç: 20.10.2026
+Bitiş: 26.10.2026
+İndirim: Seçili sonbahar ürünlerinde %30'a varan indirim
+Kod: SONBAHAR10
+Bağlantı: https://ornekmagaza.example/sonbahar
+Hedef Kitle: Son 12 ayda alışveriş yapmış üyeler
+Ton: Samimi, kısa; "sen" diliyle
+
+Koşullar:
+- Kampanya 20.10.2026–26.10.2026 tarihleri arasında online mağazada geçerlidir.
+- İndirim oranları ürüne göre değişir; indirimli fiyatlar ürün sayfasında gösterilir.
+- SONBAHAR10 koduyla 1.500 TL ve üzeri alışverişlerde sepette ek %10 indirim uygulanır; kod üye başına bir kez kullanılabilir.
+- 750 TL ve üzeri siparişlerde kargo ücretsizdir.

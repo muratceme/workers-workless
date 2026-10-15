@@ -1,0 +1,16 @@
+Şirket: Örnek Enerji A.Ş.
+Şehir: İzmir
+Tarih: 15.10.2026
+Basın İletişimi: Kurumsal İletişim Müdürlüğü · basin@ornekenerji.example · 0232 000 00 00
+Şirket Hakkında: Örnek Enerji A.Ş., yenilenebilir enerji alanında yatırım ve işletme faaliyeti yürüten bir enerji şirketidir. Güneş ve rüzgâr santrallerinden elektrik üretmektedir.
+
+Bilgiler:
+- Örnek Enerji, Manisa'nın Soma ilçesinde kurulu gücü 45 MW olan güneş enerjisi santralini devreye aldı.
+- Santralin yılda yaklaşık 80 milyon kWh elektrik üretmesi bekleniyor.
+- Yatırım tutarı 38 milyon ABD dolarıdır.
+- Santralin yapımında 250 kişi çalıştı; işletme döneminde 20 kişi istihdam edilecek.
+- Üretilecek elektrik yaklaşık 30 bin hanenin yıllık tüketimine denk geliyor.
+- Şirketin toplam kurulu gücü bu yatırımla 310 MW'a ulaştı.
+
+Alıntılar:
+Ayşe Kara, Genel Müdür: "Soma santrali, yenilenebilir enerjiye olan bağlılığımızın somut bir göstergesi. Bölgede istihdama katkı sunmaktan mutluluk duyuyoruz."

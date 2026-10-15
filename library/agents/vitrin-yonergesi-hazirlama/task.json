@@ -1,0 +1,21 @@
+{
+  "id": "vitrin-yonergesi-hazirlama",
+  "tur": "agent",
+  "ad": "Vitrin Yönergesi Hazırlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --kampanya kampanya.txt --urunler urunler.xlsx --vitrinler vitrin_tipleri.xlsx",
+  "girdiler": [
+    "Kampanya bilgisi (.txt, .docx): kampanya adı, kurulum ve bitiş tarihi, tema, afiş metni",
+    "Ürün listesi (.xlsx/.csv): SKU, Ürün; Grup (Kadın / Erkek / Çocuk), Renk, Öncelik (Zorunlu / Opsiyonel)",
+    "Vitrin tipleri (.xlsx/.csv): Vitrin Tipi, Manken Sayısı; Podyum Sayısı, Mağazalar",
+    ".env: sağlayıcı ve API anahtarı (mağaza adları gönderilmez)"
+  ],
+  "ciktilar": ["TXT: her vitrin tipi için mağazalara gönderilecek yönerge (adımlar, manken kombinleri, podyum, afiş, kontrol listesi)", "Excel: Dağıtım (mağaza → vitrin tipi → yönerge dosyası, kontrol sonucu) ve her vitrin tipi için ayrıntı sayfası"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

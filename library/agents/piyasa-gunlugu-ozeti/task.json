@@ -1,0 +1,20 @@
+{
+  "id": "piyasa-gunlugu-ozeti",
+  "tur": "agent",
+  "ad": "Piyasa Günlüğü Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi piyasa_verileri.xlsx --haberler haberler.txt --tarih 14.10.2026",
+  "girdiler": [
+    "Piyasa verileri (.xlsx/.csv): Gösterge, Önceki Kapanış, Son; Tür (Kur / Endeks / Faiz / CDS / Emtia)",
+    "Günün haber / gelişme notları (.txt, .docx): her satır bir not (isteğe bağlı)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Özet (başlık, öne çıkanlar, paragraflar ve dayanakları), Veriler (değişim, %, baz puan; en çok hareket edenler işaretli), Haberler", "TXT: dağıtıma hazır piyasa günlüğü (yatırım danışmanlığı uyarısıyla)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

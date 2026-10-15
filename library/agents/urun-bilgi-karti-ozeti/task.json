@@ -1,0 +1,18 @@
+{
+  "id": "urun-bilgi-karti-ozeti",
+  "tur": "agent",
+  "ad": "Ürün Bilgi Kartı Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi urunler.xlsx --kategori \"Kablosuz Kulaklık\"",
+  "girdiler": [
+    "Ürün tablosu (.xlsx/.csv): SKU, Ürün; Kategori, Fiyat; diğer her sütun bir teknik özellik (boş = bilgi yok)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Kartlar (öne çıkan 3 fayda, kısa anlatım, sık sorulanlar, kontrol sonucu), Farklar (aynı kategorideki ürünlerle özellik karşılaştırması)", "TXT: mağazada kullanılacak kısa kartlar"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

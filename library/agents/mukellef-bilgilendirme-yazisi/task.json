@@ -1,0 +1,20 @@
+{
+  "id": "mukellef-bilgilendirme-yazisi",
+  "tur": "agent",
+  "ad": "Mükellef Bilgilendirme Yazısı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --not konu_notu.txt --mukellefler mukellefler.xlsx --imza \"SMMM Ad Soyad · 0212 000 00 00\"",
+  "girdiler": [
+    "Konu notu (.txt, .docx): 'Konu: …' satırı ve numaralı bilgiler (tarih, tutar, kanun numaraları)",
+    "Mükellef listesi (.xlsx/.csv): Ünvan, Mükellefiyet; E-posta",
+    ".env: sağlayıcı ve API anahtarı (mükellef adı, vergi no ve e-posta gönderilmez)"
+  ],
+  "ciktilar": ["TXT: mükellef başına bilgilendirme yazısı", "Excel: Şablonlar (grup bazında uygulanır / uygulanmaz kararı, gerekçe, şablon, kontrol, 'Onay'), Yazılar (mükellef bazında durum)", "CSV: E-posta; Konu; Metin (posta birleştirme için)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

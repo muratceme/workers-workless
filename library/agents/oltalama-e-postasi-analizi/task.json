@@ -1,0 +1,19 @@
+{
+  "id": "oltalama-e-postasi-analizi",
+  "tur": "agent",
+  "ad": "Oltalama E-postası Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi supheli.eml --guvenilir \"firmam.com.tr,bankam.com.tr\"",
+  "girdiler": [
+    "Şüpheli e-posta (.eml) ya da .eml dosyalarının bulunduğu klasör",
+    "Kurumun ve taklit edilmesi olası kurumların güvenilir alan adları",
+    ".env: sağlayıcı ve API anahtarı (gövdedeki e-posta, telefon ve IBAN maskelenir)"
+  ],
+  "ciktilar": ["Excel: Özet (kod riski, AI riski, sınıf, özet, kullanıcıya tavsiye, BT aksiyonları), Göstergeler (SPF/DKIM/DMARC, benzer alan adı, bağlantı, ek, içerik), Bağlantılar (etkisizleştirilmiş)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "aday-bilgilendirme-e-postalari",
+  "tur": "agent",
+  "ad": "Aday Bilgilendirme E-postaları",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi adaylar.xlsx --firma firma.txt",
+  "girdiler": [
+    "Aday listesi (.xlsx/.csv): Aday Adı, Pozisyon, Aşama (Davet / Olumsuz / Teklif); E-posta, Mülakat Türü, Mülakat Tarihi, Mülakat Saati, Mülakat Yeri, Ücret, Başlangıç Tarihi, Yanıt Son Tarihi",
+    "Firma bilgisi (.txt, .docx): 'Şirket:', 'İmza:', 'İletişim:' satırları ve üslup notu",
+    ".env: sağlayıcı ve API anahtarı (aday adı, e-posta, ücret ve tarihler gönderilmez)"
+  ],
+  "ciktilar": ["Excel: Şablonlar (kontrol sonucu, 'Onay'), E-postalar (doldurulmuş konu ve metin), Gönderilemeyen (eksik bilgi, geçersiz e-posta, geçmiş tarih)", "CSV: E-posta; Konu; Metin (posta birleştirme için)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

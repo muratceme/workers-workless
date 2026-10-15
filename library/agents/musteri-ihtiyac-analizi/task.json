@@ -1,0 +1,20 @@
+{
+  "id": "musteri-ihtiyac-analizi",
+  "tur": "agent",
+  "ad": "Müşteri İhtiyaç Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi gorusme_notu.txt --katalog urun_katalogu.xlsx",
+  "girdiler": [
+    "Görüşme notu (.txt, .docx): her satır bir bilgi",
+    "Acentenin ürün kataloğu (.xlsx/.csv): Ürün; Branş, Kapsam, Zorunlu (E/H)",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta ve kimlik numarası maskelenir)"
+  ],
+  "ciktilar": ["Excel: Riskler (öncelik, karşılayan ürünler, dayanak satırlar), Öneriler (durum, gerekçe, zorunlu ürün işareti), Sorular (eksik bilgiler, müşteriye sorulacaklar)", "TXT: müşteriyle paylaşılabilecek ön değerlendirme özeti"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

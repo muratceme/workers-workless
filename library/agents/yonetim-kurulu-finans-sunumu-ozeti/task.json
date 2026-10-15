@@ -1,0 +1,20 @@
+{
+  "id": "yonetim-kurulu-finans-sunumu-ozeti",
+  "tur": "agent",
+  "ad": "Yönetim Kurulu Finans Sunumu Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi donem_sonuclari.xlsx --notlar yonetim_notlari.txt --donem \"2026 3. Çeyrek\" --birim \"milyon TL\"",
+  "girdiler": [
+    "Dönem sonuç tablosu (.xlsx/.csv): Kalem, Cari Dönem; Önceki Dönem, Bütçe (giderler eksi ya da parantezli yazılabilir)",
+    "Yönetim notları (.txt, .docx): her satır bir açıklama (isteğe bağlı)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Özet (öne çıkanlar, bölümler, karar gerektiren konular ve dayanakları), Rakamlar (değişim, bütçe sapması, marjlar, cari oran), Yönetim Notları", "TXT: yönetim kurulu özeti"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

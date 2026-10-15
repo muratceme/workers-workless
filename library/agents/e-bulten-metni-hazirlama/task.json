@@ -1,0 +1,19 @@
+{
+  "id": "e-bulten-metni-hazirlama",
+  "tur": "agent",
+  "ad": "E-bülten Metni Hazırlama",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi kampanya.txt --konu-azami 60",
+  "girdiler": [
+    "Kampanya bilgisi (.txt, .docx): Gönderen Unvan, MERSİS No, İletişim, Ret Bağlantısı, Kampanya, Başlangıç, Bitiş, İndirim, Kod, Bağlantı, Hedef Kitle, Ton satırları ve 'Koşullar' bölümü",
+    ".env: sağlayıcı ve API anahtarı (gönderen unvanı, MERSİS no ve iletişim bilgisi gönderilmez)"
+  ],
+  "ciktilar": ["HTML: e-posta servisine yüklenecek e-bülten (buton bağlantısı ve yasal alt bilgiyle)", "TXT: düz metin sürümü", "Excel: konu satırı alternatifleri (karakter sayısı, 'Seçim'), bölümler, kontrol sonucu"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
