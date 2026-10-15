@@ -111,14 +111,12 @@
   }
 
   /* ------------------------------ iletişim ------------------------------ */
-  // catalog/catalog.mjs → CONFIG.contact. İkisi de boşsa iletişim öğeleri gizli kalır.
+  // catalog/catalog.mjs → CONFIG.contact. Bölüm her zaman görünür; düğmeler ve panel bağlantıları adres girilince çıkar.
   const CONTACT = CONFIG.contact || {};
   const hasContact = Boolean(CONTACT.email || CONTACT.linkedin);
   const mailto = (subject) => `mailto:${CONTACT.email}?subject=${encodeURIComponent(subject)}`;
   const contactHref = (subject) => (CONTACT.email ? mailto(subject) : CONTACT.linkedin || "#/iletisim");
   if (hasContact) {
-    $("#iletisim").hidden = false;
-    $$(".contact-link").forEach((el) => (el.hidden = false));
     if (CONTACT.email) Object.assign($("#contactMail"), { href: mailto("Workers / Workless: iş akışım hakkında"), hidden: false });
     if (CONTACT.linkedin) Object.assign($("#contactLinkedin"), { href: CONTACT.linkedin, hidden: false });
   }
