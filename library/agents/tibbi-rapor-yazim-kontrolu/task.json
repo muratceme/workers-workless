@@ -1,0 +1,20 @@
+{
+  "id": "tibbi-rapor-yazim-kontrolu",
+  "tur": "agent",
+  "ad": "Tıbbi Rapor Yazım Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --hasta hasta.txt --rapor rapor.txt",
+  "girdiler": [
+    "Hasta kaydı (.txt/.docx): Hasta Adı, TC Kimlik No, Doğum Tarihi, Cinsiyet, Protokol No, Rapor Tarihi, Rapor Türü",
+    "Rapor metni (.txt/.docx/.pdf): hekimin dikte ettiği metin",
+    ".env: sağlayıcı ve API anahtarı (hasta kaydı gönderilmez; metindeki ad, TC kimlik no ve protokol no maskelenir)"
+  ],
+  "ciktilar": ["Excel: Bulgular (kaynak: kod / model, tür, alıntı, öneri, açıklama, hekime sor)", "TXT: önerilen metin (yalnız hekime sorulmayan öneriler uygulanmış; asıl rapor değişmez)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

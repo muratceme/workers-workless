@@ -690,15 +690,53 @@ Testlerin yakaladığı gerçek hatalar: trend agent'ında "rengi" (k→g yumuş
 raporunda {KT2} yer tutucusundaki rakam sayı denetimine giriyordu; aday e-postasında CSV'den gelen "65000" ücret
 biçimlenmiyordu.
 
+### Tur 31 (11 agent + 3 kod bloğu) — katalog tamamlandı
+Agent: acil-durum-eylem-plani-taslagi, kvkk-aydinlatma-metni-taslagi, supheli-islem-bildirim-taslagi,
+teminat-mektubu-metin-kontrolu, gtip-siniflandirma-onerisi, ar-ge-proje-raporu-taslagi, renk-paleti-cikarma,
+planogram-uyum-kontrolu, etiket-bilgisi-kontrolu, tibbi-rapor-yazim-kontrolu, epikriz-taslagi.
+Kod: sgk-tesvik-uygunluk-on-kontrolu, ozel-saglik-sigortasi-fatura-on-kontrolu, sgk-fatura-on-kontrolu (fatura işleri
+tamamen kurala dayalı olduğu için agent yerine kod bloğu yapıldı).
+Toplam 432 paket (356 kod + 76 agent), katalogdaki 430 görevin hepsi karşılandı (kalan3.mjs boş). Testler 432/432.
+Ortak değişiklikler:
+- library/_ortak/llm.py: json_iste(..., gorseller=[(medya_turu, bayt)]) isteğe bağlı görsel desteği (Anthropic image
+  bloğu, OpenAI image_url, Ollama images). Geriye uyumlu; tüm agent'lara senkronlandı. Planogram agent'ı kullanıyor.
+- Pillow 12.3.0 (01.07.2026, pip-audit temiz) renk-paleti-cikarma ve planogram-uyum-kontrolu requirements'ına eklendi;
+  .venv'e kuruldu.
+İnternet teyidi (15.10.2026):
+- İşyerlerinde Acil Durumlar Hakkında Yönetmelik (28681) ve 2021 değişikliği (RG 31615): söndürme / kurtarma / koruma
+  ekiplerinin her biri için çok tehlikeli / tehlikeli / az tehlikeli her 30 / 40 / 50 çalışana kadar 1 destek elemanı;
+  10'dan az çalışanda üç ekip için 1 kişi; ilk yardım İlkyardım Yönetmeliği'ne göre (her 10 / 15 / 20'ye 1); plan
+  2 / 4 / 6 yılda bir yenilenir; tatbikat en geç yılda bir; md. 12 plan içeriği ve kroki unsurları. Metin RG PDF'inden.
+- KVKK: md. 6/3 (7499 ile 01.06.2024'ten itibaren a-g bentleri), md. 9 yurt dışı (yeterlilik, uygun güvenceler:
+  standart sözleşme / BCR / taahhütname, arızi aktarım), Aydınlatma Tebliği (genel ifadeden kaçınma), md. 11 hakları.
+- MASAK: şüpheli işlem bildirimi şüphenin oluştuğu tarihten itibaren en geç 10 iş günü (gecikmede sakınca → derhal);
+  5549 md. 4/2 bildirim yapıldığı kimseye açıklanamaz. Yönetmelik madde numarası kaynaklarda m.27 / m.28 diye
+  ayrıştığı için madde numarası yazılmadı.
+- TGK Etiketleme Yönetmeliği (29960): md. 9 zorunlu bilgiler, md. 16 x-yüksekliği 1,2 mm (80 cm² altı 0,9 mm),
+  md. 16/4 ad / net miktar / alkol temel görüş alanında, alerjen vurgusu, md. 26 net miktar birimi. Net miktar rakam
+  yüksekliği teyit edilemedi → koda konmadı.
+- SGK teşvikleri: SGK teşvik broşürü (4447 g.10 süreleri 48/36/24, 29+ erkek 24 / İŞKUR 6, İŞKUR +6; 4857 md.30;
+  4447 md.50 şartları) + 2026 kaynakları: g.10 son işe alım 31.12.2026; 81/ı 2026'da imalat 5 puan, imalat dışı 2 puan
+  (7566); 81/1-k genç girişimci desteği 2026'da kaldırıldı. Parametreler tesvik_parametreleri.json'da (son_teyit alanı).
+Tasarım notları: MASAK, tıbbi rapor ve epikriz agent'larında hasta / müşteri adı, TC, protokol, müşteri no modele
+gitmez; tıbbi raporda model metni yeniden yazmaz, sayıyı değiştiren öneri "hekime sor" olmadan reddedilir ve yalnız
+"hekime sor" işaretli olmayan öneriler ayrı dosyada uygulanır. GTİP agent'ı yalnız kullanıcının verdiği tarife tablosundan kod
+önerebilir; renk paleti Pantone verisi içermez (kullanıcının lisanslı tablosu); SGK fatura kuralları kurgusal
+ÖRN- kodlarıyla örneklenir, gerçek SUT kuralları kurumca girilir. Teminat mektubunda tutarın yazıyla doğruluğu
+Türkçe sayı yazımıyla (yaziyla()) kontrol edilir.
+Testlerin yakaladığı gerçek hatalar: tıbbi raporda katla() ile bulunan konumlar asıl metne uygulanıyordu (yanlış cümle
+alıntısı) → uzunluğu koruyan Türkçe küçük harf; MASAK'ta "müşteriye bildirim yapılacağı" kalıbı kaçıyordu; teminatta
+"Aynı" denen cümlede tarih farkı benzerlikten geçiyordu → sayı karşılaştırması eklendi; Ar-Ge'de "tamamlanmıştır"
+kaçıyordu; epikrizde ICD kodundaki rakamlar sayı denetimine giriyordu; yazıyla tutar yalnız form tutarıyla
+karşılaştırılıyordu (metindeki rakam değişince yakalanmıyordu).
+
 ### KALDIĞIM YER
-Kalan 14 görev: kod tarafında yalnız SGK Teşvik Uygunluk Ön Kontrolü (çok sayıda teşvik, sık değişiyor → kapsamlı mevzuat
-teyidi). Agent adayları: KVKK Aydınlatma Metni Taslağı, Acil Durum Eylem Planı Taslağı (yönetmelik teyidi), GTİP
-Sınıflandırma Önerisi, Teminat Mektubu Metin Kontrolü, Şüpheli İşlem Bildirim Taslağı (MASAK, dikkatli), Ar-Ge Proje
-Raporu Taslağı, Renk Paleti Çıkarma (görsel girdi), Planogram Uyum Kontrolü (görsel girdi), Etiket Bilgisi Kontrolü (TGK
-etiketleme yönetmeliği teyidi), Tıbbi Rapor Yazım Kontrolü. Epikriz, ÖSS ve SGK fatura en sonda.
-Kullanıcı tur boyunu 15 pakete çıkardı (15 paket → dur → /compact). Son turda kalan 14'ün hepsi yapılabilir.
-Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
+**Katalogdaki tüm görevler tamamlandı (430 görev, 432 paket).** Yeni görev eklenmedikçe paket üretimi bitti.
+Sıradaki olası işler:
+- Agent'ları gerçek API ile denemek (kullanıcı anahtar verecek; 76 agent yalnız sahte modelle test edildi).
+  Planogram için görsel destekli model gerekir; llm.py görsel bloğu gerçek API'de henüz denenmedi.
+- İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);
+  mizan çekirdeği para() "750.000" binlik yazımı; mevzuat parametreli paketlerde (SGK teşvik, vergi takvimi vb.)
+  yıllık teyit.
 Listeyi üretmek için: scratchpad kalan3.mjs (catalog DEPTS → slug → library/code-blocks + library/agents ile karşılaştırır).
-İyileştirme notları: başlık eşleştirmede ı/i ve Türkçe karakter katlayan ortak bir normalizasyon (tüm paketlerde);
-mizan çekirdeği para() "750.000" binlik yazımı.
 Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` → commit + push.

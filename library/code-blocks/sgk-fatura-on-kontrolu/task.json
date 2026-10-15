@@ -1,0 +1,15 @@
+{
+  "id": "sgk-fatura-on-kontrolu",
+  "tur": "kod",
+  "ad": "SGK Fatura Ön Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --hizmetler hizmetler.xlsx --kurallar kurallar.xlsx",
+  "girdiler": [
+    "Hizmet kalemleri (.xlsx/.csv): Takip No, Hasta No, İşlem Tarihi, İşlem Kodu, İşlem Adı, Adet, Tanı Kodları (ICD-10), Branş, Tutar",
+    "Kurallar (.xlsx/.csv): İşlem Kodu, Kural (Tanı Gerekli / Adet Sınırı / Tekrar Süresi / Branş Şartı / Birlikte Faturalanamaz), Değer, Kapsam (Takip / Gün / Yıl), Açıklama — kurumun SUT'tan tanımladığı kurallar"
+  ],
+  "ciktilar": ["Excel: Kalemler (ihlaller ve riskli tutar), Kurallar (kural bazında ihlal sayısı, toplam riskli tutar)"],
+  "internet": false
+}

@@ -1,0 +1,6 @@
+Unvan: Örnek E-Ticaret A.Ş.
+MERSİS: 0123456789000015
+Adres: Örnek Mahallesi Deneme Caddesi No: 1, Ataşehir / İstanbul
+KEP: orneketicaret@hs01.kep.tr
+E-posta: kvkk@orneketicaret.example
+İlgili Kişi Grubu: İnternet sitesi üyeleri ve müşteriler

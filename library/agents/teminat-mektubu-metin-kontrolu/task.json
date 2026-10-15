@@ -1,0 +1,21 @@
+{
+  "id": "teminat-mektubu-metin-kontrolu",
+  "tur": "agent",
+  "ad": "Teminat Mektubu Metin Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --form talep_formu.txt --standart standart_metin.txt --metin talep_metni.txt",
+  "girdiler": [
+    "Talep formu (.txt/.docx): Lehtar, Borçlu, Tür, Tutar, Para Birimi, Vade (tarih ya da 'Süresiz'), Düzenleme Tarihi, Sözleşme",
+    "Banka standart metni (.txt/.docx): {LEHTAR}, {BORCLU}, {TUTAR}, {PARA}, {TUTAR_YAZI}, {VADE}, {SOZLESME} yer tutucularıyla",
+    "Talep metni (.txt/.docx/.pdf): lehtarın / müşterinin istediği mektup metni",
+    ".env: sağlayıcı ve API anahtarı (lehtar ve borçlu unvanları kodlanır)"
+  ],
+  "ciktilar": ["Excel: Karşılaştırma (her talep cümlesi: eşleşen standart cümle, durum, risk, açıklama; eksik standart hükümler), Alan Kontrol (lehtar, borçlu, sözleşme, tutar, yazıyla tutar, para birimi, vade)", "TXT: özet"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

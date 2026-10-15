@@ -1,0 +1,9 @@
+{LEHTAR}'na
+
+Firmanız ile {BORCLU} arasında imzalanan {SOZLESME} gereğince, {BORCLU}'nun yükümlülüklerini yerine getirmemesi hâlinde, işbu teminat mektubunun tutarı olan {TUTAR} {PARA} ({TUTAR_YAZI}) tutarı bankamızca garanti edilmiştir.
+
+Yükümlülüklerin yerine getirilmemesi hâlinde yukarıda yazılı tutarı firmanızın ilk yazılı talebi üzerine, protesto çekmeye, hüküm almaya ve {BORCLU}'nun rızasını almaya gerek kalmaksızın, gecikmeksizin ve kayıtsız şartsız firmanıza ödeyeceğimizi gayrikabili rücu olarak taahhüt ederiz.
+
+İşbu teminat mektubu {VADE} tarihine kadar geçerlidir. Bu tarihe kadar bankamıza yazılı olarak bildirilmeyen talepler hükümsüzdür.
+
+Bu teminat mektubundan doğan uyuşmazlıklarda Türk hukuku uygulanır ve İstanbul Mahkemeleri ile İcra Daireleri yetkilidir.

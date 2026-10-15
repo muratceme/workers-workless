@@ -1,0 +1,15 @@
+Müşteri: Hasan Er
+Müşteri No: 77001234
+Şüphe Tarihi: 09.10.2026
+Meslek: Emekli öğretmen
+Beyan Edilen Aylık Gelir: 32.000
+Hesap Açılış: 12.03.2015
+İnceleyen: Uyum Birimi
+
+Gözlemler:
+- Hesap 2015'ten bu yana yalnız emekli maaşı ve küçük tutarlı fatura ödemeleri için kullanılıyordu.
+- 01.10.2026 öncesinde hesapta EFT girişi bulunmuyor.
+- Gelen EFT'leri gönderen 7 kişinin hiçbiri ile müşterinin daha önce işlemi yok; açıklamalar "borç", "kira", "yatırım" gibi farklı ve genel ifadeler.
+- Para girişinden kısa süre sonra toplanan tutarlar aynı şirket hesabına gönderiliyor.
+- Mobil bankacılık oturumları 05.10.2026 tarihinden itibaren müşterinin daha önce kullanmadığı yeni bir cihazdan açılıyor.
+- Müşteri, şubeye gelerek kimliğini doğruladı; işlemler hakkında "tanıdıklara aracılık ediyorum" dedi, belge sunmadı.

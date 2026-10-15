@@ -1,0 +1,21 @@
+{
+  "id": "supheli-islem-bildirim-taslagi",
+  "tur": "agent",
+  "ad": "Şüpheli İşlem Bildirim Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --islemler islemler.csv --not inceleme_notu.txt",
+  "girdiler": [
+    "İşlem dökümü (CSV/Excel): İşlem No, Tarih, İşlem Türü, Yön (Gelen/Giden), Tutar, Para Birimi, Karşı Taraf, Açıklama, Kanal",
+    "İnceleme notu (.txt/.docx): Müşteri, Müşteri No, Şüphe Tarihi, Meslek, Beyan Edilen Aylık Gelir, Hesap Açılış satırları; 'Gözlemler' bölümü",
+    "İsteğe bağlı: --esik (parçalama kontrolü), --tatil (dini bayram gibi ek tatil günleri)",
+    ".env: sağlayıcı ve API anahtarı (müşteri ve karşı taraf adları kodlanır, müşteri numarası gönderilmez)"
+  ],
+  "ciktilar": ["TXT: iç taslak (gizli) — müşteri bilgisi, son bildirim tarihi, göstergeler, olay özeti, şüphe gerekçeleri", "Excel: Taslak, İşlemler (her işlemin bağlı olduğu göstergeler)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

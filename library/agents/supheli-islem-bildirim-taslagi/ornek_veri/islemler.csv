@@ -1,0 +1,13 @@
+İşlem No;Tarih;İşlem Türü;Yön;Tutar;Para Birimi;Karşı Taraf;Açıklama;Kanal
+TX1001;01.10.2026 10:14;EFT;Gelen;48.500,00;TRY;Ahmet Yılmaz;kira;Mobil
+TX1002;01.10.2026 10:52;EFT;Gelen;47.000,00;TRY;Selin Demir;borç;Mobil
+TX1003;01.10.2026 11:30;Havale;Giden;94.000,00;TRY;Deneme Teknoloji Ltd. Şti.;ödeme;Mobil
+TX1004;03.10.2026 09:05;EFT;Gelen;49.500,00;TRY;Kemal Aksoy;borç;Mobil
+TX1005;03.10.2026 09:40;EFT;Gelen;45.000,00;TRY;Elif Şahin;ödeme;Mobil
+TX1006;03.10.2026 10:15;EFT;Gelen;48.000,00;TRY;Murat Kaya;yatırım;Mobil
+TX1007;03.10.2026 10:48;Havale;Giden;140.000,00;TRY;Deneme Teknoloji Ltd. Şti.;ödeme;Mobil
+TX1008;03.10.2026 13:20;Nakit Çekme;Giden;2.000,00;TRY;;ATM;ATM
+TX1009;06.10.2026 14:02;EFT;Gelen;46.500,00;TRY;Zeynep Arslan;borç;Mobil
+TX1010;06.10.2026 14:30;EFT;Gelen;49.000,00;TRY;Can Öztürk;kira;Mobil
+TX1011;06.10.2026 15:10;Havale;Giden;93.000,00;TRY;Deneme Teknoloji Ltd. Şti.;ödeme;Mobil
+TX1012;08.10.2026 11:00;Maaş;Gelen;32.000,00;TRY;Örnek Emekli Sandığı;emekli maaşı;Otomatik

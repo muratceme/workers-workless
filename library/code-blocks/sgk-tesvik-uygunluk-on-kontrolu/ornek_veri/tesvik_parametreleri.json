@@ -1,0 +1,29 @@
+{
+  "_aciklama": "Teşviklerin tarih ve oranları. Mevzuat değiştiğinde bu dosyayı güncelleyin. 'son_teyit' alanına kontrol ettiğiniz tarihi yazın.",
+  "son_teyit": "15.10.2026",
+  "5510_81_i": {
+    "ad": "MYÖ işveren hissesinde puan indirimi",
+    "dayanak": "5510 sayılı Kanun md. 81/1-(ı)",
+    "puan_imalat": 5,
+    "puan_diger": 2,
+    "not": "7566 sayılı Kanun ile 01.01.2026'dan itibaren imalat dışı işyerlerinde 2 puan; imalat işyerlerinde 31.12.2026'ya kadar 5 puan."
+  },
+  "4447_gecici_10": {
+    "ad": "Genç, kadın ve mesleki belgeli istihdam teşviki",
+    "dayanak": "4447 sayılı Kanun geçici md. 10",
+    "ilk_ise_alim": "01.03.2011",
+    "son_ise_alim": "31.12.2026",
+    "sure_genc_kadin": {"myb": 48, "mesleki_egitim": 36, "yok": 24},
+    "sure_29_ustu_erkek": {"belgeli": 24, "iskur_belgesiz": 6},
+    "iskur_ilave_ay": 6
+  },
+  "4857_30_engelli": {
+    "ad": "Engelli sigortalı istihdamı teşviki",
+    "dayanak": "4857 sayılı Kanun md. 30"
+  },
+  "4447_50_issizlik_odenegi": {
+    "ad": "İşsizlik ödeneği alanların istihdamı teşviki",
+    "dayanak": "4447 sayılı Kanun md. 50",
+    "ilk_ise_alim": "01.10.2009"
+  }
+}

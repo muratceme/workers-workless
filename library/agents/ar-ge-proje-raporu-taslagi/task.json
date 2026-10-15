@@ -1,0 +1,21 @@
+{
+  "id": "ar-ge-proje-raporu-taslagi",
+  "tur": "agent",
+  "ad": "Ar-Ge Proje Raporu Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --ip is_paketleri.csv --butce butce.csv --notlar notlar.txt",
+  "girdiler": [
+    "İş paketleri (CSV/Excel): İP No, İş Paketi, Planlanan Başlangıç, Planlanan Bitiş, Planlanan İlerleme (%), Gerçekleşen İlerleme (%)",
+    "Bütçe (CSV/Excel): Kalem, Planlanan, Gerçekleşen",
+    "Notlar (.txt/.docx): Proje Adı, Proje No, Program, Dönem satırları; 'Notlar' bölümünde '- İP2: …' ve '- Bütçe: …' satırları",
+    ".env: sağlayıcı ve API anahtarı (proje no gönderilmez)"
+  ],
+  "ciktilar": ["TXT: dönem raporu taslağı (künye, dönem özeti, iş paketleri, harcamalar, sorunlar, çıktılar)", "Excel: İş Paketleri (sapma ve durum), Bütçe (sapma ve açıklama), Notlar"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

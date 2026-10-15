@@ -1,0 +1,20 @@
+{
+  "id": "kvkk-aydinlatma-metni-taslagi",
+  "tur": "agent",
+  "ad": "KVKK Aydınlatma Metni Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --envanter veri_envanteri.csv --sorumlu veri_sorumlusu.txt",
+  "girdiler": [
+    "Veri işleme envanteri (CSV/Excel): Veri Kategorisi, Veriler, İşleme Amacı, Hukuki Sebep (5/2-c, 6/3-f, Açık rıza …), Toplama Yöntemi, Alıcı Grubu (birden fazlaysa ' / ' ile), Aktarım Amacı, Yurt Dışı Aktarım (mekanizma)",
+    "Veri sorumlusu bilgisi (.txt/.docx): Unvan, MERSİS, Adres, KEP, E-posta, İlgili Kişi Grubu",
+    ".env: sağlayıcı ve API anahtarı (adres, MERSİS ve iletişim bilgileri gönderilmez)"
+  ],
+  "ciktilar": ["TXT: aydınlatma metni taslağı (veri sorumlusu, amaçlar ve hukuki sebepler, aktarım, toplama yöntemi, md. 11 hakları, başvuru)", "Excel: Metin, Envanter Kontrol (hukuki sebep bendi, özel nitelikli veri, yurt dışı mekanizması)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

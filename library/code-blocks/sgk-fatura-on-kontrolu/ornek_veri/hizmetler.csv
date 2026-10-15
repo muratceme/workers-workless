@@ -1,0 +1,10 @@
+Takip No;Hasta No;İşlem Tarihi;İşlem Kodu;İşlem Adı;Adet;Tanı Kodları;Branş;Tutar
+T-5001;H-11;02.10.2026;ÖRN-101;Poliklinik muayenesi;1;J06.9;Kulak Burun Boğaz;150,00
+T-5001;H-11;02.10.2026;ÖRN-205;Odyometri;1;J06.9;Kulak Burun Boğaz;220,00
+T-5002;H-12;03.10.2026;ÖRN-101;Poliklinik muayenesi;1;M17.1;Ortopedi;150,00
+T-5002;H-12;03.10.2026;ÖRN-310;Diz eklem içi enjeksiyon;3;M17.1;Ortopedi;900,00
+T-5003;H-12;20.10.2026;ÖRN-310;Diz eklem içi enjeksiyon;1;M17.1;Ortopedi;300,00
+T-5004;H-13;05.10.2026;ÖRN-101;Poliklinik muayenesi;1;I10;Kardiyoloji;150,00
+T-5004;H-13;05.10.2026;ÖRN-120;Konsültasyon;1;I10;Kardiyoloji;100,00
+T-5004;H-13;05.10.2026;ÖRN-450;Efor testi;1;;Kardiyoloji;600,00
+T-5005;H-14;06.10.2026;ÖRN-450;Efor testi;1;I20.9;Dahiliye;600,00

@@ -1,0 +1,19 @@
+{
+  "id": "gtip-siniflandirma-onerisi",
+  "tur": "agent",
+  "ad": "GTİP Sınıflandırma Önerisi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --urunler urunler.csv --tarife tarife.csv",
+  "girdiler": [
+    "Ürün listesi (CSV/Excel): Ürün Kodu, Ürün Adı, Tanım, Malzeme, Kullanım Amacı",
+    "Tarife tablosu (CSV/Excel): Kod, Tanım — Türk Gümrük Tarife Cetveli'nden ilgili fasıllar (kullanıcı sağlar)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Öneriler (ürün başına en fazla 3 kod, tarife tanımı, üst pozisyon, GYK, dayanılan özellikler, gerekçe, güven, eksik bilgi)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

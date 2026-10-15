@@ -1,0 +1,7 @@
+Veri Kategorisi;Veriler;İşleme Amacı;Hukuki Sebep;Toplama Yöntemi;Alıcı Grubu;Aktarım Amacı;Yurt Dışı Aktarım
+Kimlik;Ad, soyad;Üyelik ve sipariş süreçlerinin yürütülmesi;5/2-c;İnternet sitesindeki üyelik ve sipariş formları;Kargo şirketleri;Siparişin teslim edilmesi;
+İletişim;Telefon numarası, e-posta adresi, teslimat adresi;Siparişin teslim edilmesi ve sipariş durumu hakkında bilgilendirme;5/2-c;İnternet sitesindeki üyelik ve sipariş formları;Kargo şirketleri;Siparişin teslim edilmesi;
+Müşteri İşlem;Sipariş, iade ve fatura bilgileri;Fatura düzenlenmesi ve ticari defter ve belgelerin saklanması;5/2-ç;İnternet sitesindeki sipariş formu;Mali müşavirlik hizmeti alınan firma / Yetkili kamu kurum ve kuruluşları;Vergi mevzuatından doğan yükümlülüklerin yerine getirilmesi;
+İşlem Güvenliği;IP adresi, oturum ve giriş kayıtları;Bilgi güvenliğinin sağlanması ve hesapların yetkisiz erişime karşı korunması;5/2-f;İnternet sitesi kullanımı sırasında otomatik olarak;Bulut barındırma hizmeti sağlayıcısı;Sunucu ve yedekleme hizmeti alınması;Standart sözleşme
+Pazarlama;E-posta adresi, alışveriş geçmişi;Kişiye özel kampanya ve ticari elektronik ileti gönderilmesi;Açık rıza;İnternet sitesindeki ileti izni kutusu;E-posta gönderim hizmeti sağlayıcısı;Ticari elektronik iletilerin gönderilmesi;
+Hukuki İşlem;Şikâyet ve talep yazışmaları;Uyuşmazlıklarda hakların korunması;5/2-e;Çağrı merkezi ve e-posta;Avukatlar / Yetkili kamu kurum ve kuruluşları;Hukuki süreçlerin yürütülmesi;

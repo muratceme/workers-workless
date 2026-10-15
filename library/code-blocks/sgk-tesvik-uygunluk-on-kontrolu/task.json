@@ -1,0 +1,16 @@
+{
+  "id": "sgk-tesvik-uygunluk-on-kontrolu",
+  "tur": "kod",
+  "ad": "SGK Teşvik Uygunluk Ön Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --calisanlar calisanlar.xlsx --isyeri isyeri.txt",
+  "girdiler": [
+    "Çalışanlar (.xlsx/.csv): Sicil No, Ad Soyad, Doğum Tarihi, Cinsiyet, İşe Giriş Tarihi, Son 6 Ayda Sigortalı mı, İŞKUR Kaydı, Mesleki Belge, Engelli, İşsizlik Ödeneği, Ödenek Öncesi Son İşyeri Burası mı, Önceki 6 Ay Ortalama Sigortalı, Giriş Ayı Sigortalı Sayısı",
+    "İşyeri (.txt): Kontrol Tarihi, Sektör (İmalat / Diğer), Özel Sektör, Bildirgeler Yasal Sürede, Prim Borcu (Yok / Yapılandırılmış / Var), Kayıt Dışı Tespiti",
+    "Teşvik parametreleri (.json): tarih aralıkları, puanlar ve süreler (mevzuat değişince güncellenir)"
+  ],
+  "ciktilar": ["Excel: Uygunluk (her çalışan × teşvik: Uygun / Uygun değil / Bilgi eksik, neden, süre ve bitiş), Özet"],
+  "internet": false
+}

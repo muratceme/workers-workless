@@ -1,0 +1,16 @@
+Proje Adı: Endüstriyel Pompalar İçin Titreşim Tabanlı Kestirimci Bakım Sistemi
+Proje No: 0000000 (örnek)
+Program: TÜBİTAK TEYDEB 1501
+Dönem: 01.04.2026 - 30.09.2026
+
+Notlar:
+- İP1: Müşteri sahalarından toplanan gereksinimlerle sistem mimarisi dokümanı hazırlandı ve tasarım gözden geçirme toplantısı 28.05.2026 tarihinde yapıldı.
+- İP2: Sensör kartının ilk sürümü üretildi; ivmeölçer gürültü seviyesi hedefin üzerinde çıktığı için kart revize ediliyor.
+- İP2: Planlanan MEMS ivmeölçerin tedarik süresi 6 haftadan 14 haftaya çıktı; alternatif sensör için uyumluluk testleri başladı.
+- İP2: Gömülü yazılımda veri toplama ve kablosuz iletim modülleri tamamlandı.
+- İP3: Laboratuvar test düzeneğinde 3 pompada toplanan verilerle rulman arızası sınıflandırma modeli eğitildi; doğrulama setinde %91 doğruluk elde edildi.
+- İP3: Kavitasyon arızası için veri sayısı yetersiz; ek veri toplanması planlanıyor.
+- İP4: Saha testleri için 2 müşteri sahası belirlendi; prototip üretimi İP2'deki kart revizyonuna bağlı olarak 4 hafta ertelendi.
+- Bütçe: Alternatif sensör ve test düzeneği için ek ölçüm cihazı alındığından alet-teçhizat kalemi aşıldı.
+- Bütçe: Malzeme alımları kart revizyonu nedeniyle sonraki döneme kaydı.
+- Bütçe: Saha ziyaretleri çevrim içi toplantılarla yapıldığı için seyahat harcaması düşük kaldı.

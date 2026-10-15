@@ -1,0 +1,20 @@
+{
+  "id": "renk-paleti-cikarma",
+  "tur": "agent",
+  "ad": "Renk Paleti Çıkarma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --gorseller gorseller/ --referans referans_renkler.csv",
+  "girdiler": [
+    "Görsel ya da görsel klasörü (jpg, png, webp, bmp, tif)",
+    "Renk referans tablosu (CSV/Excel): Kod, Ad, HEX — ör. kurumunuzun lisanslı Pantone TCX listesi (kullanıcı sağlar)",
+    "İsteğe bağlı: --brif (sezon / koleksiyon bilgisi), --renk (palet büyüklüğü)",
+    ".env: sağlayıcı ve API anahtarı (görseller gönderilmez; yalnız renk değerleri)"
+  ],
+  "ciktilar": ["Excel: Palet (renkli örnek hücre, HEX, RGB, pay, sıcaklık, açıklık, en yakın referans, ΔE00, rol, tanım, kullanım)", "HTML: palet kartı"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

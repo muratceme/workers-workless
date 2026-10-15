@@ -1,0 +1,6 @@
+Hizmet Kodu;Hizmet Adı;Anlaşma Fiyatı;Provizyon Gerekli;Adet Sınırı
+H-100;Uzman hekim muayenesi;1.500,00;Hayır;
+H-210;Tam kan sayımı;180,00;Hayır;1
+H-300;MR (tek bölge);3.800,00;Evet;
+H-400;Fizik tedavi seansı;600,00;Evet;10
+H-500;Botoks uygulaması;9.000,00;Evet;

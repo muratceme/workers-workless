@@ -1,0 +1,5 @@
+İP No;İş Paketi;Planlanan Başlangıç;Planlanan Bitiş;Planlanan İlerleme;Gerçekleşen İlerleme
+İP1;Gereksinim analizi ve sistem tasarımı;01.04.2026;31.05.2026;100;100
+İP2;Sensör kartı ve gömülü yazılım geliştirme;01.05.2026;31.10.2026;80;65
+İP3;Arıza tahmin algoritmasının geliştirilmesi;01.06.2026;31.12.2026;50;55
+İP4;Prototip üretimi ve saha testleri;01.09.2026;31.03.2027;10;0

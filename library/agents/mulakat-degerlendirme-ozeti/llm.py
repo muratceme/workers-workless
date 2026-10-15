@@ -13,6 +13,7 @@ Ayarlar .env dosyasından okunur:
 """
 from __future__ import annotations
 
+import base64
 import json
 import os
 import re
@@ -91,18 +92,22 @@ def onay_al(aciklama: str, evet: bool = False) -> None:
 # Yapılandırılmış (JSON şemalı) istek
 # ----------------------------------------------------------------------------
 
-def json_iste(sistem: str, kullanici: str, sema: dict, max_tokens: int = 16000) -> dict:
-    """Modelden `sema` ile uyumlu bir JSON nesnesi ister ve sözlük olarak döndürür."""
+def json_iste(sistem: str, kullanici: str, sema: dict, max_tokens: int = 16000, gorseller: list | None = None) -> dict:
+    """Modelden `sema` ile uyumlu bir JSON nesnesi ister ve sözlük olarak döndürür.
+
+    gorseller: isteğe bağlı [(medya_turu, bayt), …] listesi (ör. ("image/jpeg", b"...")); görsel destekleyen bir model gerekir.
+    """
     a = ayarlar()
     KULLANIM["istek"] += 1
+    gorseller = [(m, base64.b64encode(b).decode("ascii")) for m, b in (gorseller or [])]
     if a["saglayici"] == "anthropic":
-        return _anthropic(a, sistem, kullanici, sema, max_tokens)
+        return _anthropic(a, sistem, kullanici, sema, max_tokens, gorseller)
     if a["saglayici"] == "openai":
-        return _openai(a, sistem, kullanici, sema, max_tokens)
-    return _ollama(a, sistem, kullanici, sema)
+        return _openai(a, sistem, kullanici, sema, max_tokens, gorseller)
+    return _ollama(a, sistem, kullanici, sema, gorseller)
 
 
-def _anthropic(a, sistem, kullanici, sema, max_tokens):
+def _anthropic(a, sistem, kullanici, sema, max_tokens, gorseller=()):
     try:
         import anthropic
     except ImportError as h:
@@ -116,7 +121,8 @@ def _anthropic(a, sistem, kullanici, sema, max_tokens):
             model=a["model"],
             max_tokens=max_tokens,
             system=sistem,
-            messages=[{"role": "user", "content": kullanici}],
+            messages=[{"role": "user", "content": [{"type": "image", "source": {"type": "base64", "media_type": m, "data": d}} for m, d in gorseller]
+                       + [{"type": "text", "text": kullanici}] if gorseller else kullanici}],
             output_config={"effort": a["effort"], "format": {"type": "json_schema", "schema": sema}},
             # Güvenlik sınıflandırıcısı isteği reddederse sunucu tarafında önerilen modele düşer
             betas=["server-side-fallback-2026-07-01"],
@@ -147,7 +153,7 @@ def _anthropic(a, sistem, kullanici, sema, max_tokens):
     return json.loads(metin)
 
 
-def _openai(a, sistem, kullanici, sema, max_tokens):
+def _openai(a, sistem, kullanici, sema, max_tokens, gorseller=()):
     try:
         import openai
     except ImportError as h:
@@ -157,7 +163,9 @@ def _openai(a, sistem, kullanici, sema, max_tokens):
     try:
         yanit = openai.OpenAI().chat.completions.create(
             model=a["model"],
-            messages=[{"role": "system", "content": sistem}, {"role": "user", "content": kullanici}],
+            messages=[{"role": "system", "content": sistem},
+                      {"role": "user", "content": [{"type": "image_url", "image_url": {"url": f"data:{m};base64,{d}"}} for m, d in gorseller]
+                       + [{"type": "text", "text": kullanici}] if gorseller else kullanici}],
             response_format={"type": "json_schema", "json_schema": {"name": "cikti", "strict": True, "schema": sema}},
             max_completion_tokens=max_tokens,
         )
@@ -171,11 +179,12 @@ def _openai(a, sistem, kullanici, sema, max_tokens):
     return json.loads(yanit.choices[0].message.content)
 
 
-def _ollama(a, sistem, kullanici, sema):
+def _ollama(a, sistem, kullanici, sema, gorseller=()):
     adres = os.getenv("OLLAMA_HOST", "http://localhost:11434").rstrip("/")
     govde = json.dumps({
         "model": a["model"],
-        "messages": [{"role": "system", "content": sistem}, {"role": "user", "content": kullanici}],
+        "messages": [{"role": "system", "content": sistem},
+                     {"role": "user", "content": kullanici} | ({"images": [d for _, d in gorseller]} if gorseller else {})],
         "format": sema,
         "stream": False,
         "options": {"temperature": 0},

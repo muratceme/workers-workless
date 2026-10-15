@@ -1,0 +1,17 @@
+{
+  "id": "ozel-saglik-sigortasi-fatura-on-kontrolu",
+  "tur": "kod",
+  "ad": "Özel Sağlık Sigortası Fatura Ön Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --fatura fatura_kalemleri.xlsx --anlasma anlasma_fiyatlari.xlsx --provizyon provizyonlar.xlsx --police policeler.xlsx",
+  "girdiler": [
+    "Fatura kalemleri (.xlsx/.csv): Dosya No, Poliçe No, Provizyon No, Hizmet Tarihi, Hizmet Kodu, Hizmet Adı, Adet, Birim Fiyat, Tutar",
+    "Anlaşma fiyatları: Hizmet Kodu, Hizmet Adı, Anlaşma Fiyatı, Provizyon Gerekli, Adet Sınırı",
+    "Provizyonlar: Provizyon No, Dosya No, Onay Tarihi, Geçerlilik Günü, Onaylı Tutar, Onaylı Hizmet Kodları",
+    "Poliçeler: Poliçe No, Başlangıç, Bitiş, Yıllık Limit, Kullanılan Limit, Katılım Payı %, Kapsam Dışı Kodlar"
+  ],
+  "ciktilar": ["Excel: Kalemler (riskli tutar ve nedenler), Dosyalar (toplam, katılım payı, şirket payı, provizyon ve limit uyarıları), Özet (neden bazında)"],
+  "internet": false
+}

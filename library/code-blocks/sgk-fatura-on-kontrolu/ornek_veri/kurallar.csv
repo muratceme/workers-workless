@@ -1,0 +1,7 @@
+İşlem Kodu;Kural;Değer;Kapsam;Açıklama
+ÖRN-205;Tanı Gerekli;H90 H91 H93;;Odyometri için işitme kaybı ya da kulak hastalığı tanısı (örnek kural)
+ÖRN-310;Adet Sınırı;1;Takip;Aynı takipte en fazla 1 (örnek kural)
+ÖRN-310;Tekrar Süresi;30;Gün;Aynı hasta için 30 gün içinde tekrar faturalanamaz (örnek kural)
+ÖRN-120;Birlikte Faturalanamaz;ÖRN-101;Takip;Aynı takipte muayene ile konsültasyon birlikte faturalanamaz (örnek kural)
+ÖRN-450;Branş Şartı;Kardiyoloji;;Efor testi yalnız kardiyoloji (örnek kural)
+ÖRN-450;Tanı Gerekli;I20 I21 I25 R07;;Göğüs ağrısı / koroner arter hastalığı tanısı (örnek kural)

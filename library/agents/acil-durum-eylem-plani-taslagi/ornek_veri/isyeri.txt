@@ -1,0 +1,33 @@
+Unvan: Örnek Plastik Ambalaj San. ve Tic. A.Ş.
+Adres: Organize Sanayi Bölgesi 5. Cadde No: 12, Kayseri
+İşveren: Örnek Plastik Ambalaj San. ve Tic. A.Ş. (İşveren Vekili: Fabrika Müdürü)
+Hazırlayanlar: İş Güvenliği Uzmanı; İşyeri Hekimi; Çalışan Temsilcisi
+Hazırlama Tarihi: 15.10.2026
+Tehlike Sınıfı: Tehlikeli
+Vardiyalar: Gündüz 85; Gece 32
+Toplanma Yeri: Ana giriş kapısı karşısındaki açık otopark alanı
+Özel Durumlar: Gebe çalışanlar var; idari binada tekerlekli sandalye kullanan bir çalışan var; tedarikçi şoförleri ve ziyaretçiler gün içinde sahada bulunuyor
+
+Bölümler:
+- Üretim holü: enjeksiyon makineleri, plastik granül besleme hatları ve mamul ara stok
+- Hammadde deposu: PP/PE granül çuvalları, raf sistemi
+- Kimyasal dolabı: baskı boyası ve solvent
+- Kompresör odası: basınçlı hava tankı
+- İdari bina: iki katlı ofis ve LPG tüplü mutfak
+
+Riskler:
+- Granül ve mamul stoklarında yangın, yoğun ve zehirli duman
+- Solvent buharının parlaması
+- Mutfakta LPG kaçağı ve patlama
+- Deprem nedeniyle raf ve stokların devrilmesi, bina hasarı
+- Enjeksiyon makinesinde sıkışma ve sıcak yüzey yanığı
+- Kompresör hava tankının basınç nedeniyle patlaması
+
+Ekipman:
+- Üretim holünde 8 adet 6 kg KKT yangın söndürücü ve 2 yangın dolabı
+- Hammadde deposunda otomatik sprinkler sistemi
+- İdari binada 4 adet 6 kg KKT yangın söndürücü, mutfakta 1 adet CO2 söndürücü
+- İlk yardım dolabı: üretim holü girişi ve idari bina zemin kat
+- Elektrik ana kesme şalteri: trafo odası girişi
+- LPG ana vanası: mutfak dış cephesi
+- Yangın alarm butonları ve sesli alarm sistemi tüm binalarda

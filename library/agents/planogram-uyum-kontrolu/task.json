@@ -1,0 +1,19 @@
+{
+  "id": "planogram-uyum-kontrolu",
+  "tur": "agent",
+  "ad": "Planogram Uyum Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --planogram planogram.csv --foto raf_foto.jpg",
+  "girdiler": [
+    "Planogram (CSV/Excel): Raf (1 = en üst), Sıra (soldan), Barkod, Ürün Adı, Yüz Sayısı, Fiyat",
+    "Raf fotoğraf(lar)ı (jpg, png …)",
+    ".env: sağlayıcı ve API anahtarı (görsel destekleyen bir model gerekir; fotoğraflar sağlayıcıya gönderilir)"
+  ],
+  "ciktilar": ["Excel: Uyum (her planogram ürünü: Yerinde / Yanlış yer / Eksik, yüz sayısı, fiyat etiketi ve fiyat farkı, elle kontrol), Planogram Dışı (bilinmeyen ürünler ve boş alanlar)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

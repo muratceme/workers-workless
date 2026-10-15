@@ -1,0 +1,19 @@
+{
+  "id": "acil-durum-eylem-plani-taslagi",
+  "tur": "agent",
+  "ad": "Acil Durum Eylem Planı Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi isyeri.txt",
+  "girdiler": [
+    "İşyeri bilgisi (.txt, .docx): Unvan, Adres, İşveren, Hazırlayanlar, Hazırlama Tarihi, Tehlike Sınıfı, Vardiyalar (ya da Çalışan Sayısı), Toplanma Yeri, Özel Durumlar satırları; 'Bölümler', 'Riskler' (risk değerlendirmesi sonuçları) ve 'Ekipman' bölümleri",
+    ".env: sağlayıcı ve API anahtarı (unvan, adres ve hazırlayanlar gönderilmez)"
+  ],
+  "ciktilar": ["TXT: acil durum planı taslağı", "Excel: Senaryolar, Ekipler (vardiya bazında en az destek elemanı), Doküman Kontrol (md. 12)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

@@ -1,0 +1,8 @@
+Lehtar: Örnek Yapı Taahhüt A.Ş.
+Borçlu: Deneme Mühendislik Ltd. Şti.
+Tür: Kesin teminat
+Tutar: 2.450.000,00
+Para Birimi: TL
+Vade: 31.12.2027
+Düzenleme Tarihi: 15.10.2026
+Sözleşme: 01.10.2026 tarihli Mekanik Tesisat İşleri Alt Yüklenici Sözleşmesi

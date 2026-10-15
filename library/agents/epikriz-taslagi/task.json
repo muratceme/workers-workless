@@ -1,0 +1,21 @@
+{
+  "id": "epikriz-taslagi",
+  "tur": "agent",
+  "ad": "Epikriz Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --hasta hasta.txt --notlar notlar.txt --tetkik tetkikler.csv",
+  "girdiler": [
+    "Hasta kaydı (.txt/.docx): Hasta Adı, TC Kimlik No, Doğum Tarihi, Cinsiyet, Protokol No, Servis, Yatış Tarihi, Çıkış Tarihi, Sorumlu Hekim",
+    "Hekim notları (.txt/.docx): 'Tanılar' (ICD-10 kodlarıyla), 'Notlar' (- GG.AA.YYYY: …), 'Çıkış İlaçları' bölümleri",
+    "Tetkikler (CSV/Excel): Tarih, Tetkik, Sonuç, Birim, Referans",
+    ".env: sağlayıcı ve API anahtarı (hasta adı, TC kimlik no, protokol no ve doğum tarihi gönderilmez)"
+  ],
+  "ciktilar": ["TXT: epikriz taslağı (kimlik, tanılar, öykü, muayene, işlemler, seyir, tetkik tablosu, çıkış durumu, çıkış ilaçları, öneriler, hekim onay alanı)", "Excel: Epikriz (bölüm ve dayanaklar), Tetkikler (referans dışı işaretli)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

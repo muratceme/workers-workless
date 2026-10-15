@@ -1,0 +1,19 @@
+{
+  "id": "etiket-bilgisi-kontrolu",
+  "tur": "agent",
+  "ad": "Etiket Bilgisi Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --etiket etiket.txt",
+  "girdiler": [
+    "Etiket metni (.txt/.docx): Ürün Adı, Marka, Ürün Türü (Katı/Sıvı), Temel Görüş Alanı, Bileşenler (vurgulu alerjenler BÜYÜK HARF ya da **…**), Net Miktar, TETT/SKT, Muhafaza Koşulları, Üretici, İşletme Kayıt No, Menşe, Parti No, Beslenme Bildirimi, İfadeler, Alkol, x-Yüksekliği, En Geniş Yüzey",
+    ".env: sağlayıcı ve API anahtarı (üretici bilgileri gönderilmez)"
+  ],
+  "ciktilar": ["Excel: Kontrol (Uygun / Uygunsuz / Kontrol edilmeli: zorunlu bilgiler, temel görüş alanı, x-yüksekliği, net miktar birimi, beslenme bildirimi, alerjen vurgusu, QUID, ifadeler), Bileşenler"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
