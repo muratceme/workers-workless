@@ -10,11 +10,13 @@ export const BANKA = {
         ["Gişe Gün Sonu Kasa Mutabakatı", "Gün sonu kasa sayımını (kupür bazında) sistem bakiyesiyle karşılaştırır, döviz ve TL farklarını işlem bazında araştırma listesiyle raporlar.", 3],
         ["Müşteri Talimat Kontrolü", "EFT, havale ve virman talimatlarında IBAN, unvan, tutar (rakam-yazı) ve imza yetkisi alanlarını kontrol edip eksik veya hatalı talimatları işaretler.", 4],
         "VKN / TCKN / IBAN Doğrulama",
+        ["Talimat Yazısından Bilgi Çıkarma", "Mektup, faks veya e-postayla gelen ödeme talimatlarından gönderen, alıcı, IBAN, tutar ve açıklamayı kontrol tablosuna aktarır; IBAN kontrol hanesini ve rakam-yazı tutar uyumunu denetler.", 3],
       ]},
       { id: "operasyon-yetkilisi", name: "Operasyon Yetkilisi", level: "Giriş", tasks: [
         ["Resmî Yazı (Haciz/Müzekkere) Takibi", "İcra dairesi, mahkeme ve kurumlardan gelen haciz, bilgi talebi ve müzekkereleri tür, yasal cevap süresi ve müşteri bazında listeler, süresi yaklaşanları uyarır.", 4],
         ["Müşteri Evrak (KYC) Eksik Kontrolü", "Müşteri dosyalarını ürün ve müşteri tipine göre zorunlu belge listesiyle karşılaştırıp eksik ve süresi dolan belgeleri çıkarır.", 3],
         ["Çek Takas Kontrol Listesi", "Takasa verilecek ve takastan gelen çeklerde keşide tarihi, karekod, ciro silsilesi ve tutar tutarlılığı kontrol listesini üretir.", 2],
+        "Talimat Yazısından Bilgi Çıkarma",
       ]},
       { id: "sube-operasyon-yoneticisi", name: "Şube Operasyon Yöneticisi", level: "Yönetici", tasks: [
         ["Şube Operasyonel Kontrol Listesi", "Günlük, haftalık ve aylık periyodik kontrolleri (kasa, kıymetli evrak, anahtar, yetki) sorumlu ve tamamlanma durumuyla takip eder.", 2],

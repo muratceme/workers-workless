@@ -1,0 +1,15 @@
+Kimden: Can Kurgu <can.kurgu@kurgutekstil.example>
+Kime: konya.sube@denemebankasi.example
+Tarih: 15.10.2026 09:42
+Konu: Havale talimatı
+
+Sayın Yetkili,
+
+Firmamız Kurgu Tekstil Ltd. Şti.'nin TR430099900001000000200001 numaralı hesabından Ayşe Deneme adına
+TR380099900001000000300010 IBAN numaralı hesaba 15.750,00 TL (onbeşbinyediyüzelli Türk Lirası) tutarında
+havale yapılmasını rica ederim. Açıklama: Kira bedeli Ekim 2026
+
+İyi çalışmalar,
+Can Kurgu
+Kurgu Tekstil Ltd. Şti.
+Tel: 0532 111 22 33

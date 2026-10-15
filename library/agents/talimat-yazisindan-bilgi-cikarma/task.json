@@ -1,0 +1,19 @@
+{
+  "id": "talimat-yazisindan-bilgi-cikarma",
+  "tur": "agent",
+  "ad": "Talimat Yazısından Bilgi Çıkarma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./talimatlar",
+  "girdiler": [
+    "Ödeme talimatı belgeleri: mektup, faks, e-posta (.pdf, .docx, .txt); tek dosya ya da klasör",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Talimatlar ('Müşteri Talimat Kontrolü' kod bloğunun girdi biçiminde + durum ve bulgular), Bulgular, Kontrol + JSON kayıt"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

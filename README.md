@@ -11,7 +11,7 @@ Sitede Sektör → Departman → Rol → Görev akışıyla ilerleyip görevi in
 
 ## Hazır paketler
 
-357 kod bloğu ve 76 AI agent hazırdır; katalog 16 sektör, 95 departman ve 226 rolü kapsar. Hazır olmayan görevler
+357 kod bloğu ve 77 AI agent hazırdır; katalog 16 sektör, 95 departman ve 226 rolü kapsar. Hazır olmayan görevler
 sitede "Yakında" olarak görünür. Bir görevi talep etmek ya da kurulum ve uyarlama için yardım almak üzere sitedeki
 "Yardım al" bölümünü kullanabilir veya "Görev talebi" şablonuyla bir issue açabilirsiniz.
 
