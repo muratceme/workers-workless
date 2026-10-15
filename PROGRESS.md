@@ -740,3 +740,8 @@ Sıradaki olası işler:
   yıllık teyit.
 Listeyi üretmek için: scratchpad kalan3.mjs (catalog DEPTS → slug → library/code-blocks + library/agents ile karşılaştırır).
 Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` → commit + push.
+
+## Tasarım alternatifleri (geçici, 2026-10-15)
+- Sağ üstte "Tasarım" menüsü: Orijinal + 5 alternatif (Editoryal, İsviçre Baskı, Terminal, Cam, Yumuşak Yapı). Kurulan taste-skill (minimalist-ui, industrial-brutalist-ui, high-end-visual-design, redesign-existing-projects) kurallarıyla yazıldı.
+- Dosyalar: `site/assets/themes.css`, `site/assets/design-switcher.js`; index.html'de "GEÇİCİ" yorumlu link + head betiği + script satırı. Paylaşım: `?tasarim=isvicre`.
+- Karar sonrası: seçilen tasarım styles.css'e işlenecek, bu dosyalar ve satırlar silinecek.
