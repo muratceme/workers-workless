@@ -741,10 +741,7 @@ Sıradaki olası işler:
 Listeyi üretmek için: scratchpad kalan3.mjs (catalog DEPTS → slug → library/code-blocks + library/agents ile karşılaştırır).
 Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` → commit + push.
 
-## Tasarım ve tema alternatifleri (geçici, 2026-10-15)
-- Sağ üstte "Tasarım" menüsü, iki grup; ikisi birlikte seçilebilir:
-  - **Tasarım (sayfa yapısı)**: Orijinal + Yan Panel (sol sabit menü + sektör dizini), Bölünmüş (dev başlık, yapışkan sol sütunlar, kenara yaslı panel), Bento (karo ızgara, öne çıkan büyük karolar, ortada pencere), Dizin (numaralı satırlar, künye üst bar, tam sayfa görev), Arama + Dok (büyük arama kutusu, altta yüzen menü, yatay raflar, duvar düzeni, alttan panel).
-  - **Tema (renk ve yazı)**: Orijinal + Editoryal, İsviçre Baskı, Terminal, Cam, Yumuşak Yapı.
-- taste-skill kurallarıyla yazıldı (minimalist-ui, industrial-brutalist-ui, high-end-visual-design, redesign-existing-projects); playwright-cli ile masaüstü, telefon (390 px, yatay taşma yok), görev paneli ve kombinasyonlar kontrol edildi.
-- Dosyalar: `site/assets/themes.css`, `site/assets/layouts.css`, `site/assets/design-switcher.js`; index.html'de "GEÇİCİ" yorumlu iki link + head betiği + script satırı. Paylaşım: `?duzen=bento&tasarim=cam`.
-- Karar sonrası: seçilen düzen ve tema styles.css'e (gerekirse index.html'e) işlenecek, bu dosyalar ve satırlar silinecek.
+## Site: Cam tasarımı kalıcı + iletişim (2026-10-15)
+- 5 tema ve 5 düzen denendi; **Cam tema + Orijinal düzen** seçildi ve `site/assets/styles.css`'e işlendi (derin siyah zemin, ışık küreleri, çift çerçeveli yüzeyler, yüzen menü; Outfit + Geist Mono). Geçici seçici ve diğer tasarım dosyaları silindi. Site yalnızca koyu; açık/koyu düğmesi kaldırıldı. Gri metinlerin kontrastı biraz artırıldı.
+- "Katkı ver" dili kaldırıldı; yerine iletişim: ana sayfada "Veriniz bu kalıba uymuyor mu?" bölümü (`#/iletisim`), menüde ve alt bilgide "İletişim", hazır paket panelinde "Dosyalarınız bu biçimde değil mi?" kutusu, yapım aşamasındaki görevde "Bu iş için yazın", yakında sektör kartlarında "Yazın", aramada sonuç yoksa bağlantı. E-posta düğmeleri konu satırı hazır açılır (görev adıyla).
+- **Bekleyen:** `catalog/catalog.mjs` → `CONFIG.contact.email` ve `linkedin` boş. Boşken tüm iletişim öğeleri gizli kalır (yapım aşamasındaki görevde eski GitHub talep düğmesi görünür). Kullanıcıdan adresler bekleniyor.

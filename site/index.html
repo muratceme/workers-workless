@@ -7,13 +7,10 @@
   <meta name="description" content="Her sektör, her departman ve her rolün tekrar eden işleri için açık kaynak kod blokları ve AI agent'lar. Ücretsiz." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231d1d1f'/%3E%3Cpath d='M7 10l3 12 3-8 3 8 3-12' stroke='%23fff' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M22 22h4' stroke='%2300c7be' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23050505'/%3E%3Cpath d='M7 10l3 12 3-8 3 8 3-12' stroke='%23fff' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M22 22h4' stroke='%233DDC97' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <meta name="theme-color" content="#050505" />
   <link rel="stylesheet" href="assets/styles.css" />
-  <!-- GEÇİCİ: tasarım (düzen) ve tema alternatifleri -->
-  <link rel="stylesheet" href="assets/themes.css" />
-  <link rel="stylesheet" href="assets/layouts.css" />
-  <script>try{var q=new URLSearchParams(location.search),r=document.documentElement,d=q.has("tasarim")?q.get("tasarim"):localStorage.getItem("ww-design"),l=q.has("duzen")?q.get("duzen"):localStorage.getItem("ww-layout");if(d)r.dataset.design=d;if(l)r.dataset.layout=l}catch(e){}</script>
 </head>
 <body data-mode="code">
 
@@ -28,16 +25,13 @@
         <a href="#/code" data-nav="code">Kod Blokları</a>
         <a href="#/agents" data-nav="agents">AI Agents</a>
         <a href="#/how" data-nav="how">Nasıl çalışır</a>
+        <a href="#/iletisim" data-nav="iletisim" class="contact-link" hidden>İletişim</a>
       </nav>
       <div class="nav-actions">
         <button class="search-btn" id="openPalette" aria-label="Görev ara">
           <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           <span>Görev ara</span>
           <kbd class="kbd-hint">Ctrl K</kbd>
-        </button>
-        <button class="icon-btn" id="themeToggle" aria-label="Tema değiştir">
-          <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
         </button>
       </div>
     </div>
@@ -167,12 +161,24 @@
       <div class="grid grid-sectors" id="homeSectors"></div>
     </section>
 
-    <!-- Contribute -->
-    <section class="section contribute reveal">
-      <div class="contribute-inner">
-        <h2>Sizin işiniz listede yok mu?</h2>
-        <p>Tüm kütüphane GitHub'da açık. Görevinizi tarif edin, birlikte otomatize edelim.</p>
-        <a class="btn btn-primary" href="#" id="ghLink">GitHub'da katkı ver</a>
+    <!-- İletişim: CONFIG.contact boşsa gizli kalır -->
+    <section class="section contact" id="iletisim" hidden>
+      <div class="contact-inner reveal">
+        <div class="contact-text">
+          <p class="eyebrow">Akışınıza göre uyarlama</p>
+          <h2>Veriniz bu kalıba uymuyor mu?</h2>
+          <p>Her şirketin dosya düzeni, kullandığı program ve onay adımları farklı. Bir paket işinize tam oturmuyorsa ya da aradığınız iş listede yoksa, işin bugün nasıl yürüdüğünü anlatın; size uyan sürümü birlikte kuralım.</p>
+          <ul class="ticks">
+            <li>Hazır bir paketi kendi dosya ve sütun yapınıza uyarlama</li>
+            <li>Listede olmayan bir iş için yeni kod bloğu ya da agent</li>
+            <li>Kurulum ve ekibinize kısa bir kullanım anlatımı</li>
+          </ul>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-primary" id="contactMail" hidden>E-posta gönderin</a>
+          <a class="btn btn-ghost" id="contactLinkedin" target="_blank" rel="noopener" hidden>LinkedIn'den yazın ↗</a>
+          <p class="note">Mesajınıza gerçek müşteri ya da çalışan verisi eklemeyin. Sütun başlıkları ya da uydurma birkaç satır yeterli.</p>
+        </div>
       </div>
     </section>
   </main>
@@ -201,7 +207,7 @@
   <footer class="footer">
     <div class="footer-inner">
       <p>* Haftalık kazanım rakamları tahminidir; şirketinizin hacmine göre değişir.</p>
-      <p>Workers / Workless · Açık kaynak (MIT) · <a href="https://github.com/muratceme/workers-workless/blob/main/SORUMLULUK_REDDI.md" target="_blank" rel="noopener">Sorumluluk reddi ve kullanım koşulları</a> · <a href="https://github.com/muratceme/workers-workless" target="_blank" rel="noopener">GitHub</a></p>
+      <p>Workers / Workless · Açık kaynak (MIT) · <a href="https://github.com/muratceme/workers-workless/blob/main/SORUMLULUK_REDDI.md" target="_blank" rel="noopener">Sorumluluk reddi ve kullanım koşulları</a> · <a href="https://github.com/muratceme/workers-workless" target="_blank" rel="noopener">GitHub</a><span class="contact-link" hidden> · <a href="#/iletisim">İletişim</a></span></p>
       <p class="wink">Bu sitenin yapımında hiçbir çalışan işten çıkarılmadı.</p>
     </div>
   </footer>
@@ -247,6 +253,5 @@
 
   <script src="assets/catalog.js"></script>
   <script src="assets/app.js"></script>
-  <script src="assets/design-switcher.js"></script>
 </body>
 </html>

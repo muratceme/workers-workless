@@ -22,8 +22,8 @@
   const initials = (s) => s.split(/\s+/).filter((w) => /^[A-ZÇĞİÖŞÜ]/.test(w)).slice(0, 2).map((w) => w[0]).join("");
   const fmt = (n) => n.toLocaleString("tr-TR");
   const MODES = {
-    code:   { label: "Kod Blokları", folder: "code-blocks", unit: "kod bloğu", c1: "#0071e3", c2: "#00b8b0" },
-    agents: { label: "AI Agents",    folder: "agents",      unit: "agent",     c1: "#7c3aed", c2: "#ff2d78" },
+    code:   { label: "Kod Blokları", folder: "code-blocks", unit: "kod bloğu", c1: "#3DDC97", c2: "#8FF0CB" },
+    agents: { label: "AI Agents",    folder: "agents",      unit: "agent",     c1: "#A78BFA", c2: "#F0ABFC" },
   };
 
   /* ------------------------------ veri ağacı ------------------------------ */
@@ -110,18 +110,18 @@
     $$("[data-mode-btn]").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.modeBtn === m)));
   }
 
-  /* ------------------------------ tema ------------------------------ */
-  const root = document.documentElement;
-  const store = {
-    get: (k) => { try { return localStorage.getItem(k); } catch { return null; } },
-    set: (k, v) => { try { localStorage.setItem(k, v); } catch {} },
-  };
-  const sysDark = window.matchMedia("(prefers-color-scheme: dark)");
-  root.dataset.theme = store.get("ww-theme") || (sysDark.matches ? "dark" : "light");
-  $("#themeToggle").addEventListener("click", () => {
-    root.dataset.theme = root.dataset.theme === "dark" ? "light" : "dark";
-    store.set("ww-theme", root.dataset.theme);
-  });
+  /* ------------------------------ iletişim ------------------------------ */
+  // catalog/catalog.mjs → CONFIG.contact. İkisi de boşsa iletişim öğeleri gizli kalır.
+  const CONTACT = CONFIG.contact || {};
+  const hasContact = Boolean(CONTACT.email || CONTACT.linkedin);
+  const mailto = (subject) => `mailto:${CONTACT.email}?subject=${encodeURIComponent(subject)}`;
+  const contactHref = (subject) => (CONTACT.email ? mailto(subject) : CONTACT.linkedin || "#/iletisim");
+  if (hasContact) {
+    $("#iletisim").hidden = false;
+    $$(".contact-link").forEach((el) => (el.hidden = false));
+    if (CONTACT.email) Object.assign($("#contactMail"), { href: mailto("Workers / Workless: iş akışım hakkında"), hidden: false });
+    if (CONTACT.linkedin) Object.assign($("#contactLinkedin"), { href: CONTACT.linkedin, hidden: false });
+  }
 
   /* ------------------------------ kart şablonları ------------------------------ */
   const sectorCard = (s, i, m = mode) => `
@@ -137,8 +137,8 @@
     <div class="card soon" style="--i:${i}">
       <span class="card-icon">${icon(x.icon, 26)}</span>
       <h3>${esc(x.name)}</h3>
-      <p>Yakında. Bu sektörü siz başlatın.</p>
-      <div class="card-meta"><a class="tag" href="${repoUrl()}" target="_blank" rel="noopener">Katkı ver ↗</a></div>
+      <p>Yakında. Bu sektördeyseniz hangi işlerin önce geleceğini birlikte belirleyelim.</p>
+      ${hasContact ? `<div class="card-meta"><a class="tag accent" href="#/iletisim">Yazın →</a></div>` : ""}
     </div>`;
 
   const deptCard = (s, d, i) => `
@@ -299,8 +299,9 @@
         <div class="fact"><b>Ücretsiz</b><span>açık kaynak, MIT lisansı</span></div>
       </div>
       <div class="actions">
-        <a class="btn btn-primary" href="${issueUrl(m, t)}" target="_blank" rel="noopener">Bu görevi talep et ↗</a>
-        <a class="btn btn-ghost" href="${repoUrl()}" target="_blank" rel="noopener">Katkı ver ↗</a>
+        ${hasContact
+          ? `<a class="btn btn-primary" href="${contactHref(`Workers / Workless: ${t.name}`)}"${CONTACT.email ? "" : ' target="_blank" rel="noopener"'}>Bu iş için yazın</a>`
+          : `<a class="btn btn-primary" href="${issueUrl(m, t)}" target="_blank" rel="noopener">Bu görevi talep et ↗</a>`}
       </div>`;
   }
 
@@ -319,6 +320,12 @@
       <h2 id="sheetTitle">${esc(t.name)}</h2>
       <p class="sheet-desc">${esc(t.desc)}</p>
       ${pkg ? readyBody(mode, t, pkg) : wipBody(mode, t)}
+      ${pkg && hasContact ? `
+      <div class="fit">
+        <div><b>Dosyalarınız bu biçimde değil mi?</b>
+        <span>Sütun adları, kullandığınız programın çıktısı ya da onay adımları farklıysa bu paketi kendi akışınıza göre uyarlayabiliriz.</span></div>
+        <a class="btn btn-ghost" href="${contactHref(`Workers / Workless: ${t.name} uyarlama`)}"${CONTACT.email ? "" : ' target="_blank" rel="noopener"'}>Yazın</a>
+      </div>` : ""}
       <a class="crosslink" href="${href(other, s.id, d.id, r.id, t.id)}">
         <span class="x-ic" style="background:linear-gradient(135deg,${O.c1},${O.c2})">${icon(other === "code" ? "code" : "spark", 18)}</span>
         <span><b>${other === "code" ? "Kod bloğu" : "AI agent"} sürümü${otherReady ? " de hazır" : " (yakında)"}</b>
@@ -492,7 +499,6 @@
   $("#readyCount").textContent = Object.keys(READY["code-blocks"]).length + Object.keys(READY.agents).length;
   $("#readyShuffle").addEventListener("click", showReady);
   $("#readySearch").addEventListener("click", () => $("#openPalette").click());
-  $("#ghLink").href = repoUrl();
 
   // marquee
   const shuffled = INDEX.slice().sort(() => Math.random() - 0.5);
@@ -632,7 +638,7 @@
           <span class="p-main"><b>${mark(x.t.name, words.slice(0, 1))}</b><small>${esc(x.where)} › ${esc(x.d.name)} › ${esc(x.r.name)}</small></span>
           <span class="p-h">${isReady(x.t) ? '<span class="tag ok sm">Hazır</span> ' : ""}~${x.t.hours} sa/hf</span>
         </li>`).join("")
-      : `<li class="palette-empty">Sonuç yok. Bu görevi GitHub'da önerebilirsiniz.</li>`;
+      : `<li class="palette-empty">Sonuç yok.${hasContact ? ' Aradığınız iş listede yoksa <a href="#/iletisim">bize yazın</a>.' : ""}</li>`;
   }
   function choose(i) {
     const x = results[i];
@@ -654,7 +660,11 @@
     else if (e.key === "ArrowUp") { e.preventDefault(); moveSel(-1); }
     else if (e.key === "Enter") { e.preventDefault(); choose(sel); }
   });
-  plist.addEventListener("click", (e) => { const li = e.target.closest("li[data-i]"); if (li) choose(+li.dataset.i); });
+  plist.addEventListener("click", (e) => {
+    if (e.target.closest("a")) { closePalette(); return; }
+    const li = e.target.closest("li[data-i]");
+    if (li) choose(+li.dataset.i);
+  });
   pal.addEventListener("click", (e) => { if (e.target === pal) closePalette(); });
   $("#openPalette").addEventListener("click", openPalette);
   if (/Mac|iPhone|iPad/.test(navigator.platform)) $(".kbd-hint").textContent = "⌘K";

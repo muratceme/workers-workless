@@ -26,6 +26,11 @@ export const CONFIG = {
   githubUser: "muratceme",
   repo: "workers-workless",
   branch: "main",
+  // Sitedeki iletişim bölümü. İkisi de boşsa bölüm ve bağlantılar gizli kalır.
+  contact: {
+    email: "",      // ör. "ad@alanadi.com"
+    linkedin: "",   // ör. "https://www.linkedin.com/in/kullanici-adi/"
+  },
 };
 
 const PARCALAR = { ORTAK, BANKA, SIGORTA, ACENTE, URETIM, TEKSTIL, PERAKENDE, ETICARET, SAGLIK, LOJISTIK, INSAAT, GIDA, OTEL, SMMM, HUKUK_BUROSU, OTOMOTIV, EGITIM };
