@@ -1,0 +1,13 @@
+Kayıt No;Tarih;Makine;Açıklama;Duruş (dk)
+AR-101;01.10.2026 07:40;enjeksiyon 1;Hidrolik yağ sıcaklığı alarmı verdi, eşanjör filtresi tıkalı çıktı, temizlendi;45
+AR-102;02.10.2026 14:10;ENJ-02;Kalıp ısıtıcı rezistansı yandı, yenisi takıldı;90
+AR-103;03.10.2026 10:05;konveyör;Bant kaydı, operatör ayar yaptı;15
+AR-104;05.10.2026 22:30;kompresör;Hava basıncı düştü, emniyet ventili kaçırıyor. Dış servis çağrıldı, ventil değiştirildi;180
+AR-105;06.10.2026 03:15;enjeksiyon 1;Yine hidrolik yağ sıcaklığı yükseldi, filtre temizlendi;40
+AR-106;07.10.2026 09:20;robot;"Robot tutucu vakum hatası, hortum çatlak; hortum değişti";35
+AR-107;08.10.2026 16:45;ENJ-02;Kalıp ayarı bozuk, çapak geliyor, ayar yapıldı;25
+AR-108;09.10.2026 11:00;paketleme bandı;Motor sürücü (inverter) arıza kodu verdi, resetlendi;20
+AR-109;10.10.2026 08:30;Enjeksiyon makinesi 1;Hidrolik yağ sıcaklığı alarmı, filtre yine tıkalı;50
+AR-110;11.10.2026 13:10;robot;PLC haberleşme hatası, kablo konnektörü gevşek, sıkıldı;30
+AR-111;12.10.2026 06:50;hat B forklift;Forklift lastiği patladı;0
+AR-112;13.10.2026 15:00;ENJ-02;Kalıp ısıtıcı termokupl arızası, termokupl değiştirildi;60

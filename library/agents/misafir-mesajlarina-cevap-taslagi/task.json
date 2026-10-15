@@ -1,0 +1,20 @@
+{
+  "id": "misafir-mesajlarina-cevap-taslagi",
+  "tur": "agent",
+  "ad": "Misafir Mesajlarına Cevap Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi mesajlar.xlsx --bilgi otel_bilgileri.txt",
+  "girdiler": [
+    "Misafir mesajları (.xlsx/.csv): Mesaj; Mesaj No, Tarih, Kanal, Misafir Adı, Rezervasyon No isteğe bağlı",
+    "Otel bilgileri (.txt, .md, .docx): her satırda bir bilgi (B1: …)",
+    ".env: sağlayıcı ve API anahtarı (misafir adı ve rezervasyon no gönderilmez)"
+  ],
+  "ciktilar": ["Excel: Cevap Taslakları (dil, Türkçe konu, misafirin dilinde cevap, kullanılan bilgiler, cevaplanamayan sorular, insan onayı, 'Onay'), Otel Bilgileri (hangi mesajda kullanıldığı)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

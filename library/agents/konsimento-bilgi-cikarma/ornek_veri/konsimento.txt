@@ -1,0 +1,33 @@
+BILL OF LADING FOR OCEAN TRANSPORT OR MULTIMODAL TRANSPORT
+B/L No: WWLU-IST-2610-0457                         Booking No: 88124570
+
+SHIPPER
+Örnek Tekstil Sanayi ve Ticaret A.Ş.
+Organize Sanayi Bölgesi 5. Cadde No: 12, Bursa, TÜRKİYE
+
+CONSIGNEE
+TO ORDER OF EXAMPLE BANK GMBH
+
+NOTIFY PARTY
+Muster Handels GmbH, Hafenstrasse 20, 20457 Hamburg, GERMANY
+
+Vessel: MV EXAMPLE STAR                  Voyage No: 642W
+Place of Receipt: BURSA, TURKEY
+Port of Loading: GEMLIK, TURKEY (TRGEM)
+Port of Discharge: HAMBURG, GERMANY (DEHAM)
+Place of Delivery: HAMBURG CY
+
+Container No. / Seal No.     Type     No. of Packages     Description of Goods            Gross Weight (KGS)   Measurement (CBM)
+WWKU1234564 / TR0457881      40HC     620 CARTONS         100% COTTON KNITTED T-SHIRTS    8,450.00             67.50
+WWKU7654327 / TR0457882      40HC     580 CARTONS         100% COTTON KNITTED T-SHIRTS    7,920.50             66.00
+WWKU2401178 / TR0457883      20GP     210 CARTONS         COTTON SWEATSHIRTS              3,105.00             28.20
+
+TOTAL: 3 CONTAINERS        1,410 CARTONS                                       19,475.50 KGS        161.70 CBM
+SAY: THREE (3) CONTAINERS ONLY
+
+HS CODE: 6109.10, 6110.20
+SHIPPER'S LOAD, STOW AND COUNT. SAID TO CONTAIN.
+FREIGHT PREPAID
+Number of Original B/L: THREE (3)
+Place and Date of Issue: ISTANBUL, 14.10.2026
+Shipped on Board Date: 14.10.2026

@@ -1,0 +1,19 @@
+{
+  "id": "ariza-kaydi-siniflandirma",
+  "tur": "agent",
+  "ad": "Arıza Kaydı Sınıflandırma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ariza_kayitlari.xlsx --makineler makineler.xlsx --calisma-saat 600",
+  "girdiler": [
+    "Arıza kayıtları (.xlsx/.csv): Açıklama; Kayıt No, Tarih, Makine, Duruş (dk) isteğe bağlı",
+    "Makine listesi (.xlsx/.csv): Makine Kodu, Makine Adı, Hat, Diğer Adlar",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Tekrarlayan Arızalar, Kayıtlar (makine kodu ve eşleşme şekli, arıza tipi, müdahale, değişen parça, olası kök neden, önleme önerisi, 'Onay'), Pareto (duruşa göre, grafik), Makine Özeti (arıza sayısı, toplam ve ortalama duruş, MTBF)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

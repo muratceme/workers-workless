@@ -1,0 +1,44 @@
+Anket No;Tarih;Birim;Hekim;Hekim İlgisi;Hemşire Bakımı;Bekleme Süresi;Temizlik;Yorum
+A-001;01.09.2026;Dahiliye Polikliniği;Uzm. Dr. A. Kaya;4;4;3;3;Kaya Bey çok ilgiliydi ama 1 saat bekledim.
+A-002;02.09.2026;Dahiliye Polikliniği;Uzm. Dr. A. Kaya;5;4;2;4;
+A-003;03.09.2026;Dahiliye Polikliniği;Uzm. Dr. A. Kaya;4;4;2;3;
+A-004;04.09.2026;Dahiliye Polikliniği;Uzm. Dr. A. Kaya;4;5;2;3;Bekleme salonu çok kalabalık, oturacak yer yok.
+A-005;05.09.2026;Dahiliye Polikliniği;Uzm. Dr. A. Kaya;5;5;3;4;
+A-006;06.09.2026;Dahiliye Polikliniği;Uzm. Dr. A. Kaya;5;3;4;4;
+A-007;07.09.2026;Dahiliye Polikliniği;Uzm. Dr. A. Kaya;4;4;2;5;Hekim her şeyi güzelce anlattı.
+A-008;08.09.2026;Dahiliye Polikliniği;Uzm. Dr. A. Kaya;4;4;3;4;
+A-009;09.09.2026;Dahiliye Polikliniği;Uzm. Dr. A. Kaya;5;3;2;3;
+A-010;10.09.2026;Dahiliye Polikliniği;Uzm. Dr. A. Kaya;5;4;2;4;
+A-011;11.09.2026;Dahiliye Polikliniği;Uzm. Dr. A. Kaya;5;4;3;4;
+A-012;12.09.2026;Dahiliye Polikliniği;Uzm. Dr. A. Kaya;4;4;3;5;
+A-013;01.09.2026;Dahiliye Polikliniği;Uzm. Dr. B. Demir;4;4;5;3;Doktor bilgisayardan başını kaldırmadı, sorularıma cevap vermedi.
+A-014;02.09.2026;Dahiliye Polikliniği;Uzm. Dr. B. Demir;3;5;3;4;
+A-015;03.09.2026;Dahiliye Polikliniği;Uzm. Dr. B. Demir;2;5;4;4;
+A-016;04.09.2026;Dahiliye Polikliniği;Uzm. Dr. B. Demir;4;4;4;4;Randevu saatinde alındım, teşekkürler.
+A-017;05.09.2026;Dahiliye Polikliniği;Uzm. Dr. B. Demir;4;4;5;5;
+A-018;06.09.2026;Dahiliye Polikliniği;Uzm. Dr. B. Demir;3;5;3;5;
+A-019;07.09.2026;Dahiliye Polikliniği;Uzm. Dr. B. Demir;4;5;5;4;
+A-020;08.09.2026;Dahiliye Polikliniği;Uzm. Dr. B. Demir;3;5;3;4;
+A-021;09.09.2026;Dahiliye Polikliniği;Uzm. Dr. B. Demir;3;3;3;5;
+A-022;10.09.2026;Dahiliye Polikliniği;Uzm. Dr. B. Demir;3;4;4;5;
+A-023;11.09.2026;Dahiliye Polikliniği;Uzm. Dr. B. Demir;3;4;4;5;
+A-024;12.09.2026;Dahiliye Polikliniği;Uzm. Dr. B. Demir;4;5;3;4;
+A-025;01.09.2026;Ortopedi Polikliniği;Op. Dr. C. Yıldız;4;5;4;3;Otopark bulmak çok zor.
+A-026;02.09.2026;Ortopedi Polikliniği;Op. Dr. C. Yıldız;4;3;2;4;
+A-027;03.09.2026;Ortopedi Polikliniği;Op. Dr. C. Yıldız;4;4;2;4;
+A-028;04.09.2026;Ortopedi Polikliniği;Op. Dr. C. Yıldız;4;4;4;4;Röntgen için 2 saat bekledim.
+A-029;05.09.2026;Ortopedi Polikliniği;Op. Dr. C. Yıldız;4;4;3;3;
+A-030;06.09.2026;Ortopedi Polikliniği;Op. Dr. C. Yıldız;5;5;3;4;
+A-031;07.09.2026;Ortopedi Polikliniği;Op. Dr. C. Yıldız;4;4;2;4;Bekleme süresi çok uzun, kimse bilgi vermiyor.
+A-032;08.09.2026;Ortopedi Polikliniği;Op. Dr. C. Yıldız;3;3;2;3;
+A-033;09.09.2026;Ortopedi Polikliniği;Op. Dr. C. Yıldız;4;3;2;3;
+A-034;01.09.2026;Kadın Doğum Servisi;Op. Dr. D. Çelik;4;4;3;4;Hemşireler çok ilgiliydi.
+A-035;02.09.2026;Kadın Doğum Servisi;Op. Dr. D. Çelik;5;4;4;3;
+A-036;03.09.2026;Kadın Doğum Servisi;Op. Dr. D. Çelik;4;4;5;4;
+A-037;04.09.2026;Kadın Doğum Servisi;Op. Dr. D. Çelik;4;5;3;2;Odalar temiz değildi, banyo kirliydi.
+A-038;05.09.2026;Kadın Doğum Servisi;Op. Dr. D. Çelik;4;4;5;2;
+A-039;06.09.2026;Kadın Doğum Servisi;Op. Dr. D. Çelik;3;5;4;2;
+A-040;07.09.2026;Kadın Doğum Servisi;Op. Dr. D. Çelik;4;4;4;4;Yemekler soğuk geliyordu.
+A-041;08.09.2026;Kadın Doğum Servisi;Op. Dr. D. Çelik;5;5;4;3;
+A-042;09.09.2026;Kadın Doğum Servisi;Op. Dr. D. Çelik;4;5;4;4;
+A-043;10.09.2026;Kadın Doğum Servisi;Op. Dr. D. Çelik;4;4;5;4;Odanın temizliği yetersizdi.

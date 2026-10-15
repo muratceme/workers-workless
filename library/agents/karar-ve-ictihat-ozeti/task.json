@@ -1,0 +1,19 @@
+{
+  "id": "karar-ve-ictihat-ozeti",
+  "tur": "agent",
+  "ad": "Karar ve İçtihat Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi karar.pdf",
+  "girdiler": [
+    "Karar metni (.pdf, .docx, .txt, .md)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Karar Özeti (künye, taraflar, olay, iddia ve savunma, yargılama süreci, hukuki mesele, gerekçe, hüküm alıntısı, sonuç ve oy durumu, anahtar kelimeler, dayanak satırlar), Mevzuat ve Atıflar, Metin + Markdown özet"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

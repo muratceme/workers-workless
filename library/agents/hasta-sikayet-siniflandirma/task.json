@@ -1,0 +1,19 @@
+{
+  "id": "hasta-sikayet-siniflandirma",
+  "tur": "agent",
+  "ad": "Hasta Şikâyet Sınıflandırma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi basvurular.xlsx --birimler birimler.txt --sure 30",
+  "girdiler": [
+    "Başvurular (.xlsx/.csv): Başvuru Tarihi, Metin; Başvuru No, Kanal, Hasta Adı, Durum, Cevap Tarihi isteğe bağlı",
+    "Birim listesi (.txt, her satırda bir birim)",
+    ".env: sağlayıcı ve API anahtarı (hasta adı metinden çıkarılır)"
+  ],
+  "ciktilar": ["Excel: Başvurular (tür, önem, birim, konu, özet, alıntı, kod bulgusu ve yapılacak, birime inceleme sorusu, son cevap tarihi, kalan gün, süre durumu, 'Sorumlu'), Birim × Konu şikâyet matrisi"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

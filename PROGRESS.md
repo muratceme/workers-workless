@@ -647,16 +647,34 @@ edildi; gerçek API ile denenmedi.
 Dersler: argparse yardım metninde "%" → "%%". Uzatma anahtarı hem asıl hem kaydırılmış tarihle eşleşmeli. Bash heredoc yine
 uzun içerikte kırıldı → Write aracı.
 
+### Tur 29 (15 agent)
+Agent: konsimento-bilgi-cikarma, hasar-ihbari-on-kayit, ariza-kaydi-siniflandirma, musteri-sikayeti-kok-neden-analizi,
+musteri-yorumlari-fit-comments-ozeti, iade-nedeni-analizi, urun-degerlendirme-analizi, hasta-sikayet-siniflandirma,
+hasta-memnuniyet-anketi-analizi, musteri-yuk-durum-bilgilendirmesi, gunluk-santiye-raporu, misafir-mesajlarina-cevap-taslagi,
+yorum-cevap-taslagi, karar-ve-ictihat-ozeti, veli-bilgilendirme-mesajlari.
+Toplam 403 paket (353 kod + 50 agent). Testler 403/403.
+Ortak agent yardımcıları (katla, metinde_var, sayilar/sayi_yaz, tablo_oku/kayitlar, Excel stilleri, duzeltme_dongusu,
+duzeltme_blogu, son_not) scratchpad'deki ajan_ortak.py'den agent.py içindeki `#@ORTAK` işaretine kur_ajan.py ile gömülür
+(her paket bağımsız kalır). Düzeltme turunda yalnız sorunlu kayıtlar yeniden sorulur (ilk satır "ID: ..." biçiminde).
+İnternet teyidi (15.10.2026):
+- Kasko genel şartları: rizikonun öğrenilmesinden itibaren 5 iş günü içinde ihbar (hasar agent'ında --ihbar-gun 5, parametre).
+- Hasta hakları başvuru cevap süresi: ulusal tek bir süre bulunamadı (kurum prosedürleri farklı) → varsayılan 30 gün
+  (3071 sayılı Dilekçe Hakkı Kanunu), --sure parametresi.
+Doğrulanmış kurallar: ISO 6346 konteyner kontrol hanesi (CSQU3054383 örneği), 1 inç = 2,54 cm, cayma hakkı 14 gün (README notu).
+Tasarım notları: konşimento toplam satırı ve çeki listesiyle karşılaştırılır; yük durum e-postasında başka müşterinin sefer
+numarası ve veride olmayan sayı yakalanır; misafir mesajı / yorum cevabında taahhüt ("ücretsiz", "onaylandı", indirim) ve
+oda numarası denetlenir; hasta şikâyeti, memnuniyet, misafir mesajı, veli mesajı agent'larında ad / kimlik modele gitmez.
+Örnek karar metni kurgusaldır (mevzuat atıfları TBK 49, 52, HMK 266 gerçek).
+
 ### KALDIĞIM YER
-Kod tarafında yalnız SGK Teşvik Uygunluk Ön Kontrolü kaldı (çok sayıda teşvik, sık değişiyor → kapsamlı mevzuat teyidiyle,
-belki yalnız birkaç temel teşvik). Kalan işlerin büyük kısmı agent (tam liste için kalan2.mjs; proje klasöründen çalıştır).
-Agent adayları (puan 2): Teminat Mektubu Metin Kontrolü, Müşteri İhtiyaç Analizi, Vitrin Yönergesi, Renk Paleti, Trend Raporu
-Özeti, Tıbbi Rapor Yazım Kontrolü.
-Agent olarak bekleyenler: Şüpheli İşlem Bildirim Taslağı, Hasar İhbarı Ön Kayıt, Müşteri Şikâyeti Kök Neden,
-Arıza Kaydı Sınıflandırma, Ar-Ge Proje Raporu Taslağı, Fit Comments Özeti, İade Nedeni Analizi, Ürün Değerlendirme Analizi,
-Planogram Uyum, Hasta Şikâyet Sınıflandırma, Hasta Memnuniyet Anketi Analizi, Müşteri Yük Durum Bilgilendirmesi, Konşimento Bilgi
-Çıkarma, Günlük Şantiye Raporu, Etiket Bilgisi Kontrolü, Misafir Mesajlarına Cevap Taslağı, Yorum Cevap Taslağı, Karar ve İçtihat
-Özeti. Epikriz, ÖSS ve SGK fatura (puan 5) sonda.
+Kod tarafında yalnız SGK Teşvik Uygunluk Ön Kontrolü kaldı (çok sayıda teşvik, sık değişiyor → kapsamlı mevzuat teyidiyle).
+Kalan ~29 görevin neredeyse tamamı agent (tam liste: kalan2.mjs). Sıradaki agent adayları: Şüpheli İşlem Bildirim Taslağı
+(MASAK, dikkatli), Ar-Ge Proje Raporu Taslağı, Planogram Uyum Kontrolü (görsel girdi gerekir), Etiket Bilgisi Kontrolü (TGK
+etiketleme yönetmeliği teyidi gerekir), Öğrenci Gelişim Raporu, Aday Bilgilendirme E-postaları, Yönetim Kurulu Finans Özeti,
+Oltalama E-postası Analizi, İhtarname Taslağı, KVKK Aydınlatma Metni, E-bülten, Ziyaret Notu Özeti, Acil Durum Eylem Planı,
+GTİP Önerisi, Piyasa Günlüğü, Teminat Mektubu Kontrolü, Müşteri İhtiyaç Analizi, Renk Paleti, Trend Raporu, Vitrin Yönergesi,
+Tıbbi Rapor Yazım Kontrolü, Mükellef Bilgilendirme Yazısı, Müvekkil Dosya Durum Raporu, Basın Bülteni, Ürün Bilgi Kartı.
+Epikriz, ÖSS ve SGK fatura (puan 5) sonda.
 Kullanıcı tur boyunu 15 pakete çıkardı (15 paket → dur → /compact).
 Sağlık/SGK faturası ve epikriz sona bırakıldı. Agent'lar gerçek API ile henüz denenmedi (kullanıcı anahtar verecek).
 Listeyi üretmek için: geçici bir node betiğiyle catalog/catalog.mjs DEPTS'ten görevleri slug'layıp library/ ile karşılaştır.

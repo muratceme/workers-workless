@@ -1,0 +1,20 @@
+{
+  "id": "yorum-cevap-taslagi",
+  "tur": "agent",
+  "ad": "Yorum Cevap Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi yorumlar.xlsx --rehber uslup_rehberi.txt --azami 1200",
+  "girdiler": [
+    "Misafir yorumları (.xlsx/.csv): Yorum; Yorum No, Tarih, Platform, Puan, Misafir isteğe bağlı",
+    "Otelin üslup rehberi (.txt, .md, .docx): ton, yasaklar, iletişim adresi ve 'İmza: …' satırı",
+    ".env: sağlayıcı ve API anahtarı (misafir adı gönderilmez)"
+  ],
+  "ciktilar": ["Excel: Cevaplar (yorumun dili, olumlu ve olumsuz noktalar, misafirin dilinde kişiselleştirilmiş cevap taslağı, karakter sayısı, yönetime iç not, 'Onay')"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

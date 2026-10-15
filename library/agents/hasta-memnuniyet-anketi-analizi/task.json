@@ -1,0 +1,18 @@
+{
+  "id": "hasta-memnuniyet-anketi-analizi",
+  "tur": "agent",
+  "ad": "Hasta Memnuniyet Anketi Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi anketler.xlsx --hedef 4 --min-n 10",
+  "girdiler": [
+    "Anket yanıtları (.xlsx/.csv): Birim ve 1–5 puanlı soru sütunları; Anket No, Tarih, Hekim, Yorum isteğe bağlı",
+    ".env: sağlayıcı ve API anahtarı (yalnız yorumlar gönderilir; hekim adları gizlenir)"
+  ],
+  "ciktilar": ["Excel: İyileştirme Başlıkları (birim, gerekçe, dayanak yorumlar, düşük puanlı soru, öneri, sorumlu, termin), Birim Özeti (soru ortalamaları, memnuniyet %), Hekim Özeti (yetersiz örnek kuralıyla), Yorumlar (tema, duygu), Tema Dağılımı"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

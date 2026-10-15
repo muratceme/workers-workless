@@ -1,0 +1,19 @@
+{
+  "id": "iade-nedeni-analizi",
+  "tur": "agent",
+  "ad": "İade Nedeni Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi iadeler.xlsx --satislar satislar.xlsx --esik 15",
+  "girdiler": [
+    "İadeler (.xlsx/.csv): Ürün Kodu, İade Açıklaması; İade No, Sipariş No, Ürün Adı, Beden, İade Tarihi isteğe bağlı",
+    "İsteğe bağlı satış adetleri (aynı dönem): Ürün Kodu, Satış Adedi",
+    ".env: sağlayıcı ve API anahtarı (sipariş ve müşteri bilgisi gönderilmez)"
+  ],
+  "ciktilar": ["Excel: Ürün Analizi (satış, iade, iade oranı, kategori dağılımı, beden / kusur / görsel aksiyon önerileri), İadeler (kategori, alıntı, kural işareti), Neden Dağılımı (grafik)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

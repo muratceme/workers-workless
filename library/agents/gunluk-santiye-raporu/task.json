@@ -1,0 +1,19 @@
+{
+  "id": "gunluk-santiye-raporu",
+  "tur": "agent",
+  "ad": "Günlük Şantiye Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi saha_notlari.docx",
+  "girdiler": [
+    "Saha notları (.txt, .md, .docx, .pdf): gün içinde tutulan serbest metin",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Günlük Rapor (hava, toplam personel ve makine, personel, makine, imalat, malzeme, sorunlar, İSG, ziyaret, yarının planı ve not satırı), Notlar (her satırın kullanıldığı bölüm, İSG işareti) + Markdown rapor"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

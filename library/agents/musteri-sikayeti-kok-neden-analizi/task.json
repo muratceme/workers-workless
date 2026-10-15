@@ -1,0 +1,18 @@
+{
+  "id": "musteri-sikayeti-kok-neden-analizi",
+  "tur": "agent",
+  "ad": "Müşteri Şikâyeti Kök Neden Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi sikayetler.xlsx --esik 2 --urun-esik 3",
+  "girdiler": [
+    "Şikâyetler (.xlsx/.csv): Ürün Kodu, Açıklama; Şikâyet No, Tarih, Müşteri, Parti, Hat, Adet isteğe bağlı",
+    ".env: sağlayıcı ve API anahtarı (müşteri adı gönderilmez)"
+  ],
+  "ciktilar": ["Excel: Kümeler ve Hipotezler (parti ve ürün kümeleri, 6M kategorisi, olası kök neden, dayanak şikâyetler, doğrulama adımı, geçici önlem, sonuç sütunu), Şikâyetler (hata türü, alıntı, küme), Pareto (grafik), Ürün × Parti matrisi"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

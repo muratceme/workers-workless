@@ -1,0 +1,7 @@
+Sefer No;Müşteri;Müşteri E-posta;Yük No;Çıkış;Varış;Planlanan Teslim;Durum;Son Konum;Son Konum Zamanı;ETA;Gecikme Nedeni;Plaka;Şoför
+SF-24518;Örnek Gıda A.Ş.;lojistik@ornekgida.example;IRS-88120;Bursa;Ankara;15.10.2026 14:00;Yolda;Eskişehir çevre yolu;15.10.2026 09:40;15.10.2026 13:30;;16 ABC 123;Ahmet Y.
+SF-24519;Örnek Gıda A.Ş.;lojistik@ornekgida.example;IRS-88121;Bursa;Konya;15.10.2026 16:00;Yolda;Afyonkarahisar;15.10.2026 09:55;15.10.2026 19:15;Afyon girişinde kaza nedeniyle yol kapalı;16 DEF 456;Mehmet K.
+SF-24520;Örnek Gıda A.Ş.;lojistik@ornekgida.example;IRS-88122;Bursa;İzmir;14.10.2026 18:00;Teslim edildi;İzmir depo;14.10.2026 17:20;;;16 GHI 789;Ali V.
+SF-24530;Mavi Yapı Malzemeleri Ltd.;sevkiyat@maviyapi.example;IRS-55410;Gebze;Kayseri;16.10.2026 10:00;Yüklendi;Gebze depo;15.10.2026 08:30;16.10.2026 09:00;;41 JKL 321;Hasan T.
+SF-24531;Mavi Yapı Malzemeleri Ltd.;sevkiyat@maviyapi.example;IRS-55411;Gebze;Samsun;15.10.2026 12:00;Arıza;Bolu Dağı;15.10.2026 07:10;15.10.2026 20:00;Araç arızası, yedek çekici yönlendirildi;41 MNO 654;Veli S.
+SF-24540;Delta Tekstil;planlama@deltatekstil.example;IRS-71001;Denizli;Mersin;15.10.2026 17:00;Yolda;Antalya-Burdur yolu;15.10.2026 09:20;;;20 PRS 987;Cem A.

@@ -1,0 +1,18 @@
+{
+  "id": "musteri-yuk-durum-bilgilendirmesi",
+  "tur": "agent",
+  "ad": "Müşteri Yük Durum Bilgilendirmesi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi seferler.xlsx --firma \"Firma Adı\" --iletisim \"0212 000 00 00\" --tolerans 60",
+  "girdiler": [
+    "Sefer durumu (.xlsx/.csv): Sefer No, Müşteri, Durum; Müşteri E-posta, Yük No, Çıkış, Varış, Planlanan Teslim, Son Konum, Son Konum Zamanı, ETA, Gecikme Nedeni isteğe bağlı",
+    ".env: sağlayıcı ve API anahtarı (plaka, şoför ve e-posta adresi gönderilmez)"
+  ],
+  "ciktilar": ["Excel: E-postalar (alıcı, konu, gövde, geciken sayısı, 'Onay'), Sefer Durumu (gecikme dakikası ve değerlendirme) + müşteri başına .txt e-posta taslağı (gönderilmez)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

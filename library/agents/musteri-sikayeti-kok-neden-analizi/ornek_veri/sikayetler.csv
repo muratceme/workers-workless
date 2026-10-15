@@ -1,0 +1,12 @@
+Şikâyet No;Tarih;Müşteri;Ürün Kodu;Parti;Hat;Adet;Açıklama
+SK-501;02.10.2026;Müşteri A;KPK-38;L2609-14;Hat 2;1200;Kapaklar şişeye tam oturmuyor, vidalama sonrası sızıntı var
+SK-502;03.10.2026;Müşteri B;KPK-38;L2609-14;Hat 2;800;Kapak dişleri eksik basılmış, sızdırma şikâyeti
+SK-503;05.10.2026;Müşteri A;KPK-38;L2609-14;Hat 2;450;Kapak iç çapı ölçümde 37,6 mm çıktı, şartname 38,0 ± 0,2 mm
+SK-504;06.10.2026;Müşteri C;KPK-38;L2609-21;Hat 1;300;Kapak yüzeyinde siyah noktalar var
+SK-505;07.10.2026;Müşteri D;SSE-500;L2609-30;Hat 3;5000;Etiket üzerindeki parti numarası okunmuyor, mürekkep silik
+SK-506;08.10.2026;Müşteri D;SSE-500;L2609-30;Hat 3;4000;Etiketler eğik yapıştırılmış, bazılarında parti numarası silik
+SK-507;09.10.2026;Müşteri E;SSE-500;L2610-02;Hat 3;200;Koli içinde 2 adet eksik şişe
+SK-508;10.10.2026;Müşteri B;KPK-38;L2610-05;Hat 2;600;Vidalamada kapak dönüyor ama sıkmıyor, sızıntı
+SK-509;11.10.2026;Müşteri F;KPK-38;L2610-05;Hat 2;350;Kapak dişlerinde çapak ve eksik dolum
+SK-510;12.10.2026;Müşteri C;SSE-500;L2610-02;Hat 3;100;Şişe tabanında çatlak
+SK-511;13.10.2026;Müşteri A;KPK-38;L2609-14;Hat 2;900;Kapak contası yerinden çıkmış

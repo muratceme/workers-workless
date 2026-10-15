@@ -1,0 +1,20 @@
+{
+  "id": "veli-bilgilendirme-mesajlari",
+  "tur": "agent",
+  "ad": "Veli Bilgilendirme Mesajları",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi mesaj_listesi.xlsx --duyurular duyurular.txt --okul \"Okul Adı\" --iletisim \"0212 000 00 00\"",
+  "girdiler": [
+    "Mesaj listesi (.xlsx/.csv): Öğrenci Adı, Mesaj Türü (Devamsızlık / Ödev / Duyuru); Öğrenci No, Sınıf, Veli Adı, Veli Telefon, Duyuru, Özürsüz Gün, Özürlü Gün, Ders, Eksik Ödev",
+    "Duyurular (.txt, .docx): 'D1: …' satırları",
+    ".env: sağlayıcı ve API anahtarı (öğrenci ve veli bilgisi gönderilmez)"
+  ],
+  "ciktilar": ["Excel: Şablonlar (kontrol sonucu, 'Onay'), Mesajlar (doldurulmuş mesaj, karakter), Gönderilemeyen (telefonu olmayan, şablonu geçmeyen)", "CSV: Telefon; Mesaj (SMS sistemine aktarmak için)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

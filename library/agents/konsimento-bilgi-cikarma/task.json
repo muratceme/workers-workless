@@ -1,0 +1,20 @@
+{
+  "id": "konsimento-bilgi-cikarma",
+  "tur": "agent",
+  "ad": "Konşimento Bilgi Çıkarma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi konsimento.pdf --ceki ceki_listesi.xlsx",
+  "girdiler": [
+    "Konşimento / Bill of Lading (.pdf, .docx, .txt)",
+    "İsteğe bağlı çeki listesi (.xlsx/.csv): Konteyner No, Kap Adedi, Brüt Kg",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Konşimento (alanlar, belgede var mı kontrolü, uyarılar), Konteynerler (ISO 6346 kontrol hanesi, kap, kg, CBM, belge toplamı), Çeki Karşılaştırma + JSON kayıt"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

@@ -1,0 +1,6 @@
+Makine Kodu;Makine Adı;Hat;Diğer Adlar
+ENJ-01;Enjeksiyon Makinesi 1;Hat A;enjeksiyon 1, 1 nolu enjeksiyon
+ENJ-02;Enjeksiyon Makinesi 2;Hat A;enjeksiyon 2, 2 nolu enjeksiyon
+KMP-01;Hava Kompresörü;Yardımcı Tesis;kompresör
+KNV-03;Paketleme Konveyörü;Hat B;konveyör, paketleme bandı
+ROB-01;Paletleme Robotu;Hat B;robot, paletleme

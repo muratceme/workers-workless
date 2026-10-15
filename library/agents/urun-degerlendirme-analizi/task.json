@@ -1,0 +1,18 @@
+{
+  "id": "urun-degerlendirme-analizi",
+  "tur": "agent",
+  "ad": "Ürün Değerlendirme Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi yorumlar.xlsx",
+  "girdiler": [
+    "Ürün yorumları (.xlsx/.csv): Yorum; Yorum No, Tarih, Ürün Kodu, Ürün Adı, Puan isteğe bağlı",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Acil (ürün güvenliği yorumları), Ürün Özeti (yorum sayısı, ortalama puan, en çok şikâyet edilen konu, konu bazında olumlu / olumsuz / net skor, örnek alıntılar), Yorumlar (duygu, konular, Türkçe özet, puan-duygu çelişkisi)"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

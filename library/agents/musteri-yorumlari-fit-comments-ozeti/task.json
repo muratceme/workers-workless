@@ -1,0 +1,19 @@
+{
+  "id": "musteri-yorumlari-fit-comments-ozeti",
+  "tur": "agent",
+  "ad": "Müşteri Yorumları (Fit Comments) Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi fit_comments.docx",
+  "girdiler": [
+    "Müşterinin fit / numune yorum e-postası (.txt, .md, .docx, .pdf)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Kararlar ve Terminler, Aksiyon Listesi (model, bölge, Türkçe yorum, yapılacak iş, sorumlu birim, öncelik, POM ölçü değişikliği ve cm karşılığı, e-posta satırı, 'Durum'), E-posta (satırların kullanıldığı yer) + Markdown birim bazında liste"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

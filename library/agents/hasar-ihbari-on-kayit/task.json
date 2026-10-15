@@ -1,0 +1,19 @@
+{
+  "id": "hasar-ihbari-on-kayit",
+  "tur": "agent",
+  "ad": "Hasar İhbarı Ön Kayıt",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ihbarlar.xlsx --policeler policeler.xlsx --ihbar-gun 5",
+  "girdiler": [
+    "İhbarlar (.xlsx/.csv): Metin; İhbar No, İhbar Tarihi, Kanal isteğe bağlı",
+    "İsteğe bağlı poliçe listesi (.xlsx/.csv): Poliçe No, Sigortalı, Branş, Başlangıç, Bitiş, Plaka",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Ön Kayıt (poliçe, branş, hasar tarihi / yeri / türü, tahmini tutar, plakalar, tutanak, yaralanma önceliği, eksik bilgiler, istenecek belgeler, poliçe ve ihbar süresi uyarıları, 'Onay'), İhbar Metinleri"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

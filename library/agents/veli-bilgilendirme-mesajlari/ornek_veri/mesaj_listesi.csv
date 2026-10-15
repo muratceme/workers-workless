@@ -1,0 +1,9 @@
+Öğrenci No;Öğrenci Adı;Sınıf;Veli Adı;Veli Telefon;Mesaj Türü;Duyuru;Özürsüz Gün;Özürlü Gün;Ders;Eksik Ödev
+1021;Deniz Aydın;9-A;Selma Aydın;0532 100 00 01;Devamsızlık;;4;2;;
+1034;Mert Kaya;9-A;Hakan Kaya;0532 100 00 02;Devamsızlık;;8;1;;
+1047;Ece Şahin;10-B;Aylin Şahin;;Devamsızlık;;3;0;;
+1058;Can Öztürk;10-B;Murat Öztürk;0532 100 00 04;Ödev;;;;Matematik;3
+1063;Zeynep Arslan;11-C;Gül Arslan;0532 100 00 05;Ödev;;;;Kimya;2
+1021;Deniz Aydın;9-A;Selma Aydın;0532 100 00 01;Duyuru;D1;;;;
+1034;Mert Kaya;9-A;Hakan Kaya;0532 100 00 02;Duyuru;D1;;;;
+1058;Can Öztürk;10-B;Murat Öztürk;0532 100 00 04;Duyuru;D2;;;;
