@@ -63,7 +63,7 @@
   const STATS = {
     sectors: TREE.length,
     depts: new Set(TREE.flatMap((s) => s.depts.map((d) => d.id))).size,
-    roles: new Set(INDEX.map((x) => x.r.id)).size,
+    roles: new Set(TREE.flatMap((s) => s.depts.flatMap((d) => d.roles.map((r) => `${d.id}/${r.id}`)))).size,
     tasks: INDEX.length,
     hours: sum(INDEX, (x) => x.t.hours),
     ready: Object.keys(READY["code-blocks"]).length + Object.keys(READY.agents).length,
