@@ -240,7 +240,7 @@ def denetle(satirlar: list[dict], icmal: dict | None = None, tolerans: Decimal =
         s["fark"] = s["hesap"] - s["miktar"] if s["hesap"] is not None and s["miktar"] is not None else None
         s["durum"] = "Hesaplanamadı" if s["hesap"] is None else "Miktar yazılmamış" if s["miktar"] is None else "Hesap hatası" if abs(s["fark"]) > tolerans else "Doğru"
         s["mukerrer"] = False
-        gorulen[katla(s["poz"]), katla(s["tanim"]), *[s[a] for a in CARPAN], s["minha"]].append(s)
+        gorulen[(katla(s["poz"]), katla(s["tanim"]), *[s[a] for a in CARPAN], s["minha"])].append(s)
     for grup in gorulen.values():
         if len(grup) > 1:
             for s in grup:
