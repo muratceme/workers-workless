@@ -18,12 +18,18 @@ def son(yuk, vt, yil, donem, ek=frozenset()):
 
 class KuralTesti(unittest.TestCase):
     def test_son_gunler(self):
-        self.assertEqual([son("KDV", "Kurumlar", 2026, "2026/09"), son("Muhtasar ve prim hizmet", "Kurumlar", 2026, "2026/09"), son("Ba-Bs", "Kurumlar", 2026, "2026/09")],
-                         [date(2026, 10, 28), date(2026, 10, 26), date(2026, 11, 2)])
+        self.assertEqual([son("KDV", "Kurumlar", 2026, "2026/09"), son("Muhtasar ve prim hizmet", "Kurumlar", 2026, "2026/09"), son("Ba-Bs", "Kurumlar", 2024, "2024/08")],
+                         [date(2026, 10, 28), date(2026, 10, 26), date(2024, 9, 30)])
+        # Form Ba / Bs Eylül 2024 döneminden itibaren kaldırıldı (565 Sıra No'lu VUK GT)
+        self.assertEqual([d for d, _, _ in main.donemler("Ba-Bs", "Kurumlar", 2024)][-1], "2024/08")
+        self.assertEqual(main.donemler("Ba-Bs", "Kurumlar", 2026), [])
         # KDV 2026/10: 28.11.2026 cumartesi → 30.11.2026; geçici vergi 1. dönem 17.05.2026 pazar → 18.05.2026
         self.assertEqual([son("KDV", "Kurumlar", 2026, "2026/10"), son("Geçici vergi", "Kurumlar", 2026, "2026/1. dönem"), son("Geçici vergi", "Kurumlar", 2026, "2026/3. dönem")],
                          [date(2026, 11, 30), date(2026, 5, 18), date(2026, 11, 17)])
-        self.assertEqual([d for d, _, _ in main.donemler("Geçici vergi", "Gelir", 2026)], ["2026/1. dönem", "2026/2. dönem", "2026/3. dönem"])
+        # 4. dönem 2022-2024'te yoktu; 7566 sayılı Kanunla 2025'ten itibaren yeniden var, son gün izleyen yılın 17 Şubat'ı
+        self.assertEqual([d for d, _, _ in main.donemler("Geçici vergi", "Gelir", 2024)], ["2024/1. dönem", "2024/2. dönem", "2024/3. dönem"])
+        self.assertEqual([d for d, _, _ in main.donemler("Geçici vergi", "Gelir", 2026)], ["2026/1. dönem", "2026/2. dönem", "2026/3. dönem", "2026/4. dönem"])
+        self.assertEqual(son("Geçici vergi", "Kurumlar", 2025, "2025/4. dönem"), date(2026, 2, 17))
         self.assertEqual([son("Kurumlar vergisi", "Kurumlar", 2025, "2025"), son("Gelir vergisi", "Gelir", 2025, "2025"), son("Gelir vergisi", "Gelir", 2025, "2025 · 2. taksit")],
                          [date(2026, 4, 30), date(2026, 3, 31), date(2026, 7, 31)])
         self.assertEqual([son("e-Defter berat", "Gelir", 2026, "2026/06"), son("e-Defter berat", "Kurumlar", 2026, "2026/06"), son("e-Defter berat", "Kurumlar", 2025, "2025/12")],
@@ -60,7 +66,7 @@ class DosyaTesti(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             cikti = Path(tmp) / "t.xlsx"
             r = main.calistir(ORNEK / "yukumlulukler.csv", ORNEK / "verilenler.csv", cikti, BUGUN)
-            self.assertEqual((len(r["satirlar"]), r["ozet"]["Gecikti"], r["ozet"]["Bugün"], r["ozet"]["Planlı"], r["ozet"]["Verildi"] + r["ozet"]["Geç verildi"]), (51, 1, 1, 22, 27))
+            self.assertEqual((len(r["satirlar"]), r["ozet"]["Gecikti"], r["ozet"]["Bugün"], r["ozet"]["Planlı"], r["ozet"]["Verildi"] + r["ozet"]["Geç verildi"]), (48, 1, 1, 21, 25))
             self.assertEqual([u["tur"] for u in r["uyarilar"] if u["onem"] == "Yüksek"], ["Son tarih geçti", "Yükümlülük tanınmadı"])
             self.assertEqual(load_workbook(cikti).sheetnames, ["Vergi Takvimi", "Uyarılar"])
 

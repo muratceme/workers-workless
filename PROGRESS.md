@@ -761,3 +761,15 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
   - Gizlilik: ortak maskeleme yalnız telefon / e-posta / TCKN / IBAN / LinkedIn. Serbest metindeki kişi adları (hasar-ihbari, hasta-sikayet hekim adı, firma-istihbarat eski yönetici), adres ve doğum tarihi modele gidiyor; banka agent'larında ortak / kefil adı için --gizle gerekiyor.
   - Küçük: ariza-kaydi müdahalesiz kayıtta müdahale alanı boş olamıyor; urun-sorusu kargo politikası "yarın elimde olur mu" sorusunda getirilmiyor; planogram örnek görselinde Türkçe harfler kutu çıkıyor.
 - Yasal varsayımların web teyidi: SGK giriş "işe başlamadan önce", çıkış 10 gün (5510 md. 8 ve 9); azalan bakiyeler normal oranın 2 katı, en çok %50; kısmi ödemede faiz ve giderler temerrütte ise önce onlara mahsup (TBK 100, Yargıtay 3. HD 2020/3605); 7566 sayılı Kanun ile 4. geçici vergi dönemi geri geldi. README'lerdeki "teyit edilmedi" notları henüz güncellenmedi.
+
+## Katalog, yardım noktaları, mevzuat kontrolü ve README'ler (2026-10-15)
+- Katalog: 48 yeni rol, otel-teknik departmanı ve sektörlere ortak departmanlar eklendi. Toplam 16 sektör, 95 departman, 226 rol; tek rollü departman kalmadı (0a6f275).
+- Site: "Yardım al" noktaları (gezgin şeridi, yakında kartları, paket penceresi, arama boş sonucu), "Neden bu site" amaç bölümü (0a6f275). İndirme onayına iki madde eklendi: danışmanlık değildir / mevzuat eskiyebilir; agent'larda yapay zekâ hatası ve maskeleme sınırı.
+- Resmî metin kontrolü (mevzuat.gov.tr PDF'leri): İİK, 4857, 1475, TTK, TBK, HMK, VUK, GVK, KDVK, KVKK, 2429, 6331, 5411, 5549 maddeleri paketlerle karşılaştırıldı. Düzeltilen hatalar (testli):
+  - vergi-takvimi-takibi ve mukellef-beyanname-takvimi: Ba-Bs Eylül 2024'ten itibaren kaldırıldı (565 Sıra No'lu VUK GT); vergi-takvimi'nde 2025'ten itibaren 4. geçici vergi dönemi (7566).
+  - dava-ve-durusma-takvimi ve durusma-ve-kesin-sure-takvimi: HMK 361 temyiz süresi 1 ay → 2 hafta.
+  - resmi-yazi-haciz-muzekkere-takibi: İİK 89/2 süresi 15 → 7 gün, 89/3 için 15 gün eklendi; 89/1 listedeyse 89/3 tutarı tekrar sayılmıyor; tatil dayanağı 2912 → 2429.
+  - icra-takip-durum-raporu: rehinli takipte itiraz dayanağı İİK 149 → 147 / 150 (süre 7 gün doğruydu).
+- README'ler: 432 pakete standart "Sorumluluk" bölümü (agent'larda yapay zekâ hatası, maskeleme sınırı, API ücreti); mevzuata dayanan 100 pakete "Kaynaklar ve dayanaklar" tablosu (resmî link, ikincil kaynak, karşılaştırılan maddeler, kontrol tarihi). Teyit edilemeyenler: KDV beyanının ayın 28'i oluşu (aramayla doğrulanmadı), yıllara yaygın inşaatta %5 stopaj. Betik: scratchpad/readme_guncelle.py (tekrar çalıştırılabilir).
+- SORUMLULUK_REDDI.md ve ana README güncellendi (ana README'deki eski 2 paketlik tablo yerine güncel sayılar).
+- Açık: CONFIG.contact için e-posta / LinkedIn bilgisi bekleniyor.

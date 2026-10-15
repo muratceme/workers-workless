@@ -47,7 +47,7 @@ class OrnekVeriTesti(unittest.TestCase):
         self.assertEqual(s[("2026/1388 E.", "İtirazın iptali davası")]["son"], date(2027, 4, 6))
         self.assertEqual(s[("2026/1590 E.", "Borçlunun itiraz / şikâyet süresi")]["son"], date(2026, 10, 12))   # 10.10 Cumartesi
         self.assertEqual(s[("2026/233 E.", "Ödeme emrine itiraz süresi")]["son"], date(2026, 3, 9))            # 08.03 Pazar
-        self.assertEqual(s[("2026/610 E.", "Ödeme emrine itiraz süresi")]["dayanak"], "İİK 149")
+        self.assertEqual(s[("2026/610 E.", "Ödeme emrine itiraz süresi")]["dayanak"], "İİK 147 / 150")
         ist = self.d[("İstanbul 12. İcra Dairesi", "2026/1201 E.")].sureler
         self.assertTrue(next(x for x in ist if x["ad"] == "Haciz isteme süresi")["durum"].startswith("Haciz yapıldı"))
 

@@ -21,8 +21,9 @@ Beyanname türlerini ve günlerini **siz tanımlarsınız**; kod bu tanımı mü
 - Durum: **Verildi**, **Geç verildi**, **Gecikmiş**, **Yaklaşıyor** (`--yaklasan` gün veya daha az), **Bekliyor**.
   Ödeme günü tanımlıysa ödeme için de aynı durumlar izlenir.
 
-**Örnek:** "Form Ba-Bs; Aylık; kaç ay sonra 1; beyan günü son" → Ekim 2026 takviminde Eylül dönemi; ayın son günü
-31.10.2026 cumartesi olduğundan son gün 02.11.2026 pazartesi.
+**Örnek:** "SGK Prim Ödemesi; Aylık; kaç ay sonra 1; ödeme günü son" → Ekim 2026 takviminde Eylül dönemi; ayın son günü
+31.10.2026 cumartesi olduğundan son gün 02.11.2026 pazartesi. (Form Ba-Bs, 565 Sıra No'lu VUK Genel Tebliği ile Eylül 2024
+döneminden itibaren kaldırıldığı için örnekten çıkarıldı.)
 
 ## Kurulum
 
@@ -71,6 +72,31 @@ python main.py --yukumlulukler yukumlulukler.xlsx --turler beyanname_turleri.xls
 python -m unittest discover -s tests
 ```
 
----
-Bu paket "olduğu gibi" sunulur. Sonuçların doğruluğu ve kullanımı kullanıcının sorumluluğundadır. Bkz. `LICENSE` ve
-`SORUMLULUK_REDDI.md`.
+## Kaynaklar ve dayanaklar
+
+Kontrol tarihi: 15.10.2026. Mevzuat sık değişir; paketteki süre, oran ve kuralları kullanmadan önce güncel resmî metinle
+karşılaştırın. "Karşılaştırılan maddeler" dışındaki atıflar yalnız yol göstericidir.
+
+| Kaynak | Bağlantı | Durum |
+|---|---|---|
+| 213 sayılı Vergi Usul Kanunu | [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuatmetin/1.4.213.pdf) | Resmî metinle karşılaştırılan maddeler: 274, 280, 315, mükerrer 315, 320, 323 |
+| Form Ba-Bs'nin Eylül 2024 döneminden itibaren kaldırılması — 565 Sıra No'lu VUK Genel Tebliği (RG 25.09.2024 / 32673) | [Andersen](https://tr.andersen.com/tr/images/pdf/and_41-ba-bs-formlari-kaldirildi.pdf), [İSMMMO](https://ismmmo.org.tr/dosya/5020/Mevzuat-Dosya/25092024-vuk565-sn-gn-tb-babs-kaldirildi.pdf), [Alomaliye](https://www.alomaliye.com/2024/09/25/vergi-usul-kanunu-genel-tebligi-sira-no-565/amp/) | Teyit edildi (ikincil kaynaklar) |
+
+## Sorumluluk
+
+Bu paketi indiren ve çalıştıran kişi aşağıdakileri kabul etmiş sayılır:
+
+- **Tüm risk kullanıcıdadır.** Paket ücretsizdir ve "olduğu gibi" sunulur; doğruluk, eksiksizlik veya belirli bir amaca
+  uygunluk konusunda hiçbir garanti verilmez. Paketi kendi bilgisayarınızda, kendi verinizle ve kendi kararınızla
+  çalıştırırsınız. Hatalı veya eksik sonuç, kaçırılan süre, vergi / SGK cezası, veri kaybı, mali kayıp ve diğer her türlü
+  doğrudan ya da dolaylı zarardan yazarlar ve katkıda bulunanlar sorumlu tutulamaz.
+- **Sonuçları kontrol etmek sizin işinizdir.** Çıktılar karar desteği içindir. Beyan vermeden, ödeme yapmadan, sözleşme
+  imzalamadan, personel / kredi / hasar / tedavi kararı almadan önce sonuçları yetkin bir kişi kontrol etmelidir.
+- **Danışmanlık değildir.** Hukuki, mali, vergisel, tıbbi veya yatırım danışmanlığı yerine geçmez.
+- **Mevzuat değişir.** Koddaki süre, oran, eşik ve kurallar yazıldığı tarihteki bilgiye dayanır ve eskiyebilir; özel
+  durumları kapsamayabilir. Güncelliğini kontrol etmek kullanıcının sorumluluğundadır.
+- **Örnek veri kurgusaldır.** Kişi, kurum, tutar ve tarihler gerçek değildir; kendi verinizle sonuçlar farklı olur.
+- **Kişisel veri.** Verinizin KVKK, şirket politikaları ve sektör düzenlemelerine uygun işlenmesinden, saklanmasından ve
+  paylaşılmasından siz sorumlusunuz.
+
+Ayrıntılar: `LICENSE` (MIT) ve `SORUMLULUK_REDDI.md`.

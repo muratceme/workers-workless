@@ -52,5 +52,30 @@ python main.py --siparisler trendyol.xlsx --maliyetler maliyet.xlsx --kanallar k
 python -m unittest discover -s tests
 ```
 
----
-Bu paket "olduğu gibi" sunulur. Bkz. `LICENSE` ve `SORUMLULUK_REDDI.md`.
+## Kaynaklar ve dayanaklar
+
+Kontrol tarihi: 15.10.2026. Mevzuat sık değişir; paketteki süre, oran ve kuralları kullanmadan önce güncel resmî metinle
+karşılaştırın. "Karşılaştırılan maddeler" dışındaki atıflar yalnız yol göstericidir.
+
+| Kaynak | Bağlantı | Durum |
+|---|---|---|
+| E-ticaret ödemelerinde %1 stopaj — 9284 sayılı Cumhurbaşkanı Kararı (RG 22.12.2024; yürürlük 01.01.2025) | [Erdem & Erdem](https://www.erdem-erdem.av.tr/bilgi-bankasi/elektronik-ticaret-uzerinden-yapilan-odemeler-icin-stopaj-uygulamasi), [T24](https://www.t24.com.tr/index.php/yazarlar/erdogan-saglam/9-soruda-e-ticarete-getirilen-yuzde-1-stopaj-uygulamasi,48076) | Teyit edildi (ikincil kaynaklar) |
+
+## Sorumluluk
+
+Bu paketi indiren ve çalıştıran kişi aşağıdakileri kabul etmiş sayılır:
+
+- **Tüm risk kullanıcıdadır.** Paket ücretsizdir ve "olduğu gibi" sunulur; doğruluk, eksiksizlik veya belirli bir amaca
+  uygunluk konusunda hiçbir garanti verilmez. Paketi kendi bilgisayarınızda, kendi verinizle ve kendi kararınızla
+  çalıştırırsınız. Hatalı veya eksik sonuç, kaçırılan süre, vergi / SGK cezası, veri kaybı, mali kayıp ve diğer her türlü
+  doğrudan ya da dolaylı zarardan yazarlar ve katkıda bulunanlar sorumlu tutulamaz.
+- **Sonuçları kontrol etmek sizin işinizdir.** Çıktılar karar desteği içindir. Beyan vermeden, ödeme yapmadan, sözleşme
+  imzalamadan, personel / kredi / hasar / tedavi kararı almadan önce sonuçları yetkin bir kişi kontrol etmelidir.
+- **Danışmanlık değildir.** Hukuki, mali, vergisel, tıbbi veya yatırım danışmanlığı yerine geçmez.
+- **Mevzuat değişir.** Koddaki süre, oran, eşik ve kurallar yazıldığı tarihteki bilgiye dayanır ve eskiyebilir; özel
+  durumları kapsamayabilir. Güncelliğini kontrol etmek kullanıcının sorumluluğundadır.
+- **Örnek veri kurgusaldır.** Kişi, kurum, tutar ve tarihler gerçek değildir; kendi verinizle sonuçlar farklı olur.
+- **Kişisel veri.** Verinizin KVKK, şirket politikaları ve sektör düzenlemelerine uygun işlenmesinden, saklanmasından ve
+  paylaşılmasından siz sorumlusunuz.
+
+Ayrıntılar: `LICENSE` (MIT) ve `SORUMLULUK_REDDI.md`.

@@ -63,6 +63,31 @@ Kademe sütunu boşsa `--kademe` (varsayılan Lise) kullanılır. Tür boşsa ö
 python -m unittest discover -s tests
 ```
 
----
-Bu paket "olduğu gibi" sunulur. Sonuçların doğruluğu ve kullanımı kullanıcının sorumluluğundadır. Bkz. `LICENSE` ve
-`SORUMLULUK_REDDI.md`.
+## Kaynaklar ve dayanaklar
+
+Kontrol tarihi: 15.10.2026. Mevzuat sık değişir; paketteki süre, oran ve kuralları kullanmadan önce güncel resmî metinle
+karşılaştırın. "Karşılaştırılan maddeler" dışındaki atıflar yalnız yol göstericidir.
+
+| Kaynak | Bağlantı | Durum |
+|---|---|---|
+| 6698 sayılı Kişisel Verilerin Korunması Kanunu | [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf) | Resmî metinle karşılaştırılan maddeler: 13 |
+| Ortaöğretim Kurumları Yönetmeliği md. 36 (özürsüz 10, toplam 30 gün; birinci derece yakın kaybında 40 gün) | [MEB](https://www.meb.gov.tr/ortaogretim-kurumlari-yonetmeliginde-yapilan-degisiklik-resmi-gazetede-yayimlandi/haber/30815/tr), [Kadim Hukuk](https://kadimhukuk.com.tr/makale/ogrenci-devamsizlik-sureleri/) | Teyit edildi (MEB ve ikincil kaynak) |
+
+## Sorumluluk
+
+Bu paketi indiren ve çalıştıran kişi aşağıdakileri kabul etmiş sayılır:
+
+- **Tüm risk kullanıcıdadır.** Paket ücretsizdir ve "olduğu gibi" sunulur; doğruluk, eksiksizlik veya belirli bir amaca
+  uygunluk konusunda hiçbir garanti verilmez. Paketi kendi bilgisayarınızda, kendi verinizle ve kendi kararınızla
+  çalıştırırsınız. Hatalı veya eksik sonuç, kaçırılan süre, vergi / SGK cezası, veri kaybı, mali kayıp ve diğer her türlü
+  doğrudan ya da dolaylı zarardan yazarlar ve katkıda bulunanlar sorumlu tutulamaz.
+- **Sonuçları kontrol etmek sizin işinizdir.** Çıktılar karar desteği içindir. Beyan vermeden, ödeme yapmadan, sözleşme
+  imzalamadan, personel / kredi / hasar / tedavi kararı almadan önce sonuçları yetkin bir kişi kontrol etmelidir.
+- **Danışmanlık değildir.** Hukuki, mali, vergisel, tıbbi veya yatırım danışmanlığı yerine geçmez.
+- **Mevzuat değişir.** Koddaki süre, oran, eşik ve kurallar yazıldığı tarihteki bilgiye dayanır ve eskiyebilir; özel
+  durumları kapsamayabilir. Güncelliğini kontrol etmek kullanıcının sorumluluğundadır.
+- **Örnek veri kurgusaldır.** Kişi, kurum, tutar ve tarihler gerçek değildir; kendi verinizle sonuçlar farklı olur.
+- **Kişisel veri.** Verinizin KVKK, şirket politikaları ve sektör düzenlemelerine uygun işlenmesinden, saklanmasından ve
+  paylaşılmasından siz sorumlusunuz.
+
+Ayrıntılar: `LICENSE` (MIT) ve `SORUMLULUK_REDDI.md`.

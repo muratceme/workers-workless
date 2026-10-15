@@ -25,7 +25,7 @@ tek oranla yapılan hesap yaklaşıktır. Kesin dosya hesabı icra dairesinden a
 | Süre | Başlangıç | Süre | Dayanak |
 |---|---|---|---|
 | Ödeme emrine itiraz (ilamsız) | Ödeme emri tebliği | 7 gün | İİK 62 |
-| Ödeme emrine itiraz (rehin) | Ödeme emri tebliği | 7 gün | İİK 149 |
+| Ödeme emrine itiraz (rehnin paraya çevrilmesi) | Ödeme emri tebliği | 7 gün | İİK 146–147 (taşınır), 149/b–150 (taşınmaz) |
 | İtiraz / şikâyet (kambiyo) | Ödeme emri tebliği | 5 gün | İİK 168 |
 | Ödeme süresi (kambiyo; bitmeden haciz istenemez) | Ödeme emri tebliği | 10 gün | İİK 168 |
 | İcra emri: ödeme / itiraz (ilamlı) | İcra emri tebliği | 7 gün | İİK 32–33 |
@@ -96,13 +96,38 @@ Aynı esas numarası birden çok icra dairesinde varsa hareketlerde Dosya No'ya 
 Şunlar test edilir:
 - Bir dosyanın faiz ve mahsup adımları elle hesaplanmış değerlerle.
 - Fazla tahsilat ve kapanmış borç.
-- İİK 62 / 67 / 68 / 78 / 149 / 168 süreleri ve hafta sonu kayması.
+- İİK 62 / 67 / 68 / 78 / 147 / 150 / 168 süreleri ve hafta sonu kayması.
 - Uyarılar (borçlu lehine sürelerin ve kapalı dosyanın uyarı üretmemesi dahil), Excel ve CLI.
 
 ```bash
 python -m unittest discover -s tests
 ```
 
----
-Bu paket "olduğu gibi" sunulur. Sonuçların doğruluğu ve kullanımı kullanıcının sorumluluğundadır. Hukuki görüş yerine
-geçmez. Bkz. `LICENSE` ve `SORUMLULUK_REDDI.md`.
+## Kaynaklar ve dayanaklar
+
+Kontrol tarihi: 15.10.2026. Mevzuat sık değişir; paketteki süre, oran ve kuralları kullanmadan önce güncel resmî metinle
+karşılaştırın. "Karşılaştırılan maddeler" dışındaki atıflar yalnız yol göstericidir.
+
+| Kaynak | Bağlantı | Durum |
+|---|---|---|
+| 2004 sayılı İcra ve İflas Kanunu | [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuatmetin/1.3.2004.pdf) | Resmî metinle karşılaştırılan maddeler: 32, 33, 62, 67, 68, 78, 89, 146, 147, 149, 149/b, 150, 168 |
+| 6098 sayılı Türk Borçlar Kanunu | [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6098.pdf) | Resmî metinle karşılaştırılan maddeler: 100, 115, 182, 315 |
+
+## Sorumluluk
+
+Bu paketi indiren ve çalıştıran kişi aşağıdakileri kabul etmiş sayılır:
+
+- **Tüm risk kullanıcıdadır.** Paket ücretsizdir ve "olduğu gibi" sunulur; doğruluk, eksiksizlik veya belirli bir amaca
+  uygunluk konusunda hiçbir garanti verilmez. Paketi kendi bilgisayarınızda, kendi verinizle ve kendi kararınızla
+  çalıştırırsınız. Hatalı veya eksik sonuç, kaçırılan süre, vergi / SGK cezası, veri kaybı, mali kayıp ve diğer her türlü
+  doğrudan ya da dolaylı zarardan yazarlar ve katkıda bulunanlar sorumlu tutulamaz.
+- **Sonuçları kontrol etmek sizin işinizdir.** Çıktılar karar desteği içindir. Beyan vermeden, ödeme yapmadan, sözleşme
+  imzalamadan, personel / kredi / hasar / tedavi kararı almadan önce sonuçları yetkin bir kişi kontrol etmelidir.
+- **Danışmanlık değildir.** Hukuki, mali, vergisel, tıbbi veya yatırım danışmanlığı yerine geçmez.
+- **Mevzuat değişir.** Koddaki süre, oran, eşik ve kurallar yazıldığı tarihteki bilgiye dayanır ve eskiyebilir; özel
+  durumları kapsamayabilir. Güncelliğini kontrol etmek kullanıcının sorumluluğundadır.
+- **Örnek veri kurgusaldır.** Kişi, kurum, tutar ve tarihler gerçek değildir; kendi verinizle sonuçlar farklı olur.
+- **Kişisel veri.** Verinizin KVKK, şirket politikaları ve sektör düzenlemelerine uygun işlenmesinden, saklanmasından ve
+  paylaşılmasından siz sorumlusunuz.
+
+Ayrıntılar: `LICENSE` (MIT) ve `SORUMLULUK_REDDI.md`.

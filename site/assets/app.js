@@ -368,9 +368,11 @@
       "Yazılımın ücretsiz ve <b>“olduğu gibi”</b> sunulduğunu, doğruluğu veya amaca uygunluğu konusunda hiçbir garanti verilmediğini kabul ediyorum.",
       "Yazılımı <b>kendi bilgisayarımda, kendi verimle ve kendi riskimle</b> çalıştıracağımı; kullanımından doğabilecek veri kaybı, hatalı sonuç, mali kayıp veya başka herhangi bir zarardan yazarların sorumlu tutulamayacağını kabul ediyorum.",
       "Çıktıların karar desteği olduğunu ve bunlara dayanarak işlem yapmadan önce <b>kontrol edeceğimi</b> kabul ediyorum.",
+      "Paketin <b>hukuki, mali, vergisel, tıbbi veya yatırım danışmanlığı olmadığını</b>; koddaki süre, oran ve kuralların eskiyebileceğini ve güncelliğini kontrol etmenin bana ait olduğunu kabul ediyorum.",
     ],
     agents: [
       "Agent'ın <b>kendi API anahtarımla</b> üçüncü taraf bir yapay zekâ sağlayıcısına veri göndereceğini; <b>API ücretlerinin</b>, anahtarın güvenliğinin ve gönderilen verinin <b>KVKK/GDPR</b> ile şirket politikalarına uygunluğunun tamamen benim sorumluluğumda olduğunu kabul ediyorum.",
+      "Yapay zekânın <b>yanlış veya uydurma</b> içerik üretebileceğini; maskelemenin yalnız telefon, e-posta, TCKN, IBAN ve LinkedIn adresini kapsadığını, <b>ad, adres gibi diğer kişisel verilerin modele gidebileceğini</b> kabul ediyorum.",
     ],
   };
   let pending = null;

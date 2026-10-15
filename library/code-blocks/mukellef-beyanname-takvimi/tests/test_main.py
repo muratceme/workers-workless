@@ -17,7 +17,7 @@ def tur(ad, aylar, sonra, beyan, odeme=None):
 
 
 TUM, CEYREK = range(1, 13), (3, 6, 9, 12)
-TURLER = {"kdv": tur("KDV", TUM, 1, 28, 28), "muh": tur("Muhtasar", TUM, 1, 26, 26), "gv": tur("Geçici", CEYREK, 2, 17, 17), "babs": tur("Ba-Bs", TUM, 1, "son"), "kv": tur("Kurumlar", (12,), 4, 30, 30)}
+TURLER = {"kdv": tur("KDV", TUM, 1, 28, 28), "muh": tur("Muhtasar", TUM, 1, 26, 26), "gv": tur("Geçici", CEYREK, 2, 17, 17), "sgk": tur("SGK prim", TUM, 1, "son"), "kv": tur("Kurumlar", (12,), 4, 30, 30)}
 yk = lambda m, t: {"mukellef": m, "tur": t, "sorumlu": ""}   # noqa: E731
 YUK = [yk("A", t) for t in TURLER] + [yk("B", "kdv"), yk("B", "muh")]
 
@@ -28,17 +28,17 @@ class TakvimTesti(unittest.TestCase):
         self.assertEqual([(x["mukellef"], x["beyanname"], x["donem"], x["beyan"], x["odeme"], x["kalan"], x["durum"], x["odeme_durum"]) for x in r["satirlar"]],
                          [("A", "Muhtasar", "Eylül 2026", B, B, 0, "Yaklaşıyor", "Yaklaşıyor"), ("B", "Muhtasar", "Eylül 2026", B, B, 0, "Yaklaşıyor", "Yaklaşıyor"),
                           ("A", "KDV", "Eylül 2026", date(2026, 10, 28), date(2026, 10, 28), 2, "Yaklaşıyor", "Yaklaşıyor"), ("B", "KDV", "Eylül 2026", date(2026, 10, 28), date(2026, 10, 28), 2, "Yaklaşıyor", "Yaklaşıyor"),
-                          ("A", "Ba-Bs", "Eylül 2026", date(2026, 11, 2), None, 7, "Bekliyor", "")])                    # 31.10.2026 cumartesi → pazartesi
-        self.assertEqual([(o["tarih"].day, o["gun"], o["beyanname"], o["mukellef"], o["verilen"], o["kalan"]) for o in r["ozet"]], [(26, "Pzt", "Muhtasar", 2, 0, 2), (28, "Çar", "KDV", 2, 0, 2), (2, "Pzt", "Ba-Bs", 1, 0, 1)])
+                          ("A", "SGK prim", "Eylül 2026", date(2026, 11, 2), None, 7, "Bekliyor", "")])                    # 31.10.2026 cumartesi → pazartesi
+        self.assertEqual([(o["tarih"].day, o["gun"], o["beyanname"], o["mukellef"], o["verilen"], o["kalan"]) for o in r["ozet"]], [(26, "Pzt", "Muhtasar", 2, 0, 2), (28, "Çar", "KDV", 2, 0, 2), (2, "Pzt", "SGK prim", 1, 0, 1)])
         r = main.takvim(TURLER, YUK, (2026, 11), B)
         self.assertEqual([(x["beyanname"], x["donem"], x["beyan"]) for x in r["satirlar"] if x["mukellef"] == "A"],
-                         [("Geçici", "2026 Eylül dönemi", date(2026, 11, 17)), ("Muhtasar", "Ekim 2026", date(2026, 11, 26)), ("Ba-Bs", "Ekim 2026", date(2026, 11, 30)), ("KDV", "Ekim 2026", date(2026, 11, 30))])   # 28.11 cumartesi
+                         [("Geçici", "2026 Eylül dönemi", date(2026, 11, 17)), ("Muhtasar", "Ekim 2026", date(2026, 11, 26)), ("KDV", "Ekim 2026", date(2026, 11, 30)), ("SGK prim", "Ekim 2026", date(2026, 11, 30))])   # 28.11 cumartesi
         r = main.takvim(TURLER, YUK, (2027, 4), B)
         self.assertEqual([(x["beyanname"], x["donem"], x["beyan"]) for x in r["satirlar"] if x["beyanname"] in ("Kurumlar", "KDV") and x["mukellef"] == "A"],
                          [("KDV", "Mart 2027", date(2027, 4, 28)), ("Kurumlar", "2026", date(2027, 4, 30))])
         r = main.takvim(TURLER, YUK, (2027, 2), B)
         self.assertEqual([(x["beyanname"], x["donem"], x["beyan"]) for x in r["satirlar"] if x["mukellef"] == "A"],
-                         [("Geçici", "2026 Aralık dönemi", date(2027, 2, 17)), ("Muhtasar", "Ocak 2027", date(2027, 2, 26)), ("Ba-Bs", "Ocak 2027", date(2027, 3, 1)), ("KDV", "Ocak 2027", date(2027, 3, 1))])   # 28.02.2027 pazar
+                         [("Geçici", "2026 Aralık dönemi", date(2027, 2, 17)), ("Muhtasar", "Ocak 2027", date(2027, 2, 26)), ("KDV", "Ocak 2027", date(2027, 3, 1)), ("SGK prim", "Ocak 2027", date(2027, 3, 1))])   # 28.02.2027 pazar
 
     def test_durum_tatil_ve_uyarilar(self):
         durum = {("a", "kdv", (2026, 9)): {"verildi": date(2026, 10, 24), "odendi": None}, ("a", "muh", (2026, 9)): {"verildi": date(2026, 10, 27), "odendi": date(2026, 10, 26)},
@@ -46,8 +46,8 @@ class TakvimTesti(unittest.TestCase):
         r = main.takvim(TURLER, YUK, (2026, 10), date(2026, 10, 29), durum, {date(2026, 10, 28), date(2026, 10, 29)}, yaklasan=5)
         d = {(x["mukellef"], x["beyanname"]): (x["beyan"].day, x["durum"], x["odeme_durum"]) for x in r["satirlar"]}
         self.assertEqual(d, {("A", "Muhtasar"): (26, "Geç verildi", "Ödendi"), ("B", "Muhtasar"): (26, "Gecikmiş", "Gecikmiş"), ("A", "KDV"): (30, "Verildi", "Yaklaşıyor"), ("B", "KDV"): (30, "Yaklaşıyor", "Yaklaşıyor"),
-                             ("A", "Ba-Bs"): (2, "Yaklaşıyor", "")})
-        self.assertEqual(sorted((u["tur"], u["kim"]) for u in r["uyarilar"]), [("Beyanname gecikmiş", "B · Muhtasar"), ("Beyanname yaklaşıyor", "A · Ba-Bs"), ("Beyanname yaklaşıyor", "B · KDV"), ("Ödeme gecikmiş", "B · Muhtasar")])
+                             ("A", "SGK prim"): (2, "Yaklaşıyor", "")})
+        self.assertEqual(sorted((u["tur"], u["kim"]) for u in r["uyarilar"]), [("Beyanname gecikmiş", "B · Muhtasar"), ("Beyanname yaklaşıyor", "A · SGK prim"), ("Beyanname yaklaşıyor", "B · KDV"), ("Ödeme gecikmiş", "B · Muhtasar")])
         self.assertEqual(r["say"], {"Geç verildi": 1, "Gecikmiş": 1, "Verildi": 1, "Yaklaşıyor": 2})
         for yukler, ay in (([], (2026, 10)), ([yk("A", "gv")], (2026, 10))):
             with self.assertRaises(ValueError):
@@ -65,7 +65,7 @@ class DosyaTesti(unittest.TestCase):
             cikti = Path(tmp) / "b.xlsx"
             r = main.calistir(ORNEK / "beyanname_turleri.csv", ORNEK / "yukumlulukler.csv", cikti, (2026, 10), B, ORNEK / "durum.csv", ORNEK / "tatiller.csv")
             self.assertEqual([(o["tarih"], o["beyanname"], o["mukellef"], o["verilen"], o["kalan"]) for o in r["ozet"]],
-                             [(B, "Muhtasar ve Prim Hizmet Beyannamesi", 2, 1, 1), (date(2026, 10, 28), "KDV Beyannamesi", 3, 1, 2), (date(2026, 11, 2), "Form Ba-Bs", 1, 0, 1)])
+                             [(B, "Muhtasar ve Prim Hizmet Beyannamesi", 2, 1, 1), (date(2026, 10, 28), "KDV Beyannamesi", 3, 1, 2), (date(2026, 11, 2), "SGK Prim Ödemesi", 1, 0, 1)])
             self.assertEqual((r["say"], [(u["onem"], u["tur"]) for u in r["uyarilar"]]), ({"Verildi": 2, "Yaklaşıyor": 3, "Bekliyor": 1}, [("Yüksek", "Tanımsız beyanname türü")] + [("Orta", "Beyanname yaklaşıyor")] * 3))
             x = [s for s in r["satirlar"] if s["mukellef"].startswith("Örnek") and s["beyanname"] == "KDV Beyannamesi"][0]
             self.assertEqual((x["durum"], x["odeme_durum"], x["verildi"]), ("Verildi", "Yaklaşıyor", date(2026, 10, 24)))

@@ -31,7 +31,8 @@ class OrnekTesti(unittest.TestCase):
     def test_son_gunler(self):
         self.assertEqual(self.y["0102"].son_gun, date(2026, 10, 2))       # 25.09 + 7 gün
         self.assertEqual(self.y["0103"].son_gun, date(2026, 10, 5))       # 26.09 + 7 = 03.10 Cumartesi → Pazartesi
-        self.assertEqual(self.y["0105"].son_gun, date(2026, 10, 19))      # 02.10 + 15 = 17.10 Cumartesi → 19.10
+        self.assertEqual(self.y["0105"].son_gun, date(2026, 10, 9))       # İİK 89/2: 02.10 + 7 gün
+        self.assertEqual(self.y["0108"].son_gun, date(2026, 10, 20))      # İİK 89/3: 05.10 + 15 gün
         self.assertEqual(self.y["0107"].son_gun, date(2026, 10, 12))      # yazıda 7 gün
         self.assertEqual(self.y["0112"].son_gun, date(2026, 10, 8))       # fekk: 1 iş günü
         self.assertIsNone(self.y["0109"].son_gun)
@@ -57,6 +58,7 @@ class OrnekTesti(unittest.TestCase):
         m = {x["musteri"]: x for x in self.s["ozet"]}
         self.assertEqual((m["M200"]["acik"], m["M200"]["haciz_tutar"]), (3, D("1590000.00")))   # 89/2 tekrar sayılmaz
         self.assertEqual(m["M300"]["haciz_tutar"], D("27300.00"))                              # mükerrer sayılmaz
+        self.assertEqual(m["M700"]["haciz_tutar"], D("65000.00"))                              # 89/1 listede yoksa 89/3 sayılır
         self.assertEqual(self.s["ozet"][0]["musteri"], "M200")
 
     def test_excel(self):

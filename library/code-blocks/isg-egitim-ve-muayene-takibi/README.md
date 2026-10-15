@@ -118,6 +118,32 @@ Ayrılmış çalışanlar (işten çıkış tarihi rapor tarihinden önce) takib
 python -m unittest discover -s tests
 ```
 
----
-Bu paket "olduğu gibi" sunulur. Sonuçların doğruluğu ve kullanımı kullanıcının sorumluluğundadır. İSG profesyonelinin
-değerlendirmesi yerine geçmez. Bkz. `LICENSE` ve `SORUMLULUK_REDDI.md`.
+## Kaynaklar ve dayanaklar
+
+Kontrol tarihi: 15.10.2026. Mevzuat sık değişir; paketteki süre, oran ve kuralları kullanmadan önce güncel resmî metinle
+karşılaştırın. "Karşılaştırılan maddeler" dışındaki atıflar yalnız yol göstericidir.
+
+| Kaynak | Bağlantı | Durum |
+|---|---|---|
+| 6698 sayılı Kişisel Verilerin Korunması Kanunu | [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf) | Resmî metinle karşılaştırılan maddeler: 13 |
+| 6331 sayılı İş Sağlığı ve Güvenliği Kanunu | [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6331.pdf) | Resmî metinle karşılaştırılan maddeler: 15 |
+| Çalışanların İş Sağlığı ve Güvenliği Eğitimlerinin Usul ve Esasları Hakkında Yönetmelik (RG 02.04.2026 / 33212) | [Alomaliye](https://www.alomaliye.com/2026/04/02/calisanlarin-is-sagligi-ve-guvenligi-egitimlerinin-usul-ve-esaslari-2026/amp/), [Cott](https://cottgroup.com/tr/mevzuat/item/yeni-isg-egitim-yonetmeligi-yayimlandi-is-yerlerini-bekleyen-kritik-yenilikler) | Teyit edildi (ikincil kaynaklar) |
+
+## Sorumluluk
+
+Bu paketi indiren ve çalıştıran kişi aşağıdakileri kabul etmiş sayılır:
+
+- **Tüm risk kullanıcıdadır.** Paket ücretsizdir ve "olduğu gibi" sunulur; doğruluk, eksiksizlik veya belirli bir amaca
+  uygunluk konusunda hiçbir garanti verilmez. Paketi kendi bilgisayarınızda, kendi verinizle ve kendi kararınızla
+  çalıştırırsınız. Hatalı veya eksik sonuç, kaçırılan süre, vergi / SGK cezası, veri kaybı, mali kayıp ve diğer her türlü
+  doğrudan ya da dolaylı zarardan yazarlar ve katkıda bulunanlar sorumlu tutulamaz.
+- **Sonuçları kontrol etmek sizin işinizdir.** Çıktılar karar desteği içindir. Beyan vermeden, ödeme yapmadan, sözleşme
+  imzalamadan, personel / kredi / hasar / tedavi kararı almadan önce sonuçları yetkin bir kişi kontrol etmelidir.
+- **Danışmanlık değildir.** Hukuki, mali, vergisel, tıbbi veya yatırım danışmanlığı yerine geçmez.
+- **Mevzuat değişir.** Koddaki süre, oran, eşik ve kurallar yazıldığı tarihteki bilgiye dayanır ve eskiyebilir; özel
+  durumları kapsamayabilir. Güncelliğini kontrol etmek kullanıcının sorumluluğundadır.
+- **Örnek veri kurgusaldır.** Kişi, kurum, tutar ve tarihler gerçek değildir; kendi verinizle sonuçlar farklı olur.
+- **Kişisel veri.** Verinizin KVKK, şirket politikaları ve sektör düzenlemelerine uygun işlenmesinden, saklanmasından ve
+  paylaşılmasından siz sorumlusunuz.
+
+Ayrıntılar: `LICENSE` (MIT) ve `SORUMLULUK_REDDI.md`.

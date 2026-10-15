@@ -50,6 +50,14 @@ class OrnekVeriTesti(unittest.TestCase):
     def tearDownClass(cls):
         cls.tmp.cleanup()
 
+    def test_kanuni_sure_tablosu(self):
+        # HMK resmî metni (mevzuat.gov.tr): cevap 127, cevaba cevap 136, bilirkişi 281, istinaf 345, istinafa cevap 347 ve
+        # temyiz 361 süreleri iki haftadır; İYUK 16 / 45 / 46 otuz gündür.
+        t = {(u, o): s for u, o, s, _ in main.SURE_TABLOSU}
+        self.assertEqual(t[("HMK", "temyiz")], "2 hafta")
+        self.assertTrue(all(s == "2 hafta" for (u, _), s in t.items() if u == "HMK"))
+        self.assertTrue(all(s == "30 gün" for (u, _), s in t.items() if u == "IYUK"))
+
     def test_sureler(self):
         self.assertEqual(self.su[("2026/2210 E.", "Savunmaya cevap")].dayanak, "İYUK 16")
         self.assertEqual(self.su[("2026/1902 E.", "İstinaf başvurusu")].son, date(2026, 11, 4))          # İYUK 45: 30 gün

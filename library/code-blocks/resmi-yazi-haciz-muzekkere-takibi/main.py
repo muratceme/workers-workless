@@ -5,7 +5,7 @@ Bankacılık › Şube Bankacılığı › Operasyon Yetkilisi
 İcra dairesi, vergi dairesi, SGK, mahkeme ve savcılıktan gelen haciz ihbarnamesi, haciz bildirisi, haciz
 kaldırma ve bilgi talebi yazılarını cevap süresiyle takip eder:
   - Yazı türü metinden tanınır (İİK 89/1, 89/2, 89/3, 6183 haciz bildirisi, haciz kaldırma, bilgi talebi, tedbir).
-  - Son cevap günü: yazıda süre yazıyorsa o, yoksa yasal süre (İİK 89/1: 7 gün, 89/2: 15 gün; tebliğden itibaren
+  - Son cevap günü: yazıda süre yazıyorsa o, yoksa yasal süre (İİK 89/1 ve 89/2: 7 gün, 89/3: 15 gün; tebliğden itibaren
     takvim günü). Son gün hafta sonuna veya resmî tatile denk gelirse izleyen ilk iş günü. Haciz kaldırma için
     iç hedef (--fekk-gun iş günü). Süresi bilinmeyen yazılar "Süre girilmeli" olarak işaretlenir.
   - Durum: süresi geçti, bugün son gün, yaklaşan (--uyari-gun), süresi var, cevaplandı / geç cevaplandı.
@@ -40,10 +40,10 @@ _TR = str.maketrans("çğıöşüâîûÇĞİÖŞÜÂÎÛ", "cgiosuaiuCGIOSUAIU"
 
 # (tür, anahtar ifadeler — katlanmış metinde, yasal süre (takvim günü) veya None, dayanak/açıklama)
 TURLER = [
-    ("İİK 89/3 haciz ihbarnamesi", ("89/3", "ucuncu haciz ihbar", "3. haciz ihbar"), None,
-     "Üçüncü ihbarname: zimmet/sorumluluk riski. Hukuk birimine iletin; süre yazıdan girilmeli."),
-    ("İİK 89/2 haciz ihbarnamesi", ("89/2", "ikinci haciz ihbar", "2. haciz ihbar"), 15,
-     "İİK 89/2: tebliğden itibaren 15 gün içinde menfi tespit davası açılabilir."),
+    ("İİK 89/3 haciz ihbarnamesi", ("89/3", "ucuncu haciz ihbar", "3. haciz ihbar"), 15,
+     "İİK 89/3: tebliğden itibaren 15 gün içinde ödeme/teslim ya da menfi tespit davası; aksi hâlde cebri icra."),
+    ("İİK 89/2 haciz ihbarnamesi", ("89/2", "ikinci haciz ihbar", "2. haciz ihbar"), 7,
+     "İİK 89/2: tebliğden itibaren 7 gün içinde itiraz; itiraz edilmezse ödeme/teslim istenir."),
     ("İİK 89/1 haciz ihbarnamesi", ("89/1", "birinci haciz ihbar", "1. haciz ihbar", "haciz ihbarname"), 7,
      "İİK 89/1: tebliğden itibaren 7 gün içinde itiraz/beyan."),
     ("Haciz kaldırma", ("kaldir", "fekk"), None, "İç hedef: --fekk-gun iş günü içinde işlenmeli."),
@@ -53,7 +53,7 @@ TURLER = [
 ]
 HACIZ_TURLERI = {"İİK 89/1 haciz ihbarnamesi", "İİK 89/2 haciz ihbarnamesi", "İİK 89/3 haciz ihbarnamesi", "6183 haciz bildirisi"}
 
-# Genel tatiller (2912 sayılı Kanun) ve dini bayramlar (Diyanet takvimi; her yıl --tatiller ile kontrol edin)
+# Genel tatiller (2429 sayılı Kanun; 28 Ekim ve arife yarım günleri iş günü sayılır) ve dini bayramlar (Diyanet takvimi; her yıl --tatiller ile kontrol edin)
 SABIT_TATILLER = {(1, 1), (4, 23), (5, 1), (5, 19), (7, 15), (8, 30), (10, 29)}
 DINI_BAYRAMLAR = {2025: [(date(2025, 3, 30), 3), (date(2025, 6, 6), 4)], 2026: [(date(2026, 3, 20), 3), (date(2026, 5, 27), 4)],
                   2027: [(date(2027, 3, 9), 3), (date(2027, 5, 16), 4)]}
@@ -305,7 +305,7 @@ def degerlendir(yazilar: list[Yazi], bugun: date, tatiller: set[date], uyari_gun
                     y.notlar.append(("Bilgi", "Bu dosyanın 89/1 kaydı listede yok"))
                 elif all(b.cevap is None or (b.son_gun and b.cevap > b.son_gun) for b in birinci):
                     y.notlar.append(("Kritik", f"89/1 ihbarnamesi ({birinci[0].no}) süresinde cevaplanmamış görünüyor; 89/2 geldi — "
-                                               "menfi tespit süresi için hukuk birimine iletin"))
+                                               "89/2'ye 7 gün içinde itiraz edilmezse borç zimmette sayılır; hukuk birimine iletin"))
         if any(y.tur == "Haciz kaldırma" for y in ys):
             for y in ys:
                 if y.tur in HACIZ_TURLERI and y.cevap is None:
@@ -321,6 +321,7 @@ def degerlendir(yazilar: list[Yazi], bugun: date, tatiller: set[date], uyari_gun
 
 def musteri_ozeti(yazilar: list[Yazi]) -> list[dict]:
     m = defaultdict(lambda: {"ad": "", "kimlik": "", "yazi": 0, "acik": 0, "haciz_tutar": Decimal(0), "kurumlar": set(), "en_yakin": None})
+    ilk = {(katla(y.dosya), y.kimlik or katla(y.ad)) for y in yazilar if y.dosya and y.tur == "İİK 89/1 haciz ihbarnamesi"}
     for y in yazilar:
         x = m[y.musteri or y.kimlik or y.ad]
         x["ad"], x["kimlik"] = y.ad, y.kimlik
@@ -330,8 +331,9 @@ def musteri_ozeti(yazilar: list[Yazi]) -> list[dict]:
             x["acik"] += 1
             if y.son_gun and (x["en_yakin"] is None or y.son_gun < x["en_yakin"]):
                 x["en_yakin"] = y.son_gun
-        if y.tur in HACIZ_TURLERI and y.tutar and not any("Mükerrer" in n[1] for n in y.notlar) and y.tur != "İİK 89/2 haciz ihbarnamesi":
-            x["haciz_tutar"] += y.tutar                       # 89/2 aynı alacak için tekrar sayılmaz
+        tekrar = y.tur in ("İİK 89/2 haciz ihbarnamesi", "İİK 89/3 haciz ihbarnamesi") and (katla(y.dosya), y.kimlik or katla(y.ad)) in ilk
+        if y.tur in HACIZ_TURLERI and y.tutar and not any("Mükerrer" in n[1] for n in y.notlar) and not tekrar:
+            x["haciz_tutar"] += y.tutar                       # 89/2 ve 89/3, 89/1'i listedeyse aynı alacak için tekrar sayılmaz
     return sorted(({"musteri": k, **v} for k, v in m.items()), key=lambda x: (-x["acik"], -x["haciz_tutar"]))
 
 
@@ -402,7 +404,7 @@ def rapor_yaz(cikti: Path, yazilar: list[Yazi], ozet: list[dict], bugun: date) -
     t.auto_filter.ref = t.dimensions
 
     m = wb.create_sheet("Müşteri Özeti")
-    _baslik(m, ["Müşteri No", "Müşteri", "TCKN/VKN", "Yazı", "Açık", "Haciz Tutarı (89/1, 89/3, 6183)", "Kurum Sayısı", "En Yakın Son Gün"],
+    _baslik(m, ["Müşteri No", "Müşteri", "TCKN/VKN", "Yazı", "Açık", "Haciz Tutarı (89/1, 6183; 89/1 yoksa 89/2-3)", "Kurum Sayısı", "En Yakın Son Gün"],
             (11, 26, 13, 7, 7, 22, 12, 15))
     for x in ozet:
         m.append([x["musteri"], x["ad"], x["kimlik"], x["yazi"], x["acik"], float(x["haciz_tutar"]) or None, len(x["kurumlar"]), x["en_yakin"]])

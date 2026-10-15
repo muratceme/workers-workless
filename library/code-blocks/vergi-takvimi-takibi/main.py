@@ -5,8 +5,8 @@ Muhasebe › Muhasebe Müdürü
   KDV                         = dönemi izleyen ayın 28'i
   Muhtasar ve prim hizmet     = dönemi izleyen ayın 26'sı (aylık)
   Damga vergisi / konaklama   = dönemi izleyen ayın 26'sı
-  Ba-Bs formları              = dönemi izleyen ayın son günü
-  Geçici vergi                = 1–3. çeyrekleri izleyen 2. ayın 17'si (4. dönem beyannamesi 2022'den beri verilmez)
+  Ba-Bs formları              = dönemi izleyen ayın son günü; Eylül 2024 döneminden itibaren kaldırıldı (565 Sıra No'lu VUK GT)
+  Geçici vergi                = çeyreği izleyen 2. ayın 17'si; 4. dönem 2022-2024'te yoktu, 2025'ten itibaren 7566 sayılı Kanunla yeniden var
   Kurumlar vergisi            = hesap dönemini (takvim yılı) izleyen 30 Nisan
   Gelir vergisi               = izleyen yılın 31 Mart'ı (1. taksit); 2. taksit 31 Temmuz
   e-Defter berat (aylık)      = dönemi izleyen 4. ayın 10'u (gelir) / 14'ü (kurumlar); aralık: GV 10 Nisan, KV 14 Mayıs
@@ -38,6 +38,7 @@ BASLIK_DOLGU, BASLIK_YAZI = PatternFill("solid", fgColor="1D1D1F"), Font(bold=Tr
 RENK = {"Yüksek": "FDE2E1", "Orta": "FFF4CE", "Bilgi": "E8F0FE"}
 KIRMIZI, SARI, MAVI, YESIL = "FDE2E1", "FFF4CE", "E8F0FE", "E3F4E1"
 UST = Alignment(vertical="top", wrap_text=True)
+BABS_SON = (2024, 9)  # 565 Sıra No'lu VUK Genel Tebliği: Eylül 2024 döneminden itibaren Form Ba / Bs verilmez
 PF, TF = "#,##0.00", "DD.MM.YYYY"
 KURUS = Decimal("0.01")
 
@@ -221,11 +222,14 @@ def donemler(yuk: str, vt: str, yil: int) -> list[tuple[str, date, str]]:
     l = []
     if yuk in ("KDV", "Muhtasar ve prim hizmet", "Damga vergisi", "Konaklama vergisi", "Ba-Bs"):
         for a in range(1, 13):
+            if yuk == "Ba-Bs" and (yil, a) >= BABS_SON:
+                break  # Form Ba / Bs Eylül 2024 döneminden itibaren verilmez
             y2, a2 = _ay(yil, a, 1)
             g = _ay_sonu(y2, a2) if yuk == "Ba-Bs" else date(y2, a2, 28 if yuk == "KDV" else 26)
             l.append((f"{yil}/{a:02d}", g, "Beyan ve ödeme" if yuk != "Ba-Bs" else "Form Ba / Bs"))
     elif yuk == "Geçici vergi":
-        for c in (1, 2, 3):
+        # 4. dönem 7338 sayılı Kanunla 2022-2024 dönemlerinde kaldırılmıştı; 7566 sayılı Kanunla 2025'ten itibaren yeniden var
+        for c in ((1, 2, 3, 4) if yil >= 2025 or yil < 2022 else (1, 2, 3)):
             y2, a2 = _ay(yil, c * 3, 2)
             l.append((f"{yil}/{c}. dönem", date(y2, a2, 17), "Beyan ve ödeme"))
     elif yuk == "Kurumlar vergisi":
@@ -262,6 +266,8 @@ def yuk_oku(yol: Path) -> tuple[list[dict], list[dict]]:
             continue
         if (katla(s), y) in gorulen:
             continue
+        if y == "Ba-Bs" and not any(u["tur"] == "Ba-Bs kaldırıldı" for u in uy):
+            uy.append(uyari("Bilgi", "Ba-Bs kaldırıldı", s, "Form Ba / Bs, 565 Sıra No'lu VUK Genel Tebliği ile Eylül 2024 döneminden itibaren kaldırıldı; yalnız Ağustos 2024 ve öncesi dönemler listelenir."))
         gorulen.add((katla(s), y))
         l.append({"sirket": s, "yuk": y, "vt": vt, "sorumlu": metin(r["sorumlu"])})
     return l, uy

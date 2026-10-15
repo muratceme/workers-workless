@@ -7,7 +7,7 @@ Hukuk › Avukat
     gün/365) işletilir; masraflar eklenir; her tahsilat önce masrafa, sonra faize, sonra asıl alacağa mahsup edilir
     (kısmi ödemenin önce faiz ve giderlere sayılması, TBK 100). Vekâlet ücreti ve harçlar hesaplanmaz.
   - Süre takibi (tebliğ tarihlerinden):
-      ödeme emrine itiraz 7 gün (ilamsız İİK 62; rehin İİK 149); kambiyo 5 gün (İİK 168), ödeme süresi 10 gün;
+      ödeme emrine itiraz 7 gün (ilamsız İİK 62; rehin İİK 147, 150); kambiyo 5 gün (İİK 168), ödeme süresi 10 gün;
       ilamlı icra emri 7 gün (İİK 32);
       itiraz varsa: itirazın kaldırılması 6 ay (İİK 68), itirazın iptali 1 yıl (İİK 67) — itirazın tebliğinden;
       haciz isteme 1 yıl (İİK 78) — ödeme / icra emrinin tebliğinden (itiraz yoksa hesaplanır).
@@ -329,7 +329,7 @@ def sureleri_hesapla(d: Dosya, bugun: date) -> None:
     elif d.tur == "İlamlı":
         sure_ekle(d, "İcra emri: ödeme / itiraz süresi", d.teblig, d.teblig + timedelta(days=7), "İİK 32–33", bugun)
     else:
-        sure_ekle(d, "Ödeme emrine itiraz süresi", d.teblig, d.teblig + timedelta(days=7), "İİK 62" if d.tur == "İlamsız" else "İİK 149", bugun)
+        sure_ekle(d, "Ödeme emrine itiraz süresi", d.teblig, d.teblig + timedelta(days=7), "İİK 62" if d.tur == "İlamsız" else "İİK 147 / 150", bugun)
     if d.itiraz and d.tur in ("İlamsız", "Rehin", "Kambiyo"):
         if d.tur == "Kambiyo":
             return                                       # kambiyoda itiraz icra mahkemesinde incelenir; İİK 67 / 68 süreleri doğmaz

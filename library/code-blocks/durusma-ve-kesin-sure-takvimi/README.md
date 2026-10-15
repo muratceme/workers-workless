@@ -23,7 +23,7 @@ tabloda olmayan olaylar için süre "Süre" sütununa yazılmalıdır (ör. "2 h
 | HMK | bilirkişi raporuna itiraz | 2 hafta | HMK 281 |
 | HMK | istinaf | 2 hafta | HMK 345 |
 | HMK | istinafa cevap | 2 hafta | HMK 347 |
-| HMK | temyiz | 1 ay | HMK 361 |
+| HMK | temyiz | 2 hafta | HMK 361 |
 | İYUK | cevap (savunma, savunmaya cevap) | 30 gün | İYUK 16 |
 | İYUK | istinaf | 30 gün | İYUK 45 |
 | İYUK | temyiz | 30 gün | İYUK 46 |
@@ -117,6 +117,33 @@ python main.py --davalar davalar.xlsx --sureler sureler.xlsx --tatiller tatiller
 python -m unittest discover -s tests
 ```
 
----
-Bu paket "olduğu gibi" sunulur. Sonuçların doğruluğu ve kullanımı kullanıcının sorumluluğundadır. Hukuki görüş yerine
-geçmez. Bkz. `LICENSE` ve `SORUMLULUK_REDDI.md`.
+## Kaynaklar ve dayanaklar
+
+Kontrol tarihi: 15.10.2026. Mevzuat sık değişir; paketteki süre, oran ve kuralları kullanmadan önce güncel resmî metinle
+karşılaştırın. "Karşılaştırılan maddeler" dışındaki atıflar yalnız yol göstericidir.
+
+| Kaynak | Bağlantı | Durum |
+|---|---|---|
+| 6100 sayılı Hukuk Muhakemeleri Kanunu | [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6100.pdf) | Resmî metinle karşılaştırılan maddeler: 127, 136, 281, 345, 347, 361 |
+| 2577 sayılı İdari Yargılama Usulü Kanunu | [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2577.pdf) | Resmî metin bağlantısı; paketteki madde atıfları ayrıca karşılaştırılmadı |
+| 2429 sayılı Ulusal Bayram ve Genel Tatiller Hakkında Kanun | [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2429.pdf) | Resmî metinle karşılaştırılan maddeler: 1, 2 |
+| HMK md. 361: temyiz süresi iki haftadır | [Adalet Bakanlığı HİGM](https://higm.adalet.gov.tr/Resimler/SayfaDokuman/20260805114317662Sigorta%20Tahkim%20Komisyonu%20İtiraz%20Hakem%20Heyeti%20Kararlarına%20Karşı%20Kanun%20Yararına%20Temyiz%20Yolunun%20Caiz%20Olmadığı.pdf) | Teyit edildi (resmî metin ve Adalet Bakanlığı) |
+
+## Sorumluluk
+
+Bu paketi indiren ve çalıştıran kişi aşağıdakileri kabul etmiş sayılır:
+
+- **Tüm risk kullanıcıdadır.** Paket ücretsizdir ve "olduğu gibi" sunulur; doğruluk, eksiksizlik veya belirli bir amaca
+  uygunluk konusunda hiçbir garanti verilmez. Paketi kendi bilgisayarınızda, kendi verinizle ve kendi kararınızla
+  çalıştırırsınız. Hatalı veya eksik sonuç, kaçırılan süre, vergi / SGK cezası, veri kaybı, mali kayıp ve diğer her türlü
+  doğrudan ya da dolaylı zarardan yazarlar ve katkıda bulunanlar sorumlu tutulamaz.
+- **Sonuçları kontrol etmek sizin işinizdir.** Çıktılar karar desteği içindir. Beyan vermeden, ödeme yapmadan, sözleşme
+  imzalamadan, personel / kredi / hasar / tedavi kararı almadan önce sonuçları yetkin bir kişi kontrol etmelidir.
+- **Danışmanlık değildir.** Hukuki, mali, vergisel, tıbbi veya yatırım danışmanlığı yerine geçmez.
+- **Mevzuat değişir.** Koddaki süre, oran, eşik ve kurallar yazıldığı tarihteki bilgiye dayanır ve eskiyebilir; özel
+  durumları kapsamayabilir. Güncelliğini kontrol etmek kullanıcının sorumluluğundadır.
+- **Örnek veri kurgusaldır.** Kişi, kurum, tutar ve tarihler gerçek değildir; kendi verinizle sonuçlar farklı olur.
+- **Kişisel veri.** Verinizin KVKK, şirket politikaları ve sektör düzenlemelerine uygun işlenmesinden, saklanmasından ve
+  paylaşılmasından siz sorumlusunuz.
+
+Ayrıntılar: `LICENSE` (MIT) ve `SORUMLULUK_REDDI.md`.

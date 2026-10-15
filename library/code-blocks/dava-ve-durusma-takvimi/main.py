@@ -50,7 +50,7 @@ SURE_TABLOSU = [
     ("HMK", "cevap", "2 hafta", "HMK 127"),
     ("HMK", "bilirkisi", "2 hafta", "HMK 281"),
     ("HMK", "istinaf", "2 hafta", "HMK 345"),
-    ("HMK", "temyiz", "1 ay", "HMK 361"),
+    ("HMK", "temyiz", "2 hafta", "HMK 361"),
     ("IYUK", "cevap", "30 gün", "İYUK 16"),
     ("IYUK", "istinaf", "30 gün", "İYUK 45"),
     ("IYUK", "temyiz", "30 gün", "İYUK 46"),
