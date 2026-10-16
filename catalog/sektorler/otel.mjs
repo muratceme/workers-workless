@@ -12,6 +12,7 @@ export const OTEL = {
       ]},
       { id: "night-auditor", name: "Night Auditor (Gece Denetçisi)", level: "Uzman", tasks: [
         ["Gece Denetimi (Night Audit) Kontrolü", "Gün sonu folyo, tahsilat, oda geliri ve kasa raporlarını karşılaştırıp açık folyo, fiyat hatası ve kasa farklarını raporlar.", 4],
+        ["Otel Log Defteri Devir Özeti", "Gece / vardiya log defterini departman, oda, sorumlu ve takip saatiyle devir notuna çevirir; atlanan kayıt, uydurma oda / tutar ve sorumlusu olmayan açık konuları kodla yakalar, acil konuları başa alır.", 2],
       ]},
       { id: "on-buro-muduru", name: "Ön Büro Müdürü", level: "Yönetici", tasks: [
         ["Doluluk, ADR ve RevPAR Raporu", "Oda satışlarından günlük, aylık ve geçen yıl karşılaştırmalı doluluk, ortalama oda fiyatı ve RevPAR'ı hesaplar.", 3],
@@ -52,6 +53,7 @@ export const OTEL = {
       { id: "kat-sefi", name: "Kat Şefi", level: "Uzman", tasks: [
         "Oda Temizlik Atama Planı",
         "Oda Arıza ve Bakım Talep Takibi",
+        "Otel Log Defteri Devir Özeti",
       ]},
     ],
   },

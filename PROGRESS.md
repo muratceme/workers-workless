@@ -812,3 +812,5 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Toplam 447 görev, 449 paket (357 kod + 92 agent). AI Agents modunda hazırı olmayan rol: 20.
 - denetim-raporu-bulgu-aktarimi: tekstil Sosyal Uygunluk ve Sürdürülebilirlik Uzmanı. Raporun derecesi değiştirilemez (kod denetler); sıfır tolerans konuları ayrıca işaretlenir ve kısa termin alır; gözlemler takip dışı. Çıktı Denetim Bulgu ve Düzeltici Faaliyet Takibi girdisi; zincir denendi.
 - Toplam 448 görev, 450 paket (357 kod + 93 agent). AI Agents modunda hazırı olmayan rol: 18.
+- otel-log-defteri-devir-ozeti: Night Auditor, Kat Şefi. Her log satırının kullanıldığı, oda / saat / tutarın satırda geçtiği, acil işaretli konuların Acil olduğu kodla denetlenir; sorumlusu yazılmamış açık konular "sahipsiz" işaretlenir.
+- Toplam 449 görev, 451 paket (357 kod + 94 agent). AI Agents modunda hazırı olmayan rol: 16.

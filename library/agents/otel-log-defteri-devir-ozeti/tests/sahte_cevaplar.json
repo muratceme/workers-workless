@@ -1,0 +1,222 @@
+{
+ "hatali": {
+  "vardiya_ozeti": "Gece sakin geçti. Açık konular: oda 801 VIP havalimanı transferi teyit edilmedi, oda 618 lavabo tıkanıklığı, kasa 2'de 120 TL eksik.",
+  "maddeler": [
+   {
+    "departman": "Teknik",
+    "oda": "512",
+    "ozet": "Klima çalışmıyordu; teknik nöbetçi filtreyi temizledi, çalıştı.",
+    "durum": "Kapandı",
+    "sorumlu": "Teknik nöbetçi",
+    "takip_saati": "",
+    "tutar": "",
+    "oncelik": "Normal",
+    "misafir_sikayeti": true,
+    "satirlar": [
+     1
+    ]
+   },
+   {
+    "departman": "Yiyecek İçecek",
+    "oda": "",
+    "ozet": "Kurgu Turizm grubu (18 oda) 05:30'da erken çıkış yapacak; kahvaltı kutuları 05:00'te hazır olacak.",
+    "durum": "Açık",
+    "sorumlu": "Mutfak",
+    "takip_saati": "05:00",
+    "tutar": "",
+    "oncelik": "Normal",
+    "misafir_sikayeti": false,
+    "satirlar": [
+     2
+    ]
+   },
+   {
+    "departman": "Ön Büro",
+    "oda": "304",
+    "ozet": "Üst kattan gürültü şikâyeti; oda 404 uyarıldı, tekrar etmedi.",
+    "durum": "Kapandı",
+    "sorumlu": "Ön büro",
+    "takip_saati": "",
+    "tutar": "",
+    "oncelik": "Normal",
+    "misafir_sikayeti": true,
+    "satirlar": [
+     3
+    ]
+   },
+   {
+    "departman": "Muhasebe / Kasa",
+    "oda": "",
+    "ozet": "Gece denetiminde kasa 2'de eksik fark; gün sonu raporu imzalandı.",
+    "durum": "Açık",
+    "sorumlu": "Ön büro müdürü",
+    "takip_saati": "",
+    "tutar": "120",
+    "oncelik": "Normal",
+    "misafir_sikayeti": false,
+    "satirlar": [
+     4
+    ]
+   },
+   {
+    "departman": "Satış / Rezervasyon",
+    "oda": "210",
+    "ozet": "Deneme Seyahat rezervasyonu no-show (1 gece, garanti kartlı); acente sabah aranacak.",
+    "durum": "Açık",
+    "sorumlu": "Acente aranacak",
+    "takip_saati": "",
+    "tutar": "",
+    "oncelik": "Normal",
+    "misafir_sikayeti": false,
+    "satirlar": [
+     5
+    ]
+   },
+   {
+    "departman": "Teknik",
+    "oda": "618",
+    "ozet": "Lavabo tıkanıklığı; misafire su ikram edildi.",
+    "durum": "Açık",
+    "sorumlu": "Teknik",
+    "takip_saati": "09:00",
+    "tutar": "",
+    "oncelik": "Normal",
+    "misafir_sikayeti": true,
+    "satirlar": [
+     6
+    ]
+   },
+   {
+    "departman": "Ön Büro",
+    "oda": "801",
+    "ozet": "VIP misafir 08:00 havalimanı transferi istedi; transfer firması teyit etmedi, sabah tekrar aranmalı.",
+    "durum": "Açık",
+    "sorumlu": "",
+    "takip_saati": "08:00",
+    "tutar": "",
+    "oncelik": "Normal",
+    "misafir_sikayeti": false,
+    "satirlar": [
+     7
+    ]
+   }
+  ]
+ },
+ "dogru": {
+  "vardiya_ozeti": "Gece sakin geçti. Açık konular: oda 801 VIP havalimanı transferi teyit edilmedi, oda 618 lavabo tıkanıklığı, kasa 2'de 120 TL eksik.",
+  "maddeler": [
+   {
+    "departman": "Teknik",
+    "oda": "512",
+    "ozet": "Klima çalışmıyordu; teknik nöbetçi filtreyi temizledi, çalıştı.",
+    "durum": "Kapandı",
+    "sorumlu": "Teknik nöbetçi",
+    "takip_saati": "",
+    "tutar": "",
+    "oncelik": "Normal",
+    "misafir_sikayeti": true,
+    "satirlar": [
+     1
+    ]
+   },
+   {
+    "departman": "Yiyecek İçecek",
+    "oda": "",
+    "ozet": "Kurgu Turizm grubu (18 oda) 05:30'da erken çıkış yapacak; kahvaltı kutuları 05:00'te hazır olacak.",
+    "durum": "Açık",
+    "sorumlu": "Mutfak",
+    "takip_saati": "05:00",
+    "tutar": "",
+    "oncelik": "Normal",
+    "misafir_sikayeti": false,
+    "satirlar": [
+     2
+    ]
+   },
+   {
+    "departman": "Ön Büro",
+    "oda": "304",
+    "ozet": "Üst kattan gürültü şikâyeti; oda 404 uyarıldı, tekrar etmedi.",
+    "durum": "Kapandı",
+    "sorumlu": "Ön büro",
+    "takip_saati": "",
+    "tutar": "",
+    "oncelik": "Normal",
+    "misafir_sikayeti": true,
+    "satirlar": [
+     3
+    ]
+   },
+   {
+    "departman": "Muhasebe / Kasa",
+    "oda": "",
+    "ozet": "Gece denetiminde kasa 2'de eksik fark; gün sonu raporu imzalandı.",
+    "durum": "Açık",
+    "sorumlu": "Ön büro müdürü",
+    "takip_saati": "",
+    "tutar": "120",
+    "oncelik": "Normal",
+    "misafir_sikayeti": false,
+    "satirlar": [
+     4
+    ]
+   },
+   {
+    "departman": "Satış / Rezervasyon",
+    "oda": "210",
+    "ozet": "Deneme Seyahat rezervasyonu no-show (1 gece, garanti kartlı); acente sabah aranacak.",
+    "durum": "Açık",
+    "sorumlu": "Acente aranacak",
+    "takip_saati": "",
+    "tutar": "",
+    "oncelik": "Normal",
+    "misafir_sikayeti": false,
+    "satirlar": [
+     5
+    ]
+   },
+   {
+    "departman": "Teknik",
+    "oda": "618",
+    "ozet": "Lavabo tıkanıklığı; misafire su ikram edildi.",
+    "durum": "Açık",
+    "sorumlu": "Teknik",
+    "takip_saati": "09:00",
+    "tutar": "",
+    "oncelik": "Normal",
+    "misafir_sikayeti": true,
+    "satirlar": [
+     6
+    ]
+   },
+   {
+    "departman": "Ön Büro",
+    "oda": "801",
+    "ozet": "VIP misafir 08:00 havalimanı transferi istedi; transfer firması teyit etmedi, sabah tekrar aranmalı.",
+    "durum": "Açık",
+    "sorumlu": "",
+    "takip_saati": "08:00",
+    "tutar": "",
+    "oncelik": "Acil",
+    "misafir_sikayeti": false,
+    "satirlar": [
+     7
+    ]
+   },
+   {
+    "departman": "Kat Hizmetleri",
+    "oda": "",
+    "ozet": "Kat 3 koridor halısında su lekesi görüldü; kat hizmetlerine henüz iletilmedi.",
+    "durum": "Açık",
+    "sorumlu": "",
+    "takip_saati": "",
+    "tutar": "",
+    "oncelik": "Normal",
+    "misafir_sikayeti": false,
+    "satirlar": [
+     8
+    ]
+   }
+  ]
+ }
+}

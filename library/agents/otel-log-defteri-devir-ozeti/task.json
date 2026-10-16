@@ -1,0 +1,20 @@
+{
+  "id": "otel-log-defteri-devir-ozeti",
+  "tur": "agent",
+  "ad": "Otel Log Defteri Devir Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi log_defteri.txt",
+  "girdiler": [
+    "Log defteri (.txt/.docx): 'Vardiya: …' satırı ve 'SS:DD metin' kayıtları",
+    "Gönderilmeyecek misafir adları (isteğe bağlı, --gizle)",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta ve kimlik numarası maskelenir)"
+  ],
+  "ciktilar": ["Excel: Devir (öncelik, durum, departman, oda, konu, sorumlu, takip saati, tutar, şikâyet, log satırları), Kontrol", "TXT: gelen vardiya için devir notu"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
