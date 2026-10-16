@@ -117,10 +117,12 @@ export const TEKSTIL = {
       { id: "tekstil-kalite-kontrol-elemani", name: "Kalite Kontrol Elemanı", level: "Giriş", tasks: [
         ["Kumaş Kontrol (4 Puan Sistemi) Raporu", "Top bazında kumaş hata kayıtlarından 4 puan sistemine göre 100 yard² başına puanı hesaplar, kabul/ret durumunu raporlar.", 3],
         "AQL Örneklem Planı",
+        "Uygunsuzluk Kaydı Yazımı",
       ]},
       { id: "kalite-kontrol-sefi-tekstil", name: "Kalite Kontrol Şefi", level: "Yönetici", tasks: [
         ["Final Kontrol Raporu", "Final denetim kayıtlarından kritik, majör ve minör hata sayılarını AQL kabul sayılarıyla karşılaştırıp sonuç raporu üretir.", 3],
         ["Hata Türü Pareto Analizi", "Ara ve final kontrol hata kayıtlarını hata türü, operasyon ve hat bazında Pareto analizine tabi tutar.", 2],
+        "Uygunsuzluk Kaydı Yazımı",
       ]},
     ],
   },
@@ -137,6 +139,7 @@ export const TEKSTIL = {
         "Final Kontrol Raporu",
         "AQL Örneklem Planı",
         "Koli Listesi (Packing List) Hazırlama",
+        "Uygunsuzluk Kaydı Yazımı",
       ]},
     ],
   },

@@ -49,6 +49,7 @@ export const URETIM = {
       { id: "kalite-kontrol-elemani", name: "Kalite Kontrol Elemanı", level: "Giriş", tasks: [
         ["AQL Örneklem Planı", "Parti büyüklüğü, muayene seviyesi ve AQL değerine göre ISO 2859-1 tablosundan örneklem sayısını ve kabul/ret sayılarını belirler.", 2],
         ["Ölçüm Verisi Uygunluk Kontrolü", "Ölçüm cihazı çıktılarını teknik resim toleranslarıyla karşılaştırıp uygunsuz ölçüleri işaretler.", 3],
+        ["Uygunsuzluk Kaydı Yazımı", "Sahada alınan kısa kalite notlarını hata tanımı, parti, miktar, hata kodu, sınıf, ilk müdahale ve karar önerisi içeren standart uygunsuzluk kaydına çevirir; DÖF gerekliliğini ve terminini kod belirler.", 2],
       ]},
       { id: "kalite-muhendisi", name: "Kalite Mühendisi", level: "Uzman", tasks: [
         ["SPC Kontrol Grafiği ve Cp/Cpk", "Proses ölçümlerinden X̄-R kontrol grafiği, kontrol dışı noktalar ve Cp/Cpk yeterlilik indekslerini hesaplar.", 4],

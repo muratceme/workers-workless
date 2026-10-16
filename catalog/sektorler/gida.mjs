@@ -28,11 +28,13 @@ export const GIDA = {
       { id: "kalite-kontrol-teknisyeni-gida", name: "Kalite Kontrol Teknisyeni", level: "Giriş", tasks: [
         ["Analiz Sonucu Spesifikasyon Kontrolü", "Laboratuvar analiz sonuçlarını ürün spesifikasyon limitleriyle karşılaştırıp uygunsuz partileri ve sınıra yakın değerleri işaretler.", 3],
         ["Raf Ömrü Takibi", "Stok ve sevkiyat verisinden son tüketim tarihine kalan süreyi hesaplar, müşteri kabul kriterini karşılamayan partileri listeler.", 2],
+        "Uygunsuzluk Kaydı Yazımı",
       ]},
       { id: "laboratuvar-sefi", name: "Laboratuvar Şefi", level: "Uzman", tasks: [
         "Analiz Sonucu Spesifikasyon Kontrolü",
         "SPC Kontrol Grafiği ve Cp/Cpk",
         "Raf Ömrü Takibi",
+        "Uygunsuzluk Kaydı Yazımı",
       ]},
     ],
   },

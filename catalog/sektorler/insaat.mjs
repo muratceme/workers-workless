@@ -77,11 +77,13 @@ export const INSAAT = {
       { id: "kalite-kontrol-muhendisi-insaat", name: "Kalite Kontrol Mühendisi", level: "Uzman", tasks: [
         ["İmalat Kontrol Formu Takibi", "İmalat kontrol talepleri (ITP) ve onay durumlarını kat, blok ve imalat türü bazında takip eder.", 2],
         "DÖF Takibi",
+        "Uygunsuzluk Kaydı Yazımı",
       ]},
       { id: "kalite-kontrol-teknikeri", name: "Kalite Kontrol Teknikeri", level: "Giriş", tasks: [
         "Beton Numune ve Kırım Takibi",
         "İmalat Kontrol Formu Takibi",
         "Ölçüm Verisi Uygunluk Kontrolü",
+        "Uygunsuzluk Kaydı Yazımı",
       ]},
     ],
   },

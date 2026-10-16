@@ -1,0 +1,23 @@
+{
+  "id": "uygunsuzluk-kaydi-yazimi",
+  "tur": "agent",
+  "ad": "Uygunsuzluk Kaydı Yazımı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi notlar.txt --kodlar hata_kodlari.csv",
+  "girdiler": [
+    "Saha notları (.txt/.docx): her kayıt 'Kayıt: GG.AA.YYYY SS:DD | Yer' satırıyla başlar, altında serbest notlar",
+    "Hata kodu listesi (isteğe bağlı, .csv/.xlsx: Kod, Hata Tanımı)",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta ve kimlik numarası maskelenir)"
+  ],
+  "ciktilar": [
+    "Excel: Uygunsuzluklar (tanım, ürün, parti, miktarlar, hata oranı, kod, sınıf, ilk müdahale, karar önerisi, eksik bilgiler, DÖF ve termini), DÖF Listesi, Kontrol",
+    "Excel: <ad>_dof.xlsx — DÖF Takibi kod bloğunun girdi biçiminde"
+  ],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

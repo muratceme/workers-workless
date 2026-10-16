@@ -1,0 +1,210 @@
+{
+ "ilk": {
+  "K1": {
+   "baslik": "KP-50 kapakta sızdırmazlık hatası – Hat 2 kapak montaj",
+   "hata_tanimi": "Saatlik kontrolde 500 adetlik numunede 12 kapak sızdırmazlık testini geçmedi. Hatalı kapaklar kalıbın 3 numaralı gözünden çıkanlarda yoğun.",
+   "urun": "5 lt bidon kapağı KP-50",
+   "parti": "L2026-1012",
+   "kontrol_miktari": "500",
+   "hatali_miktari": "12",
+   "etkilenen_miktar": "4.000",
+   "birim": "adet",
+   "hata_kodlari": [
+    "HK-01"
+   ],
+   "sinif": "Majör",
+   "ilk_mudahale": [
+    "Hat durduruldu",
+    "Son 2 saatin üretimi (yaklaşık 4.000 adet) karantinaya alındı",
+    "Kalıphaneye haber verildi"
+   ],
+   "karar": "Ayrıştır / beklet",
+   "eksik_bilgiler": [
+    "Karantinadaki 4.000 adetin tam sayımı ve %100 kontrol sonucu",
+    "Önceki saat kontrollerinin sonucu (hatanın başlangıç zamanı)",
+    "Kalıp 3. gözün bakım / ölçü kontrol sonucu"
+   ],
+   "satirlar": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "K2": {
+   "baslik": "Metal dedektör test çubuğunu algılamadı – Dolum hattı",
+   "hata_tanimi": "Saat başı doğrulama testinde metal dedektör Fe 2,0 mm test çubuğunu iki kez algılamadı; dedektörün yabancı madde kontrol işlevi doğrulanamadı.",
+   "urun": "",
+   "parti": "2610-B",
+   "kontrol_miktari": "",
+   "hatali_miktari": "",
+   "etkilenen_miktar": "",
+   "birim": "koli",
+   "hata_kodlari": [
+    "HK-07"
+   ],
+   "sinif": "Majör",
+   "ilk_mudahale": [
+    "11:00 ile 13:00 arası dolumu yapılan tüm koliler hattan çekildi",
+    "Dedektör hassasiyet ayarı bakım ekibince kontrol ediliyor"
+   ],
+   "karar": "Ayrıştır / beklet",
+   "eksik_bilgiler": [
+    "Hattan çekilen koli sayısı",
+    "Ürün adı",
+    "Son başarılı testin saati",
+    "Çekilen kolilerin çalışan bir dedektörden yeniden geçirilip geçirilmeyeceği",
+    "Sevk edilmiş koli olup olmadığı"
+   ],
+   "satirlar": [
+    1,
+    2,
+    3
+   ]
+  },
+  "K3": {
+   "baslik": "Hazır beton slump değeri şartname dışı – B Blok 3. kat döşeme",
+   "hata_tanimi": "Mikser 34 KLM 77 (irsaliye 55821) ile gelen betonda slump 22 cm ölçüldü; şartname değeri 12±2 cm.",
+   "urun": "Hazır beton",
+   "parti": "irsaliye 55821",
+   "kontrol_miktari": "",
+   "hatali_miktari": "",
+   "etkilenen_miktar": "",
+   "birim": "mikser",
+   "hata_kodlari": [
+    "HK-11"
+   ],
+   "sinif": "Majör",
+   "ilk_mudahale": [
+    "Mikser santrale geri gönderildi",
+    "Döküm 40 dk gecikti"
+   ],
+   "karar": "Tedarikçiye iade",
+   "eksik_bilgiler": [
+    "Mikserdeki beton miktarı (m³) ve beton sınıfı",
+    "Santrale yazılı bildirim yapılıp yapılmadığı",
+    "Aynı gün aynı santralden gelen diğer mikserlerin slump değerleri"
+   ],
+   "satirlar": [
+    1,
+    2
+   ]
+  },
+  "K4": {
+   "baslik": "Sipariş 4512 lacivert poloda yaka lekesi ve dikiş kaçığı – Final kontrol",
+   "hata_tanimi": "AQL kontrolünde 80 adetlik numunede 3 adette yakada leke, 1 adette dikiş kaçığı bulundu.",
+   "urun": "lacivert polo",
+   "parti": "Sipariş 4512",
+   "kontrol_miktari": "80",
+   "hatali_miktari": "4",
+   "etkilenen_miktar": "",
+   "birim": "adet",
+   "hata_kodlari": [
+    "HK-21",
+    "HK-22"
+   ],
+   "sinif": "Majör",
+   "ilk_mudahale": [
+    "Ütü-paket bölümüne geri gönderildi"
+   ],
+   "karar": "Yeniden işle",
+   "eksik_bilgiler": [
+    "Lot büyüklüğü ve AQL seviyesine göre kabul / ret sınırı",
+    "Lot kabul kararı"
+   ],
+   "satirlar": [
+    1,
+    2
+   ]
+  }
+ },
+ "duzeltme": {
+  "K2": {
+   "baslik": "Metal dedektör test çubuğunu algılamadı – Dolum hattı",
+   "hata_tanimi": "Saat başı doğrulama testinde metal dedektör Fe 2,0 mm test çubuğunu iki kez algılamadı; dedektörün yabancı madde kontrol işlevi doğrulanamadı.",
+   "urun": "",
+   "parti": "2610-B",
+   "kontrol_miktari": "",
+   "hatali_miktari": "",
+   "etkilenen_miktar": "",
+   "birim": "koli",
+   "hata_kodlari": [
+    "HK-07"
+   ],
+   "sinif": "Kritik",
+   "ilk_mudahale": [
+    "11:00 ile 13:00 arası dolumu yapılan tüm koliler hattan çekildi",
+    "Dedektör hassasiyet ayarı bakım ekibince kontrol ediliyor"
+   ],
+   "karar": "Ayrıştır / beklet",
+   "eksik_bilgiler": [
+    "Hattan çekilen koli sayısı",
+    "Ürün adı",
+    "Son başarılı testin saati",
+    "Çekilen kolilerin çalışan bir dedektörden yeniden geçirilip geçirilmeyeceği",
+    "Sevk edilmiş koli olup olmadığı"
+   ],
+   "satirlar": [
+    1,
+    2,
+    3
+   ]
+  },
+  "K3": {
+   "baslik": "Hazır beton slump değeri şartname dışı – B Blok 3. kat döşeme",
+   "hata_tanimi": "Mikser 34 KLM 77 (irsaliye 55821) ile gelen betonda slump 22 cm ölçüldü; şartname değeri 12±2 cm.",
+   "urun": "",
+   "parti": "irsaliye 55821",
+   "kontrol_miktari": "",
+   "hatali_miktari": "",
+   "etkilenen_miktar": "",
+   "birim": "mikser",
+   "hata_kodlari": [
+    "HK-11"
+   ],
+   "sinif": "Majör",
+   "ilk_mudahale": [
+    "Mikser santrale geri gönderildi",
+    "Döküm 40 dk gecikti"
+   ],
+   "karar": "Tedarikçiye iade",
+   "eksik_bilgiler": [
+    "Beton sınıfı ve mikserdeki miktar (m³)",
+    "Santrale yazılı bildirim yapılıp yapılmadığı",
+    "Aynı gün aynı santralden gelen diğer mikserlerin slump değerleri"
+   ],
+   "satirlar": [
+    1,
+    2
+   ]
+  },
+  "K4": {
+   "baslik": "Sipariş 4512 lacivert poloda yaka lekesi ve dikiş kaçığı – Final kontrol",
+   "hata_tanimi": "AQL kontrolünde 80 adetlik numunede 3 adette yakada leke, 1 adette dikiş kaçığı bulundu.",
+   "urun": "lacivert polo",
+   "parti": "Sipariş 4512",
+   "kontrol_miktari": "80",
+   "hatali_miktari": "",
+   "etkilenen_miktar": "",
+   "birim": "adet",
+   "hata_kodlari": [
+    "HK-21",
+    "HK-22"
+   ],
+   "sinif": "Majör",
+   "ilk_mudahale": [
+    "Ütü-paket bölümüne geri gönderildi"
+   ],
+   "karar": "Yeniden işle",
+   "eksik_bilgiler": [
+    "Toplam hatalı adet (bir üründe iki hata olabilir; 3 leke ve 1 dikiş kaçığı ayrı ürünlerde mi?)",
+    "Lot büyüklüğü ve AQL seviyesine göre kabul / ret sınırı",
+    "Lot kabul kararı"
+   ],
+   "satirlar": [
+    1,
+    2
+   ]
+  }
+ }
+}

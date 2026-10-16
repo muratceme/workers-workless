@@ -1,0 +1,7 @@
+Kod;Hata Tanımı
+HK-01;Sızdırmazlık hatası
+HK-02;Ölçü / tolerans dışı
+HK-07;Yabancı madde riski / metal dedektör hatası
+HK-11;Malzeme şartname dışı (beton, agrega, hammadde)
+HK-21;Leke / kirlilik
+HK-22;Dikiş hatası
