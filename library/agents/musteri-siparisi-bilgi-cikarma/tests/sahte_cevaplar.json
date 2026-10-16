@@ -1,0 +1,152 @@
+{
+ "deneme": {
+  "siparis_var": true,
+  "musteri": "Deneme Makine San.",
+  "po_no": "SP-88213",
+  "po_tarihi": "",
+  "para_birimi": "TL",
+  "teslim_sekli": "",
+  "satirlar": [
+   {
+    "musteri_kodu": "FLN-100",
+    "aciklama": "FLN-100 flanş (çizim rev. C)",
+    "urun_kodu": "FLN-100",
+    "renk": "",
+    "bedenler": [],
+    "miktar": "400",
+    "birim": "adet",
+    "birim_fiyat": "186,00",
+    "teslim_tarihi": "04.11.2026"
+   },
+   {
+    "musteri_kodu": "MIL-220",
+    "aciklama": "MIL-220 mil",
+    "urun_kodu": "MIL-220",
+    "renk": "",
+    "bedenler": [],
+    "miktar": "250",
+    "birim": "adet",
+    "birim_fiyat": "",
+    "teslim_tarihi": "05.11.2026"
+   },
+   {
+    "musteri_kodu": "BR-40",
+    "aciklama": "Ø40 burç (çizim BR-40, yeni ürün)",
+    "urun_kodu": "",
+    "renk": "",
+    "bedenler": [],
+    "miktar": "120",
+    "birim": "adet",
+    "birim_fiyat": "",
+    "teslim_tarihi": "25.10.2026"
+   }
+  ],
+  "genel_toplam": "",
+  "notlar": [
+   "FLN-100 için çizim revizyonu C belirtilmiş; üretimde kullanılan revizyonu kontrol edin.",
+   "MIL-220 ve burç için fiyat yazılmamış ('son teklifinizdeki gibi').",
+   "Ø40 burç yeni ürün (çizim BR-40); ürün listesinde yok.",
+   "MIL-220 için kısmi sevk kabul ediliyor."
+  ]
+ },
+ "kurgu": {
+  "siparis_var": true,
+  "musteri": "Kurgu Retail GmbH",
+  "po_no": "KR-4471",
+  "po_tarihi": "12.10.2026",
+  "para_birimi": "EUR",
+  "teslim_sekli": "FOB İzmir",
+  "satirlar": [
+   {
+    "musteri_kodu": "TS-101",
+    "aciklama": "Men basic tee 100% cotton single jersey",
+    "urun_kodu": "TS-101",
+    "renk": "White",
+    "bedenler": [
+     {
+      "beden": "S",
+      "miktar": "300"
+     },
+     {
+      "beden": "M",
+      "miktar": "500"
+     },
+     {
+      "beden": "L",
+      "miktar": "500"
+     },
+     {
+      "beden": "XL",
+      "miktar": "200"
+     }
+    ],
+    "miktar": "1600",
+    "birim": "pcs",
+    "birim_fiyat": "3,85",
+    "teslim_tarihi": "20.11.2026"
+   },
+   {
+    "musteri_kodu": "TS-101",
+    "aciklama": "Men basic tee 100% cotton single jersey",
+    "urun_kodu": "TS-101",
+    "renk": "Navy",
+    "bedenler": [
+     {
+      "beden": "S",
+      "miktar": "200"
+     },
+     {
+      "beden": "M",
+      "miktar": "400"
+     },
+     {
+      "beden": "L",
+      "miktar": "400"
+     },
+     {
+      "beden": "XL",
+      "miktar": "150"
+     }
+    ],
+    "miktar": "1150",
+    "birim": "pcs",
+    "birim_fiyat": "3,85",
+    "teslim_tarihi": "20.11.2026"
+   },
+   {
+    "musteri_kodu": "SW-202",
+    "aciklama": "Ladies hoodie 3-thread fleece",
+    "urun_kodu": "SW-202",
+    "renk": "Grey Mel.",
+    "bedenler": [
+     {
+      "beden": "XS",
+      "miktar": "100"
+     },
+     {
+      "beden": "S",
+      "miktar": "250"
+     },
+     {
+      "beden": "M",
+      "miktar": "250"
+     },
+     {
+      "beden": "L",
+      "miktar": "150"
+     }
+    ],
+    "miktar": "750",
+    "birim": "pcs",
+    "birim_fiyat": "9,40",
+    "teslim_tarihi": "05.11.2026"
+   }
+  ],
+  "genel_toplam": "3.500",
+  "notlar": [
+   "Etiket ve askılık müşterinin trim manual v3'üne göre.",
+   "Sevkiyat deniz yoluyla.",
+   "Teslim tarihleri ex-factory tarihidir."
+  ]
+ }
+}

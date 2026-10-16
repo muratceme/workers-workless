@@ -1,0 +1,20 @@
+{
+  "id": "musteri-siparisi-bilgi-cikarma",
+  "tur": "agent",
+  "ad": "Müşteri Siparişi Bilgi Çıkarma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./siparisler --urunler urun_listesi.xlsx",
+  "girdiler": [
+    "Müşteri siparişleri (.pdf, .docx, .txt): PO, e-posta; Türkçe veya İngilizce",
+    "Ürün listesi (isteğe bağlı, .csv/.xlsx: Ürün Kodu, Ürün Adı)",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta, IBAN ve kimlik numarası maskelenir)"
+  ],
+  "ciktilar": ["Excel: Sipariş Satırları (durum ve bulgularla), Üretim Siparişleri (Haftalık Üretim Çizelgesi girdisi), Beden Dağılımı (Kumaş ve Aksesuar İhtiyaç Hesabı girdisi), T&A Siparişleri (Sipariş Termin Planı girdisi), Kontrol"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

@@ -1,0 +1,14 @@
+Kimden: Satın Alma <satinalma@denememakine.example>
+Kime: siparis@ornekmetal.example
+Konu: Sipariş SP-88213
+
+Merhaba,
+Aşağıdaki ürünler için siparişimizi iletiyoruz:
+
+- FLN-100 flanş (çizim rev. C) — 400 adet — 04.11.2026 teslim — birim fiyat 186,00 TL
+- MIL-220 mil — 250 adet — 05.11.2026'ya kadar
+- Ø40 burç (çizim BR-40, yeni ürün) — 120 adet — 25.10.2026
+
+Fiyatlar son teklifinizdeki gibi. Acil durum: mil için kısmi sevk kabul edilir.
+Teşekkürler,
+Deneme Makine San. Satın Alma

@@ -65,6 +65,7 @@ export const TEKSTIL = {
         ["Kumaş ve Aksesuar İhtiyaç Hesabı", "Sipariş adetleri, beden-renk dağılımı, birim tüketim ve fire oranlarından kumaş metrajını ve aksesuar adetlerini hesaplar.", 5],
         ["Kesim Kat Planı", "Sipariş beden dağılımı, pastal boyu ve maksimum kat sayısına göre pastal (marker) kombinasyonlarını ve kat adetlerini çıkarır.", 4],
         ["Üretim Hattı Yükleme Planı", "Siparişlerin dakika değeri (SAM) ve hat kapasitesinden hat bazında yükleme planı ve tahmini bitiş tarihlerini hesaplar.", 4],
+        "Müşteri Siparişi Bilgi Çıkarma",
       ]},
       { id: "planlama-muduru", name: "Planlama Müdürü", level: "Yönetici", tasks: [
         "Kapasite Darboğaz Analizi",

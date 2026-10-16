@@ -32,6 +32,7 @@ export const URETIM = {
         ["Malzeme İhtiyaç Planlaması (MRP)", "Ürün ağacı, siparişler ve mevcut stoktan net malzeme ihtiyacını ve sipariş verilmesi gereken tarihleri hesaplar.", 6],
         ["Kapasite Darboğaz Analizi", "İş merkezi bazında yükleme oranlarını hesaplayıp darboğaz haftalarını ve kaydırma önerilerini çıkarır.", 3],
         ["Plan Uyum Raporu", "Planlanan ile gerçekleşen üretimi iş emri bazında karşılaştırıp sapma nedenlerini raporlar.", 2],
+        ["Müşteri Siparişi Bilgi Çıkarma", "E-posta ve PDF ile gelen müşteri siparişlerini ürün, renk, beden dağılımı, miktar ve termin satırlarına çevirip ürün listesiyle eşleştirir; beden ve genel toplamı, kısa terminleri kodla kontrol eder, planlama kod bloklarına girdi hazırlar.", 3],
       ]},
       { id: "stok-planlama-uzmani", name: "Stok Planlama Uzmanı", level: "Uzman", tasks: [
         ["Yeniden Sipariş Noktası Hesabı", "Tüketim dağılımı, tedarik süresi ve hizmet düzeyinden emniyet stoğu ve yeniden sipariş noktasını hesaplar.", 3],
