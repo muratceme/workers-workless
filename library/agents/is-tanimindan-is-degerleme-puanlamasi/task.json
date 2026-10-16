@@ -1,0 +1,21 @@
+{
+  "id": "is-tanimindan-is-degerleme-puanlamasi",
+  "tur": "agent",
+  "ad": "İş Tanımından İş Değerleme Puanlaması",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --tanimlar is_tanimlari.docx --plan degerleme_plani.xlsx --kademeler kademeler.xlsx",
+  "girdiler": [
+    "İş tanımları (.txt/.docx/.pdf): her blok 'Pozisyon: Ad | Departman: … | Mevcut Kademe: …' satırıyla başlar",
+    "Değerleme planı (.xlsx/.csv): Faktör; Düzey; Tanım; Alt; Üst; Puan (sayısal faktörlerde Alt / Üst aralığı)",
+    "Kademe tablosu (.xlsx/.csv): Kademe; Alt Puan; Üst Puan",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta, TCKN maskelenir)"
+  ],
+  "ciktilar": ["Excel: Pozisyonlar (faktör puanları, toplam, önerilen / mevcut kademe), Faktörler (düzey, kanıt, gerekçe), Açık Noktalar, Değerleme Planı, Kontrol"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

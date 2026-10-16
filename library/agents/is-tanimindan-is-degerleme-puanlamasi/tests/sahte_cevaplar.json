@@ -1,0 +1,170 @@
+{
+ "Ekip Lideri": {
+  "faktorler": [
+   {
+    "faktor": "Eğitim",
+    "duzey": "Lise",
+    "kanit": "En az lise mezunu",
+    "gerekce": "Aranan asgari şart lise; teknik lise tercih olarak yazılmış."
+   },
+   {
+    "faktor": "Deneyim (yıl)",
+    "duzey": "2–4 yıl",
+    "kanit": "Üretimde en az 3 yıl deneyim",
+    "gerekce": "Aranan asgari deneyim 3 yıl."
+   },
+   {
+    "faktor": "Yönetim (bağlı çalışan)",
+    "duzey": "6–20 kişi",
+    "kanit": "Vardiyada 8 operatörden oluşan ekibin günlük iş dağılımını yapar ve takip eder",
+    "gerekce": "Ekip lideri olarak 8 operatörün işini dağıtıp takip ediyor."
+   },
+   {
+    "faktor": "Bütçe sorumluluğu (TL)",
+    "duzey": "Yok",
+    "kanit": "Bütçe sorumluluğu yoktur",
+    "gerekce": "İş tanımında bütçe sorumluluğu olmadığı yazıyor."
+   },
+   {
+    "faktor": "Karar yetkisi",
+    "duzey": "Prosedür içinde karar",
+    "kanit": "İş talimatları ve prosedürler içinde vardiya içi iş dağılımı ve fazla mesai önerisi kararlarını verir",
+    "gerekce": "Kararları talimat ve prosedür sınırları içinde, günlük işlerle ilgili."
+   },
+   {
+    "faktor": "İletişim",
+    "duzey": "İç",
+    "kanit": "İletişimi vardiya ekibi, kalite ve bakım birimleriyle sınırlıdır",
+    "gerekce": "Dış taraflarla iletişimi yok."
+   }
+  ],
+  "belirsizlikler": [
+   "Operatörlerin ekip liderine idari olarak mı yoksa yalnız iş dağılımı açısından mı bağlı olduğu yazmıyor; bağlı çalışan sayısı teyit edilmeli."
+  ]
+ },
+ "Muhasebe Uzmanı": {
+  "faktorler": [
+   {
+    "faktor": "Eğitim",
+    "duzey": "Lisans",
+    "kanit": "İşletme, iktisat veya muhasebe alanında lisans mezunu",
+    "gerekce": "Aranan asgari şart lisans."
+   },
+   {
+    "faktor": "Deneyim (yıl)",
+    "duzey": "5–9 yıl",
+    "kanit": "en az 5 yıl muhasebe deneyimi",
+    "gerekce": "Aranan asgari deneyim 5 yıl."
+   },
+   {
+    "faktor": "Yönetim (bağlı çalışan)",
+    "duzey": "Yok",
+    "kanit": "Bağlı çalışanı yoktur",
+    "gerekce": "Uzman yardımcısına rehberlik bağlı çalışan sayılmaz."
+   },
+   {
+    "faktor": "Bütçe sorumluluğu (TL)",
+    "duzey": "Yok",
+    "kanit": "Bütçe sorumluluğu yoktur",
+    "gerekce": "İş tanımında bütçe sorumluluğu olmadığı yazıyor."
+   },
+   {
+    "faktor": "Karar yetkisi",
+    "duzey": "Prosedür içinde karar",
+    "kanit": "Hesap planı ve muhasebe prosedürü içinde kayıt kararlarını verir",
+    "gerekce": "Prosedür dışı kayıtlar finans müdürünün onayına gidiyor."
+   },
+   {
+    "faktor": "İletişim",
+    "duzey": "Dış rutin",
+    "kanit": "Bağımsız denetçiler ve vergi incelemelerinde birimi temsil eder",
+    "gerekce": "Dış taraflarla bilgi ve belge alışverişi, temsil; müzakere yok."
+   }
+  ],
+  "belirsizlikler": [
+   "SMMM belgesi tercih sebebi olarak yazılmış; zorunlu olup olmadığı netleşirse eğitim / yetkinlik düzeyi değişmez ama ücret araştırmasındaki eşleşme etkilenebilir."
+  ]
+ },
+ "Satış Müdürü_hatali": {
+  "faktorler": [
+   {
+    "faktor": "Eğitim",
+    "duzey": "Lisans",
+    "kanit": "Lisans mezunu",
+    "gerekce": "Aranan asgari şart lisans; MBA tercih sebebi."
+   },
+   {
+    "faktor": "Deneyim (yıl)",
+    "duzey": "10+ yıl",
+    "kanit": "Satışta en az 8 yıl, bunun en az 3 yılı yönetici olarak deneyim",
+    "gerekce": "Uzun satış ve yöneticilik deneyimi aranıyor."
+   },
+   {
+    "faktor": "Yönetim (bağlı çalışan)",
+    "duzey": "21+ kişi",
+    "kanit": "Bölge satış ekibini (4 bölge müdürü ve 22 satış temsilcisi) yönetir",
+    "gerekce": "Toplam 26 bağlı çalışan."
+   },
+   {
+    "faktor": "Bütçe sorumluluğu (TL)",
+    "duzey": "10 milyon TL üstü",
+    "kanit": "Yıllık 12 milyon TL satış ve pazarlama bütçesinden sorumludur",
+    "gerekce": "Yönettiği yıllık bütçe 12 milyon TL."
+   },
+   {
+    "faktor": "Karar yetkisi",
+    "duzey": "Birim kararları",
+    "kanit": "Onaylı iskonto yetki sınırları içinde fiyat ve iskonto kararlarını verir",
+    "gerekce": "Biriminin fiyat kararlarını yetki sınırları içinde veriyor; politika değişikliği genel müdürde."
+   },
+   {
+    "faktor": "İletişim",
+    "duzey": "Dış müzakere",
+    "kanit": "Kilit müşteri ve bayilerle yıllık sözleşme müzakerelerini yürütür",
+    "gerekce": "Dış taraflarla sözleşme müzakeresi."
+   }
+  ],
+  "belirsizlikler": []
+ },
+ "Satış Müdürü": {
+  "faktorler": [
+   {
+    "faktor": "Eğitim",
+    "duzey": "Lisans",
+    "kanit": "Lisans mezunu",
+    "gerekce": "Aranan asgari şart lisans; MBA tercih sebebi."
+   },
+   {
+    "faktor": "Deneyim (yıl)",
+    "duzey": "5–9 yıl",
+    "kanit": "Satışta en az 8 yıl, bunun en az 3 yılı yönetici olarak deneyim",
+    "gerekce": "Aranan asgari deneyim 8 yıl (3 yılı yönetici)."
+   },
+   {
+    "faktor": "Yönetim (bağlı çalışan)",
+    "duzey": "21+ kişi",
+    "kanit": "Bölge satış ekibini (4 bölge müdürü ve 22 satış temsilcisi) yönetir",
+    "gerekce": "Toplam 26 bağlı çalışan."
+   },
+   {
+    "faktor": "Bütçe sorumluluğu (TL)",
+    "duzey": "10 milyon TL üstü",
+    "kanit": "Yıllık 12 milyon TL satış ve pazarlama bütçesinden sorumludur",
+    "gerekce": "Yönettiği yıllık bütçe 12 milyon TL."
+   },
+   {
+    "faktor": "Karar yetkisi",
+    "duzey": "Birim kararları",
+    "kanit": "Onaylı iskonto yetki sınırları içinde fiyat ve iskonto kararlarını verir",
+    "gerekce": "Biriminin fiyat kararlarını yetki sınırları içinde veriyor; politika değişikliği genel müdürde."
+   },
+   {
+    "faktor": "İletişim",
+    "duzey": "Dış müzakere",
+    "kanit": "Kilit müşteri ve bayilerle yıllık sözleşme müzakerelerini yürütür",
+    "gerekce": "Dış taraflarla sözleşme müzakeresi."
+   }
+  ],
+  "belirsizlikler": []
+ }
+}

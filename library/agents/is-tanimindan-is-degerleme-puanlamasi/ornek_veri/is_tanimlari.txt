@@ -1,0 +1,11 @@
+Pozisyon: Ekip Lideri | Departman: Üretim | Mevcut Kademe: K2
+Vardiyada 8 operatörden oluşan ekibin günlük iş dağılımını yapar ve takip eder. Üretim planına göre hat hedeflerini izler, sapmaları vardiya mühendisine bildirir. İş talimatları ve prosedürler içinde vardiya içi iş dağılımı ve fazla mesai önerisi kararlarını verir. Bütçe sorumluluğu yoktur. İletişimi vardiya ekibi, kalite ve bakım birimleriyle sınırlıdır.
+Aranan nitelikler: En az lise mezunu, tercihen teknik lise. Üretimde en az 3 yıl deneyim.
+
+Pozisyon: Muhasebe Uzmanı | Departman: Finans | Mevcut Kademe: K3
+Ay sonu kapanış, KDV ve muhtasar beyannamelerinin hazırlanmasından sorumludur. Bağımsız denetçiler ve vergi incelemelerinde birimi temsil eder, istenen bilgi ve belgeleri sunar. Bağlı çalışanı yoktur; uzman yardımcısına iş dağılımında rehberlik eder. Hesap planı ve muhasebe prosedürü içinde kayıt kararlarını verir, prosedür dışı kayıtları finans müdürünün onayına sunar. Bütçe sorumluluğu yoktur.
+Aranan nitelikler: İşletme, iktisat veya muhasebe alanında lisans mezunu; en az 5 yıl muhasebe deneyimi; SMMM belgesi tercih sebebi.
+
+Pozisyon: Satış Müdürü | Departman: Satış | Mevcut Kademe: K5
+Bölge satış ekibini (4 bölge müdürü ve 22 satış temsilcisi) yönetir. Yıllık 12 milyon TL satış ve pazarlama bütçesinden sorumludur. Onaylı iskonto yetki sınırları içinde fiyat ve iskonto kararlarını verir; fiyat politikası değişikliklerini genel müdürün onayına sunar. Kilit müşteri ve bayilerle yıllık sözleşme müzakerelerini yürütür.
+Aranan nitelikler: Lisans mezunu, MBA tercih sebebi. Satışta en az 8 yıl, bunun en az 3 yılı yönetici olarak deneyim.

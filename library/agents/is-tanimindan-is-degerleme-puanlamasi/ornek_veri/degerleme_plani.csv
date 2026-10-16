@@ -1,0 +1,23 @@
+Faktör;Düzey;Tanım;Alt;Üst;Puan
+Eğitim;Lise;Lise / meslek lisesi mezuniyeti;;;20
+Eğitim;Ön lisans;Ön lisans (2 yıllık) mezuniyeti;;;40
+Eğitim;Lisans;Lisans mezuniyeti;;;60
+Eğitim;Yüksek lisans;Yüksek lisans zorunlu;;;80
+Deneyim (yıl);0–1 yıl;Aranan asgari deneyim;0;1;20
+Deneyim (yıl);2–4 yıl;Aranan asgari deneyim;2;4;40
+Deneyim (yıl);5–9 yıl;Aranan asgari deneyim;5;9;60
+Deneyim (yıl);10+ yıl;Aranan asgari deneyim;10;;80
+Yönetim (bağlı çalışan);Yok;Doğrudan ya da dolaylı bağlı çalışan yok;0;0;0
+Yönetim (bağlı çalışan);1–5 kişi;Toplam bağlı çalışan;1;5;30
+Yönetim (bağlı çalışan);6–20 kişi;Toplam bağlı çalışan;6;20;60
+Yönetim (bağlı çalışan);21+ kişi;Toplam bağlı çalışan;21;;90
+Bütçe sorumluluğu (TL);Yok;Yönettiği bütçe yok;0;0;0
+Bütçe sorumluluğu (TL);10 milyon TL'ye kadar;Yıllık bütçe;1;10000000;50
+Bütçe sorumluluğu (TL);10 milyon TL üstü;Yıllık bütçe;10000001;;90
+Karar yetkisi;Talimatla çalışır;Tanımlı talimatları uygular, karar üst kademededir;;;10
+Karar yetkisi;Prosedür içinde karar;Yazılı prosedür ve talimatların sınırları içinde günlük kararları verir;;;30
+Karar yetkisi;Birim kararları;Biriminin hedef, kaynak, fiyat / yöntem kararlarını yetki sınırları içinde verir;;;60
+Karar yetkisi;Stratejik karar;Şirket politikasını ve stratejisini belirler;;;90
+İletişim;İç;Birim içi ve diğer birimlerle;;;10
+İletişim;Dış rutin;Dış taraflarla bilgi alışverişi, kurumu temsil;;;30
+İletişim;Dış müzakere;Dış taraflarla sözleşme, fiyat, koşul müzakeresi;;;60

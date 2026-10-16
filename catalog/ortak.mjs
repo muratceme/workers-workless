@@ -43,6 +43,7 @@ export const ORTAK = {
         ["Ücret Bandı Karşılaştırması", "İç ücret verisini kademe/pozisyon bazında ücret araştırması bantlarıyla kıyaslar, bant dışı çalışanları işaretler.", 3],
         ["Zam Bütçesi Simülasyonu", "Farklı zam oranı ve performans matrisi senaryolarında toplam personel maliyetini ve kişi bazlı yeni ücretleri hesaplar.", 3],
         ["Performans Primi Hesaplama", "Hedef gerçekleşme ve prim skalasına göre çalışan bazında performans primi tutarlarını hesaplar.", 3],
+        ["İş Tanımından İş Değerleme Puanlaması", "İş tanımlarını puan faktör planına göre kanıt cümlesiyle değerlendirir; puanı, kademeyi ve mevcut kademeyle farkı kod hesaplar", 3],
       ]},
       { id: "insan-kaynaklari-muduru", name: "İnsan Kaynakları Müdürü", level: "Yönetici", tasks: [
         ["Personel Devir Oranı Analizi", "Giriş-çıkış verisinden departman, kıdem ve yönetici bazında devir oranı ve erken ayrılma sinyallerini çıkarır.", 3],
