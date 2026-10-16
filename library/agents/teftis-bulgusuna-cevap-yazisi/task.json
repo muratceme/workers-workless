@@ -1,0 +1,20 @@
+{
+  "id": "teftis-bulgusuna-cevap-yazisi",
+  "tur": "agent",
+  "ad": "Teftiş Bulgusuna Cevap Yazısı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --bulgular bulgular.xlsx --notlar sube_notlari.txt --sube \"Kadıköy Şubesi\"",
+  "girdiler": [
+    "Bulgu listesi (.xlsx/.csv): Bulgu No, Bulgu, Önem, Açılış Tarihi (Kontrol / Bulgu Takibi kod bloğunun biçimi)",
+    "Şube notları (.txt/.docx): her blok 'Bulgu: No' satırıyla başlar; yapılan ve planlanan işler, tarihleriyle",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta, TCKN, IBAN ve --gizle ile verilen adlar maskelenir)"
+  ],
+  "ciktilar": ["Excel: Bulgular (takip tablosu; Termin, Kapanış Tarihi, Aksiyon Sahibi güncellenmiş + durum, kök neden, aksiyonlar), Cevap Yazısı, Kontrol"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

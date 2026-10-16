@@ -21,6 +21,7 @@ export const BANKA = {
       { id: "sube-operasyon-yoneticisi", name: "Şube Operasyon Yöneticisi", level: "Yönetici", tasks: [
         ["Şube Operasyonel Kontrol Listesi", "Günlük, haftalık ve aylık periyodik kontrolleri (kasa, kıymetli evrak, anahtar, yetki) sorumlu ve tamamlanma durumuyla takip eder.", 2],
         ["Kıymetli Evrak Sayım Kontrolü", "Kıymetli evrak (çek karnesi, kart, teminat mektubu formu) sayımını kayıtlarla karşılaştırıp seri numarası farklarını listeler.", 2],
+        ["Teftiş Bulgusuna Cevap Yazısı", "Teftiş / iç kontrol bulgularına şube notlarından durum, kök neden, aksiyon, termin ve resmî cevap yazar; takip tablosunu günceller", 2],
       ]},
       { id: "bireysel-portfoy-yoneticisi", name: "Bireysel Portföy Yöneticisi", level: "Uzman", tasks: [
         ["Portföy Müşteri Fırsat Listesi", "Portföydeki müşterilerin ürün sahipliği ve hareketlerinden çapraz satış fırsatlarını (kart, BES, sigorta, mevduat) önceliklendirir.", 4],

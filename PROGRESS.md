@@ -818,3 +818,5 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Toplam 450 görev, 452 paket (357 kod + 95 agent). AI Agents modunda hazırı olmayan rol: 14.
 - iade-eft-fast-musteri-bilgilendirme: Ödeme Sistemleri Operasyon Uzmanı. İade nedenlerini sınıflamak kod bloğunda zaten var; agent müşteri bilgilendirme mesajı yazar. Sağlayıcıya yalnız iade kodu ve banka açıklaması gider; ödeme listesi (tutar, alıcı, IBAN son 4, ref) kodla; söz ifadeleri engellenir.
 - Toplam 451 görev, 453 paket (357 kod + 96 agent). AI Agents modunda hazırı olmayan rol: 13.
+- Yeni agent: teftis-bulgusuna-cevap-yazisi (Şube Operasyon Yöneticisi). Şube notundan durum / kök neden / aksiyon / termin ve cevap yazısı; takip tablosu Kontrol / Bulgu Takibi bloğuna zincirlenir. Test: sahte model planlanan BT işini atlayıp 'Tamamlandı' dedi, kod eksik tarihi ve 'planlıyor' kuralını yakaladı.
+- Toplam 452 görev, 454 paket (357 kod + 97 agent). AI Agents modunda hazırı olmayan rol: 12.

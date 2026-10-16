@@ -1,0 +1,57 @@
+{
+ "T-26-14_hatali": {
+  "durum": "Tamamlandı",
+  "kok_neden": "Limit aşımı onaylarının sözlü alınması ve yönetici izindeyken vekâlet onayının sisteme girilmemesi.",
+  "alinan_aksiyonlar": [
+   "30.09.2026'da kasa personeline limit aşımı onay süreci eğitimi verildi",
+   "Limit aşımında onay zorunlu alan açılması için BT'ye talep açıldı (BT-8812)"
+  ],
+  "planlanan_aksiyonlar": [],
+  "kapanis_tarihi": "30.09.2026",
+  "termin": "",
+  "aksiyon_sahibi": "Şube Operasyon / BT",
+  "cevap": "Bulguya konu 6 işlemin 4'ünde yönetici onayının sözlü alındığı ancak sisteme girilmediği, 2'sinde ise yönetici izindeyken vekâlet onayının alınmadığı tespit edilmiştir. Personele 30.09.2026 tarihinde eğitim verilmiş ve sistemde onay zorunlu alan açılması için BT talebi oluşturulmuştur."
+ },
+ "T-26-14": {
+  "durum": "Devam ediyor",
+  "kok_neden": "Limit aşımı onaylarının sözlü alınması ve yönetici izindeyken vekâlet onayının sisteme girilmemesi.",
+  "alinan_aksiyonlar": [
+   "30.09.2026'da kasa personeline limit aşımı onay süreci eğitimi verildi",
+   "Onay zorunlu alan için BT'ye talep açıldı (BT-8812)"
+  ],
+  "planlanan_aksiyonlar": [
+   "Limit aşımında onay zorunlu alanın BT tarafından 30.11.2026'ya kadar devreye alınması (talep BT-8812)"
+  ],
+  "kapanis_tarihi": "",
+  "termin": "30.11.2026",
+  "aksiyon_sahibi": "Şube Operasyon / BT",
+  "cevap": "Bulguya konu 6 işlemin 4'ünde yönetici onayının sözlü alındığı ancak sisteme girilmediği, 2'sinde ise yönetici izindeyken vekâlet onayının alınmadığı tespit edilmiştir. Personele 30.09.2026 tarihinde eğitim verilmiş ve sistemde onay zorunlu alan açılması için BT talebi oluşturulmuştur. Sistem değişikliğinin BT tarafından 30.11.2026 tarihine kadar devreye alınması planlanmaktadır."
+ },
+ "T-26-15": {
+  "durum": "Devam ediyor",
+  "kok_neden": "Müşterilerden adres beyanının dönemsel güncellemesinin takip edilmemesi.",
+  "alinan_aksiyonlar": [
+   "9 müşterinin 7'sinin adres beyanı alındı",
+   "Ulaşılamayan 2 müşteriye 10.10.2026'da yazılı bildirim yapıldı"
+  ],
+  "planlanan_aksiyonlar": [
+   "Kalan 2 müşterinin adres beyanı 31.12.2026'ya kadar tamamlanacak"
+  ],
+  "kapanis_tarihi": "",
+  "termin": "31.12.2026",
+  "aksiyon_sahibi": "Şube Operasyon",
+  "cevap": "Eksik adres beyanı bulunan 9 müşterinin 7'sinin güncel beyanı alınmıştır. Ulaşılamayan 2 müşteriye 10.10.2026 tarihinde yazılı bildirim yapılmış olup kalan beyanların 31.12.2026 tarihine kadar tamamlanması planlanmaktadır."
+ },
+ "T-26-16": {
+  "durum": "Tamamlandı",
+  "kok_neden": "Yedek anahtar teslim tutanağının imza kontrolünün yapılmaması.",
+  "alinan_aksiyonlar": [
+   "Yedek anahtar teslim tutanağı 25.09.2026'da yeniden düzenlenip iki yetkiliye imzalatıldı"
+  ],
+  "planlanan_aksiyonlar": [],
+  "kapanis_tarihi": "25.09.2026",
+  "termin": "",
+  "aksiyon_sahibi": "Şube Operasyon",
+  "cevap": "Kasa dairesi yedek anahtar teslim tutanağı 25.09.2026 tarihinde yeniden düzenlenmiş ve iki yetkili tarafından imzalanmıştır."
+ }
+}
