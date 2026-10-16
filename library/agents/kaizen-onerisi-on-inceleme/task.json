@@ -1,0 +1,19 @@
+{
+  "id": "kaizen-onerisi-on-inceleme",
+  "tur": "agent",
+  "ad": "Kaizen Önerisi Ön İnceleme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --oneriler oneriler.xlsx --saat-maliyeti 420",
+  "girdiler": [
+    "Öneriler (.xlsx/.csv): Öneri No, Öneren, Bölüm, Öneri Metni (serbest metin)",
+    "Parametreler: işçilik saat maliyeti, yıllık çalışma günü, günlük vardiya sayısı",
+    ".env: sağlayıcı ve API anahtarı (öneren adları gönderilmez)"
+  ],
+  "ciktilar": ["Excel: Öneriler (Kaizen Önerisi Değerlendirme girdi sütunları + kategori, kazanç hesabı, uygulanabilirlik gerekçesi, benzer öneriler, eksik bilgiler, durum), Kontrol"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

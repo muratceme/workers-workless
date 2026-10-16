@@ -1,0 +1,138 @@
+{
+ "K-101": {
+  "konu": "Kalıp değişiminde hızlı bağlama aparatı",
+  "kategori": "Verimlilik",
+  "kazanc": [
+   {
+    "tur": "Zaman",
+    "miktar": "25",
+    "birim": "dakika",
+    "tekrar": "4",
+    "kisi": "2",
+    "periyot": "gün",
+    "birim_fiyat": "",
+    "aciklama": "Her kalıp değişimi 25 dk kısalır; günde 4 değişim, 2 kişi"
+   }
+  ],
+  "uygulama_maliyeti": "45.000",
+  "uygulanabilirlik": 4,
+  "uygulanabilirlik_gerekcesi": "Hazır aparatla bölüm içinde uygulanabilir; satın alma bütçesi gerekir.",
+  "benzer": [
+   "K-104"
+  ],
+  "eksik_bilgiler": [
+   "Aparatın hangi preslere uygun olduğu ve teklif"
+  ]
+ },
+ "K-102_hatali": {
+  "konu": "Montaj masasına önden erişimli eğimli vida rafı",
+  "kategori": "5S / Ergonomi",
+  "kazanc": [
+   {
+    "tur": "Zaman",
+    "miktar": "5",
+    "birim": "dakika",
+    "tekrar": "",
+    "kisi": "",
+    "periyot": "gün",
+    "birim_fiyat": "",
+    "aciklama": "Uzanma süresinden tasarruf (tahmini)"
+   }
+  ],
+  "uygulama_maliyeti": "",
+  "uygulanabilirlik": 5,
+  "uygulanabilirlik_gerekcesi": "Basit raf; bölüm içinde düşük maliyetle yapılabilir.",
+  "benzer": [],
+  "eksik_bilgiler": [
+   "Bir vida alımında kaç saniye kazanılıyor ve vardiyada kaç kez?",
+   "Kaç montaj masasında uygulanacak?"
+  ]
+ },
+ "K-102": {
+  "konu": "Montaj masasına önden erişimli eğimli vida rafı",
+  "kategori": "5S / Ergonomi",
+  "kazanc": [],
+  "uygulama_maliyeti": "",
+  "uygulanabilirlik": 5,
+  "uygulanabilirlik_gerekcesi": "Basit raf; bölüm içinde düşük maliyetle yapılabilir.",
+  "benzer": [],
+  "eksik_bilgiler": [
+   "Bir vida alımında kaç saniye kazanılıyor ve vardiyada kaç kez?",
+   "Kaç montaj masasında uygulanacak?"
+  ]
+ },
+ "K-103": {
+  "konu": "Kompresör hattındaki hava kaçaklarının giderilmesi",
+  "kategori": "Enerji",
+  "kazanc": [
+   {
+    "tur": "Doğrudan TL",
+    "miktar": "40.000",
+    "birim": "TL",
+    "tekrar": "",
+    "kisi": "",
+    "periyot": "yıl",
+    "birim_fiyat": "",
+    "aciklama": "Önerenin hesapladığı yıllık elektrik tasarrufu"
+   }
+  ],
+  "uygulama_maliyeti": "5.000",
+  "uygulanabilirlik": 5,
+  "uygulanabilirlik_gerekcesi": "Bakım ekibince düşük malzeme maliyetiyle yapılabilir.",
+  "benzer": [],
+  "eksik_bilgiler": [
+   "40.000 TL hesabının dayanağı (kaçak debisi, kompresör gücü, çalışma saati)"
+  ]
+ },
+ "K-104": {
+  "konu": "Pres hattında hızlı kalıp bağlama sistemi",
+  "kategori": "Verimlilik",
+  "kazanc": [],
+  "uygulama_maliyeti": "",
+  "uygulanabilirlik": 3,
+  "uygulanabilirlik_gerekcesi": "Çözüm ve maliyet belirtilmemiş; K-101 ile birlikte ele alınmalı.",
+  "benzer": [
+   "K-101"
+  ],
+  "eksik_bilgiler": [
+   "Kalıp değişimi şu an kaç dakika sürüyor, günde kaç kez?"
+  ]
+ },
+ "K-105": {
+  "konu": "Sac kesiminde yerleşim planı değişikliğiyle fire azaltma",
+  "kategori": "Maliyet",
+  "kazanc": [
+   {
+    "tur": "Malzeme",
+    "miktar": "300",
+    "birim": "kg",
+    "tekrar": "",
+    "kisi": "",
+    "periyot": "ay",
+    "birim_fiyat": "85",
+    "aciklama": "Ayda 300 kg daha az fire, kg 85 TL"
+   }
+  ],
+  "uygulama_maliyeti": "",
+  "uygulanabilirlik": 4,
+  "uygulanabilirlik_gerekcesi": "Yazılımda yerleşim değişikliği; kesim programı ve kalite onayı gerekir.",
+  "benzer": [],
+  "eksik_bilgiler": [
+   "Yeni yerleşimin parça kalitesine ve kesim süresine etkisi",
+   "Uygulama maliyeti (programlama süresi)"
+  ]
+ },
+ "K-106": {
+  "konu": "Forklift yoluna LED aydınlatma",
+  "kategori": "İSG",
+  "kazanc": [],
+  "uygulama_maliyeti": "",
+  "uygulanabilirlik": 4,
+  "uygulanabilirlik_gerekcesi": "Elektrik bakım ekibince yapılabilir; aydınlatma projesi ve teklif gerekir.",
+  "benzer": [],
+  "eksik_bilgiler": [
+   "Ramak kala olaylarının tarihleri ve İSG kaydı",
+   "Yolun uzunluğu ve mevcut aydınlatma seviyesi (lüks)"
+  ]
+ }
+}

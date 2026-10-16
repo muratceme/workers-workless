@@ -97,11 +97,13 @@ export const URETIM = {
         ["Zaman Etüdü ve Standart Süre", "Kronometre ölçümlerinden performans ve tolerans payıyla operasyon standart sürelerini hesaplar.", 3],
         ["Hat Dengeleme", "Operasyon süreleri ve öncelik ilişkilerinden hedef çevrim süresine göre istasyon atamasını ve hat verimini hesaplar.", 3],
         ["Kaizen Önerisi Değerlendirme", "Çalışan iyileştirme önerilerini kazanç, maliyet ve uygulanabilirliğe göre puanlar.", 2],
+        ["Kaizen Önerisi Ön İnceleme", "Çalışanların serbest metin iyileştirme önerilerini konu, kategori, kazanç bileşenleri, maliyet, uygulanabilirlik ve eksik bilgiyle kayda çevirir; yıllık kazancı sizin saat maliyetinizle kod hesaplar, benzer önerileri birleştirir.", 3],
       ]},
       { id: "surec-gelistirme-uzmani", name: "Süreç Geliştirme Uzmanı", level: "Uzman", tasks: [
         "OEE Hesaplama",
         "Duruş Nedeni Pareto Analizi",
         "Kaizen Önerisi Değerlendirme",
+        "Kaizen Önerisi Ön İnceleme",
       ]},
     ],
   },
