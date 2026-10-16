@@ -11,10 +11,12 @@ export const INSAAT = {
         ["Taşeron Hakediş Kontrolü", "Taşeronun sunduğu hakedişi sözleşme birim fiyatları, saha metrajları ve önceki hakedişlerle karşılaştırıp farkları listeler.", 4],
         ["Metraj Cetveli Kontrolü", "Metraj cetvelindeki hesap satırlarını (boyut × adet) yeniden hesaplar, poz toplamlarını ve mükerrer satırları kontrol eder.", 3],
         ["Birim Fiyat Analizi", "Malzeme, işçilik ve makine rayiçlerinden poz bazında birim fiyat analizi ve kâr-genel gider dahil fiyat oluşturur.", 3],
+        ["Süre Uzatımı Talep Taslağı", "Günlük şantiye raporlarındaki gecikme olaylarını sınıflar, talep edilebilir günleri kodla hesaplar (aynı gün bir kez, yüklenici kaynaklı hariç, eşzamanlı gecikme işaretli) ve sözleşme maddelerine dayanan süre uzatımı yazısı taslağı hazırlar.", 3],
       ]},
       { id: "teknik-ofis-sefi", name: "Teknik Ofis Şefi", level: "Yönetici", tasks: [
         ["Proje Maliyet Kontrol Raporu", "Bütçe, gerçekleşen maliyet ve hakediş gelirlerinden iş kalemi bazında maliyet sapması ve tamamlanma tahmini üretir.", 3],
         ["Fiyat Farkı Hesaplama", "Sözleşme katsayılarına (a, b1, b2, c...) ve TÜİK endekslerine göre dönem fiyat farkı katsayısını ve tutarını hesaplar.", 3],
+        "Süre Uzatımı Talep Taslağı",
       ]},
     ],
   },
@@ -43,6 +45,7 @@ export const INSAAT = {
       { id: "planlama-muhendisi", name: "Planlama Mühendisi", level: "Uzman", tasks: [
         ["İş Programı Kritik Yol Analizi", "Faaliyet süreleri ve bağımlılıklardan kritik yolu, bolluk sürelerini ve proje bitiş tarihini hesaplar.", 3],
         ["Kazanılmış Değer Analizi", "Planlanan değer, kazanılmış değer ve gerçekleşen maliyetten SPI, CPI ve tamamlanma maliyet tahminini hesaplar.", 3],
+        "Süre Uzatımı Talep Taslağı",
       ]},
       { id: "proje-kontrol-uzmani", name: "Proje Kontrol Uzmanı", level: "Uzman", tasks: [
         "Kazanılmış Değer Analizi",

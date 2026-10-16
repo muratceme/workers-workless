@@ -1,0 +1,5 @@
+=== Sözleşme ve genel şartname maddeleri (kurgusal örnek; kendi sözleşmenizden kopyalayın) ===
+Madde 30.1 - İdareden kaynaklanan sebeplerle işin süresinde bitirilememesi hâlinde, gecikilen süre kadar süre uzatımı verilir.
+Madde 30.2 - Mücbir sebepler ve olağanüstü hava koşulları nedeniyle işin durması hâlinde, yüklenicinin yazılı başvurusu üzerine süre uzatımı verilebilir.
+Madde 30.4 - Yüklenici, süre uzatımına neden olan olayın ortaya çıkışından itibaren 20 gün içinde idareye yazılı olarak başvurur.
+Madde 30.6 - Yüklenicinin kendi tedarikçisinden kaynaklanan gecikmeler süre uzatımı gerekçesi sayılmaz.

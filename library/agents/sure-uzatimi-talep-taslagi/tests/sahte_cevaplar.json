@@ -1,0 +1,100 @@
+{
+ "olaylar": {
+  "2026-10-05.txt": {
+   "olaylar": [
+    {
+     "tur": "Hava muhalefeti",
+     "durma": "Tam",
+     "etkilenen_is": "Tüm saha (B Blok 3. kat döşeme betonu, kalıp)",
+     "aciklama": "Yoğun yağış nedeniyle beton dökümü yapılamadı ve saha işleri durdu.",
+     "alinti": "Saha işleri tamamen durdu."
+    }
+   ]
+  },
+  "2026-10-06.txt": {
+   "olaylar": [
+    {
+     "tur": "Hava muhalefeti",
+     "durma": "Tam",
+     "etkilenen_is": "Tüm saha (beton dökümü)",
+     "aciklama": "Yağış devam ettiği için beton dökümü yapılamadı, saha durdu.",
+     "alinti": "Yağış devam etti, beton dökümü yapılamadı. Saha işleri durdu."
+    },
+    {
+     "tur": "İdare kaynaklı",
+     "durma": "Yok",
+     "etkilenen_is": "B Blok 3. kat kolon donatısı",
+     "aciklama": "28.09.2026'da sunulan revize statik proje idarece henüz onaylanmadı.",
+     "alinti": "revize statik proje hâlâ onaylanmadı"
+    }
+   ]
+  },
+  "2026-10-07.txt": {
+   "olaylar": [
+    {
+     "tur": "İdare kaynaklı",
+     "durma": "Kısmi",
+     "etkilenen_is": "B Blok 3. kat kolon donatısı",
+     "aciklama": "Revize statik proje onayı beklendiği için kolon donatısı imalatı yapılamadı; A Blok ince işler devam etti.",
+     "alinti": "Revize statik proje onayı beklendiği için B Blok 3. kat kolon donatısı imalatı yapılamadı"
+    }
+   ]
+  },
+  "2026-10-08.txt": {
+   "olaylar": [
+    {
+     "tur": "İdare kaynaklı",
+     "durma": "Kısmi",
+     "etkilenen_is": "B Blok kolon imalatı",
+     "aciklama": "Revize proje onayı beklendiği için B Blok kolon imalatı durdu.",
+     "alinti": "Revize proje onayı hâlâ bekleniyor; B Blok kolon imalatı durdu."
+    },
+    {
+     "tur": "Malzeme / tedarik",
+     "durma": "Kısmi",
+     "etkilenen_is": "Kiriş donatısı",
+     "aciklama": "Sözleşmeli demir tedarikçisi Ø16 demiri teslim etmedi.",
+     "alinti": "Demir tedarikçisi (sözleşmeli) Ø16 nervürlü demiri teslim etmedi"
+    }
+   ]
+  },
+  "2026-10-09.txt": {
+   "olaylar": [
+    {
+     "tur": "İdare kaynaklı",
+     "durma": "Yok",
+     "etkilenen_is": "B Blok kolon donatısı",
+     "aciklama": "İdare revize statik projeyi 2026/1187 sayılı yazıyla onayladı; öğleden sonra imalata başlandı.",
+     "alinti": "İdare revize statik projeyi bugün onayladı (yazı no 2026/1187)."
+    }
+   ]
+  }
+ },
+ "yazi_hatali": {
+  "konu": "B Blok kaba inşaat işleri – süre uzatımı talebi (05.10.2026 – 08.10.2026)",
+  "govde": "Kurgu Belediyesi Fen İşleri Müdürlüğü'ne,\n\nYüklenicisi bulunduğumuz B Blok kaba inşaat işlerinde 05.10.2026 – 08.10.2026 tarihleri arasında idaremizden ve olağanüstü hava koşullarından kaynaklanan gecikmeler yaşanmıştır. Olaylar günlük şantiye raporlarında kayıt altına alınmıştır.\n\n1. Olağanüstü hava koşulları (Madde 30.2): 05.10.2026 ve 06.10.2026 tarihlerinde yoğun yağış nedeniyle B Blok 3. kat döşeme betonu dökülememiş ve saha işleri tamamen durmuştur (2 gün tam duruş).\n\n2. İdare kaynaklı gecikme (Madde 30.1 ve Madde 30.3): 28.09.2026 tarihinde idarenize sunulan revize statik projenin onayı beklendiği için B Blok 3. kat kolon donatısı imalatı 07.10.2026 ve 08.10.2026 tarihlerinde yapılamamıştır (2 gün kısmi duruş). Revize proje 09.10.2026 tarihli ve 2026/1187 sayılı yazınızla onaylanmıştır. 08.10.2026 tarihinde ayrıca kiriş donatısı için demir tedarikinde gecikme yaşandığını; kolon imalatının ise aynı gün idare onayı beklendiği için yapılamadığını bilgilerinize sunarız.\n\nBu nedenlerle sözleşmenin ilgili maddeleri uyarınca toplam 4 gün süre uzatımı verilmesini arz ederiz.",
+  "dayanak_maddeler": [
+   "Madde 30.1",
+   "Madde 30.2",
+   "Madde 30.3"
+  ],
+  "ekler": [
+   "05.10.2026 – 09.10.2026 tarihli günlük şantiye raporları",
+   "Revize statik proje sunuş yazısı (28.09.2026)",
+   "İdarenin 2026/1187 sayılı onay yazısı"
+  ]
+ },
+ "yazi": {
+  "konu": "B Blok kaba inşaat işleri – süre uzatımı talebi (05.10.2026 – 08.10.2026)",
+  "govde": "Kurgu Belediyesi Fen İşleri Müdürlüğüne,\n\nFirmamızın yüklenicisi olduğu B Blok kaba inşaat işlerinde 05.10.2026 – 08.10.2026 tarihleri arasında idarenizden ve olağanüstü hava koşullarından kaynaklanan gecikmeler yaşanmıştır. Olaylar günlük şantiye raporlarında kayıt altına alınmıştır.\n\n1. Olağanüstü hava koşulları (Madde 30.2): 05.10.2026 ve 06.10.2026 tarihlerinde yoğun yağış nedeniyle B Blok 3. kat döşeme betonu dökülememiş ve saha işleri tamamen durmuştur (2 gün tam duruş).\n\n2. İdare kaynaklı gecikme (Madde 30.1): 28.09.2026 tarihinde idarenize sunulan revize statik projenin onayı beklendiği için B Blok 3. kat kolon donatısı imalatı 07.10.2026 ve 08.10.2026 tarihlerinde yapılamamıştır (2 gün kısmi duruş). Revize proje 09.10.2026 tarihli ve 2026/1187 sayılı yazınızla onaylanmıştır. 08.10.2026 tarihinde ayrıca kiriş donatısı için demir tedarikinde gecikme yaşandığını; kolon imalatının ise aynı gün idare onayı beklendiği için yapılamadığını bilgilerinize sunarız.\n\nBu nedenlerle sözleşmenin ilgili maddeleri uyarınca toplam 4 gün süre uzatımı verilmesini arz ederiz.",
+  "dayanak_maddeler": [
+   "Madde 30.1",
+   "Madde 30.2"
+  ],
+  "ekler": [
+   "05.10.2026 – 09.10.2026 tarihli günlük şantiye raporları",
+   "Revize statik proje sunuş yazısı (28.09.2026)",
+   "İdarenin 2026/1187 sayılı onay yazısı"
+  ]
+ }
+}

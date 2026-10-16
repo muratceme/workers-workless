@@ -1,0 +1,21 @@
+{
+  "id": "sure-uzatimi-talep-taslagi",
+  "tur": "agent",
+  "ad": "Süre Uzatımı Talep Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --raporlar ./gunluk_raporlar --sozlesme maddeler.txt --is \"B Blok kaba inşaat\" --idare \"Kurgu Belediyesi\" --basvuru-gun 20",
+  "girdiler": [
+    "Günlük şantiye raporları (.txt/.docx/.pdf): her rapor 'Tarih: GG.AA.YYYY' satırı içerir",
+    "Sözleşme / şartname maddeleri metni (siz verirsiniz)",
+    "İş ve idare adı, talep edilebilir neden türleri, başvuru süresi (isteğe bağlı)",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta ve kimlik numarası maskelenir)"
+  ],
+  "ciktilar": ["Excel: Olaylar (neden, durma derecesi, etkilenen iş, alıntı), Gün Hesabı (talep edilebilir gün, eşzamanlı gecikme, son başvuru tarihi), Yazı, Kontrol", "TXT: talep yazısı"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
