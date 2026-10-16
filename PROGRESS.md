@@ -816,3 +816,5 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Toplam 449 görev, 451 paket (357 kod + 94 agent). AI Agents modunda hazırı olmayan rol: 16.
 - servis-is-emri-3c-ve-garanti-metni: Servis Danışmanı, Garanti Uzmanı. 3C (Şikâyet / Neden / Çözüm); parça no ve işçilik notta aynen; şikâyete teknisyen bulgusu karışması yakalanır; garanti yıl / km ve garanti dışı işaretleri kodla. Plaka gönderilmez.
 - Toplam 450 görev, 452 paket (357 kod + 95 agent). AI Agents modunda hazırı olmayan rol: 14.
+- iade-eft-fast-musteri-bilgilendirme: Ödeme Sistemleri Operasyon Uzmanı. İade nedenlerini sınıflamak kod bloğunda zaten var; agent müşteri bilgilendirme mesajı yazar. Sağlayıcıya yalnız iade kodu ve banka açıklaması gider; ödeme listesi (tutar, alıcı, IBAN son 4, ref) kodla; söz ifadeleri engellenir.
+- Toplam 451 görev, 453 paket (357 kod + 96 agent). AI Agents modunda hazırı olmayan rol: 13.

@@ -1,0 +1,19 @@
+{
+  "id": "iade-eft-fast-musteri-bilgilendirme",
+  "tur": "agent",
+  "ad": "İade EFT / FAST Müşteri Bilgilendirme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --iadeler iadeler.xlsx --bilgi \"...\" --imza \"Ödeme Sistemleri\"",
+  "girdiler": [
+    "İade listesi (.xlsx/.csv): İade Gelen EFT / FAST Analizi kod bloğunun girdi biçimi",
+    "Sabit bilgi cümlesi ve imza (isteğe bağlı)",
+    ".env: sağlayıcı ve API anahtarı (yalnız iade kodu ve banka açıklaması gönderilir)"
+  ],
+  "ciktilar": ["Excel: Mesajlar (müşteri başına gönderime hazır mesaj), Neden Açıklamaları, Kontrol", "TXT: bütün mesajlar"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

@@ -109,6 +109,7 @@ export const BANKA = {
       { id: "odeme-sistemleri-operasyon-uzmani", name: "Ödeme Sistemleri Operasyon Uzmanı", level: "Uzman", tasks: [
         ["İade Gelen EFT/FAST Analizi", "İade gelen ödemeleri iade kodu, şube ve hata türüne göre sınıflandırıp tekrarlayan hata nedenlerini raporlar.", 3],
         ["Toplu Ödeme Dosyası Kontrolü", "Müşterilerin yüklediği toplu ödeme (maaş, tedarikçi) dosyalarında format, IBAN, mükerrer satır ve toplam kontrolü yapar.", 3],
+        ["İade EFT / FAST Müşteri Bilgilendirme", "İade gelen EFT / FAST ödemeleri için gönderen müşteriye iade nedenini sade dille açıklayan bilgilendirme mesajı taslağı hazırlar; ödeme listesini kod kurar, sağlayıcıya yalnız iade nedenleri gider.", 2],
       ]},
       { id: "dis-ticaret-operasyon-uzmani", name: "Dış Ticaret Operasyon Uzmanı", level: "Uzman", tasks: [
         "Akreditif Evrak Uygunluk Kontrolü",

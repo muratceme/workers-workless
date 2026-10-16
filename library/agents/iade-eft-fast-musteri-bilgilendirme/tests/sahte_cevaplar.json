@@ -1,0 +1,50 @@
+{
+ "hatali": {
+  "nedenler": [
+   {
+    "anahtar": "N1",
+    "sade_aciklama": "Alıcının hesabı kapalı olduğu için ödeme alıcı bankada hesaba geçirilemedi.",
+    "musteri_ne_yapmali": "Alıcıdan güncel ve açık bir hesaba ait IBAN'ı teyit edip ödemeyi yeniden yapabilirsiniz."
+   },
+   {
+    "anahtar": "N2",
+    "sade_aciklama": "Alıcı bankada IBAN'ın sahibi ile ödemede yazılan alıcı adı uyuşmadığı için ödeme kabul edilmedi.",
+    "musteri_ne_yapmali": "Alıcının hesap sahibi adını ve IBAN'ını alıcıyla teyit edip ödemeyi doğru bilgilerle yeniden yapabilirsiniz."
+   },
+   {
+    "anahtar": "N3",
+    "sade_aciklama": "Alıcı bankası, ödemede yazılan alıcı unvanının hesap sahibinin unvanıyla uyuşmadığını bildirdi.",
+    "musteri_ne_yapmali": "Alıcı firmanın tam unvanını (ticaret sicilindeki gibi) teyit ederek ödemeyi yeniden yapabilirsiniz."
+   },
+   {
+    "anahtar": "N4",
+    "sade_aciklama": "Ödeme, alıcı hesabındaki ya da ödeme sistemindeki tutar sınırı nedeniyle alıcı bankada işlenemedi.",
+    "musteri_ne_yapmali": "Ödemeniz yarın tekrar gönderilecektir."
+   }
+  ]
+ },
+ "dogru": {
+  "nedenler": [
+   {
+    "anahtar": "N1",
+    "sade_aciklama": "Alıcının hesabı kapalı olduğu için ödeme alıcı bankada hesaba geçirilemedi.",
+    "musteri_ne_yapmali": "Alıcıdan güncel ve açık bir hesaba ait IBAN'ı teyit edip ödemeyi yeniden yapabilirsiniz."
+   },
+   {
+    "anahtar": "N2",
+    "sade_aciklama": "Alıcı bankada IBAN'ın sahibi ile ödemede yazılan alıcı adı uyuşmadığı için ödeme kabul edilmedi.",
+    "musteri_ne_yapmali": "Alıcının hesap sahibi adını ve IBAN'ını alıcıyla teyit edip ödemeyi doğru bilgilerle yeniden yapabilirsiniz."
+   },
+   {
+    "anahtar": "N3",
+    "sade_aciklama": "Alıcı bankası, ödemede yazılan alıcı unvanının hesap sahibinin unvanıyla uyuşmadığını bildirdi.",
+    "musteri_ne_yapmali": "Alıcı firmanın tam unvanını (ticaret sicilindeki gibi) teyit ederek ödemeyi yeniden yapabilirsiniz."
+   },
+   {
+    "anahtar": "N4",
+    "sade_aciklama": "Ödeme, alıcı hesabındaki ya da ödeme sistemindeki tutar sınırı nedeniyle alıcı bankada işlenemedi.",
+    "musteri_ne_yapmali": "Alıcıyla görüşerek ödemeyi daha küçük tutarlarla ya da EFT ile yeniden yapmayı değerlendirebilir, ayrıntı için şubenize başvurabilirsiniz."
+   }
+  ]
+ }
+}

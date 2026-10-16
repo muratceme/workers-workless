@@ -1,0 +1,5 @@
+Referans;Gönderim Tarihi;İade Tarihi;Şube;Kanal;Sistem;Gönderen Müşteri;Alıcı;Alıcı IBAN;Tutar;İade Kodu;İade Açıklaması;Kullanıcı
+REF700109;01.09.2026;04.09.2026;Sanayi;İnternet;FAST;M30316;Deneme Yapı Ltd.;TR070001000000001247492411;1.500,00;R02;Hesap kapalı;
+REF700110;01.09.2026;01.09.2026;Sanayi;Şube;EFT;M30898;Kurgu Tekstil A.Ş.;TR730001000000004331796634;9.800,00;R01;Alıcı adı ile IBAN uyuşmuyor;K14
+REF700111;02.09.2026;02.09.2026;Sanayi;Mobil;FAST;M30316;Örnek Gıda A.Ş.;TR290006400000007555670302;2.250,00;R01;ALICI UNVANI HATALI;
+REF700149;01.09.2026;01.09.2026;Sanayi;Toplu Ödeme;FAST;M30265;Hayali Lojistik;TR390006200000001015642011;12.000,00;R07;Limit aşımı;
