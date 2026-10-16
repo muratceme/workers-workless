@@ -1,0 +1,34 @@
+{
+ "Stok-001": {
+  "baslik": "Örnek Marka Model A 2020 · 85.000 km · Tek Kullanıcı",
+  "aciklama": "2020 model Örnek Marka Model A, 85.000 km'de, benzinli ve otomatik vitesli, Orta paket, beyaz renk.\n\nTüm bakımları yetkili serviste yapıldı; son bakım 80.000 km'de. 2 anahtarı mevcut.\n\nTek kullanıcılı ve sigara içilmemiş bir araç. Görmek ve test sürüşü için bizi arayabilirsiniz.",
+  "donanim": [
+   "geri görüş kamerası",
+   "ön ve arka park sensörü",
+   "Apple CarPlay",
+   "otomatik klima",
+   "LED far"
+  ],
+  "ekspertiz_ozeti": "Sağ arka çamurlukta lokal boya vardır. Boyalı (tam boya) ve değişen parça yoktur; tramer (hasar) kaydı yoktur."
+ },
+ "Stok-002_hatali": {
+  "baslik": "Örnek Marka Model A 2020 · 150.000 km · Triger Seti Değişti",
+  "aciklama": "2020 model Örnek Marka Model A, 150.000 km'de, benzinli ve otomatik vitesli, Orta paket, gri renk.\n\nSon bakımı 145.000 km'de yapıldı ve triger seti değiştirildi.\n\nAraç hakkında ayrıntılı bilgi ve ekspertiz raporu için bizi arayabilirsiniz.",
+  "donanim": [
+   "geri görüş kamerası",
+   "otomatik klima",
+   "hız sabitleyici"
+  ],
+  "ekspertiz_ozeti": "Sol ön çamurluk boyalıdır. Araçta 45.000 TL tramer (hasar) kaydı vardır."
+ },
+ "Stok-002": {
+  "baslik": "Örnek Marka Model A 2020 · 150.000 km · Triger Seti Değişti",
+  "aciklama": "2020 model Örnek Marka Model A, 150.000 km'de, benzinli ve otomatik vitesli, Orta paket, gri renk.\n\nSon bakımı 145.000 km'de yapıldı ve triger seti değiştirildi.\n\nAraç hakkında ayrıntılı bilgi ve ekspertiz raporu için bizi arayabilirsiniz.",
+  "donanim": [
+   "geri görüş kamerası",
+   "otomatik klima",
+   "hız sabitleyici"
+  ],
+  "ekspertiz_ozeti": "Sol ön çamurluk boyalıdır. Ön kaput değişmiştir; değişim 2024'teki hafif çarpma sonrası yetkili serviste yapılmıştır. Araçta 45.000 TL tramer (hasar) kaydı vardır."
+ }
+}

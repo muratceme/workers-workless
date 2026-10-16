@@ -1,0 +1,17 @@
+Araç: Stok-001
+Boyalı: yok
+Lokal boyalı: sağ arka çamurluk
+Değişen: yok
+Tramer: yok
+Bakım: Tüm bakımları yetkili serviste yapıldı, son bakım 80.000 km'de. 2 anahtar mevcut.
+Donanım: geri görüş kamerası, ön ve arka park sensörü, Apple CarPlay, otomatik klima, LED far
+Not: Tek kullanıcılı, sigara içilmemiş.
+
+Araç: Stok-002
+Boyalı: sol ön çamurluk
+Lokal boyalı: yok
+Değişen: ön kaput
+Tramer: 45.000 TL
+Bakım: Son bakım 145.000 km'de yapıldı, triger seti değişti.
+Donanım: geri görüş kamerası, otomatik klima, hız sabitleyici
+Not: Ön kaput değişimi 2024'teki hafif çarpma sonrası yetkili serviste yapıldı.

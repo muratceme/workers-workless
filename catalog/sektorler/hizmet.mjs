@@ -120,6 +120,7 @@ export const OTOMOTIV = {
       ]},
       { id: "ikinci-el-satis-danismani", name: "İkinci El Satış Danışmanı", level: "Uzman", tasks: [
         ["İkinci El Araç Fiyat Değerleme", "Benzer ilan verisinden (marka, model, yıl, km, donanım) piyasa fiyat aralığı ve alım fiyatı önerisi üretir.", 3],
+        ["İkinci El Araç İlan Metni", "Araç kartı ve ekspertiz notlarından ilan metni yazar; boyalı / değişen parçaların ve tramerin eksiksiz yazıldığını, ekspertizle çelişen ifade olmadığını kod denetler", 2],
       ]},
     ],
   },

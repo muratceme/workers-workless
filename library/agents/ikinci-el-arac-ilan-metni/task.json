@@ -1,0 +1,20 @@
+{
+  "id": "ikinci-el-arac-ilan-metni",
+  "tur": "agent",
+  "ad": "İkinci El Araç İlan Metni",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --araclar araclar.xlsx --ekspertiz ekspertiz_notlari.docx --baslik-sinir 60",
+  "girdiler": [
+    "Araç kartları (.xlsx/.csv): Araç; Marka; Model; Yıl; Km; Yakıt; Vites; Paket; Renk; İlan Fiyatı (İkinci El Araç Fiyat Değerleme kod bloğunun araç dosyası + Renk, İlan Fiyatı)",
+    "Ekspertiz notları (.txt/.docx/.pdf): 'Araç: No' blokları; Boyalı, Lokal boyalı, Değişen, Tramer, Bakım, Donanım, Not satırları",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta, TCKN maskelenir)"
+  ],
+  "ciktilar": ["Excel: İlanlar (başlık, açıklama, donanım, ekspertiz özeti, son kontrol), Kontrol", "Metin dosyası: yayına hazır ilan metinleri"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
