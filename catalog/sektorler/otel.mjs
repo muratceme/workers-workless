@@ -72,6 +72,7 @@ export const OTEL = {
         "Porsiyon Maliyeti Hesaplama",
         "Menü Mühendisliği Analizi",
         "Reçete Maliyet Hesaplama",
+        ["Serbest Tariften Standart Reçete Kartı", "Serbest yazılmış tarifleri malzeme, ölçü, adım ve alerjenleriyle standart reçete kartına dönüştürür; ev ölçülerini g / ml'ye kod çevirir, alerjeni kod denetler", 2],
       ]},
     ],
   },

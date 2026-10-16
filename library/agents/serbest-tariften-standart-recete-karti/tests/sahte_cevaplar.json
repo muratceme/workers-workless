@@ -1,0 +1,203 @@
+{
+ "Mercimek Çorbası_hatali": {
+  "malzemeler": [
+   {
+    "tarifteki_ad": "kırmızı mercimek",
+    "malzeme": "Kırmızı Mercimek",
+    "miktar": "5",
+    "olcu": "su bardağı",
+    "fire": "",
+    "kanit": "5 su bardağı kırmızı mercimek"
+   },
+   {
+    "tarifteki_ad": "orta boy kuru soğan",
+    "malzeme": "Kuru Soğan",
+    "miktar": "2",
+    "olcu": "adet",
+    "fire": "",
+    "kanit": "2 adet orta boy kuru soğan"
+   },
+   {
+    "tarifteki_ad": "tereyağı",
+    "malzeme": "Tereyağı",
+    "miktar": "3",
+    "olcu": "yemek kaşığı",
+    "fire": "",
+    "kanit": "3 yemek kaşığı tereyağı"
+   },
+   {
+    "tarifteki_ad": "un",
+    "malzeme": "Un",
+    "miktar": "1",
+    "olcu": "yemek kaşığı",
+    "fire": "",
+    "kanit": "1 yemek kaşığı un"
+   },
+   {
+    "tarifteki_ad": "su",
+    "malzeme": "Su",
+    "miktar": "2",
+    "olcu": "l",
+    "fire": "",
+    "kanit": "2 litre su"
+   },
+   {
+    "tarifteki_ad": "tuz",
+    "malzeme": "Tuz",
+    "miktar": "1",
+    "olcu": "tatlı kaşığı",
+    "fire": "",
+    "kanit": "1 tatlı kaşığı tuz"
+   },
+   {
+    "tarifteki_ad": "limon",
+    "malzeme": "Limon",
+    "miktar": "2",
+    "olcu": "adet",
+    "fire": "",
+    "kanit": "Servis için 2 limon"
+   }
+  ],
+  "adimlar": [
+   "Soğanları doğrayıp tereyağında kavurun.",
+   "Unu ekleyip 1 dakika çevirin.",
+   "Yıkanmış mercimeği ve suyu ekleyin, 30 dakika pişirin.",
+   "Blenderdan geçirip tuzunu ayarlayın.",
+   "Limonla servis edin."
+  ],
+  "alerjenler": [
+   "Gluten içeren tahıllar"
+  ],
+  "belirsizlikler": [
+   "Porsiyon gramajı (kase hacmi) yazılmamış.",
+   "Soğanların doğrama biçimi ve kavurma süresi belirtilmemiş."
+  ]
+ },
+ "Mevsim Salata": {
+  "malzemeler": [
+   {
+    "tarifteki_ad": "domates",
+    "malzeme": "Domates",
+    "miktar": "2",
+    "olcu": "adet",
+    "fire": "",
+    "kanit": "2 adet domates"
+   },
+   {
+    "tarifteki_ad": "salatalık",
+    "malzeme": "Salatalık",
+    "miktar": "1",
+    "olcu": "adet",
+    "fire": "",
+    "kanit": "1 adet salatalık"
+   },
+   {
+    "tarifteki_ad": "zeytinyağı",
+    "malzeme": "Zeytinyağı",
+    "miktar": "2",
+    "olcu": "yemek kaşığı",
+    "fire": "",
+    "kanit": "2 yemek kaşığı zeytinyağı"
+   },
+   {
+    "tarifteki_ad": "limon suyu",
+    "malzeme": "Limon",
+    "miktar": "0,5",
+    "olcu": "adet",
+    "fire": "",
+    "kanit": "Yarım limonun suyu"
+   },
+   {
+    "tarifteki_ad": "tuz",
+    "malzeme": "Tuz",
+    "miktar": "1",
+    "olcu": "tutam",
+    "fire": "",
+    "kanit": "1 tutam tuz"
+   }
+  ],
+  "adimlar": [
+   "Domates ve salatalığı küp doğrayın.",
+   "Zeytinyağı, limon suyu ve tuzla karıştırın."
+  ],
+  "alerjenler": [],
+  "belirsizlikler": [
+   "Küp boyutu belirtilmemiş."
+  ]
+ },
+ "Mercimek Çorbası": {
+  "malzemeler": [
+   {
+    "tarifteki_ad": "kırmızı mercimek",
+    "malzeme": "Kırmızı Mercimek",
+    "miktar": "5",
+    "olcu": "su bardağı",
+    "fire": "",
+    "kanit": "5 su bardağı kırmızı mercimek"
+   },
+   {
+    "tarifteki_ad": "orta boy kuru soğan",
+    "malzeme": "Kuru Soğan",
+    "miktar": "2",
+    "olcu": "adet",
+    "fire": "",
+    "kanit": "2 adet orta boy kuru soğan"
+   },
+   {
+    "tarifteki_ad": "tereyağı",
+    "malzeme": "Tereyağı",
+    "miktar": "3",
+    "olcu": "yemek kaşığı",
+    "fire": "",
+    "kanit": "3 yemek kaşığı tereyağı"
+   },
+   {
+    "tarifteki_ad": "un",
+    "malzeme": "Un",
+    "miktar": "1",
+    "olcu": "yemek kaşığı",
+    "fire": "",
+    "kanit": "1 yemek kaşığı un"
+   },
+   {
+    "tarifteki_ad": "su",
+    "malzeme": "Su",
+    "miktar": "2",
+    "olcu": "l",
+    "fire": "",
+    "kanit": "2 litre su"
+   },
+   {
+    "tarifteki_ad": "tuz",
+    "malzeme": "Tuz",
+    "miktar": "1",
+    "olcu": "tatlı kaşığı",
+    "fire": "",
+    "kanit": "1 tatlı kaşığı tuz"
+   },
+   {
+    "tarifteki_ad": "limon",
+    "malzeme": "Limon",
+    "miktar": "2",
+    "olcu": "adet",
+    "fire": "",
+    "kanit": "Servis için 2 limon"
+   }
+  ],
+  "adimlar": [
+   "Soğanları doğrayıp tereyağında kavurun.",
+   "Unu ekleyip 1 dakika çevirin.",
+   "Yıkanmış mercimeği ve suyu ekleyin, 30 dakika pişirin.",
+   "Blenderdan geçirip tuzunu ayarlayın.",
+   "Limonla servis edin."
+  ],
+  "alerjenler": [
+   "Gluten içeren tahıllar",
+   "Süt ve süt ürünleri (laktoz dahil)"
+  ],
+  "belirsizlikler": [
+   "Porsiyon gramajı (kase hacmi) yazılmamış.",
+   "Soğanların doğrama biçimi ve kavurma süresi belirtilmemiş."
+  ]
+ }
+}
