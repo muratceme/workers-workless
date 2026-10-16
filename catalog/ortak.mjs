@@ -37,6 +37,7 @@ export const ORTAK = {
         ["Eğitim İhtiyaç Analizi", "Yönetici ve çalışan anketlerini, performans sonuçlarını birleştirip departman bazında eğitim ihtiyacı önceliklendirmesi çıkarır.", 3],
         ["Yıllık Eğitim Planı", "Eğitim ihtiyaçları, bütçe ve takvime göre yıllık eğitim planı ve katılımcı listelerini oluşturur.", 2],
         ["Eğitim Değerlendirme Raporu", "Katılım, sınav ve memnuniyet anketlerinden eğitim etkinlik raporu üretir.", 2],
+        ["Eğitim Değerlendirme Yorumları Analizi", "Değerlendirme anketinin açık uçlu yorumlarını tema ve yöne ayırır; güçlü yönleri, geliştirme alanlarını ve eğitmen notunu çıkarır (anonimlik eşiğiyle)", 2],
       ]},
       { id: "ucretlendirme-ve-yan-haklar-uzmani", name: "Ücretlendirme ve Yan Haklar Uzmanı", level: "Uzman", tasks: [
         ["Ücret Bandı Karşılaştırması", "İç ücret verisini kademe/pozisyon bazında ücret araştırması bantlarıyla kıyaslar, bant dışı çalışanları işaretler.", 3],

@@ -1,0 +1,18 @@
+{
+  "id": "egitim-degerlendirme-yorumlari-analizi",
+  "tur": "agent",
+  "ad": "Eğitim Değerlendirme Yorumları Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --anket degerlendirme.xlsx --min-yanit 3",
+  "girdiler": [
+    "Değerlendirme anketi (.xlsx/.csv): Eğitim, Eğitmen, Katılımcı, Memnuniyet + yorum sütunları (Beğendiğiniz, Geliştirilmesi Gereken, Yorum …); Eğitim Değerlendirme Raporu kod bloğunun dosyasına sütun eklenerek kullanılabilir",
+    ".env: sağlayıcı ve API anahtarı (Katılımcı sütunu gönderilmez; yorumlarda geçen katılımcı / eğitmen adları takma adla, telefon ve e-posta maskeli)"
+  ],
+  "ciktilar": ["Excel: Özet, Geliştirme Alanları, Güçlü Yönler, Yorumlar (tema / yön), Tema Tablosu, Eğitmen Notları, Kontrol"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

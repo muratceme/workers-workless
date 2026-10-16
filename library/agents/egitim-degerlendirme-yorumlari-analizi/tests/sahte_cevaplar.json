@@ -1,0 +1,384 @@
+{
+ "İleri Excel_hatali": {
+  "etiketler": [
+   {
+    "id": "Y1",
+    "temalar": [
+     {
+      "tema": "Uygulama ve örnekler",
+      "yon": "Olumlu"
+     }
+    ]
+   },
+   {
+    "id": "Y2",
+    "temalar": [
+     {
+      "tema": "Süre ve tempo",
+      "yon": "Olumsuz"
+     },
+     {
+      "tema": "İçerik",
+      "yon": "Olumsuz"
+     }
+    ]
+   },
+   {
+    "id": "Y3",
+    "temalar": [
+     {
+      "tema": "Eğitmen",
+      "yon": "Olumlu"
+     }
+    ]
+   },
+   {
+    "id": "Y4",
+    "temalar": [
+     {
+      "tema": "Materyal",
+      "yon": "Öneri"
+     }
+    ]
+   },
+   {
+    "id": "Y5",
+    "temalar": [
+     {
+      "tema": "Ortam ve teknik",
+      "yon": "Olumsuz"
+     }
+    ]
+   },
+   {
+    "id": "Y6",
+    "temalar": [
+     {
+      "tema": "Uygulama ve örnekler",
+      "yon": "Olumlu"
+     }
+    ]
+   },
+   {
+    "id": "Y7",
+    "temalar": [
+     {
+      "tema": "Süre ve tempo",
+      "yon": "Olumsuz"
+     }
+    ]
+   },
+   {
+    "id": "Y8",
+    "temalar": [
+     {
+      "tema": "Materyal",
+      "yon": "Olumlu"
+     }
+    ]
+   },
+   {
+    "id": "Y9",
+    "temalar": [
+     {
+      "tema": "İçerik",
+      "yon": "Öneri"
+     }
+    ]
+   }
+  ],
+  "guclu_yonler": [
+   {
+    "baslik": "İşe doğrudan uygulanabilir, gerçek veriyle örnekler",
+    "yorumlar": [
+     "Y1",
+     "Y6"
+    ]
+   },
+   {
+    "baslik": "Eğitmenin soruları sabırla cevaplaması",
+    "yorumlar": [
+     "Y3"
+    ]
+   },
+   {
+    "baslik": "Kısayol listesi",
+    "yorumlar": [
+     "Y8"
+    ]
+   }
+  ],
+  "gelistirme_alanlari": [
+   {
+    "baslik": "Süre yetmedi, Power Query işlenemedi",
+    "yorumlar": [
+     "Y2",
+     "Y9"
+    ],
+    "oneri": "Power Query için ayrı bir oturum planlanmalı ya da eğitim süresi uzatılmalı."
+   },
+   {
+    "baslik": "Tempo ileri seviyeye göre ayarlandı",
+    "yorumlar": [
+     "Y7"
+    ],
+    "oneri": "Eğitim öncesi kısa seviye testiyle gruplar ayrılmalı ya da temel konular için ön modül verilmeli."
+   },
+   {
+    "baslik": "Örnek dosyalar önceden paylaşılmadı",
+    "yorumlar": [
+     "Y4"
+    ],
+    "oneri": "Örnek dosyalar eğitimden en az bir gün önce katılımcılara gönderilmeli."
+   }
+  ],
+  "egitmen_notu": "Katılımcılar gerçek iş verisiyle çalışılan, doğrudan raporlara uygulanabilen örnekleri ve sorulara sabırla verilen cevapları eğitimin en güçlü yanı olarak belirtti. Geliştirme alanı olarak süre öne çıkıyor: Power Query bölümüne zaman kalmadı ve bu konu için ayrı oturum istendi. Temposu ileri seviyedeki katılımcılara göre ilerlediği için temel bilgisi az olanlar geride kaldığını belirtti; bir sonraki grupta seviye ayrımı ya da ön modül faydalı olur. Örnek dosyaların eğitimden önce paylaşılması takibi kolaylaştıracaktır."
+ },
+ "İleri Excel": {
+  "etiketler": [
+   {
+    "id": "Y1",
+    "temalar": [
+     {
+      "tema": "Uygulama ve örnekler",
+      "yon": "Olumlu"
+     }
+    ]
+   },
+   {
+    "id": "Y2",
+    "temalar": [
+     {
+      "tema": "Süre ve tempo",
+      "yon": "Olumsuz"
+     },
+     {
+      "tema": "İçerik",
+      "yon": "Olumsuz"
+     }
+    ]
+   },
+   {
+    "id": "Y3",
+    "temalar": [
+     {
+      "tema": "Eğitmen",
+      "yon": "Olumlu"
+     }
+    ]
+   },
+   {
+    "id": "Y4",
+    "temalar": [
+     {
+      "tema": "Materyal",
+      "yon": "Öneri"
+     }
+    ]
+   },
+   {
+    "id": "Y5",
+    "temalar": [
+     {
+      "tema": "Ortam ve teknik",
+      "yon": "Olumsuz"
+     }
+    ]
+   },
+   {
+    "id": "Y6",
+    "temalar": [
+     {
+      "tema": "Uygulama ve örnekler",
+      "yon": "Olumlu"
+     }
+    ]
+   },
+   {
+    "id": "Y7",
+    "temalar": [
+     {
+      "tema": "Süre ve tempo",
+      "yon": "Olumsuz"
+     }
+    ]
+   },
+   {
+    "id": "Y8",
+    "temalar": [
+     {
+      "tema": "Materyal",
+      "yon": "Olumlu"
+     }
+    ]
+   },
+   {
+    "id": "Y9",
+    "temalar": [
+     {
+      "tema": "İçerik",
+      "yon": "Öneri"
+     }
+    ]
+   }
+  ],
+  "guclu_yonler": [
+   {
+    "baslik": "İşe doğrudan uygulanabilir, gerçek veriyle örnekler",
+    "yorumlar": [
+     "Y1",
+     "Y6"
+    ]
+   },
+   {
+    "baslik": "Eğitmenin soruları sabırla cevaplaması",
+    "yorumlar": [
+     "Y3"
+    ]
+   },
+   {
+    "baslik": "Kısayol listesi",
+    "yorumlar": [
+     "Y8"
+    ]
+   }
+  ],
+  "gelistirme_alanlari": [
+   {
+    "baslik": "Süre yetmedi, Power Query işlenemedi",
+    "yorumlar": [
+     "Y2",
+     "Y9"
+    ],
+    "oneri": "Power Query için ayrı bir oturum planlanmalı ya da eğitim süresi uzatılmalı."
+   },
+   {
+    "baslik": "Tempo ileri seviyeye göre ayarlandı",
+    "yorumlar": [
+     "Y7"
+    ],
+    "oneri": "Eğitim öncesi kısa seviye testiyle gruplar ayrılmalı ya da temel konular için ön modül verilmeli."
+   },
+   {
+    "baslik": "Örnek dosyalar önceden paylaşılmadı",
+    "yorumlar": [
+     "Y4"
+    ],
+    "oneri": "Örnek dosyalar eğitimden en az bir gün önce katılımcılara gönderilmeli."
+   },
+   {
+    "baslik": "Salon sıcaklığı ve eski Excel sürümü",
+    "yorumlar": [
+     "Y5"
+    ],
+    "oneri": "Eğitim birimi salonun iklimlendirmesini ve bilgisayarlardaki Excel sürümünü eğitimden önce kontrol etmeli."
+   }
+  ],
+  "egitmen_notu": "Katılımcılar gerçek iş verisiyle çalışılan, doğrudan raporlara uygulanabilen örnekleri ve sorulara sabırla verilen cevapları eğitimin en güçlü yanı olarak belirtti. Geliştirme alanı olarak süre öne çıkıyor: Power Query bölümüne zaman kalmadı ve bu konu için ayrı oturum istendi. Temposu ileri seviyedeki katılımcılara göre ilerlediği için temel bilgisi az olanlar geride kaldığını belirtti; bir sonraki grupta seviye ayrımı ya da ön modül faydalı olur. Örnek dosyaların eğitimden önce paylaşılması takibi kolaylaştıracaktır. Salonun sıcak olması ve bazı bilgisayarlarda Excel sürümünün eski olması eğitmenin kontrolünde değildir; bunu eğitim birimi ele alacak."
+ },
+ "Etkili Sunum": {
+  "etiketler": [
+   {
+    "id": "Y1",
+    "temalar": [
+     {
+      "tema": "Uygulama ve örnekler",
+      "yon": "Olumsuz"
+     }
+    ]
+   },
+   {
+    "id": "Y2",
+    "temalar": [
+     {
+      "tema": "İçerik",
+      "yon": "Olumlu"
+     }
+    ]
+   },
+   {
+    "id": "Y3",
+    "temalar": [
+     {
+      "tema": "Uygulama ve örnekler",
+      "yon": "Olumsuz"
+     }
+    ]
+   },
+   {
+    "id": "Y4",
+    "temalar": [
+     {
+      "tema": "Eğitmen",
+      "yon": "Olumlu"
+     }
+    ]
+   },
+   {
+    "id": "Y5",
+    "temalar": [
+     {
+      "tema": "Süre ve tempo",
+      "yon": "Olumsuz"
+     },
+     {
+      "tema": "Organizasyon",
+      "yon": "Olumsuz"
+     }
+    ]
+   },
+   {
+    "id": "Y6",
+    "temalar": [
+     {
+      "tema": "İçerik",
+      "yon": "Olumlu"
+     }
+    ]
+   },
+   {
+    "id": "Y7",
+    "temalar": [
+     {
+      "tema": "Uygulama ve örnekler",
+      "yon": "Öneri"
+     }
+    ]
+   }
+  ],
+  "guclu_yonler": [
+   {
+    "baslik": "Slayt tasarımı, ses ve beden dili içerikleri",
+    "yorumlar": [
+     "Y2",
+     "Y6"
+    ]
+   },
+   {
+    "baslik": "Eğitmenin kendi deneyiminden örnekleri",
+    "yorumlar": [
+     "Y4"
+    ]
+   }
+  ],
+  "gelistirme_alanlari": [
+   {
+    "baslik": "Uygulama yok, eğitim fazla teorik",
+    "yorumlar": [
+     "Y1",
+     "Y3",
+     "Y7"
+    ],
+    "oneri": "Her katılımcının kısa bir sunum yapıp eğitmenden ve gruptan geri bildirim aldığı uygulama bölümü eklenmeli."
+   },
+   {
+    "baslik": "Öğleden sonra bölümü uzun, ara verilmedi",
+    "yorumlar": [
+     "Y5"
+    ],
+    "oneri": "Öğleden sonraki bölüm bölünmeli ve düzenli ara verilmeli; eğitim birimi programı buna göre planlamalı."
+   }
+  ],
+  "egitmen_notu": "Katılımcılar slayt tasarımı ilkelerini, ses ve beden dili bölümünü ve kendi deneyimlerinizden verdiğiniz örnekleri faydalı buldu. En belirgin geliştirme alanı uygulama eksikliği: birden çok katılımcı eğitimin teorik kaldığını ve kendi sunumlarını yapıp geri bildirim alamadıklarını belirtti. Bir sonraki oturumda her katılımcıya kısa bir sunum provası ve geri bildirim zamanı ayrılması öneriliyor. Öğleden sonraki bölümün uzunluğu ve ara verilmemesi de yorucu bulundu; program düzenini eğitim birimi ele alacak."
+ }
+}

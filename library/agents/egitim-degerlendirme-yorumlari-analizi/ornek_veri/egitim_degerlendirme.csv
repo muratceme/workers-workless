@@ -1,0 +1,14 @@
+Eğitim;Eğitmen;Katılımcı;Departman;Katıldı;Ön Test;Son Test;Memnuniyet;Beğendiğiniz;Geliştirilmesi Gereken
+İleri Excel;Burak Aydın;Deniz Kara;Finans;Evet;40;80;5;Pivot tablo ve XLOOKUP örnekleri doğrudan işimdeki raporlara uygulanabilir.;Süre kısaydı, Power Query bölümüne zaman kalmadı.
+İleri Excel;Burak Aydın;Elif Şahin;Finans;Evet;60;70;4;Eğitmen soruları sabırla cevapladı.;Örnek dosyalar eğitimden önce paylaşılsaydı takip etmek kolay olurdu.
+İleri Excel;Burak Aydın;Can Yıldız;Satış;Evet;50;65;3;;Salon çok sıcaktı, iki bilgisayarda Excel sürümü eskiydi ve XLOOKUP çalışmadı.
+İleri Excel;Burak Aydın;Selin Öz;Satış;Evet;;90;5;Gerçek satış verisiyle çalışmamız çok faydalıydı.;
+İleri Excel;Burak Aydın;Ozan Demir;Satış;Evet;55;60;2;;Tempo çok hızlıydı, Deniz Kara gibi ileri seviyedekilere göre ilerledi, temel bilgisi az olanlar geride kaldı.
+İleri Excel;Burak Aydın;Ece Tan;Finans;Evet;45;85;4;Kısayol listesi işe yaradı.;Power Query için ayrı bir oturum yapılmalı.
+Etkili Sunum;Zeynep Arslan;Can Yıldız;Satış;Evet;70;60;2;;Çok teorikti, kendi sunumumuzu yapıp geri bildirim alacağımız uygulama olmadı.
+Etkili Sunum;Zeynep Arslan;Mert Koç;Pazarlama;Evet;80;80;3;Slayt tasarımı ilkeleri iyiydi.;Uygulama yapılmadı, sadece anlatım vardı.
+Etkili Sunum;Zeynep Arslan;Aylin Er;Pazarlama;Evet;65;75;4;Eğitmenin kendi deneyimlerinden verdiği örnekler akılda kaldı.;
+Etkili Sunum;Zeynep Arslan;Ozan Demir;Satış;Evet;60;70;3;;Öğleden sonraki bölüm uzun ve yorucuydu, ara verilmedi.
+Etkili Sunum;Zeynep Arslan;Ece Tan;Finans;Evet;75;85;4;Ses ve beden dili bölümü faydalıydı.;Her katılımcıya kısa sunum provası yaptırılabilir.
+Zaman Yönetimi;Selim Ateş;Deniz Kara;Finans;Evet;;;4;Öncelik matrisi işe yaradı.;
+Zaman Yönetimi;Selim Ateş;Mert Koç;Pazarlama;Evet;;;3;;Daha kısa olabilirdi.
