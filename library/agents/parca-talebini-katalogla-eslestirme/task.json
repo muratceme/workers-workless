@@ -1,0 +1,23 @@
+{
+  "id": "parca-talebini-katalogla-eslestirme",
+  "tur": "agent",
+  "ad": "Parça Talebini Katalogla Eşleştirme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --talepler talepler.txt --katalog parcalar.xlsx",
+  "girdiler": [
+    "Talepler (.txt/.docx/.pdf): '[GG.AA.YYYY SS:DD] Kaynak: talep' satırları (atölye, müşteri, telefon notu)",
+    "Parça kataloğu (.xlsx/.csv): Yedek Parça Sipariş Önerisi kod bloğunun parça dosyası + Uyumlu Modeller, Yıl Başlangıç, Yıl Bitiş",
+    ".env: sağlayıcı ve API anahtarı (stok ve fiyat gönderilmez; telefon, e-posta, TCKN ve --gizle adları maskelenir)"
+  ],
+  "ciktilar": [
+    "Excel: Talepler (eşleşen parça, adet, stok durumu, sorulacak), Parça Özeti, Kontrol",
+    "Yedek Parça Sipariş Önerisi kod bloğu girdisi: _parcalar.xlsx (talepler Bekleyen İş Emri'ne eklenmiş)"
+  ],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

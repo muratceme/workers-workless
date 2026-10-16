@@ -153,6 +153,7 @@ export const OTOMOTIV = {
       { id: "yedek-parca-danismani", name: "Yedek Parça Danışmanı", level: "Uzman", tasks: [
         ["Yedek Parça Sipariş Önerisi", "Parça bazında tüketim, bekleyen iş emirleri ve tedarik süresine göre stok siparişi önerir.", 3],
         "Stok ABC-XYZ Analizi",
+        ["Parça Talebini Katalogla Eşleştirme", "Serbest metin parça taleplerini katalogdaki parça numarasıyla eşleştirir; model / yıl uyumunu, ön-arka / sol-sağ tutarlılığını ve stok durumunu kod denetler", 2],
       ]},
       { id: "yedek-parca-muduru", name: "Yedek Parça Müdürü", level: "Yönetici", tasks: [
         "Stok ABC-XYZ Analizi",

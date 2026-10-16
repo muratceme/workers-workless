@@ -840,3 +840,5 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Toplam 461 görev, 463 paket (357 kod + 106 agent). AI Agents modunda hazırı olmayan rol: 3.
 - Yeni agent: ikinci-el-arac-ilan-metni (İkinci El Satış Danışmanı). Araç kartı + ekspertiz notu → ilan; her boyalı / değişen parça ve tramer tutarı ekspertiz özetinde zorunlu; ekspertizle çelişen ifadeler (ekli biçimleriyle) yakalanır; yıl / km / sayı / donanım denetimi. İlan mevzuatı doğrulanamadığı için zorunlu alan iddiası yok; --ek-satir ile sabit satır eklenir. Test: sahte model değişen ön kaputu yazmadı, kod yakaladı.
 - Toplam 462 görev, 464 paket (357 kod + 107 agent). AI Agents modunda hazırı olmayan rol: 2.
+- Yeni agent: parca-talebini-katalogla-eslestirme (Yedek Parça Danışmanı). Talep → katalog parça no (kod aday listesi verir); model / yıl uyumu, ön-arka / sol-sağ, tahmin yasağı kodda; stok dağıtımı (acil önce) ve sipariş önerisi bloğuna bekleyen iş emri ekleme. Test: sahte model 'sağ' far talebini sol fara eşleştirdi, kod yakaladı.
+- Toplam 463 görev, 465 paket (357 kod + 108 agent). AI Agents modunda hazırı olmayan rol: 1.

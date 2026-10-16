@@ -1,0 +1,88 @@
+{
+ "T1": {
+  "satirlar": [
+   {
+    "istek": "2020 Model A ön balata 1 takım",
+    "parca_no": "YP-1003",
+    "adet": "1",
+    "model": "Model A",
+    "yil": "2020",
+    "soru": ""
+   }
+  ],
+  "aciliyet": "Acil"
+ },
+ "T2": {
+  "satirlar": [
+   {
+    "istek": "2017 Model A silecek süpürgesi 2 adet",
+    "parca_no": "YP-1004",
+    "adet": "2",
+    "model": "Model A",
+    "yil": "2017",
+    "soru": ""
+   }
+  ],
+  "aciliyet": "Normal"
+ },
+ "T3": {
+  "satirlar": [
+   {
+    "istek": "yağ filtresi",
+    "parca_no": "YP-1001",
+    "adet": "",
+    "model": "Model B",
+    "yil": "2022",
+    "soru": "Yağ filtresinden kaç adet?"
+   },
+   {
+    "istek": "4 buji",
+    "parca_no": "YP-1006",
+    "adet": "4",
+    "model": "Model B",
+    "yil": "2022",
+    "soru": ""
+   }
+  ],
+  "aciliyet": "Normal"
+ },
+ "T4_hatali": {
+  "satirlar": [
+   {
+    "istek": "2021 Model A far, sağ taraf, 1 adet",
+    "parca_no": "YP-1010",
+    "adet": "1",
+    "model": "Model A",
+    "yil": "2021",
+    "soru": ""
+   }
+  ],
+  "aciliyet": "Normal"
+ },
+ "T5": {
+  "satirlar": [
+   {
+    "istek": "fren balatası",
+    "parca_no": "",
+    "adet": "",
+    "model": "",
+    "yil": "",
+    "soru": "Araç modeli ve yılı nedir? Ön mü arka mı balata isteniyor, kaç takım?"
+   }
+  ],
+  "aciliyet": "Normal"
+ },
+ "T4": {
+  "satirlar": [
+   {
+    "istek": "2021 Model A far, sağ taraf, 1 adet",
+    "parca_no": "YP-1011",
+    "adet": "1",
+    "model": "Model A",
+    "yil": "2021",
+    "soru": ""
+   }
+  ],
+  "aciliyet": "Normal"
+ }
+}

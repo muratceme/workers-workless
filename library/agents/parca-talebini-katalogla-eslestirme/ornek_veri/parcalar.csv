@@ -1,0 +1,12 @@
+Parça No;Parça Adı;Uyumlu Modeller;Yıl Başlangıç;Yıl Bitiş;Stok;Yoldaki;Aylık Tüketim;Bekleyen İş Emri;Tedarik Süresi (gün);Paket Adedi;Birim Fiyat
+YP-1001;Yağ Filtresi;Model A, Model B;2018;;20;;60;5;10;10;100,00
+YP-1002;Hava Filtresi;Model A;2018;;100;;30;;5;1;180,00
+YP-1003;Ön Fren Balatası (takım);Model A;2019;;18;2;30;;15;1;950,00
+YP-1007;Arka Fren Balatası (takım);Model A;2019;;6;;12;;15;1;780,00
+YP-1008;Ön Fren Balatası (takım);Model B;2021;;4;;8;;15;1;1.150,00
+YP-1004;Silecek Süpürgesi (eski model);Model A;2015;2018;7;;0;;10;1;220,00
+YP-1009;Silecek Süpürgesi;Model A;2019;;12;;6;;10;1;260,00
+YP-1010;Sol Ön Far;Model A;2019;;1;;1;;20;1;6.400,00
+YP-1011;Sağ Ön Far;Model A;2019;;2;;1;;20;1;6.400,00
+YP-1005;Debriyaj Seti;Model A;2018;;1;;0;3;20;1;8.500,00
+YP-1006;Buji;Model A, Model B;2018;;2;;10;;3;5;
