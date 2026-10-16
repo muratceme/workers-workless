@@ -356,6 +356,7 @@ export const ORTAK = {
         ["Sevkiyat Araç Planlama", "Sipariş hacmi, ağırlık ve palet sayısına göre araç tipi ve doluluk planı çıkarır.", 3],
         ["Nakliye Maliyet Analizi", "Nakliye faturalarını sefer, ağırlık ve bölge bazında analiz edip birim taşıma maliyetini hesaplar.", 2],
         ["Teslimat Performansı (OTIF) Raporu", "Siparişlerin zamanında ve eksiksiz teslim oranını müşteri ve taşıyıcı bazında raporlar.", 2],
+        "Taşıma Talebi Bilgi Çıkarma",
       ]},
     ],
   },

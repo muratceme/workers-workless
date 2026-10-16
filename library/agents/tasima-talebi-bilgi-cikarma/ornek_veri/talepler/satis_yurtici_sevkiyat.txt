@@ -1,0 +1,7 @@
+Kimden: Satış Operasyon <satisops@ornekgida.example>
+Konu: Bu hafta çıkacak sevkiyatlar
+
+Merhaba, aşağıdaki siparişlerin araç planına eklenmesini rica ederiz:
+- SP-2701 · Deneme Market İzmir · İzmir · 3 palet, 1.150 kg, 3,6 m3 · teslim 22.10.2026
+- SP-2702 · Kurgu Toptan Bursa · Bursa · 1 palet, 380 kg, 1,1 m3 · teslim 21.10.2026
+- SP-2703 · Hayali Gıda Ankara · Ankara · 2 palet, ağırlık sonra bildirilecek · teslim 23.10.2026

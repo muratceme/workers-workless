@@ -808,3 +808,5 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Toplam 445 görev, 447 paket (357 kod + 90 agent). AI Agents modunda hazırı olmayan rol: 24.
 - reasurans-slipi-ozeti-ve-kontrolu: Reasürans Uzmanı / Müdürü. Pay toplamı (%100), beklenen şartlarla fark, zorunlu kloz anahtar kelimeleri kodla; beklenen şartlar sağlayıcıya gitmez. Denemede tarihlerin sayı gibi karşılaştırılıp eşit olduğu hâlde hata verildiği görüldü, düzeltildi.
 - Toplam 446 görev, 448 paket (357 kod + 91 agent). AI Agents modunda hazırı olmayan rol: 22.
+- tasima-talebi-bilgi-cikarma: Havayolu Operasyon Uzmanı, Lojistik Uzmanı (depo). Navlun taleplerinde kap listesi, yurt içinde sevkiyat satırları; kap başına ağırlık, brüt, hacim, hacimsel ağırlık kodla. Navlun Teklif Hesaplama (hava ve deniz) ve Sevkiyat Araç Planlama ile zincir denendi.
+- Toplam 447 görev, 449 paket (357 kod + 92 agent). AI Agents modunda hazırı olmayan rol: 20.

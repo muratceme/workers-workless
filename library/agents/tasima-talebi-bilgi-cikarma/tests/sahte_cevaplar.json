@@ -1,0 +1,116 @@
+{
+ "hava": {
+  "tur": "Navlun teklifi",
+  "musteri": "",
+  "referans": "KM-2026-88",
+  "cikis": "İstanbul (IST)",
+  "varis": "Frankfurt (FRA)",
+  "teslim_sekli": "FCA İstanbul",
+  "mod": "Hava",
+  "hazir_tarihi": "20.10.2026",
+  "mal_tanimi": "tıbbi ölçüm cihazı",
+  "tehlikeli_madde": "Lityum iyon pil içeriyor (UN3481)",
+  "istiflenemez": false,
+  "belgedeki_toplam_agirlik": "254",
+  "kaplar": [
+   {
+    "kap": "Koli",
+    "adet": "3",
+    "boy": "60",
+    "en": "40",
+    "yukseklik": "40",
+    "agirlik": "18",
+    "agirlik_tipi": "Kap başına"
+   },
+   {
+    "kap": "Palet",
+    "adet": "1",
+    "boy": "120",
+    "en": "80",
+    "yukseklik": "100",
+    "agirlik": "210",
+    "agirlik_tipi": "Kap başına"
+   }
+  ],
+  "sevkiyatlar": [],
+  "notlar": [
+   "Gönderen firma adı e-posta adresinden (Kurgu Medikal) anlaşılıyor; belgede açıkça yazmıyor."
+  ]
+ },
+ "deniz": {
+  "tur": "Navlun teklifi",
+  "musteri": "",
+  "referans": "",
+  "cikis": "Mersin",
+  "varis": "Hamburg",
+  "teslim_sekli": "FOB Mersin",
+  "mod": "Deniz",
+  "hazir_tarihi": "27.10.2026",
+  "mal_tanimi": "ahşap yemek masası takımı",
+  "tehlikeli_madde": "",
+  "istiflenemez": true,
+  "belgedeki_toplam_agirlik": "1.800",
+  "kaplar": [
+   {
+    "kap": "Paletli sandık",
+    "adet": "6",
+    "boy": "120",
+    "en": "100",
+    "yukseklik": "150",
+    "agirlik": "1.800",
+    "agirlik_tipi": "Toplam"
+   }
+  ],
+  "sevkiyatlar": [],
+  "notlar": [
+   "Parsiyel (LCL) yükleme isteniyor."
+  ]
+ },
+ "yurtici": {
+  "tur": "Yurt içi sevkiyat",
+  "musteri": "",
+  "referans": "",
+  "cikis": "",
+  "varis": "",
+  "teslim_sekli": "",
+  "mod": "Karayolu",
+  "hazir_tarihi": "",
+  "mal_tanimi": "",
+  "tehlikeli_madde": "",
+  "istiflenemez": false,
+  "belgedeki_toplam_agirlik": "",
+  "kaplar": [],
+  "sevkiyatlar": [
+   {
+    "siparis_no": "SP-2701",
+    "musteri": "Deneme Market İzmir",
+    "bolge": "İzmir",
+    "teslim_tarihi": "22.10.2026",
+    "palet": "3",
+    "agirlik": "1.150",
+    "hacim": "3,6"
+   },
+   {
+    "siparis_no": "SP-2702",
+    "musteri": "Kurgu Toptan Bursa",
+    "bolge": "Bursa",
+    "teslim_tarihi": "21.10.2026",
+    "palet": "1",
+    "agirlik": "380",
+    "hacim": "1,1"
+   },
+   {
+    "siparis_no": "SP-2703",
+    "musteri": "Hayali Gıda Ankara",
+    "bolge": "Ankara",
+    "teslim_tarihi": "23.10.2026",
+    "palet": "2",
+    "agirlik": "",
+    "hacim": ""
+   }
+  ],
+  "notlar": [
+   "SP-2703 ağırlığı sonra bildirilecek."
+  ]
+ }
+}

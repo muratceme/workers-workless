@@ -1,0 +1,24 @@
+{
+  "id": "tasima-talebi-bilgi-cikarma",
+  "tur": "agent",
+  "ad": "Taşıma Talebi Bilgi Çıkarma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./talepler",
+  "girdiler": [
+    "Taşıma talepleri (.pdf, .docx, .txt): hava / deniz navlun teklif talepleri ve yurt içi sevkiyat talepleri",
+    "Hava kargo hacimsel ağırlık böleni (varsayılan 6000)",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta, IBAN ve kimlik numarası maskelenir)"
+  ],
+  "ciktilar": [
+    "Excel: Talepler (mod, çıkış-varış, teslim şekli, kap adedi, brüt, hacim, hacimsel ağırlık, bulgular), Sevkiyat Siparişleri, Bilgi",
+    "Excel: <ref>_kaplar.xlsx — Navlun Teklif Hesaplama kap dosyası (her navlun talebi için)",
+    "Excel: sevkiyat_siparisleri.xlsx — Sevkiyat Araç Planlama sipariş dosyası"
+  ],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

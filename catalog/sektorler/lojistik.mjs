@@ -52,6 +52,7 @@ export const LOJISTIK = {
         "Navlun Teklif Hesaplama",
         "Gümrük Evrak Tutarlılık Kontrolü",
         "Akreditif Evrak Uygunluk Kontrolü",
+        ["Taşıma Talebi Bilgi Çıkarma", "E-postayla gelen navlun teklif ve yurt içi sevkiyat taleplerinden kap, ölçü, ağırlık, Incoterm, tarih ve tehlikeli madde bilgisini çıkarır; brüt, hacim ve hacimsel ağırlığı kodla hesaplar, teklif ve araç planlama kod bloklarına girdi hazırlar.", 3],
       ]},
     ],
   },

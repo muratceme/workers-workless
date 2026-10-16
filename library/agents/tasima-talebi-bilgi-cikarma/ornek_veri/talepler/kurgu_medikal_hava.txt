@@ -1,0 +1,10 @@
+Kimden: Lojistik <lojistik@kurgumedikal.example>
+Konu: Fiyat talebi - İstanbul / Frankfurt hava kargo - Ref KM-2026-88
+
+Merhaba, aşağıdaki gönderi için hava kargo fiyatı rica ederiz.
+Çıkış: İstanbul (IST), varış: Frankfurt (FRA). Teslim şekli FCA İstanbul.
+Yük hazır olma tarihi: 20.10.2026
+3 koli, her biri 60x40x40 cm ve 18 kg
+1 palet, 120x80x100 cm, 210 kg
+Toplam brüt ağırlık 254 kg.
+Ürün: tıbbi ölçüm cihazı; koliler lityum iyon pil içeriyor (UN3481).
