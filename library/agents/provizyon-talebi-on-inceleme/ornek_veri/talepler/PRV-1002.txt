@@ -1,0 +1,8 @@
+PROVİZYON TALEP FORMU — Kurgu Tıp Merkezi
+Poliçe No: TSS-26-0457     Talep tarihi: 14.10.2026
+Hasta: Can Örnek
+Yatış: planlı, 20.10.2026, 3 gün
+Tanı: Lomber disk hernisi (M51.1)
+Planlanan işlem: Mikrodiskektomi L4-L5
+Talep edilen tutar: 92.000,00 TL
+Hekim notu: Hasta 4 yıldır bel ağrısı ve sol bacakta uyuşma tarifliyor, 2023'te dış merkezde MR çekilmiş. Konservatif tedaviye yanıt yok.

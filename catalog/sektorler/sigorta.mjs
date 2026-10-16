@@ -59,9 +59,11 @@ export const SIGORTA = {
       { id: "provizyon-uzmani", name: "Provizyon Uzmanı", level: "Uzman", tasks: [
         ["Provizyon Talebi Değerlendirme", "Anlaşmalı kurumdan gelen provizyon talebini poliçe teminatı, limit, bekleme süresi ve ön mevcut durum istisnalarına göre ön değerlendirir.", 4],
         ["Sağlık Faturası Kontrolü", "Kurum faturalarını anlaşmalı fiyat listesi ve onaylı provizyonla satır bazında karşılaştırıp fazla tutarları işaretler.", 4],
+        ["Provizyon Talebi Ön İnceleme", "Provizyon taleplerinden tanı, işlem, yatış ve tutarı çıkarır; poliçe öncesi hastalık işaretlerini ve ilgili şart maddelerini alıntıyla gösterir, bekleme süresi, limit ve katılım payını kodla hesaplar. Karar vermez.", 4],
       ]},
       { id: "anlasmali-kurumlar-uzmani-sigorta", name: "Anlaşmalı Kurumlar Uzmanı", level: "Uzman", tasks: [
         ["Kurum Fiyat Karşılaştırması", "Anlaşmalı sağlık kurumlarının işlem fiyatlarını bölge ve kurum grubu bazında karşılaştırır.", 2],
+        "Provizyon Talebi Ön İnceleme",
       ]},
     ],
   },

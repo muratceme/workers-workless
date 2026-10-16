@@ -1,0 +1,5 @@
+=== Tamamlayıcı sağlık sigortası özel şartları (kurgusal örnek) ===
+Madde 3.1 - Poliçe başlangıcından önce var olan ve sigortalının bildiği hastalıklar ile bunların komplikasyonları teminat dışıdır; beyan edilip kabul edilenler hariç.
+Madde 3.4 - Estetik amaçlı ameliyatlar teminat dışıdır.
+Madde 4.2 - Planlı yatışlar için poliçe başlangıcından itibaren bekleme süresi uygulanır; acil durumlar bekleme süresinden muaftır.
+Madde 6.1 - Katılım payı, onaylanan tutarın poliçede yazan oranı kadardır.

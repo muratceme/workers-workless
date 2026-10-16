@@ -1,0 +1,8 @@
+PROVİZYON TALEP FORMU — Örnek Hastanesi Acil
+Poliçe No: TSS-25-0880     Talep tarihi: 15.10.2026 02:30
+Hasta: Zeynep Kurgu
+Yatış: acil, 15.10.2026
+Tanı: Akut apandisit (K35.8)
+İşlem: Laparoskopik apendektomi
+Talep edilen tutar: 31.000,00 TL
+Hekim notu: 12 saattir karın ağrısı, McBurney hassasiyeti, lökositoz. Acil operasyon.

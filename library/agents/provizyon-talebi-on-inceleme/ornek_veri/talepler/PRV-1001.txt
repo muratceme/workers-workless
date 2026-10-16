@@ -1,0 +1,8 @@
+PROVİZYON TALEP FORMU — Örnek Hastanesi
+Poliçe No: TSS-26-0101     Talep tarihi: 15.10.2026
+Hasta: Ayşe Deneme
+Yatış tarihi: 16.10.2026 (planlı)    Tahmini yatış: 2 gün
+Tanı: Kolelitiazis (K80.2)
+Planlanan işlem: Laparoskopik kolesistektomi
+Talep edilen tutar: 38.500,00 TL
+Hekim notu: 3 aydır tekrarlayan sağ üst kadran ağrısı, USG'de multipl taş. Elektif cerrahi planlandı.

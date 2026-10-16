@@ -1,0 +1,128 @@
+{
+ "PRV-1001": {
+  "police_no": "TSS-26-0101",
+  "talep_tarihi": "15.10.2026",
+  "islem_tarihi": "16.10.2026",
+  "yatis_turu": "Planlı yatış",
+  "yatis_gun": "2",
+  "tani": "Kolelitiazis",
+  "icd": "K80.2",
+  "islem": "Laparoskopik kolesistektomi",
+  "talep_tutari": "38.500,00",
+  "onceden_var_isaretleri": [],
+  "ilgili_maddeler": [
+   {
+    "madde": "Madde 4.2",
+    "alinti": "Planlı yatışlar için poliçe başlangıcından itibaren bekleme süresi uygulanır",
+    "gerekce": "Yatış planlıdır; bekleme süresi kontrol edilmeli."
+   }
+  ],
+  "eksik_bilgiler": [
+   "USG raporu ve tarihi"
+  ],
+  "oneri": "Onay önerilir",
+  "oneri_gerekcesi": "Poliçe 01.02.2026'da başlamış; 3 aylık şikâyet poliçe başlangıcından sonradır. Planlı yatış; bekleme süresini kod kontrol eder."
+ },
+ "PRV-1002_hatali": {
+  "police_no": "TSS-26-0457",
+  "talep_tarihi": "14.10.2026",
+  "islem_tarihi": "20.10.2026",
+  "yatis_turu": "Planlı yatış",
+  "yatis_gun": "3",
+  "tani": "Lomber disk hernisi",
+  "icd": "M51.1",
+  "islem": "Mikrodiskektomi L4-L5",
+  "talep_tutari": "92.000,00",
+  "onceden_var_isaretleri": [
+   {
+    "alinti": "4 yıldır bel ağrısı ve sol bacakta uyuşma",
+    "aciklama": "Şikâyetin 4 yıllık olduğu belirtiliyor."
+   },
+   {
+    "alinti": "2023'te dış merkezde MR çekilmiş",
+    "aciklama": "Poliçe öncesinde tetkik yapılmış olabilir."
+   }
+  ],
+  "ilgili_maddeler": [
+   {
+    "madde": "Madde 3.1",
+    "alinti": "Poliçe başlangıcından önce var olan ve sigortalının bildiği hastalıklar ile bunların komplikasyonları teminat dışıdır",
+    "gerekce": "Belgede şikâyetin 4 yıllık olduğu yazıyor."
+   },
+   {
+    "madde": "Madde 4.2",
+    "alinti": "Planlı yatışlar için poliçe başlangıcından itibaren bekleme süresi uygulanır",
+    "gerekce": "Yatış planlıdır."
+   }
+  ],
+  "eksik_bilgiler": [
+   "2023 tarihli MR raporu",
+   "Sağlık beyan formu"
+  ],
+  "oneri": "Onay önerilir",
+  "oneri_gerekcesi": "Tanı ve işlem uyumlu."
+ },
+ "PRV-1002": {
+  "police_no": "TSS-26-0457",
+  "talep_tarihi": "14.10.2026",
+  "islem_tarihi": "20.10.2026",
+  "yatis_turu": "Planlı yatış",
+  "yatis_gun": "3",
+  "tani": "Lomber disk hernisi",
+  "icd": "M51.1",
+  "islem": "Mikrodiskektomi L4-L5",
+  "talep_tutari": "92.000,00",
+  "onceden_var_isaretleri": [
+   {
+    "alinti": "4 yıldır bel ağrısı ve sol bacakta uyuşma",
+    "aciklama": "Şikâyetin 4 yıllık olduğu belirtiliyor."
+   },
+   {
+    "alinti": "2023'te dış merkezde MR çekilmiş",
+    "aciklama": "Poliçe öncesinde tetkik yapılmış olabilir."
+   }
+  ],
+  "ilgili_maddeler": [
+   {
+    "madde": "Madde 3.1",
+    "alinti": "Poliçe başlangıcından önce var olan ve sigortalının bildiği hastalıklar ile bunların komplikasyonları teminat dışıdır",
+    "gerekce": "Belgede şikâyetin 4 yıllık olduğu yazıyor."
+   },
+   {
+    "madde": "Madde 4.2",
+    "alinti": "Planlı yatışlar için poliçe başlangıcından itibaren bekleme süresi uygulanır",
+    "gerekce": "Yatış planlıdır."
+   }
+  ],
+  "eksik_bilgiler": [
+   "2023 tarihli MR raporu",
+   "Sağlık beyan formu"
+  ],
+  "oneri": "Tıbbi inceleme gerekir",
+  "oneri_gerekcesi": "Belgede 4 yıllık şikâyet ve 2023 tarihli MR geçiyor; poliçe öncesi hastalık (Madde 3.1) açısından hekim incelemesi gerekir."
+ },
+ "PRV-1003": {
+  "police_no": "TSS-25-0880",
+  "talep_tarihi": "15.10.2026",
+  "islem_tarihi": "15.10.2026",
+  "yatis_turu": "Acil yatış",
+  "yatis_gun": "",
+  "tani": "Akut apandisit",
+  "icd": "K35.8",
+  "islem": "Laparoskopik apendektomi",
+  "talep_tutari": "31.000,00",
+  "onceden_var_isaretleri": [],
+  "ilgili_maddeler": [
+   {
+    "madde": "Madde 4.2",
+    "alinti": "acil durumlar bekleme süresinden muaftır",
+    "gerekce": "Yatış acildir."
+   }
+  ],
+  "eksik_bilgiler": [
+   "Tahmini yatış süresi"
+  ],
+  "oneri": "Onay önerilir",
+  "oneri_gerekcesi": "Acil durum; belgede poliçe öncesine işaret eden bilgi yok."
+ }
+}

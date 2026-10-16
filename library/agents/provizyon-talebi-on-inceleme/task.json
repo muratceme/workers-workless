@@ -1,0 +1,21 @@
+{
+  "id": "provizyon-talebi-on-inceleme",
+  "tur": "agent",
+  "ad": "Provizyon Talebi Ön İnceleme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --talepler ./talepler --policeler policeler.xlsx --sartlar ozel_sartlar.txt",
+  "girdiler": [
+    "Provizyon talep belgeleri (.pdf, .docx, .txt): talep formu, epikriz, hekim notu",
+    "Poliçe tablosu (.xlsx/.csv): Poliçe No, Başlangıç Tarihi, Plan, Yatarak / Ayakta Limit, Katılım %, Bekleme Süresi (gün)",
+    "Özel / genel şartlar metni (siz verirsiniz)",
+    ".env: sağlayıcı ve API anahtarı ('Hasta:' satırındaki ad ve --gizle adları, TCKN, telefon, e-posta maskelenir)"
+  ],
+  "ciktilar": ["Excel: Talepler (çıkarılan bilgiler, limit, katılım ve sigorta payı ön hesabı, kod bulguları, önceden var işaretleri, ilgili maddeler, eksik bilgiler, öneri, durum), Kontrol"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
