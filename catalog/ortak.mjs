@@ -163,11 +163,13 @@ export const ORTAK = {
       { id: "satin-alma-uzman-yardimcisi", name: "Satın Alma Uzman Yardımcısı", level: "Giriş", tasks: [
         ["Satın Alma Talebi Konsolidasyonu", "Departmanlardan gelen satın alma taleplerini malzeme ve tedarikçi bazında birleştirip teklif istenecek listeyi çıkarır.", 3],
         ["Sipariş Termin Takibi", "Açık siparişleri termin tarihine göre izler, geciken ve gecikme riski olanları tedarikçi bazında listeler.", 4],
+        ["Tedarikçi Teklifi Bilgi Çıkarma", "E-posta, PDF ve Word ile gelen fiyat tekliflerini talep listesindeki malzemelerle eşleştirip karşılaştırma tablosuna aktarır; ödeme, teslim ve geçerlilik ifadelerini güne çevirir, tutar hatalarını ve süresi dolmuş teklifleri işaretler.", 3],
       ]},
       { id: "satin-alma-uzmani", name: "Satın Alma Uzmanı", level: "Uzman", tasks: [
         ["Teklif Karşılaştırma", "Tedarikçi tekliflerini fiyat, vade, termin, kalite ve garanti kriterleriyle ağırlıklı puanlayarak karşılaştırma tablosu üretir.", 4],
         ["Tedarikçi Performans Değerlendirme", "Teslim zamanı, kalite ret oranı ve fiyat uyumundan tedarikçi karnesi hazırlar.", 3],
         ["Satın Alma Fiyat Geçmişi Analizi", "Malzeme bazında geçmiş alım fiyatlarını kur ve enflasyonla birlikte analiz edip olağandışı fiyat artışlarını işaretler.", 2],
+        "Tedarikçi Teklifi Bilgi Çıkarma",
       ]},
       { id: "satin-alma-muduru", name: "Satın Alma Müdürü", level: "Yönetici", tasks: [
         ["Harcama Analizi", "Satın alma verisini kategori ve tedarikçi bazında ABC sınıflandırmasıyla analiz edip pazarlık önceliklerini çıkarır.", 3],

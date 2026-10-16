@@ -82,11 +82,13 @@ export const TEKSTIL = {
         ["Kumaş Sipariş Termin Takibi", "Kumaş siparişlerinin boyahane/örme aşamalarını ve termin durumunu takip eder, sipariş sevk tarihine etkisini hesaplar.", 4],
         "Teklif Karşılaştırma",
         ["Kumaş Fiyat Takibi", "Tedarikçi kumaş ve iplik fiyat listelerini toplayıp kalite bazında fiyat geçmişi tablosu oluşturur.", 2],
+        "Tedarikçi Teklifi Bilgi Çıkarma",
       ]},
       { id: "aksesuar-satin-alma-uzmani", name: "Aksesuar Satın Alma Uzmanı", level: "Uzman", tasks: [
         "Sipariş Termin Takibi",
         "Tedarikçi Performans Değerlendirme",
         "Satın Alma Fiyat Geçmişi Analizi",
+        "Tedarikçi Teklifi Bilgi Çıkarma",
       ]},
     ],
   },

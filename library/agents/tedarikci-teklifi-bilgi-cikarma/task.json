@@ -1,0 +1,23 @@
+{
+  "id": "tedarikci-teklifi-bilgi-cikarma",
+  "tur": "agent",
+  "ad": "Tedarikçi Teklifi Bilgi Çıkarma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./teklifler --talep talep.xlsx",
+  "girdiler": [
+    "Teklif belgeleri (.pdf, .docx, .txt): tek dosya ya da klasör; her belge bir tedarikçinin teklifi",
+    "Talep listesi (isteğe bağlı, .xlsx/.csv): Malzeme Kodu, Malzeme, Miktar, Birim",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta, IBAN ve kimlik numarası maskelenir)"
+  ],
+  "ciktilar": [
+    "Excel: Teklif Listesi (Teklif Karşılaştırma kod bloğunun girdi biçiminde), Teklifler (ödeme, teslim, nakliye, garanti, geçerlilik, bulgular), Kontrol",
+    "JSON: aynı bilgiler"
+  ],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

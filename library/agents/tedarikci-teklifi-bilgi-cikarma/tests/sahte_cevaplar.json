@@ -1,0 +1,155 @@
+{
+ "deneme": {
+  "teklif_var": true,
+  "tedarikci": "DENEME HIRDAVAT VE SANAYİ MALZEMELERİ",
+  "teklif_no": "",
+  "teklif_tarihi": "03.10.2026",
+  "odeme_metin": "Ödeme 30 gün vadeli çek",
+  "termin_metin": "Teslim tarihi: 24.10.2026",
+  "nakliye_metin": "Nakliye alıcıya aittir",
+  "garanti_metin": "",
+  "gecerlilik_metin": "10.10.2026",
+  "nakliye_tutar": "",
+  "para_birimi": "TL",
+  "kdv": "Hariç",
+  "kalemler": [
+   {
+    "talep_kodu": "K-01",
+    "malzeme": "6205-2RS rulman",
+    "miktar": "150",
+    "birim": "adet",
+    "birim_fiyat": "88,50",
+    "tutar": ""
+   },
+   {
+    "talep_kodu": "K-02",
+    "malzeme": "A-42 kayış",
+    "miktar": "100",
+    "birim": "adet",
+    "birim_fiyat": "132,00",
+    "tutar": ""
+   },
+   {
+    "talep_kodu": "K-04",
+    "malzeme": "EN 388 iş eldiveni (nitril kaplı)",
+    "miktar": "500",
+    "birim": "çift",
+    "birim_fiyat": "41,00",
+    "tutar": ""
+   }
+  ],
+  "teklif_verilmeyen": [
+   "K-03"
+  ],
+  "sartlar": [
+   "Rulmanda stokta 150 adet var (talep 200)"
+  ],
+  "notlar": [
+   "K-02: teklifte yalnız 'A-42 kayış' yazıyor; V kayışı olduğu varsayıldı, teyit edin.",
+   "K-04: nitril kaplı eldiven teklif edilmiş."
+  ]
+ },
+ "kurgu": {
+  "teklif_var": true,
+  "tedarikci": "KURGU TEKNİK MAKİNA SAN. A.Ş.",
+  "teklif_no": "KT-26-0457",
+  "teklif_tarihi": "14.10.2026",
+  "odeme_metin": "Ödeme şekli: Peşin",
+  "termin_metin": "Sipariş onayından itibaren 5 iş günü",
+  "nakliye_metin": "Nakliye: 60,00 USD (ayrıca faturalandırılır)",
+  "garanti_metin": "24 ay (rulman)",
+  "gecerlilik_metin": "Teklif 15 gün geçerlidir",
+  "nakliye_tutar": "60,00",
+  "para_birimi": "USD",
+  "kdv": "Dahil",
+  "kalemler": [
+   {
+    "talep_kodu": "K-01",
+    "malzeme": "Rulman 6205-2RS C3 (FAG)",
+    "miktar": "200",
+    "birim": "adet",
+    "birim_fiyat": "2,10",
+    "tutar": "420,00"
+   },
+   {
+    "talep_kodu": "K-02",
+    "malzeme": "V Kayışı A 42 (Optibelt)",
+    "miktar": "100",
+    "birim": "adet",
+    "birim_fiyat": "3,25",
+    "tutar": "352,00"
+   },
+   {
+    "talep_kodu": "K-03",
+    "malzeme": "Hidrolik Yağ HLP 46 - 208 lt",
+    "miktar": "10",
+    "birim": "varil",
+    "birim_fiyat": "228,00",
+    "tutar": "2.280,00"
+   }
+  ],
+  "teklif_verilmeyen": [
+   "K-04"
+  ],
+  "sartlar": [
+   "Nakliye ayrıca faturalandırılır"
+  ],
+  "notlar": [
+   "K-01: C3 boşluklu rulman teklif edilmiş; talepte boşluk sınıfı belirtilmemiş, kullanım yerine uygunluğu teyit edin.",
+   "K-03: HLP 46 sınıfı hidrolik yağ (viskozite 46) ISO VG 46 karşılığı olarak eşleştirildi."
+  ]
+ },
+ "ornek": {
+  "teklif_var": true,
+  "tedarikci": "Örnek Endüstriyel Ltd. Şti.",
+  "teklif_no": "",
+  "teklif_tarihi": "13.10.2026",
+  "odeme_metin": "faturadan itibaren 60 gün",
+  "termin_metin": "siparişten sonra 7 gün içinde",
+  "nakliye_metin": "fabrikanıza teslim (nakliye bize aittir)",
+  "garanti_metin": "rulman ve kayışlarda 12 ay",
+  "gecerlilik_metin": "31.10.2026",
+  "nakliye_tutar": "",
+  "para_birimi": "TL",
+  "kdv": "Hariç",
+  "kalemler": [
+   {
+    "talep_kodu": "K-01",
+    "malzeme": "SKF muadili 6205 2RS rulman",
+    "miktar": "200",
+    "birim": "adet",
+    "birim_fiyat": "95,00",
+    "tutar": "19.000,00"
+   },
+   {
+    "talep_kodu": "K-02",
+    "malzeme": "A42 V kayış",
+    "miktar": "100",
+    "birim": "adet",
+    "birim_fiyat": "140,00",
+    "tutar": "14.000,00"
+   },
+   {
+    "talep_kodu": "K-03",
+    "malzeme": "ISO VG46 hidrolik yağ 208 lt varil",
+    "miktar": "10",
+    "birim": "varil",
+    "birim_fiyat": "9.800,00",
+    "tutar": "98.000,00"
+   },
+   {
+    "talep_kodu": "K-04",
+    "malzeme": "EN388 örme iş eldiveni",
+    "miktar": "500",
+    "birim": "çift",
+    "birim_fiyat": "38,00",
+    "tutar": "19.000,00"
+   }
+  ],
+  "teklif_verilmeyen": [],
+  "sartlar": [],
+  "notlar": [
+   "K-01: SKF muadili (marka belirtilmemiş) rulman teklif edilmiş."
+  ]
+ }
+}
