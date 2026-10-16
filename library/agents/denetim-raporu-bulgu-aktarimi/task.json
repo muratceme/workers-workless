@@ -1,0 +1,20 @@
+{
+  "id": "denetim-raporu-bulgu-aktarimi",
+  "tur": "agent",
+  "ad": "Denetim Raporu Bulgu Aktarımı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --rapor denetim_raporu.pdf --onek BSCI-26",
+  "girdiler": [
+    "Denetim raporu (.pdf, .docx, .txt; Türkçe veya İngilizce): sosyal uygunluk, çevre, müşteri denetimi",
+    "Dereceye göre termin günleri (isteğe bağlı) ve gizlenecek kişi adları",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta ve kimlik numarası maskelenir)"
+  ],
+  "ciktilar": ["Excel: Bulgular (Denetim Bulgu ve Düzeltici Faaliyet Takibi girdi sütunlarıyla), Ayrıntı (rapordaki derece, alıntı, sıfır tolerans, uyarılar), Kontrol"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

@@ -1,0 +1,22 @@
+SOSYAL UYGUNLUK DENETİM RAPORU (kurgusal örnek)
+Tesis: Örnek Tekstil Konfeksiyon - Fabrika 2, Denizli
+Denetim türü: Müşteri sosyal uygunluk denetimi (duyurulu)
+Denetim tarihi: 08.10.2026
+Denetçi: Kurgu Denetim Hizmetleri
+
+BULGULAR
+
+1. Çalışma saatleri — Derece: Majör
+Eylül 2026 puantaj kayıtlarında dikim bölümünde 37 çalışanın haftalık toplam çalışma süresinin 4 hafta boyunca 66 saate ulaştığı görüldü. Fazla mesai onay formları dosyada bulunamadı.
+
+2. İş sağlığı ve güvenliği — Derece: Minör
+Son 12 ayda yalnızca bir yangın tatbikatı yapıldığı, tatbikat katılım listesinin imzasız olduğu görüldü.
+
+3. Kimyasal yönetimi — Derece: Majör
+Leke çıkarma bölümünde kullanılan 3 kimyasalın Güvenlik Bilgi Formu (SDS) bulunmuyor; kaplar Türkçe etiketsiz.
+
+4. Genç işçiler — Derece: Majör
+Personel dosyalarında 17 yaşında 2 çalışanın 2 hafta boyunca gece vardiyasında (22:00-06:00) çalıştırıldığı tespit edildi.
+
+5. Atık yönetimi — Derece: Gözlem
+Tehlikeli atık geçici depolama alanında sızdırmazlık havuzu var; atık beyan kayıtları güncel.

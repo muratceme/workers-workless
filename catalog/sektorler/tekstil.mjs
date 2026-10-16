@@ -152,11 +152,13 @@ export const TEKSTIL = {
       { id: "sosyal-uygunluk-uzmani", name: "Sosyal Uygunluk Uzmanı", level: "Uzman", tasks: [
         ["Denetim Bulgu ve Düzeltici Faaliyet Takibi", "BSCI, Sedex ve müşteri denetim bulgularını düzeltici faaliyet planı (CAP), sorumlu ve termin bazında takip eder.", 3],
         ["Karbon Ayak İzi Hesaplama", "Enerji, yakıt ve malzeme tüketim verisinden kapsam 1-2 emisyonlarını ve ürün başına karbon değerini hesaplar.", 3],
+        ["Denetim Raporu Bulgu Aktarımı", "Sosyal uygunluk ve çevre denetim raporlarındaki bulguları alıntı, rapordaki derece, düzeltici faaliyet önerisi ve sorumluyla takip tablosuna aktarır; termini ve sıfır tolerans konularını kodla işaretler.", 3],
       ]},
       { id: "surdurulebilirlik-uzmani", name: "Sürdürülebilirlik Uzmanı", level: "Uzman", tasks: [
         "Karbon Ayak İzi Hesaplama",
         "Denetim Bulgu ve Düzeltici Faaliyet Takibi",
         "Tedarikçi Risk Skoru",
+        "Denetim Raporu Bulgu Aktarımı",
       ]},
     ],
   },

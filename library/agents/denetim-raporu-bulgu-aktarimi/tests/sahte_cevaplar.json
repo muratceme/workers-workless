@@ -1,0 +1,108 @@
+{
+ "hatali": {
+  "denetim": "Müşteri sosyal uygunluk denetimi (duyurulu)",
+  "denetim_tarihi": "08.10.2026",
+  "tesis": "Örnek Tekstil Konfeksiyon - Fabrika 2, Denizli",
+  "bulgular": [
+   {
+    "konu": "Çalışma saatleri",
+    "bulgu": "Eylül 2026'da dikim bölümünde 37 çalışanın haftalık çalışma süresi 4 hafta boyunca 66 saate ulaştı; fazla mesai onay formları yok.",
+    "derece": "Majör",
+    "rapordaki_derece": "Majör",
+    "alinti": "dikim bölümünde 37 çalışanın haftalık toplam çalışma süresinin 4 hafta boyunca 66 saate ulaştığı görüldü",
+    "duzeltici_faaliyet": "Haftalık çalışma süresi sınırına göre vardiya ve kapasite planı yeniden yapılacak; fazla mesai yazılı onay formları alınacak; 3 ay puantaj izlenecek ve sonuçlar müşteriye raporlanacak.",
+    "sorumlu": "İK Müdürü / Üretim Planlama"
+   },
+   {
+    "konu": "İş sağlığı ve güvenliği",
+    "bulgu": "Son 12 ayda yalnızca bir yangın tatbikatı yapılmış; katılım listesi imzasız.",
+    "derece": "Minör",
+    "rapordaki_derece": "Minör",
+    "alinti": "Son 12 ayda yalnızca bir yangın tatbikatı yapıldığı, tatbikat katılım listesinin imzasız olduğu görüldü.",
+    "duzeltici_faaliyet": "Yıllık tatbikat planı hazırlanacak, tatbikatlar yapılıp imzalı katılım listeleri ve fotoğraflarla kayıt altına alınacak.",
+    "sorumlu": "İSG Uzmanı"
+   },
+   {
+    "konu": "Kimyasal yönetimi",
+    "bulgu": "Leke çıkarma bölümündeki 3 kimyasalın SDS'i yok; kaplar Türkçe etiketsiz.",
+    "derece": "Majör",
+    "rapordaki_derece": "Majör",
+    "alinti": "Leke çıkarma bölümünde kullanılan 3 kimyasalın Güvenlik Bilgi Formu (SDS) bulunmuyor; kaplar Türkçe etiketsiz.",
+    "duzeltici_faaliyet": "Tedarikçilerden güncel Türkçe SDS'ler temin edilip kullanım noktasına asılacak; kaplar etiketlenecek; kimyasal envanteri güncellenecek.",
+    "sorumlu": "İSG Uzmanı / Satın Alma"
+   },
+   {
+    "konu": "Genç işçiler",
+    "bulgu": "17 yaşında 2 çalışan 2 hafta boyunca gece vardiyasında çalıştırılmış.",
+    "derece": "Kritik",
+    "rapordaki_derece": "Majör",
+    "alinti": "Personel dosyalarında 17 yaşında 2 çalışanın 2 hafta boyunca gece vardiyasında (22:00-06:00) çalıştırıldığı tespit edildi.",
+    "duzeltici_faaliyet": "Genç işçiler derhâl gündüz vardiyasına alınacak; vardiya planlamasında yaş kontrolü yapılacak; İK prosedürü güncellenecek.",
+    "sorumlu": "İK Müdürü"
+   },
+   {
+    "konu": "Atık yönetimi",
+    "bulgu": "Tehlikeli atık depolama alanında sızdırmazlık havuzu var; atık beyan kayıtları güncel.",
+    "derece": "Gözlem",
+    "rapordaki_derece": "Gözlem",
+    "alinti": "Tehlikeli atık geçici depolama alanında sızdırmazlık havuzu var; atık beyan kayıtları güncel.",
+    "duzeltici_faaliyet": "",
+    "sorumlu": ""
+   }
+  ],
+  "notlar": []
+ },
+ "dogru": {
+  "denetim": "Müşteri sosyal uygunluk denetimi (duyurulu)",
+  "denetim_tarihi": "08.10.2026",
+  "tesis": "Örnek Tekstil Konfeksiyon - Fabrika 2, Denizli",
+  "bulgular": [
+   {
+    "konu": "Çalışma saatleri",
+    "bulgu": "Eylül 2026'da dikim bölümünde 37 çalışanın haftalık çalışma süresi 4 hafta boyunca 66 saate ulaştı; fazla mesai onay formları yok.",
+    "derece": "Majör",
+    "rapordaki_derece": "Majör",
+    "alinti": "dikim bölümünde 37 çalışanın haftalık toplam çalışma süresinin 4 hafta boyunca 66 saate ulaştığı görüldü",
+    "duzeltici_faaliyet": "Haftalık çalışma süresi sınırına göre vardiya ve kapasite planı yeniden yapılacak; fazla mesai yazılı onay formları alınacak; 3 ay puantaj izlenecek ve sonuçlar müşteriye raporlanacak.",
+    "sorumlu": "İK Müdürü / Üretim Planlama"
+   },
+   {
+    "konu": "İş sağlığı ve güvenliği",
+    "bulgu": "Son 12 ayda yalnızca bir yangın tatbikatı yapılmış; katılım listesi imzasız.",
+    "derece": "Minör",
+    "rapordaki_derece": "Minör",
+    "alinti": "Son 12 ayda yalnızca bir yangın tatbikatı yapıldığı, tatbikat katılım listesinin imzasız olduğu görüldü.",
+    "duzeltici_faaliyet": "Yıllık tatbikat planı hazırlanacak, tatbikatlar yapılıp imzalı katılım listeleri ve fotoğraflarla kayıt altına alınacak.",
+    "sorumlu": "İSG Uzmanı"
+   },
+   {
+    "konu": "Kimyasal yönetimi",
+    "bulgu": "Leke çıkarma bölümündeki 3 kimyasalın SDS'i yok; kaplar Türkçe etiketsiz.",
+    "derece": "Majör",
+    "rapordaki_derece": "Majör",
+    "alinti": "Leke çıkarma bölümünde kullanılan 3 kimyasalın Güvenlik Bilgi Formu (SDS) bulunmuyor; kaplar Türkçe etiketsiz.",
+    "duzeltici_faaliyet": "Tedarikçilerden güncel Türkçe SDS'ler temin edilip kullanım noktasına asılacak; kaplar etiketlenecek; kimyasal envanteri güncellenecek.",
+    "sorumlu": "İSG Uzmanı / Satın Alma"
+   },
+   {
+    "konu": "Genç işçiler",
+    "bulgu": "17 yaşında 2 çalışan 2 hafta boyunca gece vardiyasında çalıştırılmış.",
+    "derece": "Majör",
+    "rapordaki_derece": "Majör",
+    "alinti": "Personel dosyalarında 17 yaşında 2 çalışanın 2 hafta boyunca gece vardiyasında (22:00-06:00) çalıştırıldığı tespit edildi.",
+    "duzeltici_faaliyet": "Genç işçiler derhâl gündüz vardiyasına alınacak; vardiya planlamasında yaş kontrolü yapılacak; İK prosedürü güncellenecek.",
+    "sorumlu": "İK Müdürü"
+   },
+   {
+    "konu": "Atık yönetimi",
+    "bulgu": "Tehlikeli atık depolama alanında sızdırmazlık havuzu var; atık beyan kayıtları güncel.",
+    "derece": "Gözlem",
+    "rapordaki_derece": "Gözlem",
+    "alinti": "Tehlikeli atık geçici depolama alanında sızdırmazlık havuzu var; atık beyan kayıtları güncel.",
+    "duzeltici_faaliyet": "",
+    "sorumlu": ""
+   }
+  ],
+  "notlar": []
+ }
+}
