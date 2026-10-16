@@ -114,6 +114,7 @@ export const SIGORTA = {
         "Üretim Hedef Takibi",
         "Satış Hedef-Gerçekleşme Raporu",
         "Prim Alacak Yaşlandırma",
+        "Prim Tahsilat Hatırlatma Mesajları",
       ]},
     ],
   },
@@ -125,6 +126,7 @@ export const SIGORTA = {
       { id: "tahsilat-uzmani-sigorta", name: "Tahsilat Uzmanı", level: "Uzman", tasks: [
         ["Prim Alacak Yaşlandırma", "Acente ve poliçe bazında tahsil edilmemiş primleri vade gününe göre yaşlandırır.", 3],
         ["Prim Ödenmemesi Nedeniyle İptal Listesi", "Taksiti ödenmeyen poliçeleri genel şartlardaki süre kurallarına göre iptal adayı olarak listeler.", 2],
+        ["Prim Tahsilat Hatırlatma Mesajları", "Vadesi geçmiş prim taksitleri için sigortalıya veya acenteye kademeli hatırlatma e-postası / SMS taslağı hazırlar; tutar, poliçe ve vadeleri kod doğrular, hukuki sonuç cümlesini yalnız sizin onayladığınız şablondan ekler.", 3],
       ]},
       { id: "tahsilat-muduru", name: "Tahsilat Müdürü", level: "Yönetici", tasks: [
         "Prim Alacak Yaşlandırma",

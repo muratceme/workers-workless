@@ -1,0 +1,42 @@
+{
+ "sigortali": {
+  "P-2": {
+   "konu": "Son hatırlatma: vadesi geçmiş prim taksitleri – Poliçe P-2",
+   "govde": "P-2 numaralı poliçenize ait aşağıdaki prim taksitleri vadesinde ödenmemiştir:\n\n• Taksit 1 – vade 15.06.2026 – 30.000,00 TL\n• Taksit 2 – vade 15.07.2026 – 30.000,00 TL\n• Taksit 3 – vade 15.08.2026 – 30.000,00 TL\n\nVadesi geçmiş toplam tutar 90.000,00 TL'dir. Ödemenizi en kısa sürede yapmanızı ya da ödeme planı için bizimle iletişime geçmenizi rica ederiz.\n\nÖdemeyi bu mesajdan önce yaptıysanız lütfen dikkate almayınız."
+  },
+  "P-2_hatali": {
+   "konu": "Son hatırlatma: vadesi geçmiş prim taksitleri – Poliçe P-2",
+   "govde": "P-2 numaralı poliçenize ait aşağıdaki prim taksitleri vadesinde ödenmemiştir:\n\n• Taksit 1 – vade 15.06.2026 – 30.000,00 TL\n• Taksit 2 – vade 15.07.2026 – 30.000,00 TL\n• Taksit 3 – vade 15.08.2026 – 30.000,00 TL\n\nVadesi geçmiş toplam tutar 90.000,00 TL'dir. Ödeme yapılmazsa teminatınız durabilir; ödemenizi en kısa sürede yapmanızı ya da ödeme planı için bizimle iletişime geçmenizi rica ederiz.\n\nÖdemeyi bu mesajdan önce yaptıysanız lütfen dikkate almayınız."
+  },
+  "P-5": {
+   "konu": "Vadesi geçmiş prim taksiti hatırlatması – Poliçe P-5",
+   "govde": "P-5 numaralı poliçenizin 31.08.2026 vadeli 1. taksiti (30.000,00 TL) henüz ödenmemiş görünüyor. Ödemeyi hangi tarihte yapabileceğinizi bize bildirmenizi rica ederiz.\n\nÖdemeyi bu mesajdan önce yaptıysanız lütfen dikkate almayınız."
+  },
+  "P-1": {
+   "konu": "Vadesi geçmiş prim taksiti hatırlatması – Poliçe P-1",
+   "govde": "P-1 numaralı poliçenizin 01.09.2026 vadeli 3. taksitinden 30.000,00 TL henüz ödenmemiş görünüyor. Ödemeyi hangi tarihte yapabileceğinizi bize bildirmenizi rica ederiz; ödemeyle ilgili bir sorununuz varsa bizimle iletişime geçebilirsiniz.\n\nÖdemeyi bu mesajdan önce yaptıysanız lütfen dikkate almayınız."
+  },
+  "P-4": {
+   "konu": "Vadesi geçmiş prim taksiti hatırlatması – Poliçe P-4",
+   "govde": "P-4 numaralı poliçenizin 01.09.2026 vadeli 2. taksiti (12.000,00 TL) henüz ödenmemiş görünüyor. Ödemeyi hangi tarihte yapabileceğinizi bize bildirmenizi rica ederiz.\n\nÖdemeyi bu mesajdan önce yaptıysanız lütfen dikkate almayınız."
+  },
+  "P-3": {
+   "konu": "Prim taksiti hatırlatması – Poliçe P-3",
+   "govde": "P-3 numaralı poliçenizin 25.09.2026 vadeli 1. taksiti (80.000,00 TL) kayıtlarımızda henüz ödenmemiş görünüyor. Ödemenin gözden kaçmış olabileceğini düşünerek bilginize sunarız.\n\nÖdemeyi bu mesajdan önce yaptıysanız lütfen dikkate almayınız."
+  }
+ },
+ "acente": {
+  "Örnek Acente A": {
+   "konu": "",
+   "govde": "Vadesi geçmiş primler: P-2 (15.06.2026, 15.07.2026, 15.08.2026 vadeli) ve P-1 (01.09.2026 vadeli), toplam 120.000,00 TL. Lütfen sigortalılarla acilen görüşüp tahsilatı takip edin. Ödendiyse dikkate almayın."
+  },
+  "Örnek Acente C": {
+   "konu": "",
+   "govde": "P-5 poliçesinin 31.08.2026 vadeli taksiti (30.000,00 TL) ödenmemiş görünüyor. Sigortalıyla görüşüp ödeme tarihini teyit eder misiniz? Ödendiyse dikkate almayın."
+  },
+  "Örnek Acente B": {
+   "konu": "",
+   "govde": "Vadesi geçmiş primler: P-4 (01.09.2026 vadeli) ve P-3 (25.09.2026 vadeli), toplam 92.000,00 TL. Sigortalılarla görüşüp ödeme tarihlerini teyit eder misiniz? Ödendiyse dikkate almayın."
+  }
+ }
+}

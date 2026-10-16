@@ -1,0 +1,19 @@
+{
+  "id": "prim-tahsilat-hatirlatma-mesajlari",
+  "tur": "agent",
+  "ad": "Prim Tahsilat Hatırlatma Mesajları",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi prim_alacak_yaslandirma.xlsx --alici sigortali --kanal eposta",
+  "girdiler": [
+    "Açık taksitler (.xlsx/.csv) ya da Prim Alacak Yaşlandırma kod bloğunun çıktısı (Açık Taksitler sayfası)",
+    "Kademeler (.csv): Kademe; En Az Gecikme (gün); Ton; Zorunlu Cümle",
+    ".env: sağlayıcı ve API anahtarı (sigortalı adları gönderilmez)"
+  ],
+  "ciktilar": ["Excel: Mesajlar (alıcı, kademe, gecikme, tutar, poliçeler, konu, gönderime hazır metin, karakter sayısı, son kontrol), Kontrol", "TXT: bütün mesajlar"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}
