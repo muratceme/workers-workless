@@ -35,6 +35,7 @@ export const OTEL = {
         ["Rezervasyon Pick-up Raporu", "Gelecek tarihler için günlük rezervasyon artışını (pick-up) geçen yıl ve bütçeyle karşılaştırır.", 3],
         ["Kanal Maliyet Analizi", "OTA, acente ve direkt kanallardan gelen gelirin komisyon sonrası net getirisini karşılaştırır.", 2],
         ["Dinamik Fiyat Önerisi", "Doluluk tahmini, pick-up hızı ve rakip fiyatlarına göre tarih ve oda tipi bazında fiyat önerisi üretir.", 3],
+        "Rapor Yorum ve Aksiyon Notu",
       ]},
     ],
   },

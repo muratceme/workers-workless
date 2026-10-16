@@ -70,6 +70,7 @@ export const ETICARET = {
         "Pazarlama Bütçesi Takibi",
         "Kampanya Etki Analizi",
         "Müşteri Segmentasyonu (RFM)",
+        "Rapor Yorum ve Aksiyon Notu",
       ]},
     ],
   },

@@ -83,6 +83,7 @@ export const ORTAK = {
         ["Ürün Maliyeti Hesaplama", "Reçete (ürün ağacı), hammadde birim maliyeti, işçilik ve genel üretim giderlerinden ürün birim maliyetini hesaplar.", 5],
         ["Standart-Fiili Maliyet Sapma Analizi", "Standart maliyet ile fiili maliyet arasındaki farkı miktar ve fiyat sapması olarak ayrıştırır.", 3],
         ["Stok Değerleme", "Stok hareketlerinden ağırlıklı ortalama veya FIFO yöntemiyle dönem sonu stok değerini ve satılan malın maliyetini hesaplar.", 3],
+        "Rapor Yorum ve Aksiyon Notu",
       ]},
       { id: "muhasebe-muduru", name: "Muhasebe Müdürü", level: "Yönetici", tasks: [
         ["Mizandan Mali Tablo Hazırlama", "Tekdüzen hesap planına göre mizandan bilanço ve gelir tablosu üretir.", 4],
@@ -152,6 +153,7 @@ export const ORTAK = {
       { id: "bt-muduru", name: "BT Müdürü", level: "Yönetici", tasks: [
         ["BT Maliyet Raporu", "Lisans, bulut, donanım ve hizmet harcamalarını birim ve kalem bazında raporlar.", 3],
         ["BT Proje Portföy Durumu", "Projelerin bütçe, takvim ve risk durumunu tek bir yönetim tablosunda toplar.", 2],
+        "Rapor Yorum ve Aksiyon Notu",
       ]},
     ],
   },

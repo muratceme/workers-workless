@@ -56,6 +56,7 @@ export const SAGLIK = {
       ]},
       { id: "anlasmali-kurumlar-muduru", name: "Anlaşmalı Kurumlar Müdürü", level: "Yönetici", tasks: [
         ["Kurum Bazlı Gelir ve Kesinti Raporu", "SGK ve özel sigorta şirketleri bazında fatura, tahsilat, kesinti oranı ve ortalama tahsil süresini raporlar.", 2],
+        "Rapor Yorum ve Aksiyon Notu",
       ]},
     ],
   },

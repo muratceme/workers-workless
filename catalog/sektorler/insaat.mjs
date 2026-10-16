@@ -48,6 +48,7 @@ export const INSAAT = {
         "Kazanılmış Değer Analizi",
         "Proje Maliyet Kontrol Raporu",
         "İş İlerleme Raporu",
+        "Rapor Yorum ve Aksiyon Notu",
       ]},
     ],
   },

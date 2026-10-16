@@ -116,6 +116,7 @@ export const OTOMOTIV = {
       ]},
       { id: "satis-muduru-otomotiv", name: "Satış Müdürü", level: "Yönetici", tasks: [
         ["Araç Stok Yaşlandırma", "Stoktaki araçları stoğa giriş tarihi, model ve renk bazında yaşlandırıp finansman maliyetini hesaplar.", 2],
+        "Rapor Yorum ve Aksiyon Notu",
       ]},
       { id: "ikinci-el-satis-danismani", name: "İkinci El Satış Danışmanı", level: "Uzman", tasks: [
         ["İkinci El Araç Fiyat Değerleme", "Benzer ilan verisinden (marka, model, yıl, km, donanım) piyasa fiyat aralığı ve alım fiyatı önerisi üretir.", 3],
@@ -154,6 +155,7 @@ export const OTOMOTIV = {
         "Stok ABC-XYZ Analizi",
         "Stok Yaşlandırma Raporu",
         "Yedek Parça Sipariş Önerisi",
+        "Rapor Yorum ve Aksiyon Notu",
       ]},
     ],
   },

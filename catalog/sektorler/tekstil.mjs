@@ -70,6 +70,7 @@ export const TEKSTIL = {
         "Kapasite Darboğaz Analizi",
         "Plan Uyum Raporu",
         "Sipariş Termin Planı (T&A)",
+        "Rapor Yorum ve Aksiyon Notu",
       ]},
     ],
   },

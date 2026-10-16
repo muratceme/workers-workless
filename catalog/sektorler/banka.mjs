@@ -36,6 +36,7 @@ export const BANKA = {
       { id: "sube-muduru", name: "Şube Müdürü", level: "Yönetici", tasks: [
         ["Şube Hedef-Gerçekleşme Panosu", "Mevduat, kredi, kart ve sigorta hedeflerinin portföy yöneticisi bazında gerçekleşmesini tek panoda toplar.", 3],
         ["Şube Risk ve Gecikme Listesi", "Şube portföyündeki gecikmeye düşen ve erken uyarı veren kredileri tutar ve gün bazında önceliklendirir.", 2],
+        ["Rapor Yorum ve Aksiyon Notu", "Kod bloklarının ya da kendi Excel raporunuzdan yönetici için özet, önem dereceli bulgular ve aksiyon önerileri içeren yorum notu yazar; nottaki her rakamı raporla kod karşılaştırır.", 2],
       ]},
     ],
   },
@@ -96,6 +97,7 @@ export const BANKA = {
       { id: "aktif-pasif-yonetimi-uzmani", name: "Aktif-Pasif Yönetimi Uzmanı", level: "Uzman", tasks: [
         ["Faiz Riski Vade Uyumsuzluk (Gap) Analizi", "Faize duyarlı varlık ve yükümlülükleri yeniden fiyatlama vadelerine göre dağıtıp gap tablosu ve faiz şoku etkisini hesaplar.", 3],
         ["Mevduat Maliyeti ve Kredi Getirisi Analizi", "Ürün bazında ağırlıklı ortalama mevduat maliyetini ve kredi getirisini hesaplayıp marj analizini yapar.", 2],
+        "Rapor Yorum ve Aksiyon Notu",
       ]},
     ],
   },
@@ -148,6 +150,7 @@ export const BANKA = {
         ["Tarihsel Riske Maruz Değer (VaR)", "Portföy pozisyonları ve geçmiş fiyat serilerinden tarihsel simülasyonla günlük VaR ve beklenen kaybı hesaplar.", 3],
         ["Operasyonel Risk Kayıp Veri Analizi", "Operasyonel kayıp olaylarını olay türü ve iş kolu bazında sınıflandırıp sıklık ve şiddet analizi yapar.", 2],
         ["Stres Testi Senaryo Hesabı", "Kur, faiz ve takip oranı şoklarının sermaye yeterliliği ve kârlılık üzerindeki etkisini senaryo bazında hesaplar.", 3],
+        "Rapor Yorum ve Aksiyon Notu",
       ]},
     ],
   },

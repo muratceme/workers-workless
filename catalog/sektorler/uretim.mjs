@@ -14,6 +14,7 @@ export const URETIM = {
         ["OEE Hesaplama", "Planlı süre, duruşlar, çevrim süresi ve hatalı adetlerden makine/hat bazında kullanılabilirlik, performans, kalite ve OEE'yi hesaplar.", 3],
         ["Duruş Nedeni Pareto Analizi", "Makine duruş kayıtlarını neden ve süreye göre Pareto analizine tabi tutar.", 2],
         ["Fire ve Verim Analizi", "Hammadde girişi ile mamul çıkışından ürün ve hat bazında fire oranını ve verim kaybı maliyetini hesaplar.", 3],
+        "Rapor Yorum ve Aksiyon Notu",
       ]},
       { id: "uretim-muduru", name: "Üretim Müdürü", level: "Yönetici", tasks: [
         ["Üretim Performans Panosu", "OEE, plan uyumu, fire ve iş kazası göstergelerini hat ve hafta bazında tek panoda toplar.", 2],
@@ -36,6 +37,7 @@ export const URETIM = {
         ["Yeniden Sipariş Noktası Hesabı", "Tüketim dağılımı, tedarik süresi ve hizmet düzeyinden emniyet stoğu ve yeniden sipariş noktasını hesaplar.", 3],
         ["Stok ABC-XYZ Analizi", "Stokları değer (ABC) ve talep değişkenliği (XYZ) açısından sınıflandırıp her sınıf için stok politikası önerir.", 3],
         "Stok Yaşlandırma Raporu",
+        "Rapor Yorum ve Aksiyon Notu",
       ]},
     ],
   },

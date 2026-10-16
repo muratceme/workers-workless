@@ -1,0 +1,20 @@
+{
+  "id": "rapor-yorum-ve-aksiyon-notu",
+  "tur": "agent",
+  "ad": "Rapor Yorum ve Aksiyon Notu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --rapor rapor.xlsx --okuyucu \"Şube Müdürü\" --takma-ad Müşteri",
+  "girdiler": [
+    "Excel rapor (.xlsx): sitedeki kod bloklarının çıktıları ya da kendi raporunuz",
+    "Okuyucu (görev) ve odak konusu (isteğe bağlı)",
+    "Takma adla gönderilecek sütunlar (isteğe bağlı, ör. Temsilci, Müşteri)",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta, TCKN, IBAN maskelenir)"
+  ],
+  "ciktilar": ["Excel: Not, Bulgular (önem ve sayfa), Aksiyonlar (sorumlu, durum, termin sütunlarıyla), Kontrol", "TXT: gönderime hazır not"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

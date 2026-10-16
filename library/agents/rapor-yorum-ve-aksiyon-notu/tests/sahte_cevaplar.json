@@ -1,0 +1,136 @@
+{
+ "hatali": {
+  "baslik": "Ekim 2026 satış hedef-gerçekleşme değerlendirmesi (15.10.2026 itibarıyla)",
+  "ozet": [
+   "Ayın ilk 11 iş gününde satış 967.029 TL ile ay hedefinin %55,6'sında; doğrusal tahmine göre ay sonunda 1.934.058 TL ile hedefin %111,2'sine ulaşılıyor.",
+   "Toplam iyi görünse de Kişi-4 (%37,1; tahmin/hedef %74,1) ve Marmara bölgesi (%47,1; tahmin/hedef %94,3) ay hedefinin gerisinde.",
+   "Ay hedefine kalan tutar 772.971 TL; hedef için kalan günlerde günlük 70.270 TL satış gerekiyor.",
+   "Yıl başından bu yana satış 18.689.666 TL ile YTD hedefin %107,4'ünde ve geçen yılın %15,5 üzerinde."
+  ],
+  "bulgular": [
+   {
+    "metin": "Kişi-4 ekimde 181.654 TL ile 490.000 TL'lik hedefin %37,1'inde; geçen yılın aynı dönemine göre -%34,6. Mevcut hızla ay sonu tahmini hedefin %74,1'i; hedef için günlük 28.031 TL gerekiyor.",
+    "sayfa": "Temsilci",
+    "onem": "Kritik"
+   },
+   {
+    "metin": "Marmara bölgesi 433.778 TL ile hedefin %47,1'inde ve geçen yılın -%4,4 altında; tahmin/hedef %94,3. Hedef için günlük 44.202 TL gerekiyor.",
+    "sayfa": "Bölge",
+    "onem": "Önemli"
+   },
+   {
+    "metin": "Kişi-4'ün Boya satışı 55.533 TL; geçen yılın aynı döneminde 136.310 TL idi (-%59,3). Temsilcideki düşüşün en büyük kalemi bu grup.",
+    "sayfa": "Temsilci × Ürün Grubu",
+    "onem": "Önemli"
+   },
+   {
+    "metin": "Kişi-3 hedefin %49,6'sında; ay sonu tahmini %99,2 ile sınırda. Geçen yıla göre -%10,9.",
+    "sayfa": "Temsilci",
+    "onem": "Bilgi"
+   },
+   {
+    "metin": "Boya grubunda Kişi-1 (%151,7) ve Kişi-2 (%222,1) geçen yılın aynı dönemine göre güçlü artışta.",
+    "sayfa": "Temsilci × Ürün Grubu",
+    "onem": "Bilgi"
+   },
+   {
+    "metin": "Eylül 2026 satışı 1.805.495 TL ile hedefin (1.740.000 TL) üzerinde ama geçen yılın eylül ayının (1.970.385 TL) altında kaldı.",
+    "sayfa": "Genel",
+    "onem": "Bilgi"
+   }
+  ],
+  "aksiyonlar": [
+   {
+    "is": "Kişi-4 ile ekim ayı açık teklif ve siparişleri müşteri bazında gözden geçirin; kalan 11 iş günü için haftalık hedef belirleyin.",
+    "sorumlu": "Bölge Satış Yöneticisi",
+    "bulgu_no": 1
+   },
+   {
+    "is": "Marmara bölgesindeki temsilcilerle günlük satış takibine geçin; günlük ihtiyacı temsilcilere dağıtın.",
+    "sorumlu": "Marmara Bölge Yöneticisi",
+    "bulgu_no": 2
+   },
+   {
+    "is": "Kişi-4'ün Boya grubundaki geçen yıla göre düşüşün nedenini (müşteri kaybı, fiyat, stok, zamanlama) araştırın.",
+    "sorumlu": "Satış Operasyon",
+    "bulgu_no": 3
+   },
+   {
+    "is": "Kişi-3'ün hedefe ulaşması sınırda; ay sonuna kadar haftalık durum kontrolü yapın.",
+    "sorumlu": "Bölge Satış Yöneticisi",
+    "bulgu_no": 4
+   }
+  ],
+  "veri_notlari": [
+   "Ay sonu tahmini doğrusal run-rate varsayımına dayanır; resmî tatiller hariç tutulmamıştır.",
+   "Temsilci × Ürün Grubu kırılımında hedef yoktur; bu kırılımda yalnız geçen yılla karşılaştırma yapılabilir."
+  ]
+ },
+ "dogru": {
+  "baslik": "Ekim 2026 satış hedef-gerçekleşme değerlendirmesi (15.10.2026 itibarıyla)",
+  "ozet": [
+   "Ayın ilk 11 iş gününde satış 967.029 TL ile ay hedefinin %55,6'sında; doğrusal tahmine göre ay sonunda 1.934.058 TL ile hedefin %111,2'sine ulaşılıyor.",
+   "Toplam iyi görünse de Kişi-4 (%37,1; tahmin/hedef %74,1) ve Marmara bölgesi (%47,1; tahmin/hedef %94,3) ay hedefinin gerisinde.",
+   "Hedef için kalan 11 iş gününde günlük 70.270 TL satış gerekiyor.",
+   "Yıl başından bu yana satış 18.689.666 TL ile YTD hedefin %107,4'ünde ve geçen yılın %15,5 üzerinde."
+  ],
+  "bulgular": [
+   {
+    "metin": "Kişi-4 ekimde 181.654 TL ile 490.000 TL'lik hedefin %37,1'inde; geçen yılın aynı dönemine göre -%34,6. Mevcut hızla ay sonu tahmini hedefin %74,1'i; hedef için günlük 28.031 TL gerekiyor.",
+    "sayfa": "Temsilci",
+    "onem": "Kritik"
+   },
+   {
+    "metin": "Marmara bölgesi 433.778 TL ile hedefin %47,1'inde ve geçen yılın -%4,4 altında; tahmin/hedef %94,3. Hedef için günlük 44.202 TL gerekiyor.",
+    "sayfa": "Bölge",
+    "onem": "Önemli"
+   },
+   {
+    "metin": "Kişi-4 adlı temsilcinin Boya satışı 55.533 TL; geçen yılın aynı döneminde 136.310 TL idi (-%59,3). Temsilcideki düşüşün en büyük kalemi bu grup.",
+    "sayfa": "Temsilci × Ürün Grubu",
+    "onem": "Önemli"
+   },
+   {
+    "metin": "Kişi-3 hedefin %49,6'sında; ay sonu tahmini %99,2 ile sınırda. Geçen yıla göre -%10,9.",
+    "sayfa": "Temsilci",
+    "onem": "Bilgi"
+   },
+   {
+    "metin": "Boya grubunda Kişi-1 (%151,7) ve Kişi-2 (%222,1) geçen yılın aynı dönemine göre güçlü artışta.",
+    "sayfa": "Temsilci × Ürün Grubu",
+    "onem": "Bilgi"
+   },
+   {
+    "metin": "Eylül 2026 satışı 1.805.495 TL ile hedefin (1.740.000 TL) üzerinde ama geçen yılın eylül ayının (1.970.385 TL) altında kaldı.",
+    "sayfa": "Genel",
+    "onem": "Bilgi"
+   }
+  ],
+  "aksiyonlar": [
+   {
+    "is": "Kişi-4 ile ekim ayı açık teklif ve siparişleri müşteri bazında gözden geçirin; kalan 11 iş günü için haftalık hedef belirleyin.",
+    "sorumlu": "Bölge Satış Yöneticisi",
+    "bulgu_no": 1
+   },
+   {
+    "is": "Marmara bölgesindeki temsilcilerle günlük satış takibine geçin; günlük ihtiyacı temsilcilere dağıtın.",
+    "sorumlu": "Marmara Bölge Yöneticisi",
+    "bulgu_no": 2
+   },
+   {
+    "is": "Kişi-4 adlı temsilcinin Boya grubundaki geçen yıla göre düşüşünün nedenini (müşteri kaybı, fiyat, stok, zamanlama) araştırın.",
+    "sorumlu": "Satış Operasyon",
+    "bulgu_no": 3
+   },
+   {
+    "is": "Kişi-3 için hedefe ulaşmak sınırda; ay sonuna kadar haftalık durum kontrolü yapın.",
+    "sorumlu": "Bölge Satış Yöneticisi",
+    "bulgu_no": 4
+   }
+  ],
+  "veri_notlari": [
+   "Ay sonu tahmini doğrusal run-rate varsayımına dayanır; resmî tatiller hariç tutulmamıştır.",
+   "Temsilci × Ürün Grubu kırılımında hedef yoktur; bu kırılımda yalnız geçen yılla karşılaştırma yapılabilir."
+  ]
+ }
+}
