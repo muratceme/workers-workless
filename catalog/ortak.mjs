@@ -31,6 +31,7 @@ export const ORTAK = {
         ["Yıllık İzin Hakedişi Hesaplama", "İşe giriş tarihi ve yaşa göre 4857 sayılı Kanun md. 53 kurallarıyla yıllık izin hakkını, kullanılanı ve kalanı hesaplar.", 3],
         ["Kıdem ve İhbar Tazminatı Hesaplama", "Giriş-çıkış tarihi ve giydirilmiş brüt ücretten kıdem tavanını dikkate alarak kıdem ve ihbar tazminatını, vergi ve damga kesintileriyle hesaplar.", 3],
         ["SGK Giriş-Çıkış Bildirge Kontrolü", "İşe giriş ve işten çıkış listesini SGK bildirge kayıtlarıyla karşılaştırıp yasal süresinde yapılmamış veya eksik bildirgeleri listeler.", 2],
+        ["Bordro Sorusuna Cevap Taslağı", "Çalışanların maaş sorularına bordro dökümüne dayanan cevap taslakları hazırlar; ay farklarını ve nedenlerini (vergi dilimi, eksik gün, kesinti) kodla hesaplar, puantaj gerektiren soruları insan kontrolüne ayırır.", 3],
       ]},
       { id: "egitim-ve-gelisim-uzmani", name: "Eğitim ve Gelişim Uzmanı", level: "Uzman", tasks: [
         ["Eğitim İhtiyaç Analizi", "Yönetici ve çalışan anketlerini, performans sonuçlarını birleştirip departman bazında eğitim ihtiyacı önceliklendirmesi çıkarır.", 3],

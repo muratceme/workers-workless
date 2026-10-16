@@ -1,0 +1,20 @@
+{
+  "id": "bordro-sorusuna-cevap-taslagi",
+  "tur": "agent",
+  "ad": "Bordro Sorusuna Cevap Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --bordro bordro.xlsx --sorular sorular.txt",
+  "girdiler": [
+    "Bordro dökümü (.xlsx/.csv): çalışan × ay; en az Ay ve Net Ücret sütunları (Brüt-Net Maaş Hesaplama çıktısı da okunur)",
+    "Sorular (.txt/.docx): her soru 'Soru: Sicil veya Ad Soyad | Ay' satırıyla başlar",
+    ".env: sağlayıcı ve API anahtarı (ad soyad ve sicil gönderilmez)"
+  ],
+  "ciktilar": ["Excel: Cevaplar (taslak, kategori, insan kontrolü ve nedeni, kodun işaretledikleri), Hesap (kalem farkları), Kontrol", "TXT: gönderime hazır taslaklar"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

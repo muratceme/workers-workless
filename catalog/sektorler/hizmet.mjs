@@ -52,11 +52,13 @@ export const SMMM = {
         "Puantaj Kontrolü",
         "SGK Giriş-Çıkış Bildirge Kontrolü",
         ["SGK Teşvik Uygunluk Ön Kontrolü", "Çalışan ve işyeri bilgilerine göre yürürlükteki SGK prim teşviklerinin uygunluk koşullarını (yaş, kayıt süresi, borç durumu vb.) ön kontrolden geçirir.", 2],
+        "Bordro Sorusuna Cevap Taslağı",
       ]},
       { id: "bordro-uzmani-buro", name: "Bordro Uzmanı", level: "Uzman", tasks: [
         "Kıdem ve İhbar Tazminatı Hesaplama",
         "Yıllık İzin Hakedişi Hesaplama",
         "Fazla Mesai Hesaplama",
+        "Bordro Sorusuna Cevap Taslağı",
       ]},
     ],
   },

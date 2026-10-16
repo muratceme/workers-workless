@@ -1,0 +1,48 @@
+{
+ "S1": {
+  "kategori": "Vergi dilimi",
+  "cevap": "Ekim bordronuzu eylülle karşılaştırdık. Brüt ücretiniz iki ayda da 50.000,00 TL; zamda ya da brüt ücretinizde bir değişiklik yok.\n\nNet ücretinizdeki 1.750,00 TL'lik azalma gelir vergisinden kaynaklanıyor. Gelir vergisi yıl başından itibaren biriken (kümülatif) matrah üzerinden hesaplanır ve matrah büyüdükçe daha yüksek bir oran uygulanır. Ekim ayında kümülatif matrahınız 425.000,00 TL'ye ulaştı ve vergi diliminiz %20'den %27'ye geçti. Bu nedenle ödenecek gelir vergisi 2.884,90 TL'den 4.634,90 TL'ye çıktı; net ücretiniz 39.486,30 TL'den 37.736,30 TL'ye indi.\n\nBu bir hata değildir; aynı brüt ücretle yılın kalan aylarında da benzer bir net ücret beklenir. Yeni yılın başında kümülatif matrah sıfırlanır.",
+  "insan_kontrolu": false,
+  "kontrol_nedeni": "",
+  "kullanilan_kalemler": [
+   "Brüt ücret",
+   "Kümülatif GV matrahı",
+   "Vergi dilimi (%)",
+   "Ödenecek gelir vergisi",
+   "Net ücret"
+  ]
+ },
+ "S2_hatali": {
+  "kategori": "Birden fazla neden",
+  "cevap": "Ekim bordronuzda fazla mesai kalemi 0,00 TL görünüyor; eylülde bu kalem 4.650,00 TL idi. Ekim ayındaki fazla mesainiz puantajda kontrol edildikten sonra bir sonraki bordroya eklenecektir.\n\nEkim bordronuzda 2.000,00 TL tutarında bir kesinti var. Bu kesintinin türü bordro dökümünde yazmadığı için ilgili birimle kontrol edilip size bilgi verilecektir.",
+  "insan_kontrolu": true,
+  "kontrol_nedeni": "Ekim puantajında fazla mesai kaydı ve 2.000,00 TL kesintinin türü kontrol edilmeli.",
+  "kullanilan_kalemler": [
+   "Fazla mesai",
+   "Kesinti"
+  ]
+ },
+ "S2": {
+  "kategori": "Birden fazla neden",
+  "cevap": "Ekim bordronuzda fazla mesai kalemi 0,00 TL görünüyor; eylülde bu kalem 4.650,00 TL idi. Ekim ayında yaptığınızı belirttiğiniz 10 saatlik fazla mesai bordroya yansımamış görünüyor. Puantaj kayıtlarınız ilgili birimle kontrol edilip size bilgi verilecektir.\n\nEkim bordronuzda ayrıca 2.000,00 TL tutarında bir kesinti var. Bu kesintinin türü bordro dökümünde yazmadığı için kontrol edilip size ayrıca açıklama yapılacaktır.",
+  "insan_kontrolu": true,
+  "kontrol_nedeni": "Ekim puantajında 10 saat fazla mesai kaydı var mı ve 2.000,00 TL kesintinin türü (avans, icra, BES vb.) kontrol edilmeli.",
+  "kullanilan_kalemler": [
+   "Fazla mesai",
+   "Kesinti"
+  ]
+ },
+ "S3": {
+  "kategori": "Eksik gün",
+  "cevap": "Ekim ayında 8 gün ücretsiz izin kullandığınız için bordronuz 30 gün yerine 22 gün üzerinden hesaplandı. Ücretsiz izin günleri için ücret ödenmediğinden brüt ücretiniz 40.000,00 TL'den 29.333,33 TL'ye indi.\n\nEksik günler asgari ücret gelir vergisi istisnasını da azaltır: istisna 5.615,10 TL'den 4.117,74 TL'ye düştü. Kesintiler de daha düşük brüt üzerinden hesaplandığı için sonuçta net ücretiniz 32.762,20 TL'den 24.025,60 TL'ye, yani 8.736,60 TL azaldı.\n\nBu düşüş ücretsiz izinden kaynaklanıyor; tam çalışılan aylarda net ücretiniz eski düzeyine döner.",
+  "insan_kontrolu": false,
+  "kontrol_nedeni": "",
+  "kullanilan_kalemler": [
+   "Gün",
+   "Eksik gün nedeni",
+   "Brüt ücret",
+   "Asgari ücret GV istisnası",
+   "Net ücret"
+  ]
+ }
+}
