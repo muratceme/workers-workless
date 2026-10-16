@@ -1,0 +1,13 @@
+KURGU ECZA DEPOSU A.Ş.                                SEVK İRSALİYESİ
+Merkez V.D. 2222222224                                İrsaliye No: KED2026000004871
+                                                      Düzenleme Tarihi: 15.10.2026
+Sayın: ÖRNEK HASTANESİ - Eczane                       Sevk Tarihi: 15.10.2026
+Sipariş No: SA-2026-0712
+
+Sıra  Stok Kodu   Ürün Adı                                   Miktar   Birim   Lot / Seri   SKT
+1     8699001     PAROL-MUADİL 500 MG 20 TB (Parasetamol)    650      KUTU    PRC2510      09/2028
+2     8699045     SEFTRİAKSON 1 G FLAKON                       200      FLK     SFT2508      03/2027
+3     8699310     İZOTONİK NaCl %0,9 500 ML                    400      ŞİŞE                 05/2028
+4     8699777     ENOKSAPARİN 4000 IU ŞIRINGA                   50      ADET    ENX2511      12/2027
+
+Teslim eden: Depo sevkiyat birimi            Teslim alan: ......................

@@ -83,11 +83,13 @@ export const LOJISTIK = {
         "Stok Sayım Fark Analizi",
         ["Depolama Hizmeti Faturalandırma", "Müşteri bazında palet-gün, giriş-çıkış elleçleme ve katma değerli hizmetlerden aylık depolama faturasını hesaplar.", 3],
         "Depo Yerleşim (ABC) Önerisi",
+        "İrsaliye Bilgi Çıkarma ve Mal Kabul Kontrolü",
       ]},
       { id: "depo-operasyon-elemani", name: "Depo Operasyon Elemanı", level: "Giriş", tasks: [
         "Stok Sayım Fark Analizi",
         "Stok Yaşlandırma Raporu",
         "Sevkiyat Araç Planlama",
+        "İrsaliye Bilgi Çıkarma ve Mal Kabul Kontrolü",
       ]},
     ],
   },

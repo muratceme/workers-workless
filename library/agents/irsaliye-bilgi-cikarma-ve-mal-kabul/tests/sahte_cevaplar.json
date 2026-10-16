@@ -1,0 +1,95 @@
+{
+ "ecza": {
+  "irsaliye_var": true,
+  "irsaliye_no": "KED2026000004871",
+  "tarih": "15.10.2026",
+  "sevk_eden": "KURGU ECZA DEPOSU A.Ş.",
+  "alici": "ÖRNEK HASTANESİ - Eczane",
+  "siparis_no": "SA-2026-0712",
+  "satirlar": [
+   {
+    "stok_kodu": "8699001",
+    "urun_adi": "PAROL-MUADİL 500 MG 20 TB (Parasetamol)",
+    "miktar": "650",
+    "birim": "KUTU",
+    "lot": "PRC2510",
+    "skt": "09/2028",
+    "siparis_kodu": "IL-0101"
+   },
+   {
+    "stok_kodu": "8699045",
+    "urun_adi": "SEFTRİAKSON 1 G FLAKON",
+    "miktar": "200",
+    "birim": "FLK",
+    "lot": "SFT2508",
+    "skt": "03/2027",
+    "siparis_kodu": "IL-0233"
+   },
+   {
+    "stok_kodu": "8699310",
+    "urun_adi": "İZOTONİK NaCl %0,9 500 ML",
+    "miktar": "400",
+    "birim": "ŞİŞE",
+    "lot": "",
+    "skt": "05/2028",
+    "siparis_kodu": "IL-0410"
+   },
+   {
+    "stok_kodu": "8699777",
+    "urun_adi": "ENOKSAPARİN 4000 IU ŞIRINGA",
+    "miktar": "50",
+    "birim": "ADET",
+    "lot": "ENX2511",
+    "skt": "12/2027",
+    "siparis_kodu": ""
+   }
+  ],
+  "notlar": [
+   "IL-0101: irsaliyede ticari ad (PAROL-MUADİL), siparişte etken madde (Parasetamol 500 mg, 20'li) yazıyor; eşleştirildi.",
+   "IL-0233: siparişte 'IM/IV' yazıyor, irsaliyede uygulama yolu belirtilmemiş; teyit edin.",
+   "IL-0410: izotonik NaCl %0,9 = serum fizyolojik; lot/seri sütunu boş.",
+   "ENOKSAPARİN 4000 IU şırınga açık siparişlerde yok."
+  ]
+ },
+ "ambalaj": {
+  "irsaliye_var": true,
+  "irsaliye_no": "OAM-2026-3390",
+  "tarih": "16.10.2026",
+  "sevk_eden": "ÖRNEK AMBALAJ SAN. LTD. ŞTİ.",
+  "alici": "Örnek Gıda San. ve Tic. A.Ş. — Gebze Deposu",
+  "siparis_no": "SA-2026-0698",
+  "satirlar": [
+   {
+    "stok_kodu": "",
+    "urun_adi": "40x30x30 cm çift oluklu oluklu mukavva koli",
+    "miktar": "1.200",
+    "birim": "adet",
+    "lot": "",
+    "skt": "",
+    "siparis_kodu": "DP-1001"
+   },
+   {
+    "stok_kodu": "",
+    "urun_adi": "Streç film 23 mic 50 cm",
+    "miktar": "40",
+    "birim": "rulo",
+    "lot": "",
+    "skt": "",
+    "siparis_kodu": "DP-1002"
+   },
+   {
+    "stok_kodu": "",
+    "urun_adi": "EUR palet 80x120 (ısıl işlem görmüş, ISPM-15)",
+    "miktar": "150",
+    "birim": "adet",
+    "lot": "",
+    "skt": "",
+    "siparis_kodu": "DP-1003"
+   }
+  ],
+  "notlar": [
+   "Koli 24 balya hâlinde geldi.",
+   "Kolinin kalan 800 adedi 23.10.2026 tarihinde sevk edilecek (irsaliye notu)."
+  ]
+ }
+}

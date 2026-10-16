@@ -1,0 +1,20 @@
+{
+  "id": "irsaliye-bilgi-cikarma-ve-mal-kabul",
+  "tur": "agent",
+  "ad": "İrsaliye Bilgi Çıkarma ve Mal Kabul Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./irsaliyeler --siparis acik_siparisler.xlsx",
+  "girdiler": [
+    "Sevk irsaliyeleri (.pdf, .docx, .txt): tek dosya ya da klasör; taranmış PDF'e önce OCR uygulanmalı",
+    "Açık siparişler (isteğe bağlı, .xlsx/.csv): Sipariş No, Malzeme Kodu, Malzeme Adı, Sipariş Miktarı, Teslim Alınan",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta, IBAN ve kimlik numarası maskelenir)"
+  ],
+  "ciktilar": ["Excel: Teslim Alınanlar (Son Kullanma Tarihi Takibi sütunlarıyla; sipariş kalanı, fark, durum, bulgular), İrsaliyeler, Bilgi"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

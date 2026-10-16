@@ -104,11 +104,13 @@ export const SAGLIK = {
       { id: "hastane-eczacisi", name: "Hastane Eczacısı", level: "Uzman", tasks: [
         ["Son Kullanma Tarihi Takibi", "İlaç ve sarf stoklarını son kullanma tarihine göre listeler, yaklaşanları ve tüketim hızına göre süresi içinde tükenmeyecekleri işaretler.", 2],
         ["Kritik Stok Seviyesi Raporu", "Günlük tüketim ve tedarik süresine göre kritik stok seviyesinin altına düşen ilaç ve malzemeleri listeler.", 2],
+        "İrsaliye Bilgi Çıkarma ve Mal Kabul Kontrolü",
       ]},
       { id: "eczane-teknikeri", name: "Eczane Teknikeri", level: "Giriş", tasks: [
         "Son Kullanma Tarihi Takibi",
         "Kritik Stok Seviyesi Raporu",
         "Stok Sayım Fark Analizi",
+        "İrsaliye Bilgi Çıkarma ve Mal Kabul Kontrolü",
       ]},
     ],
   },

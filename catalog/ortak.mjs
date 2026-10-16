@@ -350,6 +350,7 @@ export const ORTAK = {
         ["Stok Sayım Fark Analizi", "Sayım sonuçlarını sistem stoğuyla karşılaştırıp ürün ve lokasyon bazında farkları, tutar etkisini ve olası nedenleri raporlar.", 4],
         ["Stok Yaşlandırma Raporu", "Son hareket tarihine göre hareketsiz ve yavaş dönen stokları tutar bazında yaşlandırır.", 2],
         ["Depo Yerleşim (ABC) Önerisi", "Çıkış sıklığına göre ürünleri ABC sınıflandırıp sık çıkanların sevkiyata yakın konumlanmasını önerir.", 2],
+        ["İrsaliye Bilgi Çıkarma ve Mal Kabul Kontrolü", "PDF ve e-postayla gelen sevk irsaliyelerinden mal kabul kaydı çıkarır, satırları açık siparişlerle eşleştirir; fazla / kısmi teslimi, siparişte olmayan ürünü ve son kullanma tarihini kodla kontrol eder.", 3],
       ]},
       { id: "lojistik-uzmani", name: "Lojistik Uzmanı", level: "Uzman", tasks: [
         ["Sevkiyat Araç Planlama", "Sipariş hacmi, ağırlık ve palet sayısına göre araç tipi ve doluluk planı çıkarır.", 3],
