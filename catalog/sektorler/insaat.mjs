@@ -31,6 +31,7 @@ export const INSAAT = {
       { id: "santiye-sefi", name: "Şantiye Şefi", level: "Yönetici", tasks: [
         ["İş İlerleme Raporu", "İş programı ve gerçekleşen imalat yüzdelerinden S-eğrisi, gecikme ve kritik iş kalemleri raporunu üretir.", 3],
         ["Malzeme Talep ve Sevk Takibi", "Şantiye malzeme taleplerini satın alma ve sevkiyat durumuyla takip eder, imalatı geciktirecek eksikleri işaretler.", 2],
+        "Günlük Şantiye Raporu",
       ]},
     ],
   },
@@ -63,6 +64,7 @@ export const INSAAT = {
         "Birim Fiyat Analizi",
         "Metraj Cetveli Kontrolü",
         "Teklif Birim Fiyat Karşılaştırması",
+        "İhale Dokümanı Özeti",
       ]},
     ],
   },

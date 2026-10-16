@@ -11,6 +11,8 @@ export const GIDA = {
         ["Geri Çağırma (İzlenebilirlik) Simülasyonu", "Hammadde lot numarasından etkilenen üretim partilerini, sevk edilen müşterileri ve miktarları ileri-geri izlenebilirlikle çıkarır.", 3],
         "DÖF Takibi",
         ["Denetim Hazırlık Kontrol Listesi", "BRC, IFS veya resmî denetim maddelerine göre doküman ve kayıt hazırlık durumunu takip eden kontrol listesi üretir.", 2],
+        "Etiket Bilgisi Kontrolü",
+        "Müşteri Şikâyeti Kök Neden Analizi",
       ]},
       { id: "gida-muhendisi", name: "Gıda Mühendisi", level: "Uzman", tasks: [
         ["Etiket Bilgisi Kontrolü", "Ürün etiketini Türk Gıda Kodeksi etiketleme kurallarına (zorunlu bilgiler, alerjen vurgusu, net miktar) göre kontrol eder.", 3],
@@ -43,6 +45,7 @@ export const GIDA = {
         ["Parti Verim ve Fire Raporu", "Parti bazında hammadde girişi, mamul çıkışı ve fireden verimi hesaplar, hedef dışı partileri listeler.", 3],
         "Vardiya Üretim Raporu",
         ["Temizlik ve Sanitasyon Kayıt Kontrolü", "Hat temizlik ve sanitasyon kayıtlarını plana göre kontrol edip eksik veya geciken kayıtları listeler.", 2],
+        "Vardiya Devir Notu Özeti",
       ]},
       { id: "hat-sorumlusu", name: "Hat Sorumlusu", level: "Giriş", tasks: [
         "Vardiya Devir Notu Özeti",
@@ -60,6 +63,8 @@ export const GIDA = {
         ["Reçete Maliyet Hesaplama", "Reçete bileşen oranları, hammadde fiyatları ve fire oranlarından kilogram ve ambalaj başına maliyeti hesaplar.", 3],
         "Besin Değeri Hesaplama",
         ["Duyusal Test Sonuç Analizi", "Panel değerlendirme puanlarını numune ve özellik bazında istatistiksel olarak karşılaştırır.", 2],
+        "Ar-Ge Proje Raporu Taslağı",
+        "Etiket Bilgisi Kontrolü",
       ]},
       { id: "gida-arge-muduru", name: "Ar-Ge Müdürü", level: "Yönetici", tasks: [
         "Reçete Maliyet Hesaplama",
@@ -76,6 +81,7 @@ export const GIDA = {
       { id: "kanal-satis-yoneticisi", name: "Kanal Satış Yöneticisi", level: "Yönetici", tasks: [
         ["Bayi ve Distribütör Satış Raporu", "Bayi bazında satış, hedef, tahsilat ve stok günlerini raporlar.", 3],
         ["Zincir Market Listeleme Takibi", "Zincir marketlerde listelenen ürünleri, raf fiyatlarını ve stoksuz mağazaları takip eder.", 2],
+        "Ziyaret Notu Özeti",
       ]},
       { id: "bolge-satis-temsilcisi", name: "Bölge Satış Temsilcisi", level: "Uzman", tasks: [
         "Müşteri Ziyaret Planı",

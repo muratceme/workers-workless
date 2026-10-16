@@ -9,6 +9,7 @@ export const SIGORTA = {
       { id: "teknik-uzman-yardimcisi", name: "Teknik Uzman Yardımcısı", level: "Giriş", tasks: [
         ["Teklif Talebi Bilgi Kontrolü", "Acenteden gelen teklif taleplerinde risk adresi, bedel, yapı tarzı, faaliyet konusu ve önceki hasar bilgisinin eksiksizliğini kontrol eder.", 3],
         ["Poliçe Üretim Kontrolü", "Üretilen poliçelerde teminat, bedel, prim ve özel şartları onaylı teklifle karşılaştırıp uyumsuzlukları listeler.", 3],
+        "Risk Değerlendirme Özeti",
       ]},
       { id: "teknik-uzman", name: "Teknik Uzman (Underwriter)", level: "Uzman", tasks: [
         ["Risk Değerlendirme Özeti", "Risk inceleme (survey) raporundan yangın, deprem, hırsızlık ve sorumluluk risklerini, önerilen iyileştirmeleri ve kabul önerisini özetler.", 4],
@@ -18,6 +19,7 @@ export const SIGORTA = {
       { id: "teknik-mudur", name: "Teknik Müdür", level: "Yönetici", tasks: [
         ["Branş Kârlılık Raporu", "Branş bazında yazılan prim, kazanılmış prim, hasar ve giderlerden teknik kârlılık raporu üretir.", 2],
         ["Yetki Limiti Aşım Kontrolü", "Onaylanan tekliflerin teknik personel yetki limitlerine uygunluğunu kontrol eder.", 1],
+        "Risk Değerlendirme Özeti",
       ]},
     ],
   },
@@ -39,10 +41,13 @@ export const SIGORTA = {
       { id: "rucu-uzmani", name: "Rücu Uzmanı", level: "Uzman", tasks: [
         ["Rücu Potansiyeli Tespiti", "Ödenen hasarlarda kusur oranı, karşı taraf ve sigorta bilgisine göre rücu edilebilir dosyaları ve tutarlarını belirler.", 3],
         ["Rücu Tahsilat Takibi", "Rücu taleplerinin gönderim, cevap, tahkim ve tahsilat aşamalarını takip eder.", 2],
+        "Hasar Dosyası Özeti",
       ]},
       { id: "hasar-muduru", name: "Hasar Müdürü", level: "Yönetici", tasks: [
         ["Muallak Hasar Raporu", "Açık dosyaların branş, yaş ve rezerv tutarı dağılımını ve rezerv yeterliliği göstergelerini raporlar.", 2],
         ["Eksper Performans Analizi", "Eksperleri rapor süresi, tespit tutarı-ödeme farkı ve itiraz oranına göre karşılaştırır.", 2],
+        "Hasar Dosyası Özeti",
+        "Teminat Kapsam Kontrolü",
       ]},
     ],
   },
@@ -141,10 +146,12 @@ export const ACENTE = {
       { id: "hasar-sorumlusu-acente", name: "Hasar Sorumlusu", level: "Uzman", tasks: [
         ["Müşteri Hasar Dosyası Takibi", "Müşterilerin açık hasar dosyalarını sigorta şirketi, eksper ve bekleyen evrak bazında takip eder.", 3],
         "Hasar Dosyası Evrak Eksik Kontrolü",
+        "Hasar İhbarı Ön Kayıt",
       ]},
       { id: "acente-yoneticisi", name: "Acente Yöneticisi", level: "Yönetici", tasks: [
         ["Acente Portföy ve Komisyon Raporu", "Şirket ve branş bazında üretim, komisyon geliri ve tahsilat durumunu raporlar.", 2],
         ["Müşteri Tahsilat Takibi", "Müşterilerden tahsil edilecek primleri vade ve şirkete aktarılacak tutarlarla birlikte takip eder.", 2],
+        "Müşteri İhtiyaç Analizi",
       ]},
     ],
   },

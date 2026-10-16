@@ -39,10 +39,12 @@ export const PERAKENDE = {
         ["Kategori Performans Raporu", "Ürün ve marka bazında satış, marj, stok devir hızı ve pazar payını raporlar; düşük performanslı ürünleri işaretler.", 3],
         ["Kampanya Etki Analizi", "Kampanya dönemindeki ek satışı (uplift), kanibalizasyonu ve kampanya kârlılığını hesaplar.", 3],
         ["Rakip Fiyat Karşılaştırması", "Rakip fiyat taramalarını ürün eşleştirmesiyle karşılaştırıp fiyat endeksi çıkarır.", 2],
+        "Ürün Değerlendirme Analizi",
       ]},
       { id: "kategori-yoneticisi", name: "Kategori Yöneticisi", level: "Yönetici", tasks: [
         ["Ürün Gamı (Delist) Önerisi", "Satış, marj ve raf verimliliğine göre listeden çıkarılabilecek ürünleri önerir.", 2],
         ["Tedarikçi Ciro Primi Hesabı", "Tedarikçi anlaşmalarındaki ciro primi ve iskonto kademelerine göre hak edilen primleri hesaplar.", 2],
+        "Ürün Değerlendirme Analizi",
       ]},
     ],
   },
@@ -91,6 +93,8 @@ export const PERAKENDE = {
         "Müşteri Segmentasyonu (RFM)",
         ["Sepet Birliktelik Analizi", "Fiş satırlarından birlikte alınan ürün çiftlerini destek, güven ve lift değerleriyle çıkarır.", 3],
         ["Kayıp Müşteri (Churn) Listesi", "Alışveriş sıklığı düşen sadakat programı üyelerini belirleyip geri kazanım kampanyası listesi çıkarır.", 2],
+        "Memnuniyet (NPS) Anketi Analizi",
+        "E-bülten Metni Hazırlama",
       ]},
       { id: "crm-muduru", name: "CRM Müdürü", level: "Yönetici", tasks: [
         "Müşteri Segmentasyonu (RFM)",

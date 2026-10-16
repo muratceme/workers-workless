@@ -15,6 +15,8 @@ export const TEKSTIL = {
         ["Sipariş Termin Planı (T&A)", "Sipariş sevk tarihinden geriye doğru kumaş, aksesuar, kesim, dikim, ütü-paket ve final kontrol kilometre taşlarını hesaplar, gecikme riskini işaretler.", 5],
         ["Lab Dip ve Onay Takibi", "Renk (lab dip), baskı ve aksesuar onaylarının gönderim ve onay durumunu sipariş bazında takip eder.", 2],
         ["Müşteri Haftalık Durum Raporu", "Siparişlerin üretim aşaması ve sevk tarihi durumunu müşteriye gönderilecek haftalık rapor formatına çevirir.", 3],
+        "Müşteri Yorumları (Fit Comments) Özeti",
+        "Teknik Föy (Tech Pack) Taslağı",
       ]},
     ],
   },
@@ -45,6 +47,7 @@ export const TEKSTIL = {
       { id: "modelist", name: "Modelist", level: "Uzman", tasks: [
         ["Ölçü Tablosu Beden Serisi (Grading)", "Ana beden ölçülerinden beden artış kurallarıyla tüm beden serisinin ölçü tablosunu üretir.", 4],
         ["Numune Ölçü Kontrolü", "Numune ölçümlerini ölçü tablosu ve toleranslarla karşılaştırıp tolerans dışı noktaları raporlar.", 3],
+        "Müşteri Yorumları (Fit Comments) Özeti",
       ]},
       { id: "modelhane-sefi", name: "Modelhane Şefi", level: "Yönetici", tasks: [
         "Numune Ölçü Kontrolü",

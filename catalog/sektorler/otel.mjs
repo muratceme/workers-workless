@@ -16,6 +16,8 @@ export const OTEL = {
       { id: "on-buro-muduru", name: "Ön Büro Müdürü", level: "Yönetici", tasks: [
         ["Doluluk, ADR ve RevPAR Raporu", "Oda satışlarından günlük, aylık ve geçen yıl karşılaştırmalı doluluk, ortalama oda fiyatı ve RevPAR'ı hesaplar.", 3],
         ["İptal ve No-Show Analizi", "Rezervasyon iptal ve gelmeme oranlarını kanal, oda tipi ve rezervasyon zamanlamasına göre analiz eder.", 2],
+        "Misafir Mesajlarına Cevap Taslağı",
+        "Misafir Yorum Analizi",
       ]},
     ],
   },
@@ -27,6 +29,7 @@ export const OTEL = {
       { id: "rezervasyon-sorumlusu", name: "Rezervasyon Sorumlusu", level: "Uzman", tasks: [
         ["Acente Kontenjan (Allotment) Takibi", "Tur operatörü kontratlarındaki kontenjan, release ve kullanım durumunu tarih bazında takip eder.", 3],
         ["Grup Rezervasyon Teklifi", "Grup talebinden oda, yemek ve toplantı salonu fiyatlarıyla teklif dosyası hazırlar.", 2],
+        "Misafir Mesajlarına Cevap Taslağı",
       ]},
       { id: "gelir-muduru", name: "Gelir Müdürü (Revenue Manager)", level: "Yönetici", tasks: [
         ["Rezervasyon Pick-up Raporu", "Gelecek tarihler için günlük rezervasyon artışını (pick-up) geçen yıl ve bütçeyle karşılaştırır.", 3],
@@ -43,6 +46,7 @@ export const OTEL = {
       { id: "kat-hizmetleri-muduru", name: "Kat Hizmetleri Müdürü (Housekeeper)", level: "Yönetici", tasks: [
         ["Oda Temizlik Atama Planı", "Giriş-çıkış ve konaklama odalarını temizlik süresi kredilerine göre kat görevlilerine dengeli şekilde atar.", 3],
         ["Oda Arıza ve Bakım Talep Takibi", "Odalardan bildirilen arızaları oda, tür ve bekleme süresine göre takip eder.", 2],
+        "Misafir Yorum Analizi",
       ]},
       { id: "kat-sefi", name: "Kat Şefi", level: "Uzman", tasks: [
         "Oda Temizlik Atama Planı",
@@ -59,6 +63,7 @@ export const OTEL = {
         ["Menü Mühendisliği Analizi", "Ürün satış adetleri ve katkı paylarından menü kalemlerini yıldız, at, bulmaca ve köpek sınıflarına ayırır, aksiyon önerir.", 3],
         ["Porsiyon Maliyeti Hesaplama", "Standart reçete, porsiyon gramajı ve güncel alış fiyatlarından menü kalemi başına porsiyon maliyetini ve maliyet oranını hesaplar.", 3],
         ["Yiyecek-İçecek Maliyet Oranı Raporu", "Dönem tüketimi ve satışlardan departman bazında yiyecek ve içecek maliyet oranını hesaplar.", 2],
+        "Misafir Yorum Analizi",
       ]},
       { id: "ascibasi", name: "Aşçıbaşı (Executive Chef)", level: "Uzman", tasks: [
         "Porsiyon Maliyeti Hesaplama",
@@ -101,6 +106,7 @@ export const OTEL = {
         "Bakım Maliyet ve Performans Raporu",
         "Periyodik Kontrol Takibi",
         "Abonelik ve Sözleşme Takibi",
+        "Arıza Kaydı Sınıflandırma",
       ]},
     ],
   },

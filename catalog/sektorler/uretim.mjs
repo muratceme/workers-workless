@@ -17,6 +17,7 @@ export const URETIM = {
       ]},
       { id: "uretim-muduru", name: "Üretim Müdürü", level: "Yönetici", tasks: [
         ["Üretim Performans Panosu", "OEE, plan uyumu, fire ve iş kazası göstergelerini hat ve hafta bazında tek panoda toplar.", 2],
+        "Vardiya Devir Notu Özeti",
       ]},
     ],
   },
@@ -57,6 +58,8 @@ export const URETIM = {
         ["Kalitesizlik Maliyeti Raporu", "Hurda, yeniden işleme, iade ve garanti maliyetlerini ürün ve neden bazında raporlar.", 2],
         ["Tedarikçi Kalite Karnesi", "Giriş kalite kontrol verisinden tedarikçi bazında ret oranı (ppm) ve karne üretir.", 2],
         ["İç Tetkik Bulgu Takibi", "ISO 9001 iç tetkik bulgularını madde, birim ve kapanış durumuna göre takip eder.", 1],
+        "8D Rapor Taslağı",
+        "Müşteri Şikâyeti Kök Neden Analizi",
       ]},
     ],
   },
@@ -73,9 +76,11 @@ export const URETIM = {
         ["MTBF ve MTTR Analizi", "Arıza kayıtlarından makine bazında arızalar arası ortalama süre ve ortalama onarım süresini hesaplar.", 3],
         ["Kestirimci Bakım Uyarıları", "Titreşim, sıcaklık ve akım sensör verisinde eşik ve eğilim analiziyle arıza riski yüksek ekipmanları belirler.", 4],
         ["Yedek Parça Kritik Stok Önerisi", "Arıza geçmişi ve tedarik süresine göre kritik yedek parçaların minimum stok seviyesini önerir.", 2],
+        "Arıza Kaydı Sınıflandırma",
       ]},
       { id: "bakim-muduru", name: "Bakım Müdürü", level: "Yönetici", tasks: [
         ["Bakım Maliyet ve Performans Raporu", "Bakım işçilik, malzeme ve dış hizmet maliyetlerini planlı/plansız bakım oranıyla raporlar.", 2],
+        "Arıza Kaydı Sınıflandırma",
       ]},
     ],
   },

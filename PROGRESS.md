@@ -782,3 +782,8 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Sıradaki: AI Agents modunda hazırı olmayan 155 rol.
 - Yeni agent: talimat-yazisindan-bilgi-cikarma (Gişe Yetkilisi, Operasyon Yetkilisi). Mektup / faks / e-posta talimatından gönderen, alıcı, IBAN, tutar (rakam-yazı), tür, açıklama, imzalayan çıkarır. IBAN'lar kodla [IBAN-n] yer tutucusuna çevrilir, sağlayıcıya gitmez; model yalnız yer tutucuyu atar. Kod: alanlar belgede aynen geçiyor mu, uydurma IBAN, mod 97, rakam-yazı uyumu, e-posta talimatı uyarısı. Çıktının ilk sayfası musteri-talimat-kontrolu girdi biçiminde; zincir uçtan uca denendi (agent çıktısı kod bloğuna verildi, aynı 2 hata yakalandı). 7 test. Uçtan uca denemede örnek mektuptaki IBAN gruplamamın yanlış olduğu yakalandı, örnek düzeltildi.
 - Toplam 432 görev, 434 paket (357 kod + 77 agent). AI Agents modunda hazırı olmayan rol: 153.
+
+## AI Agents modunda boş roller: mevcut agent'larla eşleştirme (2026-10-16)
+- Hedef (kullanıcı onayı): AI Agents modunda hazırı olmayan rol kalmasın; her görev için agent yazılmaz, yalnız yapay zekânın gerçekten iş gördüğü görevlere. Tahmini son durum 530–590 paket.
+- 1. tur: 64 role, işi birebir uyan mevcut agent'lar eklendi (yeni paket yok). Uymayanlar bilinçli olarak eklenmedi: musteri-yuk-durum-bilgilendirmesi karayoluna özel olduğu için havayoluna, ariza-kaydi-siniflandirma makine listesiyle çalıştığı için Kat Şefi'ne verilmedi.
+- AI Agents modunda hazırı olmayan rol: 153 → 89. Kalanlar için yeni agent yazılacak (scratchpad/roller.json).

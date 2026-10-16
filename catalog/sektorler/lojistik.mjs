@@ -16,6 +16,7 @@ export const LOJISTIK = {
         "Sefer Kârlılık Hesabı",
         "Teslimat Performansı (OTIF) Raporu",
         "Yakıt Tüketim Analizi",
+        "Müşteri Yük Durum Bilgilendirmesi",
       ]},
     ],
   },
@@ -27,6 +28,7 @@ export const LOJISTIK = {
       { id: "parsiyel-operasyon-uzmani", name: "Parsiyel Operasyon Uzmanı", level: "Uzman", tasks: [
         ["Parsiyel Yük Konsolidasyon Planı", "Bekleyen parsiyel yükleri varış bölgesi, hacim ve ağırlığa göre araçlara gruplayıp doluluk oranını hesaplar.", 4],
         ["Parsiyel Hakediş ve Kârlılık Hesabı", "Araçtaki yüklerin navlun gelirlerini, araç maliyetini ve yük bazında kâr payını hesaplar.", 3],
+        "Müşteri Yük Durum Bilgilendirmesi",
       ]},
       { id: "parsiyel-operasyon-sefi", name: "Parsiyel Operasyon Şefi", level: "Yönetici", tasks: [
         "Parsiyel Hakediş ve Kârlılık Hesabı",
@@ -66,6 +68,8 @@ export const LOJISTIK = {
         "Gümrük Evrak Tutarlılık Kontrolü",
         "İthalat Vergi Hesaplama",
         "Dahilde İşleme İzin Belgesi Takibi",
+        "GTİP Sınıflandırma Önerisi",
+        "Konşimento Bilgi Çıkarma",
       ]},
     ],
   },
@@ -111,11 +115,13 @@ export const LOJISTIK = {
       { id: "lojistik-satis-uzmani", name: "Lojistik Satış Uzmanı", level: "Uzman", tasks: [
         "Navlun Teklif Hesaplama",
         ["Teklif Dönüşüm Analizi", "Verilen navlun tekliflerinin kazanılma oranını hat, müşteri ve fiyat farkı bazında analiz eder.", 2],
+        "Ziyaret Notu Özeti",
       ]},
       { id: "lojistik-satis-muduru", name: "Lojistik Satış Müdürü", level: "Yönetici", tasks: [
         "Teklif Dönüşüm Analizi",
         "Satış Hedef-Gerçekleşme Raporu",
         "Müşteri Risk ve Limit Takibi",
+        "Ziyaret Notu Özeti",
       ]},
     ],
   },

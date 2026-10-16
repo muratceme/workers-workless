@@ -19,6 +19,7 @@ export const SAGLIK = {
       ]},
       { id: "randevu-planlama-sorumlusu", name: "Randevu Planlama Sorumlusu", level: "Uzman", tasks: [
         ["Randevu Doluluk ve Gelmeme Analizi", "Hekim ve bölüm bazında randevu doluluk, gelmeme (no-show) ve iptal oranlarını hesaplayıp fazla randevu (overbooking) önerisi çıkarır.", 3],
+        "Randevu Hatırlatma Mesajları",
       ]},
     ],
   },
@@ -35,6 +36,8 @@ export const SAGLIK = {
       { id: "yatan-hasta-tibbi-sekreteri", name: "Yatan Hasta Tıbbi Sekreteri", level: "Giriş", tasks: [
         ["Taburcu Dosyası Eksik Kontrolü", "Taburcu olan hastaların dosyalarında onam, epikriz, ameliyat notu ve konsültasyon belgelerinin eksiksizliğini kontrol eder.", 3],
         ["Servis Yatak Doluluk Raporu", "Servis bazında yatak doluluk, ortalama yatış süresi ve beklenen taburcu listesini çıkarır.", 2],
+        "Epikriz Taslağı",
+        "Tıbbi Rapor Yazım Kontrolü",
       ]},
     ],
   },
@@ -65,6 +68,8 @@ export const SAGLIK = {
         ["Kalite Göstergeleri Hesaplama", "Kayıtlardan SKS kalite göstergelerini (düşme, bası yarası, enfeksiyon oranı vb.) formüllerine göre dönemsel hesaplar.", 3],
         ["Güvenlik Raporlama Sistemi Olay Analizi", "Hasta ve çalışan güvenliği olay bildirimlerini tür, birim ve önlenebilirlik açısından analiz eder.", 2],
         ["SKS Öz Değerlendirme Takibi", "SKS standartlarına göre öz değerlendirme puanlarını ve eksik dokümanları birim bazında takip eder.", 2],
+        "Hasta Şikâyet Sınıflandırma",
+        "Hasta Memnuniyet Anketi Analizi",
       ]},
       { id: "kalite-direktoru", name: "Kalite Direktörü", level: "Yönetici", tasks: [
         "Kalite Göstergeleri Hesaplama",
@@ -114,11 +119,13 @@ export const SAGLIK = {
       { id: "hastane-muduru", name: "Hastane Müdürü", level: "Yönetici", tasks: [
         ["Hastane Operasyon Panosu", "Poliklinik, yatış, ameliyat, doluluk ve gelir göstergelerini bölüm bazında günlük panoda toplar.", 2],
         ["Hekim Performans Raporu", "Hekim bazında muayene, ameliyat, yatış ve gelir göstergelerini raporlar.", 2],
+        "Hasta Memnuniyet Anketi Analizi",
       ]},
       { id: "bashekim", name: "Başhekim", level: "Yönetici", tasks: [
         "Hekim Performans Raporu",
         "Kalite Göstergeleri Hesaplama",
         "Servis Yatak Doluluk Raporu",
+        "Hasta Şikâyet Sınıflandırma",
       ]},
     ],
   },

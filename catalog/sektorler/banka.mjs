@@ -48,6 +48,8 @@ export const BANKA = {
         "Mali Tablo Rasyo Analizi",
         ["Kredi Teklifi Eksik Belge Kontrolü", "Şubeden gelen kredi teklifini teklif tipine göre zorunlu belge ve bilgi listesiyle karşılaştırır, eksikleri şubeye iletilecek formatta çıkarır.", 3],
         ["KKB ve Risk Merkezi Raporu Özeti", "Kredi kayıt ve risk merkezi raporlarından toplam risk, banka sayısı, gecikme ve limit kullanım özetini çıkarır.", 3],
+        "Firma İstihbarat Raporu Derleme",
+        "Kredi Komitesi Değerlendirme Notu",
       ]},
       { id: "kredi-tahsis-uzmani", name: "Kredi Tahsis Uzmanı", level: "Uzman", tasks: [
         ["Geri Ödeme Kapasitesi Analizi", "Firma nakit akışı, borç servis tutarları ve önerilen kredi yapısından borç servis karşılama oranını ve senaryo analizini hesaplar.", 4],
@@ -57,6 +59,7 @@ export const BANKA = {
       { id: "kredi-tahsis-muduru", name: "Kredi Tahsis Müdürü", level: "Yönetici", tasks: [
         ["Kredi Portföy Yoğunlaşma Analizi", "Kredi portföyünü sektör, risk grubu ve teminat türüne göre dağıtıp yoğunlaşma (HHI) ve limit aşımlarını raporlar.", 2],
         ["Tahsis Süreç Performans Raporu", "Tekliflerin bekleme süreleri, onay/ret oranları ve iade nedenlerini raporlar.", 2],
+        "Kredi Komitesi Değerlendirme Notu",
       ]},
     ],
   },
@@ -70,11 +73,13 @@ export const BANKA = {
         ["Gecikme Yaşlandırma Raporu", "Kredileri gecikme gün aralıklarına (1-30, 31-60, 61-90, 90+) göre dağıtıp şube ve ürün bazında raporlar.", 3],
         ["TFRS 9 Aşama Sınıflandırması", "Gecikme günü ve risk göstergelerine göre kredileri Aşama 1-2-3 olarak sınıflandırır, aşama değişenleri listeler.", 3],
         ["Yapılandırma Takip Listesi", "Yeniden yapılandırılan kredilerin ödeme planı uyumunu ve izleme süresini takip eder.", 2],
+        "Firma İstihbarat Raporu Derleme",
       ]},
       { id: "yasal-takip-uzmani", name: "Yasal Takip Uzmanı", level: "Uzman", tasks: [
         ["Takibe Aktarılacak Krediler Listesi", "90 günü aşan veya kat edilen kredileri gerekli evrak durumuyla birlikte yasal takibe aktarım listesine dönüştürür.", 2],
         "İcra Takip Durum Raporu",
         ["Tahsilat ve Avukat Performans Raporu", "Takipteki alacakların tahsilat tutarlarını sözleşmeli avukat ve dosya yaşı bazında raporlar.", 2],
+        "İhtarname Taslağı",
       ]},
     ],
   },
@@ -137,6 +142,7 @@ export const BANKA = {
       { id: "ic-kontrol-uzmani", name: "İç Kontrol Uzmanı", level: "Uzman", tasks: [
         ["Kontrol Testi Örneklem Seçimi", "İşlem popülasyonundan risk ve tutar ağırlıklı, tekrarlanabilir (tohumlu) örneklem seçer.", 2],
         ["Kontrol Bulgu Takibi", "İç kontrol bulgularını sorumlu birim, aksiyon ve kapanış tarihine göre takip edip gecikenleri raporlar.", 2],
+        "Teftiş Raporu Bulgu Taslağı",
       ]},
       { id: "risk-yonetimi-uzmani", name: "Risk Yönetimi Uzmanı", level: "Uzman", tasks: [
         ["Tarihsel Riske Maruz Değer (VaR)", "Portföy pozisyonları ve geçmiş fiyat serilerinden tarihsel simülasyonla günlük VaR ve beklenen kaybı hesaplar.", 3],
@@ -153,6 +159,7 @@ export const BANKA = {
       { id: "mufettis-yardimcisi", name: "Müfettiş Yardımcısı", level: "Giriş", tasks: [
         "Kontrol Testi Örneklem Seçimi",
         ["Şube Teftiş Veri Analizi", "Şube işlem verisinde mesai dışı işlem, personel-müşteri hesap ilişkisi, sık iptal ve limit aşımı gibi riskli örüntüleri tarar.", 4],
+        "Teftiş Raporu Bulgu Taslağı",
       ]},
       { id: "mufettis", name: "Müfettiş", level: "Uzman", tasks: [
         ["Teftiş Raporu Bulgu Taslağı", "Çalışma kâğıtlarındaki tespitlerden mevzuat dayanağı, risk ve öneri içeren bulgu metinleri taslağı hazırlar.", 4],

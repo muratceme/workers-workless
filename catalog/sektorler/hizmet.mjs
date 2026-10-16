@@ -37,6 +37,8 @@ export const SMMM = {
         "KDV Beyannamesi Ön Kontrolü",
         "Geçici Vergi Hesaplama",
         "Mükellef Beyanname Takvimi",
+        "Mevzuat Değişikliği Özeti",
+        "Mükellef Bilgilendirme Yazısı",
       ]},
     ],
   },
@@ -75,6 +77,7 @@ export const HUKUK_BUROSU = {
       { id: "hukuk-sekreteri", name: "Hukuk Sekreteri", level: "Giriş", tasks: [
         ["Duruşma ve Kesin Süre Takvimi", "Dosya listesinden duruşma tarihleri ile tebliğ tarihine göre işleyen kesin süreleri (cevap, istinaf, temyiz) hesaplayıp takvim çıkarır.", 3],
         ["Vekâlet Ücreti ve Masraf Hesabı", "Avukatlık Asgari Ücret Tarifesi ve harç tarifesi parametreleriyle dava değerine göre vekâlet ücreti ve yargılama masraflarını hesaplar.", 2],
+        "Müvekkil Dosya Durum Raporu",
       ]},
     ],
   },
@@ -86,6 +89,8 @@ export const HUKUK_BUROSU = {
         ["İcra Dosyası Faiz ve Alacak Hesabı", "Asıl alacak, takip tarihi ve faiz türüne (yasal, ticari avans) göre dönemsel oranlarla işlemiş faizi ve güncel borcu hesaplar.", 3],
         "İcra Takip Durum Raporu",
         ["Borçlu Ödeme Planı Hesaplama", "Toplam borç ve taksit sayısına göre faiz dahil ödeme planı ve protokol özeti çıkarır.", 2],
+        "Müvekkil Dosya Durum Raporu",
+        "İhtarname Taslağı",
       ]},
       { id: "icra-avukati", name: "İcra Avukatı", level: "Uzman", tasks: [
         "İcra Takip Durum Raporu",
@@ -104,6 +109,7 @@ export const OTOMOTIV = {
       { id: "satis-danismani-otomotiv", name: "Satış Danışmanı", level: "Uzman", tasks: [
         ["Araç Satış Teklifi Hesaplama", "Liste fiyatı, kampanya, takas değeri, kredi ve kasko seçeneklerinden müşteriye sunulacak toplam maliyet ve aylık ödeme teklifini hesaplar.", 3],
         ["Test Sürüşü ve Teklif Takibi", "Test sürüşü ve teklif verilen müşterileri takip edip geri dönüş önceliği belirler.", 2],
+        "Ürün Bilgi Kartı Özeti",
       ]},
       { id: "satis-muduru-otomotiv", name: "Satış Müdürü", level: "Yönetici", tasks: [
         ["Araç Stok Yaşlandırma", "Stoktaki araçları stoğa giriş tarihi, model ve renk bazında yaşlandırıp finansman maliyetini hesaplar.", 2],
@@ -129,6 +135,7 @@ export const OTOMOTIV = {
       { id: "servis-muduru", name: "Satış Sonrası Hizmetler Müdürü", level: "Yönetici", tasks: [
         ["Teknisyen Verimlilik Raporu", "İş emirlerinden teknisyen bazında satılan saat, çalışılan saat ve verimlilik oranlarını hesaplar.", 2],
         ["Müşteri Memnuniyeti (CSI) Analizi", "Servis memnuniyet anketlerini danışman ve iş türü bazında analiz eder.", 2],
+        "Memnuniyet (NPS) Anketi Analizi",
       ]},
     ],
   },
@@ -161,6 +168,7 @@ export const EGITIM = {
       ]},
       { id: "kayit-kabul-sorumlusu", name: "Kayıt Kabul Sorumlusu", level: "Uzman", tasks: [
         ["Aday Öğrenci Takip Listesi", "Kayıt görüşmesi yapılan aday öğrencileri aşama, kademe ve takip tarihine göre izler, dönüşüm oranını hesaplar.", 2],
+        "Veli Bilgilendirme Mesajları",
       ]},
     ],
   },
