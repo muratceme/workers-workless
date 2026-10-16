@@ -1,0 +1,19 @@
+{
+  "id": "reklam-metni-varyasyonlari",
+  "tur": "agent",
+  "ad": "Reklam Metni Varyasyonları",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --urunler urunler.xlsx --baslik 15 --aciklama 4",
+  "girdiler": [
+    "Ürün dosyası (.xlsx/.csv): Ürün Kodu; Ürün Adı; Kategori; Özellikler; Fiyat (TL); İndirim (%); Kampanya; Anahtar Kelimeler",
+    "Kanal limitleri (Alan; Azami Karakter) ve kaçınılacak ifadeler listesi (düzenlenebilir)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Reklamlar (Headline 1–15, Description 1–4, Path 1–2 sütunları), Karakter Sayıları, Kontrol"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

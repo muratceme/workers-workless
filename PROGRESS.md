@@ -834,3 +834,5 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Toplam 458 görev, 460 paket (357 kod + 103 agent). AI Agents modunda hazırı olmayan rol: 6.
 - Yeni agent: paketleme-talimatindan-koli-kurallari-cikarma (Sevkiyat Sorumlusu, tekstil). Talimattan koli parametreleri + gereklilik kontrol listesi; ölçü / sayı / asorti bölünebilirliği / kapsam denetimi; ağırlık sınırı ve önerilen koli içi kodda; Koli Listesi bloğu komutu üretilir. Test: sahte model talimattaki 60x40x30 yerine 60x40x40 yazdı, kod yakaladı.
 - Toplam 459 görev, 461 paket (357 kod + 104 agent). AI Agents modunda hazırı olmayan rol: 5.
+- Yeni agent: reklam-metni-varyasyonlari (Performans Pazarlama Uzmanı). Google Ads duyarlı arama reklamı başlık / açıklama / yol; sınırlar (30 / 90 / 15, kaynak: Google Ads Yardım 'Duyarlı arama reklamları hakkında') düzenlenebilir dosyada; olmayan sayı, indirim dili, kaçınılacak ifade, tekrar, anahtar kelime denetimi. Test: sahte model indirimi olmayan ürüne '%20 indirim' yazdı, kod yakaladı.
+- Toplam 460 görev, 462 paket (357 kod + 105 agent). AI Agents modunda hazırı olmayan rol: 4.

@@ -1,0 +1,68 @@
+{
+ "TS-01": {
+  "basliklar": [
+   "Basic Pamuklu Tişört",
+   "Kadın Tişört Modelleri",
+   "%100 Pamuk Kadın Tişört",
+   "Sezon Sonu %20 İndirim",
+   "6 Renk Pamuklu Tişört",
+   "Regular Kesim Kadın Tişört",
+   "S-XL Beden Seçenekleri",
+   "Pamuklu Tişört 349,90 TL",
+   "Günlük Kombinin Temeli",
+   "Hemen Sipariş Verin"
+  ],
+  "aciklamalar": [
+   "%100 pamuklu, regular kesim Basic Tişört 6 renk ve S-XL beden seçenekleriyle.",
+   "Sezon sonu fırsatı: Basic Pamuklu Tişört'te %20 indirim. Stoklar tükenmeden sipariş verin.",
+   "Nefes alan %100 pamuk kumaşıyla gün boyu rahatlık. Rengini ve bedenini seç, hemen al.",
+   "Kadın tişört koleksiyonunda temel parça: Basic Pamuklu Tişört, 349,90 TL."
+  ],
+  "yol1": "kadin",
+  "yol2": "tisort"
+ },
+ "SW-02_hatali": {
+  "basliklar": [
+   "Kapüşonlu Sweatshirt",
+   "Unisex Sweatshirt Modelleri",
+   "3 İplik Şardonlu Sweatshirt",
+   "Kanguru Cepli Sweatshirt",
+   "Ayarlanabilir Kapüşon",
+   "Kapüşonlu Sweatshirt 899 TL",
+   "Soğuk Günler İçin Sweatshirt",
+   "Unisex Kapüşonlu Sweatshirt",
+   "Şardonlu Kumaş, Sıcak Tutar",
+   "Hemen Sipariş Verin"
+  ],
+  "aciklamalar": [
+   "3 iplik şardonlu kumaştan unisex kapüşonlu sweatshirt. Kanguru cep, ayarlanabilir kapüşon.",
+   "Şimdi %20 indirimle Kapüşonlu Sweatshirt. Kanguru cepli, şardonlu ve sıcak tutan model.",
+   "Ayarlanabilir kapüşonu ve kanguru cebiyle günlük kullanıma uygun unisex sweatshirt.",
+   "Kapüşonlu Sweatshirt 899 TL. 3 iplik şardonlu kumaş, kadın ve erkek için unisex kesim."
+  ],
+  "yol1": "unisex",
+  "yol2": "sweatshirt"
+ },
+ "SW-02": {
+  "basliklar": [
+   "Kapüşonlu Sweatshirt",
+   "Unisex Sweatshirt Modelleri",
+   "3 İplik Şardonlu Sweatshirt",
+   "Kanguru Cepli Sweatshirt",
+   "Ayarlanabilir Kapüşon",
+   "Kapüşonlu Sweatshirt 899 TL",
+   "Soğuk Günler İçin Sweatshirt",
+   "Unisex Kapüşonlu Sweatshirt",
+   "Şardonlu Kumaş, Sıcak Tutar",
+   "Hemen Sipariş Verin"
+  ],
+  "aciklamalar": [
+   "3 iplik şardonlu kumaştan unisex kapüşonlu sweatshirt. Kanguru cep, ayarlanabilir kapüşon.",
+   "Kanguru cepli, şardonlu ve sıcak tutan Kapüşonlu Sweatshirt. Hemen sipariş verin.",
+   "Ayarlanabilir kapüşonu ve kanguru cebiyle günlük kullanıma uygun unisex sweatshirt.",
+   "Kapüşonlu Sweatshirt 899 TL. 3 iplik şardonlu kumaş, kadın ve erkek için unisex kesim."
+  ],
+  "yol1": "unisex",
+  "yol2": "sweatshirt"
+ }
+}

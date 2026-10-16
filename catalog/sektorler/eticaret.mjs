@@ -65,6 +65,7 @@ export const ETICARET = {
       { id: "performans-pazarlama-uzmani", name: "Performans Pazarlama Uzmanı", level: "Uzman", tasks: [
         "Reklam Kampanyası Performans Raporu",
         ["Pazaryeri Reklam (Sponsorlu Ürün) Analizi", "Pazaryeri reklam raporlarından ürün bazında reklam maliyeti/satış oranını hesaplayıp kârsız reklamları işaretler.", 3],
+        ["Reklam Metni Varyasyonları", "Ürün bilgisinden arama reklamı başlık / açıklama varyasyonları yazar; karakter sınırını, ürün bilgisinde olmayan iddiaları ve tekrarı kod denetler", 2],
       ]},
       { id: "performans-pazarlama-yoneticisi", name: "Performans Pazarlama Yöneticisi", level: "Yönetici", tasks: [
         "Pazarlama Bütçesi Takibi",
