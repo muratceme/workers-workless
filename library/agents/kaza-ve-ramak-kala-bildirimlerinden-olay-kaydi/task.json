@@ -1,0 +1,23 @@
+{
+  "id": "kaza-ve-ramak-kala-bildirimlerinden-olay-kaydi",
+  "tur": "agent",
+  "ad": "Kaza ve Ramak Kala Bildirimlerinden Olay Kaydı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --bildirimler bildirimler.docx --tatiller 29.10.2026",
+  "girdiler": [
+    "Bildirimler (.txt/.docx/.pdf): her blok 'Bildirim: No | Tarih: GG.AA.YYYY | Saat: SS:DD | Bölüm: … | Bildiren: Ad Soyad' satırıyla başlar",
+    "Neden kategorileri (isteğe bağlı, satır başına bir tane)",
+    ".env: sağlayıcı ve API anahtarı (bildiren ve --gizle adları takma adla; telefon, e-posta, TCKN maskeli)"
+  ],
+  "ciktilar": [
+    "Excel: Bildirimler (tür, neden, kayıp gün, yaralanma, SGK bildirim son günü, kanıt, eksik bilgiler), Kontrol",
+    "İş Kazası ve Ramak Kala Analizi kod bloğu girdisi: _olaylar.xlsx"
+  ],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

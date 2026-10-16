@@ -318,6 +318,7 @@ export const ORTAK = {
       { id: "isyeri-hekimi", name: "İşyeri Hekimi", level: "Uzman", tasks: [
         "İSG Eğitim ve Muayene Takibi",
         "İş Kazası ve Ramak Kala Analizi",
+        ["Kaza ve Ramak Kala Bildirimlerinden Olay Kaydı", "Serbest metin kaza / ramak kala bildirimlerini tür, neden, kayıp gün ve yaralanma bilgisiyle olay kaydına dönüştürür; SGK bildirim son gününü hesaplar", 2],
       ]},
     ],
   },

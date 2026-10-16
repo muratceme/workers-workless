@@ -828,3 +828,5 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Toplam 455 görev, 457 paket (357 kod + 100 agent). AI Agents modunda hazırı olmayan rol: 9.
 - Yeni agent: bt-olay-sonrasi-raporu (Sistem Uzmanı). Zaman damgalı notlardan suçlamasız postmortem; konuşanlar otomatik maskelenir; damga / sıra / aksiyon kapsamı / 'Doğrulandı' denetimi; süreler ve SLA kodda. Test: sahte model bir kişiyi takma adıyla suçladı, kod yakaladı.
 - Toplam 456 görev, 458 paket (357 kod + 101 agent). AI Agents modunda hazırı olmayan rol: 8.
+- Yeni agent: kaza-ve-ramak-kala-bildirimlerinden-olay-kaydi (İşyeri Hekimi). Serbest metin bildirim → olay kaydı (kod bloğu formatı) + yaralanma bilgisi; SGK bildirim son günü kodda (3 iş günü, kaza günü hariç, hafta sonu / --tatiller hariç; kaynak: 5510 md.13, 6331 md.14). Test: sahte model bel tutulmasını 'Ramak Kala' saydı, kod zarar ifadesinden yakaladı.
+- Toplam 457 görev, 459 paket (357 kod + 102 agent). AI Agents modunda hazırı olmayan rol: 7.

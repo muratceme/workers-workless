@@ -1,0 +1,85 @@
+{
+ "B-101": {
+  "tur": "Ramak Kala",
+  "kanit": "Temas olmadı, kimse yaralanmadı",
+  "neden": "Forklift ve araç hareketi",
+  "kayip_gun": "",
+  "vardiya": "",
+  "aciklama": "Forklift geri manevrada raf arkasından çıkan yayaya çok yaklaştı, temas olmadı",
+  "yaralanma": {
+   "vucut_bolgesi": "",
+   "yaralanma_turu": "",
+   "mudahale": "",
+   "sevk": "Yok"
+  },
+  "eksikler": [
+   "Raf arkasında yaya geçişi için görüş / uyarı düzeni olup olmadığı belirtilmemiş"
+  ]
+ },
+ "B-102": {
+  "tur": "İş Kazası",
+  "kanit": "sol elinin işaret parmağı kalıp ile tabla arasında sıkıştı",
+  "neden": "Makine ve ekipman",
+  "kayip_gun": "5",
+  "vardiya": "Gece",
+  "aciklama": "Pres hattında kalıp değişimi sırasında sol el işaret parmağı kalıp ile tabla arasında sıkıştı",
+  "yaralanma": {
+   "vucut_bolgesi": "Sol el işaret parmağı",
+   "yaralanma_turu": "Sıkışma, dikiş gerektiren yara",
+   "mudahale": "Revirde ilk yardım, hastanede 2 dikiş",
+   "sevk": "Hastaneye sevk"
+  },
+  "eksikler": [
+   "Kalıp değişiminde presin enerjisinin kesilip kesilmediği (kilitleme / etiketleme) yazılmamış; neden 'Makine ve ekipman' olarak alındı"
+  ]
+ },
+ "B-103_hatali": {
+  "tur": "Ramak Kala",
+  "kanit": "25 kg'lık koliyi yerden kaldırırken",
+  "neden": "Elle taşıma",
+  "kayip_gun": "",
+  "vardiya": "",
+  "aciklama": "Koli kaldırılırken bel zorlandı, işine devam etti",
+  "yaralanma": {
+   "vucut_bolgesi": "",
+   "yaralanma_turu": "",
+   "mudahale": "",
+   "sevk": "Yok"
+  },
+  "eksikler": []
+ },
+ "B-104": {
+  "tur": "Ramak Kala",
+  "kanit": "Kimseye temas etmedi",
+  "neden": "Kimyasal",
+  "kayip_gun": "",
+  "vardiya": "",
+  "aciklama": "Laboratuvarda kapağı açık, etiketsiz asit şişesi tezgâhta bulundu; temas olmadı",
+  "yaralanma": {
+   "vucut_bolgesi": "",
+   "yaralanma_turu": "",
+   "mudahale": "",
+   "sevk": "Yok"
+  },
+  "eksikler": [
+   "Şişenin kim tarafından ve ne zamandan beri açık bırakıldığı belirtilmemiş"
+  ]
+ },
+ "B-103": {
+  "tur": "İş Kazası",
+  "kanit": "belinin tutulduğunu söyledi",
+  "neden": "Elle taşıma",
+  "kayip_gun": "0",
+  "vardiya": "",
+  "aciklama": "25 kg'lık koli yerden kaldırılırken bel tutulması; revirde soğuk uygulama, işine devam etti",
+  "yaralanma": {
+   "vucut_bolgesi": "Bel",
+   "yaralanma_turu": "Bel tutulması (zorlanma)",
+   "mudahale": "Revirde soğuk uygulama",
+   "sevk": "İşyerinde tedavi"
+  },
+  "eksikler": [
+   "Sonraki günlerde ağrının sürüp sürmediği ve hekim muayenesi gerekip gerekmediği takip edilmeli"
+  ]
+ }
+}
