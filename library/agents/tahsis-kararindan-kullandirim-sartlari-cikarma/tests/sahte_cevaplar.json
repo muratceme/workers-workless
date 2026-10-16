@@ -1,0 +1,157 @@
+{
+ "ON-6101_hatali": {
+  "musteri_no": "M60101",
+  "musteri": "Örnek Gıda Sanayi A.Ş.",
+  "limit": "25.000.000",
+  "para_birimi": "TL",
+  "urunler": [
+   "Rotatif",
+   "Ticari Taksitli"
+  ],
+  "azami_vade_ay": "36",
+  "asgari_faiz": "41",
+  "gecerlilik_bitis": "30.09.2027",
+  "sozlesme_tutari": "30.000.000",
+  "sartlar": [
+   {
+    "sart": "1. derece ipotek (Bursa Nilüfer fabrika binası)",
+    "tur": "Teminat",
+    "zamanlama": "Kullandırım öncesi",
+    "gereken_tutar": "30.000.000",
+    "termin": "",
+    "kaynak": "Bursa Nilüfer'deki fabrika binası üzerinde 1. derece 30.000.000 TL ipotek tesis edilmeden kullandırım yapılmayacaktır."
+   },
+   {
+    "sart": "Ortakların müteselsil kefaleti ([KİŞİ-1], [KİŞİ-2])",
+    "tur": "Teminat",
+    "zamanlama": "Kullandırım öncesi",
+    "gereken_tutar": "",
+    "termin": "",
+    "kaynak": "Şirket ortakları [KİŞİ-1] ve [KİŞİ-2]'ın müteselsil kefaleti kullandırım öncesinde alınacaktır."
+   },
+   {
+    "sart": "Yangın sigortası poliçesi (banka lehine dain-i mürtehin)",
+    "tur": "Belge",
+    "zamanlama": "Kullandırım sonrası",
+    "gereken_tutar": "",
+    "termin": "",
+    "kaynak": "Fabrika binasının yangın sigortası poliçesi banka lehine dain-i mürtehin kayıtlı olarak kullandırımı takiben 30 gün içinde ibraz edilecektir."
+   },
+   {
+    "sart": "2026 yılı bağımsız denetim raporunun ibrazı",
+    "tur": "Belge",
+    "zamanlama": "Kullandırım sonrası",
+    "gereken_tutar": "",
+    "termin": "31.03.2027",
+    "kaynak": "Firma 2026 yılı bağımsız denetim raporunu 31.03.2027 tarihine kadar ibraz edecektir."
+   }
+  ],
+  "belirsizlikler": [
+   "Yangın sigortası için 30 günlük süre kullandırım tarihinden başlar; şart takibinde hedef tarih kullandırım tarihine göre girilmeli."
+  ]
+ },
+ "ON-6101": {
+  "musteri_no": "M60101",
+  "musteri": "Örnek Gıda Sanayi A.Ş.",
+  "limit": "25.000.000",
+  "para_birimi": "TL",
+  "urunler": [
+   "Rotatif",
+   "Ticari Taksitli"
+  ],
+  "azami_vade_ay": "36",
+  "asgari_faiz": "41",
+  "gecerlilik_bitis": "30.09.2027",
+  "sozlesme_tutari": "30.000.000",
+  "sartlar": [
+   {
+    "sart": "1. derece ipotek (Bursa Nilüfer fabrika binası)",
+    "tur": "Teminat",
+    "zamanlama": "Kullandırım öncesi",
+    "gereken_tutar": "30.000.000",
+    "termin": "",
+    "kaynak": "Bursa Nilüfer'deki fabrika binası üzerinde 1. derece 30.000.000 TL ipotek tesis edilmeden kullandırım yapılmayacaktır."
+   },
+   {
+    "sart": "Ortakların müteselsil kefaleti ([KİŞİ-1], [KİŞİ-2])",
+    "tur": "Teminat",
+    "zamanlama": "Kullandırım öncesi",
+    "gereken_tutar": "",
+    "termin": "",
+    "kaynak": "Şirket ortakları [KİŞİ-1] ve [KİŞİ-2]'ın müteselsil kefaleti kullandırım öncesinde alınacaktır."
+   },
+   {
+    "sart": "Yangın sigortası poliçesi (banka lehine dain-i mürtehin)",
+    "tur": "Belge",
+    "zamanlama": "Kullandırım sonrası",
+    "gereken_tutar": "",
+    "termin": "",
+    "kaynak": "Fabrika binasının yangın sigortası poliçesi banka lehine dain-i mürtehin kayıtlı olarak kullandırımı takiben 30 gün içinde ibraz edilecektir."
+   },
+   {
+    "sart": "Müşteri çeki temliki (rotatif kullandırımlarda, limitin %20'si)",
+    "tur": "Teminat",
+    "zamanlama": "Kullandırım öncesi",
+    "gereken_tutar": "",
+    "termin": "",
+    "kaynak": "Rotatif kredi kullandırımlarında limitin %20'si oranında müşteri çeki temlik alınacaktır."
+   },
+   {
+    "sart": "2026 yılı bağımsız denetim raporunun ibrazı",
+    "tur": "Belge",
+    "zamanlama": "Kullandırım sonrası",
+    "gereken_tutar": "",
+    "termin": "31.03.2027",
+    "kaynak": "Firma 2026 yılı bağımsız denetim raporunu 31.03.2027 tarihine kadar ibraz edecektir."
+   }
+  ],
+  "belirsizlikler": [
+   "Yangın sigortası için 30 günlük süre kullandırım tarihinden başlar; şart takibinde hedef tarih kullandırım tarihine göre girilmeli.",
+   "Çek temlikinin zamanlaması kararda yazmıyor; ihtiyatla kullandırım öncesi alındı. Şart yalnız rotatif kullandırımlar için geçerli."
+  ]
+ },
+ "ON-6102": {
+  "musteri_no": "M60102",
+  "musteri": "Misal Tarım Ürünleri Ltd. Şti.",
+  "limit": "6.000.000",
+  "para_birimi": "TL",
+  "urunler": [
+   "Ticari Taksitli"
+  ],
+  "azami_vade_ay": "24",
+  "asgari_faiz": "43",
+  "gecerlilik_bitis": "31.12.2026",
+  "sozlesme_tutari": "",
+  "sartlar": [
+   {
+    "sart": "Kredi Garanti Fonu kefaleti (kredi tutarının %80'i)",
+    "tur": "Teminat",
+    "zamanlama": "Kullandırım öncesi",
+    "gereken_tutar": "",
+    "termin": "",
+    "kaynak": "Kredi tutarının %80'i oranında Kredi Garanti Fonu kefaleti kullandırım öncesinde sağlanacaktır."
+   },
+   {
+    "sart": "Araç rehni (2 adet traktör)",
+    "tur": "Teminat",
+    "zamanlama": "Kullandırım öncesi",
+    "gereken_tutar": "3.000.000",
+    "termin": "",
+    "kaynak": "2 adet traktör üzerinde 3.000.000 TL tutarında araç rehni tesis edilecektir."
+   },
+   {
+    "sart": "SGK ve vergi borcu yoktur yazıları",
+    "tur": "Ön koşul",
+    "zamanlama": "Kullandırım öncesi",
+    "gereken_tutar": "",
+    "termin": "",
+    "kaynak": "Kullandırımdan önce firmanın SGK ve vergi borcu olmadığına dair güncel yazılar alınacaktır."
+   }
+  ],
+  "belirsizlikler": [
+   "Kararda genel kredi sözleşmesi tutarı yok; tahsis birimine sorulmalı.",
+   "Araç rehninin zamanlaması kararda yazmıyor; ihtiyatla kullandırım öncesi alındı, tahsis birimine teyit ettirilmeli.",
+   "KGF kefaletinde 'kredi tutarı' limit olarak hesaplandı; kullandırım bazında oranlanacaksa tutar değişir."
+  ]
+ }
+}

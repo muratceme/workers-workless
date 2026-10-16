@@ -1,0 +1,6 @@
+# Sabit sürümler: güvenlik ve tekrarlanabilirlik için bilerek pinlenmiştir.
+anthropic==1.11.0
+openai==3.26.0
+python-dotenv==1.2.4
+openpyxl==3.1.5
+pypdf==6.19.0

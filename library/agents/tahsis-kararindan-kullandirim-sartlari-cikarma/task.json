@@ -1,0 +1,22 @@
+{
+  "id": "tahsis-kararindan-kullandirim-sartlari-cikarma",
+  "tur": "agent",
+  "ad": "Tahsis Kararından Kullandırım Şartları Çıkarma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --kararlar kararlar/ --gizle \"Ad Soyad\"",
+  "girdiler": [
+    "Tahsis / kredi komitesi kararları (.txt/.docx/.pdf ya da klasör); 'Karar No:' satırı yeni kararı başlatır",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta, TCKN, IBAN ve --gizle ile verilen kefil / ortak adları maskelenir)"
+  ],
+  "ciktilar": [
+    "Excel: Onaylar, Şartlar (kararda geçen cümlesiyle), Açık Noktalar, Kontrol",
+    "Kredi Kullandırım Ön Kontrolü kod bloğu girdileri: _onaylar.xlsx ve _sartlar.xlsx"
+  ],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

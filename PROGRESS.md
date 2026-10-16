@@ -820,3 +820,5 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Toplam 451 görev, 453 paket (357 kod + 96 agent). AI Agents modunda hazırı olmayan rol: 13.
 - Yeni agent: teftis-bulgusuna-cevap-yazisi (Şube Operasyon Yöneticisi). Şube notundan durum / kök neden / aksiyon / termin ve cevap yazısı; takip tablosu Kontrol / Bulgu Takibi bloğuna zincirlenir. Test: sahte model planlanan BT işini atlayıp 'Tamamlandı' dedi, kod eksik tarihi ve 'planlıyor' kuralını yakaladı.
 - Toplam 452 görev, 454 paket (357 kod + 97 agent). AI Agents modunda hazırı olmayan rol: 12.
+- Yeni agent: tahsis-kararindan-kullandirim-sartlari-cikarma (Kredi Operasyon Uzmanı). Karar metninden onay bilgileri ve şartlar (kaynak cümlesiyle); yüzdeli teminat tutarını kod hesaplar; Kredi Kullandırım Ön Kontrolü bloğuna zincirlenir. Test: sahte model çek temliki maddesini atladı, kod şart cümlesi kapsama denetimiyle yakaladı.
+- Toplam 453 görev, 455 paket (357 kod + 98 agent). AI Agents modunda hazırı olmayan rol: 11.

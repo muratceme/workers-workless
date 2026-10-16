@@ -119,6 +119,7 @@ export const BANKA = {
       { id: "kredi-operasyon-uzmani", name: "Kredi Operasyon Uzmanı", level: "Uzman", tasks: [
         ["Kredi Kullandırım Ön Kontrolü", "Onay şartları, teminat tesis durumu ve sözleşme bilgilerini kullandırım talebiyle karşılaştırıp eksikleri listeler.", 3],
         ["Ödeme Planı Hesaplama", "Kredi tutarı, faiz, vade ve ödeme tipine (eşit taksit, eşit anapara, balonlu) göre BSMV ve KKDF dahil ödeme planı çıkarır.", 2],
+        ["Tahsis Kararından Kullandırım Şartları Çıkarma", "Kredi komitesi / tahsis kararı metninden limit, vade, faiz, geçerlilik ve her teminat / ön koşul şartını kaynak cümlesiyle çıkarır; Kullandırım Ön Kontrolü dosyalarını yazar", 3],
       ]},
     ],
   },
