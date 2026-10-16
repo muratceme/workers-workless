@@ -61,6 +61,7 @@ export const ORTAK = {
         ["Cari Hesap Ekstresi Hazırlama", "Muhasebe hareketlerinden müşteri/tedarikçi bazında dönem ekstresi ve bakiye özeti hazırlar.", 3],
         ["Tahsilat ve Ödeme Listesi", "Vadesi gelen alacak ve borçlardan haftalık tahsilat ve ödeme listesini çıkarır.", 2],
         ["VKN / TCKN / IBAN Doğrulama", "Cari kart listesindeki vergi kimlik no, TC kimlik no ve IBAN'ları algoritmik olarak doğrular, hatalı ve mükerrer kayıtları listeler.", 2],
+        ["PDF Fatura Bilgi Çıkarma", "E-fatura XML'i olmayan PDF ve e-posta faturalarından satıcı, VKN, tarih, satırlar, KDV ve toplamları tabloya aktarır; VKN kontrol hanesini, satır ve toplam hesaplarını ve KDV oranını denetler.", 3],
       ]},
       { id: "muhasebe-elemani", name: "Muhasebe Elemanı", level: "Giriş", tasks: [
         ["Banka Mutabakatı", "Banka ekstresi ile muhasebe defterini (102 Bankalar) eşleştirir; eşleşenleri, açık kalemleri ve olası nedenlerini raporlar.", 6],
@@ -207,6 +208,7 @@ export const ORTAK = {
         ["Demirbaş ve Zimmet Takibi", "Demirbaşların konum, zimmet ve sayım durumunu takip eder, sayım farklarını raporlar.", 2],
         ["Hizmet Alımı Fatura Kontrolü", "Yemek, servis, temizlik ve güvenlik faturalarını sözleşme birim fiyatı ve fiilî kullanım (kişi/gün, sefer) ile karşılaştırır.", 3],
         ["Abonelik ve Sözleşme Takibi", "Kira, elektrik, su, internet ve bakım sözleşmelerinin tutar, vade ve yenileme tarihlerini izler.", 1],
+        "PDF Fatura Bilgi Çıkarma",
       ]},
       { id: "idari-isler-muduru", name: "İdari İşler Müdürü", level: "Yönetici", tasks: [
         "Sözleşme Envanteri ve Süre Takibi",

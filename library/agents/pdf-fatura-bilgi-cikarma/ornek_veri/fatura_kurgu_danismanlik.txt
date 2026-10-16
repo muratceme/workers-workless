@@ -1,0 +1,26 @@
+Kimden: Can Kurgu <can.kurgu@example.com>
+Kime: muhasebe@ornekgida.example
+Konu: Ekim ayı danışmanlık faturası
+
+Merhaba, Ekim ayı faturamı aşağıda iletiyorum.
+
+CAN KURGU - KURGU DANIŞMANLIK
+TCKN: 10000000146   Kadıköy V.D.
+Cep: 0532 111 22 33
+
+Fatura No: CK-2026-017
+Düzenleme Tarihi: 14 Ekim 2026
+
+Alıcı: Örnek Gıda San. ve Tic. A.Ş. — VKN 4567890125
+
+1) Ekim 2026 süreç danışmanlığı hizmet bedeli — 1 Ay x 20.000,00 = 20.000,00 TL, KDV %20: 4.000,00 TL
+   KDV tevkifatı (5/10): 2.000,00 TL
+
+Mal/Hizmet Toplamı: 20.000,00 TL
+Hesaplanan KDV: 4.000,00 TL
+Tevkif Edilen KDV: 2.000,00 TL
+Vergiler Dahil Toplam: 24.000,00 TL
+Ödenecek Tutar: 22.000,00 TL
+
+Ödeme için IBAN: TR04 0088 8000 0550 0000 0001 23
+Saygılarımla, Can Kurgu

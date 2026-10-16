@@ -98,6 +98,7 @@ export const TEKSTIL = {
       { id: "kesimhane-sefi", name: "Kesimhane Şefi", level: "Uzman", tasks: [
         "Kesim Kat Planı",
         ["Kesim Föyü ve Fire Raporu", "Kesilen adetleri beden-renk bazında sipariş adetleriyle karşılaştırır, kumaş kullanımını ve kesim firesini hesaplar.", 3],
+        "Vardiya Devir Notu Özeti",
       ]},
       { id: "fason-takip-sorumlusu", name: "Fason Takip Sorumlusu", level: "Uzman", tasks: [
         ["Fason Atölye İş Takibi", "Fason atölyelere çıkan işleri adet, çıkış-dönüş tarihi ve kalite durumuyla takip eder, gecikmeleri listeler.", 4],

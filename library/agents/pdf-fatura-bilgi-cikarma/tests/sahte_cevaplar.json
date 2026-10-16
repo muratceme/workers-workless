@@ -1,0 +1,163 @@
+{
+ "danismanlik": {
+  "faturalar": [
+   {
+    "fatura_no": "CK-2026-017",
+    "tarih": "14 Ekim 2026",
+    "vade_tarihi": "",
+    "satici_unvan": "CAN KURGU - KURGU DANIŞMANLIK",
+    "alici_unvan": "Örnek Gıda San. ve Tic. A.Ş.",
+    "satici_vkn": "[TCKN-1]",
+    "alici_vkn": "4567890125",
+    "satici_iban": "[IBAN-1]",
+    "mal_hizmet_toplami": "20.000,00",
+    "iskonto_toplami": "",
+    "toplam_kdv": "4.000,00",
+    "tevkifat": "2.000,00",
+    "vergiler_dahil": "24.000,00",
+    "odenecek": "22.000,00",
+    "para_birimi": "TRY",
+    "satirlar": [
+     {
+      "urun": "Ekim 2026 süreç danışmanlığı hizmet bedeli",
+      "birim": "Ay",
+      "tevkifat_orani": "5/10",
+      "miktar": "1",
+      "birim_fiyat": "20.000,00",
+      "iskonto": "",
+      "tutar": "20.000,00",
+      "kdv_orani": "%20",
+      "kdv_tutari": "4.000,00",
+      "tevkifat_tutari": "2.000,00"
+     }
+    ]
+   }
+  ],
+  "notlar": [
+   "Fatura e-posta gövdesinde iletilmiş; e-Arşiv / e-Fatura olup olmadığı belgede belirtilmemiş."
+  ]
+ },
+ "kirtasiye": {
+  "faturalar": [
+   {
+    "fatura_no": "KKR2026000000418",
+    "tarih": "12.10.2026",
+    "vade_tarihi": "11.11.2026",
+    "satici_unvan": "KURGU KIRTASİYE LTD. ŞTİ.",
+    "alici_unvan": "ÖRNEK GIDA SAN. VE TİC. A.Ş.",
+    "satici_vkn": "9876543217",
+    "alici_vkn": "4567890128",
+    "satici_iban": "[IBAN-1]",
+    "mal_hizmet_toplami": "12.425,00",
+    "iskonto_toplami": "180,00",
+    "toplam_kdv": "2.485,00",
+    "tevkifat": "",
+    "vergiler_dahil": "14.910,00",
+    "odenecek": "14.910,00",
+    "para_birimi": "TRY",
+    "satirlar": [
+     {
+      "urun": "A4 Fotokopi Kağıdı 80 gr",
+      "birim": "Paket",
+      "tevkifat_orani": "",
+      "miktar": "40",
+      "birim_fiyat": "145,00",
+      "iskonto": "0,00",
+      "tutar": "5.800,00",
+      "kdv_orani": "%20",
+      "kdv_tutari": "1.160,00",
+      "tevkifat_tutari": ""
+     },
+     {
+      "urun": "Toner TN-2420 (muadil)",
+      "birim": "Adet",
+      "tevkifat_orani": "",
+      "miktar": "6",
+      "birim_fiyat": "780,00",
+      "iskonto": "180,00",
+      "tutar": "4.500,00",
+      "kdv_orani": "%20",
+      "kdv_tutari": "900,00",
+      "tevkifat_tutari": ""
+     },
+     {
+      "urun": "Dosya Klasörü Geniş",
+      "birim": "Adet",
+      "tevkifat_orani": "",
+      "miktar": "50",
+      "birim_fiyat": "42,50",
+      "iskonto": "0,00",
+      "tutar": "2.125,00",
+      "kdv_orani": "%20",
+      "kdv_tutari": "425,00",
+      "tevkifat_tutari": ""
+     }
+    ]
+   }
+  ],
+  "notlar": []
+ },
+ "bakim": {
+  "faturalar": [
+   {
+    "fatura_no": "DOS-2026/0931",
+    "tarih": "05.10.2026",
+    "vade_tarihi": "",
+    "satici_unvan": "DENEME OTO SERVİS HİZMETLERİ A.Ş.",
+    "alici_unvan": "Örnek Gıda San. ve Tic. A.Ş.",
+    "satici_vkn": "3333333339",
+    "alici_vkn": "4567890128",
+    "satici_iban": "",
+    "mal_hizmet_toplami": "6.540,00",
+    "iskonto_toplami": "",
+    "toplam_kdv": "1.295,20",
+    "tevkifat": "",
+    "vergiler_dahil": "7.835,20",
+    "odenecek": "7.835,20",
+    "para_birimi": "TRY",
+    "satirlar": [
+     {
+      "urun": "Periyodik bakım işçiliği",
+      "birim": "Saat",
+      "tevkifat_orani": "",
+      "miktar": "3",
+      "birim_fiyat": "1.250,00",
+      "iskonto": "",
+      "tutar": "3.850,00",
+      "kdv_orani": "%20",
+      "kdv_tutari": "770,00",
+      "tevkifat_tutari": ""
+     },
+     {
+      "urun": "Motor yağı 5W-30",
+      "birim": "Litre",
+      "tevkifat_orani": "",
+      "miktar": "5",
+      "birim_fiyat": "410,00",
+      "iskonto": "",
+      "tutar": "2.050,00",
+      "kdv_orani": "%20",
+      "kdv_tutari": "410,00",
+      "tevkifat_tutari": ""
+     },
+     {
+      "urun": "Yağ filtresi",
+      "birim": "Adet",
+      "tevkifat_orani": "",
+      "miktar": "1",
+      "birim_fiyat": "640,00",
+      "iskonto": "",
+      "tutar": "640,00",
+      "kdv_orani": "%18",
+      "kdv_tutari": "115,20",
+      "tevkifat_tutari": ""
+     }
+    ]
+   }
+  ],
+  "notlar": [
+   "Belgede vade tarihi yok; 'Ödeme 30 gün vadelidir' ifadesi var.",
+   "Araç plakası 34 ABC 123, KM 86.400."
+  ]
+ }
+}

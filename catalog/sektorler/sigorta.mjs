@@ -106,6 +106,7 @@ export const SIGORTA = {
       { id: "bolge-satis-yoneticisi-sigorta", name: "Bölge Satış Yöneticisi", level: "Yönetici", tasks: [
         ["Acente Performans Karnesi", "Acente bazında üretim, büyüme, hasar/prim, tahsilat ve yenileme oranını karşılaştırmalı karnede toplar.", 3],
         ["Üretim Hedef Takibi", "Branş ve acente bazında aylık üretim hedefi-gerçekleşmesini takip eder.", 2],
+        "Ziyaret Notu Özeti",
       ]},
       { id: "acente-destek-uzmani", name: "Acente Destek Uzmanı", level: "Uzman", tasks: [
         "Üretim Hedef Takibi",

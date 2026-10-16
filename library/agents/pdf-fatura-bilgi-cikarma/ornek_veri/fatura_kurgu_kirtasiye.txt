@@ -1,0 +1,27 @@
+KURGU KIRTASİYE LTD. ŞTİ.
+Örnek Mah. Deneme Cad. No: 12 Kadıköy / İstanbul
+Kadıköy V.D. VKN: 9876543217
+Tel: 0216 555 10 20  e-posta: satis@kurgukirtasiye.example
+
+FATURA
+Fatura No: KKR2026000000418
+Fatura Tarihi: 12.10.2026
+Vade Tarihi: 11.11.2026
+
+SAYIN
+ÖRNEK GIDA SAN. VE TİC. A.Ş.
+Boğaziçi V.D. VKN: 4567890128
+
+Sıra  Mal / Hizmet                 Miktar  Birim  Birim Fiyat   İskonto   Tutar      KDV %   KDV Tutarı
+1     A4 Fotokopi Kağıdı 80 gr     40      Paket  145,00        0,00      5.800,00   %20     1.160,00
+2     Toner TN-2420 (muadil)        6      Adet   780,00        180,00    4.500,00   %20       900,00
+3     Dosya Klasörü Geniş          50      Adet    42,50        0,00      2.125,00   %20       425,00
+
+Mal / Hizmet Toplam Tutarı:   12.425,00 TL
+Toplam İskonto:                  180,00 TL
+Hesaplanan KDV (%20):          2.485,00 TL
+Vergiler Dahil Toplam Tutar:  14.910,00 TL
+Ödenecek Tutar:               14.910,00 TL
+Yalnız Ondörtbindokuzyüzon Türk Lirası
+
+Banka: Kurgu Bankası Kadıköy Şb. IBAN: TR48 0099 9000 0100 0000 1000 01

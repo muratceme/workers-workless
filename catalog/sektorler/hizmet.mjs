@@ -19,6 +19,7 @@ export const SMMM = {
       { id: "mali-musavir-stajyeri", name: "Mali Müşavir Stajyeri", level: "Giriş", tasks: [
         ["Mükellef Evrak Eksik Takibi", "Ay sonu her mükelleften gelmesi gereken belgeleri (fatura, banka ekstresi, puantaj, kasa) gelenlerle karşılaştırıp eksik listesini çıkarır.", 3],
         "Fatura KDV Tutarlılık Kontrolü",
+        "PDF Fatura Bilgi Çıkarma",
       ]},
     ],
   },

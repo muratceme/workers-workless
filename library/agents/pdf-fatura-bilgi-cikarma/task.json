@@ -1,0 +1,23 @@
+{
+  "id": "pdf-fatura-bilgi-cikarma",
+  "tur": "agent",
+  "ad": "PDF Fatura Bilgi Çıkarma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi ./gelen_faturalar",
+  "girdiler": [
+    "Fatura belgeleri (.pdf, .docx, .txt): tek dosya ya da klasör; taranmış PDF'e önce OCR uygulanmalı",
+    "Ayrıca maskelenecek kişi adları (isteğe bağlı, --gizle)",
+    ".env: sağlayıcı ve API anahtarı (IBAN ve 11 haneli kimlik numaraları gönderilmez; telefon ve e-posta maskelenir)"
+  ],
+  "ciktilar": [
+    "Excel: Faturalar ve Satırlar (E-Fatura Okuma ve Listeleme biçiminde; Fatura KDV Tutarlılık Kontrolü'ne verilebilir), Bulgular, Kontrol",
+    "JSON: aynı bilgiler"
+  ],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

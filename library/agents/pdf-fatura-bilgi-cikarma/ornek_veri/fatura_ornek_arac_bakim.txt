@@ -1,0 +1,21 @@
+DENEME OTO SERVİS HİZMETLERİ A.Ş.
+Sanayi Sitesi 4. Blok No: 7 Ümraniye / İstanbul
+Ümraniye V.D. 3333333339
+
+SATIŞ FATURASI                         Fatura No : DOS-2026/0931
+                                       Tarih     : 05.10.2026
+Alıcı: Örnek Gıda San. ve Tic. A.Ş.
+Vergi Dairesi / No: Boğaziçi / 4567890128
+Araç Plakası: 34 ABC 123   KM: 86.400
+
+No | Açıklama                           | Miktar | Birim | Birim Fiyat | Tutar     | KDV Oranı | KDV
+1  | Periyodik bakım işçiliği            | 3      | Saat  | 1.250,00    | 3.850,00  | %20       | 770,00
+2  | Motor yağı 5W-30                    | 5      | Litre | 410,00      | 2.050,00  | %20       | 410,00
+3  | Yağ filtresi                        | 1      | Adet  | 640,00      | 640,00    | %18       | 115,20
+
+Ara Toplam      : 6.540,00
+KDV Toplamı     : 1.295,20
+Genel Toplam    : 7.835,20
+Ödenecek Tutar  : 7.835,20 TL
+
+Not: Ödeme 30 gün vadelidir.
