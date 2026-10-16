@@ -1,0 +1,12 @@
+Soru;Ölçüt;Puan;Tanım
+1;Etmenler;0;Doğru etmen yok
+1;Etmenler;1;Bir ya da iki etmen doğru
+1;Etmenler;2;Üç etmen de doğru (ışık, su, karbondioksit)
+1;Açıklama;0;Açıklama yok ya da yanlış
+1;Açıklama;1;Etmenin işlevi eksik ya da kısmen doğru açıklanmış
+1;Açıklama;2;Etmenin fotosentezdeki işlevi doğru açıklanmış
+2;Kavram farkı;0;Fark yok ya da yanlış
+2;Kavram farkı;1;Yalnız ısı ya da yalnız sıcaklık doğru tanımlanmış
+2;Kavram farkı;2;İkisi de doğru tanımlanmış ve fark açık
+2;Örnek;0;Örnek yok ya da konuyla ilgisiz
+2;Örnek;1;Isı ile sıcaklık farkını gösteren doğru örnek

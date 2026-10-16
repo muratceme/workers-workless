@@ -188,6 +188,7 @@ export const EGITIM = {
       { id: "olcme-degerlendirme-uzmani", name: "Ölçme Değerlendirme Uzmanı", level: "Uzman", tasks: [
         ["Sınav Sonuç ve Madde Analizi", "Optik form veya cevap anahtarı sonuçlarından öğrenci netlerini, soru güçlük ve ayırt edicilik indekslerini hesaplar.", 4],
         ["Kazanım Bazlı Başarı Raporu", "Soruların eşleştiği kazanımlara göre sınıf ve öğrenci bazında başarı yüzdelerini raporlar.", 3],
+        ["Açık Uçlu Cevaplar İçin Rubrik Puan Önerisi", "Açık uçlu cevaplara rubriğe göre kanıtlı puan önerisi ve geri bildirim yazar; toplamı, aynı cevaplara tutarlı puanı ve kazanım yüzdesini kod hesaplar; karar öğretmenindir", 3],
       ]},
       { id: "rehber-ogretmen", name: "Rehber Öğretmen", level: "Uzman", tasks: [
         ["Öğrenci Gelişim Raporu Taslağı", "Not, devamsızlık ve öğretmen gözlemlerinden veli görüşmesi için öğrenci gelişim raporu taslağı hazırlar.", 3],

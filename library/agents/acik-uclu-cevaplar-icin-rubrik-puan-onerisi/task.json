@@ -1,0 +1,20 @@
+{
+  "id": "acik-uclu-cevaplar-icin-rubrik-puan-onerisi",
+  "tur": "agent",
+  "ad": "Açık Uçlu Cevaplar İçin Rubrik Puan Önerisi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --sorular sorular.xlsx --rubrik rubrik.xlsx --cevaplar cevaplar.xlsx",
+  "girdiler": [
+    "Sorular (.xlsx/.csv): Soru; Soru Metni; Kazanım; Beklenen Cevap",
+    "Rubrik (.xlsx/.csv): Soru; Ölçüt; Puan; Tanım (her puan düzeyi bir satır)",
+    "Cevaplar (.xlsx/.csv): Öğrenci No; Soru; Cevap",
+    ".env: sağlayıcı ve API anahtarı (öğrenci adı ve numarası gönderilmez; telefon, e-posta, TCKN maskelenir)"
+  ],
+  "ciktilar": ["Excel: Puan Önerileri (ölçüt puanları, kanıt, geri bildirim, boş Öğretmen Puanı sütunu), Öğrenci × Soru, Kazanım Özeti, Kontrol"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py"
+  }
+}

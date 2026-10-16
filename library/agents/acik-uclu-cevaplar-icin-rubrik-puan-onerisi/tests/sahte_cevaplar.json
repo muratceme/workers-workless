@@ -1,0 +1,110 @@
+{
+ "101/1": {
+  "olcutler": [
+   {
+    "olcut": "Etmenler",
+    "puan": "2",
+    "kanit": "Işık, su ve karbondioksit gerekir",
+    "gerekce": "Üç etmen de doğru yazılmış."
+   },
+   {
+    "olcut": "Açıklama",
+    "puan": "2",
+    "kanit": "fotosentez için gereken enerji ışıktan gelir",
+    "gerekce": "Işığın enerji kaynağı olduğu doğru açıklanmış."
+   }
+  ],
+  "geri_bildirim": "Üç etmeni de doğru yazdın ve ışığın enerji sağladığını açıkladın.",
+  "ogretmene_not": ""
+ },
+ "101/2": {
+  "olcutler": [
+   {
+    "olcut": "Kavram farkı",
+    "puan": "1",
+    "kanit": "Isı bir enerjidir, sıcaktan soğuğa geçer",
+    "gerekce": "Isı doğru tanımlanmış; sıcaklık yalnız ölçümle tarif edilmiş, taneciklerin hareket enerjisiyle ilişkisi yok."
+   },
+   {
+    "olcut": "Örnek",
+    "puan": "0",
+    "kanit": "çay soğurken ısısını havaya verir",
+    "gerekce": "Örnek ısı aktarımını gösteriyor ama ısı ile sıcaklık farkını göstermiyor."
+   }
+  ],
+  "geri_bildirim": "Isının bir enerji olduğunu ve sıcaktan soğuğa geçtiğini doğru yazdın. Sıcaklığın neyin ölçüsü olduğunu ve ikisinin farkını gösteren bir örneği eklemelisin.",
+  "ogretmene_not": "Örnek ısı aktarımını gösteriyor; rubrikteki 'farkı gösteren örnek' tanımına uymadığı için 0 önerildi, öğretmen değerlendirmeli."
+ },
+ "102/1": {
+  "olcutler": [
+   {
+    "olcut": "Etmenler",
+    "puan": "1",
+    "kanit": "Işık ve su gerekir",
+    "gerekce": "İki etmen doğru, karbondioksit eksik."
+   },
+   {
+    "olcut": "Açıklama",
+    "puan": "0",
+    "kanit": "",
+    "gerekce": "'Su bitkiyi büyütür' ifadesi suyun fotosentezdeki işlevini açıklamıyor."
+   }
+  ],
+  "geri_bildirim": "Işık ve suyu doğru yazdın; karbondioksiti ve bir etmenin fotosentezdeki görevini eklemelisin.",
+  "ogretmene_not": ""
+ },
+ "103/1": {
+  "olcutler": [
+   {
+    "olcut": "Etmenler",
+    "puan": "2",
+    "kanit": "Güneş ışığı, su, karbondioksit",
+    "gerekce": "Üç etmen de doğru yazılmış."
+   },
+   {
+    "olcut": "Açıklama",
+    "puan": "2",
+    "kanit": "bitki onu havadan alıp besin yapar",
+    "gerekce": "Karbondioksitin besin üretiminde hammadde olduğu doğru açıklanmış."
+   }
+  ],
+  "geri_bildirim": "Üç etmeni de doğru yazdın ve karbondioksitin görevini açıkladın.",
+  "ogretmene_not": ""
+ },
+ "103/2_hatali": {
+  "olcutler": [
+   {
+    "olcut": "Kavram farkı",
+    "puan": "2",
+    "kanit": "Isı bir enerjidir, sıcaktan soğuğa geçer",
+    "gerekce": "Isı ve sıcaklık tanımlanmış."
+   },
+   {
+    "olcut": "Örnek",
+    "puan": "1",
+    "kanit": "çay soğurken ısısını havaya verir",
+    "gerekce": "Günlük hayattan doğru örnek."
+   }
+  ],
+  "geri_bildirim": "Isı ve sıcaklığı tanımladın, güzel bir örnek verdin.",
+  "ogretmene_not": ""
+ },
+ "103/2": {
+  "olcutler": [
+   {
+    "olcut": "Kavram farkı",
+    "puan": "1",
+    "kanit": "Isı bir enerjidir, sıcaktan soğuğa geçer",
+    "gerekce": "Isı doğru tanımlanmış; sıcaklık yalnız ölçümle tarif edilmiş, taneciklerin hareket enerjisiyle ilişkisi yok."
+   },
+   {
+    "olcut": "Örnek",
+    "puan": "0",
+    "kanit": "çay soğurken ısısını havaya verir",
+    "gerekce": "Örnek ısı aktarımını gösteriyor ama ısı ile sıcaklık farkını göstermiyor."
+   }
+  ],
+  "geri_bildirim": "Isının bir enerji olduğunu ve sıcaktan soğuğa geçtiğini doğru yazdın. Sıcaklığın neyin ölçüsü olduğunu ve ikisinin farkını gösteren bir örneği eklemelisin.",
+  "ogretmene_not": "Örnek ısı aktarımını gösteriyor; rubrikteki 'farkı gösteren örnek' tanımına uymadığı için 0 önerildi, öğretmen değerlendirmeli."
+ }
+}
