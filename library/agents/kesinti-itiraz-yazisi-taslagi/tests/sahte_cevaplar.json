@@ -1,0 +1,56 @@
+{
+ "F-201": {
+  "oneri": "Evet",
+  "gerekce": "Ek-2 fiyat listesinde (2026) laparoskopik kolesistektomi paket fiyatı 38.500,00 TL olup fatura bu tutarla düzenlenmiştir. Kesinti 2025 fiyatı (34.500,00 TL) esas alınarak yapılmıştır; Madde 7.2'ye göre güncel Ek-2 fiyatları esas alınır.",
+  "dayanak_maddeler": [
+   "Madde 7.2",
+   "Ek-2"
+  ],
+  "kullanilan_belgeler": [
+   "F-201.txt"
+  ],
+  "eksik_belgeler": [],
+  "itiraz_metni": "F-201 numaralı faturamıza 05.10.2026 tarihinde \"Anlaşma fiyatı üzerinde faturalama\" gerekçesiyle 4.000,00 TL kesinti uygulanmıştır.\n\nFaturada yer alan laparoskopik kolesistektomi paketi, anlaşmamızın Ek-2 fiyat listesinde (2026) 38.500,00 TL olarak yer almakta olup fatura bu tutarla düzenlenmiştir. Kesintinin 2025 yılı fiyatı (34.500,00 TL) esas alınarak yapıldığı anlaşılmaktadır. Anlaşmanın Madde 7.2 hükmü gereği anlaşma fiyatları her yıl Ocak ayında güncellenmekte ve faturalamada güncel Ek-2 fiyatları esas alınmaktadır.\n\nBu nedenle 4.000,00 TL tutarındaki kesintinin kaldırılarak tarafımıza ödenmesini arz ederiz. Ek-2 fiyat listesinin ilgili sayfası ekte sunulmuştur."
+ },
+ "F-202_hatali": {
+  "oneri": "Evet",
+  "gerekce": "Provizyon, 02.09.2026 01:15 acil başvurusundan sonra 24 saat içinde e-posta ile alınmıştır (Onay No: SB-PRV-778812). Ancak onay numarası faturaya yazılmamıştır; Madde 4.5 gereği düzeltilmiş fatura ile itiraz edilmelidir.",
+  "dayanak_maddeler": [
+   "Madde 4.5"
+  ],
+  "kullanilan_belgeler": [
+   "F-202.txt"
+  ],
+  "eksik_belgeler": [
+   "Onay numarası eklenmiş düzeltilmiş fatura"
+  ],
+  "itiraz_metni": "F-202 numaralı faturamıza \"Provizyon onayı alınmamış\" gerekçesiyle 2.500,00 TL kesinti uygulanmıştır.\n\nHastanın 02.09.2026 tarihli acil başvurusu için provizyon, aynı gün e-posta ile alınmış olup onay numarası SB-PRV-778812'dir. Anlaşmamızın Madde 4.5 hükmü gereği acil durumlarda provizyon e-posta ile alınabilmektedir. Onay numarasının faturada yer almaması nedeniyle onay numarasını içeren düzeltilmiş faturamız ekte sunulmuştur.\n\nKesintinin kaldırılarak 2.500,00 TL tutarın ödenmesini arz ederiz."
+ },
+ "F-202": {
+  "oneri": "Evet",
+  "gerekce": "Provizyon, 02.09.2026 01:15 acil başvurusundan sonra 24 saat içinde e-posta ile alınmıştır (Onay No: SB-PRV-778812). Ancak onay numarası faturaya yazılmamıştır; Madde 4.3 gereği düzeltilmiş fatura ile itiraz edilmelidir.",
+  "dayanak_maddeler": [
+   "Madde 4.3"
+  ],
+  "kullanilan_belgeler": [
+   "F-202.txt"
+  ],
+  "eksik_belgeler": [
+   "Onay numarası eklenmiş düzeltilmiş fatura"
+  ],
+  "itiraz_metni": "F-202 numaralı faturamıza \"Provizyon onayı alınmamış\" gerekçesiyle 2.500,00 TL kesinti uygulanmıştır.\n\nHastanın 02.09.2026 tarihli acil başvurusu için provizyon, aynı gün e-posta ile alınmış olup onay numarası SB-PRV-778812'dir. Anlaşmamızın Madde 4.3 hükmü gereği acil durumlarda provizyon e-posta ile alınabilmektedir. Onay numarasının faturada yer almaması nedeniyle onay numarasını içeren düzeltilmiş faturamız ekte sunulmuştur.\n\nKesintinin kaldırılarak 2.500,00 TL tutarın ödenmesini arz ederiz."
+ },
+ "F-203": {
+  "oneri": "Belge eksik",
+  "gerekce": "Madde 5.1'e göre MR tetkiki için işlem öncesinde ön onay alınması gerekmektedir. Bu fatura için ön onay kaydı ya da başka bir destek belgesi verilmemiştir.",
+  "dayanak_maddeler": [
+   "Madde 5.1"
+  ],
+  "kullanilan_belgeler": [],
+  "eksik_belgeler": [
+   "Lomber MR için Sigorta A provizyon merkezinden alınmış ön onay kaydı (varsa)",
+   "Tetkikin acil yapıldığını gösteren hekim notu / epikriz (varsa)"
+  ],
+  "itiraz_metni": ""
+ }
+}

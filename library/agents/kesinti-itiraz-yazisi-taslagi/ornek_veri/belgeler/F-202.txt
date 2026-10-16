@@ -1,0 +1,6 @@
+Kimden: provizyon@sigortab.example
+Konu: Provizyon onayı - Acil başvuru
+Tarih: 02.09.2026 03:40
+Hastanın 02.09.2026 01:15 acil başvurusu için provizyon onaylanmıştır. Onay No: SB-PRV-778812.
+
+Fatura F-202 açıklama alanında onay numarası yazılmamış (fatura sistemi alanı boş bırakmış).

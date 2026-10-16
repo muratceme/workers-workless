@@ -49,10 +49,12 @@ export const SAGLIK = {
       { id: "anlasmali-kurumlar-uzmani", name: "Anlaşmalı Kurumlar Uzmanı", level: "Uzman", tasks: [
         ["Özel Sağlık Sigortası Fatura Ön Kontrolü", "Fatura kalemlerini sigorta şirketi anlaşma fiyatları, provizyon onayı ve poliçe limitleriyle karşılaştırıp kesinti riskli kalemleri işaretler.", 5],
         ["Kesinti ve İtiraz Takibi", "Sigorta şirketlerinin yaptığı kesintileri neden bazında sınıflandırır, itiraz edilebilir olanları ve süreleri takip eder.", 3],
+        ["Kesinti İtiraz Yazısı Taslağı", "Sigorta şirketi ve kurum kesintilerini destek belgeleri ve verdiğiniz anlaşma / SUT maddeleriyle inceler, itiraz önerisi ve yazı taslağı hazırlar; madde numaralarını kod doğrular, son itiraz tarihini hesaplar.", 3],
       ]},
       { id: "faturalama-uzmani-sgk", name: "SGK Faturalama Uzmanı", level: "Uzman", tasks: [
         ["SGK Fatura Ön Kontrolü", "Medula'ya gönderilecek hizmet kalemlerini yapılandırılabilir SUT kurallarına (tanı-işlem uyumu, adet sınırı, tekrar süresi) göre ön kontrolden geçirir.", 5],
         ["Medula Ret ve Kesinti Analizi", "Medula ret/kesinti kayıtlarını hata kodu, branş ve işlem bazında analiz edip tekrarlayan hataları raporlar.", 3],
+        "Kesinti İtiraz Yazısı Taslağı",
       ]},
       { id: "anlasmali-kurumlar-muduru", name: "Anlaşmalı Kurumlar Müdürü", level: "Yönetici", tasks: [
         ["Kurum Bazlı Gelir ve Kesinti Raporu", "SGK ve özel sigorta şirketleri bazında fatura, tahsilat, kesinti oranı ve ortalama tahsil süresini raporlar.", 2],

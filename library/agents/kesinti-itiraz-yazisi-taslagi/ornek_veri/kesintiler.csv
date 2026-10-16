@@ -1,0 +1,4 @@
+Sigorta Şirketi;Fatura No;Kesinti Tarihi;Kesinti Tutarı;Kesinti Nedeni;İşlem;İtiraz Tarihi;İtiraz Sonucu;Geri Alınan Tutar
+Sigorta A;F-201;05.10.2026;4.000,00;Anlaşma fiyatı üzerinde faturalama;Laparoskopik kolesistektomi paket fiyatı;;;
+Sigorta B;F-202;07.10.2026;2.500,00;Provizyon onayı alınmamış;Acil servis muayene ve tetkikler;;;
+Sigorta A;F-203;09.10.2026;1.800,00;Ön onay gerektiren tetkik için onay yok;Lomber MR;;;

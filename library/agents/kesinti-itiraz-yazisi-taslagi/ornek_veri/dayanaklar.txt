@@ -1,0 +1,7 @@
+=== Sigorta A anlaşması (kurgusal örnek) ===
+Madde 5.1 - Planlı yatışlar ve MR, BT, PET-BT tetkikleri için işlem öncesinde Sigorta A provizyon merkezinden ön onay alınır.
+Madde 7.2 - Anlaşma fiyatları her yıl Ocak ayında güncellenir. Güncel fiyat listesi Ek-2'dir. Ek-2'de yer alan paket fiyatları faturalamada esas alınır.
+Madde 9.4 - Kurum, kesintiye kesinti bildiriminden itibaren 30 gün içinde gerekçeli ve belgeli olarak itiraz edebilir.
+
+=== Sigorta B anlaşması (kurgusal örnek) ===
+Madde 4.3 - Acil durumlarda provizyon, hasta kabulünden itibaren 24 saat içinde e-posta ile de alınabilir. E-posta ile alınan onay numarası faturada belirtilir.

@@ -1,0 +1,22 @@
+{
+  "id": "kesinti-itiraz-yazisi-taslagi",
+  "tur": "agent",
+  "ad": "Kesinti İtiraz Yazısı Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --kesintiler kesintiler.xlsx --belgeler ./belgeler --dayanak anlasma_maddeleri.txt --sureler itiraz_sureleri.csv",
+  "girdiler": [
+    "Kesinti listesi (.xlsx/.csv): Sigorta Şirketi, Fatura No, Kesinti Tarihi, Kesinti Tutarı, Kesinti Nedeni (Kesinti ve İtiraz Takibi biçimi)",
+    "Destek belgeleri klasörü: dosya adı fatura no ile başlar (F-201.txt, F-201_epikriz.pdf)",
+    "Dayanak metni: anlaşma ve / veya SUT maddeleri (siz verirsiniz)",
+    "İtiraz süreleri (isteğe bağlı): Sigorta Şirketi; İtiraz Süresi (gün)",
+    ".env: sağlayıcı ve API anahtarı (hasta adları --gizle ile; TCKN, telefon, e-posta, IBAN maskelenir)"
+  ],
+  "ciktilar": ["Excel: Kesintiler (girdi sütunları + itiraz önerisi, gerekçe, dayanak, belgeler, eksik belgeler, son itiraz tarihi), İtiraz Yazıları, Kontrol", "TXT: itiraz yazıları"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}
