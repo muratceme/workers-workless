@@ -1,0 +1,20 @@
+{
+  "id": "magaza-olay-tutanagi-taslagi",
+  "tur": "agent",
+  "ad": "Mağaza Olay Tutanağı Taslağı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi olay_notlari.txt --gizle \"Ayşe Deneme\" --magaza \"Örnek Market Kadıköy\"",
+  "girdiler": [
+    "Olay notları (.txt/.docx): her olay 'Olay: GG.AA.YYYY SS:DD | Yer' satırıyla başlar",
+    "Sağlayıcıya gönderilmeyecek kişi adları (--gizle)",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta ve kimlik numarası maskelenir)"
+  ],
+  "ciktilar": ["Excel: Olaylar (tür, konu, etkilenen tutar, kasa farkı, hesap bulguları, imzaya hazır tutanak), Kontrol", "TXT: bütün tutanaklar"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

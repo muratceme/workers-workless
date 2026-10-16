@@ -13,11 +13,13 @@ export const PERAKENDE = {
       { id: "kasa-sorumlusu", name: "Kasa Sorumlusu", level: "Giriş", tasks: [
         ["Gün Sonu Kasa Raporu", "POS ve yazar kasa Z raporlarından nakit, kredi kartı, iade ve iptal toplamlarını çıkarır, kasa sayımıyla farkı raporlar.", 2],
         ["Kasa Fark ve İptal Analizi", "Kasiyer bazında iade, iptal ve kasa farklarını analiz edip olağandışı örüntüleri işaretler.", 2],
+        ["Mağaza Olay Tutanağı Taslağı", "Kasa farkı, hırsızlık şüphesi, hasarlı veya kayıp ürün notlarından suçlama içermeyen, imzaya hazır olay tutanağı taslağı hazırlar; kasa farkını ve ürün tutarını kodla hesaplar, kişi adlarını sağlayıcıya göndermez.", 2],
       ]},
       { id: "magaza-mudur-yardimcisi", name: "Mağaza Müdür Yardımcısı", level: "Uzman", tasks: [
         ["Mağaza Vardiya Planlama", "Saatlik müşteri trafiği tahmini, personel izinleri ve çalışma süresi kurallarına göre haftalık vardiya planı çıkarır.", 3],
         "Stok Sayım Fark Analizi",
         ["Fiyat Değişikliği Etiket Listesi", "Merkezden gelen fiyat değişikliklerini reyon ve raf sırasına göre etiket değişim listesine çevirir.", 1],
+        "Mağaza Olay Tutanağı Taslağı",
       ]},
       { id: "magaza-muduru", name: "Mağaza Müdürü", level: "Yönetici", tasks: [
         ["Mağaza Satış Performans Panosu", "Ciro, fiş adedi, sepet ortalaması, dönüşüm oranı ve geçen yıl karşılaştırmasını (LFL) günlük panoda toplar.", 2],
@@ -114,6 +116,7 @@ export const PERAKENDE = {
       { id: "kayip-onleme-uzmani", name: "Kayıp Önleme Uzmanı", level: "Uzman", tasks: [
         "Kasa Fark ve İptal Analizi",
         ["Envanter Kayıp Risk Skoru", "Sayım farkı, fire, iade ve iptal göstergelerinden mağaza bazında kayıp risk skoru üretir, denetim önceliği çıkarır.", 3],
+        "Mağaza Olay Tutanağı Taslağı",
       ]},
       { id: "kayip-onleme-muduru", name: "Kayıp Önleme Müdürü", level: "Yönetici", tasks: [
         "Fire ve Kayıp Analizi",

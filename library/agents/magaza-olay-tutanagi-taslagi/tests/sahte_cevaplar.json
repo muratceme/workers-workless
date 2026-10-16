@@ -1,0 +1,239 @@
+{
+ "O1": {
+  "baslik": "Kasa 2 gün sonu nakit farkı",
+  "tur": "Kasa farkı",
+  "ozet": "Gün sonu sayımında Kasa 2'de sistemde görünen nakit ile sayılan nakit arasında eksik fark tespit edildi. Sayım vardiya sorumlusuyla birlikte iki kez yapıldı. Akşam vardiyasında kasada [KİŞİ-1] isimli kasa personeli çalışıyordu. Saat 19:30 civarında yapılan nakit iade işleminin fişi kasada bulunamadı.",
+  "zaman_cizelgesi": [
+   {
+    "saat": "19:30",
+    "olay": "Nakit iade işlemi yapıldı; fişi kasada yok (yaklaşık saat)"
+   },
+   {
+    "saat": "22:10",
+    "olay": "Gün sonu sayımında fark tespit edildi"
+   }
+  ],
+  "urunler": [],
+  "kasa": {
+   "beklenen": "18.450,00",
+   "sayilan": "18.200,00",
+   "nottaki_fark": "350"
+  },
+  "kanitlar": [
+   "Gün sonu sayımı (iki kez, vardiya sorumlusuyla)",
+   "Kasa 2 kamera kayıtları (istenecek)"
+  ],
+  "bildirimler": [],
+  "yapilacaklar": [
+   "Kamera kayıtlarının, özellikle 19:30 civarındaki iade işleminin incelenmesi ve kaydın saklanması",
+   "İade işleminin sistem kaydının ve fişinin aranması",
+   "Sayım sonucunun bölge müdürlüğüne bildirilmesi"
+  ],
+  "eksik_bilgiler": [
+   "İade işleminin tutarı ve sistem fiş numarası",
+   "Sayıma katılan vardiya sorumlusunun adı"
+  ],
+  "satirlar": [
+   1,
+   2,
+   3
+  ]
+ },
+ "O2_hatali": {
+  "baslik": "Kozmetik reyonunda alarm sonrası ödenmemiş ürünle çıkış şüphesi",
+  "tur": "Hırsızlık şüphesi",
+  "ozet": "Saat 17:45'te çıkış kapısında alarm çaldı ve bir müşteri durmadan mağazadan çıktı; güvenlik görevlisi müşteriye ulaşamadı. Kozmetik reyonunda 2 adet parfümün eksik olduğu, kutularının rafın arkasında boş bulunduğu tespit edildi. Müşteri kesin olarak ürünleri çaldı.",
+  "zaman_cizelgesi": [
+   {
+    "saat": "17:42",
+    "olay": "Kamera kaydının başladığı aralık"
+   },
+   {
+    "saat": "17:45",
+    "olay": "Çıkış kapısında alarm çaldı, müşteri durmadan çıktı"
+   },
+   {
+    "saat": "17:55",
+    "olay": "Polise bildirim yapıldı"
+   }
+  ],
+  "urunler": [
+   {
+    "urun": "Kurgu Eau de Parfum 100 ml",
+    "adet": "2",
+    "birim_fiyat": "1.700",
+    "tutar": ""
+   }
+  ],
+  "kasa": {
+   "beklenen": "",
+   "sayilan": "",
+   "nottaki_fark": ""
+  },
+  "kanitlar": [
+   "Kamera kaydı 17:42-17:46",
+   "Rafın arkasında bulunan boş parfüm kutuları"
+  ],
+  "bildirimler": [
+   "Polise 17:55'te bildirildi (tutanak numarası verilmedi)"
+  ],
+  "yapilacaklar": [
+   "17:42-17:46 kamera kaydının kopyasının alınıp saklanması",
+   "Boş kutuların delil olarak saklanması",
+   "Eksik ürünlerin stok kaydından düşülmesi için kayıp kaydı açılması"
+  ],
+  "eksik_bilgiler": [
+   "Polis bildirim / olay numarası",
+   "Güvenlik görevlisinin yazılı beyanı",
+   "Ürün barkodları"
+  ],
+  "satirlar": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "O2": {
+  "baslik": "Kozmetik reyonunda alarm sonrası ödenmemiş ürünle çıkış şüphesi",
+  "tur": "Hırsızlık şüphesi",
+  "ozet": "Saat 17:45'te çıkış kapısında alarm çaldı ve bir müşteri durmadan mağazadan çıktı; güvenlik görevlisi müşteriye ulaşamadı. Kozmetik reyonunda 2 adet parfümün eksik olduğu, kutularının rafın arkasında boş bulunduğu tespit edildi. Kamera kaydı mevcuttur; olay polise bildirilmiştir.",
+  "zaman_cizelgesi": [
+   {
+    "saat": "17:42",
+    "olay": "Kamera kaydının başladığı aralık"
+   },
+   {
+    "saat": "17:45",
+    "olay": "Çıkış kapısında alarm çaldı, müşteri durmadan çıktı"
+   },
+   {
+    "saat": "17:55",
+    "olay": "Polise bildirim yapıldı"
+   }
+  ],
+  "urunler": [
+   {
+    "urun": "Kurgu Eau de Parfum 100 ml",
+    "adet": "2",
+    "birim_fiyat": "1.700",
+    "tutar": ""
+   }
+  ],
+  "kasa": {
+   "beklenen": "",
+   "sayilan": "",
+   "nottaki_fark": ""
+  },
+  "kanitlar": [
+   "Kamera kaydı 17:42-17:46",
+   "Rafın arkasında bulunan boş parfüm kutuları"
+  ],
+  "bildirimler": [
+   "Polise 17:55'te bildirildi (tutanak numarası verilmedi)"
+  ],
+  "yapilacaklar": [
+   "17:42-17:46 kamera kaydının kopyasının alınıp saklanması",
+   "Boş kutuların delil olarak saklanması",
+   "Eksik ürünlerin stok kaydından düşülmesi için kayıp kaydı açılması"
+  ],
+  "eksik_bilgiler": [
+   "Polis bildirim / olay numarası",
+   "Güvenlik görevlisinin yazılı beyanı",
+   "Ürün barkodları"
+  ],
+  "satirlar": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "O3_hatali": {
+  "baslik": "Depo çatısından su sızması nedeniyle ıslanan ürünler",
+  "tur": "Hasarlı ürün",
+  "ozet": "Gece yağan yağmurda depo çatısından su sızdığı tespit edildi. 6 koli tuvalet kağıdı ıslanarak satılamaz duruma geldi. Hasarın bina kaynaklı olduğu değerlendirildi; ıslak koliler ayrı alana alındı ve bina yönetimine fotoğraflarla bildirildi.",
+  "zaman_cizelgesi": [
+   {
+    "saat": "08:20",
+    "olay": "Islanan koliler tespit edildi"
+   }
+  ],
+  "urunler": [
+   {
+    "urun": "Tuvalet kağıdı (koli, 8 paket)",
+    "adet": "6",
+    "birim_fiyat": "",
+    "tutar": ""
+   }
+  ],
+  "kasa": {
+   "beklenen": "",
+   "sayilan": "",
+   "nottaki_fark": ""
+  },
+  "kanitlar": [
+   "Fotoğraflar"
+  ],
+  "bildirimler": [
+   "Bina yönetimine fotoğraflarla bildirildi"
+  ],
+  "yapilacaklar": [
+   "Hasarlı ürünlerin stoktan düşülmesi ve imha / iade kararının alınması",
+   "Çatı sızıntısının giderilmesinin takibi",
+   "Hasar tutarı için sigorta bildirimi gerekip gerekmediğinin kontrolü"
+  ],
+  "eksik_bilgiler": [
+   "Ürünlerin birim maliyeti / satış fiyatı",
+   "Sızıntının tespit edildiği tam saat ve yer"
+  ],
+  "satirlar": [
+   1,
+   2,
+   3
+  ]
+ },
+ "O3": {
+  "baslik": "Depo çatısından su sızması nedeniyle ıslanan ürünler",
+  "tur": "Hasarlı ürün",
+  "ozet": "Gece yağan yağmurda depo çatısından su sızdığı tespit edildi. 6 koli tuvalet kağıdı ıslanarak satılamaz duruma geldi. Hasarın bina kaynaklı olduğu değerlendirildi; ıslak koliler ayrı alana alındı ve bina yönetimine fotoğraflarla bildirildi.",
+  "zaman_cizelgesi": [
+   {
+    "saat": "08:20",
+    "olay": "Islanan koliler tespit edildi"
+   }
+  ],
+  "urunler": [
+   {
+    "urun": "Tuvalet kağıdı (koli, 8 paket)",
+    "adet": "6",
+    "birim_fiyat": "",
+    "tutar": ""
+   }
+  ],
+  "kasa": {
+   "beklenen": "",
+   "sayilan": "",
+   "nottaki_fark": ""
+  },
+  "kanitlar": [
+   "Fotoğraflar"
+  ],
+  "bildirimler": [
+   "Bina yönetimine fotoğraflarla bildirildi"
+  ],
+  "yapilacaklar": [
+   "Hasarlı ürünlerin stoktan düşülmesi ve imha / iade kararının alınması",
+   "Çatı sızıntısının giderilmesinin takibi",
+   "Hasar tutarı için sigorta bildirimi gerekip gerekmediğinin kontrolü"
+  ],
+  "eksik_bilgiler": [
+   "Ürünlerin birim maliyeti / satış fiyatı",
+   "Sızıntının tespit edildiği tam saat ve yer"
+  ],
+  "satirlar": [
+   1,
+   2
+  ]
+ }
+}
