@@ -1,0 +1,22 @@
+{
+  "id": "bt-olay-sonrasi-raporu",
+  "tur": "agent",
+  "ad": "BT Olay Sonrası Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --notlar olay_notlari.txt --sla-dk 60",
+  "girdiler": [
+    "Olay notları (.txt/.docx/.pdf): 'Olay: No | Hizmet: … | Tarih: GG.AA.YYYY' başlığı, 'SS:DD konuşan: mesaj' satırları, 'Aksiyon:' satırları",
+    ".env: sağlayıcı ve API anahtarı ('Ad Soyad:' konuşanlar ve --gizle adları takma adla; telefon, e-posta, TCKN, IBAN maskeli)"
+  ],
+  "ciktilar": [
+    "Markdown rapor: özet, etki, süreler, zaman çizelgesi, kök neden, katkıda bulunan etkenler, aksiyonlar, açık sorular",
+    "Excel: Zaman Çizelgesi, Aksiyonlar, Süreler, Kontrol"
+  ],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

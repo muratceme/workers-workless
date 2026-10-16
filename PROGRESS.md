@@ -826,3 +826,5 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Toplam 454 görev, 456 paket (357 kod + 99 agent). AI Agents modunda hazırı olmayan rol: 10.
 - Yeni agent: is-tanimindan-is-degerleme-puanlamasi (Ücretlendirme ve Yan Haklar Uzmanı). Model faktör düzeyi + kanıt cümlesi seçer; kod sayısal faktörlerde aralığı (milyon / bin çarpanlarıyla), 'tercih' kuralını denetler, puan / kademe / mevcut kademe farkını hesaplar. Örnek plan gösterim amaçlıdır. Test: sahte model 8 yıllık deneyime '10+ yıl' verdi, kod yakalayıp doğru düzeyi söyledi.
 - Toplam 455 görev, 457 paket (357 kod + 100 agent). AI Agents modunda hazırı olmayan rol: 9.
+- Yeni agent: bt-olay-sonrasi-raporu (Sistem Uzmanı). Zaman damgalı notlardan suçlamasız postmortem; konuşanlar otomatik maskelenir; damga / sıra / aksiyon kapsamı / 'Doğrulandı' denetimi; süreler ve SLA kodda. Test: sahte model bir kişiyi takma adıyla suçladı, kod yakaladı.
+- Toplam 456 görev, 458 paket (357 kod + 101 agent). AI Agents modunda hazırı olmayan rol: 8.

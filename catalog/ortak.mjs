@@ -145,6 +145,7 @@ export const ORTAK = {
         ["Yedekleme Doğrulama Raporu", "Yedekleme yazılımı çıktılarından başarısız, eksik veya geciken yedekleri raporlar.", 2],
         ["SSL Sertifika ve Lisans Süre Takibi", "Sertifika, alan adı ve yazılım lisanslarının bitiş tarihlerini izleyip yaklaşanları listeler.", 1],
         ["Kapasite Raporu", "Disk, bellek ve işlemci kullanım verisinden büyüme eğilimi ve dolma tarihi tahmini üretir.", 2],
+        ["BT Olay Sonrası Raporu", "Olay notlarından suçlamasız olay sonrası raporu (zaman çizelgesi, kök neden, aksiyonlar) yazar; tespit, müdahale ve kesinti sürelerini kod hesaplar", 3],
       ]},
       { id: "bilgi-guvenligi-uzmani", name: "Bilgi Güvenliği Uzmanı", level: "Uzman", tasks: [
         ["Zafiyet Tarama Önceliklendirme", "Zafiyet tarama çıktısını varlık kritikliği ve CVSS skoruna göre önceliklendirip aksiyon listesi çıkarır.", 4],

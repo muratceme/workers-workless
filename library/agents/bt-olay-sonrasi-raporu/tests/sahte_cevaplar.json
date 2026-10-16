@@ -1,0 +1,182 @@
+{
+ "hatali": {
+  "baslik": "ERP veritabanı log diskinin dolması nedeniyle fatura kaydı yapılamaması",
+  "ozet": "erp-db01 sunucusunda veritabanı işlem günlüğü diski doldu ve ERP'de fatura kaydı yapılamadı. Eski log yedekleri başka diske taşınarak yer açıldı ve hizmet düzeldi. Diskin dolmasının nedeni, işlem günlüğü yedekleme işinin servis hesabı parolası değiştiği için 10.10.2026'dan beri başarısız olması ve günlüklerin kırpılmamasıdır.",
+  "etki": "Muhasebe kullanıcıları ERP'de fatura kaydedemedi; yaklaşık 120 kullanıcı etkilendi. Hizmet masasına 3 çağrı geldi.",
+  "etkilenen_hizmetler": [
+   "ERP"
+  ],
+  "zaman_cizelgesi": [
+   {
+    "zaman": "14.10.2026 08:40",
+    "tur": "İlk belirti",
+    "olay": "İzleme sistemi erp-db01 log diskinde boş alanın %5'in altına düştüğünü bildirdi; uyarı yalnız e-posta ile gitti."
+   },
+   {
+    "zaman": "14.10.2026 09:05",
+    "tur": "Etki başlangıcı",
+    "olay": "Muhasebeden fatura kaydedilemediğine dair ilk çağrılar geldi."
+   },
+   {
+    "zaman": "14.10.2026 09:05",
+    "tur": "Tespit",
+    "olay": "Hizmet masası olayı BT'ye iletti."
+   },
+   {
+    "zaman": "14.10.2026 09:12",
+    "tur": "Teşhis",
+    "olay": "Log diskinin %100 dolu olduğu ve veritabanının işlem günlüğü yazamadığı görüldü."
+   },
+   {
+    "zaman": "14.10.2026 09:20",
+    "tur": "Geçici çözüm",
+    "olay": "Eski log yedekleri başka diske taşındı, 40 GB yer açıldı."
+   },
+   {
+    "zaman": "14.10.2026 09:26",
+    "tur": "Hizmet düzeldi",
+    "olay": "Kullanıcılar tekrar fatura kaydedebildi."
+   },
+   {
+    "zaman": "14.10.2026 09:40",
+    "tur": "Bilgi",
+    "olay": "İşlem günlüğü yedekleme işinin 10.10.2026'dan beri hata verdiği, günlükler kırpılmadığı için diskin dolduğu doğrulandı."
+   },
+   {
+    "zaman": "14.10.2026 10:15",
+    "tur": "Bilgi",
+    "olay": "Yedekleme işinin servis hesabı parolasının 10.10.2026'da değiştirildiği bulundu."
+   },
+   {
+    "zaman": "14.10.2026 10:30",
+    "tur": "Kalıcı çözüm",
+    "olay": "Servis hesabı yedekleme işinde güncellendi; iş elle çalıştırıldı ve başarılı oldu."
+   }
+  ],
+  "kok_neden": "İşlem günlüğü yedekleme işinin servis hesabı parolası 10.10.2026'da değiştirildi ve iş güncellenmediği için başarısız oldu; yedeklenmeyen günlükler kırpılmadı ve log diski doldu.",
+  "kok_neden_durumu": "Doğrulandı",
+  "katkida_bulunanlar": [
+   "[KİŞİ-3] servis hesabının parolasını değiştirirken yedekleme işini güncellemedi.",
+   "Disk uyarısı yalnız e-posta ile gitti; nöbetçi ekibe ulaşmadı.",
+   "Yedekleme işinin 10.10.2026'dan beri başarısız olması fark edilmedi."
+  ],
+  "iyi_gidenler": [
+   "Teşhis tespitten kısa süre sonra yapıldı ve geçici çözümle hizmet hızla düzeldi."
+  ],
+  "aksiyonlar": [
+   {
+    "aksiyon": "Disk uyarıları e-postaya ek olarak nöbet telefonuna da gitsin",
+    "tur": "Tespit",
+    "sahip": "Altyapı ekibi",
+    "termin": "31.10.2026"
+   },
+   {
+    "aksiyon": "Servis hesabı parola değişiklikleri değişiklik yönetimi kaydına bağlansın",
+    "tur": "Süreç",
+    "sahip": "BT Güvenlik",
+    "termin": ""
+   },
+   {
+    "aksiyon": "Yedekleme hata raporu her sabah kontrol listesine eklensin",
+    "tur": "Tespit",
+    "sahip": "Sistem ekibi",
+    "termin": "21.10.2026"
+   }
+  ],
+  "acik_sorular": [
+   "Diskin tam olarak ne zaman %100 dolduğu bilinmiyor; etki başlangıcı ilk çağrı anı olarak alındı, veritabanı loglarından teyit edilmeli.",
+   "Parola değişikliğinden etkilenen başka servis hesabı / iş var mı?",
+   "Servis hesabı parola değişikliği aksiyonunun termini belirlenmeli."
+  ]
+ },
+ "dogru": {
+  "baslik": "ERP veritabanı log diskinin dolması nedeniyle fatura kaydı yapılamaması",
+  "ozet": "erp-db01 sunucusunda veritabanı işlem günlüğü diski doldu ve ERP'de fatura kaydı yapılamadı. Eski log yedekleri başka diske taşınarak yer açıldı ve hizmet düzeldi. Diskin dolmasının nedeni, işlem günlüğü yedekleme işinin servis hesabı parolası değiştiği için 10.10.2026'dan beri başarısız olması ve günlüklerin kırpılmamasıdır.",
+  "etki": "Muhasebe kullanıcıları ERP'de fatura kaydedemedi; yaklaşık 120 kullanıcı etkilendi. Hizmet masasına 3 çağrı geldi.",
+  "etkilenen_hizmetler": [
+   "ERP"
+  ],
+  "zaman_cizelgesi": [
+   {
+    "zaman": "14.10.2026 08:40",
+    "tur": "İlk belirti",
+    "olay": "İzleme sistemi erp-db01 log diskinde boş alanın %5'in altına düştüğünü bildirdi; uyarı yalnız e-posta ile gitti."
+   },
+   {
+    "zaman": "14.10.2026 09:05",
+    "tur": "Etki başlangıcı",
+    "olay": "Muhasebeden fatura kaydedilemediğine dair ilk çağrılar geldi."
+   },
+   {
+    "zaman": "14.10.2026 09:05",
+    "tur": "Tespit",
+    "olay": "Hizmet masası olayı BT'ye iletti."
+   },
+   {
+    "zaman": "14.10.2026 09:12",
+    "tur": "Teşhis",
+    "olay": "Log diskinin %100 dolu olduğu ve veritabanının işlem günlüğü yazamadığı görüldü."
+   },
+   {
+    "zaman": "14.10.2026 09:20",
+    "tur": "Geçici çözüm",
+    "olay": "Eski log yedekleri başka diske taşındı, 40 GB yer açıldı."
+   },
+   {
+    "zaman": "14.10.2026 09:26",
+    "tur": "Hizmet düzeldi",
+    "olay": "Kullanıcılar tekrar fatura kaydedebildi."
+   },
+   {
+    "zaman": "14.10.2026 09:40",
+    "tur": "Bilgi",
+    "olay": "İşlem günlüğü yedekleme işinin 10.10.2026'dan beri hata verdiği, günlükler kırpılmadığı için diskin dolduğu doğrulandı."
+   },
+   {
+    "zaman": "14.10.2026 10:15",
+    "tur": "Bilgi",
+    "olay": "Yedekleme işinin servis hesabı parolasının 10.10.2026'da değiştirildiği bulundu."
+   },
+   {
+    "zaman": "14.10.2026 10:30",
+    "tur": "Kalıcı çözüm",
+    "olay": "Servis hesabı yedekleme işinde güncellendi; iş elle çalıştırıldı ve başarılı oldu."
+   }
+  ],
+  "kok_neden": "İşlem günlüğü yedekleme işinin servis hesabı parolası 10.10.2026'da değiştirildi ve iş güncellenmediği için başarısız oldu; yedeklenmeyen günlükler kırpılmadı ve log diski doldu.",
+  "kok_neden_durumu": "Doğrulandı",
+  "katkida_bulunanlar": [
+   "Servis hesabı parola değişikliğinde, hesabı kullanan işleri gösteren bir envanter ve değişiklik kaydı yoktu; yedekleme işi güncellenmeden kaldı.",
+   "Disk uyarısı yalnız e-posta ile gitti; nöbetçi ekibe ulaşmadı.",
+   "Yedekleme işinin 10.10.2026'dan beri başarısız olması fark edilmedi."
+  ],
+  "iyi_gidenler": [
+   "Teşhis tespitten kısa süre sonra yapıldı ve geçici çözümle hizmet hızla düzeldi."
+  ],
+  "aksiyonlar": [
+   {
+    "aksiyon": "Disk uyarıları e-postaya ek olarak nöbet telefonuna da gitsin",
+    "tur": "Tespit",
+    "sahip": "Altyapı ekibi",
+    "termin": "31.10.2026"
+   },
+   {
+    "aksiyon": "Servis hesabı parola değişiklikleri değişiklik yönetimi kaydına bağlansın",
+    "tur": "Süreç",
+    "sahip": "BT Güvenlik",
+    "termin": ""
+   },
+   {
+    "aksiyon": "Yedekleme hata raporu her sabah kontrol listesine eklensin",
+    "tur": "Tespit",
+    "sahip": "Sistem ekibi",
+    "termin": "21.10.2026"
+   }
+  ],
+  "acik_sorular": [
+   "Diskin tam olarak ne zaman %100 dolduğu bilinmiyor; etki başlangıcı ilk çağrı anı olarak alındı, veritabanı loglarından teyit edilmeli.",
+   "Parola değişikliğinden etkilenen başka servis hesabı / iş var mı?",
+   "Servis hesabı parola değişikliği aksiyonunun termini belirlenmeli."
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+Olay: INC-2026-0412 | Hizmet: ERP | Tarih: 14.10.2026
+08:40 İzleme: erp-db01 log diskinde boş alan %5'in altına düştü uyarısı (yalnız e-posta ile gitti)
+09:05 Gülay Tekin: Muhasebeden ERP'de fatura kaydedilemiyor diye 3 çağrı geldi
+09:12 Ozan Er: erp-db01 üzerinde log diski %100 dolu, veritabanı işlem günlüğü yazamıyor
+09:20 Ozan Er: Eski log yedekleri başka diske taşınıyor, 40 GB yer açıldı
+09:26 Gülay Tekin: Kullanıcılar tekrar fatura kaydedebiliyor, yaklaşık 120 kullanıcı etkilendi
+09:40 Ozan Er: Gece 02:00'deki işlem günlüğü yedekleme işi 10.10.2026'dan beri hata veriyor; günlükler kırpılmadığı için disk doldu. Kök neden doğrulandı.
+10:15 Selim Ak: Yedekleme işinin servis hesabının parolası 10.10.2026'da değiştirilmiş, iş bu yüzden başarısız oluyor.
+10:30 Ozan Er: Servis hesabı yedekleme işinde güncellendi, iş elle çalıştırıldı ve başarılı.
+Aksiyon: Disk uyarıları e-postaya ek olarak nöbet telefonuna da gitsin (Altyapı ekibi, 31.10.2026)
+Aksiyon: Servis hesabı parola değişiklikleri değişiklik yönetimi kaydına bağlansın (BT Güvenlik)
+Aksiyon: Yedekleme hata raporu her sabah kontrol listesine eklensin (Sistem ekibi, 21.10.2026)
