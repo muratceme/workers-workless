@@ -1,0 +1,7 @@
+İş Emri: IE-2026-1023 | Plaka: 34 ABC 123 | Model: Kurgu X1 1.5 | Trafiğe çıkış: 12.03.2024 | KM: 48.200 | Tarih: 15.10.2026
+Müşteri: Sabah soğukta ilk çalıştırınca motordan 2-3 saniye tıkırtı geliyor, sonra kesiliyor. Bir haftadır böyle.
+Teknisyen: Soğuk çalıştırma testi yapıldı, tıkırtı duyuldu. Eksantrik zincir gergisi basınç tutmuyor. Zincir gergisi (parça no 13540-KX100) ve conta (13541-KX100) değiştirildi. İşçilik 2,5 saat. Test sürüşü yapıldı, ses yok.
+
+İş Emri: IE-2026-1031 | Plaka: 06 DEF 456 | Model: Kurgu X1 1.5 | Trafiğe çıkış: 05.06.2025 | KM: 21.750 | Tarih: 16.10.2026
+Müşteri: Park sensörü önde sürekli ötüyor, engel yokken de uyarı veriyor.
+Teknisyen: Sol ön park sensörü arızalı. Sensör kablosu tampon içinde darbe sonucu ezilmiş, tamponda boya çatlağı var. Sensör (39680-KX200) ve kablo (39681-KX200) değiştirildi. İşçilik 1,2 saat.

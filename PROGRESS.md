@@ -814,3 +814,5 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Toplam 448 görev, 450 paket (357 kod + 93 agent). AI Agents modunda hazırı olmayan rol: 18.
 - otel-log-defteri-devir-ozeti: Night Auditor, Kat Şefi. Her log satırının kullanıldığı, oda / saat / tutarın satırda geçtiği, acil işaretli konuların Acil olduğu kodla denetlenir; sorumlusu yazılmamış açık konular "sahipsiz" işaretlenir.
 - Toplam 449 görev, 451 paket (357 kod + 94 agent). AI Agents modunda hazırı olmayan rol: 16.
+- servis-is-emri-3c-ve-garanti-metni: Servis Danışmanı, Garanti Uzmanı. 3C (Şikâyet / Neden / Çözüm); parça no ve işçilik notta aynen; şikâyete teknisyen bulgusu karışması yakalanır; garanti yıl / km ve garanti dışı işaretleri kodla. Plaka gönderilmez.
+- Toplam 450 görev, 452 paket (357 kod + 95 agent). AI Agents modunda hazırı olmayan rol: 14.

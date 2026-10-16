@@ -131,10 +131,12 @@ export const OTOMOTIV = {
         ["Servis Randevu Kapasite Planı", "Teknisyen kapasitesi ve iş türü sürelerine göre günlük randevu kapasitesini ve boşlukları hesaplar.", 2],
         ["Periyodik Bakım Hatırlatma Listesi", "Son bakım tarihi ve kilometre tahminine göre bakımı yaklaşan müşterileri listeler, hatırlatma mesajı hazırlar.", 2],
         ["İş Emri Ön Fiyat Tahmini", "Şikâyet ve bakım türüne göre işçilik saati ve parça fiyat listesinden müşteriye ön fiyat tahmini çıkarır.", 2],
+        ["Servis İş Emri 3C ve Garanti Metni", "Müşteri şikâyeti ve teknisyen notlarından iş emri ve garanti başvurusu için Şikâyet-Neden-Çözüm (3C) metni, değişen parçalar ve işçilik çıkarır; garanti süresi / km ve garanti dışı işaretleri kodla kontrol eder.", 3],
       ]},
       { id: "garanti-uzmani", name: "Garanti Uzmanı", level: "Uzman", tasks: [
         ["Garanti Başvuru Dosyası Kontrolü", "Garanti başvurusunda şasi, km, arıza kodu, işçilik kodu ve parça bilgilerinin marka kurallarına uygunluğunu kontrol eder.", 3],
         ["Geri Çağırma Kampanyası Araç Eşleştirme", "Marka kampanya şasi listesini servis müşteri veritabanıyla eşleştirip kampanyası yapılmamış araçları listeler.", 2],
+        "Servis İş Emri 3C ve Garanti Metni",
       ]},
       { id: "servis-muduru", name: "Satış Sonrası Hizmetler Müdürü", level: "Yönetici", tasks: [
         ["Teknisyen Verimlilik Raporu", "İş emirlerinden teknisyen bazında satılan saat, çalışılan saat ve verimlilik oranlarını hesaplar.", 2],

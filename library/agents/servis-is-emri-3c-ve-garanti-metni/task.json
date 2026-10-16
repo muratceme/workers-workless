@@ -1,0 +1,20 @@
+{
+  "id": "servis-is-emri-3c-ve-garanti-metni",
+  "tur": "agent",
+  "ad": "Servis İş Emri 3C ve Garanti Metni",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi is_emirleri.txt --garanti garanti_kosullari.csv",
+  "girdiler": [
+    "İş emirleri (.txt/.docx): 'İş Emri: no | Plaka | Model | Trafiğe çıkış | KM | Tarih' satırı, 'Müşteri:' ve 'Teknisyen:' notları",
+    "Garanti koşulları (isteğe bağlı, .csv: Model; Garanti Yıl; Garanti KM)",
+    ".env: sağlayıcı ve API anahtarı (plaka gönderilmez; telefon, e-posta, TCKN maskelenir)"
+  ],
+  "ciktilar": ["Excel: İş Emirleri (Şikâyet / Neden / Çözüm, değişen parçalar, işçilik, garanti önerisi, kodun garanti durumu ve bulguları), Kontrol"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

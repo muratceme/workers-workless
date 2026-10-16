@@ -1,0 +1,67 @@
+{
+ "1023_hatali": {
+  "sikayet": "Sabah soğukta ilk çalıştırmada motordan 2-3 saniye süren tıkırtı sesi geliyor, ardından kesiliyor; zincir gergisi kaynaklı. Bir haftadır devam ediyor.",
+  "neden": "Soğuk çalıştırma testinde tıkırtı doğrulandı. Eksantrik zincir gergisi basınç tutmuyor.",
+  "cozum": "Eksantrik zincir gergisi ve contası değiştirildi; test sürüşünde ses tekrarlanmadı.",
+  "parcalar": [
+   {
+    "parca_no": "13540-KX100",
+    "ad": "Eksantrik zincir gergisi",
+    "adet": "1"
+   },
+   {
+    "parca_no": "13541-KX100",
+    "ad": "Conta",
+    "adet": "1"
+   }
+  ],
+  "iscilik_saat": "2,5",
+  "garanti_onerisi": "Garanti başvurusu",
+  "gerekce": "Zincir gergisinin basınç tutmaması malzeme / üretim kaynaklı bir arızadır.",
+  "eksik_bilgiler": []
+ },
+ "1023": {
+  "sikayet": "Sabah soğukta ilk çalıştırmada motordan 2-3 saniye süren tıkırtı sesi geliyor, ardından kesiliyor. Bir haftadır devam ediyor.",
+  "neden": "Soğuk çalıştırma testinde tıkırtı doğrulandı. Eksantrik zincir gergisi basınç tutmuyor.",
+  "cozum": "Eksantrik zincir gergisi ve contası değiştirildi; test sürüşünde ses tekrarlanmadı.",
+  "parcalar": [
+   {
+    "parca_no": "13540-KX100",
+    "ad": "Eksantrik zincir gergisi",
+    "adet": "1"
+   },
+   {
+    "parca_no": "13541-KX100",
+    "ad": "Conta",
+    "adet": "1"
+   }
+  ],
+  "iscilik_saat": "2,5",
+  "garanti_onerisi": "Garanti başvurusu",
+  "gerekce": "Zincir gergisinin basınç tutmaması malzeme / üretim kaynaklı bir arızadır.",
+  "eksik_bilgiler": []
+ },
+ "1031": {
+  "sikayet": "Ön park sensörü engel yokken de sürekli uyarı veriyor.",
+  "neden": "Sol ön park sensörü arızalı; sensör kablosu tampon içinde darbe sonucu ezilmiş, tamponda boya çatlağı var.",
+  "cozum": "Sol ön park sensörü ve kablosu değiştirildi.",
+  "parcalar": [
+   {
+    "parca_no": "39680-KX200",
+    "ad": "Sol ön park sensörü",
+    "adet": "1"
+   },
+   {
+    "parca_no": "39681-KX200",
+    "ad": "Sensör kablosu",
+    "adet": "1"
+   }
+  ],
+  "iscilik_saat": "1,2",
+  "garanti_onerisi": "Ücretli",
+  "gerekce": "Kablo hasarı darbe kaynaklı; tamponda darbe izi var.",
+  "eksik_bilgiler": [
+   "Tampon hasarının fotoğrafı"
+  ]
+ }
+}
