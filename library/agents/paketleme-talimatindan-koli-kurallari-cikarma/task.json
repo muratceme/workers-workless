@@ -1,0 +1,20 @@
+{
+  "id": "paketleme-talimatindan-koli-kurallari-cikarma",
+  "tur": "agent",
+  "ad": "Paketleme Talimatından Koli Kuralları Çıkarma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --talimat talimat.pdf --sevk sevk.xlsx --dara 0,8",
+  "girdiler": [
+    "Müşteri paketleme talimatı (.txt/.docx/.pdf; Türkçe ya da İngilizce)",
+    "Sevk dosyası (isteğe bağlı; Koli Listesi (Packing List) Hazırlama kod bloğunun dosyası: Model, bedenler, Adet Ağırlığı)",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta, TCKN maskelenir)"
+  ],
+  "ciktilar": ["Excel: Parametreler (kod bloğu komutuyla), Gereklilikler (kontrol listesi), Ağırlık Kontrolü, Açık Noktalar, Kontrol"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

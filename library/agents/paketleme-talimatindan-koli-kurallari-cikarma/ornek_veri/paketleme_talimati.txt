@@ -1,0 +1,9 @@
+MÜŞTERİ PAKETLEME TALİMATI · PO-501 / PO-502
+
+1. Ürünler asorti paketlenecektir. Asorti oranı S:1, M:2, L:2, XL:1 olmalıdır.
+2. Bir kolide 24 adet ürün bulunmalıdır; aynı koliye farklı renk konulmamalıdır.
+3. Koli ölçüsü 60x40x30 cm olmalı, koli brüt ağırlığı 12 kg'ı geçmemelidir.
+4. Her ürün tek tek polybag'e konulmalı, polybag üzerinde boğulma uyarısı Türkçe ve İngilizce yazılmalıdır.
+5. Koli üzerine iki yan yüzeye shipping mark yazılmalıdır: PO no, model, renk, beden dağılımı, koli no / toplam koli, net ve brüt ağırlık.
+6. Askılı ürünlerde fiyat etiketi ürünün sol yan dikişine takılmalıdır.
+7. Sevkiyattan 5 gün önce packing list e-posta ile gönderilmelidir.

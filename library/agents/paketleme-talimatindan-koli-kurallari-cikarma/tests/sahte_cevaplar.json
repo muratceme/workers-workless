@@ -1,0 +1,166 @@
+{
+ "hatali": {
+  "yontem": "asorti",
+  "asorti": [
+   {
+    "beden": "S",
+    "adet": "1"
+   },
+   {
+    "beden": "M",
+    "adet": "2"
+   },
+   {
+    "beden": "L",
+    "adet": "2"
+   },
+   {
+    "beden": "XL",
+    "adet": "1"
+   }
+  ],
+  "koli_ici_adet": "24",
+  "koli_olcu": "60x40x40",
+  "max_brut_kg": "12",
+  "kanitlar": [
+   {
+    "alan": "yontem",
+    "kanit": "Ürünler asorti paketlenecektir."
+   },
+   {
+    "alan": "yontem",
+    "kanit": "Asorti oranı S:1, M:2, L:2, XL:1 olmalıdır."
+   },
+   {
+    "alan": "koli_ici_adet",
+    "kanit": "Bir kolide 24 adet ürün bulunmalıdır"
+   },
+   {
+    "alan": "koli_olcu",
+    "kanit": "Koli ölçüsü 60x40x30 cm olmalı"
+   },
+   {
+    "alan": "max_brut_kg",
+    "kanit": "koli brüt ağırlığı 12 kg'ı geçmemelidir"
+   }
+  ],
+  "gereklilikler": [
+   {
+    "kategori": "Koli içeriği",
+    "gereklilik": "Aynı koliye farklı renk konulmaz.",
+    "kanit": "aynı koliye farklı renk konulmamalıdır"
+   },
+   {
+    "kategori": "Polybag",
+    "gereklilik": "Her ürün tek tek polybag'e konur.",
+    "kanit": "Her ürün tek tek polybag'e konulmalı"
+   },
+   {
+    "kategori": "Polybag",
+    "gereklilik": "Polybag üzerinde Türkçe ve İngilizce boğulma uyarısı bulunur.",
+    "kanit": "polybag üzerinde boğulma uyarısı Türkçe ve İngilizce yazılmalıdır"
+   },
+   {
+    "kategori": "Koli işareti",
+    "gereklilik": "Kolinin iki yan yüzüne shipping mark: PO no, model, renk, beden dağılımı, koli no / toplam koli, net ve brüt ağırlık.",
+    "kanit": "Koli üzerine iki yan yüzeye shipping mark yazılmalıdır: PO no, model, renk, beden dağılımı, koli no / toplam koli, net ve brüt ağırlık."
+   },
+   {
+    "kategori": "Etiket",
+    "gereklilik": "Askılı ürünlerde fiyat etiketi sol yan dikişe takılır.",
+    "kanit": "Askılı ürünlerde fiyat etiketi ürünün sol yan dikişine takılmalıdır."
+   },
+   {
+    "kategori": "Belge ve süre",
+    "gereklilik": "Packing list sevkiyattan 5 gün önce e-posta ile gönderilir.",
+    "kanit": "Sevkiyattan 5 gün önce packing list e-posta ile gönderilmelidir."
+   }
+  ],
+  "belirsizlikler": [
+   "Askılı ürünlerin hangi modeller olduğu talimatta belirtilmemiş.",
+   "Koli darası talimatta yok; ağırlık hesabında varsayılan dara kullanılır."
+  ]
+ },
+ "dogru": {
+  "yontem": "asorti",
+  "asorti": [
+   {
+    "beden": "S",
+    "adet": "1"
+   },
+   {
+    "beden": "M",
+    "adet": "2"
+   },
+   {
+    "beden": "L",
+    "adet": "2"
+   },
+   {
+    "beden": "XL",
+    "adet": "1"
+   }
+  ],
+  "koli_ici_adet": "24",
+  "koli_olcu": "60x40x30",
+  "max_brut_kg": "12",
+  "kanitlar": [
+   {
+    "alan": "yontem",
+    "kanit": "Ürünler asorti paketlenecektir."
+   },
+   {
+    "alan": "yontem",
+    "kanit": "Asorti oranı S:1, M:2, L:2, XL:1 olmalıdır."
+   },
+   {
+    "alan": "koli_ici_adet",
+    "kanit": "Bir kolide 24 adet ürün bulunmalıdır"
+   },
+   {
+    "alan": "koli_olcu",
+    "kanit": "Koli ölçüsü 60x40x30 cm olmalı"
+   },
+   {
+    "alan": "max_brut_kg",
+    "kanit": "koli brüt ağırlığı 12 kg'ı geçmemelidir"
+   }
+  ],
+  "gereklilikler": [
+   {
+    "kategori": "Koli içeriği",
+    "gereklilik": "Aynı koliye farklı renk konulmaz.",
+    "kanit": "aynı koliye farklı renk konulmamalıdır"
+   },
+   {
+    "kategori": "Polybag",
+    "gereklilik": "Her ürün tek tek polybag'e konur.",
+    "kanit": "Her ürün tek tek polybag'e konulmalı"
+   },
+   {
+    "kategori": "Polybag",
+    "gereklilik": "Polybag üzerinde Türkçe ve İngilizce boğulma uyarısı bulunur.",
+    "kanit": "polybag üzerinde boğulma uyarısı Türkçe ve İngilizce yazılmalıdır"
+   },
+   {
+    "kategori": "Koli işareti",
+    "gereklilik": "Kolinin iki yan yüzüne shipping mark: PO no, model, renk, beden dağılımı, koli no / toplam koli, net ve brüt ağırlık.",
+    "kanit": "Koli üzerine iki yan yüzeye shipping mark yazılmalıdır: PO no, model, renk, beden dağılımı, koli no / toplam koli, net ve brüt ağırlık."
+   },
+   {
+    "kategori": "Etiket",
+    "gereklilik": "Askılı ürünlerde fiyat etiketi sol yan dikişe takılır.",
+    "kanit": "Askılı ürünlerde fiyat etiketi ürünün sol yan dikişine takılmalıdır."
+   },
+   {
+    "kategori": "Belge ve süre",
+    "gereklilik": "Packing list sevkiyattan 5 gün önce e-posta ile gönderilir.",
+    "kanit": "Sevkiyattan 5 gün önce packing list e-posta ile gönderilmelidir."
+   }
+  ],
+  "belirsizlikler": [
+   "Askılı ürünlerin hangi modeller olduğu talimatta belirtilmemiş.",
+   "Koli darası talimatta yok; ağırlık hesabında varsayılan dara kullanılır."
+  ]
+ }
+}

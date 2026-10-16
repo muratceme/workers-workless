@@ -136,6 +136,7 @@ export const TEKSTIL = {
       { id: "sevkiyat-sorumlusu-tekstil", name: "Sevkiyat Sorumlusu", level: "Uzman", tasks: [
         ["Koli Listesi (Packing List) Hazırlama", "Sipariş beden-renk dağılımı ve koli kurallarından (solid/asorti) koli bazında çeki listesi, brüt-net ağırlık ve hacim hesaplar.", 4],
         "Proforma Fatura Hazırlama",
+        ["Paketleme Talimatından Koli Kuralları Çıkarma", "Müşteri paketleme talimatından asorti, koli içi, ölçü, ağırlık sınırı ve diğer zorunlulukları kanıtıyla çıkarır; ağırlığı kod kontrol eder, koli listesi komutunu hazırlar", 2],
       ]},
       { id: "utu-paket-sefi", name: "Ütü-Paket Şefi", level: "Uzman", tasks: [
         "Final Kontrol Raporu",
