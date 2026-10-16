@@ -94,11 +94,13 @@ export const SIGORTA = {
       { id: "reasurans-uzmani", name: "Reasürans Uzmanı", level: "Uzman", tasks: [
         ["Reasürans Hesap Cetveli Hazırlama", "Trete şartlarına göre devredilen prim, komisyon ve hasar paylarını dönem bazında hesaplayıp hesap cetvelini hazırlar.", 4],
         ["Kümül Risk Kontrolü", "Deprem bölgesi ve adres bazında aynı lokasyondaki poliçelerin toplam bedelini trete kapasitesiyle karşılaştırır.", 3],
+        ["Reasürans Slipi Özeti ve Kontrolü", "Reasürans slipi / anlaşma metninden limit, öncelik, dönem, MDP, yeniden tesis, saat klozu, istisnalar ve reasürör paylarını özet tabloya çıkarır; pay toplamını, beklenen şartlarla farkı ve zorunlu klozları kodla kontrol eder.", 3],
       ]},
       { id: "reasurans-muduru", name: "Reasürans Müdürü", level: "Yönetici", tasks: [
         "Kümül Risk Kontrolü",
         "Hasar/Prim Oranı Analizi",
         "Branş Kârlılık Raporu",
+        "Reasürans Slipi Özeti ve Kontrolü",
       ]},
     ],
   },

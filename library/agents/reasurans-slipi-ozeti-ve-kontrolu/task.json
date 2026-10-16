@@ -1,0 +1,21 @@
+{
+  "id": "reasurans-slipi-ozeti-ve-kontrolu",
+  "tur": "agent",
+  "ad": "Reasürans Slipi Özeti ve Kontrolü",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --slip slip.pdf --beklenen beklenen.csv --klozlar zorunlu_klozlar.csv",
+  "girdiler": [
+    "Slip / anlaşma metni (.pdf, .docx, .txt; Türkçe veya İngilizce)",
+    "Beklenen şartlar (isteğe bağlı, .csv/.xlsx: Kalem; Beklenen)",
+    "Zorunlu klozlar (isteğe bağlı, .csv/.xlsx: Kloz; Anahtar Kelimeler)",
+    ".env: sağlayıcı ve API anahtarı (beklenen şartlar ve kloz listesi gönderilmez)"
+  ],
+  "ciktilar": ["Excel: Özet, Reasürörler (pay toplamıyla), Karşılaştırma (beklenen şartlarla), Bulgular, Kontrol"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

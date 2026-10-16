@@ -1,0 +1,6 @@
+{"tur": "Cat XL", "tur_detay": "1. dilim", "cedant": "Kurgu Sigorta A.Ş.", "baslangic": "01.01.2027", "bitis": "31.12.2027", "kapsam": "Yangın ve mühendislik branşlarında Türkiye'deki riskler; deprem, sel, fırtına dahil",
+ "limit": "400.000.000", "oncelik": "50.000.000", "para_birimi": "TL", "reinstatement_adedi": "1", "reinstatement_kosulu": "%100 ek primle, zaman oranlı değil",
+ "mdp": "16.500.000", "prim_orani": "4,20", "saat_klozu": "72 saat (deprem), 168 saat (sel)", "bildirim_suresi": "Olaydan itibaren 30 gün içinde", "uyusmazlik": "Tahkim, İstanbul",
+ "istisnalar": ["Nükleer riskler", "Savaş ve iç savaş", "Terör (ayrı anlaşma)", "Kara ve deniz nakliyatı"],
+ "reasurorler": [{"ad": "Kurgu Re AG", "pay": "40,00", "lider": true}, {"ad": "Örnek Reinsurance Ltd", "pay": "35,00", "lider": false}, {"ad": "Deneme Re SE", "pay": "20,00", "lider": false}],
+ "notlar": ["MDP 4 eşit taksitte ödenir.", "Prim oranı GNPI üzerinden."]}

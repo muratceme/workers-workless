@@ -1,0 +1,18 @@
+REINSURANCE SLIP / REASÜRANS SLİPİ (kurgusal örnek)
+Reasürans ettiren (Cedant): Kurgu Sigorta A.Ş.
+Tür: Katastrofik Hasar Fazlası (Cat XL), 1. dilim
+Dönem: 01.01.2027 - 31.12.2027 (her iki tarih dahil, yerel saat)
+Kapsam: Yangın ve mühendislik branşlarında Türkiye'deki riskler; deprem, sel, fırtına dahil
+Limit: 400.000.000 TL her olay için, öncelik (retention) 50.000.000 TL
+Yeniden tesis (reinstatement): 1 adet, %100 ek primle, zaman oranlı değil
+Minimum ve depozito prim (MDP): 16.500.000 TL, 4 eşit taksit
+Prim oranı: Net Hasar Tabi Prim Geliri (GNPI) üzerinden %4,20
+Saat klozu: 72 saat (deprem), 168 saat (sel)
+İstisnalar: Nükleer riskler; savaş ve iç savaş; terör (ayrı anlaşma); kara ve deniz nakliyatı
+Hasar bildirimi: Olaydan itibaren 30 gün içinde
+Uyuşmazlık: Tahkim, İstanbul
+
+Reasürörler ve payları:
+Kurgu Re AG ............ %40,00 (lider)
+Örnek Reinsurance Ltd . %35,00
+Deneme Re SE ........... %20,00

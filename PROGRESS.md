@@ -806,3 +806,5 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Toplam 444 görev, 446 paket (357 kod + 89 agent). AI Agents modunda hazırı olmayan rol: 27.
 - sure-uzatimi-talep-taslagi: Teknik Ofis Mühendisi / Şefi, Planlama Mühendisi. İki aşama: model raporlardaki olayları sınıflar (alıntılı), kod günleri sayar (aynı gün bir kez, yüklenici kaynaklı hariç, eşzamanlı gecikme işaretli, son başvuru tarihi); model yazıyı yalnız bu özet ve verilen sözleşme maddeleriyle yazar. Denemede satır başı liste numaralarının "uydurma sayı" sayıldığı ve yazının hitabını kodun eklemediği görüldü, düzeltildi.
 - Toplam 445 görev, 447 paket (357 kod + 90 agent). AI Agents modunda hazırı olmayan rol: 24.
+- reasurans-slipi-ozeti-ve-kontrolu: Reasürans Uzmanı / Müdürü. Pay toplamı (%100), beklenen şartlarla fark, zorunlu kloz anahtar kelimeleri kodla; beklenen şartlar sağlayıcıya gitmez. Denemede tarihlerin sayı gibi karşılaştırılıp eşit olduğu hâlde hata verildiği görüldü, düzeltildi.
+- Toplam 446 görev, 448 paket (357 kod + 91 agent). AI Agents modunda hazırı olmayan rol: 22.
