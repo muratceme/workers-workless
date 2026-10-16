@@ -830,3 +830,5 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Toplam 456 görev, 458 paket (357 kod + 101 agent). AI Agents modunda hazırı olmayan rol: 8.
 - Yeni agent: kaza-ve-ramak-kala-bildirimlerinden-olay-kaydi (İşyeri Hekimi). Serbest metin bildirim → olay kaydı (kod bloğu formatı) + yaralanma bilgisi; SGK bildirim son günü kodda (3 iş günü, kaza günü hariç, hafta sonu / --tatiller hariç; kaynak: 5510 md.13, 6331 md.14). Test: sahte model bel tutulmasını 'Ramak Kala' saydı, kod zarar ifadesinden yakaladı.
 - Toplam 457 görev, 459 paket (357 kod + 102 agent). AI Agents modunda hazırı olmayan rol: 7.
+- Yeni agent: fason-mesajlarindan-durum-kaydi (Fason Takip Sorumlusu). Atölye mesajları → dönüş / söz / sorun; göreli tarihleri (yarın, cuma, ayın N'i) kod mesaj tarihine göre çözüp modelin tarihini doğrular; kalan adet ve termin farkı kodda; Fason Atölye İş Takibi bloğuna zincirlenir. Test: sahte model 'yarın göndereceğiz'i dönüş saydı, kod yakaladı.
+- Toplam 458 görev, 460 paket (357 kod + 103 agent). AI Agents modunda hazırı olmayan rol: 6.

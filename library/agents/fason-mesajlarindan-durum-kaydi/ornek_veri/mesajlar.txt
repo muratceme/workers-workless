@@ -1,0 +1,5 @@
+[07.10.2026 09:15] Yıkamacı E: FS-06 yıkamada makine arızası oldu, 2500'ün 1000'i hazır, kalanı cumaya yetişir.
+[07.10.2026 17:40] Atölye B: FS-07 dikim bitti, kalan 900'ü yarın sabah göndereceğiz.
+[08.10.2026 11:05] Atölye B: FS-07 900 adet teslim edildi. Sizin kalite 45 tanesinde etek boyu ölçü dışı dedi, onları tamire geri aldık.
+[08.10.2026 14:30] Atölye A: FS-08 için astar kumaşı tedarikçiden gelmedi, ayın 22'sinde teslim ederiz.
+[08.10.2026 16:00] Atölye B: FS-03 kalan 1200 adeti pazartesi getiririz.

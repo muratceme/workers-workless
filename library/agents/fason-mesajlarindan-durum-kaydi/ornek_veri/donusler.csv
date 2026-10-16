@@ -1,0 +1,13 @@
+İş No;Dönüş Tarihi;Dönen Adet;Kalite Sonucu;Hatalı Adet;Hata Açıklaması
+FS-01;25.09.2026;1500;Kabul;20;Dikiş kayması
+FS-01;30.09.2026;1500;Kabul;35;Leke, ölçü dışı
+FS-01;03.10.2026;980;Kabul;15;Dikiş kayması
+FS-02;05.10.2026;1200;Kabul;30;Overlok atlaması
+FS-03;28.09.2026;1000;Kabul;90;Kol takma hatası, ölçü dışı
+FS-03;06.10.2026;800;Kabul;40;Kol takma hatası
+FS-04;16.09.2026;8000;Kabul;60;Baskı kayması
+FS-05;08.09.2026;6000;Kabul;45;İplik kopması
+FS-07;06.10.2026;600;Tamir;80;Dikiş atlaması, yaka formu bozuk
+FS-09;05.09.2026;3030;Kabul;12;Baskı kayması
+FS-10;08.09.2026;1500;Kabul;30;Ölçü dışı
+FS-10;12.09.2026;1400;Kabul;25;Leke

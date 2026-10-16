@@ -1,0 +1,23 @@
+{
+  "id": "fason-mesajlarindan-durum-kaydi",
+  "tur": "agent",
+  "ad": "Fason Mesajlarından Durum Kaydı",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --mesajlar whatsapp.txt --isler fason_isler.xlsx --donusler donusler.xlsx",
+  "girdiler": [
+    "Mesajlar (.txt/.docx/.pdf): '[GG.AA.YYYY SS:DD] Gönderen: mesaj' satırları (WhatsApp / SMS / e-posta dökümü)",
+    "Fason iş listesi (Fason Atölye İş Takibi kod bloğunun dosyası) ve isteğe bağlı önceki dönüşler",
+    ".env: sağlayıcı ve API anahtarı (telefon, e-posta, TCKN ve --gizle adları maskelenir)"
+  ],
+  "ciktilar": [
+    "Excel: Kayıtlar (dönüş / söz / sorun), Sözler (termin farkı, kalan adet), Kontrol",
+    "Fason Atölye İş Takibi kod bloğu girdisi: _donusler.xlsx"
+  ],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "belge.py": "_ortak/belge.py"
+  }
+}

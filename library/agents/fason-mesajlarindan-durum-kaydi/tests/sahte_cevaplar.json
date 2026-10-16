@@ -1,0 +1,114 @@
+{
+ "M1": {
+  "kayitlar": [
+   {
+    "tur": "Sorun",
+    "is_no": "FS-06",
+    "tarih": "07.10.2026",
+    "adet": "",
+    "hatali_adet": "",
+    "kalite_sonucu": "",
+    "hata_aciklamasi": "",
+    "ozet": "Yıkama makinesi arızası; 2500 adedin 1000'i hazır",
+    "kanit": "yıkamada makine arızası oldu"
+   },
+   {
+    "tur": "Söz",
+    "is_no": "FS-06",
+    "tarih": "09.10.2026",
+    "adet": "",
+    "hatali_adet": "",
+    "kalite_sonucu": "",
+    "hata_aciklamasi": "",
+    "ozet": "Kalan adetler cuma teslim edilecek",
+    "kanit": "kalanı cumaya yetişir"
+   }
+  ]
+ },
+ "M2_hatali": {
+  "kayitlar": [
+   {
+    "tur": "Dönüş",
+    "is_no": "FS-07",
+    "tarih": "08.10.2026",
+    "adet": "900",
+    "hatali_adet": "",
+    "kalite_sonucu": "",
+    "hata_aciklamasi": "",
+    "ozet": "Dikim bitti, 900 adet gönderildi",
+    "kanit": "kalan 900'ü yarın sabah göndereceğiz"
+   }
+  ]
+ },
+ "M3": {
+  "kayitlar": [
+   {
+    "tur": "Dönüş",
+    "is_no": "FS-07",
+    "tarih": "08.10.2026",
+    "adet": "900",
+    "hatali_adet": "45",
+    "kalite_sonucu": "Kabul",
+    "hata_aciklamasi": "Etek boyu ölçü dışı (tamire geri alındı)",
+    "ozet": "900 adet teslim edildi; 45 adet ölçü dışı tamirde",
+    "kanit": "FS-07 900 adet teslim edildi"
+   }
+  ]
+ },
+ "M4": {
+  "kayitlar": [
+   {
+    "tur": "Sorun",
+    "is_no": "FS-08",
+    "tarih": "08.10.2026",
+    "adet": "",
+    "hatali_adet": "",
+    "kalite_sonucu": "",
+    "hata_aciklamasi": "",
+    "ozet": "Astar kumaşı tedarikçiden gelmedi",
+    "kanit": "astar kumaşı tedarikçiden gelmedi"
+   },
+   {
+    "tur": "Söz",
+    "is_no": "FS-08",
+    "tarih": "22.10.2026",
+    "adet": "",
+    "hatali_adet": "",
+    "kalite_sonucu": "",
+    "hata_aciklamasi": "",
+    "ozet": "Teslim ayın 22'sine kaydı",
+    "kanit": "ayın 22'sinde teslim ederiz"
+   }
+  ]
+ },
+ "M5": {
+  "kayitlar": [
+   {
+    "tur": "Söz",
+    "is_no": "FS-03",
+    "tarih": "12.10.2026",
+    "adet": "1200",
+    "hatali_adet": "",
+    "kalite_sonucu": "",
+    "hata_aciklamasi": "",
+    "ozet": "Kalan 1200 adet pazartesi getirilecek",
+    "kanit": "kalan 1200 adeti pazartesi getiririz"
+   }
+  ]
+ },
+ "M2": {
+  "kayitlar": [
+   {
+    "tur": "Söz",
+    "is_no": "FS-07",
+    "tarih": "08.10.2026",
+    "adet": "900",
+    "hatali_adet": "",
+    "kalite_sonucu": "",
+    "hata_aciklamasi": "",
+    "ozet": "Dikim bitti; kalan 900 adet yarın sabah gönderilecek",
+    "kanit": "kalan 900'ü yarın sabah göndereceğiz"
+   }
+  ]
+ }
+}

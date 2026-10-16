@@ -107,6 +107,7 @@ export const TEKSTIL = {
       { id: "fason-takip-sorumlusu", name: "Fason Takip Sorumlusu", level: "Uzman", tasks: [
         ["Fason Atölye İş Takibi", "Fason atölyelere çıkan işleri adet, çıkış-dönüş tarihi ve kalite durumuyla takip eder, gecikmeleri listeler.", 4],
         ["Fason Hakediş Hesaplama", "Atölyeden dönen sağlam adetler, birim fiyat, eksik ve hatalı ürün kesintilerinden fason hakedişini hesaplar.", 3],
+        ["Fason Mesajlarından Durum Kaydı", "Atölye mesajlarını dönüş, teslim sözü ve sorun kaydına dönüştürür; göreli tarihleri, kalan adedi ve termin farkını kod hesaplar", 2],
       ]},
     ],
   },
