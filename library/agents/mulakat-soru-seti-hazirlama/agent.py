@@ -1,5 +1,5 @@
 """
-Mülakat Soru Seti Hazırlama — Workers / Workless AI Agent
+Mülakat Soru Seti Hazırlama — Gerisi Bende AI Agent
 İnsan Kaynakları › İşe Alım Uzmanı
 
 1. Pozisyon bilgisi (talep formu / ilan) ve yetkinlik listesi (ad, tanım, ağırlık) okunur.

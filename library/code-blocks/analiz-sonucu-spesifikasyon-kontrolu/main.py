@@ -1,5 +1,5 @@
 """
-Analiz Sonucu Spesifikasyon Kontrolü — Workers / Workless kod bloğu
+Analiz Sonucu Spesifikasyon Kontrolü — Gerisi Bende kod bloğu
 Kalite Kontrol ve Laboratuvar › Kalite Kontrol Teknisyeni
 
 Laboratuvar analiz sonuçlarını ürün spesifikasyon limitleriyle karşılaştırır; uygunsuz partileri ve sınıra yakın değerleri işaretler.

@@ -1,6 +1,6 @@
 # İşe Alım Süreç Raporu · Kod Bloğu
 
-> İnsan Kaynakları › İşe Alım Uzmanı · Workers / Workless
+> İnsan Kaynakları › İşe Alım Uzmanı · Gerisi Bende
 
 Aday takip listesinden açık pozisyonların **aşama dağılımını, bekleme sürelerini, kaynak kanal kırılımını ve işe alım
 süresini** (time-to-hire) raporlar. İnternete bağlanmaz.

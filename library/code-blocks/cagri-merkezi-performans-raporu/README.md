@@ -1,6 +1,6 @@
 # Çağrı Merkezi Performans Raporu · Kod Bloğu
 
-> Müşteri Hizmetleri ve Çağrı Merkezi › Çağrı Merkezi Yöneticisi · Workers / Workless
+> Müşteri Hizmetleri ve Çağrı Merkezi › Çağrı Merkezi Yöneticisi · Gerisi Bende
 
 Çağrı kayıtlarından **karşılama oranı, terk oranı, servis seviyesi, ASA, AHT ve ilk temasta çözüm** oranını
 hesaplar. Sonuçları gün, kuyruk, 30 dakikalık aralık ve temsilci bazında gösterir. Her aralık için hedef servis

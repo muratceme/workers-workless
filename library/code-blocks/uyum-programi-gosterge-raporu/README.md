@@ -1,6 +1,6 @@
 # Uyum Programı Gösterge Raporu · Kod Bloğu
 
-> Kurumsal Uyum › Uyum Müdürü · Workers / Workless
+> Kurumsal Uyum › Uyum Müdürü · Gerisi Bende
 
 İnceleme, bildirim, eğitim ve yaptırım taraması gibi uyum göstergelerini **dönem dönem tek tabloda** toplar; her
 göstergeyi hedefiyle ve önceki dönemle karşılaştırır, hedef dışı kalanları ve belirgin kötüleşmeleri işaretler.

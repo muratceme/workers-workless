@@ -1,5 +1,5 @@
 """
-Dinamik Fiyat Önerisi — Workers / Workless kod bloğu
+Dinamik Fiyat Önerisi — Gerisi Bende kod bloğu
 Rezervasyon ve Gelir Yönetimi › Gelir Müdürü (Revenue Manager)
 
 Doluluk, pick-up hızı ve rakip fiyatından tarih ve oda tipi bazında kural tabanlı, gerekçeli bir fiyat önerisi üretir.

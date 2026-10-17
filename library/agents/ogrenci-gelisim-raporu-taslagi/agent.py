@@ -1,5 +1,5 @@
 """
-Öğrenci Gelişim Raporu Taslağı — Workers / Workless AI Agent
+Öğrenci Gelişim Raporu Taslağı — Gerisi Bende AI Agent
 Akademik › Rehber Öğretmen
 
 1. Kod not tablosunu (Öğrenci No; Ad Soyad; Sınıf; Ders; Önceki Dönem; Bu Dönem), devamsızlığı ve öğretmen gözlemlerini

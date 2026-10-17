@@ -1,6 +1,6 @@
 # Zaman Etüdü ve Standart Süre · Kod Bloğu
 
-> Endüstri Mühendisliği ve Süreç Geliştirme › Endüstri Mühendisi · Workers / Workless
+> Endüstri Mühendisliği ve Süreç Geliştirme › Endüstri Mühendisi · Gerisi Bende
 
 Kronometre ölçümlerinden **performans ve tolerans payıyla** eleman ve operasyon bazında normal süreyi, standart
 süreyi ve saatlik standart çıktıyı hesaplar; gözlem sayısının yeterliliğini kontrol eder. İnternete bağlanmaz.

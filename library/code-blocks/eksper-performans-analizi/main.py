@@ -1,5 +1,5 @@
 """
-Eksper Performans Analizi — Workers / Workless kod bloğu
+Eksper Performans Analizi — Gerisi Bende kod bloğu
 Hasar Yönetimi › Hasar Müdürü
 
 Eksperleri rapor süresi, tespit tutarı ile ödeme arasındaki fark ve itiraz oranına göre karşılaştırır.

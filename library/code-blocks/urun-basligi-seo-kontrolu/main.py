@@ -1,5 +1,5 @@
 """
-Ürün Başlığı SEO Kontrolü — Workers / Workless kod bloğu
+Ürün Başlığı SEO Kontrolü — Gerisi Bende kod bloğu
 Kategori ve İçerik Yönetimi › E-ticaret İçerik Uzmanı
 Ürün başlıklarını uzunluk, marka - ürün tipi - özellik sırası ve yasaklı ifadeler açısından kontrol edip öneri sunar.
   Uzunluk           = --min (30) ile --max (100) karakter arası

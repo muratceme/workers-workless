@@ -1,6 +1,6 @@
 # Tedarikçi Risk Skoru · Kod Bloğu
 
-> Satın Alma › Satın Alma Müdürü · Workers / Workless
+> Satın Alma › Satın Alma Müdürü · Gerisi Bende
 
 Tedarikçilerinizi dört ölçüte göre **0–100 arası tek bir risk skoruna** indirger ve sıralar: tek kaynak
 bağımlılığı, finansal durum, teslimat gecikmesi, kalite. Hangi tedarikçi için ikinci kaynak aranmalı, hangisiyle

@@ -1,5 +1,5 @@
 """
-Dahilde İşleme İzin Belgesi Takibi — Workers / Workless kod bloğu
+Dahilde İşleme İzin Belgesi Takibi — Gerisi Bende kod bloğu
 Dış Ticaret › Dış Ticaret Uzmanı
 
 DİİB kapsamındaki ithalat izinlerini ve ihracat taahhütlerini, kalan miktarları ve süre sonunu izler.

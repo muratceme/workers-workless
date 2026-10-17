@@ -1,5 +1,5 @@
 """
-Demirbaş ve Zimmet Takibi — Workers / Workless kod bloğu
+Demirbaş ve Zimmet Takibi — Gerisi Bende kod bloğu
 İdari İşler › İdari İşler Sorumlusu
 
 Demirbaş kaydını sayım listesiyle karşılaştırır; konum, zimmet ve sayım farklarını raporlar.

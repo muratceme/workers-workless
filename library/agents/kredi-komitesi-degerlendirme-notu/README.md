@@ -1,6 +1,6 @@
 # Kredi Komitesi Değerlendirme Notu · AI Agent
 
-> Bankacılık › Krediler Tahsis › Kredi Tahsis Uzmanı · Workers / Workless
+> Bankacılık › Krediler Tahsis › Kredi Tahsis Uzmanı · Gerisi Bende
 
 Teklif bilgisi, limit ve teminat tabloları, rasyolar ve istihbarat/analiz notlarından **kredi komitesine sunulacak
 değerlendirme notunun taslağını** hazırlar.

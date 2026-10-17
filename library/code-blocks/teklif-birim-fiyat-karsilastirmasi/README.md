@@ -1,6 +1,6 @@
 # Teklif Birim Fiyat Karşılaştırması · Kod Bloğu
 
-> İhale ve Teklif › İhale Mühendisi · Workers / Workless
+> İhale ve Teklif › İhale Mühendisi · Gerisi Bende
 
 Taşeron ve tedarikçi tekliflerini **poz bazında yan yana** getirir; firma toplamlarını ve her pozda en düşük fiyattan
 oluşan **karma teklif cetvelini** çıkarır. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Teknisyen Verimlilik Raporu — Workers / Workless kod bloğu
+Teknisyen Verimlilik Raporu — Gerisi Bende kod bloğu
 Satış Sonrası Hizmetler (Servis) › Satış Sonrası Hizmetler Müdürü
 İş emirlerinden teknisyen bazında satılan saat, çalışılan saat ve mevcut (puantaj) saatini toplayıp atölye oranlarını hesaplar.
   Verimlilik %   = satılan (faturalanan / standart) saat ÷ çalışılan (işe kayıtlı) saat × 100

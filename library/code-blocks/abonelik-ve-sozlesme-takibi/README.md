@@ -1,6 +1,6 @@
 # Abonelik ve Sözleşme Takibi · Kod Bloğu
 
-> İdari İşler › İdari İşler Sorumlusu · Workers / Workless
+> İdari İşler › İdari İşler Sorumlusu · Gerisi Bende
 
 Kira, enerji, su, internet, bakım, hizmet alımı ve kiralama sözleşmelerinin **tutar, bitiş, fesih ihbarı ve fiyat artış
 tarihlerini** izler. Fesih ya da yeniden pazarlık için son bildirim gününü kaçırmamak üzere yaklaşanları listeler; kategori

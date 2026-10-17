@@ -1,6 +1,6 @@
 # Kanallar Arası Stok ve Fiyat Kontrolü · Kod Bloğu
 
-> Pazaryeri Yönetimi › Pazaryeri Uzmanı · Workers / Workless
+> Pazaryeri Yönetimi › Pazaryeri Uzmanı · Gerisi Bende
 
 Farklı satış kanallarındaki **stok ve fiyatları merkezi listeyle karşılaştırıp uyumsuzlukları** listeler. Kanal
 panellerine bağlanmaz; panellerden indirdiğiniz listelerle çalışır.

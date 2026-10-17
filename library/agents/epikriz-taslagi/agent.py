@@ -1,5 +1,5 @@
 """
-Epikriz Taslağı — Workers / Workless AI Agent
+Epikriz Taslağı — Gerisi Bende AI Agent
 Tıbbi Sekreterlik › Tıbbi Sekreter
 
 1. Kod hasta kaydını, hekim notlarını (tarihli notlar N1, N2 …; "Tanılar" ve "Çıkış İlaçları" bölümleri) ve tetkik

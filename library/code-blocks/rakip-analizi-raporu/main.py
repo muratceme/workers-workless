@@ -1,5 +1,5 @@
 """
-Rakip Analizi Raporu — Workers / Workless kod bloğu
+Rakip Analizi Raporu — Gerisi Bende kod bloğu
 Pazarlama › Pazarlama Uzmanı
 
 Rakip fiyat, ürün ve kampanya bilgilerini derleyip karşılaştırmalı rapor hazırlar:

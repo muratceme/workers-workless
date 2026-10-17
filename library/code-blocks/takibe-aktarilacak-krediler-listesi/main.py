@@ -1,5 +1,5 @@
 """
-Takibe Aktarılacak Krediler Listesi — Workers / Workless kod bloğu
+Takibe Aktarılacak Krediler Listesi — Gerisi Bende kod bloğu
 Krediler İzleme ve Takip › Yasal Takip Uzmanı
 
 Gecikmesi eşiği aşan veya kat edilen kredileri, gerekli evrak durumuyla birlikte yasal takibe aktarım listesine dönüştürür.

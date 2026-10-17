@@ -1,5 +1,5 @@
 """
-Sipariş Termin Takibi — Workers / Workless kod bloğu
+Sipariş Termin Takibi — Gerisi Bende kod bloğu
 Satın Alma › Satın Alma Uzman Yardımcısı
 
 Açık satın alma siparişlerini termin tarihine göre izler:

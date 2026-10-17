@@ -1,5 +1,5 @@
 """
-Hasta Seyahat ve Tedavi Takvimi — Workers / Workless kod bloğu
+Hasta Seyahat ve Tedavi Takvimi — Gerisi Bende kod bloğu
 Uluslararası Hasta Hizmetleri › Uluslararası Hasta Koordinatörü
 Uçuş, konaklama, transfer, muayene ve operasyon kayıtlarından hasta bazında takvim, hatırlatma listesi ve .ics takvim dosyası oluşturur.
   Kontroller = tıbbi randevu varıştan önce ya da dönüşten sonra · operasyondan önce muayene yok · aynı anda iki etkinlik ·
@@ -261,7 +261,7 @@ def _ics_metin(s: str) -> str:
 
 
 def ics_yaz(yol: Path, etkinlikler: list[dict]) -> None:
-    satir = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Workers Workless//Hasta Takvimi//TR", "CALSCALE:GREGORIAN"]
+    satir = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Gerisi Bende//Hasta Takvimi//TR", "CALSCALE:GREGORIAN"]
     for i, e in enumerate(etkinlikler, 1):
         satir.append("BEGIN:VEVENT")
         satir.append(f"UID:hasta-takvim-{i}-{e['bas']:%Y%m%d%H%M}@workers-workless")

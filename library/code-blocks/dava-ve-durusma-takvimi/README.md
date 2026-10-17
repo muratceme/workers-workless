@@ -1,6 +1,6 @@
 # Dava ve Duruşma Takvimi · Kod Bloğu
 
-> Hukuk › Avukat · Workers / Workless
+> Hukuk › Avukat · Gerisi Bende
 
 Dava listesinden **duruşma takvimini**, tebliğ tarihlerinden **kesin süre son günlerini** ve hatırlatma listesini
 çıkarır. Takvim uygulamalarına (Outlook, Google Takvim, iPhone) aktarılabilen bir `.ics` dosyası da yazar. Her süre

@@ -1,5 +1,5 @@
 """
-Mağaza Olay Tutanağı Taslağı — Workers / Workless AI Agent
+Mağaza Olay Tutanağı Taslağı — Gerisi Bende AI Agent
 Perakende Mağaza › Kasa Sorumlusu (Mağaza Müdür Yardımcısı ve Kayıp Önleme Uzmanı da kullanır)
 
 Kasa farkı, hırsızlık şüphesi, hasarlı / kayıp ürün gibi mağaza olaylarının kısa notlarından nesnel, imzaya hazır olay

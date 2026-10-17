@@ -1,6 +1,6 @@
 # Gün Sonu Kasa Raporu · Kod Bloğu
 
-> Mağaza Operasyonları › Kasa Sorumlusu · Workers / Workless
+> Mağaza Operasyonları › Kasa Sorumlusu · Gerisi Bende
 
 Kasa bazında Z raporu ve POS gün sonu toplamlarından **nakit, kredi kartı, iade ve iptal toplamlarını** çıkarır;
 kasada olması gereken nakdi hesaplayıp **sayımla farkını** ve kart tutarının POS gün sonuyla uyumunu raporlar.

@@ -1,6 +1,6 @@
 # Hasar Dosyası Evrak Eksik Kontrolü · Kod Bloğu
 
-> Sigorta › Hasar Yönetimi › Hasar Uzman Yardımcısı · Workers / Workless
+> Sigorta › Hasar Yönetimi › Hasar Uzman Yardımcısı · Gerisi Bende
 
 Branş ve hasar türüne göre **gerekli evrak listesini** dosyaya gelen evraklarla karşılaştırır. Sigortalıdan veya
 hak sahibinden istenecekleri çıkarır ve her eksikli dosya için **evrak talep yazısı taslağı** hazırlar.

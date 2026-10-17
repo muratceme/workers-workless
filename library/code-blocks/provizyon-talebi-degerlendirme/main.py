@@ -1,5 +1,5 @@
 """
-Provizyon Talebi Değerlendirme — Workers / Workless kod bloğu
+Provizyon Talebi Değerlendirme — Gerisi Bende kod bloğu
 Sigortacılık › Sağlık Sigortaları › Provizyon Uzmanı
 
 Anlaşmalı kurumlardan gelen provizyon taleplerini poliçe, plan teminatları ve genel şart kurallarına göre ön

@@ -1,6 +1,6 @@
 # İş İlanı Metni Hazırlama · AI Agent
 
-> İnsan Kaynakları › İşe Alım · Workers / Workless
+> İnsan Kaynakları › İşe Alım · Gerisi Bende
 
 Departmanın doldurduğu **pozisyon talep formundan** yayına hazır iş ilanı hazırlar. İlan **ayrımcı ifade
 içermez**. Talep formundaki "25-35 yaş arası, askerliğini yapmış erkek aday, hoş görünümlü" gibi riskli şartlar

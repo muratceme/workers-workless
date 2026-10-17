@@ -1,5 +1,5 @@
 """
-Donanım Zimmet Envanteri — Workers / Workless kod bloğu
+Donanım Zimmet Envanteri — Gerisi Bende kod bloğu
 Bilgi Teknolojileri › BT Destek Uzmanı
 
 Bilgisayar, telefon ve çevre birimlerinin zimmet, garanti ve yenileme durumunu tek envanterde denetler.

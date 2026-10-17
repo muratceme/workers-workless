@@ -1,6 +1,6 @@
 # Devamsızlık Takip Raporu · Kod Bloğu
 
-> Kayıt Kabul ve Öğrenci İşleri › Öğrenci İşleri Sorumlusu · Workers / Workless
+> Kayıt Kabul ve Öğrenci İşleri › Öğrenci İşleri Sorumlusu · Gerisi Bende
 
 Yoklama kayıtlarından öğrenci bazında **özürlü ve özürsüz devamsızlığı** toplar. Sınıra yaklaşan ve aşan öğrencileri, art arda
 özürsüz devamsızlık nedeniyle veliye bildirilmesi gerekenleri listeler. İnternete ve e-Okul'a bağlanmaz; dışa aktarılmış yoklama

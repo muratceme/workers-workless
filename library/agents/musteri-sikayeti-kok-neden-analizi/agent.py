@@ -1,5 +1,5 @@
 """
-Müşteri Şikâyeti Kök Neden Analizi — Workers / Workless AI Agent
+Müşteri Şikâyeti Kök Neden Analizi — Gerisi Bende AI Agent
 Kalite Güvence ve Kalite Kontrol › Kalite Mühendisi
 
 1. Kod şikâyetleri kümeler: aynı ürün + parti için --esik (varsayılan 2) ve üstü şikâyet "parti kümesi"; aynı üründe

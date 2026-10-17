@@ -1,5 +1,5 @@
 """
-Bayi ve Distribütör Satış Raporu — Workers / Workless kod bloğu
+Bayi ve Distribütör Satış Raporu — Gerisi Bende kod bloğu
 Satış ve Kanal Yönetimi › Kanal Satış Yöneticisi
 
 Bayi bazında satış, hedef, tahsilat, alacak ve stok verisinden hedef gerçekleşme, tahsilat oranı, alacak ve stok günlerini raporlar.

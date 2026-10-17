@@ -1,5 +1,5 @@
 """
-Rücu Tahsilat Takibi — Workers / Workless kod bloğu
+Rücu Tahsilat Takibi — Gerisi Bende kod bloğu
 Hasar Yönetimi › Rücu Uzmanı
 
 Rücu dosyalarını talep, cevap, tahkim/dava ve tahsilat aşamalarında izler; bekleyen ve süresi daralan dosyaları öne çıkarır.

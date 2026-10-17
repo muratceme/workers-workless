@@ -1,5 +1,5 @@
 """
-Kurum Bazlı Gelir ve Kesinti Raporu — Workers / Workless kod bloğu
+Kurum Bazlı Gelir ve Kesinti Raporu — Gerisi Bende kod bloğu
 Anlaşmalı Kurumlar ve Faturalama › Anlaşmalı Kurumlar Müdürü
 SGK ve özel sigorta şirketleri bazında fatura, tahsilat, kesinti oranı ve ortalama tahsil süresini raporlar.
   Kesinti oranı %        = kesinti tutarı ÷ fatura tutarı × 100

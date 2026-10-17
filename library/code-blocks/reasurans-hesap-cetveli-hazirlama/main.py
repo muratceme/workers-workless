@@ -1,5 +1,5 @@
 """
-Reasürans Hesap Cetveli Hazırlama — Workers / Workless kod bloğu
+Reasürans Hesap Cetveli Hazırlama — Gerisi Bende kod bloğu
 Sigorta › Reasürans › Reasürans Uzmanı
 
 Orantılı (kotpar / eksedan) bir trete için dönem hesap cetvelini prim ve hasar bordrolarından hazırlar:

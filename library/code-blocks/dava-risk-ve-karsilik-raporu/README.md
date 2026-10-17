@@ -1,6 +1,6 @@
 # Dava Risk ve Karşılık Raporu · Kod Bloğu
 
-> Hukuk › Hukuk Müdürü · Workers / Workless
+> Hukuk › Hukuk Müdürü · Gerisi Bende
 
 Devam eden dava listenizi, mali işlerin ve denetçinin dönem sonunda istediği tabloya çevirir: hangi dava için
 **karşılık** ayrılacak, hangisi **koşullu yükümlülük** olarak dipnotta açıklanacak, önceki döneme göre karşılık ne

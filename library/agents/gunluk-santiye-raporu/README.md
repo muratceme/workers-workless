@@ -1,6 +1,6 @@
 # Günlük Şantiye Raporu · AI Agent
 
-> Şantiye › Saha Mühendisi · Workers / Workless
+> Şantiye › Saha Mühendisi · Gerisi Bende
 
 Gün içinde tutulan dağınık saha notlarından **günlük şantiye raporu** hazırlar: hava durumu, ekip / taşeron bazında
 personel, makine-ekipman, yapılan imalatlar, malzeme girişleri, sorunlar, İSG olayları, ziyaretler ve ertesi günün planı.

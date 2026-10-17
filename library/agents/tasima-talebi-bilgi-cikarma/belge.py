@@ -1,5 +1,5 @@
 """
-belge.py — Workers / Workless ortak belge okuma katmanı
+belge.py — Gerisi Bende ortak belge okuma katmanı
 
 PDF, DOCX ve TXT dosyalarından düz metin çıkarır (kaynağı: library/_ortak/belge.py; paket klasörlerindeki
 kopyalar CI tarafından bununla aynı tutulur). DOCX ek kütüphane olmadan okunur; PDF için pypdf gerekir.

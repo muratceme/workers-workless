@@ -1,6 +1,6 @@
 # Kanal Maliyet Analizi · Kod Bloğu
 
-> Rezervasyon ve Gelir Yönetimi › Gelir Müdürü (Revenue Manager) · Workers / Workless
+> Rezervasyon ve Gelir Yönetimi › Gelir Müdürü (Revenue Manager) · Gerisi Bende
 
 OTA, acente, GDS ve direkt kanallardan gelen oda gelirini **komisyon, işlem ücreti, rezervasyon başı ücret ve sabit kanal
 maliyetleri düşüldükten sonra** karşılaştırır. Her kanal için net gelir, net ADR ve en kârlı kanala göre oda-gece başına farkı

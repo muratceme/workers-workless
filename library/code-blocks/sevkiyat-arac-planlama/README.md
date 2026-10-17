@@ -1,6 +1,6 @@
 # Sevkiyat Araç Planlama · Kod Bloğu
 
-> Lojistik ve Depo › Lojistik Uzmanı · Workers / Workless
+> Lojistik ve Depo › Lojistik Uzmanı · Gerisi Bende
 
 Siparişleri teslim tarihi ve bölgeye göre gruplar; **palet, ağırlık ve hacim** kapasitelerine göre araçlara yerleştirir,
 araç tipini seçer ve doluluk planı çıkarır. Araç kapasiteleri ve sefer maliyetleri sizin dosyanızdan okunur.

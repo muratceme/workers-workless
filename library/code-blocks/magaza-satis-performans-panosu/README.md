@@ -1,6 +1,6 @@
 # Mağaza Satış Performans Panosu · Kod Bloğu
 
-> Mağaza Operasyonları › Mağaza Müdürü · Workers / Workless
+> Mağaza Operasyonları › Mağaza Müdürü · Gerisi Bende
 
 Günlük satış verisinden **ciro, fiş adedi, sepet ortalaması, dönüşüm oranı ve geçen yıl karşılaştırmasını (LFL)**
 mağaza ve gün bazında tek panoda toplar. İnternete bağlanmaz.

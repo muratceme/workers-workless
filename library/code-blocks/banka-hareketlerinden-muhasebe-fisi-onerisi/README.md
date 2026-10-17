@@ -1,6 +1,6 @@
 # Banka Hareketlerinden Muhasebe Fişi Önerisi · Kod Bloğu
 
-> Muhasebe ve Defter İşleri (Mali Müşavirlik) › Muhasebe Elemanı (Büro) · Workers / Workless
+> Muhasebe ve Defter İşleri (Mali Müşavirlik) › Muhasebe Elemanı (Büro) · Gerisi Bende
 
 Banka ekstresindeki her hareket için **karşı hesabı bulur** ve **çift taraflı muhasebe fişi satırları** önerir.
 Mali müşavirlik bürolarında mükellef ekstrelerinin elle tek tek işlenmesinin yerine geçer. İnternete bağlanmaz.

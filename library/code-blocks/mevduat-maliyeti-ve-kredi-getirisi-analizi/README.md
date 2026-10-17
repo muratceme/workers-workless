@@ -1,6 +1,6 @@
 # Mevduat Maliyeti ve Kredi Getirisi Analizi · Kod Bloğu
 
-> Hazine ve Aktif-Pasif Yönetimi › Aktif-Pasif Yönetimi Uzmanı · Workers / Workless
+> Hazine ve Aktif-Pasif Yönetimi › Aktif-Pasif Yönetimi Uzmanı · Gerisi Bende
 
 Ürün bakiyeleri ve faiz oranlarından **ağırlıklı ortalama mevduat maliyetini, kredi getirisini ve aradaki marjı**
 para birimi bazında hesaplar; hangi ürünün ortalamayı ne kadar yukarı ya da aşağı çektiğini gösterir. İnternete

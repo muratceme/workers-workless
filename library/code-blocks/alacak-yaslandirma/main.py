@@ -1,5 +1,5 @@
 """
-Alacak Yaşlandırma — Workers / Workless kod bloğu
+Alacak Yaşlandırma — Gerisi Bende kod bloğu
 Finans › Finans Uzmanı
 
 Cari hesap hareketlerinden (borç/alacak) tahsilatları en eski faturadan başlayarak kapatır (FIFO),

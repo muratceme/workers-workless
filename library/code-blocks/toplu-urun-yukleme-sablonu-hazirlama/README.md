@@ -1,6 +1,6 @@
 # Toplu Ürün Yükleme Şablonu Hazırlama · Kod Bloğu
 
-> E-ticaret › Pazaryeri Yönetimi › Pazaryeri Uzmanı · Workers / Workless
+> E-ticaret › Pazaryeri Yönetimi › Pazaryeri Uzmanı · Gerisi Bende
 
 Ürün ana veri dosyanızı pazaryerinin **toplu ürün yükleme şablonuna** dönüştürür ve yüklemeden önce
 kontrol eder. Eksik zorunlu alanları, hatalı barkodları, eşleşmeyen kategori ve renkleri, varyant hatalarını

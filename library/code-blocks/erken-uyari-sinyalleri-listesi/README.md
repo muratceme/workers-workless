@@ -1,6 +1,6 @@
 # Erken Uyarı Sinyalleri Listesi · Kod Bloğu
 
-> Bankacılık › Krediler İzleme ve Takip › Kredi İzleme Uzmanı · Workers / Workless
+> Bankacılık › Krediler İzleme ve Takip › Kredi İzleme Uzmanı · Gerisi Bende
 
 Kredi müşterilerine ait dağınık sinyalleri tek listede birleştirir ve firma bazında **risk puanı** üretir. İzleme
 biriminin hangi firmaya önce bakacağını gösterir. İnternete bağlanmaz.

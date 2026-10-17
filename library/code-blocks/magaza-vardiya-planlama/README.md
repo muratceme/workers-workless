@@ -1,6 +1,6 @@
 # Mağaza Vardiya Planlama · Kod Bloğu
 
-> Mağaza Operasyonları › Mağaza Müdür Yardımcısı · Workers / Workless
+> Mağaza Operasyonları › Mağaza Müdür Yardımcısı · Gerisi Bende
 
 Saatlik müşteri trafiği tahmini, personel izinleri ve çalışma süresi kurallarına göre **haftalık vardiya planı
 taslağı** çıkarır. İnternete bağlanmaz.

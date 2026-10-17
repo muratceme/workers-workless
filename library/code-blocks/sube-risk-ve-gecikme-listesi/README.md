@@ -1,6 +1,6 @@
 # Şube Risk ve Gecikme Listesi · Kod Bloğu
 
-> Şube Bankacılığı › Şube Müdürü · Workers / Workless
+> Şube Bankacılığı › Şube Müdürü · Gerisi Bende
 
 Şube kredi portföyünden **gecikmedeki ve erken uyarı veren müşterileri** çıkarır; gecikme gününe ve tutara göre
 sıralar, takip eşiğine kaç gün kaldığını gösterir. Haftalık portföy toplantısının gündem listesidir. İnternete

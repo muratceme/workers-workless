@@ -1,6 +1,6 @@
 # İhale Dokümanı Özeti · AI Agent
 
-> İnşaat › İhale ve Teklif › İhale Mühendisi · Workers / Workless
+> İnşaat › İhale ve Teklif › İhale Mühendisi · Gerisi Bende
 
 İhale dokümanından **yeterlik kriterlerini, teminatları, süreleri, cezaları, istenen belgeleri ve özel
 şartları** özetler. Kamu (4734 sayılı Kanun) ve özel sektör ihalelerinde kullanılabilir.

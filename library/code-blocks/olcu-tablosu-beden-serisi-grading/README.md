@@ -1,6 +1,6 @@
 # Ölçü Tablosu Beden Serisi (Grading) · Kod Bloğu
 
-> Tekstil › Ürün Geliştirme / Modelhane · Workers / Workless
+> Tekstil › Ürün Geliştirme / Modelhane · Gerisi Bende
 
 Ana bedenin (numune bedeni) ölçülerinden ve ölçü noktası bazındaki **beden artış kurallarından** tüm beden
 serisinin ölçü tablosunu üretir. İnternete bağlanmaz.

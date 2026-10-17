@@ -1,6 +1,6 @@
 # Tedarikçi Ciro Primi Hesabı · Kod Bloğu
 
-> Satın Alma ve Kategori Yönetimi › Kategori Yöneticisi · Workers / Workless
+> Satın Alma ve Kategori Yönetimi › Kategori Yöneticisi · Gerisi Bende
 
 Tedarikçi anlaşmalarındaki **ciro primi kademelerini** dönem alımlarına uygular; hak edilen primi, sonraki kademeye
 kalan ciroyu ve bu hızla **dönem sonunda** ulaşılacak primi hesaplar. İnternete bağlanmaz.

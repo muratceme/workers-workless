@@ -1,5 +1,5 @@
 """
-Yapılandırma Takip Listesi — Workers / Workless kod bloğu
+Yapılandırma Takip Listesi — Gerisi Bende kod bloğu
 Krediler İzleme ve Takip › Kredi İzleme Uzmanı
 
 Yeniden yapılandırılan kredilerin ödeme planı uyumunu ve izleme süresini izler.

@@ -1,5 +1,5 @@
 """
-Tedarikçi Risk Skoru — Workers / Workless kod bloğu
+Tedarikçi Risk Skoru — Gerisi Bende kod bloğu
 Satın Alma › Satın Alma Müdürü
 
 Tek kaynak bağımlılığı, finansal durum, gecikme ve kalite verisinden tedarikçi başına 0–100 arası risk skoru üretir.

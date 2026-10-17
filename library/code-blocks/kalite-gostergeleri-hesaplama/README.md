@@ -1,6 +1,6 @@
 # Kalite Göstergeleri Hesaplama · Kod Bloğu
 
-> Kalite Yönetimi › Kalite Birim Sorumlusu · Workers / Workless
+> Kalite Yönetimi › Kalite Birim Sorumlusu · Gerisi Bende
 
 Kayıtlardan **SKS kalite göstergelerini** (düşme, bası yarası, enfeksiyon oranı vb.) **formüllerine göre dönemsel**
 hesaplar; hedefle ve önceki dönemle karşılaştırır. İnternete bağlanmaz. Hasta bilgisi gerekmez; yalnız sayılar girilir.

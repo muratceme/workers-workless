@@ -1,6 +1,6 @@
 # Yönetim Kurulu Finans Sunumu Özeti · AI Agent
 
-> Finans › Finans Müdürü · Workers / Workless
+> Finans › Finans Müdürü · Gerisi Bende
 
 Dönem sonuç tablosundan **yönetim kurulu için kısa, yorumlu finans özeti** hazırlar. Değişimleri, bütçe sapmalarını ve
 oranları **kod hesaplar**; model yorumlar ve önceliklendirir. Metindeki her rakam kodun hesapladığı değerlerle

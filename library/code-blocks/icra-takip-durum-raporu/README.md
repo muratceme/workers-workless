@@ -1,6 +1,6 @@
 # İcra Takip Durum Raporu · Kod Bloğu
 
-> Hukuk › Avukat · Workers / Workless
+> Hukuk › Avukat · Gerisi Bende
 
 İcra dosyalarının aşama, tahsilat, masraf ve sürelerini tek raporda toplar. Her dosya için rapor tarihine kadar faiz
 ve mahsup adımlarını gösteren bir **hesap dökümü** çıkarır. İtiraz, itirazın kaldırılması, itirazın iptali ve haciz

@@ -1,6 +1,6 @@
 # Fason Mesajlarından Durum Kaydı · AI Agent
 
-> Tekstil › Fason Takip Sorumlusu · Workers / Workless
+> Tekstil › Fason Takip Sorumlusu · Gerisi Bende
 
 Fason atölyelerden gelen kısa mesajları (WhatsApp, SMS, e-posta) iş takip kaydına dönüştürür:
 - **Dönüş:** teslim edilen mal (tarih, adet, hatalı adet, kalite),

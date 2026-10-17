@@ -1,5 +1,5 @@
 """
-Kümül Risk Kontrolü — Workers / Workless kod bloğu
+Kümül Risk Kontrolü — Gerisi Bende kod bloğu
 Reasürans › Reasürans Uzmanı
 
 Yürürlükteki poliçelerin deprem bedellerini kümül bölgesi ve lokasyon (aynı adres) bazında toplar; sizin verdiğiniz kapasitelerle karşılaştırır.

@@ -1,6 +1,6 @@
 # Bütçe-Gerçekleşen Sapma Raporu · Kod Bloğu
 
-> Finans › Bütçe ve Raporlama Uzmanı · Workers / Workless
+> Finans › Bütçe ve Raporlama Uzmanı · Gerisi Bende
 
 Yıllık bütçeyi muhasebeden alınan **gerçekleşen kayıtlarla** hesap ve masraf merkezi bazında karşılaştırır.
 Rapor ayı ve yılbaşından bugüne (YTD) sapmayı TL ve % olarak, **lehte / aleyhte** yönüyle verir; önemlilik

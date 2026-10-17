@@ -1,6 +1,6 @@
 # Kategori Performans Raporu · Kod Bloğu
 
-> Satın Alma ve Kategori Yönetimi › Kategori Uzmanı · Workers / Workless
+> Satın Alma ve Kategori Yönetimi › Kategori Uzmanı · Gerisi Bende
 
 Ürün, marka ve kategori bazında **satış, marj, stok devir hızı ve payı** raporlar; düşük performanslı ürünleri
 işaretler. İnternete bağlanmaz; pazar verisi indirmez.

@@ -1,5 +1,5 @@
 """
-Fason Mesajlarından Durum Kaydı — Workers / Workless AI Agent
+Fason Mesajlarından Durum Kaydı — Gerisi Bende AI Agent
 Tekstil › Fason Takip Sorumlusu
 
 Fason atölyelerden gelen kısa mesajları (WhatsApp, SMS, e-posta) iş takip kaydına dönüştürür: dönüşler (teslimler),

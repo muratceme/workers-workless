@@ -1,5 +1,5 @@
 """
-Puantaj Kontrolü — Workers / Workless kod bloğu
+Puantaj Kontrolü — Gerisi Bende kod bloğu
 İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı
 
 Aylık puantaj çizelgesini (her gün için bir kod) bordro öncesi kontrol eder:

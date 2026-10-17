@@ -1,5 +1,5 @@
 """
-Kesim Kat Planı — Workers / Workless kod bloğu
+Kesim Kat Planı — Gerisi Bende kod bloğu
 Tekstil ve Konfeksiyon › Planlama › Planlama Uzmanı
 
 Sipariş beden dağılımından pastal (marker) kombinasyonlarını ve kat adetlerini çıkarır:

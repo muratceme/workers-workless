@@ -1,6 +1,6 @@
 # Eksper Performans Analizi · Kod Bloğu
 
-> Hasar Yönetimi › Hasar Müdürü · Workers / Workless
+> Hasar Yönetimi › Hasar Müdürü · Gerisi Bende
 
 Eksperleri **rapor süresi, tespit tutarı ile ödeme arasındaki fark ve itiraz oranına göre** karşılaştırır; genel
 değerlerden belirgin sapanları işaretler, raporu bekleyen dosyaları listeler. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Görüşme Kaydı Özeti — Workers / Workless AI Agent
+Görüşme Kaydı Özeti — Gerisi Bende AI Agent
 Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Temsilcisi
 
 1. Görüşme notları okunur; aynı müşterinin tekrar eden görüşmeleri kodla bağlanır. Müşteri adları takma adla

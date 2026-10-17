@@ -1,5 +1,5 @@
 """
-Araç Satış Teklifi Hesaplama — Workers / Workless kod bloğu
+Araç Satış Teklifi Hesaplama — Gerisi Bende kod bloğu
 Satış › Satış Danışmanı
 
 Liste fiyatı, kampanya, takas, peşinat, kredi ve sigorta kalemlerinden müşteriye sunulacak toplam maliyeti ve aylık taksiti hesaplar.

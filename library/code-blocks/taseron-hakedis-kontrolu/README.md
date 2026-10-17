@@ -1,6 +1,6 @@
 # Taşeron Hakediş Kontrolü · Kod Bloğu
 
-> İnşaat › Teknik Ofis › Teknik Ofis Mühendisi · Workers / Workless
+> İnşaat › Teknik Ofis › Teknik Ofis Mühendisi · Gerisi Bende
 
 Taşeronun sunduğu hakedişi **sözleşme birim fiyat cetveli**, **saha (yeşil defter) metrajı** ve **önceki onaylı
 hakedişle** karşılaştırır. Farkları tutar etkisiyle listeler ve onaylanabilir bu dönem tutarını hesaplar.

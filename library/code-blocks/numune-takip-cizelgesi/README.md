@@ -1,6 +1,6 @@
 # Numune Takip Çizelgesi · Kod Bloğu
 
-> Tekstil ve Konfeksiyon › Müşteri Temsilciliği (Merchandising) › Development Merchandiser · Workers / Workless
+> Tekstil ve Konfeksiyon › Müşteri Temsilciliği (Merchandising) › Development Merchandiser · Gerisi Bende
 
 Numune taleplerini takip eder: proto, fit, size set, PP (pre-production), SMS (salesman sample) ve TOP (top of
 production). Her numunenin aşamasını, gönderim tarihini ve müşteri yanıtını izler. Geciken numuneleri, yanıt

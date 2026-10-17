@@ -1,5 +1,5 @@
 """
-İş İlanı Metni Hazırlama — Workers / Workless AI Agent
+İş İlanı Metni Hazırlama — Gerisi Bende AI Agent
 İnsan Kaynakları › İşe Alım Uzmanı
 
 1. Kod, departmanın pozisyon talep formunu ayrımcı/riskli ifadeler için tarar (yaş, cinsiyet, medeni hâl,

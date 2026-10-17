@@ -1,6 +1,6 @@
 # Araç ve Sefer Takip Listesi · Kod Bloğu
 
-> Lojistik ve Taşımacılık › Karayolu Operasyon › Karayolu Operasyon Uzmanı · Workers / Workless
+> Lojistik ve Taşımacılık › Karayolu Operasyon › Karayolu Operasyon Uzmanı · Gerisi Bende
 
 Uluslararası karayolu seferlerini aşama aşama takip eder: yükleme, çıkış gümrüğü, sınır çıkışı, varış gümrüğü ve
 teslim. Geciken araçları, teslimi kaçacak seferleri ve araç çakışmalarını listeler. İnternete bağlanmaz.

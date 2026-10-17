@@ -1,5 +1,5 @@
 """
-Acente Portföy ve Komisyon Raporu — Workers / Workless kod bloğu
+Acente Portföy ve Komisyon Raporu — Gerisi Bende kod bloğu
 Teknik ve Operasyon › Acente Yöneticisi
 
 Acentenin üretimini sigorta şirketi ve branş bazında toplar; komisyon gelirini ve tahsilat durumunu raporlar.

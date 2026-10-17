@@ -1,6 +1,6 @@
 # Rezervasyon Pick-up Raporu · Kod Bloğu
 
-> Rezervasyon ve Gelir Yönetimi › Gelir Müdürü (Revenue Manager) · Workers / Workless
+> Rezervasyon ve Gelir Yönetimi › Gelir Müdürü (Revenue Manager) · Gerisi Bende
 
 Gelecek konaklama tarihleri için **iki rezervasyon dökümü arasındaki artışı (pick-up)** hesaplar; geçen yıl ve
 bütçeyle karşılaştırır. İnternete bağlanmaz.

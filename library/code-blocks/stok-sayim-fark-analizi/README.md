@@ -1,6 +1,6 @@
 # Stok Sayım Fark Analizi · Kod Bloğu
 
-> Lojistik ve Depo › Depo Sorumlusu · Workers / Workless
+> Lojistik ve Depo › Depo Sorumlusu · Gerisi Bende
 
 Sayım sonuçlarını sistem (ERP) stoğuyla karşılaştırır. Farkları lokasyon ve ürün bazında miktar ve tutar olarak
 raporlar, olası nedenleri işaretler ve ikinci sayım listesini çıkarır. İnternete bağlanmaz.

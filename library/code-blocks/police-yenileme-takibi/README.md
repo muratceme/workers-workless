@@ -1,6 +1,6 @@
 # Poliçe Yenileme Takibi · Kod Bloğu
 
-> Teknik ve Operasyon › Sigorta Uzmanı · Workers / Workless
+> Teknik ve Operasyon › Sigorta Uzmanı · Gerisi Bende
 
 Vadesi yaklaşan ve süresi yeni dolmuş poliçeleri listeler; **müşteri başına tek bir yenileme hatırlatma mesajı
 taslağı** hazırlar. İnternete bağlanmaz ve mesaj göndermez.

@@ -1,5 +1,5 @@
 """
-Borçlu Ödeme Planı Hesaplama — Workers / Workless kod bloğu
+Borçlu Ödeme Planı Hesaplama — Gerisi Bende kod bloğu
 İcra Takip › İcra Takip Elemanı (Avukat Katibi)
 Toplam borç, peşinat, taksit sayısı ve faiz oranına göre faiz dahil ödeme planı ve protokol özeti çıkarır.
   Kalan anapara  = toplam borç − peşinat

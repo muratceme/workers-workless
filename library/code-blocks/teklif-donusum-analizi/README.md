@@ -1,6 +1,6 @@
 # Teklif Dönüşüm Analizi · Kod Bloğu
 
-> Satış ve Fiyatlandırma › Lojistik Satış Uzmanı · Workers / Workless
+> Satış ve Fiyatlandırma › Lojistik Satış Uzmanı · Gerisi Bende
 
 Verilen navlun tekliflerinin **kazanılma oranını** hat, müşteri, ay, taşıma modu ve temsilci bazında hesaplar;
 kaybedilen teklifleri **rakip fiyatıyla farkına** ve kayıp nedenine göre inceler, sonucu girilmemiş eski teklifleri

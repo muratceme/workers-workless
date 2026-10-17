@@ -1,6 +1,6 @@
 # Şube Hedef-Gerçekleşme Panosu · Kod Bloğu
 
-> Şube Bankacılığı › Şube Müdürü · Workers / Workless
+> Şube Bankacılığı › Şube Müdürü · Gerisi Bende
 
 Mevduat, kredi, kart, sigorta gibi kalemlerin **aylık hedeflerini portföy yöneticisi bazında** gerçekleşmelerle
 karşılaştırır ve tek panoda toplar. Ayın neresinde olunduğunu iş günü üzerinden hesaba katar. İnternete bağlanmaz.

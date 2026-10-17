@@ -1,6 +1,6 @@
 # Haftalık Üretim Çizelgesi · Kod Bloğu
 
-> Üretim › Üretim Planlama › Üretim Planlama Uzmanı · Workers / Workless
+> Üretim › Üretim Planlama › Üretim Planlama Uzmanı · Gerisi Bende
 
 Açık siparişleri, ürün rotalarını ve makine kapasitelerini kullanarak **sonlu kapasiteli** haftalık üretim
 çizelgesi üretir. Hangi işin hangi makinede, hangi gün ve saatte yapılacağını, hangi siparişin **gecikeceğini**

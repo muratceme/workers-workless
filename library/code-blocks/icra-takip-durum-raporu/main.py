@@ -1,5 +1,5 @@
 """
-İcra Takip Durum Raporu — Workers / Workless kod bloğu
+İcra Takip Durum Raporu — Gerisi Bende kod bloğu
 Hukuk › Avukat
 
 İcra dosyalarının aşama, tahsilat ve masraf bilgilerini tek raporda toplar:

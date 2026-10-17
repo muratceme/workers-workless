@@ -1,5 +1,5 @@
 """
-Ürün Değerlendirme Analizi — Workers / Workless AI Agent
+Ürün Değerlendirme Analizi — Gerisi Bende AI Agent
 Müşteri Deneyimi › Müşteri Hizmetleri Temsilcisi
 
 1. Kod yorumları okur; ürün güvenliği belirtilerini (duman, yanık, alev, patlama, elektrik çarpması, kızarıklık, kaşıntı,

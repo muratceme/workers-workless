@@ -1,6 +1,6 @@
 # SGK Fatura Ön Kontrolü
 
-> Anlaşmalı Kurumlar ve Faturalama › SGK Faturalama Uzmanı · Workers / Workless
+> Anlaşmalı Kurumlar ve Faturalama › SGK Faturalama Uzmanı · Gerisi Bende
 
 Medula'ya gönderilecek hizmet kalemlerini **kurumunuzun tanımladığı SUT kurallarına** göre ön kontrolden geçirir:
 tanı-işlem uyumu, adet sınırı, tekrar süresi, branş şartı ve birlikte faturalanamayan işlemler. Kurallar bir tabloda

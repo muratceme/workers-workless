@@ -1,6 +1,6 @@
 # Yetki Limiti Aşım Kontrolü · Kod Bloğu
 
-> Teknik (Risk Kabul / Underwriting) › Teknik Müdür · Workers / Workless
+> Teknik (Risk Kabul / Underwriting) › Teknik Müdür · Gerisi Bende
 
 Onaylanan sigorta tekliflerini **teknik personel yetki matrisiyle** karşılaştırır: branş bazında azami sigorta bedeli ve azami
 indirim aşılmış mı, onaylayanın o branşta yetkisi var mı, bir risk limitin altında kalmak için parçalara bölünmüş olabilir mi.

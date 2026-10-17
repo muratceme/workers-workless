@@ -1,5 +1,5 @@
 """
-Acente Performans Karnesi — Workers / Workless kod bloğu
+Acente Performans Karnesi — Gerisi Bende kod bloğu
 Satış ve Acente Yönetimi › Bölge Satış Yöneticisi
 
 Acente bazında beş göstergeyi hesaplar, puana çevirir ve karşılaştırmalı karne üretir.

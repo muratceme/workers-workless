@@ -1,5 +1,5 @@
 """
-Tıbbi Rapor Yazım Kontrolü — Workers / Workless AI Agent
+Tıbbi Rapor Yazım Kontrolü — Gerisi Bende AI Agent
 Tıbbi Sekreterlik › Tıbbi Sekreter
 
 1. Kod hasta kaydını (ad, TC kimlik no, doğum tarihi, cinsiyet, protokol no, rapor tarihi, rapor türü) ve hekimin dikte

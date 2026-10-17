@@ -1,6 +1,6 @@
 # Kurum Fiyat Karşılaştırması · Kod Bloğu
 
-> Sağlık Sigortaları › Anlaşmalı Kurumlar Uzmanı · Workers / Workless
+> Sağlık Sigortaları › Anlaşmalı Kurumlar Uzmanı · Gerisi Bende
 
 Anlaşmalı sağlık kurumlarının işlem fiyatlarını **aynı bölge ve kurum grubundaki emsalleriyle** karşılaştırır; her
 kurum için tek bir fiyat endeksi üretir, emsallerinden belirgin pahalı kurum ve işlemleri işaretler. İnternete

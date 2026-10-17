@@ -1,6 +1,6 @@
 # Mali Tablo Rasyo Analizi · Kod Bloğu
 
-> Finans › Finansal Analist · Workers / Workless
+> Finans › Finansal Analist · Gerisi Bende
 
 Muhasebe programından (Logo, Mikro, Netsis, Luca vb.) alınan **mizanlardan** Tekdüzen Hesap Planı'na göre özet
 bilanço ve gelir tablosu oluşturur. Likidite, finansal yapı, faaliyet ve kârlılık rasyolarını dönemler arası

@@ -1,5 +1,5 @@
 """
-Kumaş Sipariş Termin Takibi — Workers / Workless kod bloğu
+Kumaş Sipariş Termin Takibi — Gerisi Bende kod bloğu
 Tekstil ve Konfeksiyon › Kumaş ve Aksesuar Satın Alma › Kumaş Satın Alma Uzmanı
 
 Kumaş siparişlerinin üretim aşamalarını (iplik, örme / dokuma, boyahane, apre, kalite kontrol, sevk) ve termin

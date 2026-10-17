@@ -1,5 +1,5 @@
 """
-Stok Sayım Fark Analizi — Workers / Workless kod bloğu
+Stok Sayım Fark Analizi — Gerisi Bende kod bloğu
 Lojistik ve Depo › Depo Sorumlusu
 
 Sayım sonuçlarını sistem (ERP) stoğuyla karşılaştırır:

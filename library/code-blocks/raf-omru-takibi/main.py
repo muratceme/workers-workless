@@ -1,5 +1,5 @@
 """
-Raf Ömrü Takibi — Workers / Workless kod bloğu
+Raf Ömrü Takibi — Gerisi Bende kod bloğu
 Kalite Kontrol ve Laboratuvar › Kalite Kontrol Teknisyeni
 Stok ve sevkiyat verisinden son tüketim tarihine kalan süreyi hesaplar, müşteri kabul kriterini karşılamayan partileri listeler.
   Son tüketim tarihi = STT / TETT sütunu; yoksa üretim tarihi + raf ömrü (gün)

@@ -1,5 +1,5 @@
 """
-Fire ve Kayıp Analizi — Workers / Workless kod bloğu
+Fire ve Kayıp Analizi — Gerisi Bende kod bloğu
 Mağaza Operasyonları › Mağaza Müdürü
 
 Fire kayıtlarını ürün grubu ve neden bazında analiz eder; sayım farklarıyla birlikte kayıp oranını hesaplar.

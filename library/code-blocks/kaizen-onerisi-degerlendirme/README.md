@@ -1,6 +1,6 @@
 # Kaizen Önerisi Değerlendirme · Kod Bloğu
 
-> Endüstri Mühendisliği ve Süreç Geliştirme › Endüstri Mühendisi · Workers / Workless
+> Endüstri Mühendisliği ve Süreç Geliştirme › Endüstri Mühendisi · Gerisi Bende
 
 Çalışan iyileştirme önerilerini **kazanç, geri ödeme süresi ve uygulanabilirliğe göre** puanlar, sıralar ve üç
 sınıfa ayırır. Aynı ölçütleri her öneriye aynı biçimde uygular; kararı siz verirsiniz. İnternete bağlanmaz.

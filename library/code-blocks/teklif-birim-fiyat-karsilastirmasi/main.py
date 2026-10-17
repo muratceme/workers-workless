@@ -1,5 +1,5 @@
 """
-Teklif Birim Fiyat Karşılaştırması — Workers / Workless kod bloğu
+Teklif Birim Fiyat Karşılaştırması — Gerisi Bende kod bloğu
 İhale ve Teklif › İhale Mühendisi
 
 Taşeron ve tedarikçi tekliflerini poz bazında karşılaştırır; firma toplamlarını ve en düşük fiyatlardan oluşan karma teklif cetvelini çıkarır.

@@ -1,6 +1,6 @@
 # Senaryo ve Duyarlılık Analizi · Kod Bloğu
 
-> Finans › Finansal Analist · Workers / Workless
+> Finans › Finansal Analist · Gerisi Bende
 
 Kur, faiz, satış ve maliyet varsayımlarından yıllık kârlılık ve nakit senaryoları üretir. Hangi varsayımın sonucu en
 çok etkilediğini (tornado) ve başa baş satış hacmini / kuru hesaplar. İnternete bağlanmaz.

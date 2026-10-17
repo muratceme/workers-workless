@@ -1,6 +1,6 @@
 # Müşteri Talebi Sınıflandırma ve Cevap Taslağı · AI Agent
 
-> Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Temsilcisi · Workers / Workless
+> Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Temsilcisi · Gerisi Bende
 
 E-posta, form ve sosyal medyadan gelen müşteri taleplerini **kategori, aciliyet, duygu ve ilgili ekibe** göre
 sınıflandırır. Her talep için **yalnızca şirketinizin bilgi bankasına dayanan** bir cevap taslağı hazırlar.

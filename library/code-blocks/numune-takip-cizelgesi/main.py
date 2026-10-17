@@ -1,5 +1,5 @@
 """
-Numune Takip Çizelgesi — Workers / Workless kod bloğu
+Numune Takip Çizelgesi — Gerisi Bende kod bloğu
 Tekstil ve Konfeksiyon › Müşteri Temsilciliği (Merchandising) › Development Merchandiser
 
 Numune taleplerini (proto, fit, size set, PP, SMS, TOP) aşama, gönderim tarihi ve müşteri yanıtlarıyla takip eder:

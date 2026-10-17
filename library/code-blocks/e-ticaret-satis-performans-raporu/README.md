@@ -1,6 +1,6 @@
 # E-ticaret Satış Performans Raporu · Kod Bloğu
 
-> Kategori ve İçerik Yönetimi › Kategori Yöneticisi · Workers / Workless
+> Kategori ve İçerik Yönetimi › Kategori Yöneticisi · Gerisi Bende
 
 Kanal, kategori ve ürün bazında **ciro, adet, dönüşüm ve iade oranını haftalık** raporlar; önceki haftayla
 karşılaştırır. İnternete bağlanmaz; panellerden indirdiğiniz veriyle çalışır.

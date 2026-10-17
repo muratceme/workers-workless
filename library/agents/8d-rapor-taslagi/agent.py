@@ -1,5 +1,5 @@
 """
-8D Rapor Taslağı — Workers / Workless AI Agent
+8D Rapor Taslağı — Gerisi Bende AI Agent
 Üretim › Kalite › Kalite Mühendisi
 
 1. Kod, muayene kayıtlarından (varsa) lot bazında hata oranını (PPM), etkilenen lotları, makine/kalıp

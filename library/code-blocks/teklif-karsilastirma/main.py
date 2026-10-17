@@ -1,5 +1,5 @@
 """
-Teklif Karşılaştırma — Workers / Workless kod bloğu
+Teklif Karşılaştırma — Gerisi Bende kod bloğu
 Satın Alma › Satın Alma Uzmanı
 
 Tedarikçi tekliflerini tek tabloda toplar ve karşılaştırır:

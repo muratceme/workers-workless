@@ -1,6 +1,6 @@
 # Anket Sonuç Analizi · Kod Bloğu
 
-> Pazarlama › Pazarlama Uzmanı · Workers / Workless
+> Pazarlama › Pazarlama Uzmanı · Gerisi Bende
 
 Pazar araştırması anketlerinin **kapalı ve açık uçlu** cevaplarını analiz eder. Frekans ve ölçek tablolarını hata
 payıyla verir, demografik kırılımlarda çapraz tablo ve **ki-kare testi** yapar, açık uçlu yanıtları bir kod

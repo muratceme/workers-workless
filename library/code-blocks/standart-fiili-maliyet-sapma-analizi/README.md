@@ -1,6 +1,6 @@
 # Standart-Fiili Maliyet Sapma Analizi · Kod Bloğu
 
-> Muhasebe › Maliyet Muhasebesi Uzmanı · Workers / Workless
+> Muhasebe › Maliyet Muhasebesi Uzmanı · Gerisi Bende
 
 Standart maliyet ile fiili maliyet arasındaki farkı klasik sapma bileşenlerine ayırır. Sapmaları Tek Düzen Hesap
 Planı (7/A) fark hesaplarıyla raporlar. İnternete bağlanmaz.

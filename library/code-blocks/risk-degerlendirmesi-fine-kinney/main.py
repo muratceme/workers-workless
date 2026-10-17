@@ -1,5 +1,5 @@
 """
-Risk Değerlendirmesi (Fine-Kinney) — Workers / Workless kod bloğu
+Risk Değerlendirmesi (Fine-Kinney) — Gerisi Bende kod bloğu
 İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı
 
 Tehlike listesindeki olasılık (O), frekans (F) ve şiddet (Ş) puanlarından Fine-Kinney risk skorunu

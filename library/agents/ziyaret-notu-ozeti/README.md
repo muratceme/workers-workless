@@ -1,6 +1,6 @@
 # Ziyaret Notu Özeti · AI Agent
 
-> Satış › Satış Temsilcisi · Workers / Workless
+> Satış › Satış Temsilcisi · Gerisi Bende
 
 Müşteri ziyareti sonrası alınan dağınık notları **CRM'e girilecek özete ve takip aksiyonlarına** çevirir. Her madde not
 satırına dayanır; aksiyon terminleri nottaki tarih ifadelerinden kod tarafından doğrulanır.

@@ -1,5 +1,5 @@
 """
-Güvenlik Raporlama Sistemi Olay Analizi — Workers / Workless kod bloğu
+Güvenlik Raporlama Sistemi Olay Analizi — Gerisi Bende kod bloğu
 Kalite Yönetimi › Kalite Birim Sorumlusu
 Hasta ve çalışan güvenliği olay bildirimlerini tür, kategori, birim, zarar düzeyi ve önlenebilirlik açısından analiz eder.
   Dağılımlar        = olay türü, kategori, birim, zarar düzeyi ve ay bazında bildirim sayısı ve payı

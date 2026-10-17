@@ -1,6 +1,6 @@
 # Temizlik ve Sanitasyon Kayıt Kontrolü · Kod Bloğu
 
-> Üretim › Üretim Şefi · Workers / Workless
+> Üretim › Üretim Şefi · Gerisi Bende
 
 Temizlik ve sanitasyon **planını** dönemdeki **kayıtlarla** karşılaştırır; her görev için beklenen ve yapılan temizliği,
 **uyum yüzdesini**, eksik gün / hafta / ayı ve aralığı aşılan görevleri listeler; uygunsuz doğrulama sonucunda düzeltici

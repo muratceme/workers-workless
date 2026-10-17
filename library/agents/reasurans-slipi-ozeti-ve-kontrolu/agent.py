@@ -1,5 +1,5 @@
 """
-Reasürans Slipi Özeti ve Kontrolü — Workers / Workless AI Agent
+Reasürans Slipi Özeti ve Kontrolü — Gerisi Bende AI Agent
 Reasürans › Reasürans Uzmanı (Reasürans Müdürü de kullanır)
 
 Reasürans slipi / anlaşma metninden ana şartları özet tabloya çıkarır, beklenen (onaylanan) şartlarla karşılaştırır ve

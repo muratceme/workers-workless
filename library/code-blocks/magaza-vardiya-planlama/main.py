@@ -1,5 +1,5 @@
 """
-Mağaza Vardiya Planlama — Workers / Workless kod bloğu
+Mağaza Vardiya Planlama — Gerisi Bende kod bloğu
 Mağaza Operasyonları › Mağaza Müdür Yardımcısı
 
 Saatlik müşteri trafiği tahmini, personel izinleri ve çalışma süresi kurallarına göre haftalık vardiya planı çıkarır.

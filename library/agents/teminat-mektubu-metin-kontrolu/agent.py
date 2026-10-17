@@ -1,5 +1,5 @@
 """
-Teminat Mektubu Metin Kontrolü — Workers / Workless AI Agent
+Teminat Mektubu Metin Kontrolü — Gerisi Bende AI Agent
 Bankacılık Operasyonları › Dış Ticaret Operasyon Uzmanı
 
 1. Kod talep formunu (lehtar, borçlu, tutar, para birimi, vade, sözleşme), bankanın standart metnini ({LEHTAR}, {TUTAR} …

@@ -1,5 +1,5 @@
 """
-Tedarikçi Kalite Karnesi — Workers / Workless kod bloğu
+Tedarikçi Kalite Karnesi — Gerisi Bende kod bloğu
 Kalite Güvence ve Kalite Kontrol › Kalite Müdürü
 
 Giriş kalite kontrol kayıtlarından tedarikçi bazında ret oranını (ppm) hesaplar ve karne notu verir.

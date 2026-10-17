@@ -1,5 +1,5 @@
 """
-Ar-Ge Proje Raporu Taslağı — Workers / Workless AI Agent
+Ar-Ge Proje Raporu Taslağı — Gerisi Bende AI Agent
 Ar-Ge ve Ürün Geliştirme › Ar-Ge Mühendisi
 
 1. Kod iş paketi tablosunu (planlanan / gerçekleşen ilerleme), bütçe tablosunu (planlanan / gerçekleşen harcama) ve proje

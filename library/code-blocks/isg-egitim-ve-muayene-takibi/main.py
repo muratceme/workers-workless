@@ -1,5 +1,5 @@
 """
-İSG Eğitim ve Muayene Takibi — Workers / Workless kod bloğu
+İSG Eğitim ve Muayene Takibi — Gerisi Bende kod bloğu
 İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı
 
 Çalışanların tehlike sınıfına göre İSG eğitimi ve periyodik sağlık muayenesi tarihlerini takip eder:

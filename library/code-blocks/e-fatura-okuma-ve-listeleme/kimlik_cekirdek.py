@@ -1,5 +1,5 @@
 """
-VKN / TCKN / IBAN Doğrulama — Workers / Workless kod bloğu
+VKN / TCKN / IBAN Doğrulama — Gerisi Bende kod bloğu
 Muhasebe › Ön Muhasebe Elemanı (ayrıca: Gişe Yetkilisi)
 
 Cari kart, personel veya ödeme listelerindeki vergi kimlik numaralarını (VKN), T.C. kimlik

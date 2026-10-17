@@ -1,5 +1,5 @@
 """
-Mülakat Değerlendirme Özeti — Workers / Workless AI Agent
+Mülakat Değerlendirme Özeti — Gerisi Bende AI Agent
 İnsan Kaynakları › İşe Alım Uzmanı
 
 1. Kod, mülakat puan ve notlarını okur: aday × yetkinlik ortalaması, yetkinlik ağırlıklarıyla toplam puan,

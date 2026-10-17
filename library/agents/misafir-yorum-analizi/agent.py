@@ -1,5 +1,5 @@
 """
-Misafir Yorum Analizi — Workers / Workless AI Agent
+Misafir Yorum Analizi — Gerisi Bende AI Agent
 Otel › Misafir İlişkileri
 
 1. Kod, yorumları okur; platform puanlarını 10'luk ölçeğe çevirir (Booking 10, Google ve TripAdvisor 5 —

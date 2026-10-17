@@ -1,5 +1,5 @@
 """
-Dava Risk ve Karşılık Raporu — Workers / Workless kod bloğu
+Dava Risk ve Karşılık Raporu — Gerisi Bende kod bloğu
 Hukuk › Hukuk Müdürü
 
 Devam eden davaları kaybetme olasılığına göre sınıflar; karşılık, koşullu yükümlülük ve dönem değişimi tablosunu hazırlar.

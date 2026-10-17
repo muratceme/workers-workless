@@ -1,5 +1,5 @@
 """
-Teminat Kapsam Kontrolü — Workers / Workless AI Agent
+Teminat Kapsam Kontrolü — Gerisi Bende AI Agent
 Sigorta › Hasar Yönetimi › Hasar Uzmanı
 
 1. Klasördeki dosyalar okunur: hasar bilgileri (.txt: Poliçe Başlangıç/Bitiş, Hasar Tarihi, İhbar Tarihi, Prim

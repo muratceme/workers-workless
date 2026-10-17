@@ -1,5 +1,5 @@
 """
-Araç Stok Yaşlandırma — Workers / Workless kod bloğu
+Araç Stok Yaşlandırma — Gerisi Bende kod bloğu
 Satış › Satış Müdürü
 Stoktaki araçları stoğa giriş tarihine göre yaşlandırır; model, renk ve yaş bandı bazında adet, değer ve finansman maliyetini hesaplar.
   Stok günü          = rapor tarihi − stoğa giriş tarihi (satılmış / teslim edilmiş araçlar alınmaz)

@@ -1,5 +1,5 @@
 """
-SSL Sertifika ve Lisans Süre Takibi — Workers / Workless kod bloğu
+SSL Sertifika ve Lisans Süre Takibi — Gerisi Bende kod bloğu
 Bilgi Teknolojileri › Sistem Uzmanı
 Sertifika, alan adı, yazılım lisansı ve destek sözleşmelerinin bitiş tarihlerini izler; yaklaşanları, kullanım fazlası ve atıl lisansları listeler.
   Kalan gün    = bitiş tarihi − rapor günü

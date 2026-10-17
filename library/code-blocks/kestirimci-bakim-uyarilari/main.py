@@ -1,5 +1,5 @@
 """
-Kestirimci Bakım Uyarıları — Workers / Workless kod bloğu
+Kestirimci Bakım Uyarıları — Gerisi Bende kod bloğu
 Üretim › Bakım Onarım › Bakım Mühendisi
 
 Titreşim, sıcaklık ve akım ölçümlerini (portatif cihaz rotası veya sensör dışa aktarımı) ekipman limitleriyle

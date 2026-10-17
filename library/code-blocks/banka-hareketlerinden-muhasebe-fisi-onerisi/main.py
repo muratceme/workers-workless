@@ -1,5 +1,5 @@
 """
-Banka Hareketlerinden Muhasebe Fişi Önerisi — Workers / Workless kod bloğu
+Banka Hareketlerinden Muhasebe Fişi Önerisi — Gerisi Bende kod bloğu
 Muhasebe ve Defter İşleri (Mali Müşavirlik) › Muhasebe Elemanı (Büro)
 
 Banka ekstresindeki her hareket için karşı hesabı bulur ve çift taraflı muhasebe fişi satırları önerir:

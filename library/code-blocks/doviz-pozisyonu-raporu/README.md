@@ -1,6 +1,6 @@
 # Döviz Pozisyonu Raporu · Kod Bloğu
 
-> Hazine ve Aktif-Pasif Yönetimi › Hazine Uzmanı · Workers / Workless
+> Hazine ve Aktif-Pasif Yönetimi › Hazine Uzmanı · Gerisi Bende
 
 Bilanço içi döviz varlık ve yükümlülükleri ile bilanço dışı alım-satım taahhütlerinden **döviz cinsi bazında net
 pozisyonu** hesaplar; TL karşılığını, uzun ve kısa toplamı ve bir kur şokunun etkisini gösterir. İnternete bağlanmaz.

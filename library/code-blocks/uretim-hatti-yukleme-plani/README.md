@@ -1,6 +1,6 @@
 # Üretim Hattı Yükleme Planı · Kod Bloğu
 
-> Tekstil ve Konfeksiyon › Planlama › Planlama Uzmanı · Workers / Workless
+> Tekstil ve Konfeksiyon › Planlama › Planlama Uzmanı · Gerisi Bende
 
 Siparişlerin dakika değeri (SAM) ve hat kapasitesinden hat bazında yükleme planı çıkarır ve tahmini bitiş
 tarihlerini hesaplar. Sevki gecikecek siparişleri ve hat doluluğunu gösterir. İnternete bağlanmaz.

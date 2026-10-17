@@ -1,5 +1,5 @@
 """
-Çoklu Şirket Teklif Karşılaştırması — Workers / Workless kod bloğu
+Çoklu Şirket Teklif Karşılaştırması — Gerisi Bende kod bloğu
 Sigorta › Teknik ve Operasyon › Sigorta Uzmanı
 
 Farklı sigorta şirketlerinden alınan teklifleri teminat, limit, muafiyet ve prim bazında müşteriye sunulacak tek

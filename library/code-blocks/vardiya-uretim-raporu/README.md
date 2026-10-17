@@ -1,6 +1,6 @@
 # Vardiya Üretim Raporu · Kod Bloğu
 
-> Üretim › Vardiya Amiri · Workers / Workless
+> Üretim › Vardiya Amiri · Gerisi Bende
 
 Vardiya bazında **üretim adedi, hedef, duruş ve fire** kayıtlarından vardiya raporu üretir: vardiya ve hat özeti,
 duruş nedenleri ve kopyalanmaya hazır rapor metni. İnternete bağlanmaz.

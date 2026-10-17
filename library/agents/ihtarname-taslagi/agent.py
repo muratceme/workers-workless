@@ -1,5 +1,5 @@
 """
-İhtarname Taslağı — Workers / Workless AI Agent
+İhtarname Taslağı — Gerisi Bende AI Agent
 Hukuk › Avukat
 
 1. Kod olay özetini satır satır numaralar; taraf bilgilerini (ad, adres, kimlik no) ayrı dosyadan okur ve olay metnindeki

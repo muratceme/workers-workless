@@ -1,5 +1,5 @@
 """
-Döviz Pozisyonu Raporu — Workers / Workless kod bloğu
+Döviz Pozisyonu Raporu — Gerisi Bende kod bloğu
 Hazine ve Aktif-Pasif Yönetimi › Hazine Uzmanı
 
 Bilanço içi ve dışı döviz varlık ve yükümlülüklerinden döviz cinsi bazında net pozisyonu hesaplar.

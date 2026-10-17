@@ -1,6 +1,6 @@
 # Etiket Bilgisi Kontrolü · AI Agent
 
-> Kalite Güvence ve Gıda Güvenliği › Gıda Mühendisi · Workers / Workless
+> Kalite Güvence ve Gıda Güvenliği › Gıda Mühendisi · Gerisi Bende
 
 Gıda etiketini **Türk Gıda Kodeksi Gıda Etiketleme ve Tüketicileri Bilgilendirme Yönetmeliği**'ne göre ön kontrolden
 geçirir. Zorunlu bilgiler, temel görüş alanı, yazı büyüklüğü, net miktar birimi ve beslenme bildirimini **kod**

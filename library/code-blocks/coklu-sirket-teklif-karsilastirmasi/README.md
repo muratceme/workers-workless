@@ -1,6 +1,6 @@
 # Çoklu Şirket Teklif Karşılaştırması · Kod Bloğu
 
-> Sigorta › Teknik ve Operasyon › Sigorta Uzmanı · Workers / Workless
+> Sigorta › Teknik ve Operasyon › Sigorta Uzmanı · Gerisi Bende
 
 Farklı sigorta şirketlerinden alınan teklifleri teminat, limit, muafiyet ve prim bazında **müşteriye sunulacak tek
 bir tabloya** döker. Müşterinin talebini karşılamayan noktaları işaretler. İnternete bağlanmaz.

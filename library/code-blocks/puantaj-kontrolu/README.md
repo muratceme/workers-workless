@@ -1,6 +1,6 @@
 # Puantaj Kontrolü · Kod Bloğu
 
-> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Workers / Workless
+> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Gerisi Bende
 
 Aylık puantaj çizelgesini bordro öncesi kontrol eder. Hatalı satırları, İş Kanunu sınırlarını aşan çalışmaları
 ve bordroda karar gerektiren durumları listeler. SGK prim gününü ve eksik gün nedenini önerir. İnternete bağlanmaz.

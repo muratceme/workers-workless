@@ -1,5 +1,5 @@
 """
-Fatura KDV Tutarlılık Kontrolü — Workers / Workless kod bloğu
+Fatura KDV Tutarlılık Kontrolü — Gerisi Bende kod bloğu
 Muhasebe › Muhasebe Elemanı
 
 Fatura satırlarında ve fatura toplamlarında matrah, KDV oranı, KDV tutarı ve tevkifat tutarlılığını kontrol eder:

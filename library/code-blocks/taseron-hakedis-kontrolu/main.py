@@ -1,5 +1,5 @@
 """
-Taşeron Hakediş Kontrolü — Workers / Workless kod bloğu
+Taşeron Hakediş Kontrolü — Gerisi Bende kod bloğu
 İnşaat › Teknik Ofis › Teknik Ofis Mühendisi
 
 Taşeronun sunduğu hakedişi; sözleşme birim fiyat cetveli, saha (yeşil defter) metrajı ve önceki onaylı hakedişle

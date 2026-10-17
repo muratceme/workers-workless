@@ -1,5 +1,5 @@
 """
-Uygunsuzluk Kaydı Yazımı — Workers / Workless AI Agent
+Uygunsuzluk Kaydı Yazımı — Gerisi Bende AI Agent
 Üretim › Kalite Kontrol Elemanı (tekstil, inşaat ve gıda kalite rolleri de kullanır)
 
 Kalite kontrolcünün sahada aldığı kısa notları standart uygunsuzluk (NCR) kaydına çevirir.

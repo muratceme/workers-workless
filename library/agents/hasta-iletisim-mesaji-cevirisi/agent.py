@@ -1,5 +1,5 @@
 """
-Hasta İletişim Mesajı Çevirisi — Workers / Workless AI Agent
+Hasta İletişim Mesajı Çevirisi — Gerisi Bende AI Agent
 Sağlık (Özel Hastane) › Uluslararası Hasta Hizmetleri › Uluslararası Hasta Koordinatörü
 
 1. mesajlar/ klasöründeki hasta mesajları (.txt/.docx/.pdf/.eml; isteğe bağlı 'Hasta:' ve 'Tarih:' başlık

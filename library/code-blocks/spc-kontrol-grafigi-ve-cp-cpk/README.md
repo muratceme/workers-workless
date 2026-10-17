@@ -1,6 +1,6 @@
 # SPC Kontrol Grafiği ve Cp/Cpk · Kod Bloğu
 
-> Üretim › Kalite Mühendisi · Workers / Workless
+> Üretim › Kalite Mühendisi · Gerisi Bende
 
 Alt grup ölçümlerinden **X̄-R kontrol grafiğini** çizer, kontrol dışı noktaları **Nelson kurallarıyla**
 işaretler ve şartname sınırları verilirse **Cp, Cpk, Pp, Ppk** proses yeterlilik indekslerini hesaplar.

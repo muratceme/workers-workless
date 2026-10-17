@@ -1,6 +1,6 @@
 # Stok Değerleme · Kod Bloğu
 
-> Muhasebe › Maliyet Muhasebesi Uzmanı · Workers / Workless
+> Muhasebe › Maliyet Muhasebesi Uzmanı · Gerisi Bende
 
 Stok hareketlerinden dönem sonu stok değerini ve satılan malın (kullanılan malzemenin) maliyetini hesaplar. Üç
 yöntemi yan yana gösterir: FIFO, hareketli ağırlıklı ortalama ve dönem sonu ağırlıklı ortalama. Raporun ana yöntemi

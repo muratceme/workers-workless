@@ -1,5 +1,5 @@
 """
-Zaman Etüdü ve Standart Süre — Workers / Workless kod bloğu
+Zaman Etüdü ve Standart Süre — Gerisi Bende kod bloğu
 Endüstri Mühendisliği ve Süreç Geliştirme › Endüstri Mühendisi
 
 Kronometre ölçümlerinden performans ve tolerans payıyla operasyon standart sürelerini hesaplar.

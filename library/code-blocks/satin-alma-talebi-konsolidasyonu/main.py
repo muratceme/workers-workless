@@ -1,5 +1,5 @@
 """
-Satın Alma Talebi Konsolidasyonu — Workers / Workless kod bloğu
+Satın Alma Talebi Konsolidasyonu — Gerisi Bende kod bloğu
 Satın Alma › Satın Alma Uzman Yardımcısı
 
 Departmanlardan gelen satın alma taleplerini malzeme bazında birleştirir ve teklif istenecek listeyi çıkarır:

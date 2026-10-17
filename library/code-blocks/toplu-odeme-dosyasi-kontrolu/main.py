@@ -1,5 +1,5 @@
 """
-Toplu Ödeme Dosyası Kontrolü — Workers / Workless kod bloğu
+Toplu Ödeme Dosyası Kontrolü — Gerisi Bende kod bloğu
 Bankacılık Operasyonları › Ödeme Sistemleri Operasyon Uzmanı
 
 Müşterilerin yüklediği toplu ödeme (maaş, tedarikçi) dosyalarını işleme almadan önce kontrol eder:

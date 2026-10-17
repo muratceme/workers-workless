@@ -1,5 +1,5 @@
 """
-e-Fatura Okuma ve Listeleme — Workers / Workless kod bloğu
+e-Fatura Okuma ve Listeleme — Gerisi Bende kod bloğu
 Muhasebe › Ön Muhasebe Elemanı (ayrıca: Mali Müşavirlik Bürosu › Muhasebe Elemanı)
 
 GİB UBL-TR biçimindeki e-Fatura ve e-Arşiv XML dosyalarını (tek tek veya ZIP içinde) okur;

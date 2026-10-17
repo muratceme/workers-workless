@@ -1,6 +1,6 @@
 # Sepet Birliktelik Analizi · Kod Bloğu
 
-> CRM ve Sadakat Programı › CRM Uzmanı · Workers / Workless
+> CRM ve Sadakat Programı › CRM Uzmanı · Gerisi Bende
 
 Fiş satırlarından **birlikte alınan ürün çiftlerini destek, güven ve lift** değerleriyle çıkarır. İnternete bağlanmaz.
 

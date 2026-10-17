@@ -1,6 +1,6 @@
 # Oda Arıza ve Bakım Talep Takibi · Kod Bloğu
 
-> Kat Hizmetleri › Kat Hizmetleri Müdürü (Housekeeper) · Workers / Workless
+> Kat Hizmetleri › Kat Hizmetleri Müdürü (Housekeeper) · Gerisi Bende
 
 Odalardan bildirilen arıza ve bakım taleplerini **oda, kategori, öncelik ve bekleme süresine** göre takip eder. Hedef süresini
 geçen açık talepleri, satışa kapalı odaları ve aynı odada tekrar eden arızaları listeler. İnternete ve teknik servis

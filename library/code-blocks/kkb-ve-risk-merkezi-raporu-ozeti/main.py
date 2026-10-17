@@ -1,5 +1,5 @@
 """
-KKB ve Risk Merkezi Raporu Özeti — Workers / Workless kod bloğu
+KKB ve Risk Merkezi Raporu Özeti — Gerisi Bende kod bloğu
 Krediler Tahsis › Kredi Tahsis Uzman Yardımcısı
 
 Risk Merkezi / KKB raporundan tabloya aktarılmış limit-risk satırlarını özetler.

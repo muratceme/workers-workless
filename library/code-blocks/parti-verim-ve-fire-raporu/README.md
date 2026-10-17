@@ -1,6 +1,6 @@
 # Parti Verim ve Fire Raporu · Kod Bloğu
 
-> Üretim › Üretim Şefi · Workers / Workless
+> Üretim › Üretim Şefi · Gerisi Bende
 
 Parti bazında hammadde girişi, mamul çıkışı ve fireden **verimi** hesaplar; hedef dışı partileri, ürün ve hat özetini
 çıkarır. İnternete bağlanmaz.

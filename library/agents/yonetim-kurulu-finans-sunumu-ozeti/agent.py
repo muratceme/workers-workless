@@ -1,5 +1,5 @@
 """
-Yönetim Kurulu Finans Sunumu Özeti — Workers / Workless AI Agent
+Yönetim Kurulu Finans Sunumu Özeti — Gerisi Bende AI Agent
 Finans › Finans Müdürü
 
 1. Kod dönem sonuç tablosunu (Kalem; Cari Dönem; Önceki Dönem; Bütçe) okur ve hesaplar:

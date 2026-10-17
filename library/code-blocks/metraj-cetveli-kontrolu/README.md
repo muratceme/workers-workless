@@ -1,6 +1,6 @@
 # Metraj Cetveli Kontrolü · Kod Bloğu
 
-> Teknik Ofis › Teknik Ofis Mühendisi · Workers / Workless
+> Teknik Ofis › Teknik Ofis Mühendisi · Gerisi Bende
 
 Metraj cetvelindeki **hesap satırlarını (boyut × adet) yeniden hesaplar, poz toplamlarını ve mükerrer satırları**
 kontrol eder. İnternete bağlanmaz.

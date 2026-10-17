@@ -1,5 +1,5 @@
 """
-Serbest Tariften Standart Reçete Kartı — Workers / Workless AI Agent
+Serbest Tariften Standart Reçete Kartı — Gerisi Bende AI Agent
 Otel › Yiyecek-İçecek › Aşçıbaşı
 
 Şeflerin serbest yazdığı tarifleri standart reçete kartına dönüştürür: malzeme, miktar, ölçü, adımlar, alerjenler.

@@ -1,5 +1,5 @@
 """
-Günlük Giriş-Çıkış Listesi — Workers / Workless kod bloğu
+Günlük Giriş-Çıkış Listesi — Gerisi Bende kod bloğu
 Ön Büro › Resepsiyonist
 Rezervasyon listesinden seçilen günün gelecek (arrival), ayrılacak (departure) ve konaklamaya devam eden misafirlerini çıkarır.
   Gelecek       = giriş tarihi seçilen gün olan, iptal / no-show olmayan rezervasyonlar

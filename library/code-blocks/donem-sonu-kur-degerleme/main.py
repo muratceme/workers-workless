@@ -1,5 +1,5 @@
 """
-Dönem Sonu Kur Değerleme — Workers / Workless kod bloğu
+Dönem Sonu Kur Değerleme — Gerisi Bende kod bloğu
 Muhasebe › Genel Muhasebe Uzmanı
 
 Döviz cinsinden hesap bakiyelerini dönem sonu kurlarıyla değerler ve kur farkı kayıtlarını hesaplar:

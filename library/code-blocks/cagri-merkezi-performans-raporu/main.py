@@ -1,5 +1,5 @@
 """
-Çağrı Merkezi Performans Raporu — Workers / Workless kod bloğu
+Çağrı Merkezi Performans Raporu — Gerisi Bende kod bloğu
 Müşteri Hizmetleri ve Çağrı Merkezi › Çağrı Merkezi Yöneticisi
 
 Çağrı kayıtlarından temel performans göstergelerini hesaplar:

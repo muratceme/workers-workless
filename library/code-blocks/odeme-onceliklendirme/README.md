@@ -1,6 +1,6 @@
 # Ödeme Önceliklendirme · Kod Bloğu
 
-> Finans › Finans Uzmanı · Workers / Workless
+> Finans › Finans Uzmanı · Gerisi Bende
 
 Nakit dar olduğunda "bu hafta kime ödeyeceğiz?" sorusunu **açık ve her seferinde aynı sonucu veren bir kuralla**
 yanıtlar: ödeme listesini sıralar, eldeki nakit bitene kadar "Öde", sonrası için "Ertele" der ve her kararın

@@ -1,5 +1,5 @@
 """
-Gece Denetimi (Night Audit) Kontrolü — Workers / Workless kod bloğu
+Gece Denetimi (Night Audit) Kontrolü — Gerisi Bende kod bloğu
 Turizm ve Otelcilik › Ön Büro › Night Auditor (Gece Denetçisi)
 
 Gün sonunda PMS'ten alınan raporları karşılaştırır:

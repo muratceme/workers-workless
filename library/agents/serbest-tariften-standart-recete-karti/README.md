@@ -1,6 +1,6 @@
 # Serbest Tariften Standart Reçete Kartı · AI Agent
 
-> Otel › Yiyecek-İçecek › Aşçıbaşı · Workers / Workless
+> Otel › Yiyecek-İçecek › Aşçıbaşı · Gerisi Bende
 
 Şeflerin serbest yazdığı tarifleri ("5 su bardağı mercimek, 3 yemek kaşığı tereyağı …") **standart reçete kartına**
 dönüştürür:

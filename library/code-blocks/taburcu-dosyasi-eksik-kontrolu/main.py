@@ -1,5 +1,5 @@
 """
-Taburcu Dosyası Eksik Kontrolü — Workers / Workless kod bloğu
+Taburcu Dosyası Eksik Kontrolü — Gerisi Bende kod bloğu
 Tıbbi Sekreterlik › Yatan Hasta Tıbbi Sekreteri
 
 Taburcu olan hastaların dosyalarında onam, epikriz, ameliyat notu ve konsültasyon belgelerinin eksiksizliğini kontrol eder.

@@ -1,6 +1,6 @@
 # Kapasite Darboğaz Analizi · Kod Bloğu
 
-> Üretim Planlama › Üretim Planlama Uzmanı · Workers / Workless
+> Üretim Planlama › Üretim Planlama Uzmanı · Gerisi Bende
 
 İş merkezi × hafta bazında **yükleme oranını** hesaplar; kapasiteyi aşan haftaları (darboğaz) bulur ve iş emirlerini
 boş haftalara **kaydırma önerisi** çıkarır. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Sepet Birliktelik Analizi — Workers / Workless kod bloğu
+Sepet Birliktelik Analizi — Gerisi Bende kod bloğu
 CRM ve Sadakat Programı › CRM Uzmanı
 
 Fiş satırlarından birlikte alınan ürün çiftlerini destek, güven ve lift değerleriyle çıkarır.

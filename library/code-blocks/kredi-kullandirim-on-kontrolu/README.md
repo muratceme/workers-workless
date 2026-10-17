@@ -1,6 +1,6 @@
 # Kredi Kullandırım Ön Kontrolü · Kod Bloğu
 
-> Bankacılık Operasyonları › Kredi Operasyon Uzmanı · Workers / Workless
+> Bankacılık Operasyonları › Kredi Operasyon Uzmanı · Gerisi Bende
 
 Kullandırım taleplerini **tahsis onayındaki şartlar, teminat tesis durumu ve sözleşme bilgileriyle** karşılaştırır;
 kullandırıma engel olan eksikleri listeler. İnternete bağlanmaz.

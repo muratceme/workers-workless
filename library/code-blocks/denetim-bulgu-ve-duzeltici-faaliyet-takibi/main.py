@@ -1,5 +1,5 @@
 """
-Denetim Bulgu ve Düzeltici Faaliyet Takibi — Workers / Workless kod bloğu
+Denetim Bulgu ve Düzeltici Faaliyet Takibi — Gerisi Bende kod bloğu
 Sürdürülebilirlik ve Sosyal Uygunluk › Sosyal Uygunluk Uzmanı
 
 Sosyal uygunluk ve müşteri denetimlerinin bulgularını düzeltici faaliyet planı (CAP), sorumlu ve termin bazında takip eder.

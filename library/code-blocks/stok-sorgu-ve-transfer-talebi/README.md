@@ -1,6 +1,6 @@
 # Stok Sorgu ve Transfer Talebi · Kod Bloğu
 
-> Mağaza Operasyonları › Satış Danışmanı · Workers / Workless
+> Mağaza Operasyonları › Satış Danışmanı · Gerisi Bende
 
 Müşterinin istediği ürün, renk ve beden mağazada yoksa **diğer mağazaların stoklarını** listeler ve en uygun kaynak mağazadan
 **transfer talebi** hazırlar. Kaynak mağazada son ürünü bırakır, yakın mağazaları önceler. İnternete ve mağaza yazılımına

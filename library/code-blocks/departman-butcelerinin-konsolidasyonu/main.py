@@ -1,5 +1,5 @@
 """
-Departman Bütçelerinin Konsolidasyonu — Workers / Workless kod bloğu
+Departman Bütçelerinin Konsolidasyonu — Gerisi Bende kod bloğu
 Finans › Bütçe ve Raporlama Uzmanı
 
 Departmanlardan gelen bütçe şablonlarını (bir klasördeki .xlsx dosyaları) tek dosyada birleştirir, format ve toplam

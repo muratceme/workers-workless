@@ -1,5 +1,5 @@
 """
-Hakediş Hesaplama — Workers / Workless kod bloğu
+Hakediş Hesaplama — Gerisi Bende kod bloğu
 İnşaat › Teknik Ofis Mühendisi
 
 Birim fiyatlı sözleşmenin poz listesi ve dönem metrajlarından hakediş raporu hazırlar: kümülatif metraj

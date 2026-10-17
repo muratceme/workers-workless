@@ -1,5 +1,5 @@
 """
-Teftiş Bulgusuna Cevap Yazısı — Workers / Workless AI Agent
+Teftiş Bulgusuna Cevap Yazısı — Gerisi Bende AI Agent
 Şube Bankacılığı › Şube Operasyon Yöneticisi
 
 Teftiş / iç kontrol bulgularına, şubenin kendi notlarına dayanan cevap yazısı taslağı hazırlar ve bulgu takip tablosunu

@@ -1,5 +1,5 @@
 """
-Gün Sonu Kasa Raporu — Workers / Workless kod bloğu
+Gün Sonu Kasa Raporu — Gerisi Bende kod bloğu
 Mağaza Operasyonları › Kasa Sorumlusu
 
 Kasa bazında Z raporu ve POS toplamlarından nakit, kredi kartı, iade ve iptal toplamlarını çıkarır; kasa sayımıyla farkı raporlar.

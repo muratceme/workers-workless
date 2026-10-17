@@ -1,6 +1,6 @@
 # Kumaş Fiyat Takibi · Kod Bloğu
 
-> Kumaş ve Aksesuar Satın Alma › Kumaş Satın Alma Uzmanı · Workers / Workless
+> Kumaş ve Aksesuar Satın Alma › Kumaş Satın Alma Uzmanı · Gerisi Bende
 
 Tedarikçilerden gelen kumaş ve iplik fiyatlarını tek tabloda toplar; **kalite bazında fiyat geçmişini** ve
 tedarikçilerin güncel tekliflerinin karşılaştırmasını üretir. İnternete bağlanmaz.

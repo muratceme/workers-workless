@@ -1,5 +1,5 @@
 """
-Trend Raporu Özeti — Workers / Workless AI Agent
+Trend Raporu Özeti — Gerisi Bende AI Agent
 Tasarım › Moda Tasarımcısı
 
 1. Kod sezon trend raporunu satır (paragraf) satır numaralar ve koleksiyon brifini okur (sezon, hedef müşteri, ürün

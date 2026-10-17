@@ -1,5 +1,5 @@
 """
-Mali Tablo Rasyo Analizi — Workers / Workless kod bloğu
+Mali Tablo Rasyo Analizi — Gerisi Bende kod bloğu
 Finans › Finansal Analist
 
 Muhasebe programlarından alınan mizanlardan (Tekdüzen Hesap Planı) özet bilanço ve gelir tablosu oluşturur;

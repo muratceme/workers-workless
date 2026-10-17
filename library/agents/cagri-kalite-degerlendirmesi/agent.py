@@ -1,5 +1,5 @@
 """
-Çağrı Kalite Değerlendirmesi — Workers / Workless AI Agent
+Çağrı Kalite Değerlendirmesi — Gerisi Bende AI Agent
 Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Deneyimi Uzmanı
 
 Görüşme dökümünü kalite formundaki kriterlere göre puanlar ve geri bildirim notu hazırlar:

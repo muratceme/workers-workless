@@ -1,6 +1,6 @@
 # İade EFT / FAST Müşteri Bilgilendirme · AI Agent
 
-> Bankacılık Operasyon › Ödeme Sistemleri Operasyon Uzmanı · Workers / Workless
+> Bankacılık Operasyon › Ödeme Sistemleri Operasyon Uzmanı · Gerisi Bende
 
 Alıcı bankadan **iade gelen EFT / FAST ödemeleri** için gönderen müşteriye bilgilendirme mesajı taslağı hazırlar.
 İade nedenini sade dille açıklar ve müşterinin ne yapması gerektiğini yazar. Ödeme listesini (tarih, tutar, alıcı, IBAN'ın

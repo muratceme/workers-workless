@@ -1,5 +1,5 @@
 """
-ayrimcilik.py — Workers / Workless ortak ayrımcı ifade tarayıcısı (iş ilanı, mülakat, performans yorumları)
+ayrimcilik.py — Gerisi Bende ortak ayrımcı ifade tarayıcısı (iş ilanı, mülakat, performans yorumları)
 
 Kaynağı: library/_ortak/ayrimcilik.py; paket klasörlerindeki kopyalar CI tarafından bununla aynı tutulur.
 

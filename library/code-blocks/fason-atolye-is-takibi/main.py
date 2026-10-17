@@ -1,5 +1,5 @@
 """
-Fason Atölye İş Takibi — Workers / Workless kod bloğu
+Fason Atölye İş Takibi — Gerisi Bende kod bloğu
 Tekstil ve Konfeksiyon › Üretim ve Fason Takip › Fason Takip Sorumlusu
 
 Fason atölyelere (dikim, baskı, nakış, yıkama, ütü-paket) çıkan işleri adet, çıkış-dönüş tarihi ve kalite durumuyla

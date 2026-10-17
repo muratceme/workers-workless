@@ -1,6 +1,6 @@
 # Ar-Ge Proje Raporu Taslağı · AI Agent
 
-> Ar-Ge ve Ürün Geliştirme › Ar-Ge Mühendisi · Workers / Workless
+> Ar-Ge ve Ürün Geliştirme › Ar-Ge Mühendisi · Gerisi Bende
 
 İş paketi ve bütçe tabloları ile proje notlarından **Ar-Ge projesi dönem raporu taslağı** hazırlar (TÜBİTAK TEYDEB,
 Ar-Ge / tasarım merkezi gibi programların dönem raporlarında istenen tipik başlıklar). İlerleme ve bütçe sapmalarını

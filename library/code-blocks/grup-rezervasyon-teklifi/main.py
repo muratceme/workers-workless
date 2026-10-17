@@ -1,5 +1,5 @@
 """
-Grup Rezervasyon Teklifi — Workers / Workless kod bloğu
+Grup Rezervasyon Teklifi — Gerisi Bende kod bloğu
 Rezervasyon ve Gelir Yönetimi › Rezervasyon Sorumlusu
 Grup talebini (gün × kalem × adet) otelin fiyat listesiyle fiyatlandırıp teklif dosyası hazırlar.
   Satır tutarı      = adet × o tarihte geçerli KDV hariç fiyat (fiyat listesinde Başlangıç / Bitiş varsa sezon fiyatı)

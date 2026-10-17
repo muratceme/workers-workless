@@ -1,6 +1,6 @@
 # VKN / TCKN / IBAN Doğrulama · Kod Bloğu
 
-> Muhasebe › Ön Muhasebe Elemanı · Bankacılık › Gişe Yetkilisi · Workers / Workless
+> Muhasebe › Ön Muhasebe Elemanı · Bankacılık › Gişe Yetkilisi · Gerisi Bende
 
 Cari kart, personel veya ödeme listelerindeki **vergi kimlik numaralarını (VKN)**, **T.C. kimlik
 numaralarını (TCKN)** ve **IBAN'ları** toplu olarak doğrular. Hatalı, eksik haneli ve mükerrer

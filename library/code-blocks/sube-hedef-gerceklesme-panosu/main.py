@@ -1,5 +1,5 @@
 """
-Şube Hedef-Gerçekleşme Panosu — Workers / Workless kod bloğu
+Şube Hedef-Gerçekleşme Panosu — Gerisi Bende kod bloğu
 Şube Bankacılığı › Şube Müdürü
 
 Mevduat, kredi, kart, sigorta gibi kalemlerin aylık hedeflerini portföy yöneticisi bazında gerçekleşmelerle karşılaştırır

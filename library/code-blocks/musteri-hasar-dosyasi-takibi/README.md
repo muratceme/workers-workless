@@ -1,6 +1,6 @@
 # Müşteri Hasar Dosyası Takibi · Kod Bloğu
 
-> Teknik ve Operasyon › Hasar Sorumlusu · Workers / Workless
+> Teknik ve Operasyon › Hasar Sorumlusu · Gerisi Bende
 
 Acente veya broker tarafında izlediğiniz **açık hasar dosyalarını** öncelik sırasına koyar; sigorta şirketi ve eksper
 bazında özetler, bekleyen evrakları listeler ve müşteriye gönderilecek evrak hatırlatma metnini hazırlar. İnternete

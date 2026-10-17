@@ -1,5 +1,5 @@
 """
-Ürün Ağacı (BOM) Karşılaştırma — Workers / Workless kod bloğu
+Ürün Ağacı (BOM) Karşılaştırma — Gerisi Bende kod bloğu
 Ar-Ge ve Ürün Geliştirme › Ar-Ge Mühendisi
 
 İki ürün ağacı sürümünü karşılaştırır; eklenen, çıkarılan ve miktarı, birimi, fiyatı ya da tanımı değişen kalemleri listeler.

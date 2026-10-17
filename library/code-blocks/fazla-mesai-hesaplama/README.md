@@ -1,6 +1,6 @@
 # Fazla Mesai Hesaplama · Kod Bloğu
 
-> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Workers / Workless
+> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Gerisi Bende
 
 Günlük giriş-çıkış kayıtlarından (PDKS dökümü) **4857 sayılı İş Kanunu**'na göre fazla çalışma, fazla sürelerle
 çalışma ve genel tatil ücretini hesaplar. Yasal sınırları kontrol eder. İnternete bağlanmaz.

@@ -1,6 +1,6 @@
 # Hasar/Prim Oranı Analizi · Kod Bloğu
 
-> Teknik (Risk Kabul / Underwriting) › Teknik Uzman (Underwriter) · Workers / Workless
+> Teknik (Risk Kabul / Underwriting) › Teknik Uzman (Underwriter) · Gerisi Bende
 
 Poliçe ve hasar listesinden **müşteri, acente ve branş bazında hasar/prim (H/P) oranını** hesaplar; yenilemesi yaklaşan
 poliçeler için eşiklere dayalı bir öneri yazar. İnternete bağlanmaz.

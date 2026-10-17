@@ -1,6 +1,6 @@
 # Grup Rezervasyon Teklifi · Kod Bloğu
 
-> Rezervasyon ve Gelir Yönetimi › Rezervasyon Sorumlusu · Workers / Workless
+> Rezervasyon ve Gelir Yönetimi › Rezervasyon Sorumlusu · Gerisi Bende
 
 Grup talebini (gün × kalem × adet) otelin **fiyat listesiyle** fiyatlandırır; oda, yemek, toplantı salonu ve diğer
 hizmetleri gün gün hesaplayıp ücretsiz oda, grup indirimi, konaklama vergisi ve KDV ile **teklif dosyası** hazırlar.

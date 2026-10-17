@@ -1,5 +1,5 @@
 """
-Açık Uçlu Cevaplar İçin Rubrik Puan Önerisi — Workers / Workless AI Agent
+Açık Uçlu Cevaplar İçin Rubrik Puan Önerisi — Gerisi Bende AI Agent
 Eğitim › Akademik › Ölçme Değerlendirme Uzmanı
 
 Açık uçlu sınav cevaplarını rubriğe (dereceli puanlama anahtarı) göre puanlamak için öneri hazırlar; puanı kod toplar,

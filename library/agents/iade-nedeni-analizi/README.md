@@ -1,6 +1,6 @@
 # İade Nedeni Analizi · AI Agent
 
-> E-ticaret Operasyon ve Kargo › E-ticaret Operasyon Uzmanı · Workers / Workless
+> E-ticaret Operasyon ve Kargo › E-ticaret Operasyon Uzmanı · Gerisi Bende
 
 İade açıklamalarını **neden kategorilerine** ayırır: beden küçük / büyük, kalıp, kusurlu ürün, yanlış gönderim, renk ya da
 kalite beklenti farkı, geç teslimat, vazgeçme. Ardından ürün bazında iade oranını çıkarır ve her ürün için ilgili ekibe

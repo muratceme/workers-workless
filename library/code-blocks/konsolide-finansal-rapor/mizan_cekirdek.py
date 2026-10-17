@@ -1,5 +1,5 @@
 """
-Mizan Kontrolü — Workers / Workless kod bloğu
+Mizan Kontrolü — Gerisi Bende kod bloğu
 Muhasebe › Genel Muhasebe Uzmanı
 
 Aylık mizanı Tekdüzen Hesap Planı kurallarına göre kontrol eder:

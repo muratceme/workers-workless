@@ -1,6 +1,6 @@
 # CV Raporlama · AI Agent
 
-> İnsan Kaynakları › İK Uzmanı · Workers / Workless
+> İnsan Kaynakları › İK Uzmanı · Gerisi Bende
 
 CV'leri yapay zekâ ile okur: son pozisyon, şirket, deneyim, eğitim, diller, beceriler ve kısa
 bir özet çıkarır; iş ilanı verirseniz **0–100 uyum puanını gerekçesiyle** yazar. Düzeni bozuk,

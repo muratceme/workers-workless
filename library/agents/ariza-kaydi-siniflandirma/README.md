@@ -1,6 +1,6 @@
 # Arıza Kaydı Sınıflandırma · AI Agent
 
-> Bakım Onarım › Bakım Teknisyeni · Workers / Workless
+> Bakım Onarım › Bakım Teknisyeni · Gerisi Bende
 
 Teknisyenlerin serbest metinle yazdığı arıza kayıtlarını **makine, arıza tipi ve müdahale türüne** göre etiketler. Etiketli
 kayıtlardan kod; Pareto, makine bazında duruş ve MTTR / MTBF ile tekrarlayan arıza listesini çıkarır.

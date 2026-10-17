@@ -1,5 +1,5 @@
 """
-Teklif Talebi Bilgi Kontrolü — Workers / Workless kod bloğu
+Teklif Talebi Bilgi Kontrolü — Gerisi Bende kod bloğu
 Teknik (Risk Kabul / Underwriting) › Teknik Uzman Yardımcısı
 
 Acenteden gelen teklif taleplerini, sizin verdiğiniz zorunlu alan kurallarına göre kontrol eder.

@@ -1,5 +1,5 @@
 """
-Satış Primi Hesaplama — Workers / Workless kod bloğu
+Satış Primi Hesaplama — Gerisi Bende kod bloğu
 Satış › Satış Müdürü
 
 Prim sistemine göre temsilci bazında hedef gerçekleşmeyi ve brüt prim tutarını hesaplar.

@@ -1,5 +1,5 @@
 """
-Tahsilat ve Avukat Performans Raporu — Workers / Workless kod bloğu
+Tahsilat ve Avukat Performans Raporu — Gerisi Bende kod bloğu
 Krediler İzleme ve Takip › Yasal Takip Uzmanı
 
 Takipteki alacakların tahsilat tutarlarını sözleşmeli avukat ve dosya yaşı bazında raporlar.

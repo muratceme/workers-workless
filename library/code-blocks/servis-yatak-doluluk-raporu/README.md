@@ -1,6 +1,6 @@
 # Servis Yatak Doluluk Raporu · Kod Bloğu
 
-> Tıbbi Sekreterlik › Yatan Hasta Tıbbi Sekreteri · Workers / Workless
+> Tıbbi Sekreterlik › Yatan Hasta Tıbbi Sekreteri · Gerisi Bende
 
 Yatış kayıtlarından **servis bazında yatak doluluk oranını, ortalama kalış süresini ve yatak devir hızını**
 hesaplar; rapor tarihinde yatan hastaları, boş yatakları ve **beklenen taburcu listesini** çıkarır. İnternete ve

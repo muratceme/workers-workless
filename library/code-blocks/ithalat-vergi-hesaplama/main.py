@@ -1,5 +1,5 @@
 """
-İthalat Vergi Hesaplama — Workers / Workless kod bloğu
+İthalat Vergi Hesaplama — Gerisi Bende kod bloğu
 Gümrük Operasyon › Gümrük Operasyon Uzmanı
 
 CIF kıymet, gümrük vergisi, ilave gümrük vergisi ve KDV oranlarından ithalatta ödenecek vergileri hesaplar.

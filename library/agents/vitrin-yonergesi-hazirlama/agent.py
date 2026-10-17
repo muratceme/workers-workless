@@ -1,5 +1,5 @@
 """
-Vitrin Yönergesi Hazırlama — Workers / Workless AI Agent
+Vitrin Yönergesi Hazırlama — Gerisi Bende AI Agent
 Görsel Düzenleme › Görsel Düzenleme Uzmanı
 
 1. Kod kampanya bilgisini, ürün listesini (SKU; Ürün; Grup; Renk; Öncelik: Zorunlu / Opsiyonel) ve vitrin tiplerini

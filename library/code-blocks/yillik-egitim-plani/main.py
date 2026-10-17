@@ -1,5 +1,5 @@
 """
-Yıllık Eğitim Planı — Workers / Workless kod bloğu
+Yıllık Eğitim Planı — Gerisi Bende kod bloğu
 İnsan Kaynakları › Eğitim ve Gelişim Uzmanı
 
 Eğitim ihtiyaç listesinden bütçeye sığan yıllık eğitim planını, aylık takvimi ve departman özetini oluşturur.

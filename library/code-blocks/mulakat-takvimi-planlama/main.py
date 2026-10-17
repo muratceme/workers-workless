@@ -1,5 +1,5 @@
 """
-Mülakat Takvimi Planlama — Workers / Workless kod bloğu
+Mülakat Takvimi Planlama — Gerisi Bende kod bloğu
 İnsan Kaynakları › İnsan Kaynakları Uzman Yardımcısı
 
 Aday ve mülakatçı müsaitliklerini eşleştirip çakışmasız mülakat takvimi ve davet listesi çıkarır:
@@ -265,7 +265,7 @@ def davet_metni(a: Aday, poz: Pozisyon, sirket: str) -> str:
 
 
 def ics_yaz(yol: Path, yerlesen: list[Aday], pozisyonlar: dict) -> None:
-    s = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Workers Workless//Mulakat Takvimi//TR", "CALSCALE:GREGORIAN", "X-WR-TIMEZONE:Europe/Istanbul"]
+    s = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Gerisi Bende//Mulakat Takvimi//TR", "CALSCALE:GREGORIAN", "X-WR-TIMEZONE:Europe/Istanbul"]
     damga = datetime.now().strftime("%Y%m%dT%H%M%SZ")
     for a in yerlesen:
         poz = pozisyonlar[katla(a.pozisyon)]

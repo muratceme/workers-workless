@@ -1,5 +1,5 @@
 """
-Üretim Hattı Yükleme Planı — Workers / Workless kod bloğu
+Üretim Hattı Yükleme Planı — Gerisi Bende kod bloğu
 Tekstil ve Konfeksiyon › Planlama › Planlama Uzmanı
 
 Siparişlerin dakika değeri (SAM) ve hat kapasitesinden hat bazında yükleme planı ve tahmini bitiş tarihleri çıkarır:

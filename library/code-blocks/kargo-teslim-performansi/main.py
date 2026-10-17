@@ -1,5 +1,5 @@
 """
-Kargo Teslim Performansı — Workers / Workless kod bloğu
+Kargo Teslim Performansı — Gerisi Bende kod bloğu
 E-ticaret Operasyon ve Kargo › E-ticaret Operasyon Uzmanı
 Kargo firması bazında teslim süresi, zamanında teslim, hasarlı, kayıp ve iade gönderi oranlarını hesaplar.
   Teslim süresi        = teslim tarihi − kargoya veriliş tarihi (takvim günü)

@@ -1,6 +1,6 @@
 # Zincir Market Listeleme Takibi · Kod Bloğu
 
-> Satış ve Kanal Yönetimi › Kanal Satış Yöneticisi · Workers / Workless
+> Satış ve Kanal Yönetimi › Kanal Satış Yöneticisi · Gerisi Bende
 
 Saha ekibinin mağaza ziyaret kayıtlarından ürünlerin **zincir bazında listeleme oranını**, listeli olup rafta stoğu
 olmayan (**stoksuz**) mağazaları ve raf fiyatlarının **önerilen raf fiyatından sapmasını** çıkarır. İnternete bağlanmaz.

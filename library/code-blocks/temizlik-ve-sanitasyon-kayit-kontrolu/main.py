@@ -1,5 +1,5 @@
 """
-Temizlik ve Sanitasyon Kayıt Kontrolü — Workers / Workless kod bloğu
+Temizlik ve Sanitasyon Kayıt Kontrolü — Gerisi Bende kod bloğu
 Üretim › Üretim Şefi
 Hat temizlik ve sanitasyon kayıtlarını plana göre kontrol edip eksik, geciken ve uygunsuz kayıtları listeler.
   Sıklık        = Vardiya (günde --vardiya kez) · Günlük · Haftalık (Pzt-Paz) · Aylık · "N gün" (iki temizlik arası en çok N gün)

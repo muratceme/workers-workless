@@ -1,6 +1,6 @@
 # Doluluk, ADR ve RevPAR Raporu · Kod Bloğu
 
-> Otel › Ön Büro / Gelir Yönetimi · Workers / Workless
+> Otel › Ön Büro / Gelir Yönetimi · Gerisi Bende
 
 Oda satışlarından otelin temel performans göstergelerini **günlük, aylık, haftanın günü ve kanal** bazında
 hesaplar ve **geçen yılla** karşılaştırır. İnternete bağlanmaz.

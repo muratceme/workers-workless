@@ -1,5 +1,5 @@
 """
-Aday Öğrenci Takip Listesi — Workers / Workless kod bloğu
+Aday Öğrenci Takip Listesi — Gerisi Bende kod bloğu
 Kayıt Kabul ve Öğrenci İşleri › Kayıt Kabul Sorumlusu
 Kayıt görüşmesi yapılan aday öğrencileri aşama, kademe ve takip tarihine göre izler; dönüşüm oranlarını ve takip listesini çıkarır.
   Aşamalar      = Ön görüşme → Okul gezisi → Değerlendirme / tanışma → Ücret görüşmesi → Kayıt (Kayıp ayrı)

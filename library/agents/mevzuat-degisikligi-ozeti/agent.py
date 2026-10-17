@@ -1,5 +1,5 @@
 """
-Mevzuat Değişikliği Özeti — Workers / Workless AI Agent
+Mevzuat Değişikliği Özeti — Gerisi Bende AI Agent
 Hukuk › Hukuk Müdürü
 
 Resmî Gazete fihristini şirketin faaliyet alanına göre süzer ve ilgili düzenlemelerin etkisini özetler:

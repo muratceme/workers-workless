@@ -1,6 +1,6 @@
 # Yiyecek-İçecek Maliyet Oranı Raporu · Kod Bloğu
 
-> Yiyecek ve İçecek › Yiyecek İçecek Müdürü · Workers / Workless
+> Yiyecek ve İçecek › Yiyecek İçecek Müdürü · Gerisi Bende
 
 Dönem stok hareketleri ve satışlardan **departman (outlet) bazında yiyecek ve içecek maliyet oranını** hesaplar; hedef ve
 önceki dönemle karşılaştırır, hedefin üstündeki departmanlar için fazla maliyeti tahmin eder. İnternete bağlanmaz.

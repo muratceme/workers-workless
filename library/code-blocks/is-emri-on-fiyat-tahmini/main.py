@@ -1,5 +1,5 @@
 """
-İş Emri Ön Fiyat Tahmini — Workers / Workless kod bloğu
+İş Emri Ön Fiyat Tahmini — Gerisi Bende kod bloğu
 Satış Sonrası Hizmetler (Servis) › Servis Danışmanı
 İş türü tanımları (işçilik saati + parça listesi), parça fiyat listesi ve saat ücretinden iş emri bazında ön fiyat tahmini çıkarır.
   İşçilik  = iş tanımındaki saat × adet × --saat-ucreti

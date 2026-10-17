@@ -1,5 +1,5 @@
 """
-Reklam Kampanyası Performans Raporu — Workers / Workless kod bloğu
+Reklam Kampanyası Performans Raporu — Gerisi Bende kod bloğu
 Pazarlama › Dijital Pazarlama Uzmanı
 
 Reklam platformu dışa aktarımlarını (Google Ads, Meta Ads, TikTok Ads, Microsoft Ads … — Türkçe veya İngilizce arayüz)

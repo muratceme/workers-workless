@@ -1,5 +1,5 @@
 """
-Gişe Gün Sonu Kasa Mutabakatı — Workers / Workless kod bloğu
+Gişe Gün Sonu Kasa Mutabakatı — Gerisi Bende kod bloğu
 Şube Bankacılığı › Gişe Yetkilisi
 
 Gün sonu kasa sayımını (kupür bazında) sistem bakiyesiyle gişe ve para birimi bazında karşılaştırır; fark varsa günün

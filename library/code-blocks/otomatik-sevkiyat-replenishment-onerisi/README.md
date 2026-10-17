@@ -1,6 +1,6 @@
 # Otomatik Sevkiyat (Replenishment) Önerisi · Kod Bloğu
 
-> Perakende › Ürün Planlama ve Alokasyon › Alokasyon Uzmanı · Workers / Workless
+> Perakende › Ürün Planlama ve Alokasyon › Alokasyon Uzmanı · Gerisi Bende
 
 Mağaza satış hızı, mağaza stoğu ve hedef stok gününe göre depodan mağazalara **sevk edilecek miktarları**
 hesaplar. Depo sistemine aktarılabilir bir sevk listesi üretir. İnternete bağlanmaz.

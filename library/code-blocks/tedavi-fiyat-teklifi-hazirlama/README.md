@@ -1,6 +1,6 @@
 # Tedavi Fiyat Teklifi Hazırlama · Kod Bloğu
 
-> Uluslararası Hasta Hizmetleri › Uluslararası Hasta Koordinatörü · Workers / Workless
+> Uluslararası Hasta Hizmetleri › Uluslararası Hasta Koordinatörü · Gerisi Bende
 
 Tedavi planı ve paket fiyat listesinden **konaklama ve transfer dahil hastaya gönderilecek teklif dosyasını** hazırlar:
 Excel teklif tablosu ve Türkçe veya İngilizce teklif metni. İnternete bağlanmaz. Hasta adı gerekmez.

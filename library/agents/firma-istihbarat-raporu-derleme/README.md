@@ -1,6 +1,6 @@
 # Firma İstihbarat Raporu Derleme · AI Agent
 
-> Bankacılık › Şube Bankacılığı › Ticari Portföy Yöneticisi · Workers / Workless
+> Bankacılık › Şube Bankacılığı › Ticari Portföy Yöneticisi · Gerisi Bende
 
 Ticaret sicili, banka istihbaratı, piyasa görüşmeleri, KKB/memzuç riski ve olumsuz kayıtları **tek bir
 istihbarat raporunda** toplar.

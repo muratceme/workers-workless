@@ -1,6 +1,6 @@
 # Yedek Parça Kritik Stok Önerisi · Kod Bloğu
 
-> Bakım Onarım › Bakım Mühendisi · Workers / Workless
+> Bakım Onarım › Bakım Mühendisi · Gerisi Bende
 
 Arıza ve bakımda kullanılan parça kayıtları ile tedarik süresinden, yedek parçalar için **minimum stok seviyesi**
 önerir; mevcut stokla karşılaştırıp eksik miktarı ve sipariş tutarını verir. İnternete bağlanmaz.

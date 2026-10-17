@@ -1,6 +1,6 @@
 # Vadesi Dolan Mevduat Takibi · Kod Bloğu
 
-> Şube Bankacılığı › Bireysel Portföy Yöneticisi · Workers / Workless
+> Şube Bankacılığı › Bireysel Portföy Yöneticisi · Gerisi Bende
 
 Önümüzdeki günlerde vadesi dolacak mevduat ve yatırım ürünlerini **müşteri bazında toplar** ve kimi önce
 arayacağınızı sıralar: vadesi en yakın olanlar, sonra tutarı büyük olanlar. İnternete bağlanmaz.

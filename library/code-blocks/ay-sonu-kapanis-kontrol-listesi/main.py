@@ -1,5 +1,5 @@
 """
-Ay Sonu Kapanış Kontrol Listesi — Workers / Workless kod bloğu
+Ay Sonu Kapanış Kontrol Listesi — Gerisi Bende kod bloğu
 Muhasebe › Genel Muhasebe Uzmanı
 
 Kapanış adımlarını hedef gün, sorumlu, önkoşul ve durumla izler; gecikenleri ve sıradaki işleri gösterir.

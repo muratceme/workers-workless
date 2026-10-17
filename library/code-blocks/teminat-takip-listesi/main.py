@@ -1,5 +1,5 @@
 """
-Teminat Takip Listesi — Workers / Workless kod bloğu
+Teminat Takip Listesi — Gerisi Bende kod bloğu
 Şube Bankacılığı › Ticari Portföy Yöneticisi
 
 Kredi teminatlarının (ipotek, çek, kefalet, teminat mektubu) değer, vade ve ekspertiz yenileme tarihlerini izler.

@@ -1,5 +1,5 @@
 """
-Depo Yerleşim (ABC) Önerisi — Workers / Workless kod bloğu
+Depo Yerleşim (ABC) Önerisi — Gerisi Bende kod bloğu
 Lojistik ve Depo › Depo Sorumlusu
 
 Ürünleri çıkış sıklığına göre ABC sınıflarına ayırır; sık çıkanların sevkiyata yakın bölgede durmasını önerir.

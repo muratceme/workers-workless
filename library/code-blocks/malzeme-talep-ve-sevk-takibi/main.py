@@ -1,5 +1,5 @@
 """
-Malzeme Talep ve Sevk Takibi — Workers / Workless kod bloğu
+Malzeme Talep ve Sevk Takibi — Gerisi Bende kod bloğu
 Şantiye › Şantiye Şefi
 Şantiye malzeme taleplerini satın alma ve sevkiyat durumuyla takip eder, imalatı geciktirecek eksikleri işaretler.
   Durum            = Teslim edildi (teslim ≥ talep) · Kısmi teslim · Siparişte (sipariş var, teslim yok) · Sipariş bekliyor (sipariş yok)

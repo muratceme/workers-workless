@@ -1,6 +1,6 @@
 # Kalitesizlik Maliyeti Raporu · Kod Bloğu
 
-> Kalite Güvence ve Kalite Kontrol › Kalite Müdürü · Workers / Workless
+> Kalite Güvence ve Kalite Kontrol › Kalite Müdürü · Gerisi Bende
 
 Hurda, yeniden işleme, iade ve garanti maliyetlerini **ürün ve neden bazında** toplar; iç ve dış hata maliyetini
 ayırır, Pareto sıralamasıyla maliyetin çoğunu yaratan ürün ve nedenleri gösterir. İnternete bağlanmaz.

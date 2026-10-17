@@ -1,5 +1,5 @@
 """
-Bütçe-Gerçekleşen Sapma Raporu — Workers / Workless kod bloğu
+Bütçe-Gerçekleşen Sapma Raporu — Gerisi Bende kod bloğu
 Finans › Bütçe ve Raporlama Uzmanı
 
 Yıllık bütçeyi (hesap × masraf merkezi × ay) muhasebeden alınan gerçekleşen kayıtlarla karşılaştırır.

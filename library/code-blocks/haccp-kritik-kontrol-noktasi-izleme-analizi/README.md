@@ -1,6 +1,6 @@
 # HACCP Kritik Kontrol Noktası İzleme Analizi · Kod Bloğu
 
-> Gıda Üretimi › Kalite Güvence ve Gıda Güvenliği › Kalite Güvence Uzmanı · Workers / Workless
+> Gıda Üretimi › Kalite Güvence ve Gıda Güvenliği › Kalite Güvence Uzmanı · Gerisi Bende
 
 Kritik kontrol noktası (KKN) izleme kayıtlarını (sıcaklık, süre, pH, metal dedektör…) HACCP planınızdaki kritik
 ve operasyonel limitlerle karşılaştırır. Sapmaları, düzeltici faaliyet eksiklerini, izleme boşluklarını ve kayıt

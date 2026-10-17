@@ -1,6 +1,6 @@
 # Kurum Bazlı Gelir ve Kesinti Raporu · Kod Bloğu
 
-> Anlaşmalı Kurumlar ve Faturalama › Anlaşmalı Kurumlar Müdürü · Workers / Workless
+> Anlaşmalı Kurumlar ve Faturalama › Anlaşmalı Kurumlar Müdürü · Gerisi Bende
 
 Kurum faturalarından **SGK, özel sigorta şirketleri ve diğer anlaşmalı kurumlar** bazında fatura, kesinti, tahsilat,
 açık bakiye, **kesinti oranı**, **ortalama tahsil süresi** ve alacak yaşlandırması çıkarır. İnternete bağlanmaz.

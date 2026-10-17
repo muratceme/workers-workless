@@ -1,5 +1,5 @@
 """
-Mağaza Satış Performans Panosu — Workers / Workless kod bloğu
+Mağaza Satış Performans Panosu — Gerisi Bende kod bloğu
 Mağaza Operasyonları › Mağaza Müdürü
 
 Ciro, fiş adedi, sepet ortalaması, dönüşüm oranı ve geçen yıl karşılaştırmasını (LFL) mağaza ve gün bazında panoda toplar.

@@ -1,6 +1,6 @@
 # Prim Ödenmemesi Nedeniyle İptal Listesi · Kod Bloğu
 
-> Tahsilat Yönetimi › Tahsilat Uzmanı · Workers / Workless
+> Tahsilat Yönetimi › Tahsilat Uzmanı · Gerisi Bende
 
 Vadesi geçtiği hâlde ödenmeyen prim taksitlerini **süre kurallarına göre sınıflar**: ihtar gönderilecek poliçeleri,
 ihtar süresi işleyenleri ve süresi dolduğu hâlde ödenmeyen **iptal adaylarını** listeler. İnternete bağlanmaz.

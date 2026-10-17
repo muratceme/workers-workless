@@ -1,6 +1,6 @@
 # İhtarname Taslağı · AI Agent
 
-> Hukuk › Avukat · Workers / Workless
+> Hukuk › Avukat · Gerisi Bende
 
 Olay özeti ve talepten **noter ihtarnamesi taslağı** hazırlar. **Taraf adları, adresleri ve kimlik numaraları yapay zekâ
 modeline gönderilmez;** olay metnindeki adlar `{KESIDECI}` / `{MUHATAP}` ile değiştirilir, taslağa kod geri yazar.

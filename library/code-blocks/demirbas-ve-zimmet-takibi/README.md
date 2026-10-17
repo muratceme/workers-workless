@@ -1,6 +1,6 @@
 # Demirbaş ve Zimmet Takibi · Kod Bloğu
 
-> İdari İşler › İdari İşler Sorumlusu · Workers / Workless
+> İdari İşler › İdari İşler Sorumlusu · Gerisi Bende
 
 Demirbaş kaydınızı sayım listesiyle karşılaştırır: hangi demirbaş **yerinde**, hangisi **başka konumda**, hangisi
 **bulunamadı**, hangisi **kayıtta yok** gösterir. Konum ve zimmetli kişi bazında özet verir. İnternete bağlanmaz.

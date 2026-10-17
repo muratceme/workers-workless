@@ -1,5 +1,5 @@
 """
-Dilekçe Taslağı — Workers / Workless AI Agent
+Dilekçe Taslağı — Gerisi Bende AI Agent
 Hukuk Bürosu › Dava Takip › Avukat
 
 1. Klasördeki dava bilgileri ('Alan: değer' satırları), olay özeti, talepler ve deliller listesi okunur. Varsa

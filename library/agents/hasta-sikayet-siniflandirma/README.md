@@ -1,6 +1,6 @@
 # Hasta Şikâyet Sınıflandırma · AI Agent
 
-> Hasta Hizmetleri › Hasta İlişkileri ve Hasta Hakları Yöneticisi · Workers / Workless
+> Hasta Hizmetleri › Hasta İlişkileri ve Hasta Hakları Yöneticisi · Gerisi Bende
 
 Hasta ve yakınlarından gelen şikâyet, öneri ve teşekkürleri **birim, konu, tür ve önem** derecesine göre sınıflandırır.
 Her başvuru için ilgili birime iletilecek inceleme sorusunu yazar ve cevap süresini takip eder.

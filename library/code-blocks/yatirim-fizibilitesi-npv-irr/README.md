@@ -1,6 +1,6 @@
 # Yatırım Fizibilitesi (NPV/IRR) · Kod Bloğu
 
-> Finans › Finansal Analist · Workers / Workless
+> Finans › Finansal Analist · Gerisi Bende
 
 Yatırım nakit akışlarından net bugünkü değeri (NBD / NPV), iç verim oranını (İVO / IRR), değiştirilmiş İVO'yu,
 geri dönüş süresini ve kârlılık endeksini hesaplar. İskonto oranına göre duyarlılık tablosu çıkarır. İnternete

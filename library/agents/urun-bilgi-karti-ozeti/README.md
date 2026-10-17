@@ -1,6 +1,6 @@
 # Ürün Bilgi Kartı Özeti · AI Agent
 
-> Mağaza › Satış Danışmanı · Workers / Workless
+> Mağaza › Satış Danışmanı · Gerisi Bende
 
 Ürün teknik bilgilerinden **müşteriye mağazada anlatılacak kısa ürün kartları** hazırlar: 3 öne çıkan fayda, kısa
 anlatım, aynı kategorideki ürünlerle fark özeti ve sık sorulan sorular. Her özellik değeri ve karşılaştırma ürün

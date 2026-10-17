@@ -1,5 +1,5 @@
 """
-Hasta Memnuniyet Anketi Analizi — Workers / Workless AI Agent
+Hasta Memnuniyet Anketi Analizi — Gerisi Bende AI Agent
 Hasta Hizmetleri › Hasta İlişkileri ve Hasta Hakları Yöneticisi
 
 1. Kod anket puanlarını (1–5) hesaplar: birim ve hekim bazında yanıt sayısı, soru ortalamaları, genel ortalama ve

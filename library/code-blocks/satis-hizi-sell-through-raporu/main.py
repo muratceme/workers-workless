@@ -1,5 +1,5 @@
 """
-Satış Hızı (Sell-Through) Raporu — Workers / Workless kod bloğu
+Satış Hızı (Sell-Through) Raporu — Gerisi Bende kod bloğu
 Ürün Planlama ve Alokasyon › Alokasyon Uzmanı
 Ürün ve mağaza bazında satış oranı ve stok günü raporlar, indirime aday ürünleri belirler.
   Satış oranı (sell-through) % = satılan ÷ (satılan + eldeki stok) × 100

@@ -1,5 +1,5 @@
 """
-Periyodik Bakım Hatırlatma Listesi — Workers / Workless kod bloğu
+Periyodik Bakım Hatırlatma Listesi — Gerisi Bende kod bloğu
 Satış Sonrası Hizmetler (Servis) › Servis Danışmanı
 Son bakım tarihi ve kilometre tahminine göre bakımı yaklaşan ya da geçen araçları listeler, hatırlatma mesajı hazırlar.
   Günlük km       = (son bakım km − önceki bakım km) ÷ iki bakım arası gün; önceki bakım yoksa --gunluk-km (40)

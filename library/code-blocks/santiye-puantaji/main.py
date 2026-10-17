@@ -1,5 +1,5 @@
 """
-Şantiye Puantajı — Workers / Workless kod bloğu
+Şantiye Puantajı — Gerisi Bende kod bloğu
 Şantiye › Saha Mühendisi
 Taşeron ve kendi personelinin günlük puantajını kişi × gün cetvelinde ve firma, ekip, imalat bazında toplar.
   Çalışma saati = Saat sütunu; yoksa Gün sütunu (1 / 0,5) × --gun-saat (7,5)

@@ -1,6 +1,6 @@
 # Reasürans Hesap Cetveli Hazırlama · Kod Bloğu
 
-> Sigorta › Reasürans › Reasürans Uzmanı · Workers / Workless
+> Sigorta › Reasürans › Reasürans Uzmanı · Gerisi Bende
 
 Orantılı bir trete (kotpar veya eksedan) için **dönem hesap cetvelini** prim ve hasar bordrolarından hazırlar.
 Devredilen prim, komisyon, hasar, prim depo ve depo faizini hesaplar; bakiyeyi reasürör paylarına dağıtır.

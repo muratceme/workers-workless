@@ -1,6 +1,6 @@
 # BT Proje Portföy Durumu · Kod Bloğu
 
-> Bilgi Teknolojileri › BT Müdürü · Workers / Workless
+> Bilgi Teknolojileri › BT Müdürü · Gerisi Bende
 
 Proje listenizi yönetim toplantısına götürülecek **tek sayfalık kırmızı-sarı-yeşil tabloya** çevirir. Her projenin
 takvimde ve bütçede nerede olduğunu kazanılmış değer yöntemiyle hesaplar; rengi kişisel kanaat değil, sayı belirler.

@@ -1,6 +1,6 @@
 # Ürün Değerlendirme Analizi · AI Agent
 
-> Müşteri Deneyimi › Müşteri Hizmetleri Temsilcisi · Workers / Workless
+> Müşteri Deneyimi › Müşteri Hizmetleri Temsilcisi · Gerisi Bende
 
 Ürün yorumlarını **duygu ve konu** bazında sınıflandırır: ürün kalitesi, beden / kalıp, kargo, paketleme, fiyat /
 performans, açıklamaya uygunluk, satıcı ilgisi ve ürün güvenliği. Ürün bazında konu skorlarını ve örnek alıntıları çıkarır;

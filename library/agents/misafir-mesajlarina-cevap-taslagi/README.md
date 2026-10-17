@@ -1,6 +1,6 @@
 # Misafir Mesajlarına Cevap Taslağı · AI Agent
 
-> Ön Büro › Resepsiyonist · Workers / Workless
+> Ön Büro › Resepsiyonist · Gerisi Bende
 
 Misafirlerin e-posta ve mesajlarına, **otelin kendi bilgilerine dayanarak** ve misafirin dilinde cevap taslağı hazırlar.
 Bilgi dosyasında cevabı olmayan soruları ve iptal, iade, şikâyet gibi insan onayı gereken mesajları ayrıca işaretler.

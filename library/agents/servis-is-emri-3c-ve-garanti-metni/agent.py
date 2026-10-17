@@ -1,5 +1,5 @@
 """
-Servis İş Emri 3C ve Garanti Metni — Workers / Workless AI Agent
+Servis İş Emri 3C ve Garanti Metni — Gerisi Bende AI Agent
 Otomotiv Servis › Servis Danışmanı (Garanti Uzmanı da kullanır)
 
 Müşteri şikâyeti ve teknisyen notlarından iş emrine ve garanti başvurusuna girecek 3C metnini hazırlar:

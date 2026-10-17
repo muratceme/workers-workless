@@ -1,5 +1,5 @@
 """
-İkinci El Araç İlan Metni — Workers / Workless AI Agent
+İkinci El Araç İlan Metni — Gerisi Bende AI Agent
 Otomotiv › Satış › İkinci El Satış Danışmanı
 
 Araç kartı ve ekspertiz notlarından ilan başlığı, açıklama, donanım listesi ve ekspertiz özeti yazar; ekspertizin

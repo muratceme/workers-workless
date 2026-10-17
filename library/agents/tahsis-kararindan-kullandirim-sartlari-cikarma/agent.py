@@ -1,5 +1,5 @@
 """
-Tahsis Kararından Kullandırım Şartları Çıkarma — Workers / Workless AI Agent
+Tahsis Kararından Kullandırım Şartları Çıkarma — Gerisi Bende AI Agent
 Bankacılık Operasyonları › Kredi Operasyon Uzmanı
 
 Kredi komitesi / tahsis kararlarının serbest metninden kullandırım kontrolüne girecek onay bilgilerini ve şartları çıkarır.

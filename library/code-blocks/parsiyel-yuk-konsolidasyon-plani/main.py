@@ -1,5 +1,5 @@
 """
-Parsiyel Yük Konsolidasyon Planı — Workers / Workless kod bloğu
+Parsiyel Yük Konsolidasyon Planı — Gerisi Bende kod bloğu
 Lojistik ve Taşımacılık › Parsiyel Operasyon › Parsiyel Operasyon Uzmanı
 
 Bekleyen parsiyel yükleri varış bölgesine göre gruplar ve araçlara yerleştirir; her aracın ağırlık, hacim ve

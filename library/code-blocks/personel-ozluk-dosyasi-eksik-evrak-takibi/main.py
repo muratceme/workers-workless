@@ -1,5 +1,5 @@
 """
-Personel Özlük Dosyası Eksik Evrak Takibi — Workers / Workless kod bloğu
+Personel Özlük Dosyası Eksik Evrak Takibi — Gerisi Bende kod bloğu
 İnsan Kaynakları › İnsan Kaynakları Uzman Yardımcısı
 
 Çalışan listesini zorunlu özlük evrakı listesiyle karşılaştırır, eksik ve süresi dolan evrakı çalışan bazında

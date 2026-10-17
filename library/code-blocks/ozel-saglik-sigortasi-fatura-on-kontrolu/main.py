@@ -1,5 +1,5 @@
 """
-Özel Sağlık Sigortası Fatura Ön Kontrolü — Workers / Workless kod bloğu
+Özel Sağlık Sigortası Fatura Ön Kontrolü — Gerisi Bende kod bloğu
 Anlaşmalı Kurumlar ve Faturalama › Anlaşmalı Kurumlar Uzmanı
 Fatura kalemlerini sigorta şirketi anlaşma fiyatları, provizyon onayı ve poliçe bilgileriyle karşılaştırıp kesinti riskli
 kalemleri işaretler.

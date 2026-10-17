@@ -1,6 +1,6 @@
 # Zam Bütçesi Simülasyonu · Kod Bloğu
 
-> İnsan Kaynakları › Ücretlendirme ve Yan Haklar Uzmanı · Workers / Workless
+> İnsan Kaynakları › Ücretlendirme ve Yan Haklar Uzmanı · Gerisi Bende
 
 Farklı zam senaryolarında kişi bazında yeni brüt ücretleri ve toplam personel maliyetini hesaplar. Senaryoları
 yan yana karşılaştırır; istenirse her senaryoyu verilen bütçeye ölçekler. İnternete bağlanmaz.

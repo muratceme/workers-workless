@@ -1,5 +1,5 @@
 """
-Denetim Hazırlık Dosyası — Workers / Workless kod bloğu
+Denetim Hazırlık Dosyası — Gerisi Bende kod bloğu
 Muhasebe › Muhasebe Müdürü
 
 Bağımsız denetçinin talep listesindeki belge ve mutabakatların hazırlık durumunu izler.

@@ -1,6 +1,6 @@
 # Geri Çağırma (İzlenebilirlik) Simülasyonu · Kod Bloğu
 
-> Kalite Güvence ve Gıda Güvenliği › Kalite Güvence Uzmanı · Workers / Workless
+> Kalite Güvence ve Gıda Güvenliği › Kalite Güvence Uzmanı · Gerisi Bende
 
 Şüpheli bir **hammadde lotundan** veya **üretim partisinden** yola çıkar; etkilenen üretim partilerini, bu partilerin
 gittiği müşterileri ve miktarları çıkarır. Geri çağırma tatbikatında "bir adım geri, bir adım ileri" izlemeyi

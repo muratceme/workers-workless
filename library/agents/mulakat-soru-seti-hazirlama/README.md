@@ -1,6 +1,6 @@
 # Mülakat Soru Seti Hazırlama · AI Agent
 
-> İnsan Kaynakları › İşe Alım · Workers / Workless
+> İnsan Kaynakları › İşe Alım · Gerisi Bende
 
 Pozisyon bilgisinden ve yetkinlik listesinden **yapılandırılmış (yetkinlik bazlı) mülakat soru seti**
 hazırlar. Mülakatçının dolduracağı **formüllü değerlendirme formunu** da üretir.

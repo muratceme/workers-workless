@@ -1,6 +1,6 @@
 # Şikâyet Analizi · AI Agent
 
-> Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Deneyimi Uzmanı · Workers / Workless
+> Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Deneyimi Uzmanı · Gerisi Bende
 
 Şikâyet kayıtlarını **konu, ürün ve olası kök neden** başlıklarına kümeler ve **eğilim raporu** çıkarır.
 - **Kod:** Sayıları hesaplar: dönem bazında adetler, yükselen konular, Pareto, çözüm süresi, hedef süre aşımı,

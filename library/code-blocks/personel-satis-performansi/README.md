@@ -1,6 +1,6 @@
 # Personel Satış Performansı · Kod Bloğu
 
-> Mağaza Operasyonları › Mağaza Müdürü · Workers / Workless
+> Mağaza Operasyonları › Mağaza Müdürü · Gerisi Bende
 
 Satış danışmanlarının **ciro, fiş, adet ve sepet ortalamalarını** karşılaştırır; hedefler ve prim kademeleri
 verilirse **prim tablosunu** hazırlar. İnternete bağlanmaz.

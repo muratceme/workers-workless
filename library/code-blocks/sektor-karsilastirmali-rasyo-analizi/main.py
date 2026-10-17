@@ -1,5 +1,5 @@
 """
-Sektör Karşılaştırmalı Rasyo Analizi — Workers / Workless kod bloğu
+Sektör Karşılaştırmalı Rasyo Analizi — Gerisi Bende kod bloğu
 Krediler Tahsis › Kredi Tahsis Uzmanı
 
 Firmanın bilanço ve gelir tablosu kalemlerinden 18 rasyoyu hesaplar, sizin verdiğiniz sektör değerleriyle karşılaştırır.

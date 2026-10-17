@@ -1,5 +1,5 @@
 """
-Rakip Fiyat Karşılaştırması — Workers / Workless kod bloğu
+Rakip Fiyat Karşılaştırması — Gerisi Bende kod bloğu
 Satın Alma ve Kategori Yönetimi › Kategori Uzmanı
 Rakip fiyat taramalarını ürün eşleştirmesiyle karşılaştırıp fiyat endeksi çıkarır.
   Eşleştirme      = taramadaki ürün kodu bizim ürün koduna ya da barkoda eşitse

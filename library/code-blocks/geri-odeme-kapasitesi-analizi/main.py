@@ -1,5 +1,5 @@
 """
-Geri Ödeme Kapasitesi Analizi — Workers / Workless kod bloğu
+Geri Ödeme Kapasitesi Analizi — Gerisi Bende kod bloğu
 Bankacılık › Krediler (Tahsis) › Kredi Tahsis Uzmanı
 
 Firmanın nakit yaratma gücünü mevcut ve önerilen kredilerin borç servisiyle karşılaştırır:

@@ -1,6 +1,6 @@
 # Randevu Hatırlatma Mesajları · AI Agent
 
-> Hasta Hizmetleri › Hasta Kayıt Kabul Görevlisi · Workers / Workless
+> Hasta Hizmetleri › Hasta Kayıt Kabul Görevlisi · Gerisi Bende
 
 Ertesi günün randevularından bölüm, hekim ve **kurumun onaylı hazırlık talimatlarını** içeren hatırlatma mesajları hazırlar.
 **Hasta verisi yapay zekâ modeline gönderilmez.** Model yalnız bölüm, işlem ve dil kombinasyonları için yer tutuculu şablon yazar;

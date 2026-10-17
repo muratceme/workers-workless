@@ -1,5 +1,5 @@
 """
-Banka Mutabakatı — Workers / Workless AI Agent
+Banka Mutabakatı — Gerisi Bende AI Agent
 Finans & Muhasebe › Muhasebe Elemanı
 
 1. Eşleştirmeyi kod bloğunun deterministik motoru yapar (yapay zekâ yok).

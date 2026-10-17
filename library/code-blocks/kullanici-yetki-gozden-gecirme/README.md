@@ -1,6 +1,6 @@
 # Kullanıcı Yetki Gözden Geçirme · Kod Bloğu
 
-> Bilgi Teknolojileri › Bilgi Güvenliği Uzmanı · Workers / Workless
+> Bilgi Teknolojileri › Bilgi Güvenliği Uzmanı · Gerisi Bende
 
 Sistemlerdeki kullanıcı-yetki listelerini İK personel listesiyle karşılaştırır; buna periyodik erişim gözden
 geçirmesi denir. Bulduklarını listeler: ayrılan personelin açık kalan hesapları, sahipsiz hesaplar, kullanılmayan

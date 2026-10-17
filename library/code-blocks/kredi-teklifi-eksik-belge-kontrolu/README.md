@@ -1,6 +1,6 @@
 # Kredi Teklifi Eksik Belge Kontrolü · Kod Bloğu
 
-> Krediler Tahsis › Kredi Tahsis Uzman Yardımcısı · Workers / Workless
+> Krediler Tahsis › Kredi Tahsis Uzman Yardımcısı · Gerisi Bende
 
 Şubeden gelen kredi tekliflerini **teklif tipine, müşteri tipine, teminata ve tutara göre** zorunlu belge ve bilgi
 listesiyle karşılaştırır; eksikleri şubeye gönderilecek hazır metin olarak çıkarır. Zorunlu liste sizin kural

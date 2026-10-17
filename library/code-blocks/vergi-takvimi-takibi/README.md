@@ -1,6 +1,6 @@
 # Vergi Takvimi Takibi · Kod Bloğu
 
-> Muhasebe › Muhasebe Müdürü · Workers / Workless
+> Muhasebe › Muhasebe Müdürü · Gerisi Bende
 
 Şirketlerin beyan ve bildirim yükümlülüklerinden **yaklaşan son günleri** çıkarır; verilmiş beyanları işaretler, geciken ve
 yaklaşanları hatırlatır. Hafta sonu ve resmî tatillerde son günü izleyen iş gününe kaydırır, GİB'in süre uzatmalarını parametreyle

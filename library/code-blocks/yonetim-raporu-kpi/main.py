@@ -1,5 +1,5 @@
 """
-Yönetim Raporu (KPI) — Workers / Workless kod bloğu
+Yönetim Raporu (KPI) — Gerisi Bende kod bloğu
 Finans › Bütçe ve Raporlama Uzmanı
 
 Aylık yönetim raporunun tablo ve grafiklerini satış verisinden (ve isteğe bağlı mizandan) otomatik hazırlar:

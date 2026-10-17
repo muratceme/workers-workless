@@ -1,6 +1,6 @@
 # Vitrin Yönergesi Hazırlama · AI Agent
 
-> Görsel Düzenleme › Görsel Düzenleme Uzmanı · Workers / Workless
+> Görsel Düzenleme › Görsel Düzenleme Uzmanı · Gerisi Bende
 
 Kampanya ve ürün listesinden **mağazalara gönderilecek adım adım vitrin düzenleme yönergesi** hazırlar. Her vitrin tipi
 (büyük, küçük, köşe …) için ayrı yönerge yazılır. Manken ve podyum kapasitesi, zorunlu ürünler ve kombinler kodla

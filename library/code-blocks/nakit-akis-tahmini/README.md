@@ -1,6 +1,6 @@
 # Nakit Akış Tahmini · Kod Bloğu
 
-> Finans › Finans Uzmanı · Workers / Workless
+> Finans › Finans Uzmanı · Gerisi Bende
 
 Vadeli alacak ve borçlar, alınan/verilen çekler, kredi taksitleri ve tekrarlayan ödemelerden (maaş, kira,
 vergi, SGK) **haftalık nakit akış tahmini** (varsayılan 13 hafta) üretir. Minimum nakit eşiğinin altına düşen

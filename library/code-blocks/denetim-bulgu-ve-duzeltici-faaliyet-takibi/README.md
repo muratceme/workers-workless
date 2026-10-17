@@ -1,6 +1,6 @@
 # Denetim Bulgu ve Düzeltici Faaliyet Takibi · Kod Bloğu
 
-> Sürdürülebilirlik ve Sosyal Uygunluk › Sosyal Uygunluk Uzmanı · Workers / Workless
+> Sürdürülebilirlik ve Sosyal Uygunluk › Sosyal Uygunluk Uzmanı · Gerisi Bende
 
 BSCI, Sedex ve müşteri denetimlerinden gelen bulguları **düzeltici faaliyet planı (CAP), sorumlu ve termin** bazında
 takip eder; gecikmiş, planı eksik ve kanıtı eksik bulguları öne çıkarır. İnternete bağlanmaz.

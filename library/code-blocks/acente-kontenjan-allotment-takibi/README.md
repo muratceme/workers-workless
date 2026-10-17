@@ -1,6 +1,6 @@
 # Acente Kontenjan (Allotment) Takibi · Kod Bloğu
 
-> Rezervasyon ve Gelir Yönetimi › Rezervasyon Sorumlusu · Workers / Workless
+> Rezervasyon ve Gelir Yönetimi › Rezervasyon Sorumlusu · Gerisi Bende
 
 Tur operatörü ve acente kontratlarındaki **kontenjanı, release tarihini ve kullanımı** konaklama günü bazında izler;
 aşımları ve release'i yaklaşan boş kontenjanı listeler. İnternete bağlanmaz.

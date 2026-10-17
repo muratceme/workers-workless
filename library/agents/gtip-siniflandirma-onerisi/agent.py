@@ -1,5 +1,5 @@
 """
-GTİP Sınıflandırma Önerisi — Workers / Workless AI Agent
+GTİP Sınıflandırma Önerisi — Gerisi Bende AI Agent
 Dış Ticaret › Dış Ticaret Uzmanı
 
 1. Kod ürün listesini (ürün kodu, adı, tanımı, malzemesi, kullanım amacı) ve kullanıcının verdiği tarife tablosunu

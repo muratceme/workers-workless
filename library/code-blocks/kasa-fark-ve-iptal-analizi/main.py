@@ -1,5 +1,5 @@
 """
-Kasa Fark ve İptal Analizi — Workers / Workless kod bloğu
+Kasa Fark ve İptal Analizi — Gerisi Bende kod bloğu
 Mağaza Operasyonları › Kasa Sorumlusu
 
 Kasiyer bazında iade, iptal ve kasa farklarını dönem boyunca toplar; diğer kasiyerlerden belirgin ayrışan örüntüleri işaretler.

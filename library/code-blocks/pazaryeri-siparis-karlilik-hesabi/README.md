@@ -1,6 +1,6 @@
 # Pazaryeri Sipariş Kârlılık Hesabı · Kod Bloğu
 
-> E-ticaret › Pazaryeri Yönetimi › Pazaryeri Uzmanı · Workers / Workless
+> E-ticaret › Pazaryeri Yönetimi › Pazaryeri Uzmanı · Gerisi Bende
 
 Pazaryeri sipariş dökümünü ürün maliyet listesiyle birleştirip **sipariş satırı ve ürün bazında net kârı**
 hesaplar. Zararına satılan ürünleri ve **başabaş satış fiyatını** gösterir. Pazaryerinin size ödeyeceği tutarı

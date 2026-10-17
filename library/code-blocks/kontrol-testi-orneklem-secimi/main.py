@@ -1,5 +1,5 @@
 """
-Kontrol Testi Örneklem Seçimi — Workers / Workless kod bloğu
+Kontrol Testi Örneklem Seçimi — Gerisi Bende kod bloğu
 İç Kontrol ve Risk Yönetimi › İç Kontrol Uzmanı
 
 İşlem popülasyonundan risk ve tutar ağırlıklı, tekrarlanabilir (tohumlu) örneklem seçer.

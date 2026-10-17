@@ -1,5 +1,5 @@
 """
-Kullanıcı Yetki Gözden Geçirme — Workers / Workless kod bloğu
+Kullanıcı Yetki Gözden Geçirme — Gerisi Bende kod bloğu
 Bilgi Teknolojileri › Bilgi Güvenliği Uzmanı
 
 Sistemlerdeki kullanıcı-yetki listelerini İK personel listesiyle karşılaştırır (periyodik erişim gözden geçirmesi):

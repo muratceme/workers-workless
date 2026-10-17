@@ -1,6 +1,6 @@
 # Teklif Talebi Bilgi Kontrolü · Kod Bloğu
 
-> Teknik (Risk Kabul / Underwriting) › Teknik Uzman Yardımcısı · Workers / Workless
+> Teknik (Risk Kabul / Underwriting) › Teknik Uzman Yardımcısı · Gerisi Bende
 
 Acenteden gelen teklif taleplerini **sizin hazırladığınız zorunlu alan kurallarına** göre kontrol eder; eksik, geçersiz
 ve tutarsız bilgileri talep ve acente bazında listeler, acenteye gönderilecek eksik metnini üretir. İnternete bağlanmaz.

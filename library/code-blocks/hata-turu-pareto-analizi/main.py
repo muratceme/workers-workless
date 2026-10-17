@@ -1,5 +1,5 @@
 """
-Hata Türü Pareto Analizi — Workers / Workless kod bloğu
+Hata Türü Pareto Analizi — Gerisi Bende kod bloğu
 Kalite Kontrol › Kalite Kontrol Şefi
 
 Ara ve final kontrol hata kayıtlarını hata türü, operasyon ve hat bazında Pareto analizine tabi tutar.

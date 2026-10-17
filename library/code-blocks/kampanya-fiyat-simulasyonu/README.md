@@ -1,6 +1,6 @@
 # Kampanya Fiyat Simülasyonu · Kod Bloğu
 
-> Pazaryeri Yönetimi › Pazaryeri Uzmanı · Workers / Workless
+> Pazaryeri Yönetimi › Pazaryeri Uzmanı · Gerisi Bende
 
 Planlanan **indirim ve kupon** kurgusunun her ürünün birim kârına ve marjına etkisini hesaplar; kampanyada zarar eden
 ürünleri, **başabaş fiyatı** ve toplam kârı korumak için gereken **adet artışını** gösterir. İnternete bağlanmaz.

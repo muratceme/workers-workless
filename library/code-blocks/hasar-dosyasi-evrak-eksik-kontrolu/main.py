@@ -1,5 +1,5 @@
 """
-Hasar Dosyası Evrak Eksik Kontrolü — Workers / Workless kod bloğu
+Hasar Dosyası Evrak Eksik Kontrolü — Gerisi Bende kod bloğu
 Sigorta › Hasar Yönetimi › Hasar Uzman Yardımcısı
 
 Branş ve hasar türüne göre gerekli evrak listesini (evrak_listesi.csv; şirketinize göre düzenleyin) dosyaya gelen

@@ -1,6 +1,6 @@
 # Şüpheli İşlem Bildirim Taslağı · AI Agent
 
-> Kurumsal Uyum › Uyum Uzmanı · Workers / Workless
+> Kurumsal Uyum › Uyum Uzmanı · Gerisi Bende
 
 İşlem dökümü ve inceleme notlarından **MASAK şüpheli işlem bildirimi için olay özeti ve şüphe gerekçesi taslağı**
 hazırlar. Şüphe göstergelerini ve son bildirim tarihini **kod hesaplar**. Model yalnız bu göstergelere ve işlemlere

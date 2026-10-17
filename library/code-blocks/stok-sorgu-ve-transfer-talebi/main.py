@@ -1,5 +1,5 @@
 """
-Stok Sorgu ve Transfer Talebi — Workers / Workless kod bloğu
+Stok Sorgu ve Transfer Talebi — Gerisi Bende kod bloğu
 Mağaza Operasyonları › Satış Danışmanı
 Mağazada olmayan ürün / renk / bedenin diğer mağaza stoklarını listeler ve transfer talebi formatına çevirir.
   Verilebilir adet = stok − rezerve − kaynak mağazada bırakılacak adet (--birak, varsayılan 1; son ürünü vitrinden çekmemek için)

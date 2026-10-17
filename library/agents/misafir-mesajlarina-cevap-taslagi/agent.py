@@ -1,5 +1,5 @@
 """
-Misafir Mesajlarına Cevap Taslağı — Workers / Workless AI Agent
+Misafir Mesajlarına Cevap Taslağı — Gerisi Bende AI Agent
 Ön Büro › Resepsiyonist
 
 1. Kod otel bilgi dosyasını numaralı bilgilere (B1, B2 …) ayırır. Misafir adı ve rezervasyon numarası modele

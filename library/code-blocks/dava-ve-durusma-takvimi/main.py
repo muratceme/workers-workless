@@ -1,5 +1,5 @@
 """
-Dava ve Duruşma Takvimi — Workers / Workless kod bloğu
+Dava ve Duruşma Takvimi — Gerisi Bende kod bloğu
 Hukuk › Avukat
 
 Dava listesinden duruşma takvimi, usul süreleri listesi ve hatırlatmalar çıkarır:
@@ -519,7 +519,7 @@ def _ics_katla(satir: str) -> list[str]:
 
 def ics_yaz(yol: Path, s: dict, sure_dk: int = 60, alarm=(7, 1)) -> None:
     damga = s["bugun"].strftime("%Y%m%dT000000Z")
-    satirlar = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Workers Workless//Dava ve Durusma Takvimi//TR", "CALSCALE:GREGORIAN"]
+    satirlar = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Gerisi Bende//Dava ve Durusma Takvimi//TR", "CALSCALE:GREGORIAN"]
     for o in s["olaylar"]:
         uid = hashlib.sha1(f"{o['tur']}|{o['dosya']}|{o['tarih']}|{o['aciklama']}".encode()).hexdigest()[:20] + "@workers-workless"
         satirlar += ["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{damga}"]

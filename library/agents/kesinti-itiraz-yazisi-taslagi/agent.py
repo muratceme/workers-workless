@@ -1,5 +1,5 @@
 """
-Kesinti İtiraz Yazısı Taslağı — Workers / Workless AI Agent
+Kesinti İtiraz Yazısı Taslağı — Gerisi Bende AI Agent
 Sağlık › Anlaşmalı Kurumlar Uzmanı (SGK Faturalama Uzmanı da kullanır)
 
 Hastane faturalarına sigorta şirketi / kurum tarafından yapılan kesintiler için, kurumun kendi belgelerine ve anlaşma /

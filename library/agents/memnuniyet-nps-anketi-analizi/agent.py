@@ -1,5 +1,5 @@
 """
-Memnuniyet (NPS) Anketi Analizi — Workers / Workless AI Agent
+Memnuniyet (NPS) Anketi Analizi — Gerisi Bende AI Agent
 Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Deneyimi Uzmanı
 
 1. Kod puanları analiz eder:

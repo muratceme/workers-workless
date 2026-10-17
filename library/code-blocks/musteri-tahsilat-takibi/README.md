@@ -1,6 +1,6 @@
 # Müşteri Tahsilat Takibi · Kod Bloğu
 
-> Teknik ve Operasyon › Acente Yöneticisi · Workers / Workless
+> Teknik ve Operasyon › Acente Yöneticisi · Gerisi Bende
 
 Müşterilerden tahsil edilecek prim taksitlerini **vadeye göre**, sigorta şirketine **aktarılacak tutarlarla
 birlikte** izler: kimden ne alacağınızı, hangi şirkete ne zaman ne ödeyeceğinizi ve ikisi arasındaki açığı gösterir.

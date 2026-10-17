@@ -1,5 +1,5 @@
 """
-Kritik Stok Seviyesi Raporu — Workers / Workless kod bloğu
+Kritik Stok Seviyesi Raporu — Gerisi Bende kod bloğu
 Eczane ve Tıbbi Malzeme › Hastane Eczacısı
 Günlük tüketim ve tedarik süresine göre kritik stok seviyesinin altına düşen ilaç ve malzemeleri listeler.
   Günlük tüketim     = Günlük Tüketim sütunu · ya da Aylık Tüketim ÷ 30 · ya da --tuketim dosyasındaki dönem tüketimi ÷ --gun

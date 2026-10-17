@@ -1,5 +1,5 @@
 """
-Personel Devir Oranı Analizi — Workers / Workless kod bloğu
+Personel Devir Oranı Analizi — Gerisi Bende kod bloğu
 İnsan Kaynakları › İnsan Kaynakları Müdürü
 
 Giriş-çıkış verisinden personel devir (turnover) oranlarını ve erken ayrılma sinyallerini çıkarır:

@@ -1,6 +1,6 @@
 # Pazaryeri Reklam (Sponsorlu Ürün) Analizi · Kod Bloğu
 
-> Performans Pazarlama › Performans Pazarlama Uzmanı · Workers / Workless
+> Performans Pazarlama › Performans Pazarlama Uzmanı · Gerisi Bende
 
 Pazaryeri reklam raporlarından **ürün bazında reklam maliyeti/satış oranını (ACOS)** hesaplar ve kârsız reklamları
 işaretler. İnternete bağlanmaz; reklam panelinden indirdiğiniz raporla çalışır.

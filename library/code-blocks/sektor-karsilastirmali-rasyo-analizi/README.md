@@ -1,6 +1,6 @@
 # Sektör Karşılaştırmalı Rasyo Analizi · Kod Bloğu
 
-> Krediler Tahsis › Kredi Tahsis Uzmanı · Workers / Workless
+> Krediler Tahsis › Kredi Tahsis Uzmanı · Gerisi Bende
 
 Firmanın bilanço ve gelir tablosu kalemlerinden **18 rasyoyu** hesaplar, sizin girdiğiniz **sektör değerleriyle**
 karşılaştırır ve sapmaları hazır kalıp cümlelerle listeler. İnternete bağlanmaz; sektör verisi indirmez.

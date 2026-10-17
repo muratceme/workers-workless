@@ -1,5 +1,5 @@
 """
-Amortisman Hesaplama — Workers / Workless kod bloğu
+Amortisman Hesaplama — Gerisi Bende kod bloğu
 Muhasebe › Genel Muhasebe Uzmanı
 
 Demirbaş listesinden faydalı ömür ve yönteme göre seçilen yılın amortismanını, birikmiş amortismanı ve net defter değerini hesaplar.

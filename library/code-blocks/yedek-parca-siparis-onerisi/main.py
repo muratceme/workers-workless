@@ -1,5 +1,5 @@
 """
-Yedek Parça Sipariş Önerisi — Workers / Workless kod bloğu
+Yedek Parça Sipariş Önerisi — Gerisi Bende kod bloğu
 Yedek Parça › Yedek Parça Danışmanı
 
 Parça bazında tüketim, bekleyen iş emirleri ve tedarik süresine göre stok siparişi önerir.

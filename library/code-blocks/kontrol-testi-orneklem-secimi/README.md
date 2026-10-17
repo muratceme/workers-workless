@@ -1,6 +1,6 @@
 # Kontrol Testi Örneklem Seçimi · Kod Bloğu
 
-> İç Kontrol ve Risk Yönetimi › İç Kontrol Uzmanı · Workers / Workless
+> İç Kontrol ve Risk Yönetimi › İç Kontrol Uzmanı · Gerisi Bende
 
 İşlem popülasyonundan kontrol testi için **tekrarlanabilir örneklem** seçer: aynı dosya ve aynı tohumla her
 çalıştırmada aynı kalemler çıkar, böylece seçimi çalışma kâğıdında belgeleyebilir ve başkası yeniden üretebilir.

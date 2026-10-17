@@ -1,6 +1,6 @@
 # Numune Ölçü Kontrolü · Kod Bloğu
 
-> Modelhane › Modelist · Workers / Workless
+> Modelhane › Modelist · Gerisi Bende
 
 Numune ölçümlerini **ölçü tablosu ve toleranslarla** karşılaştırır; tolerans dışı ölçü noktalarını, sapmanın yönünü
 ve gereken düzeltme miktarını raporlar. İnternete bağlanmaz.

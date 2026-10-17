@@ -1,6 +1,6 @@
 # Fiyat Değişikliği Etiket Listesi · Kod Bloğu
 
-> Mağaza Operasyonları › Mağaza Müdür Yardımcısı · Workers / Workless
+> Mağaza Operasyonları › Mağaza Müdür Yardımcısı · Gerisi Bende
 
 Merkezden gelen fiyat değişikliklerini **reyon → raf → sıra** düzeninde, mağazada yürüyerek değiştirilebilecek bir **etiket değişim
 listesine** çevirir. İndirimli ürünlerde etikette gösterilecek **önceki fiyatı** (son 30 günün en düşük fiyatı) hesaplar ve indirim

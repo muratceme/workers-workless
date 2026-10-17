@@ -1,5 +1,5 @@
 """
-Denetim Raporu Bulgu Aktarımı — Workers / Workless AI Agent
+Denetim Raporu Bulgu Aktarımı — Gerisi Bende AI Agent
 Tekstil Uygunluk › Sosyal Uygunluk Uzmanı (Sürdürülebilirlik Uzmanı da kullanır)
 
 Sosyal uygunluk / çevre / müşteri denetim raporundaki bulguları düzeltici faaliyet takip tablosuna aktarır.

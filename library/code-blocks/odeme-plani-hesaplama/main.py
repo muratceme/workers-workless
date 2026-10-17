@@ -1,5 +1,5 @@
 """
-Ödeme Planı Hesaplama — Workers / Workless kod bloğu
+Ödeme Planı Hesaplama — Gerisi Bende kod bloğu
 Bankacılık Operasyonları › Kredi Operasyon Uzmanı
 
 Kredi tutarı, faiz, vade ve ödeme tipine (eşit taksit, eşit anapara, balonlu) göre BSMV ve KKDF dahil ödeme planı çıkarır.

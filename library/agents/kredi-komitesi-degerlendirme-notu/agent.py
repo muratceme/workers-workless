@@ -1,5 +1,5 @@
 """
-Kredi Komitesi Değerlendirme Notu — Workers / Workless AI Agent
+Kredi Komitesi Değerlendirme Notu — Gerisi Bende AI Agent
 Bankacılık › Krediler Tahsis › Kredi Tahsis Uzmanı
 
 1. Teklif klasöründeki dosyalar okunur: teklif bilgisi (.txt: Firma, VKN, Sektör, Risk Grubu, Grup Riski, Talep

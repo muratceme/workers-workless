@@ -1,6 +1,6 @@
 # Teslimat Performansı (OTIF) Raporu · Kod Bloğu
 
-> Lojistik ve Depo › Lojistik Uzmanı · Workers / Workless
+> Lojistik ve Depo › Lojistik Uzmanı · Gerisi Bende
 
 Siparişlerin **zamanında ve eksiksiz** (OTIF: On Time In Full) teslim oranını hesaplar; müşteri, taşıyıcı ve ay
 bazında döker. Geç mi, eksik mi, ikisi birden mi olduğunu sipariş sipariş gösterir. İnternete bağlanmaz.

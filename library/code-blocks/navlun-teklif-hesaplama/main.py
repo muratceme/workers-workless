@@ -1,5 +1,5 @@
 """
-Navlun Teklif Hesaplama — Workers / Workless kod bloğu
+Navlun Teklif Hesaplama — Gerisi Bende kod bloğu
 Deniz ve Hava Yolu Operasyon › Denizyolu Operasyon Uzmanı
 
 Ölçü ve ağırlıktan hava kargoda ücrete esas ağırlığı (1:6000), denizyolunda W/M'yi hesaplayıp navlun ve ek masraflarla teklif oluşturur.

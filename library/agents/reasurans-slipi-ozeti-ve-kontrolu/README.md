@@ -1,6 +1,6 @@
 # Reasürans Slipi Özeti ve Kontrolü · AI Agent
 
-> Reasürans › Reasürans Uzmanı · Workers / Workless
+> Reasürans › Reasürans Uzmanı · Gerisi Bende
 
 Reasürans slipinden ya da anlaşma metninden (Türkçe / İngilizce) **ana şartları özet tabloya** çıkarır. Ardından:
 - beklenen (onaylanan) şartlarla karşılaştırır,

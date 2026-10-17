@@ -1,5 +1,5 @@
 """
-Müşteri Evrak (KYC) Eksik Kontrolü — Workers / Workless kod bloğu
+Müşteri Evrak (KYC) Eksik Kontrolü — Gerisi Bende kod bloğu
 Şube Bankacılığı › Operasyon Yetkilisi
 
 Müşteri dosyalarını müşteri tipine ve kullandığı ürünlere göre zorunlu belge listesiyle karşılaştırır; eksik, süresi

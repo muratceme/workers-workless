@@ -1,5 +1,5 @@
 """
-Malzeme İhtiyaç Planlaması (MRP) — Workers / Workless kod bloğu
+Malzeme İhtiyaç Planlaması (MRP) — Gerisi Bende kod bloğu
 Üretim › Üretim Planlama › Üretim Planlama Uzmanı
 
 Ana üretim planından (MPS) ve çok seviyeli ürün ağacından (BOM) her malzeme için dönem bazında standart MRP

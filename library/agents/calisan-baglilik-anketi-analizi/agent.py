@@ -1,5 +1,5 @@
 """
-Çalışan Bağlılık Anketi Analizi — Workers / Workless AI Agent
+Çalışan Bağlılık Anketi Analizi — Gerisi Bende AI Agent
 İnsan Kaynakları › İnsan Kaynakları Müdürü
 
 1. Kod anket puanlarını analiz eder:

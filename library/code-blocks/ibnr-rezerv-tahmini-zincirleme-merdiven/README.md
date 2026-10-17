@@ -1,6 +1,6 @@
 # IBNR Rezerv Tahmini (Zincirleme Merdiven) · Kod Bloğu
 
-> Sigortacılık › Aktüerya › Aktüerya Uzmanı · Workers / Workless
+> Sigortacılık › Aktüerya › Aktüerya Uzmanı · Gerisi Bende
 
 Hasar gelişim üçgeninden **zincirleme merdiven** (chain ladder) yöntemiyle nihai hasarı ve gerçekleşmiş ancak
 rapor edilmemiş (IBNR) / henüz ödenmemiş hasar karşılığını hesaplar. **Mack (1993)** dağılımdan bağımsız

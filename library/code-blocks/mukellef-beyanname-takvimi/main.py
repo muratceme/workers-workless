@@ -1,5 +1,5 @@
 """
-Mükellef Beyanname Takvimi — Workers / Workless kod bloğu
+Mükellef Beyanname Takvimi — Gerisi Bende kod bloğu
 Beyanname ve Vergi › Serbest Muhasebeci Mali Müşavir (SMMM)
 
 Mükelleflerin yükümlülüklerinden seçilen ayın beyanname ve ödeme takvimini çıkarır; verilen ve bekleyenleri izler.

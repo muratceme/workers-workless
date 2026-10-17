@@ -1,6 +1,6 @@
 # Beton Numune ve Kırım Takibi · Kod Bloğu
 
-> Şantiye › Saha Mühendisi · Workers / Workless
+> Şantiye › Saha Mühendisi · Gerisi Bende
 
 Beton dökümlerinin **7 ve 28 günlük numune kırım sonuçlarını** toplar; her 28 günlük sonucu ve ardışık sonuç gruplarını
 **sınıf dayanımına göre** değerlendirir, sonucu gelmemiş dökümleri ve numuneler arası büyük farkları işaretler.

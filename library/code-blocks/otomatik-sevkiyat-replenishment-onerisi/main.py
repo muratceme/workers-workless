@@ -1,5 +1,5 @@
 """
-Otomatik Sevkiyat (Replenishment) Önerisi — Workers / Workless kod bloğu
+Otomatik Sevkiyat (Replenishment) Önerisi — Gerisi Bende kod bloğu
 Perakende › Ürün Planlama ve Alokasyon › Alokasyon Uzmanı
 
 Mağaza satış hızı, mağaza stoğu ve hedef stok gününe göre depodan sevk edilecek miktarları hesaplar:

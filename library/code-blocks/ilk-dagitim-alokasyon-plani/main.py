@@ -1,5 +1,5 @@
 """
-İlk Dağıtım (Alokasyon) Planı — Workers / Workless kod bloğu
+İlk Dağıtım (Alokasyon) Planı — Gerisi Bende kod bloğu
 Perakende › Ürün Planlama ve Alokasyon › Alokasyon Uzmanı
 
 Yeni sezon ürünlerinin depo stoğunu mağazalara dağıtır:

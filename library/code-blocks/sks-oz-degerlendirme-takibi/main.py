@@ -1,5 +1,5 @@
 """
-SKS Öz Değerlendirme Takibi — Workers / Workless kod bloğu
+SKS Öz Değerlendirme Takibi — Gerisi Bende kod bloğu
 Kalite Yönetimi › Kalite Birim Sorumlusu
 SKS standartlarına göre öz değerlendirme puanlarını ve eksik dokümanları birim ve bölüm bazında takip eder.
   Kazanılan puan   = Karşılıyor: standart puanı · Kısmen: puan × --kismen (%50) · Karşılamıyor: 0 · Değerlendirme dışı: hesaba girmez

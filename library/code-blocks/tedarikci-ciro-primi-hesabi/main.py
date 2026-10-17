@@ -1,5 +1,5 @@
 """
-Tedarikçi Ciro Primi Hesabı — Workers / Workless kod bloğu
+Tedarikçi Ciro Primi Hesabı — Gerisi Bende kod bloğu
 Satın Alma ve Kategori Yönetimi › Kategori Yöneticisi
 Tedarikçi anlaşmalarındaki ciro primi kademelerine göre dönemde hak edilen primleri hesaplar.
   Net ciro            = dönemdeki alımlar − iadeler (KDV hariç; anlaşmadaki ciro tanımına göre siz hazırlarsınız)

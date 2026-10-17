@@ -1,6 +1,6 @@
 # Tahsis Süreç Performans Raporu · Kod Bloğu
 
-> Krediler Tahsis › Kredi Tahsis Müdürü · Workers / Workless
+> Krediler Tahsis › Kredi Tahsis Müdürü · Gerisi Bende
 
 Kredi tekliflerinin **ne kadar sürede sonuçlandığını, onay / ret / iade oranlarını ve iade nedenlerini** şube,
 segment ve analist bazında raporlar; süre hedefini aşmış bekleyen teklifleri listeler. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Kumaş Kontrol (4 Puan Sistemi) Raporu — Workers / Workless kod bloğu
+Kumaş Kontrol (4 Puan Sistemi) Raporu — Gerisi Bende kod bloğu
 Tekstil › Kalite Kontrol
 
 Top bazında kumaş hata kayıtlarından 4 puan sistemine (ASTM D5430'da tanımlanan yaygın uygulama) göre puan

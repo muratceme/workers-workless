@@ -1,5 +1,5 @@
 """
-Sevkiyat Araç Planlama — Workers / Workless kod bloğu
+Sevkiyat Araç Planlama — Gerisi Bende kod bloğu
 Lojistik ve Depo › Lojistik Uzmanı
 
 Siparişleri teslim tarihi ve bölgeye göre gruplar; palet, ağırlık ve hacim kapasitelerine göre araçlara yerleştirir,

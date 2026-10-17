@@ -1,5 +1,5 @@
 """
-Medula Ret ve Kesinti Analizi — Workers / Workless kod bloğu
+Medula Ret ve Kesinti Analizi — Gerisi Bende kod bloğu
 Anlaşmalı Kurumlar ve Faturalama › SGK Faturalama Uzmanı
 
 Medula ret/kesinti kayıtlarını hata kodu, branş ve işlem bazında analiz edip tekrarlayan hataları raporlar.

@@ -1,6 +1,6 @@
 # Üretim Performans Panosu · Kod Bloğu
 
-> Üretim › Üretim Müdürü · Workers / Workless
+> Üretim › Üretim Müdürü · Gerisi Bende
 
 Günlük üretim kayıtlarından **OEE, plan uyumu, fire ve iş kazası** göstergelerini hat ve hafta bazında tek panoda
 toplar; hedefin dışında kalan hücreleri renklendirir. İnternete bağlanmaz.

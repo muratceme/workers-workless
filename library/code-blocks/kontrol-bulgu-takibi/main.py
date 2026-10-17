@@ -1,5 +1,5 @@
 """
-Kontrol Bulgu Takibi — Workers / Workless kod bloğu
+Kontrol Bulgu Takibi — Gerisi Bende kod bloğu
 İç Kontrol ve Risk Yönetimi › İç Kontrol Uzmanı
 
 İç kontrol bulgularını sorumlu birim, aksiyon ve kapanış tarihine göre izler; gecikenleri raporlar.

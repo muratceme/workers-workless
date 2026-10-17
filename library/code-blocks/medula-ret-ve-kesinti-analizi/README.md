@@ -1,6 +1,6 @@
 # Medula Ret ve Kesinti Analizi · Kod Bloğu
 
-> Anlaşmalı Kurumlar ve Faturalama › SGK Faturalama Uzmanı · Workers / Workless
+> Anlaşmalı Kurumlar ve Faturalama › SGK Faturalama Uzmanı · Gerisi Bende
 
 Medula ret/kesinti kayıtlarını **hata kodu, branş ve işlem bazında** analiz eder ve **tekrarlayan hataları** raporlar.
 Medula'ya bağlanmaz; sizin dışa aktardığınız listeyi sayar. Hasta bilgisi gerekmez.

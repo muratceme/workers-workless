@@ -1,6 +1,6 @@
 # Hakediş Hesaplama · Kod Bloğu
 
-> İnşaat › Teknik Ofis › Teknik Ofis Mühendisi · Workers / Workless
+> İnşaat › Teknik Ofis › Teknik Ofis Mühendisi · Gerisi Bende
 
 Birim fiyatlı sözleşmenin **poz listesi** ve dönem **metrajlarından** hakediş icmalini hazırlar:
 kümülatif metraj özeti, *toplam − önceki = bu hakediş* tablosu, KDV, KDV tevkifatı, stopaj, teminat ve

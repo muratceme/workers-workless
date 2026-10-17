@@ -1,6 +1,6 @@
 # Araç Satış Teklifi Hesaplama · Kod Bloğu
 
-> Satış › Satış Danışmanı · Workers / Workless
+> Satış › Satış Danışmanı · Gerisi Bende
 
 Liste fiyatı, kampanya, takas, peşinat, kredi ve sigorta kalemlerinden müşteriye sunulacak **aylık taksiti, ilk gün
 ödenecek tutarı ve toplam maliyeti** hesaplar. İnternete bağlanmaz.

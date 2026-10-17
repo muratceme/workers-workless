@@ -1,5 +1,5 @@
 """
-Sefer Kârlılık Hesabı — Workers / Workless kod bloğu
+Sefer Kârlılık Hesabı — Gerisi Bende kod bloğu
 Karayolu Operasyon › Karayolu Operasyon Uzmanı
 
 Navlun geliri, alt nakliyeci bedeli, otoyol, gümrük ve diğer masraflardan sefer bazında kârlılığı hesaplar.

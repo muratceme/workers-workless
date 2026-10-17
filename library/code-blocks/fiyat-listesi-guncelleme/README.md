@@ -1,6 +1,6 @@
 # Fiyat Listesi Güncelleme · Kod Bloğu
 
-> Satış › Satış Destek Uzmanı · Workers / Workless
+> Satış › Satış Destek Uzmanı · Gerisi Bende
 
 Maliyeti değişen ürünler için **yeni fiyatı sizin kurallarınıza göre** hesaplar: hedef marj, yuvarlama basamağı,
 artış tavanı, asgari fiyat. Yeni fiyat listesini ve her ürün için "neden bu fiyat" açıklamasını verir. İnternete

@@ -1,5 +1,5 @@
 """
-Yıllık İzin Hakedişi Hesaplama — Workers / Workless kod bloğu
+Yıllık İzin Hakedişi Hesaplama — Gerisi Bende kod bloğu
 İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı
 
 4857 sayılı İş Kanunu md. 53 kurallarıyla her çalışanın yıllık ücretli izin hakkını hizmet yılı

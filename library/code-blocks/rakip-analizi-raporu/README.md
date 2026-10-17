@@ -1,6 +1,6 @@
 # Rakip Analizi Raporu · Kod Bloğu
 
-> Pazarlama › Pazarlama Uzmanı · Workers / Workless
+> Pazarlama › Pazarlama Uzmanı · Gerisi Bende
 
 Rakip fiyat gözlemlerini, kampanyalarını ve ürün özelliklerini ürünlerimizle karşılaştıran bir rapor hazırlar.
 Fiyatlar **birim fiyat endeksiyle** karşılaştırıldığı için farklı ambalaj boyları (ör. 2,5 L ve 3 L) doğru

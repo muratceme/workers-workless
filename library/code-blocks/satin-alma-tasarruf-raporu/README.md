@@ -1,6 +1,6 @@
 # Satın Alma Tasarruf Raporu · Kod Bloğu
 
-> Satın Alma › Satın Alma Müdürü · Workers / Workless
+> Satın Alma › Satın Alma Müdürü · Gerisi Bende
 
 Gerçekleşen alımları bütçe fiyatıyla karşılaştırır ve satın almanın sağladığı tasarrufu **kategori, tasarruf türü,
 satın almacı ve ay bazında** raporlar. Aşımları tasarruftan ayrı gösterir; böylece iyi sonuç kötüyü gizlemez.

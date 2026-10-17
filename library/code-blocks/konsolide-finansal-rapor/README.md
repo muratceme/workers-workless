@@ -1,6 +1,6 @@
 # Konsolide Finansal Rapor · Kod Bloğu
 
-> Finans › Finans Müdürü · Workers / Workless
+> Finans › Finans Müdürü · Gerisi Bende
 
 Grup şirketlerinin Tekdüzen mizanlarını birleştirir, grup içi bakiye ve işlemleri eler ve **konsolide bilanço ile
 gelir tablosu** üretir (tam konsolidasyon). Bilanço ve gelir tablosunda şirketler ve konsolide tutarlar yan yana

@@ -1,6 +1,6 @@
 # Satış Hedef-Gerçekleşme Raporu · Kod Bloğu
 
-> Satış › Satış Destek Uzmanı · Workers / Workless
+> Satış › Satış Destek Uzmanı · Gerisi Bende
 
 Satış hareketlerini aylık hedeflerle karşılaştırır. Temsilci, bölge ve ürün grubu bazında hedef-gerçekleşme,
 **geçen yıl aynı dönem** ve **yıl başından bugüne** raporu üretir. Ay içinde çalıştırılırsa ay sonu tahmini ve

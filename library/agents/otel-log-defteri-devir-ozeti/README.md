@@ -1,6 +1,6 @@
 # Otel Log Defteri Devir Özeti · AI Agent
 
-> Otel Ön Büro › Night Auditor · Workers / Workless
+> Otel Ön Büro › Night Auditor · Gerisi Bende
 
 Gece ya da vardiya log defteri kayıtlarını gelen vardiyanın ve departman sorumlularının 2 dakikada okuyacağı **devir
 notuna** çevirir. Not şunları içerir:

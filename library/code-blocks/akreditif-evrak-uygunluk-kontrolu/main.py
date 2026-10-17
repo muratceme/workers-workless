@@ -1,5 +1,5 @@
 """
-Akreditif Evrak Uygunluk Kontrolü — Workers / Workless kod bloğu
+Akreditif Evrak Uygunluk Kontrolü — Gerisi Bende kod bloğu
 Dış Ticaret › Dış Ticaret Uzmanı
 
 Akreditif şartlarını ibraz edilecek evrakların bilgileriyle karşılaştırır ve olası rezervleri (uyumsuzlukları) ibrazdan

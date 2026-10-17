@@ -1,5 +1,5 @@
 """
-Kanal Maliyet Analizi — Workers / Workless kod bloğu
+Kanal Maliyet Analizi — Gerisi Bende kod bloğu
 Rezervasyon ve Gelir Yönetimi › Gelir Müdürü (Revenue Manager)
 OTA, acente ve direkt kanallardan gelen oda gelirini kanal maliyetleri düşüldükten sonra karşılaştırır.
   Komisyon        = tutar × komisyon % (satırda Komisyon % yazılıysa o, yoksa kanal tanımındaki oran)

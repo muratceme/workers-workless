@@ -1,6 +1,6 @@
 # Besin Değeri Hesaplama · Kod Bloğu
 
-> Kalite Güvence ve Gıda Güvenliği › Gıda Mühendisi · Workers / Workless
+> Kalite Güvence ve Gıda Güvenliği › Gıda Mühendisi · Gerisi Bende
 
 Reçetedeki bileşenlerin miktarlarını ve besin değeri tablosunu kullanarak son ürünün **100 g ve porsiyon başına**
 enerji, yağ, doymuş yağ, karbonhidrat, şekerler, lif, protein ve tuz değerlerini, porsiyonda **referans alım

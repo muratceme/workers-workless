@@ -1,5 +1,5 @@
 """
-Bakım Maliyet ve Performans Raporu — Workers / Workless kod bloğu
+Bakım Maliyet ve Performans Raporu — Gerisi Bende kod bloğu
 Bakım Onarım › Bakım Müdürü
 
 Bakım iş emirlerinden işçilik, malzeme ve dış hizmet maliyetlerini planlı / plansız ayrımıyla raporlar.

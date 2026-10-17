@@ -1,5 +1,5 @@
 """
-SGK Teşvik Uygunluk Ön Kontrolü — Workers / Workless kod bloğu
+SGK Teşvik Uygunluk Ön Kontrolü — Gerisi Bende kod bloğu
 Bordro ve SGK İşlemleri › Bordro Elemanı
 Çalışan ve işyeri bilgilerine göre yaygın SGK prim teşviklerinin uygunluk koşullarını ön kontrolden geçirir.
 Tarih ve oranlar tesvik_parametreleri.json dosyasındadır; mevzuat değiştiğinde dosya güncellenir.

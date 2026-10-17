@@ -1,6 +1,6 @@
 # BT Maliyet Raporu · Kod Bloğu
 
-> Bilgi Teknolojileri › BT Müdürü · Workers / Workless
+> Bilgi Teknolojileri › BT Müdürü · Gerisi Bende
 
 Lisans, bulut, donanım, hizmet ve iletişim harcamalarını birim, kategori ve tedarikçi bazında raporlar. Bütçe
 sapmasını, atıl lisansları, mükerrer abonelikleri ve yaklaşan yenilemeleri işaretler. İnternete bağlanmaz.

@@ -1,6 +1,6 @@
 # Veli Bilgilendirme Mesajları · AI Agent
 
-> Kayıt Kabul ve Öğrenci İşleri › Öğrenci İşleri Sorumlusu · Workers / Workless
+> Kayıt Kabul ve Öğrenci İşleri › Öğrenci İşleri Sorumlusu · Gerisi Bende
 
 Duyuru, devamsızlık ve eksik ödev bilgilerinden **kişiselleştirilmiş veli mesajları** hazırlar. **Öğrenci ve veli bilgisi
 yapay zekâ modeline gönderilmez.** Model yalnız mesaj türü ve duyuru metni için yer tutuculu şablon yazar; adları, sınıfı ve

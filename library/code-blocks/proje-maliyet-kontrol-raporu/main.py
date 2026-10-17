@@ -1,5 +1,5 @@
 """
-Proje Maliyet Kontrol Raporu — Workers / Workless kod bloğu
+Proje Maliyet Kontrol Raporu — Gerisi Bende kod bloğu
 Teknik Ofis › Teknik Ofis Şefi
 
 Bütçe, gerçekleşen maliyet ve hakediş gelirlerinden iş kalemi bazında maliyet sapması ve tamamlanma tahmini üretir.

@@ -1,6 +1,6 @@
 # Akreditif Evrak Uygunluk Kontrolü · Kod Bloğu
 
-> Dış Ticaret › Dış Ticaret Uzmanı · Workers / Workless
+> Dış Ticaret › Dış Ticaret Uzmanı · Gerisi Bende
 
 Akreditif şartlarını, ibraz edeceğiniz evraklardaki bilgilerle karşılaştırır ve **olası rezervleri ibrazdan önce**
 listeler. Kontroller UCP 600 maddelerine dayanır; her bulguda ilgili madde yazar. İnternete bağlanmaz.

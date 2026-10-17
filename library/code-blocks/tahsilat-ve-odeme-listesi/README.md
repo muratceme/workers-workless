@@ -1,6 +1,6 @@
 # Tahsilat ve Ödeme Listesi · Kod Bloğu
 
-> Muhasebe › Ön Muhasebe Elemanı · Workers / Workless
+> Muhasebe › Ön Muhasebe Elemanı · Gerisi Bende
 
 Açık alacak ve borç kalemlerinden **haftalık tahsilat ve ödeme listesini** ve günlük nakit etkisini çıkarır.
 İnternete bağlanmaz.

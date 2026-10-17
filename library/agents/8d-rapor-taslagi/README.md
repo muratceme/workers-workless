@@ -1,6 +1,6 @@
 # 8D Rapor Taslağı · AI Agent
 
-> Üretim › Kalite · Workers / Workless
+> Üretim › Kalite · Gerisi Bende
 
 Müşteri şikâyeti veya uygunsuzluk kaydından **8D raporunun D1–D8 adımlarını içeren taslağı** hazırlar.
 Muayene verisi varsa önce **kodla analiz eder**: lot bazında PPM, etkilenen lotlar, makine/kalıp kırılımı, hata

@@ -1,6 +1,6 @@
 # Banka Limit ve Risk Raporu · Kod Bloğu
 
-> Finans › Finans Uzmanı · Workers / Workless
+> Finans › Finans Uzmanı · Gerisi Bende
 
 Bankalardaki kredi limitlerinizi, kullanımları, teminatları ve faiz oranlarını **tek tabloda** toplar: hangi
 bankada ne kadar boş limit var, hangi limit dolmak üzere veya süresi bitiyor, risk hangi bankada yoğunlaşmış,

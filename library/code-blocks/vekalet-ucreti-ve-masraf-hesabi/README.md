@@ -1,6 +1,6 @@
 # Vekâlet Ücreti ve Masraf Hesabı · Kod Bloğu
 
-> Dava Takip › Hukuk Sekreteri · Workers / Workless
+> Dava Takip › Hukuk Sekreteri · Gerisi Bende
 
 Avukatlık Asgari Ücret Tarifesi'nin (AAÜT) **nispi dilimleriyle** dava dosyaları için karşı tarafa yüklenecek vekâlet ücretini
 hesaplar: kabul edilen kısım için davacı, reddedilen kısım için davalı lehine. Yargılama giderlerini **haklılık oranına** göre

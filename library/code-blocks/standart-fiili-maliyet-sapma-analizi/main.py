@@ -1,5 +1,5 @@
 """
-Standart-Fiili Maliyet Sapma Analizi — Workers / Workless kod bloğu
+Standart-Fiili Maliyet Sapma Analizi — Gerisi Bende kod bloğu
 Muhasebe › Maliyet Muhasebesi Uzmanı
 
 Standart maliyet ile fiili maliyet arasındaki farkı klasik sapma bileşenlerine ayırır (+ aleyhte, − lehte):

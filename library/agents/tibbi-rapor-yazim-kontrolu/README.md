@@ -1,6 +1,6 @@
 # Tıbbi Rapor Yazım Kontrolü · AI Agent
 
-> Tıbbi Sekreterlik › Tıbbi Sekreter · Workers / Workless
+> Tıbbi Sekreterlik › Tıbbi Sekreter · Gerisi Bende
 
 Hekimin dikte ettiği rapor metnini **yazım, tıbbi terim, taraf, birim ve kısaltma** açısından kontrol eder.
 **Hasta kaydıyla tutarlılığı (yaş, cinsiyet, tarihler, TC kimlik no, protokol no, sağ / sol) kod denetler.** Model metni

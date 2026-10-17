@@ -1,6 +1,6 @@
 # Araç Filosu Takibi · Kod Bloğu
 
-> İdari İşler › İdari İşler Sorumlusu · Workers / Workless
+> İdari İşler › İdari İşler Sorumlusu · Gerisi Bende
 
 Şirket araçlarının **muayene, trafik sigortası, kasko, periyodik bakım ve lastik** durumunu tek tabloda izler;
 süresi geçmiş ve yaklaşan işleri tarih sırasıyla listeler. Muayenesi ya da sigortası bitmiş aracın yola çıkmasını

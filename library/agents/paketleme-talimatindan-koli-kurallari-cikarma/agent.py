@@ -1,5 +1,5 @@
 """
-Paketleme Talimatından Koli Kuralları Çıkarma — Workers / Workless AI Agent
+Paketleme Talimatından Koli Kuralları Çıkarma — Gerisi Bende AI Agent
 Tekstil › Sevkiyat Sorumlusu
 
 Müşterinin paketleme talimatından koli listesi parametrelerini (solid / asorti, asorti oranı, koli içi adet, koli

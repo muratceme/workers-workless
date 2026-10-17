@@ -1,6 +1,6 @@
 # Günlük Giriş-Çıkış Listesi · Kod Bloğu
 
-> Ön Büro › Resepsiyonist · Workers / Workless
+> Ön Büro › Resepsiyonist · Gerisi Bende
 
 Rezervasyon listesinden seçilen günün **gelecek (arrival), ayrılacak (departure) ve konaklamaya devam eden** misafirlerini
 oda tipi, kişi sayısı, özel istek ve ödeme durumuyla listeler. Oda çakışmasını, oda atanmamış gelişleri ve çıkışta tahsil

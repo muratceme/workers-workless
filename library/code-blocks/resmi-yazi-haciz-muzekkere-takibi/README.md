@@ -1,6 +1,6 @@
 # Resmî Yazı (Haciz/Müzekkere) Takibi · Kod Bloğu
 
-> Bankacılık › Şube Bankacılığı › Operasyon Yetkilisi · Workers / Workless
+> Bankacılık › Şube Bankacılığı › Operasyon Yetkilisi · Gerisi Bende
 
 İcra dairesi, vergi dairesi, SGK, mahkeme ve savcılıktan gelen **haciz ihbarnamesi, haciz bildirisi, haciz
 kaldırma ve bilgi talebi** yazılarını tür, cevap süresi ve müşteri bazında takip eder. Süresi geçen ve

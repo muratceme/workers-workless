@@ -1,6 +1,6 @@
 # Ürün Ağacı (BOM) Karşılaştırma · Kod Bloğu
 
-> Ar-Ge ve Ürün Geliştirme › Ar-Ge Mühendisi · Workers / Workless
+> Ar-Ge ve Ürün Geliştirme › Ar-Ge Mühendisi · Gerisi Bende
 
 İki ürün ağacı sürümünü karşılaştırır; **eklenen, çıkarılan ve miktarı, birimi, fiyatı ya da tanımı değişen
 kalemleri** listeler, birim maliyet verilmişse değişikliğin maliyet etkisini hesaplar. İnternete bağlanmaz.

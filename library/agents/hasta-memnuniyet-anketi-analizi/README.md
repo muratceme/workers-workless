@@ -1,6 +1,6 @@
 # Hasta Memnuniyet Anketi Analizi · AI Agent
 
-> Hasta Hizmetleri › Hasta İlişkileri ve Hasta Hakları Yöneticisi · Workers / Workless
+> Hasta Hizmetleri › Hasta İlişkileri ve Hasta Hakları Yöneticisi · Gerisi Bende
 
 Hasta memnuniyet anketlerinin puanlarından **birim ve hekim bazında memnuniyet raporu** çıkarır. Açık uçlu yorumları
 temalara ayırır ve birim bazında **iyileştirme başlıkları** önerir.

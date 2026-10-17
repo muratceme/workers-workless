@@ -1,6 +1,6 @@
 # Temsilci İhtiyacı Hesaplama (Erlang C) · Kod Bloğu
 
-> Müşteri Hizmetleri ve Çağrı Merkezi › Çağrı Merkezi Yöneticisi · Workers / Workless
+> Müşteri Hizmetleri ve Çağrı Merkezi › Çağrı Merkezi Yöneticisi · Gerisi Bende
 
 Aralık bazında (15/30/60 dk) çağrı tahmininden **gereken temsilci sayısını** Erlang C modeliyle hesaplar.
 Hedef servis seviyesi (ör. çağrıların %80'i 20 saniyede) ve en yüksek doluluk oranını birlikte sağlayan en

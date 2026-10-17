@@ -1,5 +1,5 @@
 """
-Acil Durum Eylem Planı Taslağı — Workers / Workless AI Agent
+Acil Durum Eylem Planı Taslağı — Gerisi Bende AI Agent
 İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı
 
 1. Kod işyeri bilgi dosyasını okur: unvan, adres, tehlike sınıfı, vardiyalar, toplanma yeri, özel durumlar; bölümler

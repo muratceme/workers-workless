@@ -1,6 +1,6 @@
 # Reklam Metni Varyasyonları · AI Agent
 
-> E-Ticaret › Performans Pazarlama Uzmanı · Workers / Workless
+> E-Ticaret › Performans Pazarlama Uzmanı · Gerisi Bende
 
 Ürün bilgisinden arama ağı reklamları (Google Ads **duyarlı arama reklamı**) için şunları yazar:
 - 3–15 başlık,

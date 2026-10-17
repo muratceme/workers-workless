@@ -1,5 +1,5 @@
 """
-Temsilci İhtiyacı Hesaplama (Erlang C) — Workers / Workless kod bloğu
+Temsilci İhtiyacı Hesaplama (Erlang C) — Gerisi Bende kod bloğu
 Müşteri Hizmetleri ve Çağrı Merkezi › Çağrı Merkezi Yöneticisi
 
 Aralık (30/60 dk) bazında çağrı tahmininden, ortalama görüşme süresi (AHT), hedef servis seviyesi

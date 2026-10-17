@@ -1,5 +1,5 @@
 """
-Resmî Yazı (Haciz/Müzekkere) Takibi — Workers / Workless kod bloğu
+Resmî Yazı (Haciz/Müzekkere) Takibi — Gerisi Bende kod bloğu
 Bankacılık › Şube Bankacılığı › Operasyon Yetkilisi
 
 İcra dairesi, vergi dairesi, SGK, mahkeme ve savcılıktan gelen haciz ihbarnamesi, haciz bildirisi, haciz

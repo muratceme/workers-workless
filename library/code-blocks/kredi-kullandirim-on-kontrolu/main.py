@@ -1,5 +1,5 @@
 """
-Kredi Kullandırım Ön Kontrolü — Workers / Workless kod bloğu
+Kredi Kullandırım Ön Kontrolü — Gerisi Bende kod bloğu
 Bankacılık Operasyonları › Kredi Operasyon Uzmanı
 
 Kullandırım taleplerini tahsis onayındaki şartlar, teminat tesis durumu ve sözleşme bilgileriyle karşılaştırır;

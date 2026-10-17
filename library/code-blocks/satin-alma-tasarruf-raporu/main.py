@@ -1,5 +1,5 @@
 """
-Satın Alma Tasarruf Raporu — Workers / Workless kod bloğu
+Satın Alma Tasarruf Raporu — Gerisi Bende kod bloğu
 Satın Alma › Satın Alma Müdürü
 
 Gerçekleşen alımları bütçe fiyatıyla karşılaştırır; pazarlık ve alternatif tedarik kaynaklı tasarrufu raporlar.

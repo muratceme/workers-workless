@@ -1,6 +1,6 @@
 # Toplu Ödeme Dosyası Kontrolü · Kod Bloğu
 
-> Bankacılık Operasyonları › Ödeme Sistemleri Operasyon Uzmanı · Workers / Workless
+> Bankacılık Operasyonları › Ödeme Sistemleri Operasyon Uzmanı · Gerisi Bende
 
 Müşterilerin yüklediği toplu ödeme (maaş, tedarikçi) dosyalarını **işleme almadan önce** kontrol eder: IBAN, tutar,
 mükerrer satır, kontrol toplamı ve önceki dosyaya göre değişiklikler. İnternete bağlanmaz.

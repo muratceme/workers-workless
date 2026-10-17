@@ -1,6 +1,6 @@
 # Geçici Vergi Hesaplama · Kod Bloğu
 
-> Beyanname ve Vergi › Serbest Muhasebeci Mali Müşavir (SMMM) · Workers / Workless
+> Beyanname ve Vergi › Serbest Muhasebeci Mali Müşavir (SMMM) · Gerisi Bende
 
 Dönem sonu kümülatif mizandan ticari kârı bulur; verdiğiniz ilave, istisna, zarar ve indirimlerle **geçici vergi
 matrahını ve ödenecek vergiyi** adım adım hesaplar. İnternete bağlanmaz.

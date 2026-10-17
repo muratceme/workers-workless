@@ -1,5 +1,5 @@
 """
-Konşimento Bilgi Çıkarma — Workers / Workless AI Agent
+Konşimento Bilgi Çıkarma — Gerisi Bende AI Agent
 Deniz ve Hava Yolu Operasyon › Denizyolu Operasyon Uzmanı
 
 1. Model konşimento (B/L) metninden yükleyici, alıcı, ihbar adresi, gemi / sefer, yükleme ve boşaltma limanı,

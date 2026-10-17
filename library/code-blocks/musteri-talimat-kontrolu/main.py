@@ -1,5 +1,5 @@
 """
-Müşteri Talimat Kontrolü — Workers / Workless kod bloğu
+Müşteri Talimat Kontrolü — Gerisi Bende kod bloğu
 Bankacılık › Şube Bankacılığı › Gişe Yetkilisi
 
 EFT, FAST, havale ve virman talimatlarını işleme almadan önce kontrol eder:

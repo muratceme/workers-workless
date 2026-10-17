@@ -1,6 +1,6 @@
 # CV Ön Eleme · Kod Bloğu
 
-> İnsan Kaynakları › İnsan Kaynakları Uzman Yardımcısı · Workers / Workless
+> İnsan Kaynakları › İnsan Kaynakları Uzman Yardımcısı · Gerisi Bende
 
 Gelen CV'leri ilanın **zorunlu kriterlerine** göre ilk filtreden geçirir. Her aday için **GEÇTİ / ELENDİ /
 MANUEL KONTROL** kararını kriter bazında gerekçesiyle listeler. İnternete bağlanmaz.

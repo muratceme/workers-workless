@@ -1,5 +1,5 @@
 """
-Vardiya Üretim Raporu — Workers / Workless kod bloğu
+Vardiya Üretim Raporu — Gerisi Bende kod bloğu
 Üretim › Vardiya Amiri
 
 Vardiya bazında üretim, hedef, duruş ve fire kayıtlarından vardiya raporu üretir.

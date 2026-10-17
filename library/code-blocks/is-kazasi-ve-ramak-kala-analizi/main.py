@@ -1,5 +1,5 @@
 """
-İş Kazası ve Ramak Kala Analizi — Workers / Workless kod bloğu
+İş Kazası ve Ramak Kala Analizi — Gerisi Bende kod bloğu
 İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı
 
 Kaza ve ramak kala kayıtlarından bölüm, neden ve zaman bazlı analiz ile kaza sıklık ve ağırlık oranlarını üretir.

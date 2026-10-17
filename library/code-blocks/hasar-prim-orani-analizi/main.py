@@ -1,5 +1,5 @@
 """
-Hasar/Prim Oranı Analizi — Workers / Workless kod bloğu
+Hasar/Prim Oranı Analizi — Gerisi Bende kod bloğu
 Teknik (Risk Kabul / Underwriting) › Teknik Uzman (Underwriter)
 
 Poliçe ve hasar verisinden müşteri, acente ve branş bazında hasar/prim (H/P) oranını hesaplar.

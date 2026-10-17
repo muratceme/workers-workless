@@ -1,5 +1,5 @@
 """
-Geciken Sipariş Takibi — Workers / Workless kod bloğu
+Geciken Sipariş Takibi — Gerisi Bende kod bloğu
 E-ticaret Operasyon ve Kargo › E-ticaret Operasyon Uzmanı
 
 Kargoya verilmesi gereken süreyi aşan siparişleri kanal ve depo bazında listeler.

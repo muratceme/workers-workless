@@ -1,6 +1,6 @@
 # Yedekleme Doğrulama Raporu · Kod Bloğu
 
-> Bilgi Teknolojileri › Sistem Uzmanı · Workers / Workless
+> Bilgi Teknolojileri › Sistem Uzmanı · Gerisi Bende
 
 Yedekleme yazılımınızdan dışa aktardığınız iş geçmişini planla karşılaştırır: **hangi yedek başarısız, hangisi
 hiç çalışmamış, hangisi gecikmiş, hangisinin boyutu şüpheli derecede küçük.** Her sabah bakılacak tek tabloyu

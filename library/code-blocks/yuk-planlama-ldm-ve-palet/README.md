@@ -1,6 +1,6 @@
 # Yük Planlama (LDM ve Palet) · Kod Bloğu
 
-> Karayolu Operasyon › Karayolu Operasyon Uzmanı · Workers / Workless
+> Karayolu Operasyon › Karayolu Operasyon Uzmanı · Gerisi Bende
 
 Yük ölçüleri, palet sayısı ve istiflenebilirliğe göre **yükleme metresini (LDM), ağırlığı ve araç tipini** hesaplar.
 İnternete bağlanmaz.

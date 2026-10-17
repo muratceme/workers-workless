@@ -1,6 +1,6 @@
 # Hasar Dosyası Özeti · AI Agent
 
-> Sigorta › Hasar Yönetimi › Hasar Uzmanı · Workers / Workless
+> Sigorta › Hasar Yönetimi › Hasar Uzmanı · Gerisi Bende
 
 Bir hasar dosyasındaki belgeleri okuyup **karar için tek sayfalık özet** hazırlar. Belgeler poliçe özeti, ihbar
 ve beyan, kaza tespit tutanağı, ekspertiz raporu ve faturalar olabilir. Belgeler arası tutarsızlıkları

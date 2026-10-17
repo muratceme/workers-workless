@@ -1,6 +1,6 @@
 # Dilekçe Taslağı · AI Agent
 
-> Hukuk Bürosu › Dava Takip › Avukat · Workers / Workless
+> Hukuk Bürosu › Dava Takip › Avukat · Gerisi Bende
 
 Avukatın olay özeti, talepler ve deliller listesinden dava dilekçesi taslağı hazırlar. Dilekçenin unsurlarını HMK
 md. 119'a göre kontrol eder ve modelin yazdığı her vakıayı olay özetine dayandırır. **Taslaktır: avukat kontrolü ve

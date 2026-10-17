@@ -1,6 +1,6 @@
 # Oltalama E-postası Analizi · AI Agent
 
-> Bilgi Teknolojileri › Bilgi Güvenliği Uzmanı · Workers / Workless
+> Bilgi Teknolojileri › Bilgi Güvenliği Uzmanı · Gerisi Bende
 
 Kullanıcıların bildirdiği şüpheli e-postaları (.eml) inceler ve **risk değerlendirmesi** yazar. Teknik göstergeleri kod
 çıkarır, model bunları yorumlar. **Bağlantılara gidilmez, ekler açılmaz.**

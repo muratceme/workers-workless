@@ -1,5 +1,5 @@
 """
-Müşteri Yorumları (Fit Comments) Özeti — Workers / Workless AI Agent
+Müşteri Yorumları (Fit Comments) Özeti — Gerisi Bende AI Agent
 Müşteri Temsilciliği (Merchandising) › Development Merchandiser
 
 1. Kod müşterinin fit / numune yorum e-postasını satır satır numaralar; selamlama ve imza satırlarını ayırır, satırlardaki

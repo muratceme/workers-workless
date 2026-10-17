@@ -1,6 +1,6 @@
 # Geciken Sipariş Takibi · Kod Bloğu
 
-> E-ticaret Operasyon ve Kargo › E-ticaret Operasyon Uzmanı · Workers / Workless
+> E-ticaret Operasyon ve Kargo › E-ticaret Operasyon Uzmanı · Gerisi Bende
 
 **Kargoya verilmesi gereken süreyi aşan siparişleri** kanal ve depo bazında listeler. İnternete bağlanmaz; sipariş
 listesini siz verirsiniz.

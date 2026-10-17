@@ -1,6 +1,6 @@
 # Son Kullanma Tarihi Takibi · Kod Bloğu
 
-> Eczane ve Tıbbi Malzeme › Hastane Eczacısı · Workers / Workless
+> Eczane ve Tıbbi Malzeme › Hastane Eczacısı · Gerisi Bende
 
 İlaç ve sarf stoklarını **lot bazında son kullanma tarihine göre** listeler; süresi geçmiş ve yaklaşan lotları,
 **tüketim hızına göre süresi içinde tükenmeyecek miktarı** ve bunun tutarını hesaplar. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Hasar İhbarı Ön Kayıt — Workers / Workless AI Agent
+Hasar İhbarı Ön Kayıt — Gerisi Bende AI Agent
 Hasar Yönetimi › Hasar Uzman Yardımcısı
 
 1. Kod ihbar metninden plakaları (Türkiye plaka biçimi) ve poliçe listesinde geçen poliçe numaralarını bulur.

@@ -1,6 +1,6 @@
 # Satış Hızı (Sell-Through) Raporu · Kod Bloğu
 
-> Ürün Planlama ve Alokasyon › Alokasyon Uzmanı · Workers / Workless
+> Ürün Planlama ve Alokasyon › Alokasyon Uzmanı · Gerisi Bende
 
 Ürün ve mağaza bazında **satış oranını (sell-through)**, günlük satış hızını ve **stok gününü** hesaplar; indirime aday
 ürünleri, hızlı satanları ve mağazalar arası **transfer** fırsatlarını işaretler. İnternete bağlanmaz.

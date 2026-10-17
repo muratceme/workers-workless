@@ -1,6 +1,6 @@
 # Satın Alma Talebi Konsolidasyonu · Kod Bloğu
 
-> Satın Alma › Satın Alma Uzman Yardımcısı · Workers / Workless
+> Satın Alma › Satın Alma Uzman Yardımcısı · Gerisi Bende
 
 Departmanlardan gelen satın alma taleplerini malzeme bazında birleştirir. Stok ve açık siparişleri düşerek net
 ihtiyacı bulur ve tedarikçilere gönderilecek **teklif istek listesini** çıkarır. İstenirse her tedarikçi için ayrı bir

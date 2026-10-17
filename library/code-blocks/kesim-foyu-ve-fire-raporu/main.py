@@ -1,5 +1,5 @@
 """
-Kesim Föyü ve Fire Raporu — Workers / Workless kod bloğu
+Kesim Föyü ve Fire Raporu — Gerisi Bende kod bloğu
 Üretim ve Fason Takip › Kesimhane Şefi
 
 Kesilen adetleri beden-renk bazında sipariş adetleriyle karşılaştırır; kumaş kullanımını ve kesim firesini hesaplar.

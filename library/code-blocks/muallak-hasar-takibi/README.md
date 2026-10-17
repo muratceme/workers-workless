@@ -1,6 +1,6 @@
 # Muallak Hasar Takibi · Kod Bloğu
 
-> Hasar Yönetimi › Hasar Uzmanı · Workers / Workless
+> Hasar Yönetimi › Hasar Uzmanı · Gerisi Bende
 
 Açık hasar dosyalarını **yaş, muallak tutar ve bekleyen aksiyona göre** izler; uzun süredir işlem görmeyen dosyaları
 öncelik sırasıyla listeler. İnternete bağlanmaz.

@@ -1,6 +1,6 @@
 # Piyasa Günlüğü Özeti · AI Agent
 
-> Hazine › Hazine Uzmanı · Workers / Workless
+> Hazine › Hazine Uzmanı · Gerisi Bende
 
 Gün içi piyasa verilerinden (kur, faiz, CDS, endeks, emtia) **kurum içi kısa piyasa günlüğü** hazırlar. Değişimleri
 **kod hesaplar**; model özetler ve haberlerle bağlam kurar. Metindeki her rakam kodun hesapladığı değerlerle

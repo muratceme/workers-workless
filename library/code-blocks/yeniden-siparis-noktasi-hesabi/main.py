@@ -1,5 +1,5 @@
 """
-Yeniden Sipariş Noktası Hesabı — Workers / Workless kod bloğu
+Yeniden Sipariş Noktası Hesabı — Gerisi Bende kod bloğu
 Üretim › Üretim Planlama / Malzeme Planlama
 
 Her stok kalemi için emniyet stoğunu, yeniden sipariş noktasını (YSN) ve ekonomik sipariş miktarını (ESM)

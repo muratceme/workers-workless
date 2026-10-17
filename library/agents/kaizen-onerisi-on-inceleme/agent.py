@@ -1,5 +1,5 @@
 """
-Kaizen Önerisi Ön İnceleme — Workers / Workless AI Agent
+Kaizen Önerisi Ön İnceleme — Gerisi Bende AI Agent
 Endüstri Mühendisliği › Endüstri Mühendisi (Süreç Geliştirme Uzmanı da kullanır)
 
 Çalışanların serbest metinle yazdığı iyileştirme önerilerini değerlendirmeye hazır kayda çevirir.

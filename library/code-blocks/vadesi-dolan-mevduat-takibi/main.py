@@ -1,5 +1,5 @@
 """
-Vadesi Dolan Mevduat Takibi — Workers / Workless kod bloğu
+Vadesi Dolan Mevduat Takibi — Gerisi Bende kod bloğu
 Şube Bankacılığı › Bireysel Portföy Yöneticisi
 
 Vadesi yaklaşan mevduat ve yatırım ürünlerini müşteri bazında listeler; görüşme önceliği önerir.

@@ -1,5 +1,5 @@
 """
-Hasar Dosyası Özeti — Workers / Workless AI Agent
+Hasar Dosyası Özeti — Gerisi Bende AI Agent
 Sigorta › Hasar Yönetimi › Hasar Uzmanı
 
 1. Dosya klasöründeki belgeler (.pdf, .docx, .txt) okunur ve kodla türüne göre ayrılır (poliçe, ihbar/beyan,

@@ -1,5 +1,5 @@
 """
-Kaizen Önerisi Değerlendirme — Workers / Workless kod bloğu
+Kaizen Önerisi Değerlendirme — Gerisi Bende kod bloğu
 Endüstri Mühendisliği ve Süreç Geliştirme › Endüstri Mühendisi
 
 Çalışan iyileştirme önerilerini kazanç, geri ödeme süresi ve uygulanabilirliğe göre puanlar ve sıralar.

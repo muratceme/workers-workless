@@ -1,5 +1,5 @@
 """
-İş Programı Kritik Yol Analizi — Workers / Workless kod bloğu
+İş Programı Kritik Yol Analizi — Gerisi Bende kod bloğu
 Planlama ve Proje Kontrol › Planlama Mühendisi
 
 Faaliyet süreleri ve bağımlılıklardan kritik yolu, bolluk sürelerini ve proje bitiş tarihini hesaplar.

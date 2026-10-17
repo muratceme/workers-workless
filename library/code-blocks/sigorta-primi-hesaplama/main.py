@@ -1,5 +1,5 @@
 """
-Sigorta Primi Hesaplama — Workers / Workless kod bloğu
+Sigorta Primi Hesaplama — Gerisi Bende kod bloğu
 Teknik (Risk Kabul / Underwriting) › Teknik Uzman (Underwriter)
 
 Sizin verdiğiniz tarife fiyatları ve indirim-sürprim tablosuyla teminat bazında prim hesaplar.

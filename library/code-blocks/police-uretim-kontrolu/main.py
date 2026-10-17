@@ -1,5 +1,5 @@
 """
-Poliçe Üretim Kontrolü — Workers / Workless kod bloğu
+Poliçe Üretim Kontrolü — Gerisi Bende kod bloğu
 Teknik (Risk Kabul / Underwriting) › Teknik Uzman Yardımcısı
 
 Üretilen poliçeleri onaylı tekliflerle teminat satırı düzeyinde karşılaştırır.

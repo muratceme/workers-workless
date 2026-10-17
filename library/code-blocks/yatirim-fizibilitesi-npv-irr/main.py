@@ -1,5 +1,5 @@
 """
-Yatırım Fizibilitesi (NPV/IRR) — Workers / Workless kod bloğu
+Yatırım Fizibilitesi (NPV/IRR) — Gerisi Bende kod bloğu
 Finans › Finansal Analist
 
 Yatırım nakit akışlarından net bugünkü değer, iç verim oranı ve geri dönüş süresini hesaplar:

@@ -1,5 +1,5 @@
 """
-OEE Hesaplama — Workers / Workless kod bloğu
+OEE Hesaplama — Gerisi Bende kod bloğu
 Üretim › Üretim Mühendisi
 
 Vardiya/makine bazında planlı süre, duruşlar, ideal çevrim süresi ve üretim adetlerinden

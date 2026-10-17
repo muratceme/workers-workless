@@ -1,6 +1,6 @@
 # Pazarlama Bütçesi Takibi · Kod Bloğu
 
-> Pazarlama › Pazarlama Müdürü · Workers / Workless
+> Pazarlama › Pazarlama Müdürü · Gerisi Bende
 
 Kanal ve kampanya bazında **bütçe, harcama, kalan tutar ve getiriyi** tek tabloda toplar; bütçesini aşan, dönemin
 gerisinde ya da ilerisinde harcayan ve harcamasını karşılamayan kampanyaları işaretler. İnternete bağlanmaz.

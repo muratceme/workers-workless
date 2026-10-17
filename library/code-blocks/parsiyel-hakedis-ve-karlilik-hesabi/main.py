@@ -1,5 +1,5 @@
 """
-Parsiyel Hakediş ve Kârlılık Hesabı — Workers / Workless kod bloğu
+Parsiyel Hakediş ve Kârlılık Hesabı — Gerisi Bende kod bloğu
 Parsiyel Operasyon › Parsiyel Operasyon Uzmanı
 
 Araçtaki yüklerin navlun gelirlerini, araç maliyetini ve yük bazında kâr payını hesaplar.

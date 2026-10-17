@@ -1,5 +1,5 @@
 """
-Hastane Operasyon Panosu — Workers / Workless kod bloğu
+Hastane Operasyon Panosu — Gerisi Bende kod bloğu
 Hastane Yönetimi › Hastane Müdürü
 Poliklinik, yatış, ameliyat, doluluk ve gelir göstergelerini bölüm ve gün bazında panoda toplar.
   Yatak doluluk %       = Σ dolu yatak (gün sonu sayımı) ÷ Σ yatak sayısı × 100   (yatak sayısı yazılmış günler)

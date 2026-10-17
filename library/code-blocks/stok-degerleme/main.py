@@ -1,5 +1,5 @@
 """
-Stok Değerleme — Workers / Workless kod bloğu
+Stok Değerleme — Gerisi Bende kod bloğu
 Muhasebe › Maliyet Muhasebesi Uzmanı
 
 Stok hareketlerinden dönem sonu stok değerini ve satılan malın (kullanılan malzemenin) maliyetini hesaplar.

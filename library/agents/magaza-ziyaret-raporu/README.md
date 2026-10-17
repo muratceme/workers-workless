@@ -1,6 +1,6 @@
 # Mağaza Ziyaret Raporu · AI Agent
 
-> Mağaza Operasyonları › Bölge Müdürü · Workers / Workless
+> Mağaza Operasyonları › Bölge Müdürü · Gerisi Bende
 
 Mağaza ziyaretinin **kontrol listesi** ve **ziyaret notlarından**, mağaza müdürüyle paylaşılacak aksiyon odaklı raporu hazırlar:
 özet, bölüm uyum puanları, güçlü yönler, terminli ve sorumlu atanmış aksiyon planı, görüşülen konular ve takip ziyaretinde

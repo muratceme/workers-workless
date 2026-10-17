@@ -1,6 +1,6 @@
 # Çek Takas Kontrol Listesi · Kod Bloğu
 
-> Şube Bankacılığı › Operasyon Yetkilisi · Workers / Workless
+> Şube Bankacılığı › Operasyon Yetkilisi · Gerisi Bende
 
 Takasa verilecek ve takastan gelen çekler için **gün sonu kontrol listesi** üretir: ileri tarihli, ibraz süresi
 geçmiş, tutarı tutarsız, karekodu, cirosu ya da imzası sorunlu ve listede iki kez geçen çekleri işaretler. İnternete

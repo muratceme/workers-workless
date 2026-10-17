@@ -1,6 +1,6 @@
 # Bakım Maliyet ve Performans Raporu · Kod Bloğu
 
-> Bakım Onarım › Bakım Müdürü · Workers / Workless
+> Bakım Onarım › Bakım Müdürü · Gerisi Bende
 
 Bakım iş emirlerinden **işçilik, malzeme ve dış hizmet maliyetlerini** toplar; planlı bakımın payını, arıza sayısını
 ve ortalama onarım süresini ekipman, bakım türü ve ay bazında raporlar. İnternete bağlanmaz.

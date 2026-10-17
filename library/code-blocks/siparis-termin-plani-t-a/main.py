@@ -1,5 +1,5 @@
 """
-Sipariş Termin Planı (T&A) — Workers / Workless kod bloğu
+Sipariş Termin Planı (T&A) — Gerisi Bende kod bloğu
 Tekstil ve Konfeksiyon › Müşteri Temsilciliği (Merchandising) › Production Merchandiser
 
 Sipariş sevk (ex-factory) tarihinden geriye doğru Time & Action (T&A) planı çıkarır:

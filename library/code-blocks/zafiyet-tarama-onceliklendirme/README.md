@@ -1,6 +1,6 @@
 # Zafiyet Tarama Önceliklendirme · Kod Bloğu
 
-> Bilgi Teknolojileri › Bilgi Güvenliği Uzmanı · Workers / Workless
+> Bilgi Teknolojileri › Bilgi Güvenliği Uzmanı · Gerisi Bende
 
 Zafiyet tarayıcısı çıktısını yalnız CVSS'e göre değil, **aktif istismar bilgisi** ve **varlık bağlamıyla**
 önceliklendirir. Taranabilen çıktılar Nessus, OpenVAS/Greenbone ve Qualys dökümleridir. Sonuçta yama ekibine

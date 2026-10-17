@@ -1,6 +1,6 @@
 # Risk Değerlendirme Özeti · AI Agent
 
-> Sigorta › Teknik (Risk Kabul / Underwriting) › Teknik Uzman (Underwriter) · Workers / Workless
+> Sigorta › Teknik (Risk Kabul / Underwriting) › Teknik Uzman (Underwriter) · Gerisi Bende
 
 Risk inceleme (survey) raporundan **risk değerlendirme özeti** ve **risk kabul önerisi taslağı** hazırlar.
 Yangın, deprem, sel/su baskını, hırsızlık ve sorumluluk risklerini, rapordaki iyileştirme önerilerini ve

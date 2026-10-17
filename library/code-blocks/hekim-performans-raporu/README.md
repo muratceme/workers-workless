@@ -1,6 +1,6 @@
 # Hekim Performans Raporu · Kod Bloğu
 
-> Hastane Yönetimi › Hastane Müdürü · Workers / Workless
+> Hastane Yönetimi › Hastane Müdürü · Gerisi Bende
 
 Hekim bazında **muayene, ameliyat, yatış ve gelir** göstergelerini çalışma gününe böler; her hekimi **kendi bölümünün**
 ortalamasıyla endeksler. İnternete bağlanmaz.

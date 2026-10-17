@@ -1,5 +1,5 @@
 """
-Lab Dip ve Onay Takibi — Workers / Workless kod bloğu
+Lab Dip ve Onay Takibi — Gerisi Bende kod bloğu
 Müşteri Temsilciliği (Merchandising) › Production Merchandiser
 
 Renk (lab dip), baskı ve aksesuar onaylarının gönderim ve müşteri cevabı durumunu sipariş bazında izler.

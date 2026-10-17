@@ -1,6 +1,6 @@
 # Teknik Föy (Tech Pack) Taslağı · AI Agent
 
-> Tekstil ve Hazır Giyim › Tasarım ve Koleksiyon › Moda Tasarımcısı · Workers / Workless
+> Tekstil ve Hazır Giyim › Tasarım ve Koleksiyon › Moda Tasarımcısı · Gerisi Bende
 
 Model bilgisi, tasarım notu, ölçü tablosu ve malzeme listesinden **teknik föy (tech pack) taslağı** hazırlar.
 - **Kod:** Ölçü tablosunu ve malzeme listesini föye **aynen** aktarır ve hatalarını yakalar.

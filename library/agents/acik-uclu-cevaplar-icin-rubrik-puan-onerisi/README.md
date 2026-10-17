@@ -1,6 +1,6 @@
 # Açık Uçlu Cevaplar İçin Rubrik Puan Önerisi · AI Agent
 
-> Eğitim › Akademik › Ölçme Değerlendirme Uzmanı · Workers / Workless
+> Eğitim › Akademik › Ölçme Değerlendirme Uzmanı · Gerisi Bende
 
 Açık uçlu sınav cevaplarını **rubriğe (dereceli puanlama anahtarı)** göre puanlamak için öneri hazırlar:
 - her ölçüt için rubrikteki bir puan düzeyi,

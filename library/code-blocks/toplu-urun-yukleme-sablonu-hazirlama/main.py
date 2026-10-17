@@ -1,5 +1,5 @@
 """
-Toplu Ürün Yükleme Şablonu Hazırlama — Workers / Workless kod bloğu
+Toplu Ürün Yükleme Şablonu Hazırlama — Gerisi Bende kod bloğu
 E-ticaret › Pazaryeri Yönetimi › Pazaryeri Uzmanı
 
 Ürün ana veri dosyasını pazaryerinin toplu ürün yükleme şablonuna dönüştürür. Pazaryerlerinin şablonları

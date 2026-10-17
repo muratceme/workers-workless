@@ -1,6 +1,6 @@
 # MTBF ve MTTR Analizi · Kod Bloğu
 
-> Bakım Onarım › Bakım Mühendisi · Workers / Workless
+> Bakım Onarım › Bakım Mühendisi · Gerisi Bende
 
 Arıza kayıtlarından makine bazında **arızalar arası ortalama süreyi (MTBF), ortalama onarım süresini (MTTR) ve
 kullanılabilirliği** hesaplar; arıza tiplerini süre kaybına göre sıralar. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Performans Primi Hesaplama — Workers / Workless kod bloğu
+Performans Primi Hesaplama — Gerisi Bende kod bloğu
 İnsan Kaynakları › Ücretlendirme ve Yan Haklar Uzmanı
 
 Hedef gerçekleşmelerinden ve prim skalasından çalışan bazında brüt performans primini hesaplar:

@@ -1,6 +1,6 @@
 # e-Fatura Okuma ve Listeleme · Kod Bloğu
 
-> Muhasebe › Ön Muhasebe Elemanı · Mali Müşavirlik Bürosu › Muhasebe Elemanı · Workers / Workless
+> Muhasebe › Ön Muhasebe Elemanı · Mali Müşavirlik Bürosu › Muhasebe Elemanı · Gerisi Bende
 
 GİB **UBL-TR** biçimindeki e-Fatura ve e-Arşiv XML dosyalarını okur ve tek bir Excel dosyasında
 listeler: fatura başlıkları, **KDV oranı kırılımı**, **tevkifat**, diğer vergiler (ÖTV, ÖİV vb.),

@@ -1,5 +1,5 @@
 """
-Geri Çağırma Kampanyası Araç Eşleştirme — Workers / Workless kod bloğu
+Geri Çağırma Kampanyası Araç Eşleştirme — Gerisi Bende kod bloğu
 Satış Sonrası Hizmetler (Servis) › Garanti Uzmanı
 Markanın kampanya şasi listesini servis müşteri kayıtlarıyla eşleştirip kampanyası yapılmamış araçları listeler.
   Şasi normalizasyonu = büyük harf, boşluk ve tire atılır

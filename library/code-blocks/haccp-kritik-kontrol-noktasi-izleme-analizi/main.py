@@ -1,5 +1,5 @@
 """
-HACCP Kritik Kontrol Noktası İzleme Analizi — Workers / Workless kod bloğu
+HACCP Kritik Kontrol Noktası İzleme Analizi — Gerisi Bende kod bloğu
 Gıda Üretimi › Kalite Güvence ve Gıda Güvenliği › Kalite Güvence Uzmanı
 
 KKN izleme kayıtlarını (sıcaklık, süre, pH, metal dedektör…) HACCP planındaki kritik ve operasyonel limitlerle

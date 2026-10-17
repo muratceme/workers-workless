@@ -1,5 +1,5 @@
 """
-Kumaş Fiyat Takibi — Workers / Workless kod bloğu
+Kumaş Fiyat Takibi — Gerisi Bende kod bloğu
 Kumaş ve Aksesuar Satın Alma › Kumaş Satın Alma Uzmanı
 
 Tedarikçi kumaş ve iplik fiyat listelerini bir araya getirir; kalite bazında fiyat geçmişi ve güncel teklif karşılaştırması üretir.

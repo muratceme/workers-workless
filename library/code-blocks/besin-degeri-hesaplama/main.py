@@ -1,5 +1,5 @@
 """
-Besin Değeri Hesaplama — Workers / Workless kod bloğu
+Besin Değeri Hesaplama — Gerisi Bende kod bloğu
 Kalite Güvence ve Gıda Güvenliği › Gıda Mühendisi
 Reçetedeki bileşenlerin besin değeri tablosundan 100 g (ve porsiyon) başına enerji ve besin öğelerini hesaplar.
   Besin öğesi / 100 g = Σ(bileşen miktarı × bileşenin 100 g'daki değeri ÷ 100) ÷ son ürün ağırlığı × 100

@@ -1,5 +1,5 @@
 """
-Senaryo ve Duyarlılık Analizi — Workers / Workless kod bloğu
+Senaryo ve Duyarlılık Analizi — Gerisi Bende kod bloğu
 Finans › Finansal Analist
 
 Kur, faiz, satış ve maliyet varsayımlarından yıllık kârlılık ve nakit senaryoları üretir:

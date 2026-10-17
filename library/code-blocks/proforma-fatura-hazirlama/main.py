@@ -1,5 +1,5 @@
 """
-Proforma Fatura Hazırlama — Workers / Workless kod bloğu
+Proforma Fatura Hazırlama — Gerisi Bende kod bloğu
 Dış Ticaret › Dış Ticaret Uzmanı
 
 Sipariş, fiyat ve teslim şekli (Incoterms 2020) bilgilerinden proforma fatura ve çeki listesi hazırlar:

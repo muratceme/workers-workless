@@ -1,6 +1,6 @@
 # Kumaş Kontrol (4 Puan Sistemi) Raporu · Kod Bloğu
 
-> Tekstil › Kalite Kontrol · Workers / Workless
+> Tekstil › Kalite Kontrol · Gerisi Bende
 
 Kumaş kontrol makinesinde tutulan **top bazındaki hata kayıtlarından** 4 puan sistemine göre puan hesaplar.
 Puanı 100 yard² (ve 100 m²) başına çevirir; topu ve partiyi kabul veya ret olarak raporlar. İnternete bağlanmaz.

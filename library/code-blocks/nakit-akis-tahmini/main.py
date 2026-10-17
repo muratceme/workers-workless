@@ -1,5 +1,5 @@
 """
-Nakit Akış Tahmini — Workers / Workless kod bloğu
+Nakit Akış Tahmini — Gerisi Bende kod bloğu
 Finans › Finans Uzmanı
 
 Vadeli alacak ve borçlar, alınan/verilen çekler, kredi taksitleri ve tekrarlayan ödemelerden (maaş,

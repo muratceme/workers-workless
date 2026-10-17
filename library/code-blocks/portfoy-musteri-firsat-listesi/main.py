@@ -1,5 +1,5 @@
 """
-Portföy Müşteri Fırsat Listesi — Workers / Workless kod bloğu
+Portföy Müşteri Fırsat Listesi — Gerisi Bende kod bloğu
 Bankacılık › Şube Bankacılığı › Bireysel Portföy Yöneticisi
 
 Portföydeki bireysel müşterilerin ürün sahipliği ve hareketlerinden çapraz satış ve elde tutma fırsatlarını

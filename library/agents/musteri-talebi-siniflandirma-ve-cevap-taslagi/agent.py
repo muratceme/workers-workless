@@ -1,5 +1,5 @@
 """
-Müşteri Talebi Sınıflandırma ve Cevap Taslağı — Workers / Workless AI Agent
+Müşteri Talebi Sınıflandırma ve Cevap Taslağı — Gerisi Bende AI Agent
 Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Temsilcisi
 
 1. Talepler (Excel/CSV listesi veya .eml/.txt klasörü) okunur. Kod; sipariş numarasını, aynı göndericinin

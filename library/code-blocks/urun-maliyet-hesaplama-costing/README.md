@@ -1,6 +1,6 @@
 # Ürün Maliyet Hesaplama (Costing) · Kod Bloğu
 
-> Tekstil ve Konfeksiyon › Müşteri Temsilciliği (Merchandising) › Development Merchandiser · Workers / Workless
+> Tekstil ve Konfeksiyon › Müşteri Temsilciliği (Merchandising) › Development Merchandiser · Gerisi Bende
 
 Hazır giyim için maliyet föyü (cost sheet) hazırlar ve FOB teklif fiyatını hesaplar. Föy kumaş, aksesuar, fason
 işlem, CM (kesim-dikim), genel gider ve sipariş başı sabit giderlerden oluşur. Farklı para birimlerindeki kalemleri

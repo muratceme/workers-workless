@@ -1,5 +1,5 @@
 """
-BT Maliyet Raporu — Workers / Workless kod bloğu
+BT Maliyet Raporu — Gerisi Bende kod bloğu
 Bilgi Teknolojileri › BT Müdürü
 
 Lisans, bulut, donanım, hizmet ve iletişim harcamalarını birim ve kalem bazında raporlar:

@@ -1,5 +1,5 @@
 """
-Ürün Bilgi Kartı Özeti — Workers / Workless AI Agent
+Ürün Bilgi Kartı Özeti — Gerisi Bende AI Agent
 Mağaza › Satış Danışmanı
 
 1. Kod ürün tablosunu okur: SKU, Ürün, Kategori, Fiyat ve diğer her sütun bir teknik özellik (boş hücre = bilgi yok).

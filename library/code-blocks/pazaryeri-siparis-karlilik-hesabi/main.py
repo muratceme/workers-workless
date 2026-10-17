@@ -1,5 +1,5 @@
 """
-Pazaryeri Sipariş Kârlılık Hesabı — Workers / Workless kod bloğu
+Pazaryeri Sipariş Kârlılık Hesabı — Gerisi Bende kod bloğu
 E-ticaret › Pazaryeri Yönetimi › Pazaryeri Uzmanı
 
 Pazaryeri sipariş dökümünü (Trendyol, Hepsiburada, Amazon, N11 vb.) ürün maliyet listesiyle birleştirip

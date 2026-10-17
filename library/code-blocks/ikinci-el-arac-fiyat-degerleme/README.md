@@ -1,6 +1,6 @@
 # İkinci El Araç Fiyat Değerleme · Kod Bloğu
 
-> Satış › İkinci El Satış Danışmanı · Workers / Workless
+> Satış › İkinci El Satış Danışmanı · Gerisi Bende
 
 Topladığınız benzer ilan verisinden değerlenecek araç için **piyasa fiyat aralığını ve alım fiyatı önerisini**
 üretir. İlanları siz sağlarsınız; kod internete bağlanmaz ve ilan sitelerinden veri çekmez.

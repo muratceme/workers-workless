@@ -1,6 +1,6 @@
 # Mağazalar Arası Transfer Önerisi · Kod Bloğu
 
-> Ürün Planlama ve Alokasyon › Alokasyon Uzmanı · Workers / Workless
+> Ürün Planlama ve Alokasyon › Alokasyon Uzmanı · Gerisi Bende
 
 Fazla stoklu ve tükenme riskli mağazaları eşleştirip **ürün-beden-renk bazında transfer önerisi** çıkarır. İnternete
 bağlanmaz.

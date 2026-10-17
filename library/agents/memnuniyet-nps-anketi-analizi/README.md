@@ -1,6 +1,6 @@
 # Memnuniyet (NPS) Anketi Analizi · AI Agent
 
-> Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Deneyimi Uzmanı · Workers / Workless
+> Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Deneyimi Uzmanı · Gerisi Bende
 
 NPS ve memnuniyet anketlerinin puanlarını ve yorumlarını analiz eder. NPS'yi **hata payıyla** verir, segment ve ay
 bazında karşılaştırır, memnuniyet ölçütlerinden **öncelikli iyileştirme alanlarını** bulur. Yorumları temalara

@@ -1,5 +1,5 @@
 """
-Hasta Kabul Gün Sonu Kasa Kontrolü — Workers / Workless kod bloğu
+Hasta Kabul Gün Sonu Kasa Kontrolü — Gerisi Bende kod bloğu
 Hasta Hizmetleri › Hasta Kayıt Kabul Görevlisi
 Gün içindeki tahsilat, fatura ve iadeleri HBYS kayıtlarıyla karşılaştırıp kasa devir raporunu hazırlar.
   Beklenen nakit   = önceki günden devir + nakit tahsilat − nakit iade − bankaya / merkez kasaya teslim edilen

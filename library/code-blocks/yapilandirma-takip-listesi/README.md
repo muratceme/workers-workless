@@ -1,6 +1,6 @@
 # Yapılandırma Takip Listesi · Kod Bloğu
 
-> Krediler İzleme ve Takip › Kredi İzleme Uzmanı · Workers / Workless
+> Krediler İzleme ve Takip › Kredi İzleme Uzmanı · Gerisi Bende
 
 Yeniden yapılandırılan kredilerin **yeni ödeme planına uyup uymadığını ve izleme süresinin ne zaman dolacağını**
 tek listede izler; planı aksatan ve izleme süresi dolan kredileri öne çıkarır. İnternete bağlanmaz.

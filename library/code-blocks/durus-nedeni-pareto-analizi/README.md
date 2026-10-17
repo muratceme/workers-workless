@@ -1,6 +1,6 @@
 # Duruş Nedeni Pareto Analizi · Kod Bloğu
 
-> Üretim › Üretim Mühendisi · Workers / Workless
+> Üretim › Üretim Mühendisi · Gerisi Bende
 
 Makine duruş kayıtlarını **neden ve süreye göre Pareto analizine** tabi tutar: toplam duruşun büyük kısmını yaratan
 az sayıdaki nedeni ve makineyi öne çıkarır. İnternete bağlanmaz.

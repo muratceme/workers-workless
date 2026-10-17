@@ -1,5 +1,5 @@
 """
-Pazaryeri Reklam (Sponsorlu Ürün) Analizi — Workers / Workless kod bloğu
+Pazaryeri Reklam (Sponsorlu Ürün) Analizi — Gerisi Bende kod bloğu
 Performans Pazarlama › Performans Pazarlama Uzmanı
 
 Pazaryeri reklam raporlarından ürün bazında reklam maliyeti/satış oranını hesaplayıp kârsız reklamları işaretler.

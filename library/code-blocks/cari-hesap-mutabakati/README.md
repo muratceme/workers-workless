@@ -1,6 +1,6 @@
 # Cari Hesap Mutabakatı · Kod Bloğu
 
-> Muhasebe › Muhasebe Elemanı · Workers / Workless
+> Muhasebe › Muhasebe Elemanı · Gerisi Bende
 
 Kendi cari ekstreniz (ör. 120 Alıcılar / 320 Satıcılar muavini) ile **karşı tarafın gönderdiği ekstreyi**
 karşılaştırır; bakiye farkını kalem kalem açıklar ve her fark için olası nedeni yazar. Ay sonu ve yıl sonu

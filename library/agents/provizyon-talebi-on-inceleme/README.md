@@ -1,6 +1,6 @@
 # Provizyon Talebi Ön İnceleme · AI Agent
 
-> Sağlık Sigortası › Provizyon Uzmanı · Workers / Workless
+> Sağlık Sigortası › Provizyon Uzmanı · Gerisi Bende
 
 Anlaşmalı kurumlardan gelen **provizyon taleplerini** (talep formu, epikriz, hekim notu) poliçe bilgileri ve sizin
 verdiğiniz özel / genel şartlar metniyle **ön incelemeden** geçirir. **Karar vermez.** Onay, ret ve tıbbi değerlendirme

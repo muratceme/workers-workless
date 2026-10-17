@@ -1,5 +1,5 @@
 """
-Mükellef Evrak Eksik Takibi — Workers / Workless kod bloğu
+Mükellef Evrak Eksik Takibi — Gerisi Bende kod bloğu
 Muhasebe ve Defter İşleri › Mali Müşavir Stajyeri
 
 Her mükelleften dönem için beklenen belgeleri gelenlerle karşılaştırır; eksik listesini, tamamlanma oranını ve hatırlatma metnini çıkarır.

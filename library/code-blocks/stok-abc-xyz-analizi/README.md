@@ -1,6 +1,6 @@
 # Stok ABC-XYZ Analizi · Kod Bloğu
 
-> Üretim › Üretim Planlama · Workers / Workless
+> Üretim › Üretim Planlama · Gerisi Bende
 
 Stokları iki eksende sınıflandırır ve her sınıf için **stok politikası** önerir. İnternete bağlanmaz.
 

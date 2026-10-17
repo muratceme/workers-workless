@@ -1,6 +1,6 @@
 # Servis İş Emri 3C ve Garanti Metni · AI Agent
 
-> Otomotiv Servis › Servis Danışmanı · Workers / Workless
+> Otomotiv Servis › Servis Danışmanı · Gerisi Bende
 
 Müşterinin şikâyeti ve teknisyenin notlarından iş emrine ve garanti başvurusuna girecek **3C metnini** hazırlar:
 - **Şikâyet** (Complaint),

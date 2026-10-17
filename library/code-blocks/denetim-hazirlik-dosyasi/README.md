@@ -1,6 +1,6 @@
 # Denetim Hazırlık Dosyası · Kod Bloğu
 
-> Muhasebe › Muhasebe Müdürü · Workers / Workless
+> Muhasebe › Muhasebe Müdürü · Gerisi Bende
 
 Bağımsız denetçinin gönderdiği talep listesini izleme tablosuna çevirir: hangi belge gönderildi, hangisi hazır,
 hangisi gecikti, kim neyi bekletiyor. İsterseniz belge klasörünüzü de tarar ve "hazır" denen dosyanın gerçekten

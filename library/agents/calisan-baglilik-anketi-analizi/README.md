@@ -1,6 +1,6 @@
 # Çalışan Bağlılık Anketi Analizi · AI Agent
 
-> İnsan Kaynakları › İnsan Kaynakları Müdürü · Workers / Workless
+> İnsan Kaynakları › İnsan Kaynakları Müdürü · Gerisi Bende
 
 Anket puanlarını boyut ve birim bazında analiz eder. Açık uçlu yorumları temalara ayırır ve kurumun ele alması
 gereken **temel sorun başlıklarını** özetler. Mobbing, iş güvenliği gibi **hassas yorumları** ayrı bir sayfada

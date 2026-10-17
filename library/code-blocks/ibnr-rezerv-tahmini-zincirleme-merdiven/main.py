@@ -1,5 +1,5 @@
 """
-IBNR Rezerv Tahmini (Zincirleme Merdiven) — Workers / Workless kod bloğu
+IBNR Rezerv Tahmini (Zincirleme Merdiven) — Gerisi Bende kod bloğu
 Sigortacılık › Aktüerya › Aktüerya Uzmanı
 
 Hasar gelişim üçgeninden zincirleme merdiven (chain ladder) yöntemiyle nihai hasarı ve gerçekleşmiş ancak

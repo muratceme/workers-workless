@@ -1,5 +1,5 @@
 """
-Şube Teftiş Veri Analizi — Workers / Workless kod bloğu
+Şube Teftiş Veri Analizi — Gerisi Bende kod bloğu
 Bankacılık › Teftiş Kurulu › Müfettiş Yardımcısı
 
 Şube işlem verisini personel listesiyle birlikte tarar ve teftişte incelenecek riskli örüntüleri listeler:

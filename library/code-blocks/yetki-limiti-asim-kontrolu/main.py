@@ -1,5 +1,5 @@
 """
-Yetki Limiti Aşım Kontrolü — Workers / Workless kod bloğu
+Yetki Limiti Aşım Kontrolü — Gerisi Bende kod bloğu
 Teknik (Risk Kabul / Underwriting) › Teknik Müdür
 Onaylanan tekliflerin teknik personel yetki limitlerine (branş bazında azami sigorta bedeli ve azami indirim) uygunluğunu kontrol eder.
   Yetki satırı      = onaylayan + branş; branşa özel satır yoksa onaylayanın "Tümü" satırı

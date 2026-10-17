@@ -1,5 +1,5 @@
 """
-Masraf Fişi Kategorileme — Workers / Workless kod bloğu
+Masraf Fişi Kategorileme — Gerisi Bende kod bloğu
 Muhasebe › Muhasebe Elemanı
 
 Çalışan masraf fişlerini ve kart harcamalarını kural dosyasına göre sınıflandırır, muhasebe kaydı önerir:

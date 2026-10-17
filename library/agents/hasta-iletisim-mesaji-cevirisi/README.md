@@ -1,6 +1,6 @@
 # Hasta İletişim Mesajı Çevirisi · AI Agent
 
-> Sağlık (Özel Hastane) › Uluslararası Hasta Hizmetleri › Uluslararası Hasta Koordinatörü · Workers / Workless
+> Sağlık (Özel Hastane) › Uluslararası Hasta Hizmetleri › Uluslararası Hasta Koordinatörü · Gerisi Bende
 
 Yurt dışından gelen hasta mesajlarını tıbbi terimleri, dozları ve değerleri koruyarak Türkçeye çevirir. Mesajları
 aciliyete göre sıralar ve hastanın kendi dilinde, kültürüne uygun bir cevap taslağı hazırlar. Kod çeviriyi ve

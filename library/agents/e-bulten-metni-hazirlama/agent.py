@@ -1,5 +1,5 @@
 """
-E-bülten Metni Hazırlama — Workers / Workless AI Agent
+E-bülten Metni Hazırlama — Gerisi Bende AI Agent
 Pazarlama › Dijital Pazarlama Uzmanı
 
 1. Kod kampanya bilgisini okur (kampanya, tarihler, indirim, kod, koşullar, bağlantı) ve ticari elektronik ileti için

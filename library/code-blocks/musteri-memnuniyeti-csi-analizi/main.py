@@ -1,5 +1,5 @@
 """
-Müşteri Memnuniyeti (CSI) Analizi — Workers / Workless kod bloğu
+Müşteri Memnuniyeti (CSI) Analizi — Gerisi Bende kod bloğu
 Satış Sonrası Hizmetler (Servis) › Satış Sonrası Hizmetler Müdürü
 Servis memnuniyet anketlerini danışman, iş türü ve ay bazında analiz eder; düşük puanlı anketleri geri arama listesine alır.
   Ortalama       = genel memnuniyet puanlarının ortalaması (--olcek 10 ya da 5)

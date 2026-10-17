@@ -1,6 +1,6 @@
 # Muallak Hasar Raporu · Kod Bloğu
 
-> Hasar Yönetimi › Hasar Müdürü · Workers / Workless
+> Hasar Yönetimi › Hasar Müdürü · Gerisi Bende
 
 Açık hasar dosyalarının **branş, yaş ve tutar dağılımını** çıkarır; kapanan dosyalarda ödenen tutarı ilk rezervle
 karşılaştırarak **rezerv yeterliliği göstergelerini** verir. İnternete bağlanmaz.

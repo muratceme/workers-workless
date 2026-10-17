@@ -1,5 +1,5 @@
 """
-Ücret Bandı Karşılaştırması — Workers / Workless kod bloğu
+Ücret Bandı Karşılaştırması — Gerisi Bende kod bloğu
 İnsan Kaynakları › Ücretlendirme ve Yan Haklar Uzmanı
 
 İç ücret verisini kademe / pozisyon bazında ücret araştırması bantlarıyla kıyaslar:

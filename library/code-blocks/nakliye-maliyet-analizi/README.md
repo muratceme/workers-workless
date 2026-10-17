@@ -1,6 +1,6 @@
 # Nakliye Maliyet Analizi · Kod Bloğu
 
-> Lojistik ve Depo › Lojistik Uzmanı · Workers / Workless
+> Lojistik ve Depo › Lojistik Uzmanı · Gerisi Bende
 
 Nakliye faturalarınızdan **kg, km ve ton-km başına taşıma maliyetini** hesaplar; bölge, taşıyıcı ve ay bazında
 karşılaştırır, aynı bölgede pahalıya gelen seferleri ve düşük doluluğu işaretler. İnternete bağlanmaz.

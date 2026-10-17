@@ -1,5 +1,5 @@
 """
-Doluluk, ADR ve RevPAR Raporu — Workers / Workless kod bloğu
+Doluluk, ADR ve RevPAR Raporu — Gerisi Bende kod bloğu
 Otel › Ön Büro / Gelir Yönetimi
 
 Oda satışlarından günlük ve aylık otel performans göstergelerini hesaplar ve geçen yılla karşılaştırır:

@@ -1,6 +1,6 @@
 # Teminat Kapsam Kontrolü · AI Agent
 
-> Sigorta › Hasar Yönetimi › Hasar Uzmanı · Workers / Workless
+> Sigorta › Hasar Yönetimi › Hasar Uzmanı · Gerisi Bende
 
 Hasar olayını poliçe teminatları, istisnalar, muafiyetler ve özel şartlarla karşılaştırıp **kapsam değerlendirmesi
 taslağı** hazırlar.

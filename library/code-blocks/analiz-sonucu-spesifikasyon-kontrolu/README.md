@@ -1,6 +1,6 @@
 # Analiz Sonucu Spesifikasyon Kontrolü · Kod Bloğu
 
-> Kalite Kontrol ve Laboratuvar › Kalite Kontrol Teknisyeni · Workers / Workless
+> Kalite Kontrol ve Laboratuvar › Kalite Kontrol Teknisyeni · Gerisi Bende
 
 Laboratuvar analiz sonuçlarını **sizin spesifikasyon limitlerinizle** karşılaştırır; uygunsuz partileri, sınıra yakın
 değerleri ve eksik analizleri işaretler. İnternete bağlanmaz.

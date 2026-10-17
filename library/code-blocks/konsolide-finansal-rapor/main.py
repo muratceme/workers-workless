@@ -1,5 +1,5 @@
 """
-Konsolide Finansal Rapor — Workers / Workless kod bloğu
+Konsolide Finansal Rapor — Gerisi Bende kod bloğu
 Finans › Finans Müdürü
 
 Grup şirketlerinin Tekdüzen mizanlarını birleştirir, grup içi işlemleri eler ve konsolide bilanço / gelir tablosu üretir

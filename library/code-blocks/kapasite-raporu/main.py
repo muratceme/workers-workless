@@ -1,5 +1,5 @@
 """
-Kapasite Raporu — Workers / Workless kod bloğu
+Kapasite Raporu — Gerisi Bende kod bloğu
 Bilgi Teknolojileri › Sistem Uzmanı
 
 Disk, bellek ve işlemci kullanım ölçümlerinden büyüme eğilimini ve eşiğe ulaşma tarihini tahmin eder.

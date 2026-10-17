@@ -1,5 +1,5 @@
 """
-Bölge Mağaza Karşılaştırma Raporu — Workers / Workless kod bloğu
+Bölge Mağaza Karşılaştırma Raporu — Gerisi Bende kod bloğu
 Mağaza Operasyonları › Bölge Müdürü
 Bölgedeki mağazaları metrekare verimliliği, LFL büyüme, dönüşüm ve stok devir hızına göre karşılaştırır.
   Metrekare verimliliği = dönem cirosu ÷ satış alanı (m²)

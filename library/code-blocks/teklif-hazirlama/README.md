@@ -1,6 +1,6 @@
 # Teklif Hazırlama · Kod Bloğu
 
-> Satış › Satış Temsilcisi · Workers / Workless
+> Satış › Satış Temsilcisi · Gerisi Bende
 
 Fiyat listesi, iskonto kuralları ve seçilen ürünlerden müşteriye gönderilecek **teklif dosyasını** hazırlar.
 Ayrıca şirket içinde kalacak bir **iç kontrol dosyası** yazar: iskonto zinciri, marj ve yönetici onayı gerekip

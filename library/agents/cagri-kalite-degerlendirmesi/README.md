@@ -1,6 +1,6 @@
 # Çağrı Kalite Değerlendirmesi · AI Agent
 
-> Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Deneyimi Uzmanı · Workers / Workless
+> Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Deneyimi Uzmanı · Gerisi Bende
 
 Görüşme dökümünü **kendi kalite formunuzdaki** kriterlere göre değerlendirir. Her kriter için sonuç, gerekçe ve
 dökümden birebir alıntı verir; puanı hesaplar, kritik hataları işaretler ve temsilciye verilecek **geri bildirim

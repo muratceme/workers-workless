@@ -1,6 +1,6 @@
 # Amortisman Hesaplama · Kod Bloğu
 
-> Muhasebe › Genel Muhasebe Uzmanı · Workers / Workless
+> Muhasebe › Genel Muhasebe Uzmanı · Gerisi Bende
 
 Demirbaş listesinden faydalı ömür ve yönteme göre **seçilen yılın amortismanını, birikmiş amortismanı ve net defter
 değerini** hesaplar; her demirbaş için yıl yıl amortisman planı çıkarır. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Risk Değerlendirme Özeti — Workers / Workless AI Agent
+Risk Değerlendirme Özeti — Gerisi Bende AI Agent
 Sigorta › Teknik (Risk Kabul / Underwriting) › Teknik Uzman (Underwriter)
 
 1. Klasördeki risk inceleme (survey) raporu ve ekleri okunur (.txt/.pdf/.docx); isteğe bağlı sigorta bedelleri

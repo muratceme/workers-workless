@@ -1,6 +1,6 @@
 # Sosyal Medya İçerik Takvimi · AI Agent
 
-> Pazarlama › Dijital Pazarlama Uzmanı · Workers / Workless
+> Pazarlama › Dijital Pazarlama Uzmanı · Gerisi Bende
 
 Kampanyalara ve özel günlere göre **aylık sosyal medya içerik takvimi** kurar ve her gönderi için metin taslağı,
 hashtag, görsel fikri ve eylem çağrısı yazar. Taslakları platform sınırları, yasaklı ifadeler, kanıt gerektiren

@@ -1,5 +1,5 @@
 """
-Ölçüm Verisi Uygunluk Kontrolü — Workers / Workless kod bloğu
+Ölçüm Verisi Uygunluk Kontrolü — Gerisi Bende kod bloğu
 Kalite Güvence ve Kalite Kontrol › Kalite Kontrol Elemanı
 
 Ölçüm sonuçlarını teknik resim toleranslarıyla karşılaştırır; uygunsuz ve sınıra yakın ölçüleri işaretler.

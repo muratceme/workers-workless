@@ -1,5 +1,5 @@
 """
-Fason Hakediş Hesaplama — Workers / Workless kod bloğu
+Fason Hakediş Hesaplama — Gerisi Bende kod bloğu
 Üretim ve Fason Takip › Fason Takip Sorumlusu
 
 Atölyeden dönen sağlam adetler, birim fiyat, eksik ve hatalı ürün kesintilerinden fason hakedişini hesaplar.

@@ -1,6 +1,6 @@
 # Kazanılmış Değer Analizi · Kod Bloğu
 
-> Planlama ve Proje Kontrol › Planlama Mühendisi · Workers / Workless
+> Planlama ve Proje Kontrol › Planlama Mühendisi · Gerisi Bende
 
 Planlanan değer, kazanılmış değer ve gerçekleşen maliyetten **SPI, CPI ve tamamlanma maliyet tahminini** hesaplar
 (kazanılmış değer yöntemi, EVM). İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Ölçü Tablosu Beden Serisi (Grading) — Workers / Workless kod bloğu
+Ölçü Tablosu Beden Serisi (Grading) — Gerisi Bende kod bloğu
 Tekstil › Ürün Geliştirme / Modelhane
 
 Ana bedenin (numune bedeni) ölçülerinden ve ölçü noktası bazındaki beden artış kurallarından tüm beden

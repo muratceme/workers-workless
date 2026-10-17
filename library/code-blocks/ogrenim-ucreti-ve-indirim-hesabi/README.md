@@ -1,6 +1,6 @@
 # Öğrenim Ücreti ve İndirim Hesabı · Kod Bloğu
 
-> Kayıt Kabul ve Öğrenci İşleri › Öğrenci İşleri Sorumlusu · Workers / Workless
+> Kayıt Kabul ve Öğrenci İşleri › Öğrenci İşleri Sorumlusu · Gerisi Bende
 
 Özel okulun **ücret tablosu ve indirim kurallarına** göre öğrenci bazında net öğrenim ücretini, taksit planını ve kademe bazında
 indirim maliyetini hesaplar. İnternete ve okul yönetim yazılımına bağlanmaz.

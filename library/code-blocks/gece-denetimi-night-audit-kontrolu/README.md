@@ -1,6 +1,6 @@
 # Gece Denetimi (Night Audit) Kontrolü · Kod Bloğu
 
-> Turizm ve Otelcilik › Ön Büro › Night Auditor (Gece Denetçisi) · Workers / Workless
+> Turizm ve Otelcilik › Ön Büro › Night Auditor (Gece Denetçisi) · Gerisi Bende
 
 Gün kapatılmadan (date roll) önce PMS'ten alınan raporları karşılaştırır. Açık folyoları, fiyat hatalarını, oda
 durumu uyuşmazlıklarını ve kasa farklarını tek listede toplar. İnternete ve PMS'e bağlanmaz; PMS'ten dışa aktarılan

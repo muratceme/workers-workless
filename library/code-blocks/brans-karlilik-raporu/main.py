@@ -1,5 +1,5 @@
 """
-Branş Kârlılık Raporu — Workers / Workless kod bloğu
+Branş Kârlılık Raporu — Gerisi Bende kod bloğu
 Teknik (Risk Kabul / Underwriting) › Teknik Müdür
 
 Branş bazında yazılan prim, karşılık değişimleri, hasar ve giderlerden teknik kârlılık göstergelerini üretir.

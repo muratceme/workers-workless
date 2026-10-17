@@ -1,5 +1,5 @@
 """
-Mağaza Ziyaret Raporu — Workers / Workless AI Agent
+Mağaza Ziyaret Raporu — Gerisi Bende AI Agent
 Mağaza Operasyonları › Bölge Müdürü
 
 1. Kod, ziyaret kontrol listesini okur (Bölüm, Madde, Sonuç: Uygun / Kısmen / Uygun değil / DD, Not), maddelere kimlik verir

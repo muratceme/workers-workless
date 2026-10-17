@@ -1,5 +1,5 @@
 """
-Kredi Teklifi Eksik Belge Kontrolü — Workers / Workless kod bloğu
+Kredi Teklifi Eksik Belge Kontrolü — Gerisi Bende kod bloğu
 Krediler Tahsis › Kredi Tahsis Uzman Yardımcısı
 
 Şubeden gelen kredi tekliflerini teklif tipine, müşteri tipine, teminata ve tutara göre zorunlu belge ve bilgi listesiyle

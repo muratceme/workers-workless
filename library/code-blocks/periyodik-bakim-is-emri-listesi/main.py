@@ -1,5 +1,5 @@
 """
-Periyodik Bakım İş Emri Listesi — Workers / Workless kod bloğu
+Periyodik Bakım İş Emri Listesi — Gerisi Bende kod bloğu
 Bakım Onarım › Bakım Teknisyeni
 
 Bakım planından seçilen haftanın periyodik bakım iş emirlerini ve gereken malzemeleri çıkarır.

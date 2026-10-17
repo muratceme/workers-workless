@@ -1,6 +1,6 @@
 # Destek Talebi Sınıflandırma · AI Agent
 
-> Bilgi Teknolojileri › BT Destek Uzmanı · Workers / Workless
+> Bilgi Teknolojileri › BT Destek Uzmanı · Gerisi Bende
 
 BT hizmet masasına e-posta veya ticket sisteminden gelen talepleri **kategori, ekip, etki, aciliyet ve türe**
 (olay / hizmet talebi / güvenlik olayı) göre sınıflandırır. **ITIL önceliğini** ve **SLA hedef zamanlarını**

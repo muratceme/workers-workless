@@ -1,5 +1,5 @@
 """
-İş Tanımından İş Değerleme Puanlaması — Workers / Workless AI Agent
+İş Tanımından İş Değerleme Puanlaması — Gerisi Bende AI Agent
 İnsan Kaynakları › Ücretlendirme ve Yan Haklar Uzmanı
 
 Serbest metin iş tanımlarını şirketin puan faktör planına göre değerlendirir; puanı ve kademeyi kod hesaplar.

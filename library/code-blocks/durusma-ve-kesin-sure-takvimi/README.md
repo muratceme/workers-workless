@@ -1,6 +1,6 @@
 # Duruşma ve Kesin Süre Takvimi · Kod Bloğu
 
-> Dava Takip › Hukuk Sekreteri · Workers / Workless
+> Dava Takip › Hukuk Sekreteri · Gerisi Bende
 
 > Bu paket, hukuk departmanı için yayımlanan "Dava ve Duruşma Takvimi" paketiyle aynı hesap çekirdeğini kullanır; hukuk bürosu
 > sekreterliği için ayrıca listelenmiştir.

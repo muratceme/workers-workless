@@ -1,5 +1,5 @@
 """
-Tedarikçi Performans Değerlendirme — Workers / Workless kod bloğu
+Tedarikçi Performans Değerlendirme — Gerisi Bende kod bloğu
 Satın Alma › Satın Alma Uzmanı
 
 Teslimat kayıtlarından tedarikçi karnesi hazırlar:

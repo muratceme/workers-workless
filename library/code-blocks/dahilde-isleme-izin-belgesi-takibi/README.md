@@ -1,6 +1,6 @@
 # Dahilde İşleme İzin Belgesi Takibi · Kod Bloğu
 
-> Dış Ticaret › Dış Ticaret Uzmanı · Workers / Workless
+> Dış Ticaret › Dış Ticaret Uzmanı · Gerisi Bende
 
 Dahilde işleme izin belgelerinizin (DİİB) **ithalat izni ve ihracat taahhüdü gerçekleşmesini, kalan miktarları,
 süre sonunu ve kapatma başvurusu için son günü** tek tabloda izler. Beyanname listesini belge satırlarıyla

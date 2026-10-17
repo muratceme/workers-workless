@@ -1,5 +1,5 @@
 """
-Pazarlama Bütçesi Takibi — Workers / Workless kod bloğu
+Pazarlama Bütçesi Takibi — Gerisi Bende kod bloğu
 Pazarlama › Pazarlama Müdürü
 
 Kanal ve kampanya bazında pazarlama bütçesini, harcamayı ve getiriyi izler.

@@ -1,6 +1,6 @@
 # Acente Performans Karnesi · Kod Bloğu
 
-> Satış ve Acente Yönetimi › Bölge Satış Yöneticisi · Workers / Workless
+> Satış ve Acente Yönetimi › Bölge Satış Yöneticisi · Gerisi Bende
 
 Acente bazında **üretim, büyüme, hasar/prim, tahsilat ve yenileme** göstergelerini hesaplar, puana çevirir ve
 acenteleri karşılaştırmalı bir karnede sıralar. İnternete bağlanmaz.

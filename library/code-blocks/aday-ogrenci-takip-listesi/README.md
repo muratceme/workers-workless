@@ -1,6 +1,6 @@
 # Aday Öğrenci Takip Listesi · Kod Bloğu
 
-> Kayıt Kabul ve Öğrenci İşleri › Kayıt Kabul Sorumlusu · Workers / Workless
+> Kayıt Kabul ve Öğrenci İşleri › Kayıt Kabul Sorumlusu · Gerisi Bende
 
 Kayıt görüşmesi yapılan aday öğrencileri **aşama, kademe, kaynak ve takip tarihine** göre izler. Takibi gelmiş ya da unutulmuş
 adayları listeler; aşama hunisini, kademe ve kaynak bazında **dönüşüm oranlarını** ve kayıp nedenlerini çıkarır. İnternete ve

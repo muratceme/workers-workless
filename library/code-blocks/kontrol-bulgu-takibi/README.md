@@ -1,6 +1,6 @@
 # Kontrol Bulgu Takibi · Kod Bloğu
 
-> İç Kontrol ve Risk Yönetimi › İç Kontrol Uzmanı · Workers / Workless
+> İç Kontrol ve Risk Yönetimi › İç Kontrol Uzmanı · Gerisi Bende
 
 İç kontrol bulgularını **termin, birim ve önem derecesine göre** izler: gecikmiş, termini yaklaşan, termini birkaç kez
 ertelenmiş ve tekrar eden bulguları öne çıkarır; kapanma oranlarını ve açık bulguların yaşını raporlar. İnternete

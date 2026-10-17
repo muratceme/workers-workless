@@ -1,6 +1,6 @@
 # Malzeme Talep ve Sevk Takibi · Kod Bloğu
 
-> Şantiye › Şantiye Şefi · Workers / Workless
+> Şantiye › Şantiye Şefi · Gerisi Bende
 
 Şantiye malzeme taleplerini **sipariş ve teslim durumuyla** birlikte izler; ihtiyaç tarihi geçen, termini ihtiyaçtan
 sonraya verilen ve henüz siparişi verilmemiş kalemleri **imalatı geciktirecek riskler** olarak öne çıkarır;

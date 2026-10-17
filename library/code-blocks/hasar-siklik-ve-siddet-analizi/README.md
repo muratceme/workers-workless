@@ -1,6 +1,6 @@
 # Hasar Sıklık ve Şiddet Analizi · Kod Bloğu
 
-> Sigortacılık › Aktüerya › Aktüerya Uzmanı · Workers / Workless
+> Sigortacılık › Aktüerya › Aktüerya Uzmanı · Gerisi Bende
 
 Poliçe ve hasar dökümünden dönem ve segment bazında (araç tipi, bölge, ürün…) **hasar sıklığı, şiddeti, saf prim
 ve hasar/prim oranı** hesaplar. Fiyatlama ve portföy analizinin temel tablosudur. İnternete bağlanmaz.

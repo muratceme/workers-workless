@@ -1,5 +1,5 @@
 """
-Brüt-Net Maaş Hesaplama — Workers / Workless kod bloğu
+Brüt-Net Maaş Hesaplama — Gerisi Bende kod bloğu
 İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı (ayrıca: Mali Müşavirlik › Bordro Elemanı)
 
 Türkiye'nin güncel yıl parametreleriyle (SGK, işsizlik, gelir vergisi tarifesi, asgari ücret

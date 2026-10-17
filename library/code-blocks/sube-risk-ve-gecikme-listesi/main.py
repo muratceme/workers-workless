@@ -1,5 +1,5 @@
 """
-Şube Risk ve Gecikme Listesi — Workers / Workless kod bloğu
+Şube Risk ve Gecikme Listesi — Gerisi Bende kod bloğu
 Şube Bankacılığı › Şube Müdürü
 
 Şube portföyündeki gecikmeye düşen ve erken uyarı veren kredileri tutar ve gün bazında önceliklendirir.

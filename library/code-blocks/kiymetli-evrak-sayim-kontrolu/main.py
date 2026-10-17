@@ -1,5 +1,5 @@
 """
-Kıymetli Evrak Sayım Kontrolü — Workers / Workless kod bloğu
+Kıymetli Evrak Sayım Kontrolü — Gerisi Bende kod bloğu
 Şube Bankacılığı › Şube Operasyon Yöneticisi
 
 Kıymetli evrak (çek karnesi, kart, teminat mektubu formu) sayımını kayıtlarla karşılaştırır; seri numarası farklarını listeler.

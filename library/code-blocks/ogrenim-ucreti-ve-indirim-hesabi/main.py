@@ -1,5 +1,5 @@
 """
-Öğrenim Ücreti ve İndirim Hesabı — Workers / Workless kod bloğu
+Öğrenim Ücreti ve İndirim Hesabı — Gerisi Bende kod bloğu
 Kayıt Kabul ve Öğrenci İşleri › Öğrenci İşleri Sorumlusu
 Okulun ücret ve indirim kurallarına göre öğrenci bazında net öğrenim ücretini ve taksit planını hesaplar.
   Brüt ücret   = ücret tablosunda öğrencinin kademe / sınıfına ait yıllık ücret

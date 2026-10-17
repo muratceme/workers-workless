@@ -1,5 +1,5 @@
 """
-Ürün Maliyeti Hesaplama — Workers / Workless kod bloğu
+Ürün Maliyeti Hesaplama — Gerisi Bende kod bloğu
 Muhasebe › Maliyet Muhasebesi Uzmanı
 
 Çok seviyeli reçete (ürün ağacı) ve rota üzerinden ürün birim maliyetini hesaplar:

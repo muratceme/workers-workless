@@ -1,6 +1,6 @@
 # Hata Türü Pareto Analizi · Kod Bloğu
 
-> Kalite Kontrol › Kalite Kontrol Şefi · Workers / Workless
+> Kalite Kontrol › Kalite Kontrol Şefi · Gerisi Bende
 
 Ara ve final kontrol hata kayıtlarını **hata türü, operasyon ve hat bazında Pareto analizine** tabi tutar; hataların
 çoğunu oluşturan az sayıdaki türü ve operasyonu gösterir, kontrol adetleri verilirse hat bazında hata oranını

@@ -1,5 +1,5 @@
 """
-Çek Takas Kontrol Listesi — Workers / Workless kod bloğu
+Çek Takas Kontrol Listesi — Gerisi Bende kod bloğu
 Şube Bankacılığı › Operasyon Yetkilisi
 
 Takasa verilecek ve takastan gelen çeklerde keşide tarihi, ibraz süresi, karekod, ciro silsilesi, imza ve tutar tutarlılığını kontrol eder.

@@ -1,6 +1,6 @@
 # Uygunsuzluk Kaydı Yazımı · AI Agent
 
-> Üretim › Kalite Kontrol Elemanı · Workers / Workless
+> Üretim › Kalite Kontrol Elemanı · Gerisi Bende
 
 Kalite kontrolcünün sahada aldığı kısa notları **standart uygunsuzluk (NCR) kaydına** çevirir. Notlar üretim hattından,
 şantiyeden, laboratuvardan ya da final kontrolden gelebilir. Kayıt şunları içerir: nesnel hata tanımı, ürün ve parti,

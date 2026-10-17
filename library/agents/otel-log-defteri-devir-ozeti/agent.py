@@ -1,5 +1,5 @@
 """
-Otel Log Defteri Devir Özeti — Workers / Workless AI Agent
+Otel Log Defteri Devir Özeti — Gerisi Bende AI Agent
 Otel Ön Büro › Night Auditor (Kat Şefi de kullanır)
 
 Gece / vardiya log defteri kayıtlarını, gelen vardiyanın ve departmanların okuyacağı devir notuna çevirir: açık konular

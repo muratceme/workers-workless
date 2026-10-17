@@ -1,5 +1,5 @@
 """
-Menü Mühendisliği Analizi — Workers / Workless kod bloğu
+Menü Mühendisliği Analizi — Gerisi Bende kod bloğu
 Yiyecek ve İçecek › Yiyecek İçecek Müdürü
 
 Satış adetleri ve katkı paylarından menü kalemlerini yıldız, at, bulmaca ve köpek olarak sınıflandırır (Kasavana-Smith yöntemi), aksiyon önerir.

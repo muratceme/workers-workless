@@ -1,6 +1,6 @@
 # Günlük Likidite Raporu · Kod Bloğu
 
-> Hazine ve Aktif-Pasif Yönetimi › Hazine Uzmanı · Workers / Workless
+> Hazine ve Aktif-Pasif Yönetimi › Hazine Uzmanı · Gerisi Bende
 
 Vadesi gelen varlık ve yükümlülüklerin nakit akışlarından, **para birimi bazında günlük ve haftalık** likidite açığı /
 fazlası tablosunu hazırlar. Basit bir stres senaryosunu yan yana gösterir. İnternete bağlanmaz.

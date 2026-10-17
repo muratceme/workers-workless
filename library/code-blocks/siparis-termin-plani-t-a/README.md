@@ -1,6 +1,6 @@
 # Sipariş Termin Planı (T&A) · Kod Bloğu
 
-> Tekstil ve Konfeksiyon › Müşteri Temsilciliği (Merchandising) › Production Merchandiser · Workers / Workless
+> Tekstil ve Konfeksiyon › Müşteri Temsilciliği (Merchandising) › Production Merchandiser · Gerisi Bende
 
 Sipariş sevk (ex-factory) tarihinden **geriye doğru** Time & Action (T&A) planı çıkarır. Planda lab dip, kumaş,
 aksesuar, PP numune, kesim, dikim, ütü-paket ve final kontrol aşamaları yer alır. Gerçekleşen tarihlerle

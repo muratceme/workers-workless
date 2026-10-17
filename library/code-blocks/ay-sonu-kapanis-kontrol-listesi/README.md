@@ -1,6 +1,6 @@
 # Ay Sonu Kapanış Kontrol Listesi · Kod Bloğu
 
-> Muhasebe › Genel Muhasebe Uzmanı · Workers / Workless
+> Muhasebe › Genel Muhasebe Uzmanı · Gerisi Bende
 
 Kapanış adımlarınızı **hedef gün, sorumlu, önkoşul ve durumla** izler: hangi adım gecikti, hangisi bugün bitmeli,
 hangisi başka bir adımı bekliyor, şu an hangileri yapılabilir. İnternete bağlanmaz.

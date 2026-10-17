@@ -1,6 +1,6 @@
 # Konteyner Demuraj ve Detention Takibi · Kod Bloğu
 
-> Deniz ve Hava Yolu Operasyon › Denizyolu Operasyon Uzmanı · Workers / Workless
+> Deniz ve Hava Yolu Operasyon › Denizyolu Operasyon Uzmanı · Gerisi Bende
 
 Konteynerlerin **limanda bekleme (demuraj) ve iade (detention) sürelerini serbest gün kurallarıyla** izler, oluşan ve
 işlemekte olan masrafı hesaplar. İnternete bağlanmaz.

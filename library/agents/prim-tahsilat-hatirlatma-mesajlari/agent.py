@@ -1,5 +1,5 @@
 """
-Prim Tahsilat Hatırlatma Mesajları — Workers / Workless AI Agent
+Prim Tahsilat Hatırlatma Mesajları — Gerisi Bende AI Agent
 Sigorta Tahsilat › Tahsilat Uzmanı (Acente Destek Uzmanı da kullanır)
 
 Vadesi geçmiş prim taksitleri için sigortalıya (poliçe başına) ya da acenteye (acente başına) hatırlatma e-postası /

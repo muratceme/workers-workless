@@ -1,6 +1,6 @@
 # SKS Öz Değerlendirme Takibi · Kod Bloğu
 
-> Kalite Yönetimi › Kalite Birim Sorumlusu · Workers / Workless
+> Kalite Yönetimi › Kalite Birim Sorumlusu · Gerisi Bende
 
 Sağlıkta Kalite Standartları (SKS) **öz değerlendirme sonuçlarını** birim ve bölüm bazında puanlar; kısmen ya da hiç
 karşılanmayan standartları ve **eksik / güncel olmayan dokümanları** sorumlu ve terminle aksiyon listesine çevirir.

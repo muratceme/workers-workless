@@ -1,5 +1,5 @@
 """
-Destek Talebi Sınıflandırma — Workers / Workless AI Agent
+Destek Talebi Sınıflandırma — Gerisi Bende AI Agent
 Bilgi Teknolojileri › BT Destek Uzmanı
 
 1. Kod talepleri okur, güvenlik olayı belirtilerini (oltalama, şifre girme, virüs, fidye yazılımı, şüpheli

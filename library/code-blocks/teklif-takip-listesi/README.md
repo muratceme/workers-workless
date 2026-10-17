@@ -1,6 +1,6 @@
 # Teklif Takip Listesi · Kod Bloğu
 
-> Satış › Satış Destek Uzmanı · Workers / Workless
+> Satış › Satış Destek Uzmanı · Gerisi Bende
 
 Verdiğiniz tekliflerin listesinden **bugün aranması gerekenleri** öne alır; geçerliliği dolan ve uzun süredir
 takip edilmeyen teklifleri işaretler, dönüşüm oranını temsilci bazında hesaplar. İnternete bağlanmaz.

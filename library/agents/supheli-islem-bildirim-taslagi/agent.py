@@ -1,5 +1,5 @@
 """
-Şüpheli İşlem Bildirim Taslağı — Workers / Workless AI Agent
+Şüpheli İşlem Bildirim Taslağı — Gerisi Bende AI Agent
 Kurumsal Uyum › Uyum Uzmanı
 
 1. Kod işlem dökümünü ve inceleme notunu okur. Müşteri adı {MUSTERI}, karşı taraflar {KT1}, {KT2} … diye kodlanır;

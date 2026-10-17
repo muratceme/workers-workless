@@ -1,5 +1,5 @@
 """
-Banka Limit ve Risk Raporu — Workers / Workless kod bloğu
+Banka Limit ve Risk Raporu — Gerisi Bende kod bloğu
 Finans › Finans Uzmanı
 
 Banka bazında kredi limitlerini, kullanımları, teminatları ve faiz oranlarını tek tabloda toplar.

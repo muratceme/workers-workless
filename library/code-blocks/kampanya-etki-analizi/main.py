@@ -1,5 +1,5 @@
 """
-Kampanya Etki Analizi — Workers / Workless kod bloğu
+Kampanya Etki Analizi — Gerisi Bende kod bloğu
 Satın Alma ve Kategori Yönetimi › Kategori Uzmanı
 
 Kampanya dönemindeki ek satışı (uplift), kanibalizasyonu ve kampanya kârlılığını hesaplar.

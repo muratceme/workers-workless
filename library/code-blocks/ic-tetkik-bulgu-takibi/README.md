@@ -1,6 +1,6 @@
 # İç Tetkik Bulgu Takibi · Kod Bloğu
 
-> Kalite Güvence ve Kalite Kontrol › Kalite Müdürü · Workers / Workless
+> Kalite Güvence ve Kalite Kontrol › Kalite Müdürü · Gerisi Bende
 
 ISO 9001 iç tetkik bulgularını **madde, birim ve kapanış durumuna** göre takip eder. Termini geçen uygunsuzlukları, kök nedeni ya
 da düzeltici faaliyeti yazılmadan kapatılanları, etkinliği doğrulanmamış faaliyetleri ve **farklı tetkiklerde tekrar eden**

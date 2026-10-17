@@ -1,6 +1,6 @@
 # Rücu Potansiyeli Tespiti · Kod Bloğu
 
-> Hasar Yönetimi › Rücu Uzmanı · Workers / Workless
+> Hasar Yönetimi › Rücu Uzmanı · Gerisi Bende
 
 Ödenen hasar dosyalarını **karşı tarafın kusur oranı, kimliği ve sigortacısına** göre tarar; rücu edilebilir dosyaları,
 kalan tutarları ve iç takip tarihlerini listeler. İnternete bağlanmaz.

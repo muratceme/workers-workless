@@ -1,6 +1,6 @@
 # KDV Beyannamesi Ön Kontrolü · Kod Bloğu
 
-> Muhasebe › Genel Muhasebe Uzmanı · Workers / Workless
+> Muhasebe › Genel Muhasebe Uzmanı · Gerisi Bende
 
 Satış ve alış fatura listelerini, mizanı ve hazırlanan KDV beyannamesi tutarlarını karşılaştırır. Uyumsuzlukları
 beyanname verilmeden önce yakalar. İnternete bağlanmaz.

@@ -1,6 +1,6 @@
 # Müşteri Yorumları (Fit Comments) Özeti · AI Agent
 
-> Müşteri Temsilciliği (Merchandising) › Development Merchandiser · Workers / Workless
+> Müşteri Temsilciliği (Merchandising) › Development Merchandiser · Gerisi Bende
 
 Müşterinin fit ve numune yorum e-postasını modelhane, kalıp, kumaş, baskı ve üretim ekipleri için **Türkçe, madde madde
 aksiyon listesine** çevirir. Her madde e-postadaki satıra dayanır; ölçü değişiklikleri e-postada yazan değerlerle aktarılır,

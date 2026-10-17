@@ -1,5 +1,5 @@
 """
-Kanallar Arası Stok ve Fiyat Kontrolü — Workers / Workless kod bloğu
+Kanallar Arası Stok ve Fiyat Kontrolü — Gerisi Bende kod bloğu
 Pazaryeri Yönetimi › Pazaryeri Uzmanı
 
 Farklı satış kanallarındaki stok ve fiyatları merkezi listeyle karşılaştırıp uyumsuzlukları listeler.

@@ -1,6 +1,6 @@
 # Poliçe Üretim Kontrolü · Kod Bloğu
 
-> Teknik (Risk Kabul / Underwriting) › Teknik Uzman Yardımcısı · Workers / Workless
+> Teknik (Risk Kabul / Underwriting) › Teknik Uzman Yardımcısı · Gerisi Bende
 
 Üretilen poliçeleri **onaylı tekliflerle** teminat satırı düzeyinde karşılaştırır; teminat, bedel, prim, muafiyet,
 tarih ve özel şart uyumsuzluklarını listeler. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-CV Raporlama — Workers / Workless AI Agent
+CV Raporlama — Gerisi Bende AI Agent
 İnsan Kaynakları › İK Uzmanı
 
 Kod bloğu sürümünün dosya okuyucularını kullanır; her CV'yi yapay zekâ ile

@@ -1,6 +1,6 @@
 # Hizmet Alımı Fatura Kontrolü · Kod Bloğu
 
-> İdari İşler › İdari İşler Sorumlusu · Workers / Workless
+> İdari İşler › İdari İşler Sorumlusu · Gerisi Bende
 
 Yemek, servis, temizlik ve güvenlik gibi hizmet alımı faturalarını **sözleşme birim fiyatı** ve **fiilî kullanım**
 ile karşılaştırır. Kullanım kaynakları yemek kartı, servis yoklaması, puantaj ve nöbet çizelgesidir. Fazla

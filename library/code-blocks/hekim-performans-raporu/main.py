@@ -1,5 +1,5 @@
 """
-Hekim Performans Raporu — Workers / Workless kod bloğu
+Hekim Performans Raporu — Gerisi Bende kod bloğu
 Hastane Yönetimi › Hastane Müdürü
 Hekim bazında muayene, ameliyat, yatış ve gelir göstergelerini raporlar; her hekimi kendi bölümünün ortalamasıyla karşılaştırır.
   Çalışma günü        = Çalışma Günü sütunu; yoksa hekimin kaydı olan farklı gün sayısı

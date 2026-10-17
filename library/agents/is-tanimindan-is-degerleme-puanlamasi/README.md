@@ -1,6 +1,6 @@
 # İş Tanımından İş Değerleme Puanlaması · AI Agent
 
-> İnsan Kaynakları › Ücretlendirme ve Yan Haklar Uzmanı · Workers / Workless
+> İnsan Kaynakları › Ücretlendirme ve Yan Haklar Uzmanı · Gerisi Bende
 
 Serbest metin iş tanımlarını şirketinizin **puan faktör planına** göre değerlendirir:
 - model her faktör için plandaki düzeylerden birini seçer ve iş tanımındaki kanıt cümlesini aynen yazar,

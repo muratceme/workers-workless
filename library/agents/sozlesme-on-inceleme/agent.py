@@ -1,5 +1,5 @@
 """
-Sözleşme Ön İnceleme — Workers / Workless AI Agent
+Sözleşme Ön İnceleme — Gerisi Bende AI Agent
 Hukuk › Avukat
 
 1. Sözleşme (.docx, .pdf, .txt) okunur ve kodla maddelere bölünür; her madde konu anahtar kelimeleriyle

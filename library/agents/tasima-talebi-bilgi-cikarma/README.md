@@ -1,6 +1,6 @@
 # Taşıma Talebi Bilgi Çıkarma · AI Agent
 
-> Lojistik › Havayolu Operasyon Uzmanı · Workers / Workless
+> Lojistik › Havayolu Operasyon Uzmanı · Gerisi Bende
 
 Müşterilerden ya da iç birimlerden e-postayla gelen **taşıma taleplerini** teklif ve planlama tablolarına aktarır:
 - hava / deniz **navlun teklif talepleri** → kap listesi (adet, ölçü, ağırlık),

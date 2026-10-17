@@ -1,6 +1,6 @@
 # Mülakat Takvimi Planlama · Kod Bloğu
 
-> İnsan Kaynakları › İnsan Kaynakları Uzman Yardımcısı · Workers / Workless
+> İnsan Kaynakları › İnsan Kaynakları Uzman Yardımcısı · Gerisi Bende
 
 Aday ve mülakatçı müsaitliklerini eşleştirir; çakışmasız bir mülakat takvimi ve davet listesi çıkarır. Takvime
 eklenebilen bir `.ics` dosyası da üretir. İnternete bağlanmaz.

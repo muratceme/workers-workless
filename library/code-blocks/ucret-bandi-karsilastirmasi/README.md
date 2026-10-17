@@ -1,6 +1,6 @@
 # Ücret Bandı Karşılaştırması · Kod Bloğu
 
-> İnsan Kaynakları › Ücretlendirme ve Yan Haklar Uzmanı · Workers / Workless
+> İnsan Kaynakları › Ücretlendirme ve Yan Haklar Uzmanı · Gerisi Bende
 
 İç ücret verisini kademe veya pozisyon bazında ücret araştırması bantlarıyla kıyaslar. Bant dışı çalışanları,
 asgari ücret altını ve ücret sıkışmasını işaretler. Bant altındakileri banda çekmenin maliyetini hesaplar.

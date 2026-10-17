@@ -1,6 +1,6 @@
 # Müşteri Memnuniyeti (CSI) Analizi · Kod Bloğu
 
-> Satış Sonrası Hizmetler (Servis) › Satış Sonrası Hizmetler Müdürü · Workers / Workless
+> Satış Sonrası Hizmetler (Servis) › Satış Sonrası Hizmetler Müdürü · Gerisi Bende
 
 Servis memnuniyet anketlerini **danışman, iş türü ve ay** bazında analiz eder: ortalama puan, en üst kutu oranı, NPS ve soru
 bazında ortalamalar. Düşük puanlı anketleri (önce geri arama isteyenler) **geri arama listesine** alır. İnternete, marka

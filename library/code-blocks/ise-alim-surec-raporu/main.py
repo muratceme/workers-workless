@@ -1,5 +1,5 @@
 """
-İşe Alım Süreç Raporu — Workers / Workless kod bloğu
+İşe Alım Süreç Raporu — Gerisi Bende kod bloğu
 İnsan Kaynakları › İşe Alım Uzmanı
 
 Aday takip listesinden açık pozisyonların aşama dağılımını, bekleme sürelerini, kaynak kanal kırılımını ve işe alım süresini raporlar.

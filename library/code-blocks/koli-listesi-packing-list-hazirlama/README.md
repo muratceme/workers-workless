@@ -1,6 +1,6 @@
 # Koli Listesi (Packing List) Hazırlama · Kod Bloğu
 
-> Tekstil ve Konfeksiyon › Ütü-Paket ve Sevkiyat › Sevkiyat Sorumlusu · Workers / Workless
+> Tekstil ve Konfeksiyon › Ütü-Paket ve Sevkiyat › Sevkiyat Sorumlusu · Gerisi Bende
 
 Sevk edilecek adetlerden (sipariş × model × renk × beden) **koli planı** ve ihracata uygun, Türkçe-İngilizce
 **packing list** hazırlar. Her koli için etiket listesi de üretir. İnternete bağlanmaz.

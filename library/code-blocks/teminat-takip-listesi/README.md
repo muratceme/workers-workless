@@ -1,6 +1,6 @@
 # Teminat Takip Listesi · Kod Bloğu
 
-> Şube Bankacılığı › Ticari Portföy Yöneticisi · Workers / Workless
+> Şube Bankacılığı › Ticari Portföy Yöneticisi · Gerisi Bende
 
 Kredi teminatlarının **geçerlilik, ekspertiz yenileme ve sigorta tarihlerini** izler; müşteri bazında teminatın
 krediyi ne ölçüde karşıladığını ve teminat açığını hesaplar. İnternete bağlanmaz.

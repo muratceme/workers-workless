@@ -1,5 +1,5 @@
 """
-Şüpheli İşlem Senaryo Taraması — Workers / Workless kod bloğu
+Şüpheli İşlem Senaryo Taraması — Gerisi Bende kod bloğu
 Bankacılık › Kurumsal Uyum › Uyum Uzmanı
 
 İşlem verisini yapılandırılabilir senaryolarla tarar ve uyum biriminin inceleyeceği bir alarm listesi çıkarır.

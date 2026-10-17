@@ -1,5 +1,5 @@
 """
-Rapor Yorum ve Aksiyon Notu — Workers / Workless AI Agent
+Rapor Yorum ve Aksiyon Notu — Gerisi Bende AI Agent
 Yönetim raporları (çok sektörlü)
 
 Bir Excel raporundan (sitedeki kod bloklarının çıktıları ya da kendi raporunuz) yönetici için kısa bir yorum notu yazar:

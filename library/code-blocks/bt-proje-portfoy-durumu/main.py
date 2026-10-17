@@ -1,5 +1,5 @@
 """
-BT Proje Portföy Durumu — Workers / Workless kod bloğu
+BT Proje Portföy Durumu — Gerisi Bende kod bloğu
 Bilgi Teknolojileri › BT Müdürü
 
 Projelerin takvim, bütçe ve risk durumunu kazanılmış değer yöntemiyle tek yönetim tablosunda toplar.

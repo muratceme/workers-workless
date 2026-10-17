@@ -1,5 +1,5 @@
 """
-İcra Dosyası Faiz ve Alacak Hesabı — Workers / Workless kod bloğu
+İcra Dosyası Faiz ve Alacak Hesabı — Gerisi Bende kod bloğu
 İcra Takip › İcra Takip Elemanı (Avukat Katibi)
 
 Asıl alacak, faiz başlangıcı ve faiz türüne göre dönemsel oranlarla işlemiş faizi, kısmi ödemelerin mahsubunu ve güncel borcu hesaplar.

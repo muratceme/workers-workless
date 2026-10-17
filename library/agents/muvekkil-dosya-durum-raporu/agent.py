@@ -1,5 +1,5 @@
 """
-Müvekkil Dosya Durum Raporu — Workers / Workless AI Agent
+Müvekkil Dosya Durum Raporu — Gerisi Bende AI Agent
 Dava Takip › Avukat (Büro)
 
 1. Kod dosya listesini okur (Dosya No; Müvekkil; Tür; Mahkeme / Daire; Esas No; Karşı Taraf; Son İşlem Tarihi; Son İşlem;

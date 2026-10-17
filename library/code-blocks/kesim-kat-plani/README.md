@@ -1,6 +1,6 @@
 # Kesim Kat Planı · Kod Bloğu
 
-> Tekstil ve Konfeksiyon › Planlama › Planlama Uzmanı · Workers / Workless
+> Tekstil ve Konfeksiyon › Planlama › Planlama Uzmanı · Gerisi Bende
 
 Sipariş beden dağılımından **pastal (marker) oranlarını** ve **kat adetlerini** çıkarır. Örnek bir pastal:
 S×1 · M×2 · L×2 · XL×1 × 80 kat. Beden tüketimi verilirse pastal boylarını ve kumaş ihtiyacını hesaplar.

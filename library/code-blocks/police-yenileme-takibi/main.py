@@ -1,5 +1,5 @@
 """
-Poliçe Yenileme Takibi — Workers / Workless kod bloğu
+Poliçe Yenileme Takibi — Gerisi Bende kod bloğu
 Teknik ve Operasyon › Sigorta Uzmanı
 
 Vadesi yaklaşan poliçeleri listeler ve müşteri başına tek bir yenileme hatırlatma mesajı hazırlar.

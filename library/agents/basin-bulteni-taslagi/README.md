@@ -1,6 +1,6 @@
 # Basın Bülteni Taslağı · AI Agent
 
-> Pazarlama › Pazarlama Müdürü · Workers / Workless
+> Pazarlama › Pazarlama Müdürü · Gerisi Bende
 
 Onaylı bilgi notundan **kurumsal dilde basın bülteni taslağı** hazırlar. Rakamlar, alıntılar ve iddialar bilgi notuyla
 karşılaştırılır: **alıntı uydurulamaz, abartılı iddia eklenemez.**

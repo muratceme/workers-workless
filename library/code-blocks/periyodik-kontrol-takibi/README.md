@@ -1,6 +1,6 @@
 # Periyodik Kontrol Takibi · Kod Bloğu
 
-> İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı · Workers / Workless
+> İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı · Gerisi Bende
 
 Kaldırma ekipmanı, basınçlı kap, elektrik tesisatı, yangın ekipmanı gibi iş ekipmanlarının **periyodik kontrol
 tarihlerini** izler: süresi geçmiş, yaklaşan ve hiç kontrol edilmemiş ekipmanı listeler, aylık kontrol planını

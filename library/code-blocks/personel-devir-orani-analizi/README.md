@@ -1,6 +1,6 @@
 # Personel Devir Oranı Analizi · Kod Bloğu
 
-> İnsan Kaynakları › İnsan Kaynakları Müdürü · Workers / Workless
+> İnsan Kaynakları › İnsan Kaynakları Müdürü · Gerisi Bende
 
 Giriş-çıkış verisinden personel devir (turnover) oranlarını hesaplar. Departman, yönetici ve kıdem bazında
 kırılım verir; erken ayrılma sinyallerini çıkarır. İnternete bağlanmaz.

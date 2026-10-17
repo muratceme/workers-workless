@@ -1,5 +1,5 @@
 """
-Reçete Maliyet Hesaplama — Workers / Workless kod bloğu
+Reçete Maliyet Hesaplama — Gerisi Bende kod bloğu
 Ar-Ge ve Ürün Geliştirme › Ar-Ge Uzmanı
 
 Reçete bileşen miktarları, hammadde fiyatları ve fire oranlarından kilogram ve ambalaj başına hammadde maliyetini hesaplar.

@@ -1,5 +1,5 @@
 """
-SPC Kontrol Grafiği ve Cp/Cpk — Workers / Workless kod bloğu
+SPC Kontrol Grafiği ve Cp/Cpk — Gerisi Bende kod bloğu
 Üretim › Kalite Mühendisi
 
 Alt grup ölçümlerinden X̄-R kontrol grafiği sınırlarını, kontrol dışı noktaları (Nelson kuralları)

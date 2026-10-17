@@ -1,6 +1,6 @@
 # Risk Değerlendirmesi (Fine-Kinney) · Kod Bloğu
 
-> İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı · Workers / Workless
+> İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı · Gerisi Bende
 
 Tehlike listesinden Fine-Kinney risk skorunu (**R = Olasılık × Frekans × Şiddet**) ve risk sınıfını
 hesaplar; sonucu sınıfa göre renklendirilmiş, en yüksek riskten başlayarak sıralanmış bir Excel

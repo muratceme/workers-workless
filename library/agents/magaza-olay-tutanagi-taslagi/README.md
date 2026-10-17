@@ -1,6 +1,6 @@
 # Mağaza Olay Tutanağı Taslağı · AI Agent
 
-> Perakende Mağaza › Kasa Sorumlusu · Workers / Workless
+> Perakende Mağaza › Kasa Sorumlusu · Gerisi Bende
 
 Kasa farkı, hırsızlık şüphesi, hasarlı / kayıp ürün ve iade usulsüzlüğü şüphesi gibi mağaza olaylarının kısa notlarından
 **nesnel, imzaya hazır olay tutanağı taslağı** hazırlar. Tutanak kimseyi suçlamaz; suçlayıcı ifadeleri kod engeller.

@@ -1,6 +1,6 @@
 # Geri Çağırma Kampanyası Araç Eşleştirme · Kod Bloğu
 
-> Satış Sonrası Hizmetler (Servis) › Garanti Uzmanı · Workers / Workless
+> Satış Sonrası Hizmetler (Servis) › Garanti Uzmanı · Gerisi Bende
 
 Markanın gönderdiği **geri çağırma / servis kampanyası şasi listesini** servisin müşteri kayıtlarıyla eşleştirir; kampanyası
 yapılmamış araçları iletişim bilgileriyle listeler ve kampanya başladıktan sonra servise gelip işlemi **yapılmadan giden**

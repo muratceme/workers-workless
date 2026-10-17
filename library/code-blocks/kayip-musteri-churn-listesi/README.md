@@ -1,6 +1,6 @@
 # Kayıp Müşteri (Churn) Listesi · Kod Bloğu
 
-> CRM ve Sadakat Programı › CRM Uzmanı · Workers / Workless
+> CRM ve Sadakat Programı › CRM Uzmanı · Gerisi Bende
 
 Sadakat programı üyelerinin alışveriş geçmişinden **alışveriş sıklığı düşen** üyeleri bulur; değer segmentine göre
 önceliklendirir ve **ileti izni olan** üyelerle geri kazanım kampanyası listesi çıkarır. İnternete bağlanmaz.

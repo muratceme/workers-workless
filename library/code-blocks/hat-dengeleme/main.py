@@ -1,5 +1,5 @@
 """
-Hat Dengeleme — Workers / Workless kod bloğu
+Hat Dengeleme — Gerisi Bende kod bloğu
 Endüstri Mühendisliği ve Süreç Geliştirme › Endüstri Mühendisi
 
 Operasyon süreleri ve öncelik ilişkilerinden hedef çevrim süresine göre istasyon atamasını ve hat verimini hesaplar.

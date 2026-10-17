@@ -1,5 +1,5 @@
 """
-Talimat Yazısından Bilgi Çıkarma — Workers / Workless AI Agent
+Talimat Yazısından Bilgi Çıkarma — Gerisi Bende AI Agent
 Şube Bankacılığı › Gişe Yetkilisi
 
 1. Kod, talimat belgesindeki (mektup, faks, e-posta; .pdf/.docx/.txt) TR IBAN'ları bulur ve [IBAN-1], [IBAN-2] … yer

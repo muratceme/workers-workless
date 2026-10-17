@@ -1,6 +1,6 @@
 # Tahsilat ve Avukat Performans Raporu · Kod Bloğu
 
-> Krediler İzleme ve Takip › Yasal Takip Uzmanı · Workers / Workless
+> Krediler İzleme ve Takip › Yasal Takip Uzmanı · Gerisi Bende
 
 Yasal takipteki dosyaların **tahsilatını, masrafını ve net sonucunu** sözleşmeli avukat ve dosya yaşı bazında
 raporlar; uzun süredir tahsilat gelmeyen ve masrafı tahsilatını aşan dosyaları işaretler. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Çek-Senet Portföy Takibi — Workers / Workless kod bloğu
+Çek-Senet Portföy Takibi — Gerisi Bende kod bloğu
 Finans › Finans Uzmanı
 
 Alınan ve verilen çek-senetleri vade, banka, keşideci ve durum bazında izler; haftalık vade listesi çıkarır:

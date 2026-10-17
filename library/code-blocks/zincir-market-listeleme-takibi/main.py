@@ -1,5 +1,5 @@
 """
-Zincir Market Listeleme Takibi — Workers / Workless kod bloğu
+Zincir Market Listeleme Takibi — Gerisi Bende kod bloğu
 Satış ve Kanal Yönetimi › Kanal Satış Yöneticisi
 Zincir marketlerde listelenen ürünleri, raf fiyatlarını ve stoksuz mağazaları takip eder.
   Güncel durum     = her zincir · mağaza · ürün için en son ziyaret kaydı

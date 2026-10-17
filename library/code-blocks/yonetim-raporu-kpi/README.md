@@ -1,6 +1,6 @@
 # Yönetim Raporu (KPI) · Kod Bloğu
 
-> Finans › Bütçe ve Raporlama Uzmanı · Workers / Workless
+> Finans › Bütçe ve Raporlama Uzmanı · Gerisi Bende
 
 Aylık yönetim raporunun **tablo ve grafiklerini** satış verisinden ve isteğe bağlı mizandan otomatik hazırlar.
 Her ay elle güncellenen Excel sunumunun yerine geçer. İnternete bağlanmaz.

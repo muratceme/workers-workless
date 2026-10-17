@@ -1,5 +1,5 @@
 """
-Kalitesizlik Maliyeti Raporu — Workers / Workless kod bloğu
+Kalitesizlik Maliyeti Raporu — Gerisi Bende kod bloğu
 Kalite Güvence ve Kalite Kontrol › Kalite Müdürü
 
 Hurda, yeniden işleme, iade ve garanti maliyetlerini ürün ve neden bazında toplar.

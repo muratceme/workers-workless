@@ -1,5 +1,5 @@
 """
-Ürün Açıklaması Üretme — Workers / Workless AI Agent
+Ürün Açıklaması Üretme — Gerisi Bende AI Agent
 E-ticaret › Kategori ve İçerik Yönetimi › E-ticaret İçerik Uzmanı
 
 Ürün özellik tablosundan her satış kanalı için başlık, meta açıklama, ürün açıklaması, özellik maddeleri ve

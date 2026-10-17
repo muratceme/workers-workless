@@ -1,5 +1,5 @@
 """
-İhracat Evrak Kontrol Listesi — Workers / Workless kod bloğu
+İhracat Evrak Kontrol Listesi — Gerisi Bende kod bloğu
 Dış Ticaret › Dış Ticaret Uzmanı
 
 Ülke, teslim şekli, taşıma ve ödeme yöntemine göre gereken ihracat evraklarını listeler ve hazırlanan evraklardaki

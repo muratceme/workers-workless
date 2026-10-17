@@ -1,6 +1,6 @@
 # Operasyonel Risk Kayıp Veri Analizi · Kod Bloğu
 
-> İç Kontrol ve Risk Yönetimi › Risk Yönetimi Uzmanı · Workers / Workless
+> İç Kontrol ve Risk Yönetimi › Risk Yönetimi Uzmanı · Gerisi Bende
 
 Operasyonel kayıp olaylarını **olay türü ve iş kolu bazında** toplar; kaç olay yaşandığını (sıklık) ve olay başına ne
 kadar kaybedildiğini (şiddet) yan yana gösterir. İnternete bağlanmaz.

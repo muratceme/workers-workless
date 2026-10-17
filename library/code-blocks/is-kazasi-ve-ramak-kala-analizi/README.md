@@ -1,6 +1,6 @@
 # İş Kazası ve Ramak Kala Analizi · Kod Bloğu
 
-> İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı · Workers / Workless
+> İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı · Gerisi Bende
 
 Kaza ve ramak kala kayıtlarınızdan **kaza sıklık ve ağırlık oranlarını** hesaplar; olayları bölüm, neden, ay,
 haftanın günü, saat dilimi ve vardiyaya göre döker. Yıllık değerlendirme raporu ve kurul toplantısı için tablo

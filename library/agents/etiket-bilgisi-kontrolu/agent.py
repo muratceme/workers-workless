@@ -1,5 +1,5 @@
 """
-Etiket Bilgisi Kontrolü — Workers / Workless AI Agent
+Etiket Bilgisi Kontrolü — Gerisi Bende AI Agent
 Kalite Güvence ve Gıda Güvenliği › Gıda Mühendisi
 
 1. Kod etiket metnini okur (ürün adı, bileşenler, net miktar, TETT / SKT, muhafaza, üretici, işletme kayıt no, menşe,

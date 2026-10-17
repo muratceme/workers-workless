@@ -1,6 +1,6 @@
 # İcra Dosyası Faiz ve Alacak Hesabı · Kod Bloğu
 
-> İcra Takip › İcra Takip Elemanı (Avukat Katibi) · Workers / Workless
+> İcra Takip › İcra Takip Elemanı (Avukat Katibi) · Gerisi Bende
 
 Asıl alacak, faiz başlangıcı ve faiz türüne göre **dönemsel oranlarla işlemiş faizi**, kısmi ödemelerin mahsubunu ve
 **güncel borcu** hesaplar. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Karar ve İçtihat Özeti — Workers / Workless AI Agent
+Karar ve İçtihat Özeti — Gerisi Bende AI Agent
 Dava Takip › Avukat
 
 1. Kod karar metnini satır (paragraf) satır numaralar.

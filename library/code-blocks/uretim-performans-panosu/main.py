@@ -1,5 +1,5 @@
 """
-Üretim Performans Panosu — Workers / Workless kod bloğu
+Üretim Performans Panosu — Gerisi Bende kod bloğu
 Üretim › Üretim Müdürü
 
 Günlük üretim kayıtlarından OEE, plan uyumu, fire ve iş kazası göstergelerini hat ve hafta bazında tek panoda toplar.

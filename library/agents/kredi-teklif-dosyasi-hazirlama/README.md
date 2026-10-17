@@ -1,6 +1,6 @@
 # Kredi Teklif Dosyası Hazırlama · AI Agent
 
-> Bankacılık › Ticari Bankacılık › Ticari Portföy Yöneticisi · Workers / Workless
+> Bankacılık › Ticari Bankacılık › Ticari Portföy Yöneticisi · Gerisi Bende
 
 Firma bilgisi, mali tablolar, KKB/memzuç riski, istihbarat ve teminat bilgilerinden **kredi tahsis birimine
 gönderilecek teklif özetini** hazırlar.

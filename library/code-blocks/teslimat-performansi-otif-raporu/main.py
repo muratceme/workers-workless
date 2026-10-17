@@ -1,5 +1,5 @@
 """
-Teslimat Performansı (OTIF) Raporu — Workers / Workless kod bloğu
+Teslimat Performansı (OTIF) Raporu — Gerisi Bende kod bloğu
 Lojistik ve Depo › Lojistik Uzmanı
 
 Siparişlerin zamanında ve eksiksiz teslim oranını müşteri ve taşıyıcı bazında raporlar.

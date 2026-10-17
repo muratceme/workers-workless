@@ -1,6 +1,6 @@
 # Talimat Yazısından Bilgi Çıkarma · AI Agent
 
-> Şube Bankacılığı › Gişe Yetkilisi · Workers / Workless
+> Şube Bankacılığı › Gişe Yetkilisi · Gerisi Bende
 
 Mektup, faks veya e-postayla gelen **yazılı ödeme talimatlarından** gönderen, alıcı, IBAN, tutar (rakam ve yazı), para
 birimi, işlem türü, açıklama ve imzalayanları çıkarır; her ödemeyi kontrol tablosuna aktarır. Çıktının ilk sayfası

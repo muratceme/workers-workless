@@ -1,6 +1,6 @@
 # Masraf Fişi Kategorileme · Kod Bloğu
 
-> Muhasebe › Muhasebe Elemanı · Workers / Workless
+> Muhasebe › Muhasebe Elemanı · Gerisi Bende
 
 Çalışan masraf fişlerini ve kart harcamalarını sizin kural dosyanıza göre sınıflandırır. Gider hesabını, KDV
 ayrımını ve KKEG tutarını hesaplar, muhasebe kaydı önerir. Sınıflanamayan, limit aşan ve mükerrer olabilecek

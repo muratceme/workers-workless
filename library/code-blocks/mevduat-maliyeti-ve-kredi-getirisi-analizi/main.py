@@ -1,5 +1,5 @@
 """
-Mevduat Maliyeti ve Kredi Getirisi Analizi — Workers / Workless kod bloğu
+Mevduat Maliyeti ve Kredi Getirisi Analizi — Gerisi Bende kod bloğu
 Hazine ve Aktif-Pasif Yönetimi › Aktif-Pasif Yönetimi Uzmanı
 
 Ürün bazında ağırlıklı ortalama mevduat maliyetini ve kredi getirisini hesaplar; marj analizini yapar.

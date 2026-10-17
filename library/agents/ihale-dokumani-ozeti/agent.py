@@ -1,5 +1,5 @@
 """
-İhale Dokümanı Özeti — Workers / Workless AI Agent
+İhale Dokümanı Özeti — Gerisi Bende AI Agent
 İnşaat › İhale ve Teklif › İhale Mühendisi
 
 1. Kod ihale dokümanını (idari şartname, sözleşme tasarısı, teknik şartname, ilan, zeyilname; .pdf/.docx/.txt)

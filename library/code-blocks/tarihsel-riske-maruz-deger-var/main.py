@@ -1,5 +1,5 @@
 """
-Tarihsel Riske Maruz Değer (VaR) — Workers / Workless kod bloğu
+Tarihsel Riske Maruz Değer (VaR) — Gerisi Bende kod bloğu
 İç Kontrol ve Risk Yönetimi › Risk Yönetimi Uzmanı
 
 Portföy pozisyonları ve geçmiş fiyat serilerinden tarihsel simülasyonla günlük VaR ve beklenen kaybı (ES) hesaplar.

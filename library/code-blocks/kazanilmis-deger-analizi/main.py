@@ -1,5 +1,5 @@
 """
-Kazanılmış Değer Analizi — Workers / Workless kod bloğu
+Kazanılmış Değer Analizi — Gerisi Bende kod bloğu
 Planlama ve Proje Kontrol › Planlama Mühendisi
 
 Planlanan değer, kazanılmış değer ve gerçekleşen maliyetten SPI, CPI ve tamamlanma maliyet tahminini hesaplar.

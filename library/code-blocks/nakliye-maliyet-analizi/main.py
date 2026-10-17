@@ -1,5 +1,5 @@
 """
-Nakliye Maliyet Analizi — Workers / Workless kod bloğu
+Nakliye Maliyet Analizi — Gerisi Bende kod bloğu
 Lojistik ve Depo › Lojistik Uzmanı
 
 Nakliye faturalarını sefer, ağırlık ve bölge bazında analiz eder; birim taşıma maliyetini hesaplar.

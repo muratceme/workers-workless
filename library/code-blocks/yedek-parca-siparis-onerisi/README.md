@@ -1,6 +1,6 @@
 # Yedek Parça Sipariş Önerisi · Kod Bloğu
 
-> Yedek Parça › Yedek Parça Danışmanı · Workers / Workless
+> Yedek Parça › Yedek Parça Danışmanı · Gerisi Bende
 
 Parça bazında tüketim, bekleyen iş emirleri ve tedarik süresine göre **ne kadar sipariş verilmesi gerektiğini**
 önerir; acil kalemleri öne çıkarır. İnternete bağlanmaz.

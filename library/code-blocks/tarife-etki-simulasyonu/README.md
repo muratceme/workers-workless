@@ -1,6 +1,6 @@
 # Tarife Etki Simülasyonu · Kod Bloğu
 
-> Aktüerya › Aktüerya Uzmanı · Workers / Workless
+> Aktüerya › Aktüerya Uzmanı · Gerisi Bende
 
 Tarife değişikliği senaryolarını mevcut portföye uygular; **prim hacmine ve hasar/prim (H/P) oranına** etkisini
 senaryo, segment ve poliçe bazında gösterir. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Kalite Göstergeleri Hesaplama — Workers / Workless kod bloğu
+Kalite Göstergeleri Hesaplama — Gerisi Bende kod bloğu
 Kalite Yönetimi › Kalite Birim Sorumlusu
 
 Kayıtlardan SKS kalite göstergelerini (düşme, bası yarası, enfeksiyon oranı vb.) formüllerine göre dönemsel hesaplar.

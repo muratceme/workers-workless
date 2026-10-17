@@ -1,6 +1,6 @@
 # Mevzuat Değişikliği Özeti · AI Agent
 
-> Hukuk › Hukuk Müdürü · Workers / Workless
+> Hukuk › Hukuk Müdürü · Gerisi Bende
 
 Resmî Gazete'nin günlük içindekiler sayfasındaki (fihrist) düzenlemeleri şirketin faaliyet alanına göre süzer.
 İlgili düzenlemelerin tam metinlerinden **özet, değişiklikler, yapılacaklar ve yürürlük takvimi** çıkarır ve bir

@@ -1,5 +1,5 @@
 """
-Yorum Cevap Taslağı — Workers / Workless AI Agent
+Yorum Cevap Taslağı — Gerisi Bende AI Agent
 Misafir İlişkileri › Misafir İlişkileri Müdürü
 
 1. Kod otelin üslup rehberini okur (imza satırı "İmza: …"), yorumları ve misafir adlarını hazırlar.

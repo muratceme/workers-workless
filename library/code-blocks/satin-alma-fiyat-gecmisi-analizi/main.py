@@ -1,5 +1,5 @@
 """
-Satın Alma Fiyat Geçmişi Analizi — Workers / Workless kod bloğu
+Satın Alma Fiyat Geçmişi Analizi — Gerisi Bende kod bloğu
 Satın Alma › Satın Alma Uzmanı
 
 Malzeme bazında geçmiş alım fiyatlarını kur ve fiyat endeksiyle birlikte inceler, olağandışı artışları işaretler.

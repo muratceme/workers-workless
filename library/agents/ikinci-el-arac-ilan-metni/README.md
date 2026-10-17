@@ -1,6 +1,6 @@
 # İkinci El Araç İlan Metni · AI Agent
 
-> Otomotiv › Satış › İkinci El Satış Danışmanı · Workers / Workless
+> Otomotiv › Satış › İkinci El Satış Danışmanı · Gerisi Bende
 
 Araç kartı ve ekspertiz notlarından ikinci el ilan metni yazar:
 - başlık,

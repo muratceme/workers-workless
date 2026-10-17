@@ -1,5 +1,5 @@
 """
-İptal ve No-Show Analizi — Workers / Workless kod bloğu
+İptal ve No-Show Analizi — Gerisi Bende kod bloğu
 Ön Büro › Ön Büro Müdürü
 Rezervasyon iptal ve gelmeme (no-show) oranlarını kanal, oda tipi ve rezervasyon zamanlamasına göre analiz eder.
   İptal oranı %      = iptal edilen rezervasyon ÷ toplam rezervasyon × 100

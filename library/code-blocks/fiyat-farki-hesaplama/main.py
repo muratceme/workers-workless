@@ -1,5 +1,5 @@
 """
-Fiyat Farkı Hesaplama — Workers / Workless kod bloğu
+Fiyat Farkı Hesaplama — Gerisi Bende kod bloğu
 Teknik Ofis › Teknik Ofis Şefi
 
 Sözleşme katsayılarına (a, b1, b2, c...) ve TÜİK endekslerine göre dönem fiyat farkı katsayısını ve tutarını hesaplar.

@@ -1,6 +1,6 @@
 # Epikriz Taslağı · AI Agent
 
-> Tıbbi Sekreterlik › Tıbbi Sekreter · Workers / Workless
+> Tıbbi Sekreterlik › Tıbbi Sekreter · Gerisi Bende
 
 Hekim notları ve tetkik sonuçlarından **epikriz taslağı** oluşturur. Öykü, muayene, işlemler, klinik seyir, çıkış
 durumu ve öneriler bölümlerini model yazar. **Hasta kimliği, tanılar, tetkik tablosu ve çıkış ilaçları kod tarafından

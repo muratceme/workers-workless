@@ -1,5 +1,5 @@
 """
-Beton Numune ve Kırım Takibi — Workers / Workless kod bloğu
+Beton Numune ve Kırım Takibi — Gerisi Bende kod bloğu
 Şantiye › Saha Mühendisi
 Beton döküm kayıtları ve 7 / 28 günlük numune kırım sonuçlarını takip edip sınıf dayanımının altında kalanları işaretler.
   Karakteristik dayanım (fck) = beton sınıfından (C30/37): silindir numunede ilk sayı, küp numunede ikinci sayı

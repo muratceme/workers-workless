@@ -1,6 +1,6 @@
 # Proforma Fatura Hazırlama · Kod Bloğu
 
-> Dış Ticaret › Dış Ticaret Uzmanı · Workers / Workless
+> Dış Ticaret › Dış Ticaret Uzmanı · Gerisi Bende
 
 Sipariş kalemleri, ürün kartları ve teslim şekli bilgisinden İngilizce **proforma fatura** ve **çeki listesi**
 (packing list) hazırlar. Teslim şeklini Incoterms® 2020 kurallarına göre kontrol eder; GTİP, menşe, ağırlık ve banka

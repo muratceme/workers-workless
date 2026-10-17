@@ -1,5 +1,5 @@
 """
-Porsiyon Maliyeti Hesaplama — Workers / Workless kod bloğu
+Porsiyon Maliyeti Hesaplama — Gerisi Bende kod bloğu
 Yiyecek ve İçecek › Yiyecek İçecek Müdürü
 
 Standart reçete, gramaj ve güncel alış fiyatlarından menü kalemi başına porsiyon maliyetini ve maliyet oranını hesaplar.

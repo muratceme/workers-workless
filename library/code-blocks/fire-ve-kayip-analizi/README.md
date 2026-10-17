@@ -1,6 +1,6 @@
 # Fire ve Kayıp Analizi · Kod Bloğu
 
-> Mağaza Operasyonları › Mağaza Müdürü · Workers / Workless
+> Mağaza Operasyonları › Mağaza Müdürü · Gerisi Bende
 
 Fire kayıtlarını **ürün grubu ve neden bazında** analiz eder; sayım farklarını ekleyerek kayıtlı fire ile
 **bilinmeyen kaybı** ayırır ve satışa oranla kayıp oranını hesaplar. İnternete bağlanmaz.

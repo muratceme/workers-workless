@@ -1,6 +1,6 @@
 # Ürün Maliyeti Hesaplama · Kod Bloğu
 
-> Muhasebe › Maliyet Muhasebesi Uzmanı · Workers / Workless
+> Muhasebe › Maliyet Muhasebesi Uzmanı · Gerisi Bende
 
 Çok seviyeli reçete (ürün ağacı) ve rota üzerinden ürün **birim maliyetini** hesaplar. Maliyet üç bileşene ayrılır:
 direkt ilk madde ve malzeme, direkt işçilik ve genel üretim giderleri. İnternete bağlanmaz.

@@ -1,6 +1,6 @@
 # Yaptırım Listesi Taraması · Kod Bloğu
 
-> Bankacılık › Kurumsal Uyum › Uyum Uzmanı · Workers / Workless
+> Bankacılık › Kurumsal Uyum › Uyum Uzmanı · Gerisi Bende
 
 Müşteri ve karşı taraf listesini yaptırım listeleriyle **bulanık eşleştirir**. Türkçe karakterleri, yazım ve
 transliterasyon farklarını dikkate alır. Doğum tarihi ve uyrukla yanlış alarmları azaltır. İnternete bağlanmaz;

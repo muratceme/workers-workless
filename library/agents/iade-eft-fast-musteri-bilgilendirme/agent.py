@@ -1,5 +1,5 @@
 """
-İade EFT / FAST Müşteri Bilgilendirme — Workers / Workless AI Agent
+İade EFT / FAST Müşteri Bilgilendirme — Gerisi Bende AI Agent
 Bankacılık Operasyon › Ödeme Sistemleri Operasyon Uzmanı
 
 Alıcı bankadan iade gelen EFT / FAST ödemeleri için gönderen müşteriye bilgilendirme mesajı taslağı hazırlar.

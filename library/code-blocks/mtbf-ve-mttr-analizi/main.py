@@ -1,5 +1,5 @@
 """
-MTBF ve MTTR Analizi — Workers / Workless kod bloğu
+MTBF ve MTTR Analizi — Gerisi Bende kod bloğu
 Bakım Onarım › Bakım Mühendisi
 
 Arıza kayıtlarından makine bazında arızalar arası ortalama süreyi (MTBF) ve ortalama onarım süresini (MTTR) hesaplar.

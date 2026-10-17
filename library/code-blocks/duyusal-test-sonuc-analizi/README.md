@@ -1,6 +1,6 @@
 # Duyusal Test Sonuç Analizi · Kod Bloğu
 
-> Ar-Ge ve Ürün Geliştirme › Ar-Ge Uzmanı · Workers / Workless
+> Ar-Ge ve Ürün Geliştirme › Ar-Ge Uzmanı · Gerisi Bende
 
 Duyusal panel puanlarını **her özellik için** numuneler arasında **varyans analiziyle (ANOVA)** karşılaştırır; anlamlı
 fark varsa **Fisher LSD** ile hangi numunelerin ayrıştığını harf gruplarıyla gösterir; panelistlerin ölçek kullanımını

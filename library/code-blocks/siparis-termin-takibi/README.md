@@ -1,6 +1,6 @@
 # Sipariş Termin Takibi · Kod Bloğu
 
-> Satın Alma › Satın Alma Uzman Yardımcısı · Workers / Workless
+> Satın Alma › Satın Alma Uzman Yardımcısı · Gerisi Bende
 
 ERP'den alınan açık satın alma siparişlerini termin tarihine göre izler. **Geciken** ve **gecikme riski
 taşıyan** satırları tedarikçi bazında listeler. Tedarikçiye gönderilebilecek hatırlatma metni taslağı hazırlar;

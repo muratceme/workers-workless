@@ -1,6 +1,6 @@
 # Süre Uzatımı Talep Taslağı · AI Agent
 
-> İnşaat Teknik Ofis › Teknik Ofis Mühendisi · Workers / Workless
+> İnşaat Teknik Ofis › Teknik Ofis Mühendisi · Gerisi Bende
 
 Günlük şantiye raporlarındaki gecikme olaylarını sınıflar, **gün hesabını kodla yapar** ve idareye **süre uzatımı talep
 yazısı** taslağı hazırlar. Yazı yalnız kodun hesapladığı günlerle ve sizin verdiğiniz sözleşme maddeleriyle yazılır;

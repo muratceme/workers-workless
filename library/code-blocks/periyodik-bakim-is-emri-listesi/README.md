@@ -1,6 +1,6 @@
 # Periyodik Bakım İş Emri Listesi · Kod Bloğu
 
-> Bakım Onarım › Bakım Teknisyeni · Workers / Workless
+> Bakım Onarım › Bakım Teknisyeni · Gerisi Bende
 
 Bakım planından **seçilen haftanın periyodik bakım iş emirlerini** çıkarır: o hafta günü gelen ve gecikmiş bakımları
 numaralar, gereken malzemeleri toplar, gün ve sorumlu bazında iş yükünü gösterir. İnternete bağlanmaz.

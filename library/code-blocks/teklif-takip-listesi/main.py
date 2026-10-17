@@ -1,5 +1,5 @@
 """
-Teklif Takip Listesi — Workers / Workless kod bloğu
+Teklif Takip Listesi — Gerisi Bende kod bloğu
 Satış › Satış Destek Uzmanı
 
 Verilen tekliflerin durumunu, bekleme süresini ve dönüşüm oranını izler.

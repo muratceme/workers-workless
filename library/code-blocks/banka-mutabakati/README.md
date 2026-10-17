@@ -1,6 +1,6 @@
 # Banka Mutabakatı · Kod Bloğu
 
-> Finans & Muhasebe › Muhasebe Elemanı · Workers / Workless
+> Finans & Muhasebe › Muhasebe Elemanı · Gerisi Bende
 
 Banka ekstresini muhasebe defteriyle (102 Bankalar muavini) eşleştirir; eşleşenleri,
 iki taraftaki açık kalemleri ve **kural tabanlı olası nedenleri** tek Excel raporunda verir.

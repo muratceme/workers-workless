@@ -1,6 +1,6 @@
 # Sık Sorulan Sorulara Cevap Taslağı · AI Agent
 
-> Bilgi Teknolojileri › BT Destek Uzmanı · Workers / Workless
+> Bilgi Teknolojileri › BT Destek Uzmanı · Gerisi Bende
 
 Çalışanların BT hizmet masasına sorduğu sorulara (VPN, parola, yazıcı, e-posta, yazılım…) **şirketin kendi bilgi
 bankasından** cevap taslağı hazırlar. Her cevap, dayandığı bölümü gösterir. Bilgi bankasının cevaplayamadığı

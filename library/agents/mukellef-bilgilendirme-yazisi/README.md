@@ -1,6 +1,6 @@
 # Mükellef Bilgilendirme Yazısı · AI Agent
 
-> Beyanname › Serbest Muhasebeci Mali Müşavir · Workers / Workless
+> Beyanname › Serbest Muhasebeci Mali Müşavir · Gerisi Bende
 
 Mevzuat değişikliğini ya da beyan sonucunu **mükellefin anlayacağı dille açıklayan bilgilendirme yazıları** hazırlar.
 Kaynak, sizin yazdığınız konu notudur. Model notta olmayan tarih, tutar ya da madde ekleyemez. **Mükellef adı, vergi

@@ -1,5 +1,5 @@
 """
-İç Tetkik Bulgu Takibi — Workers / Workless kod bloğu
+İç Tetkik Bulgu Takibi — Gerisi Bende kod bloğu
 Kalite Güvence ve Kalite Kontrol › Kalite Müdürü
 ISO 9001 iç tetkik bulgularını madde, birim ve kapanış durumuna göre takip eder; geciken, etkinliği doğrulanmamış ve tekrar eden bulguları listeler.
   Termin        = satırdaki termin; yoksa tetkik tarihi + türe göre hedef süre (majör --major 30, minör --minor 60 gün; gözlem ve iyileştirme fırsatında termin aranmaz)

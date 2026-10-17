@@ -1,6 +1,6 @@
 # Kampanya Etki Analizi · Kod Bloğu
 
-> Satın Alma ve Kategori Yönetimi › Kategori Uzmanı · Workers / Workless
+> Satın Alma ve Kategori Yönetimi › Kategori Uzmanı · Gerisi Bende
 
 Kampanya dönemindeki **ek satışı (uplift), kanibalizasyonu ve kampanya kârlılığını** hesaplar. İnternete bağlanmaz.
 

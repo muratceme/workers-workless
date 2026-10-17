@@ -1,6 +1,6 @@
 # Teminat Mektubu Metin Kontrolü · AI Agent
 
-> Bankacılık Operasyonları › Dış Ticaret Operasyon Uzmanı · Workers / Workless
+> Bankacılık Operasyonları › Dış Ticaret Operasyon Uzmanı · Gerisi Bende
 
 Lehtarın ya da müşterinin istediği **teminat mektubu metnini bankanın standart metni ve talep formuyla karşılaştırır**.
 Lehtar, borçlu, tutar, yazıyla tutar, para birimi ve vadeyi **kod kontrol eder**. Hükümleri model cümle cümle

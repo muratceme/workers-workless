@@ -1,5 +1,5 @@
 """
-llm.py — Workers / Workless ortak yapay zekâ sağlayıcı katmanı
+llm.py — Gerisi Bende ortak yapay zekâ sağlayıcı katmanı
 
 Tüm agent'lar bu dosyayı kullanır (kaynağı: library/_ortak/llm.py; agent klasörlerindeki
 kopyalar CI tarafından bununla aynı tutulur).

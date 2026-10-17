@@ -1,6 +1,6 @@
 # Sigorta Primi Hesaplama · Kod Bloğu
 
-> Teknik (Risk Kabul / Underwriting) › Teknik Uzman (Underwriter) · Workers / Workless
+> Teknik (Risk Kabul / Underwriting) › Teknik Uzman (Underwriter) · Gerisi Bende
 
 **Sizin verdiğiniz** tarife fiyatları ve indirim-sürprim tablosuyla teminat bazında prim hesaplar; teklif bazında
 toplar. İnternete bağlanmaz. Pakette gömülü tarife yoktur.

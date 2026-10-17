@@ -1,5 +1,5 @@
 """
-Karbon Ayak İzi Hesaplama — Workers / Workless kod bloğu
+Karbon Ayak İzi Hesaplama — Gerisi Bende kod bloğu
 Sürdürülebilirlik ve Sosyal Uygunluk › Sosyal Uygunluk Uzmanı
 
 Enerji, yakıt ve malzeme tüketim verisinden kapsam bazında emisyonu ve ürün başına karbon değerini hesaplar.

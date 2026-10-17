@@ -1,5 +1,5 @@
 """
-Plan Uyum Raporu — Workers / Workless kod bloğu
+Plan Uyum Raporu — Gerisi Bende kod bloğu
 Üretim Planlama › Üretim Planlama Uzmanı
 
 Planlanan ile gerçekleşen üretimi iş emri bazında karşılaştırır; miktar ve tarih sapmalarını nedenleriyle raporlar.

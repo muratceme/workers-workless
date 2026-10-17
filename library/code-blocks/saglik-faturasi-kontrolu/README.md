@@ -1,6 +1,6 @@
 # Sağlık Faturası Kontrolü · Kod Bloğu
 
-> Sigortacılık › Sağlık Sigortaları › Provizyon Uzmanı · Workers / Workless
+> Sigortacılık › Sağlık Sigortaları › Provizyon Uzmanı · Gerisi Bende
 
 Anlaşmalı kurum faturalarını satır bazında karşılaştırır: anlaşmalı fiyat listesi, paket içerikleri ve onaylı
 provizyon. Kesinti tutarlarını, kabul edilen tutarı ve şirket / sigortalı payını hesaplar. Kuruma gönderilecek

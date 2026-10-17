@@ -1,5 +1,5 @@
 """
-Satış Hedef-Gerçekleşme Raporu — Workers / Workless kod bloğu
+Satış Hedef-Gerçekleşme Raporu — Gerisi Bende kod bloğu
 Satış › Satış Destek Uzmanı
 
 Satış hareketlerini aylık hedeflerle karşılaştırır:

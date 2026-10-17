@@ -1,6 +1,6 @@
 # Konşimento Bilgi Çıkarma · AI Agent
 
-> Deniz ve Hava Yolu Operasyon › Denizyolu Operasyon Uzmanı · Workers / Workless
+> Deniz ve Hava Yolu Operasyon › Denizyolu Operasyon Uzmanı · Gerisi Bende
 
 Konşimento (Bill of Lading) belgesinden yükleyici, alıcı, ihbar adresi, gemi / sefer, limanlar, konteynerler ve yük
 bilgilerini **yapılandırılmış kayda** (Excel + JSON) dönüştürür. Çıkarılan her bilgi kodla belgeyle karşılaştırılır;

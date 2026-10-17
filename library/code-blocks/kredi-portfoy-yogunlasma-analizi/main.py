@@ -1,5 +1,5 @@
 """
-Kredi Portföy Yoğunlaşma Analizi — Workers / Workless kod bloğu
+Kredi Portföy Yoğunlaşma Analizi — Gerisi Bende kod bloğu
 Krediler Tahsis › Kredi Tahsis Müdürü
 
 Kredi portföyünü sektör, risk grubu ve teminat türüne göre dağıtır; yoğunlaşmayı (HHI) ve limit aşımlarını raporlar.

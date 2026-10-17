@@ -1,5 +1,5 @@
 """
-Prim Alacak Yaşlandırma — Workers / Workless kod bloğu
+Prim Alacak Yaşlandırma — Gerisi Bende kod bloğu
 Tahsilat Yönetimi › Tahsilat Uzmanı
 
 Tahsil edilmemiş prim taksitlerini vade gününe göre yaşlandırır; acente ve poliçe bazında raporlar.

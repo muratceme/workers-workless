@@ -1,5 +1,5 @@
 """
-Depolama Hizmeti Faturalandırma — Workers / Workless kod bloğu
+Depolama Hizmeti Faturalandırma — Gerisi Bende kod bloğu
 Depo ve Antrepo Yönetimi › Depo Şefi
 
 Müşteri bazında palet-gün, giriş-çıkış elleçleme ve katma değerli hizmetlerden aylık depolama faturasını hesaplar.

@@ -1,5 +1,5 @@
 """
-Performans Değerlendirme Özeti — Workers / Workless AI Agent
+Performans Değerlendirme Özeti — Gerisi Bende AI Agent
 İnsan Kaynakları › İnsan Kaynakları Müdürü
 
 1. Kod, değerlendirme formlarını (hedef ve yetkinlik kalemleri, ağırlık, yönetici puanı, öz değerlendirme,

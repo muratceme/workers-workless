@@ -1,6 +1,6 @@
 # Envanter Kayıp Risk Skoru · Kod Bloğu
 
-> Kayıp Önleme › Kayıp Önleme Uzmanı · Workers / Workless
+> Kayıp Önleme › Kayıp Önleme Uzmanı · Gerisi Bende
 
 Sayım farkı, fire, iade ve iptal göstergelerinden **mağaza bazında kayıp risk skoru** üretir ve denetim önceliği
 çıkarır. İnternete bağlanmaz.

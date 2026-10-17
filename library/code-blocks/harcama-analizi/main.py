@@ -1,5 +1,5 @@
 """
-Harcama Analizi — Workers / Workless kod bloğu
+Harcama Analizi — Gerisi Bende kod bloğu
 Satın Alma › Satın Alma Müdürü
 
 Satın alma verisini kategori ve tedarikçi bazında ABC sınıflandırmasıyla analiz eder ve pazarlık önceliklerini çıkarır:

@@ -1,5 +1,5 @@
 """
-Periyodik Kontrol Takibi — Workers / Workless kod bloğu
+Periyodik Kontrol Takibi — Gerisi Bende kod bloğu
 İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı
 
 Kaldırma ekipmanı, basınçlı kap, elektrik tesisatı ve yangın ekipmanı gibi iş ekipmanlarının periyodik kontrol tarihlerini izler.

@@ -1,6 +1,6 @@
 # Randevu Doluluk ve Gelmeme Analizi · Kod Bloğu
 
-> Hasta Hizmetleri › Randevu Planlama Sorumlusu · Workers / Workless
+> Hasta Hizmetleri › Randevu Planlama Sorumlusu · Gerisi Bende
 
 Hekim ve bölüm bazında **randevu doluluk, gelmeme (no-show) ve iptal oranlarını** hesaplar; koşullar uygunsa
 **fazla randevu (overbooking) önerisi** çıkarır. İnternete bağlanmaz. Hasta kimlik bilgisi gerekmez.

@@ -1,5 +1,5 @@
 """
-bordro.py — Workers / Workless Türkiye bordro çekirdeği
+bordro.py — Gerisi Bende Türkiye bordro çekirdeği
 
 Kaynağı: library/_ortak/bordro.py (paket klasörlerindeki kopyalar CI tarafından aynı tutulur).
 Parametreler: tr_parametreler.json (yıl bazında, kaynaklı).

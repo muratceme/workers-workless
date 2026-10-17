@@ -1,5 +1,5 @@
 """
-Duruş Nedeni Pareto Analizi — Workers / Workless kod bloğu
+Duruş Nedeni Pareto Analizi — Gerisi Bende kod bloğu
 Üretim › Üretim Mühendisi
 
 Makine duruş kayıtlarını neden ve süreye göre Pareto analizine tabi tutar; duruşun çoğunu yaratan az sayıdaki nedeni öne çıkarır.

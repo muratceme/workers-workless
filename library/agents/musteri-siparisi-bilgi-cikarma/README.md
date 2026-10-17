@@ -1,6 +1,6 @@
 # Müşteri Siparişi Bilgi Çıkarma · AI Agent
 
-> Üretim Planlama › Üretim Planlama Uzmanı · Workers / Workless
+> Üretim Planlama › Üretim Planlama Uzmanı · Gerisi Bende
 
 Müşterilerden e-posta veya PDF ile gelen siparişleri (PO) **planlama tablolarına** aktarır. Satırlar şunları içerir:
 ürün, renk, beden dağılımı, miktar, fiyat ve teslim tarihi. Her satır ürün listenizle eşleştirilir: müşterinin kodu veya

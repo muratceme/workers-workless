@@ -1,5 +1,5 @@
 """
-PDF Fatura Bilgi Çıkarma — Workers / Workless AI Agent
+PDF Fatura Bilgi Çıkarma — Gerisi Bende AI Agent
 Muhasebe › Ön Muhasebe Elemanı
 
 E-fatura XML'i olmayan faturalar (PDF, e-postayla gelen fatura metni, .docx) için:

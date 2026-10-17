@@ -1,5 +1,5 @@
 """
-E-ticaret Satış Performans Raporu — Workers / Workless kod bloğu
+E-ticaret Satış Performans Raporu — Gerisi Bende kod bloğu
 Kategori ve İçerik Yönetimi › Kategori Yöneticisi
 
 Kanal, kategori ve ürün bazında ciro, adet, dönüşüm ve iade oranını haftalık raporlar.

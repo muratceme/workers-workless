@@ -1,6 +1,6 @@
 # SGK Teşvik Uygunluk Ön Kontrolü
 
-> Bordro ve SGK İşlemleri › Bordro Elemanı · Workers / Workless
+> Bordro ve SGK İşlemleri › Bordro Elemanı · Gerisi Bende
 
 Çalışan ve işyeri bilgilerine göre yaygın **SGK prim teşviklerinin uygunluk koşullarını** ön kontrolden geçirir. Her
 çalışan ve her teşvik için **Uygun / Uygun değil / Bilgi eksik** sonucunu nedenleriyle verir. 4447 geçici 10 teşvikinde

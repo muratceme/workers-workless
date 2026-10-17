@@ -1,5 +1,5 @@
 """
-Taşıma Talebi Bilgi Çıkarma — Workers / Workless AI Agent
+Taşıma Talebi Bilgi Çıkarma — Gerisi Bende AI Agent
 Lojistik › Havayolu Operasyon Uzmanı (Depo / Lojistik Uzmanı da kullanır)
 
 Müşterilerden ya da iç birimlerden e-postayla gelen taşıma taleplerini planlama ve teklif tablolarına aktarır:

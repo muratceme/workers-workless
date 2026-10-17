@@ -1,5 +1,5 @@
 """
-Ödeme Önceliklendirme — Workers / Workless kod bloğu
+Ödeme Önceliklendirme — Gerisi Bende kod bloğu
 Finans › Finans Uzmanı
 
 Eldeki nakitle hangi ödemelerin yapılacağını, hangilerinin erteleneceğini açık bir kuralla sıralar.

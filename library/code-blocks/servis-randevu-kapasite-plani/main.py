@@ -1,5 +1,5 @@
 """
-Servis Randevu Kapasite Planı — Workers / Workless kod bloğu
+Servis Randevu Kapasite Planı — Gerisi Bende kod bloğu
 Satış Sonrası Hizmetler (Servis) › Servis Danışmanı
 Teknisyen kapasitesi ve iş türü sürelerine göre günlük randevu kapasitesini, doluluğu ve eklenebilecek iş sayısını hesaplar.
   Mevcut saat     = o gün çalışan (izinli olmayan) teknisyenlerin günlük saatleri toplamı

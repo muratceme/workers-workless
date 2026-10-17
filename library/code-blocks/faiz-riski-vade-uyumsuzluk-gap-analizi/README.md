@@ -1,6 +1,6 @@
 # Faiz Riski Vade Uyumsuzluk (Gap) Analizi · Kod Bloğu
 
-> Hazine ve Aktif-Pasif Yönetimi › Aktif-Pasif Yönetimi Uzmanı · Workers / Workless
+> Hazine ve Aktif-Pasif Yönetimi › Aktif-Pasif Yönetimi Uzmanı · Gerisi Bende
 
 Faize duyarlı varlık ve yükümlülükleri **yeniden fiyatlama vadelerine** göre dilimlere dağıtır; gap tablosunu ve paralel
 faiz şokunun net faiz gelirine ve ekonomik değere yaklaşık etkisini hesaplar. İnternete bağlanmaz.

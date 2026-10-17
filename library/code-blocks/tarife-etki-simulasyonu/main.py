@@ -1,5 +1,5 @@
 """
-Tarife Etki Simülasyonu — Workers / Workless kod bloğu
+Tarife Etki Simülasyonu — Gerisi Bende kod bloğu
 Aktüerya › Aktüerya Uzmanı
 
 Tarife değişikliği senaryolarını mevcut portföye uygular; prim ve hasar/prim (H/P) oranına etkisini hesaplar.

@@ -1,5 +1,5 @@
 """
-Personel Maliyet Bütçesi — Workers / Workless kod bloğu
+Personel Maliyet Bütçesi — Gerisi Bende kod bloğu
 İnsan Kaynakları › İnsan Kaynakları Müdürü
 
 Kadro planı, ücretler ve yan haklardan aylık personel maliyet bütçesi üretir; gerçekleşmeyle karşılaştırır:

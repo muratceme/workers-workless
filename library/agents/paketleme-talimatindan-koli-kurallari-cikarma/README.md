@@ -1,6 +1,6 @@
 # Paketleme Talimatından Koli Kuralları Çıkarma · AI Agent
 
-> Tekstil › Sevkiyat Sorumlusu · Workers / Workless
+> Tekstil › Sevkiyat Sorumlusu · Gerisi Bende
 
 Müşterinin paketleme talimatını (packing instruction, e-posta, el kitabı; Türkçe ya da İngilizce) okur:
 - **koli parametreleri:** solid / asorti, asorti oranı, koli içi adet, koli ölçüsü, azami brüt ağırlık,

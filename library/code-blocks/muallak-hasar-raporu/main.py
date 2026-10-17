@@ -1,5 +1,5 @@
 """
-Muallak Hasar Raporu — Workers / Workless kod bloğu
+Muallak Hasar Raporu — Gerisi Bende kod bloğu
 Hasar Yönetimi › Hasar Müdürü
 
 Açık dosyaların branş, yaş ve tutar dağılımını; kapanan dosyalardan rezerv yeterliliği göstergelerini raporlar.

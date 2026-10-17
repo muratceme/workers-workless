@@ -1,6 +1,6 @@
 # Teftiş Bulgusuna Cevap Yazısı · AI Agent
 
-> Banka Şube › Şube Operasyon Yöneticisi · Workers / Workless
+> Banka Şube › Şube Operasyon Yöneticisi · Gerisi Bende
 
 Teftiş / iç kontrol bulgu listesini ve şubenin her bulgu için tuttuğu kısa notları okur. Her bulgu için şunları yazar:
 - durum (Tamamlandı / Devam ediyor / Planlandı / İtiraz),

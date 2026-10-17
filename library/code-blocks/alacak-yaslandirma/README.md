@@ -1,6 +1,6 @@
 # Alacak Yaşlandırma · Kod Bloğu
 
-> Finans › Finans Uzmanı · Workers / Workless
+> Finans › Finans Uzmanı · Gerisi Bende
 
 Muhasebe programından alınan **cari hesap hareketlerinden** (borç/alacak) tahsilatları en eski faturadan
 başlayarak kapatır (**FIFO**) ve açık kalan faturaları vadeye göre yaşlandırır. Müşteri bazında ağırlıklı

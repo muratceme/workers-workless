@@ -1,5 +1,5 @@
 """
-Oltalama E-postası Analizi — Workers / Workless AI Agent
+Oltalama E-postası Analizi — Gerisi Bende AI Agent
 Bilgi Teknolojileri › Bilgi Güvenliği Uzmanı
 
 1. Kod .eml dosyalarını açar (bağlantılara gitmez, ekleri çalıştırmaz) ve göstergeleri çıkarır:

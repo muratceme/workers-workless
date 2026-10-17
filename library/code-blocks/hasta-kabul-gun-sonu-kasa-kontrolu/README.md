@@ -1,6 +1,6 @@
 # Hasta Kabul Gün Sonu Kasa Kontrolü · Kod Bloğu
 
-> Hasta Hizmetleri › Hasta Kayıt Kabul Görevlisi · Workers / Workless
+> Hasta Hizmetleri › Hasta Kayıt Kabul Görevlisi · Gerisi Bende
 
 HBYS'den alınan **kasa hareketlerini** (tahsilat, iade, iptal) sayılan nakit, POS gün sonu ve günün faturalarıyla
 karşılaştırır; farkları, faturasız tahsilatları ve şüpheli iadeleri işaretler, imzaya hazır **kasa devir raporu**

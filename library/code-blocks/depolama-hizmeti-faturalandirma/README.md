@@ -1,6 +1,6 @@
 # Depolama Hizmeti Faturalandırma · Kod Bloğu
 
-> Depo ve Antrepo Yönetimi › Depo Şefi · Workers / Workless
+> Depo ve Antrepo Yönetimi › Depo Şefi · Gerisi Bende
 
 Müşteri bazında **palet-gün, giriş-çıkış elleçleme ve katma değerli hizmetlerden aylık depolama faturasının hesabını**
 çıkarır. İnternete bağlanmaz; fatura kesmez.

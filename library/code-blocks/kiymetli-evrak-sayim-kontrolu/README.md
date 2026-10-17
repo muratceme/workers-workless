@@ -1,6 +1,6 @@
 # Kıymetli Evrak Sayım Kontrolü · Kod Bloğu
 
-> Şube Bankacılığı › Şube Operasyon Yöneticisi · Workers / Workless
+> Şube Bankacılığı › Şube Operasyon Yöneticisi · Gerisi Bende
 
 Kıymetli evrak sayım tutanağını kayıtlarla **seri numarası düzeyinde** karşılaştırır: eksik, fazla ve iki kez
 sayılmış numaraları aralık olarak listeler. Adetler tutsa bile yanlış seri numarasını yakalar. İnternete bağlanmaz.

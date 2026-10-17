@@ -1,5 +1,5 @@
 """
-İade Gelen EFT/FAST Analizi — Workers / Workless kod bloğu
+İade Gelen EFT/FAST Analizi — Gerisi Bende kod bloğu
 Bankacılık Operasyonları › Ödeme Sistemleri Operasyon Uzmanı
 
 İade gelen ödemeleri iade nedeni, şube, kanal ve hata türüne göre sınıflandırır; tekrarlayan hata nedenlerini raporlar.

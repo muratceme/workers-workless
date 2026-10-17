@@ -1,6 +1,6 @@
 # Kaza ve Ramak Kala Bildirimlerinden Olay Kaydı · AI Agent
 
-> İş Sağlığı ve Güvenliği › İşyeri Hekimi · Workers / Workless
+> İş Sağlığı ve Güvenliği › İşyeri Hekimi · Gerisi Bende
 
 Çalışanların ve amirlerin serbest metinle yazdığı kaza / ramak kala bildirimlerini olay kaydına dönüştürür:
 - tür (İş Kazası / Ramak Kala / Belirsiz), kanıt cümlesiyle,

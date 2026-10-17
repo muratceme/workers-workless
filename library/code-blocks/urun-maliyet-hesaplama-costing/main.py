@@ -1,5 +1,5 @@
 """
-Ürün Maliyet Hesaplama (Costing) — Workers / Workless kod bloğu
+Ürün Maliyet Hesaplama (Costing) — Gerisi Bende kod bloğu
 Tekstil ve Konfeksiyon › Müşteri Temsilciliği (Merchandising) › Development Merchandiser
 
 Hazır giyim maliyet föyü (cost sheet) hazırlar ve FOB teklif fiyatını hesaplar:

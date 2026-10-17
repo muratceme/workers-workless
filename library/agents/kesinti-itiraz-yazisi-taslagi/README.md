@@ -1,6 +1,6 @@
 # Kesinti İtiraz Yazısı Taslağı · AI Agent
 
-> Sağlık › Anlaşmalı Kurumlar Uzmanı · Workers / Workless
+> Sağlık › Anlaşmalı Kurumlar Uzmanı · Gerisi Bende
 
 Özel sağlık sigortası şirketlerinin veya kurumların hastane faturalarına yaptığı kesintileri tek tek inceler. Her
 kesinti için itiraz önerisi verir (Evet / Hayır / Belge eksik) ve haklı olanlar için itiraz yazısı taslağı hazırlar.

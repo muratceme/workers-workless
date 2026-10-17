@@ -1,6 +1,6 @@
 # Tahsis Kararından Kullandırım Şartları Çıkarma · AI Agent
 
-> Bankacılık Operasyonları › Kredi Operasyon Uzmanı · Workers / Workless
+> Bankacılık Operasyonları › Kredi Operasyon Uzmanı · Gerisi Bende
 
 Kredi komitesi / tahsis kararlarının serbest metnini okur. Kullandırım kontrolüne girecek bilgileri tabloya döker:
 - onay bilgileri: limit, ürünler, azami vade, asgari faiz, geçerlilik, sözleşme tutarı,

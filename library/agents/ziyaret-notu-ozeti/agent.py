@@ -1,5 +1,5 @@
 """
-Ziyaret Notu Özeti — Workers / Workless AI Agent
+Ziyaret Notu Özeti — Gerisi Bende AI Agent
 Satış › Satış Temsilcisi
 
 1. Kod not dosyasını ziyaretlere ayırır ("Ziyaret: Müşteri | GG.AA.YYYY" satırı) ve her ziyaretin satırlarını numaralar.

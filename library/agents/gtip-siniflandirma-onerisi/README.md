@@ -1,6 +1,6 @@
 # GTİP Sınıflandırma Önerisi · AI Agent
 
-> Dış Ticaret › Dış Ticaret Uzmanı · Workers / Workless
+> Dış Ticaret › Dış Ticaret Uzmanı · Gerisi Bende
 
 Ürün tanımlarından **olası GTİP kodlarını gerekçesiyle önerir**. Model yalnız **sizin verdiğiniz tarife tablosundaki**
 kodlar arasından seçer; tabloda olmayan bir kod yazarsa, alt pozisyonu olan bir pozisyonda kalırsa ya da ürün bilgisinde

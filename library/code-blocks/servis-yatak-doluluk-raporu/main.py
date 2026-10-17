@@ -1,5 +1,5 @@
 """
-Servis Yatak Doluluk Raporu — Workers / Workless kod bloğu
+Servis Yatak Doluluk Raporu — Gerisi Bende kod bloğu
 Tıbbi Sekreterlik › Yatan Hasta Tıbbi Sekreteri
 Servis bazında yatak doluluk, ortalama yatış süresi ve beklenen taburcu listesini çıkarır.
   Hasta günü            = dönem içinde hastanın yatakta geçirdiği gece sayısı (aynı gün yatış-taburcu 1 gün sayılır)

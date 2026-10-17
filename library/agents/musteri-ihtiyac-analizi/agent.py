@@ -1,5 +1,5 @@
 """
-Müşteri İhtiyaç Analizi — Workers / Workless AI Agent
+Müşteri İhtiyaç Analizi — Gerisi Bende AI Agent
 Acente Teknik › Sigorta Uzmanı (Acente)
 
 1. Kod görüşme notlarını satır satır numaralar (telefon, e-posta, kimlik no maskelenir) ve acentenin ürün kataloğunu okur

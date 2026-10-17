@@ -1,6 +1,6 @@
 # Tedarikçi Performans Değerlendirme · Kod Bloğu
 
-> Satın Alma › Satın Alma Uzmanı · Workers / Workless
+> Satın Alma › Satın Alma Uzmanı · Gerisi Bende
 
 Teslimat kayıtlarından **tedarikçi karnesi** hazırlar. Zamanında teslim, kalite reddi, miktar uyumu ve fiyat uyumunu
 puanlar; tedarikçileri A/B/C/D olarak sınıflar, çeyreklik eğilimi gösterir ve tedarikçiye gönderilebilecek karne metnini

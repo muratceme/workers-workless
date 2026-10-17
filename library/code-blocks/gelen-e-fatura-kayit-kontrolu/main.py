@@ -1,5 +1,5 @@
 """
-Gelen e-Fatura Kayıt Kontrolü — Workers / Workless kod bloğu
+Gelen e-Fatura Kayıt Kontrolü — Gerisi Bende kod bloğu
 Muhasebe › Muhasebe Elemanı (ayrıca: Mali Müşavirlik Bürosu › Muhasebe Elemanı)
 
 GİB veya özel entegratör portalından alınan gelen e-Fatura / e-Arşiv listesini (XML/ZIP klasörü ya da

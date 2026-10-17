@@ -1,5 +1,5 @@
 """
-Gecikme Yaşlandırma Raporu — Workers / Workless kod bloğu
+Gecikme Yaşlandırma Raporu — Gerisi Bende kod bloğu
 Krediler İzleme ve Takip › Kredi İzleme Uzmanı
 
 Kredileri gecikme gün aralıklarına (Güncel, 1-30, 31-60, 61-90, 90+) dağıtır; şube ve ürün bazında raporlar.

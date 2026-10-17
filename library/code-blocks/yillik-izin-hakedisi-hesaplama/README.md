@@ -1,6 +1,6 @@
 # Yıllık İzin Hakedişi Hesaplama · Kod Bloğu
 
-> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Workers / Workless
+> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Gerisi Bende
 
 Çalışanların yıllık ücretli izin hakkını **4857 sayılı İş Kanunu md. 53**'e göre hizmet yılı bazında
 hesaplar: toplam hakediş, kullanılan, kalan izin, sonraki hakediş tarihi ve gün sayısı. Brüt ücret

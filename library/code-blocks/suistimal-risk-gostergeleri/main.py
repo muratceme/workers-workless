@@ -1,5 +1,5 @@
 """
-Suistimal Risk Göstergeleri — Workers / Workless kod bloğu
+Suistimal Risk Göstergeleri — Gerisi Bende kod bloğu
 Hasar Yönetimi › Hasar Uzmanı
 
 Hasar dosyalarını dokuz göstergeyle tarar; tetiklenen göstergelerin puanlarını toplayıp inceleme önceliği çıkarır.

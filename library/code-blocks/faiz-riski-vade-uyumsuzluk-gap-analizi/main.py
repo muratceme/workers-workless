@@ -1,5 +1,5 @@
 """
-Faiz Riski Vade Uyumsuzluk (Gap) Analizi — Workers / Workless kod bloğu
+Faiz Riski Vade Uyumsuzluk (Gap) Analizi — Gerisi Bende kod bloğu
 Hazine ve Aktif-Pasif Yönetimi › Aktif-Pasif Yönetimi Uzmanı
 
 Faize duyarlı varlık ve yükümlülükleri yeniden fiyatlama vadelerine göre dilimlere dağıtır; gap tablosunu ve paralel

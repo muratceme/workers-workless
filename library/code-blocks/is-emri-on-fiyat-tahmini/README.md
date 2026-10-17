@@ -1,6 +1,6 @@
 # İş Emri Ön Fiyat Tahmini · Kod Bloğu
 
-> Satış Sonrası Hizmetler (Servis) › Servis Danışmanı · Workers / Workless
+> Satış Sonrası Hizmetler (Servis) › Servis Danışmanı · Gerisi Bende
 
 Müşterinin şikâyeti ya da bakım türüne karşılık gelen **iş tanımlarını** (işçilik saati + parça listesi) parça fiyat listesi ve
 saat ücretiyle fiyatlandırıp iş emri bazında **ön fiyat tahmini** ve tahmin aralığı çıkarır. İnternete ve DMS'e bağlanmaz.

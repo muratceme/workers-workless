@@ -1,6 +1,6 @@
 # Müşteri Segmentasyonu (RFM) · Kod Bloğu
 
-> Pazarlama › Pazarlama Uzmanı · Workers / Workless
+> Pazarlama › Pazarlama Uzmanı · Gerisi Bende
 
 Satış geçmişinden müşterileri **yenilik (R), sıklık (F) ve tutara (M)** göre puanlar ve segmentlere ayırır. Her
 segmentin müşteri ve ciro payını gösterir, segment bazlı aksiyon önerir ve kaybedilmek üzere olan müşterileri

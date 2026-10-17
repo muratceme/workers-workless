@@ -1,5 +1,5 @@
 """
-Cari Hesap Mutabakatı — Workers / Workless kod bloğu
+Cari Hesap Mutabakatı — Gerisi Bende kod bloğu
 Muhasebe › Muhasebe Elemanı
 
 Firmanın kendi cari ekstresi (ör. 320 Satıcılar / 120 Alıcılar muavini) ile karşı tarafın gönderdiği

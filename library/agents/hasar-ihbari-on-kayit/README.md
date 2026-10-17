@@ -1,6 +1,6 @@
 # Hasar İhbarı Ön Kayıt · AI Agent
 
-> Hasar Yönetimi › Hasar Uzman Yardımcısı · Workers / Workless
+> Hasar Yönetimi › Hasar Uzman Yardımcısı · Gerisi Bende
 
 E-posta, web formu ya da telefon notuyla gelen hasar ihbarlarından poliçe no, hasar tarihi, yeri, türü, tahmini tutar,
 plakalar ve tutanak bilgisini ayıklayıp **ön kayıt** tablosuna çevirir. Çıkarılan bilgiler kodla ihbar metnine ve poliçe

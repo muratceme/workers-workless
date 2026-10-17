@@ -1,5 +1,5 @@
 """
-Stok Yaşlandırma Raporu — Workers / Workless kod bloğu
+Stok Yaşlandırma Raporu — Gerisi Bende kod bloğu
 Lojistik ve Depo › Depo Sorumlusu
 
 Son hareket tarihine göre hareketsiz ve yavaş dönen stokları tutar bazında yaşlandırır.

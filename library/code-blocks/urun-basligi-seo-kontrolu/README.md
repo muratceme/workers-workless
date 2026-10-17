@@ -1,6 +1,6 @@
 # Ürün Başlığı SEO Kontrolü · Kod Bloğu
 
-> Kategori ve İçerik Yönetimi › E-ticaret İçerik Uzmanı · Workers / Workless
+> Kategori ve İçerik Yönetimi › E-ticaret İçerik Uzmanı · Gerisi Bende
 
 Ürün başlıklarını **uzunluk, marka → ürün tipi → özellik sırası, eksik özellik, yasaklı ifade ve biçim** açısından
 kontrol eder; her başlık için sorun listesi ve **önerilen başlık** üretir. İnternete bağlanmaz.

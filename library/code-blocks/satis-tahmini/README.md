@@ -1,6 +1,6 @@
 # Satış Tahmini · Kod Bloğu
 
-> Satış › Satış Müdürü · Workers / Workless
+> Satış › Satış Müdürü · Gerisi Bende
 
 Geçmiş aylık satışlardan **ürün grubu ve bölge bazında** aylık satış tahmini üretir. Her seri için birkaç yöntemi
 geçmiş veride dener ve en az hata yapanı seçer. Mevsimselliği, aykırı ayları ve tahmin güvenini raporlar. İnternete

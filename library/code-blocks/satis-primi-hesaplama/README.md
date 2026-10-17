@@ -1,6 +1,6 @@
 # Satış Primi Hesaplama · Kod Bloğu
 
-> Satış › Satış Müdürü · Workers / Workless
+> Satış › Satış Müdürü · Gerisi Bende
 
 Temsilcilerin hedef ve gerçekleşen satışından **gerçekleşme yüzdesini ve brüt primi** hesaplar. Prim dilimlerini
 ve oranlarını sizin dosyanızdan okur; her temsilcinin priminin hangi dilimden geldiğini döker. İnternete bağlanmaz.

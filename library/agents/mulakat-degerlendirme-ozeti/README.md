@@ -1,6 +1,6 @@
 # Mülakat Değerlendirme Özeti · AI Agent
 
-> İnsan Kaynakları › İşe Alım · Workers / Workless
+> İnsan Kaynakları › İşe Alım · Gerisi Bende
 
 Birden fazla mülakatçının **puan ve notlarını** aday başına **tek sayfalık karşılaştırmalı özete** çevirir.
 Kararı işe alım yöneticisi verir; bu araç kararı kanıta dayalı hâle getirir.

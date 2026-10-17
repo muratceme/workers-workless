@@ -1,5 +1,5 @@
 """
-Anket Sonuç Analizi — Workers / Workless kod bloğu
+Anket Sonuç Analizi — Gerisi Bende kod bloğu
 Pazarlama › Pazarlama Uzmanı
 
 Pazar araştırması anketlerinin kapalı ve açık uçlu cevaplarını analiz eder:

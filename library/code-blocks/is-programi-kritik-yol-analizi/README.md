@@ -1,6 +1,6 @@
 # İş Programı Kritik Yol Analizi · Kod Bloğu
 
-> Planlama ve Proje Kontrol › Planlama Mühendisi · Workers / Workless
+> Planlama ve Proje Kontrol › Planlama Mühendisi · Gerisi Bende
 
 Faaliyet süreleri ve bağımlılıklardan **kritik yolu, bolluk sürelerini ve proje bitiş tarihini** hesaplar (kritik yol
 yöntemi, CPM). İnternete bağlanmaz.

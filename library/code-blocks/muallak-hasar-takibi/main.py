@@ -1,5 +1,5 @@
 """
-Muallak Hasar Takibi — Workers / Workless kod bloğu
+Muallak Hasar Takibi — Gerisi Bende kod bloğu
 Hasar Yönetimi › Hasar Uzmanı
 
 Açık hasar dosyalarını yaş, muallak tutar ve bekleyen aksiyona göre izler; uzun süredir hareketsiz dosyaları öne çıkarır.

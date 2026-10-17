@@ -1,6 +1,6 @@
 # Müşteri Talimat Kontrolü · Kod Bloğu
 
-> Bankacılık › Şube Bankacılığı › Gişe Yetkilisi · Workers / Workless
+> Bankacılık › Şube Bankacılığı › Gişe Yetkilisi · Gerisi Bende
 
 EFT, FAST, havale ve virman talimatlarını işleme almadan önce toplu olarak **ön kontrolden** geçirir:
 IBAN, unvan, rakam-yazı tutar uyumu, işlem türü ve imza yetkisi. Hatalı ve kontrol gerektiren talimatları

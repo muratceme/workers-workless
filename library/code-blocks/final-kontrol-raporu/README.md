@@ -1,6 +1,6 @@
 # Final Kontrol Raporu · Kod Bloğu
 
-> Kalite Kontrol › Kalite Kontrol Şefi · Workers / Workless
+> Kalite Kontrol › Kalite Kontrol Şefi · Gerisi Bende
 
 Final denetim kayıtlarından **kritik, majör ve minör hata sayılarını AQL kabul sayılarıyla** karşılaştırır; denetim
 bazında KABUL / RET sonucu, hata dağılımı ve atölye özeti içeren rapor üretir. İnternete bağlanmaz.

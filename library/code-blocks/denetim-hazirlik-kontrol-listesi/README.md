@@ -1,6 +1,6 @@
 # Denetim Hazırlık Kontrol Listesi · Kod Bloğu
 
-> Kalite Güvence ve Gıda Güvenliği › Kalite Güvence Uzmanı · Workers / Workless
+> Kalite Güvence ve Gıda Güvenliği › Kalite Güvence Uzmanı · Gerisi Bende
 
 Sertifikasyon (BRCGS, IFS vb.), resmî kontrol ya da müşteri denetimi öncesinde **madde bazında doküman ve kayıt hazırlık
 durumunu** takip eder. Standart ve bölüm bazında hazırlık yüzdesini hesaplar; denetime yetişmeyecek, sahipsiz ya da eski

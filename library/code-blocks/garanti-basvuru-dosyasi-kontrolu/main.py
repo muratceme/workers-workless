@@ -1,5 +1,5 @@
 """
-Garanti Başvuru Dosyası Kontrolü — Workers / Workless kod bloğu
+Garanti Başvuru Dosyası Kontrolü — Gerisi Bende kod bloğu
 Satış Sonrası Hizmetler (Servis) › Garanti Uzmanı
 
 Garanti başvurularını üreticiye göndermeden önce şasi, süre, km, kod ve parça bilgileri yönünden denetler; ret riski taşıyanları işaretler.

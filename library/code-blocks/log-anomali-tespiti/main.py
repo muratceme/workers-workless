@@ -1,5 +1,5 @@
 """
-Log Anomali Tespiti — Workers / Workless kod bloğu
+Log Anomali Tespiti — Gerisi Bende kod bloğu
 Bilgi Teknolojileri › Sistem Uzmanı
 
 Sunucu ve uygulama loglarında olağandışı örüntüleri bulur ve özetler. Biçim satırlardan tanınır:

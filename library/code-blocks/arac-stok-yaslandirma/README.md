@@ -1,6 +1,6 @@
 # Araç Stok Yaşlandırma · Kod Bloğu
 
-> Satış › Satış Müdürü · Workers / Workless
+> Satış › Satış Müdürü · Gerisi Bende
 
 Bayi stoğundaki araçları **stoğa giriş tarihine göre yaşlandırır**; model, renk ve yaş bandı bazında adet, alış değeri,
 ortalama stok günü ve **finansman maliyetini** hesaplar. Uzun bekleyen ve finansman maliyeti brüt marjı eriten araçları

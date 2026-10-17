@@ -1,5 +1,5 @@
 """
-Üretim Hedef Takibi — Workers / Workless kod bloğu
+Üretim Hedef Takibi — Gerisi Bende kod bloğu
 Satış ve Acente Yönetimi › Bölge Satış Yöneticisi
 
 Branş ve acente bazında prim üretimini aylık ve yıl başından bugüne hedefle karşılaştırır.

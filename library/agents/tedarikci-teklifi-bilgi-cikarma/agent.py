@@ -1,5 +1,5 @@
 """
-Tedarikçi Teklifi Bilgi Çıkarma — Workers / Workless AI Agent
+Tedarikçi Teklifi Bilgi Çıkarma — Gerisi Bende AI Agent
 Satın Alma › Satın Alma Uzman Yardımcısı
 
 Tedarikçilerden e-posta, PDF veya Word ile gelen fiyat tekliflerini karşılaştırma tablosuna aktarır.

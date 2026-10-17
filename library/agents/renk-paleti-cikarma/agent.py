@@ -1,5 +1,5 @@
 """
-Renk Paleti Çıkarma — Workers / Workless AI Agent
+Renk Paleti Çıkarma — Gerisi Bende AI Agent
 Tasarım ve Koleksiyon › Moda Tasarımcısı
 
 1. Kod görsellerdeki baskın renkleri çıkarır (Pillow ile renk azaltma; yakın renkler CIEDE2000 ΔE < --birlestir ile

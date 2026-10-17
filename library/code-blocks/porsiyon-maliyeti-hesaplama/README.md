@@ -1,6 +1,6 @@
 # Porsiyon Maliyeti Hesaplama · Kod Bloğu
 
-> Yiyecek ve İçecek › Yiyecek İçecek Müdürü · Workers / Workless
+> Yiyecek ve İçecek › Yiyecek İçecek Müdürü · Gerisi Bende
 
 Standart reçete, gramaj ve güncel alış fiyatlarından menü kalemi başına **porsiyon maliyetini, maliyet oranını ve
 hedef satış fiyatını** hesaplar. İnternete bağlanmaz.

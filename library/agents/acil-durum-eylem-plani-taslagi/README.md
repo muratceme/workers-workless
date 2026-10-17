@@ -1,6 +1,6 @@
 # Acil Durum Eylem Planı Taslağı · AI Agent
 
-> İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı · Workers / Workless
+> İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı · Gerisi Bende
 
 İşyeri bilgilerinden **acil durum planı taslağı** hazırlar. Senaryoları, önleyici tedbirleri, ekiplere göre müdahale ve
 tahliye adımlarını model yazar. **Ekip sayılarını, geçerlilik ve tatbikat tarihlerini kod hesaplar.** Risk değerlendirmesindeki

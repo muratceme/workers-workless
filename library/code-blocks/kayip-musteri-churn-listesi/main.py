@@ -1,5 +1,5 @@
 """
-Kayıp Müşteri (Churn) Listesi — Workers / Workless kod bloğu
+Kayıp Müşteri (Churn) Listesi — Gerisi Bende kod bloğu
 CRM ve Sadakat Programı › CRM Uzmanı
 Alışveriş sıklığı düşen sadakat programı üyelerini belirleyip geri kazanım kampanyası listesi çıkarır.
   Alışveriş sayısı     = farklı alışveriş günü sayısı (aynı gün birden çok fiş tek ziyaret sayılır)

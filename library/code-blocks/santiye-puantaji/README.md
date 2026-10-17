@@ -1,6 +1,6 @@
 # Şantiye Puantajı · Kod Bloğu
 
-> Şantiye › Saha Mühendisi · Workers / Workless
+> Şantiye › Saha Mühendisi · Gerisi Bende
 
 Kendi personelinin ve taşeronların günlük çalışma kayıtlarından **kişi × gün puantaj cetveli** çıkarır; **firma, ekip ve
 imalat** bazında saat ve adam-gün toplar; günlük ve haftalık süre aşımlarını ve aynı kişinin aynı gün iki firmada

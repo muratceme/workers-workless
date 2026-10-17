@@ -1,5 +1,5 @@
 """
-Kesinti ve İtiraz Takibi — Workers / Workless kod bloğu
+Kesinti ve İtiraz Takibi — Gerisi Bende kod bloğu
 Anlaşmalı Kurumlar ve Faturalama › Anlaşmalı Kurumlar Uzmanı
 
 Sigorta şirketlerinin yaptığı kesintileri neden bazında sınıflandırır, itiraz edilebilir olanları ve süreleri takip eder.

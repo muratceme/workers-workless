@@ -1,6 +1,6 @@
 # Kumaş ve Aksesuar İhtiyaç Hesabı · Kod Bloğu
 
-> Tekstil ve Konfeksiyon › Planlama › Planlama Uzmanı · Workers / Workless
+> Tekstil ve Konfeksiyon › Planlama › Planlama Uzmanı · Gerisi Bende
 
 Sipariş adetlerinden (model × renk × beden) **kumaş metrajını/kilosunu** ve **aksesuar adetlerini** hesaplar.
 Stok düşülür, aksesuarlar ambalaj katına yuvarlanır, kumaşın kaç top tutacağı çıkarılır. İnternete bağlanmaz.

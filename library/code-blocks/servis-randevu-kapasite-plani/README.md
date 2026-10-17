@@ -1,6 +1,6 @@
 # Servis Randevu Kapasite Planı · Kod Bloğu
 
-> Satış Sonrası Hizmetler (Servis) › Servis Danışmanı · Workers / Workless
+> Satış Sonrası Hizmetler (Servis) › Servis Danışmanı · Gerisi Bende
 
 Teknisyenlerin çalışma saati, verimliliği, çalışma günleri ve izinleriyle **günlük atölye kapasitesini** hesaplar; randevuları
 iş türlerinin standart süreleriyle yükleyip **doluluk, kalan saat ve o güne daha kaç iş eklenebileceğini** gösterir. İnternete

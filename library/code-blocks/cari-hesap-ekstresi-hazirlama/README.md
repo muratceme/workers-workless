@@ -1,6 +1,6 @@
 # Cari Hesap Ekstresi Hazırlama · Kod Bloğu
 
-> Muhasebe › Ön Muhasebe Elemanı · Workers / Workless
+> Muhasebe › Ön Muhasebe Elemanı · Gerisi Bende
 
 Muhasebe hareketlerinden müşteri ve tedarikçi bazında dönem ekstresi ve bakiye özeti hazırlar. Açık kalemleri ve
 vadesi geçmiş tutarları çıkarır, her cari için mutabakat yazısı taslağı üretir. İnternete bağlanmaz.

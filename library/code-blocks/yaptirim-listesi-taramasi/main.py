@@ -1,5 +1,5 @@
 """
-Yaptırım Listesi Taraması — Workers / Workless kod bloğu
+Yaptırım Listesi Taraması — Gerisi Bende kod bloğu
 Bankacılık › Kurumsal Uyum › Uyum Uzmanı
 
 Müşteri ve karşı taraf listesini yaptırım listeleriyle bulanık eşleştirir:

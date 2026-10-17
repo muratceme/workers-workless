@@ -1,5 +1,5 @@
 """
-Kumaş ve Aksesuar İhtiyaç Hesabı — Workers / Workless kod bloğu
+Kumaş ve Aksesuar İhtiyaç Hesabı — Gerisi Bende kod bloğu
 Tekstil ve Konfeksiyon › Planlama › Planlama Uzmanı
 
 Sipariş adetlerinden (model × renk × beden) kumaş metrajını/kilosunu ve aksesuar adetlerini hesaplar:

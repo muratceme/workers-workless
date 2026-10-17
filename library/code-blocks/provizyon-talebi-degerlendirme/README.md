@@ -1,6 +1,6 @@
 # Provizyon Talebi Değerlendirme · Kod Bloğu
 
-> Sigortacılık › Sağlık Sigortaları › Provizyon Uzmanı · Workers / Workless
+> Sigortacılık › Sağlık Sigortaları › Provizyon Uzmanı · Gerisi Bende
 
 Anlaşmalı sağlık kurumlarından gelen provizyon taleplerini ön değerlendirir. Talebi poliçe teminatı, yıllık limit,
 katılım payı, bekleme süreleri, ön mevcut durum istisnaları ve genel şart kurallarıyla karşılaştırır; her talep

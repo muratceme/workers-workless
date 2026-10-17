@@ -1,5 +1,5 @@
 """
-Müşteri Tahsilat Takibi — Workers / Workless kod bloğu
+Müşteri Tahsilat Takibi — Gerisi Bende kod bloğu
 Teknik ve Operasyon › Acente Yöneticisi
 
 Müşterilerden tahsil edilecek prim taksitlerini vadeye göre, sigorta şirketine aktarılacak tutarlarla birlikte izler.

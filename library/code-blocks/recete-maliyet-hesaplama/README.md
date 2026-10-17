@@ -1,6 +1,6 @@
 # Reçete Maliyet Hesaplama · Kod Bloğu
 
-> Ar-Ge ve Ürün Geliştirme › Ar-Ge Uzmanı · Workers / Workless
+> Ar-Ge ve Ürün Geliştirme › Ar-Ge Uzmanı · Gerisi Bende
 
 Reçete bileşen miktarları, hammadde fiyatları ve fire oranlarından **kilogram ve ambalaj başına hammadde maliyetini**
 hesaplar. İnternete bağlanmaz.

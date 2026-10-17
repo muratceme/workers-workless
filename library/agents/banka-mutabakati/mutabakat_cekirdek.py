@@ -1,5 +1,5 @@
 """
-Banka Mutabakatı — Workers / Workless kod bloğu
+Banka Mutabakatı — Gerisi Bende kod bloğu
 Finans & Muhasebe › Muhasebe Elemanı
 
 Banka ekstresi ile muhasebe defterini (102 Bankalar muavini) eşleştirir; eşleşen

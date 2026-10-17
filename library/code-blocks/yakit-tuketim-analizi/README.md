@@ -1,6 +1,6 @@
 # Yakıt Tüketim Analizi · Kod Bloğu
 
-> Filo Yönetimi › Filo Yöneticisi · Workers / Workless
+> Filo Yönetimi › Filo Yöneticisi · Gerisi Bende
 
 Yakıt kartı ve kilometre verisinden **araç ve sürücü bazında 100 km tüketimini** hesaplar, sapmaları işaretler.
 İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Satış Tahmini — Workers / Workless kod bloğu
+Satış Tahmini — Gerisi Bende kod bloğu
 Satış › Satış Müdürü
 
 Geçmiş aylık satışlardan ürün grubu ve bölge bazında aylık tahmin üretir:

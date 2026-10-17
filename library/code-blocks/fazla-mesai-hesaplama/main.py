@@ -1,5 +1,5 @@
 """
-Fazla Mesai Hesaplama — Workers / Workless kod bloğu
+Fazla Mesai Hesaplama — Gerisi Bende kod bloğu
 İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı
 
 Günlük giriş-çıkış kayıtlarından (PDKS dökümü) 4857 sayılı İş Kanunu'na göre fazla çalışma ücretini hesaplar:

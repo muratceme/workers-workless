@@ -1,5 +1,5 @@
 """
-Kur Riski Pozisyon Raporu — Workers / Workless kod bloğu
+Kur Riski Pozisyon Raporu — Gerisi Bende kod bloğu
 Finans › Finans Müdürü
 
 Döviz cinsinden varlık ve yükümlülüklerden net döviz pozisyonunu ve kur şoku senaryolarının etkisini hesaplar.

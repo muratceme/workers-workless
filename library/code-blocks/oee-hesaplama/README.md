@@ -1,6 +1,6 @@
 # OEE Hesaplama · Kod Bloğu
 
-> Üretim › Üretim Mühendisi · Workers / Workless
+> Üretim › Üretim Mühendisi · Gerisi Bende
 
 Vardiya ve makine bazında **Kullanılabilirlik × Performans × Kalite = OEE** hesaplar; kayıpları dakika
 olarak ayrıştırır ve makine bazında özetler. İnternete bağlanmaz.

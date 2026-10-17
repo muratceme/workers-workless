@@ -1,6 +1,6 @@
 # İade Gelen EFT/FAST Analizi · Kod Bloğu
 
-> Bankacılık Operasyonları › Ödeme Sistemleri Operasyon Uzmanı · Workers / Workless
+> Bankacılık Operasyonları › Ödeme Sistemleri Operasyon Uzmanı · Gerisi Bende
 
 İade gelen ödemeleri **hata türü, şube ve kanala** göre sınıflandırır; tekrarlayan hata nedenlerini ve iade oranı
 yüksek birimleri raporlar. İnternete bağlanmaz.

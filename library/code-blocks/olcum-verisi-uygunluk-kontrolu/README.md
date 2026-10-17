@@ -1,6 +1,6 @@
 # Ölçüm Verisi Uygunluk Kontrolü · Kod Bloğu
 
-> Kalite Güvence ve Kalite Kontrol › Kalite Kontrol Elemanı · Workers / Workless
+> Kalite Güvence ve Kalite Kontrol › Kalite Kontrol Elemanı · Gerisi Bende
 
 Ölçüm cihazı çıktılarını **teknik resim toleranslarıyla** karşılaştırır; uygunsuz ve sınıra yakın ölçüleri işaretler,
 parça bazında KABUL / RET sonucu verir. İnternete bağlanmaz.

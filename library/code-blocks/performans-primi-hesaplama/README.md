@@ -1,6 +1,6 @@
 # Performans Primi Hesaplama · Kod Bloğu
 
-> İnsan Kaynakları › Ücretlendirme ve Yan Haklar Uzmanı · Workers / Workless
+> İnsan Kaynakları › Ücretlendirme ve Yan Haklar Uzmanı · Gerisi Bende
 
 Hedef gerçekleşmelerinden ve prim skalasından çalışan bazında brüt performans primini hesaplar. Dönem içinde
 giren ve ayrılan çalışanları, ağırlık hatalarını ve bütçe aşımını raporlar. İnternete bağlanmaz.

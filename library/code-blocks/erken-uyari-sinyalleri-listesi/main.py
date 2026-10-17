@@ -1,5 +1,5 @@
 """
-Erken Uyarı Sinyalleri Listesi — Workers / Workless kod bloğu
+Erken Uyarı Sinyalleri Listesi — Gerisi Bende kod bloğu
 Bankacılık › Krediler İzleme ve Takip › Kredi İzleme Uzmanı
 
 Kredi müşterilerine ait sinyalleri tek listede birleştirir ve firma bazında risk puanı üretir:

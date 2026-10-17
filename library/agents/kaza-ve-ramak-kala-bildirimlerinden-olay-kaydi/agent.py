@@ -1,5 +1,5 @@
 """
-Kaza ve Ramak Kala Bildirimlerinden Olay Kaydı — Workers / Workless AI Agent
+Kaza ve Ramak Kala Bildirimlerinden Olay Kaydı — Gerisi Bende AI Agent
 İş Sağlığı ve Güvenliği › İşyeri Hekimi
 
 Çalışan ve amirlerin serbest metin kaza / ramak kala bildirimlerini "İş Kazası ve Ramak Kala Analizi" kod bloğunun olay

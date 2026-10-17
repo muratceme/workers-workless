@@ -1,5 +1,5 @@
 """
-SGK Fatura Ön Kontrolü — Workers / Workless kod bloğu
+SGK Fatura Ön Kontrolü — Gerisi Bende kod bloğu
 Anlaşmalı Kurumlar ve Faturalama › SGK Faturalama Uzmanı
 Medula'ya gönderilecek hizmet kalemlerini kurumun tanımladığı SUT kurallarına göre ön kontrolden geçirir. Kurallar
 kurallar.csv dosyasındadır; kodun içinde SUT maddesi yoktur.

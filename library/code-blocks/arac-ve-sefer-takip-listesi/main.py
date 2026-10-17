@@ -1,5 +1,5 @@
 """
-Araç ve Sefer Takip Listesi — Workers / Workless kod bloğu
+Araç ve Sefer Takip Listesi — Gerisi Bende kod bloğu
 Lojistik ve Taşımacılık › Karayolu Operasyon › Karayolu Operasyon Uzmanı
 
 Uluslararası karayolu seferlerini yükleme, çıkış gümrüğü, sınır çıkışı, varış gümrüğü ve teslim aşamalarıyla

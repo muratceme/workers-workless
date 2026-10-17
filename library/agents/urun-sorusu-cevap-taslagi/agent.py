@@ -1,5 +1,5 @@
 """
-Ürün Sorusu Cevap Taslağı — Workers / Workless AI Agent
+Ürün Sorusu Cevap Taslağı — Gerisi Bende AI Agent
 E-Ticaret › Müşteri Deneyimi › Müşteri Hizmetleri Temsilcisi
 
 1. Pazaryeri ürün soruları (Excel/CSV) okunur; her soru ürün koduyla ürün kartına (özellikler tablosu) bağlanır.

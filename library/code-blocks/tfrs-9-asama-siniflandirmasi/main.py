@@ -1,5 +1,5 @@
 """
-TFRS 9 Aşama Sınıflandırması — Workers / Workless kod bloğu
+TFRS 9 Aşama Sınıflandırması — Gerisi Bende kod bloğu
 Krediler İzleme ve Takip › Kredi İzleme Uzmanı
 
 Kredileri gecikme günü ve risk göstergelerine göre Aşama 1-2-3 olarak sınıflandırır; her kredinin gerekçesini yazar ve

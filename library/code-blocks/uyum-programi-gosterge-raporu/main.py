@@ -1,5 +1,5 @@
 """
-Uyum Programı Gösterge Raporu — Workers / Workless kod bloğu
+Uyum Programı Gösterge Raporu — Gerisi Bende kod bloğu
 Kurumsal Uyum › Uyum Müdürü
 
 İnceleme, bildirim, eğitim ve yaptırım taraması göstergelerini dönemsel uyum raporunda toplar.

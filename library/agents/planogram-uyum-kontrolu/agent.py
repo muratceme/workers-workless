@@ -1,5 +1,5 @@
 """
-Planogram Uyum Kontrolü — Workers / Workless AI Agent
+Planogram Uyum Kontrolü — Gerisi Bende AI Agent
 Görsel Düzenleme › Görsel Düzenleme Uzmanı
 
 1. Kod planogram listesini (raf, sıra, barkod, ürün adı, yüz sayısı, fiyat) ve raf fotoğraf(lar)ını okur. Fotoğraflar

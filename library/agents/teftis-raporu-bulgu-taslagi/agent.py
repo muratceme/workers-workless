@@ -1,5 +1,5 @@
 """
-Teftiş Raporu Bulgu Taslağı — Workers / Workless AI Agent
+Teftiş Raporu Bulgu Taslağı — Gerisi Bende AI Agent
 Bankacılık › Teftiş Kurulu › Müfettiş
 
 1. Klasördeki çalışma kâğıdı okunur (Tespit No, Birim, Konu, Tespit, Örneklem, Hatalı, Tutar, Kanıt, Personel,

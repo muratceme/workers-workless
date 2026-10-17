@@ -1,5 +1,5 @@
 """
-Sosyal Medya İçerik Takvimi — Workers / Workless AI Agent
+Sosyal Medya İçerik Takvimi — Gerisi Bende AI Agent
 Pazarlama › Dijital Pazarlama Uzmanı
 
 Kampanya ve özel günlere göre aylık sosyal medya içerik takvimi ve gönderi metni taslakları hazırlar:

@@ -1,6 +1,6 @@
 # Sınav Sonuç ve Madde Analizi · Kod Bloğu
 
-> Eğitim › Ölçme Değerlendirme ve Rehberlik › Ölçme Değerlendirme Uzmanı · Workers / Workless
+> Eğitim › Ölçme Değerlendirme ve Rehberlik › Ölçme Değerlendirme Uzmanı · Gerisi Bende
 
 Optik okuyucu dökümünden veya cevap tablosundan öğrenci **netlerini ve puanlarını** hesaplar. Klasik test
 kuramına göre **madde analizi** (güçlük, ayırt edicilik, çeldirici) ve **KR-20 güvenirlik** hesaplar. Kazanım

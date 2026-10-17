@@ -1,6 +1,6 @@
 # Fason Hakediş Hesaplama · Kod Bloğu
 
-> Üretim ve Fason Takip › Fason Takip Sorumlusu · Workers / Workless
+> Üretim ve Fason Takip › Fason Takip Sorumlusu · Gerisi Bende
 
 Atölyeden dönen **sağlam adetler, birim fiyat, eksik ve defolu ürün kesintilerinden** atölye bazında fason hakedişini
 ve net ödenecek tutarı hesaplar. İnternete bağlanmaz.

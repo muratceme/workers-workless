@@ -1,5 +1,5 @@
 """
-Günlük Likidite Raporu — Workers / Workless kod bloğu
+Günlük Likidite Raporu — Gerisi Bende kod bloğu
 Hazine ve Aktif-Pasif Yönetimi › Hazine Uzmanı
 
 Vadesi gelen varlık ve yükümlülüklerin nakit akışlarından para birimi bazında günlük ve haftalık likidite açığı / fazlası

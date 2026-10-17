@@ -1,6 +1,6 @@
 # Brüt-Net Maaş Hesaplama · Kod Bloğu
 
-> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Mali Müşavirlik › Bordro Elemanı · Workers / Workless
+> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Mali Müşavirlik › Bordro Elemanı · Gerisi Bende
 
 Türkiye'nin **2026** parametreleriyle aylık bordro hesaplar: brütten nete, netten brüte, 12 aylık
 kümülatif tablo, vergi dilimi geçişleri ve işveren maliyeti. Tek kişi için komut satırından, çok kişi

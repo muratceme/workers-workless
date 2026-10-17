@@ -1,6 +1,6 @@
 # Log Anomali Tespiti · Kod Bloğu
 
-> Bilgi Teknolojileri › Sistem Uzmanı · Workers / Workless
+> Bilgi Teknolojileri › Sistem Uzmanı · Gerisi Bende
 
 Sunucu ve uygulama loglarında **olağandışı hata, oturum ve erişim örüntülerini** bulur ve önem sırasıyla
 özetler. Log biçimi satırlardan otomatik tanınır. İnternete bağlanmaz; logları hiçbir yere göndermez.

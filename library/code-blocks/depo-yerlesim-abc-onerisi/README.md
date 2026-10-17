@@ -1,6 +1,6 @@
 # Depo Yerleşim (ABC) Önerisi · Kod Bloğu
 
-> Lojistik ve Depo › Depo Sorumlusu · Workers / Workless
+> Lojistik ve Depo › Depo Sorumlusu · Gerisi Bende
 
 Ürünleri **rafa kaç kez gidildiğine** göre ABC sınıflarına ayırır ve sık çıkanların sevkiyata yakın bölgede
 durmasını önerir. Mevcut bölgeyi verirseniz hangi ürünün öne, hangisinin geriye alınacağını listeler. İnternete

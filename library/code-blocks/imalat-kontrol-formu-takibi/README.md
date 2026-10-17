@@ -1,6 +1,6 @@
 # İmalat Kontrol Formu Takibi · Kod Bloğu
 
-> Kalite Kontrol › Kalite Kontrol Mühendisi · Workers / Workless
+> Kalite Kontrol › Kalite Kontrol Mühendisi · Gerisi Bende
 
 İmalat kontrol taleplerini (muayene ve test planı / ITP adımları) **blok · kat · imalat** bazında izler; her konumun
 güncel onay durumunu bir **durum matrisinde** gösterir, red oranını ve karar süresini hesaplar, bekleyen ve

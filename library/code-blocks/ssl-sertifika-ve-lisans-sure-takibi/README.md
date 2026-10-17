@@ -1,6 +1,6 @@
 # SSL Sertifika ve Lisans Süre Takibi · Kod Bloğu
 
-> Bilgi Teknolojileri › Sistem Uzmanı · Workers / Workless
+> Bilgi Teknolojileri › Sistem Uzmanı · Gerisi Bende
 
 SSL / TLS sertifikası, alan adı, yazılım lisansı, abonelik ve destek sözleşmelerinin **bitiş tarihlerini** izler. Süresi dolan ve
 yaklaşanları, lisans adedini aşan ya da atıl kalan kullanımı listeler; önümüzdeki 12 ayın yenileme maliyetini çıkarır. İnternete

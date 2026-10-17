@@ -1,6 +1,6 @@
 # Hat Dengeleme · Kod Bloğu
 
-> Endüstri Mühendisliği ve Süreç Geliştirme › Endüstri Mühendisi · Workers / Workless
+> Endüstri Mühendisliği ve Süreç Geliştirme › Endüstri Mühendisi · Gerisi Bende
 
 Operasyon süreleri ve öncelik ilişkilerinden, hedef çevrim süresine göre **istasyon atamasını, hat verimini ve denge
 gecikmesini** hesaplar. İnternete bağlanmaz.

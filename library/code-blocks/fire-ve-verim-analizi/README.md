@@ -1,6 +1,6 @@
 # Fire ve Verim Analizi · Kod Bloğu
 
-> Üretim › Üretim Mühendisi · Workers / Workless
+> Üretim › Üretim Mühendisi · Gerisi Bende
 
 Hammadde girişi ile mamul çıkışından **ürün ve hat bazında fire oranını, verimi ve verim kaybının hammadde
 maliyetini** hesaplar. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Sözleşme Envanteri ve Süre Takibi — Workers / Workless kod bloğu
+Sözleşme Envanteri ve Süre Takibi — Gerisi Bende kod bloğu
 Hukuk › Hukuk Müdürü
 
 Sözleşmelerin bitiş, yenileme ve fesih bildirim tarihlerini izler; karar verilmesi gereken son günü öne çıkarır.

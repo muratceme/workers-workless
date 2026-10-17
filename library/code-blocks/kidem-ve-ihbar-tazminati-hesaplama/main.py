@@ -1,5 +1,5 @@
 """
-Kıdem ve İhbar Tazminatı Hesaplama — Workers / Workless kod bloğu
+Kıdem ve İhbar Tazminatı Hesaplama — Gerisi Bende kod bloğu
 İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı
 
 İşe giriş-çıkış tarihi ve giydirilmiş brüt ücretten kıdem tazminatını (1475 s. Kanun md. 14,

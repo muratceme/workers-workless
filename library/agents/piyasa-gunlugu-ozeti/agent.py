@@ -1,5 +1,5 @@
 """
-Piyasa Günlüğü Özeti — Workers / Workless AI Agent
+Piyasa Günlüğü Özeti — Gerisi Bende AI Agent
 Hazine › Hazine Uzmanı
 
 1. Kod gün içi piyasa verilerini (Gösterge; Tür; Önceki Kapanış; Son) okur ve değişimleri hesaplar:

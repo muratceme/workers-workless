@@ -1,6 +1,6 @@
 # Karbon Ayak İzi Hesaplama · Kod Bloğu
 
-> Sürdürülebilirlik ve Sosyal Uygunluk › Sosyal Uygunluk Uzmanı · Workers / Workless
+> Sürdürülebilirlik ve Sosyal Uygunluk › Sosyal Uygunluk Uzmanı · Gerisi Bende
 
 Enerji, yakıt ve malzeme tüketim verisinden, **sizin verdiğiniz emisyon faktörleriyle** kapsam 1 ve kapsam 2
 emisyonlarını ve ürün başına karbon değerini hesaplar. İnternete bağlanmaz; emisyon faktörü indirmez.

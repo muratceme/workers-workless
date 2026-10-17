@@ -1,6 +1,6 @@
 # Kaizen Önerisi Ön İnceleme · AI Agent
 
-> Endüstri Mühendisliği › Endüstri Mühendisi · Workers / Workless
+> Endüstri Mühendisliği › Endüstri Mühendisi · Gerisi Bende
 
 Çalışanların serbest metinle yazdığı iyileştirme önerilerini **değerlendirmeye hazır kayda** çevirir. Örnek öneri:
 "Kalıp değişimi 25 dakika kısalır, günde 4 kez, işi 2 kişi yapıyor". Bu metinden konu başlığı, kategori, kazanç

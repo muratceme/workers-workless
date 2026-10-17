@@ -1,5 +1,5 @@
 """
-İade Nedeni Analizi — Workers / Workless AI Agent
+İade Nedeni Analizi — Gerisi Bende AI Agent
 E-ticaret Operasyon ve Kargo › E-ticaret Operasyon Uzmanı
 
 1. Kod iade açıklamalarını okur; boş açıklamalar "Belirtilmemiş" sayılır ve modele gönderilmez. Açık ifadeler için kural

@@ -1,6 +1,6 @@
 # Prim Tahsilat Hatırlatma Mesajları · AI Agent
 
-> Sigorta Tahsilat › Tahsilat Uzmanı · Workers / Workless
+> Sigorta Tahsilat › Tahsilat Uzmanı · Gerisi Bende
 
 Vadesi geçmiş prim taksitleri için **kademeli hatırlatma e-postası veya SMS taslakları** hazırlar. Mesajlar ya
 sigortalıya (poliçe başına) ya da acenteye (acente başına, poliçe listesiyle) gider. Rakamları ve kademeyi kod belirler,

@@ -1,5 +1,5 @@
 """
-Şube Operasyonel Kontrol Listesi — Workers / Workless kod bloğu
+Şube Operasyonel Kontrol Listesi — Gerisi Bende kod bloğu
 Şube Bankacılığı › Şube Operasyon Yöneticisi
 
 Günlük, haftalık ve aylık periyodik kontrolleri (kasa, kıymetli evrak, anahtar, yetki) sorumlu ve tamamlanma durumuyla izler.

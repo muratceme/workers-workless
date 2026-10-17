@@ -1,6 +1,6 @@
 # Eğitim İhtiyaç Analizi · Kod Bloğu
 
-> İnsan Kaynakları › Eğitim ve Gelişim Uzmanı · Workers / Workless
+> İnsan Kaynakları › Eğitim ve Gelişim Uzmanı · Gerisi Bende
 
 Pozisyon yetkinlik matrisini, yönetici ve öz değerlendirmelerini, performans sonuçlarını ve eğitim taleplerini
 birleştirir. Departman bazında önceliklendirilmiş eğitim ihtiyacı ve bir eğitim planı taslağı çıkarır. İnternete

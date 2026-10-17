@@ -1,5 +1,5 @@
 """
-Aday Bilgilendirme E-postaları — Workers / Workless AI Agent
+Aday Bilgilendirme E-postaları — Gerisi Bende AI Agent
 İnsan Kaynakları › İnsan Kaynakları Uzman Yardımcısı
 
 1. Kod aday listesini okur; her satırın aşamasını (mülakat daveti, olumsuz dönüş, teklif) ve gerekli bilgilerini

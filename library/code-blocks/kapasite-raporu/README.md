@@ -1,6 +1,6 @@
 # Kapasite Raporu · Kod Bloğu
 
-> Bilgi Teknolojileri › Sistem Uzmanı · Workers / Workless
+> Bilgi Teknolojileri › Sistem Uzmanı · Gerisi Bende
 
 Disk, bellek ve işlemci kullanım ölçümlerinizden **büyüme hızını** çıkarır ve "bu disk ne zaman dolar?" sorusuna
 tarihle yanıt verir. Eşiğe yaklaşan kaynakları öne alır; satın alma ve temizlik planı için tek tablo üretir.

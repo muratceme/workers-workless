@@ -1,6 +1,6 @@
 # Borçlu Ödeme Planı Hesaplama · Kod Bloğu
 
-> İcra Takip › İcra Takip Elemanı (Avukat Katibi) · Workers / Workless
+> İcra Takip › İcra Takip Elemanı (Avukat Katibi) · Gerisi Bende
 
 İcra dosyasındaki toplam borcu, peşinatı, taksit sayısını ve faiz oranını alıp **faiz dahil ödeme planı** ve ödeme protokolüne
 konacak **özet metni** çıkarır. Tek dosya için komut satırından, çok dosya için tablodan çalışır. İnternete ve UYAP'a bağlanmaz.

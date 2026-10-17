@@ -1,5 +1,5 @@
 """
-Eğitim İhtiyaç Analizi — Workers / Workless kod bloğu
+Eğitim İhtiyaç Analizi — Gerisi Bende kod bloğu
 İnsan Kaynakları › Eğitim ve Gelişim Uzmanı
 
 Pozisyon yetkinlik matrisini, yönetici ve öz değerlendirmelerini, performans sonuçlarını ve eğitim taleplerini

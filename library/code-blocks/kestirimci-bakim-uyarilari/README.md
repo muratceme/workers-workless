@@ -1,6 +1,6 @@
 # Kestirimci Bakım Uyarıları · Kod Bloğu
 
-> Üretim › Bakım Onarım › Bakım Mühendisi · Workers / Workless
+> Üretim › Bakım Onarım › Bakım Mühendisi · Gerisi Bende
 
 Titreşim, sıcaklık ve akım ölçümlerini ekipman limitleriyle karşılaştırır. Arıza riski yüksek ekipmanları risk ve
 kritiklik sırasıyla listeler. Ölçümler portatif cihaz rotasından ya da sensör / SCADA dışa aktarımından gelebilir.

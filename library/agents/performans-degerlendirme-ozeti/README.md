@@ -1,6 +1,6 @@
 # Performans Değerlendirme Özeti · AI Agent
 
-> İnsan Kaynakları › İnsan Kaynakları Müdürü · Workers / Workless
+> İnsan Kaynakları › İnsan Kaynakları Müdürü · Gerisi Bende
 
 Yöneticilerin performans değerlendirme formlarını (hedef ve yetkinlik kalemleri, puanlar, yorumlar) **çalışan başına
 kısa bir özete** ve **dağılım raporuna** çevirir. Rapor hem geri bildirim görüşmesine hem de İK kalibrasyon

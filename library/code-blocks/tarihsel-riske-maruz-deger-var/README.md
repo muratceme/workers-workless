@@ -1,6 +1,6 @@
 # Tarihsel Riske Maruz Değer (VaR) · Kod Bloğu
 
-> İç Kontrol ve Risk Yönetimi › Risk Yönetimi Uzmanı · Workers / Workless
+> İç Kontrol ve Risk Yönetimi › Risk Yönetimi Uzmanı · Gerisi Bende
 
 Portföy pozisyonları ve geçmiş fiyat serilerinden **tarihsel simülasyonla** günlük VaR ve beklenen kaybı (ES) hesaplar;
 pozisyon katkılarını ve geriye dönük test sonucunu raporlar. İnternete bağlanmaz.

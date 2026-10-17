@@ -1,6 +1,6 @@
 # Raf Ömrü Takibi · Kod Bloğu
 
-> Kalite Kontrol ve Laboratuvar › Kalite Kontrol Teknisyeni · Workers / Workless
+> Kalite Kontrol ve Laboratuvar › Kalite Kontrol Teknisyeni · Gerisi Bende
 
 Parti stoklarının **son tüketim tarihine kalan süresini** ve **kalan ömür yüzdesini** hesaplar; her partinin hangi
 müşterilerin **kabul kriterini** karşıladığını gösterir ve planlanan sevkiyatları sevk günündeki kalan ömre göre kontrol

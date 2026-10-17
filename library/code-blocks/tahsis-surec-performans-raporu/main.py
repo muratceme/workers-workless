@@ -1,5 +1,5 @@
 """
-Tahsis Süreç Performans Raporu — Workers / Workless kod bloğu
+Tahsis Süreç Performans Raporu — Gerisi Bende kod bloğu
 Krediler Tahsis › Kredi Tahsis Müdürü
 
 Kredi tekliflerinin bekleme sürelerini, onay / ret oranlarını ve iade nedenlerini raporlar.

@@ -1,6 +1,6 @@
 # Özel Sağlık Sigortası Fatura Ön Kontrolü
 
-> Anlaşmalı Kurumlar ve Faturalama › Anlaşmalı Kurumlar Uzmanı · Workers / Workless
+> Anlaşmalı Kurumlar ve Faturalama › Anlaşmalı Kurumlar Uzmanı · Gerisi Bende
 
 Sigorta şirketine gönderilecek fatura kalemlerini **anlaşma fiyatları, provizyon onayı ve poliçe bilgileriyle**
 karşılaştırır, **kesinti riski taşıyan kalemleri ve riskli tutarı** nedenleriyle listeler. Yapay zekâ kullanmaz;

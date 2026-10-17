@@ -1,6 +1,6 @@
 # Mükellef Evrak Eksik Takibi · Kod Bloğu
 
-> Muhasebe ve Defter İşleri › Mali Müşavir Stajyeri · Workers / Workless
+> Muhasebe ve Defter İşleri › Mali Müşavir Stajyeri · Gerisi Bende
 
 Her mükelleften dönem için beklenen belgeleri (fatura, banka ekstresi, puantaj, kasa) gelenlerle karşılaştırır;
 **eksik listesini, tamamlanma oranını ve hazır hatırlatma metnini** çıkarır. İnternete bağlanmaz.

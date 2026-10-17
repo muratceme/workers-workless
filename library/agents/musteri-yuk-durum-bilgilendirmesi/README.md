@@ -1,6 +1,6 @@
 # Müşteri Yük Durum Bilgilendirmesi · AI Agent
 
-> Karayolu Operasyon › Karayolu Operasyon Uzmanı · Workers / Workless
+> Karayolu Operasyon › Karayolu Operasyon Uzmanı · Gerisi Bende
 
 Sefer durum tablosundan her müşteriye tek bir **yük durum e-postası** hazırlar: teslim edilen, zamanında ilerleyen ve geciken
 yükler, son konum ve tahmini varış. E-postalar **gönderilmez**; Excel'de onay sütunuyla ve müşteri başına .txt dosyası

@@ -1,5 +1,5 @@
 """
-Teklif Dönüşüm Analizi — Workers / Workless kod bloğu
+Teklif Dönüşüm Analizi — Gerisi Bende kod bloğu
 Satış ve Fiyatlandırma › Lojistik Satış Uzmanı
 Verilen navlun tekliflerinin kazanılma oranını hat, müşteri, ay, taşıma modu ve temsilci bazında; kaybedilenleri fiyat farkı ve nedene göre analiz eder.
   Kazanma oranı %   = kazanılan teklif ÷ (kazanılan + kaybedilen) × 100   (beklemede ve iptal teklifler oranın dışında)

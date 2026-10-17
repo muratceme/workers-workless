@@ -1,5 +1,5 @@
 """
-Müşteri Segmentasyonu (RFM) — Workers / Workless kod bloğu
+Müşteri Segmentasyonu (RFM) — Gerisi Bende kod bloğu
 Pazarlama › Pazarlama Uzmanı
 
 Satış geçmişinden müşterileri yenilik (R), sıklık (F) ve tutara (M) göre segmentlere ayırır:

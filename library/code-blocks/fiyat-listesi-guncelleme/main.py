@@ -1,5 +1,5 @@
 """
-Fiyat Listesi Güncelleme — Workers / Workless kod bloğu
+Fiyat Listesi Güncelleme — Gerisi Bende kod bloğu
 Satış › Satış Destek Uzmanı
 
 Maliyet değişimi ve kâr marjı kurallarına göre yeni fiyat listesini ve değişim raporunu hazırlar.

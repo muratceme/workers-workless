@@ -1,6 +1,6 @@
 # Tedarikçi Kalite Karnesi · Kod Bloğu
 
-> Kalite Güvence ve Kalite Kontrol › Kalite Müdürü · Workers / Workless
+> Kalite Güvence ve Kalite Kontrol › Kalite Müdürü · Gerisi Bende
 
 Giriş kalite kontrol kayıtlarından **tedarikçi bazında ret oranını (ppm)** hesaplar, hatalı ve reddedilen parti
 sayılarıyla birlikte A / B / C karne notu verir. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Duyusal Test Sonuç Analizi — Workers / Workless kod bloğu
+Duyusal Test Sonuç Analizi — Gerisi Bende kod bloğu
 Ar-Ge ve Ürün Geliştirme › Ar-Ge Uzmanı
 Panel değerlendirme puanlarını numune ve özellik bazında istatistiksel olarak karşılaştırır.
   Veri              = her satır bir panelistin bir numuneye verdiği puanlar; Panelist ve Numune dışındaki sayısal sütunlar özelliktir

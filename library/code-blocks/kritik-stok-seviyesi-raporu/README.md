@@ -1,6 +1,6 @@
 # Kritik Stok Seviyesi Raporu · Kod Bloğu
 
-> Eczane ve Tıbbi Malzeme › Hastane Eczacısı · Workers / Workless
+> Eczane ve Tıbbi Malzeme › Hastane Eczacısı · Gerisi Bende
 
 İlaç ve tıbbi malzemelerin **günlük tüketimi ve tedarik süresinden kritik stok seviyesini** hesaplar; stoksuz, kritik
 seviyenin altında ve emniyet stoğunun altındaki kalemleri listeler, **sipariş önerisi** çıkarır. İnternete bağlanmaz.

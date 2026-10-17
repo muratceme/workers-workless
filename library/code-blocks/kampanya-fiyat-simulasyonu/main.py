@@ -1,5 +1,5 @@
 """
-Kampanya Fiyat Simülasyonu — Workers / Workless kod bloğu
+Kampanya Fiyat Simülasyonu — Gerisi Bende kod bloğu
 Pazaryeri Yönetimi › Pazaryeri Uzmanı
 Planlanan indirim ve kupon kurgularının ürün bazında kâr marjına etkisini hesaplar (mevcut fiyat ↔ kampanya fiyatı).
   Müşterinin ödediği (KDV dahil) = satış fiyatı × (1 − indirim %) − kupon

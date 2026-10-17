@@ -1,6 +1,6 @@
 # İrsaliye Bilgi Çıkarma ve Mal Kabul Kontrolü · AI Agent
 
-> Depo › Depo Sorumlusu · Workers / Workless
+> Depo › Depo Sorumlusu · Gerisi Bende
 
 PDF, taranıp metne çevrilmiş ya da e-postayla gelen **sevk irsaliyelerinden mal kabul kaydı** çıkarır ve açık
 siparişlerle karşılaştırır. Tedarikçi ürünü kendi adı ve koduyla yazar ("İZOTONİK NaCl %0,9 500 ML"); model bunu

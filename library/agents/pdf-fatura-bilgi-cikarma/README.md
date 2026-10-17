@@ -1,6 +1,6 @@
 # PDF Fatura Bilgi Çıkarma · AI Agent
 
-> Muhasebe › Ön Muhasebe Elemanı · Workers / Workless
+> Muhasebe › Ön Muhasebe Elemanı · Gerisi Bende
 
 E-fatura XML'i olmayan faturaları kayıt tablosuna aktarır: PDF faturalar, e-postayla gelen fatura metinleri, Word
 belgeleri. Satıcı, alıcı, VKN, tarih, vade, satırlar (miktar, birim fiyat, iskonto, tutar, KDV, tevkifat) ve toplamlar

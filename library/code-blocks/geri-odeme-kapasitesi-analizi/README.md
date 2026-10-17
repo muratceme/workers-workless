@@ -1,6 +1,6 @@
 # Geri Ödeme Kapasitesi Analizi · Kod Bloğu
 
-> Bankacılık › Krediler (Tahsis) › Kredi Tahsis Uzmanı · Workers / Workless
+> Bankacılık › Krediler (Tahsis) › Kredi Tahsis Uzmanı · Gerisi Bende
 
 Firmanın nakit yaratma gücünü mevcut ve önerilen kredilerin **borç servisiyle** karşılaştırır. Yıl bazında
 **borç servisi karşılama oranını (DSCR)** ve stres senaryolarını hesaplar; taşınabilir azami kredi tutarını

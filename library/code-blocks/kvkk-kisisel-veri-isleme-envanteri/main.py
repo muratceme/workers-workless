@@ -1,5 +1,5 @@
 """
-KVKK Kişisel Veri İşleme Envanteri — Workers / Workless kod bloğu
+KVKK Kişisel Veri İşleme Envanteri — Gerisi Bende kod bloğu
 Bilgi Teknolojileri › Bilgi Güvenliği Uzmanı
 
 Departmanlardan toplanan veri işleme formlarını tek bir kişisel veri işleme envanterinde birleştirir ve eksik /

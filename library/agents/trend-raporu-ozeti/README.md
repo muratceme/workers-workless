@@ -1,6 +1,6 @@
 # Trend Raporu Özeti · AI Agent
 
-> Tasarım › Moda Tasarımcısı · Workers / Workless
+> Tasarım › Moda Tasarımcısı · Gerisi Bende
 
 Sezon trend raporlarını koleksiyonunuza **uygulanabilir renk, kumaş, silüet, detay ve desen maddelerine** indirir. Her
 madde rapordan aynen alıntıyla gelir. Koleksiyon brifinize uymayan trendler gerekçesiyle ayrı listelenir.

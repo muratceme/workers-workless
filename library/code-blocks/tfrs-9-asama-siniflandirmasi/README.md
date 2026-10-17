@@ -1,6 +1,6 @@
 # TFRS 9 Aşama Sınıflandırması · Kod Bloğu
 
-> Krediler İzleme ve Takip › Kredi İzleme Uzmanı · Workers / Workless
+> Krediler İzleme ve Takip › Kredi İzleme Uzmanı · Gerisi Bende
 
 Kredileri gecikme günü ve risk göstergelerine göre **Aşama 1-2-3** olarak sınıflandırır, her kredinin gerekçesini yazar
 ve önceki döneme göre aşaması değişenleri listeler. Eşikler parametredir. İnternete bağlanmaz.

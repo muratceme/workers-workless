@@ -1,5 +1,5 @@
 """
-Şikâyet Analizi — Workers / Workless AI Agent
+Şikâyet Analizi — Gerisi Bende AI Agent
 Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Deneyimi Uzmanı
 
 1. Kod şikâyet kayıtlarını okur; çözüm süresini, açık kayıtların yaşını (hedef süre aşımı), aynı müşterinin

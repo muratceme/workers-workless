@@ -1,6 +1,6 @@
 # Şube Teftiş Veri Analizi · Kod Bloğu
 
-> Bankacılık › Teftiş Kurulu › Müfettiş Yardımcısı · Workers / Workless
+> Bankacılık › Teftiş Kurulu › Müfettiş Yardımcısı · Gerisi Bende
 
 Şube işlem verisini personel listesiyle birlikte tarar; teftişte incelenecek **riskli örüntüleri** bulgu listesi,
 personel bazında risk puanı ve işaretli işlem listesi olarak verir. İnternete bağlanmaz.

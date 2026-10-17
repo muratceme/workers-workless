@@ -1,6 +1,6 @@
 # e-Defter Berat Yükleme Takibi · Kod Bloğu
 
-> Muhasebe ve Defter İşleri › Muhasebe Elemanı (Büro) · Workers / Workless
+> Muhasebe ve Defter İşleri › Muhasebe Elemanı (Büro) · Gerisi Bende
 
 Büronun takip ettiği mükelleflerin aylık e-defter dönemleri için **oluşturma, imzalama ve berat yükleme son tarihlerini**
 hesaplar; yüklenmiş, yaklaşan ve süresi geçmiş dönemleri listeler. İnternete ve GİB / e-Defter sistemine bağlanmaz.

@@ -1,6 +1,6 @@
 # Donanım Zimmet Envanteri · Kod Bloğu
 
-> Bilgi Teknolojileri › BT Destek Uzmanı · Workers / Workless
+> Bilgi Teknolojileri › BT Destek Uzmanı · Gerisi Bende
 
 Bilgisayar, telefon ve çevre birimi listenizi denetler: **kimde ne var, hangi cihazın garantisi bitiyor, hangisinin
 yenileme zamanı gelmiş, hangi kayıtta tutarsızlık var.** Güncel personel listesini verirseniz, işten ayrılmış

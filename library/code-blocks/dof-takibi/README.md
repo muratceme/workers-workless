@@ -1,6 +1,6 @@
 # DÖF Takibi · Kod Bloğu
 
-> Kalite Güvence ve Kalite Kontrol › Kalite Mühendisi · Workers / Workless
+> Kalite Güvence ve Kalite Kontrol › Kalite Mühendisi · Gerisi Bende
 
 Düzeltici ve önleyici faaliyetleri **sorumlu, termin ve etkinlik doğrulamasıyla** izler: gecikmiş aksiyonları,
 tamamlandığı hâlde etkinliği doğrulanmamış faaliyetleri ve etkisiz bulunup yeniden açılması gerekenleri öne çıkarır.

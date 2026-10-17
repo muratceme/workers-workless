@@ -1,6 +1,6 @@
 # Hastane Operasyon Panosu · Kod Bloğu
 
-> Hastane Yönetimi › Hastane Müdürü · Workers / Workless
+> Hastane Yönetimi › Hastane Müdürü · Gerisi Bende
 
 Bölümlerin günlük **poliklinik, acil, yatış, ameliyat, dolu yatak ve gelir** verilerini tek panoda toplar; doluluk,
 poliklinikten yatış oranı, hasta başına gelir ve hedef gerçekleşmesini bölüm ve gün bazında gösterir. İnternete ve

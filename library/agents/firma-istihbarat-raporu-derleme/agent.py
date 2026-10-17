@@ -1,5 +1,5 @@
 """
-Firma İstihbarat Raporu Derleme — Workers / Workless AI Agent
+Firma İstihbarat Raporu Derleme — Gerisi Bende AI Agent
 Bankacılık › Şube Bankacılığı › Ticari Portföy Yöneticisi
 
 1. Klasördeki dosyalar okunur: ticaret sicili özeti (.txt/.pdf/.docx), banka istihbaratı, piyasa görüşmeleri ve

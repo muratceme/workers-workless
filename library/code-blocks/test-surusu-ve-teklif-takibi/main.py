@@ -1,5 +1,5 @@
 """
-Test Sürüşü ve Teklif Takibi — Workers / Workless kod bloğu
+Test Sürüşü ve Teklif Takibi — Gerisi Bende kod bloğu
 Satış › Satış Danışmanı
 Test sürüşü yapan ve teklif verilen müşterileri izler, açık fırsatlar için geri dönüş önceliği belirler, dönüşüm oranlarını çıkarır.
   Öncelik 1 (bugün ara) = planlanan arama tarihi bugün ya da geçmiş, veya teklif verilmiş ve son temastan --takip (3) gün geçmiş

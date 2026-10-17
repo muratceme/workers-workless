@@ -1,5 +1,5 @@
 """
-Vekâlet Ücreti ve Masraf Hesabı — Workers / Workless kod bloğu
+Vekâlet Ücreti ve Masraf Hesabı — Gerisi Bende kod bloğu
 Dava Takip › Hukuk Sekreteri
 Avukatlık Asgari Ücret Tarifesi'nin nispi dilimleriyle (tarife dosyasından) kabul ve red edilen kısımlar için vekâlet ücretini,
 yargılama giderlerinin haklılık oranına göre paylaşımını hesaplar.

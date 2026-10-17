@@ -1,6 +1,6 @@
 # Portföy Müşteri Fırsat Listesi · Kod Bloğu
 
-> Bankacılık › Şube Bankacılığı › Bireysel Portföy Yöneticisi · Workers / Workless
+> Bankacılık › Şube Bankacılığı › Bireysel Portföy Yöneticisi · Gerisi Bende
 
 Portföydeki bireysel müşterilerin ürün sahipliği ve hareketlerinden **çapraz satış ve elde tutma fırsatlarını**
 kural tabanlı olarak puanlar ve önceliklendirir. Kart, BES, mevduat ve sigorta gibi fırsatlar için gerekçeli bir

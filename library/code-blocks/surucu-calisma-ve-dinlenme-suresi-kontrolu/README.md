@@ -1,6 +1,6 @@
 # Sürücü Çalışma ve Dinlenme Süresi Kontrolü · Kod Bloğu
 
-> Filo Yönetimi › Filo Yöneticisi · Workers / Workless
+> Filo Yönetimi › Filo Yöneticisi · Gerisi Bende
 
 Takograf verisinden **günlük ve haftalık sürüş ile dinlenme sürelerini AETR kurallarına göre** kontrol eder, ihlalleri
 listeler. İnternete bağlanmaz. Girdi günlük özet satırlarıdır; ham takograf dosyası (.ddd) okumaz.

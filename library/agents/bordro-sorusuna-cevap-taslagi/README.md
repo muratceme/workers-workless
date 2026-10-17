@@ -1,6 +1,6 @@
 # Bordro Sorusuna Cevap Taslağı · AI Agent
 
-> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Workers / Workless
+> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Gerisi Bende
 
 Çalışanların "maaşım neden düştü?", "fazla mesaim yatmamış", "bu kesinti ne?" gibi sorularına **bordro verisine
 dayanan**, anlaşılır cevap taslakları hazırlar. Rakamları ve farkları kod hesaplar, model yalnız açıklar. Bordrodan

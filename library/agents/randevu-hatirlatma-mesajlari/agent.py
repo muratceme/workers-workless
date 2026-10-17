@@ -1,5 +1,5 @@
 """
-Randevu Hatırlatma Mesajları — Workers / Workless AI Agent
+Randevu Hatırlatma Mesajları — Gerisi Bende AI Agent
 Hasta Hizmetleri › Hasta Kayıt Kabul Görevlisi
 
 Hasta verisi modele GÖNDERİLMEZ. Akış:

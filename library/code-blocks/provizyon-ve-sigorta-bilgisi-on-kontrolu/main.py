@@ -1,5 +1,5 @@
 """
-Provizyon ve Sigorta Bilgisi Ön Kontrolü — Workers / Workless kod bloğu
+Provizyon ve Sigorta Bilgisi Ön Kontrolü — Gerisi Bende kod bloğu
 Hasta Hizmetleri › Hasta Kayıt Kabul Görevlisi
 
 Randevu listesindeki hastaların kimlik, ödeme tipi, sigorta ve provizyon bilgilerini hasta gelmeden önce kontrol edip eksikleri listeler.

@@ -1,5 +1,5 @@
 """
-KVKK Aydınlatma Metni Taslağı — Workers / Workless AI Agent
+KVKK Aydınlatma Metni Taslağı — Gerisi Bende AI Agent
 Hukuk › Avukat
 
 1. Kod veri işleme envanterini (kategori, veriler, amaç, hukuki sebep, toplama yöntemi, alıcı grubu, aktarım amacı, yurt dışı

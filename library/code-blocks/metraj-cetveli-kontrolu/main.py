@@ -1,5 +1,5 @@
 """
-Metraj Cetveli Kontrolü — Workers / Workless kod bloğu
+Metraj Cetveli Kontrolü — Gerisi Bende kod bloğu
 Teknik Ofis › Teknik Ofis Mühendisi
 
 Metraj cetvelindeki hesap satırlarını (boyut × adet) yeniden hesaplar, poz toplamlarını ve mükerrer satırları kontrol eder.

@@ -1,5 +1,5 @@
 """
-Tedavi Fiyat Teklifi Hazırlama — Workers / Workless kod bloğu
+Tedavi Fiyat Teklifi Hazırlama — Gerisi Bende kod bloğu
 Uluslararası Hasta Hizmetleri › Uluslararası Hasta Koordinatörü
 
 Tedavi planı ve paket fiyat listesinden konaklama ve transfer dahil hastaya gönderilecek teklif dosyasını hazırlar.

@@ -1,6 +1,6 @@
 # Aday Bilgilendirme E-postaları · AI Agent
 
-> İnsan Kaynakları › İnsan Kaynakları Uzman Yardımcısı · Workers / Workless
+> İnsan Kaynakları › İnsan Kaynakları Uzman Yardımcısı · Gerisi Bende
 
 Aday listesinden **mülakat daveti, olumsuz dönüş ve iş teklifi e-postaları** hazırlar. **Aday adı, e-posta adresi, ücret
 ve tarihler yapay zekâ modeline gönderilmez.** Model yalnız aşama türleri ve pozisyon adları için yer tutuculu şablon

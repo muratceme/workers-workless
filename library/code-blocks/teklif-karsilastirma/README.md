@@ -1,6 +1,6 @@
 # Teklif Karşılaştırma · Kod Bloğu
 
-> Satın Alma › Satın Alma Uzmanı · Workers / Workless
+> Satın Alma › Satın Alma Uzmanı · Gerisi Bende
 
 Tedarikçilerden gelen teklifleri tek tabloda toplar. **Döviz, nakliye ve ödeme vadesi farklarını
 eşitleyerek** karşılaştırır, tedarikçileri ağırlıklı kriterlerle puanlar ve bir karşılaştırma tablosu (mukayese

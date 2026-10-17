@@ -1,6 +1,6 @@
 # Sözleşme Envanteri ve Süre Takibi · Kod Bloğu
 
-> Hukuk › Hukuk Müdürü · Workers / Workless
+> Hukuk › Hukuk Müdürü · Gerisi Bende
 
 Sözleşme listenizi süre takvimine çevirir. Asıl sorduğu soru şudur: **"Bu sözleşme için en geç hangi gün karar
 vermem gerekiyor?"** Otomatik yenilenen sözleşmelerde bu gün bitiş değil, fesih bildirim süresinin son günüdür;

@@ -1,6 +1,6 @@
 # Personel Özlük Dosyası Eksik Evrak Takibi · Kod Bloğu
 
-> İnsan Kaynakları › İnsan Kaynakları Uzman Yardımcısı · Workers / Workless
+> İnsan Kaynakları › İnsan Kaynakları Uzman Yardımcısı · Gerisi Bende
 
 Çalışan listesini zorunlu özlük evrakı listesiyle karşılaştırır. Eksik, süresi dolmuş ve dolmak üzere olan
 belgeleri çalışan bazında raporlar ve çalışanlara gönderilecek hatırlatma metinlerini hazırlar. İnternete bağlanmaz.

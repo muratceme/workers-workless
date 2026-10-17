@@ -1,6 +1,6 @@
 # Gelen e-Fatura Kayıt Kontrolü · Kod Bloğu
 
-> Muhasebe › Muhasebe Elemanı · Mali Müşavirlik Bürosu › Muhasebe Elemanı · Workers / Workless
+> Muhasebe › Muhasebe Elemanı · Mali Müşavirlik Bürosu › Muhasebe Elemanı · Gerisi Bende
 
 GİB veya özel entegratör portalından alınan **gelen e-fatura / e-arşiv** listesini muhasebe **alış
 kayıtlarıyla** karşılaştırır. Deftere işlenmemiş, mükerrer işlenmiş, tutarı farklı ve portalda karşılığı

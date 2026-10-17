@@ -1,6 +1,6 @@
 # Suistimal Risk Göstergeleri · Kod Bloğu
 
-> Hasar Yönetimi › Hasar Uzmanı · Workers / Workless
+> Hasar Yönetimi › Hasar Uzmanı · Gerisi Bende
 
 Hasar dosyalarını dokuz basit göstergeyle tarar, tetiklenen göstergelerin puanlarını toplar ve **hangi dosyanın önce
 ayrıntılı inceleneceğine** dair bir öncelik listesi çıkarır. İnternete bağlanmaz.

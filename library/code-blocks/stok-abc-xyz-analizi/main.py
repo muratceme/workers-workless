@@ -1,5 +1,5 @@
 """
-Stok ABC-XYZ Analizi — Workers / Workless kod bloğu
+Stok ABC-XYZ Analizi — Gerisi Bende kod bloğu
 Üretim › Üretim Planlama / Malzeme Planlama
 
 Stokları iki eksende sınıflandırır:

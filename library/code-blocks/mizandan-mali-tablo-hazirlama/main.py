@@ -1,5 +1,5 @@
 """
-Mizandan Mali Tablo Hazırlama — Workers / Workless kod bloğu
+Mizandan Mali Tablo Hazırlama — Gerisi Bende kod bloğu
 Muhasebe › Muhasebe Müdürü
 
 Tekdüzen Hesap Planı'na göre tutulan mizandan, Muhasebe Sistemi Uygulama Genel Tebliği (MSUGT) biçiminde

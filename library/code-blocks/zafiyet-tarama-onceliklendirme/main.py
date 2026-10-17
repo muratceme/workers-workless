@@ -1,5 +1,5 @@
 """
-Zafiyet Tarama Önceliklendirme — Workers / Workless kod bloğu
+Zafiyet Tarama Önceliklendirme — Gerisi Bende kod bloğu
 Bilgi Teknolojileri › Bilgi Güvenliği Uzmanı
 
 Zafiyet tarayıcısı çıktısını (Nessus, OpenVAS/Greenbone, Qualys vb. CSV/Excel) yalnız CVSS'e göre değil,

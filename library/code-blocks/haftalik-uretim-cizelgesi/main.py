@@ -1,5 +1,5 @@
 """
-Haftalık Üretim Çizelgesi — Workers / Workless kod bloğu
+Haftalık Üretim Çizelgesi — Gerisi Bende kod bloğu
 Üretim › Üretim Planlama › Üretim Planlama Uzmanı
 
 Açık siparişleri, ürün rotalarını (operasyon sırası, iş merkezi, birim süre, hazırlık süresi) ve makine

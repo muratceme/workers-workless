@@ -1,6 +1,6 @@
 # Stres Testi Senaryo Hesabı · Kod Bloğu
 
-> İç Kontrol ve Risk Yönetimi › Risk Yönetimi Uzmanı · Workers / Workless
+> İç Kontrol ve Risk Yönetimi › Risk Yönetimi Uzmanı · Gerisi Bende
 
 Kur, faiz ve takip oranı şoklarının **kârlılık ve sermaye yeterliliği** üzerindeki etkisini senaryo bazında hesaplar.
 Bankanın kendi duyarlılık rakamlarını senaryolara uygulayan basit ve izlenebilir bir modeldir. İnternete bağlanmaz.

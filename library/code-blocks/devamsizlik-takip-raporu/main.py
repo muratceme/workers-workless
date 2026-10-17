@@ -1,5 +1,5 @@
 """
-Devamsızlık Takip Raporu — Workers / Workless kod bloğu
+Devamsızlık Takip Raporu — Gerisi Bende kod bloğu
 Kayıt Kabul ve Öğrenci İşleri › Öğrenci İşleri Sorumlusu
 Yoklama kayıtlarından öğrenci bazında özürlü / özürsüz devamsızlığı hesaplar, sınıra yaklaşan ve aşan öğrencileri, veli bildirimi gerekenleri listeler.
   Gün          = tam gün 1, yarım gün 0,5 (aynı gün için birden fazla kayıt toplanır, en fazla 1)

@@ -1,6 +1,6 @@
 # Satın Alma Fiyat Geçmişi Analizi · Kod Bloğu
 
-> Satın Alma › Satın Alma Uzmanı · Workers / Workless
+> Satın Alma › Satın Alma Uzmanı · Gerisi Bende
 
 Geçmiş alımlarınızı malzeme bazında sıraya dizer ve her fiyat artışını **aynı dönemdeki enflasyon ve kur
 hareketiyle** karşılaştırır. "Bu zam enflasyon kadar mı, yoksa üstünde mi?" sorusunu sayıyla yanıtlar; endeksin

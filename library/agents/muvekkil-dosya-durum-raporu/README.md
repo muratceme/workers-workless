@@ -1,6 +1,6 @@
 # Müvekkil Dosya Durum Raporu · AI Agent
 
-> Dava Takip › Avukat (Büro) · Workers / Workless
+> Dava Takip › Avukat (Büro) · Gerisi Bende
 
 Dava ve icra dosyalarının son durumunu **müvekkile gönderilecek sade bir rapor** olarak hazırlar. **Müvekkil ve karşı
 taraf adları yapay zekâ modeline gönderilmez;** `{MUVEKKIL}`, `{KT1}`, `{KT2}` … kodlarıyla gönderilir, rapora kod geri

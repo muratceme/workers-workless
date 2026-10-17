@@ -1,5 +1,5 @@
 """
-Ürün Gamı (Delist) Önerisi — Workers / Workless kod bloğu
+Ürün Gamı (Delist) Önerisi — Gerisi Bende kod bloğu
 Satın Alma ve Kategori Yönetimi › Kategori Yöneticisi
 Satış, marj ve raf verimliliğine göre listeden çıkarılabilecek ürünleri önerir. Her ürün kendi kategorisi içinde değerlendirilir.
   Ciro kuyruğu       = ciroya göre sıralandığında, kendisinden önceki ürünler kategori cirosunun %(100 − --kuyruk) kadarını

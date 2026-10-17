@@ -1,6 +1,6 @@
 # Acente Portföy ve Komisyon Raporu · Kod Bloğu
 
-> Teknik ve Operasyon › Acente Yöneticisi · Workers / Workless
+> Teknik ve Operasyon › Acente Yöneticisi · Gerisi Bende
 
 Acentenin üretimini **sigorta şirketi ve branş bazında** toplar; komisyon gelirini, ortalama komisyon oranını ve
 tahsilat durumunu raporlar. İnternete bağlanmaz.

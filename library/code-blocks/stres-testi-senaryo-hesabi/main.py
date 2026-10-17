@@ -1,5 +1,5 @@
 """
-Stres Testi Senaryo Hesabı — Workers / Workless kod bloğu
+Stres Testi Senaryo Hesabı — Gerisi Bende kod bloğu
 İç Kontrol ve Risk Yönetimi › Risk Yönetimi Uzmanı
 
 Kur, faiz ve takip oranı şoklarının kârlılık ve sermaye yeterliliği üzerindeki etkisini senaryo bazında hesaplar.

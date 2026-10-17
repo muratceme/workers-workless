@@ -1,6 +1,6 @@
 # Kıdem ve İhbar Tazminatı Hesaplama · Kod Bloğu
 
-> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Workers / Workless
+> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Gerisi Bende
 
 İşe giriş-çıkış tarihi ve ücretten **kıdem tazminatını** ve **ihbar tazminatını** hesaplar; vergi
 kesintileriyle net tutarları çıkarır. Tek kişi veya toplu çıkış listesi için çalışır. İnternete bağlanmaz.

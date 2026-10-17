@@ -1,6 +1,6 @@
 # Plan Uyum Raporu · Kod Bloğu
 
-> Üretim Planlama › Üretim Planlama Uzmanı · Workers / Workless
+> Üretim Planlama › Üretim Planlama Uzmanı · Gerisi Bende
 
 Planlanan ile gerçekleşen üretimi **iş emri bazında** karşılaştırır; miktar ve tarih sapmalarını ayırır, sapma
 nedenlerini sayar ve plan uyum oranlarını hat ve ürün kırılımıyla verir. İnternete bağlanmaz.

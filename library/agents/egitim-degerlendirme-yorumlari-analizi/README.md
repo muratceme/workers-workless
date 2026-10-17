@@ -1,6 +1,6 @@
 # Eğitim Değerlendirme Yorumları Analizi · AI Agent
 
-> İnsan Kaynakları › Eğitim ve Gelişim Uzmanı · Workers / Workless
+> İnsan Kaynakları › Eğitim ve Gelişim Uzmanı · Gerisi Bende
 
 Eğitim sonrası değerlendirme anketlerindeki **açık uçlu yorumları** eğitim bazında okur:
 - yorumları temaya (içerik, uygulama, eğitmen, süre / tempo, materyal, ortam, organizasyon) ve yöne (Olumlu / Olumsuz /

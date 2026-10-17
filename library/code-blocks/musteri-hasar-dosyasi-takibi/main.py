@@ -1,5 +1,5 @@
 """
-Müşteri Hasar Dosyası Takibi — Workers / Workless kod bloğu
+Müşteri Hasar Dosyası Takibi — Gerisi Bende kod bloğu
 Teknik ve Operasyon › Hasar Sorumlusu
 
 Müşterilerin açık hasar dosyalarını sigorta şirketi, eksper ve bekleyen evrak bazında takip eder.

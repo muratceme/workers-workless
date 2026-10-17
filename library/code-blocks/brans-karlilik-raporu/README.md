@@ -1,6 +1,6 @@
 # Branş Kârlılık Raporu · Kod Bloğu
 
-> Teknik (Risk Kabul / Underwriting) › Teknik Müdür · Workers / Workless
+> Teknik (Risk Kabul / Underwriting) › Teknik Müdür · Gerisi Bende
 
 Branş bazında yazılan prim, karşılık değişimleri, hasar ve giderlerden **kazanılmış prim, gerçekleşen hasar, hasar
 prim oranı, bileşik oran ve teknik sonucu** hesaplar. İnternete bağlanmaz.

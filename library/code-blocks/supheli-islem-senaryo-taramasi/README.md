@@ -1,6 +1,6 @@
 # Şüpheli İşlem Senaryo Taraması · Kod Bloğu
 
-> Bankacılık › Kurumsal Uyum › Uyum Uzmanı · Workers / Workless
+> Bankacılık › Kurumsal Uyum › Uyum Uzmanı · Gerisi Bende
 
 İşlem verisini yapılandırılabilir **senaryolarla** tarar ve uyum biriminin inceleyeceği, öncelik sıralı bir
 **inceleme listesi** çıkarır. İnternete bağlanmaz.

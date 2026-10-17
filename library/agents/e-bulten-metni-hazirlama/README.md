@@ -1,6 +1,6 @@
 # E-bülten Metni Hazırlama · AI Agent
 
-> Pazarlama › Dijital Pazarlama Uzmanı · Workers / Workless
+> Pazarlama › Dijital Pazarlama Uzmanı · Gerisi Bende
 
 Kampanya bilgisinden **konu satırı alternatifleriyle e-bülten metni** hazırlar. Model içeriği yazar; kampanya bağlantısını,
 gönderen bilgilerini ve abonelikten çıkma (ret) alt bilgisini **kod ekler**. E-posta göndermez; e-posta servisinize

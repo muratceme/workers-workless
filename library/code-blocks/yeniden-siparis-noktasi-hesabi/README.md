@@ -1,6 +1,6 @@
 # Yeniden Sipariş Noktası Hesabı · Kod Bloğu
 
-> Üretim › Üretim Planlama · Workers / Workless
+> Üretim › Üretim Planlama · Gerisi Bende
 
 Her stok kalemi için **emniyet stoğunu**, **yeniden sipariş noktasını (YSN)** ve **ekonomik sipariş miktarını
 (ESM)** hesaplar. Stok pozisyonu YSN'ye inmiş kalemler için sipariş önerir. İnternete bağlanmaz.

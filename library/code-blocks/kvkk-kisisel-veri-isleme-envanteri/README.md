@@ -1,6 +1,6 @@
 # KVKK Kişisel Veri İşleme Envanteri · Kod Bloğu
 
-> Bilgi Teknolojileri › Bilgi Güvenliği Uzmanı · Workers / Workless
+> Bilgi Teknolojileri › Bilgi Güvenliği Uzmanı · Gerisi Bende
 
 Departmanlardan toplanan veri işleme formlarını tek bir kişisel veri işleme envanterinde birleştirir. Eksik,
 tutarsız veya riskli kayıtları KVKK maddelerine göre işaretler. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-KDV Beyannamesi Ön Kontrolü — Workers / Workless kod bloğu
+KDV Beyannamesi Ön Kontrolü — Gerisi Bende kod bloğu
 Muhasebe › Genel Muhasebe Uzmanı
 
 Satış ve alış fatura listelerini, mizanı ve hazırlanan KDV beyannamesi tutarlarını karşılaştırır; uyumsuzlukları

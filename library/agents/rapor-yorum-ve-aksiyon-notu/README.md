@@ -1,6 +1,6 @@
 # Rapor Yorum ve Aksiyon Notu · AI Agent
 
-> Yönetim raporları · Workers / Workless
+> Yönetim raporları · Gerisi Bende
 
 Bir Excel raporundan yönetici için **kısa bir yorum notu** yazar: özet, önem dereceli bulgular ve bulgulara bağlı aksiyon
 önerileri. Rapor sitedeki bir kod bloğunun çıktısı olabilir (satış hedef-gerçekleşme, gecikme yaşlandırma, muallak

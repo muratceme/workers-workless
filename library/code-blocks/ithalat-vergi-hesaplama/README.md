@@ -1,6 +1,6 @@
 # İthalat Vergi Hesaplama · Kod Bloğu
 
-> Gümrük Operasyon › Gümrük Operasyon Uzmanı · Workers / Workless
+> Gümrük Operasyon › Gümrük Operasyon Uzmanı · Gerisi Bende
 
 CIF kıymet, gümrük vergisi, ilave gümrük vergisi ve KDV oranlarından **ithalatta ödenecek vergilerin ön hesabını**
 yapar. İnternete bağlanmaz. Oranları siz verirsiniz.

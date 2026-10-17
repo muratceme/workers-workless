@@ -1,5 +1,5 @@
 """
-CV Ön Eleme — Workers / Workless kod bloğu
+CV Ön Eleme — Gerisi Bende kod bloğu
 İnsan Kaynakları › İnsan Kaynakları Uzman Yardımcısı
 
 CV'leri (.pdf, .docx, .txt) ilanın ZORUNLU kriterlerine göre ilk filtreden geçirir ve her aday için

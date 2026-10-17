@@ -1,6 +1,6 @@
 # Müşteri Ziyaret Planı · Kod Bloğu
 
-> Satış › Satış Temsilcisi · Workers / Workless
+> Satış › Satış Temsilcisi · Gerisi Bende
 
 Müşteri listesi, konum ve ziyaret sıklığından **haftalık ziyaret planı** çıkarır. Bu hafta ziyareti gelen müşterileri
 bulur, birbirine yakın olanları aynı güne toplar ve her gün için **rota sırası** ile tahmini varış saatlerini verir.

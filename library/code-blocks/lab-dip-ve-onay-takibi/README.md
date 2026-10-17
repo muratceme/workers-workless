@@ -1,6 +1,6 @@
 # Lab Dip ve Onay Takibi · Kod Bloğu
 
-> Müşteri Temsilciliği (Merchandising) › Production Merchandiser · Workers / Workless
+> Müşteri Temsilciliği (Merchandising) › Production Merchandiser · Gerisi Bende
 
 Renk (lab dip), baskı, nakış ve aksesuar onaylarının **gönderim ve müşteri cevabı durumunu sipariş bazında** izler:
 cevabı geciken, reddedilip yeniden gönderilmesi gereken ve onay termini geçen ya da yaklaşan kalemleri öne çıkarır.

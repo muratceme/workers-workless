@@ -1,6 +1,6 @@
 # Tedarikçi Teklifi Bilgi Çıkarma · AI Agent
 
-> Satın Alma › Satın Alma Uzman Yardımcısı · Workers / Workless
+> Satın Alma › Satın Alma Uzman Yardımcısı · Gerisi Bende
 
 Tedarikçilerden e-posta, PDF veya Word ile gelen fiyat tekliflerini **karşılaştırma tablosuna** aktarır. Her teklif
 kalemini talep listenizdeki malzemeyle eşleştirir: tedarikçi "A42 V kayış", talep "V kayışı A-42" yazsa da eşleşir.

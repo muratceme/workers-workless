@@ -1,5 +1,5 @@
 """
-Teklif Hazırlama — Workers / Workless kod bloğu
+Teklif Hazırlama — Gerisi Bende kod bloğu
 Satış › Satış Temsilcisi
 
 Fiyat listesi, iskonto kuralları ve ürün seçiminden müşteriye gönderilecek teklif dosyasını hazırlar:

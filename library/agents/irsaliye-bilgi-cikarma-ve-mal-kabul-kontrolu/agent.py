@@ -1,5 +1,5 @@
 """
-İrsaliye Bilgi Çıkarma ve Mal Kabul Kontrolü — Workers / Workless AI Agent
+İrsaliye Bilgi Çıkarma ve Mal Kabul Kontrolü — Gerisi Bende AI Agent
 Depo › Depo Sorumlusu (hastane eczanesi ve lojistik depo rolleri de kullanır)
 
 PDF / taranıp metne çevrilmiş / e-postayla gelen sevk irsaliyelerinden mal kabul kaydı çıkarır ve açık siparişlerle

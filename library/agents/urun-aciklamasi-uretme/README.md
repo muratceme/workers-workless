@@ -1,6 +1,6 @@
 # Ürün Açıklaması Üretme · AI Agent
 
-> E-ticaret › Kategori ve İçerik Yönetimi › E-ticaret İçerik Uzmanı · Workers / Workless
+> E-ticaret › Kategori ve İçerik Yönetimi › E-ticaret İçerik Uzmanı · Gerisi Bende
 
 Ürün özellik tablosundan her satış kanalı (web sitesi, pazaryerleri) için şunları üretir:
 - Başlık ve meta açıklama

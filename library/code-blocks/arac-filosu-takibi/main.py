@@ -1,5 +1,5 @@
 """
-Araç Filosu Takibi — Workers / Workless kod bloğu
+Araç Filosu Takibi — Gerisi Bende kod bloğu
 İdari İşler › İdari İşler Sorumlusu
 
 Şirket araçlarının muayene, trafik sigortası, kasko, bakım ve lastik durumunu izler; yaklaşan ve geçmiş işleri listeler.

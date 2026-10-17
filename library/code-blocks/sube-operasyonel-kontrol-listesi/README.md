@@ -1,6 +1,6 @@
 # Şube Operasyonel Kontrol Listesi · Kod Bloğu
 
-> Şube Bankacılığı › Şube Operasyon Yöneticisi · Workers / Workless
+> Şube Bankacılığı › Şube Operasyon Yöneticisi · Gerisi Bende
 
 Şubenin günlük, haftalık ve aylık periyodik kontrollerini izler; her sabah **bugün yapılacak ve gecikmiş
 kontrolleri** sorumlusuyla listeler, paraf atılacak çıktıyı hazırlar. İnternete bağlanmaz.

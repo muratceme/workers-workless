@@ -1,6 +1,6 @@
 # Müşteri İhtiyaç Analizi · AI Agent
 
-> Acente Teknik › Sigorta Uzmanı (Acente) · Workers / Workless
+> Acente Teknik › Sigorta Uzmanı (Acente) · Gerisi Bende
 
 Müşteriyle yapılan görüşmenin notlarından **risklerini ve acentenizin ürün kataloğundan önerilecek sigorta ürünlerini**
 içeren ihtiyaç analizi hazırlar. Öneriler yalnız kataloğunuzdaki ürünlerden yapılır; prim ve teminat tutarı uydurulmaz.

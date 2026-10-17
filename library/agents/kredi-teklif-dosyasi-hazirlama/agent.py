@@ -1,5 +1,5 @@
 """
-Kredi Teklif Dosyası Hazırlama — Workers / Workless AI Agent
+Kredi Teklif Dosyası Hazırlama — Gerisi Bende AI Agent
 Bankacılık › Ticari Bankacılık › Ticari Portföy Yöneticisi
 
 1. Teklif klasöründeki dosyalar okunur: talep bilgisi (.txt), mali tablolar (Kalem × yıl, .csv/.xlsx), KKB/memzuç

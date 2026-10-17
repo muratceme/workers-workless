@@ -1,5 +1,5 @@
 """
-Fire ve Verim Analizi — Workers / Workless kod bloğu
+Fire ve Verim Analizi — Gerisi Bende kod bloğu
 Üretim › Üretim Mühendisi
 
 Hammadde girişi ile mamul çıkışından ürün ve hat bazında fire oranını ve verim kaybı maliyetini hesaplar.

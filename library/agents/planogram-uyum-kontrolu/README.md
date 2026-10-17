@@ -1,6 +1,6 @@
 # Planogram Uyum Kontrolü · AI Agent
 
-> Görsel Düzenleme › Görsel Düzenleme Uzmanı · Workers / Workless
+> Görsel Düzenleme › Görsel Düzenleme Uzmanı · Gerisi Bende
 
 Raf fotoğrafını planogram listesiyle karşılaştırıp **eksik, yanlış yerleştirilmiş, yüz sayısı eksik, fiyat etiketi
 olmayan ya da etiket fiyatı farklı ürünleri** listeler. Görsel destekli model yalnız **fotoğrafta gördüğünü** kayda

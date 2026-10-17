@@ -1,6 +1,6 @@
 # Banka Mutabakatı · AI Agent
 
-> Finans & Muhasebe › Muhasebe Elemanı · Workers / Workless
+> Finans & Muhasebe › Muhasebe Elemanı · Gerisi Bende
 
 Mutabakatın **eşleştirme kısmını yapay zekâya bırakmaz**: kod bloğunun deterministik motoru
 çalışır, sonuç her seferinde aynıdır. Yapay zekâ yalnızca eşleşmeyen **açık kalemleri**

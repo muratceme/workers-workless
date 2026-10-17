@@ -1,5 +1,5 @@
 """
-Veli Bilgilendirme Mesajları — Workers / Workless AI Agent
+Veli Bilgilendirme Mesajları — Gerisi Bende AI Agent
 Kayıt Kabul ve Öğrenci İşleri › Öğrenci İşleri Sorumlusu
 
 1. Kod mesaj listesinden mesaj türü kombinasyonlarını çıkarır: Devamsızlık, Ödev ve her duyuru (D1, D2 …) için bir şablon.

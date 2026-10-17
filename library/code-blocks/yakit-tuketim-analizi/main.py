@@ -1,5 +1,5 @@
 """
-Yakıt Tüketim Analizi — Workers / Workless kod bloğu
+Yakıt Tüketim Analizi — Gerisi Bende kod bloğu
 Filo Yönetimi › Filo Yöneticisi
 
 Yakıt kartı ve kilometre verisinden araç ve sürücü bazında 100 km tüketimini hesaplayıp sapmaları işaretler.

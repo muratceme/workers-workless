@@ -1,5 +1,5 @@
 """
-Oda Arıza ve Bakım Talep Takibi — Workers / Workless kod bloğu
+Oda Arıza ve Bakım Talep Takibi — Gerisi Bende kod bloğu
 Kat Hizmetleri › Kat Hizmetleri Müdürü (Housekeeper)
 Odalardan bildirilen arıza ve bakım taleplerini oda, kategori, öncelik ve bekleme süresine göre takip eder.
   Süre (saat)       = tamamlanma − bildirim; açık talepte rapor zamanı − bildirim

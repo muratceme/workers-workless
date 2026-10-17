@@ -1,5 +1,5 @@
 """
-Müşteri Yük Durum Bilgilendirmesi — Workers / Workless AI Agent
+Müşteri Yük Durum Bilgilendirmesi — Gerisi Bende AI Agent
 Karayolu Operasyon › Karayolu Operasyon Uzmanı
 
 1. Kod sefer durum tablosunu okur, her sefer için gecikmeyi hesaplar (ETA − planlanan teslim; --tolerans dakikayı

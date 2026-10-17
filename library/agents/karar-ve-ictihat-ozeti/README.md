@@ -1,6 +1,6 @@
 # Karar ve İçtihat Özeti · AI Agent
 
-> Dava Takip › Avukat · Workers / Workless
+> Dava Takip › Avukat · Gerisi Bende
 
 Mahkeme kararını dosyaya ve içtihat arşivine girilecek biçimde **başlıklarla özetler**: künye, taraflar, olay, iddia ve
 savunma, yargılama süreci, hukuki mesele, gerekçe, hüküm, oy durumu, atıf yapılan mevzuat ve kararlar, anahtar kelimeler.

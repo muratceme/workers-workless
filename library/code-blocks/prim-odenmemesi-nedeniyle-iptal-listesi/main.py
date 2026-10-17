@@ -1,5 +1,5 @@
 """
-Prim Ödenmemesi Nedeniyle İptal Listesi — Workers / Workless kod bloğu
+Prim Ödenmemesi Nedeniyle İptal Listesi — Gerisi Bende kod bloğu
 Tahsilat Yönetimi › Tahsilat Uzmanı
 
 Vadesi geçtiği hâlde ödenmeyen prim taksitlerini süre kurallarına göre sınıflar; iptal adayı poliçeleri listeler.

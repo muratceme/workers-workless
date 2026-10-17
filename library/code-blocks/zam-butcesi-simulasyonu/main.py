@@ -1,5 +1,5 @@
 """
-Zam Bütçesi Simülasyonu — Workers / Workless kod bloğu
+Zam Bütçesi Simülasyonu — Gerisi Bende kod bloğu
 İnsan Kaynakları › Ücretlendirme ve Yan Haklar Uzmanı
 
 Farklı zam senaryolarında kişi bazında yeni brüt ücreti ve toplam personel maliyetini hesaplar:

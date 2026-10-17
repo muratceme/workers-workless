@@ -1,5 +1,5 @@
 """
-Talep ve Şikâyet Süre (SLA) Takibi — Workers / Workless kod bloğu
+Talep ve Şikâyet Süre (SLA) Takibi — Gerisi Bende kod bloğu
 Müşteri Hizmetleri › Müşteri Temsilcisi
 
 Açık talep ve şikâyetleri hedef cevap ve çözüm sürelerine göre izler; süresi geçen ve yaklaşanları sorumlu bazında listeler.

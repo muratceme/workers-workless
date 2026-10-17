@@ -1,5 +1,5 @@
 """
-Gümrük Evrak Tutarlılık Kontrolü — Workers / Workless kod bloğu
+Gümrük Evrak Tutarlılık Kontrolü — Gerisi Bende kod bloğu
 Lojistik ve Taşımacılık › Gümrük Operasyon › Gümrük Operasyon Uzmanı
 
 Fatura, çeki listesi, menşe belgesi ve taşıma belgesindeki bilgileri karşılaştırıp uyumsuzlukları listeler:

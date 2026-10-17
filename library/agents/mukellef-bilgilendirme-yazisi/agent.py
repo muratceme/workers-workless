@@ -1,5 +1,5 @@
 """
-Mükellef Bilgilendirme Yazısı — Workers / Workless AI Agent
+Mükellef Bilgilendirme Yazısı — Gerisi Bende AI Agent
 Beyanname › Serbest Muhasebeci Mali Müşavir
 
 1. Kod SMMM'nin konu notunu (konu satırı + numaralı bilgiler) ve mükellef listesini (Ünvan; Mükellefiyet; E-posta) okur;

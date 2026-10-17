@@ -1,6 +1,6 @@
 # Vardiya Devir Notu Özeti · AI Agent
 
-> Üretim › Vardiya Amiri · Workers / Workless
+> Üretim › Vardiya Amiri · Gerisi Bende
 
 Biten vardiyanın **defter notlarını**, gelen vardiyanın hızla okuyabileceği bir **devir notuna** çevirir: vardiya bilgisi, üretim
 durumu, açık sorunlar (öncelik, sonraki vardiyaya aksiyon, sorumlu), arıza ve duruşlar, güvenlik, kalite ve diğer bilgiler. Her

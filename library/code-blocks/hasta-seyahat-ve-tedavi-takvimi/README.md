@@ -1,6 +1,6 @@
 # Hasta Seyahat ve Tedavi Takvimi · Kod Bloğu
 
-> Uluslararası Hasta Hizmetleri › Uluslararası Hasta Koordinatörü · Workers / Workless
+> Uluslararası Hasta Hizmetleri › Uluslararası Hasta Koordinatörü · Gerisi Bende
 
 Uçuş, transfer, konaklama, muayene, tetkik, operasyon, yatış ve kontrol kayıtlarından **hasta bazında takvim** çıkarır;
 planı tutarlılık açısından kontrol eder, yaklaşan etkinlikleri listeler ve takvim uygulamalarına aktarılabilen bir

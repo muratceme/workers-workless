@@ -1,6 +1,6 @@
 # Rakip Fiyat Karşılaştırması · Kod Bloğu
 
-> Satın Alma ve Kategori Yönetimi › Kategori Uzmanı · Workers / Workless
+> Satın Alma ve Kategori Yönetimi › Kategori Uzmanı · Gerisi Bende
 
 Rakip fiyat taramalarını **ürün koduna ya da barkoda göre** bizim fiyat listesiyle eşleştirir; ürün, kategori ve
 rakip bazında **fiyat endeksi** çıkarır. İnternete bağlanmaz; fiyatları siz toplarsınız.

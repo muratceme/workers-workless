@@ -1,5 +1,5 @@
 """
-Müşteri Siparişi Bilgi Çıkarma — Workers / Workless AI Agent
+Müşteri Siparişi Bilgi Çıkarma — Gerisi Bende AI Agent
 Üretim Planlama › Üretim Planlama Uzmanı (tekstil Planlama Uzmanı da kullanır)
 
 Müşterilerden e-posta / PDF ile gelen siparişleri (PO) planlama tablolarına aktarır.

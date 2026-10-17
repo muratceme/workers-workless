@@ -1,6 +1,6 @@
 # Teftiş Raporu Bulgu Taslağı · AI Agent
 
-> Bankacılık › Teftiş Kurulu › Müfettiş · Workers / Workless
+> Bankacılık › Teftiş Kurulu › Müfettiş · Gerisi Bende
 
 Çalışma kâğıdındaki tespitlerden **teftiş raporu bulgu metinlerinin taslağını** hazırlar. Her bulgu şu
 bölümlerden oluşur: durum (tespit), kriter (mevzuat dayanağı), neden, etki/risk, risk düzeyi ve öneriler.

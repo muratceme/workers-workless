@@ -1,6 +1,6 @@
 # Dönem Sonu Kur Değerleme · Kod Bloğu
 
-> Muhasebe › Genel Muhasebe Uzmanı · Workers / Workless
+> Muhasebe › Genel Muhasebe Uzmanı · Gerisi Bende
 
 Döviz cinsinden hesapların bakiyelerini dönem sonu kurlarıyla değerler. Kur farkını hesaplar ve yevmiye kaydı
 önerisi hazırlar. İnternete bağlanmaz; kurları siz girersiniz.

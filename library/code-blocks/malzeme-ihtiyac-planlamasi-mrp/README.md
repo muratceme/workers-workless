@@ -1,6 +1,6 @@
 # Malzeme İhtiyaç Planlaması (MRP) · Kod Bloğu
 
-> Üretim › Üretim Planlama › Üretim Planlama Uzmanı · Workers / Workless
+> Üretim › Üretim Planlama › Üretim Planlama Uzmanı · Gerisi Bende
 
 Ana üretim planından (MPS) ve **çok seviyeli ürün ağacından** her malzeme için dönem bazında **standart MRP
 kaydını** hesaplar. Hangi malzemenin, ne kadar, **hangi dönem sipariş edilmesi/üretime verilmesi** gerektiğini

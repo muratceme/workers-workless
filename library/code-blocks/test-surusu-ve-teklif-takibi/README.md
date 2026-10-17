@@ -1,6 +1,6 @@
 # Test Sürüşü ve Teklif Takibi · Kod Bloğu
 
-> Satış › Satış Danışmanı · Workers / Workless
+> Satış › Satış Danışmanı · Gerisi Bende
 
 Showroom'a gelen, test sürüşü yapan ve teklif alan müşterileri izler; **açık fırsatlar için geri dönüş önceliği** belirleyip
 gerekçesiyle listeler. Danışman ve model bazında test sürüşü, teklif ve kapanış oranlarını, kayıp nedenlerini çıkarır.

@@ -1,5 +1,5 @@
 """
-Sınav Sonuç ve Madde Analizi — Workers / Workless kod bloğu
+Sınav Sonuç ve Madde Analizi — Gerisi Bende kod bloğu
 Eğitim › Ölçme Değerlendirme ve Rehberlik › Ölçme Değerlendirme Uzmanı
 
 Optik okuyucu veya cevap dökümünden ve cevap anahtarından:

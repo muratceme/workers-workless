@@ -1,5 +1,5 @@
 """
-Cari Hesap Ekstresi Hazırlama — Workers / Workless kod bloğu
+Cari Hesap Ekstresi Hazırlama — Gerisi Bende kod bloğu
 Muhasebe › Ön Muhasebe Elemanı
 
 Muhasebe hareketlerinden müşteri / tedarikçi bazında dönem ekstresi ve bakiye özeti hazırlar:

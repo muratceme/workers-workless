@@ -1,5 +1,5 @@
 """
-Fiyat Değişikliği Etiket Listesi — Workers / Workless kod bloğu
+Fiyat Değişikliği Etiket Listesi — Gerisi Bende kod bloğu
 Mağaza Operasyonları › Mağaza Müdür Yardımcısı
 Merkezden gelen fiyat değişikliklerini reyon, raf ve sıra düzeninde etiket değişim listesine çevirir; indirimli etiketlerde gösterilecek önceki fiyatı hesaplar.
   Değişim %          = (yeni − eski) ÷ eski × 100;  yön: zam / indirim

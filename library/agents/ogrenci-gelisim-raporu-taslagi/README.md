@@ -1,6 +1,6 @@
 # Öğrenci Gelişim Raporu Taslağı · AI Agent
 
-> Akademik › Rehber Öğretmen · Workers / Workless
+> Akademik › Rehber Öğretmen · Gerisi Bende
 
 Not, devamsızlık ve öğretmen gözlemlerinden **veli görüşmesi için öğrenci gelişim raporu taslağı** hazırlar. Puan
 değişimlerini ve ortalamayı **kod hesaplar**. **Öğrenci adı ve okul numarası yapay zekâ modeline gönderilmez.**

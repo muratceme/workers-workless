@@ -1,6 +1,6 @@
 # Birim Fiyat Analizi · Kod Bloğu
 
-> Teknik Ofis › Teknik Ofis Mühendisi · Workers / Workless
+> Teknik Ofis › Teknik Ofis Mühendisi · Gerisi Bende
 
 Malzeme, işçilik ve makine rayiçlerinden **poz bazında birim fiyat analizi** yapar ve **kâr-genel gider dahil fiyatı**
 oluşturur. İnternete bağlanmaz.

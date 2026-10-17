@@ -1,6 +1,6 @@
 # Müşteri Haftalık Durum Raporu · Kod Bloğu
 
-> Müşteri Temsilciliği (Merchandising) › Production Merchandiser · Workers / Workless
+> Müşteri Temsilciliği (Merchandising) › Production Merchandiser · Gerisi Bende
 
 Siparişlerin **üretim aşaması ve sevk tarihi durumunu**, müşteriye gönderilecek haftalık rapor biçimine çevirir:
 müşteri bazında özet, sipariş sipariş durum satırları ve Türkçe veya İngilizce rapor metni. İnternete bağlanmaz.

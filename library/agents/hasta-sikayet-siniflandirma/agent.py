@@ -1,5 +1,5 @@
 """
-Hasta Şikâyet Sınıflandırma — Workers / Workless AI Agent
+Hasta Şikâyet Sınıflandırma — Gerisi Bende AI Agent
 Hasta Hizmetleri › Hasta İlişkileri ve Hasta Hakları Yöneticisi
 
 1. Kod başvuruları okur; satırdaki hasta adını metinden çıkarır ([HASTA]), telefon / e-posta / TCKN'yi maskeler. Önem

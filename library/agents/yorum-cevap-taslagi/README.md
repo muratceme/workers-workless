@@ -1,6 +1,6 @@
 # Yorum Cevap Taslağı · AI Agent
 
-> Misafir İlişkileri › Misafir İlişkileri Müdürü · Workers / Workless
+> Misafir İlişkileri › Misafir İlişkileri Müdürü · Gerisi Bende
 
 Google, Booking, TripAdvisor gibi platformlardaki misafir yorumlarına otelin **üslup rehberine** uygun, kişiselleştirilmiş ve
 yorumun dilinde cevap taslağı hazırlar. Herkese açık cevapta yasak olanları (oda numarası, tazminat teklifi, suçlama, kalıp

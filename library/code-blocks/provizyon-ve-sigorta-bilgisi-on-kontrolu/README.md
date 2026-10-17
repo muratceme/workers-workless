@@ -1,6 +1,6 @@
 # Provizyon ve Sigorta Bilgisi Ön Kontrolü · Kod Bloğu
 
-> Hasta Hizmetleri › Hasta Kayıt Kabul Görevlisi · Workers / Workless
+> Hasta Hizmetleri › Hasta Kayıt Kabul Görevlisi · Gerisi Bende
 
 Randevu listesindeki hastaların kimlik, ödeme tipi, sigorta ve provizyon bilgilerini **hasta gelmeden önce** kontrol
 eder; eksikleri hasta bazında listeler. İnternete, Medula'ya veya sigorta şirketine bağlanmaz.

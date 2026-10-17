@@ -1,6 +1,6 @@
 # Parsiyel Yük Konsolidasyon Planı · Kod Bloğu
 
-> Lojistik ve Taşımacılık › Parsiyel Operasyon › Parsiyel Operasyon Uzmanı · Workers / Workless
+> Lojistik ve Taşımacılık › Parsiyel Operasyon › Parsiyel Operasyon Uzmanı · Gerisi Bende
 
 Bekleyen parsiyel yükleri varış bölgesine göre gruplar ve araçlara yerleştirir. Her aracın ağırlık, hacim ve
 yükleme metresi (LDM) doluluğunu hesaplar. Sığmayan, bekleyen ve düşük doluluklu araçları listeler. İnternete

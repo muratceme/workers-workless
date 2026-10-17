@@ -1,6 +1,6 @@
 # Rücu Tahsilat Takibi · Kod Bloğu
 
-> Hasar Yönetimi › Rücu Uzmanı · Workers / Workless
+> Hasar Yönetimi › Rücu Uzmanı · Gerisi Bende
 
 Rücu dosyalarını **talep, cevap, tahkim/dava ve tahsilat aşamalarında** izler; cevabı geciken, kabul edildiği hâlde
 tahsil edilmeyen ve zamanaşımı tarihi yaklaşan dosyaları öne çıkarır. İnternete bağlanmaz.

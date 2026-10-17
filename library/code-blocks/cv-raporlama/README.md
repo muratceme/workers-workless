@@ -1,6 +1,6 @@
 # CV Raporlama · Kod Bloğu
 
-> İnsan Kaynakları › İK Uzmanı · Workers / Workless
+> İnsan Kaynakları › İK Uzmanı · Gerisi Bende
 
 Bir klasördeki CV'leri okur ve tek bir Excel raporu üretir. **Kural tabanlıdır, internete
 bağlanmaz, API anahtarı gerekmez.** Veriniz bilgisayarınızdan çıkmaz.

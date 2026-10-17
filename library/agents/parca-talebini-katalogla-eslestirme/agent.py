@@ -1,5 +1,5 @@
 """
-Parça Talebini Katalogla Eşleştirme — Workers / Workless AI Agent
+Parça Talebini Katalogla Eşleştirme — Gerisi Bende AI Agent
 Otomotiv › Satış Sonrası › Yedek Parça Danışmanı
 
 Atölyeden ve müşterilerden gelen serbest metin parça taleplerini ("2020 Model A ön balata 1 takım") parça kataloğuyla

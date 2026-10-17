@@ -1,6 +1,6 @@
 # Harcama Analizi · Kod Bloğu
 
-> Satın Alma › Satın Alma Müdürü · Workers / Workless
+> Satın Alma › Satın Alma Müdürü · Gerisi Bende
 
 Satın alma verisini kategori ve tedarikçi bazında **ABC sınıflandırmasıyla** analiz eder. Fiyat farklarını, tek kaynak
 bağımlılığını, dağınık harcamayı ve olağandışı fiyat artışlarını bulur; bunlardan **pazarlık öncelikleri** listesi

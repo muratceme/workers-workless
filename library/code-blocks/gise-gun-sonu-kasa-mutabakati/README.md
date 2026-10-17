@@ -1,6 +1,6 @@
 # Gişe Gün Sonu Kasa Mutabakatı · Kod Bloğu
 
-> Şube Bankacılığı › Gişe Yetkilisi · Workers / Workless
+> Şube Bankacılığı › Gişe Yetkilisi · Gerisi Bende
 
 Gün sonu kasa sayımını (kupür bazında) sistem bakiyesiyle **gişe ve para birimi bazında** karşılaştırır. Fark varsa
 günün işlemleri içinden araştırılacak adayları listeler. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Kurum Fiyat Karşılaştırması — Workers / Workless kod bloğu
+Kurum Fiyat Karşılaştırması — Gerisi Bende kod bloğu
 Sağlık Sigortaları › Anlaşmalı Kurumlar Uzmanı
 
 Anlaşmalı sağlık kurumlarının işlem fiyatlarını aynı bölge ve kurum grubundaki emsalleriyle karşılaştırır.

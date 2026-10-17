@@ -1,5 +1,5 @@
 """
-Vardiya Devir Notu Özeti — Workers / Workless AI Agent
+Vardiya Devir Notu Özeti — Gerisi Bende AI Agent
 Üretim › Vardiya Amiri
 
 1. Kod, vardiya defterini satır satır numaralar; güvenlik anahtar kelimesi geçen satırları (kaza, yaralanma, ramak kala,

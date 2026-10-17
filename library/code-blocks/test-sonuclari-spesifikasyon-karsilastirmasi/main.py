@@ -1,5 +1,5 @@
 """
-Test Sonuçları Spesifikasyon Karşılaştırması — Workers / Workless kod bloğu
+Test Sonuçları Spesifikasyon Karşılaştırması — Gerisi Bende kod bloğu
 Ar-Ge ve Ürün Geliştirme › Ar-Ge Mühendisi
 
 Prototip test sonuçlarını spesifikasyon limitleriyle karşılaştırır; uygunsuzlukları ve prototipler arası eğilimi raporlar.

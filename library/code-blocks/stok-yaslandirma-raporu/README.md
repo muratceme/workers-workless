@@ -1,6 +1,6 @@
 # Stok Yaşlandırma Raporu · Kod Bloğu
 
-> Lojistik ve Depo › Depo Sorumlusu · Workers / Workless
+> Lojistik ve Depo › Depo Sorumlusu · Gerisi Bende
 
 Stok listenizi **son hareket tarihine göre yaşlandırır**: hangi stok ne kadar süredir çıkış görmedi, hareketsiz
 stokta ne kadar para bağlı, hangi depo ve kategoride yoğunlaşıyor. İnternete bağlanmaz.

@@ -1,5 +1,5 @@
 """
-Kazanım Bazlı Başarı Raporu — Workers / Workless kod bloğu
+Kazanım Bazlı Başarı Raporu — Gerisi Bende kod bloğu
 Ölçme Değerlendirme ve Rehberlik › Ölçme Değerlendirme Uzmanı
 
 Çoktan seçmeli sınav cevaplarını cevap anahtarı ve soru-kazanım eşleşmesiyle değerlendirir; sınıf ve öğrenci bazında kazanım başarı yüzdelerini raporlar.

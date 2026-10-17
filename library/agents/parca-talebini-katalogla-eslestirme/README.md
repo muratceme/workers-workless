@@ -1,6 +1,6 @@
 # Parça Talebini Katalogla Eşleştirme · AI Agent
 
-> Otomotiv › Satış Sonrası › Yedek Parça Danışmanı · Workers / Workless
+> Otomotiv › Satış Sonrası › Yedek Parça Danışmanı · Gerisi Bende
 
 Atölyeden ve müşterilerden gelen serbest metin parça taleplerini ("2020 Model A ön balata 1 takım, araç lifte bekliyor")
 parça kataloğuyla eşleştirir:

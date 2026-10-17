@@ -1,5 +1,5 @@
 """
-Oda Temizlik Atama Planı — Workers / Workless kod bloğu
+Oda Temizlik Atama Planı — Gerisi Bende kod bloğu
 Kat Hizmetleri › Kat Hizmetleri Müdürü (Housekeeper)
 
 Çıkış ve konaklama odalarını temizlik sürelerine göre kat görevlilerine dengeli ve kat bütünlüğünü koruyarak atar.

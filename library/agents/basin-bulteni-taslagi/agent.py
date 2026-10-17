@@ -1,5 +1,5 @@
 """
-Basın Bülteni Taslağı — Workers / Workless AI Agent
+Basın Bülteni Taslağı — Gerisi Bende AI Agent
 Pazarlama › Pazarlama Müdürü
 
 1. Kod bilgi notunu okur: şirket, şehir, tarih, basın iletişimi ve "şirket hakkında" metni; numaralı bilgiler (B1, B2 …)

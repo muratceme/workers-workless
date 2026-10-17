@@ -1,5 +1,5 @@
 """
-Günlük Şantiye Raporu — Workers / Workless AI Agent
+Günlük Şantiye Raporu — Gerisi Bende AI Agent
 Şantiye › Saha Mühendisi
 
 1. Kod saha notlarını satır satır numaralar; İSG anahtar kelimesi geçen satırları bulur (kaza, yaralanma, burkulma,

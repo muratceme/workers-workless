@@ -1,5 +1,5 @@
 """
-Vergi Takvimi Takibi — Workers / Workless kod bloğu
+Vergi Takvimi Takibi — Gerisi Bende kod bloğu
 Muhasebe › Muhasebe Müdürü
 Şirketlerin beyan ve bildirim yükümlülüklerinden yaklaşan son tarihleri çıkarır, verilenleri işaretler, geciken ve yaklaşanları hatırlatır.
   KDV                         = dönemi izleyen ayın 28'i

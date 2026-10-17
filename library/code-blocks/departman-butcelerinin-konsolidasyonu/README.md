@@ -1,6 +1,6 @@
 # Departman Bütçelerinin Konsolidasyonu · Kod Bloğu
 
-> Finans › Bütçe ve Raporlama Uzmanı · Workers / Workless
+> Finans › Bütçe ve Raporlama Uzmanı · Gerisi Bende
 
 Departmanlardan gelen bütçe şablonlarını (bir klasördeki Excel dosyaları) tek dosyada birleştirir. Format ve toplam
 hatalarını dosya ve hücre adresiyle listeler, tavan ve önceki yıla göre kontrol eder. İnternete bağlanmaz.

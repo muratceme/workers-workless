@@ -1,6 +1,6 @@
 # Fiyat Farkı Hesaplama · Kod Bloğu
 
-> Teknik Ofis › Teknik Ofis Şefi · Workers / Workless
+> Teknik Ofis › Teknik Ofis Şefi · Gerisi Bende
 
 Sözleşme katsayılarına (a, b1, b2, c...) ve endekslere göre **dönem fiyat farkı katsayısını (Pn) ve tutarını**
 hesaplar. İnternete bağlanmaz; endeks değerlerini siz verirsiniz.

@@ -1,5 +1,5 @@
 """
-BT Olay Sonrası Raporu — Workers / Workless AI Agent
+BT Olay Sonrası Raporu — Gerisi Bende AI Agent
 Bilgi Teknolojileri › Sistem Uzmanı
 
 Olay sırasında tutulan zaman damgalı notlardan (sohbet dökümü, çağrı notları) suçlamasız olay sonrası raporu

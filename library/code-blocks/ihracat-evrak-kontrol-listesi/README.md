@@ -1,6 +1,6 @@
 # İhracat Evrak Kontrol Listesi · Kod Bloğu
 
-> Dış Ticaret › Dış Ticaret Uzmanı · Workers / Workless
+> Dış Ticaret › Dış Ticaret Uzmanı · Gerisi Bende
 
 Sevkiyatın ülkesine, teslim şekline, taşıma türüne ve ödeme yöntemine göre **gereken ihracat evraklarını** listeler.
 Hazırlanan evrakların bilgileri verilirse eksik evrakları ve evraklar arasındaki **tutarsızlıkları** (alıcı adı, koli

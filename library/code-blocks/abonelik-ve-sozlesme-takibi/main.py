@@ -1,5 +1,5 @@
 """
-Abonelik ve Sözleşme Takibi — Workers / Workless kod bloğu
+Abonelik ve Sözleşme Takibi — Gerisi Bende kod bloğu
 İdari İşler › İdari İşler Sorumlusu
 Kira, elektrik, su, internet, bakım ve benzeri sözleşmelerin tutar, vade, fesih ihbarı ve yenileme tarihlerini izler.
   İhbar son günü = bitiş tarihi − fesih ihbar süresi (gün); yalnız otomatik yenilenen sözleşmelerde: bu güne kadar bildirim yapılmazsa yenilenir

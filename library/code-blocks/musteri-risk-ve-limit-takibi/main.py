@@ -1,5 +1,5 @@
 """
-Müşteri Risk ve Limit Takibi — Workers / Workless kod bloğu
+Müşteri Risk ve Limit Takibi — Gerisi Bende kod bloğu
 Satış › Satış Destek Uzmanı
 
 Açık bakiye, vadesi geçmiş alacak ve kredi limitine bakarak sevkiyat öncesi riskli müşterileri işaretler.

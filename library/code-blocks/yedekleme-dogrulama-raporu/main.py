@@ -1,5 +1,5 @@
 """
-Yedekleme Doğrulama Raporu — Workers / Workless kod bloğu
+Yedekleme Doğrulama Raporu — Gerisi Bende kod bloğu
 Bilgi Teknolojileri › Sistem Uzmanı
 
 Yedekleme yazılımının iş geçmişinden başarısız, eksik, geciken ve boyutu şüpheli yedekleri raporlar.

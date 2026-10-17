@@ -1,6 +1,6 @@
 # İş İlerleme Raporu · Kod Bloğu
 
-> Şantiye › Şantiye Şefi · Workers / Workless
+> Şantiye › Şantiye Şefi · Gerisi Bende
 
 İş programındaki tarihler ve sahadan gelen gerçekleşen yüzdelerden **planlanan-gerçekleşen ilerlemeyi, S-eğrisini ve
 geciken iş kalemlerini** raporlar. İnternete bağlanmaz.

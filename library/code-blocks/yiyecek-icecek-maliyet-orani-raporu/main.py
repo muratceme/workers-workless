@@ -1,5 +1,5 @@
 """
-Yiyecek-İçecek Maliyet Oranı Raporu — Workers / Workless kod bloğu
+Yiyecek-İçecek Maliyet Oranı Raporu — Gerisi Bende kod bloğu
 Yiyecek ve İçecek › Yiyecek İçecek Müdürü
 Dönem stok hareketleri ve satışlardan departman (outlet) bazında yiyecek ve içecek maliyet oranını hesaplar.
   Tüketim maliyeti = açılış stok + alım + transfer giriş − transfer çıkış − kapanış stok

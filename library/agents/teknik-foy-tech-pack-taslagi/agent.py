@@ -1,5 +1,5 @@
 """
-Teknik Föy (Tech Pack) Taslağı — Workers / Workless AI Agent
+Teknik Föy (Tech Pack) Taslağı — Gerisi Bende AI Agent
 Tekstil ve Hazır Giyim › Tasarım ve Koleksiyon › Moda Tasarımcısı
 
 1. Model klasöründeki dosyalar okunur: model bilgisi ve tasarım notu (.txt/.docx/.pdf), ölçü tablosu
@@ -513,7 +513,7 @@ def rapor_yaz(cikti: Path, klasor: Path, metinler, atlanan, k: dict, y: dict, te
     rv = wb.create_sheet("Revizyonlar")
     rv.append(["Rev", "Tarih", "Sayfa / Bölüm", "Değişiklik", "Yapan", "Onaylayan"])
     _baslik(rv)
-    rv.append([0, datetime.now().strftime("%d.%m.%Y"), "Tümü", "İlk taslak (Workers / Workless agent)", "", ""])
+    rv.append([0, datetime.now().strftime("%d.%m.%Y"), "Tümü", "İlk taslak (Gerisi Bende agent)", "", ""])
     for j, w in enumerate((5, 12, 18, 60, 16, 16), 1):
         rv.column_dimensions[get_column_letter(j)].width = w
     cikti.parent.mkdir(parents=True, exist_ok=True)

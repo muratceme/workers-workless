@@ -1,5 +1,5 @@
 """
-Reklam Metni Varyasyonları — Workers / Workless AI Agent
+Reklam Metni Varyasyonları — Gerisi Bende AI Agent
 E-Ticaret › Performans Pazarlama Uzmanı
 
 Ürün bilgisinden arama ağı reklamları (Google Ads duyarlı arama reklamı) için başlık, açıklama ve görünen URL yolu

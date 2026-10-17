@@ -1,6 +1,6 @@
 # Müşteri Şikâyeti Kök Neden Analizi · AI Agent
 
-> Kalite Güvence ve Kalite Kontrol › Kalite Mühendisi · Workers / Workless
+> Kalite Güvence ve Kalite Kontrol › Kalite Mühendisi · Gerisi Bende
 
 Müşteri şikâyetlerini **ürün, parti ve hata türüne** göre kümeler; her küme için 6M kategorisinde olası kök neden
 hipotezleri, doğrulama adımları ve geçici önlemler önerir. Çıktı, 8D raporunun D3 (geçici önlem) ve D4 (kök neden)

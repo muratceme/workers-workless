@@ -1,5 +1,5 @@
 """
-Eğitim Değerlendirme Raporu — Workers / Workless kod bloğu
+Eğitim Değerlendirme Raporu — Gerisi Bende kod bloğu
 İnsan Kaynakları › Eğitim ve Gelişim Uzmanı
 
 Katılım, ön test, son test ve memnuniyet anketi verisinden eğitim bazında etkinlik raporu üretir.

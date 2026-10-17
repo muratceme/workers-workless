@@ -1,5 +1,5 @@
 """
-Müşteri Ziyaret Planı — Workers / Workless kod bloğu
+Müşteri Ziyaret Planı — Gerisi Bende kod bloğu
 Satış › Satış Temsilcisi
 
 Müşteri listesi, konum ve ziyaret sıklığına göre haftalık ziyaret planı ve rota sırası çıkarır:

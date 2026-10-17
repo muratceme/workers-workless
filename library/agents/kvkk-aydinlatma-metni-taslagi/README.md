@@ -1,6 +1,6 @@
 # KVKK Aydınlatma Metni Taslağı · AI Agent
 
-> Hukuk › Avukat · Workers / Workless
+> Hukuk › Avukat · Gerisi Bende
 
 Veri işleme envanterinden **6698 sayılı KVKK md. 10'a uygun aydınlatma metni taslağı** hazırlar. Amaç, hukuki sebep,
 aktarım ve toplama yöntemi bölümlerini model yazar. **Veri sorumlusunun kimliği, md. 11 hakları ve başvuru yöntemleri

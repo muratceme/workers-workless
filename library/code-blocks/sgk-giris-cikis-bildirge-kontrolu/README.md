@@ -1,6 +1,6 @@
 # SGK Giriş-Çıkış Bildirge Kontrolü · Kod Bloğu
 
-> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Workers / Workless
+> İnsan Kaynakları › Bordro ve Özlük İşleri Uzmanı · Gerisi Bende
 
 İşe giriş ve işten çıkış listenizi SGK bildirge kayıtlarınızla karşılaştırır; **süresinde verilmemiş, eksik veya
 tarihi uyuşmayan** bildirgeleri listeler. SGK sistemine veya internete bağlanmaz.

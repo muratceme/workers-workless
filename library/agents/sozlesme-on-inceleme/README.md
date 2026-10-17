@@ -1,6 +1,6 @@
 # Sözleşme Ön İnceleme · AI Agent
 
-> Hukuk › Avukat · Workers / Workless
+> Hukuk › Avukat · Gerisi Bende
 
 Bir sözleşmeyi **sizin tarafınızın bakış açısından** okur ve şunları çıkarır:
 - Riskli maddeler ve her birinin kimin lehine olduğu

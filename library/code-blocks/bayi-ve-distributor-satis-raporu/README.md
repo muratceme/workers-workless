@@ -1,6 +1,6 @@
 # Bayi ve Distribütör Satış Raporu · Kod Bloğu
 
-> Satış ve Kanal Yönetimi › Kanal Satış Yöneticisi · Workers / Workless
+> Satış ve Kanal Yönetimi › Kanal Satış Yöneticisi · Gerisi Bende
 
 Bayi bazında satış, hedef, tahsilat, alacak ve stok verisinden **hedef gerçekleşme, tahsilat oranı, alacak günü ve
 stok gününü** hesaplar; sorunlu bayileri işaretler. İnternete bağlanmaz.

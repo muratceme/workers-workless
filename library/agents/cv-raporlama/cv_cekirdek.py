@@ -1,5 +1,5 @@
 """
-CV Raporlama — Workers / Workless kod bloğu
+CV Raporlama — Gerisi Bende kod bloğu
 İnsan Kaynakları › İK Uzmanı
 
 Bir klasördeki CV'leri (PDF, DOCX, TXT) okur; iletişim bilgisi, toplam deneyim,

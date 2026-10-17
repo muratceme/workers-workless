@@ -1,6 +1,6 @@
 # Müşteri Risk ve Limit Takibi · Kod Bloğu
 
-> Satış › Satış Destek Uzmanı · Workers / Workless
+> Satış › Satış Destek Uzmanı · Gerisi Bende
 
 Sevkiyattan önce her müşterinin **açık bakiyesine, vadesi geçmiş alacağına ve kredi limitine** bakar; siparişi
 "Sevk etme", "Onay gerekli" ya da "Uygun" olarak işaretler ve gerekçesini yazar. İnternete bağlanmaz.

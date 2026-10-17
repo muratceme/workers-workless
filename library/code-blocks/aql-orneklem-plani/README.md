@@ -1,6 +1,6 @@
 # AQL Örneklem Planı · Kod Bloğu
 
-> Üretim › Kalite Kontrol Elemanı · Tekstil › Kalite Kontrol · Workers / Workless
+> Üretim › Kalite Kontrol Elemanı · Tekstil › Kalite Kontrol · Gerisi Bende
 
 Parti büyüklüğü, muayene seviyesi ve AQL değerinden **tek örneklemeli normal muayene planını** bulur:
 örneklem sayısı, kabul (Ac) ve ret (Re) sayısı. Muayenede bulunan hata sayıları verilirse partiyi

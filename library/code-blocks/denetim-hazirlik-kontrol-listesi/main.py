@@ -1,5 +1,5 @@
 """
-Denetim Hazırlık Kontrol Listesi — Workers / Workless kod bloğu
+Denetim Hazırlık Kontrol Listesi — Gerisi Bende kod bloğu
 Kalite Güvence ve Gıda Güvenliği › Kalite Güvence Uzmanı
 BRCGS, IFS, resmî kontrol ya da müşteri denetimi maddelerine göre doküman ve kayıt hazırlık durumunu takip eder.
   Puan          = Hazır 1 · Kısmen / Güncellenmeli --kismen (%50) · Eksik 0 · Uygulanamaz hesaba girmez

@@ -1,6 +1,6 @@
 # İptal ve No-Show Analizi · Kod Bloğu
 
-> Ön Büro › Ön Büro Müdürü · Workers / Workless
+> Ön Büro › Ön Büro Müdürü · Gerisi Bende
 
 Otel rezervasyonlarının **iptal ve gelmeme (no-show) oranlarını** kanal, oda tipi, rezervasyon öncesi süre ve giriş ayı
 bazında hesaplar; kayıp oda-gece ve geliri, iptallerin girişe ne kadar kala yapıldığını gösterir. İnternete ve PMS'e

@@ -1,5 +1,5 @@
 """
-Son Kullanma Tarihi Takibi — Workers / Workless kod bloğu
+Son Kullanma Tarihi Takibi — Gerisi Bende kod bloğu
 Eczane ve Tıbbi Malzeme › Hastane Eczacısı
 İlaç ve sarf stoklarını son kullanma tarihine göre listeler; yaklaşanları ve tüketim hızına göre süresi içinde tükenmeyecekleri işaretler.
   Kalan gün             = son kullanma tarihi − rapor tarihi (yalnız ay-yıl yazılmışsa ayın son günü)

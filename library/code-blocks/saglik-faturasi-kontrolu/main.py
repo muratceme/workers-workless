@@ -1,5 +1,5 @@
 """
-Sağlık Faturası Kontrolü — Workers / Workless kod bloğu
+Sağlık Faturası Kontrolü — Gerisi Bende kod bloğu
 Sigortacılık › Sağlık Sigortaları › Provizyon Uzmanı
 
 Anlaşmalı kurum faturalarını satır bazında anlaşmalı fiyat listesi, paket içerikleri ve onaylı provizyonla

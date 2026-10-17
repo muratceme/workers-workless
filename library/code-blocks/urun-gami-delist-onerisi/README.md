@@ -1,6 +1,6 @@
 # Ürün Gamı (Delist) Önerisi · Kod Bloğu
 
-> Satın Alma ve Kategori Yönetimi › Kategori Yöneticisi · Workers / Workless
+> Satın Alma ve Kategori Yönetimi › Kategori Yöneticisi · Gerisi Bende
 
 Her ürünü **kendi kategorisi içinde** ciro, brüt kâr ve raf verimliliğine göre değerlendirir; listeden çıkarılabilecek
 ürünleri **gerekçesiyle** önerir. İnternete bağlanmaz.

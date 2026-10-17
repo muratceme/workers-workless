@@ -1,6 +1,6 @@
 # İSG Eğitim ve Muayene Takibi · Kod Bloğu
 
-> İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı · Workers / Workless
+> İş Sağlığı ve Güvenliği › İş Güvenliği Uzmanı · Gerisi Bende
 
 Çalışanların tehlike sınıfına göre **İSG eğitimi** ve **periyodik sağlık muayenesi** tarihlerini takip eder.
 Süresi geçenleri ve yaklaşanları tarih sırasıyla bir aksiyon listesinde toplar. Bilgi yenileme ve iş kazası

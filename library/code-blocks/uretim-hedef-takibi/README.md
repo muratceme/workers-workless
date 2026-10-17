@@ -1,6 +1,6 @@
 # Üretim Hedef Takibi · Kod Bloğu
 
-> Satış ve Acente Yönetimi › Bölge Satış Yöneticisi · Workers / Workless
+> Satış ve Acente Yönetimi › Bölge Satış Yöneticisi · Gerisi Bende
 
 Branş ve acente bazında **prim üretimini aylık ve yıl başından bugüne hedefle** karşılaştırır; yıllık hedefe ulaşmak
 için kalan aylarda gereken aylık üretimi hesaplar. İnternete bağlanmaz.

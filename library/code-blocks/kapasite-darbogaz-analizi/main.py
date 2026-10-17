@@ -1,5 +1,5 @@
 """
-Kapasite Darboğaz Analizi — Workers / Workless kod bloğu
+Kapasite Darboğaz Analizi — Gerisi Bende kod bloğu
 Üretim Planlama › Üretim Planlama Uzmanı
 
 İş merkezi × hafta bazında yükleme oranını hesaplar; darboğaz haftalarını ve iş emri kaydırma önerilerini çıkarır.

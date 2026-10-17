@@ -1,5 +1,5 @@
 """
-İkinci El Araç Fiyat Değerleme — Workers / Workless kod bloğu
+İkinci El Araç Fiyat Değerleme — Gerisi Bende kod bloğu
 Satış › İkinci El Satış Danışmanı
 
 Benzer ilan verisinden değerlenecek araç için piyasa fiyat aralığını ve alım fiyatı önerisini üretir.

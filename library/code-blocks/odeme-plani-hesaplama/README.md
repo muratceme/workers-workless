@@ -1,6 +1,6 @@
 # Ödeme Planı Hesaplama · Kod Bloğu
 
-> Bankacılık Operasyonları › Kredi Operasyon Uzmanı · Workers / Workless
+> Bankacılık Operasyonları › Kredi Operasyon Uzmanı · Gerisi Bende
 
 Kredi tutarı, aylık faiz, vade ve ödeme tipinden **taksit taksit ödeme planı** çıkarır: her taksitte anapara, faiz,
 KKDF, BSMV ve kalan anapara. Eşit taksitli, eşit anaparalı ve balonlu planı destekler. İnternete bağlanmaz.

@@ -1,6 +1,6 @@
 # Kur Riski Pozisyon Raporu · Kod Bloğu
 
-> Finans › Finans Müdürü · Workers / Workless
+> Finans › Finans Müdürü · Gerisi Bende
 
 Döviz cinsinden varlık ve yükümlülüklerinizden **net döviz pozisyonunu** çıkarır ve "kur %10 artarsa ne olur?"
 sorusunu TL olarak yanıtlar. Para birimi ve vade dilimi bazında açığın nerede olduğunu gösterir. İnternete

@@ -1,5 +1,5 @@
 """
-Geri Çağırma (İzlenebilirlik) Simülasyonu — Workers / Workless kod bloğu
+Geri Çağırma (İzlenebilirlik) Simülasyonu — Gerisi Bende kod bloğu
 Kalite Güvence ve Gıda Güvenliği › Kalite Güvence Uzmanı
 
 Bir hammadde lotundan (veya üretim partisinden) yola çıkıp etkilenen üretim partilerini, sevk edilen müşterileri ve miktarları çıkarır.

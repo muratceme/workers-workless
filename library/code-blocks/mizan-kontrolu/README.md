@@ -1,6 +1,6 @@
 # Mizan Kontrolü · Kod Bloğu
 
-> Muhasebe › Genel Muhasebe Uzmanı · Workers / Workless
+> Muhasebe › Genel Muhasebe Uzmanı · Gerisi Bende
 
 Aylık mizanı **Tekdüzen Hesap Planı** kurallarına göre kontrol eder. Ters bakiyeli hesapları, mantık dışı
 bakiyeleri ve önceki aya göre olağandışı değişimleri açıklama ve öneriyle listeler. İnternete bağlanmaz.

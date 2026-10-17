@@ -1,6 +1,6 @@
 # Parsiyel Hakediş ve Kârlılık Hesabı · Kod Bloğu
 
-> Parsiyel Operasyon › Parsiyel Operasyon Uzmanı · Workers / Workless
+> Parsiyel Operasyon › Parsiyel Operasyon Uzmanı · Gerisi Bende
 
 Araçtaki yüklerin **navlun gelirlerini, araç maliyetini ve yük bazında kâr payını** hesaplar. İnternete bağlanmaz.
 

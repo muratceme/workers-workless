@@ -1,6 +1,6 @@
 # Görüşme Kaydı Özeti · AI Agent
 
-> Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Temsilcisi · Workers / Workless
+> Müşteri Hizmetleri ve Çağrı Merkezi › Müşteri Temsilcisi · Gerisi Bende
 
 Temsilcilerin serbest yazdığı **görüşme notlarını** CRM'e girilecek **standart kayda** çevirir: kategori,
 talep, yapılan işlem, durum, bekleyen aksiyonlar, **müşteriye verilen sözler**, duygu ve risk. Ayrıca

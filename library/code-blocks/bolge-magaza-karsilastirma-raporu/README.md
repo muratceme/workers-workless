@@ -1,6 +1,6 @@
 # Bölge Mağaza Karşılaştırma Raporu · Kod Bloğu
 
-> Mağaza Operasyonları › Bölge Müdürü · Workers / Workless
+> Mağaza Operasyonları › Bölge Müdürü · Gerisi Bende
 
 Bölgedeki mağazaları **metrekare verimliliği, LFL büyüme, dönüşüm ve stok devir hızına** göre karşılaştırır; her
 mağazayı bölge ortalamasına göre endeksler ve sıralar. İnternete bağlanmaz.

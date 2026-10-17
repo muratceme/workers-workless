@@ -1,6 +1,6 @@
 # Misafir Yorum Analizi · AI Agent
 
-> Otel › Misafir İlişkileri · Workers / Workless
+> Otel › Misafir İlişkileri · Gerisi Bende
 
 Booking, Google, TripAdvisor gibi platformlardaki **çok dilli misafir yorumlarını** konu ve duygu bazında analiz
 eder. Yönetimin hemen ilgilenmesi gereken **acil** yorumları ayırır ve haftalık rapor çıkarır. Her yorum için

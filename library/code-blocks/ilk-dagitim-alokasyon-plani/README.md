@@ -1,6 +1,6 @@
 # İlk Dağıtım (Alokasyon) Planı · Kod Bloğu
 
-> Perakende › Ürün Planlama ve Alokasyon › Alokasyon Uzmanı · Workers / Workless
+> Perakende › Ürün Planlama ve Alokasyon › Alokasyon Uzmanı · Gerisi Bende
 
 Yeni sezon ürünlerinin depo stoğunu mağaza potansiyeli, küme ve beden eğrisine göre mağazalara dağıtır. Depo
 sistemine aktarılabilecek bir **sevk listesi** üretir. İnternete bağlanmaz.

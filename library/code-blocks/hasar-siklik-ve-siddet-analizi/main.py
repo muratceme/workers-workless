@@ -1,5 +1,5 @@
 """
-Hasar Sıklık ve Şiddet Analizi — Workers / Workless kod bloğu
+Hasar Sıklık ve Şiddet Analizi — Gerisi Bende kod bloğu
 Sigortacılık › Aktüerya › Aktüerya Uzmanı
 
 Poliçe (maruziyet) ve hasar dökümünden, dönem ve segment bazında:

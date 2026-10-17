@@ -1,5 +1,5 @@
 """
-AQL Örneklem Planı — Workers / Workless kod bloğu
+AQL Örneklem Planı — Gerisi Bende kod bloğu
 Üretim › Kalite Kontrol Elemanı · Tekstil › Kalite Kontrol
 
 Parti büyüklüğü, muayene seviyesi ve AQL değerinden tek örneklemeli normal muayene planını

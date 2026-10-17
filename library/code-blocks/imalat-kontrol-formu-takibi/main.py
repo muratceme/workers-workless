@@ -1,5 +1,5 @@
 """
-İmalat Kontrol Formu Takibi — Workers / Workless kod bloğu
+İmalat Kontrol Formu Takibi — Gerisi Bende kod bloğu
 Kalite Kontrol › Kalite Kontrol Mühendisi
 İmalat kontrol taleplerini (ITP) ve onay durumlarını blok, kat ve imalat türü bazında takip eder.
   Güncel durum      = her blok · kat · imalat (· kontrol noktası) için en son talebin durumu

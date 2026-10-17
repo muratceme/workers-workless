@@ -1,6 +1,6 @@
 # Teknisyen Verimlilik Raporu · Kod Bloğu
 
-> Satış Sonrası Hizmetler (Servis) › Satış Sonrası Hizmetler Müdürü · Workers / Workless
+> Satış Sonrası Hizmetler (Servis) › Satış Sonrası Hizmetler Müdürü · Gerisi Bende
 
 İş emirlerinden teknisyen bazında **satılan saat** (faturalanan / standart süre), **çalışılan saat** (işe kayıtlı süre) ve
 puantajdaki **mevcut saati** toplayıp atölyenin üç temel oranını hesaplar: verimlilik, kullanım ve üretkenlik. İnternete ve DMS'e

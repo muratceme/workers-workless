@@ -1,5 +1,5 @@
 """
-İş İlerleme Raporu — Workers / Workless kod bloğu
+İş İlerleme Raporu — Gerisi Bende kod bloğu
 Şantiye › Şantiye Şefi
 
 İş programı ve gerçekleşen imalat yüzdelerinden planlanan-gerçekleşen ilerlemeyi, S-eğrisini ve geciken iş kalemlerini raporlar.

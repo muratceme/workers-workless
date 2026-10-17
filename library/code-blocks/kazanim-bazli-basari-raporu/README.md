@@ -1,6 +1,6 @@
 # Kazanım Bazlı Başarı Raporu · Kod Bloğu
 
-> Ölçme Değerlendirme ve Rehberlik › Ölçme Değerlendirme Uzmanı · Workers / Workless
+> Ölçme Değerlendirme ve Rehberlik › Ölçme Değerlendirme Uzmanı · Gerisi Bende
 
 Çoktan seçmeli sınav cevaplarını cevap anahtarı ve soru-kazanım eşleşmesiyle değerlendirir; **sınıf ve öğrenci
 bazında kazanım başarı yüzdelerini** ve soru analizini raporlar. İnternete bağlanmaz.

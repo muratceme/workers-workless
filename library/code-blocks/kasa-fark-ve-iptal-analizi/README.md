@@ -1,6 +1,6 @@
 # Kasa Fark ve İptal Analizi · Kod Bloğu
 
-> Mağaza Operasyonları › Kasa Sorumlusu · Workers / Workless
+> Mağaza Operasyonları › Kasa Sorumlusu · Gerisi Bende
 
 Kasiyer bazında **iade, iptal ve kasa farklarını** dönem boyunca toplar; oranı diğer kasiyerlerden belirgin yüksek
 olan, art arda eksik veren ya da sık fark çıkan kasiyerleri **inceleme için** işaretler. İnternete bağlanmaz.

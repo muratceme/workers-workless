@@ -1,6 +1,6 @@
 # Kargo Teslim Performansı · Kod Bloğu
 
-> E-ticaret Operasyon ve Kargo › E-ticaret Operasyon Uzmanı · Workers / Workless
+> E-ticaret Operasyon ve Kargo › E-ticaret Operasyon Uzmanı · Gerisi Bende
 
 Gönderi listesinden **kargo firması (ve il) bazında** ortalama ve medyan teslim süresini, **zamanında teslim oranını**,
 hasarlı, kayıp ve iade gönderi oranlarını hesaplar; geciken açık gönderileri listeler. İnternete bağlanmaz.

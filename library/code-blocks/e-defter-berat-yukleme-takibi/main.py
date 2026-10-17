@@ -1,5 +1,5 @@
 """
-e-Defter Berat Yükleme Takibi — Workers / Workless kod bloğu
+e-Defter Berat Yükleme Takibi — Gerisi Bende kod bloğu
 Muhasebe ve Defter İşleri › Muhasebe Elemanı (Büro)
 Mükellef bazında aylık e-defter dönemlerinin oluşturma, imzalama ve berat yükleme son tarihlerini hesaplayıp takip eder.
   Son tarih (aylık tercih) = dönemi izleyen 4. ayın 10'u (gelir vergisi mükellefi) / 14'ü (kurumlar vergisi ve diğer)

@@ -1,6 +1,6 @@
 # Kumaş Sipariş Termin Takibi · Kod Bloğu
 
-> Tekstil ve Konfeksiyon › Kumaş ve Aksesuar Satın Alma › Kumaş Satın Alma Uzmanı · Workers / Workless
+> Tekstil ve Konfeksiyon › Kumaş ve Aksesuar Satın Alma › Kumaş Satın Alma Uzmanı · Gerisi Bende
 
 Kumaş siparişlerinin üretim aşamalarını ve termin durumunu takip eder: iplik temini, örme / dokuma, boyahane, apre,
 kalite kontrol ve sevk. Gecikmenin bağlı konfeksiyon siparişinin kesim ve sevk tarihine etkisini hesaplar.

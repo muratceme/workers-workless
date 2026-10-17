@@ -1,5 +1,5 @@
 """
-Arıza Kaydı Sınıflandırma — Workers / Workless AI Agent
+Arıza Kaydı Sınıflandırma — Gerisi Bende AI Agent
 Bakım Onarım › Bakım Teknisyeni
 
 1. Kod serbest metin makine adını makine listesiyle (kod, ad, diğer adlar) eşleştirir.

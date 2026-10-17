@@ -1,6 +1,6 @@
 # Reklam Kampanyası Performans Raporu · Kod Bloğu
 
-> Pazarlama › Dijital Pazarlama Uzmanı · Workers / Workless
+> Pazarlama › Dijital Pazarlama Uzmanı · Gerisi Bende
 
 Reklam platformlarından alınan dışa aktarımları **tek tabloda birleştirir** ve kampanya bazında performans
 raporu üretir. Desteklenen platformlar Google Ads, Meta Ads, TikTok Ads ve Microsoft Ads'tir; Türkçe ve İngilizce

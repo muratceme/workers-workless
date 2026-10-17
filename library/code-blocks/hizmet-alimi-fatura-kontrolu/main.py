@@ -1,5 +1,5 @@
 """
-Hizmet Alımı Fatura Kontrolü — Workers / Workless kod bloğu
+Hizmet Alımı Fatura Kontrolü — Gerisi Bende kod bloğu
 İdari İşler › İdari İşler Sorumlusu
 
 Yemek, servis, temizlik ve güvenlik faturalarını sözleşme birim fiyatı ve fiilî kullanımla karşılaştırır:

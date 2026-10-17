@@ -1,5 +1,5 @@
 """
-DÖF Takibi — Workers / Workless kod bloğu
+DÖF Takibi — Gerisi Bende kod bloğu
 Kalite Güvence ve Kalite Kontrol › Kalite Mühendisi
 
 Düzeltici ve önleyici faaliyetleri sorumlu, termin ve etkinlik doğrulamasıyla izler.

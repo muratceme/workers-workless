@@ -1,5 +1,5 @@
 """
-Sık Sorulan Sorulara Cevap Taslağı — Workers / Workless AI Agent
+Sık Sorulan Sorulara Cevap Taslağı — Gerisi Bende AI Agent
 Bilgi Teknolojileri › BT Destek Uzmanı
 
 1. Bilgi bankası (tek dosya veya .md/.txt/.docx/.pdf klasörü) başlıklarına göre bölümlere ayrılır.

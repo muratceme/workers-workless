@@ -1,6 +1,6 @@
 # Periyodik Bakım Hatırlatma Listesi · Kod Bloğu
 
-> Satış Sonrası Hizmetler (Servis) › Servis Danışmanı · Workers / Workless
+> Satış Sonrası Hizmetler (Servis) › Servis Danışmanı · Gerisi Bende
 
 Son bakım tarihi ve kilometresinden **bir sonraki bakımın ne zaman geleceğini** tahmin eder; bakımı geçmiş ya da yaklaşan araçları
 listeler ve ileti izni olan müşteriler için **hatırlatma mesajı** hazırlar. Mesaj göndermez; internete ve DMS'e bağlanmaz.

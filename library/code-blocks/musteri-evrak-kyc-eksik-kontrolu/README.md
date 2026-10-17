@@ -1,6 +1,6 @@
 # Müşteri Evrak (KYC) Eksik Kontrolü · Kod Bloğu
 
-> Şube Bankacılığı › Operasyon Yetkilisi · Workers / Workless
+> Şube Bankacılığı › Operasyon Yetkilisi · Gerisi Bende
 
 Müşteri dosyalarını **müşteri tipine ve kullandığı ürünlere göre** zorunlu belge listesiyle karşılaştırır; eksik, süresi
 dolmuş ve süresi yaklaşan belgeleri çıkarır. Zorunlu belgeler sizin kural dosyanızdan okunur. İnternete bağlanmaz.

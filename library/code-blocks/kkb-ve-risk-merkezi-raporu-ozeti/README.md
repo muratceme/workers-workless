@@ -1,6 +1,6 @@
 # KKB ve Risk Merkezi Raporu Özeti · Kod Bloğu
 
-> Krediler Tahsis › Kredi Tahsis Uzman Yardımcısı · Workers / Workless
+> Krediler Tahsis › Kredi Tahsis Uzman Yardımcısı · Gerisi Bende
 
 Risk Merkezi / KKB raporundan tabloya aktardığınız limit-risk satırlarını toplar: **toplam risk, banka sayısı, limit
 kullanımı, gecikme ve dönemsel seyir**. İnternete bağlanmaz; rapor sorgulamaz.

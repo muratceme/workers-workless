@@ -1,5 +1,5 @@
 """
-Eğitim Değerlendirme Yorumları Analizi — Workers / Workless AI Agent
+Eğitim Değerlendirme Yorumları Analizi — Gerisi Bende AI Agent
 İnsan Kaynakları › Eğitim ve Gelişim Uzmanı
 
 Eğitim sonrası değerlendirme anketlerinin açık uçlu yorumlarını eğitim bazında temalara ayırır, güçlü yönleri ve

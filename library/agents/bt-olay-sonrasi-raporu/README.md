@@ -1,6 +1,6 @@
 # BT Olay Sonrası Raporu · AI Agent
 
-> Bilgi Teknolojileri › Sistem Uzmanı · Workers / Workless
+> Bilgi Teknolojileri › Sistem Uzmanı · Gerisi Bende
 
 Olay sırasında tutulan zaman damgalı notlardan (sohbet dökümü, çağrı notları) **suçlamasız (blameless) olay sonrası
 raporu** hazırlar. Rapor şu bölümlerden oluşur:

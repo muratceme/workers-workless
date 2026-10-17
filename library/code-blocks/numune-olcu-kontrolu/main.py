@@ -1,5 +1,5 @@
 """
-Numune Ölçü Kontrolü — Workers / Workless kod bloğu
+Numune Ölçü Kontrolü — Gerisi Bende kod bloğu
 Modelhane › Modelist
 
 Numune ölçümlerini ölçü tablosu ve toleranslarla karşılaştırır; tolerans dışı ölçü noktalarını raporlar.

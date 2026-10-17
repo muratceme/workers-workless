@@ -1,6 +1,6 @@
 # Mizandan Mali Tablo Hazırlama · Kod Bloğu
 
-> Muhasebe › Muhasebe Müdürü · Workers / Workless
+> Muhasebe › Muhasebe Müdürü · Gerisi Bende
 
 Tekdüzen Hesap Planı'na göre tutulan **mizandan**, Muhasebe Sistemi Uygulama Genel Tebliği (MSUGT) biçiminde
 **ayrıntılı bilanço** ve **gelir tablosu** hazırlar. Önceki dönem mizanı verilirse karşılaştırmalı sütun ekler.

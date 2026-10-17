@@ -1,6 +1,6 @@
 # Renk Paleti Çıkarma · AI Agent
 
-> Tasarım ve Koleksiyon › Moda Tasarımcısı · Workers / Workless
+> Tasarım ve Koleksiyon › Moda Tasarımcısı · Gerisi Bende
 
 İlham görsellerinden **baskın renkleri çıkarır**, bunları **sizin renk referans tablonuzdaki** (ör. lisanslı Pantone
 TCX listeniz) en yakın kodlarla eşleştirir ve bir **koleksiyon renk paleti** oluşturur. Renk çıkarma, eşleştirme ve

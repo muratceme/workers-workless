@@ -1,5 +1,5 @@
 """
-Parti Verim ve Fire Raporu — Workers / Workless kod bloğu
+Parti Verim ve Fire Raporu — Gerisi Bende kod bloğu
 Üretim › Üretim Şefi
 
 Parti bazında hammadde girişi, mamul çıkışı ve fireden verimi hesaplar; hedef dışı partileri, ürün ve hat özetini çıkarır.

@@ -1,6 +1,6 @@
 # Ürün Sorusu Cevap Taslağı · AI Agent
 
-> E-Ticaret › Müşteri Deneyimi › Müşteri Hizmetleri Temsilcisi · Workers / Workless
+> E-Ticaret › Müşteri Deneyimi › Müşteri Hizmetleri Temsilcisi · Gerisi Bende
 
 Pazaryerlerinde (Trendyol, Hepsiburada, Amazon, N11…) ürün sayfasına gelen müşteri sorularına cevap taslağı
 hazırlar. Taslaklar **ürün kartınıza** ve **şirket politikalarınıza** (kargo, iade, değişim) dayanır. Kod,

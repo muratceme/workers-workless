@@ -1,5 +1,5 @@
 """
-Rücu Potansiyeli Tespiti — Workers / Workless kod bloğu
+Rücu Potansiyeli Tespiti — Gerisi Bende kod bloğu
 Hasar Yönetimi › Rücu Uzmanı
 
 Ödenen hasar dosyalarını kusur oranı, karşı taraf ve sigorta bilgisine göre tarar; rücu edilebilir dosyaları ve tutarlarını listeler.

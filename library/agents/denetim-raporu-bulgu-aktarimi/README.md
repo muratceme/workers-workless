@@ -1,6 +1,6 @@
 # Denetim Raporu Bulgu Aktarımı · AI Agent
 
-> Tekstil Uygunluk › Sosyal Uygunluk Uzmanı · Workers / Workless
+> Tekstil Uygunluk › Sosyal Uygunluk Uzmanı · Gerisi Bende
 
 Sosyal uygunluk, çevre ya da müşteri denetim raporlarındaki **bulguları düzeltici faaliyet takip tablosuna** aktarır.
 Her bulgu için şunlar yazılır: konu, kısa bulgu metni, raporun derecesi, rapordan alıntı, düzeltici faaliyet önerisi ve
