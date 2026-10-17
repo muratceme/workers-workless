@@ -82,7 +82,19 @@ export async function build({ quiet = false } = {}) {
 
   // 3) hazır görevler
   const legal = ["LICENSE", "SORUMLULUK_REDDI.md"].map((f) => ({ name: f, data: fs.readFileSync(path.join(ROOT, f)) }));
+  // terminal bilmeyenler için çift tıkla başlatıcı (her pakete eklenir)
+  const BAS = path.join(ROOT, "scripts", "baslatici");
+  const crlf = (b) => Buffer.from(b.toString("utf8").replace(/\r?\n/g, "\r\n"), "utf8");
+  const lf = (b) => Buffer.from(b.toString("utf8").replace(/\r\n/g, "\n"), "utf8");
+  const launcher = [
+    { name: "BASLAT.bat", data: crlf(fs.readFileSync(path.join(BAS, "BASLAT.bat"))) },
+    { name: "BASLAT.command", data: lf(fs.readFileSync(path.join(BAS, "BASLAT.command"))), mode: 0o755 },
+    { name: "_baslat.py", data: lf(fs.readFileSync(path.join(BAS, "_baslat.py"))) },
+  ];
   const READY = { "code-blocks": {}, agents: {} };
+  // örnek çıktı önizlemeleri: scripts/onizleme.py üretir
+  const onizYol = path.join(ROOT, "data", "onizlemeler.json");
+  const ONIZ = fs.existsSync(onizYol) ? JSON.parse(fs.readFileSync(onizYol, "utf8")) : {};
   for (const type of TYPES) {
     const libDir = path.join(ROOT, "library", type);
     if (!fs.existsSync(libDir)) continue;
@@ -98,6 +110,7 @@ export async function build({ quiet = false } = {}) {
       const zip = makeZip([
         ...files.map((f) => ({ name: `${id}/${f}`, data: fs.readFileSync(path.join(dir, f)) })),
         ...legal.map((l) => ({ name: `${id}/${l.name}`, data: l.data })),
+        ...launcher.map((l) => ({ name: `${id}/${l.name}`, data: l.data, mode: l.mode })),
       ]);
       const zipRel = `downloads/${type}/${id}.zip`;
       fs.mkdirSync(path.join(DIST, "downloads", type), { recursive: true });
@@ -111,7 +124,37 @@ export async function build({ quiet = false } = {}) {
       const reqs = fs.existsSync(path.join(dir, "requirements.txt"))
         ? fs.readFileSync(path.join(dir, "requirements.txt"), "utf8").split(/\r?\n/).filter((l) => l && !l.startsWith("#"))
         : [];
+      // güncellik: README'deki "Kaynaklar ve dayanaklar" bölümü + ortak Türkiye parametreleri
+      const readme = fs.readFileSync(path.join(dir, "README.md"), "utf8");
+      let guncellik = null;
+      const kb = readme.split(/^## Kaynaklar ve dayanaklar[ \t]*$/m)[1];
+      if (kb) {
+        const govde = kb.split(/^## /m)[0];
+        guncellik = {
+          tarih: (govde.match(/Kontrol tarihi:\s*(\d{2}\.\d{2}\.\d{4})/) || [])[1] || null,
+          kaynaklar: [...govde.matchAll(/^\|\s*([^|]+?)\s*\|\s*\[[^\]]*\]\(([^)\s]+)\)\s*\|\s*([^|]*?)\s*\|\s*$/gm)]
+            .map((x) => ({ ad: x[1], url: x[2], durum: x[3] })),
+        };
+      }
+      if (m.ortak_dosyalar && m.ortak_dosyalar["tr_parametreler.json"]) {
+        const tp = JSON.parse(fs.readFileSync(path.join(ROOT, "library", m.ortak_dosyalar["tr_parametreler.json"]), "utf8"));
+        const yil = Object.keys(tp.yillar).sort().pop();
+        const [y, a, g] = tp.guncelleme.split("-");
+        guncellik = {
+          tarih: `${g}.${a}.${y}`, parametre: `${yil} bordro parametreleri`,
+          kaynaklar: [...(guncellik ? guncellik.kaynaklar : []), ...(tp.yillar[yil].kaynaklar || []).map((k) => {
+            const url = (k.match(/https?:\/\/\S+/) || [])[0];
+            return { ad: k.replace(/\s*[—-]\s*https?:\/\/\S+/, "").trim(), url: url ? url.replace(/[).,]+$/, "") : null, durum: "" };
+          })],
+        };
+      }
+      // önizleme ayrı dosyada; panel açılınca yüklenir (her sayfada yüklenen katalog küçük kalsın)
+      const onizleme = type === "code-blocks" && ONIZ[id] && !ONIZ[id].hata;
+      if (onizleme) fs.writeFileSync(path.join(fileDir, "onizleme.json"), JSON.stringify(ONIZ[id]));
+
       READY[type][id] = {
+        guncellik,
+        onizleme,
         version: m.surum,
         python: m.python,
         main: m.ana_dosya,
@@ -122,7 +165,7 @@ export async function build({ quiet = false } = {}) {
         zip: zipRel,
         size: zip.length,
         sha256: crypto.createHash("sha256").update(zip).digest("hex"),
-        files: files.length + legal.length,
+        files: files.length + legal.length + launcher.length,
       };
     }
   }

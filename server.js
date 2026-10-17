@@ -48,5 +48,5 @@ rebuild().then(() => {
       res.writeHead(200, { "Content-Type": TYPES[path.extname(file)] || "application/octet-stream", "Cache-Control": "no-cache" });
       res.end(data);
     });
-  }).listen(PORT, () => console.log(`Workers / Workless → http://localhost:${PORT}`));
+  }).listen(PORT, () => console.log(`Gerisi Bende → http://localhost:${PORT}`));
 });

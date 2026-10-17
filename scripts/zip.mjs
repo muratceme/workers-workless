@@ -16,11 +16,11 @@ const crc32 = (buf) => {
 const DOS_TIME = 0;
 const DOS_DATE = ((2026 - 1980) << 9) | (1 << 5) | 1;
 
-/** @param {{name: string, data: Buffer}[]} entries */
+/** @param {{name: string, data: Buffer, mode?: number}[]} entries  mode: Unix izinleri (ör. 0o755 çalıştırılabilir) */
 export function makeZip(entries) {
   const locals = [], centrals = [];
   let offset = 0;
-  for (const { name, data } of [...entries].sort((a, b) => a.name.localeCompare(b.name))) {
+  for (const { name, data, mode = 0o644 } of [...entries].sort((a, b) => a.name.localeCompare(b.name))) {
     const nameBuf = Buffer.from(name, "utf8");
     const comp = zlib.deflateRawSync(data, { level: 9 });
     const crc = crc32(data);
@@ -41,7 +41,7 @@ export function makeZip(entries) {
 
     const central = Buffer.alloc(46);
     central.writeUInt32LE(0x02014b50, 0);
-    central.writeUInt16LE(20, 4);
+    central.writeUInt16LE((3 << 8) | 20, 4);  // "made by" Unix → izinler korunur (macOS'ta BASLAT.command çalıştırılabilir)
     central.writeUInt16LE(20, 6);
     central.writeUInt16LE(0x0800, 8);
     central.writeUInt16LE(8, 10);
@@ -51,6 +51,7 @@ export function makeZip(entries) {
     central.writeUInt32LE(comp.length, 20);
     central.writeUInt32LE(data.length, 24);
     central.writeUInt16LE(nameBuf.length, 28);
+    central.writeUInt32LE(((0o100000 | mode) << 16) >>> 0, 38);
     central.writeUInt32LE(offset, 42);
     centrals.push(central, nameBuf);
 

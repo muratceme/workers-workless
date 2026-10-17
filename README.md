@@ -1,4 +1,6 @@
-# Workers / Workless
+# Gerisi Bende
+
+> Sen kahveni iç, gerisi bende. (Proje eskiden *Workers / Workless* adını taşıyordu; depo adresi aynı kaldı.)
 
 Her sektörün, her departmanın, her rolün tekrar eden işleri için **açık kaynak kod blokları** ve
 **AI agent'lar**. Ücretsiz.
@@ -11,8 +13,10 @@ Sitede Sektör → Departman → Rol → Görev akışıyla ilerleyip görevi in
 
 ## Hazır paketler
 
-357 kod bloğu ve 77 AI agent hazırdır; katalog 16 sektör, 95 departman ve 226 rolü kapsar. Hazır olmayan görevler
-sitede "Yakında" olarak görünür. Bir görevi talep etmek ya da kurulum ve uyarlama için yardım almak üzere sitedeki
+357 kod bloğu ve 109 AI agent hazırdır; katalog 16 sektör, 95 departman ve 226 rolü kapsar; her rolün iki modda da
+en az bir hazır paketi vardır. Her ZIP'te terminal gerektirmeyen bir başlatıcı bulunur: Windows'ta `BASLAT.bat`,
+macOS / Linux'ta `BASLAT.command` çift tıklanır; Python yoksa kurmaya yardım eder, kütüphaneleri kendisi yükler,
+"örnek veriyle dene" ya da "kendi dosyalarımla çalıştır" seçeneklerini sunar (kaynak: `scripts/baslatici/`). Bir görevi talep etmek ya da kurulum ve uyarlama için yardım almak üzere sitedeki
 "Yardım al" bölümünü kullanabilir veya "Görev talebi" şablonuyla bir issue açabilirsiniz.
 
 Amaç, her meslekte tekrar eden rutin işi azaltmaktır: araçlar ücretsiz ve açık kaynaktır, veri kullanıcının
@@ -26,6 +30,21 @@ burada yazar. Teyit edilemeyen noktalar açıkça "Teyit edilemedi" olarak işar
 
 `main` dalına her push'ta GitHub Actions çalışır: standart kontrolü ve testler (Windows ve Linux,
 Python 3.10 ve 3.13) ile `pip-audit` güvenlik taraması geçerse site GitHub Pages'e yayınlanır.
+
+## Geliştirme
+
+```bash
+npm start                                  # yerel sunucu (http://localhost:4321), değişiklikte yeniden derler
+node scripts/build.mjs                     # dist/ (site + ZIP'ler)
+python scripts/kontrol.py --test           # standart kontrolü (başlatıcı ve önizleme güncelliği dahil) + her paketin testleri
+.venv/Scripts/python scripts/onizleme.py   # kod bloklarını örnek veriyle çalıştırıp çıktı önizlemelerini üretir → data/onizlemeler.json
+node scripts/build-seo.mjs                 # deneme: görev / meslek / sektör başına statik sayfalar + sitemap → dist-seo/
+node scripts/sunucu-seo.mjs                # SEO sürümünü önizle (http://localhost:4322)
+node scripts/og_gorsel.mjs                 # paylaşım görseli (site/assets/og.png; Playwright gerekir)
+```
+
+Site ayarları `catalog/catalog.mjs` içindeki `CONFIG`'de: iletişim adresleri, görev talep formu adresi
+(`talepFormu`) ve çerezsiz ziyaretçi ölçümü kodu (`goatcounter`). Boş bırakılanlar sitede görünmez.
 
 ## Lisans ve sorumluluk
 

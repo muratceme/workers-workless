@@ -1,5 +1,5 @@
 /* =========================================================================
-   Workers / Workless — katalog
+   Gerisi Bende — katalog
    Sektör → Departman → Rol (çalışan) → Görev
 
    - Departmanlar: catalog/ortak.mjs (tüm sektörlerde ortak) + catalog/sektorler/*.mjs
@@ -31,6 +31,11 @@ export const CONFIG = {
     email: "",      // ör. "ad@alanadi.com"
     linkedin: "",   // ör. "https://www.linkedin.com/in/kullanici-adi/"
   },
+  // Görev talep formu. Bir form servisinin adresi girilirse talepler doğrudan oraya gönderilir
+  // (ör. Formspree: "https://formspree.io/f/xxxxxxx"). Boşsa ziyaretçiye e-posta / GitHub / kopyala seçenekleri sunulur.
+  talepFormu: "",
+  // Çerezsiz ziyaretçi ölçümü (GoatCounter). Kod girilirse etkinleşir: "gerisibende" → https://gerisibende.goatcounter.com
+  goatcounter: "",
 };
 
 const PARCALAR = { ORTAK, BANKA, SIGORTA, ACENTE, URETIM, TEKSTIL, PERAKENDE, ETICARET, SAGLIK, LOJISTIK, INSAAT, GIDA, OTEL, SMMM, HUKUK_BUROSU, OTOMOTIV, EGITIM };

@@ -11,6 +11,8 @@ Kontroller:
   - Kod blokları internete/kabuğa erişen modül kullanıyor mu (yasak)
   - Agent'larda .env.example var mı, gerçek .env yanlışlıkla eklenmiş mi
   - ortak_dosyalar kopyaları kaynaklarıyla birebir aynı mı
+  - çift tıkla başlatıcı (scripts/baslatici) derleniyor ve ağ modülü kullanmıyor mu
+  - kod bloklarının örnek çıktı önizlemeleri (data/onizlemeler.json) içerikle güncel mi
 """
 from __future__ import annotations
 
@@ -147,6 +149,47 @@ def test_et(klasor: Path) -> bool:
     return True
 
 
+def baslatici_kontrol() -> list[str]:
+    """Her ZIP'e eklenen çift tıkla başlatıcı (scripts/baslatici): derlenmeli, ağ modülü kullanmamalı.
+    subprocess'e izin var (pip ve paketi çalıştırmak için gerekir)."""
+    h = []
+    d = KOK / "scripts" / "baslatici"
+    for f in ("BASLAT.bat", "BASLAT.command", "_baslat.py"):
+        if not (d / f).exists():
+            h.append(f"baslatici: '{f}' eksik")
+    py = d / "_baslat.py"
+    if py.exists():
+        try:
+            ast.parse(py.read_text(encoding="utf-8"))
+        except SyntaxError as e:
+            h.append(f"baslatici: _baslat.py derlenmiyor: {e}")
+        else:
+            for y in ag_kullanimi(py):
+                if y != "subprocess":
+                    h.append(f"baslatici: _baslat.py yasak modül/çağrı kullanıyor: {y}")
+    return h
+
+
+def onizleme_kontrol() -> list[str]:
+    """Sitedeki örnek çıktı önizlemeleri (data/onizlemeler.json) paket içeriğiyle güncel mi?"""
+    sys.path.insert(0, str(KOK / "scripts"))
+    from onizleme import imza  # noqa: E402
+    yol = KOK / "data" / "onizlemeler.json"
+    if not yol.exists():
+        return ["önizleme yok: data/onizlemeler.json -> scripts/onizleme.py çalıştırın"]
+    d = json.loads(yol.read_text(encoding="utf-8"))
+    h = []
+    for tur, k in gorevler():
+        if tur != "code-blocks":
+            continue
+        v = d.get(k.name)
+        if not v or "hata" in v:
+            h.append(f"code-blocks/{k.name}: önizleme yok -> scripts/onizleme.py {k.name}")
+        elif v.get("imza") != imza(k.name):
+            h.append(f"code-blocks/{k.name}: önizleme eski (kod / örnek veri değişmiş) -> scripts/onizleme.py {k.name}")
+    return h
+
+
 def main() -> int:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(errors="replace")
@@ -159,6 +202,8 @@ def main() -> int:
     for tur, klasor in gorevler():
         sayi += 1
         hatalar += kontrol_et(tur, klasor, a.senkronla)
+    hatalar += baslatici_kontrol()
+    hatalar += onizleme_kontrol()
     for hata in hatalar:
         print(f"[X] {hata}")
     print(f"[{'OK' if not hatalar else 'X'}] {sayi} görev klasörü kontrol edildi, {len(hatalar)} sorun")

@@ -1,5 +1,5 @@
 /* =========================================================================
-   Workers / Workless — uygulama
+   Gerisi Bende — uygulama
    Rotalar:  #/                     ana sayfa
              #/code | #/agents      sektörler
              #/<mod>/<sektör>                       departmanlar
@@ -122,7 +122,7 @@
     return `<a class="${cls}" href="${hasContact ? contactHref(subject) : "#/iletisim"}"${ext ? ' target="_blank" rel="noopener"' : ""}>${label}</a>`;
   };
   if (hasContact) {
-    if (CONTACT.email) Object.assign($("#contactMail"), { href: mailto("Workers / Workless: iş akışım hakkında"), hidden: false });
+    if (CONTACT.email) Object.assign($("#contactMail"), { href: mailto("Gerisi Bende: iş akışım hakkında"), hidden: false });
     if (CONTACT.linkedin) Object.assign($("#contactLinkedin"), { href: CONTACT.linkedin, hidden: false });
   }
 
@@ -141,7 +141,7 @@
       <span class="card-icon">${icon(x.icon, 26)}</span>
       <h3>${esc(x.name)}</h3>
       <p>Yakında. Bu sektördeyseniz hangi işlerin önce geleceğini birlikte belirleyelim.</p>
-      <div class="card-meta">${helpLink(`Workers / Workless: ${x.name} sektörü`, "Yazın →", "tag accent")}</div>
+      <div class="card-meta">${helpLink(`Gerisi Bende: ${x.name} sektörü`, "Yazın →", "tag accent")}</div>
     </div>`;
 
   const deptCard = (s, d, i) => `
@@ -233,7 +233,7 @@
       $("#exHelp").innerHTML = `
         <div><b>${esc(yer)} için aradığınız iş burada yok mu?</b>
         <span>Ya da işiniz başka adımlarla yürüyor olabilir. Bugün nasıl yaptığınızı anlatın; uygun bir kod bloğu ya da agent'ı birlikte kuralım.</span></div>
-        ${helpLink(`Workers / Workless: ${[s && s.name, d && d.name, r && r.name].filter(Boolean).join(" / ")}`, "Yardım al")}`;
+        ${helpLink(`Gerisi Bende: ${[s && s.name, d && d.name, r && r.name].filter(Boolean).join(" / ")}`, "Yardım al")}`;
     }
   }
 
@@ -265,6 +265,36 @@
     return files.get(url);
   };
 
+  // örnek çıktı: paketin örnek veriyle ürettiği Excel'in ilk satırları (scripts/onizleme.py)
+  function onizBlok(o) {
+    const sek = o.sayfalar.map((s, i) => `<button class="oniz-sekme${i ? "" : " on"}" data-oniz="${i}">${esc(s.ad)}</button>`).join("");
+    const tablolar = o.sayfalar.map((s, i) => `
+      <div class="oniz-tablo"${i ? " hidden" : ""} data-oniz-tablo="${i}">
+        <table><thead><tr>${s.satirlar[0].map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead>
+        <tbody>${s.satirlar.slice(1).map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>
+        ${s.toplam_satir > s.satirlar.length ? `<p class="oniz-not">… toplam ${s.toplam_satir} satır; ilk ${s.satirlar.length} satır gösteriliyor</p>` : ""}
+      </div>`).join("");
+    return `<h4>Örnek çıktı <span class="oniz-dosya">${esc(o.dosya)}</span></h4>
+      <div class="oniz"><div class="oniz-sekmeler">${sek}</div>${tablolar}</div>
+      <p class="note">Paketteki kurgusal örnek veriyle üretildi; kendi verinizle aynı biçimde çıkar.</p>`;
+  }
+  // güncellik: mevzuata / resmî parametreye dayanan paketler
+  function guncBlok(g) {
+    const liste = g.kaynaklar.slice(0, 8).map((k) => `<li>${k.url ? `<a href="${esc(k.url)}" target="_blank" rel="noopener">${esc(k.ad)} ↗</a>` : esc(k.ad)}${k.durum ? ` <span class="gunc-durum">${esc(k.durum)}</span>` : ""}</li>`).join("");
+    return `<div class="gunc">
+      <div class="gunc-bas"><span class="gunc-rozet">Son kontrol: ${esc(g.tarih || "belirtilmemiş")}</span>${g.parametre ? `<span class="gunc-param">${esc(g.parametre)}</span>` : ""}</div>
+      <p>Bu paket mevzuata ya da resmî oranlara dayanır. Mevzuat sık değişir; kullanmadan önce kaynakları güncel resmî metinle karşılaştırın.</p>
+      ${liste ? `<details><summary>Kaynaklar (${g.kaynaklar.length})</summary><ul>${liste}</ul></details>` : ""}
+    </div>`;
+  }
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-oniz]");
+    if (!b) return;
+    const kutu = b.closest(".oniz");
+    kutu.querySelectorAll("[data-oniz]").forEach((x) => x.classList.toggle("on", x === b));
+    kutu.querySelectorAll("[data-oniz-tablo]").forEach((x) => { x.hidden = x.dataset.onizTablo !== b.dataset.oniz; });
+  });
+
   function readyBody(m, t, pkg) {
     const agent = m === "agents";
     const deps = pkg.deps.map((x) => x.split("==")[0]).join(" · ");
@@ -291,8 +321,16 @@
         <div><h4>Girdi</h4><ul>${pkg.inputs.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>
         <div><h4>Çıktı</h4><ul>${pkg.outputs.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>
       </div>
-      <h4>Kurulum</h4>
-      <ol class="steps">${steps.map(([h, p, c], i) => `<li><h5>${h}</h5>${p ? `<p class="step-p">${p}</p>` : ""}${codebox("terminal", c, `st${i}`)}</li>`).join("")}</ol>
+      ${pkg.guncellik ? guncBlok(pkg.guncellik) : ""}
+      ${pkg.onizleme ? '<div id="onizKutu"><h4>Örnek çıktı</h4><p class="note">Yükleniyor…</p></div>' : ""}
+      <h4>Kolay yol: terminal gerekmez</h4>
+      <ol class="kolay">
+        <li><b>İndirin ve çıkarın.</b> ZIP dosyasına sağ tıklayıp “Tümünü ayıkla”yı seçin.</li>
+        <li><b>Çift tıklayın.</b> Windows'ta <code>BASLAT.bat</code>, macOS'ta <code>BASLAT.command</code> (ilk seferde sağ tık → Aç). Python yoksa kurmanıza yardım eder; gerekli kütüphaneleri kendisi yükler.</li>
+        <li><b>Seçin.</b> “Örnek veriyle dene” ya da “Kendi dosyalarımla çalıştır”: dosyanızı pencereye sürükleyip bırakmanız yeterli${agent ? "; API anahtarınızı açılan <code>.env</code> dosyasına yazarsınız" : ""}. Bitince sonuç klasörü açılır.</li>
+      </ol>
+      <details class="gelismis"><summary>Terminalden çalıştırmak isteyenler için</summary>
+      <ol class="steps">${steps.map(([h, p, c], i) => `<li><h5>${h}</h5>${p ? `<p class="step-p">${p}</p>` : ""}${codebox("terminal", c, `st${i}`)}</li>`).join("")}</ol></details>
       <h4>Kod</h4>
       <div id="preview">${codebox(pkg.main, "Yükleniyor…", "pv")}</div>`;
   }
@@ -312,7 +350,7 @@
         <div class="fact"><b>Ücretsiz</b><span>açık kaynak, MIT lisansı</span></div>
       </div>
       <div class="actions">
-        ${helpLink(`Workers / Workless: ${t.name}`, "Bu iş için yazın", "btn btn-primary")}
+        ${helpLink(`Gerisi Bende: ${t.name}`, "Bu iş için yazın", "btn btn-primary")}
         <a class="btn btn-ghost" href="${issueUrl(m, t)}" target="_blank" rel="noopener">GitHub'da talep et ↗</a>
       </div>`;
   }
@@ -336,7 +374,7 @@
       <div class="fit">
         <div><b>Kurulumda ya da uyarlamada yardım mı lazım?</b>
         <span>Python kurulumu, ${mode === "agents" ? "API anahtarı ayarı, " : ""}kendi dosya ve sütunlarınıza uyarlama ya da onay adımlarınızın eklenmesi: hangisinde takıldıysanız yazın, birlikte çözelim.</span></div>
-        ${helpLink(`Workers / Workless: ${t.name} kurulum / uyarlama`, "Yardım al")}
+        ${helpLink(`Gerisi Bende: ${t.name} kurulum / uyarlama`, "Yardım al")}
       </div>` : ""}
       <a class="crosslink" href="${href(other, s.id, d.id, r.id, t.id)}">
         <span class="x-ic" style="background:linear-gradient(135deg,${O.c1},${O.c2})">${icon(other === "code" ? "code" : "spark", 18)}</span>
@@ -352,6 +390,12 @@
         const shown = lines.slice(0, 90).join("\n") + (lines.length > 90 ? `\n\n# … ${lines.length - 90} satır daha (tamamı pakette)` : "");
         $("#preview").innerHTML = codebox(`${pkg.main} · ${lines.length} satır`, shown, "pv");
       }, () => { if ($("#preview")) $("#preview").innerHTML = '<p class="note">Önizleme yüklenemedi.</p>'; });
+      if (pkg.onizleme) {
+        loadFile(`files/${MODES[mode].folder}/${t.id}/onizleme.json`).then((j) => {
+          if (!current || current.t !== t || !$("#onizKutu")) return;
+          $("#onizKutu").innerHTML = onizBlok(JSON.parse(j));
+        }, () => { if ($("#onizKutu")) $("#onizKutu").innerHTML = ""; });
+      }
     }
 
     const wasOpen = !$("#sheet").hidden;
@@ -401,6 +445,7 @@
   $("#consent").addEventListener("click", (e) => { if (e.target.id === "consent") closeConsent(); });
   $("#consentGo").addEventListener("click", () => {
     if (!pending || $("#consentGo").disabled) return;
+    say(`indir/${pending.m}/${pending.t.id}`, `İndirme: ${pending.t.name}`);
     const a = document.createElement("a");
     a.href = pending.pkg.zip;
     a.download = `${pending.t.id}-${pending.m === "code" ? "kod" : "agent"}-v${pending.pkg.version}.zip`;
@@ -480,6 +525,52 @@
     else hideSheet();
   }
   window.addEventListener("hashchange", route);
+  window.addEventListener("hashchange", () => say(location.hash.replace(/^#/, "") || "/"));
+
+  /* ------------------------------ ziyaretçi ölçümü (çerezsiz, isteğe bağlı) ------------------------------ */
+  // CONFIG.goatcounter doluysa GoatCounter yüklenir: çerez kullanmaz, IP saklamaz, kişisel veri toplamaz.
+  function say(yol, baslik) {
+    if (!CONFIG.goatcounter || !window.goatcounter || !window.goatcounter.count) return;
+    window.goatcounter.count({ path: yol, title: baslik || document.title, event: yol.startsWith("indir/") });
+  }
+  if (CONFIG.goatcounter) {
+    const s = document.createElement("script");
+    s.async = true;
+    s.src = "https://gc.zgo.at/count.js";
+    s.dataset.goatcounter = `https://${CONFIG.goatcounter}.goatcounter.com/count`;
+    window.goatcounter = { path: () => location.hash.replace(/^#/, "") || "/" };  // hash yönlendirmeli sayfalar ayrı sayılsın
+    document.head.appendChild(s);
+    $("#olcumMetni").textContent = " Hangi sayfaların ve paketlerin ilgi gördüğünü anlamak için çerezsiz GoatCounter kullanılır: çerez bırakmaz, IP adresinizi saklamaz, sizi tanımlayan bir bilgi toplamaz; yalnızca sayfa adresi, yönlendiren site, tarayıcı türü ve ülke gibi toplu sayılar tutulur.";
+  }
+
+  /* ------------------------------ görev talep formu ------------------------------ */
+  $("#talepForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const f = e.target, v = Object.fromEntries(new FormData(f).entries());
+    const sonuc = $("#talepSonuc");
+    if (!v.rol.trim() || !v.is.trim()) { sonuc.hidden = false; sonuc.className = "talep-sonuc hata"; sonuc.textContent = "Meslek ve iş tarifi alanlarını doldurun."; return; }
+    const baslik = `Görev talebi: ${v.rol.trim()}${v.sektor.trim() ? ` (${v.sektor.trim()})` : ""}`;
+    const metin = `Sektör: ${v.sektor || "-"}\nMeslek / rol: ${v.rol}\nSıklık: ${v.siklik}\nSüre: ${v.sure}\n\nTekrar eden iş:\n${v.is}`;
+    sonuc.hidden = false;
+    if (CONFIG.talepFormu) {
+      sonuc.className = "talep-sonuc"; sonuc.textContent = "Gönderiliyor…";
+      try {
+        const r = await fetch(CONFIG.talepFormu, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify({ _subject: baslik, ...v }) });
+        if (!r.ok) throw new Error(r.status);
+        sonuc.className = "talep-sonuc ok"; sonuc.textContent = "Teşekkürler! Talebiniz alındı."; f.reset(); say("talep/gonderildi", baslik);
+        return;
+      } catch { sonuc.className = "talep-sonuc hata"; sonuc.textContent = "Gönderilemedi. Aşağıdaki seçeneklerden birini kullanın."; }
+    }
+    const gh = `${repoUrl()}/issues/new?labels=gorev-talebi&title=${encodeURIComponent(baslik)}&body=${encodeURIComponent(metin)}`;
+    sonuc.className = "talep-sonuc";
+    sonuc.innerHTML = `<p>Talebinizi şu yollardan biriyle iletin:</p><div class="talep-yollar">
+      ${CONTACT.email ? `<a class="btn btn-primary" href="mailto:${CONTACT.email}?subject=${encodeURIComponent(baslik)}&body=${encodeURIComponent(metin + (v.eposta ? `\n\nE-posta: ${v.eposta}` : ""))}">E-postayla gönder</a>` : ""}
+      <a class="btn btn-ghost" href="${gh}" target="_blank" rel="noopener">GitHub'da gönder ↗</a>
+      <button class="btn btn-ghost" type="button" id="talepKopyala">Metni kopyala</button></div>`;
+    $("#talepKopyala").onclick = () => (navigator.clipboard ? navigator.clipboard.writeText(`${baslik}\n\n${metin}`) : Promise.reject())
+      .then(() => toast("Talep metni kopyalandı."), () => toast("Kopyalanamadı."));
+  });
 
   // mod düğmeleri: aynı konumda kal, sadece modu değiştir
   $$("[data-mode-btn]").forEach((b) => b.addEventListener("click", () => {
@@ -542,7 +633,7 @@
     }, 350);
   }, 2600);
 
-  // logo: Workers → Workless
+  // logo: "Bende" yanında onay işareti belirip kaybolur
   setInterval(() => $(".logo").classList.toggle("swapped"), 3200);
 
   /* ------------------------------ terminal demosu ------------------------------ */

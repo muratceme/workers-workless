@@ -12,3 +12,4 @@ Thumbs.db
 .playwright-cli/
 .agents/
 skills-lock.json
+dist-seo/

@@ -3,12 +3,28 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Workers / Workless</title>
-  <meta name="description" content="Her sektör, her departman ve her rolün tekrar eden işleri için açık kaynak kod blokları ve AI agent'lar. Ücretsiz." />
+  <title>Gerisi Bende · Rutin işler için hazır kod ve AI agent'lar</title>
+  <meta name="description" content="Her sektör, her departman ve her rolün tekrar eden işleri için açık kaynak kod blokları ve AI agent'lar. Ücretsiz, Türkçe. Sen kahveni iç, gerisi bende." />
+  <!-- paylaşım önizlemesi (WhatsApp, LinkedIn, X, Facebook…). Alan adı değişirse bu adresleri güncelleyin. -->
+  <link rel="canonical" href="https://muratceme.github.io/workers-workless/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:site_name" content="Gerisi Bende" />
+  <meta property="og:title" content="Gerisi Bende · Tekrar eden iş, artık sizin işiniz değil." />
+  <meta property="og:description" content="226 meslek için hazır kod blokları ve AI agent'lar. Ücretsiz, açık kaynak, Türkçe." />
+  <meta property="og:url" content="https://muratceme.github.io/workers-workless/" />
+  <meta property="og:image" content="https://muratceme.github.io/workers-workless/assets/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Gerisi Bende: Tekrar eden iş, artık sizin işiniz değil." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Gerisi Bende · Tekrar eden iş, artık sizin işiniz değil." />
+  <meta name="twitter:description" content="226 meslek için hazır kod blokları ve AI agent'lar. Ücretsiz, açık kaynak, Türkçe." />
+  <meta name="twitter:image" content="https://muratceme.github.io/workers-workless/assets/og.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23050505'/%3E%3Cpath d='M7 10l3 12 3-8 3 8 3-12' stroke='%23fff' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M22 22h4' stroke='%233DDC97' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23050505'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11' stroke='%233DDC97' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
   <meta name="theme-color" content="#050505" />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
@@ -17,9 +33,9 @@
   <!-- ============================== NAV ============================== -->
   <header class="nav">
     <div class="nav-inner">
-      <a class="logo" href="#/" aria-label="Workers / Workless ana sayfa">
+      <a class="logo" href="#/" aria-label="Gerisi Bende ana sayfa">
         <span class="logo-mark" aria-hidden="true"></span>
-        <span class="logo-text">Work<span class="logo-swap"><span class="ers">ers</span><span class="less">less</span></span></span>
+        <span class="logo-text">Gerisi <span class="logo-bende">Bende<span class="logo-tik" aria-hidden="true">✓</span></span></span>
       </a>
       <nav class="nav-links" aria-label="Ana menü">
         <a href="#/code" data-nav="code">Kod Blokları</a>
@@ -49,7 +65,7 @@
       </h1>
       <p class="hero-sub reveal">
         Her sektörün, her departmanın, her rolün rutin görevleri için hazır
-        <strong>kod blokları</strong> ve <strong>AI agent'lar</strong>. İndir, çalıştır, mesaiye erken son ver.
+        <strong>kod blokları</strong> ve <strong>AI agent'lar</strong>. İndir, çalıştır. <span class="hero-imza">Sen kahveni iç, gerisi bende.</span>
       </p>
       <p class="hero-rotator reveal" aria-live="polite">
         <span class="rot-role" id="rotRole">İK Uzmanı</span> için
@@ -162,6 +178,62 @@
       </div>
     </section>
 
+    <!-- Görev talebi -->
+    <section class="section talep" id="istek">
+      <div class="talep-inner reveal">
+        <div class="talep-text">
+          <p class="eyebrow">Mesleğim yok · Bu işi istiyorum</p>
+          <h2>Listede olmayan işinizi yazın.</h2>
+          <p>Hangi görevlerin yazılacağını gelen talepler belirliyor. Mesleğinizi ve her hafta tekrar eden işinizi kısaca anlatın; en çok istenenler önce hazırlanır.</p>
+          <p class="note">Gerçek müşteri, çalışan ya da hasta verisi yazmayın. Sütun başlıkları ve işin tarifi yeterli.</p>
+        </div>
+        <form class="talep-form" id="talepForm" novalidate>
+          <label>Sektör<input name="sektor" maxlength="80" placeholder="ör. Lojistik" /></label>
+          <label>Meslek / rol<input name="rol" maxlength="80" placeholder="ör. Gümrük Müşaviri Yardımcısı" required /></label>
+          <label>Tekrar eden iş<textarea name="is" rows="4" maxlength="1200" placeholder="Her gün / her hafta ne yapıyorsunuz? Hangi dosyalardan hangi sonucu çıkarıyorsunuz?" required></textarea></label>
+          <div class="talep-ikili">
+            <label>Ne sıklıkla?<select name="siklik"><option>Her gün</option><option selected>Her hafta</option><option>Her ay</option><option>Dönemsel</option></select></label>
+            <label>Ne kadar sürüyor?<select name="sure"><option>1 saatten az</option><option selected>1–3 saat</option><option>3–8 saat</option><option>Bir günden fazla</option></select></label>
+          </div>
+          <label>E-posta <span class="opt">(isteğe bağlı, hazır olunca haber vermek için)</span><input name="eposta" type="email" maxlength="120" placeholder="ad@ornek.com" /></label>
+          <button class="btn btn-primary" type="submit">Talebi gönder</button>
+          <div class="talep-sonuc" id="talepSonuc" hidden></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- SSS -->
+    <section class="section sss" id="sss">
+      <div class="sss-inner reveal">
+        <p class="eyebrow">Sık sorulan sorular</p>
+        <h2>Aklınıza takılanlar.</h2>
+        <details><summary>Gerçekten ücretsiz mi?</summary><p>Evet. Bütün paketler MIT lisanslı açık kaynak; indirmek ve kullanmak ücretsiz. Kod blokları hiçbir ücretli servise bağlanmaz. AI agent'larda ise seçtiğiniz yapay zekâ sağlayıcısının (Claude, OpenAI) kullanım ücretini kendi API hesabınızdan ödersiniz; Ollama ile bilgisayarınızda çalışan yerel bir model kullanırsanız bu da ücretsizdir.</p></details>
+        <details><summary>Verilerim nereye gidiyor?</summary><p><b>Kod blokları</b> tamamen bilgisayarınızda çalışır, internete bağlanmaz; dosyalarınız hiçbir yere gönderilmez. <b>AI agent'lar</b> metni sizin seçtiğiniz sağlayıcıya gönderir ve göndermeden önce onayınızı ister. Pek çok agent ad, IBAN, kimlik numarası gibi kişisel verileri göndermeden önce maskeler; hangi verinin gönderildiği her paketin README dosyasında yazar. Şirket verisiyle kullanmadan önce kurumunuzun bilgi güvenliği ve KVKK politikasına uyduğundan emin olun.</p></details>
+        <details><summary>Python bilmiyorum, kullanabilir miyim?</summary><p>Evet. Paketi indirip çıkardıktan sonra Windows'ta <code>BASLAT.bat</code>, macOS'ta <code>BASLAT.command</code> dosyasına çift tıklayın. Python yoksa kurmanıza yardım eder, gerekli kütüphaneleri kendisi yükler; sonra “örnek veriyle dene” ya da “kendi dosyalarımla çalıştır” seçeneğini sunar. Takılırsanız <a href="#/iletisim">yardım alın</a>.</p></details>
+        <details><summary>İndirdiğim dosya güvenli mi?</summary><p>Her paketin bütün kodu <a href="https://github.com/muratceme/workers-workless" target="_blank" rel="noopener">GitHub'da</a> açık; çalıştırmadan önce inceleyebilirsiniz. Paketler yayınlanmadan önce otomatik testlerden ve güvenlik taramasından geçer. İndirme penceresinde ZIP dosyasının SHA-256 özeti gösterilir; dosyanın değişmediğini bununla doğrulayabilirsiniz.</p></details>
+        <details><summary>Sonuçlara güvenebilir miyim?</summary><p>Araçlar taslak ve öneri üretir; son kontrol ve karar sizindir. Kod blokları her seferinde aynı kuralı uygular ve şüpheli satırları ayrıca işaretler; agent'larda yapay zekânın ürettiği hücreler renkle ayrılır ve kod tarafında denetlenir. Yine de önemli kararlardan önce sonucu gözden geçirin.</p></details>
+        <details><summary>Bordro, SGK ve vergi oranları güncel mi?</summary><p>Mevzuata ya da resmî oranlara dayanan paketlerin sayfasında <b>“Son kontrol”</b> tarihi ve kaynak listesi bulunur. Oranlar yılda birkaç kez değişebilir; kullanmadan önce kaynakları güncel resmî metinle karşılaştırın.</p></details>
+        <details><summary>Şirketimde kullanabilir miyim, değiştirebilir miyim?</summary><p>MIT lisansı ticari kullanıma, değiştirmeye ve dağıtmaya izin verir. Kendi dosya ve sütunlarınıza uyarlamak serbesttir. Şirket bilgisayarına yazılım kurmadan önce BT biriminizin kurallarına uyun.</p></details>
+        <details><summary>Mesleğim listede yok ya da işim farklı.</summary><p><a href="#/istek">Talep formunu</a> doldurun. Hangi görevlerin yazılacağını gelen talepler belirliyor.</p></details>
+      </div>
+    </section>
+
+    <!-- Gizlilik -->
+    <section class="section gizlilik" id="gizlilik">
+      <div class="gizlilik-inner reveal">
+        <p class="eyebrow">Gizlilik ve KVKK</p>
+        <h2>Bu site hakkınızda ne tutar?</h2>
+        <ul class="gizlilik-liste">
+          <li><b>Çerez yok.</b> Site çerez kullanmaz, tarayıcınıza kalıcı bilgi kaydetmez, hesap açmanızı istemez.</li>
+          <li><b>Barındırma.</b> Site GitHub Pages üzerinde yayınlanır; GitHub, hizmeti sunmak için sunucu kayıtlarında IP adresinizi tutabilir (<a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub gizlilik bildirimi</a>). Yazı tipleri Google Fonts'tan yüklenir.</li>
+          <li><b>Ziyaret sayıları.</b><span id="olcumMetni"> Şu an ziyaretçi ölçümü kapalı.</span></li>
+          <li><b>Talep formu ve e-posta.</b> Talep formuna ya da e-postanıza yazdıklarınız yalnızca talebi değerlendirmek ve size dönmek için kullanılır; üçüncü kişilerle paylaşılmaz. Silinmesini istediğinizde silinir.</li>
+          <li><b>İndirdiğiniz paketler.</b> Kod blokları internete bağlanmaz. AI agent'lar yalnızca sizin seçtiğiniz sağlayıcıya, sizin API anahtarınızla ve sizin onayınızla veri gönderir; bu aktarım sizinle sağlayıcı arasındadır.</li>
+        </ul>
+        <p class="note">6698 sayılı KVKK kapsamındaki talepleriniz (bilgi, düzeltme, silme) için <a href="#/iletisim">iletişim bölümünden</a> yazabilirsiniz.</p>
+      </div>
+    </section>
+
     <!-- Compare -->
     <section class="compare section" id="compare">
       <h2 class="section-title reveal">Aynı görev. <span class="muted">İki farklı yol.</span></h2>
@@ -224,7 +296,7 @@
   <footer class="footer">
     <div class="footer-inner">
       <p>* Haftalık kazanım rakamları tahminidir; şirketinizin hacmine göre değişir.</p>
-      <p>Workers / Workless · Açık kaynak (MIT) · <a href="https://github.com/muratceme/workers-workless/blob/main/SORUMLULUK_REDDI.md" target="_blank" rel="noopener">Sorumluluk reddi ve kullanım koşulları</a> · <a href="https://github.com/muratceme/workers-workless" target="_blank" rel="noopener">GitHub</a> · <a href="#/amac">Neden bu site</a> · <a href="#/iletisim">Yardım al</a></p>
+      <p>Gerisi Bende · Açık kaynak (MIT) · <a href="https://github.com/muratceme/workers-workless/blob/main/SORUMLULUK_REDDI.md" target="_blank" rel="noopener">Sorumluluk reddi ve kullanım koşulları</a> · <a href="https://github.com/muratceme/workers-workless" target="_blank" rel="noopener">GitHub</a> · <a href="#/amac">Neden bu site</a> · <a href="#/sss">SSS</a> · <a href="#/gizlilik">Gizlilik ve KVKK</a> · <a href="#/istek">Görev talep et</a> · <a href="#/iletisim">Yardım al</a></p>
       <p class="wink">Bu sitenin yapımında hiçbir çalışan işten çıkarılmadı.</p>
     </div>
   </footer>
