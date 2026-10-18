@@ -741,29 +741,63 @@
     });
     return h;
   }
+  // Arama meslek (rol) ve departman üzerinden yapılır; görev adlarını biz verdiğimiz için kullanıcı onları bilemez.
+  // Ortak departmanlar (İK, Finans, BT…) her sektörde aynıdır: bir kez, "Tüm sektörler" olarak listelenir.
+  const ARAMA = [];
+  {
+    const gorulen = new Set();
+    TREE.forEach((s) => s.depts.forEach((d) => {
+      const where = d.shared ? "Tüm sektörler" : s.name;
+      const dk = d.shared ? d.id : `${s.id}/${d.id}`;
+      if (!gorulen.has(dk)) {
+        gorulen.add(dk);
+        ARAMA.push({ tur: "dept", s, d, where, ad: norm(d.name), hay: norm(`${d.name} ${d.short} ${where} ${d.desc}`) });
+      }
+      d.roles.forEach((r) => {
+        const rk = `${dk}/${r.id}`;
+        if (gorulen.has(rk)) return;
+        gorulen.add(rk);
+        ARAMA.push({ tur: "rol", s, d, r, where, ad: norm(r.name), hay: norm(`${r.name} ${r.level} ${d.name} ${where}`) });
+      });
+    }));
+  }
+  const sayilar = (x) => {
+    const roller = x.tur === "rol" ? [x.r] : x.d.roles;
+    return { code: sum(roller, (r) => tasksOf(r, "code").length), agents: sum(roller, (r) => tasksOf(r, "agents").length) };
+  };
   function filter() {
     const words = norm(pin.value.trim()).split(/\s+/).filter(Boolean);
-    results = words.length
-      ? INDEX.filter((x) => words.every((w) => x.hay.includes(w)))
-      : [...INDEX.filter((x) => isReady(x.t)), ...INDEX.filter((x) => !isReady(x.t)).slice(0, 6)];
+    if (words.length) {
+      // sıralama: adı aranan kelimeyle başlayanlar → adında geçenler → yalnız departman / sektörde geçenler; roller departmanlardan önce
+      const puan = (x) => (words.every((w) => x.ad.startsWith(w) || x.ad.includes(" " + w)) ? 0 : words.every((w) => x.ad.includes(w)) ? 1 : 2) * 2 + (x.tur === "rol" ? 0 : 1);
+      results = ARAMA.filter((x) => words.every((w) => x.hay.includes(w))).map((x) => [puan(x), x]).sort((a, b) => a[0] - b[0]).map((p) => p[1]);
+    } else {
+      results = ARAMA.filter((x) => x.tur === "dept");  // boşken departmanlar: önce ortak olanlar
+      results.sort((a, b) => (b.d.shared ? 1 : 0) - (a.d.shared ? 1 : 0));
+    }
     results = results.slice(0, 40);
     sel = 0;
     plist.innerHTML = results.length
-      ? results.map((x, i) => `
+      ? (words.length ? "" : `<li class="palette-baslik">Departmanlar · mesleğinizi yazarak arayın</li>`) + results.map((x, i) => {
+          const n = sayilar(x);
+          const sayi = [n.code && `${n.code} kod`, n.agents && `${n.agents} agent`].filter(Boolean).join(" · ");
+          return `
         <li role="option" data-i="${i}" aria-selected="${i === 0}">
           <span class="p-ic">${esc(x.d.short)}</span>
-          <span class="p-main"><b>${mark(x.t.name, words.slice(0, 1))}</b><small>${esc(x.where)} › ${esc(x.d.name)} › ${esc(x.r.name)}</small></span>
-          <span class="p-h">${isReady(x.t) ? '<span class="tag ok sm">Hazır</span> ' : ""}~${x.t.hours} sa/hf</span>
-        </li>`).join("")
-      : `<li class="palette-empty">Sonuç yok. Aradığınız iş listede yoksa <a href="#/iletisim">yardım alın</a>.</li>`;
+          <span class="p-main"><b>${mark(x.tur === "rol" ? x.r.name : x.d.name, words.slice(0, 1))}</b><small>${x.tur === "rol" ? `${esc(x.where)} › ${esc(x.d.name)}` : `Departman · ${esc(x.where)} · ${x.d.roles.length} meslek`}</small></span>
+          <span class="p-h">${sayi ? `<span class="tag ok sm">${sayi}</span>` : ""}</span>
+        </li>`;
+        }).join("")
+      : `<li class="palette-empty">Bu adla bir meslek bulamadık. Başka bir kelime deneyin ya da <a href="#/istek">mesleğinizi talep edin</a>.</li>`;
   }
   function choose(i) {
     const x = results[i];
     if (!x) return;
     closePalette();
+    const n = sayilar(x);
     let m = MODES[parts()[0]] ? parts()[0] : "code";
-    if (!readyOf(m, x.t) && readyOf(m === "code" ? "agents" : "code", x.t)) m = m === "code" ? "agents" : "code";  // yalnız öbür modda hazırsa oraya git
-    location.hash = href(m, x.s.id, x.d.id, x.r.id, x.t.id);
+    if (!n[m === "code" ? "code" : "agents"]) m = m === "code" ? "agents" : "code";  // bu modda hazır yoksa öbür moda git
+    location.hash = x.tur === "rol" ? href(m, x.s.id, x.d.id, x.r.id) : href(m, x.s.id, x.d.id);
   }
   function moveSel(dir) {
     if (!results.length) return;

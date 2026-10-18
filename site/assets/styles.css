@@ -744,3 +744,4 @@ body::before {
 .gizlilik-liste { display: grid; gap: 12px; padding-left: 18px; color: var(--muted, #b8c0bc); line-height: 1.6; }
 .gizlilik-liste b { color: var(--fg, #e8f5ef); }
 @media (max-width: 800px) { .talep-inner { grid-template-columns: 1fr; gap: 20px; } .talep-ikili { grid-template-columns: 1fr; } }
+.palette-baslik { padding: 8px 14px 4px; font-size: 12px; color: var(--muted, #8a948f); letter-spacing: .04em; pointer-events: none; }
