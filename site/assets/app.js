@@ -41,9 +41,12 @@
     }),
   }));
   const sum = (arr, f) => arr.reduce((a, x) => a + f(x), 0);
-  const roleHours = (r) => sum(r.tasks, (t) => t.hours);
-  const deptTasks = (d) => sum(d.roles, (r) => r.tasks.length);
-  const sectorTasks = (s) => sum(s.depts, deptTasks);
+  // Her modda yalnız o modda hazır görevler listelenir ("Yapım aşamasında" kartı gösterilmez);
+  // bir görevin öbür sürümü varsa görev panelindeki çapraz bağlantıdan ulaşılır.
+  const tasksOf = (r, m = mode) => r.tasks.filter((t) => readyOf(m, t));
+  const roleHours = (r, m = mode) => sum(tasksOf(r, m), (t) => t.hours);
+  const deptTasks = (d, m = mode) => sum(d.roles, (r) => tasksOf(r, m).length);
+  const sectorTasks = (s, m = mode) => sum(s.depts, (d) => deptTasks(d, m));
 
   // Her görev tek bir kez listelenir: ortak departmanlar (İK, Finans, BT) tüm sektörlerde
   // aynı görevi gösterir, kodu da tek bir klasörde durur.
@@ -58,7 +61,6 @@
 
   const readyOf = (m, t) => (READY[MODES[m].folder] || {})[t.id];
   const isReady = (t) => !!(readyOf("code", t) || readyOf("agents", t));
-  const readyCount = (tasks, m) => tasks.filter((t) => readyOf(m, t)).length;
 
   const STATS = {
     sectors: TREE.length,
@@ -133,7 +135,7 @@
       <span class="card-go" aria-hidden="true">→</span>
       <h3>${esc(s.name)}</h3>
       <p>${esc(s.tagline)}</p>
-      <div class="card-meta"><span class="tag">${s.depts.length} departman</span><span class="tag accent">${sectorTasks(s)} görev</span></div>
+      <div class="card-meta"><span class="tag">${s.depts.length} departman</span><span class="tag accent">${sectorTasks(s, m)} ${MODES[m].unit}</span></div>
     </a>`;
 
   const soonCard = (x, i) => `
@@ -150,20 +152,20 @@
       <span class="card-go" aria-hidden="true">→</span>
       <h3>${esc(d.name)}</h3>
       <p>${esc(d.desc)}</p>
-      <div class="card-meta">${d.shared ? '<span class="tag">Tüm sektörlerde ortak</span>' : ""}<span class="tag">${d.roles.length} rol</span><span class="tag accent">${deptTasks(d)} görev</span></div>
+      <div class="card-meta">${d.shared ? '<span class="tag">Tüm sektörlerde ortak</span>' : ""}<span class="tag">${d.roles.length} rol</span><span class="tag accent">${deptTasks(d)} ${MODES[mode].unit}</span></div>
     </a>`;
 
   const roleCard = (s, d, r, i) => {
-    const shown = r.tasks.slice(0, 3).map((t) => `<li>${esc(t.name)}${readyOf(mode, t) ? ' <span class="tag ok sm">Hazır</span>' : ""}</li>`).join("");
-    const nReady = readyCount(r.tasks, mode);
-    const more = r.tasks.length > 3 ? `<li class="more">+${r.tasks.length - 3} görev daha</li>` : "";
+    const ts = tasksOf(r);
+    const shown = ts.slice(0, 3).map((t) => `<li>${esc(t.name)}</li>`).join("");
+    const more = ts.length > 3 ? `<li class="more">+${ts.length - 3} ${MODES[mode].unit} daha</li>` : "";
     return `
     <a class="card spot" href="${href(mode, s.id, d.id, r.id)}" style="--i:${i}">
       <span class="avatar" data-level="${esc(r.level)}">${esc(initials(r.name))}</span>
       <span class="tag level">${esc(r.level)}</span>
       <h3>${esc(r.name)}</h3>
       <ul class="role-tasks">${shown}${more}</ul>
-      <div class="card-meta"><span class="tag accent">~${roleHours(r)} saat / hafta</span>${nReady ? `<span class="tag ok">${nReady} hazır</span>` : ""}</div>
+      <div class="card-meta"><span class="tag accent">~${roleHours(r)} saat / hafta</span><span class="tag ok">${ts.length} hazır</span></div>
     </a>`;
   };
 
@@ -218,9 +220,11 @@
       html = d.roles.map((x, i) => roleCard(s, d, x, i)).join("");
     } else {
       title.textContent = r.name;
-      const nr = readyCount(r.tasks, mode);
-      sub.textContent = `${r.tasks.length} görev${nr ? `, ${nr} tanesi indirilebilir` : ""} · haftada yaklaşık ${roleHours(r)} saat geri kazanım.`;
-      html = r.tasks.map((x, i) => taskCard(s, d, r, x, i)).join("");
+      const ts = tasksOf(r);
+      const diger = r.tasks.length - ts.length;
+      sub.textContent = `${ts.length} hazır ${M.unit} · haftada yaklaşık ${roleHours(r)} saat geri kazanım.` +
+        (diger ? ` Bu rolün ${diger} görevi daha ${mode === "code" ? "AI Agents" : "Kod Blokları"} modunda.` : "");
+      html = ts.map((x, i) => taskCard(s, d, r, x, i)).join("");
     }
     // animasyonu yeniden tetikle
     [title, sub].forEach((el) => { el.style.animation = "none"; void el.offsetWidth; el.style.animation = ""; });
@@ -521,6 +525,11 @@
       if (!t) window.scrollTo({ top: 0 });
       route.lastKey = key;
     }
+    if (t && !readyOf(mode, t) && readyOf(mode === "code" ? "agents" : "code", t)) {
+      // eski bağlantı ya da çapraz geçiş: görev bu modda yok, öbür modda hazır → oraya yönlendir
+      location.replace("#" + href(mode === "code" ? "agents" : "code", s.id, d.id, r.id, t.id).replace(/^#/, ""));
+      return;
+    }
     if (t) openSheet(s, d, r, t);
     else hideSheet();
   }
@@ -610,7 +619,7 @@
 
   // marquee
   const shuffled = INDEX.slice().sort(() => Math.random() - 0.5);
-  const chip = (x) => `<a class="chip" href="${href("code", x.s.id, x.d.id, x.r.id, x.t.id)}">${esc(x.t.name)} <i>${esc(x.r.name)}</i></a>`;
+  const chip = (x) => `<a class="chip" href="${href(readyOf("code", x.t) ? "code" : "agents", x.s.id, x.d.id, x.r.id, x.t.id)}">${esc(x.t.name)} <i>${esc(x.r.name)}</i></a>`;
   const half = Math.min(18, Math.floor(shuffled.length / 2));
   const row1 = shuffled.slice(0, half).map(chip).join("");
   const row2 = shuffled.slice(half, half * 2).map(chip).join("");
@@ -628,7 +637,7 @@
     a.classList.add("out"); b.classList.add("out");
     setTimeout(() => {
       ri = (ri + 1 + Math.floor(Math.random() * 3)) % roles.length;
-      a.textContent = roles[ri].name; b.textContent = roles[ri].tasks.length;
+      a.textContent = roles[ri].name; b.textContent = roles[ri].tasks.filter(isReady).length;
       a.classList.remove("out"); b.classList.remove("out");
     }, 350);
   }, 2600);
@@ -752,7 +761,8 @@
     const x = results[i];
     if (!x) return;
     closePalette();
-    const m = MODES[parts()[0]] ? parts()[0] : "code";
+    let m = MODES[parts()[0]] ? parts()[0] : "code";
+    if (!readyOf(m, x.t) && readyOf(m === "code" ? "agents" : "code", x.t)) m = m === "code" ? "agents" : "code";  // yalnız öbür modda hazırsa oraya git
     location.hash = href(m, x.s.id, x.d.id, x.r.id, x.t.id);
   }
   function moveSel(dir) {
