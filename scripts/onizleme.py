@@ -18,14 +18,18 @@ def imza(id_: str) -> str:
     kontrol.py bunu data/onizlemeler.json'daki değerle karşılaştırır; farklıysa önizleme eskimiştir."""
     k = LIB / id_
     m = json.loads((k / "task.json").read_text(encoding="utf-8"))
-    yollar = [k / m["ana_dosya"], k / "requirements.txt"] + sorted(p for p in (k / "ornek_veri").rglob("*") if p.is_file())
+    posix = lambda p: p.relative_to(KOK).as_posix()  # sıralama her işletim sisteminde aynı olsun (Windows Path karşılaştırması büyük/küçük harfe duyarsız)
+    yollar = [k / m["ana_dosya"], k / "requirements.txt"] + sorted((p for p in (k / "ornek_veri").rglob("*") if p.is_file()), key=posix)
     for rel in m.get("ortak_dosyalar", {}).values():
         src = KOK / "library" / rel
-        yollar += sorted(p for p in src.rglob("*") if p.is_file()) if src.is_dir() else [src]
+        yollar += sorted((p for p in src.rglob("*") if p.is_file()), key=posix) if src.is_dir() else [src]
     h = hashlib.sha256()
     for p in yollar:
         if p.exists():
-            h.update(str(p.relative_to(KOK)).replace("\\", "/").encode()); h.update(p.read_bytes())
+            veri = p.read_bytes()
+            if b"\x00" not in veri[:4096]:  # metin dosyası: satır sonu farkı (CRLF / LF) imzayı değiştirmesin (git eol=lf normalizasyonu)
+                veri = veri.replace(b"\r\n", b"\n")
+            h.update(str(p.relative_to(KOK)).replace("\\", "/").encode()); h.update(veri)
     return h.hexdigest()[:16]
 
 
