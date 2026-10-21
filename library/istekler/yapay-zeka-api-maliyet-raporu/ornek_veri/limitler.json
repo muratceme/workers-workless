@@ -1,0 +1,7 @@
+{
+ "_not": "Örnek limitler; kendi bütçenize göre düzenleyin. Kullanmadığınız limiti silin.",
+ "aylik_butce": 30,
+ "gunluk_butce": 1.2,
+ "kullanici_gunluk_istek": 12,
+ "kullanici_gunluk_maliyet": 0.25
+}

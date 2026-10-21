@@ -1,0 +1,278 @@
+{
+ "paket": "uygulama-abonelik-gelir-raporu",
+ "surum": 1,
+ "uretildi": "2026-10-21T18:48:54",
+ "para_birimi": "TRY",
+ "gunluk": {
+  "2026-09-01": {
+   "net": 375.15,
+   "brut_play": 149.99,
+   "iade": 0.0,
+   "komisyon_play": -22.5,
+   "satis_adet": 3,
+   "iade_adet": 0,
+   "iptal": 1
+  },
+  "2026-09-02": {
+   "net": 2311.25,
+   "brut_play": 2299.96,
+   "iade": 0.0,
+   "komisyon_play": -345.0,
+   "satis_adet": 7,
+   "iade_adet": 0,
+   "iptal": 0
+  },
+  "2026-09-03": {
+   "net": 2070.19,
+   "brut_play": 1999.98,
+   "iade": -149.99,
+   "komisyon_play": -277.5,
+   "satis_adet": 6,
+   "iade_adet": 1,
+   "iptal": 2
+  },
+  "2026-09-04": {
+   "net": 861.31,
+   "brut_play": 299.98,
+   "iade": 0.0,
+   "komisyon_play": -45.0,
+   "satis_adet": 7,
+   "iade_adet": 0,
+   "iptal": 2
+  },
+  "2026-09-05": {
+   "net": 1581.43,
+   "brut_play": 1149.98,
+   "iade": 0.0,
+   "komisyon_play": -172.5,
+   "satis_adet": 7,
+   "iade_adet": 0,
+   "iptal": 0
+  },
+  "2026-09-06": {
+   "net": 2903.88,
+   "brut_play": 2999.97,
+   "iade": 0.0,
+   "komisyon_play": -450.0,
+   "satis_adet": 6,
+   "iade_adet": 0,
+   "iptal": 2
+  },
+  "2026-09-07": {
+   "net": 521.32,
+   "brut_play": 149.99,
+   "iade": 0.0,
+   "komisyon_play": -22.5,
+   "satis_adet": 4,
+   "iade_adet": 0,
+   "iptal": 0
+  },
+  "2026-09-08": {
+   "net": 1127.83,
+   "brut_play": 449.97,
+   "iade": 0.0,
+   "komisyon_play": -67.5,
+   "satis_adet": 9,
+   "iade_adet": 0,
+   "iptal": 3
+  },
+  "2026-09-09": {
+   "net": 554.1,
+   "brut_play": 149.99,
+   "iade": 0.0,
+   "komisyon_play": -22.5,
+   "satis_adet": 4,
+   "iade_adet": 0,
+   "iptal": 1
+  },
+  "2026-09-10": {
+   "net": 1347.69,
+   "brut_play": 999.99,
+   "iade": 0.0,
+   "komisyon_play": -150.0,
+   "satis_adet": 5,
+   "iade_adet": 0,
+   "iptal": 2
+  },
+  "2026-09-11": {
+   "net": 1248.76,
+   "brut_play": 1299.97,
+   "iade": 0.0,
+   "komisyon_play": -195.0,
+   "satis_adet": 4,
+   "iade_adet": 0,
+   "iptal": 1
+  },
+  "2026-09-12": {
+   "net": 931.63,
+   "brut_play": 299.98,
+   "iade": -106.25,
+   "komisyon_play": -45.0,
+   "satis_adet": 8,
+   "iade_adet": 1,
+   "iptal": 1
+  },
+  "2026-09-13": {
+   "net": 660.35,
+   "brut_play": 149.99,
+   "iade": 0.0,
+   "komisyon_play": -22.5,
+   "satis_adet": 5,
+   "iade_adet": 0,
+   "iptal": 2
+  },
+  "2026-09-14": {
+   "net": 858.93,
+   "brut_play": 299.98,
+   "iade": 0.0,
+   "komisyon_play": -45.0,
+   "satis_adet": 7,
+   "iade_adet": 0,
+   "iptal": 1
+  },
+  "2026-09-15": {
+   "net": 880.17,
+   "brut_play": 449.97,
+   "iade": 0.0,
+   "komisyon_play": -67.5,
+   "satis_adet": 7,
+   "iade_adet": 0,
+   "iptal": 1
+  },
+  "2026-09-16": {
+   "net": 752.68,
+   "brut_play": 299.98,
+   "iade": 0.0,
+   "komisyon_play": -45.0,
+   "satis_adet": 6,
+   "iade_adet": 0,
+   "iptal": 2
+  },
+  "2026-09-17": {
+   "net": 717.52,
+   "brut_play": 299.98,
+   "iade": 0.0,
+   "komisyon_play": -45.0,
+   "satis_adet": 6,
+   "iade_adet": 0,
+   "iptal": 0
+  },
+  "2026-09-18": {
+   "net": 587.65,
+   "brut_play": 149.99,
+   "iade": 0.0,
+   "komisyon_play": -22.5,
+   "satis_adet": 5,
+   "iade_adet": 0,
+   "iptal": 0
+  },
+  "2026-09-19": {
+   "net": 375.15,
+   "brut_play": 299.98,
+   "iade": -149.99,
+   "komisyon_play": -22.5,
+   "satis_adet": 4,
+   "iade_adet": 1,
+   "iptal": 1
+  },
+  "2026-09-20": {
+   "net": 2205.0,
+   "brut_play": 2299.96,
+   "iade": 0.0,
+   "komisyon_play": -345.0,
+   "satis_adet": 6,
+   "iade_adet": 0,
+   "iptal": 3
+  },
+  "2026-09-21": {
+   "net": 2325.17,
+   "brut_play": 2149.97,
+   "iade": 0.0,
+   "komisyon_play": -322.5,
+   "satis_adet": 7,
+   "iade_adet": 0,
+   "iptal": 0
+  },
+  "2026-09-22": {
+   "net": 1016.64,
+   "brut_play": 149.99,
+   "iade": 0.0,
+   "komisyon_play": -22.5,
+   "satis_adet": 8,
+   "iade_adet": 0,
+   "iptal": 3
+  },
+  "2026-09-23": {
+   "net": 250.04,
+   "brut_play": 149.99,
+   "iade": -256.24,
+   "komisyon_play": 0.0,
+   "satis_adet": 4,
+   "iade_adet": 2,
+   "iptal": 0
+  },
+  "2026-09-24": {
+   "net": 1730.16,
+   "brut_play": 1449.96,
+   "iade": 0.0,
+   "komisyon_play": -217.5,
+   "satis_adet": 8,
+   "iade_adet": 0,
+   "iptal": 0
+  },
+  "2026-09-25": {
+   "net": 2610.37,
+   "brut_play": 2149.97,
+   "iade": 0.0,
+   "komisyon_play": -322.5,
+   "satis_adet": 9,
+   "iade_adet": 0,
+   "iptal": 1
+  },
+  "2026-09-26": {
+   "net": 1021.58,
+   "brut_play": 449.97,
+   "iade": 0.0,
+   "komisyon_play": -67.5,
+   "satis_adet": 8,
+   "iade_adet": 0,
+   "iptal": 2
+  },
+  "2026-09-27": {
+   "net": 2308.87,
+   "brut_play": 2299.96,
+   "iade": 0.0,
+   "komisyon_play": -345.0,
+   "satis_adet": 7,
+   "iade_adet": 0,
+   "iptal": 3
+  },
+  "2026-09-28": {
+   "net": 752.68,
+   "brut_play": 299.98,
+   "iade": 0.0,
+   "komisyon_play": -45.0,
+   "satis_adet": 6,
+   "iade_adet": 0,
+   "iptal": 1
+  },
+  "2026-09-29": {
+   "net": 1746.46,
+   "brut_play": 1299.97,
+   "iade": 0.0,
+   "komisyon_play": -195.0,
+   "satis_adet": 8,
+   "iade_adet": 0,
+   "iptal": 0
+  },
+  "2026-09-30": {
+   "net": 1023.96,
+   "brut_play": 449.97,
+   "iade": 0.0,
+   "komisyon_play": -67.5,
+   "satis_adet": 8,
+   "iade_adet": 0,
+   "iptal": 2
+  }
+ }
+}

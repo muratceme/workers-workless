@@ -1,0 +1,73 @@
+{
+ "paket": "uygulama-cokme-onceliklendirme",
+ "surum": 1,
+ "uretildi": "2026-10-21T18:48:54",
+ "en_yeni_surum": "2.4.0",
+ "gunluk": {
+  "2026-09-24": {
+   "fatal_olay": 4,
+   "anr_olay": 2,
+   "nonfatal_olay": 8,
+   "etkilenen_kurulum": 5
+  },
+  "2026-09-25": {
+   "fatal_olay": 5,
+   "anr_olay": 0,
+   "nonfatal_olay": 9,
+   "etkilenen_kurulum": 5
+  },
+  "2026-09-26": {
+   "fatal_olay": 4,
+   "anr_olay": 1,
+   "nonfatal_olay": 6,
+   "etkilenen_kurulum": 5
+  },
+  "2026-09-27": {
+   "fatal_olay": 8,
+   "anr_olay": 0,
+   "nonfatal_olay": 10,
+   "etkilenen_kurulum": 8
+  },
+  "2026-09-28": {
+   "fatal_olay": 9,
+   "anr_olay": 0,
+   "nonfatal_olay": 5,
+   "etkilenen_kurulum": 9
+  },
+  "2026-09-29": {
+   "fatal_olay": 9,
+   "anr_olay": 2,
+   "nonfatal_olay": 8,
+   "etkilenen_kurulum": 10
+  },
+  "2026-09-30": {
+   "fatal_olay": 6,
+   "anr_olay": 1,
+   "nonfatal_olay": 40,
+   "etkilenen_kurulum": 7
+  }
+ },
+ "kritik": [
+  {
+   "baslik": "java.lang.NullPointerException · ProfilEkrani.onResume",
+   "tur": "FATAL",
+   "kurulum": 23,
+   "olay": 32,
+   "oncelik": "P1",
+   "yeni": false
+  },
+  {
+   "baslik": "IllegalStateException · OdemeAkisi.satinAlmaTamamla",
+   "tur": "FATAL",
+   "kurulum": 5,
+   "olay": 10,
+   "oncelik": "P1",
+   "yeni": true
+  }
+ ],
+ "sayilar": {
+  "P1": 2,
+  "P2": 4,
+  "P3": 1
+ }
+}

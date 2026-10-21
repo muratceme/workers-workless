@@ -1,0 +1,20 @@
+{
+  "id": "magaza-yorumu-siniflandirma",
+  "tur": "agent",
+  "ad": "Mağaza Yorumu Sınıflandırma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --play reviews_reviews.csv --appstore appstore_yorumlari.csv",
+  "girdiler": [
+    "Google Play yorum dökümü (Play Console → Yorumları indir; aylık .csv, UTF-16) ya da bu dosyaların klasörü",
+    "İsteğe bağlı App Store yorumları (.csv / .xlsx): Tarih, Puan, Başlık, Yorum, Sürüm; Ülke isteğe bağlı",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Olumsuz (1–2 yıldız ve olumsuz yorumlar), Özellik Talepleri (gruplanmış, adet, ortalama puan, örnek alıntı), Yorumlar (kategori, duygu, alıntı, cevap taslağı, karakter sayısı, 'Onay'), Sürümler, Özet · yönetim özeti için .ozet.json"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "tablo.py": "_ortak/tablo.py"
+  }
+}

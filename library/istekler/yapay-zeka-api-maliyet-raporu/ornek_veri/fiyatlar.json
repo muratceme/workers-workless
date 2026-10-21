@@ -1,0 +1,17 @@
+{
+ "_not": "ÖRNEK fiyatlardır, gerçek değildir. Kullandığınız modellerin güncel fiyatlarını sağlayıcının fiyat sayfasından yazın.",
+ "para_birimi": "USD",
+ "birim": 1000000,
+ "modeller": {
+  "model-a": {
+   "girdi": 3.0,
+   "cikti": 15.0,
+   "onbellek_okuma": 0.3,
+   "onbellek_yazma": 3.75
+  },
+  "model-b": {
+   "girdi": 0.8,
+   "cikti": 4.0
+  }
+ }
+}

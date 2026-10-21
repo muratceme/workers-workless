@@ -857,3 +857,22 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - CI düzeltmesi: önizleme imzası satır sonlarına (CRLF / LF) duyarlıydı; csv modülünün CRLF yazdığı örnek veriler git'te LF saklandığı için CI'da 54 paket "eski" çıktı. İmza artık metin dosyalarında CRLF'yi LF'ye indirger ve dosyaları işletim sisteminden bağımsız sıralar. Temiz checkout üzerinde doğrulandı.
 - Site: her modda yalnız o modda hazır görevler listelenir; "Yapım aşamasında / Yakında" kartları kaldırıldı. Sektör, departman ve rol sayıları moda göre (kod bloğu / agent) hesaplanır; rol sayfası öbür moddaki görev sayısını bir cümleyle söyler. Yalnız öbür modda hazır bir göreve giden eski bağlantılar ve arama sonuçları o moda yönlendirilir. Tarayıcıda doğrulandı (0 "Yakında" kartı, yönlendirme çalışıyor).
 - Arama (Ctrl K) görev yerine meslek ve departman arıyor: görev adlarını biz verdiğimiz için kullanıcı onları bilemez. Ortak departmanlar bir kez ("Tüm sektörler") listelenir; sonuçlar adı aranan kelimeyle başlayanlar önce gelecek şekilde sıralanır; her satırda o meslekteki hazır kod / agent sayısı yazar. Seçilen meslek yalnız öbür modda hazırsa o moda gider. Boş aramada departman listesi gösterilir.
+
+## 2026-10-21 · Sizden Gelenler sekmesi
+- Bir mobil uygulama ekibinin 7 otomasyon isteği ayrı bir sekmede yayımlandı: `#/sizden`. Ana katalog, sayılar (464 görev,
+  466 paket) ve modlar değişmedi. İstek metni `catalog/istekler.mjs`'de; isteği gönderen anonim (kurum adı / e-posta yok).
+- 7 paket `library/istekler/` altında (5 kod bloğu + 2 agent): uygulama-destek-epostasi (agent), uygulama-kullanici-ve-tutma-analizi,
+  uygulama-abonelik-gelir-raporu, uygulama-cokme-onceliklendirme, magaza-yorumu-siniflandirma (agent), yapay-zeka-api-maliyet-raporu,
+  uygulama-yonetim-ozeti. Hepsi dosyadan çalışır; canlı bağlantı (n8n / Make) ve zamanlama kurulum hizmeti olarak anlatıldı.
+- Ortak okuma / Excel katmanı `library/_ortak/tablo.py` (UTF-16 Play dökümleri, ZIP / GZ, TR / ABD sayı ve tarih biçimleri, ozet_yaz).
+  Bulunan hatalar: "01.09.2026" tarihindeki ".2026" saniye kesri sanılıp siliniyordu; tırnak içindeki çok satırlı CSV hücreleri
+  birleşiyordu. İkisi de düzeltildi.
+- Her paket `<paket>.ozet.json` yazar; Yönetim Özeti bunları okuyup günlük / haftalık / aylık rapor (metin + Excel), önceki dönem
+  karşılaştırması ve Dikkat listesi çıkarır. Örnek veriyle aylık net gelir gelir paketinin toplamıyla aynı (37.657,92 TL).
+- Dosya biçimleri resmî belgelerden alındı (README'lerde "Kaynaklar ve dayanaklar"): Play rapor sütunları (answer/6135870),
+  Play işlem türleri (answer/2482017), App Store Summary Sales Report, Crashlytics BigQuery şeması, GA4 / Firebase BigQuery şeması.
+- build.mjs: üçüncü tür `istekler`; READY.istekler ve ISTEKLER katalog.js'e yazılır. kontrol.py ve onizleme.py `library/istekler`'i
+  tanır (kod / agent kuralı task.json'daki `tur`a göre; önizleme anahtarı `istekler/<id>`). app.js: readyBody / indirme onayı
+  klasörden bağımsız hâle getirildi; Sizden Gelenler görünümü ve paket paneli eklendi.
+- kontrol.py --test: 473/473 klasör, 0 sorun, tüm testler geçti. Tarayıcıda doğrulandı: liste, kod ve agent paneli, önizleme,
+  "Son kontrol" kutusu, indirme onayı (agent: 6 madde), ZIP, ana katalog indirme akışı, mobil genişlikte yatay kaydırma yok.

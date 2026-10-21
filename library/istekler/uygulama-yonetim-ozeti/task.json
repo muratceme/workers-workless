@@ -1,0 +1,18 @@
+{
+  "id": "uygulama-yonetim-ozeti",
+  "tur": "kod",
+  "ad": "Uygulama Yönetim Özeti",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --kaynak ozetler/ --donem gunluk",
+  "girdiler": [
+    "Diğer Sizden Gelenler paketlerinin çıktı klasörlerindeki .ozet.json dosyaları (gelir, kullanıcı, çökme, yapay zekâ maliyeti, destek, mağaza yorumu; hangileri varsa)",
+    "Dönem: günlük, haftalık ya da aylık; isteğe bağlı bitiş tarihi"
+  ],
+  "ciktilar": ["Kısa rapor metni (.md; e-posta / Slack mesajına yapıştırılabilir)", "Excel: Özet (bu dönem, önceki dönem, değişim, kapsam), Dikkat, Günlük, Kaynaklar, Uyarılar"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "tablo.py": "_ortak/tablo.py"
+  }
+}

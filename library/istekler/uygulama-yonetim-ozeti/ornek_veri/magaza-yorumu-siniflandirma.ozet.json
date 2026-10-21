@@ -1,0 +1,179 @@
+{
+ "paket": "magaza-yorumu-siniflandirma",
+ "surum": 1,
+ "uretildi": "2026-10-21T18:50:00",
+ "gunluk": {
+  "2026-09-01": {
+   "yorum": 8,
+   "ortalama_puan": 5.0,
+   "olumsuz": 0
+  },
+  "2026-09-02": {
+   "yorum": 9,
+   "ortalama_puan": 3.89,
+   "olumsuz": 1
+  },
+  "2026-09-03": {
+   "yorum": 5,
+   "ortalama_puan": 3.4,
+   "olumsuz": 2
+  },
+  "2026-09-04": {
+   "yorum": 4,
+   "ortalama_puan": 2.5,
+   "olumsuz": 2
+  },
+  "2026-09-05": {
+   "yorum": 9,
+   "ortalama_puan": 4.11,
+   "olumsuz": 1
+  },
+  "2026-09-06": {
+   "yorum": 7,
+   "ortalama_puan": 4.43,
+   "olumsuz": 1
+  },
+  "2026-09-07": {
+   "yorum": 4,
+   "ortalama_puan": 3.75,
+   "olumsuz": 0
+  },
+  "2026-09-08": {
+   "yorum": 8,
+   "ortalama_puan": 4.25,
+   "olumsuz": 0
+  },
+  "2026-09-09": {
+   "yorum": 6,
+   "ortalama_puan": 3.5,
+   "olumsuz": 2
+  },
+  "2026-09-10": {
+   "yorum": 6,
+   "ortalama_puan": 3.67,
+   "olumsuz": 2
+  },
+  "2026-09-11": {
+   "yorum": 8,
+   "ortalama_puan": 3.62,
+   "olumsuz": 1
+  },
+  "2026-09-12": {
+   "yorum": 7,
+   "ortalama_puan": 4.0,
+   "olumsuz": 0
+  },
+  "2026-09-13": {
+   "yorum": 7,
+   "ortalama_puan": 4.43,
+   "olumsuz": 0
+  },
+  "2026-09-14": {
+   "yorum": 7,
+   "ortalama_puan": 4.0,
+   "olumsuz": 1
+  },
+  "2026-09-15": {
+   "yorum": 5,
+   "ortalama_puan": 4.4,
+   "olumsuz": 0
+  },
+  "2026-09-16": {
+   "yorum": 9,
+   "ortalama_puan": 3.67,
+   "olumsuz": 2
+  },
+  "2026-09-17": {
+   "yorum": 5,
+   "ortalama_puan": 3.4,
+   "olumsuz": 2
+  },
+  "2026-09-18": {
+   "yorum": 5,
+   "ortalama_puan": 4.8,
+   "olumsuz": 0
+  },
+  "2026-09-19": {
+   "yorum": 7,
+   "ortalama_puan": 4.57,
+   "olumsuz": 0
+  },
+  "2026-09-20": {
+   "yorum": 8,
+   "ortalama_puan": 4.62,
+   "olumsuz": 0
+  },
+  "2026-09-21": {
+   "yorum": 9,
+   "ortalama_puan": 3.56,
+   "olumsuz": 2
+  },
+  "2026-09-22": {
+   "yorum": 4,
+   "ortalama_puan": 3.5,
+   "olumsuz": 1
+  },
+  "2026-09-23": {
+   "yorum": 9,
+   "ortalama_puan": 3.78,
+   "olumsuz": 2
+  },
+  "2026-09-24": {
+   "yorum": 6,
+   "ortalama_puan": 3.33,
+   "olumsuz": 1
+  },
+  "2026-09-25": {
+   "yorum": 7,
+   "ortalama_puan": 4.29,
+   "olumsuz": 1
+  },
+  "2026-09-26": {
+   "yorum": 7,
+   "ortalama_puan": 3.86,
+   "olumsuz": 0
+  },
+  "2026-09-27": {
+   "yorum": 9,
+   "ortalama_puan": 3.67,
+   "olumsuz": 3
+  },
+  "2026-09-28": {
+   "yorum": 7,
+   "ortalama_puan": 3.0,
+   "olumsuz": 4
+  },
+  "2026-09-29": {
+   "yorum": 9,
+   "ortalama_puan": 2.44,
+   "olumsuz": 5
+  },
+  "2026-09-30": {
+   "yorum": 4,
+   "ortalama_puan": 1.5,
+   "olumsuz": 4
+  }
+ },
+ "kategoriler": {
+  "Övgü": 61,
+  "Hata / çökme": 38,
+  "Abonelik / fiyat": 27,
+  "Özellik isteği": 22,
+  "Yapay zekâ cevap kalitesi": 14,
+  "Diğer": 9
+ },
+ "ozellik_talepleri": [
+  {
+   "ad": "karanlık mod",
+   "adet": 17
+  },
+  {
+   "ad": "sesli okuma",
+   "adet": 11
+  },
+  {
+   "ad": "aylık ödeme seçeneği",
+   "adet": 8
+  }
+ ]
+}

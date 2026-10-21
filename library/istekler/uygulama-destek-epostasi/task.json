@@ -1,0 +1,20 @@
+{
+  "id": "uygulama-destek-epostasi",
+  "tur": "agent",
+  "ad": "Uygulama Destek E-postası Sınıflandırma",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "agent.py",
+  "calistir": "python agent.py --girdi destek_epostalari.csv --sla sla.json",
+  "girdiler": [
+    "Destek e-postaları: .csv / .xlsx dökümü (Tarih, Gönderen, Konu, Mesaj; Talep No isteğe bağlı), .mbox dosyası (ör. Google Takeout) ya da .eml dosyalarının bulunduğu klasör",
+    "İsteğe bağlı ilk yanıt hedefleri (JSON, saat: P1, P2, P3)",
+    ".env: sağlayıcı ve API anahtarı"
+  ],
+  "ciktilar": ["Excel: Onay Bekleyenler (iade, veri silme, yasal, güvenlik), Tüm E-postalar (öncelik, kategori, duygu, özet, cevap taslağı, ilk yanıt hedefi, söz verme uyarısı, 'Onay'), Özet · yönetim özeti için .ozet.json"],
+  "internet": true,
+  "ortak_dosyalar": {
+    "llm.py": "_ortak/llm.py",
+    "tablo.py": "_ortak/tablo.py"
+  }
+}

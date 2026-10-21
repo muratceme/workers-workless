@@ -22,6 +22,18 @@ macOS / Linux'ta `BASLAT.command` çift tıklanır; Python yoksa kurmaya yardım
 Amaç, her meslekte tekrar eden rutin işi azaltmaktır: araçlar ücretsiz ve açık kaynaktır, veri kullanıcının
 bilgisayarında kalır, son söz kullanıcıdadır.
 
+## Sizden Gelenler
+
+Sitedeki **Sizden Gelenler** sekmesi (`#/sizden`), ekiplerin bize ilettiği otomasyon isteklerine göre yazılan paketleri
+gösterir. Bu paketler ana katalogdan ayrıdır ve yukarıdaki sayılara girmez: istekler `catalog/istekler.mjs`'de,
+paketler `library/istekler/` altındadır. İsteği gönderenin adı ve iletişim bilgisi yazılmaz.
+
+İlk istek, abonelikli bir mobil uygulama ekibinin 7 otomasyonudur: destek e-postaları (agent), kullanıcı ve tutma
+analizi, abonelik gelirleri, Crashlytics çökmeleri, mağaza yorumları (agent), yapay zekâ API maliyeti ve bunları
+birleştiren günlük / haftalık / aylık yönetim özeti. Paketler mağaza, Firebase ve Crashlytics dökümlerini dosyadan
+okur; ortak okuma katmanı `library/_ortak/tablo.py`'dir. Her paket `<paket>.ozet.json` yazar, yönetim özeti bunları
+birleştirir.
+
 ## Kaynaklar
 
 Mevzuata dayanan paketlerin README'lerinde **"Kaynaklar ve dayanaklar"** bölümü vardır: resmî metin bağlantıları
@@ -37,7 +49,7 @@ Python 3.10 ve 3.13) ile `pip-audit` güvenlik taraması geçerse site GitHub Pa
 npm start                                  # yerel sunucu (http://localhost:4321), değişiklikte yeniden derler
 node scripts/build.mjs                     # dist/ (site + ZIP'ler)
 python scripts/kontrol.py --test           # standart kontrolü (başlatıcı ve önizleme güncelliği dahil) + her paketin testleri
-.venv/Scripts/python scripts/onizleme.py   # kod bloklarını örnek veriyle çalıştırıp çıktı önizlemelerini üretir → data/onizlemeler.json
+.venv/Scripts/python scripts/onizleme.py   # kod bloklarını (Sizden Gelenler dahil: istekler/<id>) örnek veriyle çalıştırıp çıktı önizlemelerini üretir → data/onizlemeler.json
 node scripts/build-seo.mjs                 # deneme: görev / meslek / sektör başına statik sayfalar + sitemap → dist-seo/
 node scripts/sunucu-seo.mjs                # SEO sürümünü önizle (http://localhost:4322)
 node scripts/og_gorsel.mjs                 # paylaşım görseli (site/assets/og.png; Playwright gerekir)

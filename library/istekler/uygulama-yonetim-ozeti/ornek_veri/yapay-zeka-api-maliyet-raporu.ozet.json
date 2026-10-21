@@ -1,0 +1,162 @@
+{
+ "paket": "yapay-zeka-api-maliyet-raporu",
+ "surum": 1,
+ "uretildi": "2026-10-21T18:48:55",
+ "para_birimi": "USD",
+ "kur": null,
+ "ay": "2026-09",
+ "ay_sonu_tahmini": 15.5436744,
+ "aylik_butce": 30,
+ "gunluk": {
+  "2026-09-01": {
+   "maliyet": 0.423876,
+   "istek": 38,
+   "kullanici": 31
+  },
+  "2026-09-02": {
+   "maliyet": 0.4889708,
+   "istek": 48,
+   "kullanici": 43
+  },
+  "2026-09-03": {
+   "maliyet": 0.5757448,
+   "istek": 55,
+   "kullanici": 44
+  },
+  "2026-09-04": {
+   "maliyet": 0.4863414,
+   "istek": 55,
+   "kullanici": 48
+  },
+  "2026-09-05": {
+   "maliyet": 0.3816152,
+   "istek": 38,
+   "kullanici": 31
+  },
+  "2026-09-06": {
+   "maliyet": 0.6161136,
+   "istek": 55,
+   "kullanici": 40
+  },
+  "2026-09-07": {
+   "maliyet": 0.4307436,
+   "istek": 44,
+   "kullanici": 35
+  },
+  "2026-09-08": {
+   "maliyet": 0.611782,
+   "istek": 53,
+   "kullanici": 41
+  },
+  "2026-09-09": {
+   "maliyet": 0.4696642,
+   "istek": 42,
+   "kullanici": 36
+  },
+  "2026-09-10": {
+   "maliyet": 0.444511,
+   "istek": 41,
+   "kullanici": 33
+  },
+  "2026-09-11": {
+   "maliyet": 0.7566156,
+   "istek": 64,
+   "kullanici": 41
+  },
+  "2026-09-12": {
+   "maliyet": 0.6163736,
+   "istek": 50,
+   "kullanici": 29
+  },
+  "2026-09-13": {
+   "maliyet": 0.4958462,
+   "istek": 42,
+   "kullanici": 39
+  },
+  "2026-09-14": {
+   "maliyet": 0.395811,
+   "istek": 39,
+   "kullanici": 34
+  },
+  "2026-09-15": {
+   "maliyet": 0.541353,
+   "istek": 52,
+   "kullanici": 43
+  },
+  "2026-09-16": {
+   "maliyet": 0.4100524,
+   "istek": 36,
+   "kullanici": 34
+  },
+  "2026-09-17": {
+   "maliyet": 0.43617,
+   "istek": 41,
+   "kullanici": 32
+  },
+  "2026-09-18": {
+   "maliyet": 0.4718972,
+   "istek": 49,
+   "kullanici": 39
+  },
+  "2026-09-19": {
+   "maliyet": 0.4128492,
+   "istek": 45,
+   "kullanici": 37
+  },
+  "2026-09-20": {
+   "maliyet": 0.4650658,
+   "istek": 46,
+   "kullanici": 38
+  },
+  "2026-09-21": {
+   "maliyet": 0.5526836,
+   "istek": 51,
+   "kullanici": 42
+  },
+  "2026-09-22": {
+   "maliyet": 0.5780282,
+   "istek": 54,
+   "kullanici": 45
+  },
+  "2026-09-23": {
+   "maliyet": 0.441084,
+   "istek": 40,
+   "kullanici": 30
+  },
+  "2026-09-24": {
+   "maliyet": 0.4672726,
+   "istek": 47,
+   "kullanici": 38
+  },
+  "2026-09-25": {
+   "maliyet": 0.423343,
+   "istek": 38,
+   "kullanici": 31
+  },
+  "2026-09-26": {
+   "maliyet": 0.3897254,
+   "istek": 36,
+   "kullanici": 33
+  },
+  "2026-09-27": {
+   "maliyet": 0.4940898,
+   "istek": 42,
+   "kullanici": 38
+  },
+  "2026-09-28": {
+   "maliyet": 0.5484598,
+   "istek": 52,
+   "kullanici": 40
+  },
+  "2026-09-29": {
+   "maliyet": 0.4367332,
+   "istek": 44,
+   "kullanici": 36
+  },
+  "2026-09-30": {
+   "maliyet": 1.2808582,
+   "istek": 112,
+   "kullanici": 74
+  }
+ }
+}

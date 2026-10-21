@@ -1,0 +1,19 @@
+{
+  "id": "yapay-zeka-api-maliyet-raporu",
+  "tur": "kod",
+  "ad": "Yapay Zekâ API Maliyet Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi api_cagrilari.csv --fiyatlar fiyatlar.json --limitler limitler.json",
+  "girdiler": [
+    "Uygulamanın yapay zekâ API çağrı günlüğü (.csv / .xlsx): Zaman, Model, Girdi Token, Çıktı Token; isteğe bağlı Önbellek Okuma / Yazma Token, Kullanıcı, Özellik, Maliyet, Durum",
+    "Model fiyatları (JSON; birim token başına girdi / çıktı / önbellek fiyatı) — sağlayıcının güncel fiyatlarını siz yazarsınız",
+    "İsteğe bağlı limitler (JSON): aylık / günlük bütçe, kullanıcı başına günlük istek ve maliyet"
+  ],
+  "ciktilar": ["Excel: Özet (toplam, kullanıcı başına maliyet, ay sonu tahmini, bütçe), Günlük, Modeller, Özellikler, Kullanıcılar, Limit Aşımları, Uyarılar (fiyatı tanımsız model, bütçe, sıçrama) · yönetim özeti için .ozet.json"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "tablo.py": "_ortak/tablo.py"
+  }
+}

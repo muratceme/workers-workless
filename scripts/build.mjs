@@ -12,7 +12,9 @@ import { makeZip } from "./zip.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(ROOT, "dist");
-const TYPES = ["code-blocks", "agents"];
+// "istekler": "Sizden Gelenler" sekmesindeki, gelen taleplere göre yazılmış paketler. Ana katalogdan
+// (sektör → departman → rol → görev) ayrıdır; catalog/istekler.mjs'deki isteklere bağlanır.
+const TYPES = ["code-blocks", "agents", "istekler"];
 const SKIP = /(^|[\\/])(__pycache__|\.pytest_cache|cikti|\.venv)([\\/]|$)|\.pyc$|(^|[\\/])\.env$/;
 
 const TR = { ç: "c", ğ: "g", ı: "i", İ: "i", ö: "o", ş: "s", ü: "u", Ç: "c", Ğ: "g", Ö: "o", Ş: "s", Ü: "u", â: "a", î: "i", û: "u", Â: "a", Î: "i", Û: "u" };
@@ -30,6 +32,13 @@ export async function build({ quiet = false } = {}) {
   const t0 = Date.now();
   // her seferinde taze içe aktar (geliştirme sunucusu yeniden derlerken)
   const cat = await import(pathToFileURL(path.join(ROOT, "catalog/catalog.mjs")).href + `?t=${t0}`);
+  const { ISTEKLER } = await import(pathToFileURL(path.join(ROOT, "catalog/istekler.mjs")).href + `?t=${t0}`);
+  const istekPaketleri = new Map();  // paket id -> istek id
+  for (const ist of ISTEKLER) for (const md of ist.maddeler) {
+    if (!md.paket) continue;
+    if (istekPaketleri.has(md.paket)) throw new Error(`istekler: "${md.paket}" paketi iki maddede kullanılmış.`);
+    istekPaketleri.set(md.paket, ist.id);
+  }
 
   // 1) görev kayıt defteri
   //    Bir görev bir kez [ad, açıklama, saat] olarak tanımlanır; başka rollerde yalnızca adıyla
@@ -91,7 +100,7 @@ export async function build({ quiet = false } = {}) {
     { name: "BASLAT.command", data: lf(fs.readFileSync(path.join(BAS, "BASLAT.command"))), mode: 0o755 },
     { name: "_baslat.py", data: lf(fs.readFileSync(path.join(BAS, "_baslat.py"))) },
   ];
-  const READY = { "code-blocks": {}, agents: {} };
+  const READY = { "code-blocks": {}, agents: {}, istekler: {} };
   // örnek çıktı önizlemeleri: scripts/onizleme.py üretir
   const onizYol = path.join(ROOT, "data", "onizlemeler.json");
   const ONIZ = fs.existsSync(onizYol) ? JSON.parse(fs.readFileSync(onizYol, "utf8")) : {};
@@ -104,7 +113,9 @@ export async function build({ quiet = false } = {}) {
       if (!fs.statSync(dir).isDirectory() || id.startsWith("_") || !fs.existsSync(manifestPath)) continue;
       const m = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
       if (m.id !== id) throw new Error(`${type}/${id}: task.json içindeki id "${m.id}" klasör adıyla aynı olmalı.`);
-      if (!ids.has(id)) throw new Error(`${type}/${id}: katalogda bu kimlikte bir görev yok.`);
+      if (type === "istekler") {
+        if (!istekPaketleri.has(id)) throw new Error(`istekler/${id}: catalog/istekler.mjs'de bu paketi kullanan bir madde yok.`);
+      } else if (!ids.has(id)) throw new Error(`${type}/${id}: katalogda bu kimlikte bir görev yok.`);
 
       const files = walk(dir);
       const zip = makeZip([
@@ -149,10 +160,12 @@ export async function build({ quiet = false } = {}) {
         };
       }
       // önizleme ayrı dosyada; panel açılınca yüklenir (her sayfada yüklenen katalog küçük kalsın)
-      const onizleme = type === "code-blocks" && ONIZ[id] && !ONIZ[id].hata;
-      if (onizleme) fs.writeFileSync(path.join(fileDir, "onizleme.json"), JSON.stringify(ONIZ[id]));
+      const onizAnahtar = type === "istekler" ? `istekler/${id}` : id;
+      const onizleme = m.tur === "kod" && ONIZ[onizAnahtar] && !ONIZ[onizAnahtar].hata;
+      if (onizleme) fs.writeFileSync(path.join(fileDir, "onizleme.json"), JSON.stringify(ONIZ[onizAnahtar]));
 
       READY[type][id] = {
+        ...(type === "istekler" ? { tur: m.tur, ad: m.ad, istek: istekPaketleri.get(id) } : {}),
         guncellik,
         onizleme,
         version: m.surum,
@@ -170,12 +183,18 @@ export async function build({ quiet = false } = {}) {
     }
   }
 
+  for (const [paket, ist] of istekPaketleri) {
+    const md = ISTEKLER.find((x) => x.id === ist).maddeler.find((x) => x.paket === paket);
+    if (md.durum === "hazir" && !READY.istekler[paket]) throw new Error(`istekler: "${paket}" hazır işaretli ama library/istekler/${paket} yok.`);
+  }
+
   // 4) katalog
-  const payload = { CONFIG: cat.CONFIG, DEPTS, SECTORS: cat.SECTORS, SOON: cat.SOON, READY, BUILT: new Date().toISOString() };
+  const payload = { CONFIG: cat.CONFIG, DEPTS, SECTORS: cat.SECTORS, SOON: cat.SOON, READY, ISTEKLER, BUILT: new Date().toISOString() };
   fs.writeFileSync(path.join(DIST, "assets", "catalog.js"), `window.WW = ${JSON.stringify(payload)};\n`);
 
   const n = Object.keys(READY["code-blocks"]).length + Object.keys(READY.agents).length;
-  if (!quiet) console.log(`✓ dist/ hazır · ${ids.size} görev, ${n} indirilebilir paket · ${Date.now() - t0} ms`);
+  const ni = Object.keys(READY.istekler).length;
+  if (!quiet) console.log(`✓ dist/ hazır · ${ids.size} görev, ${n} indirilebilir paket${ni ? ` + Sizden Gelenler: ${ISTEKLER.length} istek, ${ni} paket` : ""} · ${Date.now() - t0} ms`);
   return { tasks: ids.size, ready: n };
 }
 

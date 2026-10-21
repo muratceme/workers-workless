@@ -3,20 +3,36 @@
 Sitedeki "Örnek çıktı" önizlemesi bu dosyadan gelir. Örnek veri ya da kod değiştiğinde yeniden çalıştırın:
     .venv/Scripts/python.exe scripts/onizleme.py            # hepsi
     .venv/Scripts/python.exe scripts/onizleme.py abc-def    # yalnız seçilenler
+Sizden Gelenler kod blokları (library/istekler) "istekler/<id>" anahtarıyla yazılır.
 """
 import concurrent.futures as cf, datetime as dt, hashlib, json, os, shutil, subprocess, sys, tempfile
 from pathlib import Path
 
 KOK = Path(__file__).resolve().parent.parent
 LIB = KOK / "library" / "code-blocks"
+ISTEK = KOK / "library" / "istekler"
 CIKTI = KOK / "data" / "onizlemeler.json"
 SATIR, SUTUN, SAYFA = 7, 7, 3
+
+
+def klasor(id_: str) -> Path:
+    """"abc" → library/code-blocks/abc · "istekler/abc" → library/istekler/abc"""
+    return ISTEK / id_.split("/", 1)[1] if id_.startswith("istekler/") else LIB / id_
+
+
+def anahtarlar() -> list[str]:
+    """Önizlemesi olan paketler: tüm kod blokları ve Sizden Gelenler'deki kod blokları."""
+    ids = [p.name for p in sorted(LIB.iterdir()) if (p / "task.json").exists()]
+    if ISTEK.is_dir():
+        ids += [f"istekler/{p.name}" for p in sorted(ISTEK.iterdir())
+                if (p / "task.json").exists() and json.loads((p / "task.json").read_text(encoding="utf-8")).get("tur") == "kod"]
+    return ids
 
 
 def imza(id_: str) -> str:
     """Paketin önizlemeyi etkileyen içeriğinin özeti: ana dosya, requirements, ornek_veri ve ortak dosyalar.
     kontrol.py bunu data/onizlemeler.json'daki değerle karşılaştırır; farklıysa önizleme eskimiştir."""
-    k = LIB / id_
+    k = klasor(id_)
     m = json.loads((k / "task.json").read_text(encoding="utf-8"))
     posix = lambda p: p.relative_to(KOK).as_posix()  # sıralama her işletim sisteminde aynı olsun (Windows Path karşılaştırması büyük/küçük harfe duyarsız)
     yollar = [k / m["ana_dosya"], k / "requirements.txt"] + sorted((p for p in (k / "ornek_veri").rglob("*") if p.is_file()), key=posix)
@@ -76,7 +92,7 @@ def bir(id_):
 
 
 def _bir(id_):
-    kaynak = LIB / id_
+    kaynak = klasor(id_)
     m = json.loads((kaynak / "task.json").read_text(encoding="utf-8"))
     with tempfile.TemporaryDirectory() as td:
         d = Path(td) / id_
@@ -107,11 +123,11 @@ def main():
     if "--imza-guncelle" in sys.argv:  # yalnız imzaları yaz (içerik değişmediyse yeniden çalıştırmaya gerek yok)
         d = json.loads(CIKTI.read_text(encoding="utf-8"))
         for id_, v in d.items():
-            if "hata" not in v and (LIB / id_).exists():
+            if "hata" not in v and klasor(id_).exists():
                 v["imza"] = imza(id_)
         CIKTI.write_text(json.dumps(dict(sorted(d.items())), ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         print("imzalar güncellendi:", sum("imza" in v for v in d.values())); return
-    ids = [p.name for p in sorted(LIB.iterdir()) if (p / "task.json").exists() and (not secili or p.name in secili)]
+    ids = [a for a in anahtarlar() if not secili or a in secili or a.split("/")[-1] in secili]
     eski = json.loads(CIKTI.read_text(encoding="utf-8")) if CIKTI.exists() else {}
     with cf.ThreadPoolExecutor(max(2, (os.cpu_count() or 4) // 2)) as ex:
         for i, (id_, s) in enumerate(ex.map(bir, ids), 1):

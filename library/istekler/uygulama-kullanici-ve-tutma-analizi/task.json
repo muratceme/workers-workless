@@ -1,0 +1,17 @@
+{
+  "id": "uygulama-kullanici-ve-tutma-analizi",
+  "tur": "kod",
+  "ad": "Uygulama Kullanıcı ve Tutma Analizi",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi firebase_olay_ozeti.csv",
+  "girdiler": [
+    "Firebase (Google Analytics) BigQuery olay dökümü ya da özeti (.csv / .xlsx; README'deki sorgu): event_date (ya da event_timestamp), user_pseudo_id, event_name; isteğe bağlı olay_sayisi, platform, app_version, user_first_touch_timestamp"
+  ],
+  "ciktilar": ["Excel: Özet (DAU, WAU, MAU, yapışkanlık, yeni kullanıcı, D1 / D7 / D30 ortalama tutma), Günlük, Tutma (kohort × D1, D3, D7, D14, D30), Özellikler (son 30 gün kullanım, kullanan, 7 günlük değişim), Platform ve Sürüm, Uyarılar · yönetim özeti için .ozet.json"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "tablo.py": "_ortak/tablo.py"
+  }
+}

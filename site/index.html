@@ -40,6 +40,7 @@
       <nav class="nav-links" aria-label="Ana menü">
         <a href="#/code" data-nav="code">Kod Blokları</a>
         <a href="#/agents" data-nav="agents">AI Agents</a>
+        <a href="#/sizden" data-nav="sizden">Sizden Gelenler</a>
         <a href="#/how" data-nav="how">Nasıl çalışır</a>
         <a href="#/iletisim" data-nav="iletisim">Yardım al</a>
       </nav>
@@ -186,6 +187,7 @@
           <h2>Listede olmayan işinizi yazın.</h2>
           <p>Hangi görevlerin yazılacağını gelen talepler belirliyor. Mesleğinizi ve her hafta tekrar eden işinizi kısaca anlatın; en çok istenenler önce hazırlanır.</p>
           <p class="note">Gerçek müşteri, çalışan ya da hasta verisi yazmayın. Sütun başlıkları ve işin tarifi yeterli.</p>
+          <p class="talep-sizden"><a href="#/sizden">Gelen isteklerden neler yazdık? Sizden Gelenler →</a></p>
         </div>
         <form class="talep-form" id="talepForm" novalidate>
           <label>Sektör<input name="sektor" maxlength="80" placeholder="ör. Lojistik" /></label>
@@ -292,11 +294,22 @@
     <div class="fit help-strip" id="exHelp" hidden></div>
   </main>
 
+  <!-- ============================== SİZDEN GELENLER ============================== -->
+  <main id="sizden" class="view" hidden>
+    <div class="explorer-head">
+      <p class="eyebrow">Sizden Gelenler</p>
+      <h1 class="explorer-title">Bize gelen istekler, <span class="grad">yazdığımız paketler</span></h1>
+      <p class="explorer-sub">Ekiplerin ilettiği otomasyon isteklerini sitenin yapısına uyarlayıp ücretsiz, açık kaynak paketlere çeviriyoruz. İsteği gönderenin adı ve iletişim bilgisi paylaşılmaz. Bu paketler ana katalogdan ayrıdır.</p>
+      <div class="actions"><a class="btn btn-primary" href="#/istek">Siz de isteyin</a></div>
+    </div>
+    <div class="istekler" id="sizdenListe"></div>
+  </main>
+
   <!-- ============================== FOOTER ============================== -->
   <footer class="footer">
     <div class="footer-inner">
       <p>* Haftalık kazanım rakamları tahminidir; şirketinizin hacmine göre değişir.</p>
-      <p>Gerisi Bende · Açık kaynak (MIT) · <a href="https://github.com/muratceme/workers-workless/blob/main/SORUMLULUK_REDDI.md" target="_blank" rel="noopener">Sorumluluk reddi ve kullanım koşulları</a> · <a href="https://github.com/muratceme/workers-workless" target="_blank" rel="noopener">GitHub</a> · <a href="#/amac">Neden bu site</a> · <a href="#/sss">SSS</a> · <a href="#/gizlilik">Gizlilik ve KVKK</a> · <a href="#/istek">Görev talep et</a> · <a href="#/iletisim">Yardım al</a></p>
+      <p>Gerisi Bende · Açık kaynak (MIT) · <a href="https://github.com/muratceme/workers-workless/blob/main/SORUMLULUK_REDDI.md" target="_blank" rel="noopener">Sorumluluk reddi ve kullanım koşulları</a> · <a href="https://github.com/muratceme/workers-workless" target="_blank" rel="noopener">GitHub</a> · <a href="#/amac">Neden bu site</a> · <a href="#/sss">SSS</a> · <a href="#/gizlilik">Gizlilik ve KVKK</a> · <a href="#/istek">Görev talep et</a> · <a href="#/sizden">Sizden Gelenler</a> · <a href="#/iletisim">Yardım al</a></p>
       <p class="wink">Bu sitenin yapımında hiçbir çalışan işten çıkarılmadı.</p>
     </div>
   </footer>

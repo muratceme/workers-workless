@@ -1,0 +1,229 @@
+event_timestamp,event_id,issue_id,error_type,platform,display_version,device_model,os_version,installation_uuid,title
+2026-09-17 08:10:28 UTC,b24d0e39fecc1861f478e27360bb1f8e,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,SM-A546E,14,a94b980f-c876-c5fd-0c1b-e1be2122be0b,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-17 08:16:44 UTC,7841e23f0c6b75748809405b1576cec7,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,14,8bb92c87-1d8d-e34f-0569-618d83294f4d,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-17 09:12:13 UTC,e8cf6e5d87d7dafc65cfb7b87418ee1a,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Redmi Note 13,14,7d39ddfa-0205-b8b4-db80-8555aee7dbe8,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-17 09:29:20 UTC,6e8ff3d91698d48fffd19831a71716d8,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,14,7df6541a-d185-732e-12f4-0053c4152e6a,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-17 09:36:50 UTC,06bb05d27d07178c85d31c1d27e5e944,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-S918B,15,e5f3b120-19da-4e1d-a138-937f18b732db,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-17 10:30:36 UTC,6ccc72b54501639335fbd9f643006b74,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,13,8a81e4b4-5d8f-834e-67cc-0b40ba4b799b,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-17 10:42:19 UTC,4f4c71ecc1368ecfeab901837b0599a3,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,13,8ec263f5-728b-33b0-e9ce-3687924a8aca,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-17 11:17:16 UTC,2cd492e6fa792b53c5f49595b1d8bf7d,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,14,a87114fd-4828-8c9d-e1bb-b8c33dcca14b,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-17 12:40:45 UTC,a2fb8da9d4964fc6af68633c8239a6b7,f2b8d4a6c1e3,NON_FATAL,ANDROID,2.3.1,SM-A546E,15,07c9109e-2f0e-7f2d-a829-8a901dc4e04a,IllegalArgumentException · TarihBicimleyici.bicimle
+2026-09-17 15:59:44 UTC,472205f67bad103d5c2ce8f0c3a3b0df,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,13,7d39ddfa-0205-b8b4-db80-8555aee7dbe8,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-17 16:49:36 UTC,8fc890c8b75129974b2311606238ad84,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,15,75e32ea8-2bae-800e-5c7f-024d43cd2ad7,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-17 17:30:25 UTC,922dfd944200683bd1e4166ca4630f71,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,14,3b3e4de1-b1ea-f860-499e-0f19ecd46b48,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-17 19:28:40 UTC,241d7610ced098152b3daa4a1e696984,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,13,65e25f7c-5a1c-88ac-5334-9796a6763c77,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-17 19:45:12 UTC,042fae93b569fb9673090ebd79919904,c7d2e8f1a3b9,ANR,ANDROID,2.3.1,SM-A546E,13,055db45b-5e04-b32a-36ee-203d76dc7fd8,Input dispatching timed out · FalYorumuActivity
+2026-09-18 07:30:21 UTC,936ed8bc63583736dda12d9de44060d4,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,14,fdd1c241-9196-1dbb-d65c-8391c71059d1,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-18 08:01:34 UTC,0868a3c9b80cb0f1c4824e23ea4c7c48,c7d2e8f1a3b9,ANR,ANDROID,2.3.1,SM-A546E,14,5c498c2b-fd04-b95a-235a-105b85843359,Input dispatching timed out · FalYorumuActivity
+2026-09-18 09:15:02 UTC,c33264da677d5b2a56211ae764a3ee93,c7d2e8f1a3b9,ANR,ANDROID,2.3.1,SM-A546E,15,4cc42492-e496-0143-1bf0-bcc4d7bf7730,Input dispatching timed out · FalYorumuActivity
+2026-09-18 10:03:49 UTC,fe2999dedf6bbe099f8bd9e4223d3931,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,13,04ac7255-bed5-c2e0-f32d-0639f23b9cc9,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-18 10:37:34 UTC,287c51902b360644e2ce8fbef3dd5540,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,14,5458b225-320b-3c41-3abb-51b2628bfbe4,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-18 10:46:54 UTC,cc1913a723b76ff4b7cf35b77dd0b17d,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,SM-A546E,15,4cc8ea6b-f544-1c42-293f-14b7cc180138,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-18 13:02:36 UTC,413cab4a8b9216b6e9743f61dc922900,a8f2c4e6b1d9,FATAL,IOS,2.3.1,"iPhone14,7",18.1,29ae3d67-87df-233a-db97-08bd85d3ace0,EXC_BAD_ACCESS · BildirimYoneticisi.kaydol
+2026-09-18 13:52:37 UTC,0cf2151399efaac9c9367f687008c7a6,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,15,a94b980f-c876-c5fd-0c1b-e1be2122be0b,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-18 14:55:04 UTC,3b98d07a2e8ae40aaf2978193d375cbc,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,13,9b6cc5ff-86af-29e2-b4a4-adc04ecc76f7,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-18 19:10:32 UTC,bb7e5e9e216cf67dd4e2e1ed18da5f1d,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,Redmi Note 13,15,5e5a0cf0-c740-7f58-3be5-0d12ade888dd,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-18 20:02:12 UTC,783613e00cbd43c3ded0e18a90b31bde,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-S918B,13,a8250fc1-b594-0f37-3510-ece8c4409998,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-18 20:33:59 UTC,1be77c24f7afa7342310696e29e8ceb1,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,15,4993cff2-da0e-9c71-12f3-289b22245862,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-18 22:17:11 UTC,6a6d0eb0c65a3372b9180d950666a5c8,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,15,3217823d-646e-db92-95a8-996c7472f918,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-18 22:58:26 UTC,29e6d18e680c5f674ef7d09a48ceadbc,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,13,7c6da424-1699-edeb-6418-fd076733f7fa,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-18 23:25:32 UTC,927e7eeca953116bfdd769f52a3242dd,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,15,1f86a60a-998e-6d66-ebc0-aaaadb51df6e,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-19 09:45:16 UTC,f438dcad165f3cd18a90ce8702a343ed,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,13,6d3d57c5-a5cc-b55f-35f5-538b51f6207d,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-19 09:45:52 UTC,10c597dfa0c775931c17d8ae5634044f,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-S918B,13,a428c3c0-cc99-5f93-c830-1c1a4ec7efe7,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-19 10:02:27 UTC,6710db417e3c59f5e6a9cf8badd973eb,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,13,0601bacb-4c51-3009-255b-0c9844848fc6,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-19 15:57:29 UTC,001ea47783df7ffa7ee0a4b3eeb928b3,c7d2e8f1a3b9,ANR,ANDROID,2.3.1,SM-S918B,13,1d87235a-983a-0a7a-e36a-9cac315d85ce,Input dispatching timed out · FalYorumuActivity
+2026-09-19 17:18:35 UTC,b016efa9a09ddd8a657935b5cfb8f9b4,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Redmi Note 13,13,7e342f2b-df46-e258-effe-1740b50c3ffc,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-19 17:19:39 UTC,a49762a70b7cf9250ed3f53aa129cd3e,d4c8a2e6f9b1,FATAL,ANDROID,2.3.0,Redmi Note 13,14,461c6c16-3779-9397-6160-d9e06dea8998,OutOfMemoryError · GorselOnbellek.yukle
+2026-09-19 17:40:15 UTC,fc9a34a4af779be86ae2446ecea7c250,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,13,a626a2fc-6fb3-eac0-60df-65b3a91e05f8,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-19 17:57:27 UTC,eddb5dfe98b38338c3d8119d9d2409e6,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,14,71f441b9-d91b-e2c5-4925-7c1dc3a8073d,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-19 18:13:54 UTC,8447696187dbe6052c79ea0570ba0bb2,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,Pixel 8,15,011a9184-fe88-3282-1175-1dc50723d6e8,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-19 20:45:52 UTC,ef3907a8d9dda341ad0acfae96d7ba48,f2b8d4a6c1e3,NON_FATAL,ANDROID,2.3.1,SM-S918B,14,c2899b5f-340e-bb44-b573-dc32214d9840,IllegalArgumentException · TarihBicimleyici.bicimle
+2026-09-19 22:12:25 UTC,01c76a1824c85db591445b2c101da761,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,15,3b3e4de1-b1ea-f860-499e-0f19ecd46b48,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-20 07:52:19 UTC,d1096af182d75478790a24ab5245f485,a1f3c9e2b7d4,FATAL,ANDROID,2.3.0,SM-S918B,13,148cbac4-abe7-7949-6e58-3c1378f6c5f9,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-20 09:33:12 UTC,700ef9f8d5cd0271909b8209f72aa515,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,14,1f86a60a-998e-6d66-ebc0-aaaadb51df6e,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-20 10:03:05 UTC,fcf22ea5320a58d69ece8731c07461e8,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,14,63034e6a-c26e-a15a-1edb-025373004bb1,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-20 10:48:37 UTC,b995d804f4f6332e6aca299d619ccda0,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-S918B,15,a3bf38e2-4460-0b35-7bb0-1c23080b6a9a,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-20 13:02:41 UTC,3d9de66d87e65aec89968d3dfbc1f424,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,SM-S918B,13,45281a1c-3da2-3ec9-0a82-b926c3220307,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-20 15:20:34 UTC,77bdac0ca894054247f24f3f6606668a,c7d2e8f1a3b9,ANR,ANDROID,2.3.1,Redmi Note 13,13,0901bdf4-112d-0798-9ed1-98afb4b7749b,Input dispatching timed out · FalYorumuActivity
+2026-09-20 15:43:18 UTC,004663d922c88393d1b00664e4482977,c7d2e8f1a3b9,ANR,ANDROID,2.3.1,Pixel 8,13,055db45b-5e04-b32a-36ee-203d76dc7fd8,Input dispatching timed out · FalYorumuActivity
+2026-09-20 16:41:00 UTC,3a0e34257f31c018b88f4cb06ff856e1,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,14,18bf9dc8-007c-be5d-7529-c95746783f95,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-20 18:50:45 UTC,036a6cb8b27a6181c008977a63c96730,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,15,9847cdb3-f54f-084c-7d70-f60e16cbcdca,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-20 19:13:04 UTC,6556d48e502961c9ef90ff4f79dfaf64,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,SM-S918B,13,5b97edbc-09f1-794c-e3cd-e990a664d397,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-20 20:45:59 UTC,765ade99e427a6c6add70fcb8e769ee1,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,13,3217823d-646e-db92-95a8-996c7472f918,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-20 21:08:30 UTC,405e85521ad063d2ff86472a721e821c,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,13,90638fc8-c47a-b054-4bd4-4f89d4a4ea6b,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-20 21:12:02 UTC,8acb9ada8319b74470a9d752d348aae9,a1f3c9e2b7d4,FATAL,ANDROID,2.3.0,SM-S918B,14,6e45c3ec-0062-0101-98cb-70568073ae6d,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-20 22:42:20 UTC,f22d4d4b1935dc733e1e088f65492ebc,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,SM-S918B,14,bb7f26a9-5ede-5e36-ca19-bc67481fcfb2,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-20 22:57:27 UTC,53e4dd0199cc54ff381c7eb0d98a0c5e,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,13,7d39ddfa-0205-b8b4-db80-8555aee7dbe8,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-21 08:35:47 UTC,275d4456b0e1c5c389deaaa9fabf76e2,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-S918B,15,e990bb89-c786-9911-cdf0-95f36160c358,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-21 11:19:31 UTC,ad954f8408139a1e1980772006407409,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,14,77938965-0499-17af-d4b2-95d313bf1154,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-21 11:30:50 UTC,e04e5ea5779017048f89261a676e8aab,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,14,6945c5a8-9762-eb40-0319-830d05481222,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-21 12:05:12 UTC,e92eb66189313af755f9076cf73f70dc,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,13,d038677e-6a24-ce33-b418-25e5683f961c,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-21 13:05:25 UTC,f3a6d6d5d9566b96e4d9971084bc5139,a8f2c4e6b1d9,FATAL,IOS,2.3.1,"iPhone15,2",18.1,29ae3d67-87df-233a-db97-08bd85d3ace0,EXC_BAD_ACCESS · BildirimYoneticisi.kaydol
+2026-09-21 13:08:53 UTC,50d7e3baed974a485063bf2de4f3cf2b,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,SM-A546E,15,8568afed-f93b-0812-2439-7bdbda06dd6b,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-21 17:26:21 UTC,b9acc1aabd2159ed5c2f690d8a059179,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,13,7cbf8f47-9ef6-77d5-a734-70abb713c8a2,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-21 18:18:17 UTC,8205a8f5a866d4e0ba9f819b6f40454c,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,14,a94b980f-c876-c5fd-0c1b-e1be2122be0b,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-21 18:32:56 UTC,7e6c612889eaa00e8c5c9b1a653d1966,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,15,71f441b9-d91b-e2c5-4925-7c1dc3a8073d,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-21 19:14:53 UTC,2fbbe170ab65ce71db706c2af45112df,a1f3c9e2b7d4,FATAL,ANDROID,2.3.0,SM-A546E,15,7d39ddfa-0205-b8b4-db80-8555aee7dbe8,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-21 20:53:23 UTC,69b7ecaa9377c173f7aa9f3687e6b3cd,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,15,240c90ac-03ad-326f-0abb-644bc38bb049,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-21 22:54:10 UTC,24dd40ffab5cf2aa47557315f0698173,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,14,45281a1c-3da2-3ec9-0a82-b926c3220307,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-22 08:25:06 UTC,033e3e0263839def5eca7d7661b94b49,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,15,d038677e-6a24-ce33-b418-25e5683f961c,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-22 09:30:20 UTC,2afb87834e10cd4156156bf41d6ae7f1,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,15,38259887-1efc-448d-e1f2-9b8a4a692c03,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-22 10:14:56 UTC,2cba088324303d25419231a415ff66d6,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,15,5b97edbc-09f1-794c-e3cd-e990a664d397,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-22 10:43:14 UTC,3c4af706047079d0a4763ad464ab02c9,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,13,6d888172-0a44-596f-668d-3aa2e5420df0,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-22 12:03:46 UTC,6fe79a34c5629007b99dc5a8f514d734,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,15,c1db3854-0c1d-b72b-699d-3a8b27b39f09,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-22 12:17:49 UTC,0dff5c94f603361bd7e3bb64a48a0c7f,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,14,a94b980f-c876-c5fd-0c1b-e1be2122be0b,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-22 13:25:09 UTC,f5d35ca89e2ae06b5877844375ed0ea6,a8f2c4e6b1d9,FATAL,IOS,2.3.0,"iPhone15,2",18.1,d6e85c6b-aa2f-e5b8-18cf-29bc8dcf42b0,EXC_BAD_ACCESS · BildirimYoneticisi.kaydol
+2026-09-22 13:25:48 UTC,e949f0f087e3e2d400494a6b4791f694,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,13,c629629d-d1ed-509f-5fe8-e1fd3094603e,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-22 16:01:58 UTC,c036126f2fb615e9eb4fb696c30a10ed,c7d2e8f1a3b9,ANR,ANDROID,2.3.1,Redmi Note 13,15,5c498c2b-fd04-b95a-235a-105b85843359,Input dispatching timed out · FalYorumuActivity
+2026-09-22 18:34:58 UTC,d962c3dae5be8523ceb0da50b1a2e642,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,14,223377a2-903a-0bfd-15b6-cd38d8a06099,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-22 23:27:38 UTC,036e33b75fcf38c61d7dc6c9fd315735,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Redmi Note 13,13,1250a14f-97f3-ff22-ba18-fad8dfb648ee,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-22 23:46:30 UTC,b56264d29f6e037bb4bacffb38fbc45c,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,14,29015c38-5781-abf5-831f-2ca9aa16148c,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-23 07:18:42 UTC,5c2330148f41b4143a2dbc41cde4184c,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,SM-S918B,15,8bb92c87-1d8d-e34f-0569-618d83294f4d,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-23 09:29:19 UTC,0fd29d66c9c7e845b4a107dc94efd21d,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,15,ccf2b863-b578-476a-fcc3-06899b9ad421,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-23 10:00:05 UTC,5c31f977134379985f2fb28088d7d2f4,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,13,3217823d-646e-db92-95a8-996c7472f918,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-23 10:13:15 UTC,8060a8b48a5cd8767f6c7325cafa3471,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-S918B,14,d36a42e7-b2f1-ef81-f55c-909569e1250b,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-23 12:05:37 UTC,01353bdcb38c99bb765cdbaa7205dab5,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,13,632e90f5-c52e-87ed-e434-e6ba85d89985,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-23 13:25:49 UTC,75c6a0c3794477e18d73c0cfe8557b9f,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,15,43a19e05-8dae-e7d5-2e8d-a98aca007724,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-23 18:05:33 UTC,182f751d641966a5833700c9de03b865,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,13,5b97edbc-09f1-794c-e3cd-e990a664d397,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-23 18:39:44 UTC,bf562f14823ee7dfb7240cf2abcd65bb,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,13,8bfe41bc-0151-9974-f0b3-88cb8233aa71,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-23 19:09:33 UTC,6e00cc2f6b0b843b1698218b323fd393,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,14,1f86a60a-998e-6d66-ebc0-aaaadb51df6e,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-23 19:53:14 UTC,21c7bb52e4ccdffb0fd84cb420e319cc,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,14,f6f5080f-5f41-0409-999a-ce84c963dc51,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-23 22:20:11 UTC,c1412edb7c82e83d2c2fd43be92d01f9,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,15,8ec263f5-728b-33b0-e9ce-3687924a8aca,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-24 07:27:49 UTC,9f7820adc1ceed216c5478559d3d975b,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,14,86158a2f-8e50-cba2-8e2e-45d035987322,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-24 09:11:49 UTC,7404338611dc511799ee0f4ddb1176db,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,14,5290588e-2ccc-3f59-6792-3186c3ed630e,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-24 09:14:36 UTC,432224d34c7956e9c424eda46ec2edd6,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,15,5b97edbc-09f1-794c-e3cd-e990a664d397,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-24 13:09:42 UTC,3419aad2e41c88d29f037db4e06030b0,a1f3c9e2b7d4,FATAL,ANDROID,2.3.0,Redmi Note 13,13,d36a42e7-b2f1-ef81-f55c-909569e1250b,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-24 13:20:14 UTC,67e287aebc877d79b03d80917fa10165,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,13,75e32ea8-2bae-800e-5c7f-024d43cd2ad7,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-24 14:28:20 UTC,819da7fc3670ac37e2aae81297932777,c7d2e8f1a3b9,ANR,ANDROID,2.3.1,Redmi Note 13,15,055db45b-5e04-b32a-36ee-203d76dc7fd8,Input dispatching timed out · FalYorumuActivity
+2026-09-24 16:33:44 UTC,fe663ae8481ccab2fe8fda5d4e169d23,c7d2e8f1a3b9,ANR,ANDROID,2.3.1,Redmi Note 13,13,055db45b-5e04-b32a-36ee-203d76dc7fd8,Input dispatching timed out · FalYorumuActivity
+2026-09-24 16:57:05 UTC,bd0c3b9d390c5843ed4dd48f8d7266b5,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,15,4cc8ea6b-f544-1c42-293f-14b7cc180138,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-24 19:14:43 UTC,e27f6bea37f9de9dff0d825584489ceb,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Redmi Note 13,13,223377a2-903a-0bfd-15b6-cd38d8a06099,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-24 21:15:47 UTC,f8d675bdb3ced56ba06533531953a0bc,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,13,011a9184-fe88-3282-1175-1dc50723d6e8,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-24 22:07:06 UTC,f5b674fbeb260d8f6631560bd393f0dd,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Redmi Note 13,13,e5f3b120-19da-4e1d-a138-937f18b732db,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-24 23:00:27 UTC,aa86691b438dd258564183e3952c077d,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,15,68e96f7a-370b-1730-3840-83d5a436f05a,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-24 23:31:59 UTC,e384b0133bd9f313d08151640d166969,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,15,ccf2b863-b578-476a-fcc3-06899b9ad421,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-24 23:44:09 UTC,25a7532ae1bc2147065a0804c1637967,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,13,a87114fd-4828-8c9d-e1bb-b8c33dcca14b,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-25 07:22:24 UTC,99c3666878a3344fcf2c113497d10f68,a1f3c9e2b7d4,FATAL,ANDROID,2.3.0,Redmi Note 13,14,5fb8a90f-03d3-5e7b-4d51-bc92e7bcf450,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-25 07:31:10 UTC,93794deac4410a5a69a7bdb0af61e471,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,14,223377a2-903a-0bfd-15b6-cd38d8a06099,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-25 08:17:07 UTC,cd8c4e6601404e8dd70a0fa2e0f14907,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Redmi Note 13,13,148cbac4-abe7-7949-6e58-3c1378f6c5f9,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-25 10:47:14 UTC,deee07d3845946bcad7c4b18a9614917,a8f2c4e6b1d9,FATAL,IOS,2.3.0,"iPhone14,7",17.6,29ae3d67-87df-233a-db97-08bd85d3ace0,EXC_BAD_ACCESS · BildirimYoneticisi.kaydol
+2026-09-25 10:53:49 UTC,9a32b1e0bd033a08ce582a45130ec214,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,13,63034e6a-c26e-a15a-1edb-025373004bb1,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-25 11:35:44 UTC,20b0cc4ec27a6f26f7b37ca9b5399e8e,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,15,8117cada-24b3-8887-ec15-77ad255cc1f9,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-25 15:33:32 UTC,5ea9298f13a5c14db12d7fe234d01c4b,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,15,6d3d57c5-a5cc-b55f-35f5-538b51f6207d,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-25 15:57:53 UTC,8a7e984238d14287d22e5ba8b02ee6ff,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,13,58286d0e-4aca-3c02-abab-e3d64c35bdaf,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-25 17:02:18 UTC,55164a70719e893bd4bd50952236a0b4,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,15,1f86a60a-998e-6d66-ebc0-aaaadb51df6e,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-25 17:57:00 UTC,250544b603097067c62befcbe03adb22,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,15,9847cdb3-f54f-084c-7d70-f60e16cbcdca,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-25 18:33:51 UTC,e8620465032207f35005b07362538e2b,f2b8d4a6c1e3,NON_FATAL,ANDROID,2.3.1,Pixel 8,15,d51b33b1-06cd-d379-a472-f30cb7617c2b,IllegalArgumentException · TarihBicimleyici.bicimle
+2026-09-25 19:36:43 UTC,defe4d24ca1fa8e3eee609c115c54f60,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,15,5458b225-320b-3c41-3abb-51b2628bfbe4,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-25 20:57:38 UTC,ad1ad35955acfbb017ac0ffb21ece38e,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,14,a626a2fc-6fb3-eac0-60df-65b3a91e05f8,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-25 23:56:27 UTC,9ba0633f7505cac1d81d78ea5d6bf0fe,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,14,c0ab6a3e-adf3-6728-4a7c-5dc9b713af37,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-26 07:33:36 UTC,a6ef5b080f757332841f2ea0fd363466,c7d2e8f1a3b9,ANR,ANDROID,2.3.1,SM-A546E,14,4cc42492-e496-0143-1bf0-bcc4d7bf7730,Input dispatching timed out · FalYorumuActivity
+2026-09-26 08:46:53 UTC,761d3f1fc519e63f8728863cf143f6e3,d4c8a2e6f9b1,FATAL,ANDROID,2.3.0,Pixel 8,14,3f777ae0-1130-8ec4-1fa4-77d0f1f25f45,OutOfMemoryError · GorselOnbellek.yukle
+2026-09-26 09:55:34 UTC,f4c611626ed27f768a4f4a06c7c36463,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,15,9847cdb3-f54f-084c-7d70-f60e16cbcdca,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-26 10:50:01 UTC,b0af502a5c092cc64092d086babb9041,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,15,bb7f26a9-5ede-5e36-ca19-bc67481fcfb2,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-26 15:58:22 UTC,45435e94242d8ddc2e885be1e7fa6d5f,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,15,9b6cc5ff-86af-29e2-b4a4-adc04ecc76f7,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-26 16:10:36 UTC,06f4c5c3707a3c93558f371c2fc57ff4,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,SM-A546E,14,8568afed-f93b-0812-2439-7bdbda06dd6b,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-26 16:14:10 UTC,31da69b27360ac745db4e9c2af3ca2fc,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,13,1250a14f-97f3-ff22-ba18-fad8dfb648ee,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-26 16:19:27 UTC,2c2a8e1833ac08fa867a6a79fb01aaff,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,15,65e25f7c-5a1c-88ac-5334-9796a6763c77,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-26 17:13:19 UTC,d5c4e636314e04791d1e1835daf11d5e,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,14,6d888172-0a44-596f-668d-3aa2e5420df0,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-26 17:50:01 UTC,887435ac203c81014cfffe3effd1a4f0,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,14,5b97edbc-09f1-794c-e3cd-e990a664d397,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-26 20:31:06 UTC,7838468e69ea822da740d11103368bcc,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,SM-A546E,13,e47becb6-57fd-2082-8f5d-d097f41d3060,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-27 08:10:48 UTC,2dea2241b01cf8037d569ece96c9e848,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-S918B,13,5290588e-2ccc-3f59-6792-3186c3ed630e,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-27 10:22:11 UTC,f7ccf28a29a844684a52798f2900ccb3,a1f3c9e2b7d4,FATAL,ANDROID,2.4.0,Redmi Note 13,15,1250a14f-97f3-ff22-ba18-fad8dfb648ee,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-27 10:56:33 UTC,117992527ece1ff6cdd43b140d6311fc,a1f3c9e2b7d4,FATAL,ANDROID,2.4.0,SM-S918B,15,18bf9dc8-007c-be5d-7529-c95746783f95,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-27 11:12:34 UTC,0244053b3632db75fc31ac8755e0864f,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-S918B,14,7e342f2b-df46-e258-effe-1740b50c3ffc,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-27 11:15:36 UTC,fc3b30a1be6bb924e8a155e90770d48d,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Pixel 8,14,1f86a60a-998e-6d66-ebc0-aaaadb51df6e,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-27 12:11:57 UTC,bc202a877d17ca6e6a57dbc149ba370a,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,14,c0ab6a3e-adf3-6728-4a7c-5dc9b713af37,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-27 12:55:29 UTC,4fb433eeaa06864433865128daeb1788,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-A546E,15,e47becb6-57fd-2082-8f5d-d097f41d3060,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-27 13:12:56 UTC,3eed3f16206204de14cd341123994d11,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Redmi Note 13,13,c629629d-d1ed-509f-5fe8-e1fd3094603e,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-27 14:05:09 UTC,cabeacdcd10d1528122102f5d0d7a84c,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,14,3217823d-646e-db92-95a8-996c7472f918,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-27 15:23:10 UTC,e33d2077e4acdfe62c7fd0338dbf2db9,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,14,6fc55ecf-5514-fce4-099f-8afedb52c230,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-27 16:22:25 UTC,ccf6804d4b3ea1a99f60ce0d95679004,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,Redmi Note 13,15,5290588e-2ccc-3f59-6792-3186c3ed630e,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-27 17:15:45 UTC,10fd6ced6a0c69cdbf7deab08d2454cd,f2b8d4a6c1e3,NON_FATAL,ANDROID,2.3.1,SM-S918B,15,c2899b5f-340e-bb44-b573-dc32214d9840,IllegalArgumentException · TarihBicimleyici.bicimle
+2026-09-27 17:35:16 UTC,d88cd48affffcbadbf58ffb185b9c1e8,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,15,3217823d-646e-db92-95a8-996c7472f918,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-27 18:57:02 UTC,1d509164d36c32602e16a161e2c44d7e,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,14,04ac7255-bed5-c2e0-f32d-0639f23b9cc9,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-27 19:03:40 UTC,a15dbde20153783fbae916b142ac8d21,a1f3c9e2b7d4,FATAL,ANDROID,2.4.0,SM-S918B,14,70c293d7-001c-e910-7c29-9f43b708038f,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-27 19:37:24 UTC,92a1c7305b13ab7db142e3cd882f02c6,a1f3c9e2b7d4,FATAL,ANDROID,2.4.0,Pixel 8,15,0601bacb-4c51-3009-255b-0c9844848fc6,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-27 20:17:10 UTC,d25e55ed792c5aad00be615f86609205,b5e1f7a9d3c6,FATAL,ANDROID,2.4.0,Redmi Note 13,15,b176c879-d1d9-5cf3-609b-335622dc06cb,IllegalStateException · OdemeAkisi.satinAlmaTamamla
+2026-09-27 21:15:07 UTC,9fc9fdf012fa356a6b7cd5b81f0e5b56,b5e1f7a9d3c6,FATAL,ANDROID,2.4.0,Redmi Note 13,13,4978a544-e046-c61f-44f0-fcd28bdaaa82,IllegalStateException · OdemeAkisi.satinAlmaTamamla
+2026-09-28 10:47:18 UTC,97daef5fcadfa5e9517fecb0617ae480,a1f3c9e2b7d4,FATAL,ANDROID,2.4.0,SM-S918B,14,6fc55ecf-5514-fce4-099f-8afedb52c230,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-28 11:22:32 UTC,5f4e39cbca6fa322976e6611dda7c788,a1f3c9e2b7d4,FATAL,ANDROID,2.3.0,SM-A546E,15,7df6541a-d185-732e-12f4-0053c4152e6a,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-28 11:40:32 UTC,3e30eb1b73d89cda428e6881248e7c66,a8f2c4e6b1d9,FATAL,IOS,2.4.0,"iPhone15,2",18.1,d6e85c6b-aa2f-e5b8-18cf-29bc8dcf42b0,EXC_BAD_ACCESS · BildirimYoneticisi.kaydol
+2026-09-28 12:07:30 UTC,2764aa6470bea31bcd469c92872e0b0b,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,15,bb7f26a9-5ede-5e36-ca19-bc67481fcfb2,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-28 12:26:54 UTC,720771e263d3f4d2276d50e557e95b4a,b5e1f7a9d3c6,FATAL,ANDROID,2.4.0,Redmi Note 13,13,836b1dfe-1a38-2d92-8a07-9e2ea5aa6d86,IllegalStateException · OdemeAkisi.satinAlmaTamamla
+2026-09-28 13:34:00 UTC,ea95cb7f7b387be3b607389036416180,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Pixel 8,13,dfd7ca64-ff00-4b05-3c20-15825bc8ece7,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-28 13:42:41 UTC,02c61022448f5c8b7d0ed291b1be9efd,a1f3c9e2b7d4,FATAL,ANDROID,2.3.0,Pixel 8,13,554d9f24-93f3-6da9-fb95-15c3b98e9849,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-28 15:13:35 UTC,47935aa4e5d518511999eef465bb869e,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-S918B,15,65e25f7c-5a1c-88ac-5334-9796a6763c77,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-28 15:25:58 UTC,8a5cf87277b971044869498cfb7c3789,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-S918B,15,45281a1c-3da2-3ec9-0a82-b926c3220307,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-28 15:59:01 UTC,6bd5e5e121a6b1b59eec5d0f62bf0e1f,a1f3c9e2b7d4,FATAL,ANDROID,2.3.0,SM-A546E,14,70c293d7-001c-e910-7c29-9f43b708038f,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-28 17:02:13 UTC,6b8db552e0ffe2adc0305ac1f0343c82,b5e1f7a9d3c6,FATAL,ANDROID,2.4.0,Redmi Note 13,14,a7b3503e-d0b1-a52d-526f-761f99244c8d,IllegalStateException · OdemeAkisi.satinAlmaTamamla
+2026-09-28 20:28:16 UTC,f6fc63ec149f31fe379ff93afd45dd70,a1f3c9e2b7d4,FATAL,ANDROID,2.4.0,SM-S918B,13,632e90f5-c52e-87ed-e434-e6ba85d89985,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-28 22:20:58 UTC,869a417fb1cbd937d0fbcca4eef677b9,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Pixel 8,15,38259887-1efc-448d-e1f2-9b8a4a692c03,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-28 22:54:55 UTC,d87856b0790fc6e8cc89b19dcf4e2904,b5e1f7a9d3c6,FATAL,ANDROID,2.4.0,SM-A546E,15,9451f644-6d53-122d-d23a-b1204db1a046,IllegalStateException · OdemeAkisi.satinAlmaTamamla
+2026-09-29 08:38:13 UTC,a433be995893edbcbd7677615d7fcb84,b5e1f7a9d3c6,FATAL,ANDROID,2.4.0,Redmi Note 13,13,a7b3503e-d0b1-a52d-526f-761f99244c8d,IllegalStateException · OdemeAkisi.satinAlmaTamamla
+2026-09-29 08:38:31 UTC,0f35c665bd27149611a0f8a86f4b39a2,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-A546E,14,77938965-0499-17af-d4b2-95d313bf1154,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-29 08:53:20 UTC,ab34f4a88522fd69041a227969aa480d,b5e1f7a9d3c6,FATAL,ANDROID,2.4.0,Redmi Note 13,15,a7b3503e-d0b1-a52d-526f-761f99244c8d,IllegalStateException · OdemeAkisi.satinAlmaTamamla
+2026-09-29 10:05:18 UTC,00de289a19069d82bc65c167b7403b64,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-S918B,15,6bbc5db2-2a4a-c617-becd-72c8f85fb427,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-29 10:53:54 UTC,12a85ed9711530e62735bc9567886f60,c7d2e8f1a3b9,ANR,ANDROID,2.3.1,SM-S918B,14,5c498c2b-fd04-b95a-235a-105b85843359,Input dispatching timed out · FalYorumuActivity
+2026-09-29 11:33:49 UTC,cadf5ffc1927af6a3d3a4518af587e6d,a1f3c9e2b7d4,FATAL,ANDROID,2.4.0,SM-S918B,14,68e96f7a-370b-1730-3840-83d5a436f05a,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-29 11:38:10 UTC,848f0e282d5e51c3f3245d4e659666bf,c7d2e8f1a3b9,ANR,ANDROID,2.3.1,SM-A546E,15,0901bdf4-112d-0798-9ed1-98afb4b7749b,Input dispatching timed out · FalYorumuActivity
+2026-09-29 12:07:24 UTC,0cfb738ef84203c2e2e0c70d215968c0,a1f3c9e2b7d4,FATAL,ANDROID,2.3.0,Redmi Note 13,14,d038677e-6a24-ce33-b418-25e5683f961c,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-29 12:09:12 UTC,91410172b439ae713997d27616075e89,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Redmi Note 13,15,a428c3c0-cc99-5f93-c830-1c1a4ec7efe7,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-29 13:53:12 UTC,1d3d38ca3453c55c174723857cfddc90,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,14,58286d0e-4aca-3c02-abab-e3d64c35bdaf,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-29 14:13:03 UTC,4271935acf9b237c9287012c0999b482,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-A546E,14,63034e6a-c26e-a15a-1edb-025373004bb1,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-29 15:32:50 UTC,faaadee6d3276cb9ce058d1eba71cf6a,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Redmi Note 13,15,6d888172-0a44-596f-668d-3aa2e5420df0,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-29 15:45:31 UTC,cdc8313dbfc0e433ed3fb7d8f28e0575,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-S918B,14,43a19e05-8dae-e7d5-2e8d-a98aca007724,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-29 18:11:10 UTC,27fdbd53f1c4c792257591b95ba7bbee,b5e1f7a9d3c6,FATAL,ANDROID,2.4.0,Redmi Note 13,13,b176c879-d1d9-5cf3-609b-335622dc06cb,IllegalStateException · OdemeAkisi.satinAlmaTamamla
+2026-09-29 19:26:27 UTC,5f82798f22e06367e500e82b6b5eef8d,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,14,5b97edbc-09f1-794c-e3cd-e990a664d397,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-29 19:28:46 UTC,70aa66c78792f99cb615b34852a8599e,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-S918B,15,45281a1c-3da2-3ec9-0a82-b926c3220307,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-29 19:58:09 UTC,ad5e9f5d697bd81b984ca1d1dc22d319,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,14,6d3d57c5-a5cc-b55f-35f5-538b51f6207d,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-29 20:12:33 UTC,6fbe4bebc7c5f6fb6f6e979933531a20,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,14,65e25f7c-5a1c-88ac-5334-9796a6763c77,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-29 20:48:47 UTC,7d74345679d45730e0f511625122daf0,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,14,8302a6e2-1368-234e-6ffd-d61c94a9127c,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 07:18:33 UTC,71c35025874d391038ab01e18f84ef79,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,15,9847cdb3-f54f-084c-7d70-f60e16cbcdca,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 08:00:41 UTC,156f2e712a25c066f0a3617fde1ad927,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-S918B,15,7c6da424-1699-edeb-6418-fd076733f7fa,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 08:01:04 UTC,54436512ed418e4e70627307005b693e,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-S918B,13,5290588e-2ccc-3f59-6792-3186c3ed630e,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 08:13:20 UTC,22bbe08742c8f4ab8b6b35bb3d5b04f3,c7d2e8f1a3b9,ANR,ANDROID,2.3.1,Redmi Note 13,15,1d87235a-983a-0a7a-e36a-9cac315d85ce,Input dispatching timed out · FalYorumuActivity
+2026-09-30 08:14:12 UTC,5886fc871083702e4d2ad412a6a6d7c7,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,13,6945c5a8-9762-eb40-0319-830d05481222,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 08:21:36 UTC,152e1cb03af5a7da0f5174801f7a3988,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Redmi Note 13,13,8ec263f5-728b-33b0-e9ce-3687924a8aca,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 08:23:18 UTC,7ec10ca8a29860217863838ec411b41d,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,14,65e25f7c-5a1c-88ac-5334-9796a6763c77,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 08:48:25 UTC,3d74770ad310424d0698a8737cd9c6f3,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Redmi Note 13,13,8ec263f5-728b-33b0-e9ce-3687924a8aca,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 09:05:48 UTC,7158cb6c9518455109f15d05612cbcd9,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,15,bb7f26a9-5ede-5e36-ca19-bc67481fcfb2,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 09:08:59 UTC,2aaf1f8150a445468c5c9f2bdf263f17,b5e1f7a9d3c6,FATAL,ANDROID,2.4.0,Pixel 8,15,836b1dfe-1a38-2d92-8a07-9e2ea5aa6d86,IllegalStateException · OdemeAkisi.satinAlmaTamamla
+2026-09-30 09:58:45 UTC,f0eb7e3178cf36fc58e5d897b3949e7f,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-A546E,14,8302a6e2-1368-234e-6ffd-d61c94a9127c,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 10:19:21 UTC,ee52215f5dfc2c934b43460177afa8e9,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-S918B,15,58286d0e-4aca-3c02-abab-e3d64c35bdaf,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 10:36:45 UTC,1114e1f30062bd89a8470c7cff0a8d40,b5e1f7a9d3c6,FATAL,ANDROID,2.4.0,SM-A546E,15,a7b3503e-d0b1-a52d-526f-761f99244c8d,IllegalStateException · OdemeAkisi.satinAlmaTamamla
+2026-09-30 10:39:27 UTC,61767506dc73f8202fcecaf7004cfa35,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,15,6d3d57c5-a5cc-b55f-35f5-538b51f6207d,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 11:07:49 UTC,f1167adc9bb6a76ae72ba91f4388f214,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-A546E,14,8bb92c87-1d8d-e34f-0569-618d83294f4d,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 12:00:22 UTC,dd8f9886f26f8e5d93138264519fff97,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Pixel 8,15,6d3d57c5-a5cc-b55f-35f5-538b51f6207d,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 12:12:21 UTC,59e33b9041c8f7a64be5fa1312b4a458,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-A546E,14,011a9184-fe88-3282-1175-1dc50723d6e8,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 13:54:25 UTC,2655051b4d6686e1572df1a03efc6fdc,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,13,63034e6a-c26e-a15a-1edb-025373004bb1,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 14:30:30 UTC,cdbb71e48014cabbb5d474ffd7e3ca30,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,13,8302a6e2-1368-234e-6ffd-d61c94a9127c,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 14:36:48 UTC,746bf43de7347a9e27023a324b0e0947,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-S918B,13,8ec263f5-728b-33b0-e9ce-3687924a8aca,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 14:48:47 UTC,063524dfb9beeba50ee8f556eeea3960,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-A546E,13,8302a6e2-1368-234e-6ffd-d61c94a9127c,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 15:34:37 UTC,e912279efa0d99be0515e6e0116b8686,a1f3c9e2b7d4,FATAL,ANDROID,2.4.0,SM-S918B,14,1250a14f-97f3-ff22-ba18-fad8dfb648ee,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-30 15:45:26 UTC,98d613a3ecf9b9a73ac5ba168894c86a,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,SM-A546E,15,e5f3b120-19da-4e1d-a138-937f18b732db,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-30 15:52:31 UTC,caa916e6c52f5cc76a0e2a497a707076,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,13,c629629d-d1ed-509f-5fe8-e1fd3094603e,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 16:20:04 UTC,8966208af67d0f46b7a74c6e6ed3bec7,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-A546E,15,fdd1c241-9196-1dbb-d65c-8391c71059d1,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 16:59:01 UTC,db86816d3abcd7f2c25f8052719dbc43,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Redmi Note 13,13,011a9184-fe88-3282-1175-1dc50723d6e8,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 17:24:04 UTC,2aede4fac00943242bad6d04dad461a4,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Redmi Note 13,13,3b3e4de1-b1ea-f860-499e-0f19ecd46b48,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 17:36:43 UTC,a0d8b8dbfe90d2ffccc67bb63fc7f8fd,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-A546E,15,3217823d-646e-db92-95a8-996c7472f918,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 17:54:11 UTC,c2b4e115c1d2e6c1e32641bc8d950829,a1f3c9e2b7d4,FATAL,ANDROID,2.4.0,SM-A546E,15,7df6541a-d185-732e-12f4-0053c4152e6a,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-30 18:03:02 UTC,df27a8b29bc0e9ba1fbcf424f17312ad,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Redmi Note 13,13,3b3e4de1-b1ea-f860-499e-0f19ecd46b48,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 18:32:08 UTC,dc16f462af93db79fe278e48975c3963,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Pixel 8,15,8568afed-f93b-0812-2439-7bdbda06dd6b,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 18:53:35 UTC,6d6ee857f97eb1b960c9a9874406b409,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-A546E,13,c629629d-d1ed-509f-5fe8-e1fd3094603e,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 19:06:19 UTC,4c237803e3c9241f3ffc85de6a29db6c,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Pixel 8,14,7c7b4fc7-c276-707b-f888-238131c07500,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 19:11:54 UTC,58f66217d6b406780f2fecc07ad84ccf,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,15,a626a2fc-6fb3-eac0-60df-65b3a91e05f8,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 19:25:48 UTC,deaded282f0ad54f2526bc636a7c400c,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Redmi Note 13,14,7c6da424-1699-edeb-6418-fd076733f7fa,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 19:26:37 UTC,7ae3144e01b598a077a5b45eb4e6301f,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Pixel 8,13,63034e6a-c26e-a15a-1edb-025373004bb1,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 19:35:15 UTC,04c0f8675589f39dea2a2646f7f6f90d,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,SM-S918B,14,ccf2b863-b578-476a-fcc3-06899b9ad421,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 19:52:20 UTC,074c5149732d65348a122586bfe7e47e,a1f3c9e2b7d4,FATAL,ANDROID,2.4.0,SM-A546E,15,e724a367-9202-5598-617b-c44feef257db,java.lang.NullPointerException · ProfilEkrani.onResume
+2026-09-30 20:15:42 UTC,dd65e22993148a02df1bdf7ab18f75d4,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,Pixel 8,15,f6f5080f-5f41-0409-999a-ce84c963dc51,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 20:18:40 UTC,9a9bede69a13fd449d651950a9d74cb1,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.0,Redmi Note 13,13,a626a2fc-6fb3-eac0-60df-65b3a91e05f8,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 20:29:57 UTC,b72a7a6d01d104e9293f144ef561a2a3,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Pixel 8,14,63060f5c-68ee-c837-ddf1-2adfa7a34101,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 21:03:09 UTC,84a8fb1746167e82b8baa2be5f0f710e,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Redmi Note 13,14,668e9dc5-100c-9d40-5615-78f37317fd6a,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 21:16:12 UTC,e29413553ebafa5dd333e1ab09e28c16,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Pixel 8,14,8302a6e2-1368-234e-6ffd-d61c94a9127c,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 21:40:18 UTC,b3dab00360f3dcd7ca4709b5fffd6df5,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,14,3b3e4de1-b1ea-f860-499e-0f19ecd46b48,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 21:59:04 UTC,1f184420c3e7f3bd3679c56a84dd8d91,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,Redmi Note 13,15,8ca12600-e151-fc46-ff67-397745bb89ed,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 22:55:13 UTC,727bf17823c1e90a13caa0404e1ee195,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.4.0,SM-A546E,14,3b3e4de1-b1ea-f860-499e-0f19ecd46b48,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-30 23:39:22 UTC,ed3de5564bde531a14fc80c696d07f8a,e9a4b6c2d8f1,NON_FATAL,ANDROID,2.3.1,SM-S918B,15,63060f5c-68ee-c837-ddf1-2adfa7a34101,java.net.SocketTimeoutException · ApiIstemcisi.yorumIste
+2026-09-17 10:30:36 UTC,6ccc72b54501639335fbd9f643006b74,a1f3c9e2b7d4,FATAL,ANDROID,2.3.1,Pixel 8,13,8a81e4b4-5d8f-834e-67cc-0b40ba4b799b,java.lang.NullPointerException · ProfilEkrani.onResume

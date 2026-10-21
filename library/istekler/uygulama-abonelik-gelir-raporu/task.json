@@ -1,0 +1,19 @@
+{
+  "id": "uygulama-abonelik-gelir-raporu",
+  "tur": "kod",
+  "ad": "Uygulama Abonelik Gelir Raporu",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --play earnings_202609.zip --apple satis_raporu.txt --kur kur.csv --olaylar abonelik_olaylari.csv",
+  "girdiler": [
+    "Google Play kazanç raporu (earnings_YYYYMM.zip / .csv; UTF-16 dahil): Transaction Date, Transaction Type, Amount (Merchant Currency), SKU ID, Buyer Country",
+    "App Store Connect özet satış raporu (.txt / .gz / .csv): Units, Developer Proceeds, Begin Date, Currency of Proceeds, Subscription",
+    "İsteğe bağlı kur dosyası (Para Birimi; Kur) ve abonelik olayları (Tarih; Olay; Adet) — iptaller için"
+  ],
+  "ciktilar": ["Excel: Özet (net, Play brüt / komisyon / efektif komisyon oranı, iade oranı, iptal), Günlük, Aylık, Ürünler, Ülkeler, Abonelik Olayları, İşlemler, Uyarılar · yönetim özeti için .ozet.json"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "tablo.py": "_ortak/tablo.py"
+  }
+}

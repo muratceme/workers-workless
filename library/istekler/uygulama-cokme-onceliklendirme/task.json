@@ -1,0 +1,18 @@
+{
+  "id": "uygulama-cokme-onceliklendirme",
+  "tur": "kod",
+  "ad": "Uygulama Çökme Önceliklendirme",
+  "surum": "1.0.0",
+  "python": ">=3.10",
+  "ana_dosya": "main.py",
+  "calistir": "python main.py --girdi crashlytics_dokumu.csv --kullanicilar surum_kullanicilari.csv --gun 7 --esik 10",
+  "girdiler": [
+    "Firebase Crashlytics BigQuery dökümü (.csv / .xlsx; README'deki sorgu): event_timestamp, issue_id, error_type, installation_uuid, display_version; isteğe bağlı title, platform, device_model, event_id",
+    "İsteğe bağlı sürüm kullanıcıları (Sürüm; Aktif Kullanıcı) — çökmesiz kullanıcı oranı için"
+  ],
+  "ciktilar": ["Excel: Kritik (P1 / P2), Sorunlar (tür, etkilenen kurulum, ilk görülme ve sürüm, sıçrama, neden), Sürümler (çöken kurulum, çökmesiz kullanıcı), Günlük, Kurallar, Uyarılar · yapıştırmaya hazır cokme_bildirimi.txt · yönetim özeti için .ozet.json"],
+  "internet": false,
+  "ortak_dosyalar": {
+    "tablo.py": "_ortak/tablo.py"
+  }
+}

@@ -6,12 +6,14 @@
              #/<mod>/<sektör>/<departman>           roller
              #/<mod>/<sektör>/<departman>/<rol>     görevler
              #/<mod>/<sektör>/<departman>/<rol>/<görev>   görev detayı
+             #/sizden                Sizden Gelenler (gelen isteklere göre yazılan paketler; ana katalogdan ayrı)
+             #/sizden/<paket>        paket detayı
    ========================================================================= */
 (() => {
   "use strict";
   const $ = (s, el = document) => el.querySelector(s);
   const $$ = (s, el = document) => [...el.querySelectorAll(s)];
-  const { CONFIG, DEPTS, SECTORS, SOON, READY } = window.WW;
+  const { CONFIG, DEPTS, SECTORS, SOON, READY, ISTEKLER = [] } = window.WW;
 
   /* ------------------------------ yardımcılar ------------------------------ */
   const TR = { ç: "c", ğ: "g", ı: "i", İ: "i", ö: "o", ş: "s", ü: "u", Ç: "c", Ğ: "g", Ö: "o", Ş: "s", Ü: "u", â: "a", î: "i", û: "u", Â: "a", Î: "i", Û: "u" };
@@ -261,7 +263,7 @@
 
   /* ------------------------------ görev sayfası (sheet) ------------------------------ */
   const kb = (n) => (n < 1048576 ? `${Math.max(1, Math.round(n / 1024))} KB` : `${(n / 1048576).toFixed(1)} MB`);
-  const ghTree = (m, t) => `${repoUrl()}/tree/${CONFIG.branch}/library/${MODES[m].folder}/${t.id}`;
+  const ghTree = (klasor, id) => `${repoUrl()}/tree/${CONFIG.branch}/library/${klasor}/${id}`;
   const issueUrl = (m, t) => `${repoUrl()}/issues/new?labels=gorev-talebi&title=${encodeURIComponent(`Görev talebi: ${t.name} (${MODES[m].label})`)}`;
   const files = new Map();
   const loadFile = (url) => {
@@ -283,11 +285,12 @@
       <p class="note">Paketteki kurgusal örnek veriyle üretildi; kendi verinizle aynı biçimde çıkar.</p>`;
   }
   // güncellik: mevzuata / resmî parametreye dayanan paketler
-  function guncBlok(g) {
+  // platform: Sizden Gelenler paketleri mevzuata değil platformların dosya biçimlerine dayanır
+  function guncBlok(g, platform = false) {
     const liste = g.kaynaklar.slice(0, 8).map((k) => `<li>${k.url ? `<a href="${esc(k.url)}" target="_blank" rel="noopener">${esc(k.ad)} ↗</a>` : esc(k.ad)}${k.durum ? ` <span class="gunc-durum">${esc(k.durum)}</span>` : ""}</li>`).join("");
     return `<div class="gunc">
       <div class="gunc-bas"><span class="gunc-rozet">Son kontrol: ${esc(g.tarih || "belirtilmemiş")}</span>${g.parametre ? `<span class="gunc-param">${esc(g.parametre)}</span>` : ""}</div>
-      <p>Bu paket mevzuata ya da resmî oranlara dayanır. Mevzuat sık değişir; kullanmadan önce kaynakları güncel resmî metinle karşılaştırın.</p>
+      <p>${platform ? "Bu paket platformların rapor ve dışa aktarma biçimlerine dayanır. Biçimler değişebilir; kendi dosyanızın başlık satırını kaynaklarla karşılaştırın." : "Bu paket mevzuata ya da resmî oranlara dayanır. Mevzuat sık değişir; kullanmadan önce kaynakları güncel resmî metinle karşılaştırın."}</p>
       ${liste ? `<details><summary>Kaynaklar (${g.kaynaklar.length})</summary><ul>${liste}</ul></details>` : ""}
     </div>`;
   }
@@ -299,7 +302,8 @@
     kutu.querySelectorAll("[data-oniz-tablo]").forEach((x) => { x.hidden = x.dataset.onizTablo !== b.dataset.oniz; });
   });
 
-  function readyBody(m, t, pkg) {
+  // klasor: library altındaki klasör ("code-blocks", "agents" ya da Sizden Gelenler için "istekler")
+  function readyBody(m, t, pkg, klasor = MODES[m].folder) {
     const agent = m === "agents";
     const deps = pkg.deps.map((x) => x.split("==")[0]).join(" · ");
     const steps = [
@@ -312,20 +316,21 @@
     ];
     return `
       <div class="facts">
-        <div class="fact"><b>~${t.hours} sa</b><span>haftalık kazanım</span></div>
+        ${t.hours ? `<div class="fact"><b>~${t.hours} sa</b><span>haftalık kazanım</span></div>`
+          : `<div class="fact"><b>${esc(t.siklik || "Ücretsiz")}</b><span>${t.siklik ? "önerilen çalışma sıklığı" : "açık kaynak, MIT lisansı"}</span></div>`}
         <div class="fact"><b>Python ${esc(pkg.python)}</b><span>${esc(deps)}</span></div>
         <div class="fact"><b>${agent ? "Kendi API anahtarınız" : "İnternet yok"}</b><span>${agent ? "Claude · OpenAI · Ollama (yerel)" : "veri bilgisayarınızdan çıkmaz"}</span></div>
       </div>
       <div class="actions">
-        <button class="btn btn-primary" data-download="${m}">İndir · ZIP ${kb(pkg.size)}</button>
-        <a class="btn btn-ghost" href="${ghTree(m, t)}" target="_blank" rel="noopener">GitHub'da incele ↗</a>
+        <button class="btn btn-primary" data-download="${m}"${klasor === "istekler" ? ` data-istek="${esc(t.id)}"` : ""}>İndir · ZIP ${kb(pkg.size)}</button>
+        <a class="btn btn-ghost" href="${ghTree(klasor, t.id)}" target="_blank" rel="noopener">GitHub'da incele ↗</a>
       </div>
       <p class="note">Sürüm ${esc(pkg.version)} · ${pkg.files} dosya · otomatik testlerden geçti</p>
       <div class="io">
         <div><h4>Girdi</h4><ul>${pkg.inputs.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>
         <div><h4>Çıktı</h4><ul>${pkg.outputs.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>
       </div>
-      ${pkg.guncellik ? guncBlok(pkg.guncellik) : ""}
+      ${pkg.guncellik ? guncBlok(pkg.guncellik, klasor === "istekler") : ""}
       ${pkg.onizleme ? '<div id="onizKutu"><h4>Örnek çıktı</h4><p class="note">Yükleniyor…</p></div>' : ""}
       <h4>Kolay yol: terminal gerekmez</h4>
       <ol class="kolay">
@@ -387,21 +392,27 @@
         <span class="arr">→</span>
       </a>`;
 
-    if (pkg) {
-      loadFile(`files/${MODES[mode].folder}/${t.id}/${pkg.main}`).then((code) => {
-        if (!current || current.t !== t || !$("#preview")) return;
-        const lines = code.split("\n");
-        const shown = lines.slice(0, 90).join("\n") + (lines.length > 90 ? `\n\n# … ${lines.length - 90} satır daha (tamamı pakette)` : "");
-        $("#preview").innerHTML = codebox(`${pkg.main} · ${lines.length} satır`, shown, "pv");
-      }, () => { if ($("#preview")) $("#preview").innerHTML = '<p class="note">Önizleme yüklenemedi.</p>'; });
-      if (pkg.onizleme) {
-        loadFile(`files/${MODES[mode].folder}/${t.id}/onizleme.json`).then((j) => {
-          if (!current || current.t !== t || !$("#onizKutu")) return;
-          $("#onizKutu").innerHTML = onizBlok(JSON.parse(j));
-        }, () => { if ($("#onizKutu")) $("#onizKutu").innerHTML = ""; });
-      }
-    }
+    if (pkg) paketYukle(MODES[mode].folder, t, pkg);
+    sheetGoster();
+  }
 
+  // Paket panelindeki kod önizlemesi ve örnek çıktı tablosu (dist/files/<klasör>/<id>/)
+  function paketYukle(klasor, t, pkg) {
+    loadFile(`files/${klasor}/${t.id}/${pkg.main}`).then((code) => {
+      if (!current || current.t !== t || !$("#preview")) return;
+      const lines = code.split("\n");
+      const shown = lines.slice(0, 90).join("\n") + (lines.length > 90 ? `\n\n# … ${lines.length - 90} satır daha (tamamı pakette)` : "");
+      $("#preview").innerHTML = codebox(`${pkg.main} · ${lines.length} satır`, shown, "pv");
+    }, () => { if ($("#preview")) $("#preview").innerHTML = '<p class="note">Önizleme yüklenemedi.</p>'; });
+    if (pkg.onizleme) {
+      loadFile(`files/${klasor}/${t.id}/onizleme.json`).then((j) => {
+        if (!current || current.t !== t || !$("#onizKutu")) return;
+        $("#onizKutu").innerHTML = onizBlok(JSON.parse(j));
+      }, () => { if ($("#onizKutu")) $("#onizKutu").innerHTML = ""; });
+    }
+  }
+
+  function sheetGoster() {
     const wasOpen = !$("#sheet").hidden;
     $("#sheet").hidden = false;
     $("#sheetBackdrop").hidden = false;
@@ -424,9 +435,8 @@
     ],
   };
   let pending = null;
-  function openConsent(m) {
-    const t = current.t, pkg = readyOf(m, t);
-    pending = { m, t, pkg };
+  function openConsent(m, t, pkg, klasor = MODES[m].folder) {
+    pending = { m, t, pkg, klasor };
     const items = [...CONSENT.common, ...(m === "agents" ? CONSENT.agents : [])];
     $("#consentPkg").innerHTML = `<b>${esc(t.name)}</b> · ${m === "agents" ? "AI Agent" : "Kod Bloğu"} · v${esc(pkg.version)} · ${kb(pkg.size)}`;
     $("#consentList").innerHTML = items.map((x, i) =>
@@ -449,7 +459,7 @@
   $("#consent").addEventListener("click", (e) => { if (e.target.id === "consent") closeConsent(); });
   $("#consentGo").addEventListener("click", () => {
     if (!pending || $("#consentGo").disabled) return;
-    say(`indir/${pending.m}/${pending.t.id}`, `İndirme: ${pending.t.name}`);
+    say(`indir/${pending.klasor === "istekler" ? "istekler" : pending.m}/${pending.t.id}`, `İndirme: ${pending.t.name}`);
     const a = document.createElement("a");
     a.href = pending.pkg.zip;
     a.download = `${pending.t.id}-${pending.m === "code" ? "kod" : "agent"}-v${pending.pkg.version}.zip`;
@@ -469,7 +479,8 @@
   }
   function closeSheet() {
     const p = parts();
-    if (p.length === 5) location.hash = href(...p.slice(0, 4));
+    if (p[0] === "sizden" && p.length === 2) location.hash = "#/sizden";
+    else if (p.length === 5) location.hash = href(...p.slice(0, 4));
     else hideSheet();
   }
   $("#sheetClose").addEventListener("click", closeSheet);
@@ -485,8 +496,76 @@
       );
     }
     const dl = e.target.closest("[data-download]");
-    if (dl) openConsent(dl.dataset.download);
+    if (dl && dl.dataset.istek) {
+      const pkg = READY.istekler[dl.dataset.istek];
+      openConsent(dl.dataset.download, { id: dl.dataset.istek, name: pkg.ad }, pkg, "istekler");
+    } else if (dl) openConsent(dl.dataset.download, current.t, readyOf(dl.dataset.download, current.t));
   });
+
+  /* ------------------------------ Sizden Gelenler ------------------------------ */
+  // catalog/istekler.mjs → ISTEKLER; paketler READY.istekler'de. Ana katalog sayılarına ve listelerine girmez.
+  const istekMadde = (paket) => {
+    for (const ist of ISTEKLER) for (const md of ist.maddeler) if (md.paket === paket) return { ist, md };
+    return {};
+  };
+
+  function renderSizden() {
+    $("#sizdenListe").innerHTML = ISTEKLER.map((ist) => {
+      const kartlar = ist.maddeler.map((md, i) => {
+        const pkg = READY.istekler[md.paket];
+        const agent = pkg && pkg.tur === "agent";
+        const ic = `
+          <span class="task-num">${String(i + 1).padStart(2, "0")}</span>
+          <h3>${esc(md.baslik)}</h3>
+          <p>${esc(md.aciklama)}</p>
+          <div class="card-meta">
+            <span class="tag ${agent ? "tur-agent" : "tur-kod"}">${agent ? "AI Agent" : "Kod bloğu"}</span>
+            ${md.siklik ? `<span class="tag">${esc(md.siklik)}</span>` : ""}
+            ${pkg ? '<span class="tag ok">Hazır · indir</span>' : '<span class="tag">Yazılıyor</span>'}
+          </div>`;
+        return pkg
+          ? `<a class="card spot task-card" href="#/sizden/${esc(md.paket)}" style="--i:${i}">${ic}<span class="task-cta">${esc(pkg.ad)} →</span></a>`
+          : `<div class="card soon" style="--i:${i}">${ic}</div>`;
+      }).join("");
+      return `
+        <article class="istek">
+          <header class="istek-bas">
+            <div><h2>${esc(ist.baslik)}</h2><p class="istek-kim">${esc(ist.kim)} · ${esc(ist.tarih)}</p></div>
+            <span class="tag ok">${ist.maddeler.filter((m) => READY.istekler[m.paket]).length}/${ist.maddeler.length} hazır</span>
+          </header>
+          <div class="istek-uc">
+            <div><h4>İstek</h4><p>${esc(ist.istek)}</p></div>
+            <div><h4>Koşul</h4><p>${esc(ist.kosul)}</p></div>
+            <div><h4>Nasıl uyarladık</h4><p>${esc(ist.nasil)}</p></div>
+          </div>
+          <div class="grid">${kartlar}</div>
+        </article>`;
+    }).join("") || '<p class="note">Henüz yayımlanmış bir istek yok.</p>';
+  }
+
+  function openIstekSheet(id, pkg) {
+    const { ist, md } = istekMadde(id);
+    const m = pkg.tur === "agent" ? "agents" : "code";
+    const t = { id, name: pkg.ad, siklik: md && md.siklik };
+    current = { t };
+    $("#sheetBody").innerHTML = `
+      <div class="sheet-path"><span class="tag">Sizden Gelenler</span>${ist ? `<span class="tag">${esc(ist.baslik)}</span>` : ""}<span class="tag accent">${m === "agents" ? "AI Agent" : "Kod Bloğu"}</span><span class="tag ok">Hazır</span></div>
+      <h2 id="sheetTitle">${esc(pkg.ad)}</h2>
+      <p class="sheet-desc">${esc(md ? md.aciklama : "")}</p>
+      ${readyBody(m, t, pkg, "istekler")}
+      <div class="fit">
+        <div><b>Canlı bağlantı ve zamanlama mı lazım?</b>
+        <span>Paket dosyadan çalışır. Verinin her gün otomatik çekilmesi (mağaza, Firebase, Crashlytics, e-posta), sabah raporunun e-posta / Slack ile gelmesi ve kendi sütunlarınıza uyarlama kurulum hizmetidir.</span></div>
+        ${helpLink(`Gerisi Bende: ${pkg.ad} kurulum`, "Yardım al")}
+      </div>
+      <a class="crosslink" href="#/sizden">
+        <span class="x-ic">${icon("spark", 18)}</span>
+        <span><b>Bu isteğin diğer paketleri</b><span>${ist ? `${ist.maddeler.length} maddenin hepsi Sizden Gelenler sayfasında.` : "Sizden Gelenler sayfasına dönün."}</span></span>
+        <span class="arr">→</span>
+      </a>`;
+    paketYukle("istekler", t, pkg);
+    sheetGoster();
+  }
 
   /* ------------------------------ yönlendirme ------------------------------ */
   const parts = () => location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
@@ -495,6 +574,20 @@
     const p = parts();
     const navKey = p[0] || "";
     $$("[data-nav]").forEach((a) => a.classList.toggle("active", a.dataset.nav === navKey));
+
+    if (p[0] === "sizden") {
+      const ilk = $("#sizden").hidden;
+      $("#home").hidden = true;
+      $("#explorer").hidden = true;
+      $("#sizden").hidden = false;
+      if (!route.sizdenHazir) { renderSizden(); route.sizdenHazir = true; }
+      if (ilk) window.scrollTo({ top: 0 });
+      const pkg = p[1] && READY.istekler[p[1]];
+      if (pkg) openIstekSheet(p[1], pkg);
+      else hideSheet();
+      return;
+    }
+    $("#sizden").hidden = true;
 
     if (!MODES[p[0]]) {
       hideSheet();

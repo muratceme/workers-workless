@@ -36,7 +36,8 @@ PIN = re.compile(r"^[A-Za-z0-9_.\-\[\]]+==[\w.\-+]+$")
 
 
 def gorevler():
-    for tur in ("code-blocks", "agents"):
+    # "istekler": Sizden Gelenler paketleri; kod / agent kuralları task.json'daki 'tur' alanına göre uygulanır
+    for tur in ("code-blocks", "agents", "istekler"):
         d = LIB / tur
         if d.is_dir():
             for k in sorted(d.iterdir()):
@@ -89,8 +90,10 @@ def kontrol_et(tur: str, klasor: Path, senkronla: bool) -> list[str]:
 
     if m.get("id") != klasor.name:
         h.append(f"{ad}: task.json id '{m.get('id')}' klasör adıyla aynı değil")
-    if m.get("tur") != ("kod" if tur == "code-blocks" else "agent"):
+    beklenen = {"code-blocks": {"kod"}, "agents": {"agent"}, "istekler": {"kod", "agent"}}[tur]
+    if m.get("tur") not in beklenen:
         h.append(f"{ad}: task.json 'tur' alanı hatalı")
+    kod = m.get("tur") == "kod"
     for alan in ("ad", "surum", "python", "ana_dosya", "calistir", "girdiler", "ciktilar"):
         if alan not in m:
             h.append(f"{ad}: task.json '{alan}' alanı eksik")
@@ -105,7 +108,7 @@ def kontrol_et(tur: str, klasor: Path, senkronla: bool) -> list[str]:
             h.append(f"{ad}: '{hedef_rel}' kaynağıyla (library/{kaynak_rel}) aynı değil -> python scripts/kontrol.py --senkronla")
 
     gerekli = ["README.md", "requirements.txt", m.get("ana_dosya", "?"), "ornek_veri"]
-    if tur == "agents":
+    if not kod:
         gerekli += ["prompt.md", ".env.example"]
     for f in gerekli:
         if not (klasor / f).exists():
@@ -122,7 +125,7 @@ def kontrol_et(tur: str, klasor: Path, senkronla: bool) -> list[str]:
             if s and not PIN.match(s):
                 h.append(f"{ad}: bağımlılık sabitlenmemiş: '{s}' (paket==sürüm olmalı)")
 
-    if tur == "code-blocks":
+    if kod:
         if m.get("internet") is not False:
             h.append(f"{ad}: kod blokları için task.json 'internet': false olmalı")
         for py in klasor.rglob("*.py"):
@@ -173,20 +176,19 @@ def baslatici_kontrol() -> list[str]:
 def onizleme_kontrol() -> list[str]:
     """Sitedeki örnek çıktı önizlemeleri (data/onizlemeler.json) paket içeriğiyle güncel mi?"""
     sys.path.insert(0, str(KOK / "scripts"))
-    from onizleme import imza  # noqa: E402
+    from onizleme import anahtarlar, imza  # noqa: E402
     yol = KOK / "data" / "onizlemeler.json"
     if not yol.exists():
         return ["önizleme yok: data/onizlemeler.json -> scripts/onizleme.py çalıştırın"]
     d = json.loads(yol.read_text(encoding="utf-8"))
     h = []
-    for tur, k in gorevler():
-        if tur != "code-blocks":
-            continue
-        v = d.get(k.name)
+    for anahtar in anahtarlar():
+        v = d.get(anahtar)
+        ad = anahtar if "/" in anahtar else f"code-blocks/{anahtar}"
         if not v or "hata" in v:
-            h.append(f"code-blocks/{k.name}: önizleme yok -> scripts/onizleme.py {k.name}")
-        elif v.get("imza") != imza(k.name):
-            h.append(f"code-blocks/{k.name}: önizleme eski (kod / örnek veri değişmiş) -> scripts/onizleme.py {k.name}")
+            h.append(f"{ad}: önizleme yok -> scripts/onizleme.py {anahtar}")
+        elif v.get("imza") != imza(anahtar):
+            h.append(f"{ad}: önizleme eski (kod / örnek veri değişmiş) -> scripts/onizleme.py {anahtar}")
     return h
 
 
