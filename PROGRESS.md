@@ -889,3 +889,8 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
   muratceme.github.io/workers-workless adresi GitHub tarafından yeni adrese yönlenir. DNS kayıtları (A ×4, AAAA ×4, www CNAME →
   muratceme.github.io) Cloudflare'de "DNS only" olarak eklenir; HTTPS zorlaması DNS yayılınca açılır (en geç 24 saat).
 - site/index.html canonical / og:url / og:image / twitter:image ve scripts/build-seo.mjs SITE sabiti yeni adrese alındı.
+
+## 2026-11-01 · Sizden Gelenler sekmesi siteden kaldırıldı
+- Kullanıcı kararı: sekme canlıya çıkmayacak. 21.10 commit'inin site tarafı (index.html, app.js, styles.css, build.mjs) geri alındı,
+  catalog/istekler.mjs ve README bölümü silindi. Sekme hiç yayımlanmamıştı (CI o günden beri kırmızıydı; yayına giden 2671e3c koşusu
+  iptal edildi). library/istekler/ paketleri depoda duruyor, siteye girmiyor; kontrol.py / onizleme.py istekler desteği kaldı.
