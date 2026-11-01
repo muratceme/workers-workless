@@ -894,3 +894,7 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - Kullanıcı kararı: sekme canlıya çıkmayacak. 21.10 commit'inin site tarafı (index.html, app.js, styles.css, build.mjs) geri alındı,
   catalog/istekler.mjs ve README bölümü silindi. Sekme hiç yayımlanmamıştı (CI o günden beri kırmızıydı; yayına giden 2671e3c koşusu
   iptal edildi). library/istekler/ paketleri depoda duruyor, siteye girmiyor; kontrol.py / onizleme.py istekler desteği kaldı.
+
+## 2026-11-01 · İletişim bilgileri girildi
+- E-posta merhaba@gerisibende.com (Zoho Mail Lite, AB veri merkezi; MX/SPF/DKIM Cloudflare'de) ve LinkedIn profili CONFIG.contact'a
+  girildi. "Yardım al" düğmeleri ve paket panellerindeki yardım bağlantıları artık görünür.

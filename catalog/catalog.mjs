@@ -28,8 +28,8 @@ export const CONFIG = {
   branch: "main",
   // Sitedeki iletişim bölümü. İkisi de boşsa bölüm ve bağlantılar gizli kalır.
   contact: {
-    email: "",      // ör. "ad@alanadi.com"
-    linkedin: "",   // ör. "https://www.linkedin.com/in/kullanici-adi/"
+    email: "merhaba@gerisibende.com",
+    linkedin: "https://www.linkedin.com/in/murat-cem-erenoglu/",
   },
   // Görev talep formu. Bir form servisinin adresi girilirse talepler doğrudan oraya gönderilir
   // (ör. Formspree: "https://formspree.io/f/xxxxxxx"). Boşsa ziyaretçiye e-posta / GitHub / kopyala seçenekleri sunulur.
