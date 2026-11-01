@@ -3,7 +3,7 @@
   "tur": "agent",
   "ad": "Planogram Uyum Kontrolü",
   "surum": "1.0.0",
-  "python": ">=3.10",
+  "python": ">=3.11",
   "ana_dosya": "agent.py",
   "calistir": "python agent.py --planogram planogram.csv --foto raf_foto.jpg",
   "girdiler": [

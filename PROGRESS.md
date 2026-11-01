@@ -876,3 +876,10 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
   klasörden bağımsız hâle getirildi; Sizden Gelenler görünümü ve paket paneli eklendi.
 - kontrol.py --test: 473/473 klasör, 0 sorun, tüm testler geçti. Tarayıcıda doğrulandı: liste, kod ve agent paneli, önizleme,
   "Son kontrol" kutusu, indirme onayı (agent: 6 madde), ZIP, ana katalog indirme akışı, mobil genişlikte yatay kaydırma yok.
+
+## 2026-11-01 · CI düzeltmesi (yayın 21.10'dan beri duruyordu)
+- 21.10 ve 23.10 push'larında CI iki yerden düştü, site yayımlanmadı; Sizden Gelenler sekmesi bu yüzden canlıya çıkmamıştı.
+  1) pip-audit: pypdf 6.19.0'da 8 CVE → 79 pakette pypdf==6.21.4. 2) pillow 13.0.0 (önceki CVE düzeltmesi) Python ≥3.11 istiyor,
+  CI matrisi 3.10'da da kuruyordu. Python 3.10'un desteği 01.10.2026'da bitti (devguide.python.org/versions); CI matrisi 3.11 + 3.13
+  yapıldı, pillow kullanan iki agent'ın task.json'ı ">=3.11". Diğer paketlerin ">=3.10" beyanı değişmedi.
+- cv-on-eleme ve cv-raporlama önizlemeleri yenilendi (imza requirements.txt'i kapsıyor). kontrol.py --test: 473/473, 0 sorun.

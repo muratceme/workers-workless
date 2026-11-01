@@ -41,7 +41,7 @@ Mevzuata dayanan paketlerin README'lerinde **"Kaynaklar ve dayanaklar"** bölüm
 burada yazar. Teyit edilemeyen noktalar açıkça "Teyit edilemedi" olarak işaretlenmiştir.
 
 `main` dalına her push'ta GitHub Actions çalışır: standart kontrolü ve testler (Windows ve Linux,
-Python 3.10 ve 3.13) ile `pip-audit` güvenlik taraması geçerse site GitHub Pages'e yayınlanır.
+Python 3.11 ve 3.13) ile `pip-audit` güvenlik taraması geçerse site GitHub Pages'e yayınlanır.
 
 ## Geliştirme
 
