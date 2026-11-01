@@ -898,3 +898,8 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 ## 2026-11-01 · İletişim bilgileri girildi
 - E-posta merhaba@gerisibende.com (Zoho Mail Lite, AB veri merkezi; MX/SPF/DKIM Cloudflare'de) ve LinkedIn profili CONFIG.contact'a
   girildi. "Yardım al" düğmeleri ve paket panellerindeki yardım bağlantıları artık görünür.
+
+## 2026-11-02 · Ziyaretçi ölçümü açıldı
+- GoatCounter kodu "gerisibende" CONFIG.goatcounter'a girildi (gerisibende.goatcounter.com). Çerezsiz; gizlilik sayfasındaki
+  ölçüm metni otomatik güncellenir. Sayılanlar: #/ yolları (sektör/meslek/görev), indir/<mod>/<görev> olayları, talep/gonderildi.
+  localhost'ta count.js sayım yapmaz; doğrulama canlıda.

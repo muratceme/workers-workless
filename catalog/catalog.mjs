@@ -35,7 +35,7 @@ export const CONFIG = {
   // (ör. Formspree: "https://formspree.io/f/xxxxxxx"). Boşsa ziyaretçiye e-posta / GitHub / kopyala seçenekleri sunulur.
   talepFormu: "",
   // Çerezsiz ziyaretçi ölçümü (GoatCounter). Kod girilirse etkinleşir: "gerisibende" → https://gerisibende.goatcounter.com
-  goatcounter: "",
+  goatcounter: "gerisibende",
 };
 
 const PARCALAR = { ORTAK, BANKA, SIGORTA, ACENTE, URETIM, TEKSTIL, PERAKENDE, ETICARET, SAGLIK, LOJISTIK, INSAAT, GIDA, OTEL, SMMM, HUKUK_BUROSU, OTOMOTIV, EGITIM };
