@@ -903,3 +903,7 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 - GoatCounter kodu "gerisibende" CONFIG.goatcounter'a girildi (gerisibende.goatcounter.com). Çerezsiz; gizlilik sayfasındaki
   ölçüm metni otomatik güncellenir. Sayılanlar: #/ yolları (sektör/meslek/görev), indir/<mod>/<görev> olayları, talep/gonderildi.
   localhost'ta count.js sayım yapmaz; doğrulama canlıda.
+
+## 2026-11-02 · Düz yollar için yönlendirme (site/404.html)
+- GoatCounter'da /gizlilik ziyareti göründü; site hash yönlendirmeli olduğu için GitHub'ın boş 404 sayfası açılıyordu.
+  site/404.html eklendi: /yol → /#/yol (sorgu korunur). Bilinmeyen yol ana sayfaya düşer (route() zaten öyle davranıyor).

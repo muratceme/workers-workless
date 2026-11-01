@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Yönlendiriliyor · Gerisi Bende</title>
+  <!-- Site tek sayfadır; bölümler #/yol ile açılır. /gizlilik gibi düz bir yol yazılırsa GitHub Pages bu dosyayı
+       verir; biz de aynı yolu #/ biçimine çevirip ana sayfaya yönlendiririz. -->
+  <script>
+    (function () {
+      var yol = location.pathname.replace(/^\/+|\/+$/g, "");
+      location.replace("/" + location.search + (yol ? "#/" + yol : ""));
+    })();
+  </script>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #050505; color: #eef7f2; font-family: system-ui, sans-serif; }
+    a { color: #3DDC97; }
+  </style>
+</head>
+<body>
+  <p>Sayfa taşındı. Açılmazsa <a href="/">ana sayfaya gidin</a>.</p>
+</body>
+</html>
