@@ -14,7 +14,7 @@ import { build, slug } from "./build.mjs";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(ROOT, "dist");
 const OUT = path.join(ROOT, "dist-seo");
-const SITE = "https://muratceme.github.io/workers-workless/";  // alan adı alınınca değiştirin
+const SITE = "https://gerisibende.com/";  // 01.11.2026: alan adı bağlandı
 
 await build({ quiet: true });
 fs.rmSync(OUT, { recursive: true, force: true });

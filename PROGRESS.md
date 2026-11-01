@@ -26,7 +26,7 @@
 
 ### 2026-10-07 — Oturum 2 (devam ediyor)
 - GitHub: ilk denemelerde depo oluşturma HTTP 500 verdi, sonra başarılı oldu.
-  **Depo:** https://github.com/muratceme/workers-workless (public) · **Site:** https://muratceme.github.io/workers-workless/
+  **Depo:** https://github.com/muratceme/workers-workless (public) · **Site:** https://gerisibende.com/ (eski adres muratceme.github.io/workers-workless buraya yönlenir)
   Pages "GitHub Actions" kaynağıyla açık; `gorev-talebi` etiketi oluşturuldu. CI yeşil (Windows+Linux, Py 3.10/3.13).
 - Araştırma: İş Bankası/Ziraat organizasyon şemaları, Anadolu/Ana Sigorta, gerçek ilan başlıkları
   (kariyer.net indeksi, eleman.net, kampusum, secretcv, yenibiris). kariyer.net doğrudan erişimi bot korumasıyla
@@ -883,3 +883,9 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
   CI matrisi 3.10'da da kuruyordu. Python 3.10'un desteği 01.10.2026'da bitti (devguide.python.org/versions); CI matrisi 3.11 + 3.13
   yapıldı, pillow kullanan iki agent'ın task.json'ı ">=3.11". Diğer paketlerin ">=3.10" beyanı değişmedi.
 - cv-on-eleme ve cv-raporlama önizlemeleri yenilendi (imza requirements.txt'i kapsıyor). kontrol.py --test: 473/473, 0 sorun.
+
+## 2026-11-01 · Alan adı: gerisibende.com
+- Alan adı Cloudflare Registrar'dan alındı. GitHub Pages ayarına özel alan adı girildi (API: cname=gerisibende.com); eski
+  muratceme.github.io/workers-workless adresi GitHub tarafından yeni adrese yönlenir. DNS kayıtları (A ×4, AAAA ×4, www CNAME →
+  muratceme.github.io) Cloudflare'de "DNS only" olarak eklenir; HTTPS zorlaması DNS yayılınca açılır (en geç 24 saat).
+- site/index.html canonical / og:url / og:image / twitter:image ve scripts/build-seo.mjs SITE sabiti yeni adrese alındı.
