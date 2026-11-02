@@ -907,3 +907,9 @@ Komutlar: `kontrol.py --senkronla` → `--test` → `node scripts/build.mjs` →
 ## 2026-11-02 · Düz yollar için yönlendirme (site/404.html)
 - GoatCounter'da /gizlilik ziyareti göründü; site hash yönlendirmeli olduğu için GitHub'ın boş 404 sayfası açılıyordu.
   site/404.html eklendi: /yol → /#/yol (sorgu korunur). Bilinmeyen yol ana sayfaya düşer (route() zaten öyle davranıyor).
+
+## 2026-11-02 · Mobil iyileştirmeler (yalnız ≤760 px)
+- Üst çubuğa telefonda görünen "Yardım al" düğmesi (.nav-help; masaüstünde display:none). Keşif başlığı sıkılaştırıldı: anahtar ve
+  4 adımlı gösterge tek satır (yana kayar), explorer-title 30px. Örnek çıktı tablosuna "yana kaydırın →" rozeti ve sağ kenar solması.
+- Yerelde 375 px ve 1280 px doğrulandı: yatay taşma yok, masaüstü kuralları değişmedi. Not: emüle edilmiş dar görünümde açık panel
+  ekran görüntüsünde yarı saydam çıkıyor; canlı eski CSS'te de aynı, ekran görüntüsü aracının artefaktı, site sorunu değil.
